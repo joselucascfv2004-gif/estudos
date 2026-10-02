@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**2890 questões** em **51 tópicos**.
+**3040 questões** em **54 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -73,7 +73,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Seres vivos: classificação, botânica e zoologia](biologia/06-seres-vivos.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Saúde, doenças e parasitoses](biologia/07-saude-e-doencas.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🏛️ História — 250 questões
+## 🏛️ História — 400 questões
 
 *Ciências Humanas*
 
@@ -84,6 +84,9 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Revoluções e século XIX](historia/03-revolucoes-e-seculo-xix.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Século XX e mundo contemporâneo](historia/04-seculo-xx.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Brasil Colônia](historia/05-brasil-colonia.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Brasil Império](historia/06-brasil-imperio.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Brasil República (1889–1964)](historia/07-brasil-republica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Ditadura militar e Nova República](historia/08-ditadura-e-redemocratizacao.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## 🌎 Geografia — 60 questões
 
