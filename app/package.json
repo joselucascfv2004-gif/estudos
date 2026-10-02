@@ -27,7 +27,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "conteudo": "node ../scripts/gerar-questoes.mjs && node ../scripts/compilar-conteudos.mjs",
+    "conteudo": "node ../scripts/gerar-questoes.mjs && node ../scripts/balancear-gabaritos.mjs && node ../scripts/compilar-conteudos.mjs",
     "typecheck": "tsc --noEmit",
     "export:web": "expo export --platform web"
   },
