@@ -36,6 +36,13 @@
     "scheme": "estudos",
     "experiments": {
       "typedRoutes": false
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "77e52b06-c154-48a5-af64-1c7aebe68203"
+      }
+    },
+    "owner": "jos_lucs"
   }
 }
