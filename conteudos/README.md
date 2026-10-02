@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**3040 questões** em **54 tópicos**.
+**3290 questões** em **59 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -88,13 +88,18 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Brasil República (1889–1964)](historia/07-brasil-republica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Ditadura militar e Nova República](historia/08-ditadura-e-redemocratizacao.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🌎 Geografia — 60 questões
+## 🌎 Geografia — 310 questões
 
 *Ciências Humanas*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
 | [Cartografia](geografia/01-cartografia.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
+| [Geografia física](geografia/02-geografia-fisica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Biomas e questões ambientais](geografia/03-biomas-e-questoes-ambientais.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [População e urbanização](geografia/04-populacao-e-urbanizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Agropecuária, indústria, energia e transportes](geografia/05-economia-agropecuaria-industria-energia.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Geopolítica e globalização](geografia/06-geopolitica-e-globalizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
