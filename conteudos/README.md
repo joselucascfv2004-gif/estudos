@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**3690 questões** em **67 tópicos**.
+**3790 questões** em **69 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -119,7 +119,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Sociologia clássica e conceitos fundamentais](sociologia/01-sociologia-classica.md) | ENEM | 17 | 17 | 16 |
 | [Temas contemporâneos da Sociologia](sociologia/02-temas-contemporaneos.md) | ENEM, Concursos | 17 | 17 | 16 |
 
-## 📖 Língua Portuguesa — 200 questões
+## 📖 Língua Portuguesa — 300 questões
 
 *Linguagens e Códigos*
 
@@ -129,6 +129,8 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Morfologia e sintaxe](portugues/02-morfologia-e-sintaxe.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Concordância, regência, crase e colocação pronominal](portugues/03-concordancia-regencia-crase.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Pontuação, ortografia e acentuação](portugues/04-pontuacao-ortografia-acentuacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Semântica e figuras de linguagem](portugues/05-semantica-e-figuras-de-linguagem.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Funções da linguagem, gêneros textuais e variação linguística](portugues/06-funcoes-generos-e-variacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
