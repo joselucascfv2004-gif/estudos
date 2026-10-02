@@ -58,7 +58,7 @@ function lerTopico(arquivo) {
     if (q.correta == null) erro(arquivo, q.linha, 'questão sem **Resposta:**');
     else if (q.correta >= q.alternativas.length) erro(arquivo, q.linha, 'resposta fora das alternativas');
     if (!q.explicacao) erro(arquivo, q.linha, 'questão sem **Explicação:**');
-    const repetidas = new Set(q.alternativas.map((a) => a.toLowerCase()));
+    const repetidas = new Set(q.alternativas.map((a) => a.trim()));
     if (repetidas.size !== q.alternativas.length) erro(arquivo, q.linha, 'alternativas repetidas');
     questoes.push(q);
     atual = null;

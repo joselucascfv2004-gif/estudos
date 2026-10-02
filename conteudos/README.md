@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**2040 questões** em **34 tópicos**.
+**2390 questões** em **41 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -53,6 +53,20 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 20 | 20 | 20 |
+
+## 🧬 Biologia — 350 questões
+
+*Ciências da Natureza*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Citologia](biologia/01-citologia.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Genética e biotecnologia](biologia/02-genetica-e-biotecnologia.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Ecologia](biologia/03-ecologia.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Evolução e origem da vida](biologia/04-evolucao.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Fisiologia humana](biologia/05-fisiologia-humana.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Seres vivos: classificação, botânica e zoologia](biologia/06-seres-vivos.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Saúde, doenças e parasitoses](biologia/07-saude-e-doencas.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## 🌎 Geografia — 60 questões
 
