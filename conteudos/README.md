@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4190 questões** em **77 tópicos**.
+**4440 questões** em **82 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -175,7 +175,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Competências do ENEM e estrutura do texto](redacao/01-competencias-e-estrutura.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Coesão, argumentação e repertório](redacao/02-coesao-argumentacao-e-repertorio.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
-## 🧩 Raciocínio Lógico — 240 questões
+## 🧩 Raciocínio Lógico — 290 questões
 
 *Concursos Públicos*
 
@@ -185,6 +185,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Equivalências lógicas e negações](raciocinio-logico/02-equivalencias-e-negacoes.md) | Concursos, Militares | 20 | 20 | 20 |
 | [Sequências e problemas de lógica](raciocinio-logico/03-sequencias-e-problemas-de-logica.md) | Concursos, Militares | 20 | 20 | 20 |
 | [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 20 | 20 | 20 |
+| [Argumentação lógica e quantificadores](raciocinio-logico/05-argumentacao-e-quantificadores.md) | Concursos, Militares | 17 | 17 | 16 |
 
 ## 💰 Matemática Financeira — 120 questões
 
@@ -194,3 +195,14 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Juros simples e compostos](matematica-financeira/01-juros-simples-e-compostos.md) | Concursos, ENEM | 20 | 20 | 20 |
 | [Descontos e sistemas de amortização](matematica-financeira/02-descontos-e-amortizacao.md) | Concursos | 20 | 20 | 20 |
+
+## 🏦 Conhecimentos Bancários — 200 questões
+
+*Concursos Públicos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Sistema Financeiro Nacional](conhecimentos-bancarios/01-sistema-financeiro-nacional.md) | Concursos | 17 | 17 | 16 |
+| [Produtos bancários e mercado financeiro](conhecimentos-bancarios/02-produtos-e-mercado-financeiro.md) | Concursos | 17 | 17 | 16 |
+| [Lavagem de dinheiro, compliance e proteção de dados](conhecimentos-bancarios/03-pld-compliance-e-etica.md) | Concursos | 17 | 17 | 16 |
+| [Vendas, negociação e atendimento](conhecimentos-bancarios/04-vendas-negociacao-e-atendimento.md) | Concursos | 17 | 17 | 16 |
