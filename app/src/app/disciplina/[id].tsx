@@ -5,7 +5,15 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { NOMES_NIVEL, Nivel, Topico, disciplinasDaTrilha, getDisciplina, questoesDoTopico } from '../../data/banco';
 import { useProgresso } from '../../estado/ProgressoContext';
-import { ACERTO_PARA_DESBLOQUEAR, dominioNivel, dominioTopico, nivelDesbloqueado } from '../../estado/progresso';
+import {
+  ACERTO_PARA_DESBLOQUEAR,
+  LIMITE_PONTO_FRACO,
+  MIN_RESPOSTAS_AVALIAR,
+  desempenhoTopico,
+  dominioNivel,
+  dominioTopico,
+  nivelDesbloqueado,
+} from '../../estado/progresso';
 import { Barra, Botao } from '../../ui/componentes';
 import { clarear, cores, coresNivel, escurecer } from '../../ui/tema';
 
@@ -56,6 +64,8 @@ export default function TelaDisciplina() {
           const dom = dominioTopico(p, t.id);
           const coroas = ([0, 1, 2] as Nivel[]).filter((n) => (p.topicos[t.id]?.melhor[n] ?? 0) >= ACERTO_PARA_DESBLOQUEAR).length;
           const iniciado = !!p.topicos[t.id];
+          const des = desempenhoTopico(p, t.id);
+          const fraco = des.respostas >= MIN_RESPOSTAS_AVALIAR && des.acerto < LIMITE_PONTO_FRACO;
           return (
             <View key={t.id} style={[s.noWrap, { transform: [{ translateX: desloc }] }]}>
               <Pressable
@@ -84,6 +94,7 @@ export default function TelaDisciplina() {
                   />
                 ))}
                 <Text style={s.noPct}>{Math.round(dom * 100)}%</Text>
+                {fraco && <Text style={s.alerta}>🎯 ponto fraco</Text>}
               </View>
             </View>
           );
@@ -103,6 +114,27 @@ export default function TelaDisciplina() {
             <Text style={s.folhaTitulo}>{aberto.titulo}</Text>
             {!!aberto.descricao && <Text style={s.folhaDesc}>{aberto.descricao}</Text>}
             <Text style={s.provas}>Cai em: {aberto.provas.join(' · ')}</Text>
+            {(() => {
+              const des = desempenhoTopico(p, aberto.id);
+              if (des.respostas < MIN_RESPOSTAS_AVALIAR) return null;
+              const fraco = des.acerto < LIMITE_PONTO_FRACO;
+              return (
+                <Pressable
+                  testID="treinar-fraco"
+                  disabled={!fraco}
+                  onPress={() => {
+                    setAberto(null);
+                    router.push({ pathname: '/licao', params: { modo: 'fracos', topico: aberto.id } });
+                  }}
+                >
+                  <Text style={[s.provas, { color: fraco ? cores.vermelhoEscuro : cores.verdeEscuro }]}>
+                    {fraco
+                      ? `🎯 Ponto fraco: ${des.acerto}% de acerto nas últimas ${des.respostas} questões. Toque para treinar seus erros.`
+                      : `✅ ${des.acerto}% de acerto nas últimas ${des.respostas} questões.`}
+                  </Text>
+                </Pressable>
+              );
+            })()}
             {([0, 1, 2] as Nivel[]).map((n) => {
               const livre = nivelDesbloqueado(p, aberto.id, n);
               const total = questoesDoTopico(aberto.id, n).length;
@@ -153,6 +185,7 @@ export default function TelaDisciplina() {
 }
 
 const s = StyleSheet.create({
+  alerta: { fontSize: 11, fontWeight: '800', color: cores.vermelhoEscuro, marginLeft: 4 },
   topo: { flexDirection: 'row', alignItems: 'center', padding: 16, gap: 12, borderBottomWidth: 4 },
   voltar: { fontSize: 28, color: '#FFF', fontWeight: '800' },
   topoTitulo: { fontSize: 20, fontWeight: '800', color: '#FFF' },

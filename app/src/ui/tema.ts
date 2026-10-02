@@ -16,6 +16,7 @@ export const cores = {
   laranja: '#FF9600',
   amarelo: '#FFC800',
   roxo: '#CE82FF',
+  roxoClaro: '#F4E6FF',
   cinza: '#AFAFAF',
   cinzaClaro: '#E5E5E5',
 };

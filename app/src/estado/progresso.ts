@@ -20,11 +20,16 @@ export const BONUS_DESAFIO = 50;
 export const ACERTO_PARA_DESBLOQUEAR = 70;
 export const BONUS_PERFEITA = 20;
 
-export type EstatQuestao = { acertos: number; erros: number; ultima: string };
+/**
+ * Estatística de cada questão. `caixa` e `proxima` controlam a revisão espaçada:
+ * cada acerto passa a questão para a próxima caixa (revisão mais espaçada) e cada erro
+ * a devolve para a caixa 0 (revisar hoje).
+ */
+export type EstatQuestao = { acertos: number; erros: number; ultima: string; caixa?: number; proxima?: string };
 export type EstatTopico = { licoes: [number, number, number]; melhor: [number, number, number] };
 
 export type Progresso = {
-  versao: 1;
+  versao: number;
   onboarding: boolean;
   nome: string;
   trilha: Trilha;
@@ -36,7 +41,10 @@ export type Progresso = {
   xpPorDia: Record<string, number>;
   questoes: Record<string, EstatQuestao>;
   topicos: Record<string, EstatTopico>;
-  revisao: string[];
+  /** Últimas respostas por tópico ('1' acerto, '0' erro), para medir o desempenho recente. */
+  recentes: Record<string, string>;
+  /** Fila antiga de erros (versão 1); migrada para a revisão espaçada. */
+  revisao?: string[];
   conquistas: Record<string, string>;
   lembrete: { ativo: boolean; hora: number; minuto: number };
   desbloquearTudo: boolean;
@@ -51,7 +59,7 @@ export type Progresso = {
 
 export function estadoInicial(): Progresso {
   return {
-    versao: 1,
+    versao: 2,
     onboarding: false,
     nome: '',
     trilha: 'ENEM',
@@ -63,7 +71,7 @@ export function estadoInicial(): Progresso {
     xpPorDia: {},
     questoes: {},
     topicos: {},
-    revisao: [],
+    recentes: {},
     conquistas: {},
     lembrete: { ativo: false, hora: 19, minuto: 0 },
     desbloquearTudo: false,
@@ -81,12 +89,26 @@ export function estadoInicial(): Progresso {
 export function normalizar(salvo: Partial<Progresso> | null): Progresso {
   const base = estadoInicial();
   if (!salvo) return base;
-  return {
+  const p = {
     ...base,
     ...salvo,
     ofensiva: { ...base.ofensiva, ...salvo.ofensiva },
     lembrete: { ...base.lembrete, ...salvo.lembrete },
   } as Progresso;
+  return (salvo.versao ?? 1) < 2 ? migrarParaV2(p) : p;
+}
+
+/** Versão 1 tinha só uma fila de erros; agora toda questão respondida entra na revisão espaçada. */
+function migrarParaV2(p: Progresso, dia = hoje()): Progresso {
+  const erradas = new Set(p.revisao ?? []);
+  const questoes: Record<string, EstatQuestao> = {};
+  for (const [id, e] of Object.entries(p.questoes)) {
+    if (e.proxima) questoes[id] = e;
+    else if (erradas.has(id) || e.acertos === 0) questoes[id] = { ...e, caixa: 0, proxima: dia };
+    else questoes[id] = { ...e, caixa: 1, proxima: somarDias(e.ultima, INTERVALOS[1]) };
+  }
+  const { revisao: _antiga, ...resto } = p;
+  return { ...resto, versao: 2, questoes };
 }
 
 // ---------- Níveis do usuário ----------
@@ -149,9 +171,83 @@ export function nivelDesbloqueado(p: Progresso, topicoId: string, nivel: Nivel) 
   return (est?.melhor[nivel - 1] ?? 0) >= ACERTO_PARA_DESBLOQUEAR;
 }
 
+// ---------- Revisão espaçada ----------
+
+/** Dias até a próxima revisão para cada caixa (0 = revisar hoje). */
+export const INTERVALOS = [0, 1, 3, 7, 15, 30, 60];
+const MAX_CAIXA = INTERVALOS.length - 1;
+
+/** Agenda a próxima revisão de uma questão depois de respondida. */
+export function agendar(anterior: EstatQuestao | undefined, acertou: boolean, dia: string): Pick<EstatQuestao, 'caixa' | 'proxima'> {
+  if (!acertou) return { caixa: 0, proxima: dia };
+  // acertar de primeira, sem nunca ter errado, já pula a revisão do dia seguinte
+  const salto = anterior ? 1 : 2;
+  const caixa = Math.min(MAX_CAIXA, (anterior?.caixa ?? 0) + salto);
+  return { caixa, proxima: somarDias(dia, INTERVALOS[caixa]) };
+}
+
+/** Questões cuja revisão venceu, das mais atrasadas (e menos dominadas) para as mais recentes. */
+export function revisoesPendentes(p: Progresso, dia = hoje()): string[] {
+  return Object.entries(p.questoes)
+    .filter(([id, e]) => e.proxima != null && e.proxima <= dia && getQuestao(id))
+    .sort(([, a], [, b]) => (a.proxima! < b.proxima! ? -1 : a.proxima! > b.proxima! ? 1 : (a.caixa ?? 0) - (b.caixa ?? 0)))
+    .map(([id]) => id);
+}
+
+/** Próximo dia com revisões agendadas (depois de hoje) e quantas questões vencem nele. */
+export function proximaRevisao(p: Progresso, dia = hoje()): { dia: string; quantidade: number } | null {
+  let menor: string | null = null;
+  let quantidade = 0;
+  for (const e of Object.values(p.questoes)) {
+    if (!e.proxima || e.proxima <= dia) continue;
+    if (menor == null || e.proxima < menor) {
+      menor = e.proxima;
+      quantidade = 1;
+    } else if (e.proxima === menor) quantidade++;
+  }
+  return menor ? { dia: menor, quantidade } : null;
+}
+
+// ---------- Desempenho e pontos fracos ----------
+
+/** Quantas respostas recentes guardamos por tópico. */
+export const JANELA_RECENTE = 20;
+/** Mínimo de respostas para o app julgar um tópico. */
+export const MIN_RESPOSTAS_AVALIAR = 6;
+/** Abaixo deste percentual de acerto recente, o tópico vira ponto fraco. */
+export const LIMITE_PONTO_FRACO = 70;
+
+export type Desempenho = { topicoId: string; respostas: number; acerto: number };
+
+export function desempenhoTopico(p: Progresso, topicoId: string): Desempenho {
+  const h = p.recentes[topicoId] ?? '';
+  const acertos = [...h].filter((c) => c === '1').length;
+  return { topicoId, respostas: h.length, acerto: h.length ? Math.round((acertos / h.length) * 100) : 0 };
+}
+
+/** Tópicos da trilha com acerto recente abaixo do limite, do pior para o melhor. */
+export function pontosFracos(p: Progresso, trilha: Trilha = p.trilha): Desempenho[] {
+  return topicosDaTrilha(trilha)
+    .map((t) => desempenhoTopico(p, t.id))
+    .filter((d) => d.respostas >= MIN_RESPOSTAS_AVALIAR && d.acerto < LIMITE_PONTO_FRACO)
+    .sort((a, b) => a.acerto - b.acerto || b.respostas - a.respostas);
+}
+
+/** Percentual de acerto de todas as respostas já dadas em uma disciplina (null se nunca respondeu). */
+export function acertoDisciplina(p: Progresso, disciplinaId: string): number | null {
+  let acertos = 0;
+  let total = 0;
+  for (const [id, e] of Object.entries(p.questoes)) {
+    if (!id.startsWith(disciplinaId + '/')) continue;
+    acertos += e.acertos;
+    total += e.acertos + e.erros;
+  }
+  return total ? Math.round((acertos / total) * 100) : null;
+}
+
 // ---------- Montagem de lições ----------
 
-export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino';
+export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos';
 
 /** Prioriza questões nunca vistas, depois as que o aluno errou, depois as demais. */
 function priorizar(p: Progresso, qs: Questao[], quantidade: number): Questao[] {
@@ -188,8 +284,29 @@ export function montarDesafio(p: Progresso): Questao[] {
 }
 
 export function montarRevisao(p: Progresso): Questao[] {
-  const qs = p.revisao.map((id) => getQuestao(id)?.questao).filter((q): q is Questao => !!q);
-  return embaralhar(qs).slice(0, TAMANHO_LICAO);
+  const qs = revisoesPendentes(p)
+    .slice(0, TAMANHO_LICAO)
+    .map((id) => getQuestao(id)?.questao)
+    .filter((q): q is Questao => !!q);
+  return embaralhar(qs);
+}
+
+/** Lição focada nos pontos fracos (ou em um tópico específico): primeiro o que o aluno errou. */
+export function montarPontosFracos(p: Progresso, topicoId?: string): Questao[] {
+  const ids = topicoId ? [topicoId] : pontosFracos(p).slice(0, 3).map((d) => d.topicoId);
+  const candidatas = ids.flatMap((id) =>
+    ([0, 1, 2] as Nivel[]).filter((n) => nivelDesbloqueado(p, id, n)).flatMap((n) => questoesDoTopico(id, n)),
+  );
+  const erradas: Questao[] = [];
+  const nunca: Questao[] = [];
+  const resto: Questao[] = [];
+  for (const q of embaralhar(candidatas)) {
+    const e = p.questoes[q.id];
+    if (!e) nunca.push(q);
+    else if (e.caixa === 0 || e.erros > e.acertos) erradas.push(q);
+    else resto.push(q);
+  }
+  return embaralhar([...erradas, ...nunca, ...resto].slice(0, TAMANHO_LICAO));
 }
 
 export function montarTreino(p: Progresso, disciplinaId?: string): Questao[] {
@@ -232,6 +349,7 @@ export const CONQUISTAS: Conquista[] = [
   { id: 'xp50000', emoji: '🚀', titulo: 'Rumo à aprovação', descricao: 'Acumule 50.000 XP', ok: (p) => p.xpTotal >= 50000 },
   { id: 'dificil', emoji: '💪', titulo: 'Destemido', descricao: 'Conclua uma lição de nível difícil', ok: (p) => p.licoesDificeis >= 1 },
   { id: 'revisao', emoji: '🔁', titulo: 'Aprendendo com os erros', descricao: 'Conclua uma revisão', ok: (p) => p.revisoesFeitas >= 1 },
+  { id: 'revisao20', emoji: '🐘', titulo: 'Memória de elefante', descricao: 'Conclua 20 revisões', ok: (p) => p.revisoesFeitas >= 20 },
   { id: 'combo10', emoji: '🎰', titulo: 'Em chamas', descricao: 'Acerte 10 questões seguidas', ok: (p) => p.comboRecorde >= 10 },
   { id: 'explorador', emoji: '🧭', titulo: 'Explorador', descricao: 'Estude 5 disciplinas diferentes', ok: (p) => disciplinasEstudadas(p) >= 5 },
   { id: 'poliglota', emoji: '🌐', titulo: 'Enciclopédia', descricao: 'Estude 12 disciplinas diferentes', ok: (p) => disciplinasEstudadas(p) >= 12 },
@@ -256,15 +374,19 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
   const perfeita = total > 0 && acertos === total;
   const percentual = total ? Math.round((acertos / total) * 100) : 0;
 
-  // Estatísticas das questões e fila de revisão
-  const revisao = new Set(p.revisao);
+  // Estatísticas das questões, revisão espaçada e desempenho recente por tópico
   for (const { id, acertou } of r.respostas) {
-    const e = p.questoes[id] ?? { acertos: 0, erros: 0, ultima: dia };
-    p.questoes[id] = { acertos: e.acertos + (acertou ? 1 : 0), erros: e.erros + (acertou ? 0 : 1), ultima: dia };
-    if (acertou) revisao.delete(id);
-    else revisao.add(id);
+    const anterior = p.questoes[id];
+    const e = anterior ?? { acertos: 0, erros: 0, ultima: dia };
+    p.questoes[id] = {
+      acertos: e.acertos + (acertou ? 1 : 0),
+      erros: e.erros + (acertou ? 0 : 1),
+      ultima: dia,
+      ...agendar(anterior, acertou, dia),
+    };
+    const topicoId = getQuestao(id)?.topicoId;
+    if (topicoId) p.recentes[topicoId] = ((p.recentes[topicoId] ?? '') + (acertou ? '1' : '0')).slice(-JANELA_RECENTE);
   }
-  p.revisao = [...revisao];
 
   // Tópico
   let desbloqueouNivel: Nivel | null = null;
@@ -332,10 +454,10 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
   };
 }
 
-export function xpDaResposta(q: Questao, combo: number, modo: Modo) {
+export function xpDaResposta(q: Questao, combo: number, _modo?: Modo) {
   const base = XP_POR_NIVEL[q.n];
   const bonusCombo = combo >= 5 ? 5 : combo >= 3 ? 2 : 0;
-  return Math.round((modo === 'revisao' ? base / 2 : base) + bonusCombo);
+  return Math.round(base + bonusCombo);
 }
 
 export function comprarProtetor(p: Progresso): Progresso | null {

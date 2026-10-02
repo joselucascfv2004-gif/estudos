@@ -14,6 +14,7 @@ import {
   concluirLicao,
   montarDesafio,
   montarLicaoTopico,
+  montarPontosFracos,
   montarRevisao,
   montarTreino,
   nivelDoUsuario,
@@ -55,6 +56,7 @@ export default function Licao() {
     if (modo === 'topico' && params.topico && nivelParam != null) qs = montarLicaoTopico(p, params.topico, nivelParam);
     else if (modo === 'desafio') qs = montarDesafio(p);
     else if (modo === 'revisao') qs = montarRevisao(p);
+    else if (modo === 'fracos') qs = montarPontosFracos(p, params.topico);
     else qs = montarTreino(p, params.disciplina);
     return qs.map((q) => prepararItem(q));
     // a lição é montada uma única vez ao abrir
@@ -80,18 +82,22 @@ export default function Licao() {
       : modo === 'desafio'
         ? 'Desafio do dia'
         : modo === 'revisao'
-          ? 'Revisão de erros'
-          : 'Treino';
+          ? 'Revisão'
+          : modo === 'fracos'
+            ? 'Pontos fracos'
+            : 'Treino';
 
   if (!inicial.length) {
     return (
       <SafeAreaView style={[s.tela, s.centro]}>
         <Text style={{ fontSize: 60 }}>{modo === 'revisao' ? '✨' : '📭'}</Text>
-        <Text style={s.fimTitulo}>{modo === 'revisao' ? 'Nada para revisar!' : 'Sem questões aqui'}</Text>
+        <Text style={s.fimTitulo}>{modo === 'revisao' ? 'Nada para revisar hoje!' : 'Sem questões aqui'}</Text>
         <Text style={s.fimSub}>
           {modo === 'revisao'
-            ? 'As questões que você errar aparecem aqui para você revisar depois.'
-            : 'Não encontramos questões para esta seleção.'}
+            ? 'As questões que você responde voltam para revisão com o passar dos dias. Volte amanhã!'
+            : modo === 'fracos'
+              ? 'Você ainda não tem pontos fracos. Continue estudando que o app vai acompanhando o seu desempenho.'
+              : 'Não encontramos questões para esta seleção.'}
         </Text>
         <Botao titulo="Voltar" onPress={() => router.back()} estilo={{ alignSelf: 'stretch', margin: 24 }} />
       </SafeAreaView>
@@ -162,7 +168,7 @@ export default function Licao() {
         <View style={s.etiquetas}>
           <Text style={[s.etiqueta, { backgroundColor: nivelCor.clara, color: nivelCor.escura }]}>{NOMES_NIVEL[q.n]}</Text>
           <Text style={s.etiquetaTopico} numberOfLines={1}>
-            {modo === 'topico' ? titulo : topico?.titulo ?? titulo}
+            {modo === 'topico' ? titulo : (topico?.titulo ?? titulo)}
           </Text>
           {item.repeticao && <Text style={[s.etiqueta, { backgroundColor: cores.azulClaro, color: cores.azulEscuro }]}>Revendo</Text>}
         </View>
@@ -263,7 +269,9 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
         <Text style={{ fontSize: 80 }}>{perfeita ? '🏆' : pct >= 70 ? '🎉' : pct >= 40 ? '💪' : '📚'}</Text>
         <Text style={s.fimTitulo}>{perfeita ? 'Perfeito!' : pct >= 70 ? 'Lição concluída!' : 'Continue praticando!'}</Text>
         <Text style={s.fimSub}>
-          {pct >= 70 ? 'Você está mandando muito bem.' : 'Errar faz parte: as questões erradas foram para a sua revisão.'}
+          {pct >= 70
+            ? 'Você está mandando muito bem. O app vai trazer estas questões de volta nos próximos dias para fixar o conteúdo.'
+            : 'Errar faz parte: as questões erradas voltam na sua revisão de hoje.'}
         </Text>
         <View style={s.caixas}>
           <Caixa titulo="XP" valor={`+${fim.xp}`} cor={cores.amarelo} />

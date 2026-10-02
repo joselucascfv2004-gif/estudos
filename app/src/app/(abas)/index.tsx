@@ -6,7 +6,7 @@ import { disciplinasDaTrilha, getTopico } from '../../data/banco';
 import { TRILHAS } from '../../data/trilhas';
 import { hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
-import { BONUS_DESAFIO, dominioTopico, estudouHoje, xpHoje } from '../../estado/progresso';
+import { BONUS_DESAFIO, dominioTopico, estudouHoje, pontosFracos, revisoesPendentes, xpHoje } from '../../estado/progresso';
 import { BarraStatus } from '../../ui/BarraStatus';
 import { Barra, Botao, Cartao, Chip } from '../../ui/componentes';
 import { clarear, cores } from '../../ui/tema';
@@ -18,6 +18,9 @@ export default function Inicio() {
   const xp = xpHoje(p);
   const desafioFeito = !!p.desafiosFeitos[hoje()];
   const ultimo = p.ultimoTopico ? getTopico(p.ultimoTopico) : undefined;
+  const pendentes = revisoesPendentes(p).length;
+  const fraco = pontosFracos(p)[0];
+  const infoFraco = fraco ? getTopico(fraco.topicoId) : undefined;
 
   const areas: { area: string; itens: typeof lista }[] = [];
   for (const d of lista) {
@@ -80,6 +83,36 @@ export default function Inicio() {
           />
         </Cartao>
 
+        {pendentes > 0 && (
+          <Cartao estilo={s.revisao}>
+            <Text style={s.cartaoTitulo}>🧠 Hora de revisar</Text>
+            <Text style={[s.cartaoSub, { marginBottom: 12 }]}>
+              {pendentes} {pendentes === 1 ? 'questão voltou' : 'questões voltaram'} para revisão hoje. Revisar no dia certo é o que fixa o
+              conteúdo na memória.
+            </Text>
+            <Botao
+              testID="btn-revisao-inicio"
+              titulo="Revisar agora"
+              cor={cores.roxo}
+              onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
+            />
+          </Cartao>
+        )}
+
+        {fraco && infoFraco && (
+          <Cartao
+            testID="cartao-fraco"
+            estilo={s.fraco}
+            onPress={() => router.push({ pathname: '/licao', params: { modo: 'fracos', topico: fraco.topicoId } })}
+          >
+            <Text style={s.cartaoSub}>🎯 Seu ponto fraco agora · {fraco.acerto}% de acerto</Text>
+            <Text style={s.cartaoTitulo}>
+              {infoFraco.disciplina.emoji} {infoFraco.topico.titulo}
+            </Text>
+            <Text style={[s.cartaoSub, { color: cores.vermelhoEscuro }]}>Toque para treinar este assunto ▶</Text>
+          </Cartao>
+        )}
+
         {ultimo && (
           <Cartao estilo={{ marginBottom: 14 }} onPress={() => router.push({ pathname: '/disciplina/[id]', params: { id: ultimo.disciplina.id } })}>
             <Text style={s.cartaoSub}>Continuar de onde parou</Text>
@@ -129,6 +162,8 @@ const s = StyleSheet.create({
   cartaoValor: { fontSize: 15, fontWeight: '800', color: cores.textoSuave },
   cartaoSub: { fontSize: 14, color: cores.textoSuave, marginTop: 8, fontWeight: '600', lineHeight: 20 },
   desafio: { backgroundColor: cores.azul, borderColor: cores.azulEscuro, marginBottom: 14 },
+  revisao: { backgroundColor: cores.roxoClaro, borderColor: '#D9B8FF', marginBottom: 14 },
+  fraco: { backgroundColor: cores.vermelhoClaro, borderColor: '#FFB2B2', marginBottom: 14 },
   aviso: { backgroundColor: cores.azulClaro, borderColor: cores.azul, marginBottom: 14 },
   avisoTexto: { fontSize: 15, fontWeight: '700', color: cores.texto },
   avisoFechar: { fontSize: 12, color: cores.textoSuave, marginTop: 6 },

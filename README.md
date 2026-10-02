@@ -22,8 +22,9 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Meta diária | 100, 200, 400 ou 600 XP por dia |
 | Ofensiva 🔥 | Dias seguidos batendo a meta. Protetores de ofensiva podem ser comprados com 💎 |
 | Desafio do dia | 10 questões misturadas da sua trilha, com bônus de +50 XP |
-| Revisão | Refaz as questões que você errou |
-| Conquistas | 16 medalhas e gráfico de XP da semana |
+| Revisão espaçada | Toda questão respondida volta para revisão com o passar do tempo. Quem acerta volta cada vez mais tarde (1, 3, 7, 15, 30 e 60 dias), e quem erra volta no mesmo dia |
+| Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial e ganha um treino focado nos seus erros |
+| Conquistas | 17 medalhas e gráfico de XP da semana |
 | Lembrete diário | Notificação local no horário que você escolher |
 
 O progresso fica salvo no próprio celular (sem login e sem servidor).
