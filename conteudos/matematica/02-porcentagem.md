@@ -317,11 +317,11 @@ Após um desconto de 20%, um produto passou a custar R$ 304,00. Qual era o preç
 ### 4
 O número de inscritos em um concurso passou de 250 para 375. Qual foi a variação percentual?
 
-- A) Aumento de 33,33%
-- B) Aumento de 12,5%
+- A) Aumento de 25%
+- B) Aumento de 33,33%
 - C) Aumento de 50%
-- D) Aumento de 25%
-- E) Queda de 50%
+- D) Aumento de 48%
+- E) Aumento de 12,5%
 
 **Resposta:** C
 
@@ -382,11 +382,11 @@ Após um desconto de 50%, um produto passou a custar R$ 110,00. Qual era o preç
 ### 9
 O número de inscritos em um concurso passou de 250 para 275. Qual foi a variação percentual?
 
-- A) Aumento de 5%
+- A) Aumento de 11%
 - B) Aumento de 10%
-- C) Aumento de 9,09%
-- D) Aumento de 2,5%
-- E) Queda de 10%
+- C) Aumento de 5%
+- D) Aumento de 9,09%
+- E) Aumento de 2,5%
 
 **Resposta:** B
 
@@ -434,11 +434,11 @@ Após um desconto de 20%, um produto passou a custar R$ 192,00. Qual era o preç
 ### 13
 O número de inscritos em um concurso passou de 350 para 402,5. Qual foi a variação percentual?
 
-- A) Aumento de 5,25%
-- B) Aumento de 13,04%
+- A) Aumento de 13,04%
+- B) Aumento de 7,5%
 - C) Aumento de 15%
-- D) Aumento de 7,5%
-- E) Queda de 15%
+- D) Aumento de 13%
+- E) Aumento de 5,25%
 
 **Resposta:** C
 
@@ -486,11 +486,11 @@ Após um desconto de 10%, um produto passou a custar R$ 342,00. Qual era o preç
 ### 17
 O número de inscritos em um concurso passou de 675 para 877,5. Qual foi a variação percentual?
 
-- A) Queda de 30%
-- B) Aumento de 15%
+- A) Aumento de 20,25%
+- B) Aumento de 90%
 - C) Aumento de 30%
-- D) Aumento de 20,25%
-- E) Aumento de 23,08%
+- D) Aumento de 23,08%
+- E) Aumento de 15%
 
 **Resposta:** C
 
@@ -579,11 +579,11 @@ Um comerciante vende seus produtos com lucro de 50% sobre o preço de custo. Ess
 ### 4
 A produção de uma fábrica cresceu 20% em um ano e caiu 50% no ano seguinte. Para voltar exatamente ao nível inicial, a produção atual precisa sofrer:
 
-- A) Redução de 30%
+- A) Aumento de 33,34%
 - B) Aumento de 30%
-- C) Redução de 66,67%
+- C) Aumento de 83,34%
 - D) Aumento de 66,67%
-- E) Aumento de 33,34%
+- E) Aumento de 67,67%
 
 **Resposta:** D
 
@@ -644,11 +644,11 @@ Um comerciante vende seus produtos com lucro de 20% sobre o preço de custo. Ess
 ### 9
 A produção de uma fábrica cresceu 25% em um ano e caiu 40% no ano seguinte. Para voltar exatamente ao nível inicial, a produção atual precisa sofrer:
 
-- A) Aumento de 16,67%
-- B) Redução de 15%
+- A) Aumento de 41,66%
+- B) Aumento de 16,67%
 - C) Aumento de 33,33%
 - D) Aumento de 15%
-- E) Redução de 33,33%
+- E) Aumento de 34,33%
 
 **Resposta:** C
 

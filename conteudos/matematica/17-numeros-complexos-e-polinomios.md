@@ -185,11 +185,11 @@ Qual é o módulo do número complexo z = 3 − 4i?
 ### 14
 Qual é o valor numérico do polinômio P(x) = 2x³ + 4x² − 5x + 5 para x = 0?
 
-- A) 6
+- A) 4
 - B) 5
 - C) 7
-- D) −5
-- E) 4
+- D) 6
+- E) 3
 
 **Resposta:** B
 
@@ -317,9 +317,9 @@ Qual é o produto das raízes da equação 3x³ − 30x² + 99x − 108 = 0?
 ### 4
 Sendo z = −6 + 2i e z̄ o seu conjugado, qual é o valor de z · z̄?
 
-- A) 32 − 24i
+- A) 50
 - B) 32
-- C) −12
+- C) 32 − 24i
 - D) 36 + 4i
 - E) 40
 
@@ -343,10 +343,10 @@ Qual é o resultado da divisão (−15 − 5i) ÷ (3 − i)?
 ### 6
 Qual é o resto da divisão de P(x) = 3x³ + 2x² + 3x por (x − 2)?
 
-- A) 0
-- B) 39
-- C) 76
-- D) −22
+- A) 39
+- B) 76
+- C) 114
+- D) 0
 - E) 38
 
 **Resposta:** E
@@ -408,11 +408,11 @@ Qual é o produto das raízes da equação 2x³ − 8x² − 10x = 0?
 ### 11
 Sendo z = 1 − 4i e z̄ o seu conjugado, qual é o valor de z · z̄?
 
-- A) −15 − 8i
-- B) 1 + 16i
-- C) −15
+- A) 20
+- B) 2
+- C) 1 + 16i
 - D) 17
-- E) 2
+- E) −15 − 8i
 
 **Resposta:** D
 
@@ -460,11 +460,11 @@ Qual é o produto das raízes da equação 2x³ − 10x² − 8x + 40 = 0?
 ### 15
 Sendo z = 1 − 3i e z̄ o seu conjugado, qual é o valor de z · z̄?
 
-- A) −8
+- A) 1 + 9i
 - B) 10
-- C) −8 − 6i
-- D) 2
-- E) 1 + 9i
+- C) 12
+- D) −8 − 6i
+- E) 2
 
 **Resposta:** B
 
@@ -500,10 +500,10 @@ Qual é o produto das raízes da equação 2x³ − 26x − 24 = 0?
 Sendo z = −2 + 6i e z̄ o seu conjugado, qual é o valor de z · z̄?
 
 - A) 40
-- B) −32 − 24i
-- C) −32
-- D) −4
-- E) 4 + 36i
+- B) 80
+- C) 4 + 36i
+- D) 120
+- E) −32 − 24i
 
 **Resposta:** A
 
@@ -512,11 +512,11 @@ Sendo z = −2 + 6i e z̄ o seu conjugado, qual é o valor de z · z̄?
 ### 19
 Qual é o resto da divisão de P(x) = x³ − 2x² + 5x − 6 por (x − 2)?
 
-- A) −6
-- B) −32
+- A) 0
+- B) 5
 - C) 4
-- D) 5
-- E) 0
+- D) 12
+- E) 14
 
 **Resposta:** C
 
@@ -540,10 +540,10 @@ Qual é o produto das raízes da equação 3x³ − 24x² + 45x = 0?
 ### 1
 Sabendo que 0 é raiz do polinômio P(x) = x³ − 3x² + 2x, qual é a soma das outras duas raízes?
 
-- A) −3
+- A) 4
 - B) 2
-- C) 4
-- D) 5
+- C) 5
+- D) 9
 - E) 3
 
 **Resposta:** E
@@ -579,11 +579,11 @@ Qual é o valor de (1 + i)^2?
 ### 4
 Para que valor de m o polinômio P(x) = x³ + x² + 3x + m é divisível por (x + 3)?
 
-- A) −27
+- A) 24
 - B) 27
-- C) 24
-- D) 25
-- E) −18
+- C) 25
+- D) 29
+- E) 26
 
 **Resposta:** B
 
@@ -683,11 +683,11 @@ Qual é o valor de (1 + i)^4?
 ### 12
 Para que valor de m o polinômio P(x) = x³ + 2x² + m é divisível por (x + 3)?
 
-- A) 7
+- A) 10
 - B) 9
-- C) 6
-- D) −9
-- E) 10
+- C) 7
+- D) 6
+- E) 12
 
 **Resposta:** B
 
@@ -696,11 +696,11 @@ Para que valor de m o polinômio P(x) = x³ + 2x² + m é divisível por (x + 3)
 ### 13
 Sabendo que 3 é raiz do polinômio P(x) = x³ − 5x² + 6x, qual é a soma das outras duas raízes?
 
-- A) 6
-- B) 5
+- A) 3
+- B) 6
 - C) 2
 - D) 0
-- E) −2
+- E) 5
 
 **Resposta:** C
 
@@ -774,11 +774,11 @@ Qual é o valor de (1 + i)^8?
 ### 19
 Para que valor de m o polinômio P(x) = x³ + 3x² + 2x + m é divisível por (x + 3)?
 
-- A) 4
-- B) 0
-- C) −6
+- A) 8
+- B) 4
+- C) 3
 - D) 6
-- E) 3
+- E) 0
 
 **Resposta:** D
 
@@ -787,11 +787,11 @@ Para que valor de m o polinômio P(x) = x³ + 3x² + 2x + m é divisível por (x
 ### 20
 Sabendo que −2 é raiz do polinômio P(x) = x³ − 4x, qual é a soma das outras duas raízes?
 
-- A) 1
+- A) 12
 - B) 2
 - C) 0
-- D) 12
-- E) −2
+- D) 3
+- E) 1
 
 **Resposta:** B
 

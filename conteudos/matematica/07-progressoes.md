@@ -81,11 +81,11 @@ Qual é o próximo termo da sequência 2, 6, 18, 54, ...?
 ### 6
 Em uma progressão aritmética, o primeiro termo é −4 e a razão é 7. Qual é o 13º termo?
 
-- A) −45
+- A) 84
 - B) 87
 - C) 80
-- D) 73
-- E) 84
+- D) 240
+- E) 73
 
 **Resposta:** C
 
@@ -331,10 +331,10 @@ Quantos múltiplos de 7 existem entre 98 e 588?
 Em uma PA, o 5º termo é 20 e o 9º termo é 36. Qual é o primeiro termo?
 
 - A) 4
-- B) 0
+- B) 2
 - C) 8
-- D) 2
-- E) −4
+- D) 6
+- E) 0
 
 **Resposta:** A
 
@@ -592,10 +592,10 @@ Qual é a soma de todos os múltiplos positivos de 3 menores ou iguais a 200?
 ### 5
 Os números −1, 3 e 11, somados a uma mesma constante c, formam uma progressão geométrica. Qual é o valor de c?
 
-- A) −5
-- B) 6
-- C) 2
-- D) 4
+- A) 6
+- B) 2
+- C) 4
+- D) 3
 - E) 5
 
 **Resposta:** E
@@ -657,10 +657,10 @@ Qual é a soma de todos os múltiplos positivos de 6 menores ou iguais a 200?
 ### 10
 Os números 3, 11 e 35, somados a uma mesma constante c, formam uma progressão geométrica. Qual é o valor de c?
 
-- A) 2
-- B) 3
-- C) 4
-- D) −1
+- A) 3
+- B) 4
+- C) 0
+- D) 2
 - E) 1
 
 **Resposta:** E
@@ -709,10 +709,10 @@ Ao inserir 4 meios aritméticos entre 10 e 50, obtém-se uma PA. Qual é a razã
 ### 14
 Os números 1, 7 e 19, somados a uma mesma constante c, formam uma progressão geométrica. Qual é o valor de c?
 
-- A) 2
-- B) 3
-- C) 6
-- D) −5
+- A) 3
+- B) 8
+- C) 2
+- D) 6
 - E) 5
 
 **Resposta:** E
@@ -774,10 +774,10 @@ Qual é a soma de todos os múltiplos positivos de 5 menores ou iguais a 200?
 ### 19
 Os números −2, 4 e 22, somados a uma mesma constante c, formam uma progressão geométrica. Qual é o valor de c?
 
-- A) −5
-- B) 7
-- C) 3
-- D) 6
+- A) 6
+- B) 8
+- C) 7
+- D) 3
 - E) 5
 
 **Resposta:** E

@@ -81,10 +81,10 @@ Beatriz comprou 5 cadernos iguais e 6 canetas de R$ 6,00 cada, gastando R$ 81,00
 ### 6
 Qual é a solução da equação 8x − 6 = 26?
 
-- A) 6
+- A) 8
 - B) 32
 - C) 4
-- D) −4
+- D) 6
 - E) 2,5
 
 **Resposta:** C
@@ -146,10 +146,10 @@ Pedro comprou 3 cadernos iguais e 5 canetas de R$ 6,00 cada, gastando R$ 39,00 n
 ### 11
 Qual é a solução da equação 2x − 12 = 6?
 
-- A) −9
-- B) 18
-- C) −3
-- D) 11
+- A) 8
+- B) 11
+- C) 18
+- D) 7
 - E) 9
 
 **Resposta:** E
@@ -213,9 +213,9 @@ Qual é a solução da equação 6x − 20 = 46?
 
 - A) 11
 - B) 4,33
-- C) 13
+- C) 9
 - D) 66
-- E) −11
+- E) 13
 
 **Resposta:** A
 
@@ -308,7 +308,7 @@ Qual é o menor número inteiro que satisfaz a inequação 6x − 1 > 18?
 - B) 3
 - C) 4
 - D) 5
-- E) −4
+- E) 6
 
 **Resposta:** C
 
@@ -331,8 +331,8 @@ Em um sítio há galinhas e coelhos, num total de 13 cabeças e 40 pés. Quantos
 Resolvendo o sistema { x + y = 9 ; 2x − 4y = −6 }, qual é o valor de x · y?
 
 - A) 9
-- B) 30
-- C) −6
+- B) 19
+- C) 30
 - D) 25
 - E) 20
 
@@ -343,10 +343,10 @@ Resolvendo o sistema { x + y = 9 ; 2x − 4y = −6 }, qual é o valor de x · y
 ### 6
 Qual é a maior raiz da equação x² − 7x − 8 = 0?
 
-- A) 7
-- B) 1
-- C) −1
-- D) −8
+- A) 11
+- B) 18
+- C) 7
+- D) 1
 - E) 8
 
 **Resposta:** E
@@ -370,7 +370,7 @@ Em uma sessão de cinema, o ingresso inteiro custava R$ 40,00 e a meia-entrada, 
 Qual é o menor número inteiro que satisfaz a inequação 4x − 12 > 29?
 
 - A) 4
-- B) −11
+- B) 22
 - C) 12
 - D) 11
 - E) 10
@@ -409,10 +409,10 @@ Resolvendo o sistema { x + y = 11 ; 5x − 4y = 1 }, qual é o valor de x · y?
 Qual é a maior raiz da equação x² − 8x + 7 = 0?
 
 - A) 7
-- B) 9
+- B) 21
 - C) 1
-- D) −7
-- E) 8
+- D) 8
+- E) 9
 
 **Resposta:** A
 
@@ -461,10 +461,10 @@ Em um sítio há galinhas e coelhos, num total de 27 cabeças e 76 pés. Quantos
 Resolvendo o sistema { x + y = 9 ; 3x − y = −1 }, qual é o valor de x · y?
 
 - A) 9
-- B) 4
+- B) 21
 - C) 16
 - D) 14
-- E) −1
+- E) 4
 
 **Resposta:** D
 
@@ -473,11 +473,11 @@ Resolvendo o sistema { x + y = 9 ; 3x − y = −1 }, qual é o valor de x · y?
 ### 16
 Qual é a maior raiz da equação x² + 3x − 4 = 0?
 
-- A) −1
+- A) 11
 - B) 1
-- C) −3
-- D) −4
-- E) 4
+- C) 3
+- D) 4
+- E) 2
 
 **Resposta:** B
 
@@ -566,11 +566,11 @@ Um terreno retangular tem perímetro de 68 m e área de 285 m². Qual é a medid
 ### 3
 Para qual valor de m a equação x² − 6x + m = 0 possui duas raízes reais e iguais?
 
-- A) −9
-- B) 3
+- A) 4,5
+- B) 11
 - C) 9
-- D) 36
-- E) 4,5
+- D) 3
+- E) 36
 
 **Resposta:** C
 
@@ -631,10 +631,10 @@ Um terreno retangular tem perímetro de 56 m e área de 195 m². Qual é a medid
 ### 8
 Para qual valor de m a equação x² + 6x + m = 0 possui duas raízes reais e iguais?
 
-- A) 3
-- B) 4,5
-- C) −9
-- D) 36
+- A) 11
+- B) 36
+- C) 4,5
+- D) 3
 - E) 9
 
 **Resposta:** E
@@ -683,10 +683,10 @@ Um terreno retangular tem perímetro de 14 m e área de 12 m². Qual é a medida
 ### 12
 Para qual valor de m a equação x² + 10x + m = 0 possui duas raízes reais e iguais?
 
-- A) −25
-- B) 100
-- C) 5
-- D) 12,5
+- A) 12,5
+- B) 5
+- C) 28
+- D) 100
 - E) 25
 
 **Resposta:** E
@@ -748,10 +748,10 @@ Um terreno retangular tem perímetro de 62 m e área de 228 m². Qual é a medid
 ### 17
 Para qual valor de m a equação x² − 12x + m = 0 possui duas raízes reais e iguais?
 
-- A) 144
-- B) 18
-- C) −36
-- D) 6
+- A) 6
+- B) 144
+- C) 18
+- D) 37
 - E) 36
 
 **Resposta:** E

@@ -133,11 +133,11 @@ Qual é o valor de x na equação 3ˣ = 81?
 ### 10
 Qual é o valor de log na base 2 de 32?
 
-- A) −5
-- B) 10
-- C) 6
+- A) 6
+- B) 3
+- C) 4
 - D) 5
-- E) 4
+- E) 10
 
 **Resposta:** D
 
@@ -172,11 +172,11 @@ Qual é o valor de x na equação 2ˣ = 64?
 ### 13
 Qual é o valor de log na base 3 de 9?
 
-- A) 3
-- B) 6
+- A) 1
+- B) 5
 - C) 2
-- D) −2
-- E) 1
+- D) 3
+- E) 6
 
 **Resposta:** C
 
@@ -237,11 +237,11 @@ Qual é o valor de x na equação 2ˣ = 16?
 ### 18
 Qual é o valor de log na base 2 de 2?
 
-- A) 0
-- B) −1
+- A) 4
+- B) 2
 - C) 1
-- D) 2
-- E) 4
+- D) 0
+- E) 11
 
 **Resposta:** C
 
@@ -280,7 +280,7 @@ Qual é a solução da equação 3^(x + 1) = 81?
 
 - A) 4
 - B) 5
-- C) −3
+- C) 6
 - D) 2
 - E) 3
 
@@ -330,11 +330,11 @@ Uma população dobra a cada 5 anos. Em quanto tempo ela fica 4 vezes maior que 
 ### 5
 O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁵ mol/L, qual é o seu pH?
 
-- A) 6
+- A) 50
 - B) 5
-- C) 50
-- D) −5
-- E) 9
+- C) 3
+- D) 9
+- E) 6
 
 **Resposta:** B
 
@@ -383,10 +383,10 @@ Uma população dobra a cada 20 anos. Em quanto tempo ela fica 32 vezes maior qu
 O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁶ mol/L, qual é o seu pH?
 
 - A) 6
-- B) 7
-- C) 8
-- D) 60
-- E) −6
+- B) 60
+- C) 7
+- D) 12
+- E) 8
 
 **Resposta:** A
 
@@ -396,7 +396,7 @@ O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íon
 Qual é a solução da equação 2^(x + 2) = 64?
 
 - A) 8
-- B) −4
+- B) 14
 - C) 4
 - D) 6
 - E) 3
@@ -447,11 +447,11 @@ Uma população dobra a cada 20 anos. Em quanto tempo ela fica 16 vezes maior qu
 ### 14
 O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁹ mol/L, qual é o seu pH?
 
-- A) −9
-- B) 10
+- A) 5
+- B) 90
 - C) 9
-- D) 90
-- E) 5
+- D) 7
+- E) 10
 
 **Resposta:** C
 
@@ -460,7 +460,7 @@ O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íon
 ### 15
 Qual é a solução da equação 3^(x + 1) = 243?
 
-- A) −4
+- A) 14
 - B) 3
 - C) 6
 - D) 4
@@ -486,11 +486,11 @@ Se log na base 3 de x é igual a 2, então x vale:
 ### 17
 O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁷ mol/L, qual é o seu pH?
 
-- A) 70
-- B) 8
+- A) 14
+- B) 70
 - C) 7
-- D) 14
-- E) −7
+- D) 6
+- E) 8
 
 **Resposta:** C
 
@@ -503,7 +503,7 @@ Qual é a solução da equação 3^(x + 2) = 27?
 - B) 1
 - C) 3
 - D) 5
-- E) −1
+- E) 11
 
 **Resposta:** B
 
@@ -540,10 +540,10 @@ Um carro de R$ 40.000,00 desvaloriza 20% ao ano em relação ao valor do ano ant
 ### 1
 Qual é a solução da equação log_3(x) + log_3(x − 2) = 1?
 
-- A) 5
-- B) 4
+- A) 4
+- B) 9
 - C) 1
-- D) −1
+- D) 5
 - E) 3
 
 **Resposta:** E
@@ -606,9 +606,9 @@ Uma aplicação de R$ 5.000,00 rende 20% ao ano, a juros compostos. Usando log 2
 Qual é a solução da equação log_2(x) + log_2(x − 1) = 1?
 
 - A) 1
-- B) 3
-- C) 0
-- D) −1
+- B) 0
+- C) 6
+- D) 3
 - E) 2
 
 **Resposta:** E
@@ -683,11 +683,11 @@ Um isótopo radioativo tem meia-vida de 30 anos. Partindo de 320 g, quanto resta
 ### 12
 Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 3ˣ = 2 é, aproximadamente:
 
-- A) 0,14
+- A) 1,63
 - B) 0,63
 - C) 1,60
-- D) 1,63
-- E) −0,18
+- D) 1,26
+- E) 0,14
 
 **Resposta:** B
 
@@ -723,10 +723,10 @@ Um isótopo radioativo tem meia-vida de 5 anos. Partindo de 160 g, quanto restar
 Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 5ˣ = 2 é, aproximadamente:
 
 - A) 2,33
-- B) −0,40
+- B) 0,21
 - C) 0,43
-- D) 1,43
-- E) 0,21
+- D) 0,39
+- E) 1,43
 
 **Resposta:** C
 
@@ -749,10 +749,10 @@ Uma aplicação de R$ 1.000,00 rende 10% ao ano, a juros compostos. Usando log 2
 Qual é a solução da equação log_2(x) + log_2(x − 3) = 2?
 
 - A) 4
-- B) 7
+- B) 14
 - C) 1
-- D) 14
-- E) −1
+- D) 12
+- E) 7
 
 **Resposta:** A
 
@@ -774,10 +774,10 @@ O nível sonoro, em decibéis, é dado por N = 10 · log(I/I₀). Se a intensida
 ### 19
 Qual é a solução da equação log_2(x) + log_2(x − 4) = 5?
 
-- A) 32
+- A) 6
 - B) 8
-- C) −4
-- D) 12
+- C) 12
+- D) 32
 - E) 4
 
 **Resposta:** B

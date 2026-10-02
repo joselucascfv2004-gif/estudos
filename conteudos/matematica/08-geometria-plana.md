@@ -540,10 +540,10 @@ Um terreno tem a forma de um trapézio com bases de 9 m e 5 m e altura de 9 m. Q
 ### 1
 Um quadrado de lado 8 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
 
-- A) 48 cm²
-- B) −128 cm²
-- C) 32 cm²
-- D) 40 cm²
+- A) 40 cm²
+- B) 48 cm²
+- C) 26 cm²
+- D) 32 cm²
 - E) 16 cm²
 
 **Resposta:** E
@@ -606,10 +606,10 @@ Três retas paralelas cortam duas transversais. Na primeira transversal, os segm
 Um quadrado de lado 4 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
 
 - A) 4 cm²
-- B) 8 cm²
-- C) −32 cm²
-- D) 12 cm²
-- E) 7 cm²
+- B) 7 cm²
+- C) 12 cm²
+- D) 8 cm²
+- E) 6 cm²
 
 **Resposta:** A
 
@@ -670,11 +670,11 @@ Três retas paralelas cortam duas transversais. Na primeira transversal, os segm
 ### 11
 Um quadrado de lado 6 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
 
-- A) 18 cm²
+- A) 10 cm²
 - B) 9 cm²
-- C) 10 cm²
-- D) 27 cm²
-- E) −72 cm²
+- C) 7 cm²
+- D) 18 cm²
+- E) 27 cm²
 
 **Resposta:** B
 
@@ -735,11 +735,11 @@ Três retas paralelas cortam duas transversais. Na primeira transversal, os segm
 ### 16
 Um quadrado de lado 12 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
 
-- A) 72 cm²
-- B) 108 cm²
+- A) 38 cm²
+- B) 72 cm²
 - C) 36 cm²
-- D) 38 cm²
-- E) −288 cm²
+- D) 34 cm²
+- E) 108 cm²
 
 **Resposta:** C
 

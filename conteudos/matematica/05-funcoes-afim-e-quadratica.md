@@ -17,10 +17,10 @@ Lei de formação, gráficos, zeros, vértice, máximos e mínimos e aplicaçõe
 Dada a função f(x) = 4x + 9, qual é o valor de f(0)?
 
 - A) 13
-- B) 4
-- C) −9
+- B) 14
+- C) 36
 - D) 9
-- E) 36
+- E) 4
 
 **Resposta:** D
 
@@ -107,11 +107,11 @@ Em uma cidade, a corrida de táxi custa R$ 4,50 de bandeirada mais R$ 2,00 por q
 ### 8
 Qual é o zero (raiz) da função f(x) = −4x + 20?
 
-- A) −4
-- B) 20
+- A) 4
+- B) 6
 - C) 5
-- D) −5
-- E) 6
+- D) 20
+- E) 7
 
 **Resposta:** C
 
@@ -121,10 +121,10 @@ Qual é o zero (raiz) da função f(x) = −4x + 20?
 O gráfico de uma função afim passa pelos pontos (0, −3) e (2, 1). Qual é a taxa de variação (coeficiente angular) dessa função?
 
 - A) 2
-- B) −3
-- C) 3
-- D) 1/2
-- E) −2
+- B) 1/2
+- C) 5
+- D) 4
+- E) 3
 
 **Resposta:** A
 
@@ -149,7 +149,7 @@ Dada a função f(x) = 2x − 2, qual é o valor de f(8)?
 - A) 14
 - B) 12
 - C) 8
-- D) −14
+- D) 28
 - E) 18
 
 **Resposta:** A
@@ -172,10 +172,10 @@ Qual é o zero (raiz) da função f(x) = −2x − 4?
 ### 13
 O gráfico de uma função afim passa pelos pontos (2, 15) e (3, 20). Qual é a taxa de variação (coeficiente angular) dessa função?
 
-- A) 6
-- B) 15
-- C) −5
-- D) 1/5
+- A) 1/5
+- B) 3
+- C) 6
+- D) 15
 - E) 5
 
 **Resposta:** E
@@ -238,10 +238,10 @@ Qual é o zero (raiz) da função f(x) = 2x + 4?
 O gráfico de uma função afim passa pelos pontos (1, 7) e (4, 13). Qual é a taxa de variação (coeficiente angular) dessa função?
 
 - A) 2
-- B) 5
-- C) 1/2
-- D) 3
-- E) −2
+- B) 3
+- C) 4
+- D) 1/2
+- E) 5
 
 **Resposta:** A
 
@@ -356,11 +356,11 @@ Qual é o valor máximo da função f(x) = −3x² − 18x − 30?
 ### 7
 O lucro de uma empresa, em reais, ao vender x unidades de um produto é dado por L(x) = −x² + 32x − 600. Quantas unidades devem ser vendidas para que o lucro seja máximo?
 
-- A) 60
+- A) 15
 - B) 32
-- C) −344
+- C) 8
 - D) 16
-- E) 8
+- E) 60
 
 **Resposta:** D
 
@@ -422,9 +422,9 @@ Qual é o valor máximo da função f(x) = −2x² − 16x − 37?
 O lucro de uma empresa, em reais, ao vender x unidades de um produto é dado por L(x) = −x² + 32x − 700. Quantas unidades devem ser vendidas para que o lucro seja máximo?
 
 - A) 32
-- B) 70
-- C) −444
-- D) 8
+- B) 24
+- C) 8
+- D) 70
 - E) 16
 
 **Resposta:** E
@@ -461,10 +461,10 @@ Sendo f(x) = 4x − 1 e g(x) = 4x + 4, qual é o valor de f(g(4))?
 Qual é o valor máximo da função f(x) = −2x² − 12x − 12?
 
 - A) 6
-- B) −12
-- C) −6
-- D) 4
-- E) −3
+- B) 5
+- C) 7
+- D) 3
+- E) 4
 
 **Resposta:** A
 
@@ -525,11 +525,11 @@ Sendo f(x) = 5x + 1 e f⁻¹ a sua inversa, qual é o valor de f⁻¹(−2)?
 ### 20
 Qual é o valor mínimo da função f(x) = 2x² + 16x + 38?
 
-- A) −4
+- A) 38
 - B) 6
-- C) 8
-- D) −6
-- E) 38
+- C) 3
+- D) 8
+- E) 5
 
 **Resposta:** B
 

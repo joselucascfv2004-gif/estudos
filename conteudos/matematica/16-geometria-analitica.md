@@ -56,10 +56,10 @@ Qual é o coeficiente angular da reta que passa por (2, −3) e (6, −15)?
 O ponto P(4, k) pertence à reta y = 2x + 5. Qual é o valor de k?
 
 - A) 3
-- B) 18
+- B) 26
 - C) 13
 - D) 11
-- E) −0,5
+- E) 18
 
 **Resposta:** C
 
@@ -94,11 +94,11 @@ Qual é o ponto médio do segmento de extremos A(−2, −3) e B(−1, 5)?
 ### 7
 Qual é o coeficiente angular da reta que passa por (−3, −3) e (2, 12)?
 
-- A) −1/3
-- B) 1/3
+- A) 6
+- B) 15
 - C) 3
-- D) 15
-- E) −3
+- D) −1/3
+- E) 1/3
 
 **Resposta:** C
 
@@ -107,10 +107,10 @@ Qual é o coeficiente angular da reta que passa por (−3, −3) e (2, 12)?
 ### 8
 O ponto P(−1, k) pertence à reta y = −2x. Qual é o valor de k?
 
-- A) 4
-- B) 0,5
-- C) −3
-- D) 1
+- A) 5
+- B) 1
+- C) 0,5
+- D) 4
 - E) 2
 
 **Resposta:** E
@@ -133,11 +133,11 @@ Qual é a distância entre os pontos A(−2, 2) e B(6, 17)?
 ### 10
 Qual é o coeficiente angular da reta que passa por (0, 5) e (3, 8)?
 
-- A) 3
+- A) −1
 - B) 1
 - C) 2
 - D) 4
-- E) −1
+- E) 3
 
 **Resposta:** B
 
@@ -686,7 +686,7 @@ Qual é a distância do ponto P(1, 0) à reta 5x + 12y + 8 = 0?
 - A) 13
 - B) 1
 - C) 2
-- D) −1
+- D) 0
 - E) 0,62
 
 **Resposta:** B

@@ -16,11 +16,11 @@ Operações com matrizes, determinantes (Sarrus e propriedades), matriz inversa 
 ### 1
 Qual é o determinante da matriz A = [−3 3; −5 4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 1
+- A) 5
 - B) 3
-- C) −3
-- D) −27
-- E) 4
+- C) 4
+- D) 1
+- E) 13
 
 **Resposta:** B
 
@@ -30,10 +30,10 @@ Qual é o determinante da matriz A = [−3 3; −5 4]? (Notação: [a b; c d] in
 A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = i − 2j + 3. Qual é o valor de a₂₂?
 
 - A) 1
-- B) 2
-- C) 0
-- D) −1
-- E) −5
+- B) 0
+- C) 3
+- D) 4
+- E) 2
 
 **Resposta:** A
 
@@ -94,11 +94,11 @@ A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = 3i − 2j − 1. Qual é o
 ### 7
 Sendo A = [2 −5; −2 2] e B = [−4 8; −5 −3], qual é o elemento da linha 2 e coluna 1 da matriz 2A − B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 6
-- B) −18
+- A) 0
+- B) 11
 - C) 1
-- D) 3
-- E) −9
+- D) 6
+- E) 3
 
 **Resposta:** C
 
@@ -120,11 +120,11 @@ Dada A = [7 3 8; 6 7 6; 5 2 6], qual é o elemento da linha 1, coluna 3 da trans
 ### 9
 Qual é o determinante da matriz A = [−1 −5; 8 −4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) −5
+- A) 88
 - B) 44
-- C) −36
-- D) −44
-- E) 45
+- C) 45
+- D) 22
+- E) 46
 
 **Resposta:** B
 
@@ -172,11 +172,11 @@ Dada A = [4 8 6; 9 9 3; 9 6 2], qual é o elemento da linha 2, coluna 1 da trans
 ### 13
 Qual é o determinante da matriz A = [3 0; 0 3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) −9
+- A) 6
 - B) 9
-- C) 7
-- D) 6
-- E) 10
+- C) 27
+- D) 10
+- E) 7
 
 **Resposta:** B
 
@@ -291,11 +291,11 @@ Qual é o determinante da matriz [4 0 3; 0 −2 2; 3 −1 4]? (Notação: [a b; 
 ### 2
 Sendo A = [−3 3; −3 5] e B = [0 −2; 2 1], qual é o elemento c₁₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) −3
-- B) −6
-- C) −9
+- A) 12
+- B) 11
+- C) 18
 - D) 9
-- E) 11
+- E) 8
 
 **Resposta:** D
 
@@ -317,10 +317,10 @@ Uma matriz quadrada A de ordem 3 tem determinante 8. Qual é o determinante da m
 ### 4
 Para qual valor de x o determinante da matriz [1 x; 3 3] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 11
-- B) 1,33
-- C) −1
-- D) 3
+- A) 4
+- B) 11
+- C) 3
+- D) 1,33
 - E) 1
 
 **Resposta:** E
@@ -331,10 +331,10 @@ Para qual valor de x o determinante da matriz [1 x; 3 3] é igual a zero? (Nota�
 Qual é o determinante da matriz [−2 3 −2; −1 4 −2; −3 4 −3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
 - A) 1
-- B) −3
-- C) −1
-- D) 24
-- E) 3
+- B) 4
+- C) 3
+- D) 2
+- E) 24
 
 **Resposta:** A
 
@@ -343,10 +343,10 @@ Qual é o determinante da matriz [−2 3 −2; −1 4 −2; −3 4 −3]? (Nota�
 ### 6
 Sendo A = [−2 3; 5 3] e B = [−1 −3; −2 2], qual é o elemento c₁₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 10
-- B) −9
-- C) 14
-- D) 15
+- A) 15
+- B) 14
+- C) 10
+- D) 18
 - E) 12
 
 **Resposta:** E
@@ -369,11 +369,11 @@ Uma matriz quadrada A de ordem 3 tem determinante −4. Qual é o determinante d
 ### 8
 Para qual valor de x o determinante da matriz [4 x; 4 2] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 8
+- A) 1,5
 - B) 2
-- C) 1
-- D) −2
-- E) 1,5
+- C) 8
+- D) 1
+- E) 3
 
 **Resposta:** B
 
@@ -421,10 +421,10 @@ Uma matriz quadrada A de ordem 3 tem determinante 6. Qual é o determinante da m
 ### 12
 Para qual valor de x o determinante da matriz [4 x; 2 3] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 12
-- B) −6
-- C) 3,5
-- D) 0,5
+- A) 3,5
+- B) 0,5
+- C) 18
+- D) 12
 - E) 6
 
 **Resposta:** E
@@ -435,10 +435,10 @@ Para qual valor de x o determinante da matriz [4 x; 2 3] é igual a zero? (Nota�
 Qual é o determinante da matriz [2 −3 3; 2 −3 −2; 3 −1 4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
 - A) 35
-- B) 37
-- C) −24
-- D) −35
-- E) 31
+- B) 31
+- C) 34
+- D) 37
+- E) 36
 
 **Resposta:** A
 
@@ -473,10 +473,10 @@ Uma matriz quadrada A de ordem 3 tem determinante −3. Qual é o determinante d
 ### 16
 Para qual valor de x o determinante da matriz [4 x; 5 5] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) 1,25
-- B) 1,8
-- C) 20
-- D) −4
+- A) 20
+- B) 2
+- C) 1,8
+- D) 1,25
 - E) 4
 
 **Resposta:** E
@@ -525,11 +525,11 @@ Uma matriz quadrada A de ordem 2 tem determinante −3. Qual é o determinante d
 ### 20
 Para qual valor de x o determinante da matriz [3 x; 4 4] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
 
-- A) −3
+- A) 1,33
 - B) 3
-- C) 12
-- D) 1,75
-- E) 1,33
+- C) 1,75
+- D) 2
+- E) 12
 
 **Resposta:** B
 
@@ -605,11 +605,11 @@ A e B são matrizes quadradas de ordem 3 com det A = 2 e det B = 3. Qual é o va
 ### 6
 No sistema { 3x + 3y = −6 ; 4x + 2y = 0 }, use a regra de Cramer para encontrar x.
 
-- A) −2
-- B) −6
+- A) 1
+- B) 4
 - C) 2
-- D) 3
-- E) −4
+- D) 5
+- E) 3
 
 **Resposta:** C
 
@@ -645,10 +645,10 @@ A e B são matrizes quadradas de ordem 3 com det A = 6 e det B = 2. Qual é o va
 No sistema { 3x + 5y = 4 ; 5x + 2y = 13 }, use a regra de Cramer para encontrar x.
 
 - A) 3
-- B) −19
-- C) −1
-- D) 2
-- E) −3
+- B) 4
+- C) 2
+- D) 5
+- E) 1
 
 **Resposta:** A
 
@@ -684,10 +684,10 @@ A e B são matrizes quadradas de ordem 3 com det A = −3 e det B = −1. Qual �
 No sistema { 2x + 5y = 26 ; 4x − y = 8 }, use a regra de Cramer para encontrar x.
 
 - A) 3
-- B) −3
+- B) 7
 - C) 4
-- D) −22
-- E) 7
+- D) 2
+- E) 5
 
 **Resposta:** A
 
@@ -748,11 +748,11 @@ A e B são matrizes quadradas de ordem 3 com det A = 5 e det B = 2. Qual é o va
 ### 17
 No sistema { 5x + 2y = 37 ; 4x + 3y = 38 }, use a regra de Cramer para encontrar x.
 
-- A) 11
-- B) 7
+- A) 3
+- B) 11
 - C) 5
 - D) 6
-- E) −5
+- E) 7
 
 **Resposta:** C
 

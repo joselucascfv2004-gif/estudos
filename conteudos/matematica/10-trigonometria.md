@@ -512,11 +512,11 @@ Qual é o período da função f(x) = sen(8x)?
 ### 19
 Qual é o valor máximo da função f(x) = 1 + 5·sen(x)?
 
-- A) 5
+- A) 16
 - B) 6
-- C) 16
-- D) 1
-- E) −4
+- C) 3
+- D) 5
+- E) 1
 
 **Resposta:** B
 

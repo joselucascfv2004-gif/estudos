@@ -100,6 +100,8 @@ export function montar(rng, spec, totalAlternativas = 5) {
   const tentar = (v) => {
     if (alternativas.length >= totalAlternativas) return;
     if (v == null || (typeof v === 'number' && !Number.isFinite(v))) return;
+    // distrator negativo para grandeza positiva não engana ninguém
+    if (typeof v === 'number' && typeof spec.r === 'number' && spec.r > 0 && v < 0) return;
     const s = f(v);
     if (vistos.has(s)) return;
     vistos.add(s);
@@ -117,7 +119,12 @@ export function montar(rng, spec, totalAlternativas = 5) {
   if (alternativas.length < totalAlternativas) {
     throw new Error(`Distratores insuficientes para: ${spec.e.slice(0, 60)}`);
   }
-  const ordem = rng.shuffle(alternativas.map((_, i) => i));
+  let ordem = rng.shuffle(alternativas.map((_, i) => i));
+  // Certo/Errado e Verdadeiro/Falso ficam sempre na mesma ordem
+  const fixa = ['Verdadeira', 'Falsa', 'Verdadeiro', 'Falso', 'Certo', 'Errado'];
+  if (alternativas.length === 2 && alternativas.every((a) => fixa.includes(a))) {
+    ordem = [0, 1].sort((a, b) => fixa.indexOf(alternativas[a]) - fixa.indexOf(alternativas[b]));
+  }
   return {
     e: limpar(spec.e),
     a: ordem.map((i) => limpar(alternativas[i])),
