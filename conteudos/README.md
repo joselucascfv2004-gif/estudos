@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4040 questões** em **74 tópicos**.
+**4190 questões** em **77 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -157,6 +157,23 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
 | [Leitura, vocabulário e gramática em contexto](espanhol/01-leitura-e-vocabulario.md) | ENEM, Militares | 17 | 17 | 16 |
+
+## 🎨 Artes e Educação Física — 50 questões
+
+*Linguagens e Códigos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Arte, cultura e práticas corporais](artes/01-artes-e-educacao-fisica.md) | ENEM | 17 | 17 | 16 |
+
+## ✍️ Redação — 100 questões
+
+*Redação*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Competências do ENEM e estrutura do texto](redacao/01-competencias-e-estrutura.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Coesão, argumentação e repertório](redacao/02-coesao-argumentacao-e-repertorio.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
