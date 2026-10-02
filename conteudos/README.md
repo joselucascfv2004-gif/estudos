@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**2390 questões** em **41 tópicos**.
+**2640 questões** em **46 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -44,15 +44,20 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 20 | 20 | 20 |
 
-## ⚗️ Química — 180 questões
+## ⚗️ Química — 430 questões
 
 *Ciências da Natureza*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
+| [Atomística e tabela periódica](quimica/01-atomistica-e-tabela-periodica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Ligações químicas, funções inorgânicas e reações](quimica/02-ligacoes-e-funcoes-inorganicas.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Química orgânica](quimica/05-quimica-organica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Físico-química (conceitos)](quimica/06-fisico-quimica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Química ambiental, separação de misturas e materiais](quimica/08-quimica-ambiental.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## 🧬 Biologia — 350 questões
 
