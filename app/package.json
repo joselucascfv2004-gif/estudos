@@ -31,7 +31,7 @@
     "conteudo": "node ../scripts/gerar-questoes.mjs && node ../scripts/balancear-gabaritos.mjs && node ../scripts/compilar-conteudos.mjs",
     "typecheck": "tsc --noEmit",
     "export:web": "expo export --platform web",
-    "atualizar-app": "npm run conteudo && npx eas-cli update --channel preview --non-interactive --message \"Atualização de conteúdo\""
+    "atualizar-app": "npm run conteudo && npx eas-cli update --channel preview --environment preview --non-interactive --message \"Atualização de conteúdo\""
   },
   "private": true
 }
