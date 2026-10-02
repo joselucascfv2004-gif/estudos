@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**1800 questões** em **30 tópicos**.
+**2040 questões** em **34 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -43,6 +43,24 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Termologia](fisica/05-termologia.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 20 | 20 | 20 |
+
+## ⚗️ Química — 180 questões
+
+*Ciências da Natureza*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 20 | 20 | 20 |
+
+## 🌎 Geografia — 60 questões
+
+*Ciências Humanas*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Cartografia](geografia/01-cartografia.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
