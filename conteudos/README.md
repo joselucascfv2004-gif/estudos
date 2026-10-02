@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**3790 questões** em **69 tópicos**.
+**3890 questões** em **71 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -131,6 +131,15 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Pontuação, ortografia e acentuação](portugues/04-pontuacao-ortografia-acentuacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Semântica e figuras de linguagem](portugues/05-semantica-e-figuras-de-linguagem.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Funções da linguagem, gêneros textuais e variação linguística](portugues/06-funcoes-generos-e-variacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+
+## 📚 Literatura — 100 questões
+
+*Linguagens e Códigos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Do Quinhentismo ao Simbolismo](literatura/01-quinhentismo-ao-simbolismo.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Do Pré-Modernismo à literatura contemporânea](literatura/02-pre-modernismo-ao-contemporaneo.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
