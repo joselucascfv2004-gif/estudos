@@ -312,7 +312,7 @@ A probabilidade de chover amanhã em uma cidade é de 30% e, independentemente d
 
 **Resposta:** C
 
-**Explicação:** Eventos independentes: P(A e B) = P(A)·P(B) = 0,3 × 0,25 = 0,08 = 7,5%.
+**Explicação:** Eventos independentes: P(A e B) = P(A)·P(B) = 0,3 × 0,25 = 0,075 = 7,5%.
 
 ### 4
 Em uma turma de 40 alunos, 11 jogam futebol, 15 jogam vôlei e 7 jogam os dois esportes. Escolhendo um aluno ao acaso, qual é a probabilidade de ele jogar futebol ou vôlei?
@@ -468,7 +468,7 @@ A probabilidade de chover amanhã em uma cidade é de 50% e, independentemente d
 
 **Resposta:** E
 
-**Explicação:** Eventos independentes: P(A e B) = P(A)·P(B) = 0,5 × 0,75 = 0,38 = 37,5%.
+**Explicação:** Eventos independentes: P(A e B) = P(A)·P(B) = 0,5 × 0,75 = 0,375 = 37,5%.
 
 ### 16
 Em uma turma de 100 alunos, 26 jogam futebol, 18 jogam vôlei e 13 jogam os dois esportes. Escolhendo um aluno ao acaso, qual é a probabilidade de ele jogar futebol ou vôlei?

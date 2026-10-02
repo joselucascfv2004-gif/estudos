@@ -268,7 +268,7 @@ const probabilidade = {
           e: `A probabilidade de chover amanhã em uma cidade é de ${a}% e, independentemente disso, a probabilidade de faltar energia é de ${b}%. Qual é a probabilidade de acontecerem as duas coisas?`,
           r: `${num((a * b) / 100)}%`,
           d: [`${num(a + b)}%`, `${num(Math.abs(a - b) || 5)}%`, `${num((a * b) / 1000)}%`, `${num(a + b - (a * b) / 100)}%`],
-          x: `Eventos independentes: P(A e B) = P(A)·P(B) = ${num(a / 100)} × ${num(b / 100)} = ${num((a * b) / 10000)} = ${num((a * b) / 100)}%.`,
+          x: `Eventos independentes: P(A e B) = P(A)·P(B) = ${num(a / 100)} × ${num(b / 100)} = ${String((a * b) / 10000).replace('.', ',')} = ${num((a * b) / 100)}%.`,
         };
       },
       (r) => {
