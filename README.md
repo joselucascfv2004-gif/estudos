@@ -55,21 +55,59 @@ autorais das bancas e dos sites que as organizam.
 Se você quiser incluir questões reais de provas antigas (por exemplo, as do ENEM, que o INEP publica),
 basta adicioná-las nos arquivos Markdown com a fonte correta (veja abaixo).
 
-## Como rodar no celular
+## Como instalar no celular
 
-Pré-requisitos: [Node.js](https://nodejs.org) 20 ou superior e o app **Expo Go** no celular
-(Play Store / App Store).
+O app ainda não está na Play Store nem na App Store. Há duas formas de colocá-lo no celular.
+As duas exigem um computador (Windows, Mac ou Linux) só para a preparação.
 
-```bash
-cd app
-npm install
-npx expo start
-```
+### Preparação no computador (uma vez só)
 
-Escaneie o QR Code com o Expo Go (Android) ou com a câmera (iPhone). O celular e o computador precisam
-estar na mesma rede Wi-Fi.
+1. Instale o **Node.js** (versão "LTS") em <https://nodejs.org>.
+2. Baixe este repositório: no GitHub, escolha a branch com o código no seletor de branches,
+   clique em **Code → Download ZIP** e descompacte a pasta.
+3. Abra um terminal dentro da pasta `app` (no Windows: abra a pasta `app`, clique na barra de
+   endereço, digite `cmd` e aperte Enter) e rode:
 
-Outros comandos (dentro de `app/`):
+   ```bash
+   npm install
+   ```
+
+### Opção 1 — Instalar de verdade no Android (APK)
+
+O app fica instalado como qualquer outro e funciona sem o computador.
+
+1. Crie uma conta gratuita em <https://expo.dev/signup>.
+2. No terminal, dentro da pasta `app`, rode:
+
+   ```bash
+   npx eas-cli login
+   npx eas-cli build -p android --profile preview
+   ```
+
+   Responda **Y** (sim) às perguntas. O app é montado nos servidores da Expo, o que costuma
+   levar de 10 a 30 minutos no plano gratuito.
+3. No fim aparece um **link e um QR Code**. Abra no celular Android, baixe o arquivo `.apk` e toque
+   nele para instalar. Se o Android pedir, permita "instalar apps de fontes desconhecidas" para o
+   navegador.
+
+No iPhone, a instalação permanente exige uma conta paga de desenvolvedor da Apple. Por isso, no
+iPhone use a Opção 2.
+
+### Opção 2 — Testar pelo Expo Go (Android e iPhone)
+
+É mais rápido, mas o app só abre enquanto o computador estiver ligado com o comando rodando.
+
+1. Instale o app **Expo Go** no celular (Play Store / App Store).
+2. No terminal, dentro da pasta `app`, rode:
+
+   ```bash
+   npx expo start
+   ```
+
+3. Escaneie o QR Code que aparece: no Android, pelo próprio Expo Go; no iPhone, pela câmera.
+   O celular e o computador precisam estar na **mesma rede Wi-Fi**.
+
+### Outros comandos (dentro de `app/`)
 
 ```bash
 npm run web          # abre no navegador
@@ -77,9 +115,6 @@ npm run typecheck    # checa os tipos TypeScript
 npm run conteudo     # regenera e recompila o banco de questões
 npm run export:web   # gera a versão web estática em dist/
 ```
-
-Para gerar um APK ou publicar nas lojas, use o [EAS Build](https://docs.expo.dev/build/introduction/)
-(`npx eas build -p android`).
 
 ## Estrutura do repositório
 
