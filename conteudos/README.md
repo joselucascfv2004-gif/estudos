@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**3890 questões** em **71 tópicos**.
+**4040 questões** em **74 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -140,6 +140,23 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Do Quinhentismo ao Simbolismo](literatura/01-quinhentismo-ao-simbolismo.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Do Pré-Modernismo à literatura contemporânea](literatura/02-pre-modernismo-ao-contemporaneo.md) | ENEM, Militares | 17 | 17 | 16 |
+
+## 🇬🇧 Inglês — 100 questões
+
+*Linguagens e Códigos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Leitura e interpretação de textos](ingles/01-leitura-e-interpretacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Gramática e vocabulário](ingles/02-gramatica-e-vocabulario.md) | Militares, Concursos | 17 | 17 | 16 |
+
+## 🇪🇸 Espanhol — 50 questões
+
+*Linguagens e Códigos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Leitura, vocabulário e gramática em contexto](espanhol/01-leitura-e-vocabulario.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
