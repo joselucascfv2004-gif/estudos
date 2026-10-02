@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4440 questões** em **82 tópicos**.
+**4640 questões** em **86 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -206,3 +206,21 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Produtos bancários e mercado financeiro](conhecimentos-bancarios/02-produtos-e-mercado-financeiro.md) | Concursos | 17 | 17 | 16 |
 | [Lavagem de dinheiro, compliance e proteção de dados](conhecimentos-bancarios/03-pld-compliance-e-etica.md) | Concursos | 17 | 17 | 16 |
 | [Vendas, negociação e atendimento](conhecimentos-bancarios/04-vendas-negociacao-e-atendimento.md) | Concursos | 17 | 17 | 16 |
+
+## 💻 Informática — 150 questões
+
+*Concursos Públicos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Hardware e sistemas operacionais](informatica/01-hardware-e-sistemas-operacionais.md) | Concursos, Militares | 17 | 17 | 16 |
+| [Editores de texto e planilhas](informatica/02-editores-e-planilhas.md) | Concursos | 17 | 17 | 16 |
+| [Internet, redes e segurança da informação](informatica/03-internet-redes-e-seguranca.md) | Concursos, Militares | 17 | 17 | 16 |
+
+## ⚖️ Ética e Administração Pública — 50 questões
+
+*Concursos Públicos*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
