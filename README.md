@@ -107,12 +107,26 @@ iPhone use a Opção 2.
 3. Escaneie o QR Code que aparece: no Android, pelo próprio Expo Go; no iPhone, pela câmera.
    O celular e o computador precisam estar na **mesma rede Wi-Fi**.
 
+### Atualizações automáticas
+
+O app usa o **EAS Update** (gratuito no plano free da Expo). Depois que você instala um APK gerado a
+partir desta versão, as mudanças de questões e telas chegam sozinhas: o app baixa a novidade ao abrir
+e passa a usá-la na próxima vez que for aberto. Para publicar uma atualização (dentro de `app/`):
+
+```bash
+npm run atualizar-app
+```
+
+Só é preciso gerar e instalar um APK novo quando houver mudança nativa (pacotes nativos ou
+configurações do `app.json`).
+
 ### Outros comandos (dentro de `app/`)
 
 ```bash
 npm run web          # abre no navegador
 npm run typecheck    # checa os tipos TypeScript
 npm run conteudo     # regenera e recompila o banco de questões
+npm run atualizar-app  # publica a atualização para os celulares
 npm run export:web   # gera a versão web estática em dist/
 ```
 

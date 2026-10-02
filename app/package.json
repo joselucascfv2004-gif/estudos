@@ -11,6 +11,7 @@
     "expo-notifications": "~57.0.21",
     "expo-router": "~57.0.24",
     "expo-status-bar": "~57.0.1",
+    "expo-updates": "~57.0.24",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "react-native": "0.86.3",
@@ -29,7 +30,8 @@
     "web": "expo start --web",
     "conteudo": "node ../scripts/gerar-questoes.mjs && node ../scripts/balancear-gabaritos.mjs && node ../scripts/compilar-conteudos.mjs",
     "typecheck": "tsc --noEmit",
-    "export:web": "expo export --platform web"
+    "export:web": "expo export --platform web",
+    "atualizar-app": "npm run conteudo && npx eas-cli update --channel preview --non-interactive --message \"Atualização de conteúdo\""
   },
   "private": true
 }
