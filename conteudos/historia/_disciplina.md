@@ -8,4 +8,4 @@ ordem: 5
 
 # 🏛️ História
 
-História Geral e História do Brasil.
+História Geral e História do Brasil, da Antiguidade aos dias atuais.

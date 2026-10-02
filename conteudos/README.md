@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**2640 questões** em **46 tópicos**.
+**2890 questões** em **51 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -72,6 +72,18 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Fisiologia humana](biologia/05-fisiologia-humana.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Seres vivos: classificação, botânica e zoologia](biologia/06-seres-vivos.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Saúde, doenças e parasitoses](biologia/07-saude-e-doencas.md) | ENEM, Militares | 17 | 17 | 16 |
+
+## 🏛️ História — 250 questões
+
+*Ciências Humanas*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Antiguidade e Idade Média](historia/01-antiguidade-e-idade-media.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Idade Moderna](historia/02-idade-moderna.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Revoluções e século XIX](historia/03-revolucoes-e-seculo-xix.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Século XX e mundo contemporâneo](historia/04-seculo-xx.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Brasil Colônia](historia/05-brasil-colonia.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## 🌎 Geografia — 60 questões
 
