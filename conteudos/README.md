@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**3290 questões** em **59 tópicos**.
+**3490 questões** em **63 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -100,6 +100,24 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [População e urbanização](geografia/04-populacao-e-urbanizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Agropecuária, indústria, energia e transportes](geografia/05-economia-agropecuaria-industria-energia.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Geopolítica e globalização](geografia/06-geopolitica-e-globalizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+
+## 🦉 Filosofia — 100 questões
+
+*Ciências Humanas*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Filosofia antiga e medieval](filosofia/01-filosofia-antiga-e-medieval.md) | ENEM | 17 | 17 | 16 |
+| [Filosofia moderna e contemporânea](filosofia/02-filosofia-moderna-e-contemporanea.md) | ENEM | 17 | 17 | 16 |
+
+## 👥 Sociologia — 100 questões
+
+*Ciências Humanas*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Sociologia clássica e conceitos fundamentais](sociologia/01-sociologia-classica.md) | ENEM | 17 | 17 | 16 |
+| [Temas contemporâneos da Sociologia](sociologia/02-temas-contemporaneos.md) | ENEM, Concursos | 17 | 17 | 16 |
 
 ## 🧩 Raciocínio Lógico — 240 questões
 
