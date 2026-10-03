@@ -2,22 +2,22 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4734 questões** em **90 tópicos**.
+**4679 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## Matemática — 1010 questões
+## Matemática — 955 questões
 
 *Matemática e suas Tecnologias*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
 | [Números e operações](matematica/01-numeros-e-operacoes.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
-| [Porcentagem](matematica/02-porcentagem.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Razão, proporção e regra de três](matematica/03-razao-proporcao-regra-de-tres.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Equações, inequações e sistemas](matematica/04-equacoes-e-sistemas.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Funções afim e quadrática](matematica/05-funcoes-afim-e-quadratica.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Função exponencial e logaritmo](matematica/06-exponencial-e-logaritmo.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
+| [Porcentagem](matematica/02-porcentagem.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Razão, proporção e regra de três](matematica/03-razao-proporcao-regra-de-tres.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Equações, inequações e sistemas](matematica/04-equacoes-e-sistemas.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Funções afim e quadrática](matematica/05-funcoes-afim-e-quadratica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Função exponencial e logaritmo](matematica/06-exponencial-e-logaritmo.md) | ENEM, Militares, Concursos | 15 | 15 | 15 |
 | [Progressões aritméticas e geométricas](matematica/07-progressoes.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 | [Geometria plana](matematica/08-geometria-plana.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 | [Geometria espacial](matematica/09-geometria-espacial.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |

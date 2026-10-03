@@ -1,6 +1,5 @@
 // Química: cálculos (estequiometria, soluções, físico-química quantitativa).
-import { arred, num } from './util.mjs';
-import { sup } from './matematica-1.mjs';
+import { arred, num , sup } from './util.mjs';
 
 const PROVAS = ['ENEM', 'Militares'];
 const u = (un) => (v) => `${num(v)} ${un}`;
