@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**5148 questões** em **130 tópicos**.
+**5266 questões** em **134 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 1235 questões
+## ENEM — provas oficiais — 1353 questões
 
 *Provas anteriores*
 
@@ -275,3 +275,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2024 — Ciências da Natureza](enem-oficial/42-enem-2024-ciencias-da-natureza.md) | ENEM | 13 | 9 | 1 |
 | [ENEM 2024 — Linguagens](enem-oficial/43-enem-2024-linguagens.md) | ENEM | 15 | 17 | 4 |
 | [ENEM 2024 — Ciências Humanas](enem-oficial/44-enem-2024-ciencias-humanas.md) | ENEM | 26 | 15 | 1 |
+| [ENEM 2013 — Matemática](enem-oficial/45-enem-2013-matematica.md) | ENEM | 10 | 11 | 4 |
+| [ENEM 2013 — Linguagens](enem-oficial/46-enem-2013-linguagens.md) | ENEM | 11 | 11 | 4 |
+| [ENEM 2013 — Ciências Humanas](enem-oficial/47-enem-2013-ciencias-humanas.md) | ENEM | 13 | 14 | 9 |
+| [ENEM 2013 — Ciências da Natureza](enem-oficial/48-enem-2013-ciencias-da-natureza.md) | ENEM | 12 | 14 | 5 |

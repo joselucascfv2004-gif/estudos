@@ -1,0 +1,144 @@
+## 45-enem-2013-matematica.md | 2013 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2013 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações e expoentes foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Vazão e produtividade:** descubra quanto cada unidade (ralo, máquina, pessoa) faz por hora e multiplique.
+- **Áreas semelhantes:** se o lado triplica, a área fica 9 vezes maior.
+- **PA:** soma = (primeiro + último) × quantidade ÷ 2.
+- **Probabilidade condicional:** o "sabendo que" muda o total de casos possíveis.
+- **Logaritmos e meia-vida:** use log para descobrir quantas vezes a quantidade cai pela metade.
+- **Combinação:** para comparar apostas, conte quantas combinações de 6 números cada cartela cobre.
+
+@143 f matematica/razao-proporcao-regra-de-tres
+x: Cada ralo escoa 900 ÷ (6 × 6) = 25 m³ por hora. O novo reservatório precisa escoar 500 m³ em 4 h, ou 125 m³ por hora: 125 ÷ 25 = 5 ralos.
+@144 f matematica/geometria-plana
+a: N/9 | N/6 | N/3 | 3N | 9N
+x: Triplicando o lado, a área de cada placa fica 3² = 9 vezes maior. Para cobrir a mesma área S, são necessárias 9 vezes menos placas: X = N/9.
+@146 f matematica/porcentagem
+x: O lucro foi 34 000 − 26 000 = R$ 8 000. O imposto é 15% do lucro: 0,15 × 8 000 = R$ 1 200,00.
+@147 f matematica/razao-proporcao-regra-de-tres
+x: São 1 + 4 + 2 = 7 partes, e o cimento é 1 delas: 14 ÷ 7 = 2 m³.
+@148 f matematica/estatistica
+e: Cinco empresas de gêneros alimentícios encontram-se à venda. Um empresário, almejando ampliar os seus investimentos, deseja comprar uma dessas empresas. Para escolher qual delas irá comprar, analisa o lucro (em milhões de reais) de cada uma delas, em função de seus tempos (em anos) de existência, decidindo comprar a empresa que apresente o maior lucro médio anual. || O quadro apresenta o lucro (em milhões de reais) acumulado ao longo do tempo (em anos) de existência de cada empresa. || Quadro (empresa: lucro, em milhões de reais; tempo, em anos): F: 24; 3,0. G: 24; 2,0. H: 25; 2,5. M: 15; 1,5. P: 9; 1,5. || O empresário decidiu comprar a empresa
+x: Lucro médio anual = lucro ÷ tempo. F: 8; G: 12; H: 10; M: 10; P: 6. O maior é o da empresa G.
+@151 f matematica/porcentagem
+x: Com a remarcação, o produto custa 50 × 0,8 = R$ 40. O cartão dá mais 10% sobre isso: 0,1 × 40 = R$ 4,00 de economia.
+@159 f matematica/grandezas-medidas-escalas
+x: Seis horas têm 21 600 segundos. Com uma gota a cada 3 s, são 7 200 gotas × 0,2 mL = 1 440 mL ≈ 1,4 L.
+@163 f matematica/grandezas-medidas-escalas
+x: 355 mL = 35,5 cL. Dividindo por 2,95 cL por onça: 35,5 ÷ 2,95 ≈ 12,03 fl oz.
+@174 f matematica/porcentagem, matematica/geometria-plana
+x: Cada lado fica com 80% da medida, então a área fica com 0,8 × 0,8 = 0,64 = 64% da original. A redução é de 36%.
+@152 f matematica/geometria-plana
+s: conforme a figura. Cada rolo => conforme a figura (o terreno é um retângulo de 190 m por 81 m, e o rio margeia um dos lados de 190 m). Cada rolo
+s: || 190 m Rio 81 m 81 m A quantidade => || A quantidade
+x: A cerca vai em três lados: 190 + 81 + 81 = 352 m. Com rolos de 48 m: 352 ÷ 48 ≈ 7,3. São necessários 8 rolos.
+@137 m matematica/exponencial-e-logaritmo
+a: S = k · M | S = k · M^(1/3) | S = k^(1/3) · M^(1/3) | S = k^(1/3) · M^(2/3) | S = k^(1/3) · M²
+x: "O cubo de S é proporcional ao quadrado de M": S³ = k · M². Tirando a raiz cúbica dos dois lados: S = k^(1/3) · M^(2/3).
+@145 m matematica/geometria-espacial
+s: || Ilha de lazer Piscina R r O Considere 3 como valor aproximado para p. => || Considere 3 como valor aproximado para π.
+x: A piscina tem 12 m³ com 1 m de profundidade: 3R² = 12, então R² = 4. A água restante é 3(R² − r²) ≥ 4, ou seja, R² − r² ≥ 4/3 e r² ≤ 4 − 1,33 = 2,67. Logo r ≤ 1,63 m, aproximadamente 1,6 m.
+@153 m matematica/razao-proporcao-regra-de-tres
+x: A carga máxima equivale a 1 500 telhas ou 1 200 tijolos. 900 telhas ocupam 900/1 500 = 60% da capacidade. Sobram 40%, o que corresponde a 0,4 × 1 200 = 480 tijolos.
+@154 m matematica/progressoes
+e: As projeções para a produção de arroz no período de 2012 - 2021, em uma determinada região produtora, apontam para uma perspectiva de crescimento constante da produção anual. O quadro apresenta a quantidade de arroz, em toneladas, que será produzida nos primeiros anos desse período, de acordo com essa projeção. || Quadro (ano: projeção da produção, em toneladas): 2012: 50,25. 2013: 51,50. 2014: 52,75. 2015: 54,00. || A quantidade total de arroz, em toneladas, que deverá ser produzida no período de 2012 a 2021 será de
+x: É uma PA de razão 1,25. Em 2021 (10º termo): 50,25 + 9 × 1,25 = 61,50. Soma: (50,25 + 61,50) × 10 ÷ 2 = 558,75 t.
+@155 m matematica/probabilidade
+a: 1/2 | 5/8 | 1/4 | 5/6 | 5/14
+x: Falam pelo menos uma língua 1 200 − 300 = 900 alunos, então 600 + 500 − 900 = 200 falam as duas. Não falam inglês 600 alunos; desses, falam espanhol 500 − 200 = 300. Probabilidade: 300/600 = 1/2.
+@158 m matematica/analise-combinatoria
+a: 62⁶/10⁶ | 62!/10! | (62! · 4!)/(10! · 56!) | 62! − 10! | 62⁶ − 10⁶
+x: Antes: 10 opções em cada um dos 6 dígitos, 10⁶ senhas. Depois: 26 maiúsculas + 26 minúsculas + 10 algarismos = 62 opções por dígito, 62⁶ senhas. O coeficiente é 62⁶/10⁶.
+@164 m matematica/equacoes-e-sistemas
+s: (verdeamarelo-vermelho) => (verde-amarelo-vermelho)
+s: igual a 2 do tempo => igual a 2/3 do tempo
+x: Verde = X e vermelho = V, com X = (2/3)V, então V = 3X/2. O ciclo é Y = X + 5 + 3X/2. Multiplicando por 2: 2Y = 5X + 10, ou seja, 5X − 2Y + 10 = 0.
+@165 m matematica/funcoes-afim-e-quadratica
+s: T(t) = − t 2 + 400 => T(t) = − t²/4 + 400
+x: A porta abre quando T = 39: −t²/4 + 400 = 39, então t²/4 = 361, t² = 1 444 e t = 38 minutos.
+@166 m matematica/progressoes
+x: Os ciclos começam em 1755, 1766, 1777... (de 11 em 11 anos). De 1755 até 2101 passam 346 anos, e 346 ÷ 11 ≈ 31,5. Ou seja, 31 ciclos completos já terminaram e 2101 está no 32º ciclo.
+@177 m matematica/razao-proporcao-regra-de-tres
+e: Um comerciante visita um centro de vendas para fazer cotação de preços dos produtos que deseja comprar. Verifica que se aproveita 100% da quantidade adquirida de produtos do tipo A, mas apenas 90% de produtos do tipo B. Esse comerciante deseja comprar uma quantidade de produtos, obtendo o menor custo/benefício em cada um deles. O quadro mostra o preço por quilograma, em reais, de cada produto comercializado. || Quadro (produto: preço por kg do tipo A; preço por kg do tipo B, em reais): Arroz: 2,00; 1,70. Feijão: 4,50; 4,10. Soja: 3,80; 3,50. Milho: 6,00; 5,30. || Os tipos de arroz, feijão, soja e milho que devem ser escolhidos pelo comerciante são, respectivamente,
+x: Como só 90% do tipo B é aproveitado, o custo real do B é o preço ÷ 0,9. Arroz: 1,89 < 2,00 (B). Feijão: 4,56 > 4,50 (A). Soja: 3,89 > 3,80 (A). Milho: 5,89 < 6,00 (B). Fica B, A, A, B.
+@179 m matematica/razao-proporcao-regra-de-tres
+s: Dados relativos à produção das vacas Vaca Tempo de lactação (em dias) || Produção média diária de leite (em kg) || Intervalo entre partos (em meses) || Malhada 360 12,0 15 Mamona 310 11,0 12 Maravilha 260 14,0 12 Mateira 310 13,0 13 Mimosa 270 12,0 11 Após => || Quadro (vaca: tempo de lactação, em dias; produção média diária de leite, em kg; intervalo entre partos, em meses): Malhada: 360; 12,0; 15. Mamona: 310; 11,0; 12. Maravilha: 260; 14,0; 12. Mateira: 310; 13,0; 13. Mimosa: 270; 12,0; 11. || Após
+x: Índice = dias × kg por dia ÷ meses. Malhada: 288. Mamona: 284,2. Maravilha: 303,3. Mateira: 310. Mimosa: 294,5. A mais eficiente é a Mateira.
+@175 d matematica/probabilidade
+e: Uma fábrica de parafusos possui duas máquinas, I e II, para a produção de certo tipo de parafuso. || Em setembro, a máquina I produziu 54/100 do total de parafusos produzidos pela fábrica. Dos parafusos produzidos por essa máquina, 25/1 000 eram defeituosos. Por sua vez, 38/1 000 dos parafusos produzidos no mesmo mês pela máquina II eram defeituosos. || O desempenho conjunto das duas máquinas é classificado conforme o quadro, em que P indica a probabilidade de um parafuso escolhido ao acaso ser defeituoso. || Quadro: 0 ≤ P < 2/100: excelente. 2/100 ≤ P < 4/100: bom. 4/100 ≤ P < 6/100: regular. 6/100 ≤ P < 8/100: ruim. 8/100 ≤ P ≤ 1: péssimo. || O desempenho conjunto dessas máquinas, em setembro, pode ser classificado como
+x: P = 0,54 × 0,025 + 0,46 × 0,038 = 0,0135 + 0,01748 ≈ 0,031, ou seja, cerca de 3,1/100. Está entre 2/100 e 4/100: desempenho bom.
+@176 d matematica/analise-combinatoria, matematica/probabilidade
+s: escolhidos. || Quantidade de números escolhidos em uma cartela Preço da cartela (R$) || 6 2,00 7 12,00 8 40,00 9 125,00 10 250,00 Cinco => escolhidos. || Quadro (quantidade de números escolhidos: preço da cartela, em real): 6: 2,00. 7: 12,00. 8: 40,00. 9: 125,00. 10: 250,00. || Cinco
+x: Conte quantas combinações de 6 números cada um cobre. Arthur: 250. Bruno: 41 × C(7,6) + 4 = 41 × 7 + 4 = 291. Caio: 12 × C(8,6) + 10 = 12 × 28 + 10 = 346. Douglas: 4 × C(9,6) = 4 × 84 = 336. Eduardo: 2 × C(10,6) = 2 × 210 = 420. Os maiores são Eduardo e Caio.
+@136 d matematica/funcoes-afim-e-quadratica
+e: A parte interior de uma taça foi gerada pela rotação de uma parábola em torno de um eixo z. || A função real que expressa a parábola, no plano cartesiano, é dada pela lei f(x) = (3/2)x² − 6x + C, onde C é a medida da altura do líquido contido na taça, em centímetros. Sabe-se que o ponto V, o vértice da parábola, está localizado sobre o eixo x. || Nessas condições, a altura do líquido contido na taça, em centímetros, é
+x: O vértice está em xᵥ = −b/2a = 6 ÷ 3 = 2. Como ele fica sobre o eixo x, f(2) = 0: (3/2) × 4 − 12 + C = 0, então 6 − 12 + C = 0 e C = 6 cm.
+@162 d matematica/exponencial-e-logaritmo
+s: M(t) = A · (2,7)kt , onde => M(t) = A · (2,7)^(kt), onde
+s: log10 2. => log₁₀ 2.
+x: Pela meia-vida, (2,7)^(30k) = 1/2. Queremos (2,7)^(kt) = 1/10. Dividindo os logaritmos: kt/(30k) = log(1/10)/log(1/2) = (−1)/(−0,3) ≈ 3,33. Então t = 30 × 3,33 = 100 anos.
+
+## 46-enem-2013-linguagens.md | 2013 | 2 | 2º dia, caderno amarelo | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2013 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Gêneros textuais:** lei e estatuto evitam ambiguidade; microconto surpreende pelo efeito poético; edital informa decisões oficiais.
+- **Coesão:** elipse é a omissão de um termo que o leitor recupera pelo contexto (sujeito oculto).
+- **Literatura:** Parnasianismo (soneto, rigor formal), Machado de Assis (ironia contra o Romantismo), Clarice Lispector (narrador que reflete sobre a escrita).
+- **Variação e humor:** piadas costumam brincar com a forma das palavras ("largato" e "lagarto").
+- **Funções da linguagem:** metalinguística é a que fala do próprio código ou do próprio texto.
+
+@98 f portugues/semantica-e-figuras-de-linguagem
+x: O repórter repete "espremido, empilhado, esmagado" para intensificar a violência física e moral sofrida pelos meninos, que acaba gerando revolta (rancor).
+@100 f portugues/funcoes-generos-e-variacao
+x: O edital informa o tombamento de imóveis, ou seja, a decisão de preservá-los como patrimônio. Quem concorda com a resolução elogia a preservação do patrimônio histórico.
+@101 f portugues/interpretacao-de-texto
+x: O texto relaciona a alimentação ruim (muito sal, açúcar e gordura) e o sedentarismo dos jovens ao aparecimento de doenças crônicas como hipertensão e diabetes.
+@103 f artes/artes-e-educacao-fisica
+x: O jogo tem fim em si mesmo e vem acompanhado de tensão e alegria, diferente da "vida quotidiana". A fruição está no caráter lúdico, que permite experiências fora do comum.
+@108 f artes/artes-e-educacao-fisica
+x: A quadrilha veio dos salões europeus, mas foi adaptada pelo gosto popular brasileiro e ganhou costumes próprios em cada região. É folclórica por expressar tradições e costumes de um povo.
+@113 f portugues/interpretacao-de-texto
+x: O texto defende que a escrita impressa e a tradição oral já traziam consigo aquilo que as novas tecnologias desenvolvem. A escrita é base para o progresso das tecnologias da informação.
+@115 f portugues/interpretacao-de-texto
+x: O texto diz que o hipertexto muda os papéis de autor e leitor e é uma forma de organização que serve tanto para o papel quanto para o meio digital. É um novo modo de leitura e de organização da escrita.
+@123 f portugues/interpretacao-de-texto
+x: O título fala em "comércio da distração": quanto mais o usuário pula de um link para outro, mais as empresas de internet lucram com a falta de atenção das pessoas.
+@131 f portugues/interpretacao-de-texto
+s: possibilitaraparticipaçãodeumnúmeromaiordeautores. => possibilitar a participação de um número maior de autores.
+x: O texto diz que, sem estar cara a cara, o anonimato aumenta a crueldade dos comentários. A perversidade é potencializada por ser difícil identificar o agressor.
+@135 f portugues/interpretacao-de-texto
+x: Castells diz que os movimentos culturais se organizam pelos sistemas de comunicação, como a internet. A queda de Mubarak, organizada pelas redes sociais, confirma que esses sistemas mobilizam e espalham valores.
+@106 f portugues/funcoes-generos-e-variacao v
+x: Expressões como "levanta aí", "se liga aí" e "pode crer" são da linguagem coloquial e dão espontaneidade à letra.
+@110 m literatura/pre-modernismo-ao-contemporaneo
+x: O texto é um microconto: em poucas linhas, a personagem grita "TEATRO!" diante do espelho até quebrá-lo, e o final surpreende pelo efeito poético, sem explicar tudo.
+@111 m literatura/pre-modernismo-ao-contemporaneo
+x: O narrador de Clarice pensa sobre o início do mundo e sobre como começar a escrever. Ele reflete sobre questões existenciais e sobre a construção do próprio texto.
+@112 m portugues/interpretacao-de-texto
+x: O texto I fala dos alimentos com vitamina D; o texto II lembra que o corpo a produz na pele com a luz do sol e questiona se ela é mesmo uma vitamina. O texto II destaca que ela vem mais do próprio corpo do que da comida.
+@114 m portugues/interpretacao-de-texto
+x: Cada retalho da manta lembra uma história contada pela avó. A manta é valiosa porque seus retalhos se ligam às histórias da tradição oral da família.
+@117 m literatura/pre-modernismo-ao-contemporaneo
+x: A partir dos anos 1970, ganhou força uma música ligada à indústria cultural de massa. O rock de Rita Lee ("Ovelha negra") representa esse gênero adaptado ao Brasil.
+@118 m portugues/funcoes-generos-e-variacao
+x: "Pra valer" é uma expressão informal, típica da fala. As outras opções usam linguagem neutra ou formal.
+@121 m portugues/morfologia-e-sintaxe
+x: Em "Supõe-se que fizesse referência...", o sujeito de "fizesse" não aparece: é "o segundo termo" (grippe), que o leitor recupera pelo contexto. Isso é a elipse do sujeito.
+@124 m portugues/semantica-e-figuras-de-linguagem
+x: "Na verdade" introduz uma correção: o autor contesta a ideia comum de que os indígenas são um único povo atrasado e mostra que são centenas de povos com línguas e culturas próprias.
+@126 m portugues/funcoes-generos-e-variacao
+x: Um compadre pergunta sobre a forma da palavra (lagarto ou largato), e o outro responde como se a dúvida fosse sobre qual bicho passou. O humor vem de ele ignorar o conteúdo linguístico da pergunta.
+@133 m literatura/pre-modernismo-ao-contemporaneo
+x: O poema fala do próprio ato de escrever ("escrevo um poema", "não posso escrever este poema") e discute a palavra "rapariga". Falar do próprio fazer artístico é a função metalinguística.
+@134 m portugues/funcoes-generos-e-variacao
+x: Leis precisam ser claras e ter um só sentido. Por isso usam palavras e construções que evitam ambiguidade, como a definição exata de criança e adolescente.
+@99 d literatura/quinhentismo-ao-simbolismo v
+x: O soneto diz que, se pudéssemos ver a dor escondida por trás do rosto, sentiríamos pena de quem hoje invejamos. As pessoas escondem o sofrimento, agindo de forma dissimulada para serem aceitas.
+@105 d literatura/pre-modernismo-ao-contemporaneo v
+x: O poema diz que as gerações futuras tentarão "apagar a tua cor", mas não apagarão "a tua alma". O eu lírico vê a memória negra resistindo à tentativa de embranquecimento cultural.
+@109 d portugues/pontuacao-ortografia-acentuacao
+x: Escrever "dois pontos" por extenso cumpre o papel do sinal: anuncia os exemplos que vêm depois (o político que mente, a publicidade que joga baixo). Ajuda a encadear as ideias.
+@122 d literatura/quinhentismo-ao-simbolismo
+x: O relógio, que antes lembrava a Brás Cubas a morte se aproximando, agora marca "os minutos ganhados" depois do beijo. O tempo concreto desfaz a idealização romântica e mostra o interesse prático do narrador.

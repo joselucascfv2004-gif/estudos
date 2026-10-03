@@ -1,0 +1,171 @@
+## 47-enem-2013-ciencias-humanas.md | 2013 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2013 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2013, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. Gráficos foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Descartes (dúvida metódica), Maquiavel (homem guiado por interesses), Montesquieu (separação dos poderes), Bentham e Foucault (panóptico), Kant (revolução copernicana), Aristóteles (felicidade como finalidade).
+- **História do Brasil:** carta de Caminha e catequese, coroação do Rei do Congo, imigração no Império, abolição pela via legal (Nabuco), política dos governadores, carnaval e disputas sociais.
+- **História geral:** conquista do México, Guerra Civil Espanhola contra o fascismo, fim do apartheid, leis escritas em Roma.
+- **Geografia:** periferização, intermodalidade, caatinga, queda da fecundidade, hidrelétricas na Amazônia, energia eólica.
+- **Sociologia:** trabalho flexível, Marx (base econômica), Indignados e democracia direta, ampliação da cidadania.
+
+@2 f geografia/populacao-e-urbanizacao
+x: A cidade cresce rápido para abrigar a população que chega, e os terrenos bem localizados ficam caros por causa da especulação imobiliária. Quem tem menos renda é empurrado para áreas cada vez mais distantes, e a periferia se expande.
+@3 f geografia/populacao-e-urbanizacao
+x: O título de Paisagem Cultural reconhece o modo como a cidade se misturou com a natureza: morros, mar, floresta e ocupação urbana formam um conjunto único. É essa relação singular entre sociedade e natureza que foi premiada.
+@4 f filosofia/filosofia-moderna-e-contemporanea
+x: Descartes propõe duvidar de tudo o que recebeu como verdadeiro para reconstruir o saber sobre bases firmes. É a dúvida metódica: questionar de forma ampla e profunda as ideias antigas.
+@5 m historia/brasil-colonia
+s: 2001. A carta de Pero Vaz => 2001. || A carta de Pero Vaz
+s: Carta de Pero Vaz de Caminha. In: => > Carta de Pero Vaz de Caminha. In:
+x: Caminha diz que ainda não achou ouro nem prata, mas que "o melhor fruto" da terra será "salvar esta gente". Salvar, na visão da época, era converter os indígenas ao cristianismo: a catequese.
+@6 m historia/idade-moderna
+e: O canto triste dos conquistados: os últimos dias de Tenochtitlán // Nos caminhos jazem dardos quebrados; // os cabelos estão espalhados. // Destelhadas estão as casas, // Vermelhas estão as águas, os rios, como se alguém as tivesse tingido, // Nos escudos esteve nosso resguardo, // mas os escudos não detêm a desolação... || > PINSKY, J. et al. História da América através de textos. São Paulo: Contexto, 2007 (fragmento). || O texto é um registro asteca, cujo sentido está relacionado ao(à)
+x: O poema descreve a derrota de Tenochtitlán, capital asteca, diante dos espanhóis: "nos escudos esteve nosso resguardo, mas os escudos não detêm a desolação". Os astecas resistiram, mas foram vencidos por um poder que se mostrou superior.
+@7 m geografia/populacao-e-urbanizacao
+e: Gráfico: Taxa de fecundidade total – Brasil – 1940-2010. 1940: 6,16. 1950: 6,21. 1960: 6,28. 1970: 5,76. 1980: 4,35. 1991: 2,85. 2000: 2,38. 2010: 1,90. || > IBGE. Censo demográfico 2010: resultados gerais da amostra. Disponível em: ftp://ftp.ibge.gov.br. Acesso em: 12 mar. 2013. || O processo registrado no gráfico gerou a seguinte consequência demográfica:
+x: A fecundidade caiu de cerca de 6 filhos por mulher para menos de 2. Com menos nascimentos, a diferença entre nascimentos e mortes (crescimento vegetativo) diminui. A população ainda cresce, mas mais devagar.
+@8 m historia/seculo-xx
+x: Na Guerra Civil Espanhola (1936-1939), a República enfrentava os militares de Franco, apoiados pela Alemanha nazista e pela Itália fascista. Comunistas, socialistas e liberais se uniram nas Brigadas Internacionais para combater o fascismo.
+@9 f geografia/economia-agropecuaria-industria-energia
+x: O Brasil tem dimensões continentais. Combinar rodovias, ferrovias e hidrovias (intermodalidade) permite vencer as grandes distâncias com custo de transporte menor.
+@10 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Maquiavel, os homens são "ingratos, volúveis, simuladores": ficam ao seu lado enquanto lucram e se revoltam quando o perigo chega. Ele os vê como seres guiados por interesses, de comportamento inconstante.
+@11 m historia/brasil-republica
+x: Na política dos governadores, o presidente apoiava as oligarquias que dominavam cada estado, e elas garantiam a eleição dos deputados aliados ao governo. Isso fortaleceu o domínio de grupos regionais sobre a federação.
+@12 d historia/brasil-republica
+x: As Grandes Sociedades queriam acabar com o entrudo e impor um carnaval "civilizado", inspirado em Veneza, mas o povo não abriu mão de sua brincadeira. A festa virou um campo de disputa entre os costumes populares e o gosto da elite.
+@14 m geografia/biomas-e-questoes-ambientais
+x: Euclides da Cunha descreve a caatinga: árvores sem folhas, galhos secos e retorcidos, espinhos. São plantas xerófilas, adaptadas à falta de água, que perdem as folhas na seca.
+@15 d sociologia/sociologia-classica
+x: Para Marx, as relações de produção (o modo como o trabalho é organizado) formam a estrutura econômica, "fundamento real" sobre o qual se erguem a política e o direito. Ou seja, o trabalho é a base real da produção material da sociedade.
+@16 d sociologia/temas-contemporaneos
+x: No taylorismo e no fordismo, o chefe controlava cada passo do trabalho na fábrica. No trabalho flexível, o trabalhador escolhe onde trabalhar, mas é cobrado por metas e entregas: o controle sai do processo e passa para os resultados.
+@18 m sociologia/temas-contemporaneos
+x: Os filmes mostram a África como lugar de "tribos doidas" e rituais caricatos, ou só com animais. Essa memória enfatiza o exótico e negligencia a riqueza das culturas africanas.
+@19 f geografia/geopolitica-e-globalizacao
+e: Disneylândia // Multinacionais japonesas instalam empresas em Hong-Kong // E produzem com matéria-prima brasileira // Para competir no mercado americano // [...] // Pilhas americanas alimentam eletrodomésticos ingleses na Nova Guiné // Gasolina árabe alimenta automóveis americanos na África do Sul // [...] // Crianças iraquianas fugidas da guerra // Não obtêm visto no consulado americano do Egito // Para entrarem na Disneylândia || > ANTUNES, A. Disponível em: www.radio.uol.com.br. Acesso em: 3 fev. 2013 (fragmento). || Na canção, ressalta-se a coexistência, no contexto internacional atual, das seguintes situações:
+x: Mercadorias, empresas e matérias-primas circulam livremente pelo mundo, mas as crianças iraquianas não conseguem visto. A canção mostra o contraste entre a ampliação das trocas econômicas e a seletividade no movimento de pessoas.
+@21 m geografia/geopolitica-e-globalizacao
+x: Trocar "territórios palestinos" por "Palestina" trata a região como um país, com autoridade própria. Em 2012, a ONU já tinha passado a reconhecer a Palestina como Estado observador. O gesto sinaliza o reconhecimento de uma autoridade jurídica.
+@22 f filosofia/filosofia-moderna-e-contemporanea
+x: Montesquieu quer que "o poder seja contido pelo poder": legislar, executar e julgar ficam com órgãos diferentes, que se fiscalizam. Isso só existe num modelo que impõe limites aos governantes e às instituições.
+@23 m historia/antiguidade-e-idade-media
+x: Na Idade Média, a morte era uma passagem celebrada, com a certeza da vida eterna. Hoje, com a perda do sentimento religioso, ela causa medo. O autor mostra que mudou a forma como a sociedade representa a morte.
+@24 d filosofia/filosofia-moderna-e-contemporanea
+x: No panóptico, o vigia no centro pode ver todos sem ser visto, e o preso se comporta como se estivesse sempre observado. É o poder disciplinar descrito por Foucault: sutil, sem violência física, que adestra os corpos pelo olhar.
+@26 d historia/antiguidade-e-idade-media
+x: Sem leis escritas, os patrícios interpretavam a justiça como queriam. A Lei das Doze Tábuas tornou as regras públicas e deu aos plebeus, homens livres, garantias que antes eram só dos patrícios. Isso ampliou a cidadania.
+@27 m filosofia/filosofia-antiga-e-medieval
+x: Para Aristóteles, a felicidade é o bem mais alto, buscado por si mesmo, e reúne o mais nobre, o melhor e o mais agradável. Ela é a finalidade de todas as ações humanas.
+@29 m historia/brasil-colonia
+x: Os africanos escravizados recriaram no Brasil a figura do rei do Congo, misturando tradições africanas com festas católicas e portuguesas. A festa dá um novo significado a elementos de culturas diferentes: é a ressignificação cultural.
+@30 f geografia/economia-agropecuaria-industria-energia
+x: O MST vê a reforma agrária como forma de corrigir a concentração histórica de terras. O segundo autor acha que apoiar empresas produtivas, como as do agronegócio, rende mais que fazer reforma agrária.
+@31 f historia/seculo-xx
+s: (adaptado). No texto, rel => (adaptado). || No texto, rel
+s: Desmond Tutu, no encerramento => > Desmond Tutu, no encerramento
+x: Desmond Tutu fala em uma sociedade em que as pessoas não sejam valorizadas por "irrelevâncias biológicas", referência à cor da pele. O legado a superar é o apartheid, regime segregacionista que negava cidadania plena à maioria negra.
+@32 d historia/brasil-imperio
+x: Com o fim do tráfico, o senador Vergueiro queria que o governo pagasse a vinda de imigrantes. O diretor responde que os fazendeiros sempre compraram escravos por conta própria e devem pagar também pelos novos trabalhadores. A disputa era sobre subsidiar ou não a imigração.
+@34 d geografia/populacao-e-urbanizacao
+x: Os impactos da urbanização variam, mas há um traço comum nos países da África, Ásia e América Latina: grandes aglomerações urbanas e a migração contínua do campo para a cidade. Esse aspecto é demográfico.
+@35 f sociologia/temas-contemporaneos
+x: Os manifestantes gritavam "não nos representam" e pediam referendo sobre o socorro aos bancos. Querem decidir diretamente, sem depender dos representantes eleitos: é a proposta de democracia direta.
+@36 d filosofia/filosofia-moderna-e-contemporanea
+x: Kant compara duas visões: o conhecimento se regula pelos objetos ou os objetos se regulam pelo nosso conhecimento. São pontos de vista opostos sobre a natureza do conhecimento, e Kant propõe experimentar o segundo.
+@37 f geografia/economia-agropecuaria-industria-energia
+x: Na Amazônia Legal, as grandes obras da última década foram as hidrelétricas, como Belo Monte (Xingu), Jirau e Santo Antônio (Madeira). Elas alagaram áreas e afetaram indígenas e ribeirinhos.
+@38 f sociologia/temas-contemporaneos
+x: O texto diz que a cultura africana deve ser vista em movimento, sem nostalgia, como parte do "rosto cultural brasileiro". Capoeira e candomblé nasceram da mistura de valores africanos com a história vivida no Brasil.
+@40 m historia/brasil-imperio
+x: O padre critica a mulher que se dedica ao lazer, e Macedo compara as casas a gaiolas onde pais e maridos guardavam filhas e esposas. Os dois textos mostram a mulher submetida ao homem, numa família patriarcal.
+@41 d filosofia/filosofia-moderna-e-contemporanea
+x: Para Descartes, Bacon e os iluministas, a ciência é a expressão mais alta da razão e o caminho para o progresso. Ela se torna o modelo que outras áreas do saber devem seguir.
+@43 f geografia/economia-agropecuaria-industria-energia
+x: A energia eólica vem do vento, uma fonte renovável. Novos parques eólicos expandem a participação das fontes renováveis na matriz elétrica do país.
+@44 m historia/brasil-imperio
+x: Nabuco rejeita revoltas de escravizados e guerra civil: a abolição deve ser conquistada no Parlamento. É a defesa da via legal, por meio de leis.
+@45 f sociologia/temas-contemporaneos
+x: O autor mostra que os gays passaram a ter direitos que antes lhes eram negados, como trabalhar no governo e ocupar cargos políticos. Isso dependeu da ampliação da noção de cidadania.
+
+## 48-enem-2013-ciencias-da-natureza.md | 2013 | 1 | 1º dia, caderno azul | Ciências da Natureza
+auto: sim
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2013 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, expoentes e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Química:** constante de Avogadro, meia-vida, eletrólise, estequiometria com porcentagem, neutralização com carbonato de cálcio, equilíbrio ácido-base (pKa), interações íon-dipolo.
+- **Física:** prensa hidráulica, ondas (v = λ · f), resistência elétrica (P = U²/R), força magnética (F = B · i · L), atrito ao caminhar, mistura de água quente e fria.
+- **Biologia:** vacina (Jenner), vilosidades intestinais, competição entre espécies, DNA mitocondrial (herança materna), espécies invasoras, decomposição.
+
+@47 m quimica/estequiometria
+s: 6 × 1023 mol–1 => 6 × 10²³ mol⁻¹
+a: 7,5 × 10²¹ | 1,5 × 10²² | 7,5 × 10²³ | 1,5 × 10²⁵ | 4,8 × 10²⁵
+x: A quantidade recomendada é o dobro de 500 mg: 1 000 mg = 1 g de cálcio. Em mol: 1 ÷ 40 = 0,025 mol. Em átomos: 0,025 × 6 × 10²³ = 1,5 × 10²² átomos.
+@48 f fisica/termologia
+s: Termômetro A taxa => || A taxa
+x: Superfícies pretas absorvem mais radiação e também emitem mais radiação do que as brancas. Por isso a garrafa preta esquenta mais rápido com a lâmpada acesa e esfria mais rápido depois que ela é desligada.
+@49 m quimica/atomistica-e-tabela-periodica
+s: C B + e 11 11 0 6 5 1 (pósitron) => ¹¹₆C → ¹¹₅B + ⁰₊₁e (pósitron)
+x: Cinco meias-vidas reduzem a massa à metade cinco vezes: 1,00 g ÷ 2⁵ = 1,00 ÷ 32 ≈ 0,0313 g = 31,3 mg.
+@50 f biologia/saude-e-doencas
+x: Jenner mostrou que a exposição a um vírus parecido e mais fraco protege contra a doença grave. Foi o início da vacinação, que hoje previne muitas doenças infecciosas no mundo todo.
+@51 f quimica/quimica-ambiental
+x: Termelétricas queimam carvão, óleo ou gás e soltam gases poluentes no ar. Por isso são o principal alvo dos métodos para reduzir a poluição do ar.
+@52 m fisica/ondulatoria-e-optica
+x: Ondas de frequências próximas às usadas pelo rádio dos pilotos podem causar interferência na comunicação. Desligar os aparelhos elimina essas fontes.
+@53 f biologia/fisiologia-humana
+x: As vilosidades são dobras da parede do intestino. Mais vilosidades significam mais área de contato com o alimento digerido e, portanto, mais absorção de nutrientes.
+@54 m quimica/quimica-organica
+s: HO C C O CH2 CH2 O H n O O =>
+x: O PET é um poliéster, formado pela união de um ácido com o etilenoglicol (um diálcool) com saída de água. A reação inversa, com água (hidrólise), quebra as ligações éster e devolve o etilenoglicol.
+@59 m biologia/ecologia
+x: As árvores que caem são decompostas por fungos e bactérias, que respiram e consomem oxigênio. Por isso, perto do solo, a concentração de O₂ diminui.
+@60 m biologia/evolucao
+x: A fêmea que come o macho ganha nutrientes e produz mais ovos, todos com os genes desse macho. Mesmo morrendo, o macho deixa mais descendentes, então o comportamento favorece o sucesso reprodutivo dos dois.
+@61 m fisica/estatica-e-hidrostatica
+x: A massa total é 65 + 15 + 20 = 100 kg, ou seja, peso de 1 000 N. Na prensa hidráulica, a pressão é igual nos dois lados: como a área do pistão é 5 vezes maior, a força na bomba é 5 vezes menor, 1 000 ÷ 5 = 200 N.
+@62 m biologia/citologia
+x: Os cloroplastos têm DNA próprio e por isso podem receber genes. Nas leveduras, que não fazem fotossíntese, a organela que também tem DNA próprio é a mitocôndria.
+@63 f biologia/ecologia
+x: Os cascudos e as espécies introduzidas ocupam nichos parecidos e disputam os mesmos recursos. É competição entre espécies diferentes (interespecífica), e os cascudos perderam.
+@64 d quimica/fisico-quimica
+e: Uma das etapas do tratamento da água é a desinfecção, sendo a cloração o método mais empregado. Esse método consiste na dissolução do gás cloro numa solução sob pressão e sua aplicação na água a ser desinfectada. As equações das reações químicas envolvidas são: || Cl2 (g) + 2 H2O (l) ⇌ HClO (aq) + H3O+ (aq) + Cl− (aq) || HClO (aq) + H2O (l) ⇌ H3O+ (aq) + ClO− (aq)    pKa = − log Ka = 7,53 || A ação desinfetante é controlada pelo ácido hipocloroso, que possui um potencial de desinfecção cerca de 80 vezes superior ao ânion hipoclorito. O pH do meio é importante, porque influencia na extensão com que o ácido hipocloroso se ioniza. || Para que a desinfecção seja mais efetiva, o pH da água a ser tratada deve estar mais próximo de
+x: Queremos muito HClO e pouco ClO⁻. Com pH abaixo do pKa (7,53), predomina a forma não ionizada, HClO. Entre as opções, o pH 5 fica abaixo do pKa e é viável para tratar água; pH 0 seria ácido demais para consumo, e pH 7, 9 ou 14 favorecem o hipoclorito.
+@65 m fisica/ondulatoria-e-optica
+x: O comprimento de onda é 16 pessoas × 0,8 m = 12,8 m. A velocidade é 45 km/h = 12,5 m/s. Como v = λ · f, f = 12,5 ÷ 12,8 ≈ 1,0 Hz.
+@67 f quimica/quimica-ambiental
+s: N2 O na => N₂O na
+x: A matéria orgânica guardada no solo contém carbono que, assim, não vai para a atmosfera como CO₂. Aumentar essa matéria orgânica (com plantio direto e restos de cultura, por exemplo) sequestra carbono.
+@69 f quimica/ligacoes-e-funcoes-inorganicas
+s: 4 FeS2 (s) + 15 O2 (g) + 2 H2 O (l) → 2 Fe2 (SO4 )3 (aq) + 2 H2 SO4 (aq) => 4 FeS₂ (s) + 15 O₂ (g) + 2 H₂O (l) → 2 Fe₂(SO₄)₃ (aq) + 2 H₂SO₄ (aq)
+x: A reação produz ácido sulfúrico, que acidifica o ambiente. Para neutralizar o ácido, adiciona-se uma substância de caráter básico, como o carbonato de cálcio (calcário).
+@71 d quimica/solucoes
+x: O plasma é 60% de 5,0 L = 3,0 L. Para não passar de 4,0 mg/L, o máximo de varfarina é 4,0 × 3,0 = 12 mg. Com a solução de 3,0 mg/mL: 12 ÷ 3,0 = 4,0 mL.
+@74 m quimica/fisico-quimica
+x: O texto descreve a eletrólise: a corrente elétrica decompõe uma substância. Na indústria, a eletrólise da alumina (obtida da bauxita) é o processo que produz o alumínio.
+@75 m fisica/eletricidade
+x: A potência é P = U²/R. Se a tensão dobra, U² fica 4 vezes maior, e a resistência também precisa ficar 4 vezes maior para manter P. Como R = ρ · L/A, basta usar um fio com um quarto da área da seção reta.
+@76 f fisica/dinamica
+x: Ao andar, o pé empurra o chão para trás, e o chão empurra o pé para a frente (atrito). Na rampa, essa força é paralela ao plano e aponta no mesmo sentido do movimento.
+@77 d quimica/estequiometria
+x: O carbono cai de 3,3% para 0,3%: saem 3% de 2 500 kg = 75 kg de carbono. Cada 12 g de C formam 44 g de CO₂: 75 × 44 ÷ 12 = 275 kg.
+@78 f biologia/saude-e-doencas
+x: Homens não vacinados podem pegar rubéola e transmiti-la às mulheres grávidas, cujo bebê corre o risco da síndrome congênita. Vacinar os homens interrompe essa transmissão.
+@79 m fisica/eletricidade
+x: As cargas andam devagar no fio, mas o campo elétrico se espalha pelo circuito quase na velocidade da luz quando a chave é ligada. Assim, todas as cargas começam a se mover ao mesmo tempo, inclusive no filamento.
+@80 f biologia/ecologia
+x: A produtividade depende da produção primária, feita pelos seres que fazem fotossíntese. Entre os citados, só as algas são produtoras.
+@81 f quimica/quimica-ambiental
+x: Na flotação, as partículas com as impurezas aderidas são levadas para a superfície (por bolhas de ar) e removidas. É um método usado no tratamento de água.
+@84 f biologia/ecologia
+x: No novo ambiente, as espécies invasoras não encontram os parasitas e predadores que controlavam sua população no lugar de origem. Por isso crescem sem freio.
+@85 d fisica/eletricidade
+e: Desenvolve-se um dispositivo para abrir automaticamente uma porta no qual um botão, quando acionado, faz com que uma corrente elétrica i = 6 A percorra uma barra condutora de comprimento L = 5 cm, cujo ponto médio está preso a uma mola de constante elástica k = 5 × 10⁻² N/cm. O sistema mola-condutor está imerso em um campo magnético uniforme perpendicular ao plano. Quando acionado o botão, a barra sairá da posição de equilíbrio a uma velocidade média de 5 m/s e atingirá a catraca em 6 milissegundos, abrindo a porta. || (Na figura da prova, a barra se desloca ao longo de um eixo x, a partir da posição 0, esticando a mola até tocar a catraca.) || A intensidade do campo magnético, para que o dispositivo funcione corretamente, é de
+a: 5 × 10⁻¹ T. | 5 × 10⁻² T. | 5 × 10¹ T. | 2 × 10⁻² T. | 2 × 10⁰ T.
+x: A barra anda x = v · t = 5 m/s × 0,006 s = 0,03 m = 3 cm. Nesse ponto, a força da mola é k · x = 5 × 10⁻² × 3 = 0,15 N, que deve ser igual à força magnética B · i · L = B × 6 × 0,05 = 0,3 · B. Logo B = 0,15 ÷ 0,3 = 0,5 T.
+@86 d quimica/quimica-organica
+e: As fraldas descartáveis que contêm o polímero poliacrilato de sódio (1) são mais eficientes na retenção de água que as fraldas de pano convencionais, constituídas de fibras de celulose (2). || (Nas estruturas da prova, o poliacrilato de sódio tem grupos carboxilato, –COO⁻ Na⁺, ao longo da cadeia; a celulose tem vários grupos –OH.) || > CURI, D. Química Nova na Escola, São Paulo, n. 23, maio 2006 (adaptado). || A maior eficiência dessas fraldas descartáveis, em relação às de pano, deve-se às
+x: O poliacrilato tem cargas (COO⁻ e Na⁺), que atraem fortemente os polos da molécula de água: são interações íon-dipolo. A celulose só faz ligações de hidrogênio com a água pelos grupos –OH, que são mais fracas.
+@88 m biologia/genetica-e-biotecnologia
+x: O DNA mitocondrial é herdado só da mãe. O rapaz recebeu o DNA mitocondrial da mãe, que o recebeu da avó materna. Pai, avô materno e filhos não servem: os filhos herdam o DNA mitocondrial da mãe deles.
+@89 m fisica/termologia
+x: O calor cedido pela água quente é igual ao recebido pela fria: m(quente) × (70 − 30) = m(fria) × (30 − 25). Então m(quente)/m(fria) = 5/40 = 0,125.
