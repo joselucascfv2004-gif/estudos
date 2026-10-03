@@ -1,0 +1,150 @@
+## 07-enem-2022-ciencias-humanas.md | 2022 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2022 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **O texto-base manda:** em Humanas, a alternativa certa costuma repetir, com outras palavras, a ideia central do texto.
+- **Filosofia:** pré-socráticos (arché), sofistas e a pólis, estoicismo (moderar as paixões), Arendt (o discurso torna o homem político), Foucault (sociedade disciplinar).
+- **História do Brasil:** Império (lutas de trabalhadores, lei educacional de 1827), Era Vargas (DIP e censura), religiosidade popular (Juazeiro).
+- **Geografia:** movimento pendular, união aduaneira (Mercosul), desterritorialização da produção, salinização do solo por irrigação, função do campo na produção de alimentos.
+- **Sociologia:** racismo estrutural, desemprego estrutural causado pela automação, movimentos sociais e direitos constitucionais.
+
+@47 f filosofia/filosofia-moderna-e-contemporanea
+x: Para Arendt, é pelo discurso, falando e sendo entendidos uns pelos outros, que os homens vivem juntos e dão sentido ao mundo. A linguagem constrói a vida em comum, isto é, a sociabilidade.
+@48 f sociologia/temas-contemporaneos
+x: O guarda branco espanca um homem negro "como no regime da chibata". O texto mostra que a violência e a discriminação contra pessoas negras continuam depois da abolição, enraizadas nas instituições: é o racismo estrutural.
+@52 f geografia/economia-agropecuaria-industria-energia
+e: Olhar o Brasil e não ver o sertão // É como negar o queijo com a faca na mão // Esse gigante em movimento // Movido a tijolo e cimento // Precisa de arroz com feijão // Que tenha comida na mesa // Que agradeça sempre a grandeza // De cada pedaço de pão // Agradeça a Clemente // Que leva a semente // Em seu embornal // Zezé e o penoso balé // De pisar no cacau // Maria que amanhece o dia // Lá no milharal || > VANDER LEE. Do Brasil. In: Pensei que fosse o céu: ao vivo. Rio de Janeiro: Indie Records, 2006 (fragmento). || A letra da canção valoriza uma dimensão do espaço rural brasileiro em sua relação com a cidade ao ressaltar sua função de
+x: A canção diz que a cidade ("tijolo e cimento") precisa do "arroz com feijão" e agradece a quem planta, colhe cacau e trabalha no milharal. Ela valoriza o campo como produtor dos alimentos.
+@61 f sociologia/temas-contemporaneos
+x: A inteligência artificial passa a fazer o trabalho dos dubladores. Quando a tecnologia elimina postos de trabalho de forma duradoura, falamos em desemprego estrutural.
+@72 f geografia/populacao-e-urbanizacao
+s: Brasileiros levam mais tempo de casa para o trabalho Pesquisa do IBGE => Brasileiros levam mais tempo de casa para o trabalho || Pesquisa do IBGE
+x: O trabalhador sai de casa e volta todos os dias, entre o lugar onde mora e o lugar onde trabalha. Esse vaivém diário é o movimento pendular, comum nas regiões metropolitanas.
+@75 f sociologia/temas-contemporaneos
+s: Rios amazônicos influenciam no agro e em reservatórios do Sudeste. => > Rios amazônicos influenciam no agro e em reservatórios do Sudeste.
+x: Para os Kambeba, o rio está na origem do povo, na sabedoria passada de pai para filha e na vida cotidiana. É um patrimônio cultural e afetivo, e não um bem individual ou apenas paisagem.
+@81 f historia/brasil-republica
+x: O DIP, criado no Estado Novo de Vargas, controlava a relação da imprensa com o governo e até a devolução de depósitos para importar papel. Assim o governo podia premiar ou punir jornais, ou seja, cercear a liberdade de expressão.
+@83 f geografia/geopolitica-e-globalizacao
+x: As meninas não foram registradas nem no Líbano nem na Síria, então não têm nacionalidade de nenhum país. Pessoas sem nacionalidade são chamadas de apátridas.
+@88 f filosofia/filosofia-antiga-e-medieval
+x: Sêneca é estoico. Para o estoicismo, a filosofia ensina a manter a serenidade diante da dor e da morte, dominando as paixões. Estar "alegre diante da morte" é fruto dessa moderação.
+@89 f historia/idade-moderna
+x: O texto destaca saberes próprios dos povos americanos: astronomia e matemática maias (o zero), organização política inca e até cirurgias. Isso é uma herança cultural construída por eles, e não algo vindo de fora.
+@46 m geografia/biomas-e-questoes-ambientais
+x: O sertanejo usa a experiência de Santa Luzia (pedrinhas de sal ao relento) para prever as chuvas. Com isso ele lê o ambiente da Caatinga, como a umidade do ar, para tentar prever as condições ambientais do ano.
+@50 m historia/brasil-republica
+x: A ferrovia era apresentada como progresso, mas os trabalhadores morriam de doenças "à margem do palco", sem nome. A crítica é a contradição entre o desenvolvimento do país e o desrespeito à vida de quem o construía.
+@51 m geografia/geopolitica-e-globalizacao
+x: Na economia em rede, as etapas da produção se espalham pelo mundo e se conectam pela informação. A produção deixa de depender de um único território: é a desterritorialização.
+@54 m historia/brasil-imperio
+x: Na década de 1880, os caixeiros se organizaram e foram às ruas junto com republicanos e abolicionistas. Isso fazia parte da contestação ao regime monárquico, que cairia em 1889.
+@55 m geografia/geografia-fisica
+s: São Paulo: Melhoramentos, 1993 (adaptado). => > São Paulo: Melhoramentos, 1993 (adaptado).
+x: Irrigar sem drenagem adequada leva água com sais ao solo. A água evapora e os sais se acumulam na superfície. É assim que a irrigação mal feita intensifica a salinização no semiárido.
+@57 m filosofia/filosofia-moderna-e-contemporanea
+x: Foucault compara a exclusão dos leprosos com o controle minucioso da peste: vigiar, separar e analisar cada indivíduo. Esse controle detalhado dos corpos é a base da sociedade disciplinar.
+@59 m geografia/economia-agropecuaria-industria-energia
+s: Alimentose,comele,váriasmudançasnaperspectivados => Alimentos e, com ele, várias mudanças na perspectiva dos
+x: O programa é de compras públicas: o governo compra a produção da agricultura familiar. A grande conquista para o pequeno produtor é ter a venda garantida.
+@62 m geografia/geopolitica-e-globalizacao
+x: O Mercosul é uma união aduaneira: os países-membros adotam uma Tarifa Externa Comum para produtos de fora do bloco. Por isso, mudar a TEC exige acordo entre todos os membros.
+@67 m geografia/populacao-e-urbanizacao, sociologia/temas-contemporaneos
+x: O movimento ocupou um terreno abandonado para pressionar pelo direito à moradia, previsto no art. 6º da Constituição. A ocupação foi uma estratégia para garantir esse preceito constitucional.
+@69 m geografia/geopolitica-e-globalizacao
+x: Putin diz que a Crimeia "sempre foi" parte da Rússia "na mente e no coração do povo". O argumento é o da identidade cultural: populações com a mesma língua e cultura deveriam estar sob o mesmo Estado.
+@71 m sociologia/temas-contemporaneos
+a: Supressão de eleições de representantes políticos. | Intervenção em áreas de vulnerabilidade pela Igreja. | Disseminação de projetos sociais em universidades. | Ampliação dos processos de concentração de renda. | Regulamentação das relações de trabalho pelo Legislativo.
+x: No Estado de direito, ninguém está acima da lei, e os governantes exercem o poder pelas regras democráticas. Suprimir eleições tira do povo o controle sobre quem governa e abre espaço ao arbítrio.
+@76 m historia/brasil-republica
+x: O texto destaca milhares de sertanejos trabalhando na obra do açude e morando em casinhas de taipa, "embrião de futura cidade". Os trabalhadores ajudam a formar novos espaços de ocupação.
+@77 m historia/brasil-colonia
+x: A medicina ilustrada servia para manter saudáveis os escravizados, a mão de obra da colônia, e a população branca. O objetivo era garantir a produção e o lucro, isto é, os interesses econômicos das elites.
+@80 m filosofia/filosofia-antiga-e-medieval
+x: Na pólis, as decisões eram tomadas em debates públicos. Os sofistas ensinavam retórica, a arte de argumentar nas assembleias, e por isso ligaram a filosofia à vida política da cidade.
+@85 m historia/idade-moderna
+x: O auto de fé era um ritual público com regras rígidas sobre lugares, gestos e palavras. Ao punir publicamente os réus e controlar o comportamento da população, a Igreja produzia padrões de conduta.
+@86 m filosofia/filosofia-antiga-e-medieval
+x: Os pré-socráticos buscavam a arché, o princípio que explica a origem e a ordem do cosmos. Empédocles fala dos quatro elementos e do Amor e do Ódio que os misturam e separam: é uma discussão cosmogônica (sobre a formação do mundo).
+@90 m sociologia/temas-contemporaneos
+x: As paneleiras usam argila, madeira e tinta de mangue, transmitindo o saber de mãe para filha. O uso desses recursos naturais mantém o modo de vida e a identidade da comunidade.
+@58 d historia/brasil-republica
+x: O Texto I mostra Juazeiro se tornando lugar de romaria, um espaço sagrado. O Texto II relata o "milagre" da hóstia proclamado sem o bispo, típico da religiosidade popular. São a criação de lugares místicos e experiências do catolicismo popular.
+@63 d historia/antiguidade-e-idade-media
+x: O texto diz que, no início da Idade Média, ajudar os famintos era parte da gestão pública. Nas monarquias cristãs, o rei tinha o dever de cuidar do povo; por isso a resposta à fome cabia à realeza.
+@66 d historia/brasil-imperio
+x: Cayru defendia um currículo menor para as meninas por achá-las incapazes; Santo Amaro defendia o mesmo ensino para todos. De um lado, a dominação sobre as mulheres; do outro, a igualdade humana.
+
+## 08-enem-2022-linguagens.md | 2022 | 1 | 1º dia, caderno azul | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2022 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Leitura em primeiro lugar:** identifique o gênero (notícia, crônica, poema, campanha), a finalidade e o público do texto.
+- **Funções da linguagem:** emotiva (sentimentos do "eu"), poética (trabalho com a forma), referencial (informar), conativa (convencer o leitor).
+- **Variação e preconceito:** a língua carrega a história da sociedade, inclusive seus preconceitos (expressões racistas).
+- **Literatura:** Machado de Assis (ironia, Realismo), Naturalismo (ser humano como fenômeno biológico), Romance de 30 (retrato cru da seca), Carolina Maria de Jesus.
+- **Artes e Educação Física:** fusão de referências culturais (manguebeat), desigualdade no acesso à atividade física e quebra de estereótipos de gênero no esporte.
+
+@11 f portugues/interpretacao-de-texto
+x: O autor diz que, ao contrário do que a técnica nova promete, cada uma "exige uma longa iniciação numa nova linguagem". O maior impacto é a dificuldade de aprender essa nova linguagem.
+@19 f portugues/interpretacao-de-texto
+s: Pisoteamento,arrastão,empurra-empurra,agressões, => Pisoteamento, arrastão, empurra-empurra, agressões,
+x: O texto diz que é "impossível dissociar" a violência no futebol da desordem social, econômica e política do país. A violência no estádio é um reflexo da sociedade.
+@25 f artes/artes-e-educacao-fisica
+x: A jornalista critica o padrão de que "a menina ganha boneca" e não pratica esportes de aventura. Ela questiona a ideia de que o skate é coisa de menino.
+@32 f portugues/funcoes-generos-e-variacao
+e: MANUAL DE ORIENTAÇÃO || O primeiro guia prático da Sociedade Brasileira de Pediatria para ajudar pais e pediatras no desafio de educar nativos digitais || TRABALHO DE BASE || Até 2 anos: a criança não deve ser exposta passivamente às telas — TV, tablet, celular etc. —, principalmente durante as refeições e até 2 horas antes de dormir. || De 2 a 5 anos: o tempo de exposição às telas deve ser limitado a 1 hora por dia. Crianças dessa faixa etária devem ser mais protegidas da violência virtual, pois não sabem separar fantasia de realidade. || Até 10 anos: devem ter acesso controlado a computadores e dispositivos móveis. Crianças de até 10 anos não devem usar TV ou computador no próprio quarto. || > Disponível em: https://tab.uol.com.br. Acesso em: 25 ago. 2017 (adaptado). || O texto sobre os chamados nativos digitais traz informações com a função de
+x: O guia separa as orientações por faixa etária (até 2 anos, de 2 a 5, até 10). A função é propor ações específicas para cada etapa da infância.
+@33 f portugues/semantica-e-figuras-de-linguagem
+x: O trecho é uma longa lista de objetos e acontecimentos de um enterro, separados por vírgulas. É essa enumeração que faz o narrador chamá-lo de "inventário".
+@36 f portugues/funcoes-generos-e-variacao
+s: contra a leishmaniose A doença é grave e vem causando preocupação na região metropolitana da capital mineira Ela é => contra a leishmaniose || A doença é grave e vem causando preocupação na região metropolitana da capital mineira || Ela é
+x: Além de informar sobre o projeto de lei, a notícia explica que a leishmaniose é grave e afeta pessoas e cães. Com isso, ela também conscientiza a população sobre um problema de saúde pública.
+@37 f portugues/interpretacao-de-texto
+s: pode afetar a saúde mental Nas várias => pode afetar a saúde mental || Nas várias
+x: O texto mostra que os influenciadores exibem uma felicidade constante e "editada", que não corresponde à vida real. A positividade tóxica nasce dessa imagem estereotipada e superficial de felicidade.
+@45 f artes/artes-e-educacao-fisica
+x: O manguebeat misturou maracatu com hip-hop, rock e música eletrônica. A renovação veio da integração de referências culturais de origens diferentes.
+@6 m portugues/funcoes-generos-e-variacao
+x: Metáforas do dia a dia, como "a vida engata uma primeira e sai em disparada", aproximam o texto da conversa informal. É esse emprego de metáforas cotidianas que mostra a pouca formalidade.
+@10 m portugues/interpretacao-de-texto
+x: Leo Cunha diz que a internet facilita reproduzir e compartilhar obras, mas traz dilemas de autoria, direitos autorais e reprodução não autorizada. O risco é à proteção da produção artística.
+@13 m portugues/interpretacao-de-texto
+s: Autilização => A utilização
+x: Os pesquisadores mostram que a internet reproduz as exclusões da sociedade: quem mais acessa são os mais escolarizados, mais ricos, homens e brancos. Eles questionam a ideia de que a rede é igual para todos.
+@14 m portugues/funcoes-generos-e-variacao
+x: O Texto I diz que o léxico condensa as experiências de um povo. O Texto II mostra expressões como "dia negro" e "ovelha negra", que carregam o preconceito racial da história brasileira.
+@17 m portugues/semantica-e-figuras-de-linguagem
+s: gramáticadalíngua,comoem“substantivo, => gramática da língua, como em “substantivo,
+x: O que torna o verbete um poema é a linguagem figurada: "a palavra nuvem chove", "as palavras têm corpo e alma". São metáforas, que dão às palavras qualidades que elas não têm no sentido literal.
+@18 m portugues/interpretacao-de-texto
+x: O texto alterna frases com verbo ("Joga concreto em cima e aplaina") e frases sem verbo ("Mosaico estúpido.", "Buraco, cratera, pedra solta"). Essa justaposição de sequências verbais e nominais organiza o texto.
+@20 m artes/artes-e-educacao-fisica
+x: A pesquisa mostra que quem tem mais escolaridade e renda pratica mais atividade física. Para a prática regular melhorar a saúde de todos, são necessárias ações ligadas à educação e à distribuição de renda.
+@22 m portugues/interpretacao-de-texto
+s: disponível para todos A inclusão => disponível para todos || A inclusão
+s: “inclusão científica” Para não permitir => “inclusão científica” || Para não permitir
+x: O Mural Eletrônico leva informação a pessoas com deficiência nas escolas, e o Surdonews leva notícias e ciência à comunidade surda. Os dois projetos têm como objetivo disseminar o conhecimento.
+@26 m portugues/funcoes-generos-e-variacao
+e: Assentamento || Zanza daqui // Zanza pra acolá // Fim de feira, periferia afora // A cidade não mora mais em mim // Francisco, Serafim // Vamos embora || Ver o capim // Ver o baobá // Vamos ver a campina quando flora // A piracema, rios contravim // Binho, Bel, Bia, Quim // Vamos embora || Quando eu morrer // Cansado de guerra // Morro de bem // Com a minha terra: // Cana, caqui // Inhame, abóbora // Onde só vento se semeava outrora // Amplidão, nação, sertão sem fim // Ó Manuel, Miguilim // Vamos embora || > BUARQUE, C. As cidades. Rio de Janeiro: RCA, 1998 (fragmento). || Nesse texto, predomina a função poética da linguagem. Entretanto, a função emotiva pode ser identificada no verso:
+x: A função emotiva aparece quando o eu lírico expressa seus sentimentos em primeira pessoa. Em "A cidade não mora mais em mim", ele revela seu estado interior: o desapego da cidade.
+@28 m portugues/funcoes-generos-e-variacao
+x: Recuperar o patxôhã é resistir à perseguição que dispersou os pataxós e, ao mesmo tempo, preservar a memória do povo. "Você diz quem você é por meio da sua língua": resistência e identidade andam juntas.
+@30 m literatura/quinhentismo-ao-simbolismo
+s: esobretudoporumcertosilêncio,queamargava,queesfolava. => e sobretudo por um certo silêncio, que amargava, que esfolava.
+s: Asnegrasreceberamordemparameternoserviçoagente => As negras receberam ordem para meter no serviço a gente
+s: tratavasemprebemaospequenitoseàsmãesqueosestavam => tratava sempre bem aos pequenitos e às mães que os estavam
+s: criando.Nãoeraissoumasentimentalidadecristã,umaternura, => criando. Não era isso uma sentimentalidade cristã, uma ternura,
+x: O narrador explica o carinho de Margarida pelas crianças como "o egoísta e cru instinto da maternidade" e "simpatia carnal", não como sentimento cristão. É a visão naturalista, científica, do ser humano como fenômeno biológico.
+@31 m literatura/pre-modernismo-ao-contemporaneo
+x: O Romance de 30 retrata a seca e a miséria do Nordeste de forma crua e direta. Os retirantes são descritos como "esqueletos redivivos", sem idade nem condição: é o desenho cru da realidade.
+@40 m literatura/pre-modernismo-ao-contemporaneo
+x: O cafuzo conta a morte do Tio Firmo, comovido, e esporeia o cavalo "para que eu não lhe visse as lágrimas". A expressividade lírica vem da afetividade com que ele dá a notícia.
+@41 m literatura/pre-modernismo-ao-contemporaneo
+x: O narrador sente "ânsia de acanalhar-me" e, ao mesmo tempo, chama tudo de "ignóbil" e de "mal". Ele é atraído pela libertinagem do carnaval e sente repulsa por ela.
+@42 m literatura/pre-modernismo-ao-contemporaneo
+x: Carolina chama o tenente de "amável", mas logo pergunta por que ele não manda seu relatório aos políticos, já que ela, "pobre lixeira", nada pode resolver. É uma resposta irônica ao discurso da autoridade.
+@23 d literatura/pre-modernismo-ao-contemporaneo
+x: O olhar verde de Maria Santa "dizia logo a sua origem": misérias, aventureiros e mulheres "caladas e sofredoras" que seguiam os homens pelo sertão. Os olhos guardam a marca desses antigos sofrimentos, que surgem no fluxo de consciência do narrador.
+@29 d literatura/quinhentismo-ao-simbolismo
+x: Bárbara é "leve e breve", de chinelinha, mas tem olhos "lúcidos e agudos" que "entravam pela gente abaixo". A ironia está na mistura de singeleza e astúcia da vidente.
+@43 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador conta a infância sofrida de Vanda comparando-a a Dickens, a uma "vilã de folhetim" e a uma "gata-borralheira". A violência vira uma história contada de forma anedótica.

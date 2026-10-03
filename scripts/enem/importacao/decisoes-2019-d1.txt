@@ -1,0 +1,152 @@
+## 15-enem-2019-ciencias-humanas.md | 2019 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2019 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2019 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Agostinho (livre-arbítrio), Maquiavel (moral do governante), Descartes, Bacon (natureza dominada pelo experimento), Kant, Foucault, Derrida (hospitalidade) e Arendt.
+- **História do Brasil:** mandioca e espaço atlântico, mineração e tráfico no Rio, Constituição de 1824 (voto indireto e censitário), Independência, Revolta da Vacina e Brasília.
+- **História geral:** cidade medieval, mercantilismo × liberalismo (Adam Smith), cercamentos na Inglaterra, pirataria inglesa, cidadania na Antiguidade.
+- **Geografia:** Antropoceno, frentes pioneiras na Amazônia, quilombolas, dispersão industrial e concentração econômica, latitude e noite polar.
+- **Sociologia:** SUS (universal e igualitário), laicidade e intolerância religiosa, trabalho escravo contemporâneo.
+
+@49 f geografia/economia-agropecuaria-industria-energia
+x: O problema é a morte das abelhas por agrotóxicos. O controle biológico combate as pragas com seus inimigos naturais, reduzindo os venenos sem perder produtividade.
+@51 f sociologia/temas-contemporaneos
+x: O texto define o Direito como "a técnica da coexistência humana", ou seja, um conjunto de regras que torna possível a vida em sociedade. Seu sentido fundamental é regular o convívio social.
+@53 f geografia/geopolitica-e-globalizacao
+x: Brasil, Alemanha, Índia e Japão querem vaga permanente no Conselho de Segurança porque são potências importantes em suas regiões: o argumento é o protagonismo regional.
+@62 f sociologia/temas-contemporaneos
+x: Num Estado laico e democrático, todos têm direito de praticar sua religião. Agressões contra religiões de matriz africana restringem essa liberdade de crença.
+@66 f sociologia/temas-contemporaneos
+x: O SUS foi criado "para todos": atende qualquer pessoa (universalismo) e da mesma forma, sem distinção (igualitarismo).
+@71 f geografia/economia-agropecuaria-industria-energia
+x: Nas crises, o capitalismo reorganiza a produção com novas tecnologias e formas de trabalho. Para entrar nesse novo processo produtivo, o trabalhador precisa de qualificação profissional.
+@79 f historia/antiguidade-e-idade-media
+s: daAntiguidade => da Antiguidade
+x: Nas cidades-estado antigas, ser cidadão com plenos direitos dependia, em geral, de ser proprietário de terras. Por isso a proporção de cidadãos variava conforme o regime, sempre ligada ao controle da terra.
+@80 f historia/brasil-republica
+x: Na Revolta da Vacina, a população reagiu à vacinação obrigatória imposta sem diálogo, com invasão de casas. A revolta questionava o arbítrio do governo.
+@81 f historia/brasil-colonia
+x: No século XVIII, o porto do Rio passou a receber mais africanos escravizados porque abastecia a região das minas. A mudança está ligada à extração de ouro e diamantes.
+@83 f geografia/geopolitica-e-globalizacao
+x: O papa critica um sistema que concentra riqueza e exclui muitas pessoas. A crítica é à disparidade econômica do mundo globalizado.
+@87 f sociologia/temas-contemporaneos
+x: O texto defende que o combate ao trabalho escravo depende da ação conjunta de ministérios, fiscalização, polícia e Justiça, ou seja, de articular os órgãos públicos.
+@89 f geografia/cartografia, geografia/geografia-fisica
+x: Utqiagvik fica muito ao norte, acima do Círculo Polar Ártico. Em latitudes altas, há meses de noite polar no inverno: a causa é a latitude.
+@90 f geografia/economia-agropecuaria-industria-energia
+x: O texto diz que já existem alimentos suficientes; a fome continua porque nem todos podem comprá-los. O problema é político, ligado à distribuição de renda.
+@46 m geografia/geografia-fisica, geografia/biomas-e-questoes-ambientais
+s: Aconcepção => A concepção
+x: O Antropoceno é a ideia de uma nova época geológica marcada pela ação humana. O ser humano interfere principalmente nos processos exógenos (externos), como erosão, clima e sedimentação, e não nos internos (vulcanismo, tectônica).
+@48 m filosofia/filosofia-moderna-e-contemporanea
+x: Ver a natureza como um "saco de ouro" a ser explorado é tratá-la como objeto a serviço do ser humano. Essa separação entre sujeito que conhece e natureza-objeto vem do racionalismo cartesiano.
+@50 m filosofia/filosofia-moderna-e-contemporanea, sociologia/temas-contemporaneos
+x: Para Derrida, hospitalidade é acolher o outro sem impor condições e reconhecê-lo pelo nome. Diante dos migrantes, isso exige incorporar a alteridade, ou seja, aceitar o diferente.
+@52 m historia/brasil-colonia
+s: chegadadeportugueseseafricanos.Entretanto,aolongo => chegada de portugueses e africanos. Entretanto, ao longo
+x: A mandioca, alimento indígena, foi adotada por portugueses e africanos e levada para a África pelas rotas do Atlântico. É um exemplo de difusão de hábitos alimentares.
+@54 m historia/revolucoes-e-seculo-xix
+x: Os trabalhadores rurais ingleses queimavam celeiros em protesto. A revolta reagia aos cercamentos, que tiraram dos camponeses o acesso às terras comunais.
+@56 m geografia/economia-agropecuaria-industria-energia
+x: As indústrias se espalham pelo mundo em busca de custos menores, mas o controle e os lucros ficam com poucos grandes grupos transnacionais. Dispersão espacial combinada com concentração econômica.
+@60 m historia/antiguidade-e-idade-media
+x: O texto descreve a cidade medieval como lugar de comércio e trabalho, mas também fechada por muralhas, portas e torres. Cresce a vida urbana e permanecem os elementos de proteção.
+@61 m geografia/biomas-e-questoes-ambientais v
+x: A canção trata o rio como algo sagrado e poético ("faz desse rio a sua oração"): é uma visão idealizada. O texto sobre ecoturismo mostra a natureza transformada em espetáculo vendido: mercantilização.
+@63 m historia/idade-moderna
+a: valorização do pacto colonial — combate à livre-iniciativa. | defesa dos monopólios régios — apoio à livre concorrência. | formação do sistema metropolitano — crítica à livre navegação. | abandono da acumulação metalista — estímulo ao livre-comércio. | eliminação das tarifas alfandegárias — incentivo ao livre-cambismo.
+x: O Texto I descreve o mercantilismo: Estado forte, protecionismo e monopólios. O Texto II, de Adam Smith, critica as práticas exclusivistas e defende o liberalismo econômico, isto é, a livre concorrência.
+@64 m filosofia/filosofia-moderna-e-contemporanea
+x: O texto desfaz a lenda da maçã: Newton não teve uma revelação contemplando a natureza, mas trabalhou com hipóteses que depois foram testadas. A ciência moderna se apoia na proposição de hipóteses.
+@67 m filosofia/filosofia-moderna-e-contemporanea
+x: Descartes adora a Deus, mas usa a razão para provar sua existência; Rachels pergunta se há "boa razão" para crer. Os dois textos colocam a razão humana no centro da investigação.
+@68 m geografia/populacao-e-urbanizacao
+x: As comunidades quilombolas vendem alimentos na feira, artesanato e refeições aos turistas. Suas estratégias buscam a inserção econômica na região.
+@69 m geografia/economia-agropecuaria-industria-energia
+x: A ocupação avança sobre a floresta, perto de reservas e terras indígenas, com desmatamento e grilagem. É a expansão das frentes pioneiras na Amazônia.
+@72 m historia/brasil-imperio
+x: A Constituição de 1824 previa eleições em dois graus (votantes escolhiam eleitores, que escolhiam deputados) e exigia renda mínima para votar. Voto indireto e censitário.
+@73 m historia/antiguidade-e-idade-media
+x: A Igreja aproveitou antigas festas do fogo, ligadas ao solstício, e as transformou em festas de São João. Apropriou-se de cerimônias já existentes para atrair os fiéis.
+@75 m filosofia/filosofia-moderna-e-contemporanea
+x: Bacon fala em arrancar os segredos da natureza "sob a tortura dos experimentos"; o Texto II mostra o ser humano agindo sem harmonia com o ambiente. Os dois revelam a natureza tratada como objeto a ser dominado.
+@82 m historia/brasil-republica
+x: O discurso convoca "todas as forças vivas da Nação" para construir Brasília (apelo simbólico, político) e a obra atraiu trabalhadores de várias regiões, como os candangos nordestinos (migração inter-regional).
+@84 m historia/seculo-xx
+x: A Declaração de 1948 estabeleceu direitos de todas as pessoas, acima das fronteiras. Ela permitiu proteger grupos vulneráveis mesmo contra a ação dos próprios Estados.
+@86 m historia/idade-moderna
+x: A Inglaterra apoiava corsários como Francis Drake para roubar o ouro e a prata que a Espanha levava da América. Era a forma de conquistar as riquezas americanas sem ter as colônias.
+@55 d historia/brasil-imperio
+x: Maria Quitéria precisou se disfarçar de homem para lutar, porque mulheres eram proibidas nos batalhões. O caso mostra a rigidez da hierarquia social, que excluía as mulheres dessas funções.
+@58 d filosofia/filosofia-antiga-e-medieval
+x: Para Agostinho, Deus deu a vontade livre para agir corretamente. Quem a usa para pecar falha no uso da própria liberdade; a punição se justifica pela insuficiência da autonomia moral de quem escolhe o mal.
+@65 d filosofia/filosofia-moderna-e-contemporanea
+x: Maquiavel separa a moral do indivíduo (o ideal: dizer a verdade) da ação do governante, que deve considerar os efeitos reais sobre o coletivo e pode até mentir pelo bem comum. É a distinção entre idealidade e efetividade da moral.
+@74 d filosofia/filosofia-moderna-e-contemporanea
+x: Foucault nega um sujeito universal: o sujeito se forma por práticas de sujeição ou de liberdade, a partir de regras do meio cultural. A subjetivação é contingente, construída nas interações sociais.
+@76 d historia/seculo-xx
+x: Arendt mostra como os campos de concentração faziam o extermínio parecer "solução perfeitamente normal". A crítica é à naturalização da segregação humana, base dos projetos totalitários.
+@78 d filosofia/filosofia-moderna-e-contemporanea
+x: Kant admira o céu lá fora e a lei moral dentro de si (a norma é interior; o mundo é fenômeno externo). O poema inverte: a lei fica "cobrindo-me" (fora) e o céu estrelado fica "dentro de mim".
+
+## 16-enem-2019-linguagens.md | 2019 | 1 | 1º dia, caderno azul | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2019 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2019 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Gêneros e sequências textuais:** ladainha e campanha usam a sequência injuntiva (chamar o leitor); crônica e conto usam narração; reportagem usa exposição.
+- **Recursos expressivos:** duplo sentido, pergunta retórica, enumeração, plasticidade e ritmo da prosa poética.
+- **Língua e história:** o português carrega camadas de outras línguas (latim, árabe) e os nomes dos meses vêm do latim.
+- **Literatura:** Raul Pompeia (impressionismo), Oswald de Andrade e o Modernismo, Futurismo de Marinetti, João Cabral, Hilda Hilst.
+- **Tecnologia e sociedade:** software livre, redes sociais como forma de mobilização, dados públicos abertos.
+
+@11 f artes/artes-e-educacao-fisica
+x: Nos Jogos dos Povos Indígenas, práticas tradicionais ganham regras, competição e premiação. Isso legitima essas práticas corporais como modalidades esportivas (esportivização).
+@18 f portugues/interpretacao-de-texto
+x: O software livre é feito em colaboração e pode ser usado, copiado e melhorado por qualquer pessoa. Isso democratiza o acesso a um produto construído coletivamente.
+@20 f portugues/interpretacao-de-texto
+x: O DataViva oferece dados oficiais sobre exportações, empregos e atividades econômicas. A tecnologia facilita a obtenção de informações estratégicas para decisões.
+@25 f artes/artes-e-educacao-fisica
+x: A escola de samba homenageou Luiz Gonzaga, o Rei do Baião, no Carnaval. O evento une samba e baião, dois gêneros musicais brasileiros.
+@29 f portugues/interpretacao-de-texto
+x: O texto descreve a rede como um laço em que as comunidades se ajudam e trocam saberes. A circulação do conhecimento depende da contribuição dos próprios usuários.
+@34 f portugues/funcoes-generos-e-variacao
+x: O texto mostra que os nomes dos meses vêm do calendário romano (Janus, Mars, Julius, Augustus...). A escrita atual reflete a origem latina do português.
+@37 f portugues/interpretacao-de-texto
+x: Os alunos se organizaram pelo Twitter e conseguiram mudar algo na escola. O texto mostra as redes sociais como forma de unir e empoderar pessoas em torno de uma causa.
+@40 f artes/artes-e-educacao-fisica
+s: enriqueceu-sedeumabelezanova:abelezadavelocidade. => enriqueceu-se de uma beleza nova: a beleza da velocidade.
+x: O manifesto futurista exalta a velocidade, a energia e as máquinas modernas ("a beleza da velocidade"). O Futurismo valoriza a inovação tecnológica.
+@45 f portugues/funcoes-generos-e-variacao v
+x: "Cadê viola? Cadê meu bem?" e o modo de falar do eu lírico reproduzem a fala do povo do sertão. A exaltação do Cariri se apoia na variedade popular da língua.
+@7 m portugues/semantica-e-figuras-de-linguagem v
+x: A letra parece descrever uma paixão ("deixou marcas no meu corpo", "eu grito, eu quase morro"), mas, na campanha, as mesmas frases revelam agressão. O duplo sentido mostra que violência não é amor.
+@8 m portugues/interpretacao-de-texto
+x: Gregson lista o que não houve: não houve assalto, não havia sangue nem feridas. Essas negações descartam causas possíveis da morte e ajudam a investigação de Holmes.
+@13 m literatura/pre-modernismo-ao-contemporaneo
+s: PINOTE:Sendopreciso...Quadrinhas... => PINOTE: Sendo preciso... Quadrinhas...
+x: Na cena, o poeta faz versos "futuristas" escondido e oferece ao público quadrinhas, sonetos e reclames. Oswald ironiza o público que preferia os modelos consagrados: uma postura conservadora.
+@16 m portugues/funcoes-generos-e-variacao
+x: O humor da crônica de Luis Fernando Verissimo vem de fatos absurdos contados com naturalidade: baratas que roubam máscaras, um jornal "novo" de uma semana. A sequência narrativa articula esses absurdos.
+@24 m portugues/funcoes-generos-e-variacao v
+x: A ladainha é uma oração em que se repetem pedidos ("Vamos pedir piedade / Senhor, piedade"). A canção chama o interlocutor a participar: é a sequência injuntiva.
+@26 m portugues/interpretacao-de-texto
+x: Os textos mostram denúncias de violência contra idosos e um país despreparado para o envelhecimento. As regras do Estatuto contrastam com as condições de vida reais oferecidas aos idosos.
+@30 m portugues/funcoes-generos-e-variacao
+x: O Texto I compara a língua a camadas geológicas que guardam marcas de outras línguas. Assim, o português resulta da influência de várias línguas do passado e carrega essas marcas.
+@32 m artes/artes-e-educacao-fisica
+x: O texto mostra que a irisina é só um dos hormônios produzidos no exercício e que a atividade física traz vários outros benefícios. Assim, a pílula não substitui o exercício.
+@41 m literatura/pre-modernismo-ao-contemporaneo
+x: A lesma sonha em ser escargot, nome elegante e admirado, mesmo sabendo que eles são comidos. A fábula representa o desejo de realizar um sonho idealizado, de natureza utópica.
+@42 m portugues/semantica-e-figuras-de-linguagem
+s: super- -herói => super-herói
+x: Ao perguntar ao leitor como as aranhas percebem o ambiente e logo responder, o autor simula um diálogo. A pergunta retórica introduz a explicação e faz o texto avançar.
+@21 d literatura/pre-modernismo-ao-contemporaneo
+x: A menina percebe, pelo olhar infantil, o preconceito contra a mãe (as palavras que ela "tentava não pensar"). A dramaticidade está nos estigmas sociais vistos pela perspectiva da criança.
+@22 d literatura/pre-modernismo-ao-contemporaneo v
+x: A "ouriça" se fecha em espinhos diante de quem chega de longe, mas se "desouriça" com quem chega perto: o metal armado vira carne e as molas do assalto viram molas do abraço. É firmeza (tenacidade) que se transforma em brandura (poema de João Cabral).
+@28 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador conta a "criação" do subúrbio como um mito de origem, mas com cães soltos, moscas, barracos e bancas de jogo do bicho. É uma visão caricata, de paisagem deteriorada.
+@33 d literatura/quinhentismo-ao-simbolismo
+x: A prosa de Raul Pompeia é cheia de imagens visuais (nevoeiros, negrumes, gelo) e de ritmo musical ("Inverno! inverno! inverno!"). É a plasticidade verbal ligada à cadência melódica.
+@39 d literatura/pre-modernismo-ao-contemporaneo v
+x: O eu lírico lista o que restou do amor ("esse desassossego", "corpo morrendo") e o que foi sonhado ("navios, muralhas de marfim"). Repetir "tudo isso te devo" mostra amadurecimento com ironia e desapego.
+@44 d portugues/morfologia-e-sintaxe v
+x: O poema usa a 2ª pessoa (tomas, deixas, levas, teu, tua) para a operária e a 3ª pessoa para o filho e o patrão ("ele pede"). A norma-padrão dos verbos e pronomes ajuda a distinguir de quem se fala.

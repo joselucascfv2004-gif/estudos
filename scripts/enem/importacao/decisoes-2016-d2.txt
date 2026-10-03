@@ -1,0 +1,157 @@
+## 25-enem-2016-matematica.md | 2016 | 2 | 2º dia, caderno amarelo | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2016 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2016 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Média:** some tudo e divida pela quantidade; para descobrir um valor que falta, parta da soma total necessária.
+- **Desvio padrão:** quanto menor, mais regulares (parecidos entre si) são os dados.
+- **Razão e taxa:** compare grandezas sempre "por unidade" (mg por dia, fibra por grama, focos por imóvel).
+- **Contagem:** escolha os elementos com combinações e conte as posições com permutações com repetição.
+- **Logaritmos:** transformam multiplicações repetidas (1% a cada meia hora, escala Richter) em contas simples.
+- **Cuidado com o que muda junto:** ao contratar pessoas, o total de funcionários também aumenta.
+
+@144 f matematica/estatistica
+x: Foram aplicadas 21 + 22 + 25 + 31 + 21 = 120 vacinas, média de 120 ÷ 5 = 24 por mês. O estoque deve começar o 6º mês com 12 × 24 = 288 vacinas. Restavam 228 − 120 = 108, então é preciso comprar 288 − 108 = 180.
+@149 f matematica/razao-proporcao-regra-de-tres
+x: Calcule a fibra por grama de pão: A: 2/50 = 0,04. B: 5/40 = 0,125. C: 5/100 = 0,05. D: 6/90 ≈ 0,067. E: 7/70 = 0,1. A maior concentração é a da marca B.
+@161 f matematica/razao-proporcao-regra-de-tres
+x: Total: 5 × 800 = 4 000 mL. Nas 4 primeiras horas, 40% = 1 600 mL; sobram 2 400 mL para 20 horas = 1 200 minutos, ou 2 mL por minuto. Em gotas: 2 × 12 = 24 gotas por minuto.
+@164 f matematica/porcentagem
+x: Calcule a porcentagem de imóveis com focos: I: 14/400 = 3,5%. II: 6/500 = 1,2%. III: 13/520 = 2,5%. IV: 9/360 = 2,5%. V: 15/500 = 3%. O maior índice é o do bairro I (mesmo sem ter o maior número de focos).
+@167 f matematica/estatistica
+s: dados do quadro. || Mês I II III IV V VI VII Lucro (em milhões de reais) || 37 33 35 22 30 35 25 Avaliando => dados do quadro. || Quadro (mês: lucro, em milhões de reais): I: 37. II: 33. III: 35. IV: 22. V: 30. VI: 35. VII: 25. || Avaliando
+x: Média: (37 + 33 + 35 + 22 + 30 + 35 + 25) ÷ 7 = 217 ÷ 7 = 31 milhões. O lucro mais próximo de 31 é o de 30 milhões, no mês V.
+@173 f matematica/razao-proporcao-regra-de-tres
+x: Massa não capturada por dia: F1: 18/6 = 3. F2: 15/3 = 5. F3: 18/4 = 4,5. F4: 6/3 = 2. F5: 3/2 = 1,5. A maior razão (pior desempenho) é a do F2.
+@180 f matematica/estatistica
+s: maio do ano em curso. || Janeiro Fevereiro Março Abril Maio 21 35 21 30 38 Qual => maio do ano em curso. || Quadro (mês: lucro, em milhares de reais): janeiro: 21; fevereiro: 35; março: 21; abril: 30; maio: 38. || Qual
+x: Para média de 30 em 6 meses, a soma deve ser pelo menos 6 × 30 = 180. Até maio: 21 + 35 + 21 + 30 + 38 = 145. Junho precisa de 180 − 145 = 35 mil reais.
+@141 m matematica/estatistica
+s: Atleta 1ª pesagem (kg) || 2ª pesagem (kg) || 3ª pesagem (kg) || Média Mediana Desvio padrão I 78 72 66 72 72 4,90 II 83 65 65 71 65 8,49 III 75 70 65 70 70 4,08 IV 80 77 62 73 77 7,87 Após => Quadro (atleta: 1ª, 2ª e 3ª pesagens em kg; média; mediana; desvio padrão): I: 78, 72, 66; 72; 72; 4,90. II: 83, 65, 65; 71; 65; 8,49. III: 75, 70, 65; 70; 70; 4,08. IV: 80, 77, 62; 73; 77; 7,87. || Após
+x: Regularidade se mede pelo desvio padrão: quanto menor, mais parecidas são as pesagens. O mais regular é o III (4,08) e o menos regular é o II (8,49). A luta é entre II e III.
+@148 m matematica/estatistica
+s: Região Casos confirmados Oeste 237 Centro 262 Norte 158 Sul 159 Noroeste 160 Leste 278 Centro-Oeste 300 Centro-Sul 278 A prefeitura => Quadro (região: casos confirmados): Oeste: 237. Centro: 262. Norte: 158. Sul: 159. Noroeste: 160. Leste: 278. Centro-Oeste: 300. Centro-Sul: 278. || A prefeitura
+x: Média: (237 + 262 + 158 + 159 + 160 + 278 + 300 + 278) ÷ 8 = 1 832 ÷ 8 = 229. Acima da média: Oeste, Centro, Leste, Centro-Oeste e Centro-Sul (5 regiões × 10 = 50). Até a média: Norte, Sul e Noroeste (3 × 7 = 21). Total: 71.
+@150 m matematica/estatistica
+s: Número de pessoas Térreo 1o andar 2o andar 3o andar 4o andar 5o andar que entram no elevador 4 4 1 2 2 2 que saem do elevador 0 3 1 2 0 6 Com base => Quadro (andar: entram; saem): térreo: 4; 0. 1º andar: 4; 3. 2º andar: 1; 1. 3º andar: 2; 2. 4º andar: 2; 0. 5º andar: 2; 6. || Com base
+x: Acompanhe quantas pessoas ficam no elevador depois de cada andar: térreo: 4. 1º: 4 + 4 − 3 = 5. 2º: 5 + 1 − 1 = 5. 3º: 5 + 2 − 2 = 5. 4º: 5 + 2 = 7. 5º: 7 + 2 − 6 = 3. O valor que mais aparece (moda) é 5.
+@152 m matematica/funcoes-afim-e-quadratica, matematica/geometria-plana
+s: Umtúneldeveserlacradocomumatampadeconcreto. => Um túnel deve ser lacrado com uma tampa de concreto.
+s: y = 9 − x2 , sendo => y = 9 − x², sendo
+s: igual a 2 da área => igual a 2/3 da área
+x: A parábola y = 9 − x² toca o chão (y = 0) em x = −3 e x = 3: a base mede 6 m. A altura máxima é em x = 0: 9 m. Retângulo: 6 × 9 = 54 m². Área sob a parábola: 2/3 × 54 = 36 m².
+@153 m matematica/analise-combinatoria
+a: 10² · 26² | 10² · 52² | 10² · 52² · 4!/2! | 10² · 26² · 4!/(2! · 2!) | 10² · 52² · 4!/(2! · 2!)
+x: Cada algarismo tem 10 opções (10²) e cada letra tem 52 (26 maiúsculas + 26 minúsculas), dando 52². Além disso, as posições variam: arrumar 2 algarismos e 2 letras em 4 lugares dá 4!/(2! · 2!) = 6. Total: 10² · 52² · 4!/(2! · 2!).
+@156 m matematica/porcentagem
+x: Custo: 4 × 16 = R$ 64 por 80 picolés. O lucro do 1º dia foi 40; o do 2º deve ser 20% maior: 48. A venda precisa render 64 + 48 = 112. Por picolé: 112 ÷ 80 = R$ 1,40.
+@162 m matematica/geometria-espacial
+x: Cortando a pirâmide de base quadrada com planos em várias posições: paralelo à base dá quadrado; passando pelo vértice dá triângulo; cortes inclinados que pegam a base dão trapézios ou quadriláteros irregulares; e um corte que atravessa a base e quatro faces laterais chega a cinco lados (pentágono).
+@179 m matematica/razao-proporcao-regra-de-tres
+x: Às 10 h: área de 500 × 500 = 250 000 m², com 4 pessoas por m² = 1 000 000 pessoas. Até as 16 h (6 horas) chegam mais 6 × 120 000 = 720 000. Total: 1 720 000 pessoas ÷ 2 000 = 860 policiais.
+@137 d matematica/razao-proporcao-regra-de-tres
+s: situada a D metros da fonte sonora, é A 500 . 81 => situada a D metros da fonte sonora, é
+a: 500 · 81 / (A · D²) | 500 · A / D² | 500 · D² / A | 500 · A · D² / 81 | 500 · 3 · D² / A
+x: Custo ∝ volume = área × espessura, e espessura ∝ 1/D². Então custo = k · A / D². Com A = 9 e D = 3: 500 = k · 9/9, logo k = 500. Custo = 500 · A / D².
+@145 d matematica/exponencial-e-logaritmo
+s: log10 (3) => log₁₀ 3
+s: log10 (11) => log₁₀ 11
+x: A cada 30 min a temperatura é multiplicada por 0,99: 3 000 × 0,99ⁿ = 30, ou 0,99ⁿ = 0,01. log 0,99 = log(9 × 11/100) = 2 × 0,477 + 1,041 − 2 = −0,005. Então n × (−0,005) = −2 e n = 400 meias horas = 200 horas.
+@155 d matematica/porcentagem
+s: I. até 200 empregados ...................................... 2%; II. de 201 a 500 empregados.............................. 3%; III. de 501 a 1 000 empregados........................... 4%; IV. de 1 001 em diante......................................... 5%. => I. até 200 empregados: 2%; // II. de 201 a 500 empregados: 3%; // III. de 501 a 1 000 empregados: 4%; // IV. de 1 001 em diante: 5%.
+x: Com mais de 1 000 funcionários, a cota é 5%. Mas cada contratação aumenta o total: com x novos, 10 + x ≥ 0,05 × (1 200 + x). Então 10 + x ≥ 60 + 0,05x, 0,95x ≥ 50 e x ≥ 52,6. O mínimo é 53 (contratar só 50 não bastaria).
+@157 d matematica/analise-combinatoria
+a: 10!/(2! × 8!) − 4!/(2! × 2!) | 10!/8! − 4!/2! | 10!/(2! × 8!) − 2 | 6!/4! + 4 × 4 | 6!/4! + 6 × 4
+x: Escolher 2 dos 10 tenistas (a ordem não importa): C(10, 2) = 10!/(2! × 8!) = 45. Tire as duplas só de canhotos: C(4, 2) = 4!/(2! × 2!) = 6. Sobram 45 − 6 = 39 possibilidades.
+@168 d fisica/estatica-e-hidrostatica, matematica/razao-proporcao-regra-de-tres
+s: densidade de três corpos: dA , dB , dC . => densidade de três corpos: dA, dB, dC.
+s: tinha 3 da massa do corpo C. => tinha 3/4 da massa do corpo C.
+a: dB < dA < dC | dB = dA < dC | dC < dB = dA | dB < dC < dA | dC < dB < dA
+x: Use C como referência (massa 1 e volume 1). B: massa 3/4 = 0,75 e volume 1,2. A: massa 1,5 × 0,75 = 1,125 e volume 1,2. Densidades: dA = 1,125/1,2 ≈ 0,94; dB = 0,75/1,2 ≈ 0,63; dC = 1. Ordem: dB < dA < dC.
+@170 d matematica/progressoes
+x: João passa nos andares ímpares (1, 3, 5, ...) e Pedro em 1, 4, 7, ... Os dois coincidem em 1, 7, 13, 19, ... (de 6 em 6). O 20º andar comum é 1 + 19 × 6 = 115. Como terminaram juntos no último andar, o prédio tem 115 andares.
+@174 d matematica/exponencial-e-logaritmo
+s: pode ser calculada por M = log (E ) || 3 E0 , sendo => pode ser calculada por M = (2/3) · log(E/E₀), sendo
+s: e E0 uma constante => e E₀ uma constante
+a: E1 = E2 + 2 | E1 = 10² · E2 | E1 = 10³ · E2 | E1 = 10^(9/7) · E2 | E1 = (9/7) · E2
+x: Subtraia as magnitudes: 9 − 7 = (2/3) · [log(E1/E₀) − log(E2/E₀)] = (2/3) · log(E1/E2). Então log(E1/E2) = 3 e E1 = 10³ · E2. Dois pontos na escala Richter são mil vezes mais energia.
+
+## 26-enem-2016-linguagens.md | 2016 | 2 | 2º dia, caderno amarelo | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2016 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2016 (2º dia, caderno 5, amarelo), publicada pelo INEP. Em 2016, Linguagens foi aplicada no 2º dia, junto com Matemática. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Funções da linguagem:** metalinguagem é a linguagem falando de si mesma (um texto sobre ler, um poema sobre a palavra).
+- **Coesão:** orações e sinais de pontuação criam relações de sentido (condição, explicação, informação implícita nas reticências).
+- **Variação linguística:** expressões regionais ("o peste", "cachorro da molest'a"); fala e escrita podem ser, ambas, português culto.
+- **Gêneros:** resenha aprecia uma obra; campanha busca envolver o leitor; texto teatral usa rubricas; diário é narrativa sobre si mesmo.
+- **Literatura:** Cláudio Manuel da Costa (Arcadismo), João Cabral, Clarice Lispector, Ana Cristina Cesar, Suassuna e Machado de Assis.
+- **Educação Física:** princípios de ataque e defesa nos esportes coletivos, saúde ampliada e mulheres em esportes ditos masculinos.
+
+@96 f portugues/funcoes-generos-e-variacao
+s: Nessetexto,aautoraapresentareflexõessobreoprocesso => Nesse texto, a autora apresenta reflexões sobre o processo
+x: Metalinguagem é usar a linguagem para falar da própria linguagem. O texto é sobre ler: explica o que é o ato de leitura. Por isso a função metalinguística aparece no fato de ele discorrer sobre a leitura.
+@102 f portugues/funcoes-generos-e-variacao
+x: "O peste" e "cachorro da molest'a" são expressões típicas da fala nordestina. Na peça de Suassuna, elas ajudam a situar as personagens numa região e mostram a variação linguística regional.
+@105 f portugues/interpretacao-de-texto
+x: A campanha explica que só pessoas saudáveis podem doar, que existe a janela imunológica e termina com "DA SUA HONESTIDADE DEPENDE A VIDA DE QUEM VAI RECEBER SEU SANGUE". O objetivo é fazer o doador entender que ele também é responsável pela segurança do sangue.
+@111 f portugues/semantica-e-figuras-de-linguagem
+x: "Mandinga" era o nome de uma região da África. Por causa da visão dos navegadores portugueses, que consideravam bruxos os africanos dali, a palavra passou a significar feitiço. O sentido nasceu de um contexto histórico e social específico.
+@114 f portugues/funcoes-generos-e-variacao
+x: O texto resume o livro (a disputa entre Tartaglia e Cardano) e o avalia ("ótima opção", "fácil leitura", "forma interessante, inteligente e acessível"). É uma resenha: apresenta e aprecia a obra.
+@121 f portugues/funcoes-generos-e-variacao
+s: De domingo — Outrossim… — O quê? => De domingo || — Outrossim… || — O quê?
+x: Os personagens discutem se palavras formais como "outrossim", "óbice" e "desiderato" são de domingo ou de segunda-feira. Usar palavras pomposas numa conversa do dia a dia e classificá-las por dia da semana cria o humor da crônica de Verissimo.
+@125 f artes/artes-e-educacao-fisica
+x: O treinador diz "eu não treino garotas", mas Maggie insiste e entra num esporte visto como masculino. O texto mostra uma feminilidade que ultrapassa os limites impostos às mulheres em um espaço dominado por homens.
+@127 f artes/artes-e-educacao-fisica
+x: No drible, o jogador avança com a bola em direção ao gol adversário, superando o marcador. Esse é o princípio de ataque da progressão da equipe com a posse da bola em direção ao alvo.
+@130 f portugues/funcoes-generos-e-variacao
+s: LHE DAR AS || COSTAS, COMO SEMPRE, IMPASSÍVEL. O HOMEM, || MAIS UMA VEZ, CANSADO, DESISTE.) => LHE DAR AS COSTAS, COMO SEMPRE, IMPASSÍVEL. O HOMEM, MAIS UMA VEZ, CANSADO, DESISTE.)
+x: Rubricas são as indicações entre parênteses que dizem como os atores devem agir ("De súbito, pedagógica, volta-se para o homem", "FAZ UMA PAUSA"). Elas constroem a ação no palco e são uma marca do texto teatral.
+@133 f portugues/semantica-e-figuras-de-linguagem
+a: recuperação histórica do significado. | ampliação do sentido de uma palavra. | produção imprópria de poetas portugueses. | denominação científica com base em termos gregos. | restrição ao uso de um vocábulo pouco aceito socialmente.
+x: O nome antigo, "caga-lume", era considerado "indecoroso" e não podia ser usado em textos sérios. Tabu linguístico é justamente evitar uma palavra mal vista socialmente; por isso se inventou "pirilampo".
+@98 m portugues/interpretacao-de-texto
+x: O texto mostra que a internet tornou difícil controlar quem é dono dos arquivos e que a cópia gratuita às vezes até ajuda o autor (como no caso de Paulo Coelho). A internet obriga a repensar o que é propriedade intelectual.
+@99 m literatura/pre-modernismo-ao-contemporaneo
+x: Na mesa de Hideo, o pai fica na cabeceira, os filhos homens sentam por ordem de idade e as mulheres esperam de pé. A posição de cada um à mesa representa a hierarquia da família (pai acima dos filhos, homens acima das mulheres), que Haruo contesta.
+@103 m literatura/quinhentismo-ao-simbolismo v
+x: O eu lírico não reconhece a paisagem: a fonte sumiu, as árvores morreram. No fim, percebe que são os seus males que fazem tudo degenerar. A natureza decadente espelha o sofrimento dele: há uma empatia entre a dor do eu e a agonia da terra.
+@106 m portugues/funcoes-generos-e-variacao
+s: Entrevistadora—euvouconversaraquicomaprofessora A. D. => Entrevistadora — eu vou conversar aqui com a professora A. D.
+s: professoraA. D. => professora A. D.
+x: O Texto I tem marcas da fala (hesitações, repetições), e o Texto II é a versão escrita, mais organizada. Mas os dois são falados ou escritos por uma professora de português, com vocabulário e construções da norma culta: ambos são amostras do português culto urbano.
+@109 m artes/artes-e-educacao-fisica
+s: Aorigemdaobradearte(2002)éumainstalaçãoseminal => A origem da obra de arte (2002) é uma instalação seminal
+x: A instalação convida o espectador a formar palavras e frases com as letras-vaso e a plantar nelas. Quem visita deixa de só observar e passa a criar a obra: é a arte como experimentação e construção.
+@110 m portugues/morfologia-e-sintaxe
+s: texto.Analisando => texto. Analisando
+x: "Acontecendo de o cientista provocar um dano..." equivale a "se o cientista provocar um dano...". A oração apresenta a condição para que o rato deixe de vocalizar: é uma relação de condição.
+@112 m portugues/interpretacao-de-texto
+s: fascíniodoconsumo.Felicidade,luxo,bem-estar,boaforma, => fascínio do consumo. Felicidade, luxo, bem-estar, boa forma,
+x: O Texto I diz que, com o consumismo, "as coisas são personificadas e as pessoas são coisificadas"; o Texto II, que "o código da alma virou código do consumidor". Os dois mostram que o consumo muda os valores da sociedade.
+@113 m portugues/pontuacao-ortografia-acentuacao
+x: Antes dos dois pontos, o autor diz que é um erro buscar a essência do conto entre a obra e o autor; depois deles, explica onde se deve procurar (entre o texto e o leitor). Os dois pontos introduzem um argumento que esclarece a afirmação.
+@120 m portugues/funcoes-generos-e-variacao v
+x: Num diário, a pessoa conta o seu dia e reflete sobre si mesma. A canção, chamada "Querido diário", narra o que aconteceu "hoje" ao eu lírico e como ele reage ("eu não quebro porque sou macio"): é uma narrativa autorreflexiva.
+@126 m artes/artes-e-educacao-fisica
+s: atletaguia => atleta-guia
+s: diários,trabalhospreventivosdelesõeseacompanhamento => diários, trabalhos preventivos de lesões e acompanhamento
+s: Paraolímpicos de 2016? || Terezinha => Paraolímpicos de 2016? Terezinha
+s: Revista do Observatório Brasil de Igualdade de Gênero, n. 6, dez. 2014 (adaptado). O texto => > Revista do Observatório Brasil de Igualdade de Gênero, n. 6, dez. 2014 (adaptado). || O texto
+x: Uma visão ampliada de saúde vai além do corpo: inclui as condições sociais e econômicas. A atleta conta que a falta de dinheiro no começo da carreira a obrigava a treinar sozinha e se machucar; com recursos, passou a ter treinos, prevenção de lesões e acompanhamento psicológico e nutricional. A condição financeira é o que torna tudo isso possível.
+@128 m portugues/interpretacao-de-texto
+s: 14 de junho de 1889 Ó doce => 14 de junho de 1889 || Ó doce
+x: Machado diz que ler jornais velhos dá a sensação de ver as ruínas de uma civilização: é "a recomposição do extinto, a revivescência do passado". O jornal antigo é um instrumento para reconstruir a memória.
+@131 m portugues/interpretacao-de-texto
+x: O crítico destaca o "paradoxo": um gaúcho de origem italiana, nascido na fronteira com a Argentina, que se tornou um grande sambista, falando de morro e mulata "com categoria". O contraste entre a origem e o gênero escolhido realça o talento do artista.
+@132 m portugues/pontuacao-ortografia-acentuacao
+x: "O PM pensou que…" fica em suspenso: o leitor completa que o policial achou que o menino, que brincava de pegador, era um bandido em fuga, e atirou. As reticências deixam implícita essa informação trágica.
+@104 d literatura/pre-modernismo-ao-contemporaneo v
+x: O poeta diz que não escreve "uma flor" nem a flor-símbolo, mas "a palavra flor". Depois a compara com o salto da ave, uma explosão, uma máquina. Ele recria a palavra por meio de imagens, dando a ela novos sentidos.
+@107 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador mostra primeiro o olhar do dono, preocupado, que não entende a desorientação da galinha; depois, o da própria galinha, que não compreende por que tudo escureceu. Ele se apropria de pontos de vista diferentes e os apresenta com afeto.
+@115 d literatura/pre-modernismo-ao-contemporaneo
+s: A velha bemvestida => A velha bem-vestida
+x: Dona Maria Rita é descrita como uma velha que recebeu "o beijo gelado" da filha, que foi embora antes do trem partir, e o narrador afirma que "uma velha não pode comunicar-se". A cena destaca a solidão que vem com o envelhecimento.
+@116 d literatura/pre-modernismo-ao-contemporaneo v
+x: Cada geração bateu na seguinte achando que era normal; só depois se descobriu que estava errado. O eu lírico sente a angústia de ter errado dos dois lados, mas reconhece que todos eram "inocentes": agiam conforme o senso comum de cada época, com suas imperfeições.
+@134 d literatura/pre-modernismo-ao-contemporaneo
+x: O poema imita uma lição de escola, com definições secas de gêneros líricos (elegia, nênia, epitáfio). Esse tom explicativo e contido, sem a emoção que se espera do lirismo, é justamente a forma peculiar que a poeta encontrou para fazer poesia.

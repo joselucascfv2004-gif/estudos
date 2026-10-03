@@ -1,0 +1,179 @@
+## 39-enem-2025-linguagens.md | 2025 | 1 | 1º dia, caderno azul | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2025 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. O texto que serve a várias questões aparece repetido em cada uma delas. As explicações foram escritas para este aplicativo.
+- **Crônica:** parte de fatos do dia a dia do autor e faz uma reflexão pessoal sobre eles.
+- **Norma-padrão:** é exigida por certos gêneros (leis, documentos oficiais), e não pelo assunto.
+- **Variação linguística:** marcas da fala (como o "daí" repetido) são estratégias da língua oral, e não erros.
+- **Coesão:** pronomes e expressões retomam termos já ditos; confira a que palavra cada um se refere.
+- **Literatura:** Romantismo (mulher idealizada e submissa), Simbolismo (símbolos, musicalidade, sugestão).
+- **Educação física:** o ENEM valoriza a inclusão, a saúde mental e o olhar crítico sobre o esporte na mídia.
+
+@6 f portugues/funcoes-generos-e-variacao
+c: c2025-06.txt
+x: A autora mostra bilhetes em vários lugares e com várias funções: na geladeira, para lembrar os outros moradores, e em post its no escritório, para lembrar a si mesma. É a diversidade de usos do bilhete no dia a dia.
+@7 f portugues/funcoes-generos-e-variacao
+c: c2025-06.txt
+x: A crônica parte de situações da vida da autora (o banco, os bilhetes, os post its) e as transforma numa reflexão sobre a escrita. É isso que caracteriza o gênero.
+@8 f portugues/interpretacao-de-texto
+c: c2025-06.txt
+x: Quando fala da escrita no computador, a autora cita Times New Roman, Arial, Calibri "e mais uma centena de letras à minha escolha". A escrita digital aparece pela variedade de fontes tipográficas disponíveis.
+@9 f portugues/interpretacao-de-texto
+c: c2025-06.txt
+x: No final, a autora diz que "nada dispensa nada" e que não adianta pensar como se tudo fosse excludente: a escrita à mão e a digital convivem. As novas tecnologias coexistem com as antigas.
+@10 m portugues/semantica-e-figuras-de-linguagem
+c: c2025-06.txt
+x: A frase final troca "Do punho ao pixel" (que sugere que um substituiu o outro) por "o punho e o pixel" (os dois juntos). Essa troca resume a opinião da autora de que as formas de escrita convivem.
+@12 f artes/artes-e-educacao-fisica
+x: O texto mostra um programa do governo (política pública) para que pessoas com deficiência pratiquem o surf, com o objetivo declarado de promover a inclusão.
+@13 f portugues/funcoes-generos-e-variacao
+x: O texto é um artigo de lei. Leis são textos oficiais e, por isso, são escritas na norma-padrão. O que justifica a linguagem é o gênero, e não o assunto ou o público.
+@15 f artes/artes-e-educacao-fisica
+x: O texto diz que pessoas negras e indígenas quase nunca foram retratadas com seus nomes. Ao pintar e nomear essas pessoas, o artista dá visibilidade a quem foi apagado: a arte afirma a identidade desses grupos.
+@18 f artes/artes-e-educacao-fisica
+x: A ex-atleta critica a "ideia romântica que a mídia passa": a televisão mostra só as conquistas e esconde os treinos duros e os limites dos atletas. A mídia invisibiliza as dificuldades do esporte.
+@19 f artes/artes-e-educacao-fisica
+x: As atletas falam de controlar a mente, da terapia e do suporte psicológico. Elas defendem a importância da saúde mental, ou seja, emocional.
+@20 f portugues/funcoes-generos-e-variacao
+x: O texto explica que a "língua de santo" se apoia em palavras de línguas africanas faladas no Brasil escravocrata. Ela conserva elementos dos falares dos africanos escravizados.
+@21 f literatura/pre-modernismo-ao-contemporaneo
+x: Os medos do narrador são de tirar zero, não arranjar emprego nem de faxineiro e ser visto com suspeita pela polícia. São incertezas ligadas à sua condição social, marcada pela pobreza e pelo racismo.
+@22 f artes/artes-e-educacao-fisica
+s: TEXTO I || A Ilha do Ferro => A Ilha do Ferro
+s: || TEXTO II || FARIAS, Y. Bailarino entalhado em gravetos de madeira. Artesanato em madeira, 20 × 13 × 51 cm. Ilha do Ferro (AL). || Disponível em: www.nidelins.com.br. Acesso em: 5 fev. 2025. =>
+x: Os artistas olham troncos e galhos retorcidos e enxergam bancos, bonecos e bailarinas. Eles dão um novo sentido e uma nova função à madeira: é a ressignificação da matéria-prima.
+@27 f artes/artes-e-educacao-fisica
+x: O texto diz que na luta o combate é também "consigo mesmo", contra as próprias limitações e o próprio orgulho. Essa é a superação pessoal, que diferencia a luta da briga.
+@30 f portugues/funcoes-generos-e-variacao
+x: O verbete define "urucum" a partir do conhecimento dos Wajãpi: os donos da água e da mandioca, os espíritos e o uso do urucum para se proteger. É uma definição na perspectiva indígena.
+@36 f portugues/funcoes-generos-e-variacao
+x: O texto é a transcrição de uma fala. O "daí" repetido serve para ligar os fatos na sequência da narrativa oral; é um recurso típico da língua falada.
+@39 f portugues/interpretacao-de-texto
+x: O texto mostra que o rádio não desapareceu com a TV e que se reinventou com a internet, na web rádio e no podcast. A reflexão é sobre a permanência do rádio e sua evolução digital.
+@43 f portugues/interpretacao-de-texto
+x: A reportagem destaca que o povo quebrou a tradição de sucessão masculina, escolheu uma mulher como cacique e que ela prepara duas filhas para sucedê-la. O foco é o protagonismo feminino.
+@44 f portugues/interpretacao-de-texto
+s: um ato de amor Parece que => um ato de amor || Parece que
+s: ajudála => ajudá-la
+x: Para convencer, o texto lista os motivos para ler para as crianças: cria laço emocional, ajuda o desenvolvimento, ensina sobre o mundo e incentiva a imaginação. É a enumeração de razões.
+@11 m literatura/quinhentismo-ao-simbolismo
+x: O pai descreve a filha pela aparência ("bonita e boa") e já combinou o casamento dela com um homem que ela nem escolheu, porque "os pais devem tomar isso a si". A mulher aparece como figura decorativa, e as decisões ficam com os homens.
+@16 m literatura/quinhentismo-ao-simbolismo v
+x: O eu lírico usa o mar (que vai e vem, violento e carinhoso) e a rocha (imóvel, sofrida) como símbolos dele e da pessoa amada. Representar o conflito amoroso por meio de símbolos é um traço do Simbolismo.
+@17 m portugues/semantica-e-figuras-de-linguagem
+x: Cada "antes de" mostra como a avó era antes da fome, do cansaço e do Alzheimer. Essas lembranças dão novo sentido ao presente: a avó mudou, mas continua sendo avó.
+@25 m portugues/funcoes-generos-e-variacao
+x: Para criticar as expressões da moda, o autor escreve o texto usando justamente essas expressões ("novo normal", "zona de conforto", "lugar de fala", "cringe"). O humor vem do uso exagerado daquilo que ele critica.
+@28 m literatura/quinhentismo-ao-simbolismo v
+x: O eu lírico chama o "pequenino" para acordar e fugir, como se ele ainda pudesse voltar. Essa recusa em aceitar que a morte é definitiva intensifica a dor do luto.
+@29 m literatura/pre-modernismo-ao-contemporaneo
+x: A lista de riquezas da cana termina num "reino" com reis, cortesãos e escravos, e o narrador diz que essa corte fazia tudo para não deixar nada sair do seu círculo, passando os nomes de pai para filho. A fartura mostra a permanência dos privilégios de uma classe.
+@35 m portugues/interpretacao-de-texto
+x: A autora começa citando críticas a Margot Robbie e a Paolla Oliveira, mulheres consideradas padrões de beleza. Se até elas são criticadas, a fiscalização atinge todas as mulheres.
+@38 m portugues/morfologia-e-sintaxe
+x: Em "sua trajetória calculada", o possessivo "sua" retoma "qualquer detrito espacial": é a trajetória do detrito. Nas outras opções, a referência está errada (por exemplo, "que passou de raspão" se refere ao outro asteroide).
+@40 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador descreve com ironia a mãe que pensa no casamento da filha como negócio, o coronel que deixou a mulher no Ceará e as "visitas matinais" da viúva, que os hóspedes comentam rindo. O tom é de escárnio diante da degradação moral dos personagens.
+@42 m portugues/funcoes-generos-e-variacao
+s: examine.” TRADUÇãO Não atendo => examine.” || TRADUÇÃO || Não atendo
+s: produzidas. Proposta de emenda => produzidas. || Proposta de emenda
+s: subsídio. || TRADUÇãO Torna-se => subsídio. || TRADUÇÃO || Torna-se
+s: Superinteressante, n. 322, ago. 2013 (adaptado). Nesse texto => > Superinteressante, n. 322, ago. 2013 (adaptado). || Nesse texto
+x: O "juridiquês" é tão difícil que precisa ser traduzido para a variedade padrão comum, que todos entendem. A ironia está em mostrar que a linguagem da Justiça é incompreensível para o público em geral.
+
+## 40-enem-2025-ciencias-humanas.md | 2025 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2025 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Pinturas e imagens citadas nas questões foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
+- **Filosofia antiga:** Heráclito (os opostos e o devir), Platão (filósofos governam a cidade justa; crítica aos sofistas), Aristóteles (monarquia, aristocracia e democracia e seus desvios).
+- **Filosofia moderna e contemporânea:** Bentham (utilitarismo: punir para maximizar a felicidade), Foucault (disciplina espalhada pelas instituições), Marcuse (sociedade unidimensional), Bobbio (direitos humanos históricos).
+- **História do Brasil:** Lei Saraiva de 1881 (voto do analfabeto proibido), Impressão Régia (1808), atentado da Rua Tonelero (1954).
+- **Geografia:** relevo cárstico (dolinas), energia geotérmica, cidades sustentáveis, integração regional (União Europeia).
+- **Sociologia:** ações afirmativas (discriminação positiva), utopia como alternativa possível, intolerância contra religiões afro-brasileiras.
+
+@46 f geografia/geopolitica-e-globalizacao
+s: muda oficialmente de nome Entrou em vigor => muda oficialmente de nome || Entrou em vigor
+x: A Grécia bloqueava a entrada do vizinho na União Europeia por causa do nome. Ao mudar de nome, a Macedônia do Norte abre caminho para entrar no bloco: é uma estratégia de integração regional.
+@50 f filosofia/filosofia-moderna-e-contemporanea
+x: O texto separa direito (regras) e justiça (o que é justo, sem garantia de regra). A desobediência civil desrespeita a lei em nome do que é justo, como recusar uma lei injusta.
+@52 f historia/seculo-xx
+x: A Espanha era neutra na Primeira Guerra e tinha imprensa livre; os países em guerra censuravam as notícias. Como só a Espanha divulgava os casos, a gripe ficou com o nome do país. O nome veio do controle das informações nos países em guerra.
+@54 f geografia/populacao-e-urbanizacao
+x: O autor mostra que quem deixa as metrópoles é uma pequena elite, com renda alta e emprego estável. O deslocamento não é de todos: é seletivo.
+@55 f filosofia/filosofia-moderna-e-contemporanea
+x: Foucault descreve a disciplina como muitos processos pequenos espalhados pelos colégios, hospitais e quartéis. O controle chega a todos os cantos da sociedade, como vasos capilares: é a capilarização do poder.
+@56 f geografia/economia-agropecuaria-industria-energia
+x: Com o Reno mais raso, os barcos não conseguem navegar em parte do ano. As fábricas precisam usar outros meios de transporte, mais caros: o transporte de cargas fica mais caro.
+@57 f geografia/populacao-e-urbanizacao
+x: As lembranças de Virgínia ligam a feira de São Cristóvão, no Rio, à Paraíba, para onde ela foi depois, e à vida da família. São histórias conectadas a lugares e às memórias deles.
+@59 f geografia/biomas-e-questoes-ambientais
+x: O professor explica que a Floresta Amazônica manda umidade para a atmosfera, que vira chuva em outras regiões. Desmatar essa área estratégica reduz a chuva e a água das hidrelétricas.
+@61 f filosofia/filosofia-antiga-e-medieval
+x: Aristóteles fala do governo de um, de poucos e de todos visando o bem comum. São a monarquia, a aristocracia e a democracia (ou politeia). Quando visam só o interesse próprio, viram desvios.
+@62 f sociologia/temas-contemporaneos
+x: A utopia nasce de perceber que o mundo não funciona bem e de acreditar que podemos mudá-lo. Ela aponta alternativas possíveis para transformar a sociedade.
+@64 f historia/brasil-republica
+x: O atentado da Rua Tonelero (1954), contra Carlos Lacerda, foi ligado a pessoas próximas de Vargas. A UDN, partido de Lacerda, aumentou os ataques ao governo, o que levou à crise que terminou com o suicídio de Vargas.
+@65 f filosofia/filosofia-moderna-e-contemporanea
+x: Clarice queria ser "uma pessoa que luta pelo bem dos outros" e defender quem é acusado. Agir pelo bem do outro é o altruísmo.
+@67 f geografia/economia-agropecuaria-industria-energia
+x: A fazenda foi desapropriada por não cumprir a função social da terra, com trabalho escravo e crimes ambientais. A justiça usou a desapropriação para enfrentar a concentração de terras e as desigualdades.
+@70 f geografia/geografia-fisica
+x: O calcário se dissolve com a água da chuva, que é levemente ácida. Isso abre cavidades no subsolo que depois desabam (as dolinas). É uma ação do intemperismo químico.
+@71 f historia/seculo-xx
+x: O trecho do Muro de Berlim com grafites é patrimônio histórico da cidade. Demoli-lo para construir um condomínio apaga a memória coletiva da divisão da Alemanha.
+@73 f historia/brasil-colonia
+x: Para os europeus, o canibalismo era sinal de barbárie, de selvageria. Para os tupis, morrer no ritual era uma honra que fortalecia o guerreiro. São os sentidos de selvageria e de empoderamento.
+@76 f filosofia/filosofia-moderna-e-contemporanea
+x: O texto diz que os direitos mudam conforme as condições históricas e os interesses de cada época. Eles são construídos pelas sociedades, ou seja, são convenções coletivas, e não algo fixo.
+@78 f historia/brasil-colonia
+x: A Roda dos Expostos acolhia bebês abandonados por caridade e para salvar a alma deles pelo batismo. A justificativa era social e religiosa.
+@80 f geografia/populacao-e-urbanizacao
+x: A cidade sustentável busca equilíbrio com a natureza. Canalizar os rios destrói o ambiente natural deles e aumenta enchentes; contradiz esse modelo. As outras medidas ajudam a sustentabilidade.
+@81 f sociologia/temas-contemporaneos
+x: A discriminação positiva cria medidas especiais para um grupo em desvantagem. Uma delegacia especializada no atendimento à mulher é um exemplo atual desse tipo de política.
+@82 f filosofia/filosofia-antiga-e-medieval
+x: Para Platão, a cidade justa é governada pelos filósofos, que conhecem o bem e pensam no bem comum; a injusta é governada por quem busca o próprio interesse. Ética e poder andam juntos.
+@84 f geografia/cartografia
+x: O modelo que prevê o comportamento do fogo foi criado pela UFMG com dados do Inpe. Isso mostra a importância da pesquisa acadêmica e do sensoriamento remoto para proteger o ambiente.
+@86 f geografia/economia-agropecuaria-industria-energia
+x: Usar o calor do solo para climatizar prédios diminui o uso de ar-condicionado elétrico. No Brasil, onde a eletricidade vem muito das hidrelétricas, isso reduz a pressão sobre elas.
+@87 f historia/antiguidade-e-idade-media
+x: Com leis apenas orais, os patrícios aplicavam a justiça como queriam. Os plebeus lutaram por leis escritas (a Lei das Doze Tábuas) e por participação política.
+@88 f sociologia/temas-contemporaneos
+x: A declaração reconhece sementes, medicamentos, conhecimento da fauna e da flora, literaturas e artes dos povos indígenas. É a complexidade dos saberes tradicionais.
+@48 d filosofia/filosofia-moderna-e-contemporanea
+x: Para o autor, a eloquência fala à imaginação e às emoções e "subjuga o entendimento", isto é, convence sem passar pela razão. É a crítica de Platão aos sofistas, que só buscavam persuadir.
+@49 m historia/idade-moderna
+s: TEXTO I || CARLEVARIS, L. La piazetta (detalhe). Óleo sobre tela, 49 × 41 cm. Ashmolean Museum, Oxford, 1729. || Disponível em: www.meinsterart.de. Acesso em: 13 dez. 2017. || TEXTO II || =>
+x: Veneza era um grande centro comercial ligado ao Oriente pelo Mar Mediterrâneo, e por isso recebia gente de muitos lugares. O cosmopolitismo vinha da integração do comércio mediterrâneo.
+@51 m sociologia/temas-contemporaneos v
+x: Os dois amigos se encontram rapidamente no sinal, prometem se ver e se telefonar, mas a pressa da cidade não deixa. A canção mostra a fragilidade e a rapidez dos laços afetivos na vida urbana.
+@53 m historia/antiguidade-e-idade-media
+x: No texto I, a Igreja condenava a dança e o teatro e excomungava quem os assistia: é o dogmatismo religioso. No texto II, a dança é usada no culto e atrai e engaja fiéis: é a adesão dos fiéis.
+@58 m historia/brasil-imperio
+x: A Lei Saraiva (1881) criou a eleição direta, mas proibiu o voto dos analfabetos. Como a maioria da população não sabia ler, o eleitorado caiu quase 90%.
+@60 m filosofia/filosofia-moderna-e-contemporanea
+x: O texto diz que, para Adam Smith, os comerciantes agem também por motivos morais, por empatia e pelo que sentem que devem fazer. O lucro aparece ligado à responsabilidade ética.
+@66 m filosofia/filosofia-moderna-e-contemporanea
+x: Marcuse diz que a sociedade industrial atende às necessidades das pessoas e faz a crítica e a oposição parecerem inúteis. Sem pensamento crítico, a realidade fica com uma dimensão só: é a sociedade unidimensional.
+@69 m historia/antiguidade-e-idade-media
+x: O texto fala das Cruzadas: a Igreja prometia a salvação a quem partisse para o Oriente para lutar. A salvação vinha de uma ação voluntária, a decisão de ir à guerra santa.
+@72 m filosofia/filosofia-antiga-e-medieval
+s: || Pré-socráticos. São Paulo: Nova Cultural, 1996. => || > Pré-socráticos. São Paulo: Nova Cultural, 1996.
+x: Heráclito descreve o mundo por pares de opostos (dia-noite, guerra-paz, unido-separado) que formam uma unidade. É a visão do cosmos dividido em contrários.
+@74 d sociologia/temas-contemporaneos
+x: O texto aponta duas causas: a religião está fragmentada e sem organização ampla (falta de coesão representativa) e sofre preconceito racial (recusa do outro, da alteridade).
+@75 m geografia/economia-agropecuaria-industria-energia
+x: Os inseticidas sintéticos matam também insetos que não são pragas, como abelhas. Por isso diminui a diversidade de polinizadores naturais.
+@79 d filosofia/filosofia-moderna-e-contemporanea
+x: O texto é de Bentham, utilitarista: punir só se justifica se ajudar a felicidade geral. A punição é um meio para atingir um fim, a felicidade da sociedade.
+@83 m historia/brasil-colonia
+x: Com a corte no Rio, a Impressão Régia publicava os atos e as ideias do governo para todo o território. Assim ajudava a ligar as várias regiões ao poder central do novo império.
+@85 m historia/brasil-republica
+s: || O cinema e a criança. Diário de Pernambuco. 29 ago. 1925 (adaptado). Publicados => || > O cinema e a criança. Diário de Pernambuco. 29 ago. 1925 (adaptado). || Publicados
+x: O texto I elogia o cinema como lazer encantador. O texto II reclama dos filmes que as crianças assistem. São argumentos contrários sobre a mesma diversão.
+@89 d historia/antiguidade-e-idade-media
+x: Os três textos ligam o conhecimento ao trabalho e à vida em sociedade: habilidades artísticas e técnicas, a sabedoria de Moisés e a ciência certa. A ciência aparece a serviço do desenvolvimento social e do trabalho.
+@90 m historia/seculo-xx
+x: A expedição russa coletava objetos e conhecimentos de outros povos para os museus do seu país, como faziam as potências europeias. Era parte de um projeto nacionalista de caráter imperialista e colonizador.

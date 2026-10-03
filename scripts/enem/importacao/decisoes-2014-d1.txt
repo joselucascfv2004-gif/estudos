@@ -1,0 +1,144 @@
+## 35-enem-2014-ciencias-humanas.md | 2014 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2014 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2014, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Epicuro (prazer moderado), Descartes (dúvida que leva à certeza), Habermas (consenso pela comunicação), Grécia (isonomia e cidadania como participação) e bioética.
+- **História do Brasil:** jesuítas e língua geral, vinda da corte (1808), Revolta do Vintém, federalismo de Tavares Bastos, política dos governadores, crise de 1929, Frente Negra e Comissão da Verdade.
+- **História geral:** arte medieval que educa, medo das navegações, imperialismo e Primeira Guerra, rádio e fitas como mobilização política.
+- **Geografia:** Mar de Aral e salinização, fuso horário (rotação), Muralha Verde no Sahel, periferização, rodoviarismo, convecção na Amazônia.
+
+@2 f historia/antiguidade-e-idade-media
+x: A mulher do poema não sabe ler, mas entende o Paraíso e o Inferno pelas pinturas da igreja. Na Idade Média, as imagens serviam para ensinar a fé a uma população em grande parte analfabeta.
+@7 f geografia/economia-agropecuaria-industria-energia
+x: O caboclo trabalha na terra, mas o que colhe "é dividido com quem não planta nada" (o dono da terra, num sistema de parceria). A queixa é contra a divisão desigual da produção, e ele pensa em migrar para a cidade.
+@13 f geografia/cartografia
+x: Enquanto é meio-dia nos EUA, o Sol se põe na França: lugares diferentes têm horários diferentes ao mesmo tempo. Isso acontece porque a Terra gira em torno do próprio eixo (rotação), iluminando uma parte do planeta de cada vez.
+@20 f geografia/biomas-e-questoes-ambientais
+x: O Sahel fica na borda sul do Saara e sofre com a desertificação. Uma faixa de vegetação de 7 000 km funciona como barreira para segurar o avanço do deserto.
+@21 f historia/brasil-republica
+s: Diário Oficial do Estado de São Paulo, 4 nov. 1931. Quando foi fechada => > Diário Oficial do Estado de São Paulo, 4 nov. 1931. || Quando foi fechada
+x: O estatuto define a FNB como "união política e social da Gente Negra Nacional", que reivindicava direitos sociais e políticos. Era uma organização política de luta por direitos da população negra; chegou a virar partido antes de ser fechada no Estado Novo.
+@23 f historia/revolucoes-e-seculo-xix
+x: No imperialismo, as potências europeias disputaram colônias na África e na Ásia. Essa corrida aumentou a rivalidade entre elas (Alemanha, Inglaterra, França) e foi uma das causas da Primeira Guerra Mundial.
+@24 f filosofia/filosofia-antiga-e-medieval
+x: Epicuro separa os desejos e ensina a satisfazer só os naturais e necessários, deixando de lado os que trazem dor. O objetivo é a felicidade, entendida como prazer moderado e tranquilidade.
+@28 f historia/ditadura-e-redemocratizacao
+x: A Comissão Nacional da Verdade investigou documentos e ouviu testemunhas para esclarecer as violações de direitos humanos (torturas, mortes, desaparecimentos) cometidas pelo Estado, sobretudo na ditadura militar.
+@41 f historia/seculo-xx
+x: De Gaulle usou o rádio para convencer os soldados a não apoiar um golpe, e os discursos de Khomeini circularam em fitas no Irã. Nos dois casos, os meios de comunicação foram usados para mobilizar politicamente as pessoas.
+@3 m geografia/biomas-e-questoes-ambientais
+x: Com o desvio dos rios para irrigar algodão, o Mar de Aral secou e o solo exposto ficou coberto de sal. Além disso, a irrigação intensa em clima seco acumula sais no solo. A salinização tornou a região um deserto.
+@4 m filosofia/filosofia-moderna-e-contemporanea
+x: Descartes duvida de tudo para descartar o que for incerto. A certeza que sobrevive a essa dúvida radical (como "penso, logo existo") é segura. A dúvida tem papel positivo: abre caminho para um conhecimento inabalável.
+@6 m historia/brasil-republica
+x: A crise de 1929 derrubou o preço do café e mostrou o perigo de depender de um só produto de exportação. O governo Vargas passou a estimular a indústria nacional (substituição de importações).
+@8 m sociologia/temas-contemporaneos
+x: O dia de um americano comum usa objetos vindos do Oriente Próximo, da Índia, da China, da Itália e de Roma. Os costumes de qualquer povo são resultado da mistura de elementos de culturas diferentes.
+@11 m historia/antiguidade-e-idade-media
+x: Escrever as leis tornou-as fixas e públicas, aplicadas "a todos da mesma maneira". O princípio garantido é a isonomia: igualdade dos cidadãos perante a lei.
+@12 m filosofia/filosofia-moderna-e-contemporanea
+x: A bioética discute os limites morais da ciência que mexe com a vida, como a clonagem humana. Ela relaciona o conhecimento científico sobre a vida com os valores éticos.
+@14 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Habermas, uma norma só é válida se todos os afetados por ela puderem chegar a um acordo num diálogo racional. É a razão comunicativa, que busca o consenso.
+@15 m historia/brasil-colonia
+x: Para catequizar indígenas de muitos povos, os jesuítas aprenderam o tupi e organizaram a língua geral, usada na comunicação e na catequese (José de Anchieta escreveu até uma gramática do tupi).
+@18 m historia/idade-moderna
+s: J. P. T. Histoire de plusieurs voyages aventureux. 1600. In: DELUMEAU, J. História do medo no Ocidente: 1300-1800. São Paulo: Cia. das Letras, 2009 (adaptado). Esse relato => > J. P. T. Histoire de plusieurs voyages aventureux. 1600. In: DELUMEAU, J. História do medo no Ocidente: 1300-1800. São Paulo: Cia. das Letras, 2009 (adaptado). || Esse relato
+x: O viajante diz que voltar vivo é "um milagre manifesto" e que pensar em todos os perigos seria "coisa pavorosa". As navegações da época moderna eram cercadas de medo do mar e do desconhecido.
+@19 m historia/antiguidade-e-idade-media
+s: paraAristóteles => para Aristóteles
+x: Tucídides diz que quem não participa das questões públicas é um "inútil"; Aristóteles define o cidadão pelo direito de julgar e exercer funções públicas. Para ambos, cidadania é participação política.
+@22 m geografia/populacao-e-urbanizacao
+x: Quem não pode pagar o centro caro é empurrado para a periferia. Morando longe do trabalho e dos serviços, essas pessoas passam a gastar muito mais tempo no deslocamento diário.
+@27 m geografia/populacao-e-urbanizacao
+x: Bondes e trens foram substituídos por ruas largas, viadutos e túneis para carros e ônibus. Esse modelo rodoviário cresceu junto com a instalação das montadoras multinacionais no Brasil, a partir dos anos 1950.
+@30 m sociologia/temas-contemporaneos
+s: Procura-seoferecerumaresposta,entreoutras,naárea => Procura-se oferecer uma resposta, entre outras, na área
+x: O parecer quer formar cidadãos "orgulhosos de seu pertencimento étnico-racial", com o ensino de história e cultura afro-brasileira e africana. A inclusão social é associada à valorização das identidades.
+@31 m historia/idade-moderna
+x: A praça já homenageou o rei Luís XV (com sua estátua) e depois recebeu o obelisco egípcio diante da família real. As mudanças guardam momentos da história da França: a praça é um lugar de memória nacional.
+@32 m historia/brasil-imperio
+x: A polícia impediu a multidão de chegar ao palácio e atirou contra os manifestantes. A repressão violenta tentava manter a autoridade do governo diante da revolta popular, mas o ministério acabou caindo.
+@33 m sociologia/temas-contemporaneos
+x: O autor diz que o sistema político se justifica dizendo que a sociedade é conservadora e "não aceita mudanças bruscas", o que justifica a lentidão na redistribuição de renda. Essa ideia dá sustentação às desigualdades existentes.
+@35 m geografia/geografia-fisica
+x: Convecção é a subida do ar quente e úmido, que forma nuvens e chuvas. Na Amazônia, isso acontece com a convergência dos ventos alísios que trazem umidade (zona de convergência), alimentando as chuvas frequentes.
+@39 m historia/brasil-republica
+x: Campos Sales diz que "é dos estados que se governa a República". Na política dos governadores, o presidente apoiava as oligarquias estaduais e, em troca, elas garantiam a eleição de deputados aliados.
+@40 m historia/brasil-republica
+x: Diferente das ferrovias feitas para escoar café, a Noroeste foi uma ferrovia de penetração, para levar agricultura e povoamento a áreas pouco ocupadas do interior paulista, valorizando regiões de baixa densidade demográfica.
+@43 m historia/brasil-imperio
+x: Com a corte no Rio de Janeiro, o Brasil passou a ser a sede do governo, com ministérios, tribunais e abertura dos portos. A colônia deixou de depender de Lisboa, o que enfraqueceu o domínio metropolitano e preparou a independência.
+@42 d historia/ditadura-e-redemocratizacao
+x: O Texto I justifica o golpe de 1964 como necessário ao Estado ("intervenção imprescindível"), destacando avanços econômicos. O Texto II diz que nada compensa a perda das liberdades: defende a soberania popular contra soluções autoritárias.
+@44 d historia/brasil-imperio
+x: Tavares Bastos defende que as províncias e municípios tenham leis próprias, adaptadas às suas circunstâncias: "administrar-se-ia de perto, governar-se-ia de longe". É a defesa do federalismo, contra a centralização do Império.
+
+## 36-enem-2014-ciencias-da-natureza.md | 2014 | 1 | 1º dia, caderno azul | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2014 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2014, Ciências da Natureza foi aplicada no 1º dia, junto com Ciências Humanas. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Química:** pH e neutralização, sabão (parte polar e apolar), enantiômeros, carvão ativado, pilhas (o metal com menor E° se oxida), estequiometria com rendimento.
+- **Física:** pêndulo (período depende do comprimento), refração, ressonância, frequência das notas, infravermelho e poluição térmica.
+- **Biologia:** aminoácidos essenciais, endossimbiose, enzimas e pH, tipos sanguíneos, competição, células-tronco e evolução sem "ápice".
+- **Ambiente:** metano dos aterros, diesel com menos enxofre, biorremediação e plásticos com amido.
+
+@47 f biologia/fisiologia-humana
+x: Sem carne, a maior preocupação é obter proteínas com aminoácidos essenciais (que o corpo não fabrica). A combinação de arroz com feijão fornece os aminoácidos essenciais que um alimento sozinho não teria.
+@49 f quimica/quimica-ambiental, biologia/ecologia
+x: No aterro, o lixo orgânico é decomposto por bactérias sem oxigênio (anaeróbias), que produzem gás metano (o biogás). Ele pode ser queimado para gerar energia, e evitar que escape conta como crédito de carbono.
+@53 f biologia/evolucao
+x: Para a biologia, evolução não é "melhorar" nem chegar a um ápice: é a mudança das características das populações ao longo do tempo. Nenhuma espécie, nem a humana, é o ponto final do processo.
+@60 f biologia/ecologia
+x: Competição é quando dois organismos disputam o mesmo recurso. As bactérias consomem o ferro do meio, que o fungo também precisa, e assim o fungo cresce menos.
+@73 f biologia/citologia, biologia/evolucao
+x: Pela teoria endossimbiótica, a mitocôndria foi uma bactéria engolida por outra célula. A prova mais forte é que ela tem DNA próprio, circular como o das bactérias, e se duplica sozinha.
+@76 f fisica/ondulatoria-e-optica
+x: O corpo humano, por estar a cerca de 36 °C, emite radiação térmica, principalmente no infravermelho. É essa radiação que os sensores de presença captam.
+@79 f biologia/genetica-e-biotecnologia
+s: Código dos lotes Volume de sangue (L) || Soro anti-A Soro anti-B I 22 Não aglutinou Aglutinou II 25 Aglutinou Não aglutinou III 30 Aglutinou Aglutinou IV 15 Não aglutinou Não aglutinou V 33 Não aglutinou Aglutinou Quantos => Quadro (lote: volume de sangue em litros; resultado com soro anti-A; com soro anti-B): I: 22; não aglutinou; aglutinou. II: 25; aglutinou; não aglutinou. III: 30; aglutinou; aglutinou. IV: 15; não aglutinou; não aglutinou. V: 33; não aglutinou; aglutinou. || Quantos
+x: O sangue tipo A tem antígeno A: aglutina com o soro anti-A e não com o anti-B. Só o lote II (25 L) se comporta assim. I e V são tipo B, III é AB e IV é O.
+@87 f fisica/ondulatoria-e-optica
+x: Cada nota musical tem uma frequência própria (quanto maior a frequência, mais agudo o som). Quem tem ouvido absoluto reconhece a nota pela sua frequência, sem precisar comparar com outra.
+@89 f biologia/genetica-e-biotecnologia
+x: As células do cordão umbilical são células-tronco: ainda não especializadas e capazes de se transformar em vários tipos de células (do sangue, por exemplo). Por isso servem para tratar doenças como leucemias.
+@46 m fisica/dinamica
+x: O período de um pêndulo simples depende só do comprimento e da gravidade (T = 2π√(L/g)), não da massa nem da amplitude pequena. Como a haste dilata com o calor, usar uma liga que quase não dilata mantém o comprimento constante e o relógio preciso.
+@51 m quimica/solucoes
+s: (CHCl3 ) => (CHCl₃)
+x: O carvão ativado tem uma enorme superfície porosa que adsorve (prende) moléculas orgânicas, como o clorofórmio. Coagulação e floculação removem partículas em suspensão, e não substâncias dissolvidas.
+@52 m quimica/quimica-organica
+x: Enantiômeros são moléculas "espelho" uma da outra. Têm as mesmas propriedades físicas, mas o corpo, que também é formado por moléculas quirais (proteínas, enzimas), interage de forma diferente com cada um. Por isso um era sedativo e o outro causava malformações.
+@56 m quimica/quimica-ambiental, matematica/porcentagem
+x: O enxofre caiu de 13 000 ppm para 50 ppm. A redução foi de 12 950 em 13 000: 12 950 ÷ 13 000 ≈ 0,996 = 99,6%.
+@58 m quimica/quimica-organica
+a: C₁₈H₃₆. | C₁₇H₃₃COONa. | CH₃CH₂COONa. | CH₃CH₂CH₂COOH. | CH₃CH₂CH₂CH₂OCH₂CH₂CH₂CH₃.
+x: O sabão é um sal de ácido graxo: tem uma cauda longa de carbonos (apolar, que se liga à gordura) e uma ponta iônica COO⁻Na⁺ (polar, que se liga à água). O C₁₇H₃₃COONa tem as duas partes; o CH₃CH₂COONa tem cadeia curta demais.
+@61 m biologia/ecologia, geografia/biomas-e-questoes-ambientais
+s: nessa região. Característica Árvore 1 Árvore 2 Árvore 3 Árvore 4 Árvore 5 Superfície foliar Coberta por tricomas Coberta por cera Coberta por cera Coberta por espinhos Coberta por espinhos Profundidade das raízes Baixa Alta Baixa Baixa Alta Qual => nessa região. || Quadro (árvore: superfície foliar; profundidade das raízes): 1: coberta por tricomas; baixa. 2: coberta por cera; alta. 3: coberta por cera; baixa. 4: coberta por espinhos; baixa. 5: coberta por espinhos; alta. || Qual
+x: Com lençol freático profundo, a árvore precisa de raízes profundas (2 ou 5). Com seca e muito sol, a cera nas folhas reduz a perda de água. A árvore 2 reúne as duas adaptações.
+@66 m fisica/termologia
+x: Na usina nuclear, o vapor que move as turbinas precisa ser condensado de volta em água, e isso é feito com água de rios ou do mar, que sai mais quente. É na condensação do vapor, no fim do ciclo, que ocorre a poluição térmica.
+@68 m fisica/ondulatoria-e-optica
+x: A razão entre os senos é o índice de refração relativo (sen i ÷ sen r = n). Com n maior (1,9 em vez de 1,4) e mesmo ângulo de incidência, sen r fica menor: o raio refratado se aproxima da normal.
+@70 m quimica/ligacoes-e-funcoes-inorganicas
+s: disponibilizadas no almoxarifado da empresa: CH3 || COOH, Na2 SO4 , CH3 OH, K2 CO3 e NH4 Cl. => disponibilizadas no almoxarifado da empresa: CH₃COOH, Na₂SO₄, CH₃OH, K₂CO₃ e NH₄Cl.
+a: CH₃COOH | Na₂SO₄ | CH₃OH | K₂CO₃ | NH₄Cl
+x: [OH⁻] = 10⁻¹⁰ dá pOH = 10 e pH = 4: o resíduo está ácido demais (precisa ficar entre 5 e 9). É preciso um composto básico: o K₂CO₃ (carbonato, que reage com H⁺). Ácido acético e NH₄Cl deixariam mais ácido; Na₂SO₄ e metanol são neutros.
+@75 m biologia/fisiologia-humana
+x: Uma protease gástrica digere proteínas em meio ácido, como no estômago. O teste certo é com carne (proteína) em pH ácido (5). Batata e macarrão têm amido; manteiga é gordura; pH 9 é básico.
+@78 m quimica/quimica-organica, quimica/quimica-ambiental
+x: O amido de milho é um carboidrato natural que fungos e bactérias conseguem digerir. Ao consumirem o amido, os micro-organismos abrem espaços no plástico, que se fragmenta mais facilmente.
+@84 m fisica/ondulatoria-e-optica, fisica/eletricidade
+x: Sintonizar é ajustar o circuito do aparelho para que ele oscile na mesma frequência da estação. Quando as frequências coincidem, a absorção de energia é máxima: é a ressonância.
+@86 m quimica/ligacoes-e-funcoes-inorganicas
+x: O texto diz que os maus odores vêm de compostos alcalinos (básicos), como a piridina. O ácido acético do vinagre reage com eles numa neutralização, formando sais sem cheiro, que saem com a água.
+@59 d quimica/fisico-quimica
+e: A revelação das chapas de raios X gera uma solução que contém íons prata na forma de Ag(S₂O₃)₂³⁻. Para evitar a descarga desse metal no ambiente, a recuperação de prata metálica pode ser feita tratando eletroquimicamente essa solução com uma espécie adequada. O quadro apresenta semirreações de redução de alguns íons metálicos. || Quadro (semirreação de redução: E° em V): // Ag(S₂O₃)₂³⁻ (aq) + e⁻ ⇌ Ag (s) + 2 S₂O₃²⁻ (aq): +0,02 // Cu²⁺ (aq) + 2 e⁻ ⇌ Cu (s): +0,34 // Pt²⁺ (aq) + 2 e⁻ ⇌ Pt (s): +1,20 // Al³⁺ (aq) + 3 e⁻ ⇌ Al (s): −1,66 // Sn²⁺ (aq) + 2 e⁻ ⇌ Sn (s): −0,14 // Zn²⁺ (aq) + 2 e⁻ ⇌ Zn (s): −0,76 || > BENDASSOLLI, J. A. et al. Procedimentos para a recuperação de Ag de resíduos líquidos e sólidos. Química Nova, v. 26, n. 4, 2003 (adaptado). || Das espécies apresentadas, a adequada para essa recuperação é
+a: Cu (s). | Pt (s). | Al³⁺ (aq). | Sn (s). | Zn²⁺ (aq).
+x: Para a prata se reduzir (E° = +0,02 V), é preciso um metal sólido que se oxide doando elétrons, ou seja, com E° menor. Cu e Pt têm E° maior e não reagem; Al³⁺ e Zn²⁺ já estão oxidados e não doam elétrons. O estanho (Sn, −0,14 V) serve.
+@83 d quimica/solucoes, quimica/quimica-ambiental
+s: Ambiente Resíduo de naftaleno (g) || Solo I 1,0 × 10−2 Solo II 2,0 × 10−2 Água I 7,0 × 10−6 Água II 8,0 × 10−6 Água III 9,0 × 10−6 O ambiente => Quadro (ambiente: resíduo de naftaleno em gramas): Solo I: 1,0 × 10⁻². Solo II: 2,0 × 10⁻². Água I: 7,0 × 10⁻⁶. Água II: 8,0 × 10⁻⁶. Água III: 9,0 × 10⁻⁶. || O ambiente
+x: Solo: limite 30 mg/kg; em 500 g, até 15 mg = 1,5 × 10⁻² g. O solo II (2,0 × 10⁻² g) passa do limite. Água: 0,14 mg/L; em 100 mL, até 0,014 mg = 1,4 × 10⁻⁵ g, e todas as águas ficam abaixo. Só o solo II precisa de biorremediação.
+@88 d quimica/estequiometria
+s: CaCO3 (s) + SO2 (g) → CaSO3 (s) + CO2 (g) (1) => CaCO₃ (s) + SO₂ (g) → CaSO₃ (s) + CO₂ (g)   (1)
+s: 2 CaSO3 (s) + O2 (g) → 2 CaSO4 (s) (2) => 2 CaSO₃ (s) + O₂ (g) → 2 CaSO₄ (s)   (2)
+x: Pelas equações, 1 mol de SO₂ retido dá 1 mol de CaSO₃, que vira 1 mol de CaSO₄ (gesso). Massa molar do CaSO₄: 40 + 32 + 4 × 16 = 136 g/mol. Com rendimento de 90%: 0,9 × 136 ≈ 122 g.

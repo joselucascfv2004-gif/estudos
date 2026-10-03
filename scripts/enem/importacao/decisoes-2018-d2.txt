@@ -1,0 +1,147 @@
+## 17-enem-2018-matematica.md | 2018 | 2 | 2º dia, caderno azul | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (2º dia, caderno 7, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, matrizes e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Média ponderada:** multiplique cada valor pelo seu peso (ou pela quantidade de vezes que aparece) e divida pelo total.
+- **Porcentagens sucessivas:** reduzir 25% e depois 20% é multiplicar por 0,75 e por 0,80, não tirar 45%.
+- **Progressão aritmética:** número de termos = (último − primeiro) ÷ razão + 1.
+- **Logaritmo como ferramenta:** quando a incógnita está no expoente, aplique log dos dois lados.
+- **Contagem:** escolha os objetos com combinações e depois conte as formas de distribuí-los.
+- **Probabilidade em etapas:** quando há uma etapa sorteada antes, some os casos possíveis, cada um com seu peso.
+- **Monte a equação:** dê nome às quantidades desconhecidas e traduza cada frase do enunciado em uma igualdade.
+
+@141 f matematica/progressoes
+x: As distâncias formam uma PA: 80, 100, 120, ..., 1 380, de razão 20. Número de postes = (1 380 − 80) ÷ 20 + 1 = 65 + 1 = 66. Gasto máximo: 66 × 8 000 = R$ 528 000,00.
+@145 f matematica/estatistica
+s: Número de acidentes sofridos Número de trabalhadores 0 50 1 17 2 15 3 10 4 6 5 2 A média => Quadro (número de acidentes sofridos: número de trabalhadores): 0: 50; 1: 17; 2: 15; 3: 10; 4: 6; 5: 2. || A média
+x: Total de acidentes: 0 × 50 + 1 × 17 + 2 × 15 + 3 × 10 + 4 × 6 + 5 × 2 = 17 + 30 + 30 + 24 + 10 = 111. Dividindo pelos 100 funcionários: 1,11 acidente por funcionário.
+@147 f matematica/porcentagem
+s: Taxa de LDL (mg/dL) || Ótima Menor do que 100 Próxima de ótima De 100 a 129 Limite De 130 a 159 Alta De 160 a 189 Muito alta 190 ou mais => Quadro (taxa de LDL, em mg/dL): Ótima: menor do que 100. Próxima de ótima: de 100 a 129. Limite: de 130 a 159. Alta: de 160 a 189. Muito alta: 190 ou mais.
+x: Reduções sucessivas se multiplicam: 280 × 0,75 = 210 e 210 × 0,80 = 168 mg/dL, que fica na faixa de 160 a 189 (alta). Somar os descontos (45%) daria 154, um erro comum.
+@162 f matematica/progressoes
+s: 1a fase => 1ª fase
+s: 2a fase => 2ª fase
+x: Cada partida elimina exatamente um tenista. Para sobrar só o campeão, 127 tenistas precisam ser eliminados: 127 partidas. Pelas fases: 64 + 32 + 16 + 8 + 4 + 2 + 1 = 127 (a última parcela é a final).
+@164 f matematica/numeros-e-operacoes
+s: (T ) => (T)
+a: 16º | 22º | 23º | 25º | 32º
+x: Chame de s o andar onde a criança entrou: s + 7 − 10 − 13 + 9 − 4 = 5, então s − 11 = 5 e s = 16. O ponto mais alto do trajeto foi logo depois de subir sete andares: 16 + 7 = 23. Como o elevador parou uma vez no último andar, ele é o 23º.
+@166 f matematica/estatistica
+x: Com as três primeiras notas: 0,2 × 46 + 0,1 × 60 + 0,3 × 50 = 9,2 + 6 + 15 = 30,2. Faltam 60 − 30,2 = 29,8 pontos, que devem vir da quarta prova, de peso 0,4: 29,8 ÷ 0,4 = 74,5.
+@177 f matematica/porcentagem
+s: Balanço parcial nacional da vacinação contra a gripe Grupo de risco População (milhão) || População já vacinada (milhão) (%) || Crianças 4,5 0,9 20 Profissionais de saúde 2,0 1,0 50 Gestantes 2,5 1,5 60 Indígenas 0,5 0,4 80 Idosos 20,5 8,2 40 => Quadro — Balanço parcial nacional da vacinação contra a gripe (grupo de risco: população, em milhão; população já vacinada, em milhão e em %): Crianças: 4,5; 0,9; 20%. Profissionais de saúde: 2,0; 1,0; 50%. Gestantes: 2,5; 1,5; 60%. Indígenas: 0,5; 0,4; 80%. Idosos: 20,5; 8,2; 40%.
+x: Não dá para tirar a média das porcentagens, porque os grupos têm tamanhos diferentes. Some as pessoas: população total = 4,5 + 2 + 2,5 + 0,5 + 20,5 = 30 milhões; vacinadas = 0,9 + 1 + 1,5 + 0,4 + 8,2 = 12 milhões. 12 ÷ 30 = 40%.
+@136 f matematica/matrizes-e-determinantes
+e: A Transferência Eletrônica Disponível (TED) é uma transação financeira de valores entre diferentes bancos. Um economista decide analisar os valores enviados por meio de TEDs entre cinco bancos (1, 2, 3, 4 e 5) durante um mês. Para isso, ele dispõe esses valores em uma matriz A = [aᵢⱼ], em que 1 ≤ i ≤ 5 e 1 ≤ j ≤ 5, e o elemento aᵢⱼ corresponde ao total proveniente das operações feitas via TED, em milhão de real, transferidos do banco i para o banco j durante o mês. Observe que os elementos aᵢᵢ = 0, uma vez que TED é uma transferência entre bancos distintos. Esta é a matriz obtida para essa análise: || Matriz A (linha por linha): 1ª linha: 0 2 0 2 2. 2ª linha: 0 0 2 1 0. 3ª linha: 1 2 0 1 1. 4ª linha: 0 2 2 0 0. 5ª linha: 3 0 1 1 0. || Com base nessas informações, o banco que transferiu a maior quantia via TED é o banco
+x: O elemento aᵢⱼ é o que o banco i enviou ao banco j, então o total enviado por um banco é a soma da sua linha. Linha 1: 0 + 2 + 0 + 2 + 2 = 6. Linha 2: 3. Linha 3: 5. Linha 4: 4. Linha 5: 5. O maior total é o do banco 1. (Somar colunas daria o que cada banco recebeu.)
+@140 f matematica/geometria-espacial
+s: Modelo Comprimento (cm) || Largura (cm) || Altura (cm) || I 8 8 40 II 8 20 14 III 18 5 35 IV 20 12 12 V 24 8 14 Qual => Quadro (modelo: comprimento × largura × altura, em cm): I: 8 × 8 × 40. II: 8 × 20 × 14. III: 18 × 5 × 35. IV: 20 × 12 × 12. V: 24 × 8 × 14. || Qual
+x: Cada pote ocupa um quadrado de 4 cm × 4 cm no fundo e 6 cm de altura. Em cada caixa, conte quantos cabem em cada direção (só a parte inteira): I: 2 × 2 × 6 = 24. II: 2 × 5 × 2 = 20. III: 4 × 1 × 5 = 20. IV: 5 × 3 × 2 = 30. V: 6 × 2 × 2 = 24. O modelo IV guarda mais potes.
+@146 f fisica/cinematica
+s: distâncias dBeta ; dAlpha e dGama => distâncias d(Beta), d(Alpha) e d(Gama)
+a: d(Gama) < d(Beta) < d(Alpha) | d(Alpha) = d(Beta) < d(Gama) | d(Gama) < d(Beta) = d(Alpha) | d(Beta) < d(Alpha) < d(Gama) | d(Gama) < d(Alpha) < d(Beta)
+x: Distância = velocidade × tempo, com o tempo em horas. Alpha: 6,0 × 1,5 = 9 km. Beta: 5,0 × 1,5 = 7,5 km. Gama: 6,5 × 1 = 6,5 km. Em ordem crescente: Gama, Beta, Alpha.
+@143 m matematica/razao-proporcao-regra-de-tres
+x: Em 40 g de prata 950 há 40 × 0,950 = 38 g de prata e 2 g de cobre. Os 10 g de prata 925 já trazem 9,25 g de prata e 0,75 g de cobre. Faltam 38 − 9,25 = 28,75 g de prata e 2 − 0,75 = 1,25 g de cobre.
+@148 m matematica/funcoes-afim-e-quadratica
+a: 50X/4 + 50Y/9 | 50X/9 + 50Y/4 | 4X/50 + 4Y/50 | 50/(4X) + 50/(9Y) | 50/(9X) + 50Y/(4Y)
+x: Rádio: X reais compram X ÷ 120 anúncios, cada um ouvido por 1 500 pessoas: 1 500X/120 = 25X/2 = 50X/4. Panfletos: Y reais pagam Y ÷ 180 milheiros, ou seja, 1 000Y/180 = 50Y/9 pessoas. Total: 50X/4 + 50Y/9.
+@158 m matematica/razao-proporcao-regra-de-tres
+x: Chame de p a produtividade da parte menos produtiva. Produção atual: 120p + 40 × 2,5p = 120p + 100p = 220p. Aumento de 15%: 0,15 × 220p = 33p. Como a terra comprada rende p por hectare, são necessários 33 hectares.
+@165 m matematica/analise-combinatoria
+a: A(10, 4) | C(10, 4) | C(4, 2) × C(6, 2) × 2 × 2 | A(4, 2) × A(6, 2) × 2 × 2 | C(4, 2) × C(6, 2)
+x: Aqui C(n, p) indica combinação e A(n, p), arranjo. Primeiro escolha quais carros vão ao salão: 2 dos 4 compactos, C(4, 2), e 2 das 6 caminhonetes, C(6, 2) (a ordem não importa). Depois decida em qual estande fica cada compacto (2 formas) e cada caminhonete (2 formas). Total: C(4, 2) × C(6, 2) × 2 × 2.
+@167 m matematica/probabilidade
+x: 25% de 20 = 5 perguntas fáceis. Acrescentando n fáceis: (5 + n) ÷ (20 + n) = 3/4. Então 4(5 + n) = 3(20 + n), 20 + 4n = 60 + 3n e n = 40. Conferindo: 45 fáceis em 60 perguntas = 75%.
+@176 m matematica/numeros-e-operacoes
+s: Quadro 1 Classificação Atleta 6o Salto Total 1o 3 135,0 829,0 2o 4 140,0 825,2 3o 8 140,4 824,2 6o 10 687,5 Ele => Quadro 1 (classificação: atleta; nota no 6º salto; total): 1º lugar: atleta 3; 135,0; 829,0. 2º lugar: atleta 4; 140,0; 825,2. 3º lugar: atleta 8; 140,4; 824,2. 6º lugar: atleta 10; ainda não saltou; 687,5. || Ele
+s: Quadro 2 Tipo de salto Nota de partida Estimativa da soma das notas dos juízes Probabilidade de obter a nota T1 2,2 57 89,76% T2 2,4 58 93,74% T3 2,6 55 91,88% T4 2,8 50 95,38% T5 3,0 53 87,34% O atleta => Quadro 2 (tipo de salto: nota de partida; estimativa da soma das notas dos juízes; probabilidade de obter a nota): T1: 2,2; 57; 89,76%. T2: 2,4; 58; 93,74%. T3: 2,6; 55; 91,88%. T4: 2,8; 50; 95,38%. T5: 3,0; 53; 87,34%. || O atleta
+x: Para passar o 1º colocado (829,0), o atleta 10 precisa de mais de 829,0 − 687,5 = 141,5 pontos. Notas estimadas: T1: 2,2 × 57 = 125,4. T2: 2,4 × 58 = 139,2. T3: 2,6 × 55 = 143. T4: 2,8 × 50 = 140. T5: 3,0 × 53 = 159. Só T3 e T5 bastam; entre eles, T3 tem a maior probabilidade (91,88%).
+@138 m matematica/geometria-analitica
+a: x = 0 | y = 0 | x² + y² = 16 | x² + (y − 2)² = 4 | (x − 2)² + (y − 2)² = 8
+x: Teste cada ponto na equação. x = 0 (reta): A e E, 2 × 1 = 2 pontos. y = 0 não passa por A. x² + y² = 16: A e C, 2 × 2 = 4. x² + (y − 2)² = 4: A e D, 4 pontos. (x − 2)² + (y − 2)² = 8: A (4 + 4 = 8), B (4 + 4 = 8) e C (4 + 4 = 8), 3 × 2 = 6 pontos, a maior pontuação.
+@151 m matematica/geometria-plana
+s: buraquinhoscircularescongruentes,eemtodooseucorpo, => buraquinhos circulares congruentes, e em todo o seu corpo,
+s: raio x r = . => raio r = x/3.
+s: reduzida a da área => reduzida a 1/16 da área
+x: Quando todas as medidas mudam na razão k, as áreas mudam na razão k². Para a área cair para 1/16, k² = 1/16, então k = 1/4. O tamanho da fonte também é multiplicado por 1/4: 192 ÷ 4 = 48. (Os furos encolhem junto, por isso não entram na conta.)
+@137 d matematica-financeira/juros-simples-e-compostos, matematica/exponencial-e-logaritmo
+e: Um contrato de empréstimo prevê que quando uma parcela é paga de forma antecipada, conceder-se-á uma redução de juros de acordo com o período de antecipação. Nesse caso, paga-se o valor presente, que é o valor, naquele momento, de uma quantia que deveria ser paga em uma data futura. Um valor presente P submetido a juros compostos com taxa i, por um período de tempo n, produz um valor futuro V determinado pela fórmula || V = P · (1 + i)ⁿ || Em um contrato de empréstimo com sessenta parcelas fixas mensais, de R$ 820,00, a uma taxa de juros de 1,32% ao mês, junto com a trigésima parcela será paga antecipadamente uma outra parcela, desde que o desconto seja superior a 25% do valor da parcela. || Utilize 0,2877 como aproximação para ln(4/3) e 0,0131 como aproximação para ln(1,0132). || A primeira das parcelas que poderá ser antecipada junto com a 30ª é a
+a: 56ª | 55ª | 52ª | 51ª | 45ª
+x: Antecipar n meses faz pagar P = 820 ÷ 1,0132ⁿ. O desconto passa de 25% quando P < 0,75 × 820, isto é, 1,0132ⁿ > 4/3. Aplicando ln: n × 0,0131 > 0,2877, então n > 21,96, e o menor inteiro é n = 22. A parcela é a 30 + 22 = 52ª.
+@150 d matematica/probabilidade
+s: urnaA; => urna A;
+x: Calcule cada opção. 1: 2/6 × 1/5 = 1/15. 2: 3/10 × 2/9 = 1/15. 3: se vier preta de C (1/2), A fica com 3 pretas em 7: 3/7 × 2/6 = 1/7; se vier verde, 2/7 × 1/6 = 1/21; total 1/2 × (1/7 + 1/21) = 2/21. 4: de D vem branca ou preta (1/2 cada): 1/2 × (2/5 × 1/4) + 1/2 × (3/5 × 2/4) = 1/20 + 3/20 = 1/5. 5: de C vem preta ou verde (1/2 cada): 1/2 × (4/7 × 3/6) + 1/2 × (3/7 × 2/6) = 1/7 + 1/14 = 3/14 ≈ 0,214, a maior.
+@161 d matematica/geometria-analitica
+x: Os pontos cuja distância a A é o dobro da distância a B formam uma circunferência (de Apolônio). Na reta AB, com A em 0 e B em 30: entre eles, x = 2(30 − x) dá x = 20; depois de B, x = 2(x − 30) dá x = 60. Esses dois pontos são as pontas de um diâmetro: 60 − 20 = 40 m, a maior distância possível entre dois bombeiros.
+@174 d matematica/exponencial-e-logaritmo
+s: 0,25 cm2 => 0,25 cm²
+s: log10 2 => log₁₀ 2
+x: Densidade em 1986: 100 000 ÷ 0,25 = 4 × 10⁵ por cm². Depois de k dobras: 4 × 10⁵ × 2ᵏ = 10¹¹, então 2ᵏ = 2,5 × 10⁵. Aplicando log: k × 0,30 = log 2,5 + 5 = 0,40 + 5 = 5,4 (log 2,5 = log 10 − log 4 = 1 − 0,60), logo k = 18 dobras = 36 anos. 1986 + 36 = 2022.
+@175 d matematica/equacoes-e-sistemas
+x: Chame de p o valor de cada parcela. O total é o mesmo: Np = (N + 5)(p − 200) = (N − 4)(p + 232). Da primeira igualdade: 5p − 200N − 1 000 = 0, ou p = 40N + 200. Da segunda: −4p + 232N − 928 = 0, ou p = 58N − 232. Igualando: 40N + 200 = 58N − 232, então 18N = 432 e N = 24.
+@178 d matematica/equacoes-e-sistemas
+x: Seja u quem comprou 1 bilhete e t quem comprou 3. Bilhetes: u + 90 + 3t. Alunos do colégio: 80 + u + 45 + t. Como os bilhetes excedem os alunos em 33: u + 90 + 3t = u + t + 158, então t = 34 e foram u + 192 bilhetes. Como u é 20% dos bilhetes: u = 0,2(u + 192), 0,8u = 38,4 e u = 48.
+
+## 18-enem-2018-ciencias-da-natureza.md | 2018 | 2 | 2º dia, caderno azul | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (2º dia, caderno 7, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Hormônios da glicose:** a insulina guarda (glicose vira glicogênio); o glucagon libera (glicogênio vira glicose).
+- **Genética:** código genético = trincas de nucleotídeos (códons) que indicam aminoácidos; enxertia e reprodução assexuada mantêm o genótipo.
+- **Ecologia:** corredores ecológicos ligam fragmentos e permitem o fluxo gênico entre populações.
+- **Física do dia a dia:** P = U · i; frequência = velocidade ÷ distância entre repetições; indução eletromagnética explica etiquetas sem bateria.
+- **Química:** elementos do mesmo grupo têm propriedades parecidas; calcário (CaCO₃) corrige a acidez do solo; craqueamento quebra moléculas grandes.
+- **Energia nos combustíveis:** energia = massa × calor de combustão, e massa = densidade × volume.
+
+@94 f biologia/fisiologia-humana
+x: Na hipoglicemia (pouca glicose no sangue), o pâncreas libera glucagon, o hormônio catabólico citado. No fígado, ele faz o glicogênio armazenado ser quebrado em glicose, que vai para o sangue. Transformar ácidos graxos em glicogênio seria o caminho contrário (armazenar).
+@96 f biologia/fisiologia-humana
+x: Os sais biliares têm uma parte que se liga à gordura e outra que se liga à água, como um detergente. Eles quebram as gotas grandes de gordura em gotículas (emulsificação), aumentando a superfície para as lipases agirem. Quem hidrolisa os lipídios são as lipases, não a bile.
+@98 f biologia/ecologia
+x: Ligando fragmentos de mata, o corredor deixa animais e sementes circularem entre populações antes isoladas. Assim, indivíduos de populações diferentes se cruzam (fluxo gênico), o que aumenta a variabilidade genética e evita os problemas do isolamento.
+@100 f biologia/citologia
+x: A p53 funciona como um freio: para o ciclo celular quando o DNA está danificado ou leva a célula à morte programada. Sem ela, células com mutações continuam se dividindo sem controle, o que pode formar um tumor (câncer).
+@101 f biologia/seres-vivos
+s: umidade.Afauna => umidade. A fauna
+a: existência de numerosas glândulas sudoríparas na epiderme. | eliminação de excretas nitrogenadas de forma concentrada. | desenvolvimento do embrião no interior de ovo com casca. | capacidade de controlar a temperatura corporal. | respiração realizada por pulmões foliáceos.
+x: No deserto, economizar água é vital. Todos esses grupos eliminam excretas nitrogenadas concentradas (urina concentrada nos roedores; ácido úrico, quase sem água, em aves, répteis e insetos). Ovo com casca não vale para os roedores, e controlar a temperatura não vale para répteis e artrópodes.
+@107 f biologia/genetica-e-biotecnologia
+x: A enxertia é uma reprodução assexuada: o galho enxertado cresce com o mesmo genótipo da planta de onde veio. Assim, a atemoia mantém as características do híbrido. Se fosse plantada por sementes, a reprodução sexuada misturaria os genes e as características poderiam se perder.
+@110 f biologia/genetica-e-biotecnologia
+x: Código genético é a "tabela de tradução" entre o RNA e as proteínas: cada trinca de nucleotídeos (códon) indica um aminoácido. Ele é praticamente o mesmo em todos os seres vivos. O estudante confundiu código genético com genoma (o conjunto de todo o DNA de um organismo).
+@113 f biologia/genetica-e-biotecnologia, quimica/quimica-ambiental
+x: As leveduras transgênicas produzem peroxidases, enzimas que degradam os peróxidos usados no clareamento. Assim, a água da lavagem sai com menos resíduos tóxicos, o que é o objetivo de trocar o cloro por substâncias mais seguras.
+@115 f fisica/eletricidade
+s: Equipamento elétrico Potência aproximada (watt) || Exaustor 150 Computador 300 Aspirador de pó 600 Churrasqueira elétrica 1 200 Secadora de roupas 3 600 O equipamento => Quadro (equipamento elétrico: potência aproximada, em watt): Exaustor: 150. Computador: 300. Aspirador de pó: 600. Churrasqueira elétrica: 1 200. Secadora de roupas: 3 600. || O equipamento
+x: Potência elétrica = tensão × corrente: P = 600 V × 2 A = 1 200 W, a mesma potência da churrasqueira elétrica.
+@119 f biologia/saude-e-doencas
+x: Produtos que combatem insetos ajudam a controlar doenças transmitidas por insetos. A leishmaniose é transmitida pela picada do mosquito-palha (flebotomíneo). Esquistossomose vem de caramujos, leptospirose da urina de ratos, hanseníase e aids passam de pessoa para pessoa.
+@124 f quimica/quimica-organica
+x: No craqueamento, moléculas grandes de hidrocarbonetos (frações pesadas, menos procuradas) são quebradas em moléculas menores, como as da gasolina e do GLP, que valem mais. Separar componentes pela temperatura de ebulição é a destilação fracionada, outro processo.
+@92 m quimica/calculos-fisico-quimicos
+s: O quadro resume alguns dados aproximados sobre esses combustíveis. Combustível Densidade (g mL−1 ) Calor de combustão (kcal g−1 ) || Etanol 0,8 −6 Gasolina 0,7 −10 O volume => O quadro resume alguns dados aproximados sobre esses combustíveis. || Quadro (combustível: densidade, em g/mL; calor de combustão, em kcal/g): Etanol: 0,8; −6. Gasolina: 0,7; −10. || O volume
+x: Gasolina: 40 L = 40 000 mL × 0,7 g/mL = 28 000 g, liberando 28 000 × 10 = 280 000 kcal. Etanol para a mesma energia: 280 000 ÷ 6 ≈ 46 667 g. Volume: 46 667 ÷ 0,8 ≈ 58 333 mL ≈ 58 L.
+@97 m fisica/eletricidade
+x: É a indução eletromagnética: o campo magnético da onda de rádio varia o tempo todo dentro da bobina, e um campo magnético variável induz corrente elétrica nela. Essa corrente alimenta o microprocessador, por isso a etiqueta não precisa de pilha.
+@103 m fisica/ondulatoria-e-optica
+s: 108 km h => 108 km/h
+x: 108 km/h = 30 m/s. O carro passa por uma faixa a cada 8 cm = 0,08 m, então o número de batidas por segundo é 30 ÷ 0,08 = 375. A frequência é 375 Hz.
+@105 m quimica/atomistica-e-tabela-periodica
+x: Distribuindo os elétrons, o nióbio (Z = 41) termina em 4d³ e o tântalo (Z = 73) em 5d³: os dois têm a mesma configuração na camada de valência e ficam no mesmo grupo (grupo 5) da tabela periódica. Elementos do mesmo grupo têm propriedades químicas parecidas.
+@111 m biologia/seres-vivos
+x: O vento espalha o pólen ao acaso, e a maior parte se perde. A estratégia é produzir muito pólen, o que se consegue com mais estames (a parte masculina da flor). Néctar e pétalas coloridas atraem animais, inúteis na polinização pelo vento.
+@121 m quimica/ligacoes-e-funcoes-inorganicas
+s: (CaCO3 ) => (CaCO₃)
+x: O carbonato de cálcio é um sal de caráter básico: neutraliza a acidez do solo e aumenta o pH. Em solo menos ácido, o alumínio forma compostos insolúveis (como o hidróxido de alumínio) e fica menos disponível para as plantas.
+@123 m biologia/citologia
+x: Os combustíveis do ciclo do carbono (como a glicose) são formados na fotossíntese, que usa a energia da luz (eletromagnética) para fabricar moléculas orgânicas, onde a energia fica guardada nas ligações químicas.
+@132 m quimica/quimica-organica
+x: Os dois ácidos têm 10 carbonos, uma ligação dupla no carbono 2, um grupo ácido carboxílico e um grupo hidroxila: mesma fórmula molecular e mesmos grupos funcionais. Só muda a posição da hidroxila (carbono 9 ou 10). São isômeros de posição, que diferem na fórmula estrutural.
+@133 m biologia/seres-vivos
+x: Na holometabolia, a larva e o adulto são muito diferentes e vivem e comem coisas diferentes (por exemplo, a lagarta come folhas e a borboleta, néctar). Como ocupam nichos diferentes, as fases não competem entre si, o que favoreceu o sucesso desses grupos.
+@134 m fisica/estatica-e-hidrostatica
+x: Beber de canudinho funciona porque você diminui a pressão dentro da boca e a pressão atmosférica sobre o suco o empurra para cima. Com um canudo fora do suco, entra ar por ele, e a pressão dentro da boca fica praticamente igual à atmosférica. Sem diferença de pressão, o suco não sobe.
+@135 m quimica/quimica-ambiental
+s: (NH3 ) => (NH₃)
+x: Haber diz que, com a era industrial, os produtos do solo passaram a ser levados para lugares distantes, onde são consumidos, e o nitrogênio não volta à terra de onde saiu. Isso descreve a ida das pessoas do campo para as cidades, onde o alimento é consumido. O esgotamento do salitre é apresentado como consequência futura, não como causa do desequilíbrio.
+@122 d fisica/estatica-e-hidrostatica, fisica/cinematica
+x: Rodas maiores levantam o carro: o centro de massa sobe e o veículo fica mais instável (tomba com mais facilidade nas curvas). Além disso, o velocímetro conta as voltas da roda supondo o tamanho original; com roda maior, cada volta percorre mais chão, então o carro anda mais rápido do que o velocímetro indica.

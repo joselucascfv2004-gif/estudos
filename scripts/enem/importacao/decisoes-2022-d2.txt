@@ -1,0 +1,151 @@
+## 05-enem-2022-matematica.md | 2022 | 2 | 2º dia, caderno amarelo | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e gráficos com valores foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Média ponderada:** quando grupos têm tamanhos diferentes, multiplique cada valor pela quantidade do grupo antes de dividir pelo total.
+- **Porcentagem sobre porcentagem:** aumentos e descontos sucessivos se multiplicam (1,10 × 0,98), não se somam.
+- **Semelhança:** se as medidas lineares dobram, a área fica 4 vezes maior e o volume, 8 vezes maior.
+- **Escala:** medida real = medida no desenho × denominador da escala. Depois, desconte folgas e margens pedidas.
+- **Mediana em tabela de frequências:** ordene os dados e encontre a posição do meio somando as frequências acumuladas.
+- **Sistema de equações:** dois dados ("3 voltas + 2 voltas = 1 800 m") viram duas equações; resolva antes de responder à pergunta final.
+
+@137 f matematica/numeros-e-operacoes
+x: Primeiro conte os acionamentos: 60 dias × 24 h × 60 min = 86 400 minutos; 86 400 ÷ 48 = 1 800 acionamentos. Cada acionamento libera 360 mL ÷ 1 800 = 0,2 mL.
+@140 f matematica/porcentagem
+x: Preço normal: 1 000 × 1,10 = R$ 1 100,00. No cartão, com 2% de desconto: 1 100 × 0,98 = R$ 1 078,00. A cliente calculou 1 000 × 1,08 = R$ 1 080,00. O valor da loja é R$ 2,00 menor. Porcentagens sucessivas se multiplicam, não se somam.
+@144 f matematica/numeros-e-operacoes
+x: 1 bilhão = 1 000 000 000. Então 1,35 bilhão = 1,35 × 1 000 000 000 = 1 350 000 000,00.
+@146 f matematica/numeros-e-operacoes
+e: Uma pessoa precisa contratar um operário para fazer um serviço em sua casa. Para isso, ela postou um anúncio em uma rede social. || Cinco pessoas responderam informando preços por hora trabalhada, gasto diário com transporte e tempo necessário para conclusão do serviço, conforme valores apresentados no quadro. || Quadro (operário: preço por hora; preço do transporte; tempo até conclusão): I: R$ 120,00; R$ 0,00; 8 horas. II: R$ 180,00; R$ 0,00; 6 horas. III: R$ 170,00; R$ 20,00; 6 horas. IV: R$ 110,00; R$ 10,00; 9 horas. V: R$ 110,00; R$ 0,00; 10 horas. || Se a pessoa pretende gastar o mínimo possível com essa contratação, irá contratar o operário
+x: Só as horas já custam: I = 120 × 8 = R$ 960; II = 180 × 6 = R$ 1 080; III = 170 × 6 = R$ 1 020; IV = 110 × 9 = R$ 990; V = 110 × 10 = R$ 1 100. O operário I é o mais barato e não cobra transporte; os outros já passam de R$ 960 antes mesmo de somar o transporte.
+@159 f matematica/numeros-e-operacoes
+s: N1 N2 N3 N4 N5 Todos => Todos
+s: N1 , N2 , N3 , N4 mais um dígito verificador N5 . => N₁, N₂, N₃, N₄ mais um dígito verificador N₅.
+s: Para a determinação de N5 , => Para a determinação de N₅,
+s: S = 5 N1 + 4 N2 + 3 N3 + 2 N4 . => S = 5N₁ + 4N₂ + 3N₃ + 2N₄.
+s: Dessa forma, N5 é => Dessa forma, N₅ é
+s: dígito verificador N5 dessa => dígito verificador N₅ dessa
+x: Com os dígitos 0, 1, 0, 0: S = 5·0 + 4·1 + 3·0 + 2·0 = 4. O resto de 4 por 11 é R = 4. Então N₅ = 11 − 4 = 7.
+@166 f matematica/estatistica
+e: Nos cinco jogos finais da última temporada, com uma média de 18 pontos por jogo, um jogador foi eleito o melhor do campeonato de basquete. Na atual temporada, cinco jogadores têm a chance de igualar ou melhorar essa média. No quadro estão registradas as pontuações desses cinco jogadores nos quatro primeiros jogos das finais deste ano. || Quadro (pontos nos jogos 1, 2, 3 e 4): jogador I: 12, 25, 20, 20; jogador II: 12, 12, 27, 20; jogador III: 14, 14, 17, 26; jogador IV: 15, 18, 21, 21; jogador V: 22, 15, 23, 15. || O quinto e último jogo será realizado para decidir a equipe campeã e qual o melhor jogador da temporada. O jogador que precisa fazer a menor quantidade de pontos no quinto jogo, para igualar a média de pontos do melhor jogador da temporada passada, é o
+x: Média 18 em 5 jogos significa 18 × 5 = 90 pontos no total. Somas até agora: I = 77, II = 71, III = 71, IV = 75, V = 75. Faltam: I = 13, II = 19, III = 19, IV = 15, V = 15. Quem precisa de menos pontos é o jogador I.
+@168 f matematica/numeros-e-operacoes
+e: Uma instituição de ensino superior ofereceu vagas em um processo seletivo de acesso a seus cursos. Finalizadas as inscrições, foi divulgada a relação do número de candidatos por vaga em cada um dos cursos oferecidos. Esses dados são apresentados no quadro. || Quadro (curso: número de vagas oferecidas; número de candidatos por vaga): Administração: 30; 6. Ciências Contábeis: 40; 6. Engenharia Elétrica: 50; 7. História: 30; 8. Letras: 25; 4. Pedagogia: 25; 5. || Qual foi o número total de candidatos inscritos nesse processo seletivo?
+x: Candidatos = vagas × candidatos por vaga, curso a curso: 180 + 240 + 350 + 240 + 100 + 125 = 1 235. Somar só as vagas (200) ou multiplicar totais (200 × 36) são armadilhas.
+@176 f matematica/funcoes-afim-e-quadratica
+s: p(t) = −t 2 + 10t + 24 => p(t) = −t² + 10t + 24
+x: p(t) = −t² + 10t + 24 é uma parábola com concavidade para baixo, então o máximo está no vértice: t = −b/(2a) = −10/(−2) = 5. O mês 5 está no período 5 ≤ t ≤ 6, da proposta III.
+@136 m matematica/porcentagem, matematica/estatistica
+x: Média máxima de R$ 12 240 para 100 professores: a folha pode ter no máximo 1 224 000. Mestres com 25%: 60 × 8 000 × 1,25 = 600 000. Sobram 624 000 para 40 doutores, ou seja, 15 600 para cada. De 12 000 para 15 600, o aumento é de 3 600 ÷ 12 000 = 30%.
+@138 m matematica/razao-proporcao-regra-de-tres
+s: Definem-seodiaeoanodeumplanetadeumsistemasolar => Definem-se o dia e o ano de um planeta de um sistema solar
+x: Se 2 anos de Z valem 1 ano terrestre, 1 ano de Z = 365 ÷ 2 = 182,5 dias terrestres. Cada dia de Z dura 73 dias terrestres, então 1 ano de Z tem 182,5 ÷ 73 = 2,5 dias de Z.
+@149 m matematica/porcentagem
+x: Uma queda de 75% significa que sobraram 25% do valor de 2012. Então 28 900 = 0,25 × V, e V = 28 900 ÷ 0,25 = 115 600. Cuidado: calcular 75% de 28 900 e somar não dá a resposta, porque a porcentagem é sobre o valor de 2012.
+@160 m matematica/grandezas-medidas-escalas
+x: Na escala 1 : 50, o espaço real tem 3,8 × 50 = 190 cm de altura e 1,6 × 50 = 80 cm de largura. Descontando 10 cm em cima: 180 cm. Descontando 10 cm de cada lado: 80 − 20 = 60 cm. Logo, 1,80 m e 0,60 m.
+@164 m matematica/estatistica
+e: A esperança de vida ao nascer é o número médio de anos que um indivíduo tende a viver a partir de seu nascimento, considerando dados da população. No Brasil, esse número vem aumentando consideravelmente, como mostram os dados. || Esperança de vida ao nascer (em anos): 2008: 72,78; 2009: 73,09; 2010: 73,40; 2011: 73,67; 2012: 73,95; 2013: 74,23. || > Disponível em: http://cod.ibge.gov.br. Acesso em: 6 mar. 2014 (adaptado). || Pode-se observar que a esperança de vida ao nascer em 2012 foi exatamente a média das registradas nos anos de 2011 e 2013. Suponha que esse fato também ocorreu com a esperança de vida ao nascer em 2013, em relação às esperanças de vida de 2012 e de 2014. Caso a suposição feita tenha sido confirmada, a esperança de vida ao nascer no Brasil no ano de 2014 terá sido, em ano, igual a
+x: Se 2013 é a média de 2012 e 2014: 74,23 = (73,95 + x) ÷ 2. Então x = 2 × 74,23 − 73,95 = 148,46 − 73,95 = 74,51.
+@167 m matematica/geometria-espacial
+x: O revestimento cobre o fundo (largura × comprimento) e as 4 paredes (2 × profundidade × (largura + comprimento)). I: 50 + 97,2 = 147,2 m². II: 45 + 56 = 101 m². III: 90 + 42 = 132 m². IV: 60 + 57 = 117 m². V: 36 + 75 = 111 m². A menor área é a do projeto II.
+@169 m matematica/geometria-espacial
+x: Volume do cilindro: π · 4² · 50 = 800π cm³. Cada esfera tem raio 0,5 cm: (4/3)π · 0,5³ = π/6 cm³. Número de esferas: 800π ÷ (π/6) = 800 × 6 = 4 800.
+@170 m matematica/porcentagem
+x: A pessoa deve beber 40% a mais do que perdeu: 1,7 L = 1,4 × perda, então a perda foi 1,7 ÷ 1,4 ≈ 1,21 kg. Perdendo 1,5 kg por hora, o tempo foi 1,21 ÷ 1,5 ≈ 0,81 h ≈ 48,6 minutos, entre 45 e 55 minutos.
+@172 m matematica/numeros-e-operacoes
+s: Aluminosidade => A luminosidade
+s: L = c ⋅ R2 ⋅ T4 , em que => L = c · R² · T⁴, em que
+a: LE = LF/2 | LE = LF/4 | LE = LF | LE = 4LF | LE = 8LF
+x: Substitua na fórmula L = c · R² · T⁴: para E, o raio é R/2 e a temperatura é 2T. Então LE = c · (R/2)² · (2T)⁴ = c · R²/4 · 16T⁴ = 4 · c · R² · T⁴ = 4LF.
+@173 m matematica/estatistica
+e: Uma das informações que pode auxiliar no dimensionamento do número de pediatras que devem atender em uma Unidade Básica de Saúde (UBS) é o número que representa a mediana da quantidade de crianças por família existente na região sob sua responsabilidade. O quadro mostra a distribuição das frequências do número de crianças por família na região de responsabilidade de uma UBS. || Quadro (número de crianças por família: frequência): 0: 100; 1: 400; 2: 200; 3: 150; 4: 100; 5: 50. || O número que representa a mediana da quantidade de crianças por família nessa região é
+x: São 1 000 famílias, então a mediana é a média da 500ª e da 501ª família em ordem. Frequência acumulada: 0 filho até a 100ª; 1 filho até a 500ª; 2 filhos da 501ª à 700ª. Mediana = (1 + 2) ÷ 2 = 1,5.
+@147 d matematica/geometria-espacial
+x: Dobrar o diâmetro multiplica o volume por 2³ = 8. Cada docinho novo gasta a massa de 8 docinhos antigos. 150 × 8 = 1 200 docinhos antigos; com 50 por porção: 1 200 ÷ 50 = 24 porções.
+@155 d matematica/equacoes-e-sistemas
+x: Sejam M e m as voltas maior e menor: 3M + 2m = 1 800 e 2M + m = 1 100. Da segunda, m = 1 100 − 2M; substituindo: 3M + 2 200 − 4M = 1 800, então M = 400 m e m = 300 m. Para 5 000 m com o maior número de voltas, use o máximo de voltas menores: 14 × 300 = 4 200 e sobram 800 = 2 × 400. Total: 14 + 2 = 16 voltas.
+@161 d matematica/numeros-e-operacoes
+x: Cada equipe faz 3 jogos na fase de grupos, e entre dois jogos há pelo menos 3 dias de descanso, então os jogos de uma mesma equipe ficam a cada 4 dias: dias 1, 5 e 9 para os grupos, 13 nas oitavas, 17 nas quartas, 21 nas semifinais e 25 na final. São no mínimo 25 dias.
+
+## 06-enem-2022-ciencias-da-natureza.md | 2022 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto, e estruturas químicas desenhadas foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
+- **Biologia aparece muito ligada à saúde:** imunidade (antígenos, vacinas), doenças transmitidas por vetores, metabolismo energético e biotecnologia.
+- **Física do cotidiano:** impulso e colisões, lançamentos, potência elétrica (P = U·i), associação de pilhas e calor (Q = m·c·ΔT).
+- **Química:** separação de misturas, reatividade (ácidos, oxidantes), radioatividade (meia-vida) e química orgânica (anel benzênico).
+- **Meia-vida:** a cada meia-vida a massa cai pela metade. Descubra a meia-vida pela tabela e conte quantas cabem no tempo pedido.
+- **Estratégia:** grife os dados numéricos e as unidades; muitas questões se resolvem por eliminação de alternativas absurdas.
+
+@91 f biologia/fisiologia-humana
+x: A eritropoietina estimula a produção de hemácias (eritropoiese). Mais hemácias significam mais hemoglobina e, portanto, mais oxigênio transportado aos músculos, o que aumenta o desempenho.
+@97 f quimica/quimica-ambiental
+s: fluoretação. Qual => fluoretação. || Qual
+x: Na decantação, os flocos formados na coagulação, mais densos, depositam-se no fundo do tanque. É ali que a maior parte dos sólidos suspensos é retirada; a filtração só remove o que restou.
+@101 f fisica/ondulatoria-e-optica, biologia/fisiologia-humana
+x: Os bastonetes respondem à quantidade de fótons, isto é, à intensidade da luz. Se forem mais sensíveis, bastam poucos fótons para formar a imagem, e o animal enxerga bem com pouca luz.
+@102 f quimica/quimica-organica
+e: De modo geral, a palavra “aromático” invoca associações agradáveis, como cheiro de café fresco ou de um pão doce de canela. Associações similares ocorriam no passado da história da química orgânica, quando os compostos ditos “aromáticos” apresentavam um odor agradável e foram isolados de óleos naturais. À medida que as estruturas desses compostos eram elucidadas, foi se descobrindo que vários deles continham uma unidade estrutural específica. Os compostos aromáticos que continham essa unidade estrutural tornaram-se parte de uma grande família, muito mais com base em suas estruturas eletrônicas do que nos seus cheiros, como as substâncias a seguir, encontradas em óleos vegetais: benzaldeído (no óleo de amêndoas), salicilato de metila (no óleo de gaultéria), anetol (no óleo de anis), vanilina (no óleo de baunilha), eugenol (no óleo de cravos) e cinamaldeído (no óleo de canela). || > SOLOMONS, T. W. G.; FRYHLE, C. B. Química orgânica. Rio de Janeiro: LTC, 2009 (adaptado). || A característica estrutural dessa família de compostos é a presença de
+x: Compostos aromáticos são definidos pela presença do anel benzênico, um ciclo de seis carbonos com elétrons deslocalizados (ressonância). Oxigênio, ramificações e insaturações aparecem em muitos compostos que não são aromáticos.
+@104 f biologia/ecologia
+x: Uma espécie exótica bem adaptada, como a jaqueira, ocupa o espaço das plantas nativas e as substitui em parte. Isso reduz a biodiversidade local.
+@112 f quimica/ligacoes-e-funcoes-inorganicas
+s: (CaCO3 ) => (CaCO₃)
+s: Gás Ácido Mármore O gás => O gás
+x: Carbonato com ácido forma ácido carbônico, que se decompõe em água e gás carbônico: CaCO₃ + 2 HCl → CaCl₂ + H₂O + CO₂. O gás liberado é o CO₂.
+@116 f quimica/fisico-quimica
+x: O ozônio (O₃) é um oxidante muito forte. É isso que o torna eficaz contra microrganismos, mas também tóxico para pessoas, pois oxida tecidos como os das vias respiratórias.
+@123 f biologia/saude-e-doencas
+x: Filariose e leishmaniose são transmitidas por insetos vetores (mosquitos e mosquito-palha). A medida comum às duas é controlar as populações desses vetores.
+@128 f biologia/citologia
+x: Em meio hipotônico, a água entra na célula por osmose. O vacúolo aumenta de volume e o pigmento fica mais diluído. A parede celular impede que a célula vegetal se rompa.
+@92 m fisica/dinamica
+x: As duas colisões duram o mesmo tempo. Na barreira de pneus, o carro para e volta, então a variação da quantidade de movimento é maior; logo, a força média também é maior (F = Δp/Δt). Na barreira de blocos o carro não volta: toda a energia cinética é dissipada, mais do que nos pneus, que devolvem parte dela.
+@94 m biologia/saude-e-doencas
+x: O protozoário modificado passa a exibir uma molécula do tumor. O sistema imune aprende a reconhecer essa molécula como antígeno e depois ataca todas as células que a têm, inclusive as tumorais. É a apresentação de um antígeno específico.
+@98 m biologia/citologia
+x: A ATP sintetase usa o fluxo de prótons na membrana interna da mitocôndria para produzir ATP. Essa é a fosforilação oxidativa, última etapa da respiração. A termogenina desvia os prótons e a energia vira calor.
+@103 m biologia/ecologia, biologia/saude-e-doencas
+x: A bactéria e o vírus vivem dentro das células do mosquito e disputam os mesmos recursos. Com a bactéria presente, o vírus se multiplica menos. É uma relação de competição no hospedeiro.
+@107 m biologia/genetica-e-biotecnologia
+x: A PCR copia DNA, mas o SARS-CoV-2 tem RNA. Por isso, antes da PCR, a enzima transcriptase reversa transforma o RNA viral em DNA complementar (cDNA).
+@114 m biologia/fisiologia-humana
+x: A molécula modula a coagulação do sangue. Um remédio assim pode impedir a formação de coágulos (trombos), que podem entupir vasos do cérebro e causar AVC.
+@115 m fisica/dinamica
+s: grandequantidadedematériaconcentradaemumapequena => grande quantidade de matéria concentrada em uma pequena
+x: A força da gravidade depende da massa e da distância (F = G·M·m/d²). Se o buraco negro tem a mesma massa do Sol e os planetas estão à mesma distância, a força sobre eles não muda, e as órbitas continuam iguais.
+@120 m quimica/atomistica-e-tabela-periodica
+x: Os dois isótopos só diferem na massa. A centrifugação separa substâncias de massas diferentes: as mais pesadas vão para a parte externa. É o método usado nas centrífugas de enriquecimento de urânio.
+@121 m biologia/genetica-e-biotecnologia
+x: O vírus leva a cópia normal do gene RPE65 para as células da retina. Lá o gene é expresso, isto é, transcrito e traduzido, e a célula passa a produzir a enzima normal.
+@124 m fisica/trabalho-energia-e-potencia
+x: Potência útil = irradiância × área × eficiência. 150 000 000 W = 1 500 W/m² × A × 0,20, então A = 150 000 000 ÷ 300 = 500 000 m².
+e: Em 2017, foi inaugurado, no estado da Bahia, o Parque Solar Lapa, composto por duas usinas (Bom Jesus da Lapa e Lapa) e capaz de gerar cerca de 300 GWh de energia por ano. Considere que cada usina apresente potência igual a 75 MW, com o parque totalizando uma potência instalada de 150 MW. Considere ainda que a irradiância solar média é de 1 500 W/m² e que a eficiência dos painéis é de 20%. || > Parque Solar Lapa entra em operação. Disponível em: www.canalbioenergia.com.br. Acesso em: 9 jun. 2022 (adaptado). || Nessas condições, a área total dos painéis solares que compõem o Parque Solar Lapa é mais próxima de:
+@125 m quimica/ligacoes-e-funcoes-inorganicas
+e: Os riscos apresentados pelos produtos dependem de suas propriedades e da reatividade quando em contato com outras substâncias. Para prevenir os riscos devido à natureza química dos produtos, devemos conhecer a lista de substâncias incompatíveis e de uso cotidiano em fábricas, hospitais e laboratórios, a fim de observar cuidados na estocagem, manipulação e descarte. || O quadro elenca algumas dessas incompatibilidades, que podem levar à ocorrência de acidentes. || Quadro (substância; incompatibilidade; riscos associados): Ácidos minerais fortes concentrados; bases fortes, cianetos, hipoclorito de sódio; reação enérgica, explosão, produção de oxidante forte e produto tóxico. Ácido nítrico concentrado; matéria orgânica; reação enérgica, explosão e produto tóxico. || Considere que houve o descarte indevido de dois conjuntos de substâncias: (1) ácido clorídrico concentrado com cianeto de potássio; (2) ácido nítrico concentrado com sacarose. || > Disponível em: www.fiocruz.br. Acesso em: 6 dez. 2017 (adaptado). || O descarte dos conjuntos (1) e (2) resultará, respectivamente, em
+x: (1) Ácido forte com cianeto libera o gás cianídrico (HCN), muito tóxico. (2) O ácido nítrico concentrado é um oxidante forte e reage com a matéria orgânica (sacarose) em uma reação oxidativa intensa.
+@129 m fisica/termologia
+e: A variação da incidência de radiação solar sobre a superfície da Terra resulta em uma variação de temperatura ao longo de um dia denominada amplitude térmica. Edificações e pavimentações realizadas nas áreas urbanas contribuem para alterar as amplitudes térmicas dessas regiões, em comparação com regiões que mantêm suas características naturais, com presença de vegetação e água, já que o calor específico do concreto é inferior ao da água. Assim, parte da avaliação do impacto ambiental que a presença de concreto proporciona às áreas urbanas consiste em considerar a substituição da área concretada por um mesmo volume de água e comparar as variações de temperatura devido à absorção da radiação solar nas duas situações (concretada e alagada). Desprezando os efeitos da evaporação e considerando que toda a radiação é absorvida, essa avaliação pode ser realizada com os seguintes dados: || Água: densidade 1 000 kg/m³; calor específico 4,2 J/(g·°C). Concreto: densidade 2 500 kg/m³; calor específico 0,8 J/(g·°C). || > ROMERO, M. A. B. et al. Mudanças climáticas e ilhas de calor urbanas. Brasília: UnB; ETB, 2019 (adaptado). || A razão entre as variações de temperatura nas áreas concretada e alagada é mais próxima de
+x: Mesma energia e mesmo volume: Q = m·c·ΔT = (d·V)·c·ΔT, então ΔT é inversamente proporcional a d·c. Água: 1 000 × 4,2 = 4 200; concreto: 2 500 × 0,8 = 2 000. Razão ΔT(concreto)/ΔT(água) = 4 200 ÷ 2 000 = 2,1.
+@130 m quimica/calculos-fisico-quimicos
+e: O elemento iodo (I) tem função biológica e é acumulado na tireoide. Nos acidentes nucleares de Chernobyl e Fukushima, ocorreu a liberação para a atmosfera do radioisótopo ¹³¹I, responsável por enfermidades nas pessoas que foram expostas a ele. O decaimento de uma massa de 12 microgramas do isótopo ¹³¹I foi monitorado por 14 dias, conforme o quadro. || Quadro (tempo em dias: massa residual de ¹³¹I em µg): 0: 12,0; 2: 10,1; 4: 8,5; 5: 7,8; 6: 7,2; 8: 6,0; 14: 3,6. || Após o período de 40 dias, a massa residual desse isótopo é mais próxima de
+x: A massa cai de 12,0 para 6,0 µg em 8 dias, então a meia-vida é de 8 dias. 40 dias = 5 meias-vidas: 12 → 6 → 3 → 1,5 → 0,75 → 0,375 µg, cerca de 0,4 µg.
+@131 m biologia/evolucao
+s: a seguir: Espécie 1 => a seguir: || Espécie 1
+x: As quatro espécies se reproduzem de jeitos muito diferentes: muitos ovos sem cuidado, poucos ovos com cuidado do pai etc. Todas deixam descendentes, ou seja, estratégias diferentes podem garantir o sucesso reprodutivo.
+@134 m biologia/citologia
+e: Em uma aula prática de bioquímica, para medir a atividade catalítica da enzima catalase, foram realizados seis ensaios independentes, nas mesmas condições, variando-se apenas a temperatura. A catalase decompõe o peróxido de hidrogênio (H₂O₂), produzindo água e oxigênio. Os resultados dos ensaios estão apresentados no quadro. || Quadro (ensaio: temperatura; decomposição de H₂O₂ em 10⁻¹² mol/min): 1: 10 °C; 8,0. 2: 15 °C; 10,5. 3: 20 °C; 9,5. 4: 25 °C; 5,0. 5: 30 °C; 3,6. 6: 35 °C; 3,1. || Os diferentes resultados dos ensaios justificam-se pelo(a)
+x: A atividade sobe até cerca de 15 °C e depois cai. Acima da temperatura ótima, a enzima, que é uma proteína, perde sua forma tridimensional (desnaturação) e deixa de funcionar bem.
+@135 m biologia/citologia, biologia/seres-vivos
+e: Antimicrobianos são substâncias naturais ou sintéticas que têm capacidade de matar ou inibir o crescimento de microrganismos. A tabela apresenta uma lista de antimicrobianos hipotéticos, bem como suas ações e efeitos sobre o metabolismo microbiano. || Tabela (antimicrobiano: ação; efeito): 1: une-se aos ribossomos; impede a síntese proteica. 2: une-se aos microtúbulos; impede a segregação das cromátides. 3: une-se aos fosfolipídeos da membrana plasmática; reduz a permeabilidade da membrana plasmática. 4: interfere na síntese de timina; inibe a síntese de DNA. 5: interfere na síntese de uracila; impede a síntese de RNA. || Qual dos antimicrobianos deve ser utilizado para curar uma infecção causada por um fungo sem afetar as bactérias da microbiota normal do organismo?
+x: Fungos são eucariontes e têm microtúbulos, que formam o fuso na divisão celular. Bactérias não têm microtúbulos. Ribossomos, membrana, DNA e RNA existem nos dois grupos, então os outros remédios também atingiriam as bactérias.
+@105 d fisica/cinematica
+e: Em um dia de calor intenso, dois colegas estão a brincar com a água da mangueira. Um deles quer saber até que altura o jato de água alcança, a partir da saída de água, quando a mangueira está posicionada totalmente na direção vertical. O outro colega propõe então o seguinte experimento: eles posicionarem a saída de água da mangueira na direção horizontal, a 1 m de altura em relação ao chão, e então medirem a distância horizontal entre a mangueira e o local onde a água atinge o chão. A medida dessa distância foi de 3 m, e a partir disso eles calcularam o alcance vertical do jato de água. Considere a aceleração da gravidade de 10 m/s². || O resultado que eles obtiveram foi de
+x: Na horizontal, a água cai 1 m: 1 = 5t², então t² = 0,2 s². A velocidade de saída é v = 3/t, logo v² = 9 ÷ 0,2 = 45 m²/s². Com a mangueira na vertical, a altura máxima é h = v²/(2g) = 45 ÷ 20 = 2,25 m.
+@111 d fisica/eletricidade, fisica/termologia
+e: O manual de uma ducha elétrica informa que seus três níveis de aquecimento (morno, quente e superquente) apresentam as seguintes variações de temperatura da água em função de sua vazão: || Quadro (variação de temperatura ΔT, em °C): com vazão de 3 L/min: morno 10, quente 20, superquente 30. Com vazão de 6 L/min: morno 5, quente 10, superquente 15. || Utiliza-se um disjuntor para proteger o circuito dessa ducha contra sobrecargas elétricas em qualquer nível de aquecimento. Por padrão, o disjuntor é especificado pela corrente nominal igual ao múltiplo de 5 A imediatamente superior à corrente máxima do circuito. Considere que a ducha deve ser ligada em 220 V e que toda a energia é dissipada através da resistência do chuveiro e convertida em energia térmica transferida para a água, que apresenta calor específico de 4,2 J/(g·°C) e densidade de 1 000 g/L. || O disjuntor adequado para a proteção dessa ducha é especificado por:
+x: Maior potência (superquente): 3 L/min = 3 000 g por 60 s = 50 g/s. P = 50 × 4,2 × 30 = 6 300 W (com 6 L/min e ΔT = 15 °C dá o mesmo). Corrente: i = P/U = 6 300 ÷ 220 ≈ 28,6 A. O múltiplo de 5 logo acima é 30 A.
+@126 d fisica/dinamica
+e: Um pai faz um balanço utilizando dois segmentos paralelos e iguais da mesma corda para fixar uma tábua a uma barra horizontal. Por segurança, opta por um tipo de corda cuja tensão de ruptura seja 25% superior à tensão máxima calculada nas seguintes condições: || • O ângulo máximo atingido pelo balanço em relação à vertical é igual a 90°; || • Os filhos utilizarão o balanço até que tenham uma massa de 24 kg. || Além disso, ele aproxima o movimento do balanço para o movimento circular uniforme, considera que a aceleração da gravidade é igual a 10 m/s² e despreza as forças dissipativas. || Qual é a tensão de ruptura da corda escolhida?
+x: Soltando de 90°, a energia dá v² = 2gL no ponto mais baixo. Ali, T − mg = mv²/L = 2mg, então T = 3mg = 3 × 24 × 10 = 720 N, dividida entre as duas cordas: 360 N em cada. Com 25% de folga: 360 × 1,25 = 450 N.
+@133 d fisica/eletricidade
+x: Com uma pilha invertida, a f.e.m. total é 1,5 + 1,5 − 1,5 = 1,5 V. As três resistências internas continuam em série: 3 × 0,5 = 1,5 Ω. A lâmpada tem R = U²/P = 4,5² ÷ 4,5 = 4,5 Ω. Corrente: i = 1,5 ÷ (4,5 + 1,5) = 0,25 A.

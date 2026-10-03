@@ -1,0 +1,158 @@
+## 19-enem-2018-ciencias-humanas.md | 2018 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2018 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Epicuro (temperança), Agostinho (eternidade e limites da razão), Tomás de Aquino (razão a serviço da fé), Hobbes × Rousseau (estado de natureza), Merleau-Ponty, Debord (sociedade do espetáculo).
+- **História do Brasil:** críticas à colonização, Insurreição Pernambucana, abolicionismo, Revolta da Chibata, voto de cabresto, voto feminino (1932), comício da Central (1964) e abertura política.
+- **História geral:** ordens militares das cruzadas, conquista da América, Iluminismo, imperialismo do século XIX e Guerra Fria.
+- **Geografia:** redes urbanas, portos e contêineres, refugiados, transição demográfica, fronteiras na globalização e clima tropical.
+- **Sociologia:** pobreza como ruptura de laços sociais e chefia sem poder de coerção nas sociedades indígenas.
+
+@51 f filosofia/filosofia-antiga-e-medieval
+x: Na filosofia medieval (escolástica), a razão é usada para demonstrar verdades em que já se acredita pela fé. O texto tenta provar a existência de Deus só com raciocínio (o argumento de que o ser maior que se pode pensar precisa existir também na realidade).
+@54 f historia/brasil-colonia
+x: João de Barros reclama que a terra ficou conhecida pelo nome do pau-brasil, a mercadoria explorada, e não pela cruz. Frei Vicente do Salvador critica os colonos que querem levar tudo para Portugal. Os dois apontam a mesma coisa: a colônia era vista como lugar de onde se tiravam riquezas.
+@55 f historia/seculo-xx
+x: O texto mostra que a ajuda soviética a Cuba "tinha um preço": o país dependia economicamente da URSS e ficou devendo bilhões. Na Guerra Fria, os países de cada bloco ficavam subordinados à sua potência líder (EUA ou URSS).
+@57 f historia/brasil-imperio
+x: As mulheres do texto arrecadavam dinheiro para comprar liberdades e convenciam senhores a dar alforrias: são ações do movimento abolicionista (o Ceará, terra das autoras citadas, aboliu a escravidão em 1884, antes da Lei Áurea).
+@60 f geografia/geopolitica-e-globalizacao
+s: refugiados? || Le Monde Diplomatique Brasil, out. 2015 (adaptado). O cenário => refugiados? Le Monde Diplomatique Brasil, out. 2015 (adaptado). || O cenário
+x: Os refugiados sírios fugiram da guerra civil na Síria (iniciada em 2011). São pessoas obrigadas a deixar seu território por causa de conflitos armados, o que se chama desterritorialização forçada. Não se trata de catástrofe natural nem de viagem religiosa.
+@65 f geografia/economia-agropecuaria-industria-energia
+x: O contêiner padronizou o transporte de cargas: ele passa do navio para o caminhão ou o trem sem abrir, o que reduz tempo e custo. Os portos se modernizaram com guindastes e pátios para contêineres, ligando-se às redes de transporte citadas no texto.
+@68 f historia/idade-moderna
+x: Cortez tinha poucas centenas de homens, mas se aliou a povos inimigos dos astecas (como os tlaxcaltecas), que eram dominados por eles e forneceram milhares de guerreiros. Explorar essas rivalidades foi decisivo para a conquista.
+@71 f historia/brasil-republica
+x: A Revolta da Chibata (1910) foi feita por marinheiros, em sua maioria negros e pobres, contra os castigos físicos. Mais de vinte anos depois da abolição e da República, os oficiais ainda tratavam os marinheiros com chibatadas, como se fossem escravizados.
+@79 f filosofia/filosofia-antiga-e-medieval
+x: Para Epicuro, a felicidade vem de desejar pouco: quem não se satisfaz com o necessário nunca ficará satisfeito. Essa é a virtude da temperança, a moderação dos desejos pelo domínio da vontade.
+@80 f sociologia/temas-contemporaneos
+x: Mia Couto diz que, em algumas línguas de Moçambique, pobre é quem não tem parentes: a pobreza é a perda dos laços familiares e de ajuda mútua. É uma visão que vai além do dinheiro e liga a pobreza ao enfraquecimento das redes de sociabilidade.
+@84 f historia/brasil-republica
+x: O trecho mostra capangas entregando cédulas prontas e anotando o nome de quem recusava. Era o voto de cabresto da Primeira República: sem voto secreto, os eleitores eram vigiados e ameaçados pelos coronéis, uma repressão aberta ao direito de votar.
+@86 f geografia/economia-agropecuaria-industria-energia
+x: A produção orgânica e agroecológica no Brasil é feita principalmente por agricultores familiares. Apoiar esses produtores com crédito e subsídios reduz a marginalização do setor. Adubos químicos vão contra a própria ideia de produção orgânica.
+@46 m historia/revolucoes-e-seculo-xix, geografia/cartografia
+x: Em 1875, as potências europeias disputavam colônias na África e na Ásia (imperialismo). O almirante fala em "conhecer e conquistar a terra": a geografia era valorizada porque mapear e catalogar territórios servia aos objetivos coloniais.
+@47 m historia/antiguidade-e-idade-media
+x: O Hospital de Jerusalém deu origem aos Cavaleiros Hospitalários, uma ordem religiosa que também era militar. Essas ordens de monges guerreiros (como a dos Templários) surgiram com as cruzadas, para proteger peregrinos e combater na Terra Santa.
+@48 m sociologia/sociologia-classica
+s: Estado. || Rio de Janeiro: Francisco Alves, 1982 (adaptado). O modelo => Estado. Rio de Janeiro: Francisco Alves, 1982 (adaptado). || O modelo
+x: Na tribo, o chefe não manda: não tem poder de obrigar ninguém e só usa a palavra e o prestígio para resolver conflitos pelo consenso. A comunidade se governa sozinha, ao contrário do Estado, que tem leis e poder de coerção.
+@49 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Merleau-Ponty, o filósofo junta o "gosto da evidência" (busca de clareza e rigor) com o "sentido da ambiguidade" (a dúvida que não para). Ele vai sempre do saber à ignorância e de volta, sem se instalar num saber absoluto: rigor e inquietude juntos.
+@52 m filosofia/filosofia-moderna-e-contemporanea
+x: Hobbes e Rousseau discordam sobre como era o homem no estado de natureza (em guerra, para Hobbes; pacífico, para Rousseau). Mas os dois partem da ideia de que, nessa condição original, antes da sociedade e do Estado, os homens eram iguais.
+@53 m geografia/geopolitica-e-globalizacao, geografia/populacao-e-urbanizacao
+x: O texto diz que não dá mais para separar o local do global: a cidade se liga ao mesmo tempo a fluxos próximos e distantes. Isso é a articulação de redes em várias escalas (local, regional, nacional e mundial), típica da globalização.
+@58 m historia/brasil-republica
+s: joao-goulart-nocomicio => joao-goulart-no-comicio
+x: No comício de 13 de março de 1964, Jango defendeu as reformas de base (agrária, urbana, entre outras) diante de trabalhadores e sindicatos. O discurso acusa os opositores de defender uma "democracia dos privilégios" para justificar essas reformas. Semanas depois veio o golpe militar.
+@59 m historia/brasil-colonia
+x: A Insurreição Pernambucana uniu os senhores de engenho contra os holandeses. Eles estavam endividados com a Companhia das Índias Ocidentais, e uma das primeiras medidas foi anular essas dívidas: a revolta tinha um forte motivo econômico.
+@62 m geografia/geopolitica-e-globalizacao
+x: O texto mostra a preocupação de que os árabes virem maioria se os territórios palestinos forem incorporados. Ou seja, a política busca garantir que os judeus continuem sendo a maioria no território: a preeminência de um grupo étnico sobre o espaço nacional.
+@64 m historia/brasil-colonia
+x: As bolsas de mandinga eram amuletos usados para proteção contra doenças, violência, má sorte e outros perigos. Numa colônia cheia de inseguranças, elas davam às pessoas, escravizadas ou livres, um sentimento de proteção diante do desamparo.
+@66 m historia/idade-moderna, filosofia/filosofia-moderna-e-contemporanea
+x: No século XVIII, o Iluminismo defendia a razão, a experiência e a ciência como caminho do conhecimento. Isso se chocava com o poder da Igreja (clericalismo) sobre as ideias: os iluministas defendiam a liberdade de pensamento contra a autoridade religiosa.
+@69 m historia/ditadura-e-redemocratizacao
+s: Codecri, 1981 (adaptado). No referido => Codecri, 1981 (adaptado). || No referido
+s: || Carta do cartunista => || > Carta do cartunista
+x: Em janeiro de 1979, o governo Geisel fazia a abertura "lenta, gradual e segura", mas ainda negava passaportes a exilados políticos (a anistia só viria em agosto). Henfil devolve seu passaporte para criticar os limites dessa distensão.
+@70 m sociologia/temas-contemporaneos, filosofia/filosofia-moderna-e-contemporanea
+x: Debord diz que hoje vale mais parecer do que ter: o prestígio vem da imagem. Uma manifestação atual disso é a exposição constante nos meios de comunicação e nas redes sociais, onde as pessoas mostram (ou encenam) o que têm e o que são.
+@73 m geografia/cartografia
+x: Sun Tzu ensina a reconhecer tipos de terreno, e o segundo texto mostra como o relevo montanhoso do Afeganistão ajudou quem o conhecia a se esconder. Os dois mostram que conhecer bem o espaço (domínio cognitivo da topografia) é uma vantagem estratégica.
+@75 m geografia/populacao-e-urbanizacao
+x: Famílias que limitam voluntariamente o número de filhos fazem a natalidade cair até ficar próxima da mortalidade, que já tinha caído antes. Essa é a etapa final da transição demográfica, que a Europa completou em meados do século XX.
+@76 m historia/brasil-republica
+s: Código Penal dos Estados Unidos do Brasil, 1890 Dos crimes contra a saúde pública Art. 156. => Código Penal dos Estados Unidos do Brasil, 1890 || Dos crimes contra a saúde pública || Art. 156.
+s: habilitado segundo as leis e regulamentos. Art. 158. => habilitado segundo as leis e regulamentos. || Art. 158.
+x: O Código Penal de 1890 tornava crime curar sem diploma e punia o curandeirismo. Era a época em que a medicina científica queria o monopólio da cura e tratava como atraso ou crime os saberes populares (benzedeiras, ervas, práticas africanas e indígenas).
+@78 m historia/brasil-republica
+x: O voto feminino veio no Código Eleitoral de 1932, no governo Vargas, mas foi resultado de uma longa luta: grupos como a Federação Brasileira pelo Progresso Feminino, de Bertha Lutz, fizeram campanha por anos para ampliar a cidadania às mulheres.
+@81 m geografia/geopolitica-e-globalizacao
+x: Bauman mostra que a globalização abre as fronteiras para o dinheiro, as mercadorias e a informação, mas ergue muros contra pessoas pobres e migrantes. A fronteira de hoje é seletiva: deixa passar uns e barra outros.
+@85 m historia/antiguidade-e-idade-media
+x: O califa escolhe o lugar porque tudo pode chegar ali pelos rios Tigre e Eufrates e por canais, e porque a região alimentaria o exército e a população. Rotas de transporte e terras férteis eram a base para sustentar o poder do califado.
+@90 m filosofia/filosofia-moderna-e-contemporanea
+x: As metáforas religiosas (templo, sacerdote, altar) mostram cada eleitor como alguém importante e responsável pelo seu voto. É a democracia baseada no indivíduo: cada cidadão escolhe os líderes com o seu voto, que tem o mesmo peso que o de qualquer outro.
+@61 d historia/brasil-republica
+s: Capitais estrangeiros É indispensável => Capitais estrangeiros || É indispensável
+s: O capital Apelar => O capital || Apelar
+x: Os dois partidos rivais da época concordam em um ponto: o Brasil precisa atrair capital estrangeiro. O PSD quer regras para os lucros ficarem no país, e a UDN defende liberdade para a saída dos juros. Eles divergem nas remessas, mas convergem na captação de recursos do exterior.
+@77 d geografia/geografia-fisica
+x: A crosta laterítica (canga) se forma quando a chuva lava o solo e leva embora parte dos minerais, e na estação seca o ferro se concentra e endurece. Isso exige um clima tropical com estação chuvosa e estação seca bem marcadas, como o do Cerrado, onde ficam as chapadas.
+@83 d filosofia/filosofia-antiga-e-medieval
+x: Agostinho discute a pergunta "o que Deus fazia antes de criar o mundo?". Para ele, o tempo foi criado junto com o mundo, e a eternidade de Deus está fora do tempo. A questão mostra até onde vai a compreensão humana diante de algo que a ultrapassa.
+@89 d filosofia/filosofia-moderna-e-contemporanea
+x: Os seringueiros, pela experiência de quem caça na floresta, sabiam que as áreas de refúgio garantiam a caça. A ciência só chegou a esse modelo dez anos depois. O texto mostra o conhecimento empírico das populações tradicionais forçando a revisão do modelo científico.
+
+## 20-enem-2018-linguagens.md | 2018 | 1 | 1º dia, caderno azul | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2018 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Funções da linguagem:** a referencial informa com linguagem objetiva (denotativa); a emotiva mostra os sentimentos de quem fala.
+- **Gêneros textuais:** resenha apresenta e avalia uma obra; sinopse só resume; notícia informa um fato.
+- **Variação linguística:** a escolha das palavras muda com a situação (mais ou menos formal); hinos e documentos oficiais usam a norma-padrão.
+- **Literatura contemporânea:** poesia negra (Cuti), autoria feminina (Angélica Freitas, Natalia Polesso), Stela do Patrocínio, Ivan Ângelo e a ditadura.
+- **Educação Física:** valores olímpicos (amizade, excelência, respeito), esporte como espetáculo e o mito do sexo frágil.
+- **Leia o comando:** "estratégia argumentativa", "processo de construção" e "da perspectiva do usuário" pedem coisas diferentes do mesmo texto.
+
+@6 f portugues/interpretacao-de-texto
+x: A diretora diz que o processo "precisa começar o quanto antes nas carteiras das escolas" e que a Unesco lidera a educação em direitos humanos para meninas e meninos. A estratégia é discutir o tema desde a educação básica.
+@12 f portugues/funcoes-generos-e-variacao
+x: O texto informa o que o aplicativo faz, onde está disponível, quem o criou e como funciona, com palavras no sentido literal (denotativo). Isso é a função referencial. A pergunta no fim da fala de Luis Mauch é um detalhe, não o que predomina.
+@21 f portugues/funcoes-generos-e-variacao v
+s: Pátria amada, Brasil! // Hino Nacional do Brasil. Letra: Joaquim Osório Duque Estrada. // Música: Francisco Manuel da Silva (fragmento). // O uso da norma-padrão na letra do Hino Nacional do // Brasil é justificado por tratar-se de um(a) => Pátria amada, Brasil! || > Hino Nacional do Brasil. Letra: Joaquim Osório Duque Estrada. Música: Francisco Manuel da Silva (fragmento). || O uso da norma-padrão na letra do Hino Nacional do Brasil é justificado por tratar-se de um(a)
+x: O hino é um símbolo nacional, cantado em cerimônias oficiais. Por ser um gênero solene e protocolar, usa a norma-padrão e uma linguagem elevada (inversões, palavras como "lábaro" e "flâmula"). A reverência do povo não explica a escolha da norma; o gênero, sim.
+@26 f artes/artes-e-educacao-fisica
+x: Jogo limpo, honestidade, consideração pelo outro, conhecer os próprios limites, cuidar da saúde e combater o doping são atitudes ligadas ao valor do respeito. Nas outras opções, a descrição não bate com o valor citado (por exemplo, tratar todos igualmente é igualdade, não amizade).
+@31 f artes/artes-e-educacao-fisica
+x: Galeano diz que o futebol virou espetáculo e um dos negócios mais lucrativos do mundo, com um estilo de força e velocidade que "atrofia a fantasia e proíbe a ousadia". O jogo virou produto a ser consumido, e a criatividade ficou em segundo plano.
+@33 f portugues/funcoes-generos-e-variacao
+x: O texto apresenta o livro (enredo e personagens) e também o avalia: chama a narradora de "surpreendentemente simpática" e a obra de "sucesso absoluto – e raro – de crítica e público". Apresentar e opinar sobre uma obra é o que faz a resenha; a sinopse seria impessoal.
+@40 f portugues/funcoes-generos-e-variacao
+s: cultural: || “Conte o conto sem aumentar um ponto” Em razão => cultural: “Conte o conto sem aumentar um ponto” || Em razão
+x: O concurso exige um final com no máximo 1 778 caracteres, o mesmo número que Machado usou. O Twitter também tem limite de caracteres por mensagem, por isso combina com a proposta.
+@43 f artes/artes-e-educacao-fisica
+x: O texto mostra que o "mito do sexo frágil" usava argumentos supostamente científicos sobre o corpo da mulher para afastá-la do esporte. É um argumento biológico usado para justificar uma desigualdade que, na verdade, é histórica e social.
+@8 m portugues/funcoes-generos-e-variacao
+s: —Famigeradoé“inóxio”,é“célebre”,“notório”,“notável”... => — Famigerado é “inóxio”, é “célebre”, “notório”, “notável”...
+x: O homem pede o sentido da palavra "em fala de pobre, linguagem de em dia de semana", ou seja, numa linguagem simples, do dia a dia. A explicação anterior usava palavras difíceis, de "domingo". Os dias da semana indicam o grau de formalidade da comunicação.
+@9 m portugues/interpretacao-de-texto
+x: Sociólogos e escritores descreveram o brasileiro como cordial e hospitaleiro. A pesquisa nas redes mostra 84% de menções negativas, com preconceito e discriminação. O texto usa os dados para contestar essa ideia pronta sobre o brasileiro.
+@14 m portugues/funcoes-generos-e-variacao
+x: Num concurso de miss, as candidatas costumam dizer suas medidas. Ao trocar as medidas por dados de violência contra a mulher, elas usaram aquele momento para um protesto político: mudaram (subverteram) a função da fala esperada nesse evento.
+@17 m portugues/semantica-e-figuras-de-linguagem
+x: O texto começa com frases feitas de desilusão amorosa ("ele me abandonou", "parecia que dessa vez seria para sempre", "desapareceu sem deixar rastro"), e o leitor pensa num namoro. Só depois descobre que se trata de celulares. Esses clichês amorosos constroem o clima do texto e prendem a atenção.
+@18 m portugues/interpretacao-de-texto
+s: Enquanto isso, nos bastidores do universo Você planeja => Enquanto isso, nos bastidores do universo || Você planeja
+x: A tese é que a vida não segue nossos planos. A autora repete construções de oposição: você planeja viajar, "mas" chega um amor; treina para a maratona, "mas" se machuca; quando achou que estava bela, não arrasou; quando saiu sem maquiagem, chamou atenção. A expectativa é sempre contrariada pelo inesperado.
+@20 m literatura/pre-modernismo-ao-contemporaneo
+x: A narradora tem medo de ser exposta diante da família e fica muda. No fim, ao perceber que a avó também viveu um amor por outra mulher, quer saber tudo, mas não consegue perguntar. A tensão está no silêncio mantido para não abalar o equilíbrio familiar.
+@23 m literatura/pre-modernismo-ao-contemporaneo
+s: Isabela,Afonsina => Isabela, Afonsina
+x: Leniza trabalha numa fábrica no Rio dos anos 1930 e, convivendo com as colegas, muda o jeito de falar, de se mover e de pensar. O fragmento liga a cidade que se moderniza (fábricas, trabalho feminino) à transformação do papel das mulheres.
+@27 m portugues/semantica-e-figuras-de-linguagem
+s: Centro deAstrofísica => Centro de Astrofísica
+x: "Big Bang" quer dizer "grande explosão". O título "mais big do que bang" separa as partes para dizer que o fenômeno foi mais "grande" (expansão) do que "explosão". Resume a ideia do texto: a teoria da expansão substitui a da explosão.
+@35 m literatura/pre-modernismo-ao-contemporaneo v
+a: hipocrisia do discurso alicerçado sobre o senso comum. | mudança de paradigmas de imagem atribuídos à mulher. | tentativa de estabelecer preceitos da psicologia feminina. | importância da correlação entre ações e efeitos causados. | valorização da sensibilidade como característica de gênero.
+x: O eu lírico, um homem, finge um raciocínio lógico ("com base nesses fatos", "elementar", como Sherlock Holmes) para concluir que a mulher de vermelho o deseja. A "dedução" é só preconceito do senso comum disfarçado de lógica, e o poema ironiza esse discurso.
+@37 m portugues/funcoes-generos-e-variacao
+s: utilizado por gays e travestis Com origem no iorubá, linguagem foi adotada por travestis e ganhou a comunidade “Nhaí => utilizado por gays e travestis || Com origem no iorubá, linguagem foi adotada por travestis e ganhou a comunidade || “Nhaí
+x: O advogado diz que hoje o pajubá "tá na internet, tem até dicionário". O texto cita o dicionário Aurélia, com mais de 1 300 verbetes. Ter um registro formal (como um dicionário) é o que consolida a linguagem como patrimônio linguístico.
+@38 m portugues/morfologia-e-sintaxe
+x: O narrador mistura tempos verbais para organizar a história: o pretérito perfeito para os fatos (surrou, deitaram-me), o imperfeito para descrever (eu distinguia), o mais-que-perfeito para o que tinha acontecido antes (ferira-me) e o tempo da lembrança (não guardei ódio). Isso faz o tema avançar.
+@42 m literatura/pre-modernismo-ao-contemporaneo
+x: Escrito em 1979, durante a ditadura, o texto critica o governo de forma indireta: a ironia ("o dinheiro que sobrasse, bem, digamos, ora o dinheiro que sobrasse!") e a metáfora da Casa de Vidro mostram a repressão e as injustiças sem nomeá-las diretamente, como outras obras do período.
+@44 m portugues/interpretacao-de-texto
+s: contra a cópia ilegal No mundo => contra a cópia ilegal || No mundo
+x: O programa trata o texto como uma sequência de palavras e procura trecho por trecho na internet, detectando frases reorganizadas, reescritas e com a ordem mudada. Ou seja, ele compara padrões de estrutura dos textos.
+@10 d literatura/pre-modernismo-ao-contemporaneo v
+x: O eu lírico se vê com os olhos de quem o discrimina: ele é "o policial que me suspeito", "o porteiro" que o manda para a porta de serviço, "o dedo que me aponto e denuncio". Ele incorporou (internalizou) partes do discurso do opressor: o preconceito passou a agir de dentro dele.
+@15 d literatura/pre-modernismo-ao-contemporaneo
+x: O texto, em forma de diário, repete "é preciso" como quem tenta se agarrar à vida: não beber, não morrer "por enquanto", sobreviver. A repetição obsessiva e as frases curtas transmitem a angústia de alguém que pressente o próprio fim.
+@30 d literatura/pre-modernismo-ao-contemporaneo v
+x: A voz do poema diz que começou a existir com "quinhentos milhões e quinhentos mil anos", nasceu velha, virou criança e voltou a ser velha. A lógica do tempo é desmontada: a expressão poética de Stela do Patrocínio rompe com a razão comum e com as referências de tempo.

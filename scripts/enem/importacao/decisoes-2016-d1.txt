@@ -1,0 +1,154 @@
+## 27-enem-2016-ciencias-humanas.md | 2016 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2016 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2016 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2016, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Heráclito × Parmênides (mudança × ser), ceticismo de Pirro, Descartes (autonomia do pensamento), Schopenhauer, Nietzsche (niilismo), Adorno e Horkheimer (indústria cultural), Hans Jonas (responsabilidade).
+- **História do Brasil:** nomes dados aos indígenas, Conjuração Baiana (1798), mulheres negras no comércio de rua, coronelismo, Justiça do Trabalho, Estado Novo e a Nova República.
+- **Geografia:** movimento pendular, região polarizada, mercado de créditos de carbono, remessas de migrantes, Cerrado e fronteira agrícola, sobrepesca e novas ruralidades.
+- **Sociologia:** Durkheim (sociologia como ciência), democracia deliberativa × ativista, modernidade contraditória (Berman) e internet.
+
+@3 f geografia/populacao-e-urbanizacao
+x: Movimento pendular é o deslocamento diário de ida e volta entre a casa e o trabalho. Se a pessoa pudesse levar a casa para perto do trabalho nos dias úteis, esse vaivém diminuiria.
+@12 f geografia/geopolitica-e-globalizacao
+x: China, Vietnã e Filipinas disputam as mesmas águas do Mar da China Meridional, ricas em petróleo. Ao instalar a plataforma ali, a China tenta mostrar que tem o controle da área: o conflito é sobre a soberania territorial.
+@13 f historia/ditadura-e-redemocratizacao
+x: A Operação Condor foi a cooperação entre as ditaduras do Cone Sul (Brasil, Argentina, Chile, Uruguai, Paraguai e Bolívia) para perseguir, sequestrar e matar opositores políticos, inclusive fora de seus países.
+@14 f historia/brasil-republica
+x: Na Era Vargas, o Estado passou a controlar as relações entre patrões e empregados (sindicatos oficiais, CLT, Justiça do Trabalho). A ideia era resolver os conflitos trabalhistas pela via estatal, evitando greves e confrontos.
+@21 f historia/antiguidade-e-idade-media
+x: Políbio quer explicar como Roma, em pouco mais de 50 anos, submeteu "quase todo o mundo habitado" ao seu governo. É a expansão imperialista romana pelo Mediterrâneo (Guerras Púnicas, conquistas no Oriente).
+@28 f filosofia/filosofia-antiga-e-medieval
+x: Para Pirro, nada pode ser conhecido com certeza ("nada existe do ponto de vista da verdade"), então o sábio suspende o juízo e vive com indiferença diante de tudo. Isso é o ceticismo.
+@29 f geografia/populacao-e-urbanizacao
+x: A função social da cidade exige que ela sirva a todos os moradores, não só aos que estão no mercado formal. Levar e melhorar serviços públicos (saúde, transporte, saneamento) nos bairros periféricos é uma forma de fazer isso.
+@30 f geografia/biomas-e-questoes-ambientais
+x: O Cerrado é um hotspot porque tem muita biodiversidade e está sendo destruído rapidamente. A principal causa é o avanço da fronteira agrícola (soja, milho, gado) sobre a vegetação nativa.
+@31 f geografia/geopolitica-e-globalizacao
+x: O governo húngaro ergueu um muro e espalhou cartazes acusando imigrantes de "roubar" empregos. O ACNUR critica porque essas atitudes vindas do próprio governo fortalecem a xenofobia e a discriminação.
+@35 f historia/brasil-republica
+x: No coronelismo, o coronel garantia votos ao governo e, em troca, controlava os cargos públicos da região (do delegado à professora). É uma troca de favores: uma prática clientelista.
+@39 f geografia/biomas-e-questoes-ambientais
+s: Pesca industrial provoca destruição na África O súbito => Pesca industrial provoca destruição na África || O súbito
+x: A pesca industrial em grande escala retira peixes mais rápido do que eles se reproduzem (sobrepesca), como aconteceu com o bacalhau. O problema é um modelo de produção e consumo que não se sustenta.
+@1 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Schopenhauer, satisfazer desejos é como esmola: alivia hoje e a fome volta amanhã. A felicidade vem da resignação, isto é, de controlar os próprios desejos. É a ideia antiga (dos estoicos, por exemplo) de que ser feliz depende de dominar a si mesmo.
+@2 m historia/ditadura-e-redemocratizacao
+s: O álbum dos presidentes: a história vista pelo JB. Jornal do Brasil, 15 nov. 1989. O período => > O álbum dos presidentes: a história vista pelo JB. Jornal do Brasil, 15 nov. 1989. || O período
+x: A Nova República trouxe eleições diretas e nova Constituição (rupturas), mas muitos políticos que tinham apoiado a ditadura continuaram no poder. O próprio presidente José Sarney tinha sido líder do partido do regime militar.
+@4 m geografia/populacao-e-urbanizacao
+x: O Rio de Janeiro exerce influência (serviços, comércio, empregos) sobre várias cidades de outros estados. Uma área organizada em torno de uma cidade principal que a comanda é uma região polarizada.
+@5 m historia/brasil-colonia
+x: Os europeus chamavam povos muito diferentes pelo mesmo nome ("índios", "negros da terra"), sem se interessar pela diversidade deles. Isso revela uma visão etnocêntrica, que julga os outros a partir da própria cultura.
+@6 m filosofia/filosofia-moderna-e-contemporanea
+x: Hamlet reflete sobre viver ou morrer e hesita diante do desconhecido. Essa reflexão sobre a própria existência, misturada à angústia, é o tema central do existencialismo séculos depois: consciência de si e angústia humana.
+@8 m historia/brasil-colonia
+x: Assim como na África Ocidental, nas cidades do Brasil escravista muitas mulheres negras (escravizadas ou libertas, as "negras de ganho") vendiam alimentos e produtos nas ruas, com certa autonomia.
+@9 m historia/revolucoes-e-seculo-xix, sociologia/sociologia-classica
+x: Para Polanyi, a sociedade industrial transformou trabalho, terra e dinheiro em coisas compradas e vendidas no mercado. Uma consequência é que a força de trabalho das pessoas passou a ser tratada como mercadoria.
+@10 m historia/brasil-colonia
+x: A Inconfidência Mineira queria a independência, mas não acabar com a escravidão. A Conjuração Baiana (1798), com participação de alfaiates, soldados e escravizados, foi além: propunha também a abolição da escravidão.
+@19 m geografia/populacao-e-urbanizacao, geografia/geopolitica-e-globalizacao
+x: Enviar dinheiro de um país para outro ficou muito mais fácil com os avanços das telecomunicações e dos sistemas bancários eletrônicos na globalização. Isso facilitou as remessas dos imigrantes para suas famílias.
+@20 m filosofia/filosofia-moderna-e-contemporanea
+x: Descartes diz que decorar as demonstrações dos outros não nos torna matemáticos nem filósofos: é preciso ser capaz de julgar por si mesmo. O conhecimento verdadeiro vem da autonomia do sujeito que pensa.
+@23 m filosofia/filosofia-antiga-e-medieval
+x: Heráclito defende que tudo muda o tempo todo; Parmênides, que o ser é imutável, uno e eterno. A discussão é sobre a natureza do ser (o que as coisas são), ou seja, de base ontológica.
+@24 m sociologia/temas-contemporaneos
+x: A democracia deliberativa busca chegar a acordos satisfatórios para todos pela argumentação (consenso). A ativista desconfia disso por causa das desigualdades e defende a mobilização dos grupos excluídos (minorias) por protestos e pressão.
+@25 m filosofia/filosofia-moderna-e-contemporanea
+x: Hans Jonas diz que a tecnologia, criada para a felicidade humana, virou ameaça à natureza e ao próprio ser humano. Sua ética da responsabilidade pede agir de modo que a vida humana continue possível no futuro: garantir a sobrevivência das próximas gerações.
+@27 m historia/brasil-republica
+x: Nos anos 1930, parte do governo Vargas simpatizava com o nazifascismo, e o antissemitismo influenciou a política de imigração, como na circular secreta que proibia vistos a pessoas "de origem semita".
+@32 m sociologia/sociologia-classica
+x: Durkheim critica a sociologia feita de grandes generalizações filosóficas e intuições rápidas, sem provas. Ele quer uma sociologia científica, que estude fatos sociais com método e observação, como fazem as ciências naturais.
+@34 m historia/brasil-imperio
+x: Os críticos ambientais dos séculos XVIII e XIX não elogiavam a beleza da natureza, e sim sua riqueza econômica. Destruí-la era sinal de atraso. Eles viam o meio natural como ferramenta para o progresso do país.
+@41 m sociologia/temas-contemporaneos
+x: Para Berman, a modernidade promete aventura e crescimento, mas ameaça destruir tudo o que somos; une a humanidade, mas numa "unidade paradoxal". É uma dinâmica cheia de contradições.
+@42 m sociologia/temas-contemporaneos
+x: O autor diz que a internet lhe dá acesso a uma enorme quantidade de informações, mas ele não consegue mais se concentrar numa leitura longa. O paradoxo é ter muita informação e uma experiência cada vez mais superficial.
+@44 m geografia/economia-agropecuaria-industria-energia
+x: Renato Teixeira diz que a música caipira mudou porque a vida no campo mudou. Hoje o meio rural tem atividades novas (agronegócio, turismo rural, serviços, empregos urbanos), as chamadas novas ruralidades.
+@15 d filosofia/filosofia-moderna-e-contemporanea, sociologia/temas-contemporaneos
+x: Para Adorno e Horkheimer, parecemos livres para escolher diversões e crenças, mas a indústria cultural oferece tudo padronizado, e a escolha "reflete sempre a coerção econômica". A liberdade de escolha é, na verdade, uma ilusão.
+@16 d geografia/geopolitica-e-globalizacao
+s: Vietnã Cingapura Brunei Darussalam Malásia Austrália Japão Nova Zelândia Chile Peru México Estados Unidos Canadá => Países do bloco: Vietnã, Cingapura, Brunei Darussalam, Malásia, Austrália, Japão, Nova Zelândia, Chile, Peru, México, Estados Unidos e Canadá.
+x: O bloco junta países muito diferentes: uns com tecnologia e capital (EUA, Japão, Canadá), outros com mão de obra barata (Vietnã, Malásia) e outros com recursos naturais (Chile, Peru, Austrália). Essas vantagens se completam nas cadeias produtivas.
+@18 d geografia/biomas-e-questoes-ambientais
+x: Com a compra de créditos de carbono, um país rico pode continuar poluindo se pagar por florestas preservadas em outro lugar. Os críticos dizem que isso distribui de forma desigual o impacto ecológico: quem polui não reduz, e outros "compensam".
+@37 d filosofia/filosofia-moderna-e-contemporanea
+x: No texto, as pessoas sentem que "tudo é oco, tudo é igual, tudo passou", o trabalho foi inútil e as fontes secaram. Nietzsche descreve a perda de sentido dos valores tradicionais: o niilismo como decadência da cultura.
+@40 d geografia/economia-agropecuaria-industria-energia
+x: O texto mostra que a tecnologia (como o just in time) aumenta a produtividade, mas o trabalho continua precário e mal pago (o vendedor ambulante). As mudanças na estrutura produtiva causadas pela tecnologia afetam o emprego e a renda.
+
+## 28-enem-2016-ciencias-da-natureza.md | 2016 | 1 | 1º dia, caderno azul | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2016 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2016 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2016, Ciências da Natureza foi aplicada no 1º dia, junto com Ciências Humanas. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Química:** lei de Hess, rendimento com reagente limitante, precipitação (BaSO₄), forças intermoleculares, bases neutralizam gases ácidos e pilhas em série.
+- **Física:** potência hidráulica (P = ρ·Q·g·h), calor (Q = m·c·ΔT), efeito Doppler, condutividade térmica e aquecimento por campo magnético alternado.
+- **Biologia:** ciclo de Krebs na mitocôndria, ADH e reabsorção de água, crossing-over, síntese proteica como evidência de origem comum, manguezal.
+- **Ecologia:** produtores fixam o carbono, predadores controlam populações, sistemas agroflorestais e adaptação × mitigação climática.
+
+@46 f quimica/solucoes
+x: A capsaicina é uma substância oleosa (apolar) e quase não se dissolve em água, que é polar ("semelhante dissolve semelhante"). Por isso jogar água não remove bem o produto da pele e dos olhos.
+@62 f biologia/ecologia
+x: O carbono inorgânico (CO₂) só vira matéria orgânica pela fotossíntese, feita pelos produtores. Nessa cadeia, o produtor é o fitoplâncton; os outros organismos já recebem o carbono na forma orgânica, pela alimentação.
+@65 f biologia/seres-vivos
+x: Animais que se alimentam de sangue (hematófagos), como mosquitos, carrapatos e morcegos-vampiros, produzem na saliva substâncias que impedem a coagulação, para o sangue continuar fluindo enquanto se alimentam. São boas fontes de anticoagulantes.
+@70 f quimica/fisico-quimica
+x: A datação por carbono-14 compara quanto C-14 resta no fóssil com a proporção entre C-14 e C-12 que o ser vivo tinha (igual à da atmosfera). Depois da morte, o C-14 decai e a proporção cai; sabendo a proporção original e a meia-vida, calcula-se a idade.
+@71 f geografia/biomas-e-questoes-ambientais, biologia/ecologia
+x: Solo lamacento e pouco oxigenado, excesso de sal e raízes que crescem para cima (para respirar) são marcas do manguezal, que fica no encontro do rio com o mar, sob influência das marés.
+@80 f biologia/ecologia, geografia/biomas-e-questoes-ambientais
+s: reduzir seus efeitos negativos. IPCC, 2014. Climate Change 2014: synthesis report. Disponível em: http://ar5-syr.ipcc.ch. Acesso em: 22 out. 2015 (adaptado). Considerando => reduzir seus efeitos negativos. || > IPCC, 2014. Climate Change 2014: synthesis report. Disponível em: http://ar5-syr.ipcc.ch. Acesso em: 22 out. 2015 (adaptado). || Considerando
+x: Usinas eólicas, tratamento de resíduos, carros mais eficientes e agricultura de baixo carbono reduzem as emissões (mitigação). Construir diques no litoral prepara as cidades para a subida do nível do mar, um efeito das mudanças: é adaptação.
+@87 f biologia/fisiologia-humana
+x: O ADH (hormônio antidiurético) faz os rins reabsorverem água. Sem ele, a pessoa elimina muita urina diluída e perde água demais: o sintoma clássico é a desidratação (com muita sede). Glicose alta é do diabetes mellitus.
+@90 f biologia/genetica-e-biotecnologia, biologia/evolucao
+x: Todos os seres vivos, de bactérias a humanos, fabricam proteínas do mesmo jeito: DNA, RNA, ribossomos e praticamente o mesmo código genético. Esse processo universal é uma forte evidência de que todos descendem de um ancestral comum.
+@47 m fisica/trabalho-energia-e-potencia
+s: 690 m3 /s => 690 m³/s
+s: (10 m/s2 ) => (10 m/s²)
+s: (1 000 kg/m3 ) => (1 000 kg/m³)
+x: Potência teórica por unidade = densidade × vazão × g × altura = 1 000 × 690 × 10 × 118,4 = 816 960 000 W = 816,96 MW. Potência instalada por unidade: 14 000 ÷ 20 = 700 MW. Não aproveitada: 816,96 − 700 = 116,96 MW.
+@51 m quimica/ligacoes-e-funcoes-inorganicas
+s: solução aquosa de H2 SO4 => solução aquosa de H₂SO₄
+x: Se houver bário solúvel (do carbonato dissolvido pelo HCl), ao adicionar ácido sulfúrico os íons Ba²⁺ se juntam aos íons sulfato e formam BaSO₄, que é insolúvel: aparece um sólido branco (precipitado).
+@54 m fisica/termologia
+x: O sistema de arrefecimento dissipa 2 × 1,0 MW = 2 000 kJ por segundo. Cada kg de água pode esquentar no máximo 3 °C, absorvendo 4 × 3 = 12 kJ. Fluxo mínimo: 2 000 ÷ 12 ≈ 167 kg/s.
+@56 m biologia/citologia
+x: O ciclo de Krebs acontece dentro da mitocôndria, na matriz mitocondrial. Para bloquear o ciclo, a proteína precisa ter o "endereço" (peptídeo sinal) que a leve até a mitocôndria.
+@57 m fisica/ondulatoria-e-optica
+x: Se a mariposa se afasta, o eco volta mais fraco (intensidade menor) e demora mais (tempo de retorno maior). Pelo efeito Doppler, uma fonte (ou refletor) que se afasta faz a frequência percebida diminuir.
+@58 m quimica/estequiometria
+s: definido como R = nproduto × 100 nreagente limitante em que => definido como R = (n produto ÷ n reagente limitante) × 100, em que
+s: CH3 Br + NaOH → CH3 OH + NaBr As massas molares => CH₃Br + NaOH → CH₃OH + NaBr || As massas molares
+x: CH₃Br: 142,5 ÷ 95 = 1,5 mol; NaOH: 80 ÷ 40 = 2 mol. A reação é 1 : 1, então o limitante é o CH₃Br (1,5 mol). Metanol obtido: 32 ÷ 32 = 1 mol. R = 1 ÷ 1,5 × 100 ≈ 67%.
+@60 m quimica/ligacoes-e-funcoes-inorganicas
+x: O carvão ativado é praticamente só carbono e o benzeno é apolar. Entre moléculas apolares, a atração é fraca, do tipo dipolo induzido – dipolo induzido (forças de London). Na adsorção não se formam ligações covalentes.
+@67 m quimica/atomistica-e-tabela-periodica
+x: Mudanças de estado físico (fusão, vaporização etc.) não criam nem destroem moléculas: só mudam como elas estão arrumadas e o quanto se movimentam. É uma mudança na organização espacial das partículas, não nos átomos.
+@68 m quimica/solucoes
+x: Vinhaça: 27 000 × 18 = 486 000 L. Fósforo: 486 000 × 60 mg = 29 160 000 mg = 29,16 kg, cerca de 29 kg.
+@69 m biologia/fisiologia-humana, biologia/ecologia
+s: in field-grown wheat. || Nature Climate Change, n. 4, abr. 2014 (adaptado). Nesse contexto => in field-grown wheat. Nature Climate Change, n. 4, abr. 2014 (adaptado). || Nesse contexto
+x: O nitrato é a principal fonte de nitrogênio das plantas, e o nitrogênio é necessário para fabricar aminoácidos e, com eles, proteínas. Absorvendo menos nitrato, o trigo terá menos proteínas. Amido e celulose não têm nitrogênio.
+@73 m biologia/ecologia
+x: As árvores integradas à lavoura deixam cair folhas e galhos, aumentando a matéria orgânica, que alimenta fungos, bactérias e pequenos animais do solo. Com mais vida no solo, ele fica mais fértil e o ecossistema se recupera enquanto se produz.
+@83 m biologia/genetica-e-biotecnologia
+x: O crossing-over (permutação) troca pedaços entre cromossomos homólogos na meiose. Assim, os gametas recebem combinações novas de genes: é a recombinação genética, que aumenta a variabilidade dos descendentes.
+@84 m fisica/termologia
+x: As duas bandejas estão na mesma temperatura (a do ambiente). O alumínio parece mais frio ao toque porque conduz calor muito melhor e tira calor da mão mais rápido. Pelo mesmo motivo, ele leva calor ao gelo mais depressa, e o gelo derrete mais rápido nele.
+@50 d quimica/calculos-fisico-quimicos
+e: O benzeno, um importante solvente para a indústria química, é obtido industrialmente pela destilação do petróleo. Contudo, também pode ser sintetizado pela trimerização do acetileno catalisada por ferro metálico sob altas temperaturas, conforme a equação química: || 3 C₂H₂ (g) → C₆H₆ (l) || A energia envolvida nesse processo pode ser calculada indiretamente pela variação de entalpia das reações de combustão das substâncias participantes, nas mesmas condições experimentais: || I. C₂H₂ (g) + 5/2 O₂ (g) → 2 CO₂ (g) + H₂O (l)   ΔHc° = −310 kcal/mol // II. C₆H₆ (l) + 15/2 O₂ (g) → 6 CO₂ (g) + 3 H₂O (l)   ΔHc° = −780 kcal/mol || A variação de entalpia do processo de trimerização, em kcal, para a formação de um mol de benzeno é mais próxima de
+x: Lei de Hess: some 3 × (I), que queima 3 mol de acetileno (3 × −310 = −930), com o inverso de (II), que "desqueima" o benzeno (+780). Resultado: 3 C₂H₂ → C₆H₆ com ΔH = −930 + 780 = −150 kcal.
+@61 d biologia/ecologia
+s: Espécie exótica Área com tela Área sem tela Densidade (indivíduos/ m²) || Tamanho médio dos indivíduos (cm) || Densidade (indivíduos/ m²) || Tamanho médio dos indivíduos (cm) || Alga 100 15 110 18 Craca 300 2 150 1,5 Mexilhão 380 3 200 6 Ascídia 55 4 58 3,8 O pesquisador => Quadro (espécie exótica: densidade em indivíduos/m² e tamanho médio em cm na área com tela; densidade e tamanho médio na área sem tela): Alga: 100 e 15; 110 e 18. Craca: 300 e 2; 150 e 1,5. Mexilhão: 380 e 3; 200 e 6. Ascídia: 55 e 4; 58 e 3,8. || O pesquisador
+x: Sem a tela (peixes presentes), os mexilhões caem de 380 para 200 por m² e o tamanho médio sobe de 3 para 6 cm: os peixes comem os menores, sobrando os grandes. As cracas também diminuem, mas o tamanho médio cai (os peixes não preferem as pequenas). Algas e ascídias quase não mudam.
+@64 d quimica/fisico-quimica
+s: semirreações de redução e seus respectivos potenciais: 2 CO2 + 7 H+ + 8 e− →CH3 COO− + 2 H2 O E°’ = -0,3 V O2 + 4 H+ + 4 e− →2 H2 O E°’ = 0,8 V => semirreações de redução e seus respectivos potenciais: || 2 CO₂ + 7 H⁺ + 8 e⁻ → CH₃COO⁻ + 2 H₂O   E°’ = −0,3 V // O₂ + 4 H⁺ + 4 e⁻ → 2 H₂O   E°’ = 0,8 V
+x: Cada biocélula fornece ΔE = E(maior) − E(menor) = 0,8 − (−0,3) = 1,1 V. Em série, as tensões se somam: 4,4 ÷ 1,1 = 4 biocélulas.
+@78 d quimica/ligacoes-e-funcoes-inorganicas, quimica/quimica-ambiental
+e: Após seu desgaste completo, os pneus podem ser queimados para a geração de energia. Dentre os gases gerados na combustão completa da borracha vulcanizada, alguns são poluentes e provocam a chuva ácida. Para evitar que escapem para a atmosfera, esses gases podem ser borbulhados em uma solução aquosa contendo uma substância adequada. Considere as informações das substâncias listadas no quadro. || Quadro (substância: equilíbrio em solução aquosa; valor da constante de equilíbrio): // Fenol: C₆H₅OH + H₂O ⇌ C₆H₅O⁻ + H₃O⁺; 1,3 × 10⁻¹⁰ // Piridina: C₅H₅N + H₂O ⇌ C₅H₅NH⁺ + OH⁻; 1,7 × 10⁻⁹ // Metilamina: CH₃NH₂ + H₂O ⇌ CH₃NH₃⁺ + OH⁻; 4,4 × 10⁻⁴ // Hidrogenofosfato de potássio: HPO₄²⁻ + H₂O ⇌ H₂PO₄⁻ + OH⁻; 2,8 × 10⁻² // Hidrogenosulfato de potássio: HSO₄⁻ + H₂O ⇌ SO₄²⁻ + H₃O⁺; 3,1 × 10⁻² || Dentre as substâncias listadas no quadro, aquela capaz de remover com maior eficiência os gases poluentes é o(a)
+x: Os gases da chuva ácida (como o SO₂, do enxofre da borracha vulcanizada) são ácidos, então precisam de uma base para serem neutralizados. Fenol e hidrogenosulfato liberam H₃O⁺ (são ácidos). Entre as bases (liberam OH⁻), a mais forte tem a maior constante: o hidrogenofosfato (2,8 × 10⁻²).
+@88 d fisica/eletricidade
+x: O campo magnético alternado troca de sentido muitas vezes por segundo, e as nanopartículas magnéticas giram tentando se alinhar a ele. Esse movimento gera atrito com o meio, e a energia vira calor, que aquece as células do tumor.

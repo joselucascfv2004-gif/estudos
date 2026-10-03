@@ -1,0 +1,150 @@
+## 09-enem-2020-matematica.md | 2020 | 2 | 2º dia, caderno amarelo | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto e, quando uma figura só trazia medidas, elas foram escritas no enunciado. As explicações foram escritas para este aplicativo.
+- **Custo total = parte fixa + parte variável:** em compras com frete, some preço × quantidade com frete × distância antes de comparar.
+- **Tempo = distância ÷ velocidade:** compare tempos, e não velocidades, quando as distâncias são diferentes.
+- **Média ponderada:** multiplique cada nota pelo peso, some e só então compare.
+- **Escala de volume:** se o volume real é k vezes o da maquete, a escala linear é a raiz cúbica de k.
+- **Meia-vida e potências de 2:** Q₀/Q = 2ⁿ significa que se passaram n meias-vidas.
+- **Logaritmos transformam produto em soma:** log(A/r^B) = log A − B·log r.
+
+@143 f matematica/numeros-e-operacoes
+e: Uma pessoa precisa comprar 15 sacos de cimento para uma reforma em sua casa. Faz pesquisa de preço em cinco depósitos que vendem o cimento de sua preferência e cobram frete para entrega do material, conforme a distância do depósito à sua casa. As informações sobre preço do cimento, valor do frete e distância do depósito até a casa dessa pessoa estão apresentadas no quadro. || Quadro (depósito: valor do saco de cimento; valor do frete por quilômetro; distância entre a casa e o depósito): A: R$ 23,00; R$ 1,00; 10 km. B: R$ 21,50; R$ 3,00; 12 km. C: R$ 22,00; R$ 1,50; 14 km. D: R$ 21,00; R$ 3,50; 18 km. E: R$ 24,00; R$ 2,50; 2 km. || A pessoa escolherá um desses depósitos para realizar sua compra, considerando os preços do cimento e do frete oferecidos em cada opção. || Se a pessoa decidir pela opção mais econômica, o depósito escolhido para a realização dessa compra será o
+x: Custo = 15 × preço do saco + frete × distância. A: 345 + 10 = 355. B: 322,50 + 36 = 358,50. C: 330 + 21 = 351. D: 315 + 63 = 378. E: 360 + 5 = 365. O menor custo é o do depósito C, mesmo sem ter o saco mais barato.
+@160 f matematica/probabilidade, matematica/estatistica
+x: O CRC é uma média ponderada pelas probabilidades: 0,7 × (com chuva) + 0,3 × (sem chuva). I: 4,2 + 0,9 = 5,1. II: 4,9 − 1,2 = 3,7. III: −1,4 + 3,0 = 1,6. IV: 1,4 + 2,4 = 3,8. V: −4,2 + 2,1 = −2,1. O maior é o do pneu I.
+@161 f matematica/grandezas-medidas-escalas
+x: Massa de uma folha = 75 g/m² × 0,062 m² = 4,65 g. Para 20 000 folhas: 20 000 × 4,65 = 93 000 g = 93 kg.
+@162 f matematica/estatistica
+e: Com o objetivo de contratar uma empresa responsável pelo serviço de atendimento ao público, os executivos de uma agência bancária realizaram uma pesquisa de satisfação envolvendo cinco empresas especializadas nesse segmento. Os procedimentos analisados (com pesos que medem sua importância para a agência) e as respectivas notas que cada empresa recebeu estão organizados no quadro. || Quadro (procedimento, peso: notas das empresas X, Y, Z, W e T): Rapidez no atendimento, peso 3: 5, 1, 4, 3, 4. Clareza nas informações passadas aos clientes, peso 5: 1, 4, 3, 3, 2. Cortesia no atendimento, peso 2: 2, 2, 2, 3, 4. || A agência bancária contratará a empresa com a maior média ponderada das notas obtidas nos procedimentos analisados. || Após a análise dos resultados da pesquisa de satisfação, os executivos da agência bancária contrataram a empresa
+x: Como os pesos somam 10 para todas, basta comparar as somas ponderadas. X: 15 + 5 + 4 = 24. Y: 3 + 20 + 4 = 27. Z: 12 + 15 + 4 = 31. W: 9 + 15 + 6 = 30. T: 12 + 10 + 8 = 30. A maior é a da empresa Z.
+@176 f raciocinio-logico/conjuntos
+s: dois antígenos,Ae B, => dois antígenos, A e B,
+x: Têm pelo menos um antígeno: 200 − 20 = 180 pessoas. Pela união de conjuntos, 100 + 110 − (A e B) = 180, então 30 pessoas têm os dois (tipo AB). Só o antígeno A (tipo A): 100 − 30 = 70.
+@140 m matematica/razao-proporcao-regra-de-tres
+a: X · 100 | X/100 | 100/X | 1/X | 1 · X
+x: O Tipo A mostra X litros para 100 km. O Tipo B quer quilômetros por litro: 100 km ÷ X litros = 100/X. É a mesma informação, só que invertida.
+@146 m matematica/razao-proporcao-regra-de-tres
+e: Para chegar à universidade, um estudante utiliza um metrô e, depois, tem duas opções: || • seguir num ônibus, percorrendo 2,0 km; || • alugar uma bicicleta, ao lado da estação do metrô, seguindo 3,0 km pela ciclovia. || O quadro fornece as velocidades médias do ônibus e da bicicleta, em km/h, no trajeto metrô−universidade. || Quadro (dia da semana: velocidade média do ônibus; velocidade média da bicicleta): segunda-feira: 9; 15. Terça-feira: 20; 22. Quarta-feira: 15; 24. Quinta-feira: 12; 15. Sexta-feira: 10; 18. Sábado: 30; 16. || A fim de poupar tempo no deslocamento para a universidade, em quais dias o aluno deve seguir pela ciclovia?
+x: Compare os tempos (t = d/v), não as velocidades. Segunda: ônibus 2/9 ≈ 0,22 h, bicicleta 3/15 = 0,20 h. Terça: 0,10 contra 0,14. Quarta: 0,13 contra 0,125. Quinta: 0,17 contra 0,20. Sexta: 0,20 contra 0,17. Sábado: 0,07 contra 0,19. A bicicleta é mais rápida na segunda, na quarta e na sexta.
+@150 m matematica/grandezas-medidas-escalas
+x: Volume real: 28 080 L = 28 080 dm³ = 28 080 000 cm³. Volume da maquete: 2 × 3,51 × 4 = 28,08 cm³. A razão dos volumes é 1 000 000 = 100³, então a razão das medidas lineares é 100: escala 1 : 100.
+@152 m matematica/geometria-plana
+x: Área da sala: 3,2 × 3,6 = 11,52 m². Cada peça tem 0,8 × 0,8 = 0,64 m²: são 11,52 ÷ 0,64 = 18 peças (4 peças na largura × 4,5 no comprimento, aproveitando os recortes). 3 caixas A + 2 caixas B dão exatamente 18 peças por 105 + 54 = R$ 159,00. Seis caixas B também dão 18 peças, mas custam R$ 162,00.
+@153 m matematica/numeros-e-operacoes, matematica/analise-combinatoria
+x: Conte o algarismo 2 em cada posição. Unidades: em cada centena aparece 10 vezes (102, 112, ..., 192), então 3 × 10 = 30. Dezenas: 10 vezes por centena (120 a 129...), então 30. Centenas: todos os quartos de 200 a 299, ou seja, 100. Total: 30 + 30 + 100 = 160.
+@157 m matematica/exponencial-e-logaritmo
+s: Q t = Q0 ∙ 2 − t 5730 em que t é o tempo, medido em ano, Q t é a quantidade => Q(t) = Q₀ · 2^(−t/5 730), em que t é o tempo, medido em ano, Q(t) é a quantidade
+s: Q0 é a quantidade de carbono 14 no ser vivo => Q₀ é a quantidade de carbono 14 no ser vivo
+s: Fóssil Q0 Q(t) => Quadro (fóssil: Q₀; Q(t)):
+s: 1 128 32 2 256 8 3 512 64 4 1 024 512 5 2 048 128 O fóssil mais antigo => 1: 128; 32. 2: 256; 8. 3: 512; 64. 4: 1 024; 512. 5: 2 048; 128. || O fóssil mais antigo
+x: Q₀/Q(t) = 2^(t/5 730) mostra quantas meias-vidas passaram. Fóssil 1: 128/32 = 4 = 2² (2 meias-vidas). 2: 256/8 = 32 = 2⁵ (5). 3: 512/64 = 8 = 2³ (3). 4: 1 024/512 = 2 (1). 5: 2 048/128 = 16 = 2⁴ (4). O mais antigo é o 2.
+@164 m matematica/progressoes
+s: Tempo médio de estudo de pessoas acima de 14 anos Ano da Pesquisa 1995 1999 2003 2007 Tempo de estudo (em ano) 5,2 5,8 6,4 7,0 => Tempo médio de estudo de pessoas acima de 14 anos (ano da pesquisa: tempo de estudo, em ano): 1995: 5,2; 1999: 5,8; 2003: 6,4; 2007: 7,0.
+x: É uma progressão aritmética: +0,6 ano a cada 4 anos. A meta é 70% de 16 = 11,2 anos. De 7,0 até 11,2 faltam 4,2 = 7 × 0,6, ou seja, 7 períodos de 4 anos = 28 anos. 2007 + 28 = 2035.
+@165 m matematica/numeros-e-operacoes
+s: por 5 × 10−2 mL de água => por 5 × 10⁻² mL de água
+a: 2 × 10¹ | 1 × 10¹ | 2 × 10⁻² | 1 × 10⁻² | 1 × 10⁻³
+x: Falta encher metade do balde: 9 L = 9 000 mL. Por segundo caem 5 × 0,05 = 0,25 mL. Tempo: 9 000 ÷ 0,25 = 36 000 s = 36 000 ÷ 3 600 = 10 h = 1 × 10¹ h.
+@168 m matematica/geometria-espacial
+a: R/2 | 2R | 4R | 5R | 16R
+x: Volumes iguais: πR²·h = πr²·(h/4). Cancelando π e h: R² = r²/4, então r² = 4R² e r = 2R. Se a altura fica 4 vezes menor, o raio precisa dobrar (porque entra ao quadrado).
+@174 m matematica/porcentagem
+e: O quadro representa os gastos mensais, em real, de uma família com internet, mensalidade escolar e mesada do filho. || Quadro: internet: 120; mensalidade escolar: 700; mesada do filho: 400. || No início do ano, a internet e a mensalidade escolar tiveram acréscimos, respectivamente, de 20% e 10%. Necessitando manter o valor da despesa mensal total com os itens citados, a família reduzirá a mesada do filho. || Qual será a porcentagem da redução da mesada?
+x: Total atual: 120 + 700 + 400 = 1 220. Novos valores: internet 144 e mensalidade 770, que somam 914. Para manter 1 220, a mesada cai para 306. Redução: 94 ÷ 400 = 23,5%.
+@175 m matematica/geometria-espacial
+s: 17 cm 4 cm 3 cm 8 cm O número mínimo => O recipiente tem 17 cm de altura e base retangular de 4 cm por 3 cm. || O número mínimo
+x: A base tem 4 × 3 = 12 cm². Para a água subir de 8 cm para 15 cm, é preciso acrescentar 12 × 7 = 84 cm³ de volume submerso. Com bolinhas de 6 cm³: 84 ÷ 6 = 14 bolinhas.
+@139 m matematica/equacoes-e-sistemas
+e: Uma casa de dois andares está sendo projetada. É necessário incluir no projeto a construção de uma escada para o acesso ao segundo andar. Para o cálculo das dimensões dos degraus utilizam-se as regras: || |2h + b − 63,5| ≤ 1,5 e 16 ≤ h ≤ 19, || nas quais h é a altura do degrau (denominada espelho) e b é a profundidade da pisada, como mostra a figura. Por conveniência, escolheu-se a altura do degrau como sendo h = 16. As unidades de h e b estão em centímetro. || Nesse caso, o mais amplo intervalo numérico ao qual a profundidade da pisada (b) deve pertencer, para que as regras sejam satisfeitas é
+a: 30 ≤ b | 30 ≤ b ≤ 31,5 | 30 ≤ b ≤ 33 | 31,5 ≤ b ≤ 33 | b ≤ 33
+x: Com h = 16: |32 + b − 63,5| ≤ 1,5, ou seja, |b − 31,5| ≤ 1,5. Um módulo menor ou igual a 1,5 significa −1,5 ≤ b − 31,5 ≤ 1,5. Somando 31,5: 30 ≤ b ≤ 33.
+@156 d matematica/exponencial-e-logaritmo
+s: Ela é dada por f = A r B . => Ela é dada por f = A/r^B.
+a: Y = log(A) − B·X | Y = log(A)/(X + log(B)) | Y = log(A)/B − X | Y = log(A)/(B·X) | Y = log(A)/X^B
+x: Aplique log dos dois lados de f = A/r^B: log f = log A − log r^B = log A − B·log r. Trocando log f por Y e log r por X: Y = log A − BX, uma reta.
+@172 d matematica/estatistica
+x: Média atual 1,93 × 15 = 28,95 m; meta 1,99 × 15 = 29,85 m (precisa crescer 0,90 m). Saem 1,78 + 1,82 + 1,84 + 1,86 = 7,30 m e entra 2,02 m. Os três novos devem somar pelo menos 29,85 − (28,95 − 7,30 + 2,02) = 6,18 m, ou seja, média de 6,18 ÷ 3 = 2,06 m.
+
+## 10-enem-2020-ciencias-da-natureza.md | 2020 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e equações químicas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Física do dia a dia:** panela de pressão, fones com cancelamento de ruído (interferência), gaiola de Faraday (carro em tempestade), geradores (lei de Faraday) e geladeiras.
+- **Calor:** Q = m·c·ΔT e potência = energia ÷ tempo.
+- **Química:** velocidade das reações (superfície de contato), Le Chatelier, separação de misturas, meia-vida e química ambiental.
+- **Biologia:** evolução dos artrópodes, biotecnologia (transgênicos), genética de populações (Hardy-Weinberg), ecologia (corredores ecológicos, sucessão).
+- **Cuidado com absolutos:** alternativas com "nunca", "sempre" ou "não causam poluição" costumam estar erradas.
+
+@91 f biologia/fisiologia-humana
+x: O estômago é muito ácido. Um revestimento que só se dissolve em pH próximo do neutro protege o remédio do suco gástrico e o libera no intestino.
+@92 f fisica/termologia
+x: Depois que a panela atinge a pressão de trabalho, a válvula mantém a pressão e a temperatura constantes. Fogo alto só faz sair mais vapor, sem cozinhar mais rápido: é consumo de gás desnecessário.
+@93 f quimica/fisico-quimica
+x: Partículas em escala nanométrica têm uma área de superfície enorme em relação ao volume. Mais superfície de contato significa mais colisões entre os reagentes e uma reação mais rápida.
+@94 f fisica/ondulatoria-e-optica
+x: O fone capta o ruído e emite uma onda "invertida" (em oposição de fase). As duas se somam e se anulam: é interferência destrutiva.
+@97 f biologia/saude-e-doencas
+x: A técnica une anticorpos (imunoterapia) a uma molécula ativada pela luz infravermelha (foto). Por isso o nome fotoimunoterapia.
+@98 f biologia/seres-vivos
+s: sistemanervosoganglionarquepromoveacoordenação => sistema nervoso ganglionar que promove a coordenação
+x: O exoesqueleto de quitina é uma "armadura" impermeável que reduz a perda de água. Isso foi decisivo para os aracnídeos viverem em ambiente terrestre seco.
+@99 f quimica/atomistica-e-tabela-periodica
+x: A bomba atômica funciona pela fissão nuclear: nêutrons quebram núcleos de urânio-235 (ou plutônio), liberando mais nêutrons e muita energia, numa reação em cadeia.
+@105 f biologia/seres-vivos
+x: As penas das aves aquáticas têm uma camada de cera (óleo da glândula uropigiana) que as torna impermeáveis e prende ar, ajudando a flutuar. O detergente remove essa camada, que precisa ser refeita.
+@110 f biologia/genetica-e-biotecnologia
+x: A soja recebeu um gene de outra espécie para produzir a cianovirina-N. Um organismo com gene de outra espécie é um transgênico.
+@111 f quimica/quimica-ambiental
+x: Os fogos liberam metais pesados (chumbo, bário, cromo, antimônio) e gases tóxicos (dióxidos de nitrogênio e de enxofre). Isso polui o ar.
+@112 f fisica/eletricidade
+x: A carroceria metálica funciona como uma gaiola de Faraday: as cargas ficam na superfície externa do metal e o campo elétrico no interior é praticamente nulo. Por isso o carro conversível, sem teto metálico, não protege.
+@126 f quimica/quimica-ambiental
+x: A vantagem dos polímeros biodegradáveis é se decomporem pela ação de microrganismos em muito menos tempo do que os plásticos comuns. Dizer que "não poluem" ou "não precisam ser reciclados" é exagero.
+@127 f biologia/ecologia
+x: Corredores ecológicos ligam as ilhas de mata. Os animais podem circular entre os fragmentos, o que aumenta a área disponível e a troca genética entre as populações.
+@95 m quimica/fisico-quimica
+e: Para garantir que produtos eletrônicos estejam armazenados de forma adequada antes da venda, algumas empresas utilizam cartões indicadores de umidade nas embalagens desses produtos. Alguns desses cartões contêm um sal de cobalto que muda de cor em presença de água, de acordo com a equação química: || CoCl₂ (s) + 6 H₂O (g) ⇌ CoCl₂·6H₂O (s)   ΔH < 0 — o CoCl₂ é azul e o CoCl₂·6H₂O é rosa. || Como você procederia para reutilizar, num curto intervalo de tempo, um cartão que já estivesse com a coloração rosa?
+x: A hidratação (formar o sal rosa) é exotérmica (ΔH < 0). Pelo princípio de Le Chatelier, aquecer favorece o sentido endotérmico, que é a perda de água: o cartão volta a ficar azul. O secador de cabelos faz isso rapidamente.
+@100 m biologia/ecologia
+x: As pioneiras cobrem o solo exposto e fazem sombra. Isso reduz a evaporação e as variações bruscas de temperatura, estabilizando a umidade do solo para que outras espécies se instalem.
+@101 m fisica/termologia
+s: utilizamse => utilizam-se
+s: calor específico 4,0 kJ kg−1 K−1 e a densidade 1 kg L−1 . => calor específico 4,0 kJ/(kg·K) e a densidade 1 kg/L.
+x: Em 1 hora, o aquário perde a energia que o aquecedor repõe: 50 W × 3 600 s = 180 000 J = 180 kJ. Com 50 kg de água: ΔT = Q/(m·c) = 180 ÷ (50 × 4,0) = 0,9 °C.
+@103 m quimica/ligacoes-e-funcoes-inorganicas, quimica/quimica-organica
+e: A obtenção de óleos vegetais, de maneira geral, passa pelas etapas descritas no quadro. || Quadro (etapa: subetapa — o que ocorre). Preparação da matéria-prima: seleção dos grãos — separação das sujidades mais grossas; descascamento — separação de polpa e casca; trituração — rompimento dos tecidos e das paredes das células; cozimento — aumento da permeabilidade das membranas celulares. Extração do óleo bruto: prensagem — remoção parcial do óleo; extração — obtenção do óleo bruto com hexano; destilação — separação do óleo e do solvente. || Qual das subetapas do processo é realizada em função apenas da polaridade das substâncias?
+x: Na extração, o hexano, apolar, dissolve o óleo, também apolar ("semelhante dissolve semelhante"). Essa separação depende só da polaridade. A destilação depende da temperatura de ebulição.
+@118 m biologia/saude-e-doencas, fisica/estatica-e-hidrostatica
+s: densidade 1,15 g mL−1 . => densidade 1,15 g/mL.
+s: Parasito Densidade (g mL-1 ) => Tabela (parasito: densidade dos ovos, em g/mL):
+s: Ancylostoma 1,06 Ascaris lumbricoides 1,11 Ascaris suum 1,13 Schistosoma mansoni 1,18 Taenia saginata 1,30 => Ancylostoma: 1,06; Ascaris lumbricoides: 1,11; Ascaris suum: 1,13; Schistosoma mansoni: 1,18; Taenia saginata: 1,30.
+x: Flutua quem tem densidade menor que a da solução (1,15 g/mL): Ancylostoma (1,06), A. lumbricoides (1,11) e A. suum (1,13). Os ovos de S. mansoni e T. saginata são mais densos e afundam.
+@119 m quimica/ligacoes-e-funcoes-inorganicas
+s: Massa específica = 0,9 g cm−3 ; => Massa específica = 0,9 g/cm³;
+x: O acetato de etila é pouco solúvel em água e menos denso (0,9 g/cm³): forma uma camada por cima. Uma mistura heterogênea de dois líquidos se separa por decantação no funil de separação.
+@120 m quimica/quimica-ambiental
+x: O petróleo é apolar (hidrofóbico) e menos denso que a água: forma uma película na superfície que impede a troca de gases (oxigênio) entre a água e o ar.
+@128 m quimica/calculos-fisico-quimicos
+s: (C12 H22 O11 ) => (C₁₂H₂₂O₁₁)
+s: 1, 12 e 16 g mol−1 , respectivamente => 1, 12 e 16 g/mol, respectivamente
+a: 2,50 × 10⁻³ mol/L | 6,25 × 10⁻² mol/L | 1,25 × 10⁻¹ mol/L | 2,50 × 10⁻¹ mol/L | 4,27 × 10⁻¹ mol/L
+x: Massa molar da sacarose: 12·12 + 22·1 + 11·16 = 342 g/mol. 171 g = 0,5 mol em 0,5 L: 1 mol/L. A cada 100 min a concentração cai à metade; 400 min são 4 meias-vidas: 1 ÷ 2⁴ = 0,0625 = 6,25 × 10⁻² mol/L.
+@129 m biologia/ecologia, quimica/quimica-ambiental
+x: O petróleo do pré-sal é carbono que estava preso há milhões de anos. Ao ser extraído e queimado, ele libera CO₂ para a atmosfera, desequilibrando o ciclo do carbono.
+@130 m fisica/eletricidade
+x: Pela lei de Faraday, a tensão induzida depende da rapidez com que o fluxo magnético varia. Se as bobinas giram mais depressa (maior velocidade angular), o fluxo varia mais rápido e a tensão aumenta.
+@109 d fisica/ondulatoria-e-optica
+s: 360 m s-1 . => 360 m/s.
+x: Num tubo fechado de 30 m, as ressonâncias são múltiplos ímpares de f₁ = v/(4L) = 360 ÷ 120 = 3 Hz. 135 Hz = 45 × 3 (harmônico 45). O próximo harmônico possível é o 47: 47 × 3 = 141 Hz.
+@121 d biologia/genetica-e-biotecnologia
+s: frequência de IA ; q = frequência de IB ; e r = frequência de i, espera-se encontrar: => frequência de Iᴬ; q = frequência de Iᴮ; e r = frequência de i, espera-se encontrar:
+s: Grupo Genótipos Frequências A IA IA e IA i p2 + 2pr B IB IB e IB i q2 + 2qr AB IA IB 2pq O ii r2 A porcentagem => Quadro (grupo: genótipos; frequências): A: IᴬIᴬ e Iᴬi; p² + 2pr. B: IᴮIᴮ e Iᴮi; q² + 2qr. AB: IᴬIᴮ; 2pq. O: ii; r². || A porcentagem
+x: Grupo O = r² = 0,25, então r = 0,5. A homozigoto = p² = 0,16, então p = 0,4. Logo q = 1 − 0,4 − 0,5 = 0,1. Quem recebe B pode receber de B e de O: q² + 2qr + r² = 0,01 + 0,10 + 0,25 = 0,36 = 36%.
+@133 d fisica/termologia
+x: A geladeira tira calor de dentro e o libera no condensador, atrás dela. Perto de fontes de calor, o ar em volta do condensador está mais quente, ele troca calor com mais dificuldade, e o compressor precisa trabalhar mais para liquefazer o gás refrigerante.
+@135 d fisica/estatica-e-hidrostatica
+s: Eiﬀel => Eiffel
+s: uma massa Mtorre e exerça na fundação sobre a qual foi erguida uma pressão Ptorre . O modelo construído pelo arquiteto terá uma massa Mmodelo e exercerá uma pressão Pmodelo . => uma massa M(torre) e exerça na fundação sobre a qual foi erguida uma pressão P(torre). O modelo construído pelo arquiteto terá uma massa M(modelo) e exercerá uma pressão P(modelo).
+s: (Ptorre )/(Pmodelo ) ? => P(torre)/P(modelo)?
+a: 10⁰ | 10¹ | 10² | 10⁴ | 10⁶
+x: Pressão = peso ÷ área. Reduzindo as medidas 100 vezes, o volume (e a massa) fica 100³ vezes menor e a área da base, 100² vezes menor. A pressão fica 100³/100² = 100 vezes menor. Razão: 10².

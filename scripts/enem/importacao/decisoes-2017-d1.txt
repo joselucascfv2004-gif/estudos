@@ -1,0 +1,148 @@
+## 23-enem-2017-ciencias-humanas.md | 2017 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2017 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2017 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Sócrates (diálogo e método dialético), Aristóteles (a política organiza a cidade), Bentham (utilitarismo), Rawls (justiça), Habermas (democracia deliberativa).
+- **História geral:** Tombuctu e o comércio no Sahel, Sólon e as Doze Tábuas, lã e cidades medievais, Iluminismo, New Deal, Futurismo e o Holocausto.
+- **História do Brasil:** Lei de Terras (1850), Luiz Gama, propaganda do Estado Novo, queremismo (1945) e a Igreja antes de 1964.
+- **Geografia:** vegetação e infiltração da chuva, lixiviação e acidez do solo, desertificação, desconcentração industrial, logística da soja e refinarias.
+- **Sociologia:** sociedades multiétnicas, desenvolvimento como liberdade (Amartya Sen), judicialização da política e direitos indígenas.
+
+@47 f historia/seculo-xx
+s: atômicas em Hiroshima e => atômicas em Hiroshima e Nagasaki.
+x: Logo antes de 1948, o mundo descobriu o Holocausto: os nazistas, em nome de doutrinas racistas, exterminaram milhões de judeus, eslavos, ciganos e outros grupos. Os estudos da Unesco contra o racismo foram uma resposta direta a esse horror.
+@49 f historia/revolucoes-e-seculo-xix
+x: A Declaração de 1789, inspirada no Iluminismo, afirma que "os homens nascem e permanecem livres e iguais em direitos". O texto liga essa ideia aos direitos humanos de hoje: a base é a igualdade de todos perante a lei (igualdade civil).
+@53 f geografia/geopolitica-e-globalizacao
+s: criaram aAliança => criaram a Aliança
+x: Eliminar tarifas entre os países do bloco barateia o comércio e as cadeias de produção. A ideia da Aliança do Pacífico era integrar as economias para que ficassem mais competitivas, principalmente para vender para fora (como a Ásia, do outro lado do Pacífico).
+@58 f sociologia/temas-contemporaneos
+x: Numa democracia com vários grupos étnicos, é preciso garantir os mesmos direitos a todos (universalização) e, ao mesmo tempo, respeitar as diferenças culturais de cada grupo. As outras opções falam em segregar, padronizar ou reprimir, o contrário da democracia.
+@66 f filosofia/filosofia-antiga-e-medieval
+x: Sócrates conversava com as pessoas fazendo perguntas que mostravam as contradições do que elas pensavam saber, levando-as a refletir sobre si mesmas. Esse jogo de perguntas e respostas para chegar à verdade é o método dialético.
+@69 f geografia/economia-agropecuaria-industria-energia
+x: O texto diz que a refinaria deve ficar perto dos centros de consumo e das áreas de produção. Para isso, precisa de boas vias para receber petróleo (portos, oleodutos) e escoar derivados (rodovias, ferrovias, dutos): proximidade de infraestrutura de circulação.
+@72 f geografia/biomas-e-questoes-ambientais
+x: A perda de produtividade dos solos em áreas semiáridas e subúmidas, causada pela retirada da vegetação e pelo uso excessivo, é a desertificação. No Brasil, ela ameaça partes do Sertão nordestino.
+@75 f geografia/geopolitica-e-globalizacao
+s: Palestinos comemoram elevação de status na ONU com bandeiras e fogos. Disponível em: http://folha.com. Acesso em: 4 dez. 2012 (adaptado). A mencionada => > Palestinos comemoram elevação de status na ONU com bandeiras e fogos. Disponível em: http://folha.com. Acesso em: 4 dez. 2012 (adaptado). || A mencionada
+x: A resolução foi aprovada por 138 dos 193 países: a maioria da comunidade internacional apoiou a reivindicação palestina por um Estado. Mas a Palestina virou só "Estado observador não membro", sem a mesma condição dos demais países e sem fronteiras definidas.
+@78 f historia/brasil-republica
+x: No Estado Novo (1937-1945), o DIP controlava jornais e rádio e fazia propaganda de Vargas. O objetivo era envolver as multidões e conquistar apoio popular para dar legitimidade a um governo que chegou ao poder por um golpe.
+@80 f historia/brasil-imperio
+x: A Lei de Terras de 1850 só permitia obter terra pela compra. Ex-escravizados e imigrantes pobres não tinham dinheiro, e as terras continuaram nas mãos de quem já era rico. A lei reforçou a concentração fundiária, marca do Brasil até hoje.
+@46 m historia/antiguidade-e-idade-media
+x: Tombuctu ficava no encontro de rotas: as caravanas que cruzavam o Saara e o rio Níger. Por ali passavam sal, ouro, livros e pessoas. A posição na rede de circulação de mercadorias e ideias explica sua riqueza e sua importância cultural.
+@48 m filosofia/filosofia-moderna-e-contemporanea
+x: Para o utilitarismo de Bentham, uma ação é certa se produz a maior felicidade para o maior número de pessoas. Em vez de seguir regras fixas ou a vontade de Deus, calculam-se as consequências: é uma racionalidade prática (pragmática).
+@50 m sociologia/temas-contemporaneos
+x: Para os povos indígenas, a terra não é só lugar de morar ou produzir: é onde estão seus antepassados, seus rituais e seu modo de vida. Sem o território, a cultura não sobrevive. Por isso as demarcações são uma reivindicação constante.
+@54 m geografia/geografia-fisica
+s: Tipologia de área % de chuva retida no local escoada Bacias naturais/florestas 80 a 100 0 a 20 Bacias com ocupação agrícola/cultivos 40 a 60 40 a 60 Bacias com ocupação residencial 40 a 50 50 a 60 Bacias com ocupação urbana pesada 0 a 10 90 a 100 => Quadro (tipologia de área: % de chuva retida no local; % escoada): Bacias naturais/florestas: 80 a 100; 0 a 20. Bacias com ocupação agrícola/cultivos: 40 a 60; 40 a 60. Bacias com ocupação residencial: 40 a 50; 50 a 60. Bacias com ocupação urbana pesada: 0 a 10; 90 a 100.
+x: Nas florestas, quase toda a chuva fica retida no local: a vegetação segura a água e o solo a absorve. Essa água infiltra e abastece os lençóis subterrâneos, ou seja, recarrega os aquíferos. Nas cidades, quase tudo escoa, o que causa enchentes.
+@56 m geografia/economia-agropecuaria-industria-energia
+x: Produtos a granel, como a soja, precisam de muito espaço e estrutura para embarque. Construir terminais nos portos (e melhorar os acessos) reduz filas, custos e perdas, o que resolve o gargalo logístico citado no texto.
+@60 m sociologia/temas-contemporaneos
+x: Amartya Sen diz que desenvolvimento não é só aumento do PIB: é ampliar as liberdades das pessoas, com educação, saúde e direitos civis. A concepção liga a garantia da cidadania (direitos) à melhora econômica.
+@61 m geografia/geopolitica-e-globalizacao, historia/seculo-xx
+x: Depois do fim da URSS, os EUA ficaram como única superpotência militar. A Guerra do Golfo (1991) e a guerra no Afeganistão após o 11 de Setembro mostram sua capacidade de agir em qualquer lugar, graças às bases militares espalhadas pelo mundo.
+@62 m historia/seculo-xx
+x: Depois da crise de 1929, o New Deal de Roosevelt pôs o Estado para controlar preços e produção, valorizar salários e fazer obras. A ideia (inspirada em Keynes) era usar a intervenção do Estado para fazer a economia voltar a funcionar e gerar lucros.
+@63 m historia/seculo-xx, artes/artes-e-educacao-fisica
+x: O Futurismo exaltava a velocidade, as máquinas e o futuro, e pregava destruir museus e bibliotecas, símbolos do passado. A ideia, comum às vanguardas do início do século XX, é que a modernidade rompe com a história e a tradição.
+@68 m geografia/biomas-e-questoes-ambientais
+x: Árvores de troncos retorcidos, arbustos ásperos, solos ácidos e cupinzeiros descrevem o Cerrado. Sua vegetação é tropófila (adaptada a uma estação seca e outra chuvosa), em clima tropical. O texto fala da expansão do agronegócio sobre ele.
+@70 m historia/antiguidade-e-idade-media
+x: Na Baixa Idade Média, o comércio voltou a crescer e as cidades (como as de Flandres e da Itália) se desenvolveram, com oficinas de tecidos. Essa demanda urbana por lã estimulou a melhoria dos rebanhos nos campos.
+@73 m geografia/populacao-e-urbanizacao
+x: Desde os anos 1980-1990, indústrias saíram das grandes metrópoles (como São Paulo) em direção a cidades médias e a outras regiões, em busca de incentivos fiscais e mão de obra mais barata. Isso mudou as rotas de migração, que deixaram de ir só para as grandes cidades.
+@76 m historia/brasil-imperio
+s: Getulino. In: || CHALHOUB => Getulino. In: CHALHOUB
+x: Luiz Gama destaca que a mãe era africana, recusou o batismo e a doutrina cristã e se envolveu em planos de insurreição de escravos. Manter a própria religião e lutar contra a escravidão eram formas de resistência cultural.
+@81 m historia/brasil-republica
+s: || A Democracia. 16 set. 1945, apud => || > A Democracia. 16 set. 1945, apud
+s: Ática, 1989. O movimento => Ática, 1989. || O movimento
+x: O queremismo ("queremos Getúlio") defendia, em 1945, que a nova Constituição fosse feita com Vargas ainda no poder ("Constituinte com Getúlio"). O movimento queria a redemocratização, mas sob a influência do governante.
+@84 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Habermas, as decisões são legítimas quando vêm de uma discussão pública ampla, em que os argumentos são debatidos livremente antes da decisão. O debate racional entre cidadãos e Estado permite que mais vozes sejam ouvidas, o que favorece a inclusão.
+@88 m filosofia/filosofia-antiga-e-medieval
+x: Para Aristóteles, o sumo bem do ser humano só se realiza na vida em comunidade. A política é a ciência mais importante ("arquitetônica"): ela decide quais outras ciências a cidade deve ter e quem deve aprendê-las, organizando tudo em vista do bem comum.
+@55 d geografia/geografia-fisica
+x: A lixiviação "lava" o solo e leva embora nutrientes como cálcio, magnésio e potássio. No lugar deles ficam elementos como o alumínio, e o solo fica mais ácido. Por isso os agricultores fazem a calagem (adicionar calcário).
+@64 d filosofia/filosofia-moderna-e-contemporanea
+s: Aindependência => A independência
+x: Rawls descreve uma sociedade em que as pessoas aceitam livremente as mesmas regras de justiça e agem de acordo com elas. Isso retoma o Liberalismo: indivíduos livres e autônomos que, por acordo, se dão as normas que vão seguir.
+@67 d sociologia/temas-contemporaneos
+x: Com tribunais constitucionais, decisões políticas passaram a ser levadas ao Judiciário. No Brasil, o STF julga cada vez mais temas que caberiam ao Congresso (como direitos civis e regras eleitorais): é a judicialização da política.
+@79 d historia/antiguidade-e-idade-media
+x: Em Atenas, Sólon cancelou dívidas e fez leis para conter os grandes proprietários; em Roma, a Lei das Doze Tábuas escreveu as regras, que antes ficavam só na memória dos patrícios. Nos dois casos, leis escritas e válidas para todos reduziram o poder arbitrário dos ricos.
+@83 d historia/ditadura-e-redemocratizacao
+x: Para os bispos, a miséria rural deixava os camponeses vulneráveis ao comunismo. Combater a pobreza com desenvolvimento evitaria essa influência. Por isso, com o medo do comunismo, boa parte da Igreja apoiou o golpe de 1964.
+
+## 24-enem-2017-linguagens.md | 2017 | 1 | 1º dia, caderno azul | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2017 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2017 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Coesão e progressão:** expressões como "longe disso", "em geral" e "tais vantagens" ligam as partes do texto e podem trazer uma ideia nova.
+- **Gêneros:** resenha apresenta e opina sobre uma obra; reportagem compara fatos; peça teatral pode criticar pela sátira.
+- **Variação linguística:** a escolha das palavras muda com a situação de uso; a escrita de um nome pode marcar a identidade de quem fala.
+- **Literatura:** Machado de Assis (A causa secreta), Murilo Mendes e o Modernismo, Leminski, H. Dobal, Milton Hatoum, Saramago e Dias Gomes.
+- **Educação Física:** esporte-participação (lazer, prazer e inclusão) e a ilusão de ascensão social pelo futebol.
+
+@6 f portugues/funcoes-generos-e-variacao
+s: há dois mil anos, diz livro Ao tuitar => há dois mil anos, diz livro || Ao tuitar
+x: O texto compara as mensagens dos romanos (escritas em tábuas e respondidas embaixo, levadas por mensageiros) com as redes sociais. O que se manteve ao longo do tempo foi a troca e o compartilhamento de informações entre as pessoas.
+@15 f portugues/funcoes-generos-e-variacao v
+x: O menino explica que seu sítio se chama "Gerimum" com g porque ali se plantava muito jerimum (abóbora) e o lugar foi registrado assim. Ao defender essa grafia, ele afirma a ligação afetiva com o lugar de onde vem.
+@17 f portugues/interpretacao-de-texto
+s: procurando o equilíbrio Há um medo => procurando o equilíbrio || Há um medo
+x: A autora reconhece os medos de pais e professores, mas conclui que "é uma questão de equilibrar e não de culpar". Com orientação, a internet amplia o conhecimento de mundo dos estudantes.
+@19 f artes/artes-e-educacao-fisica
+x: O texto mostra que muitos jovens largam a escola pelo sonho de ser jogador, e poucos chegam ao profissionalismo. A crítica é à falta de uma formação paralela ao esporte, que os preparasse para outras ocupações caso o sonho não se realize.
+@25 f portugues/funcoes-generos-e-variacao
+x: Na resenha, o autor apresenta o livro e dá sua opinião sobre ele e sobre aquela noite ("que parou o nosso país", "um livro de histórias, pensando bem, de História"). O que predomina são opiniões sobre uma obra que trata da cena musical de 1967.
+@27 f portugues/semantica-e-figuras-de-linguagem
+s: Salvar : no computador => Salvar: no computador
+x: O humorista mostra que palavras de sentido parecido são usadas em lugares diferentes: "gestante" em filas preferenciais, "salvar" no computador, "hortelã" na horta. A diferença está na adequação a cada situação de uso.
+@31 f artes/artes-e-educacao-fisica
+x: O esporte-participação é feito por prazer, ligado ao lazer e aberto a todos. As modalidades adaptadas, que permitem a participação de mais pessoas (inclusive com deficiência), são o melhor exemplo. Olimpíadas e campeonatos oficiais são esporte de rendimento.
+@32 f literatura/pre-modernismo-ao-contemporaneo
+x: Odorico, o prefeito, faz um discurso cheio de palavras inventadas ("agoramente", "botando de lado os entretantos") e promete inaugurar logo um cemitério. A peça ri do político populista e vaidoso: é uma crítica satírica ao comportamento de pessoas públicas.
+@42 f artes/artes-e-educacao-fisica v
+s: O centro comunitário é um fracasso // RACIONAIS MCs. Racionais MCs. São Paulo: Zimbabwue, 1994 (fragmento). // A letra da canção apresenta uma realidade social quanto // à distribuição distinta dos espaços de lazer que => O centro comunitário é um fracasso || > RACIONAIS MCs. Racionais MCs. São Paulo: Zimbabwue, 1994 (fragmento). || A letra da canção apresenta uma realidade social quanto à distribuição distinta dos espaços de lazer que
+x: A letra compara o parque, o clube e a piscina de quem tem dinheiro com a periferia, onde as crianças jogam bola descalças e "não vejo nenhum clube poliesportivo". O lazer existe para todos, mas o acesso é desigual por falta de investimento e infraestrutura.
+@7 m literatura/quinhentismo-ao-simbolismo
+x: Fortunato vê Garcia beijar a esposa morta e percebe que ele a amava. Em vez de ciúme ou raiva, ele "saboreou" a explosão de dor de Garcia, "deliciosamente longa". É o centro do conto: o prazer de Fortunato com o sofrimento dos outros.
+@9 m portugues/funcoes-generos-e-variacao v
+x: O Texto II explica que a cantiga de roda, cantada para as crianças, ensinava que o casamento era o destino natural da mulher e reforçava a obediência ao pai, ao irmão e ao marido. As cantigas orais transmitem e reforçam padrões culturais.
+@13 m literatura/pre-modernismo-ao-contemporaneo v
+x: O poema conta a chegada de Cabral e dos holandeses de forma irreverente: Cabral "pôs as patas" no Brasil e o anjo da guarda dos índios estava passeando em Paris. A primeira fase do Modernismo revisitava a história do Brasil com humor e sem respeito aos heróis (viés iconoclasta).
+@14 m portugues/interpretacao-de-texto
+a: reflexão da sociedade sobre os produtos anunciados. | difusão do pensamento e das preferências das grandes massas. | imposição das ideias e posições de grupos específicos. | decisão consciente do consumidor a respeito de sua compra. | identificação dos interesses do responsável pelo produto divulgado.
+x: O texto diz que a propaganda apresenta posições parciais, de uma minoria, como se fossem a convicção de toda a população, e busca o conformismo pela pressão do grupo. Ou seja, ela impõe ideias de grupos específicos.
+@20 m portugues/interpretacao-de-texto
+x: Ao dizer que Camões e outros "não bastaram para nos dar para sempre uma herança de língua já feita", Clarice reconhece a língua como herança (patrimônio) e, ao mesmo tempo, como algo que continua sendo construído por quem escreve (renovação).
+@22 m portugues/funcoes-generos-e-variacao
+s: não representem uma ameaça linguística. Língua Portuguesa, n. 52, fev. 2010 (adaptado). => não representem uma ameaça linguística. || > Língua Portuguesa, n. 52, fev. 2010 (adaptado).
+s: Riqueza da língua “O inglês => Riqueza da língua || “O inglês
+s: || Veja, n. 36, set. 2007 (adaptado). => || > Veja, n. 36, set. 2007 (adaptado).
+x: Nas aldeias, o ticuna domina e os falantes de outras línguas acabam se submetendo a ele. No mundo, o inglês se espalha como língua global. Em escalas diferentes, as duas línguas predominam sobre as outras com que têm contato.
+@30 m literatura/pre-modernismo-ao-contemporaneo v
+x: Narciso se apaixonou pela própria imagem. O "Contranarciso" faz o oposto: ao olhar para si, vê os outros ("o outro que há em mim é você"). Leminski mostra que nos conhecemos nos colocando no lugar dos outros: a empatia leva ao autoconhecimento.
+@33 m portugues/morfologia-e-sintaxe
+x: A resenha conta o enredo com verbos no presente ("retorna", "descobre"), como se os fatos estivessem acontecendo agora. Isso aproxima o leitor da história e desperta a vontade de ver o filme.
+@39 m portugues/funcoes-generos-e-variacao
+x: O narrador diz que a valsa é "cheia de palavras difíceis, mas bonita". Termos como "fulvos", "circúnvagos" e "liriais" pertencem a uma linguagem rebuscada, de prestígio, bem diferente da fala do narrador ("arretada", "que só a gota serena").
+@44 m portugues/pontuacao-ortografia-acentuacao, literatura/pre-modernismo-ao-contemporaneo
+x: Saramago não usa travessões nem pontos de interrogação nos diálogos: as falas vêm separadas só por vírgulas e maiúsculas. Isso é marca do estilo do autor e, aqui, ajuda a criar a sensação de confusão de um país tomado pela cegueira.
+@10 d portugues/interpretacao-de-texto
+x: O texto fala das moças que elogiavam o paletó por ironia. Depois de "Longe disso", o narrador traz um aspecto novo: não se ofendeu, achou curiosa aquela maneira de falar pelo avesso, diferente das grosserias de costume. As outras expressões retomam ideias já ditas ("a singularidade", "tais vantagens", "os gabos").
+@18 d literatura/pre-modernismo-ao-contemporaneo v
+x: O eu lírico enumera lembranças do lugar: a casa, as árvores, o curral, as vacas, o açude, as cobras, as estrelas, os primos e os cavalos. O lirismo nasce desse inventário afetivo de memórias, e não de um desejo de voltar à infância ou de ressentimento.
+@23 d portugues/funcoes-generos-e-variacao v
+a: "Naturalmente/ Ela sorria/ Mas não me dava trela". | "Tomavam banho/ Na minha frente/ Para sair com outro cara". | "Surgiram outras/ Naturalmente/ Sem nem olhar a minha cara". | "Escolhia qualquer um/ Lançava olhares/ Debaixo do meu nariz". | "É natural que toda atriz/ Presentemente represente/ Muito para mim".
+x: A função emotiva mostra os sentimentos de quem fala. Os outros trechos descrevem o que as atrizes faziam; só o final revela a intensidade da admiração do eu lírico: toda atriz "representa muito para mim", com um jogo de palavras entre "presentemente" e "represente".
+@35 d portugues/interpretacao-de-texto
+s: o bomsenso do mundo => o bom-senso do mundo
+s: linguísticodiscursivos => linguístico-discursivos
+x: O texto fala diretamente com o leitor ("você", "largue tudo", "componha uma cara"). O trecho entre parênteses deixa claro quem é esse interlocutor (alguém "milenarmente cansado") e o puxa para dentro do texto. Explicitar o interlocutor é a estratégia de envolvimento.
+@40 d literatura/pre-modernismo-ao-contemporaneo
+x: Os irmãos do narrador não aceitam que uma índia, antes tratada como escrava, coma à mesa com eles e use os mesmos pratos: sentem "asco e repulsa". Mesmo vivendo na mesma casa, o preconceito de classe e de raça fala mais alto que a convivência.

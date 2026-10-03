@@ -1,0 +1,154 @@
+## 29-enem-2015-matematica.md | 2015 | 2 | 2º dia, caderno amarelo | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2015 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Função quadrática:** o máximo (ou mínimo) fica no vértice, em x = −b ÷ 2a.
+- **MDC:** para dividir em pedaços iguais sem sobra, o tamanho do pedaço precisa dividir todos os comprimentos.
+- **Probabilidade do "pelo menos um":** calcule 1 − P(nenhum).
+- **Mediana:** ordene os dados; com quantidade par, faça a média dos dois do meio.
+- **Escala de volume:** litros, m³ e mm³ se convertem multiplicando por potências de 10 (1 m³ = 1 000 L).
+- **Funções periódicas:** cos vale −1 quando o ângulo é π; use isso para achar mínimos e máximos.
+
+@149 f matematica/probabilidade
+x: Pelo menos um aluno entender = 1 − nenhum entender. Cada um não entende com probabilidade 0,7: 0,7³ = 0,343. Logo, 1 − 0,343 = 0,657 = 65,7%.
+@153 f matematica/numeros-e-operacoes
+a: 4,129 × 10³ | 4,129 × 10⁶ | 4,129 × 10⁹ | 4,129 × 10¹² | 4,129 × 10¹⁵
+x: 4,129 milhões de toneladas = 4,129 × 10⁶ toneladas. Cada tonelada tem 1 000 = 10³ kg: 4,129 × 10⁶ × 10³ = 4,129 × 10⁹ kg.
+@160 f matematica/estatistica
+s: tempos: || Raia 1 2 3 4 5 6 7 8 Tempo (segundo) || 20,90 20,90 20,50 20,80 20,60 20,60 20,90 20,96 A mediana => tempos: || Quadro (raia: tempo em segundos): 1: 20,90. 2: 20,90. 3: 20,50. 4: 20,80. 5: 20,60. 6: 20,60. 7: 20,90. 8: 20,96. || A mediana
+x: Em ordem: 20,50; 20,60; 20,60; 20,80; 20,90; 20,90; 20,90; 20,96. São 8 valores, então a mediana é a média dos dois do meio (4º e 5º): (20,80 + 20,90) ÷ 2 = 20,85.
+@169 f matematica/numeros-e-operacoes
+x: Compare a distância de cada espessura até 3: 3,10 (0,10); 3,021 (0,021); 2,96 (0,04); 2,099 (0,901); 3,07 (0,07). A mais próxima é 3,021 mm.
+@172 f matematica/grandezas-medidas-escalas
+x: Em 10 horas há 20 meias horas: 20 copos × 150 mL = 3 000 mL = 3 L. Duas garrafas iguais somando 3 L: duas de 1,50 L (garrafa IV).
+@173 f matematica/razao-proporcao-regra-de-tres
+s: superfície corporal Massa (kg) Área (m²) || 1,0 0,100 2,0 0,159 3,0 0,208 4,0 0,252 5,0 0,292 => superfície corporal (massa em kg: área em m²): 1,0: 0,100; 2,0: 0,159; 3,0: 0,208; 4,0: 0,252; 5,0: 0,292.
+x: Pelo quadro, um felino de 3,0 kg tem 0,208 m² de superfície. Dose: 250 mg × 0,208 = 52 mg por dia.
+@174 f matematica/grandezas-medidas-escalas
+s: 0,08 m3 de água => 0,08 m³ de água
+x: Consumo: 10 pessoas × 0,08 m³ × 20 dias = 16 m³. Como 1 m³ = 1 000 L, são 16 000 litros.
+@180 f matematica/probabilidade
+a: 1/100 | 19/100 | 20/100 | 21/100 | 80/100
+x: De 1 a 20 há 20 senhas favoráveis em 100 possíveis: 20/100 (ou seja, 1/5 = 20%).
+@136 m matematica/funcoes-afim-e-quadratica
+s: T(h) = − h2 + 22h − 85 => T(h) = −h² + 22h − 85
+s: Intervalos de temperatura (°C) || Classificação T < 0 Muito baixa 0 < T < 17 Baixa 17 < T < 30 Média 30 < T < 43 Alta T > 43 Muito alta Quando => Quadro (intervalo de temperatura em °C: classificação): T < 0: muito baixa. 0 < T < 17: baixa. 17 < T < 30: média. 30 < T < 43: alta. T > 43: muito alta. || Quando
+x: A temperatura máxima ocorre no vértice: h = −22 ÷ (2 × (−1)) = 11. T(11) = −121 + 242 − 85 = 36 °C, que está entre 30 e 43: alta.
+@140 m matematica/geometria-plana
+s: aproximação para √3 . => aproximação para √3.
+x: O tampo deve cobrir o triângulo equilátero de lado 30 cm, ou seja, o círculo precisa passar pelos três vértices (circunscrito). Raio = lado ÷ √3 = 30 ÷ 1,7 ≈ 17,6 cm. O menor tampo que serve tem raio 18 cm.
+@146 m matematica/numeros-e-operacoes
+x: O tamanho da peça deve dividir 540, 810 e 1 080. O MDC é 270, mas precisa ser menor que 200 cm: o maior divisor comum abaixo de 200 é 135 cm. Peças: 40 × 4 + 30 × 6 + 10 × 8 = 160 + 180 + 80 = 420.
+@152 m matematica-financeira/descontos-e-amortizacao
+x: A dívida cai R$ 500 a cada mês (sistema de amortização constante). Antes da 10ª prestação já foram pagas 9: saldo = 180 000 − 9 × 500 = 175 500. Juros de 1%: 1 755. Prestação: 500 + 1 755 = R$ 2 255,00.
+@156 m matematica/geometria-espacial
+x: O cubo tem 6 faces, que continuam existindo (agora como octógonos). Cada um dos 8 cantos cortados cria uma face triangular nova. Total: 6 + 8 = 14 faces, logo 14 cores.
+@159 m matematica/exponencial-e-logaritmo
+a: P(t) = 0,5 · t⁻¹ + 8 000 | P(t) = 50 · t⁻¹ + 8 000 | P(t) = 4 000 · t⁻¹ + 8 000 | P(t) = 8 000 · (0,5)ᵗ⁻¹ | P(t) = 8 000 · (1,5)ᵗ⁻¹
+x: Crescer 50% ao ano é multiplicar por 1,5 a cada ano. No ano 1, P = 8 000; no ano 2, 8 000 × 1,5; no ano 3, 8 000 × 1,5². No ano t: P(t) = 8 000 · (1,5)ᵗ⁻¹.
+@162 m matematica/numeros-e-operacoes
+x: Para usar o menor número de escolas, cada escola deve receber o maior número possível de ingressos que divida 400 e 320: MDC(400, 320) = 80. Escolas: 400 ÷ 80 + 320 ÷ 80 = 5 + 4 = 9.
+@163 m matematica/geometria-espacial
+s: comportar 81 m3 de água => comportar 81 m³ de água
+x: Volume do cilindro = π r² h: 81 = 3 × r² × 3, então r² = 9 e r = 3 m. A cisterna atual tem raio 1 m (diâmetro 2 m). Aumento: 3 − 1 = 2 m.
+@166 m matematica/estatistica
+s: Candidato Média nas quatro primeiras etapas Pontuação na quinta etapa A 90 60 B 85 85 C 80 95 D 60 90 E 60 100 A ordem => Quadro (candidato: média nas quatro primeiras etapas; pontuação na quinta etapa): A: 90; 60. B: 85; 85. C: 80; 95. D: 60; 90. E: 60; 100. || A ordem
+x: Média final = (4 × média das quatro + quinta) ÷ 5. A: (360 + 60) ÷ 5 = 84. B: (340 + 85) ÷ 5 = 85. C: (320 + 95) ÷ 5 = 83. D: (240 + 90) ÷ 5 = 66. E: (240 + 100) ÷ 5 = 68. Ordem: B, A, C, E, D.
+@175 m matematica/probabilidade
+x: Modo I: 3 sorteados entre 200 atletas: 3/200. Modo II: a equipe dele com chance 1/20 e depois 3 em 10: 1/20 × 3/10 = 3/200. Modo III: a equipe dele entre as 3 sorteadas (3/20) e ele sorteado nela (1/10): 3/200. As três são iguais.
+@179 m matematica/geometria-espacial, matematica/porcentagem
+s: volume de 1 000 cm3 e => volume de 1 000 cm³ e
+x: A embalagem tem 20 × 10 × 10 = 2 000 cm³. O chocolate cresce 25%: 1 000 × 1,25 = 1 250 cm³. Sobram 750 cm³ para o morango já congelado. Como ele também cresce 25%, a mistura líquida deve ter 750 ÷ 1,25 = 600 cm³.
+@154 d matematica/razao-proporcao-regra-de-tres
+e: A expressão “Fórmula de Young” é utilizada para calcular a dose infantil de um medicamento, dada a dose do adulto: || dose de criança = [idade da criança (em anos) ÷ (idade da criança (em anos) + 12)] · dose do adulto || Uma enfermeira deve administrar um medicamento X a uma criança inconsciente, cuja dosagem de adulto é de 60 mg. A enfermeira não consegue descobrir onde está registrada a idade da criança no prontuário, mas identifica que, algumas horas antes, foi administrada a ela uma dose de 14 mg de um medicamento Y, cuja dosagem de adulto é 42 mg. Sabe-se que a dose da medicação Y administrada à criança estava correta. || Então, a enfermeira deverá ministrar uma dosagem do medicamento X, em miligramas, igual a
+x: Pelo medicamento Y: 14 = [i ÷ (i + 12)] × 42, então i ÷ (i + 12) = 1/3 e 3i = i + 12, logo i = 6 anos. Para X: [6 ÷ 18] × 60 = 20 mg.
+@155 d matematica/porcentagem, matematica/estatistica
+s: 2011(adaptado) => 2011 (adaptado)
+a: 240,40 | 548,11 | 1 723,67 | 4 026,70 | 5 216,68
+x: Os 10% mais pobres ficam com 1,1% da renda total, então a renda média deles é 1,1/10 = 0,11 vez a média geral: 0,11 × 1 202 = 132,22. Os 10% mais ricos ficam com 44,5%: 4,45 × 1 202 = 5 348,90. Diferença: 5 348,90 − 132,22 = 5 216,68.
+@157 d matematica/funcoes-afim-e-quadratica
+x: A arrecadação é p · q = p(400 − 100p) e não pode ser menor que 300: −100p² + 400p ≥ 300, ou p² − 4p + 3 ≤ 0, o que dá 1 ≤ p ≤ 3. Para vender o máximo (q maior), o preço deve ser o menor possível: p = R$ 1,00, que está entre 0,50 e 1,50.
+@158 d matematica/probabilidade
+x: Seja v a fração vacinada. Não vacinadas adoecem com chance 0,5; vacinadas, com 0,5 × 0,02 = 0,01. P = 0,5(1 − v) + 0,01v = 0,5 − 0,49v ≤ 0,059. Então 0,49v ≥ 0,441 e v ≥ 0,9. A menor cobertura que atinge a meta é 90%.
+@167 d matematica/geometria-espacial, matematica/grandezas-medidas-escalas
+x: Água na lata: um terço da altura, 400 mm, com raio 300 mm: V = 3 × 300² × 400 = 108 000 000 mm³ = 0,108 m³. Espalhada sobre 1 m² de base, essa água teria altura 0,108 m = 108 mm.
+@176 d matematica/trigonometria
+s: pela função P(x) = 8 + 5cos (px - p ) || , onde x => pela função P(x) = 8 + 5cos((πx − π)/6), onde x
+x: Na safra, a produção é máxima e o preço é mínimo. O mínimo de P ocorre quando o cosseno vale −1, ou seja, (πx − π)/6 = π. Então πx − π = 6π e x = 7: julho.
+
+## 30-enem-2015-linguagens.md | 2015 | 2 | 2º dia, caderno amarelo | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2015 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (2º dia, caderno 5, amarelo), publicada pelo INEP. Em 2015, Linguagens foi aplicada no 2º dia, junto com Matemática. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Funções da linguagem:** conativa (fala com o leitor, dá ordens), referencial (informa), emotiva (mostra sentimentos).
+- **Variação linguística:** regras regionais (o "l" virando "r" em "sorto", "tarvez"), gírias e expressões populares, e preconceito que faz palavras sumirem.
+- **Gêneros:** texto de divulgação, biografia, relatório oficial, guia de instruções, canção em forma de carta.
+- **Literatura:** O Ateneu (Raul Pompeia), Olavo Bilac e o nacionalismo, Cecília Meireles, José Paulo Paes, Cacaso e a ditadura, Manuel Bandeira.
+- **Artes e corpo:** hip hop e break, performance (Marina Abramovic), arte indígena e obesidade como questão de saúde.
+
+@96 f artes/artes-e-educacao-fisica
+x: O break nasceu nas ruas, nos guetos de Nova York, junto com o rap e o grafite. Seus movimentos são improvisados e acrobáticos e expressam o ritmo agitado da vida nas grandes cidades.
+@99 f portugues/funcoes-generos-e-variacao
+s: não deve jogar na privada Nem no ralo. => não deve jogar na privada || Nem no ralo.
+x: Além de falar com o leitor ("jogue esses produtos no lixo"), o texto informa: diz que esses produtos poluem rios e entopem canos e onde descartá-los corretamente. A função referencial é transmitir essas informações objetivas.
+@100 f portugues/funcoes-generos-e-variacao
+s: descartados adequadamente Todos os meses => descartados adequadamente || Todos os meses
+x: O texto mostra os problemas do lixo nas rodovias (enchentes, incêndios, acidentes) e o desperdício de material reciclável. Seu objetivo é conscientizar o leitor sobre a preservação ambiental e a segurança nas estradas.
+@104 f portugues/funcoes-generos-e-variacao
+s: superdimensionado:aáguaquecompõe70%doseucorpo aqueceria. => superdimensionado: a água que compõe 70% do seu corpo aqueceria.
+x: O texto responde à curiosidade explicando como funcionam as micro-ondas (fazem vibrar as moléculas de água), por que a formiga sobrevive e o que acontece com os humanos. O objetivo é informar sobre as ondas eletromagnéticas e seu uso.
+@115 f portugues/funcoes-generos-e-variacao v
+s: religiões afro- brasileiras => religiões afro-brasileiras
+x: A letra mistura português com palavras em iorubá e cita orixás e terreiros. Isso mostra como a cultura africana trazida pelos escravizados continua viva na música brasileira, como no samba de Pixinguinha.
+@125 f portugues/interpretacao-de-texto
+s: Projeto literário publica poemas em sacos de pão na capital mineira Se a literatura => Projeto literário publica poemas em sacos de pão na capital mineira || Se a literatura
+s: || Língua Portuguesa, n. 71, set. 2011. => || > Língua Portuguesa, n. 71, set. 2011.
+x: Ao imprimir poemas em sacos de pão, o projeto leva literatura a pessoas que talvez não comprassem livros, no meio do café da manhã. A inovação está em levar a poesia a públicos diversos, no dia a dia.
+@126 f portugues/interpretacao-de-texto
+x: "Itaorna", em tupinambá, quer dizer "pedra podre": o nome já avisava que o solo era instável. Se os engenheiros conhecessem e valorizassem o saber guardado nas línguas indígenas, o acidente poderia ter sido previsto.
+@128 f artes/artes-e-educacao-fisica
+x: O texto chama a obesidade de epidemia, cita a mortalidade maior entre obesos e diz que o excesso de peso "desencadeia e piora problemas de saúde". O foco é o quadro clínico: a obesidade é fator de risco para várias doenças.
+@129 f portugues/funcoes-generos-e-variacao
+s: Guia da língua 2010: modelos e técnicas. Língua Portuguesa, 2010 (adaptado). O texto => > Guia da língua 2010: modelos e técnicas. Língua Portuguesa, 2010 (adaptado). || O texto
+s: Assunto: Currículo para a vaga de gerente de marketing Mensagem: => Assunto: Currículo para a vaga de gerente de marketing // Mensagem:
+x: O texto ensina o leitor a enviar o currículo por e-mail do jeito certo: saber quem vai receber, escrever uma apresentação curta e seguir o modelo sugerido. A função é instruir sobre como ser eficiente nesse envio.
+@103 m portugues/morfologia-e-sintaxe
+x: Bandeira organiza as lembranças com tempos verbais diferentes: pretérito perfeito para os fatos ("embarquei", "escolhi"), mais-que-perfeito para o que veio antes ("falara", "passara", "estivera") e de novo o perfeito para o fim ("fiquei"). Essa alternância ordena os acontecimentos.
+@106 m portugues/funcoes-generos-e-variacao
+x: Sem escrita, os povos indígenas guardam suas histórias, verdadeiras ou de ficção, pela tradição oral: contam e recontam de geração em geração. A oralidade preservou e transmitiu os saberes e a memória cultural desses povos.
+@107 m portugues/funcoes-generos-e-variacao v
+x: Em "tarvez" (talvez) e "sorto" (solto), a mesma regra troca o "l" no fim da sílaba por "r" (rotacismo), comum no falar caipira e nordestino. Nas outras opções, as palavras seguem regras diferentes entre si.
+@108 m portugues/funcoes-generos-e-variacao
+x: Um relatório oficial deveria ser objetivo e impessoal. Graciliano usa ironia e humor ("porque o deputado F. esticou a canela – um telegrama"), mostrando sua opinião e emoção: uma linguagem subjetiva, fora do padrão do gênero.
+@112 m portugues/funcoes-generos-e-variacao
+x: O texto conta a vida de Jota Barros com datas e fatos (nascimento, profissões, mudança para São Paulo) e destaca sua obra de cordelista. É o relato da trajetória em perspectiva histórica, valorizando seu percurso artístico.
+@113 m literatura/quinhentismo-ao-simbolismo v
+x: O poema exalta a terra brasileira e diz que quem trabalha nela "vê pago o seu esforço, e é feliz, e enriquece". A prosperidade aparece como fruto da terra generosa e do esforço de cada um, sem depender de políticas de governo, ideia que servia ao nacionalismo da Primeira República.
+@117 m artes/artes-e-educacao-fisica
+x: O texto diz que a arte dos colonizadores e a dos povos indígenas são equivalentes porque resultam de "impulsos humanos comuns". Ambas nascem da mesma base humana, ou seja, de uma base antropológica comum.
+@118 m artes/artes-e-educacao-fisica
+x: Na performance, a artista não faz nada sozinha: a obra acontece no encontro do olhar com cada visitante. O sentido é construído junto, numa negociação entre a artista e quem participa.
+@121 m portugues/interpretacao-de-texto
+x: O texto diz que a sociedade da informação torna a informação e o conhecimento elementos estratégicos na economia, na política e na cultura, mudando várias dimensões da vida. A informação passa a ser usada intensamente em todos os setores.
+@122 m portugues/funcoes-generos-e-variacao
+s: língua.Seexisteumlimitedeespaço,naturalmente,osujeito => língua. Se existe um limite de espaço, naturalmente, o sujeito
+x: O texto defende que escrever com abreviações na internet não é "escrever errado": a linguagem se adapta ao suporte e ao contexto. Cabe à escola ajudar o aluno a perceber essas diferenças e usar cada registro na situação certa.
+@124 m portugues/funcoes-generos-e-variacao
+x: O autor diz que o principal motivo para uma palavra sumir é associá-la a um grupo com o qual não queremos ser identificados. "Pinchar" é ligada ao ambiente rural e pouco escolarizado: o abandono vem de preconceito sociocultural.
+@131 m portugues/funcoes-generos-e-variacao v
+x: A letra usa expressões populares do dia a dia, como "meu dia voa", "esbanja suas horas ao vento" e "vou penar", que deixam o texto próximo de uma conversa e marcam a variedade coloquial.
+@132 m literatura/pre-modernismo-ao-contemporaneo v
+x: Como numa carta, o eu poético se dirige ao amigo ("você", "meu amigo", o endereço no início), lembra o passado feliz de Ipanema e comenta como a cidade mudou. É uma troca de notícias em tom de saudade.
+@111 d literatura/quinhentismo-ao-simbolismo
+s: ofereciase => oferecia-se
+x: O narrador compara o diretor a um comerciante que reforma a loja para vender mais, fala de propaganda, anúncios e livros "fabricados às pressas" para espalhar o nome de Aristarco. A escola aparece como negócio, ligada à vaidade do diretor.
+@123 d literatura/pre-modernismo-ao-contemporaneo v
+s: Areflexão => A reflexão
+x: A garrafa ensina a "conter": como a palavra no poema, ela é contida, trabalhada pela forma, até explodir em "diamantes". O poema fala do fazer poético como contenção, amadurecimento e transformação da palavra.
+@127 d portugues/funcoes-generos-e-variacao
+s: uma dupla imbatível Rico em gorduras => uma dupla imbatível || Rico em gorduras
+s: livra o coração de entraves Ninguém => livra o coração de entraves || Ninguém
+s: reduzse => reduz-se
+x: "Por trás de encrencas" é informal; "causadora de problemas" diz a mesma coisa de forma mais formal. Nas outras trocas, uma expressão informal vira outra também informal ("quebrar a cabeça", "é um show") ou o sentido muda ("juntinhos" não é "misturadinhos").
+@130 d literatura/pre-modernismo-ao-contemporaneo v
+x: O eu lírico diz que "morremos" e nos renovamos todos os dias no amor, na tristeza, na dúvida e no desejo, e que, ao perder o medo de morrer, "serás eterno". A capacidade de sentir é o que eleva e transforma o ser humano: uma sublimação espiritual.
+@133 d literatura/pre-modernismo-ao-contemporaneo v
+x: O "corpo no cavalete" torturado deixa um sangue que se decompõe nas cores da bandeira (verde, amarelo, azul, branco), terminando com "o negro o negro". A bandeira, símbolo nacional, aparece manchada pela violência e pelo medo da ditadura.

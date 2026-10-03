@@ -1,0 +1,158 @@
+## 31-enem-2015-ciencias-humanas.md | 2015 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2015 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2015, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Trasímaco (justiça como convenção), Tomás de Aquino (monarquia e bem comum), Hobbes (guerra de todos contra todos), Paulo Freire (pensamento crítico) e Beauvoir.
+- **Sociologia:** Weber (desencantamento do mundo), Sérgio Buarque (personalismo), alteridade, princípio da precaução e movimentos sociais.
+- **História:** sociedade das três ordens, intelectuais e cidades medievais, Canudos, Abolição, Justiça Eleitoral (1932), Estado Novo, África na Segunda Guerra.
+- **Geografia:** crise de 2008, desconcentração urbana, movimentos de massa, veredas do Cerrado, agricultura de precisão e globalização (Milton Santos).
+
+@2 f historia/revolucoes-e-seculo-xix
+x: Com a luz artificial, a noite deixou de separar trabalho e descanso: "todas as partes do dia podem ser aproveitadas produtivamente". A consequência foi o aumento do tempo disponível para trabalhar, com turnos noturnos e jornadas mais longas.
+@6 f historia/brasil-colonia
+x: Gândavo conclui, a partir da língua, que os indígenas não têm "Fé, nem Lei, nem Rei" e vivem "desordenadamente". Ele julga os povos nativos com os valores europeus, sem compreender a cultura deles.
+@8 f geografia/geopolitica-e-globalizacao
+x: A crise começou nos financiamentos de casas nos EUA, mas os títulos ligados a essas dívidas estavam espalhados por bancos do mundo inteiro. Como as economias estão interligadas, o problema se espalhou e virou uma crise global.
+@18 f historia/brasil-republica
+a: Implementou o voto direto para presidente. | Combateu as fraudes sistemáticas nas apurações. | Alterou as regras para as candidaturas na ditadura. | Impulsionou as denúncias de corrupção administrativa. | Expandiu a participação com o fim do critério censitário.
+x: Na Primeira República, as eleições eram marcadas por fraudes (voto de cabresto, atas falsas). A Justiça Eleitoral, criada em 1932, passou a organizar e fiscalizar as eleições por um órgão independente dos governantes, combatendo essas fraudes.
+@21 f geografia/geopolitica-e-globalizacao
+x: Depois das denúncias de espionagem americana, países como Alemanha e China passaram a evitar aplicativos e equipamentos dos EUA. A preocupação é com a segurança dos dados de governos, empresas e cidadãos.
+@26 f filosofia/filosofia-moderna-e-contemporanea
+x: Para Hobbes, como os homens são praticamente iguais em força e inteligência, todos se sentem com direito às mesmas coisas. No estado de natureza, sem um poder comum, dois homens que desejam o mesmo objeto se tornam inimigos e entram em conflito.
+@29 f geografia/economia-agropecuaria-industria-energia
+x: As técnicas da informação permitiram automatizar a produção (robôs, computadores). No setor produtivo, isso significou fábricas automatizadas; no mundo do trabalho, a substituição de pessoas por máquinas e o aumento do desemprego.
+@33 f geografia/economia-agropecuaria-industria-energia
+x: A estação meteorológica e o sistema na internet permitem acompanhar a umidade do solo e a necessidade de água de cada cultura, em vez de "cavoucar com a botina". É o monitoramento da produção com tecnologia (agricultura de precisão).
+@42 f sociologia/temas-contemporaneos
+x: "Ninguém nasce mulher: torna-se mulher" afirma que os papéis femininos são construídos pela sociedade, não pela biologia. Essa ideia inspirou o movimento feminista dos anos 1960, com protestos públicos pela igualdade de gênero.
+@44 f geografia/geopolitica-e-globalizacao
+s: || Unesco e especialistas condenam destruição de cidade assíria pelo Estado Islâmico. || Disponível em: => || > Unesco e especialistas condenam destruição de cidade assíria pelo Estado Islâmico. Disponível em:
+x: Nimrod era um sítio arqueológico da antiga Assíria, considerado berço da civilização. Destruí-lo apaga parte da história e da memória dos povos da região: é um ataque ao patrimônio histórico.
+@3 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Paulo Freire, o ser humano supera a acomodação por meio de uma "permanente atitude crítica", apreendendo os temas de sua época. Ou seja, pelo desenvolvimento de um pensamento autônomo, que lê a realidade e age sobre ela.
+@5 m historia/antiguidade-e-idade-media
+x: A ideia das três ordens (os que rezam, os que lutam e os que trabalham) apresentava a desigualdade como vontade de Deus, justificando a dominação do clero e da nobreza sobre os camponeses. As revoltas camponesas foram uma reação contra essa ordem.
+@7 m geografia/geopolitica-e-globalizacao
+x: O texto diz que o mercado é um instrumento do capitalismo e está "levando a uma polarização da sociedade chinesa", ou seja, aumentando a desigualdade. Isso vai contra o objetivo central do socialismo: acabar com as classes sociais.
+@9 m historia/seculo-xx
+x: O poeta angolano se une aos negros do Harlem, de Chicago, do sul dos EUA e da África, chamando-os de "irmãos". O pan-africanismo buscava unir os negros de todo o mundo nas lutas contra o racismo e o colonialismo.
+@12 m geografia/populacao-e-urbanizacao
+x: As grandes metrópoles crescem mais devagar porque muitas indústrias se mudaram para cidades médias e outras regiões (em busca de incentivos e custos menores). Com os empregos, a população também passou a se espalhar.
+@13 m filosofia/filosofia-antiga-e-medieval
+x: Para Trasímaco, as noções de certo e errado não são verdades naturais: são regras inventadas pelas pessoas e ensinadas pela sociedade. A justiça é uma convenção que serve a interesses humanos (para ele, o interesse do mais forte).
+@14 m sociologia/sociologia-classica
+x: Sérgio Buarque mostra uma sociedade "personalista", em que os laços pessoais e familiares valem mais que regras impessoais e cooperação. Na vida pública, isso faz os interesses privados prevalecerem sobre o interesse coletivo.
+@17 m filosofia/filosofia-antiga-e-medieval
+x: Como o navio precisa de um piloto para chegar ao porto, a sociedade precisa de um dirigente que leve todos ao mesmo fim. Para Tomás de Aquino, o rei unifica a sociedade em busca do bem comum.
+@20 m historia/brasil-republica
+s: dividi-lo! Discurso do Ministro => dividi-lo! || > Discurso do Ministro
+x: No Estado Novo, Vargas queimou as bandeiras estaduais para afirmar uma só nação, com o poder concentrado no governo federal. Era uma prática autoritária para conter os interesses regionais, que tinham muita força na Primeira República.
+@22 m historia/brasil-republica
+x: Euclides da Cunha descreve a resistência dos últimos defensores de Canudos como heroica ("Canudos não se rendeu"). Soares os chama de "fanáticos" e fala em "banditismo e fanatismo". Um vê bravura; o outro, loucura.
+@24 m historia/seculo-xx
+x: Para os africanos, o nazifascismo era ainda pior que o colonialismo das potências aliadas: defendia a superioridade racial (determinismo biológico) e a submissão dos povos considerados inferiores. Por isso lutaram contra ele.
+@25 m historia/ditadura-e-redemocratizacao
+x: O texto diz que os movimentos sociais foram além da volta das eleições: criaram novas formas de diálogo entre a população e o Estado. A democracia passou a ser vivida no dia a dia, não só no momento do voto.
+@35 m sociologia/temas-contemporaneos
+x: O autor pede que imaginemos a mesma carta escrita por uma menina afegã sobre o pai talibã: provavelmente veríamos fanatismo, não patriotismo. O desafio é se colocar no lugar do outro, ou seja, exercitar a alteridade.
+@37 m historia/antiguidade-e-idade-media
+x: Le Goff mostra que o intelectual medieval surgiu nas cidades, junto com o comércio e o artesanato, como mais um "homem de ofício". O surgimento dessa categoria mostra a ligação entre o crescimento urbano e a divisão do trabalho.
+@40 m sociologia/sociologia-classica
+x: Para Weber, a modernidade substitui explicações mágicas e religiosas pela crença de que tudo pode ser dominado pelo cálculo e pela razão. Esse "desencantamento do mundo" é o afastamento das crenças tradicionais, típico da modernidade.
+@41 m sociologia/temas-contemporaneos
+x: O princípio da precaução nasceu da sociedade civil para que novas tecnologias (como transgênicos) sejam avaliadas antes de liberadas. O objetivo é levar ao debate público os riscos e consequências das mudanças tecnológicas.
+@45 m geografia/biomas-e-questoes-ambientais
+x: O texto descreve a preservação ambiental como "intocabilidade da natureza", que impede o uso econômico "sob qualquer justificativa". É a proibição permanente da exploração, diferente da conservação ou do desenvolvimento sustentável.
+@23 d historia/brasil-imperio
+x: O Texto II mostra que, antes de 1888, muitos negros já eram livres e nem se distinguiam dos escravizados nas ruas do Rio. O Texto I acrescenta que, mesmo libertando poucas pessoas, a lei de 1888 teve enorme importância: acabou com a legitimidade de se possuir pessoas. É o significado político da Abolição.
+@30 d geografia/geografia-fisica
+x: Deslizamentos acontecem quando a água da chuva encharca o solo, que fica pesado e perde a firmeza na encosta. Onde há boa drenagem, a água escoa sem saturar o terreno, e os movimentos de massa ficam menos prováveis.
+@32 d geografia/biomas-e-questoes-ambientais
+x: As veredas são áreas úmidas, com buritis, onde o lençol de água aflora. Elas acumulam a água que se infiltra nas chapadas e a liberam aos poucos para os rios, funcionando como uma "caixa-d'água" que represa a água.
+
+## 32-enem-2015-ciencias-da-natureza.md | 2015 | 1 | 1º dia, caderno azul | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2015 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2015, Ciências da Natureza foi aplicada no 1º dia, junto com Ciências Humanas. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Química:** equilíbrio e pressão parcial, constantes de equilíbrio combinadas, estequiometria com pureza e rendimento, óxidos ácidos, pilhas (quem tem maior E° se reduz).
+- **Física:** energia cinética, mistura de águas (média ponderada), timbre, refração, fissão em cadeia e calor específico.
+- **Biologia:** fluxo gênico, microquimerismo, expressão gênica, vacinas e variabilidade do vírus, insulina transgênica e esquistossomose.
+- **Corpo humano:** hipóxia na altitude, urina concentrada na desidratação e primeiros socorros em queimaduras.
+
+@47 f biologia/ecologia, quimica/quimica-ambiental
+x: Águas escuras deixam passar menos luz. Sem luz, as algas e plantas aquáticas fazem menos fotossíntese, e a produção de oxigênio cai. Esse é o primeiro efeito, que depois prejudica todo o ecossistema.
+@58 f quimica/fisico-quimica
+x: O estanho protege o aço (ferro) da corrosão. Se a lata amassa, essa camada pode se romper e expor o ferro, que enferruja e pode alterar o alimento. Por isso não se deve comprar lata amassada.
+@61 f biologia/ecologia
+x: Os animais não conseguem usar o N₂ do ar. Eles obtêm nitrogênio comendo matéria orgânica (proteínas, ácidos nucleicos) de plantas ou de outros animais, ou seja, pela transferência ao longo das cadeias alimentares.
+@67 f biologia/fisiologia-humana
+x: Com sede e sem beber água, o corpo libera mais ADH e os rins reabsorvem mais água. A urina sai em menor volume e mais concentrada, com mais sais e ureia por litro.
+@74 f biologia/genetica-e-biotecnologia
+x: Boyer inseriu nas bactérias o gene da insulina humana, isto é, a sequência de DNA que codifica essa proteína. Com esse gene, a bactéria passa a produzir insulina como se fosse uma proteína dela.
+@78 f biologia/saude-e-doencas
+x: Bolhas (flictenas) não devem ser furadas, nem cobertas com gelo, manteiga ou pasta de dente, que agravam a lesão ou causam infecção. O certo é proteger a região com gaze úmida limpa, evitando o ressecamento, e levar a pessoa ao hospital.
+@79 f fisica/termologia
+x: O fluido precisa absorver muito calor do motor sem esquentar demais. Isso exige alto calor específico: muita energia para elevar pouco a temperatura (como a água).
+@83 f biologia/seres-vivos
+x: A pele dos anfíbios é fina e muito permeável: perde água com facilidade e também participa da respiração. Por isso eles precisam viver em lugares úmidos. A reprodução, com ovos sem casca na água, também os prende a esses ambientes.
+@86 f fisica/ondulatoria-e-optica
+x: A mesma nota tem a mesma frequência (altura). O que diferencia a flauta do piano é o timbre: a forma da onda sonora, formada pela combinação de frequências que cada instrumento produz.
+@87 f biologia/genetica-e-biotecnologia
+x: Todas as células do corpo têm o mesmo DNA. Elas se diferenciam porque cada tipo ativa (expressa) genes diferentes: o neurônio usa uns genes, a hemácia, outros.
+@89 f biologia/saude-e-doencas
+x: Moluscicida mata caramujos. O caramujo Biomphalaria é o hospedeiro intermediário do Schistosoma mansoni, causador da esquistossomose. Controlar o caramujo na água ajuda a controlar a doença.
+@46 m quimica/fisico-quimica, biologia/fisiologia-humana
+s: oxigênio (O2 ) => oxigênio (O₂)
+s: (HbO2 ) em equilíbrio => (HbO₂) em equilíbrio
+s: Hb (aq) + O2 (aq) HbO2 (aq) => Hb (aq) + O₂ (aq) ⇌ HbO₂ (aq)
+s: Mal da montanha. Disponível em: www.feng.pucrs.br. Acesso em: 11 fev. 2015 (adaptado). A alteração => > Mal da montanha. Disponível em: www.feng.pucrs.br. Acesso em: 11 fev. 2015 (adaptado). || A alteração
+x: Em grandes altitudes, o ar é mais rarefeito e a pressão parcial do oxigênio é menor. Com menos O₂, o equilíbrio Hb + O₂ ⇌ HbO₂ se desloca para a esquerda, e a concentração de hemoglobina oxigenada diminui.
+@51 m quimica/solucoes
+x: O LCC se junta ao petróleo e forma agregados (flocos): é a floculação. Depois, as nanopartículas magnéticas misturadas ao LCC permitem puxar esses agregados com um ímã: separação magnética.
+@52 m quimica/ligacoes-e-funcoes-inorganicas
+s: impurezas.Asoda => impurezas. A soda
+x: O hidróxido de sódio é higroscópico: absorve a umidade do ar com facilidade e se dissolve nela, formando uma pasta que parece "derretida". Não é fusão, porque a temperatura ambiente é muito menor que o ponto de fusão do NaOH.
+@54 m biologia/genetica-e-biotecnologia
+x: Sempre se pensou que todas as células do corpo vêm de um único zigoto (óvulo fecundado). O microquimerismo mostra que a mãe pode ter células do filho (e vice-versa), com outro DNA, o que quebra esse princípio.
+@56 m biologia/evolucao
+x: Mesmo que cães muito grandes e muito pequenos não cruzem diretamente, raças intermediárias cruzam com ambas, e os genes continuam circulando entre as raças. Com esse fluxo gênico, não há isolamento reprodutivo, e não surge uma nova espécie.
+@57 m fisica/termologia
+x: Para liquefazer o nitrogênio, é preciso resfriar e comprimir o ar, gastando energia elétrica: realiza-se trabalho sobre o gás. Essa energia fica armazenada e é parcialmente recuperada quando o nitrogênio volta a gás e se expande nas turbinas.
+@62 m quimica/ligacoes-e-funcoes-inorganicas
+x: A fenolftaleína fica rosa em meio básico (bicarbonato). Ao queimar, o fósforo libera óxidos como SO₂ e CO₂, que são ácidos e, dissolvidos na água, diminuem o pH. Com a solução menos básica, a cor rosa desaparece.
+@63 m fisica/estatica-e-hidrostatica, fisica/termologia
+x: Ao abrir a porta, entra ar quente. Fechada, a geladeira esfria esse ar, e a pressão interna cai (mesmo volume, temperatura menor). Com pressão menor dentro que fora, o ar de fora empurra a porta, e é preciso mais força para abrir.
+@64 m fisica/trabalho-energia-e-potencia
+a: 5,4 × 10² J. | 6,5 × 10³ J. | 8,6 × 10³ J. | 1,3 × 10⁴ J. | 3,2 × 10⁴ J.
+x: Pelo teorema da energia cinética, o trabalho total é a variação da energia cinética: de 0 até 12 m/s. W = ½ × 90 × 12² = 45 × 144 = 6 480 J, cerca de 6,5 × 10³ J.
+@65 m fisica/termologia
+s: Tipo de selo Variação de temperatura A menor que 10% B entre 10% e 25% C entre 25% e 40% D entre 40% e 55% E maior que 55% Para atribuir => Quadro (tipo de selo: variação de temperatura): A: menor que 10%. B: entre 10% e 25%. C: entre 25% e 40%. D: entre 40% e 55%. E: maior que 55%. || Para atribuir
+x: Temperatura de equilíbrio da mistura: (1/3) × 10 + (2/3) × 40 = 3,3 + 26,7 = 30 °C. Seis horas depois, 16 °C: caiu 14 °C. Em relação ao valor inicial: 14 ÷ 30 ≈ 47%, entre 40% e 55%: selo D.
+@72 m biologia/saude-e-doencas
+x: O vírus da dengue tem quatro sorotipos, com antígenos diferentes. Uma vacina precisa proteger contra todos eles ao mesmo tempo, o que é difícil. A febre amarela tem um vírus mais uniforme, por isso a vacina existe há muito tempo.
+@73 m quimica/fisico-quimica
+e: A bomba // reduz neutros e neutrinos, e abana-se com o leque da reação em cadeia || > ANDRADE, C. D. Poesia completa e prosa. Rio de Janeiro: Aguilar, 1973 (fragmento). || Nesse fragmento de poema, o autor refere-se à bomba atômica de urânio. Essa reação é dita “em cadeia” porque na
+a: fissão do ²³⁵U ocorre liberação de grande quantidade de calor, que dá continuidade à reação. | fissão de ²³⁵U ocorre liberação de energia, que vai desintegrando o isótopo ²³⁸U, enriquecendo-o em mais ²³⁵U. | fissão do ²³⁵U ocorre uma liberação de nêutrons, que bombardearão outros núcleos. | fusão do ²³⁵U com ²³⁸U ocorre formação de neutrino, que bombardeará outros núcleos radioativos. | fusão do ²³⁵U com ²³⁸U ocorre formação de outros elementos radioativos mais pesados, que desencadeiam novos processos de fusão.
+x: Na fissão, um nêutron quebra o núcleo de urânio-235, que se divide em núcleos menores e libera energia e mais 2 ou 3 nêutrons. Esses nêutrons atingem outros núcleos, que também se dividem, e assim por diante: é a reação em cadeia.
+@75 m fisica/ondulatoria-e-optica
+x: A luz muda de direção ao passar por camadas de ar com temperaturas (e densidades) diferentes. Esse desvio da luz é a refração, a mesma que cria miragens no asfalto quente.
+@80 m quimica/quimica-organica, biologia/ecologia
+x: Os organoclorados são pouco polares e, por isso, dissolvem-se mal na água e bem na gordura ("semelhante dissolve semelhante"). Eles passam para os tecidos gordurosos dos peixes e se acumulam lá.
+@55 d quimica/solucoes
+s: (NO3 − ) || para 0,009 mol/L => (NO₃⁻) para 0,009 mol/L
+x: Nitrato necessário: 0,009 mol/L × 5 000 L = 45 mol. Cada Ca(NO₃)₂ tem 2 nitratos, então são 22,5 mol de sal. Massa molar: 40 + 2 × (14 + 48) = 164 g/mol; massa: 22,5 × 164 = 3 690 g. Volume da solução de 90 g/L: 3 690 ÷ 90 = 41 L.
+@70 d fisica/dinamica, fisica/trabalho-energia-e-potencia
+s: alcances Dd Dm , referentes => alcances Dd/Dm, referentes
+a: 1/4. | 1/2. | 1. | 2. | 4.
+x: Com a mesma força, a borracha deforma x = F/k, e a energia guardada é F²/(2k): metade na borracha "dura" (k dobrado). O alcance é proporcional ao quadrado da velocidade de lançamento, que é proporcional à energia. Logo, Dd/Dm = 1/2.
+@71 d quimica/fisico-quimica
+e: Vários ácidos são utilizados em indústrias que descartam seus efluentes nos corpos d’água, como rios e lagos, podendo afetar o equilíbrio ambiental. Para neutralizar a acidez, o sal carbonato de cálcio pode ser adicionado ao efluente, em quantidades apropriadas, pois produz bicarbonato, que neutraliza a água. As equações envolvidas no processo são apresentadas: || (I) CaCO₃ (s) + CO₂ (g) + H₂O (l) ⇌ Ca²⁺ (aq) + 2 HCO₃⁻ (aq) // (II) HCO₃⁻ (aq) ⇌ H⁺ (aq) + CO₃²⁻ (aq)   K1 = 3,0 × 10⁻¹¹ // (III) CaCO₃ (s) ⇌ Ca²⁺ (aq) + CO₃²⁻ (aq)   K2 = 6,0 × 10⁻⁹ // (IV) CO₂ (g) + H₂O (l) ⇌ H⁺ (aq) + HCO₃⁻ (aq)   K3 = 2,5 × 10⁻⁷ || Com base nos valores das constantes de equilíbrio das reações II, III e IV a 25 °C, qual é o valor numérico da constante de equilíbrio da reação I?
+a: 4,5 × 10⁻²⁶ | 5,0 × 10⁻⁵ | 0,8 × 10⁻⁹ | 0,2 × 10⁵ | 2,2 × 10²⁶
+x: A reação I = III + IV − II (somando III e IV e invertendo II, o CO₃²⁻ e o H⁺ se cancelam). Somar equações multiplica as constantes; inverter divide. K = K2 × K3 ÷ K1 = (6,0 × 10⁻⁹ × 2,5 × 10⁻⁷) ÷ (3,0 × 10⁻¹¹) = 5,0 × 10⁻⁵.
+@76 d quimica/estequiometria
+s: 2 ZnS + 3 O2 → 2 ZnO + 2 SO2 ZnO + CO → Zn + CO2 Considere => 2 ZnS + 3 O₂ → 2 ZnO + 2 SO₂ // ZnO + CO → Zn + CO₂ || Considere
+x: 100 kg de minério com 75% de pureza têm 75 kg de ZnS. Pelas equações, 1 ZnS dá 1 Zn: 97 kg de ZnS → 65 kg de Zn. Então 75 kg → 75 × 65 ÷ 97 ≈ 50,3 kg. Com rendimento de 80%: 50,3 × 0,8 ≈ 40 kg.
+@81 d quimica/fisico-quimica
+s: Semirreação de redução E° (V) || Ca2+ + 2 e− → Ca −2,87 Fe3+ + 3 e− → Fe −0,04 Cu2+ + 2 e− → Cu +0,34 Cu+ + e− → Cu +0,52 Fe3+ + e− → Fe2+ +0,77 => Quadro (semirreação de redução: E° em V): Ca²⁺ + 2 e⁻ → Ca: −2,87. Fe³⁺ + 3 e⁻ → Fe: −0,04. Cu²⁺ + 2 e⁻ → Cu: +0,34. Cu⁺ + e⁻ → Cu: +0,52. Fe³⁺ + e⁻ → Fe²⁺: +0,77.
+s: cobre(II), CuSO4 , => cobre(II), CuSO₄,
+a: Ca²⁺ (aq) + 2 Cu⁺ (aq) → Ca (s) + 2 Cu²⁺ (aq). | Ca²⁺ (aq) + 2 Fe²⁺ (aq) → Ca (s) + 2 Fe³⁺ (aq). | Cu²⁺ (aq) + 2 Fe²⁺ (aq) → Cu (s) + 2 Fe³⁺ (aq). | 3 Ca²⁺ (aq) + 2 Fe (s) → 3 Ca (s) + 2 Fe³⁺ (aq). | 3 Cu²⁺ (aq) + 2 Fe (s) → 3 Cu (s) + 2 Fe³⁺ (aq).
+x: A mancha avermelhada é cobre metálico depositado na faca. O Cu²⁺ (E° = +0,34 V) tem maior tendência a se reduzir que o Fe³⁺/Fe (−0,04 V), então o ferro da faca se oxida a Fe³⁺ e o Cu²⁺ vira Cu: 3 Cu²⁺ + 2 Fe → 3 Cu + 2 Fe³⁺.

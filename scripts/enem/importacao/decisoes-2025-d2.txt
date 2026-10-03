@@ -1,0 +1,146 @@
+## 37-enem-2025-matematica.md | 2025 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2025 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e frações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Leia a pergunta duas vezes:** muitas questões pedem a diferença, o aumento ou o valor "a mais", e não o valor final.
+- **Porcentagem de mistura:** quando só uma substância sai, a quantidade da outra fica fixa; use-a para achar o novo total.
+- **Mediana:** coloque os valores em ordem; com quantidade par, é a média dos dois do meio.
+- **Contagem:** cargos diferentes (presidente, secretário...) significam que a ordem importa.
+- **Desvio padrão pequeno** indica valores concentrados perto da média.
+- **Logaritmo:** log x ≤ c equivale a x ≤ 10^c.
+
+@143 f matematica/numeros-e-operacoes
+x: A diferença é 10,00 − 9,58 = 0,42 segundo.
+@146 f matematica/razao-proporcao-regra-de-tres
+x: Por semana o carro roda 30 × 7 = 210 km. Com 1 m³ a cada 13 km, gasta 210 ÷ 13 ≈ 16,2 m³. O menor cilindro que comporta isso tem 17 m³.
+@152 f matematica/razao-proporcao-regra-de-tres
+x: Antes eram 3 × 6 = 18 horas de trabalho por dia para 720 tijolos, ou seja, 40 tijolos por hora de trabalho. Depois são 5 × 9 = 45 horas: 45 × 40 = 1 800 tijolos.
+@153 f matematica/numeros-e-operacoes
+x: Monte o código na ordem: andar 2, setor 08, funcionário 109 e manhã (0). Fica 2 08 109 0, isto é, 2081090.
+@166 f matematica/grandezas-medidas-escalas
+x: 1 cm³ = 1 mL, então o pote tem 20 000 mL. Dividindo em porções de 250 mL: 20 000 ÷ 250 = 80 taças.
+@138 f matematica/numeros-e-operacoes
+x: A distribuidora enviou 10 200 L e chegaram 9 900 L: o descarte é de 300 L por transporte. Para entregar o dobro (20 000 L), é preciso enviar 20 000 + 300 = 20 300 L.
+@139 f matematica/estatistica
+s: no quadro. || Cidades Velocidade de referência (MB/s) || C1 390 C2 380 C3 320 C4 390 C5 340 C6 380 C7 390 C8 400 C9 350 C10 360 A velocidade => no quadro. || Quadro (cidade: velocidade de referência, em MB/s): C1: 390. C2: 380. C3: 320. C4: 390. C5: 340. C6: 380. C7: 390. C8: 400. C9: 350. C10: 360. || A velocidade
+x: Em ordem: 320, 340, 350, 360, 380, 380, 390, 390, 390, 400. São dez valores, então a mediana é a média dos dois do meio (5º e 6º): (380 + 380) ÷ 2 = 380 MB/s.
+@164 f matematica/razao-proporcao-regra-de-tres
+a: T = 1,59 + F | F = 1,59 + T | T/F = 1,59 | F/T = 1,59 | F · T = 1,59
+x: "T era 1,59 vezes F" quer dizer T = 1,59 × F. Dividindo os dois lados por F: T/F = 1,59.
+@170 f matematica/grandezas-medidas-escalas
+a: cd/m² | m²/cd | cd/m | m/cd | m/cd²
+x: A luminância é a intensidade (em cd) dividida pelo quadrado da distância (em m²). A unidade é candela por metro quadrado: cd/m².
+@173 f matematica/numeros-e-operacoes
+s: O quadro apresenta esses valores. Autoescola Valor de cada aula teórica (R$) Valor de cada aula prática (R$) Aluguel do veículo (R$) I 10 80 400 II 30 50 200 III 20 40 400 Ela => O quadro apresenta esses valores. || Quadro (autoescola: valor de cada aula teórica; valor de cada aula prática; aluguel do veículo, em real): I: 10; 80; 400. II: 30; 50; 200. III: 20; 40; 400. || Ela
+x: Some 20 aulas teóricas, 10 práticas e o aluguel. I: 200 + 800 + 400 = R$ 1 400. II: 600 + 500 + 200 = R$ 1 300. III: 400 + 400 + 400 = R$ 1 200. A mais barata é a III, com R$ 1 200,00.
+@180 f matematica/razao-proporcao-regra-de-tres, fisica/cinematica
+x: No segundo tempo (45 min) ele correu 4,5 km, ou seja, 0,1 km por minuto. Na prorrogação de 30 min, no mesmo ritmo, correu 3 km. Total: 4,5 + 3 = 7,5 km.
+@154 f matematica/probabilidade
+a: 1/2 | 1/10 | 1/16 | 1/24 | 1/256
+x: Os 4 envelopes podem ser devolvidos de 4! = 24 maneiras, e só uma delas acerta o dono de todos. A probabilidade é 1/24.
+@137 m matematica/porcentagem
+x: S2 é 0,05% de 10 L = 0,005 L, e essa quantidade não muda. No fim, S2 deve ser 0,10% do total, então o total é 0,005 ÷ 0,001 = 5 L. A solução passa de 10 L para 5 L: são retirados 5 L de S1.
+@141 m matematica/geometria-espacial
+x: As faces externas são: a base hexagonal do prisma que ficou livre, as 6 faces retangulares do prisma (iguais entre si), as 6 faces trapezoidais do tronco (iguais entre si) e a base menor do tronco, um hexágono menor. São 4 tipos de face, então 4 cores.
+@157 m matematica/estatistica
+s: desses grupos. || Grupos Menor idade Maior idade Média Mediana Moda Desvio padrão 1 25 10 2 25 9 3 25 4 25 1 5 20 35 Mesmo com => desses grupos. || Quadro (dados conhecidos das idades de cada grupo; os demais não foram informados): Grupo 1: média 25; desvio padrão 10. Grupo 2: mediana 25; desvio padrão 9. Grupo 3: moda 25. Grupo 4: média 25; desvio padrão 1. Grupo 5: menor idade 20; maior idade 35. || Mesmo com
+x: O grupo 4 tem média 25 e desvio padrão 1: as idades ficam muito concentradas em torno de 25 anos, então certamente a maioria está entre 20 e 30. Nos grupos 1 e 2, o desvio padrão grande permite idades muito espalhadas; no 3 só se sabe a moda; e no 5 as idades vão de 20 a 35, sem garantia de maioria até 30.
+@161 m matematica/porcentagem, matematica/equacoes-e-sistemas
+x: Reciclar custa R$ 500 por tonelada, e isso é 5% do custo com petróleo, que é R$ 10 000 por tonelada. Custo atual: 110 × 10 000 + 80 × 500 = R$ 1 140 000. A meta é no máximo R$ 570 000 para as mesmas 190 t. Com x toneladas recicladas: 500x + 10 000(190 − x) ≤ 570 000, o que dá 9 500x ≥ 1 330 000 e x ≥ 140.
+@162 m matematica/analise-combinatoria
+x: Os cargos são diferentes, então a ordem importa. O presidente pode ser qualquer uma das 20 pessoas. O secretário não pode ser o par do presidente: 18 opções. O tesoureiro não pode ser de nenhum dos dois casais já usados: 16 opções. Total: 20 × 18 × 16.
+@165 m matematica/porcentagem
+x: O seguro passa a 36 × 1,2 = R$ 43,20 por veículo, ou 120 × 43,20 = R$ 5 184. Despesas: 14 240 + 5 184 = R$ 19 424. Somando o lucro desejado, o estacionamento precisa arrecadar 29 424, ou seja, 29 424 ÷ 120 = R$ 245,20 por vaga.
+@171 m matematica/progressoes
+x: A cada rodada, o jogador da posição 1 dá 1 moeda (para o 2) e recebe 4 moedas (do 4). Ganha 3 moedas por rodada. Depois de n rodadas, tem 100 + 3n moedas.
+@174 m matematica/geometria-espacial
+x: A caixa enche até 2,5 × 1,5 × 2 = 7,5 dm³ = 7,5 L. Para sobrar pelo menos 5 L de água, as garrafas podem ocupar no máximo 2,5 L = 2 500 mL. Com 300 mL cada: 2 500 ÷ 300 ≈ 8,3, ou seja, no máximo 8 garrafas.
+@175 m matematica/geometria-espacial
+x: A maior torta tem raio 16 cm, ou seja, 32 cm de diâmetro. Com 1 cm de folga de cada lado, a base da caixa precisa de 32 + 2 = 34 cm. A altura (6 + 1 = 7 cm) já serve. A aresta deve aumentar 34 − 14 = 20 cm.
+@169 d matematica/probabilidade
+a: Artur, com probabilidade de 2/3 | João, com probabilidade de 4/9 | Artur, com probabilidade de 91/216 | João, com probabilidade de 91/216 | Artur, com probabilidade de 125/216
+x: João vence quando o número dele é maior ou igual aos dois de Artur. Se João tira j, a chance de os dois dados de Artur darem no máximo j é (j/6)². Somando para j de 1 a 6: (1/6) × (1 + 4 + 9 + 16 + 25 + 36)/36 = 91/216. Artur vence com 1 − 91/216 = 125/216, que é maior.
+@176 d matematica/exponencial-e-logaritmo
+a: 10^0,5 | 10^8 | 10^2,5/84 | 10^2,5/99 | 25 × 10⁻²
+x: O produto −(t + 1)(t − 19) = (t + 1)(19 − t) é uma parábola com máximo em t = 9, que está dentro das 10 horas: vale 10 × 10 = 100. A pressão máxima é 4·log(100K) ≤ 10, então log(100K) ≤ 2,5, ou seja, 100K ≤ 10^2,5 e K ≤ 10^0,5.
+@179 d matematica/analise-combinatoria
+x: O mais velho recebe a bicicleta ou o celular (2 escolhas) e mais 2 dos 6 presentes comuns: 2 × C(6,2) = 2 × 15 = 30. Dos 5 presentes que sobram, o mais novo escolhe 3: C(5,3) = 10, e o do meio fica com os 2 restantes. Total: 30 × 10 = 300.
+
+## 38-enem-2025-ciencias-da-natureza.md | 2025 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+auto: sim
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2025 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Calor:** a irradiação acontece até no vácuo; condução e convecção precisam de matéria.
+- **Ecologia:** espécies exóticas invasoras competem com as nativas e reduzem a biodiversidade; espécies endêmicas só existem em um lugar.
+- **Meia-vida:** a cada período, a massa cai pela metade (26,5 anos ÷ 5,3 anos = 5 meias-vidas).
+- **Equilíbrio químico:** aumentar um reagente desloca o equilíbrio para os produtos; a pressão total só importa se o número de mols de gás muda.
+- **Eletroquímica:** ddp = potencial de quem se reduz − potencial de quem se oxida.
+- **Corrente elétrica:** I = P ÷ U; a soma das correntes não pode passar do limite do fusível.
+
+@91 f fisica/termologia
+e: TEXTO I || As mariposas // As mariposa, quando chega o frio // Fica dando volta em volta da lâmpida pra se esquentá. [sic] || > BARBOSA, A. Reviva: Adoniran Barbosa. São Paulo: Som Livre, 2002 (fragmento). || TEXTO II || As mariposas se aproximam das lâmpadas atraídas pela luz, pois, sendo basicamente criaturas noturnas, estão adaptadas a seguir o brilho da lua, em um processo conhecido como orientação transversal. Assim, o que o sambista Adoniran Barbosa, no Texto I, descreve não é a causa, mas sim uma das consequências possíveis dessa aproximação. De fato, o calor gerado pelas lâmpadas, sobretudo as incandescentes, pode aquecer as mariposas. || > HERTZBERG, R. Por que as mariposas são tão atraídas por luzes fortes? National Geographic, nov. 2020 (adaptado). || Nesse contexto, o processo de transferência de calor para as mariposas que independe da presença de fluidos é a
+x: A irradiação transmite calor por ondas eletromagnéticas e funciona até no vácuo. Condução e convecção precisam de um meio material; reflexão, refração e dispersão nem são formas de transferir calor.
+@92 f biologia/ecologia
+x: O veneno vem das formigas e cupins que o sapo come, e esses insetos o obtêm das plantas. Em cativeiro, sem essa alimentação natural, o sapo não acumula a toxina.
+@94 f biologia/ecologia
+x: O capim-gordura é uma espécie exótica invasora: espalha-se com agressividade e compete com as plantas do Cerrado. Com o tempo, isso reduz as espécies nativas.
+@95 f biologia/ecologia
+x: O lagarto vive num deserto, com pouca comida e pouca água. No Brasil, o ambiente mais parecido é a Caatinga, de clima semiárido.
+@96 f quimica/solucoes
+x: A água sem os sais dissolvidos, usada em laboratórios e baterias, é a água destilada. Por não ter sais, não é indicada para beber.
+@98 f biologia/saude-e-doencas
+x: A toxina fica nas gônadas e vísceras e é termoestável, ou seja, não é destruída pelo cozimento. A forma de evitar a intoxicação é não romper esses órgãos ao preparar o peixe.
+@99 f biologia/citologia
+x: Os lisossomos têm as enzimas que digerem lipídios, como a lipase ácida. Se ela falta, colesterol e triglicerídeos se acumulam: é uma falha dos lisossomos.
+@100 f biologia/ecologia, quimica/quimica-ambiental
+s: precisasermantidoem1,5° °Catéoano2100.Noentanto,amenos => precisa ser mantido em 1,5 °C até o ano 2100. No entanto, a menos
+s: maisde2° °Catéofinaldesteséculo.Naprática,ospaísesprecisam => mais de 2 °C até o final deste século. Na prática, os países precisam
+s: na atmosfera. Um guia rápido para entender as mudanças climáticas. || Disponível em: => na atmosfera. || > Um guia rápido para entender as mudanças climáticas. Disponível em:
+x: Usinas eólicas, energia solar e menos combustíveis fósseis reduzem novas emissões, mas não retiram o CO₂ que já está no ar. As árvores absorvem CO₂ na fotossíntese e o retiram da atmosfera.
+@105 f fisica/ondulatoria-e-optica
+x: A taça quebra por ressonância: ela vibra com amplitude cada vez maior quando a voz tem a mesma frequência natural de vibração da taça. O que importa é a frequência, e não a intensidade.
+@107 f quimica/quimica-ambiental, quimica/solucoes
+x: A água de refrigeração volta mais quente para o rio. Em água mais quente, gases como o oxigênio se dissolvem menos, e os peixes ficam com menos oxigênio.
+@110 f quimica/calculos-fisico-quimicos
+x: 26,5 ÷ 5,3 = 5 meias-vidas. A massa cai pela metade 5 vezes: 2,00 ÷ 2⁵ = 2,00 ÷ 32 ≈ 0,06 mg.
+@112 f biologia/saude-e-doencas
+x: A vitamina A é necessária para a visão com pouca luz. A falta dela causa a cegueira noturna.
+@122 f biologia/ecologia
+x: Num ambiente tão difícil (solo ácido e pobre, calor intenso), as espécies que sobrevivem são muito adaptadas a ele e não existem em outros lugares: são endêmicas, de distribuição restrita.
+@132 f quimica/quimica-ambiental
+x: O carvão ativado tem muitos poros, o que aumenta muito a sua superfície de contato. A adsorção acontece na superfície: quanto maior ela é, mais impurezas o carvão retém.
+@133 f biologia/genetica-e-biotecnologia
+x: A E. coli continua com os seus genes, inclusive os do metabolismo, e recebe os genes do relógio circadiano da cianobactéria. Ela não tinha ciclo circadiano próprio.
+@97 m biologia/fisiologia-humana, fisica/ondulatoria-e-optica
+x: No escuro, a pupila se dilata para entrar mais luz. Com ela aberta, o flash ilumina mais o fundo do olho, rico em vasos sanguíneos, e mais luz refletida volta à câmera: os olhos saem vermelhos.
+@119 m quimica/quimica-organica
+x: A dimetilamina é uma base (amina). O vinagre, que tem ácido acético, reage com ela e forma um sal, que não evapora. Assim se evita que o gás tóxico se espalhe.
+@120 m fisica/eletricidade
+x: O campo magnético variável induz correntes elétricas no fundo metálico da panela (indução eletromagnética). Essas correntes aquecem a panela pelo efeito Joule.
+@124 m fisica/estatica-e-hidrostatica
+s: até 104 Pa. => até 10⁴ Pa.
+x: A pressão do produto empilhado é p = d·g·h. Para não passar de 10⁴ Pa: 1 250 × 10 × h ≤ 10 000, então h ≤ 0,8 m.
+@131 m biologia/saude-e-doencas
+s: Teste Resultado Aedes aegypti (larvas) Baixa eficiência Bacilo de Koch Média eficiência Moluscos aquáticos (adultos) Alta eficiência Pernilongo (larvas) Média eficiência Vermes platelmintos Ineficiente O ácido => Quadro (teste: resultado): Aedes aegypti (larvas): baixa eficiência. Bacilo de Koch: média eficiência. Moluscos aquáticos (adultos): alta eficiência. Pernilongo (larvas): média eficiência. Vermes platelmintos: ineficiente. || O ácido
+x: O ácido úsnico teve alta eficiência só contra os moluscos aquáticos. Os caramujos são hospedeiros do verme da esquistossomose; controlá-los ajuda a controlar a doença.
+@134 m biologia/seres-vivos
+x: A glândula uropigial produz um óleo que a ave espalha nas penas, tornando-as impermeáveis. Com menos secreção, as penas encharcam e a ave tem dificuldade de flutuar.
+@114 m quimica/estequiometria
+s: Al2O3 (s) Uma engenheira => Al2O3 (s) || Uma engenheira
+x: 9,3 kg de nióbio são 9 300 ÷ 93 = 100 mol. Pela equação, 6 mol de Nb pedem 10 mol de Al, então 100 mol pedem 166,7 mol de Al. Com 10% de excesso: 183,3 mol × 27 g ≈ 4 950 g ≈ 5,0 kg.
+@123 m quimica/fisico-quimica
+s: 2 Cl2 (g) TiCl4 (g) + O2 (g) ΔH = +175 kJ/mol Depois => 2 Cl2 (g) ⇌ TiCl4 (g) + O2 (g)   ΔH = +175 kJ/mol || Depois
+x: Há 2 mol de gás de cada lado, então mudar a pressão total não desloca o equilíbrio. Aumentar a pressão parcial do reagente Cl₂ desloca o equilíbrio para formar mais TiCl₄. Diminuir a temperatura favoreceria o lado exotérmico, que é o dos reagentes.
+@135 m fisica/eletricidade
+s: no quadro. Aparelho Potência (watt) || Luminária de LED 5 Computador 250 Impressora a laser 660 Secador de cabelos 750 Cafeteira 900 Condicionador de ar portátil 1 100 Em um dia => no quadro. || Quadro (aparelho: potência, em watt): Luminária de LED: 5. Computador: 250. Impressora a laser: 660. Secador de cabelos: 750. Cafeteira: 900. Condicionador de ar portátil: 1 100. || Em um dia
+x: A régua aguenta 20 A × 110 V = 2 200 W. Computador e ar-condicionado já usam 1 350 W. Com a impressora: 2 010 W, funciona. Com a cafeteira: 2 250 W, passa do limite e o fusível queima. Ela realizou só 1 atividade.
+@116 d quimica/ligacoes-e-funcoes-inorganicas
+s: conforme apresentado na figura. || Representação esquemática do dispositivo || => conforme apresentado na figura. ||
+x: O óleo entra em contato primeiro com a camada mais externa, o surfactante. Essa superfície repele o óleo e deixa a água passar pelas camadas e pela malha. Por isso, o óleo fica retido no surfactante.
+@126 d quimica/fisico-quimica
+s: ocorridos. Ag2S (s) + 2 e− → 2 Ag (s) + S2− (aq) || O2 (g) + 4 H+ (aq) + 4 e− → 2 H2O (l) || Al3+ (aq) + 3 e− → Al (s) || −0,69 V +1,23 V −1,68 V => ocorridos. || Ag2S (s) + 2 e− → 2 Ag (s) + S2− (aq)   E° = −0,69 V || O2 (g) + 4 H+ (aq) + 4 e− → 2 H2O (l)   E° = +1,23 V || Al3+ (aq) + 3 e− → Al (s)   E° = −1,68 V
+x: No escurecimento, o O₂ se reduz e a prata se oxida a Ag₂S: ddp = 1,23 − (−0,69) = +1,92 V. No clareamento, o Ag₂S se reduz e o alumínio se oxida: ddp = −0,69 − (−1,68) = +0,99 V.
+@127 d quimica/estequiometria
+x: Volume de gás: n = PV/RT = (1 × 4,00)/(0,082 × 453) ≈ 0,108 mol de gases. Cada mol de NH₄HCO₃ gera 3 mol de gases: 0,036 mol. Com rendimento de 80%: 0,036 ÷ 0,8 = 0,045 mol × 79 g ≈ 3,5 g.
+@128 d fisica/cinematica
+x: Para ir 20 km a Leste, 20 km a Norte e 1 km para cima em 0,1 h, a velocidade em relação ao solo deve ser 200 km/h Leste, 200 km/h Norte e 10 km/h para cima. A velocidade em relação ao ar é essa menos a do vento: 200 − 30 = 170 km/h Leste; 200 + 20 = 220 km/h Norte; 10 + 1 = 11 km/h para cima.

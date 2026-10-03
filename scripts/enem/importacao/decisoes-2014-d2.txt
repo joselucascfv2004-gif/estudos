@@ -1,0 +1,155 @@
+## 33-enem-2014-matematica.md | 2014 | 2 | 2º dia, caderno amarelo | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2014 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Porcentagem:** "o restante" é 100% menos a parte já usada; variações repetidas se multiplicam.
+- **Média, mediana e moda:** a média soma e divide; a mediana é o valor do meio; a moda é o que mais aparece.
+- **Probabilidade de uma sequência:** multiplique as probabilidades de cada passo e conte as ordens possíveis.
+- **Escala:** na escala 1 : 100, cada medida real é 100 vezes maior, e o volume é 100³ vezes maior.
+- **Divisores:** se N = 2ˣ · 5ʸ · 7ᶻ, N tem (x + 1)(y + 1)(z + 1) divisores.
+- **Fusos horários:** descubra a diferença de horário entre as cidades usando um voo de duração conhecida.
+
+@138 f matematica/porcentagem
+x: O ponto central recebe 60% de 12 t = 7,2 t. Sobram 12 − 7,2 = 4,8 t, divididas igualmente entre os outros dois: 2,4 t cada. Ordem: 2,4 t; 7,2 t; 2,4 t.
+@144 f matematica/razao-proporcao-regra-de-tres
+x: São 5 × 4 = 20 catracas. Cada uma recebe 45 000 ÷ 20 = 2 250 pessoas, uma a cada 2 s: 4 500 s = 75 min = 1 hora e 15 minutos.
+@149 f matematica/razao-proporcao-regra-de-tres
+x: Desempenho = acertos ÷ jogadas. I: 50/85 ≈ 0,59. II: 40/65 ≈ 0,62. III: 20/65 ≈ 0,31. IV: 30/40 = 0,75. V: 48/90 ≈ 0,53. O maior é o do jogador IV.
+@159 f matematica/porcentagem
+x: Agricultura: 80 milhões de hectares em 853 milhões: 80 ÷ 853 ≈ 0,094 = 9,4%.
+@160 f matematica/grandezas-medidas-escalas
+x: Na escala 1 : 100, as medidas reais são 300 cm, 100 cm e 200 cm. Volume: 300 × 100 × 200 = 6 000 000 cm³ (que é 6 m³).
+@162 f matematica/probabilidade
+x: Sensibilidade = probabilidade de dar positivo entre os doentes. Doentes: 95 + 5 = 100; positivos entre eles: 95. Sensibilidade = 95/100 = 95%.
+@170 f matematica/estatistica
+x: Ordene as notas e faça a média das duas do meio. K: 33, 33, 33, 34 → 33. L: 32, 33, 34, 39 → 33,5. M: 34, 35, 35, 36 → 35. N: 24, 35, 37, 40 → 36. P: 16, 26, 36, 41 → 31. A maior mediana é a de N.
+@178 f matematica/grandezas-medidas-escalas
+s: SanAlfonso => San Alfonso
+x: 1 hm = 100 m, então 1 hm² = 100 × 100 = 10 000 m². Oito hectares: 8 × 10 000 = 80 000 m².
+@179 f matematica/numeros-e-operacoes
+x: Álcool total: 16 × 4 = 64 L. Recipientes: 10 escolas × 20 = 200. Cada um deve ter 64 ÷ 200 = 0,32 L: o recipiente III.
+@142 m matematica/porcentagem
+s: Ano Taxa de fecundidade no Brasil 2000 2,38 2010 1,90 => Quadro (ano: taxa de fecundidade no Brasil): 2000: 2,38. 2010: 1,90.
+x: De 2000 a 2010 a taxa foi multiplicada por 1,90 ÷ 2,38 ≈ 0,798 (queda de cerca de 20%). Repetindo a mesma variação: 1,90 × 0,798 ≈ 1,52.
+@143 m matematica/porcentagem
+s: Taxa de doação de sangue, por região, em 2010 Região Doadores Número de habitantes Doadores/ habitantes Nordeste 820 959 53 081 950 1,5% Norte 232 079 15 864 454 1,5% Sudeste 1 521 766 80 364 410 1,9% Centro-Oeste 362 334 14 058 094 2,6% Sul 690 391 27 386 891 2,5% Total 3 627 529 190 755 799 1,9% Os resultados => Quadro — taxa de doação de sangue, por região, em 2010 (região: doadores; habitantes; doadores/habitantes): Nordeste: 820 959; 53 081 950; 1,5%. Norte: 232 079; 15 864 454; 1,5%. Sudeste: 1 521 766; 80 364 410; 1,9%. Centro-Oeste: 362 334; 14 058 094; 2,6%. Sul: 690 391; 27 386 891; 2,5%. Total: 3 627 529; 190 755 799; 1,9%. || Os resultados
+x: A taxa do país é 1,9%. Ficam com taxa menor ou igual: Nordeste (1,5%), Norte (1,5%) e Sudeste (1,9%, igual à do país).
+@147 m matematica/porcentagem
+x: Os 8 bilhões sem tratamento são 64% do total (100% − 36%), então o total é 8 ÷ 0,64 = 12,5 bilhões. Com só 4 bilhões sem tratamento, são tratados 8,5 bilhões: 8,5 ÷ 12,5 = 68%.
+@150 m matematica/estatistica
+s: Candidato Química Física I 20 23 II X 25 III 21 18 A menor => Quadro (candidato: química; física): I: 20; 23. II: X; 25. III: 21; 18. || A menor
+x: Médias com pesos 4 e 6: I: (4 × 20 + 6 × 23) ÷ 10 = 21,8. III: (4 × 21 + 6 × 18) ÷ 10 = 19,2. II precisa de (4X + 150) ÷ 10 > 21,8, ou seja, 4X > 68 e X > 17. Como a nota é inteira, o mínimo é 18.
+@153 m fisica/cinematica, matematica/razao-proporcao-regra-de-tres
+x: O tempo mínimo é 1 min 24 s = 84 s. Velocidade máxima: 2,1 km ÷ 84 s = 2 100 m ÷ 84 s = 25 m/s = 25 × 3,6 = 90 km/h.
+@155 m matematica/estatistica
+s: Reagente Reagente Reagente Reagente Reagente Experimento 1 1 0 2 2 1 Experimento 2 6 6 3 4 2 Experimento 3 6 7 8 7 9 Experimento 4 6 6 10 8 10 Experimento 5 11 5 11 12 11 Levando-se => Quadro (resultados dos reagentes 1, 2, 3, 4 e 5): Experimento 1: 1, 0, 2, 2, 1. Experimento 2: 6, 6, 3, 4, 2. Experimento 3: 6, 7, 8, 7, 9. Experimento 4: 6, 6, 10, 8, 10. Experimento 5: 11, 5, 11, 12, 11. || Levando-se
+x: Calcule a média de cada reagente e conte os resultados acima dela. 1: média 6, só o 11 acima (1). 2: média 4,8, com 6, 7, 6 e 5 acima (4). 3: média 6,8 (3 acima). 4: média 6,6 (3 acima). 5: média 6,6 (3 acima). O reagente 2 tem mais resultados acima da média.
+@158 m matematica/geometria-espacial
+s: aproximado para p. => aproximado para π.
+x: A pílula é um cilindro de 10 mm mais duas semiesferas (que formam uma esfera). Com r = 5: 3 × 25 × 10 + (4/3) × 3 × 125 = 750 + 500 = 1 250 mm³. Com r = 4: 3 × 16 × 10 + (4/3) × 3 × 64 = 480 + 256 = 736 mm³. Redução: 514 mm³.
+@161 m matematica/estatistica
+s: Média Mediana Moda Numerações dos sapatos com defeito 36 37 38 Para quantificar => Quadro (numerações dos sapatos com defeito): média 36; mediana 37; moda 38. || Para quantificar
+x: A numeração com mais reclamações é a moda: 38. Para as cores, a média dos zeros e uns é 0,45: 45% das reclamações são de sapatos pretos (1) e 55% de brancos (0). Saem os brancos e o número 38.
+@169 m matematica/porcentagem
+s: algumas atividades. Atividade Consumo total de água na atividade (em litros) || Tomar banho 24,0 Dar descarga 18,0 Lavar as mãos 3,2 Escovar os dentes 2,4 Beber e cozinhar 22,0 Se cada => algumas atividades. || Quadro (atividade: consumo total de água, em litros): Tomar banho: 24,0. Dar descarga: 18,0. Lavar as mãos: 3,2. Escovar os dentes: 2,4. Beber e cozinhar: 22,0. || Se cada
+x: Hoje, de 200 L: banho, mãos e dentes 50 L; descarga 66 L; cozinhar e beber 54 L; demais 30 L. Com as sugestões: 24 + 3,2 + 2,4 = 29,6 L; 18 L; 22 L; e os mesmos 30 L, total 99,6 L. Economia: 200 − 99,6 = 100,4 L.
+@174 m matematica/geometria-plana, fisica/eletricidade
+x: A diagonal de uma célula de 6 cm × 8 cm é 10 cm (triângulo 6-8-10), então cada uma produz 24 × 10 = 240 Wh por dia. Para 20 160 Wh são necessárias 20 160 ÷ 240 = 84 células. Ele tem 100: deve retirar 16.
+@175 m matematica/equacoes-e-sistemas
+x: Seja n a quantidade habitual. Ele leva 10n + 6. Com o aumento, cada unidade custa 12, e o dinheiro compra n − 2 unidades: 10n + 6 = 12(n − 2). Então 10n + 6 = 12n − 24 e n = 15. Quantia: 10 × 15 + 6 = R$ 156,00.
+@180 m matematica/porcentagem
+x: A luz passa pelo vidro e depois pela película: as porcentagens se multiplicam. Mínimo: 0,70 × 0,50 = 0,35 = 35%. Máximo: 0,90 × 0,70 = 0,63 = 63%. Intervalo: [35; 63].
+@151 d matematica/analise-combinatoria
+a: 20 × 8! + (3!)² | 8! × 5! × 3! | (8! × 5! × 3!) ÷ 2⁸ | (8! × 5! × 3!) ÷ 2² | 16! ÷ 2⁸
+x: Os filmes de ação são vistos um por vez, em qualquer ordem: 8! ordens. Nas 5 primeiras locações cada um vem com uma comédia (5! formas de ordenar as comédias) e nas 3 últimas com um drama (3! formas). Total: 8! × 5! × 3!.
+@152 d matematica/probabilidade
+x: O teste termina na 5ª pergunta se o candidato errar exatamente uma das 4 primeiras e errar a 5ª. Uma ordem: 0,2 × 0,8³ × 0,2 = 0,02048. O erro pode estar em qualquer uma das 4 primeiras: 4 × 0,02048 = 0,08192.
+@156 d matematica/funcoes-afim-e-quadratica
+s: conforme a expressão: || Valor do kWh (com tributos) × consumo (em kWh) + Cosip O valor da Cosip => conforme a expressão: || Valor do kWh (com tributos) × consumo (em kWh) + Cosip || O valor da Cosip
+s: Faixa de consumo mensal (kWh) Valor da Cosip (R$) Até 80 0,00 Superior a 80 até 100 2,00 Superior a 100 até 140 3,00 Superior a 140 até 200 4,50 Suponha => || Quadro (faixa de consumo mensal em kWh: valor da Cosip em R$): Até 80: 0,00. Superior a 80 até 100: 2,00. Superior a 100 até 140: 3,00. Superior a 140 até 200: 4,50. || Suponha
+s: Qualdeveseroconsumomáximo,emkWh,dessaresidência => Qual deve ser o consumo máximo, em kWh, dessa residência
+x: Conta atual: 0,50 × 150 + 4,50 = 79,50. Meta: até 90% disso, 71,55. Na faixa de 140 a 200, 0,5c + 4,5 ≤ 71,55 daria c ≤ 134,1, que já não está nessa faixa. Na faixa de 100 a 140 (Cosip 3,00): 0,5c + 3 ≤ 71,55, então c ≤ 137,1 kWh.
+@164 d matematica/funcoes-afim-e-quadratica
+a: y = −(1/25)x² + (7/5)x | y = −(1/10)x² + 2x | y = (1/24)x² + (7/12)x | y = (4/5)x + 2 | y = x
+x: Como f(0) = 0, f(x) = ax² + bx. f(10) = 10: 100a + 10b = 10, ou 10a + b = 1. f(5) = 6: 25a + 5b = 6, ou 5a + b = 1,2. Subtraindo: 5a = −0,2, a = −1/25 e b = 1,4 = 7/5.
+@165 d matematica/numeros-e-operacoes, matematica/analise-combinatoria
+s: expressão 2x ⋅ 5y ⋅ 7z , na qual => expressão 2ˣ · 5ʸ · 7ᶻ, na qual
+x: O número de divisores de 2ˣ · 5ʸ · 7ᶻ é (x + 1)(y + 1)(z + 1). Tirando o próprio N, sobram (x + 1)(y + 1)(z + 1) − 1. (Como N não é múltiplo de 7, z = 0 e z + 1 = 1, mas a expressão continua correta.)
+@168 d matematica/razao-proporcao-regra-de-tres
+s: altura em 1 , preservando => altura em 1/8, preservando
+a: 1/8 | 7/8 | 8/7 | 8/9 | 9/8
+x: O custo depende do volume (altura × largura × espessura). A espessura não muda e a altura passa a ser 9/8 da anterior. Para o volume não mudar, a largura deve ser multiplicada por 8/9.
+@176 d matematica/numeros-e-operacoes
+x: O voo dura 6 h: saindo de A às 15h, chega às 21h no horário de A, que são 18h em B. Então B está 3 horas atrás de A. Para chegar a A às 13h, deve sair às 7h (horário de A), ou seja, 4h no horário de B.
+
+## 34-enem-2014-linguagens.md | 2014 | 2 | 2º dia, caderno amarelo | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2014 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (2º dia, caderno 5, amarelo), publicada pelo INEP. Em 2014, Linguagens foi aplicada no 2º dia, junto com Matemática. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Variação linguística:** a língua muda com o tempo (palavras que envelhecem), a região ("pr'esses cabras") e a situação; falar bem é adequar a linguagem ao contexto.
+- **Oralidade:** marcadores como "né" mantêm a conversa; ditados populares são saber coletivo usado para justificar ações.
+- **Gêneros:** editorial interpreta fatos; aforismo é uma máxima curta; crônica pode falar de si mesma (metalinguagem).
+- **Literatura:** Gregório de Matos, Cruz e Sousa, Augusto dos Anjos, Machado de Assis (ironia), Manuel Bandeira, Guimarães Rosa, Dalton Trevisan e Rubem Fonseca.
+- **Corpo e arte:** MMA como esporte-espetáculo, suplementos e corpo ideal, hip-hop como afirmação de identidade e a música de John Cage.
+
+@98 f portugues/interpretacao-de-texto
+x: O texto diz que o Brasil vai mal em segurança da informação, mas "tem condições de desenvolver tecnologia própria" com universidades e empresas inovadoras. A necessidade apontada é desenvolver a indústria de segurança da informação.
+@100 f portugues/funcoes-generos-e-variacao
+x: Possenti diz que não existe um só português correto: contratos, manuais, decisões de juízes e cordel têm estilos diferentes. Dominar a língua é saber adequar as formas a cada tipo de texto e situação.
+@102 f portugues/funcoes-generos-e-variacao
+x: Na fala espontânea, "né" serve para manter o contato com o ouvinte, como se pedisse sua confirmação, e para ganhar tempo enquanto se organiza o pensamento. É uma estratégia típica da interação oral, não sinal de baixa escolaridade nem de região.
+@104 f artes/artes-e-educacao-fisica
+s: alimentares por adolescentes Evidências => alimentares por adolescentes || Evidências
+x: O texto diz que a mídia estimula o uso de suplementos ao vender "o mito do corpo ideal" e que a indústria investiu bilhões em propaganda, atingindo adolescentes em fase de autoafirmação. Os suplementos são benéficos só para um pequeno grupo.
+@108 f portugues/interpretacao-de-texto
+x: A linotipo tornou a impressão rápida e barata: jornais, revistas e livros didáticos ficaram acessíveis. O impacto social foi a produção de materiais de informação a baixo custo, que "democratizou a informação".
+@112 f artes/artes-e-educacao-fisica
+x: O choro e o samba usam justamente o cavaquinho e o violão (além de flauta e pandeiro), o mesmo instrumental de origem portuguesa citado no texto. Maracatu e frevo, por exemplo, usam principalmente percussão e metais.
+@125 f portugues/funcoes-generos-e-variacao
+x: O blog começou como diário pessoal, mas o texto diz que ele passou a ser "um espaço para a discussão de ideias, trocas e divulgação de informações", onde qualquer um publica opiniões e outros comentam.
+@129 f artes/artes-e-educacao-fisica
+x: Nos bailes black, os jovens das periferias valorizavam a cultura negra na música, nas roupas e nos penteados. O hip-hop no Brasil é uma forma de afirmação da identidade desses jovens.
+@132 f literatura/pre-modernismo-ao-contemporaneo
+x: "O que ela quer da gente é coragem": Riobaldo resume uma lição de vida em poucas palavras, como uma máxima. Isso é um aforismo (frase curta que expressa uma verdade geral).
+@97 m portugues/funcoes-generos-e-variacao v
+x: "Pr'esses cabras" junta a preposição com o pronome (para esses → pr'esses) e usa "cabra" no sentido nordestino de "sujeito, homem". É a marca mais clara do falar popular regional na canção.
+@103 m artes/artes-e-educacao-fisica
+a: A modificação das regras busca associar valores lúdicos ao MMA, possibilitando a participação de diferentes populações como atividade de lazer. | As transformações do MMA aumentam o grau de violência das lutas, favorecendo a busca de emoções mais fortes tanto aos competidores como ao público. | As mudanças de regras do MMA atendem à necessidade de tornar a modalidade menos violenta, visando sua introdução nas academias de ginástica na dimensão da saúde. | As modificações incorporadas ao MMA têm por finalidade aprimorar as técnicas das diferentes artes marciais, favorecendo o desenvolvimento da modalidade enquanto defesa pessoal. | As transformações do MMA visam delimitar a violência das lutas, preservando a integridade dos atletas e enquadrando a modalidade no formato do esporte de espetáculo.
+x: O texto diz que o MMA deixou de ser "vale-tudo": ganhou regras e acompanhamento médico para "apagar o estigma negativo". As mudanças limitam a violência, protegem os atletas e transformam a luta num grande espetáculo esportivo, como o UFC.
+@105 m literatura/pre-modernismo-ao-contemporaneo
+s: Aoposição => A oposição
+x: No Texto I, João Guedes sai do campo e, pobre na cidade, acaba preso por roubo. No Texto II, o ex-presidiário não consegue emprego na cidade. Nos dois, a pobreza do campo e a falta de oportunidades urbanas empurram as personagens para o crime.
+@110 m portugues/funcoes-generos-e-variacao
+s: Alíngua => A língua
+x: O cronista mostra palavras que "envelheceram": quem diz "fita", "artista", "defluxo" e "trem de ferro" revela pertencer a outra geração. A renovação do vocabulário fica evidente quando se comparam gerações.
+@114 m portugues/funcoes-generos-e-variacao
+x: Verissimo conta a história bíblica dos Reis Magos com gírias ("um plá", "se mandaram", "pegou mal", "ficou grilado"). O humor vem do contraste entre um tema sagrado e solene e a linguagem informal.
+@115 m literatura/quinhentismo-ao-simbolismo
+x: As rubricas ("arrepelando-se de raiva", "batendo com o pé") orientam a encenação, mas o diretor e os atores podem adaptá-las, assim como mudam cenário e figurino. Elas são uma possibilidade, não uma obrigação.
+@117 m literatura/pre-modernismo-ao-contemporaneo
+x: Dalton Trevisan conta, com malícia e humor, os encontros secretos do velho Abílio com as vizinhas e a chantagem do vizinho que copia o sinal. O tom é irônico: mostra a hipocrisia da vida de vizinhança sem condená-la diretamente.
+@118 m portugues/funcoes-generos-e-variacao
+x: O editorial retoma uma reportagem do jornal sobre lixo na estrada e a comenta, criticando os moradores ("é muita falta de educação"). A função do editorial é interpretar criticamente fatos noticiados que interessam à opinião pública.
+@119 m portugues/funcoes-generos-e-variacao
+x: Vinicius escreve uma crônica sobre como é difícil escrever crônicas: fala do cronista diante da máquina, à procura de assunto. É a função metalinguística, a crônica falando da própria crônica.
+@120 m portugues/morfologia-e-sintaxe
+s: daAmérica => da América
+x: Em "a água potável deve acabar logo, em 2050", o verbo "dever" indica uma possibilidade prevista, não uma obrigação. O texto apresenta uma previsão trágica sobre o fim da água potável, segundo as teorias mais pessimistas.
+@128 m portugues/interpretacao-de-texto
+x: O Texto I diz que o ditado contém "uma norma de conduta". Prima Constança repete ditados para transformar "os seus desejos nos desígnios de Deus": ela os usa para justificar o que já queria fazer.
+@130 m portugues/funcoes-generos-e-variacao
+x: Palavras indígenas, africanas e de imigrantes entraram no português brasileiro por causa da colonização, da escravidão e da imigração. Os empréstimos guardam as marcas dessa história.
+@133 m portugues/morfologia-e-sintaxe
+x: Em "há qualquer coisa de especial nisso de botar a cara na janela em crônica de jornal", o pronome "nisso" anuncia e é logo explicado pelo trecho que vem depois ("botar a cara na janela..."). Ele introduz esse fragmento.
+@134 m artes/artes-e-educacao-fisica
+x: Ao deixar os ruídos da rua entrarem nas composições, John Cage mostra que sons fora da música tradicional (barulhos, ruídos) também podem fazer parte dela. É a intenção de incorporar sons extramusicais à música.
+@135 m portugues/interpretacao-de-texto
+x: A autora apresenta a ideia comum de que há uma "crise da leitura", mas depois diz que pesquisas acadêmicas mostram que os brasileiros leem, sim, outros tipos de livros. Ela questiona a existência da crise com base nesses dados.
+@113 d literatura/quinhentismo-ao-simbolismo v
+x: O poema fala de um ser humilde cujo sofrimento ninguém viu: "o mundo para ti foi negro e duro", "cruz infernal prendeu-te os braços". Cruz e Sousa, poeta negro e filho de escravizados, expressa o sofrimento calado diante da discriminação.
+@116 d literatura/pre-modernismo-ao-contemporaneo v
+x: Augusto dos Anjos mantém o soneto metrificado e rimado do Parnasianismo e imagens do Simbolismo, mas inova com vocabulário científico e temas como a decomposição do corpo. Junta forma tradicional, nova expressividade e angústia existencial: é a transição do Pré-Modernismo.
+@122 d literatura/quinhentismo-ao-simbolismo v
+x: O soneto usa a história bíblica da libertação dos hebreus do Faraó para falar da Bahia, que precisou ser livrada do "Faraó do povo brasileiro". Por trás da linguagem religiosa e das comparações barrocas, há uma crítica disfarçada à tirania do governo da época.
+@126 d literatura/pre-modernismo-ao-contemporaneo
+x: Bandeira transforma em poesia coisas banais da rua: balõezinhos, macaquinhos de brinquedo, a fala dos camelôs. O lirismo vem de reunir esses elementos comuns e mostrar neles "uma lição de infância".
+@127 d literatura/quinhentismo-ao-simbolismo
+x: Brás Cubas defende o cunhado dizendo que ele mandava escravizados ao calabouço por hábito do contrabando, como "efeito de relações sociais". Justificar a tortura como algo natural é a ironia que denuncia a crueldade da elite escravista.

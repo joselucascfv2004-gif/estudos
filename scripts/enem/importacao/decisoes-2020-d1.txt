@@ -1,0 +1,161 @@
+## 11-enem-2020-ciencias-humanas.md | 2020 | 1 | 1º dia, caderno azul | Ciências Humanas
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2020 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Aristóteles (ética e política), empirismo de Hume, solipsismo, existencialismo, contratualismo (Rawls), fenomenologia (Merleau-Ponty) e Montaigne (o ensaio).
+- **História geral:** Código de Hamurábi, Roma e a expansão após Cartago, cristianismo primitivo, Reforma Protestante, Revolução Francesa, tráfico de coolies.
+- **História do Brasil:** escravidão na colônia, Revolução Pernambucana de 1817, neoliberalismo dos anos 1990.
+- **Geografia:** relação comercial com a China, novo rural, função social da propriedade, toyotismo, escudos cristalinos, dobramentos modernos, vulcões e solo fértil.
+- **Sociologia:** mulheres no mercado de trabalho, educação inclusiva (Declaração de Salamanca), seringueiros e preservação.
+
+@59 f geografia/geografia-fisica
+s: (magmáticoplutônicas) => (magmático-plutônicas)
+x: Os escudos cristalinos são formados por rochas muito antigas, magmáticas e metamórficas. Nelas se concentram as jazidas de minerais metálicos, como o ferro e o manganês.
+@73 f sociologia/temas-contemporaneos
+x: A Declaração de Salamanca defende a educação inclusiva: toda criança, com suas características e necessidades, tem direito de aprender na escola comum. Isso exige políticas que respeitem a pluralidade dos sujeitos.
+@77 f filosofia/filosofia-antiga-e-medieval
+x: Para Aristóteles, a cidade existe em vista do bem maior, que é a vida feliz (eudaimonia). A ética (o bem de cada um) e a política (o bem da cidade) estão ligadas por esse fim.
+@78 f geografia/economia-agropecuaria-industria-energia
+x: O toyotismo produz de acordo com a demanda (just in time), com estoques mínimos e produção flexível. Era o oposto da produção em massa e dos grandes estoques do fordismo.
+@84 f geografia/geografia-fisica
+x: Quando uma placa oceânica mergulha sob uma continental (subducção), a borda do continente é comprimida e dobrada, formando cordilheiras jovens como os Andes: os dobramentos modernos.
+@86 f historia/revolucoes-e-seculo-xix
+x: A Declaração de 1789 afirma que os homens nascem livres e iguais em direitos. Acabam os privilégios de nascimento do Antigo Regime e todos passam a ter o mesmo tratamento perante a lei.
+@87 f historia/antiguidade-e-idade-media
+x: Na democracia ateniense, mesmo com o conceito restrito de cidadão, os cidadãos participavam diretamente das decisões, votando nas assembleias. O sistema promoveu a participação no exercício do poder.
+@46 m geografia/economia-agropecuaria-industria-energia
+x: O Brasil exporta para a China sobretudo produtos básicos e importa industrializados. Para vender produtos de maior valor, o país precisa de tecnologia própria, o que depende de investir em pesquisa científica no longo prazo.
+@47 m geografia/populacao-e-urbanizacao
+x: O emprego agrícola cai, mas a população rural cresce, com trabalhadores em atividades não agrícolas, aposentados e desempregados morando no campo. O modo de vida rural é heterogêneo, não só agrícola.
+@48 m sociologia/temas-contemporaneos
+x: As mulheres entraram em massa no mercado de trabalho, mas ainda ganham menos e ocupam menos cargos de chefia. Isso se mantém pelo padrão de gestão das empresas (status quo gerencial) e pela divisão de papéis aprendida na família.
+@49 m geografia/economia-agropecuaria-industria-energia
+s: Apropriedade compreende => A propriedade compreende
+x: Pelo texto, a propriedade precisa cumprir uma função social. Por isso os movimentos de reforma agrária defendem desapropriar terras improdutivas, que não cumprem essa função.
+@52 m historia/idade-moderna
+x: A imprensa espalhou livros, e a Reforma defendeu que cada fiel pode ler e interpretar a Bíblia sem a mediação da Igreja. Isso permitiu a Menocchio uma interpretação autônoma dos textos sagrados.
+@53 m geografia/cartografia
+x: Alice imagina que, atravessando a Terra, sairia entre pessoas "de cabeça para baixo". A confusão é com os referenciais de posição: "em cima" e "embaixo" dependem do ponto de vista de quem observa.
+@55 m filosofia/filosofia-moderna-e-contemporanea
+x: O texto pergunta se tudo poderia existir só na sua mente, sem que você pudesse provar que o mundo e os outros existem. Essa é a dúvida do solipsismo: só tenho certeza da minha própria consciência.
+@56 m geografia/biomas-e-questoes-ambientais
+x: A agricultura consome cerca de 70% da água disponível. Para produzir mais alimentos sem esgotar esse recurso, é preciso irrigar com mais eficiência, gastando menos água.
+@57 m geografia/geopolitica-e-globalizacao
+x: Os inimigos dos Estados Unidos deixaram de ser apenas Estados com exércitos e passaram a incluir grupos espalhados pelo mundo, organizados em redes (como o terrorismo). Isso exige estratégias mais amplas.
+@58 m geografia/populacao-e-urbanizacao
+x: O texto diz que as cidades passaram a ser vistas como "máquinas de produzir riquezas" e o planejamento passou a encorajar o crescimento. Esse modelo amplia a participação das empresas e do mercado na cidade.
+@60 m filosofia/filosofia-moderna-e-contemporanea
+x: Encarar a própria morte é tema central do existencialismo (Heidegger, Sartre): diante da finitude, o ser humano é levado a refletir sobre quem é e sobre o sentido da própria existência.
+@61 m geografia/geopolitica-e-globalizacao
+x: Galeano diz que a América Latina "especializou-se em perder": suas riquezas foram levadas pelas potências desde a colonização. É a apropriação imperialista dos recursos do território.
+@62 m historia/antiguidade-e-idade-media
+x: O Código de Hamurábi listava crimes e as punições correspondentes (a lei de talião: "olho por olho"). Sua função era tipificar os atos que mereciam punição.
+@63 m historia/idade-moderna, sociologia/sociologia-classica
+x: A Reforma Protestante valorizou o trabalho como forma de servir a Deus no mundo (a "vocação"), como analisou Max Weber. Isso mudou a visão do trabalho de castigo para virtude.
+@64 m historia/ditadura-e-redemocratizacao
+x: Nos anos 1990, os governos reduziram programas sociais e deixaram tudo para o mercado (neoliberalismo). Ao mesmo tempo, a prioridade era a estabilidade econômica: reformas macroeconômicas e controle da inflação, como o Plano Real.
+@66 m sociologia/temas-contemporaneos
+x: A quadrilha junina usa comandos franceses "abrasileirados", como saruê (soirée) e anarriê (en arrière). É a apropriação de uma prática estrangeira, transformada pela cultura popular.
+@70 m historia/antiguidade-e-idade-media
+x: A destruição de Cartago (146 a.C.) encerrou as Guerras Púnicas e abriu caminho para Roma dominar o Mediterrâneo. A república cresceu além da península Itálica: expansão das fronteiras extrapeninsulares.
+@71 f geografia/economia-agropecuaria-industria-energia v
+x: No poema, a terra se dirige ao lavrador e oferece a ele tudo o que tem: o arado, o pão, o algodão. Ela valoriza a relação entre o camponês e o uso da natureza para viver.
+@72 m filosofia/filosofia-moderna-e-contemporanea
+x: Montaigne criou os "Ensaios", textos em que expõe suas opiniões pessoais sobre diversos temas, a partir da própria experiência. O gênero é o ensaio, marcado pela subjetividade.
+@74 m filosofia/filosofia-moderna-e-contemporanea v
+x: Os dois textos dizem que conhecemos pelo corpo e pelos sentidos: "penso com os olhos e com os ouvidos" e "sei a partir de uma experiência do mundo". Eles valorizam o corpo na apreensão da realidade.
+@79 m historia/revolucoes-e-seculo-xix
+x: Os coolies chineses eram levados por meios coativos e submetidos a abusos, sem liberdade real. Por isso o tráfico foi comparado ao de africanos escravizados: o controle opressivo sobre a vida das pessoas.
+@80 m geografia/biomas-e-questoes-ambientais
+x: Os seringueiros ganharam visibilidade ao unir a luta pela terra à defesa da floresta em pé, de onde tiram o látex (as reservas extrativistas, com Chico Mendes).
+@81 m historia/brasil-colonia
+x: O texto afirma que não se pode viver "sem alguns escravos" para os serviços diários. Ele justifica o uso de cativos na colônia, uma das premissas da expansão portuguesa.
+@82 m geografia/geografia-fisica
+x: Puebla e Legazpi ficam perto de vulcões. Apesar do perigo, as cinzas vulcânicas formam solos muito férteis, o que atrai a agricultura e a ocupação humana.
+@83 m historia/antiguidade-e-idade-media
+x: No século II, o cristianismo era perseguido no Império Romano. Por isso os cristãos se reuniam escondidos nas casas: a decisão política de reprimir a nova religião explica o culto doméstico.
+@89 m filosofia/filosofia-moderna-e-contemporanea
+s: Adão,aindaquesupuséssemosquesuasfaculdades => Adão, ainda que supuséssemos que suas faculdades
+x: Para Hume (empirista), nem Adão, com a razão perfeita, poderia saber que a água afoga sem ter experimentado. Todo conhecimento sobre o mundo vem da experiência, da vivência dos fenômenos.
+@90 m geografia/biomas-e-questoes-ambientais
+x: Um texto liga o aumento de casos de febre amarela à tragédia de Mariana; o outro discorda dessa relação. A divergência é sobre o aparecimento da doença endêmica.
+@69 d filosofia/filosofia-moderna-e-contemporanea
+s: Asociedade como => A sociedade como
+x: O texto é de John Rawls: a sociedade como um sistema justo de cooperação, cujas regras são aceitas por todos. É a retomada do contratualismo moderno (Hobbes, Locke, Rousseau): a ordem política nasce de um acordo.
+@76 d historia/revolucoes-e-seculo-xix
+x: Tocqueville diz que as leis de sucessão (herança) dividiam as propriedades entre os herdeiros, espalhando bens e poder. Isso criou igualdade e um ambiente favorável aos valores burgueses e democráticos.
+@85 d historia/brasil-colonia
+s: político- -territorial => político-territorial
+x: Para o Correio Braziliense, a revolta mostrava um descontentamento geral; para a Gazeta, era só uma "mancha". As duas leituras revelam disputas entre grupos regionais sobre como o território e o poder deveriam se organizar (Pernambuco contra o centro no Rio de Janeiro).
+
+## 12-enem-2020-linguagens.md | 2020 | 1 | 1º dia, caderno azul | Linguagens
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2020 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Funções da linguagem:** a metalinguagem aparece quando o texto fala do próprio código ou da criação do texto (o poeta explicando seu poema).
+- **Gêneros e tipos textuais:** notícia (fato atual, objetivo), relato, reportagem; numa letra de canção podem conviver narração e descrição.
+- **Variação linguística:** expressões regionais, ditados populares e o uso do gerúndio ("vou estar enviando") dizem muito sobre quem fala.
+- **Literatura:** Graça Aranha (pré-modernismo), Dyonélio Machado e o romance de 30, Lima Barreto, Dalton Trevisan, Ondjaki.
+- **Artes e Educação Física:** fusão de culturas (funk com Bach), slam em Libras, lutas com regras, desigualdade de gênero no esporte e saúde ligada às condições sociais.
+
+@6 f portugues/funcoes-generos-e-variacao
+x: Bandeira comenta como nasceu o poema "Vou-me embora pra Pasárgada" e como foi escrito. Quando o texto fala do próprio processo de criação, a função predominante é a metalinguística.
+@13 f artes/artes-e-educacao-fisica
+x: Os aplicativos reúnem pessoas que querem jogar, formando times por meio de comunidades virtuais. A tecnologia ajuda a formar grupos para a prática esportiva.
+@28 f artes/artes-e-educacao-fisica
+x: O funk de MC Fioti usou um trecho de Bach, compositor erudito alemão do século XVIII. Elementos de realidades culturais muito diferentes se combinaram para criar algo novo.
+@31 f portugues/funcoes-generos-e-variacao
+x: O texto relata um fato recente e real (o caso de Joanie Simpson), com título, fontes (jornal médico, Washington Post) e linguagem objetiva. É uma notícia.
+@35 f artes/artes-e-educacao-fisica
+s: inovação.Aempresa => inovação. A empresa
+x: O texto diz que ver o futebol feminino no videogame é importante para as meninas e para a "luta pela igualdade de gênero". O jogo ajuda a disseminar a modalidade e a igualdade.
+@36 f artes/artes-e-educacao-fisica
+x: Pela definição, luta tem contato proposital, ações de ataque e defesa e é "regida por regras". Na escola, isso é um combate corporal intencional com ações regulamentadas, sem agressão.
+@39 f portugues/funcoes-generos-e-variacao v
+x: O hino descreve a bandeira com imagens grandiosas ("céu de puríssimo azul", "verdura sem par destas matas", "esplendor do Cruzeiro do Sul"). A descrição valoriza cada elemento do símbolo.
+@42 f artes/artes-e-educacao-fisica
+x: Os exergames exigem que o jogador se movimente para jogar. Por isso podem estimular a prática de exercícios físicos e contribuir para a saúde.
+@43 f portugues/interpretacao-de-texto
+x: O software copiou o jeito como os funcionários escolhiam e eliminou candidatos só pelo sexo ou pela origem racial; o buscador associa nomes comuns entre negros a antecedentes criminais. A tecnologia expõe o preconceito da sociedade.
+@8 m artes/artes-e-educacao-fisica
+x: No slam em Libras, a voz e o corpo ganham ritmo e tornam a palavra "visível". O corpo articula as linguagens para dar ritmo e visibilidade à poesia.
+@9 m portugues/funcoes-generos-e-variacao
+x: O texto explica a origem de expressões idiomáticas usadas no Brasil. Assim, o leitor conhece registros que fazem parte do inventário (do acervo) do português brasileiro.
+@10 m portugues/semantica-e-figuras-de-linguagem
+x: Chamar as terras-raras de "o ouro do século 21" e usar outras expressões entre aspas é uma forma metafórica de destacar o quanto esses metais são valiosos hoje.
+@11 m literatura/pre-modernismo-ao-contemporaneo
+x: O medo de Maria aparece na paisagem: nuvens "rolavam para o abismo", árvores "choravam", montanhas "ameaçadoras". A natureza reflete o estado emocional da personagem (Canaã, de Graça Aranha).
+@15 m artes/artes-e-educacao-fisica
+x: O texto mostra que, no Brasil, o futebol é visto como esporte de homem, e os jogadores ganham muito mais que as jogadoras, apesar do mesmo esforço.
+@17 m artes/artes-e-educacao-fisica
+x: O texto critica a ideia de que a saúde depende só de escolhas individuais (fazer exercício), porque isso esconde fatores sociais como renda, moradia e trabalho. Ele problematiza a organização social.
+@19 m portugues/funcoes-generos-e-variacao v
+x: A petição jurídica, escrita em versos de cordel, chama o violão de "instrumento do crime" e pergunta se cantar na rua é pecado. O jogo de linguagem atenua a gravidade do "delito".
+@20 m portugues/interpretacao-de-texto
+x: O texto imita o vocabulário do empreendedor de palco: palavras em inglês (mindset, networking, coaching) e frases motivacionais. É por esses padrões de linguagem que ele é reconhecido.
+@24 m portugues/morfologia-e-sintaxe
+x: O "gerundismo" ("vou estar verificando") indica uma ação que continua, em andamento, sem conclusão. Por isso virou "desculpa de ineficiência": a tarefa nunca termina.
+@29 m portugues/semantica-e-figuras-de-linguagem v
+x: A canção monta uma confusão de parentescos cada vez maior até concluir que o garoto seria o "avô" do narrador. A suposição final reforça o humor da situação.
+@32 m literatura/pre-modernismo-ao-contemporaneo
+x: Dona Aparecida responde às queixas do marido sobre o gênio forte do filho com "Quem herda, não rouba": o filho é bravo como o pai. O ditado justifica o temperamento de Chiquito.
+@40 m literatura/pre-modernismo-ao-contemporaneo
+x: Naziazeno precisa pedir dinheiro ao diretor e é humilhado diante de todos, sem poder reagir. A pobreza o obriga a se submeter: é a sujeição moral amplificada pela falta de dinheiro (Os ratos, de Dyonélio Machado).
+@41 m portugues/funcoes-generos-e-variacao, literatura/pre-modernismo-ao-contemporaneo
+x: Policarpo escreve um requerimento oficial ao Congresso. A situação formal (um documento dirigido a autoridades) exige a norma-padrão, mesmo que o pedido seja adotar o tupi.
+@12 d artes/artes-e-educacao-fisica v
+x: O Texto II mostra que "Águas de março" dialoga com fontes anteriores, de tradições diferentes da cultura brasileira ("nada vem do nada"). Ele destaca esse diálogo da canção com diversas tradições.
+@16 d literatura/pre-modernismo-ao-contemporaneo
+s: Melhores contos. São Paulo: Global, 2005. => > Melhores contos. São Paulo: Global, 2005.
+x: Os chefes tentam convencer os operários a ficar dizendo que a companhia "está empenhada nessa ponte" e apelando ao orgulho de construir o país. É um apelo à identificação com a empresa, estendido ao amor à pátria.
+@21 d artes/artes-e-educacao-fisica v
+x: A canção cita lugares (Itamaracá, São Bento do Una, Caruaru, Casa Forte), manifestações (boi-bumbá, ciranda, maracatu, mamulengo) e heróis locais (Frei Caneca). Ela identifica a cultura popular de Pernambuco.
+@23 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador repete que tem empresas, visto e carro importado, em frases curtas e vaidosas. As repetições mostram a futilidade de seu discurso de poder e de distinção social.
+@27 d portugues/funcoes-generos-e-variacao v
+x: Em "Alegria, alegria", o eu lírico conta que caminha pela cidade ("Eu vou") e, ao mesmo tempo, descreve o que vê (bancas, notícias, presidentes). Os tipos que se destacam são o narrativo e o descritivo.
+@34 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador fala como criança: "Nós, as crianças, vivíamos num tempo fora do tempo", o Carnaval "chegava sempre de repente", a vida é "um jogo brincado na rua". O efeito afetivo vem dessa perspectiva infantil assumida pela voz narrativa.
+@38 d portugues/interpretacao-de-texto
+a: “Que linda a ‘antiga, muy nobre, sempre leal e invicta’ cidade do Porto!”. | “‘Encantei-me’, diriam eles... pelas belas paisagens, construções históricas com lindas fachadas [...]”. | “Os tripeiros, sinônimo de portuenses, têm orgulho de sua cidade [...]”. | “E valorizam tudo o que há de bom ali, como ‘a melhor estrada para se dirigir do mundo’ [...]”. | “Pois na manhã do 25 de abril, dia da Revolução dos Cravos, resolvemos conhecer a tal maravilha”.
+x: A expressão "antiga, muy nobre, sempre leal e invicta" é o título histórico da cidade do Porto, uma voz externa que fala da identidade do povo. O autor a cita para seduzir o leitor.
+@45 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador recusa a Curitiba de cartão-postal ("a outra para inglês ver") e escolhe a cidade dos becos, do realejo parado, da "província, cárcere, lar". Ele desconstrói a imagem habitual da cidade.

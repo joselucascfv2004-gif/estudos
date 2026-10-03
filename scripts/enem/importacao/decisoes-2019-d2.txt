@@ -1,0 +1,166 @@
+## 13-enem-2019-matematica.md | 2019 | 2 | 2º dia, caderno amarelo | Matemática
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2019 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2019 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Porcentagens sucessivas:** aumentos de 7,2% e depois 10% viram 1,072 × 1,10.
+- **Divisão proporcional:** "inversamente proporcional a 2, 3 e 5" significa dividir em partes proporcionais a 1/2, 1/3 e 1/5.
+- **Juros compostos:** para trazer uma parcela para hoje, divida por (1 + i)ⁿ.
+- **Escala e volume:** na escala 1 : 200, o volume real é 200³ vezes o da maquete.
+- **Probabilidade condicional:** P(A dado B) = P(A e B) ÷ P(B). Monte uma tabela com as porcentagens.
+- **Sequências cíclicas:** use o resto da divisão pelo tamanho do bloco que se repete.
+
+@136 f matematica/razao-proporcao-regra-de-tres
+s: volume de 1 cm3. A capacidade => volume de 1 cm³. || A capacidade
+x: Dose diária: 500 mg × 20 kg = 10 000 mg = 10 g. Em 5 dias: 50 g. Como 1 g ocupa 1 cm³ = 1 mL, são 50 mL: o frasco de 50 mL atende sem sobra.
+@141 f matematica/porcentagem
+x: O transporte custa 1/5 = 20% do valor do objeto. Para o gasto total não passar de 100% do valor, a recompensa pode ser de no máximo 100% − 20% = 80%.
+@143 f matematica/numeros-e-operacoes
+e: Um casal planejou uma viagem e definiu como teto para o gasto diário um valor de até R$ 1 000,00. Antes de decidir o destino da viagem, fizeram uma pesquisa sobre a taxa de câmbio vigente para as moedas de cinco países que desejavam visitar e também sobre as estimativas de gasto diário em cada um, com o objetivo de escolher o destino que apresentasse o menor custo diário em real. O quadro mostra os resultados obtidos com a pesquisa realizada. || Quadro (país de destino: moeda local; taxa de câmbio; gasto diário): França: euro (€); R$ 3,14; € 315,00. EUA: dólar (US$); R$ 2,78; US$ 390,00. Austrália: dólar australiano (A$); R$ 2,14; A$ 400,00. Canadá: dólar canadense (C$); R$ 2,10; C$ 410,00. Reino Unido: libra esterlina (£); R$ 4,24; £ 290,00. || Nessas condições, qual será o destino escolhido para a viagem?
+x: Converta tudo para real (gasto × câmbio). França: 315 × 3,14 = 989,10. EUA: 390 × 2,78 = 1 084,20. Austrália: 400 × 2,14 = 856,00. Canadá: 410 × 2,10 = 861,00. Reino Unido: 290 × 4,24 = 1 229,60. O menor custo é o da Austrália.
+@144 f matematica/numeros-e-operacoes
+a: 1,1 × 10⁻¹ | 1,1 × 10⁻² | 1,1 × 10⁻³ | 1,1 × 10⁻⁴ | 1,1 × 10⁻⁵
+x: Em notação científica, a vírgula vai para depois do primeiro algarismo diferente de zero: 0,00011 = 1,1 × 10⁻⁴ (a vírgula andou 4 casas para a direita).
+@146 f matematica/geometria-plana
+s: 100 m2 de área => 100 m² de área
+a: será suficiente, pois a área da nova região a ser pavimentada mede 21 m². | será suficiente, pois a área da nova região a ser pavimentada mede 24 m². | será suficiente, pois a área da nova região a ser pavimentada mede 48 m². | não será suficiente, pois a área da nova região a ser pavimentada mede 108 m². | não será suficiente, pois a área da nova região a ser pavimentada mede 120 m².
+x: O diâmetro passa de 6 m para 14 m, ou seja, o raio passa de 3 m para 7 m. Área nova a pavimentar = área do círculo grande − área do pequeno = 3 × 7² − 3 × 3² = 147 − 27 = 120 m², mais do que os 100 m² em estoque.
+@152 f matematica/grandezas-medidas-escalas
+s: capacidade de 0,3 m3. => capacidade de 0,3 m³.
+x: 0,3 m³ = 300 L; com 80%: 240 L. Cada embalagem rende 2,7 L: 240 ÷ 2,7 ≈ 88,9. Para não faltar produto, são necessárias 89 embalagens (arredonda para cima).
+@157 f matematica/porcentagem
+x: De 2000 para 2010: 1 250 × 1,072 = 1 340. De 2010 para 2020: 1 340 × 1,10 = 1 474. Os aumentos se aplicam um sobre o outro, não se somam (somar 17,2% daria 1 465).
+@159 f raciocinio-logico/sequencias-e-problemas-de-logica
+x: O bloco que se repete é 5, 4, 3, 2, 1, 2, 3, 4 (8 números). 2 015 = 8 × 251 + 7, então o item 2 015 é o 7º do bloco: o número 3, que é a caixa de direção.
+@165 f matematica/estatistica
+x: Soma das alturas: 20 × 1,80 = 36 m. Trocando um jogador por outro 0,20 m mais baixo, a soma vira 35,80 m. Nova média: 35,80 ÷ 20 = 1,79 m.
+@166 f matematica/estatistica
+e: Em uma fábrica de refrigerantes, é necessário que se faça periodicamente o controle no processo de engarrafamento para evitar que sejam envasadas garrafas fora da especificação do volume escrito no rótulo. Diariamente, durante 60 dias, foram anotadas as quantidades de garrafas fora dessas especificações. O resultado está apresentado no quadro. || Quadro (quantidade de garrafas fora das especificações por dia: quantidade de dias): 0: 52; 1: 5; 2: 2; 3: 1. || A média diária de garrafas fora das especificações no período considerado é
+x: Total de garrafas: 0 × 52 + 1 × 5 + 2 × 2 + 3 × 1 = 12. Em 60 dias: 12 ÷ 60 = 0,2 garrafa por dia. (É uma média ponderada pela quantidade de dias.)
+@167 f matematica/grandezas-medidas-escalas
+e: O Sistema Métrico Decimal é o mais utilizado atualmente para medir comprimentos e distâncias. Em algumas atividades, porém, é possível observar a utilização de diferentes unidades de medida. || Um exemplo disso pode ser observado no quadro. || Quadro (unidade: equivalência): polegada: 2,54 centímetros; jarda: 3 pés; jarda: 0,9144 metro. || Assim, um pé, em polegada, equivale a
+x: 1 jarda = 3 pés = 0,9144 m, então 1 pé = 0,3048 m = 30,48 cm. Em polegadas: 30,48 ÷ 2,54 = 12.
+@173 f matematica/funcoes-afim-e-quadratica
+x: São X funcionários: 1 gerente e X − 1 diaristas. Cada diarista recebe 2 × 80 = R$ 160 por semana. Y = 1 000 + 160(X − 1) = 160X + 840.
+@140 m matematica/exponencial-e-logaritmo
+s: pH = - log10x, em que x => pH = −log₁₀ x, em que x
+a: qualquer valor acima de 10⁻⁸. | qualquer valor positivo inferior a 10⁻⁷. | valores maiores que 7 e menores que 8. | valores maiores que 70 e menores que 80. | valores maiores que 10⁻⁸ e menores que 10⁻⁷.
+x: A flor rosa mais valorizada exige 7 < pH < 8. Como pH = −log x, temos x = 10^(−pH): pH = 7 dá x = 10⁻⁷ e pH = 8 dá x = 10⁻⁸. Quanto maior o pH, menor a concentração: 10⁻⁸ < x < 10⁻⁷.
+@153 m matematica/progressoes
+s: Ano 2013 2014 2015 Número total de acidentes 1 050 900 850 Suponha => Quadro (ano: número total de acidentes): 2013: 1 050; 2014: 900; 2015: 850. || Suponha
+x: De 2014 para 2015 a redução foi de 50 acidentes. Mantendo 50 a menos por ano: 2016 = 800, 2017 = 750, 2018 = 700. É uma progressão aritmética de razão −50.
+@154 m matematica-financeira/juros-simples-e-compostos
+x: Traga cada parcela para a data da compra dividindo por 1,01 a cada mês: 202 ÷ 1,01 = 200 e 204,02 ÷ 1,01² = 204,02 ÷ 1,0201 = 200. Valor à vista: 200 + 200 = R$ 400,00.
+@155 m matematica/razao-proporcao-regra-de-tres
+x: Cada sócio inicial investiu 1 000 000 ÷ 3 ≈ 333 333 + 800 000 ÷ 4 = 200 000, total ≈ 533 333, isto é, 533 333 ÷ 1 800 000 ≈ 29,6%. O quarto sócio investiu só 200 000: 200 000 ÷ 1 800 000 ≈ 11,1%.
+@156 m matematica/razao-proporcao-regra-de-tres
+x: Inversamente proporcional às idades 2, 3 e 5 = proporcional a 1/2, 1/3 e 1/5, ou seja, a 15, 10 e 6 (multiplicando por 30). São 31 partes: 31 000 ÷ 31 = 1 000 por parte. A máquina de 5 anos recebe 6 partes: R$ 6 000,00.
+@158 m matematica/exponencial-e-logaritmo
+s: Descrição Magnitude local (Ms) || (µm ⋅ Hz) || Pequeno 0 ≤ Ms ≤ 3,9 Ligeiro 4,0 ≤ Ms ≤ 4,9 Moderado 5,0 ≤ Ms ≤ 5,9 Grande 6,0 ≤ Ms ≤ 9,9 Extremo Ms ≥ 10,0 Para => Quadro (descrição: magnitude local Ms, em µm·Hz): Pequeno: 0 ≤ Ms ≤ 3,9. Ligeiro: 4,0 ≤ Ms ≤ 4,9. Moderado: 5,0 ≤ Ms ≤ 5,9. Grande: 6,0 ≤ Ms ≤ 9,9. Extremo: Ms ≥ 10,0. || Para
+s: cejarj.cecierj.edu.br.Acesso => cejarj.cecierj.edu.br. Acesso
+x: Ms = 3,30 + log(2 000 × 0,2) = 3,30 + log 400 = 3,30 + log(4 × 100) = 3,30 + 2 × 0,3 + 2 = 5,90. Está entre 5,0 e 5,9: moderado.
+@162 m matematica/grandezas-medidas-escalas
+s: capacidade de 45 cm3. => capacidade de 45 cm³.
+a: 30 | 15 | 12 | 6 | 3
+x: Na escala 1 : 200, cada medida real é 200 vezes maior, e o volume é 200³ = 8 000 000 de vezes maior. 45 cm³ × 8 000 000 = 360 000 000 cm³ = 360 000 L. Com 30 000 L por dia: 12 dias.
+@164 m matematica/probabilidade
+s: perceber uma placa de anúncio é 1 . => perceber uma placa de anúncio é 1/2.
+s: fosse superior a 100 . => fosse superior a 99/100.
+x: É mais fácil calcular o contrário: a chance de não perceber nenhuma de n placas é (1/2)ⁿ. Queremos 1 − (1/2)ⁿ > 99/100, isto é, (1/2)ⁿ < 1/100, ou 2ⁿ > 100. O menor n é 7 (2⁷ = 128). Como já existe 1 placa, faltam 6 novas.
+@168 m matematica/exponencial-e-logaritmo
+s: o primeiro país recebeu um valor X , o segundo X , o terceiro X 3, o quarto X2 e o último X3 . => o primeiro país recebeu um valor X, o segundo √X, o terceiro X^(1/3), o quarto X² e o último X³.
+x: Para um número entre 0 e 1, elevar a expoentes maiores que 1 diminui o valor (X³ < X² < X), e tirar raízes aumenta (X < √X < X^(1/3)). Exemplo: X = 0,064 dá √X ≈ 0,25 e X^(1/3) = 0,4. O maior é o do terceiro país.
+@170 m matematica/razao-proporcao-regra-de-tres
+a: q/(0,8m) > 0,4 | 0,4m/q > 0,8 | q/(0,4m) > 0,8 | 0,08m/q > 0,4 | q/(0,08m) > 0,4
+x: Volume de sangue = 8% de m = 0,08m litros. Concentração = q ÷ (0,08m). Ela prejudica a saúde quando passa de 0,4 g/L: q/(0,08m) > 0,4.
+@172 m matematica/estatistica
+s: Média Mediana Moda 1,65 1,67 1,70 Os alunos => Alturas da turma, em metro: média 1,65; mediana 1,67; moda 1,70. || Os alunos
+x: A turma tem número ímpar de alunos (o basquete tem 1 a mais) e o basquete fica com os mais altos, a partir da mediana. A mediana é 1,67 m: quem mede 1,67 m ou mais joga basquete (F e M); quem mede menos joga futebol (P e J).
+@179 m matematica/porcentagem
+s: é igual a 40 m2, uma => é igual a 40 m², uma
+x: Orçamento inicial: 10 000 + 40 000 + 2 500 × 40 = 150 000. Novo total deve ser 90%: 135 000. Projeto: 5 000; área interna: 2 500 × 1,25 × 40 = 125 000. Sobram 135 000 − 130 000 = 5 000 para os custos fixos, que eram 40 000: desconto de 35 000 ÷ 40 000 = 87,5%.
+@145 d matematica/razao-proporcao-regra-de-tres
+x: Defesa = k·nível·experiência² e ataque = c·experiência·nível². Com nível 1 e experiência 1, ataque 2 e defesa 1, então c = 2 e k = 1. Ataque de J1: 2 × 5 × 4² = 160. Defesa de J2: 1 × 2 × 6² = 72. Diferença: 160 − 72 = 88.
+@160 d matematica/analise-combinatoria
+x: Sem restrição, 8 pessoas formam 7 × 5 × 3 × 1 = 105 conjuntos de quatro duplas. Os casos proibidos têm os dois canhotos juntos: sobram 6 pessoas, que formam 5 × 3 × 1 = 15 conjuntos. Resposta: 105 − 15 = 90.
+@176 d matematica/probabilidade
+x: Fraudulentas e inconsistentes: 25% de 20% = 5%. Fraudulentas e não inconsistentes: 6,25% de 80% = 5%. Fraudulentas no total: 10%. P(inconsistente dado fraudulenta) = 5% ÷ 10% = 0,5.
+@178 d matematica/geometria-espacial
+s: R1 R3 R2 RC R4 As ligações => As ligações
+x: Água total: π × 2² × 3,30 = 13,2π m³. Os 4 canos guardam 4 × π × 0,05² × 20 = 0,2π m³. Sobra 13π m³ para os reservatórios, todos com a mesma altura h: (π × 2² + 4 × π × 1,5²)h = 13πh. Então 13πh = 13π e h = 1,00 m.
+
+## 14-enem-2019-ciencias-da-natureza.md | 2019 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2019 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2019 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Energia nas células:** a cadeia respiratória e a ATP sintetase produzem ATP; desacopladores fazem a energia virar calor.
+- **Física:** impulso (F·Δt = Δp), indução eletromagnética, calorimetria (Q = m·c·ΔT) e condução de calor (proporcional a k e à área).
+- **Química:** modelos atômicos, cor da chama (salto de elétrons), forças intermoleculares, termoquímica (lei de Hess) e titulação.
+- **Biologia:** ecologia (competição, estratégias r e K, controle biológico), genética (genes ligados), vírus e vacinas.
+- **Leia o que se pede:** "o que se contesta", "qual vantagem", "por quê" mudam a resposta mesmo com o mesmo texto.
+
+@93 f quimica/atomistica-e-tabela-periodica
+x: Os postulados 1 a 4 caíram: o átomo é divisível (prótons, nêutrons, elétrons), existem isótopos com massas diferentes e há reações nucleares. Continua valendo que os átomos se combinam em proporções de números inteiros pequenos para formar compostos.
+@95 f fisica/eletricidade
+x: Aterrar a cerca liga o arame ao solo: a corrente induzida escoa para a terra em vez de passar pelo corpo de quem toca nela. Mexer na rede de alta tensão não impede a indução.
+@96 f biologia/saude-e-doencas
+x: A vacina faz o corpo produzir anticorpos antes do contato com o verme. Se a pessoa for infectada, o sistema imune elimina o esquistossomo logo no início, antes de aparecerem os sintomas.
+@99 f biologia/fisiologia-humana, quimica/atomistica-e-tabela-periodica
+x: O estrôncio está na mesma família do cálcio (metais alcalinoterrosos) e tem comportamento químico parecido. Por isso o corpo o confunde com o cálcio e o deposita nos ossos.
+@105 f biologia/ecologia
+x: Sem agrotóxicos, o controle das pragas é biológico: usam-se os inimigos naturais dos insetos, como predadores e parasitoides.
+@111 f quimica/quimica-ambiental
+x: O concreto reciclado moído substitui o "particulado rochoso graúdo", que é a brita. Assim, diminui a extração de brita das rochas.
+@116 f quimica/atomistica-e-tabela-periodica
+x: O calor da chama excita os elétrons para níveis mais externos. Ao voltarem para níveis mais internos, eles liberam a energia como luz de cor característica de cada elemento.
+@118 f biologia/seres-vivos
+x: As larvas se movem em direção à luz da lâmpada. Movimento orientado pela luz, no sentido dela, é chamado de fototropismo (ou fototaxia) positivo.
+@121 f biologia/fisiologia-humana
+x: A EPO estimula a produção de hemácias. Mais hemácias transportam mais oxigênio aos músculos, que produzem mais ATP pela respiração aeróbica.
+@130 f biologia/fisiologia-humana
+x: O rim filtra o sangue e elimina resíduos nitrogenados, principalmente a ureia, pela urina. Um rim biônico substituiria a hemodiálise exatamente nessa remoção.
+@134 f quimica/solucoes, biologia/citologia
+x: A água do feijão estava mais salgada que o interior das batatas. O sal se moveu do meio mais concentrado para o menos concentrado, a favor do gradiente: é difusão.
+@92 m biologia/citologia
+s: prótons (H+) || provenientes => prótons (H⁺) provenientes
+x: Os prótons voltam à matriz sem passar pela ATP sintetase, então a célula produz pouco ATP. Para compensar, ela queima mais nutrientes (gorduras e açúcares), e a energia vira calor: daí o emagrecimento.
+@100 m fisica/termologia
+x: O pneu de A deforma menos, então está mais calibrado: pA > pB. Ele também é mais estreito, com volume menor, e como a massa de ar é proporcional ao volume, mA < mB.
+@102 m biologia/ecologia
+x: As cutias, da mesma espécie, disputam o mesmo recurso (as sementes enterradas). Disputa por recursos é competição (aqui, intraespecífica).
+@104 m quimica/quimica-ambiental, biologia/ecologia
+x: O resíduo tem pectina e açúcares (fonte de carbono) e alcaloides (compostos com nitrogênio). Ao se decompor, devolve carbono e nitrogênio ao solo: é a reciclagem desses elementos.
+@106 m biologia/genetica-e-biotecnologia
+x: A distribuição independente vale para genes em cromossomos diferentes. Genes próximos no mesmo cromossomo (ligados) tendem a ir juntos para o mesmo gameta.
+@107 m fisica/dinamica
+s: gravitacional seja 10 m s−2 e que => gravitacional seja 10 m/s² e que
+x: Caindo de 5 m, o tijolo chega com v² = 2gh = 100, então v = 10 m/s. Impulso: F × 0,5 = 2,5 × 10, logo F = 50 N. O peso de um tijolo é 2,5 × 10 = 25 N: a força equivale a 2 tijolos.
+@108 m quimica/quimica-organica
+s: Fração Faixa de temperatura (°C) || Exemplos de produto(s) || Número de átomos de carbono (hidrocarboneto de fórmula geral CnH2n+2) || 1 Até 20 Gás natural e gás de cozinha (GLP) C1 a C4 2 30 a 180 Gasolina C6 a C12 3 170 a 290 Querosene C11 a C16 4 260 a 350 Óleo diesel C14 a C18 => Quadro (fração: faixa de temperatura; exemplos de produtos; número de átomos de carbono, para hidrocarbonetos CₙH₂ₙ₊₂): 1: até 20 °C; gás natural e gás de cozinha (GLP); C1 a C4. 2: 30 a 180 °C; gasolina; C6 a C12. 3: 170 a 290 °C; querosene; C11 a C16. 4: 260 a 350 °C; óleo diesel; C14 a C18.
+x: Na fração 4 as moléculas são maiores (mais carbonos), com mais área de contato entre elas. As forças intermoleculares ficam mais intensas, e é preciso mais energia (temperatura) para separá-las na ebulição. Nenhuma ligação da cadeia é quebrada.
+@110 m biologia/saude-e-doencas, biologia/genetica-e-biotecnologia
+x: Retrovírus (como o HIV) usam a transcriptase reversa para fazer DNA a partir do seu RNA. Os antirretrovirais bloqueiam essa e outras etapas, dificultando a reprodução do vírus.
+@113 m fisica/termologia
+s: 1 cal g−1 °C−1, e sua => 1 cal/(g·°C), e sua
+s: Quantidade por porção de 10 g (2 castanhas) || Valor energético 70 kcal Carboidratos 0,8 g Proteínas 3,5 g Gorduras totais 3,5 g Qual foi => Tabela nutricional — quantidade por porção de 10 g (2 castanhas): valor energético 70 kcal; carboidratos 0,8 g; proteínas 3,5 g; gorduras totais 3,5 g. || Qual foi
+x: 2,5 g de castanha têm 70 × 2,5/10 = 17,5 kcal. Com 50% de aproveitamento: 8,75 kcal = 8 750 cal. ΔT = Q/(m·c) = 8 750 ÷ 350 = 25 °C. Temperatura final: 20 + 25 = 45 °C.
+@120 m fisica/cinematica
+x: Se a queda "alguns minutos depois" seria em outro ponto (a cidade), o foguete se movia em relação ao solo. Os objetos em órbita giram no mesmo sentido da Terra, mas mais depressa: velocidade angular maior que a da Terra, no mesmo sentido.
+@126 m biologia/ecologia
+s: Estratégia 1 Estratégia 2 Hábitat Mais instável e imprevisível Mais estável e previsível Potencial biótico Muito elevado Baixo Duração da vida Curta e com reprodução precoce Longa e com reprodução tardia Descendentes Muitos e com tamanho corporal pequeno Poucos e com tamanho corporal maior Tamanho populacional Variável Constante Na recuperação => Estratégia 1: hábitat mais instável e imprevisível; potencial biótico muito elevado; vida curta e com reprodução precoce; muitos descendentes, com tamanho corporal pequeno; tamanho populacional variável. || Estratégia 2: hábitat mais estável e previsível; potencial biótico baixo; vida longa e com reprodução tardia; poucos descendentes, com tamanho corporal maior; tamanho populacional constante. || Na recuperação
+x: Uma área desmatada é instável. Quem a coloniza primeiro são espécies de reprodução rápida e muitos descendentes (estratégia r, pioneiras), que ocupam o espaço depressa e preparam o ambiente para as outras.
+@129 m fisica/ondulatoria-e-optica
+x: Com a pupila pequena, só entram raios quase paralelos ao eixo óptico, que sofrem pouco desvio ao refratar dentro do olho. A imagem se forma mais nítida, mesmo com o desfoque causado pela água.
+@132 m fisica/ondulatoria-e-optica
+x: Huygens diz que a luz não poderia ser "uma matéria que venha do objeto", como uma flecha ou bala, porque feixes se cruzam sem se atrapalhar. Ele contesta o modelo corpuscular de Newton e defende o ondulatório.
+@125 d quimica/fisico-quimica
+s: C6H12O6 (s) + 6 O2 (g) → 6 CO2 (g) + 6 H2O (l) ∆cH = −2 800 kJ CH3CH(OH)COOH (s) + 3 O2 (g) → 3 CO2 (g) + 3 H2O (l) ∆cH = −1 344 kJ O processo => C₆H₁₂O₆ (s) + 6 O₂ (g) → 6 CO₂ (g) + 6 H₂O (l)   ΔcH = −2 800 kJ || CH₃CH(OH)COOH (s) + 3 O₂ (g) → 3 CO₂ (g) + 3 H₂O (l)   ΔcH = −1 344 kJ || O processo
+s: na presença de O2. => na presença de O₂.
+s: um déficit de O2 e => um déficit de O₂ e
+x: Pela lei de Hess, glicose → 2 ácido lático tem ΔH = −2 800 − 2 × (−1 344) = −2 800 + 2 688 = −112 kJ. A via anaeróbica libera só 112 kJ por mol de glicose, bem menos que a oxidação completa.
+@122 d fisica/termologia
+s: suascondutividadestérmicaskA ekB.Paraissosuspende, => suas condutividades térmicas kA e kB. Para isso suspende,
+s: A razão kA kB é mais próxima de => A razão kA/kB é mais próxima de
+x: Área interna de A: 6 × 40 × 40 = 9 600 cm². De B: 2 × (40 × 40) + 4 × (60 × 40) = 12 800 cm². O calor que entra (e o gelo derretido) é proporcional a k × área. Se B derrete o dobro: kB × 12 800 = 2 × kA × 9 600, então kA/kB = 12 800 ÷ 19 200 ≈ 0,67.
+@133 d quimica/solucoes
+s: Polpa de fruta Valor mínimo da acidez total expressa em ácido cítrico (g/100 g) || Acerola 0,8 Caju 0,3 Cupuaçu 1,5 Graviola 0,6 Maracujá 2,5 A acidez => Quadro (polpa de fruta: valor mínimo da acidez total expressa em ácido cítrico, em g/100 g): acerola 0,8; caju 0,3; cupuaçu 1,5; graviola 0,6; maracujá 2,5. || A acidez
+s: massa molar 192 g mol−1. => massa molar 192 g/mol.
+s: hidróxido de sódio 0,01 mol L−1, => hidróxido de sódio 0,01 mol/L,
+x: NaOH gasto: 0,01 × 0,024 = 2,4 × 10⁻⁴ mol. O ácido é triprótico (3 H⁺), então há 8 × 10⁻⁵ mol de ácido cítrico = 8 × 10⁻⁵ × 192 ≈ 0,0154 g em 2,2 g de polpa, ou ≈ 0,70 g em 100 g. Isso atinge o mínimo do caju (0,3) e da graviola (0,6), mas não o da acerola (0,8).
