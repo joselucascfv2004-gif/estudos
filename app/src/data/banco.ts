@@ -40,6 +40,8 @@ export type Topico = {
   ordemOriginal?: boolean;
   /** quanto o assunto costuma cair nas provas: 1 (pouco) a 5 (muito) */
   incidencia?: number;
+  /** ids de questões oficiais (ENEM) de outros arquivos classificadas neste assunto */
+  oficiais?: string[];
 };
 
 /** As alternativas desta questão podem ser embaralhadas? (não em provas oficiais nem em certo/errado) */
@@ -92,9 +94,22 @@ export function getQuestao(id: string) {
   return questaoPorId.get(id);
 }
 
+// questões do próprio arquivo + questões oficiais classificadas neste assunto
+const questoesComOficiais = new Map<string, Questao[]>();
+for (const { topico } of topicoPorId.values()) {
+  const proprias = banco.questoes[topico.id] ?? [];
+  const oficiais = (topico.oficiais ?? []).map((id) => questaoPorId.get(id)?.questao).filter((q): q is Questao => !!q);
+  questoesComOficiais.set(topico.id, oficiais.length ? [...proprias, ...oficiais] : proprias);
+}
+
 export function questoesDoTopico(topicoId: string, nivel?: Nivel): Questao[] {
-  const todas = banco.questoes[topicoId] ?? [];
+  const todas = questoesComOficiais.get(topicoId) ?? [];
   return nivel == null ? todas : todas.filter((q) => q.n === nivel);
+}
+
+/** Quantas questões oficiais (provas anteriores) estão classificadas neste assunto. */
+export function totalOficiais(topico: Topico) {
+  return topico.oficiais?.length ?? 0;
 }
 
 /** Disciplinas (com os tópicos filtrados) cobradas na prova-alvo do aluno. */

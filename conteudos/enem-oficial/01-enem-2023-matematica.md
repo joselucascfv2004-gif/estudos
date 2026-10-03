@@ -43,6 +43,8 @@ A quantidade mínima de pacotes de pão de fôrma necessários para prover o sup
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 136
 
+**Assunto:** matematica/numeros-e-operacoes
+
 ### 141
 O calendário maia apresenta duas contagens simultâneas de anos, o chamado ano Tzolkim, composto por 260 dias e que determinava o calendário religioso, e o ano Haab, composto por 365 dias e que determinava o calendário agrícola. Um historiador encontrou evidências de que gerações de uma mesma família governaram certa comunidade maia pelo período de 20 ciclos, sendo cada ciclo formado por 52 anos Haab.
 
@@ -61,6 +63,8 @@ De acordo com as informações fornecidas, durante quantos anos Tzolkim aquela c
 **Explicação:** 20 ciclos × 52 anos Haab = 1 040 anos Haab = 1 040 × 365 = 379 600 dias. Em anos Tzolkim: 379 600 ÷ 260 = 1 460.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 141
+
+**Assunto:** matematica/numeros-e-operacoes
 
 ### 143
 Entre maratonistas, um parâmetro utilizado é o de economia de corrida (EC). O valor desse parâmetro é calculado pela razão entre o consumo de oxigênio, em mililitro (mL) por minuto (min), e a massa, em quilograma (kg), do atleta correndo a uma velocidade constante.
@@ -83,6 +87,8 @@ A unidade de medida da grandeza descrita pelo parâmetro EC é
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 143
 
+**Assunto:** matematica/grandezas-medidas-escalas
+
 ### 161
 Dirigir após ingerir bebidas alcoólicas é uma atitude extremamente perigosa, uma vez que, a partir da primeira dose, a pessoa já começa a ter perda de sensibilidade de movimentos e de reflexos. Apesar de a eliminação e absorção do álcool depender de cada pessoa e de como o organismo consegue metabolizar a substância, ao final da primeira hora após a ingestão, a concentração de álcool (C) no sangue corresponde a aproximadamente 90% da quantidade (q) de álcool ingerida, e a eliminação total dessa concentração pode demorar até 12 horas.
 
@@ -102,6 +108,8 @@ Nessas condições, ao final da primeira hora após a ingestão da quantidade q 
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 161
 
+**Assunto:** matematica/porcentagem
+
 ### 171
 Para concretar a laje de sua residência, uma pessoa contratou uma construtora. Tal empresa informa que o preço y do concreto bombeado é composto de duas partes: uma fixa, chamada de taxa de bombeamento, e uma variável, que depende do volume x de concreto utilizado. Sabe-se que a taxa de bombeamento custa R$ 500,00 e que o metro cúbico do concreto bombeado é de R$ 250,00.
 
@@ -118,6 +126,8 @@ A expressão que representa o preço y em função do volume x, em metro cúbico
 **Explicação:** É uma função afim: a parte variável é 250 por metro cúbico (250x) e a parte fixa é 500. Logo, y = 250x + 500.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
 
 ### 173
 Um supermercado conta com cinco caixas disponíveis para pagamento. Foram instaladas telas que apresentam o tempo médio gasto por cada caixa para iniciar e finalizar o atendimento de cada cliente, e o número de pessoas presentes na fila de cada caixa em tempo real. Um cliente, na hora de passar sua compra, sabendo que cada um dos cinco caixas iniciará um novo atendimento naquele momento, pretende gastar o menor tempo possível de espera na fila. Ele observa que as telas apresentavam as informações a seguir.
@@ -141,6 +151,8 @@ Para alcançar seu objetivo, o cliente deverá escolher o caixa
 **Explicação:** Tempo de espera = tempo por atendimento × pessoas na fila: I = 60 min; II = 54 min; III = 30 min; IV = 30 min; V = 27 min. O menor é o do caixa V.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/numeros-e-operacoes
 
 ## Médio
 
@@ -170,6 +182,8 @@ Qual será a medida, em metro, de cada um dos cabos a serem instalados?
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 137
 
+**Assunto:** matematica/trigonometria
+
 ### 139
 Uma pessoa pratica quatro atividades físicas — caminhar, correr, andar de bicicleta e jogar futebol — como parte de seu programa de emagrecimento. Essas atividades são praticadas semanalmente de acordo com o quadro, que apresenta o número de horas diárias por atividade.
 
@@ -198,6 +212,8 @@ O dia da semana em que será comemorado o aniversário é
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 139
 
+**Assunto:** matematica/numeros-e-operacoes
+
 ### 140
 A cada bimestre, a diretora de uma escola compra uma quantidade de folhas de papel ofício proporcional ao número de alunos matriculados. No bimestre passado, ela comprou 6 000 folhas para serem utilizadas pelos 1 200 alunos matriculados. Neste bimestre, alguns alunos cancelaram suas matrículas e a escola tem, agora, 1 150 alunos.
 
@@ -217,6 +233,8 @@ O desconto necessário no preço final da compra, em porcentagem, pertence ao in
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 140
 
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
 ### 149
 No alojamento de uma universidade, há alguns quartos com o padrão superior ao dos demais. Um desses quartos ficou disponível, e muitos estudantes se candidataram para morar no local. Para escolher quem ficará com o quarto, um sorteio será realizado. Para esse sorteio, cartões individuais com os nomes de todos os estudantes inscritos serão depositados em uma urna, sendo que, para cada estudante de primeiro ano, será depositado um único cartão com seu nome; para cada estudante de segundo ano, dois cartões com seu nome; e, para cada estudante de terceiro ano, três cartões com seu nome. Foram inscritos 200 estudantes de primeiro ano, 150 de segundo ano e 100 de terceiro ano. Todos os cartões têm a mesma probabilidade de serem sorteados.
 
@@ -233,6 +251,8 @@ Qual a probabilidade de o vencedor do sorteio ser um estudante de terceiro ano?
 **Explicação:** Total de cartões: 200 × 1 + 150 × 2 + 100 × 3 = 800. Cartões de terceiro ano: 300. Probabilidade: 300 ÷ 800 = 3/8.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/probabilidade
 
 ### 150
 A água utilizada pelos 75 moradores de um vilarejo provém de um reservatório de formato cilíndrico circular reto cujo raio da base mede 5 metros, sempre abastecido no primeiro dia de cada mês por caminhões-pipa. Cada morador desse vilarejo consome, em média, 200 litros de água por dia.
@@ -253,6 +273,8 @@ Qual é a quantidade mínima de água, em litro, que cada morador, em média, de
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 150
 
+**Assunto:** matematica/geometria-espacial
+
 ### 151
 Em janeiro do ano passado, a direção de uma fábrica abriu uma creche para os filhos de seus funcionários, com 10 salas, cada uma com capacidade para atender 10 crianças a cada ano. As vagas são sorteadas entre os filhos dos funcionários inscritos, enquanto os não contemplados pelo sorteio formam uma lista de espera. No ano passado, a lista de espera teve 400 nomes e, neste ano, esse número cresceu 10%.
 
@@ -272,6 +294,8 @@ O número mínimo de salas que deverão ser construídas é
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 151
 
+**Assunto:** matematica/porcentagem
+
 ### 156
 Um agricultor é informado sobre um método de proteção para sua lavoura que consiste em inserir larvas específicas, de rápida reprodução. A reprodução dessas larvas faz com que sua população multiplique-se por 10 a cada 3 dias e, para evitar eventuais desequilíbrios, é possível cessar essa reprodução aplicando-se um produto X. O agricultor decide iniciar esse método com 100 larvas e dispõe de 5 litros do produto X, cuja aplicação recomendada é de exatamente 1 litro para cada população de 200 000 larvas. A quantidade total do produto X de que ele dispõe deverá ser aplicada de uma única vez.
 
@@ -289,6 +313,8 @@ Quantos dias após iniciado esse método o agricultor deverá aplicar o produto 
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 156
 
+**Assunto:** matematica/exponencial-e-logaritmo
+
 ### 180
 O metrô de um município oferece dois tipos de tíquetes com colorações diferentes, azul e vermelha, sendo vendidos em cartelas, cada qual com nove tíquetes da mesma cor e mesmo valor unitário. Duas cartelas de tíquetes azuis e uma cartela de tíquetes vermelhos são vendidas por R$ 32,40. Sabe-se que o preço de um tíquete azul menos o preço de um tíquete vermelho é igual ao preço de um tíquete vermelho mais cinco centavos.
 
@@ -305,6 +331,8 @@ Qual o preço, em real, de uma cartela de tíquetes vermelhos?
 **Explicação:** Sejam a e v os preços de um tíquete azul e de um vermelho. Pelo enunciado, a − v = v + 0,05, logo a = 2v + 0,05. A compra dá 18a + 9v = 32,40, ou seja, 18(2v + 0,05) + 9v = 32,40 ⇒ 45v = 31,50 ⇒ v = 0,70. Uma cartela vermelha custa 9 × 0,70 = R$ 6,30.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/equacoes-e-sistemas
 
 ## Difícil
 
@@ -325,6 +353,8 @@ A quantidade mínima de ajudantes que esse pescador precisa contratar para conse
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 155
 
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
 ### 158
 Em um colégio público, a admissão no primeiro ano se dá por sorteio. Neste ano há 55 candidatos, cujas inscrições são numeradas de 01 a 55. O sorteio de cada número de inscrição será realizado em etapas, utilizando-se duas urnas. Da primeira urna será sorteada uma bola, dentre bolas numeradas de 0 a 9, que representará o algarismo das unidades do número de inscrição a ser sorteado e, em seguida, da segunda urna, será sorteada uma bola para representar o algarismo das dezenas desse número. Depois do primeiro sorteio, e antes de se sortear o algarismo das dezenas, as bolas que estarão presentes na segunda urna serão apenas aquelas cujos números formam, com o algarismo já sorteado, um número de 01 a 55.
 
@@ -341,6 +371,8 @@ As probabilidades de os candidatos de inscrição número 50 e 02 serem sorteado
 **Explicação:** Para o 50: a unidade 0 sai com probabilidade 1/10. Os números terminados em 0 são 10, 20, 30, 40 e 50, então há 5 bolas na segunda urna e a probabilidade é 1/10 × 1/5 = 1/50. Para o 02: a unidade 2 sai com 1/10. Os números terminados em 2 são 02, 12, 22, 32, 42 e 52, ou seja, 6 bolas, e a probabilidade é 1/10 × 1/6 = 1/60.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 158
+
+**Assunto:** matematica/probabilidade
 
 ### 163
 A exposição a alguns níveis sonoros pode causar lesões auditivas. Por isso, em uma indústria, são adotadas medidas preventivas de acordo com a máquina que o funcionário opera e o nível N de intensidade do som, medido em decibel (dB), a que o operário é exposto, sendo N = log₁₀ I¹⁰ − log₁₀ I₀¹⁰, I a intensidade do som e I₀ = 10⁻¹² W/m².
@@ -367,6 +399,8 @@ O funcionário que operará a nova máquina deverá adotar a medida preventiva
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 163
 
+**Assunto:** matematica/exponencial-e-logaritmo
+
 ### 166
 Visando atrair mais clientes, o gerente de uma loja anunciou uma promoção em que cada cliente que realizar uma compra pode ganhar um voucher para ser usado em sua próxima compra. Para ganhar seu voucher, o cliente precisa retirar, ao acaso, uma bolinha de dentro de cada uma das duas urnas A e B disponibilizadas pelo gerente, nas quais há apenas bolinhas pretas e brancas. Atualmente, a probabilidade de se escolher, ao acaso, uma bolinha preta na urna A é igual a 20% e a probabilidade de se escolher uma bolinha preta na urna B é 25%. Ganha o voucher o cliente que retirar duas bolinhas pretas, uma de cada urna.
 
@@ -385,6 +419,8 @@ Qual é o número mínimo de bolinhas brancas que o gerente deve adicionar à ur
 **Explicação:** Hoje a urna B tem 4 pretas e 25% de chance, logo 16 bolinhas no total (12 brancas). Queremos 0,2 × P(B) ≤ 0,01, ou seja, P(B) ≤ 0,05, o que dá 4 ÷ total ≤ 0,05 e total ≥ 80. São necessárias 76 brancas, ou seja, 76 − 12 = 64 a mais.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 166
+
+**Assunto:** matematica/probabilidade
 
 ### 170
 Uma loja vende seus produtos de duas formas: à vista ou financiado em três parcelas mensais iguais. Para definir o valor dessas parcelas nas vendas financiadas, a loja aumenta em 20% o valor do produto à vista e divide esse novo valor por 3. A primeira parcela deve ser paga no ato da compra, e as duas últimas, em 30 e 60 dias após a compra.
@@ -406,3 +442,5 @@ A taxa mensal de juros compostos praticada nesse financiamento é de
 **Explicação:** 1 500 × 1,2 = 1 800, ou seja, 3 parcelas de R$ 600. Pagando 600 na hora, o valor financiado é R$ 900. Com x = 1 + i: 900 = 600/x + 600/x², o que leva a 3x² − 2x − 2 = 0. Então x = (2 + √28)/6 ≈ (2 + 5,29)/6 ≈ 1,215, e a taxa é i ≈ 21,5% ao mês.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 170
+
+**Assunto:** matematica-financeira/juros-simples-e-compostos, matematica/equacoes-e-sistemas

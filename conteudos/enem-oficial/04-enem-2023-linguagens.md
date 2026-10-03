@@ -40,6 +40,8 @@ De acordo com o texto, a alteração do lema olímpico teve como objetivo a
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 6
 
+**Assunto:** portugues/interpretacao-de-texto
+
 ### 9
 Na Idade Média, as notícias se propagavam com surpreendente eficácia. Segundo uma emérita professora de Sorbonne, um cavalo era capaz de percorrer 30 quilômetros por dia, mas o tempo podia se acelerar dependendo do interesse da notícia. As ordens mendicantes tinham um papel importante na disseminação de informações, assim como os jograis, os peregrinos e os vagabundos, porque todos eles percorriam grandes distâncias. As cidades também tinham correios organizados e selos para lacrar mensagens e tentar certificar a veracidade das correspondências. Graças a tudo isso, a circulação de boatos era intensa e politicamente relevante. Um exemplo clássico de fake news da era medieval é a história do rei que desaparece na batalha e reaparece muito depois, idoso e transformado.
 
@@ -58,6 +60,8 @@ A propagação sistemática de informações é um fenômeno recorrente na hist�
 **Explicação:** O texto enumera vários meios (cavalos, ordens religiosas, jograis, peregrinos, correios e selos). A eficácia vem da diversidade de meios disponíveis naquela época.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 9
+
+**Assunto:** portugues/interpretacao-de-texto
 
 ### 10
 Se a interferência de contas falsas em discussões políticas nas redes sociais já representava um perigo para os sistemas democráticos, sua sofisticação e maior semelhança com pessoas reais têm agravado o problema pelo mundo.
@@ -84,6 +88,8 @@ De acordo com o texto, a análise de características da linguagem empregada por
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 10
 
+**Assunto:** portugues/interpretacao-de-texto
+
 ### 11
 Maio foi colorido de amarelo, e o foi porque mundialmente amarelo é a cor convencionada para as advertências. No trânsito, essas advertências têm sido fatais. A estimativa, caso nada seja feito, é a de que se atinjam assustadoras 2,4 milhões de mortes no trânsito em 2030 em todo o mundo.
 
@@ -107,6 +113,8 @@ Considerando os procedimentos argumentativos utilizados, infere-se que o objetiv
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 11
 
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ### 21
 Um grupo de pesquisadores da Universidade Federal do Ceará desenvolveu um dicionário para traduzir sintomas de doenças da linguagem popular para os termos médicos. Defruço, chanha e piloura, por exemplo, podem ser termos conhecidos para muitos, mas, durante uma consulta médica, o desconhecimento pode significar um diagnóstico errado. "Isso é um registro histórico e pode ser muito útil para estudos dessas comunidades, na abordagem médica delas. É de certa forma pioneiro no Brasil e, sem dúvida, um instrumento de trabalho importante, porque a comunicação é fundamental na relação médico-paciente", avalia o reitor da instituição.
 
@@ -126,6 +134,8 @@ Ao registrarem usos regionais de termos da área médica, pesquisadores
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 21
 
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ### 37
 O uso das redes sociais como forma de ampliar universos foi uma descoberta recente para o artista Wolney Fernandes, que começou a criar quando o ambiente em Goiás era mais árido em relação às artes visuais. "Hoje, ser diferente é uma potência e quem sabe o que quer com a própria arte encontra espaço", diz. As colagens artísticas do goiano aparecem em capas de obras literárias pelo Brasil e exterior.
 
@@ -144,6 +154,8 @@ O artista goiano Wolney Fernandes busca expor seu trabalho por meio de plataform
 **Explicação:** As redes "ampliam universos": o artista ganha visibilidade além de Goiás, com trabalhos em capas de livros no Brasil e no exterior.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 37
+
+**Assunto:** portugues/interpretacao-de-texto
 
 ### 39
 A petição on-line criada por um cidadão paulista surtiu efeito: casado há três anos com seu companheiro, ele pedia a alteração da definição de "casamento" no tradicional dicionário Michaelis em português. Na definição anterior, casamento aparecia como "união legítima entre homem e mulher" e "união legal entre homem e mulher, para constituir família".
@@ -168,6 +180,8 @@ A notícia trata da mudança ocorrida em um dicionário da língua portuguesa. S
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 39
 
+**Assunto:** portugues/interpretacao-de-texto
+
 ### 41
 "Ganhei 25 medalhas em mundiais, sete em Jogos Olímpicos, e sou uma sobrevivente de abuso sexual." Foi assim que Simone Biles se apresentou ao comitê do Senado norte-americano que investiga as supostas falhas do FBI no caso Larry Nassar. Biles e outras três atletas, vítimas dos abusos do ex-médico da equipe de ginástica feminina dos EUA, exigiram que os agentes da investigação sejam processados por falta de ação prévia contra Nassar, agora preso. Biles esclareceu que culpa Larry Nassar e "todo o sistema que o permitiu e o perpetrou", acusando a Federação de Ginástica e o Comitê Olímpico dos Estados Unidos de saberem "muito antes" que ela havia sofrido abusos. A melhor ginasta do mundo é um ícone. Nos Jogos Olímpicos de Tóquio, uma lesão psicológica a impediu de competir como previa. No entanto, ela chegou ao topo como uma líder no trabalho de acabar com o preconceito com os problemas de saúde mental. "Não quero que nenhum outro atleta olímpico sofra o horror que eu e outras centenas suportamos e continuamos suportando até hoje", afirmou.
 
@@ -186,6 +200,8 @@ O fato relatado na notícia chama a atenção acerca da necessidade de reflexão
 **Explicação:** A notícia destaca o abuso sofrido, a "lesão psicológica" e a luta contra o preconceito com problemas de saúde mental, ou seja, a dimensão emocional dos atletas.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 41
+
+**Assunto:** portugues/interpretacao-de-texto
 
 ### 45
 Carta aberta à população brasileira
@@ -218,6 +234,8 @@ O objetivo desse texto é
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 45
 
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ## Médio
 
 ### 7
@@ -242,6 +260,8 @@ Nesse texto, os recursos expressivos usados pela narradora
 **Explicação:** A narradora descreve o próprio corpo feminino como forte e violento e o liga à memória dos corpos escravizados. A identidade se constrói a partir das marcas de gênero e de raça.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 7
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
 
 ### 8
 De quem é esta língua?
@@ -268,6 +288,8 @@ O texto de Agualusa tematiza o preconceito em relação ao português brasileiro
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 8
 
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ### 14
 Dão Lalalão
 
@@ -293,6 +315,8 @@ Nesse trecho do conto, o gosto dos moradores do povoado por ouvir a novela de r�
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 14
 
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
 ### 15
 As cinzas do Museu Nacional, no Rio de Janeiro, consumido pelas chamas no mês de setembro de 2018, são mais do que restos de fósseis, cerâmicas e espécimes raros. O museu abrigava, entre mais de 20 milhões de peças, os esqueletos com as respostas para perguntas que ainda não haviam sido respondidas — ou sequer feitas — por pesquisadores brasileiros. E o incêndio pode ter calado para sempre palavras e cantos indígenas ancestrais, de línguas que não existem mais no mundo.
 
@@ -314,6 +338,8 @@ A perda dos registros linguísticos no incêndio do Museu Nacional tem impacto p
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 15
 
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ### 17
 Como é bom reencontrar os leitores da Revista da Cultura por meio de uma publicação com outro visual, conteúdo de qualidade e interesses ampliados! ]cultura[, este nome simples, e eu diria mesmo familiar, nasce entre dois colchetes voltados para fora. E não é por acaso: são sinais abertos, receptivos, propícios à circulação de ideias. O DNA da publicação se mantém o mesmo, afinal, por longos anos montamos nossas edições com assuntos saídos das estantes de uma grande livraria — e assim continuará sendo. Literatura, sociologia, filosofia, artes... nunca será difícil montar a pauta da revista porque os livros nos ensinam que monotonia é só para quem não lê.
 
@@ -332,6 +358,8 @@ O uso não padrão dos colchetes para nomear a revista atribui-lhes uma nova fun
 **Explicação:** O próprio texto explica que os colchetes voltados para fora são "sinais abertos, receptivos, propícios à circulação de ideias", e a pauta vem dos livros. Os sinais representam a identidade da revista.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 17
+
+**Assunto:** artes/artes-e-educacao-fisica
 
 ### 19
 "São tantas formas de matar um preto
@@ -363,6 +391,8 @@ O uso de citação e de dados estatísticos nesse texto tem o objetivo de
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 19
 
+**Assunto:** portugues/interpretacao-de-texto
+
 ### 25
 Passado muito tempo, resolvi tentar falar, porque estava sozinha me embrenhando na mesma vereda que Donana costumava entrar. Ainda recordo da palavra que escolhi: arado. Me deleitava vendo meu pai conduzindo o arado velho da fazenda carregado pelo boi, rasgando a terra para depois lançar grãos de arroz em torrões marrons e vermelhos revolvidos. Gostava do som redondo, fácil e ruidoso que tinha ao ser enunciado. "Vou trabalhar no arado." "Vou arar a terra." "Seria bom ter um arado novo, esse arado tá troncho e velho." O som que deixou minha boca era uma aberração, uma desordem, como se no lugar do pedaço perdido da língua tivesse um ovo quente. Era um arado torto, deformado, que penetrava a terra de tal forma a deixá-la infértil, destruída, dilacerada.
 
@@ -381,6 +411,8 @@ Com a perda de parte da língua na infância, a narradora tenta voltar a falar. 
 **Explicação:** A palavra "arado" mal pronunciada é comparada a um arado torto que deixa a terra infértil. A fala é tratada como um instrumento de trabalho na terra, uma metáfora.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 25
+
+**Assunto:** portugues/semantica-e-figuras-de-linguagem
 
 ### 32
 O sol começa a descer por trás da vegetação da Ilha da Restinga, na outra margem do rio Paraíba, colorindo o céu de amarelo, laranja e lilás. Então se ouvem as primeiras notas do Bolero, do compositor francês Maurice Ravel, executadas pelo saxofonista Jurandy. É assim o pôr do sol da praia do Jacaré, em Cabedelo (Grande João Pessoa). Depois do Bolero, Jurandy toca Asa branca, de Luiz Gonzaga, e Meu sublime torrão, de Genival Macedo, espécie de hino não oficial da Paraíba.
@@ -401,6 +433,8 @@ A interpretação musical de Jurandy do Sax, codinome de José Jurandy Félix, a
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 32
 
+**Assunto:** artes/artes-e-educacao-fisica
+
 ### 38
 O mais antigo grupo de rap indígena do país, Brô MCs, surgiu em 2009, na aldeia Jaguapiru, em Dourados, Mato Grosso do Sul. Os integrantes conheceram o rap pelo rádio, ouvindo um programa que apresentava cantores e grupos brasileiros desse gênero musical. O Brô MCs conseguiu influenciar outros a fazerem rap e a lutarem pelas causas indígenas. Um dos nomes do movimento, Kunumí MC, é um jovem de 16 anos, da aldeia Krukutu, em São Paulo. O adolescente enxerga o rap como uma cultura da defesa e começou a fazer rimas quando percebeu que a poesia, pela qual sempre se interessou, podia virar música. Nas letras que cria, inspiradas tanto pelo rap quanto pelos ritmos indígenas, tenta incluir sempre assuntos aos quais acha importante dar voz, principalmente, a questão da demarcação de terras.
 
@@ -420,6 +454,8 @@ O movimento rap dos povos originários do Brasil revela o(a)
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 38
 
+**Assunto:** artes/artes-e-educacao-fisica
+
 ### 42
 O acesso às Práticas Corporais/Atividades Físicas (PC/AF) é desigual no Brasil, à semelhança de outros indicadores sociais e de saúde. Em geral, PC/AF prazerosas, diversificadas, mais afeitas ao período de lazer estão concentradas nas populações mais abastadas. As atividades físicas de deslocamento, trajetos a pé ou de bicicleta para estudar ou trabalhar, por exemplo, são mais frequentes na classe social menos favorecida. Aqui, há uma relação inversa e perversa entre variáveis socioeconômicas de acesso às PC/AF. As maiores prevalências de inatividade física foram em mulheres, pessoas com 60 anos ou mais, negros, pessoas com autoavaliação de saúde ruim ou muito ruim, com renda familiar de até quatro salários mínimos por pessoa, pessoas que desconhecem programas públicos de PC/AF e residentes em áreas sem locais públicos para a prática.
 
@@ -438,6 +474,8 @@ O fator central que impacta a realização de práticas corporais/atividades fí
 **Explicação:** O texto diz que as atividades de lazer se concentram nas populações mais ricas e que há "relação inversa e perversa" com as condições socioeconômicas. O fator central é a desigualdade de classe. Gênero, idade e raça aparecem como fatores associados.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 42
+
+**Assunto:** artes/artes-e-educacao-fisica
 
 ## Difícil
 
@@ -459,6 +497,8 @@ Pela voz de uma empregada da casa, a descrição de um dos membros da família e
 **Explicação:** A narradora descreve sensações visuais, táteis e olfativas (franjas, carne apertada, perfume enjoativo) para compor o fetiche de Timóteo por vestir as roupas da mãe. É uma descrição impressionista, marca da prosa intimista de Lúcio Cardoso.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 12
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
 
 ### 13
 Girassol da madrugada
@@ -489,6 +529,8 @@ Perante o outro, o eu lírico revela, na força das memórias evocadas, a
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 13
 
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
 ### 20
 No princípio era o verbo. A frase que abre o primeiro capítulo do Evangelho de João e remete à criação do mundo, assim como também faz o Gênesis, é a mais famosa da Bíblia. A ideia de que o mundo é criado pela palavra, porém, é tão estruturante que está presente em outras religiões, para muito além das fundadas no cristianismo. Como humanos, a linguagem é o mundo que habitamos. Basta tentar imaginar um mundo em que não podemos usar palavras para dizer de nós e dos outros para compreender o que isso significa. Ou um mundo em que aquilo que você diz não é entendido pelo outro, e o que o outro diz não é entendido por você.
 
@@ -514,6 +556,8 @@ Nesse texto, a estratégia usada para convencer o leitor de que uma grande parce
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 20
 
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ### 26
 A escravidão
 
@@ -535,6 +579,8 @@ Publicado em 1902, o texto de Olavo Bilac enfatiza as mazelas da escravidão no 
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 26
 
+**Assunto:** literatura/quinhentismo-ao-simbolismo
+
 ### 27
 E assim as coisas continuaram acontecendo entre os dois, em quase sustos, um grande por acaso com cacoetes de gestos definitivos. Com o Nunca Mais se oferecendo o tempo todo, bastaria dizer foi um prazer ter te conhecido, bastaria não trocar telefones nem e-mails e enterrar a casualidade com a cal da sabedoria — nada poderia ser definitivo, os encontros duravam duas horas ou duas décadas ou duas vezes isso, mas em algum momento necessariamente seria o fim. De todos os grandes amores. De todos os pequenos. De todas as juras, das promessas, de todos os na-alegria-e-na-tristeza. De todos os não amores, os desamores, os casamentos para sempre, os rancores para sempre, de todas as paralelas que só se viabilizam na abstração da geometria, de todas as pequenas paixões e de todas as grandes paixões, de tudo que para na antessala da paixão, de todos os vínculos não experimentados, de todos.
 
@@ -553,6 +599,8 @@ O recurso que promove a progressão textual, contribuindo para a construção da
 **Explicação:** A repetição de "de todos/todas" acumula tipos diferentes de relação e mostra que todas compartilham o mesmo destino, o fim.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 27
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
 
 ### 28
 A garganta é a gruta que guarda o som
@@ -577,6 +625,8 @@ A função emotiva presente no poema cumpre o propósito do eu lírico de
 **Explicação:** O "nó" na garganta, a troca entre falar e gritar e o resultado "Calo" mostram a dificuldade do eu lírico em expressar o que sente.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 28
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
 
 ### 31
 Migalhas
@@ -614,6 +664,8 @@ Nesse poema, a representação do sentimento amoroso recupera a tradição líri
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 31
 
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
 ### 43
 Mestre e companheiro, disse eu que nos íamos despedir. Mas disse mal. A morte não extingue: transforma; não aniquila: renova; não divorcia: aproxima. Um dia supuseste "morta e separada" a consorte dos teus sonhos e das tuas agonias, que te soubera "pôr um mundo inteiro no recanto" do teu ninho; e, todavia, nunca ela te esteve mais presente, no íntimo de ti mesmo e na expressão do teu canto, no fundo do teu ser e na face de tuas ações. Esses catorze versos inimitáveis, em que o enlevo dos teus discípulos resume o valor de toda uma literatura, eram a aliança de ouro do teu segundo noivado, um anel de outras núpcias, para a vida nova do teu renascimento e da tua glorificação, com a sócia sem nódoa dos teus anos de mocidade e madureza, da florescência e frutificação de tua alma. Para os eleitos do mundo das ideias a miséria está na decadência, e não na morte. A nobreza de uma nos preserva das ruínas da outra. Quando eles atravessavam essa passagem do invisível, que os conduz à região da verdade sem mescla, então é que entramos a sentir o começo do seu reino, o reino dos mortos sobre os vivos.
 
@@ -632,3 +684,5 @@ Esse é um trecho do discurso de Rui Barbosa na Academia Brasileira de Letras em
 **Explicação:** O discurso usa metáforas como "aliança de ouro", "segundo noivado", "florescência e frutificação de tua alma" e "reino dos mortos sobre os vivos" para falar da vida e da obra de Machado (o soneto "A Carolina").
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 43
+
+**Assunto:** portugues/semantica-e-figuras-de-linguagem

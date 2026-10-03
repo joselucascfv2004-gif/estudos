@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { BackHandler, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { NOMES_NIVEL, Nivel, Topico, disciplinasDaProva, getDisciplina, incidencia, questoesDoTopico } from '../../data/banco';
+import { NOMES_NIVEL, Nivel, Topico, disciplinasDaProva, getDisciplina, incidencia, questoesDoTopico, totalOficiais } from '../../data/banco';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
   ACERTO_PARA_DESBLOQUEAR,
@@ -123,6 +123,7 @@ export default function TelaDisciplina() {
             {!!aberto.descricao && <Text style={s.folhaDesc}>{aberto.descricao}</Text>}
             <Text style={s.provas}>
               Cai em: {aberto.provas.join(' · ')} · {['', 'cai pouco', 'cai às vezes', 'cai com frequência', 'cai bastante', 'cai muito'][incidencia(aberto)]}
+              {totalOficiais(aberto) > 0 && ` · inclui ${totalOficiais(aberto)} ${totalOficiais(aberto) === 1 ? 'questão real' : 'questões reais'} do ENEM`}
             </Text>
             {!!aberto.resumo && (
               <Botao

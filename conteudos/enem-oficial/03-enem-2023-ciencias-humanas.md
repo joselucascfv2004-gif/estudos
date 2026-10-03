@@ -39,6 +39,8 @@ O texto apresenta tipos de conduta sujeitos a punição, conforme previsto na Le
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 60
 
+**Assunto:** sociologia/temas-contemporaneos
+
 ### 61
 Por trás da "mágica" do Google Assistant de sua capacidade de interpretar 26 idiomas está uma enorme equipe de linguistas distribuídos globalmente, trabalhando como subcontratados, que devem rotular tediosamente os dados de treinamento para que funcione. Eles ganham baixos salários e são rotineiramente forçados a trabalhar horas extras não remuneradas. A inteligência artificial não funciona com um pozinho mágico. Ela funciona por meio de trabalhadores que treinam algoritmos incansavelmente até que eles automatizem seus próprios trabalhos.
 
@@ -58,6 +60,8 @@ O texto critica a mudança tecnológica em razão da seguinte consequência:
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 61
 
+**Assunto:** sociologia/temas-contemporaneos
+
 ### 65
 Nas reportagens publicadas sobre a inauguração do Museu de Arte de São Paulo, em 1947, quando ele ainda ocupava um edifício na rua Sete de Abril, Lina Bo Bardi não foi mencionada nenhuma vez. A arquiteta era responsável pelo projeto do museu que mudaria para sempre a posição de São Paulo no circuito mundial das artes. Mas não houve nenhum registro disso. O louvor se concentrou em seu marido e parceiro profissional, o respeitado crítico de arte Pietro Maria Bardi. Passados 75 anos, a mulher então ignorada recebeu um Leão de Ouro póstumo, a maior homenagem da Bienal de Arquitetura de Veneza, e tem agora sua história contada em duas biografias de peso, que procuram destrinchar uma carreira marcada pela ousadia e pela contradição.
 
@@ -76,6 +80,8 @@ As transformações pelas quais passaram as sociedades ocidentais e que possibil
 **Explicação:** O trabalho de Lina foi ignorado por ela ser mulher, e o mérito foi atribuído ao marido. O reconhecimento tardio reflete as lutas feministas pela equidade de gênero.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 65
+
+**Assunto:** sociologia/temas-contemporaneos
 
 ### 66
 TEXTO I
@@ -104,6 +110,8 @@ Considerando a realidade brasileira, os textos se aproximam ao apresentarem uma 
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 66
 
+**Assunto:** historia/brasil-republica
+
 ### 69
 Elas foram as pioneiras dos direitos das mulheres no Afeganistão. Defensoras ferrenhas da lei, buscaram justiça para os mais marginalizados. Mas, agora, mais de 220 juízas afegãs estão escondidas por medo de retaliação sob o regime do Talibã. Uma delas condenou centenas de homens por violência contra as mulheres, incluindo estupro, assassinato e tortura. Mas poucos dias depois que o Talibã assumiu o controle de sua cidade e milhares de criminosos condenados foram libertados da prisão, as ameaças de morte começaram. O país sempre foi considerado um dos lugares mais difíceis e perigosos do mundo para as mulheres. De acordo com estudos de organizações não governamentais, cerca de 87% das mulheres e meninas serão vítimas de abuso durante a vida.
 
@@ -122,6 +130,8 @@ O texto evidencia situação representativa de
 **Explicação:** Ameaças de morte, perseguição e violência sistemática contra mulheres ferem os direitos humanos mais básicos, isto é, a dignidade da pessoa humana.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 69
+
+**Assunto:** sociologia/temas-contemporaneos
 
 ### 75
 A torcida do Fluminense inicia um movimento para mudar a letra de uma das músicas mais populares das arquibancadas tricolores. Grupos pedem a remoção do termo "mulambo imundo", em uma provocação direta ao Flamengo. Mulambo é um termo que surgiu em Angola, na época da escravatura, e eles eram chamados de mulambos pelos senhores de engenho, os patrões das fazendas.
@@ -142,6 +152,8 @@ Qual mudança no comportamento social a proposta reportada no texto reflete?
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 75
 
+**Assunto:** sociologia/temas-contemporaneos
+
 ### 78
 Os movimentos da agricultura urbana no Rio de Janeiro vêm crescendo nos últimos vinte anos, tanto por meio de reproduções de modelos de vida antigos, vinculados ao resgate dos próprios costumes, como — e cada vez mais — são revelados hábitos inventivos nos quais moradores urbanos de diferentes classes sociais, sem nenhuma referência anterior com o campo, passam a se dedicar a essas atividades. Ao possibilitar o acesso ao plantio e, consequentemente, à alimentação, permite-se uma nova relação com o que se come, reduzindo o percurso da cadeia produtiva e aproximando produtores de consumidores, pois ambos se confundem nas experiências de agricultura urbana.
 
@@ -161,6 +173,8 @@ A prática agrícola destacada no texto apresenta como vantagem no espaço urban
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 78
 
+**Assunto:** geografia/populacao-e-urbanizacao
+
 ### 89
 Simulações publicadas pelo IPCC mostram a mudança da temperatura média anual e da pluviosidade média anual, em relação ao período pré-industrial, em três cenários de aquecimento global (1,5 °C, 2 °C e 4 °C): quanto maior o aquecimento global, mais regiões ficam mais quentes e com mudanças mais intensas no regime de chuvas.
 
@@ -179,6 +193,8 @@ Qual medida é capaz de minimizar as mudanças apresentadas nas simulações?
 **Explicação:** O aquecimento global atual é causado principalmente pela emissão de gases de efeito estufa, como o CO₂. Reduzir e controlar essas emissões é a forma de limitar o aquecimento e as mudanças no clima.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 89
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
 
 ## Médio
 
@@ -200,6 +216,8 @@ Na perspectiva do autor, as tradições e os costumes sociofamiliares sofreram a
 **Explicação:** O autor, com ironia, lamenta que as moças agora saibam escrever e troquem bilhetes. O letramento feminino e as mudanças culturais alteraram os costumes familiares.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 47
+
+**Assunto:** historia/brasil-imperio
 
 ### 49
 TEXTO I
@@ -228,6 +246,8 @@ A política demográfica para a província mencionada nos textos é parte da seg
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 49
 
+**Assunto:** geografia/geopolitica-e-globalizacao
+
 ### 51
 Escrito durante a Primeira Guerra Mundial, o seguinte trecho faz parte da carta enviada pelo secretário do exterior britânico, Sir Arthur James Balfour, ao banqueiro Lord Rotschild, presidente da Liga Sionista, em 2 de novembro de 1917, a carta ficou conhecida como Declaração Balfour:
 
@@ -248,6 +268,8 @@ A análise do resultado do processo em questão revela que o governo inglês foi
 **Explicação:** A declaração prometia um lar judeu sem prejudicar os povos não judeus da Palestina. O resultado foi o conflito árabe-israelense pelo território, que os britânicos não conseguiram mediar e que persiste até hoje.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 51
+
+**Assunto:** historia/seculo-xx
 
 ### 52
 TEXTO I
@@ -276,6 +298,8 @@ Com base no conceito de ética pedagógica presente nos textos, os educandos tor
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 52
 
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
 ### 59
 Do século XVI em diante, pelo menos nas classes mais altas, o garfo passou a ser usado como utensílio para comer, chegando através da Itália primeiramente à França e, em seguida, à Inglaterra e à Alemanha, depois de ter servido, durante algum tempo, apenas para retirar alimentos sólidos da travessa. Henrique III introduziu-o na França, trazendo-o provavelmente de Veneza. Seus cortesãos não foram pouco ridicularizados por essa maneira "afetada" de comer e, no princípio, não eram muito hábeis no uso do utensílio: pelo menos se dizia que metade da comida caía do garfo no caminho do prato à boca. Em data tão recente como o século XVII, o garfo era ainda basicamente artigo de luxo, geralmente feito de prata ou ouro.
 
@@ -294,6 +318,8 @@ O processo social relatado indica a formação de uma etiqueta que tem como prin
 **Explicação:** O garfo surge nas classes altas como artigo de luxo, em prata ou ouro. A etiqueta à mesa servia para diferenciar a nobreza dos demais grupos sociais.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 59
+
+**Assunto:** historia/idade-moderna
 
 ### 62
 Enormes alto-falantes sul-coreanos instalados na fronteira com o Norte costumavam transmitir desde canções em estilo K-pop (como é chamado o pop sul-coreano) até boletins climáticos e noticiário crítico ao vizinho comunista. O Norte costuma praticar atividade semelhante, transmitindo por seus alto-falantes discursos críticos a Seul e aliados. Durante os anos 1980, o governo sul-coreano construiu um mastro de 97 metros de altura para hastear sua bandeira no povoado de Daesong-dong, na fronteira com o Norte. O Norte respondeu com a construção de um mastro ainda mais alto (160 m) na cidade fronteiriça de Gijung-dong. "Essas demonstrações são uma válvula de escape competitiva e importante entre os dois lados, fora de um possível conflito militar", diz o analista Ankit Panda.
@@ -314,6 +340,8 @@ Os atos de competição citados têm suas origens históricas vinculadas a um co
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 62
 
+**Assunto:** historia/seculo-xx
+
 ### 63
 Seda, madeiras aromáticas e têxteis, obras de arte, lã, cristais e muitas, muitas peças de porcelana chegaram ao Brasil ao longo dos séculos XVII e XVIII. A opulência proporcionada pelo ouro fez com que esses itens fossem ainda mais presentes em cidades mineiras como Ouro Preto, Mariana e Sabará. Esses objetos inspiraram a criação das chinesices, termo que designa um tipo de arte que evoca motivos chineses, presentes em várias igrejas barrocas de Minas Gerais. No Brasil, é bem provável que a inspiração para as pinturas nas igrejas barrocas com pássaros, elefantes, tigres, mandarins e pagodes tenha sido tirada de gravuras, tecidos, móveis e, principalmente, das porcelanas chinesas que circulavam livremente em uma sociedade enriquecida pelo comércio do ouro e pedras preciosas.
 
@@ -332,6 +360,8 @@ O desenvolvimento do processo artístico descrito no texto foi possível pelo(a)
 **Explicação:** Objetos da China chegavam a Minas pelas rotas comerciais portuguesas, que ligavam Ásia, Europa e América. Esse intercâmbio entre continentes inspirou as chinesices.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 63
+
+**Assunto:** historia/brasil-colonia
 
 ### 70
 No cemitério, a sociedade religiosa encarregada do funeral, aterrorizada, apressou a cerimônia de tal forma que a mãe de Herzog perdeu o momento em que o caixão do filho começou a ser coberto pela terra. Quatro jornalistas que estavam presos no DOI chegaram para assistir ao sepultamento. Um se afastara, chorando. Dizia: Eles matam, eles matam! Não pergunte nada. Não podemos dizer nada. Eles matam mesmo. Falava-se baixo. Ouviram-se dois curtos discursos. O primeiro, da atriz Ruth Escobar: Até quando vamos suportar tanta violência? Até quando vamos continuar enterrando nossos mortos em silêncio? No segundo, Audálio Dantas recitou o Navio negreiro, de Castro Alves: Senhor Deus dos desgraçados / Dizei-me Vós, Senhor Deus / Se é mentira, se é verdade, / Tanto horror perante os céus.
@@ -352,6 +382,8 @@ O acontecimento descrito no texto, ocorrido em meados dos anos 1970, atesta a se
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 70
 
+**Assunto:** historia/ditadura-e-redemocratizacao
+
 ### 71
 Alternativas logísticas estão servindo de instrumentos que ativam os mercados especuladores de terras nas diferentes regiões da Amazônia e constituem em indicadores utilizados por diferentes atores para defender ou denunciar o avanço da cultura da soja na região e, com ela, a retomada do desmatamento. É evidente que o crescimento do desmatamento tem a ver também com a expansão da soja, porém atribuir a ela o fator principal parece não totalmente correto. Parto da compreensão central de que a lógica que gera o desmatamento está articulada pelo tripé grileiros, madeireiros e pecuaristas.
 
@@ -370,6 +402,8 @@ Na visão do autor, o problema central da situação descrita é desencadeado pe
 **Explicação:** O autor aponta grileiros, madeireiros e pecuaristas. A grilagem é a apropriação ilegal de terras públicas (devolutas), que inicia o ciclo do desmatamento.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 71
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
 
 ### 73
 Os séculos XV e XVI, quando se vão desmoronando as estruturas socioeconômicas da Idade Média perante os novos imperativos da Época moderna, constituem um momento-chave na história florestal de toda a Europa Ocidental. Abre-se, genericamente, um longo período de "crise florestal", que se manifesta com acuidade nos países onde mais se desenvolvem as atividades industriais e comerciais. As necessidades em produtos lenhosos aumentam drasticamente com o crescimento do consumo nos mercados urbanos e nas regiões onde progridem a metalurgia e a construção naval, além da sua utilização na vida quotidiana de toda a população.
@@ -390,6 +424,8 @@ Qual acontecimento do período contribuiu diretamente para o agravamento da situ
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 73
 
+**Assunto:** historia/idade-moderna
+
 ### 74
 Tahuantinsuyu — nome do Império Inca em quéchua — era dividido em quatro partes ou suyus: Chinchaysuyu (noroeste do Peru e Equador), Antisuyu (parte amazônica do império), Collasuyu (atual Bolívia) e Condesuyu (costa do Oceano Pacífico) e tinha Cuzco, no atual Peru, como sua capital imperial. Oficialmente, todas as etnias dominadas pelos incas deveriam adotar a língua quéchua, adorar o Sapa Inca e o Sol e pagar taxas em forma de horas de trabalhos periódicos. No entanto, pode-se dizer que o Império Inca era como um mosaico cultural em que vários e diferentes grupos étnicos adoravam o Sapa Inca e o Sol mas, simultaneamente, continuavam a adorar seus deuses locais e também a falar em suas línguas nativas.
 
@@ -408,6 +444,8 @@ Ao comparar, no texto, a vertente da dominação territorial com os aspectos cul
 **Explicação:** Os povos dominados deviam adorar o Sol e o Sapa Inca, mas podiam manter seus deuses locais e suas línguas. Havia flexibilidade religiosa e cultural.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 74
+
+**Assunto:** historia/antiguidade-e-idade-media
 
 ### 80
 O Golpe Militar de 1964 foi implacável no combate ao que restava das Ligas Camponesas, generalizadas na década anterior. No entanto, em relação aos sindicatos, sua atitude foi ambígua. Por meio de acordos com os Estados Unidos, foram concebidos centros sindicais e cursos de liderança com base em princípios conservadores e ministrados por membros da Igreja Católica.
@@ -428,6 +466,8 @@ Os sindicatos rurais foram tratados da forma descrita no texto porque o governo 
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 80
 
+**Assunto:** historia/ditadura-e-redemocratizacao
+
 ### 83
 Diversos são os fatores causadores da degradação do solo, atuando de forma direta ou indireta, mas quase sempre a grande maioria das terras degradadas inicia esse processo com o desmatamento, que pode ser seguido por diversas formas de ocupação desordenada, como: corte de taludes para a construção de casas, rodovias e ferrovias, agricultura, com uso da queimada, vários tipos de mineração, irrigação excessiva, crescimento desordenado das cidades, superpastoreio, uso do solo para diversos tipos de despejos industriais e domésticos, sem tratamento da área que recebe esses despejos; enfim, de uma forma ou de outra, os solos tornam-se degradados, sendo muitas vezes difícil, ou quase impossível, a sua recuperação.
 
@@ -447,6 +487,8 @@ A partir da ocupação desordenada exposta no texto, o que impede a recuperaçã
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 83
 
+**Assunto:** geografia/geografia-fisica
+
 ### 85
 Produtores rurais europeus são antigos opositores de um grande acordo com o Mercosul. Na visão deles, existe um nítido risco de concorrência desleal, pois, na Europa, é preciso seguir regras mais rígidas de produção, o que encarece o processo. Assim, eles não conseguiriam competir com os preços, por exemplo, da carne brasileira e teriam seus negócios ameaçados. Por outro lado, o setor industrial europeu se mobiliza a favor do acordo, uma vez que as reduções de tarifas no comércio internacional dariam maior acesso ao mercado sul-americano. Um exemplo é o setor automotivo europeu, que prevê maior participação e concorrência nos países do Mercosul caso o acordo siga em frente.
 
@@ -465,6 +507,8 @@ No contexto do acordo citado, os dois grupos econômicos europeus defendem, resp
 **Explicação:** Os agricultores querem proteção, com barreiras como as exigências sanitárias, contra produtos agrícolas do Mercosul. Os industriais querem menos tarifas para exportar livremente.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 85
+
+**Assunto:** geografia/geopolitica-e-globalizacao
 
 ## Difícil
 
@@ -487,6 +531,8 @@ No que se refere ao problema do corpo, a filosofia cartesiana apresenta-se como 
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 54
 
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
 ### 55
 A diversão é o prolongamento do trabalho sob o capitalismo tardio. Ela é procurada por quem quer escapar ao processo de trabalho mecanizado para se pôr de novo em condições de enfrentá-lo. Mas, ao mesmo tempo, a mecanização atingiu um tal poderio sobre a pessoa em seu lazer e sobre a sua felicidade, ela determina tão profundamente a fabricação das mercadorias destinadas à diversão que essa pessoa não pode mais perceber outra coisa senão as cópias que reproduzem o próprio processo de trabalho.
 
@@ -505,6 +551,8 @@ No texto, o tempo livre é concebido como
 **Explicação:** Para a Escola de Frankfurt, a indústria cultural produz diversão como mercadoria, com a mesma lógica da fábrica. O lazer vira consumo e reproduz o trabalho, sem emancipar.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 55
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea, sociologia/temas-contemporaneos
 
 ### 77
 Havia já muito tempo que a Europa desfrutava os benefícios da vacina e arrancava à morte milhares de inocentes, condenados a serem vítimas do terrível flagelo das bexigas, e o governo de Portugal nunca se lembrara de transmitir ao Brasil a mais útil das descobertas humanas, quando aliás nenhum país mais do que ele carecia deste salutar invento ou se atendesse às vantagens da população ou ao perdimento de imensas somas na mortandade contínua de escravos, que este flagelo devorava. O certo é que mais ocupado de seu ouro que de seus habitantes, Portugal, como em outros muitos casos, esperou que o Brasil por seu próprio impulso remediasse a este mal.
@@ -525,6 +573,8 @@ Escrito em 1828, o texto expressa a seguinte ideia de origem iluminista:
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 77
 
+**Assunto:** historia/brasil-colonia
+
 ### 81
 A economia das ilegalidades se reestruturou com o desenvolvimento da sociedade capitalista. A ilegalidade dos bens foi separada da ilegalidade dos direitos. Divisão que corresponde a uma oposição de classes, pois, de um lado, a ilegalidade mais acessível às classes populares será a dos bens — transferência violenta das propriedades; de outro, à burguesia, então, se reservará a ilegalidade dos direitos: a possibilidade de desviar seus próprios regulamentos e suas próprias leis; e essa grande redistribuição das ilegalidades se traduzirá até por uma especialização dos circuitos judiciários; para as ilegalidades de bens — para o roubo — os tribunais ordinários e os castigos; para as ilegalidades de direitos — fraudes, evasões fiscais, operações comerciais irregulares — jurisdições especiais com transações, acomodações, multas atenuadas etc.
 
@@ -543,6 +593,8 @@ O texto apresenta uma relação de cálculo político-econômico que caracteriza
 **Explicação:** Foucault mostra que o sistema judicial administra, ou "gere", as ilegalidades de forma diferente conforme a classe social: punição dura para os pobres e acomodação para os ricos.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 81
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
 
 ### 84
 A partir da década de 1930, começam a ser discutidos no Brasil os princípios de racionalização do trabalho. As preocupações com a cozinha e o trabalho doméstico foram introduzidas com a medicina sanitária e a oferta de gás e eletricidade para uso doméstico no início do século XX. A organização da cozinha visava atingir uma simplificação das tarefas, com a economia de movimentos, e o barateamento dos equipamentos, a partir da produção em grande escala. A padronização e racionalização da habitação e seus componentes visava uma radical transformação da casa, em especial da cozinha, e apoiava-se tanto no desenvolvimento de novos equipamentos quanto nos estudos de racionalização do trabalho doméstico. A principal preocupação era o desenvolvimento de um novo tipo de habitação, que deveria induzir um novo comportamento social.
@@ -563,6 +615,8 @@ No contexto descrito, as mudanças mencionadas proporcionavam às mulheres o(a)
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 84
 
+**Assunto:** sociologia/temas-contemporaneos
+
 ### 86
 Durante a Revolução Francesa, um certo padre Niollant escondeu-se no pequeno castelo de L'Escarbas. Pagou amplamente a hospitalidade do velho fidalgo ocupando-se da educação de sua filha, Anaïs. A presença da mãe em nada modificou essa educação masculina dada a uma jovem criatura já muito inclinada à independência em virtude da vida no campo. O padre transmitiu à aluna sua intrepidez de opiniões e sua facilidade de julgamento, sem pensar que essas qualidades, tão necessárias num homem, se tornam defeitos numa mulher destinada aos humildes afazeres de mãe de família. Embora o padre recomendasse continuamente à aluna ser tanto mais graciosa e modesta quanto seu saber era mais extenso, a senhorita de Nègrepelisse ficou com excelente opinião de si mesma.
 
@@ -581,6 +635,8 @@ O comportamento desenvolvido pela personagem evidencia uma postura de
 **Explicação:** Anaïs recebe uma educação "masculina", torna-se independente e confiante e foge do papel esperado para a mulher da época. Ela rompe com valores sociais estabelecidos.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 86
+
+**Assunto:** sociologia/temas-contemporaneos
 
 ### 88
 Concorrer e competir não são a mesma coisa. A concorrência pode até ser saudável sempre que a batalha entre agentes, para melhor empreender uma tarefa e obter melhores resultados finais, exige o respeito a certas regras de convivência preestabelecidas ou não. Já a competitividade se funda na invenção de novas armas de luta, num exercício em que a única regra é a conquista da melhor posição. A competitividade é uma espécie de guerra em que tudo vale e, desse modo, sua prática provoca um afrouxamento dos valores morais e um convite ao exercício da violência.
@@ -601,6 +657,8 @@ De acordo com a diferenciação feita pelo autor, que prática econômica é con
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 88
 
+**Assunto:** geografia/geopolitica-e-globalizacao
+
 ### 90
 Não tinha outra filosofia. Nem eu. Não digo que a Universidade me não tivesse ensinado alguma; mas eu decorei-lhe só as fórmulas, o vocabulário, o esqueleto. Tratei-a como tratei o latim; embolsei três versos de Virgílio, dois de Horácio, uma dúzia de locuções morais e políticas, para as despesas da conversação. Tratei-os como tratei a história e a jurisprudência. Colhi de todas as cousas a fraseologia, a casca, a ornamentação.
 
@@ -619,3 +677,5 @@ A descrição crítica do personagem de Machado de Assis assemelha-se às caract
 **Explicação:** Brás Cubas guarda só a "casca" do saber para impressionar nas conversas. Isso se parece com os sofistas, criticados por Sócrates e Platão por usarem a retórica para persuadir, sem compromisso com a verdade.
 
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 90
+
+**Assunto:** filosofia/filosofia-antiga-e-medieval

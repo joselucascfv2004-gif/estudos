@@ -37,6 +37,8 @@ A corrente elétrica mencionada é induzida por
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 101
 
+**Assunto:** fisica/eletricidade
+
 ### 103
 Um garoto comprou vários abacates na feira, mas descobriu que eles não estavam maduros o suficiente para serem consumidos. Sua mãe recomendou que ele colocasse os abacates em um recipiente fechado, pois isso aceleraria seu amadurecimento. Com certa dúvida, o garoto realizou esta experiência: colocou alguns abacates no recipiente e deixou os demais em uma fruteira aberta. Surpreendendo-se, ele percebeu que os frutos que estavam no recipiente fechado amadureceram mais rapidamente.
 
@@ -53,6 +55,8 @@ A aceleração desse processo é causada por
 **Explicação:** O etileno é um hormônio vegetal gasoso que promove o amadurecimento dos frutos. No recipiente fechado, ele se acumula e acelera o processo.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 103
+
+**Assunto:** biologia/seres-vivos
 
 ### 104
 Há muito tempo são conhecidas espécies de lesmas-do-mar com uma capacidade ímpar: guardar parte da maquinaria das células das algas que consomem — os cloroplastos — e mantê-los funcionais dentro das suas próprias células, obtendo assim parte do seu alimento. Investigadores portugueses descobriram que essas lesmas-do-mar podem ser mais eficientes nesse processo do que as próprias algas que consomem.
@@ -73,6 +77,8 @@ Essa adaptação confere a esse organismo a capacidade de obter primariamente
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 104
 
+**Assunto:** biologia/citologia
+
 ### 105
 A leishmaniose visceral é uma zoonose causada por um protozoário do gênero *Leishmania* que é encontrado em diversos tecidos. Ela é transmitida ao homem de forma indireta, por vetores do ambiente doméstico. O cão é considerado um importante hospedeiro desse protozoário, podendo ou não apresentar os sintomas da doença, como perda de peso, anemia, ferimentos na pele, diarreia, conjuntivite e insuficiência renal. Em uma região que sofre com alta incidência dessa doença, uma campanha do centro de zoonoses buscou verificar a presença desse protozoário nos cães para tentar controlar a doença.
 
@@ -90,6 +96,8 @@ Em qual material biológico dos cães a presença desse protozoário representa 
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 105
 
+**Assunto:** biologia/saude-e-doencas
+
 ### 115
 É comum em viagens de avião sermos solicitados a desligar aparelhos cujo funcionamento envolva a emissão ou a recepção de ondas eletromagnéticas, como celulares. A justificativa dada para esse procedimento é, entre outras coisas, a necessidade de eliminar fontes de sinais eletromagnéticos que possam interferir nas comunicações, via rádio, dos pilotos com a torre de controle.
 
@@ -106,6 +114,8 @@ Essa interferência poderá ocorrer somente se as ondas emitidas pelo celular e 
 **Explicação:** Para que haja interferência no sinal captado, as ondas precisam ter a mesma frequência (ou frequências muito próximas), já que o receptor é sintonizado em uma frequência específica.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 115
+
+**Assunto:** fisica/ondulatoria-e-optica
 
 ### 123
 O número de abelhas encontra-se em declínio em várias regiões do mundo, inclusive no Brasil, sendo que vários fatores contribuem para o colapso de suas colmeias. Nos Estados Unidos, bombas de sementes de espécies vegetais nativas têm sido utilizadas para combater o desaparecimento desses insetos. Elas são pequenas bolinhas recheadas com sementes, adubo e argila. Quando são arremessadas e ficam expostas ao sol e à chuva, germinam até mesmo em solo pouco fértil.
@@ -126,6 +136,8 @@ Esse método contribui para a preservação das abelhas porque
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 123
 
+**Assunto:** biologia/ecologia
+
 ### 124
 Os mais antigos cozinhavam o feijão na panela de ferro a fim de acabar com a palidez de seus filhos. Alguns chegavam até a colocar um prego enferrujado nesse cozimento para liberar o ferro contido nele. Sabe-se que esse elemento pode ser encontrado na sua forma metálica ou iônica, sendo essencial para a manutenção da vida humana.
 
@@ -142,6 +154,8 @@ As estratégias citadas eram utilizadas com o objetivo de
 **Explicação:** O ferro faz parte da hemoglobina. A falta dele causa anemia ferropriva, cujo sinal típico é a palidez.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** biologia/fisiologia-humana
 
 ### 125
 A utilização de tecnologia nuclear é um tema bastante controverso, por causa do risco de acidentes graves, como aqueles ocorridos em Chernobyl (1986), em Goiânia (1987) e em Fukushima (2011). Apesar de muitas desvantagens, como a geração de resíduos tóxicos, a descontaminação ambiental dispendiosa em caso de acidentes e a utilização em armas nucleares, a geração de energia nuclear apresenta vantagens em comparação a outras fontes de energia.
@@ -160,6 +174,8 @@ A geração dessa energia tem como característica:
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 125
 
+**Assunto:** quimica/quimica-ambiental
+
 ### 127
 As aves apresentam dois tipos de músculos em seus corpos: vermelhos e brancos. Aves migratórias como garças, gansos e patos selvagens têm os músculos vermelhos bem desenvolvidos, com ampla rede de vasos sanguíneos.
 
@@ -176,6 +192,8 @@ Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favo
 **Explicação:** Músculos vermelhos têm muita mioglobina, mitocôndrias e irrigação sanguínea. Fazem respiração aeróbica intensa, sustentando um metabolismo elevado por longos períodos de esforço.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 127
+
+**Assunto:** biologia/citologia
 
 ## Médio
 
@@ -196,6 +214,8 @@ Em qual região espectral se situa o comprimento de onda do laser que otimiza o 
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 92
 
+**Assunto:** fisica/ondulatoria-e-optica
+
 ### 95
 Em uma indústria alimentícia, para produção de doce de leite, utiliza-se um tacho de parede oca com uma entrada para vapor de água a 120 °C e uma saída para água líquida em equilíbrio com o vapor a 100 °C. Ao passar pela parte oca do tacho, o vapor de água transforma-se em líquido, liberando energia. A parede transfere essa energia para o interior do tacho, resultando na evaporação de água e consequente concentração do produto.
 
@@ -212,6 +232,8 @@ No processo de concentração do produto, é utilizada energia proveniente
 **Explicação:** O vapor entra a 120 °C e esfria até 100 °C, liberando calor sensível (há variação de temperatura). Depois, condensa, liberando calor latente de condensação. Essas duas energias aquecem o doce.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 95
+
+**Assunto:** fisica/termologia
 
 ### 99
 A tecnologia de vacinas de RNA mensageiro (RNAm) é investigada há anos. Avanços científicos em genética molecular permitiram desenvolver uma vacina para controle da pandemia da covid-19 causada pelo vírus de RNA SARS-CoV-2. A vacina de RNAm tem sequências de genes do vírus. Entretanto, por ser muito instável, o RNAm deve ser recoberto por uma capa de lipídios que evita sua degradação e favorece sua ação. Dessa forma, o RNAm desempenhará sua função específica atuando no mesmo compartimento celular de sempre.
@@ -232,6 +254,8 @@ A imunização produzida por esse tipo de vacina é alcançada por meio da
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 99
 
+**Assunto:** biologia/genetica-e-biotecnologia
+
 ### 100
 Na fertilização *in vitro*, espermatozoides são adicionados aos gametas femininos retirados de uma mulher. Após o período de incubação, a fecundação é favorecida pela ação de enzimas. Em um procedimento realizado, observou-se que nenhum dos gametas femininos foi fertilizado e, posteriormente, verificou-se que havia sido adicionado, equivocadamente, um coquetel de inibidores das enzimas do acrossomo, no lugar de um dos nutrientes constituintes do meio de cultura.
 
@@ -248,6 +272,8 @@ O coquetel de inibidores impediu o(a)
 **Explicação:** As enzimas do acrossomo digerem as camadas que envolvem o ovócito (corona radiata e zona pelúcida). Sem elas, o espermatozoide não consegue atravessá-las.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 100
+
+**Assunto:** biologia/fisiologia-humana
 
 ### 107
 Muitas mulheres sofrem com desconfortos nos dias que antecedem a menstruação, a chamada tensão pré-menstrual. Entre outros sintomas, podem ocorrer alterações de humor. Atualmente, acredita-se que os sintomas são resultado da queda na concentração do neurotransmissor serotonina, que, por sua vez, está relacionado com a diminuição na produção dos hormônios ovarianos estrógeno e progesterona, observada nessa fase do ciclo feminino.
@@ -268,6 +294,8 @@ A redução da produção desses hormônios nessa fase está relacionada com o(a
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 107
 
+**Assunto:** biologia/fisiologia-humana
+
 ### 108
 As cetonas fazem parte de famílias olfativas encontradas em muitos alimentos. A molécula de hexan-3-ona é um exemplo desses compostos voláteis responsáveis pelo aroma, podendo ser obtida por processos energéticos realizados em meio ácido, na presença de oxidantes como o permanganato de potássio.
 
@@ -284,6 +312,8 @@ Para se produzir esse composto volátil em laboratório, deve-se oxidar a moléc
 **Explicação:** A oxidação de um álcool secundário produz cetona. O hexan-3-ol tem a hidroxila no carbono 3 e se oxida a hexan-3-ona. Álcoois primários, como o hexan-1-ol, geram aldeídos ou ácidos.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 108
+
+**Assunto:** quimica/quimica-organica
 
 ### 110
 O vidro contendo alumínio em sua composição é um excelente material para acondicionar medicamentos e suplementos, porque pode ser esterilizado por aquecimento. No entanto, quando o medicamento ou suplemento contém substâncias que se ligam fortemente ao íon desse metal, a dissolução do alumínio é promovida em função do deslocamento do equilíbrio químico estabelecido entre a espécie imobilizada no vidro e a espécie em solução. Por essa razão, recomenda-se que suplementos de nutrição de recém-nascidos contendo gluconato de cálcio sejam acondicionados em embalagens plásticas, e não nesse tipo de vidro.
@@ -303,6 +333,8 @@ Caso esse suplemento seja acondicionado em embalagem desse tipo de vidro, o risc
 **Explicação:** Pelo princípio de Le Chatelier, quanto mais gluconato houver para se ligar ao alumínio em solução, mais o equilíbrio se desloca no sentido de dissolver alumínio do vidro.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 110
+
+**Assunto:** quimica/fisico-quimica
 
 ### 113
 Avaliação de substâncias genotóxicas
@@ -325,6 +357,8 @@ Os micronúcleos se originam dos(as)
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 113
 
+**Assunto:** biologia/citologia
+
 ### 117
 Uma cafeteria adotou copos fabricados a partir de uma composição de 50% de plástico reciclado não biodegradável e 50% de casca de café. O copo é reutilizável e retornável, pois o material, semelhante a uma cerâmica, suporta a lavagem. Embora ele seja comercializado por um preço considerado alto quando comparado ao de um copo de plástico descartável, essa cafeteria possibilita aos clientes retornarem o copo sujo e levarem o café quente servido em outro copo já limpo e higienizado. O material desse copo oferece também o conforto de não esquentar na parte externa.
 
@@ -343,6 +377,8 @@ Quais duas vantagens esse copo apresenta em comparação ao copo descartável?
 **Explicação:** O copo não esquenta por fora, o que indica baixa condutividade térmica. Por ser reutilizável, ele diminui o descarte de plástico não biodegradável. Não é totalmente biodegradável, pois metade é plástico.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 117
+
+**Assunto:** quimica/quimica-ambiental
 
 ### 126
 Em uma indústria, o controle da dureza da água é importante quando ela é utilizada em caldeiras, uma vez que sais pouco solúveis, formados a partir de sulfatos e carbonatos, podem acumular-se no interior das tubulações, causando obstruções. Para avaliar a água utilizada nessa indústria, foram realizados testes de qualidade que consideraram os seguintes parâmetros:
@@ -369,6 +405,8 @@ Qual teste deve ser considerado para controlar a formação desse tipo de obstru
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 126
 
+**Assunto:** quimica/ligacoes-e-funcoes-inorganicas
+
 ### 128
 Existe no comércio um produto antimofo constituído por uma embalagem com tampa perfurada contendo cloreto de cálcio anidro, CaCl₂. Uma vez aberto o lacre, essa substância absorve a umidade ambiente, transformando-se em cloreto de cálcio di-hidratado, CaCl₂ · 2H₂O.
 
@@ -387,6 +425,8 @@ Na hidratação da substância presente no antimofo, o ganho percentual, em mass
 **Explicação:** Cada mol de CaCl₂ (111 g) incorpora 2 mol de água (36 g). O ganho é 36 ÷ 111 ≈ 0,32, ou seja, cerca de 32%.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 128
+
+**Assunto:** quimica/estequiometria
 
 ### 133
 Os raios cósmicos são fontes de radiação ionizante potencialmente perigosas para o organismo humano. Para quantificar a dose de radiação recebida, utiliza-se o sievert (Sv), definido como a unidade de energia recebida por unidade de massa. A exposição à radiação proveniente de raios cósmicos aumenta com a altitude, o que pode representar um problema para as tripulações de aeronaves. Recentemente, foram realizadas medições acuradas das doses de radiação ionizante para voos entre Rio de Janeiro e Roma. Os resultados têm indicado que a dose média de radiação recebida na fase de cruzeiro (que geralmente representa 80% do tempo total de voo) desse trecho intercontinental é 2 μSv/h. As normas internacionais da aviação civil limitam em 1 000 horas por ano o tempo de trabalho para as tripulações que atuem em voos intercontinentais. Considere que a dose de radiação ionizante para uma radiografia torácica é estimada em 0,2 mSv.
@@ -407,6 +447,8 @@ A quantas radiografias torácicas corresponde a dose de radiação ionizante à 
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 133
 
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
 ### 135
 Uma concessionária é responsável por um trecho de 480 quilômetros de uma rodovia. Nesse trecho, foram construídas 10 praças de pedágio, onde funcionários recebem os pagamentos nas cabines de cobrança. Também existe o serviço automático, em que os veículos providos de um dispositivo passam por uma cancela, que se abre automaticamente, evitando filas e diminuindo o tempo de viagem. Segundo a concessionária, o tempo médio para efetuar a passagem em uma cabine é de 3 minutos, e as velocidades máximas permitidas na rodovia são 100 km/h, para veículos leves, e 80 km/h, para veículos de grande porte.
 
@@ -426,6 +468,8 @@ Comparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 135
 
+**Assunto:** fisica/cinematica
+
 ## Difícil
 
 ### 93
@@ -444,6 +488,8 @@ Para que o sinal de bluetooth seja detectado pelas antenas, o valor mínimo de s
 **Explicação:** A onda esférica se espalha pela área 4πr². A 10 m: área = 4 × 3 × 100 = 1 200 m². I = P/A = 2,4 × 10⁻³ W ÷ 1 200 m² = 2,0 × 10⁻⁶ W/m².
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 93
+
+**Assunto:** fisica/ondulatoria-e-optica
 
 ### 94
 Os solos amazônicos, ricos em silicato, não são apropriados para o cultivo por serem incapazes de reter nutrientes. Contudo, descobertas arqueológicas têm demonstrado que os antigos habitantes da Amazônia dominavam a técnica de preparo de um insumo agrícola natural, denominado terra preta. Esse insumo era constituído principalmente de uma espécie de biocarvão (biochar) obtido da queima de matéria orgânica, como troncos de árvores, pedaços de ossos e esterco, capaz de manter um solo fértil por anos.
@@ -470,6 +516,8 @@ O cátion que resultará em uma interação de maior caráter iônico com o âni
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 94
 
+**Assunto:** quimica/ligacoes-e-funcoes-inorganicas
+
 ### 97
 De acordo com a Constituição Federal, é competência dos municípios o gerenciamento dos serviços de limpeza e coleta dos resíduos urbanos (lixo). No entanto, há relatos de que parte desse lixo acaba sendo incinerado, liberando substâncias tóxicas para o ambiente e causando acidentes por explosões, principalmente quando ocorre a incineração de frascos de aerossóis (por exemplo: desodorantes, inseticidas e repelentes). A temperatura elevada provoca a vaporização de todo o conteúdo dentro desse tipo de frasco, aumentando a pressão em seu interior até culminar na explosão da embalagem.
 
@@ -492,6 +540,8 @@ A pressão, em atm, dentro do frasco, no momento da explosão, é mais próxima 
 **Explicação:** Use pV = nRT com a temperatura em kelvin: T = 650 + 273 = 923 K. Então p = nRT/V = 0,1 × 0,082 × 923 ÷ 0,1 L ≈ 75,7 atm, cerca de 76 atm. Usar 650 em vez de 923 levaria a 53 atm, um erro comum.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** quimica/estequiometria
 
 ### 120
 Pais com síndrome de Down
@@ -516,6 +566,8 @@ O médico informa ao casal que, com relação ao cromossomo 21, os zigotos forma
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 120
 
+**Assunto:** biologia/genetica-e-biotecnologia
+
 ### 121
 Para que uma molécula dê origem a um medicamento de administração oral, além de apresentar atividade farmacológica, deve ser capaz de atingir o local de ação. Para tanto, essa molécula não deve se degradar no estômago (onde o meio é fortemente ácido e há várias enzimas que reagem mediante catálise ácida), deve ser capaz de atravessar as membranas celulares e ser solúvel no plasma sanguíneo (sistema aquoso). Para os fármacos cujas estruturas são formadas por cadeias carbônicas longas contendo pelo menos um grupamento amino, um recurso tecnológico empregado é sua conversão no cloridrato correspondente. Essa conversão é representada, de forma genérica, pela equação química:
 
@@ -534,6 +586,8 @@ O aumento da eficiência de circulação do fármaco no sangue, promovido por es
 **Explicação:** A amina vira um sal (cloridrato), um composto iônico. Isso aumenta a solubilidade em água e, portanto, no plasma sanguíneo.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 121
+
+**Assunto:** quimica/quimica-organica
 
 ### 122
 Toxicidade do cianeto
@@ -555,3 +609,5 @@ Esse bloqueio aumenta a concentração celular de
 **Explicação:** Com a cadeia bloqueada, os elétrons param de fluir e o NADH não consegue ser reoxidado a NAD⁺. Por isso, o NADH se acumula, enquanto a produção de ATP e de água diminui.
 
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** biologia/citologia

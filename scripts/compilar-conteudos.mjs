@@ -122,6 +122,12 @@ function lerTopico(arquivo) {
       campo = null;
       return;
     }
+    // questão oficial que também aparece num assunto do conteúdo (ex.: matematica/funcoes-afim-e-quadratica)
+    if ((m = linha.match(/^\*\*Assunto:\*\*\s*(.*)$/))) {
+      atual.assuntos = m[1].split(/[,;]/).map((x) => x.trim()).filter(Boolean);
+      campo = null;
+      return;
+    }
     if (campo === 'enunciado') atual.enunciado.push(linha.replace(/^>\s?/, ''));
     else if (campo === 'explicacao' && linha.trim()) atual.explicacao.push(linha.trim());
     else if (linha.trim() && atual.alternativas.length && atual.correta == null) {
@@ -158,6 +164,7 @@ function main() {
   const incidencia = lerIncidencia();
   const disciplinas = [];
   const questoes = {};
+  const vinculos = [];
   let total = 0;
 
   const pastas = fs.readdirSync(PASTA_CONTEUDOS, { withFileTypes: true }).filter((d) => d.isDirectory());
@@ -202,6 +209,7 @@ function main() {
         const item = { id: `${id}#${'fmd'[q.nivel]}${n}`, n: q.nivel, e: q.enunciado, a: q.alternativas, c: q.correta, x: q.explicacao };
         if (q.fonte) item.f = q.fonte;
         if (q.modelo) item.m = q.modelo;
+        for (const a of q.assuntos || []) vinculos.push({ assunto: a, id: item.id, arquivo, linha: q.linha });
         return item;
       });
       total += qs.length;
@@ -211,6 +219,17 @@ function main() {
   disciplinas.sort((a, b) => a.ordem - b.ordem || a.nome.localeCompare(b.nome));
   const ids = new Set(disciplinas.flatMap((d) => d.topicos.map((t) => t.id)));
   for (const id of incidencia.keys()) if (!ids.has(id)) erro(ARQ_INCIDENCIA, 0, `assunto "${id}" não existe`);
+
+  // questões oficiais classificadas por assunto: o tópico guarda só os ids (sem duplicar o texto)
+  const topicoPorId = new Map(disciplinas.flatMap((d) => d.topicos.map((t) => [t.id, t])));
+  for (const v of vinculos) {
+    const t = topicoPorId.get(v.assunto);
+    if (!t) {
+      erro(v.arquivo, v.linha, `assunto "${v.assunto}" não existe`);
+      continue;
+    }
+    (t.oficiais ||= []).push(v.id);
+  }
 
   if (erros.length) {
     console.error(`\n${erros.length} problema(s) encontrado(s):\n`);
