@@ -10,6 +10,7 @@ import { useProgresso } from '../../estado/ProgressoContext';
 import { MAX_PROTETORES, PRECO_PROTETOR, PrefRevisao, comprarProtetor, nivelDoUsuario } from '../../estado/progresso';
 import { Barra, Botao, Cartao, Chip } from '../../ui/componentes';
 import { ComIcone, Icone } from '../../ui/Icone';
+import { CartaoBackup } from '../../ui/Backup';
 import { EscolhaLingua, EscolhaPrazo, EscolhaProva } from '../../ui/Objetivo';
 import { criarEstilos, useCores } from '../../ui/tema';
 
@@ -88,7 +89,7 @@ export default function Perfil() {
 
   async function mudarLembrete(ativo: boolean, hora = p.lembrete.hora, minuto = p.lembrete.minuto) {
     atualizar((x) => ({ ...x, lembrete: { ativo, hora, minuto } }));
-    const ok = await configurarLembrete(ativo, hora, minuto);
+    const ok = await configurarLembrete(ativo, hora, minuto, { ...p, lembrete: { ativo, hora, minuto } });
     if (ativo && !ok) {
       setMsg('Não foi possível ativar o lembrete. Verifique a permissão de notificações do app.');
       atualizar((x) => ({ ...x, lembrete: { ...x.lembrete, ativo: false } }));
@@ -353,6 +354,8 @@ export default function Perfil() {
             <Switch value={p.desbloquearTudo} onValueChange={(v) => atualizar((x) => ({ ...x, desbloquearTudo: v }))} trackColor={{ true: c.verde }} />
           </View>
         </Cartao>
+
+        <CartaoBackup />
 
         <Botao titulo="Apagar meu progresso" contorno cor={c.vermelho} onPress={() => setConfirmar(true)} />
         <View style={{ height: 30 }} />

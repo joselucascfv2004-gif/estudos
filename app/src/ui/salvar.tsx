@@ -1,18 +1,22 @@
 import { useState } from 'react';
-import { Modal, Pressable, Text, TextInput, View } from 'react-native';
+import { Linking, Modal, Platform, Pressable, Share, Text, TextInput, View } from 'react-native';
+
+import { EMAIL_ERROS } from '../data/contato';
+import { getQuestao, getTopico } from '../data/banco';
 
 import { hoje } from '../estado/datas';
 import { useProgresso } from '../estado/ProgressoContext';
-import { Botao } from './componentes';
+import { Botao, Chip } from './componentes';
 import { ComIcone } from './Icone';
 import { criarEstilos, useCores } from './tema';
 
-/** Botões "Salvar" (estrela) e "Anotar" de uma questão. */
+/** Botões "Salvar" (estrela), "Anotar" e "Achei um erro" de uma questão. */
 export function AcoesQuestao({ id, claro }: { id: string; claro?: boolean }) {
   const c = useCores();
   const s = useEstilos();
   const { p, atualizar } = useProgresso();
   const [anotando, setAnotando] = useState(false);
+  const [erro, setErro] = useState(false);
   const salva = p.salvas[id];
 
   function alternar() {
@@ -36,7 +40,13 @@ export function AcoesQuestao({ id, claro }: { id: string; claro?: boolean }) {
           {salva?.nota ? 'Ver anotação' : 'Anotar'}
         </ComIcone>
       </Pressable>
+      <Pressable testID="btn-erro" onPress={() => setErro(true)} style={[s.acao, claro && s.acaoClara]} hitSlop={6}>
+        <ComIcone icone="alert-circle-outline" cor={c.texto} tamanho={18} estilo={{ gap: 4 }} estiloTexto={s.acaoTexto}>
+          Erro?
+        </ComIcone>
+      </Pressable>
       <ModalNota id={id} visivel={anotando} fechar={() => setAnotando(false)} />
+      <ModalErro id={id} visivel={erro} fechar={() => setErro(false)} />
     </View>
   );
 }
@@ -82,8 +92,72 @@ export function ModalNota({ id, visivel, fechar }: { id: string; visivel: boolea
   );
 }
 
+const MOTIVOS = ['Gabarito errado', 'Explicação confusa', 'Erro de digitação', 'Enunciado incompleto', 'Outro'];
+
+/** Aviso de erro numa questão: o aluno escolhe o motivo e envia por e-mail ou pelo compartilhar do celular. */
+function ModalErro({ id, visivel, fechar }: { id: string; visivel: boolean; fechar: () => void }) {
+  const c = useCores();
+  const s = useEstilos();
+  const [motivo, setMotivo] = useState(MOTIVOS[0]);
+  const [texto, setTexto] = useState('');
+  const [aviso, setAviso] = useState('');
+  const info = getQuestao(id);
+  const topico = info ? getTopico(info.topicoId)?.topico.titulo : '';
+
+  async function enviar() {
+    const corpo = `Achei um erro numa questão do app Estudos.\n\nQuestão: ${id}${topico ? ` (${topico})` : ''}\nProblema: ${motivo}\n${texto.trim() ? `Detalhes: ${texto.trim()}\n` : ''}${info?.questao.f ? `Fonte: ${info.questao.f}\n` : ''}\nEnunciado: ${info?.questao.e.slice(0, 300) ?? ''}`;
+    try {
+      if (EMAIL_ERROS) {
+        await Linking.openURL(`mailto:${EMAIL_ERROS}?subject=${encodeURIComponent(`Erro na questão ${id}`)}&body=${encodeURIComponent(corpo)}`);
+      } else if (Platform.OS !== 'web') {
+        await Share.share({ message: corpo, title: 'Erro numa questão' });
+      } else {
+        setAviso(corpo);
+        return;
+      }
+      setTexto('');
+      fechar();
+    } catch {
+      setAviso(corpo);
+    }
+  }
+
+  return (
+    <Modal visible={visivel} transparent animationType="fade" onRequestClose={fechar} onShow={() => setAviso('')}>
+      <View style={s.fundo}>
+        <View style={s.caixa}>
+          <ComIcone icone="alert-circle-outline" cor={c.vermelho} tamanho={22} estiloTexto={s.titulo}>
+            Achei um erro
+          </ComIcone>
+          <Text style={s.sub}>Obrigado por avisar! O que está errado nesta questão?</Text>
+          <View style={{ flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginBottom: 10 }}>
+            {MOTIVOS.map((m) => (
+              <Chip key={m} texto={m} ativo={motivo === m} cor={c.vermelho} onPress={() => setMotivo(m)} />
+            ))}
+          </View>
+          <TextInput
+            testID="input-erro"
+            value={texto}
+            onChangeText={setTexto}
+            multiline
+            placeholder="Conte o que você notou (opcional)"
+            placeholderTextColor={c.cinza}
+            style={[s.campo, { minHeight: 80 }]}
+            maxLength={500}
+          />
+          {!!aviso && (
+            <TextInput value={aviso} multiline editable={false} selectTextOnFocus style={[s.campo, { minHeight: 80, fontSize: 12 }]} />
+          )}
+          <Botao testID="btn-enviar-erro" titulo="Enviar aviso" cor={c.vermelho} onPress={enviar} />
+          <Botao titulo="Cancelar" contorno cor={c.textoSuave} onPress={fechar} estilo={{ marginTop: 10 }} />
+        </View>
+      </View>
+    </Modal>
+  );
+}
+
 const useEstilos = criarEstilos((c) => ({
-  acoes: { flexDirection: 'row', gap: 10, marginTop: 10 },
+  acoes: { flexDirection: 'row', flexWrap: 'wrap', gap: 10, marginTop: 10 },
   acao: { paddingHorizontal: 12, paddingVertical: 7, borderRadius: 12, borderWidth: 2, borderColor: 'rgba(0,0,0,0.12)' },
   acaoClara: { borderColor: c.borda, backgroundColor: c.fundo },
   acaoTexto: { fontSize: 13, fontWeight: '800', color: c.texto },

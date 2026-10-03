@@ -3,6 +3,7 @@ import { createContext, ReactNode, useCallback, useContext, useEffect, useMemo, 
 import { AppState } from 'react-native';
 
 import { hoje } from './datas';
+import { atualizarLembretes } from './lembretes';
 import { Progresso, estadoInicial, normalizar, verificarOfensiva } from './progresso';
 
 const CHAVE = 'estudos:progresso:v1';
@@ -62,6 +63,21 @@ export function ProgressoProvider({ children }: { children: ReactNode }) {
     if (!carregado) return;
     AsyncStorage.setItem(CHAVE, JSON.stringify(p)).catch(() => {});
   }, [p, carregado]);
+
+  // Reagenda os lembretes (o texto de cada dia depende das revisões e da data da prova).
+  const ultimo = useRef(p);
+  ultimo.current = p;
+  useEffect(() => {
+    if (!carregado) return;
+    const t = setTimeout(() => atualizarLembretes(ultimo.current), 1500);
+    return () => clearTimeout(t);
+  }, [carregado, p.lembrete.ativo, p.lembrete.hora, p.lembrete.minuto, p.totalLicoes, p.dataProva, p.nomeProva, p.prova, p.lingua, p.ofensiva.ultimoDia]);
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', (st) => {
+      if (st === 'active') atualizarLembretes(ultimo.current);
+    });
+    return () => sub.remove();
+  }, []);
 
   const atualizar = useCallback((f: (p: Progresso) => Progresso) => setP((atual) => f(atual)), []);
 

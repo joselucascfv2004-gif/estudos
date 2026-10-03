@@ -43,6 +43,8 @@ export type PrefRevisao = {
   /** assuntos (ids de tópico) */
   topicos: string[];
 };
+/** Redação escrita no app: texto, dia da última edição e a autoavaliação (0 a 200 por competência). */
+export type Redacao = { tema: string; texto: string; dia: string; notas: (number | null)[]; segundos: number };
 export type ResultadoSimulado = { dia: string; titulo: string; acertos: number; total: number; segundos: number };
 
 export type Progresso = {
@@ -90,6 +92,8 @@ export type Progresso = {
   /** Língua estrangeira estudada quando a prova tem inglês e espanhol. */
   lingua: Lingua;
   prefRevisao: PrefRevisao;
+  /** Redações por tema (id do tema). */
+  redacoes: Record<string, Redacao>;
 };
 
 export function estadoInicial(): Progresso {
@@ -127,6 +131,7 @@ export function estadoInicial(): Progresso {
     planoDia: null,
     lingua: 'ingles',
     prefRevisao: { nivel: null, disciplinas: [], topicos: [] },
+    redacoes: {},
   };
 }
 
@@ -255,6 +260,8 @@ export function pesoPreferencia(p: Progresso, id: string): number {
   let peso = 1;
   if (topicos.some((t) => pref.topicos.includes(t) || pref.disciplinas.includes(t.split('/')[0]))) peso *= 2;
   if (pref.nivel != null && getQuestao(id)?.questao.n === pref.nivel) peso *= 1.5;
+  // assuntos em que o aluno anda errando muito também voltam antes
+  if (topicos.some((t) => ehPontoFraco(desempenhoTopico(p, t)))) peso *= 1.5;
   return peso;
 }
 
@@ -274,6 +281,15 @@ export function agendar(
   const caixa = acertou ? Math.min(MAX_CAIXA, (anterior?.caixa ?? 0) + (anterior ? 1 : 2)) : 0;
   const dias = Math.max(1, Math.round((INTERVALOS[caixa] / peso) * (0.7 + sorteio() * 0.7)));
   return { caixa, proxima: somarDias(dia, dias) };
+}
+
+/**
+ * Assunto ao qual a questão "pertence" para medir desempenho: nas questões oficiais do ENEM, o
+ * assunto em que ela foi classificada (ex.: matemática/porcentagem), e não o arquivo da prova.
+ */
+export function assuntoDaQuestao(id: string): string | undefined {
+  const topicos = topicosDaQuestao(id);
+  return topicos.find((t) => !t.startsWith('enem-oficial/')) ?? topicos[0] ?? getQuestao(id)?.topicoId;
 }
 
 /** A questão é de algum assunto que o aluno estuda (prova-alvo e língua escolhida)? */
@@ -342,12 +358,76 @@ export function desempenhoTopico(p: Progresso, topicoId: string): Desempenho {
   return { topicoId, respostas: h.length, acerto: h.length ? Math.round((acertos / h.length) * 100) : 0 };
 }
 
+const ehPontoFraco = (d: Desempenho) => d.respostas >= MIN_RESPOSTAS_AVALIAR && d.acerto < LIMITE_PONTO_FRACO;
+
 /** Tópicos da prova com acerto recente abaixo do limite, do pior para o melhor. */
 export function pontosFracos(p: Progresso): Desempenho[] {
   return topicosDoAluno(p)
     .map((t) => desempenhoTopico(p, t.id))
-    .filter((d) => d.respostas >= MIN_RESPOSTAS_AVALIAR && d.acerto < LIMITE_PONTO_FRACO)
+    .filter(ehPontoFraco)
     .sort((a, b) => a.acerto - b.acerto || b.respostas - a.respostas);
+}
+
+export type Dificuldade = {
+  topicoId: string;
+  /** respostas e erros de todas as vezes (cada questão conta todas as tentativas) */
+  respostas: number;
+  erros: number;
+  /** percentual de acerto geral e nas últimas questões */
+  acerto: number;
+  recente: number | null;
+  /** questões que o aluno já errou mais de uma vez */
+  teimosas: number;
+  /** -1 piorando, 0 estável, 1 melhorando (recente comparado ao geral) */
+  tendencia: -1 | 0 | 1;
+};
+
+/**
+ * Relatório de dificuldades: para cada assunto já praticado, quanto o aluno erra no geral e nas
+ * últimas questões. Ordena do mais difícil para o mais fácil (usa o acerto recente quando há
+ * respostas suficientes, senão o geral).
+ */
+export function dificuldades(p: Progresso): Dificuldade[] {
+  const porTopico = new Map<string, { respostas: number; erros: number; teimosas: number }>();
+  for (const [id, e] of Object.entries(p.questoes)) {
+    const topicoId = assuntoDaQuestao(id);
+    if (!topicoId) continue;
+    const t = porTopico.get(topicoId) ?? { respostas: 0, erros: 0, teimosas: 0 };
+    t.respostas += e.acertos + e.erros;
+    t.erros += e.erros;
+    if (e.erros >= 2) t.teimosas++;
+    porTopico.set(topicoId, t);
+  }
+  const lista: Dificuldade[] = [];
+  for (const [topicoId, t] of porTopico) {
+    if (!t.respostas) continue;
+    const acerto = Math.round(((t.respostas - t.erros) / t.respostas) * 100);
+    const d = desempenhoTopico(p, topicoId);
+    const recente = d.respostas >= MIN_RESPOSTAS_AVALIAR ? d.acerto : null;
+    const tendencia = recente == null || Math.abs(recente - acerto) < 10 ? 0 : recente > acerto ? 1 : -1;
+    lista.push({ topicoId, ...t, acerto, recente, tendencia });
+  }
+  const nota = (d: Dificuldade) => d.recente ?? d.acerto;
+  return lista.sort((a, b) => nota(a) - nota(b) || b.erros - a.erros);
+}
+
+/** Quantas revisões vencem em cada um dos próximos `dias` dias (o de hoje inclui as atrasadas). */
+export function calendarioRevisoes(p: Progresso, dias = 14, dia = hoje()): { dia: string; quantidade: number }[] {
+  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
+  const fim = somarDias(dia, dias - 1);
+  const contagem = new Map<string, number>();
+  for (const [id, e] of Object.entries(p.questoes)) {
+    if (!e.proxima || e.proxima > fim || !daProvaDoAluno(p, id, assuntos)) continue;
+    // o que venceu antes de hoje (ou foi respondido hoje) cai no primeiro dia possível
+    let quando = e.proxima < dia ? dia : e.proxima;
+    if (e.ultima >= quando) quando = somarDias(e.ultima, 1);
+    if (quando > fim) continue;
+    contagem.set(quando, (contagem.get(quando) ?? 0) + 1);
+  }
+  return Array.from({ length: dias }, (_, i) => {
+    const d = somarDias(dia, i);
+    return { dia: d, quantidade: contagem.get(d) ?? 0 };
+  });
 }
 
 /** Percentual de acerto de todas as respostas já dadas em uma disciplina (null se nunca respondeu). */
@@ -690,7 +770,7 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
       ultima: dia,
       ...agendar(anterior, acertou, dia, pesoPreferencia(p, id)),
     };
-    const topicoId = getQuestao(id)?.topicoId;
+    const topicoId = assuntoDaQuestao(id);
     if (topicoId) {
       p.recentes[topicoId] = ((p.recentes[topicoId] ?? '') + (acertou ? '1' : '0')).slice(-JANELA_RECENTE);
       const disc = topicoId.split('/')[0];
@@ -702,6 +782,7 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
       p.topicosDia[dia] = [...estudados];
     }
   }
+  if (r.topicoId) p.topicosDia[dia] = [...new Set([...(p.topicosDia[dia] ?? []), r.topicoId])];
   p.acertosDia = manterUltimosDias(p.acertosDia, dia);
   p.topicosDia = manterUltimosDias(p.topicosDia, dia);
 
@@ -822,6 +903,15 @@ export function montarSimulado(p: Progresso, quantidade: number, disciplinaId?: 
     }
   }
   return escolhidas;
+}
+
+/** Número da questão na prova oficial ("... questão 140" na fonte). */
+const numeroNaProva = (q: Questao) => Number(q.f?.match(/quest[ãa]o (\d+)/i)?.[1] ?? 999);
+
+/** Caderno de uma prova oficial (um arquivo de enem-oficial): as questões na ordem da prova. */
+export function montarProvaOficial(topicoId: string): Questao[] {
+  const proprias = questoesDoTopico(topicoId).filter((q) => q.id.startsWith(topicoId + '#'));
+  return [...proprias].sort((a, b) => numeroNaProva(a) - numeroNaProva(b));
 }
 
 export function montarSalvas(p: Progresso): Questao[] {

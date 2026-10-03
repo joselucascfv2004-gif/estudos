@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -46,6 +47,15 @@ export default function Conquistas() {
             <Legenda cor={c.amarelo} texto="meta batida" />
             <Legenda cor={c.azul} texto={`estudou (meta: ${p.metaDiaria} XP por dia)`} />
           </View>
+        </Cartao>
+
+        <Cartao testID="cartao-dificuldades" estilo={{ flexDirection: 'row', alignItems: 'center', gap: 12 }} onPress={() => router.push('/dificuldades')}>
+          <Icone nome="chart-box-outline" tamanho={26} cor={c.vermelho} />
+          <View style={{ flex: 1 }}>
+            <Text style={[s.subtitulo, { marginBottom: 2 }]}>Minhas dificuldades</Text>
+            <Text style={{ fontSize: 13, fontWeight: '600', color: c.textoSuave }}>Os assuntos em que você mais erra, por matéria, com atalhos para estudar</Text>
+          </View>
+          <Icone nome="chevron-right" tamanho={24} cor={c.textoSuave} />
         </Cartao>
 
         <Text style={s.titulo}>Sua evolução</Text>

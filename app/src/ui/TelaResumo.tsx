@@ -1,67 +1,61 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { ScrollView, Text, View } from 'react-native';
+import { useRef, useState } from 'react';
+import { ScrollView, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { getTopico } from '../data/banco';
 import { useProgresso } from '../estado/ProgressoContext';
 import { nivelSugerido } from '../estado/progresso';
-import { Botao, Cabecalho } from './componentes';
+import { Botao, Cabecalho, Chip } from './componentes';
 import { ComIcone } from './Icone';
+import { Markdown } from './Markdown';
 import { criarEstilos, useCores } from './tema';
 
-/** Texto com trechos em **negrito**. */
-function TextoRico({ texto, estilo, forte }: { texto: string; estilo: object; forte: object }) {
-  const partes = texto.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
-  return (
-    <Text style={estilo}>
-      {partes.map((parte, i) =>
-        parte.startsWith('**') && parte.endsWith('**') ? (
-          <Text key={i} style={forte}>
-            {parte.slice(2, -2)}
-          </Text>
-        ) : (
-          parte
-        ),
-      )}
-    </Text>
-  );
-}
-
+/** Teoria de um assunto: resumo rápido e, quando existe, a aula completa com exemplos. */
 export default function TelaResumo() {
   const c = useCores();
   const s = useEstilos();
   const { p } = useProgresso();
-  const { topico } = useLocalSearchParams<{ topico: string }>();
+  const { topico, aba } = useLocalSearchParams<{ topico: string; aba?: string }>();
   const info = getTopico(topico ?? '');
+  const temAula = !!info?.topico.aula;
+  const [verAula, setVerAula] = useState(temAula && aba !== 'resumo');
+  const rolagem = useRef<ScrollView>(null);
   if (!info) return null;
-  const linhas = (info.topico.resumo ?? '').split('\n');
+  const texto = verAula ? info.topico.aula! : info.topico.resumo ?? '';
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
       <Cabecalho titulo={info.topico.titulo} icone="book-open-variant" />
-      <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: 30 }}>
+      <ScrollView ref={rolagem} contentContainerStyle={{ padding: 18, paddingBottom: 30 }}>
         <ComIcone icone={info.disciplina.icone} cor={info.disciplina.cor} tamanho={18} estiloTexto={s.disciplina}>
-          {info.disciplina.nome} · resumo em 2 minutos
+          {info.disciplina.nome}
+          {verAula ? ' · aula completa' : ' · resumo em 2 minutos'}
         </ComIcone>
-        {linhas.map((linha, i) => {
-          const t = linha.trim();
-          if (!t) return <View key={i} style={{ height: 8 }} />;
-          if (t.startsWith('### ')) return <Text key={i} style={s.subtitulo}>{t.slice(4)}</Text>;
-          if (t.startsWith('- ')) {
-            return (
-              <View key={i} style={s.item}>
-                <Text style={[s.texto, { color: info.disciplina.cor }]}>●</Text>
-                <TextoRico texto={t.slice(2)} estilo={[s.texto, { flex: 1 }]} forte={s.forte} />
-              </View>
-            );
-          }
-          return <TextoRico key={i} texto={t} estilo={s.texto} forte={s.forte} />;
-        })}
+        {temAula && !!info.topico.resumo && (
+          <View style={s.abas}>
+            <Chip testID="aba-aula" texto="Aula completa" icone="school-outline" ativo={verAula} cor={info.disciplina.cor} onPress={() => setVerAula(true)} />
+            <Chip testID="aba-resumo" texto="Resumo" icone="text-short" ativo={!verAula} cor={info.disciplina.cor} onPress={() => setVerAula(false)} />
+          </View>
+        )}
+        <Markdown texto={texto} cor={info.disciplina.cor} />
+        {verAula && !!info.topico.resumo && (
+          <Botao
+            titulo="Ver o resumo para revisar"
+            contorno
+            cor={info.disciplina.cor}
+            estilo={{ marginTop: 20 }}
+            onPress={() => {
+              setVerAula(false);
+              rolagem.current?.scrollTo({ y: 0, animated: false });
+            }}
+          />
+        )}
         <Botao
           testID="btn-resumo-praticar"
           titulo="Praticar este assunto"
           cor={info.disciplina.cor}
-          estilo={{ marginTop: 20 }}
+          estilo={{ marginTop: 12 }}
           onPress={() =>
             router.replace({ pathname: '/licao', params: { modo: 'topico', topico: info.topico.id, nivel: String(nivelSugerido(p, info.topico.id)) } })
           }
@@ -73,8 +67,5 @@ export default function TelaResumo() {
 
 const useEstilos = criarEstilos((c) => ({
   disciplina: { fontSize: 13, fontWeight: '800', color: c.textoSuave, marginBottom: 10 },
-  subtitulo: { fontSize: 18, fontWeight: '800', color: c.texto, marginTop: 10, marginBottom: 6 },
-  texto: { fontSize: 16, lineHeight: 24, color: c.texto },
-  forte: { fontWeight: '800' },
-  item: { flexDirection: 'row', gap: 8, marginBottom: 6 },
+  abas: { flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginBottom: 8 },
 }));

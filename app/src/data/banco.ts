@@ -42,6 +42,8 @@ export type Topico = {
   porNivel: [number, number, number];
   /** resumo teórico do tópico (Markdown simples), mostrado antes das questões */
   resumo?: string;
+  /** aula completa (teoria explicada com exemplos), em Markdown simples */
+  aula?: string;
   /** provas oficiais: as alternativas aparecem na ordem original (sem embaralhar) */
   ordemOriginal?: boolean;
   /** quanto o assunto costuma cair nas provas: 1 (pouco) a 5 (muito) */

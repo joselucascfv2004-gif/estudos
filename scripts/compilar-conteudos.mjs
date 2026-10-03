@@ -37,6 +37,17 @@ function lerFrontmatter(texto, arquivo) {
   return { meta, corpo: linhas.slice(i + 1), inicio: i + 1 };
 }
 
+/**
+ * Aula completa (teoria explicada com exemplos) do tópico, se existir:
+ * conteudos/<disciplina>/aulas/<mesmo nome do arquivo do tópico>.md, em Markdown simples.
+ */
+function lerAula(dir, arquivoTopico) {
+  const caminho = path.join(dir, 'aulas', arquivoTopico);
+  if (!fs.existsSync(caminho)) return {};
+  const aula = fs.readFileSync(caminho, 'utf8').replace(/\r/g, '').replace(/\n{3,}/g, '\n\n').trim();
+  return aula ? { aula } : {};
+}
+
 function lerTopico(arquivo) {
   const texto = fs.readFileSync(arquivo, 'utf8');
   const { meta, corpo, inicio } = lerFrontmatter(texto, arquivo);
@@ -200,6 +211,7 @@ function main() {
         arquivo: path.relative(RAIZ, arquivo),
         porNivel,
         ...(resumo ? { resumo } : {}),
+        ...lerAula(dir, f),
         ...(meta.ordem === 'original' ? { ordemOriginal: true } : {}),
         ...(incidencia.has(id) ? { incidencia: incidencia.get(id) } : {}),
       });

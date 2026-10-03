@@ -16,6 +16,7 @@ import {
   tamanhoRevisao,
 } from '../../estado/progresso';
 import { BarraStatus } from '../../ui/BarraStatus';
+import { CalendarioRevisoes } from '../../ui/CalendarioRevisoes';
 import { Barra, Botao, Cartao } from '../../ui/componentes';
 import { ComIcone, Icone } from '../../ui/Icone';
 import { clarear, criarEstilos, useCores } from '../../ui/tema';
@@ -54,7 +55,8 @@ export default function Praticar() {
                 : 'As questões que você responder voltam aqui em outros dias, misturando assuntos, para fixar o conteúdo na memória.'}
             {surpresa ? ' Quer adiantar? Faça uma revisão surpresa com questões que você já viu.' : ''}
           </Text>
-          <Text style={s.dica} onPress={() => router.push('/perfil')}>
+          <CalendarioRevisoes />
+          <Text style={[s.dica, { marginTop: 10 }]} onPress={() => router.push('/perfil')}>
             Escolha no Perfil as matérias, assuntos e o nível que você quer revisar mais.
           </Text>
           <Botao
@@ -101,12 +103,23 @@ export default function Praticar() {
                 cor={c.vermelho}
                 onPress={() => router.push({ pathname: '/licao', params: { modo: 'fracos' } })}
               />
+              <Botao
+                testID="btn-dificuldades"
+                titulo="Ver relatório completo"
+                contorno
+                cor={c.vermelho}
+                onPress={() => router.push('/dificuldades')}
+                estilo={{ marginTop: 10 }}
+              />
             </>
           ) : (
             <Text style={s.sub}>
               Nenhum ponto fraco por enquanto. O app acompanha as suas respostas: quando você acertar menos de {LIMITE_PONTO_FRACO}% das últimas
               questões de um assunto (com pelo menos {MIN_RESPOSTAS_AVALIAR} respondidas), ele aparece aqui.
             </Text>
+          )}
+          {!fracos.length && Object.keys(p.questoes).length > 0 && (
+            <Botao titulo="Ver meu relatório de acertos" contorno cor={c.vermelho} onPress={() => router.push('/dificuldades')} />
           )}
         </Cartao>
 
@@ -115,10 +128,19 @@ export default function Praticar() {
             Simulado
           </ComIcone>
           <Text style={s.sub}>
-            Prova com tempo marcando e gabarito só no final, como no dia da prova.
+            Prova com tempo marcando e gabarito só no final, como no dia da prova. Também dá para fazer as provas oficiais do ENEM por ano e área.
             {p.simulados.length ? ` Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total} acertos.` : ''}
           </Text>
           <Botao testID="btn-simulado" titulo="Fazer simulado" cor={c.laranja} onPress={() => router.push('/simulado')} />
+        </Cartao>
+
+        <Cartao testID="cartao-redacao" estilo={s.linha} onPress={() => router.push('/redacao')}>
+          <Icone nome="draw-pen" tamanho={26} cor={c.azul} />
+          <View style={{ flex: 1 }}>
+            <Text style={s.nome}>Redação do ENEM</Text>
+            <Text style={s.acerto}>Temas das provas de 2009 a 2025, cronômetro e autoavaliação pelas 5 competências</Text>
+          </View>
+          <Icone nome="chevron-right" tamanho={24} cor={c.azul} />
         </Cartao>
 
         <Cartao testID="cartao-salvas" estilo={s.linha} onPress={() => router.push('/salvas')}>

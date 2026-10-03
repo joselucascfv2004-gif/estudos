@@ -6,7 +6,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { NOMES_NIVEL, Questao, XP_POR_NIVEL, disciplinasDaProva, getDisciplina, getQuestao, getTopico, podeEmbaralhar } from '../data/banco';
 import { embaralhar, hoje } from '../estado/datas';
 import { useProgresso } from '../estado/ProgressoContext';
-import { MINUTOS_POR_QUESTAO, concluirLicao, montarSimulado } from '../estado/progresso';
+import { MINUTOS_POR_QUESTAO, concluirLicao, montarProvaOficial, montarSimulado } from '../estado/progresso';
 import { Botao, Cabecalho, Cartao, Chip } from '../ui/componentes';
 import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
@@ -43,6 +43,15 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
   const { p } = useProgresso();
   const [disciplina, setDisciplina] = useState<string | undefined>(undefined);
   const [tamanho, setTamanho] = useState(20);
+  const [oficial, setOficial] = useState<string | null>(null);
+  // provas oficiais do ENEM: um tópico por ano e área (ex.: "ENEM 2019 — Matemática")
+  const provasOficiais = (disciplinasDaProva(p.prova, p.lingua).find((d) => d.id === 'enem-oficial')?.topicos ?? []).map((t) => {
+    const [, ano, area] = t.titulo.match(/(\d{4})\s*—\s*(.+)$/) ?? [];
+    return { id: t.id, ano: ano ?? '', area: area ?? t.titulo };
+  });
+  const anos = [...new Set(provasOficiais.map((x) => x.ano))].sort().reverse();
+  const [ano, setAno] = useState<string | null>(null);
+  const anoAtivo = ano ?? anos[0];
   const disciplinas = disciplinasDaProva(p.prova, p.lingua);
   const nomeProva = getProva(p.prova).nome;
   const minutos = tamanho * MINUTOS_POR_QUESTAO;
@@ -94,6 +103,40 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
             });
           }}
         />
+
+        {provasOficiais.length > 0 && (
+          <>
+            <Text style={s.secao}>Ou faça uma prova oficial do ENEM</Text>
+            <Text style={s.texto}>As questões de um ano e de uma área, na ordem da prova (só as que não dependem de figuras).</Text>
+            <View style={s.chips}>
+              {anos.map((a) => (
+                <Chip key={a} testID={`ano-${a}`} texto={a} ativo={anoAtivo === a} cor={c.azul} onPress={() => setAno(a)} />
+              ))}
+            </View>
+            <View style={s.chips}>
+              {provasOficiais
+                .filter((x) => x.ano === anoAtivo)
+                .map((x) => (
+                  <Chip key={x.id} testID={`oficial-${x.id}`} texto={x.area} ativo={oficial === x.id} cor={c.azul} onPress={() => setOficial(x.id)} />
+                ))}
+            </View>
+            <Botao
+              testID="btn-prova-oficial"
+              titulo={oficial ? `Fazer a prova (${montarProvaOficial(oficial).length} questões)` : 'Escolha a área'}
+              cor={c.azul}
+              desativado={!oficial || !provasOficiais.some((x) => x.id === oficial && x.ano === anoAtivo)}
+              onPress={() => {
+                const qs = montarProvaOficial(oficial!);
+                if (!qs.length) return;
+                comecar({
+                  itens: qs.map((q) => ({ q, ordem: q.a.map((_, i) => i) })),
+                  titulo: getTopico(oficial!)?.topico.titulo ?? 'Prova oficial',
+                  segundosTotais: qs.length * MINUTOS_POR_QUESTAO * 60,
+                });
+              }}
+            />
+          </>
+        )}
 
         {ultimos.length > 0 && (
           <>

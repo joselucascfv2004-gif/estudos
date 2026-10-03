@@ -166,6 +166,34 @@ export default function Inicio() {
           {itensPlano.length > 0 && feitos === itensPlano.length && <Text style={s.cartaoSub}>Plano do dia concluído! Amanhã tem mais.</Text>}
         </Cartao>
 
+        {plano.length > 0 && (
+          <Cartao testID="cartao-estudar" estilo={{ marginBottom: 14 }}>
+            <ComIcone icone="book-open-page-variant-outline" cor={c.roxo} estiloTexto={s.cartaoTitulo}>
+              Estude antes de praticar
+            </ComIcone>
+            <Text style={s.cartaoSub}>A teoria dos assuntos das questões de hoje. Leia primeiro e depois faça as questões.</Text>
+            {[...(fraco ? [fraco.topicoId] : []), ...plano].map((id) => {
+              const info = getTopico(id);
+              if (!info || !(info.topico.resumo || info.topico.aula)) return null;
+              return (
+                <Pressable
+                  key={id}
+                  testID={`estudar-${id}`}
+                  onPress={() => router.push({ pathname: '/resumo', params: { topico: id } })}
+                  style={s.itemEstudo}
+                >
+                  <Icone nome={info.disciplina.icone} tamanho={22} cor={info.disciplina.cor} />
+                  <View style={{ flex: 1 }}>
+                    <Text style={s.itemEstudoTitulo}>{info.topico.titulo}</Text>
+                    <Text style={s.itemEstudoSub}>{info.topico.aula ? 'Aula completa + resumo' : 'Resumo em 2 minutos'}</Text>
+                  </View>
+                  <Icone nome="chevron-right" tamanho={22} cor={c.textoSuave} />
+                </Pressable>
+              );
+            })}
+          </Cartao>
+        )}
+
         <Cartao estilo={[s.desafio, desafioFeito && { backgroundColor: c.fundoSuave, borderColor: c.borda }]}>
           <ComIcone icone="sword-cross" cor={desafioFeito ? c.textoSuave : '#FFF'} estiloTexto={[s.cartaoTitulo, { color: desafioFeito ? c.textoSuave : '#FFF' }]}>
             Desafio do dia
@@ -242,6 +270,9 @@ function ItemPlano({ texto, icone, feito, onPress, testID }: { texto: string; ic
 }
 
 const useEstilos = criarEstilos((c) => ({
+  itemEstudo: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 10, borderTopWidth: 1, borderTopColor: c.borda },
+  itemEstudoTitulo: { fontSize: 15, fontWeight: '800', color: c.texto },
+  itemEstudoSub: { fontSize: 12, fontWeight: '700', color: c.textoSuave, marginTop: 2 },
   contagem: { flexDirection: 'row', alignItems: 'baseline', gap: 8, marginBottom: 10 },
   contagemNumero: { fontSize: 36, fontWeight: '800', color: c.laranja },
   contagemTexto: { flex: 1, fontSize: 16, fontWeight: '800', color: c.texto },

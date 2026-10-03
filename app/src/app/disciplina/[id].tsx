@@ -125,11 +125,11 @@ export default function TelaDisciplina() {
               Cai em: {aberto.provas.join(' · ')} · {['', 'cai pouco', 'cai às vezes', 'cai com frequência', 'cai bastante', 'cai muito'][incidencia(aberto)]}
               {totalOficiais(aberto) > 0 && ` · inclui ${totalOficiais(aberto)} ${totalOficiais(aberto) === 1 ? 'questão real' : 'questões reais'} do ENEM`}
             </Text>
-            {!!aberto.resumo && (
+            {!!(aberto.resumo || aberto.aula) && (
               <Botao
                 testID="btn-resumo"
                 icone="book-open-variant"
-                titulo="Ler o resumo (2 min)"
+                titulo={aberto.aula ? 'Estudar a teoria (aula completa)' : 'Ler o resumo (2 min)'}
                 contorno
                 cor={d.cor}
                 pequeno
