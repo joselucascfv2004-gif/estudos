@@ -11,6 +11,15 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Regra de três simples e composta, divisão proporcional, misturas e problemas de vazão.
 
+## Resumo
+
+- **Razão** é uma divisão que compara grandezas (a/b). **Proporção** é a igualdade de duas razões: a/b = c/d ⇒ a·d = b·c.
+- **Grandezas diretamente proporcionais:** uma dobra, a outra dobra (preço × quantidade). **Inversamente proporcionais:** uma dobra, a outra cai pela metade (velocidade × tempo).
+- **Regra de três simples:** monte a tabela, marque com setas se é direta ou inversa e resolva.
+- **Regra de três composta:** fixe a grandeza procurada e compare cada uma das outras com ela, uma de cada vez, para saber se é direta ou inversa.
+- **Divisão proporcional:** para dividir um total em partes proporcionais a 2, 3 e 5, divida o total por 2 + 3 + 5 = 10 e multiplique por cada peso.
+- **Escala** = medida no desenho ÷ medida real (nas mesmas unidades).
+
 ## Fácil
 
 ### 1

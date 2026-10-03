@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Revoluções e século XIX
 
+## Resumo
+
+- **Iluminismo:** razão, liberdade e crítica ao absolutismo (Locke, Montesquieu, Voltaire, Rousseau).
+- **Independência dos EUA** (1776): primeira república da América, inspirada no Iluminismo.
+- **Revolução Francesa** (1789): queda da Bastilha, Declaração dos Direitos do Homem, fim dos privilégios, Terror jacobino; termina com Napoleão (Código Civil, Bloqueio Continental).
+- **Revolução Industrial:** começa na Inglaterra (séc. XVIII); máquina a vapor, fábricas, operários com longas jornadas, ludismo e sindicatos.
+- **Ideologias do séc. XIX:** liberalismo, socialismo utópico e científico (Marx e Engels), anarquismo, nacionalismo.
+- **Independências na América Latina:** lideradas pelos criollos (Bolívar, San Martín).
+- **Imperialismo** (fim do séc. XIX): partilha da África (Conferência de Berlim) e da Ásia, justificada pelo darwinismo social.
+
 ## Fácil
 
 ### 1

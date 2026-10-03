@@ -7,6 +7,15 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Físico-química (conceitos)
 
+## Resumo
+
+- **Termoquímica:** reações exotérmicas liberam calor (combustão); endotérmicas absorvem (fotossíntese, derreter gelo).
+- **Cinética:** para uma reação ocorrer é preciso choque efetivo com energia mínima (energia de ativação). O **catalisador** diminui a energia de ativação sem ser consumido.
+- **Equilíbrio químico:** as velocidades direta e inversa ficam iguais. **Le Chatelier:** o sistema reage contra a perturbação (adicionar reagente desloca para os produtos; aumentar a pressão favorece o lado com menos mols de gás).
+- **Eletroquímica:** na pilha (espontânea), o ânodo oxida e o cátodo reduz. A eletrólise usa energia elétrica para forçar a reação. A ferrugem é uma oxidação do ferro.
+- **Propriedades coligativas:** adicionar soluto não volátil diminui a pressão de vapor, eleva a temperatura de ebulição e diminui a de congelamento (sal na água, anticongelante).
+- **Radioatividade:** emissões α (núcleo de hélio), β (elétron) e γ (onda). Fissão em usinas nucleares; fusão no Sol.
+
 ## Fácil
 
 ### 1

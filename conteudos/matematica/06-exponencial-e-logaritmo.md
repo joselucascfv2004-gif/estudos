@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e escalas logarítmicas.
 
+## Resumo
+
+- **Função exponencial** f(x) = a·bˣ: crescimento (b > 1) ou decaimento (0 < b < 1) por um fator constante. Usada em populações, juros compostos, meia-vida e epidemias.
+- **Meia-vida:** a cada período, a quantidade cai pela metade: Q = Q₀ · (1/2)ⁿ.
+- **Logaritmo** é o expoente: log_b a = x ⇔ bˣ = a.
+- **Propriedades:** log(a·b) = log a + log b; log(a/b) = log a − log b; log aⁿ = n·log a; log_b b = 1; log_b 1 = 0.
+- **Mudança de base:** log_b a = log a / log b.
+- **Valores úteis:** log 2 ≈ 0,30; log 3 ≈ 0,48; log 10 = 1.
+- **Para descobrir o tempo** em problemas de crescimento (ex.: "em quantos anos dobra?"), aplique log dos dois lados.
+
 ## Fácil
 
 ### 1

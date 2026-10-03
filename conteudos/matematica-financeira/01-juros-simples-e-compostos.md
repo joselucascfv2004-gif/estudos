@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Capital, taxa, tempo, montante; taxas proporcionais, equivalentes, nominais, efetivas e reais.
 
+## Resumo
+
+- **Juros simples:** J = C·i·t e M = C(1 + i·t). O juro é sempre calculado sobre o capital inicial (crescimento linear).
+- **Juros compostos:** M = C(1 + i)ᵗ ("juros sobre juros", crescimento exponencial).
+- **Taxa e tempo na mesma unidade!** Se a taxa é mensal, o tempo deve estar em meses.
+- **Taxas proporcionais** (simples): 2% a.m. = 24% a.a. **Taxas equivalentes** (compostas): (1 + i_a) = (1 + i_m)¹².
+- **Taxa nominal × efetiva:** 12% a.a. capitalizados mensalmente = 1% a.m., que dá uma taxa efetiva de cerca de 12,68% a.a.
+- **Taxa real** (descontando a inflação): (1 + nominal) = (1 + real)(1 + inflação).
+- **Comparando:** para t > 1, os compostos rendem mais; para t < 1, os simples rendem mais.
+
 ## Fácil
 
 ### 1

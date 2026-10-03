@@ -8,13 +8,14 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
+import { RESUMOS } from './geradores/resumos.mjs';
 import { criarRng, gerarNivel, hashTexto, paraMarkdown } from './geradores/util.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PASTA_GERADORES = path.join(RAIZ, 'scripts', 'geradores');
 const POR_NIVEL = 20;
 
-const modulos = fs.readdirSync(PASTA_GERADORES).filter((f) => f.endsWith('.mjs') && f !== 'util.mjs').sort();
+const modulos = fs.readdirSync(PASTA_GERADORES).filter((f) => f.endsWith('.mjs') && f !== 'util.mjs' && f !== 'resumos.mjs').sort();
 let total = 0;
 for (const m of modulos) {
   const { default: topicos } = await import(pathToFileURL(path.join(PASTA_GERADORES, m)).href);
@@ -29,7 +30,7 @@ for (const m of modulos) {
     });
     const destino = path.join(RAIZ, 'conteudos', t.disciplina, t.arquivo + '.md');
     fs.mkdirSync(path.dirname(destino), { recursive: true });
-    fs.writeFileSync(destino, paraMarkdown(t, niveis));
+    fs.writeFileSync(destino, paraMarkdown({ ...t, resumo: RESUMOS[`${t.disciplina}/${t.arquivo}`] }, niveis));
     const n = niveis.reduce((s, q) => s + q.length, 0);
     total += n;
     console.log(`${String(n).padStart(4)}  ${path.relative(RAIZ, destino)}`);

@@ -7,6 +7,15 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Sociologia clássica e conceitos fundamentais
 
+## Resumo
+
+- **Durkheim:** **fato social** (exterior, coercitivo e geral); solidariedade mecânica (sociedades simples) × orgânica (divisão do trabalho); anomia.
+- **Max Weber:** **ação social** (racional com relação a fins ou a valores, afetiva e tradicional); tipos de dominação (tradicional, carismática e racional-legal); burocracia; *A ética protestante e o espírito do capitalismo*.
+- **Karl Marx:** luta de classes (burguesia × proletariado), mais-valia, alienação e ideologia.
+- **Conceitos básicos:** socialização (primária, na família; secundária, na escola e no trabalho), instituições sociais, cultura e etnocentrismo × relativismo cultural.
+- **Estratificação:** castas (sem mobilidade), estamentos (mobilidade rara) e classes (mobilidade possível).
+- **Pensadores brasileiros:** Gilberto Freyre (*Casa-grande & senzala*), Sérgio Buarque de Holanda (homem cordial) e Florestan Fernandes (crítica ao "mito da democracia racial").
+
 ## Fácil
 
 ### 1

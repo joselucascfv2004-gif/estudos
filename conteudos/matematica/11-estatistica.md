@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Média, mediana, moda, média ponderada, amplitude, variância e desvio padrão; leitura de dados.
 
+## Resumo
+
+- **Média aritmética:** soma ÷ quantidade. **Média ponderada:** soma de (valor × peso) ÷ soma dos pesos.
+- **Mediana:** valor do meio com os dados **em ordem** (com quantidade par, é a média dos dois centrais).
+- **Moda:** o valor que mais se repete.
+- **Desvio padrão** mede a dispersão: quanto menor, mais "regulares" (homogêneos) são os dados.
+- **Gráficos:** leia título, eixos e unidades antes de tudo. Gráfico de setores: ângulo = porcentagem × 360°.
+- **Dica ENEM:** cuidado com médias puxadas por valores extremos. A mediana resiste melhor a eles.
+- **Frequência relativa** = frequência do valor ÷ total.
+
 ## Fácil
 
 ### 1

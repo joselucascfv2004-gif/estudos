@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Distância entre pontos, ponto médio, retas, circunferências e áreas no plano cartesiano.
 
+## Resumo
+
+- **Distância entre pontos:** d = √[(x₂ − x₁)² + (y₂ − y₁)²].
+- **Ponto médio:** ((x₁ + x₂)/2, (y₁ + y₂)/2).
+- **Coeficiente angular:** m = (y₂ − y₁)/(x₂ − x₁). Equação da reta: y − y₁ = m(x − x₁).
+- **Retas paralelas** têm o mesmo m; **perpendiculares** têm m₁ · m₂ = −1.
+- **Circunferência** de centro (a, b) e raio r: (x − a)² + (y − b)² = r².
+- **Distância de ponto a reta** ax + by + c = 0: |ax₀ + by₀ + c| / √(a² + b²).
+- **Área de triângulo** com vértices dados: metade do módulo do determinante das coordenadas.
+
 ## Fácil
 
 ### 1

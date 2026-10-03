@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Concentração comum, molaridade, título, ppm, diluição e mistura de soluções.
 
+## Resumo
+
+- **Concentração comum:** C = massa de soluto (g) ÷ volume de solução (L).
+- **Concentração em mol/L:** M = n ÷ V(L).
+- **Relação útil:** C = M · massa molar.
+- **Título e porcentagem em massa:** massa do soluto ÷ massa da solução. **ppm** = partes por milhão (1 mg/kg ou cerca de 1 mg/L em água).
+- **Diluição:** a quantidade de soluto não muda: C₁·V₁ = C₂·V₂.
+- **Mistura de soluções do mesmo soluto:** C_final = (C₁V₁ + C₂V₂)/(V₁ + V₂).
+- **Solubilidade:** solução saturada tem o máximo de soluto dissolvido; o excesso vira corpo de fundo.
+
 ## Fácil
 
 ### 1

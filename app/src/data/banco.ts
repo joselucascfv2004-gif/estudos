@@ -31,7 +31,16 @@ export type Topico = {
   provas: Prova[];
   arquivo: string;
   porNivel: [number, number, number];
+  /** resumo teórico do tópico (Markdown simples), mostrado antes das questões */
+  resumo?: string;
+  /** provas oficiais: as alternativas aparecem na ordem original (sem embaralhar) */
+  ordemOriginal?: boolean;
 };
+
+/** As alternativas desta questão podem ser embaralhadas? (não em provas oficiais nem em certo/errado) */
+export function podeEmbaralhar(q: Questao) {
+  return q.a.length >= 4 && !getTopico(q.id.split('#')[0])?.topico.ordemOriginal;
+}
 
 export type Disciplina = {
   id: string;

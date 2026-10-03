@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Massa molar, mol, número de Avogadro, volume molar, cálculos estequiométricos, rendimento, pureza e reagente limitante.
 
+## Resumo
+
+- **Mol** = 6,02 × 10²³ entidades (constante de Avogadro).
+- **Massa molar** (g/mol): soma das massas atômicas da fórmula. Ex.: H₂O = 2(1) + 16 = 18 g/mol.
+- **n = m / M** (número de mols = massa ÷ massa molar).
+- **Gás nas CNTP:** 1 mol ocupa cerca de 22,4 L.
+- **Estequiometria em 4 passos:** 1) balanceie a equação; 2) leia a proporção em mols; 3) converta para a grandeza pedida (massa, volume, partículas); 4) monte a regra de três.
+- **Reagente limitante:** o que acaba primeiro e define quanto produto se forma.
+- **Rendimento** = produção real ÷ produção teórica. **Pureza:** use só a parte pura do reagente.
+
 ## Fácil
 
 ### 1

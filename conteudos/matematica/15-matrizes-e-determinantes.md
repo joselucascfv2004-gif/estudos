@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Operações com matrizes, determinantes (Sarrus e propriedades), matriz inversa e regra de Cramer.
 
+## Resumo
+
+- **Matriz** m × n: m linhas e n colunas. O elemento aᵢⱼ fica na linha i, coluna j.
+- **Soma:** elemento a elemento (mesma ordem). **Produto A·B:** só existe se o nº de colunas de A = nº de linhas de B; cada elemento é "linha × coluna".
+- **Matriz identidade:** 1 na diagonal principal e 0 fora dela. A·I = A.
+- **Determinante 2×2:** ad − bc. **3×3:** regra de Sarrus.
+- **Propriedades:** trocar duas linhas troca o sinal; linha de zeros ou linhas iguais ⇒ det = 0; det(A·B) = det A · det B.
+- **Matriz inversa** existe só se det ≠ 0.
+- **Sistemas lineares:** det ≠ 0 ⇒ solução única (SPD). det = 0 ⇒ nenhuma (SI) ou infinitas (SPI).
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,17 @@ fonte: Questão inédita (texto original elaborado para o app)
 
 # Interpretação e compreensão de texto
 
+## Resumo
+
+- **Compreender** é entender o que o texto diz explicitamente. **Interpretar** é tirar conclusões a partir dele (inferências).
+- **Leia o enunciado primeiro**, depois o texto, procurando a informação pedida.
+- **Ideia central:** costuma estar no título, no primeiro ou no último parágrafo. As outras ideias a sustentam.
+- **Cuidado com alternativas** que extrapolam (dizem mais do que o texto), reduzem (dizem só uma parte) ou contradizem o texto.
+- **Palavras absolutas** (sempre, nunca, todos, apenas) costumam tornar a alternativa falsa.
+- **Tese e argumentos:** identifique o ponto de vista do autor e os recursos usados para defendê-lo (dados, exemplos, autoridade).
+- **Textos multimodais** (charges, tirinhas, infográficos): combine imagem e texto e considere o contexto histórico.
+- **Ironia e humor:** dependem da quebra de expectativa e do conhecimento de mundo.
+
 ## Fácil
 
 ### 1

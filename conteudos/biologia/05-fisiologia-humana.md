@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Fisiologia humana
 
+## Resumo
+
+- **Digestão:** começa na boca (amilase salivar), continua no estômago (pepsina, ácido) e termina no intestino delgado (suco pancreático, bile, absorção). O intestino grosso absorve água.
+- **Respiração:** troca de gases nos alvéolos. O O₂ é levado pela hemoglobina; o controle é feito pelo bulbo, conforme o nível de CO₂.
+- **Circulação:** coração com 4 cavidades. A pequena circulação vai do coração aos pulmões; a grande, do coração ao corpo. Artérias saem do coração; veias chegam.
+- **Excreção:** os rins filtram o sangue nos néfrons e produzem a urina (ureia). O ADH regula a reabsorção de água.
+- **Sistema nervoso:** o neurônio transmite impulsos elétricos; a sinapse usa neurotransmissores. O ato reflexo envolve a medula.
+- **Hormônios:** insulina (baixa a glicose) e glucagon (aumenta), tireoide (metabolismo), adrenalina (luta ou fuga), hormônios sexuais.
+- **Imunidade:** a vacina gera imunidade ativa (memória); o soro, imunidade passiva (anticorpos prontos).
+
 ## Fácil
 
 ### 1

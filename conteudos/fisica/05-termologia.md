@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Escalas termométricas, calor sensível e latente, trocas de calor, dilatação, gases e termodinâmica.
 
+## Resumo
+
+- **Escalas:** C/5 = (F − 32)/9 = (K − 273)/5.
+- **Calor sensível** (muda a temperatura): Q = m·c·ΔT. **Calor latente** (muda o estado): Q = m·L.
+- **Equilíbrio térmico:** soma dos calores trocados = 0 (o que um perde, o outro ganha).
+- **Dilatação linear:** ΔL = L₀·α·ΔT (superficial usa 2α; volumétrica usa 3α).
+- **Gases ideais:** p·V = n·R·T e p₁V₁/T₁ = p₂V₂/T₂ (temperatura **em kelvin**!).
+- **1ª lei da termodinâmica:** Q = τ + ΔU.
+- **Transmissão de calor:** condução (sólidos), convecção (fluidos, correntes) e irradiação (ondas, inclusive no vácuo).
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Filosofia antiga e medieval
 
+## Resumo
+
+- **Pré-socráticos:** buscavam a **arché** (princípio de todas as coisas). Tales (água), Heráclito (tudo flui, devir), Parmênides (o ser é imutável), Demócrito (átomos).
+- **Sofistas:** retórica e relativismo ("o homem é a medida de todas as coisas", Protágoras).
+- **Sócrates:** "só sei que nada sei"; método da ironia e da maiêutica; conhece-te a ti mesmo.
+- **Platão:** mundo das ideias × mundo sensível (mito da caverna); governo dos filósofos.
+- **Aristóteles:** conhecimento a partir dos sentidos; lógica (silogismo); ética da virtude como **justo meio**; o ser humano como animal político.
+- **Helenismo:** estoicismo (aceitar o destino), epicurismo (prazer moderado, ataraxia) e ceticismo.
+- **Filosofia medieval:** fé e razão. Santo Agostinho (patrística, influência de Platão, livre-arbítrio) e São Tomás de Aquino (escolástica, influência de Aristóteles, cinco vias).
+
 ## Fácil
 
 ### 1

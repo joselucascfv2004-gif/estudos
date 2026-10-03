@@ -24,6 +24,14 @@ App estilo Duolingo para estudar para ENEM, vestibulares militares e concursos
   direitos autorais.
 - Confira fatos, datas, leis e números. Prefira fontes oficiais.
 - Questões de cálculo são geradas em `scripts/geradores/`. Edite o gerador, nunca o `.md` gerado.
+- Todo tópico tem uma seção `## Resumo` (antes de `## Fácil`) com a teoria em tópicos curtos. Nos
+  tópicos gerados, o resumo fica em `scripts/geradores/resumos.mjs`.
+- Questões oficiais ficam em `conteudos/enem-oficial/`, com `ordem: original` no cabeçalho (o
+  balanceador não altera a ordem das alternativas) e `**Fonte:**` em cada questão. Confira o gabarito
+  com o arquivo oficial do INEP. Inclua só questões que não dependem de imagem.
+- Para baixar PDFs do INEP (download.inep.gov.br), o servidor não envia o certificado intermediário:
+  complete a cadeia baixando o intermediário indicado no próprio certificado (AIA) e use `--cacert`.
+  Nunca desative a verificação TLS.
 
 ## Fluxo de trabalho
 

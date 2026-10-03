@@ -11,6 +11,17 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Volumes e áreas de prismas, cilindros, cones, pirâmides e esferas; relação de Euler.
 
+## Resumo
+
+- **Volume do prisma e do cilindro:** área da base × altura (cilindro: πr²·h).
+- **Volume da pirâmide e do cone:** (área da base × altura) / 3.
+- **Esfera:** volume (4/3)πr³; área da superfície 4πr².
+- **Cubo de aresta a:** volume a³; diagonal a√3. **Paralelepípedo:** volume a·b·c; diagonal √(a² + b² + c²).
+- **Relação de Euler** (poliedros convexos): V − A + F = 2.
+- **Unidades:** 1 m³ = 1 000 litros; 1 dm³ = 1 litro; 1 cm³ = 1 mL.
+- **Semelhança:** multiplicar as medidas por k multiplica o **volume por k³**.
+- **Planificação:** o ENEM costuma pedir qual molde forma a caixa ou o sólido. Imagine a dobra de cada face.
+
 ## Fácil
 
 ### 1

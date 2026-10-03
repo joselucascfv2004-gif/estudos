@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Frações, MMC e MDC, potências, notação científica, divisibilidade e dízimas.
 
+## Resumo
+
+- **Ordem das operações:** parênteses → potências e raízes → multiplicação e divisão → adição e subtração (da esquerda para a direita).
+- **Frações:** para somar, iguale os denominadores (use o MMC). Para multiplicar, multiplique numerador com numerador e denominador com denominador. Para dividir, multiplique pelo inverso da segunda.
+- **MMC** resolve "quando os eventos voltam a coincidir" (ônibus, remédios, luzes piscando). **MDC** resolve "dividir em partes iguais do maior tamanho possível".
+- **Potências:** aᵐ · aⁿ = aᵐ⁺ⁿ; aᵐ ÷ aⁿ = aᵐ⁻ⁿ; (aᵐ)ⁿ = aᵐⁿ; a⁰ = 1; a⁻ⁿ = 1/aⁿ.
+- **Notação científica:** número entre 1 e 10 vezes potência de 10 (ex.: 3,2 × 10⁵ = 320 000).
+- **Divisibilidade:** por 2 (termina em par), por 3 (soma dos algarismos múltipla de 3), por 5 (termina em 0 ou 5), por 9 (soma múltipla de 9), por 10 (termina em 0).
+- **Dica de prova:** antes de calcular, estime a ordem de grandeza da resposta e elimine alternativas absurdas.
+
 ## Fácil
 
 ### 1

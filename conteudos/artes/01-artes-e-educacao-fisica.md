@@ -7,6 +7,22 @@ fonte: Questão inédita (estilo ENEM)
 
 # Arte, cultura e práticas corporais
 
+## Resumo
+
+- **Renascimento:** perspectiva e antropocentrismo (Da Vinci, Michelangelo). **Barroco brasileiro:** Aleijadinho em Minas Gerais.
+- **Vanguardas europeias:**
+  - impressionismo: luz e pinceladas rápidas, Monet;
+  - expressionismo: emoção;
+  - cubismo: formas geométricas e vários pontos de vista, Picasso;
+  - futurismo: velocidade e máquinas;
+  - dadaísmo: antiarte, Duchamp;
+  - surrealismo: sonhos e inconsciente, Dalí.
+- **Modernismo brasileiro:** Anita Malfatti, Tarsila do Amaral (*Abaporu*, *Operários*), Di Cavalcanti, Portinari (*Retirantes*) e Villa-Lobos (música).
+- **Arte contemporânea:** instalações, performances e participação do público (Lygia Clark, Hélio Oiticica), grafite e arte urbana.
+- **Música brasileira:** samba, Bossa Nova (Tom Jobim, João Gilberto), Tropicalismo (Caetano, Gil), baião (Luiz Gonzaga) e hip-hop.
+- **Patrimônio cultural:** material (edifícios) e imaterial (frevo, capoeira, Círio de Nazaré), registrado pelo IPHAN.
+- **Educação Física:** atividade física e saúde (a OMS recomenda 150 a 300 min por semana), esporte de rendimento × lazer, padrões de beleza e mídia, inclusão e jogos tradicionais.
+
 ## Fácil
 
 ### 1

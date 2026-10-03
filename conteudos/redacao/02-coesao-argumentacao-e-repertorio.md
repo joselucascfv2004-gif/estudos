@@ -7,6 +7,29 @@ fonte: Questão inédita (estilo ENEM e concursos)
 
 # Coesão, argumentação e repertório
 
+## Resumo
+
+- **Conectivos por valor:**
+  - adição: além disso, ademais;
+  - oposição: entretanto, contudo;
+  - concessão: embora, ainda que;
+  - causa: visto que, uma vez que;
+  - conclusão: portanto, dessa forma;
+  - finalidade: a fim de;
+  - condição: caso, desde que.
+- **Coesão referencial:** retome termos com pronomes, sinônimos e expressões que resumem a ideia anterior ("esse cenário", "tal problemática").
+- **Tipos de argumento:** autoridade, dados estatísticos, exemplificação, causa e consequência, comparação e alusão histórica.
+- **Repertório produtivo:** relacione o repertório ao argumento e explique a ligação; não basta citar.
+- **Repertórios versáteis:**
+  - Constituição de 1988 (art. 6º, direitos sociais);
+  - Bauman (modernidade líquida);
+  - Durkheim (anomia);
+  - Paulo Freire (educação);
+  - Milton Santos (globalização);
+  - Hannah Arendt (banalidade do mal);
+  - ODS da ONU.
+- **Evite falácias:** ataque pessoal (*ad hominem*), generalização apressada e "ladeira escorregadia".
+
 ## Fácil
 
 ### 1

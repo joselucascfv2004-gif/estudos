@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Saúde, doenças e parasitoses
 
+## Resumo
+
+- **Viroses:** gripe, covid-19, dengue, zika, chikungunya e febre amarela (as quatro últimas transmitidas pelo *Aedes aegypti*), sarampo, HIV/aids, hepatites. Prevenção: vacina, controle do vetor, preservativo.
+- **Bacterioses:** tuberculose, hanseníase, cólera, leptospirose (urina de rato em enchentes), tétano, sífilis. Tratamento com antibióticos.
+- **Protozooses:** malária (mosquito *Anopheles*), doença de Chagas (barbeiro), leishmaniose (mosquito-palha), amebíase e giardíase (água contaminada).
+- **Verminoses:** esquistossomose (caramujo, água doce), teníase e cisticercose (carne malcozida, ovos de tênia), ascaridíase e ancilostomíase (andar descalço).
+- **Prevenção geral:** saneamento básico, água tratada, higiene dos alimentos, vacinação e controle de vetores.
+- **Doenças não transmissíveis:** hipertensão, diabetes e obesidade, ligadas a hábitos de vida.
+- **SUS:** atendimento universal e gratuito; o Programa Nacional de Imunizações é referência mundial.
+
 ## Fácil
 
 ### 1

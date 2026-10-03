@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # População e urbanização
 
+## Resumo
+
+- **Transição demográfica:** a natalidade e a mortalidade caem; a população envelhece. O Brasil está no fim dessa transição.
+- **Pirâmide etária:** base larga indica muitos jovens; topo largo, muitos idosos. O envelhecimento pressiona a Previdência.
+- **Conceitos:** crescimento vegetativo = natalidade − mortalidade; população absoluta × densidade demográfica (habitantes por km²).
+- **Migrações:** êxodo rural (de 1950 a 1980), migração do Nordeste para o Sudeste e, hoje, migração de retorno e para cidades médias.
+- **Urbanização:** acelerada e sem planejamento, gerando favelas, segregação socioespacial, falta de saneamento e problemas de mobilidade.
+- **Rede urbana:** metrópoles, megalópole (eixo Rio–São Paulo), conurbação e regiões metropolitanas.
+- **Censo 2022:** mais de 203 milhões de habitantes e crescimento mais lento que nas décadas anteriores.
+
 ## Fácil
 
 ### 1

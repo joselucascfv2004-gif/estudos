@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo vestibulares e concursos)
 
 # Morfologia e sintaxe
 
+## Resumo
+
+- **Classes de palavras:** substantivo, adjetivo, artigo, numeral, pronome, verbo, advérbio, preposição, conjunção e interjeição.
+- **Mesma palavra, classes diferentes:** "o **jantar**" (substantivo) × "vamos **jantar**" (verbo).
+- **Termos essenciais:** sujeito (simples, composto, oculto, indeterminado, inexistente) e predicado.
+- **Verbos:** de ligação (ser, estar, parecer + predicativo); transitivos diretos (sem preposição), indiretos (com preposição) e intransitivos.
+- **Complementos:** objeto direto, objeto indireto, complemento nominal e agente da passiva. **Adjuntos:** adnominal e adverbial. **Aposto** explica; **vocativo** chama.
+- **Orações coordenadas:** aditivas (e), adversativas (mas, porém), alternativas, conclusivas (portanto) e explicativas (pois).
+- **Orações subordinadas:** substantivas (equivalem a substantivo), adjetivas (restritivas sem vírgula; explicativas com vírgula) e adverbiais (causa, condição, concessão, finalidade, tempo…).
+
 ## Fácil
 
 ### 1

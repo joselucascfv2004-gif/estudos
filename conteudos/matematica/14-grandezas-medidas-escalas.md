@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Conversão de unidades, escalas de mapas e plantas, velocidade, vazão e consumo.
 
+## Resumo
+
+- **Comprimento:** km → hm → dam → m → dm → cm → mm (cada passo × 10).
+- **Área:** cada passo × 100 (1 m² = 10 000 cm²). **Volume:** cada passo × 1 000 (1 m³ = 1 000 000 cm³).
+- **Capacidade:** 1 L = 1 dm³ = 1 000 mL = 1 000 cm³.
+- **Tempo:** 1 h = 60 min = 3 600 s. Cuidado: 1,5 h = 1 h 30 min (não 1 h 50 min).
+- **Velocidade:** km/h ÷ 3,6 = m/s.
+- **Escala 1 : n:** 1 cm no mapa = n cm no real. Ex.: 1 : 100 000 → 1 cm = 1 km.
+- **Densidade demográfica, consumo (km/L) e vazão (L/min)** são razões entre grandezas. Monte a fração com as unidades.
+
 ## Fácil
 
 ### 1

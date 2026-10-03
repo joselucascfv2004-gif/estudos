@@ -7,6 +7,15 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Antiguidade e Idade Média
 
+## Resumo
+
+- **Mesopotâmia e Egito:** civilizações dos rios (Tigre, Eufrates, Nilo), escrita, poder teocrático e Código de Hamurabi.
+- **Grécia:** pólis; Atenas (democracia direta, restrita a homens livres atenienses) e Esparta (militarista); filosofia e teatro.
+- **Roma:** Monarquia → República (patrícios × plebeus, Senado) → Império (pão e circo, expansão, cristianismo oficial no séc. IV). O Império Romano do Ocidente caiu em 476.
+- **Idade Média:** feudalismo (senhores e servos, suserania e vassalagem, terra como riqueza), Igreja Católica como poder central.
+- **Império Bizantino** (Constantinopla, até 1453) e **expansão islâmica** (a partir do século VII).
+- **Baixa Idade Média:** Cruzadas, renascimento comercial e urbano, burguesia, peste negra e crise do feudalismo.
+
 ## Fácil
 
 ### 1

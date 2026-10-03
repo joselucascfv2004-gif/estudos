@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo vestibulares e concursos)
 
 # Concordância, regência, crase e colocação pronominal
 
+## Resumo
+
+- **Concordância verbal:** o verbo concorda com o sujeito, mesmo que ele venha depois ("Chegaram as provas").
+- **Haver no sentido de existir** fica no singular ("Havia muitos alunos"). **Fazer indicando tempo** também ("Faz dois anos").
+- **Concordância nominal:** "é proibido entrada" × "é proibid**a a** entrada"; "meio-dia e **meia**"; "**anexas** seguem as fotos".
+- **Regência:** assistir **ao** filme (ver); obedecer **ao** regulamento; preferir uma coisa **a** outra (sem "do que"); ir **a** algum lugar; aspirar **a** um cargo (desejar).
+- **Crase** = preposição a + artigo a. Teste: troque por uma palavra masculina; se virar "ao", há crase.
+- **Nunca há crase** antes de palavra masculina, verbo, pronomes como "esta" e "ela", entre palavras repetidas ("cara a cara") e antes de "uma".
+- **Sempre há crase** em locuções femininas (às vezes, à noite, à medida que) e na indicação de horas (às 8h).
+- **Colocação pronominal:** não se começa frase com pronome oblíquo na norma-padrão ("Me disseram" → "Disseram-me"). Palavras atrativas (não, que, advérbios) puxam o pronome para antes do verbo.
+
 ## Fácil
 
 ### 1

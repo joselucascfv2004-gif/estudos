@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Genética e biotecnologia
 
+## Resumo
+
+- **DNA:** dupla hélice com bases A-T e C-G. **Gene** é um trecho de DNA que codifica uma proteína.
+- **Fluxo da informação:** DNA → (transcrição) → RNA → (tradução, nos ribossomos) → proteína. Cada códon (3 bases) corresponde a um aminoácido.
+- **1ª lei de Mendel:** cada característica é determinada por um par de alelos que se separam nos gametas. Aa × Aa → 1 AA : 2 Aa : 1 aa (3:1 nos fenótipos dominante e recessivo).
+- **Herança ligada ao X:** daltonismo e hemofilia são mais comuns em homens (XY).
+- **Grupos sanguíneos ABO:** alelos Iᴬ, Iᴮ e i. O tipo O é doador universal de hemácias; o AB é receptor universal. Fator Rh e a eritroblastose fetal.
+- **Mutações** são alterações no DNA e fonte de variabilidade.
+- **Biotecnologia:** transgênicos (gene de outra espécie), clonagem, PCR, teste de DNA, vacinas de RNA e terapia gênica. A técnica CRISPR permite editar genes.
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Ditadura militar e Nova República
 
+## Resumo
+
+- **Ditadura militar** (1964–1985): presidentes generais e Atos Institucionais.
+- **AI-5** (1968): fechamento do Congresso, censura, fim do habeas corpus para crimes políticos. Repressão, tortura e desaparecimentos (DOI-CODI).
+- **"Milagre econômico"** (1968–1973): crescimento alto, mas com concentração de renda e endividamento externo.
+- **Abertura "lenta, gradual e segura"** (Geisel e Figueiredo): Lei da Anistia (1979) e volta do pluripartidarismo.
+- **Diretas Já** (1984): movimento por eleições diretas. Tancredo Neves é eleito indiretamente (1985); assume José Sarney.
+- **Constituição de 1988** ("Cidadã"): direitos sociais, SUS, voto facultativo para analfabetos e jovens de 16 e 17 anos.
+- **Nova República:** Plano Real (1994), impeachment de Collor (1992) e de Dilma (2016), políticas sociais e de estabilidade econômica.
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Geopolítica e globalização
 
+## Resumo
+
+- **Globalização:** integração mundial de economias, informações e culturas, impulsionada pelo meio técnico-científico-informacional (Milton Santos).
+- **Empresas transnacionais** espalham a produção pelo mundo em busca de mão de obra barata, incentivos fiscais e mercados.
+- **Blocos econômicos:** União Europeia (moeda comum, o euro), Mercosul (união aduaneira imperfeita), USMCA (antigo Nafta), APEC e BRICS.
+- **Ordem mundial:** bipolar (Guerra Fria) → unipolar/multipolar após 1991 → hoje multipolar, com China em ascensão.
+- **Organizações:** ONU (Conselho de Segurança com 5 membros permanentes com poder de veto), OMC, FMI e Banco Mundial.
+- **Conflitos atuais:** Oriente Médio (Israel e Palestina), Rússia e Ucrânia, refugiados e xenofobia.
+- **Desigualdades:** desenvolvimento medido pelo IDH; relação centro × periferia e divisão internacional do trabalho.
+
 ## Fácil
 
 ### 1

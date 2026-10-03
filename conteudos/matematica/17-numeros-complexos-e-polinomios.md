@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Operações com complexos, módulo, potências de i, forma trigonométrica, teorema do resto e relações de Girard.
 
+## Resumo
+
+- **Número complexo:** z = a + bi, com i² = −1. a é a parte real e b, a parte imaginária.
+- **Potências de i** repetem de 4 em 4: i⁰ = 1, i¹ = i, i² = −1, i³ = −i.
+- **Conjugado:** z̄ = a − bi. Para dividir, multiplique numerador e denominador pelo conjugado do denominador.
+- **Módulo:** |z| = √(a² + b²).
+- **Polinômios:** grau é o maior expoente. P(a) = 0 ⇒ a é raiz e P(x) é divisível por (x − a).
+- **Teorema do resto:** o resto da divisão de P(x) por (x − a) é P(a).
+- **Relações de Girard** (grau 2): soma das raízes = −b/a; produto = c/a. Valem ideias parecidas para graus maiores.
+
 ## Fácil
 
 ### 1

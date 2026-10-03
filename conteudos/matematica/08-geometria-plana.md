@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Áreas e perímetros, teorema de Pitágoras, semelhança, polígonos e círculo.
 
+## Resumo
+
+- **Áreas:** retângulo b·h; triângulo b·h/2; paralelogramo b·h; trapézio (B + b)·h/2; losango D·d/2; círculo πr².
+- **Comprimento da circunferência:** 2πr. Use π ≈ 3,14 (ou o valor que o enunciado der).
+- **Teorema de Pitágoras:** a² = b² + c² (hipotenusa ao quadrado = soma dos quadrados dos catetos). Ternos famosos: 3-4-5, 5-12-13, 8-15-17.
+- **Soma dos ângulos internos:** triângulo 180°; polígono de n lados: (n − 2)·180°.
+- **Semelhança:** se as medidas lineares são multiplicadas por k, as **áreas** ficam multiplicadas por **k²**.
+- **Teorema de Tales:** retas paralelas cortadas por transversais formam segmentos proporcionais.
+- **Dica:** desenhe a figura e marque as medidas antes de fazer contas.
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo CESGRANRIO — Banco do Brasil, Caixa, BNB)
 
 # Produtos bancários e mercado financeiro
 
+## Resumo
+
+- **Captação:** poupança (com Selic acima de 8,5%, rende 0,5% a.m. + TR; caso contrário, 70% da Selic + TR), CDB, LCI e LCA (isentas de IR para pessoa física), letra de câmbio.
+- **IR na renda fixa** (tabela regressiva): 22,5% (até 180 dias), 20%, 17,5% e 15% (acima de 720 dias). O IOF incide só em resgates antes de 30 dias.
+- **Crédito:** cheque especial, CDC, consignado (juros menores), cartão de crédito (rotativo caro), leasing e desconto de duplicatas. O **CET** mostra o custo real do empréstimo.
+- **Garantias:** pessoais (aval, fiança) e reais (hipoteca, penhor, alienação fiduciária).
+- **Mercado de capitais:** ações ordinárias (voto) e preferenciais (prioridade nos dividendos); debêntures; mercado primário (IPO) e secundário (bolsa, B3).
+- **Derivativos:** termo, futuro (padronizado, ajuste diário), opções (call = direito de comprar; put = direito de vender) e swap. Usados para **hedge** (proteção).
+- **Previdência:** PGBL (deduz até 12% da renda no IR, para quem faz a declaração completa) e VGBL (IR só sobre o rendimento).
+- **Fundos:** regulados pela CVM, com taxa de administração e come-cotas em maio e novembro.
+
 ## Fácil
 
 ### 1

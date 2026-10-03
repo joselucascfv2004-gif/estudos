@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Química ambiental, separação de misturas e materiais
 
+## Resumo
+
+- **Efeito estufa:** CO₂, CH₄ e N₂O retêm calor. É natural, mas foi intensificado pela queima de combustíveis fósseis e pelo desmatamento.
+- **Chuva ácida:** SO₂ e NOₓ reagem com a água e formam ácidos que corroem monumentos e acidificam rios.
+- **Camada de ozônio** (O₃) filtra os raios UV e foi destruída pelos CFCs (Protocolo de Montreal).
+- **Eutrofização:** excesso de nutrientes (esgoto, fertilizantes) → proliferação de algas → falta de oxigênio → morte de peixes.
+- **Separação de misturas:** filtração (sólido + líquido), decantação, destilação simples (sólido dissolvido) e fracionada (líquidos, petróleo), centrifugação, separação magnética, catação.
+- **Tratamento de água:** coagulação/floculação → decantação → filtração → cloração → fluoretação.
+- **Materiais:** metais por eletrólise (alumínio) e por redução no alto-forno (ferro); reciclagem economiza energia e matéria-prima.
+
 ## Fácil
 
 ### 1

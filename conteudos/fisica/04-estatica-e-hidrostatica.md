@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Densidade, pressão, teorema de Stevin, princípio de Pascal, empuxo (Arquimedes) e alavancas.
 
+## Resumo
+
+- **Equilíbrio:** força resultante nula e momento (torque) resultante nulo.
+- **Momento de uma força:** M = F·d (d = braço de alavanca). Na alavanca: F₁·d₁ = F₂·d₂.
+- **Densidade:** d = m/V. Água: 1 g/cm³ = 1 000 kg/m³.
+- **Pressão:** p = F/A. **Pressão hidrostática:** p = p_atm + d·g·h (a cada 10 m de água, cerca de +1 atm).
+- **Princípio de Pascal:** a pressão se transmite integralmente (prensa hidráulica: F₁/A₁ = F₂/A₂).
+- **Empuxo (Arquimedes):** E = d_líquido · V_submerso · g. Flutua se a densidade do corpo for menor que a do líquido.
+- **Vasos comunicantes:** o mesmo líquido fica no mesmo nível.
+
 ## Fácil
 
 ### 1

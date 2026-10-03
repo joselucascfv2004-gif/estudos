@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Redistribui a posição da alternativa correta nas questões ESCRITAS À MÃO
-// (arquivos sem o aviso de "Arquivo GERADO"), para que o gabarito fique
+// (arquivos sem o aviso de "Arquivo GERADO" e sem "ordem: original" no cabeçalho), para que o gabarito fique
 // equilibrado entre A, B, C, D e E. A ordem é determinística (mesmo resultado
 // a cada execução) e só mexe em questões com 4 ou 5 alternativas.
 //
@@ -22,7 +22,8 @@ function hash(t) {
 
 function processar(arquivo) {
   const texto = fs.readFileSync(arquivo, 'utf8');
-  if (texto.includes('Arquivo GERADO')) return 0;
+  // arquivos gerados e provas oficiais (que mantêm a ordem original das alternativas) ficam como estão
+  if (texto.includes('Arquivo GERADO') || /^ordem: original$/m.test(texto)) return 0;
   const linhas = texto.split('\n');
   let alteradas = 0;
   let contador = hash(path.basename(arquivo)) % 5;

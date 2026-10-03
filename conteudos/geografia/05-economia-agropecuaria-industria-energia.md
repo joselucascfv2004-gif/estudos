@@ -7,6 +7,15 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Agropecuária, indústria, energia e transportes
 
+## Resumo
+
+- **Agropecuária:** agronegócio exportador (soja, milho, carne, café, açúcar) e agricultura familiar, que produz grande parte dos alimentos consumidos no país. Questões ligadas: concentração de terras e conflitos no campo.
+- **Revolução Verde:** mecanização, sementes melhoradas e agrotóxicos aumentam a produção, mas causam impactos ambientais e sociais.
+- **Industrialização brasileira:** tardia, impulsionada por Vargas (indústria de base) e JK (bens de consumo duráveis, multinacionais). Concentrou-se no Sudeste e depois houve desconcentração.
+- **Matriz energética brasileira:** bastante renovável (hidrelétricas, biomassa da cana, eólica no Nordeste e solar em crescimento) em comparação com a média mundial.
+- **Impactos:** hidrelétricas alagam áreas e deslocam populações; usinas térmicas emitem gases de efeito estufa.
+- **Transportes:** predomínio do rodoviário (mais caro e poluente em longas distâncias). Ferrovias e hidrovias são pouco aproveitadas.
+
 ## Fácil
 
 ### 1

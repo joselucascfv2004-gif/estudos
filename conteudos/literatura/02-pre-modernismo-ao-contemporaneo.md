@@ -7,6 +7,18 @@ fonte: Questão inédita (estilo ENEM e vestibulares)
 
 # Do Pré-Modernismo à literatura contemporânea
 
+## Resumo
+
+- **Pré-Modernismo** (1902–1922): retrato crítico do Brasil real. Euclides da Cunha (*Os sertões*), Lima Barreto (*Triste fim de Policarpo Quaresma*), Monteiro Lobato e Augusto dos Anjos.
+- **Semana de Arte Moderna** (1922, São Paulo): ruptura com o academicismo.
+- **1ª fase** (1922–1930): verso livre, humor, poema-piada e nacionalismo crítico. Oswald de Andrade (Manifesto Antropófago), Mário de Andrade (*Macunaíma*) e Manuel Bandeira.
+- **2ª fase** (1930–1945):
+  - romance regionalista de denúncia social: Graciliano Ramos (*Vidas secas*), Rachel de Queiroz (*O quinze*), Jorge Amado, José Lins do Rego;
+  - poesia: Drummond e Cecília Meireles.
+- **3ª fase / Geração de 45:** Guimarães Rosa (*Grande sertão: veredas*, invenção da linguagem), Clarice Lispector (epifania, introspecção) e João Cabral de Melo Neto (*Morte e vida severina*).
+- **Pós-modernismo e contemporâneos:** Concretismo (poesia visual), Ariano Suassuna, Carolina Maria de Jesus (*Quarto de despejo*), Conceição Evaristo ("escrevivência") e literatura indígena.
+- **Portugal:** Camões (*Os Lusíadas*), Fernando Pessoa e seus heterônimos, Saramago (Nobel de 1998).
+
 ## Fácil
 
 ### 1

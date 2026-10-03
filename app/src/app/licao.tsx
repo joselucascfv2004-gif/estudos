@@ -1,9 +1,9 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { useMemo, useRef, useState } from 'react';
-import { Modal, Platform, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { Modal, Platform, Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { NOMES_NIVEL, Nivel, Questao, getQuestao, getTopico } from '../data/banco';
+import { NOMES_NIVEL, Nivel, Questao, getQuestao, getTopico, podeEmbaralhar } from '../data/banco';
 import { embaralhar } from '../estado/datas';
 import { useProgresso } from '../estado/ProgressoContext';
 import {
@@ -16,12 +16,14 @@ import {
   montarLicaoTopico,
   montarPontosFracos,
   montarRevisao,
+  montarSalvas,
   montarTreino,
   nivelDoUsuario,
   xpDaResposta,
 } from '../estado/progresso';
 import { Barra, Botao } from '../ui/componentes';
-import { cores, coresNivel } from '../ui/tema';
+import { AcoesQuestao } from '../ui/salvar';
+import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 
 const ELOGIOS = ['Muito bem!', 'Excelente!', 'Mandou bem!', 'Isso aí!', 'Perfeito!', 'Arrasou!'];
 const LETRAS = 'ABCDE';
@@ -41,11 +43,13 @@ type Item = { q: Questao; ordem: number[]; repeticao: boolean };
 
 function prepararItem(q: Questao, repeticao = false): Item {
   const indices = q.a.map((_, i) => i);
-  // embaralha as alternativas (exceto certo/errado e afins)
-  return { q, ordem: q.a.length >= 4 ? embaralhar(indices) : indices, repeticao };
+  // embaralha as alternativas (exceto certo/errado e provas oficiais)
+  return { q, ordem: podeEmbaralhar(q) ? embaralhar(indices) : indices, repeticao };
 }
 
 export default function Licao() {
+  const c = useCores();
+  const s = useEstilos();
   const params = useLocalSearchParams<{ modo?: Modo; topico?: string; nivel?: string; disciplina?: string }>();
   const modo: Modo = params.modo ?? 'treino';
   const nivelParam = params.nivel != null ? (Number(params.nivel) as Nivel) : undefined;
@@ -57,6 +61,7 @@ export default function Licao() {
     else if (modo === 'desafio') qs = montarDesafio(p);
     else if (modo === 'revisao') qs = montarRevisao(p);
     else if (modo === 'fracos') qs = montarPontosFracos(p, params.topico);
+    else if (modo === 'salvas') qs = montarSalvas(p);
     else qs = montarTreino(p, params.disciplina);
     return qs.map((q) => prepararItem(q));
     // a lição é montada uma única vez ao abrir
@@ -85,7 +90,9 @@ export default function Licao() {
           ? 'Revisão'
           : modo === 'fracos'
             ? 'Pontos fracos'
-            : 'Treino';
+            : modo === 'salvas'
+              ? 'Questões salvas'
+              : 'Treino';
 
   if (!inicial.length) {
     return (
@@ -170,23 +177,23 @@ export default function Licao() {
           <Text style={s.etiquetaTopico} numberOfLines={1}>
             {modo === 'topico' ? titulo : (topico?.titulo ?? titulo)}
           </Text>
-          {item.repeticao && <Text style={[s.etiqueta, { backgroundColor: cores.azulClaro, color: cores.azulEscuro }]}>Revendo</Text>}
+          {item.repeticao && <Text style={[s.etiqueta, { backgroundColor: c.azulClaro, color: c.azulEscuro }]}>Revendo</Text>}
         </View>
         <Text style={s.enunciado}>{q.e}</Text>
         <View style={{ gap: 10, marginTop: 8 }}>
           {item.ordem.map((orig, i) => {
             const marcada = escolha === i;
             let estilo = s.alt;
-            let corLetra = cores.textoSuave;
+            let corLetra = c.textoSuave;
             if (verificado && i === corretaExibida) {
               estilo = { ...s.alt, ...s.altCerta };
-              corLetra = cores.verdeEscuro;
+              corLetra = c.verdeEscuro;
             } else if (verificado && marcada) {
               estilo = { ...s.alt, ...s.altErrada };
-              corLetra = cores.vermelhoEscuro;
+              corLetra = c.vermelhoEscuro;
             } else if (marcada) {
               estilo = { ...s.alt, ...s.altMarcada };
-              corLetra = cores.azulEscuro;
+              corLetra = c.azulEscuro;
             }
             return (
               <Pressable key={orig} testID={`alt-${i}`} disabled={verificado} onPress={() => setEscolha(i)} style={estilo}>
@@ -206,19 +213,20 @@ export default function Licao() {
           <Botao testID="btn-verificar" titulo="Verificar" desativado={escolha == null} onPress={verificar} />
         </View>
       ) : (
-        <View style={[s.rodape, s.painel, { backgroundColor: acertou ? cores.verdeClaro : cores.vermelhoClaro }]}>
-          <Text style={[s.painelTitulo, { color: acertou ? cores.verdeEscuro : cores.vermelhoEscuro }]}>
+        <View style={[s.rodape, s.painel, { backgroundColor: acertou ? c.verdeClaro : c.vermelhoClaro }]}>
+          <Text style={[s.painelTitulo, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}>
             {acertou ? `✅ ${elogio}` : `❌ Resposta correta: ${LETRAS[corretaExibida]}`}
             {acertou && !item.repeticao ? `  +${xpDaResposta(q, combo, modo)} XP` : ''}
           </Text>
           <ScrollView style={{ maxHeight: 170 }}>
-            <Text style={[s.explicacao, { color: acertou ? cores.verdeEscuro : cores.vermelhoEscuro }]}>{q.x}</Text>
+            <Text style={[s.explicacao, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}>{q.x}</Text>
             {q.f ? <Text style={s.fonte}>Fonte: {q.f}</Text> : null}
           </ScrollView>
+          <AcoesQuestao id={q.id} />
           <Botao
             testID="btn-continuar"
             titulo="Continuar"
-            cor={acertou ? cores.verde : cores.vermelho}
+            cor={acertou ? c.verde : c.vermelho}
             onPress={continuar}
             estilo={{ marginTop: 12 }}
           />
@@ -231,11 +239,11 @@ export default function Licao() {
             <Text style={{ fontSize: 48, textAlign: 'center' }}>😢</Text>
             <Text style={s.modalTitulo}>Espera, não vá embora!</Text>
             <Text style={s.modalTexto}>Se sair agora, você perde o XP desta lição.</Text>
-            <Botao titulo="Continuar estudando" cor={cores.azul} onPress={() => setSair(false)} />
+            <Botao titulo="Continuar estudando" cor={c.azul} onPress={() => setSair(false)} />
             <Botao
               titulo="Sair da lição"
               contorno
-              cor={cores.vermelho}
+              cor={c.vermelho}
               onPress={() => {
                 setSair(false);
                 router.back();
@@ -250,6 +258,8 @@ export default function Licao() {
 }
 
 function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
+  const c = useCores();
+  const s = useEstilos();
   const { p } = useProgresso();
   const { ev } = fim;
   const pct = ev.total ? Math.round((ev.acertos / ev.total) * 100) : 0;
@@ -274,9 +284,9 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
             : 'Errar faz parte: as questões erradas voltam na sua revisão de hoje.'}
         </Text>
         <View style={s.caixas}>
-          <Caixa titulo="XP" valor={`+${fim.xp}`} cor={cores.amarelo} />
-          <Caixa titulo="Acertos" valor={`${pct}%`} cor={cores.verde} />
-          <Caixa titulo="Moedas" valor={`+${ev.moedasGanhas}`} cor={cores.azul} />
+          <Caixa titulo="XP" valor={`+${fim.xp}`} cor={c.amarelo} />
+          <Caixa titulo="Acertos" valor={`${pct}%`} cor={c.verde} />
+          <Caixa titulo="Moedas" valor={`+${ev.moedasGanhas}`} cor={c.azul} />
         </View>
         {destaques.map((t) => (
           <Text key={t} style={s.destaque}>
@@ -292,6 +302,8 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
 }
 
 function Caixa({ titulo, valor, cor }: { titulo: string; valor: string; cor: string }) {
+  const c = useCores();
+  const s = useEstilos();
   return (
     <View style={[s.caixa, { borderColor: cor }]}>
       <Text style={[s.caixaTitulo, { backgroundColor: cor }]}>{titulo}</Text>
@@ -300,17 +312,17 @@ function Caixa({ titulo, valor, cor }: { titulo: string; valor: string; cor: str
   );
 }
 
-const s = StyleSheet.create({
-  tela: { flex: 1, backgroundColor: cores.fundo },
+const useEstilos = criarEstilos((c) => ({
+  tela: { flex: 1, backgroundColor: c.fundo },
   centro: { alignItems: 'center', justifyContent: 'center' },
   topo: { flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 12 },
-  fechar: { fontSize: 24, color: cores.cinza, fontWeight: '800' },
-  combo: { fontSize: 16, fontWeight: '800', color: cores.laranja },
+  fechar: { fontSize: 24, color: c.cinza, fontWeight: '800' },
+  combo: { fontSize: 16, fontWeight: '800', color: c.laranja },
   corpo: { padding: 18, paddingTop: 6 },
   etiquetas: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 12 },
-  etiqueta: { fontSize: 12, fontWeight: '800', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 10, overflow: 'hidden' },
-  etiquetaTopico: { flexShrink: 1, fontSize: 13, fontWeight: '700', color: cores.textoSuave },
-  enunciado: { fontSize: 17, lineHeight: 25, color: cores.texto, fontWeight: '600', marginBottom: 10 },
+  etiqueta: { fontSize: 12, fontWeight: '800', paddingHorizontal: 10, paddingVertical: 4, borderRadius: 10, overflow: 'hidden', flexShrink: 0 },
+  etiquetaTopico: { flexShrink: 1, fontSize: 13, fontWeight: '700', color: c.textoSuave },
+  enunciado: { fontSize: 17, lineHeight: 25, color: c.texto, fontWeight: '600', marginBottom: 10 },
   alt: {
     flexDirection: 'row',
     alignItems: 'center',
@@ -319,29 +331,29 @@ const s = StyleSheet.create({
     borderRadius: 14,
     borderWidth: 2,
     borderBottomWidth: 4,
-    borderColor: cores.borda,
-    backgroundColor: cores.fundo,
+    borderColor: c.borda,
+    backgroundColor: c.fundo,
   },
-  altMarcada: { borderColor: cores.azul, backgroundColor: cores.azulClaro },
-  altCerta: { borderColor: cores.verde, backgroundColor: cores.verdeClaro },
-  altErrada: { borderColor: cores.vermelho, backgroundColor: cores.vermelhoClaro },
+  altMarcada: { borderColor: c.azul, backgroundColor: c.azulClaro },
+  altCerta: { borderColor: c.verde, backgroundColor: c.verdeClaro },
+  altErrada: { borderColor: c.vermelho, backgroundColor: c.vermelhoClaro },
   letra: { width: 30, height: 30, borderRadius: 8, borderWidth: 2, alignItems: 'center', justifyContent: 'center' },
   letraTexto: { fontWeight: '800', fontSize: 14 },
-  altTexto: { flex: 1, fontSize: 16, color: cores.texto, lineHeight: 22 },
-  rodape: { padding: 16, borderTopWidth: 2, borderTopColor: cores.borda },
+  altTexto: { flex: 1, fontSize: 16, color: c.texto, lineHeight: 22 },
+  rodape: { padding: 16, borderTopWidth: 2, borderTopColor: c.borda },
   painel: { borderTopWidth: 0 },
   painelTitulo: { fontSize: 19, fontWeight: '800', marginBottom: 6 },
   explicacao: { fontSize: 15, lineHeight: 21, fontWeight: '600' },
-  fonte: { fontSize: 12, color: cores.textoSuave, marginTop: 6, fontStyle: 'italic' },
-  fimTitulo: { fontSize: 28, fontWeight: '800', color: cores.texto, marginTop: 12, textAlign: 'center' },
-  fimSub: { fontSize: 16, color: cores.textoSuave, textAlign: 'center', marginTop: 8, lineHeight: 22 },
+  fonte: { fontSize: 12, color: c.textoSuave, marginTop: 6, fontStyle: 'italic' },
+  fimTitulo: { fontSize: 28, fontWeight: '800', color: c.texto, marginTop: 12, textAlign: 'center' },
+  fimSub: { fontSize: 16, color: c.textoSuave, textAlign: 'center', marginTop: 8, lineHeight: 22 },
   caixas: { flexDirection: 'row', gap: 10, marginVertical: 24 },
   caixa: { borderWidth: 2, borderRadius: 14, width: 96, overflow: 'hidden', alignItems: 'center' },
   caixaTitulo: { color: '#FFF', fontWeight: '800', fontSize: 12, width: '100%', textAlign: 'center', paddingVertical: 4 },
   caixaValor: { fontSize: 22, fontWeight: '800', paddingVertical: 10 },
-  destaque: { fontSize: 16, fontWeight: '800', color: cores.texto, marginBottom: 10, textAlign: 'center' },
-  modalFundo: { flex: 1, backgroundColor: 'rgba(0,0,0,0.45)', justifyContent: 'center', padding: 24 },
-  modal: { backgroundColor: cores.fundo, borderRadius: 22, padding: 22 },
-  modalTitulo: { fontSize: 21, fontWeight: '800', textAlign: 'center', color: cores.texto, marginTop: 6 },
-  modalTexto: { fontSize: 15, color: cores.textoSuave, textAlign: 'center', marginVertical: 14 },
-});
+  destaque: { fontSize: 16, fontWeight: '800', color: c.texto, marginBottom: 10, textAlign: 'center' },
+  modalFundo: { flex: 1, backgroundColor: c.veu, justifyContent: 'center', padding: 24 },
+  modal: { backgroundColor: c.fundo, borderRadius: 22, padding: 22 },
+  modalTitulo: { fontSize: 21, fontWeight: '800', textAlign: 'center', color: c.texto, marginTop: 6 },
+  modalTexto: { fontSize: 15, color: c.textoSuave, textAlign: 'center', marginVertical: 14 },
+}));

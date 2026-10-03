@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo CESGRANRIO — Banco do Brasil, Caixa, BNB)
 
 # Sistema Financeiro Nacional
 
+## Resumo
+
+- **Órgãos normativos:** CMN (moeda, crédito e capitais), CNSP (seguros) e CNPC (previdência fechada).
+- **CMN:** Ministro da Fazenda (presidente), Ministro do Planejamento e Orçamento e Presidente do Banco Central. Define a meta de inflação.
+- **Supervisores:** Banco Central (executa a política monetária, emite moeda, fiscaliza bancos), CVM (mercado de valores mobiliários), SUSEP (seguros, capitalização e previdência aberta) e PREVIC (fundos de pensão).
+- **Copom:** define a meta da **Selic** 8 vezes por ano. A inflação oficial é medida pelo **IPCA**.
+- **Instrumentos de política monetária:** open market (compra e venda de títulos), depósito compulsório e redesconto. Selic alta = política contracionista (combate à inflação).
+- **Operadores:** bancos comerciais (depósito à vista), de investimento, múltiplos (pelo menos 2 carteiras), Caixa, BNDES, cooperativas, financeiras, corretoras e fintechs.
+- **FGC:** garante até **R$ 250 mil** por CPF por instituição (teto de R$ 1 milhão a cada 4 anos). Cobre poupança, CDB, LCI e LCA; não cobre ações nem fundos.
+- **Pagamentos:** PIX (2020), Open Finance (compartilhamento de dados com consentimento) e autonomia do BC (LC 179/2021).
+
 ## Fácil
 
 ### 1

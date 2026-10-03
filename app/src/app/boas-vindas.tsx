@@ -1,6 +1,6 @@
 import { router } from 'expo-router';
 import { useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
+import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Trilha, totalQuestoes } from '../data/banco';
@@ -8,9 +8,11 @@ import { METAS, TRILHAS } from '../data/trilhas';
 import { configurarLembrete, lembretesDisponiveis } from '../estado/lembretes';
 import { useProgresso } from '../estado/ProgressoContext';
 import { Barra, Botao } from '../ui/componentes';
-import { cores } from '../ui/tema';
+import { criarEstilos, useCores } from '../ui/tema';
 
 export default function BoasVindas() {
+  const c = useCores();
+  const s = useEstilos();
   const { atualizar } = useProgresso();
   const [passo, setPasso] = useState(0);
   const [nome, setNome] = useState('');
@@ -50,7 +52,7 @@ export default function BoasVindas() {
               ENEM, vestibulares militares e concursos.
             </Text>
             <Text style={s.rotulo}>Como podemos te chamar?</Text>
-            <TextInput testID="input-nome" value={nome} onChangeText={setNome} placeholder="Seu nome (opcional)" style={s.input} placeholderTextColor={cores.cinza} maxLength={30} />
+            <TextInput testID="input-nome" value={nome} onChangeText={setNome} placeholder="Seu nome (opcional)" style={s.input} placeholderTextColor={c.cinza} maxLength={30} />
           </>
         )}
 
@@ -89,7 +91,7 @@ export default function BoasVindas() {
         ) : passo === 3 ? (
           <>
             <Botao titulo="Ativar lembrete" onPress={() => concluir(true)} />
-            <Botao titulo="Agora não" contorno cor={cores.azul} onPress={() => concluir(false)} estilo={{ marginTop: 10 }} />
+            <Botao titulo="Agora não" contorno cor={c.azul} onPress={() => concluir(false)} estilo={{ marginTop: 10 }} />
           </>
         ) : (
           <Botao testID="btn-comecar" titulo="Começar a estudar" onPress={() => concluir(false)} />
@@ -100,29 +102,31 @@ export default function BoasVindas() {
 }
 
 function Opcao({ ativo, onPress, emoji, titulo, sub }: { ativo: boolean; onPress: () => void; emoji: string; titulo: string; sub: string }) {
+  const c = useCores();
+  const s = useEstilos();
   return (
-    <Pressable onPress={onPress} style={[s.opcao, ativo && { borderColor: cores.azul, backgroundColor: cores.azulClaro }]}>
+    <Pressable onPress={onPress} style={[s.opcao, ativo && { borderColor: c.azul, backgroundColor: c.azulClaro }]}>
       <Text style={{ fontSize: 30 }}>{emoji}</Text>
       <View style={{ flex: 1 }}>
-        <Text style={[s.opcaoTitulo, ativo && { color: cores.azulEscuro }]}>{titulo}</Text>
+        <Text style={[s.opcaoTitulo, ativo && { color: c.azulEscuro }]}>{titulo}</Text>
         <Text style={s.opcaoSub}>{sub}</Text>
       </View>
     </Pressable>
   );
 }
 
-const s = StyleSheet.create({
-  tela: { flex: 1, backgroundColor: cores.fundo },
+const useEstilos = criarEstilos((c) => ({
+  tela: { flex: 1, backgroundColor: c.fundo },
   topo: { flexDirection: 'row', alignItems: 'center', gap: 14, padding: 16 },
-  voltar: { fontSize: 26, color: cores.cinza, fontWeight: '800' },
+  voltar: { fontSize: 26, color: c.cinza, fontWeight: '800' },
   corpo: { padding: 22, gap: 12 },
   mascote: { fontSize: 90, textAlign: 'center', marginVertical: 10 },
-  titulo: { fontSize: 26, fontWeight: '800', color: cores.texto, textAlign: 'center' },
-  texto: { fontSize: 16, color: cores.textoSuave, textAlign: 'center', lineHeight: 23, marginBottom: 6 },
-  rotulo: { fontSize: 15, fontWeight: '800', color: cores.texto, marginTop: 14 },
-  input: { borderWidth: 2, borderColor: cores.borda, borderRadius: 14, padding: 14, fontSize: 17, backgroundColor: cores.fundoSuave, color: cores.texto },
-  opcao: { flexDirection: 'row', alignItems: 'center', gap: 14, padding: 16, borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: cores.borda },
-  opcaoTitulo: { fontSize: 17, fontWeight: '800', color: cores.texto },
-  opcaoSub: { fontSize: 13, color: cores.textoSuave, fontWeight: '600', marginTop: 2 },
-  rodape: { padding: 16, borderTopWidth: 2, borderTopColor: cores.borda },
-});
+  titulo: { fontSize: 26, fontWeight: '800', color: c.texto, textAlign: 'center' },
+  texto: { fontSize: 16, color: c.textoSuave, textAlign: 'center', lineHeight: 23, marginBottom: 6 },
+  rotulo: { fontSize: 15, fontWeight: '800', color: c.texto, marginTop: 14 },
+  input: { borderWidth: 2, borderColor: c.borda, borderRadius: 14, padding: 14, fontSize: 17, backgroundColor: c.fundoSuave, color: c.texto },
+  opcao: { flexDirection: 'row', alignItems: 'center', gap: 14, padding: 16, borderRadius: 16, borderWidth: 2, borderBottomWidth: 4, borderColor: c.borda },
+  opcaoTitulo: { fontSize: 17, fontWeight: '800', color: c.texto },
+  opcaoSub: { fontSize: 13, color: c.textoSuave, fontWeight: '600', marginTop: 2 },
+  rodape: { padding: 16, borderTopWidth: 2, borderTopColor: c.borda },
+}));

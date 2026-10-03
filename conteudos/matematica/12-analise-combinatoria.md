@@ -11,6 +11,15 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Princípio fundamental da contagem, permutações, arranjos e combinações.
 
+## Resumo
+
+- **Princípio multiplicativo:** se uma escolha tem m opções e outra tem n, juntas têm m × n.
+- **Permutação** (todos os elementos, a ordem importa): Pₙ = n!. Com repetições: n!/(a!·b!·…), como nos anagramas com letras repetidas.
+- **Arranjo** (escolher p de n, **a ordem importa**): A = n!/(n − p)!. Ex.: pódio, senhas, cargos diferentes.
+- **Combinação** (escolher p de n, **a ordem não importa**): C = n!/[p!(n − p)!]. Ex.: comissões, grupos, apostas.
+- **Pergunta-chave:** trocar a ordem gera uma possibilidade nova? Se sim, é arranjo; se não, é combinação.
+- **Restrições** ("começa com vogal", "dois juntos"): resolva primeiro as posições restritas.
+
 ## Fácil
 
 ### 1

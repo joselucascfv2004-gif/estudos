@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Século XX e mundo contemporâneo
 
+## Resumo
+
+- **1ª Guerra Mundial** (1914–1918): imperialismo, nacionalismo, política de alianças; guerra de trincheiras; Tratado de Versalhes pune a Alemanha.
+- **Revolução Russa** (1917): bolcheviques (Lenin) criam o primeiro Estado socialista (URSS); depois vem o stalinismo.
+- **Crise de 1929:** quebra da Bolsa de Nova York, superprodução e desemprego; resposta com o New Deal (intervenção do Estado).
+- **Totalitarismos:** fascismo (Mussolini) e nazismo (Hitler, antissemitismo, Holocausto).
+- **2ª Guerra Mundial** (1939–1945): Eixo × Aliados; bombas atômicas em Hiroshima e Nagasaki; criação da ONU.
+- **Guerra Fria:** EUA (capitalismo) × URSS (socialismo); corrida armamentista e espacial; Muro de Berlim (1961–1989); fim da URSS em 1991.
+- **Descolonização** da África e da Ásia e **mundo atual:** globalização, terrorismo e conflitos no Oriente Médio.
+
 ## Fácil
 
 ### 1

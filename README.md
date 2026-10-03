@@ -6,9 +6,10 @@ Aplicativo de celular (Android/iOS, também roda no navegador) para estudar todo
 
 Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destrava níveis mais difíceis.
 
-- **4.640 questões** em **86 tópicos** de **19 disciplinas**
-- Todos os tópicos têm **50 a 60 questões**, divididas em **Fácil, Médio e Difícil**
-- Todas as questões têm **gabarito e explicação**
+- **4.744 questões** em **90 tópicos** de **20 disciplinas**
+- **104 questões oficiais do ENEM 2023** (INEP), com o gabarito oficial
+- Os tópicos inéditos têm **50 a 60 questões**, divididas em **Fácil, Médio e Difícil**
+- Todas as questões têm **gabarito e explicação**, e todo tópico tem um **resumo teórico**
 - Índice completo: [`conteudos/README.md`](conteudos/README.md)
 
 ## O que tem no app
@@ -24,7 +25,12 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Desafio do dia | 10 questões misturadas da sua trilha, com bônus de +50 XP |
 | Revisão espaçada | Toda questão respondida volta para revisão com o passar do tempo. Quem acerta volta cada vez mais tarde (1, 3, 7, 15, 30 e 60 dias), e quem erra volta no mesmo dia |
 | Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial e ganha um treino focado nos seus erros |
-| Conquistas | 17 medalhas e gráfico de XP da semana |
+| Plano de estudos | Informe a data e o nome da sua prova no Perfil. A tela inicial mostra a contagem regressiva e o plano do dia (revisões, ponto fraco e assuntos novos), calculado para passar por todos os assuntos antes da prova |
+| Simulado | Prova com cronômetro (3 min por questão), navegação entre as questões e gabarito só no final, com correção, acerto por disciplina e histórico |
+| Resumos | Cada assunto tem um "resumo em 2 minutos" com a teoria principal, aberto pelo caminho da disciplina |
+| Questões salvas | ⭐ Salve questões e escreva anotações durante as lições; depois revise ou pratique só elas |
+| Progresso | Gráfico do acerto por semana, acerto por disciplina comparado com o mês anterior, XP da semana e 17 conquistas |
+| Modo escuro | Ativado no Perfil |
 | Lembrete diário | Notificação local no horário que você escolher |
 
 O progresso fica salvo no próprio celular (sem login e sem servidor).
@@ -33,6 +39,7 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 
 | Área | Disciplinas |
 |---|---|
+| Provas anteriores | ENEM — provas oficiais (2023: Matemática, Natureza, Humanas e Linguagens) |
 | Matemática | Matemática (17 tópicos), Matemática Financeira |
 | Ciências da Natureza | Física, Química, Biologia |
 | Ciências Humanas | História, Geografia, Filosofia, Sociologia |
@@ -42,19 +49,19 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 
 ## Sobre as questões
 
-Todas as questões são **inéditas**, escritas no estilo das bancas (INEP/ENEM, CESGRANRIO, CEBRASPE,
-FGV, FCC e as provas militares). Cada uma traz a fonte "Questão inédita (estilo ...)". Não foram
-copiadas questões de provas anteriores nem de bancos de questões, porque elas costumam ter direitos
-autorais das bancas e dos sites que as organizam.
-
-- **Questões de cálculo** (matemática, física, química, matemática financeira, lógica e cartografia)
-  são **geradas por programa**, com o gabarito **calculado pelo próprio código**. Por isso, as contas
-  sempre batem.
-- **Questões teóricas** (humanas, linguagens, biologia, concursos) foram escritas à mão em Markdown.
-  As alternativas são embaralhadas de forma equilibrada, para que o gabarito não se concentre em uma letra.
-
-Se você quiser incluir questões reais de provas antigas (por exemplo, as do ENEM, que o INEP publica),
-basta adicioná-las nos arquivos Markdown com a fonte correta (veja abaixo).
+- **Questões inéditas:** a maior parte foi escrita no estilo das bancas (INEP/ENEM, CESGRANRIO,
+  CEBRASPE, FGV, FCC e provas militares) e traz a fonte "Questão inédita (estilo ...)". Não foram
+  copiadas questões de bancos de questões de terceiros.
+  - **Questões de cálculo** (matemática, física, química, matemática financeira, lógica e cartografia)
+    são **geradas por programa**, com o gabarito **calculado pelo próprio código**. Por isso, as contas
+    sempre batem.
+  - **Questões teóricas** (humanas, linguagens, biologia, concursos) foram escritas à mão em Markdown.
+    As alternativas são embaralhadas de forma equilibrada, para que o gabarito não se concentre em uma
+    letra.
+- **Questões oficiais do ENEM:** a pasta `conteudos/enem-oficial/` traz questões da prova de 2023
+  publicada pelo INEP, com o texto, a ordem das alternativas e o gabarito oficiais. Cada uma traz a
+  fonte (dia, caderno e número da questão). Foram incluídas só as questões que podem ser resolvidas
+  sem figuras, gráficos ou mapas. As explicações foram escritas para o app.
 
 ## Como instalar no celular
 
@@ -186,6 +193,9 @@ app/                       aplicativo Expo (React Native + expo-router)
    ...
    ```
 
+   Antes de `## Fácil`, coloque uma seção `## Resumo` com a teoria do tópico (listas com `- ` e
+   negrito com `**...**`). Ela aparece no app no botão "📖 Ler o resumo".
+
    O campo `provas` aceita qualquer combinação de `ENEM`, `Militares` e `Concursos`. Uma questão pode
    ter sua própria fonte com a linha `**Fonte:** ENEM 2019, questão 140`, colocada depois da explicação.
 
@@ -193,5 +203,7 @@ app/                       aplicativo Expo (React Native + expo-router)
    alternativa, ou se houver alternativas repetidas.
 3. Não cite a letra da resposta na explicação (por exemplo, "a alternativa C"), porque o balanceador
    pode trocar as letras de lugar. Explique pelo conteúdo.
-4. Os arquivos que começam com o comentário `Arquivo GERADO` vêm de `scripts/geradores/`. Para
+4. Em questões de provas oficiais, coloque `ordem: original` no cabeçalho do arquivo para manter
+   as letras das alternativas como na prova (o balanceador não mexe nesses arquivos).
+5. Os arquivos que começam com o comentário `Arquivo GERADO` vêm de `scripts/geradores/`. Para
    mudá-los, edite o gerador, e não o `.md`.

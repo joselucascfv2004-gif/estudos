@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Escalas, coordenadas geográficas, fusos horários, orientação e curvas de nível.
 
+## Resumo
+
+- **Escala numérica 1 : n:** 1 unidade no mapa = n unidades reais. Quanto **maior o n**, menor a escala e menos detalhes (mapa-múndi); quanto menor o n, maior a escala (planta de bairro).
+- **Coordenadas:** latitude (0° a 90° N ou S, a partir do Equador) e longitude (0° a 180° L ou O, a partir de Greenwich).
+- **Fusos horários:** a Terra gira 15° por hora. A leste as horas estão adiantadas; a oeste, atrasadas. O Brasil tem 4 fusos (Brasília = UTC−3).
+- **Projeções:** cilíndrica de Mercator (preserva ângulos, boa para navegação, distorce áreas perto dos polos); de Peters (preserva áreas, distorce formas); azimutal (vista a partir de um ponto).
+- **Curvas de nível:** linhas próximas indicam terreno íngreme; afastadas, terreno suave.
+- **Rosa dos ventos:** N, S, L, O e colaterais (NE, SE, SO, NO).
+- **Novas tecnologias:** GPS, sensoriamento remoto e SIG (sistemas de informação geográfica).
+
 ## Fácil
 
 ### 1

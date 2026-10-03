@@ -183,6 +183,7 @@ export function paraMarkdown(topico, niveis) {
     topico.descricao,
     '',
   ];
+  if (topico.resumo) l.push('## Resumo', '', topico.resumo, '');
   niveis.forEach((qs, n) => {
     l.push(`## ${nomes[n]}`, '');
     qs.forEach((q, i) => {

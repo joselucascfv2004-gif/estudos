@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Ecologia
 
+## Resumo
+
+- **Níveis de organização:** população (mesma espécie) → comunidade (várias espécies) → ecossistema (comunidade + ambiente) → biosfera.
+- **Cadeia alimentar:** produtores → consumidores primários → secundários… → decompositores. A energia **diminui** a cada nível (cerca de 10% passa adiante).
+- **Bioacumulação:** substâncias como mercúrio e DDT se concentram nos níveis tróficos mais altos.
+- **Relações ecológicas:** mutualismo (+/+), comensalismo (+/0), parasitismo (+/−), predação (+/−), competição (−/−).
+- **Ciclos:** do carbono (fotossíntese e respiração), do nitrogênio (bactérias fixadoras nas raízes de leguminosas) e da água.
+- **Sucessão ecológica:** espécies pioneiras (como liquens) preparam o ambiente até a comunidade clímax.
+- **Problemas ambientais:** efeito estufa, desmatamento, perda de biodiversidade, espécies invasoras.
+
 ## Fácil
 
 ### 1

@@ -11,6 +11,15 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Negação de conjunções, disjunções, condicionais e quantificadores; contrapositiva e outras equivalências (Leis de De Morgan).
 
+## Resumo
+
+- **Negação do "e" e do "ou" (De Morgan):** ~(P ∧ Q) = ~P ∨ ~Q; ~(P ∨ Q) = ~P ∧ ~Q.
+- **Negação da condicional:** ~(P → Q) = P ∧ ~Q ("mantém a primeira E nega a segunda").
+- **Equivalências da condicional:** P → Q ⇔ ~Q → ~P (contrapositiva) ⇔ ~P ∨ Q.
+- **Atenção:** P → Q **não** equivale a Q → P (recíproca) nem a ~P → ~Q (inversa).
+- **Negação de "todo":** "algum… não". **Negação de "nenhum":** "algum". **Negação de "algum":** "nenhum".
+- **Bicondicional:** P ↔ Q ⇔ (P → Q) ∧ (Q → P). Negação: "ou P ou Q" (ou exclusivo).
+
 ## Fácil
 
 ### 1

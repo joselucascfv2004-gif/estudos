@@ -11,6 +11,15 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Lei de formação, gráficos, zeros, vértice, máximos e mínimos e aplicações.
 
+## Resumo
+
+- **Função afim** f(x) = ax + b: gráfico é uma reta. **a** é a taxa de variação (inclinação) e **b** é onde a reta corta o eixo y. a > 0: crescente; a < 0: decrescente.
+- **Raiz (zero) da afim:** x = −b/a.
+- **Função quadrática** f(x) = ax² + bx + c: gráfico é uma parábola. a > 0: concavidade para cima (tem mínimo); a < 0: para baixo (tem máximo).
+- **Vértice:** xᵥ = −b/2a e yᵥ = −Δ/4a. Problemas de "lucro máximo", "área máxima" ou "altura máxima" pedem o vértice.
+- **c** é onde a parábola corta o eixo y; as raízes são onde corta o eixo x.
+- **Dica ENEM:** em situações reais (táxi, conta de luz, salário com comissão), o valor fixo é o "b" e o valor por unidade é o "a".
+
 ## Fácil
 
 ### 1

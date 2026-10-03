@@ -1,5 +1,5 @@
 import { router } from 'expo-router';
-import { ScrollView, StyleSheet, Text, View } from 'react-native';
+import { ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { disciplinasDaTrilha, getTopico } from '../../data/banco';
@@ -16,7 +16,7 @@ import {
 } from '../../estado/progresso';
 import { BarraStatus } from '../../ui/BarraStatus';
 import { Barra, Botao, Cartao } from '../../ui/componentes';
-import { clarear, cores } from '../../ui/tema';
+import { clarear, criarEstilos, useCores } from '../../ui/tema';
 
 function quandoFalta(dia: string) {
   const d = diferencaDias(hoje(), dia);
@@ -24,6 +24,8 @@ function quandoFalta(dia: string) {
 }
 
 export default function Praticar() {
+  const c = useCores();
+  const s = useEstilos();
   const { p } = useProgresso();
   const pendentes = revisoesPendentes(p).length;
   const proxima = proximaRevisao(p);
@@ -31,12 +33,12 @@ export default function Praticar() {
   const plural = (n: number) => (n === 1 ? 'questão' : 'questões');
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: cores.fundo }} edges={['top']}>
+    <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }} edges={['top']}>
       <BarraStatus />
       <ScrollView contentContainerStyle={{ padding: 16, gap: 14 }}>
         <Text style={s.titulo}>Praticar</Text>
 
-        <Cartao estilo={{ backgroundColor: cores.roxoClaro, borderColor: '#D9B8FF' }}>
+        <Cartao estilo={{ backgroundColor: c.roxoClaro, borderColor: c.roxoBorda }}>
           <Text style={s.cartaoTitulo}>🧠 Revisão do dia</Text>
           <Text style={s.sub}>
             {pendentes
@@ -48,13 +50,13 @@ export default function Praticar() {
           <Botao
             testID="btn-revisao"
             titulo={pendentes ? `Revisar ${Math.min(pendentes, 10)} agora` : 'Nada para revisar hoje'}
-            cor={cores.roxo}
+            cor={c.roxo}
             desativado={!pendentes}
             onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
           />
         </Cartao>
 
-        <Cartao estilo={{ backgroundColor: cores.vermelhoClaro, borderColor: '#FFB2B2' }}>
+        <Cartao estilo={{ backgroundColor: c.vermelhoClaro, borderColor: c.vermelhoBorda }}>
           <Text style={s.cartaoTitulo}>🎯 Pontos fracos</Text>
           {fracos.length ? (
             <>
@@ -76,7 +78,7 @@ export default function Praticar() {
                         </Text>
                         <Text style={s.pct}>{f.acerto}%</Text>
                       </View>
-                      <Barra valor={f.acerto / 100} cor={cores.vermelho} altura={8} />
+                      <Barra valor={f.acerto / 100} cor={c.vermelho} altura={8} />
                     </Cartao>
                   );
                 })}
@@ -84,7 +86,7 @@ export default function Praticar() {
               <Botao
                 testID="btn-fracos"
                 titulo="Treinar pontos fracos"
-                cor={cores.vermelho}
+                cor={c.vermelho}
                 onPress={() => router.push({ pathname: '/licao', params: { modo: 'fracos' } })}
               />
             </>
@@ -96,10 +98,32 @@ export default function Praticar() {
           )}
         </Cartao>
 
-        <Cartao estilo={{ backgroundColor: cores.azulClaro, borderColor: '#A8DCF7' }}>
+        <Cartao estilo={{ backgroundColor: c.amareloClaro, borderColor: c.amarelo }}>
+          <Text style={s.cartaoTitulo}>⏱️ Simulado</Text>
+          <Text style={s.sub}>
+            Prova com tempo marcando e gabarito só no final, como no dia da prova.
+            {p.simulados.length ? ` Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total} acertos.` : ''}
+          </Text>
+          <Botao testID="btn-simulado" titulo="Fazer simulado" cor={c.laranja} onPress={() => router.push('/simulado')} />
+        </Cartao>
+
+        <Cartao testID="cartao-salvas" estilo={s.linha} onPress={() => router.push('/salvas')}>
+          <Text style={{ fontSize: 26 }}>⭐</Text>
+          <View style={{ flex: 1 }}>
+            <Text style={s.nome}>Questões salvas</Text>
+            <Text style={s.acerto}>
+              {Object.keys(p.salvas).length
+                ? `${Object.keys(p.salvas).length} salvas, com as suas anotações`
+                : 'Salve questões durante as lições para rever depois'}
+            </Text>
+          </View>
+          <Text style={[s.ir, { color: c.amarelo }]}>▶</Text>
+        </Cartao>
+
+        <Cartao estilo={{ backgroundColor: c.azulClaro, borderColor: c.azulBorda }}>
           <Text style={s.cartaoTitulo}>🎲 Treino misto</Text>
           <Text style={s.sub}>10 questões sorteadas de tudo o que você já liberou na trilha {p.trilha === 'Todas' ? 'completa' : p.trilha}.</Text>
-          <Botao titulo="Treinar" cor={cores.azul} onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino' } })} />
+          <Botao titulo="Treinar" cor={c.azul} onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino' } })} />
         </Cartao>
 
         <Text style={s.secao}>Treinar por disciplina</Text>
@@ -109,7 +133,7 @@ export default function Praticar() {
             return (
               <Cartao
                 key={d.id}
-                estilo={[s.linha, { backgroundColor: clarear(d.cor, 0.1), borderColor: clarear(d.cor, 0.4) }]}
+                estilo={[s.linha, { backgroundColor: clarear(d.cor, 0.1, c.fundo), borderColor: clarear(d.cor, 0.4, c.fundo) }]}
                 onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino', disciplina: d.id } })}
               >
                 <Text style={{ fontSize: 26 }}>{d.emoji}</Text>
@@ -128,17 +152,17 @@ export default function Praticar() {
   );
 }
 
-const s = StyleSheet.create({
-  titulo: { fontSize: 26, fontWeight: '800', color: cores.texto },
-  cartaoTitulo: { fontSize: 19, fontWeight: '800', color: cores.texto },
-  sub: { fontSize: 14, color: cores.textoSuave, fontWeight: '600', marginVertical: 10, lineHeight: 20 },
-  secao: { fontSize: 13, fontWeight: '800', color: cores.textoSuave, textTransform: 'uppercase', letterSpacing: 1, marginTop: 6 },
+const useEstilos = criarEstilos((c) => ({
+  titulo: { fontSize: 26, fontWeight: '800', color: c.texto },
+  cartaoTitulo: { fontSize: 19, fontWeight: '800', color: c.texto },
+  sub: { fontSize: 14, color: c.textoSuave, fontWeight: '600', marginVertical: 10, lineHeight: 20 },
+  secao: { fontSize: 13, fontWeight: '800', color: c.textoSuave, textTransform: 'uppercase', letterSpacing: 1, marginTop: 6 },
   linha: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 12 },
-  nome: { fontSize: 16, fontWeight: '800', color: cores.texto },
-  acerto: { fontSize: 12, fontWeight: '700', color: cores.textoSuave, marginTop: 2 },
+  nome: { fontSize: 16, fontWeight: '800', color: c.texto },
+  acerto: { fontSize: 12, fontWeight: '700', color: c.textoSuave, marginTop: 2 },
   ir: { fontSize: 18 },
-  fraco: { backgroundColor: cores.fundo, padding: 12, gap: 8 },
+  fraco: { backgroundColor: c.fundo, padding: 12, gap: 8 },
   linhaFraco: { flexDirection: 'row', alignItems: 'center', gap: 10 },
-  nomeFraco: { flex: 1, fontSize: 15, fontWeight: '800', color: cores.texto },
-  pct: { fontSize: 15, fontWeight: '800', color: cores.vermelhoEscuro },
-});
+  nomeFraco: { flex: 1, fontSize: 15, fontWeight: '800', color: c.texto },
+  pct: { fontSize: 15, fontWeight: '800', color: c.vermelhoEscuro },
+}));

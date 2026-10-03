@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM)
 
 # Leitura, vocabulário e gramática em contexto
 
+## Resumo
+
+- **Falsos amigos (heterossemânticos):** embarazada (grávida), exquisito (delicioso), rato (momento), oficina (escritório), polvo (pó), cena (jantar), apellido (sobrenome), borracho (bêbado), largo (comprido), zurdo (canhoto), todavía (ainda).
+- **Heterogenéricos:** mudam de gênero em relação ao português: el viaje, el puente, la leche, la sal, la nariz.
+- **Artigo neutro "lo":** "lo importante" significa "o importante".
+- **Conectivos:** aunque (embora), sin embargo (no entanto), sino (mas sim), además (além disso), desde que (desde quando).
+- **Verbos:** gustar concorda com o que agrada (me gusta**n** las frutas); "hay que" significa "é preciso".
+- **Ser × estar:** muda o sentido ("es listo" = é inteligente; "está listo" = está pronto).
+- **Variação:** o **voseo** (vos em vez de tú, na Argentina e no Uruguai) é uma variante legítima, tema frequente no ENEM.
+
 ## Fácil
 
 ### 1

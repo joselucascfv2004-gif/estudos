@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Geografia física
 
+## Resumo
+
+- **Estrutura da Terra:** crosta, manto e núcleo. **Placas tectônicas** se movem e causam terremotos, vulcões e dobramentos (Andes, Himalaia). O Brasil fica no meio da placa Sul-Americana, por isso tem poucos tremores fortes.
+- **Rochas:** magmáticas (granito, basalto), sedimentares (arenito, com fósseis e petróleo) e metamórficas (mármore).
+- **Relevo brasileiro:** planaltos, planícies e depressões (classificação de Jurandyr Ross). O relevo é antigo e muito desgastado pela erosão.
+- **Clima × tempo:** tempo é o estado momentâneo; clima é o padrão ao longo de décadas.
+- **Fatores do clima:** latitude, altitude, maritimidade e continentalidade, correntes marinhas e massas de ar.
+- **Climas do Brasil:** equatorial (quente e úmido), tropical (verão chuvoso), semiárido (Sertão), subtropical (Sul) e tropical de altitude.
+- **Hidrografia:** bacias Amazônica, do São Francisco ("rio da integração nacional"), do Paraná (grande potencial hidrelétrico) e aquífero Guarani.
+
 ## Fácil
 
 ### 1

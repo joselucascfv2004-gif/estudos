@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo vestibulares e concursos)
 
 # Pontuação, ortografia e acentuação
 
+## Resumo
+
+- **Vírgula — nunca** separe o sujeito do verbo nem o verbo do complemento.
+- **Vírgula — use** para isolar vocativo, aposto, expressões explicativas, adjunto adverbial deslocado e orações adjetivas explicativas, e antes de "mas", "porém" e "pois" (explicativo).
+- **Acentuação:** proparoxítonas são todas acentuadas (lâmpada). Paroxítonas terminadas em l, n, r, x, ps, ã, ão, i, us, um e ditongo levam acento (fácil, caráter, órfão, série).
+- **Oxítonas acentuadas:** terminadas em a, e, o (seguidos ou não de s) e em, ens (café, também).
+- **Novo Acordo:** sem acento em "ideia", "heroico" e "voo"; sem trema ("linguiça").
+- **Porquês:** **por que** (pergunta / pelo qual), **por quê** (fim de frase), **porque** (resposta / explicação), **porquê** (substantivo: "o porquê").
+- **Parônimos e homônimos:** mal (oposto de bem) × mau (oposto de bom); sessão (reunião), seção (divisão) e cessão (ato de ceder); eminente (ilustre) × iminente (prestes a ocorrer).
+
 ## Fácil
 
 ### 1

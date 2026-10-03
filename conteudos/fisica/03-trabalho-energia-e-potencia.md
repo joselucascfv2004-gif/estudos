@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Energia cinética, potencial e mecânica, conservação de energia, potência, rendimento, impulso e colisões.
 
+## Resumo
+
+- **Trabalho:** τ = F·d·cos θ (em joules).
+- **Energia cinética:** Ec = m·v²/2. **Potencial gravitacional:** Ep = m·g·h. **Elástica:** k·x²/2.
+- **Teorema da energia cinética:** trabalho total = variação da energia cinética.
+- **Conservação da energia mecânica:** sem atrito, Ec + Ep é constante (ex.: v = √(2gh) na queda).
+- **Potência** = energia ÷ tempo (watts). **Rendimento** = potência útil ÷ potência total.
+- **kWh** é unidade de energia: 1 kWh = 3,6 × 10⁶ J.
+- **Impulso** = F·Δt = variação da quantidade de movimento (Q = m·v). Em colisões, Q total se conserva.
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Citologia
 
+## Resumo
+
+- **Célula procarionte:** sem núcleo organizado (bactérias). **Eucarionte:** com núcleo e organelas (animais, plantas, fungos, protozoários).
+- **Organelas:** mitocôndria (respiração celular e ATP), cloroplasto (fotossíntese, só em plantas e algas), ribossomo (síntese de proteínas), retículo endoplasmático, complexo golgiense (secreção), lisossomo (digestão intracelular).
+- **Célula vegetal** tem parede celular de celulose, cloroplastos e um grande vacúolo.
+- **Membrana plasmática:** mosaico fluido, com permeabilidade seletiva. **Transporte passivo** (difusão, osmose) não gasta energia; o **ativo** (bomba de sódio e potássio) gasta ATP.
+- **Osmose:** a água vai do meio menos concentrado (hipotônico) para o mais concentrado (hipertônico).
+- **Divisão celular:** mitose gera 2 células iguais (crescimento e regeneração); meiose gera 4 células com metade dos cromossomos (gametas, variabilidade).
+- **Metabolismo energético:** fotossíntese (6CO₂ + 6H₂O + luz → glicose + 6O₂) e respiração (glicose + O₂ → CO₂ + H₂O + ATP); a fermentação acontece sem O₂.
+
 ## Fácil
 
 ### 1

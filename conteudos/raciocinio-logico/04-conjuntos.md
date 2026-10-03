@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 União, interseção, diferença, complementar, subconjuntos e problemas com diagramas.
 
+## Resumo
+
+- **União (A ∪ B):** elementos que estão em A **ou** em B. **Interseção (A ∩ B):** os que estão nos dois.
+- **Diferença (A − B):** estão em A, mas não em B. **Complementar:** o que falta para completar o universo.
+- **Fórmula da união:** n(A ∪ B) = n(A) + n(B) − n(A ∩ B).
+- **Com três conjuntos:** n(A ∪ B ∪ C) = n(A) + n(B) + n(C) − n(A∩B) − n(A∩C) − n(B∩C) + n(A∩B∩C).
+- **Diagrama de Venn:** preencha **do centro para fora** (comece pela interseção de todos).
+- **Subconjuntos:** um conjunto com n elementos tem 2ⁿ subconjuntos.
+- **"Nenhum dos dois"** = total − união.
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Filosofia moderna e contemporânea
 
+## Resumo
+
+- **Racionalismo** (Descartes): dúvida metódica, "penso, logo existo", ideias inatas. **Empirismo** (Locke, Hume): a mente é uma tábula rasa e o conhecimento vem da experiência.
+- **Kant:** síntese dos dois; ética do **dever**, imperativo categórico ("age de modo que tua ação possa virar lei universal").
+- **Contratualistas:** Hobbes (estado de natureza como guerra de todos contra todos, Estado forte), Locke (direitos naturais: vida, liberdade e propriedade) e Rousseau (o homem nasce bom; vontade geral).
+- **Hegel e Marx:** dialética. Para Marx, o materialismo histórico, a luta de classes e a alienação do trabalho.
+- **Nietzsche:** crítica à moral cristã, "Deus está morto", vontade de potência e super-homem.
+- **Existencialismo** (Sartre): "a existência precede a essência" e o ser humano está condenado a ser livre.
+- **Escola de Frankfurt:** indústria cultural (Adorno e Horkheimer). **Hannah Arendt:** banalidade do mal. **Foucault:** poder disciplinar e vigilância.
+- **Utilitarismo** (Bentham, Mill): a ação correta é a que gera a maior felicidade para o maior número.
+
 ## Fácil
 
 ### 1

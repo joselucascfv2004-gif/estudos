@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Proposições simples e compostas, conectivos (e, ou, se...então, se e somente se), valor lógico e tabelas-verdade.
 
+## Resumo
+
+- **Proposição** é uma frase declarativa que pode ser verdadeira ou falsa. Perguntas, ordens e exclamações não são proposições.
+- **Conectivos:** "e" (∧) só é V se as duas forem V. "Ou" (∨) só é F se as duas forem F.
+- **Condicional (se P, então Q):** só é **falsa** quando P é V e Q é F ("Vera Fischer").
+- **Bicondicional (P se e somente se Q):** V quando P e Q têm o mesmo valor.
+- **Ou exclusivo ("ou… ou…"):** V quando exatamente uma é verdadeira.
+- **Tabela-verdade:** com n proposições simples, há 2ⁿ linhas.
+- **Tautologia** é sempre V; **contradição** é sempre F; **contingência** depende dos valores.
+
 ## Fácil
 
 ### 1

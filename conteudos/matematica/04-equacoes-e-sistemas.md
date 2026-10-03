@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Equações do 1º e 2º grau, sistemas lineares, inequações e problemas.
 
+## Resumo
+
+- **Equação do 1º grau:** isole x fazendo a mesma operação dos dois lados (ax + b = 0 ⇒ x = −b/a).
+- **Equação do 2º grau** (ax² + bx + c = 0): Δ = b² − 4ac e x = (−b ± √Δ)/2a.
+  - Δ > 0: duas raízes reais diferentes; Δ = 0: uma raiz (dupla); Δ < 0: nenhuma raiz real.
+- **Soma e produto das raízes:** S = −b/a e P = c/a. Ótimo para conferir respostas rapidamente.
+- **Sistemas 2×2:** use substituição (isole uma letra) ou adição (some as equações para eliminar uma letra).
+- **Inequações:** resolva como equação, mas, ao multiplicar ou dividir por número negativo, **inverta o sinal** da desigualdade.
+- **Problemas com texto:** dê nome às incógnitas, traduza cada frase em uma equação e confira a resposta no enunciado.
+
 ## Fácil
 
 ### 1

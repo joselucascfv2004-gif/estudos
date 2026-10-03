@@ -7,6 +7,21 @@ fonte: Questão inédita (estilo ENEM, vestibulares e concursos)
 
 # Funções da linguagem, gêneros textuais e variação linguística
 
+## Resumo
+
+- **Funções da linguagem** (Jakobson):
+  - **referencial:** informar (notícia);
+  - **emotiva:** sentimentos do emissor;
+  - **conativa/apelativa:** convencer o receptor (propaganda, imperativo);
+  - **fática:** testar o canal ("alô?");
+  - **metalinguística:** a língua falando da própria língua (dicionário);
+  - **poética:** foco na forma da mensagem.
+- **Tipos textuais:** narrativo, descritivo, dissertativo (expositivo ou argumentativo), injuntivo (instruções) e dialogal.
+- **Gêneros textuais:** notícia, reportagem, artigo de opinião, crônica, charge, tirinha, carta, e-mail, resenha, meme, entre outros. Cada gênero tem finalidade, estrutura e linguagem próprias.
+- **Variação linguística:** regional (diatópica), social (diastrática), situacional (diafásica, formal × informal) e histórica (diacrônica).
+- **Preconceito linguístico:** discriminar alguém pelo jeito de falar. O ENEM valoriza a ideia de **adequação** ao contexto, e não de "certo × errado".
+- **Intertextualidade:** paródia (subverte o original), paráfrase (mantém o sentido), citação e epígrafe.
+
 ## Fácil
 
 ### 1

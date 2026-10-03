@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 pH e pOH, constante de equilíbrio, termoquímica (Lei de Hess, entalpia), radioatividade e velocidade de reação.
 
+## Resumo
+
+- **pH = −log[H⁺].** pH < 7 ácido; 7 neutro (25 °C); > 7 básico. pH + pOH = 14.
+- **Cada unidade de pH** é um fator 10 na concentração de H⁺.
+- **Termoquímica:** ΔH < 0 = exotérmica (libera calor); ΔH > 0 = endotérmica. **Lei de Hess:** some as equações como se fossem contas.
+- **Cinética:** velocidade = variação da concentração ÷ tempo. Temperatura, superfície de contato, concentração e catalisador aumentam a velocidade.
+- **Equilíbrio:** Kc = [produtos]^coef ÷ [reagentes]^coef (sólidos e líquidos puros ficam fora).
+- **Radioatividade:** meia-vida é o tempo para a amostra cair pela metade (m = m₀/2ⁿ).
+- **Eletroquímica:** quem tem maior potencial de redução recebe elétrons (cátodo); a pilha gera ddp = E_maior − E_menor.
+
 ## Fácil
 
 ### 1

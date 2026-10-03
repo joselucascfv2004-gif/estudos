@@ -7,6 +7,15 @@ fonte: Questão inédita (estilo ENEM e vestibulares militares)
 
 # Leitura e interpretação de textos
 
+## Resumo
+
+- **Estratégias:** leia primeiro a pergunta; use **skimming** (ideia geral) e **scanning** (procurar uma informação específica).
+- **Cognatos** ajudam (information, important), mas cuidado com os **falsos cognatos**: actually (na verdade), pretend (fingir), library (biblioteca), college (faculdade), eventually (finalmente), push (empurrar).
+- **Pistas do texto:** título, imagens, números, datas e nomes próprios dão o contexto.
+- **Conectivos:** however e although (contraste); because e due to (causa); therefore (conclusão); unless (a menos que); despite (apesar de).
+- **Modais:** must (obrigação), should (conselho), may e might (possibilidade), can (capacidade).
+- **No ENEM:** perguntas em português sobre o sentido global, a intenção do autor e o humor de tirinhas. Nem sempre é preciso entender todas as palavras.
+
 ## Fácil
 
 ### 1

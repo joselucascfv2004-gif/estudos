@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Razões trigonométricas, ângulos notáveis, leis dos senos e cossenos, ciclo trigonométrico e funções periódicas.
 
+## Resumo
+
+- **No triângulo retângulo:** seno = cateto oposto/hipotenusa; cosseno = cateto adjacente/hipotenusa; tangente = oposto/adjacente.
+- **Ângulos notáveis:** sen 30° = 1/2, sen 45° = √2/2, sen 60° = √3/2; cos 30° = √3/2, cos 45° = √2/2, cos 60° = 1/2; tg 45° = 1.
+- **Relação fundamental:** sen²x + cos²x = 1.
+- **Lei dos senos:** a/sen A = b/sen B = c/sen C. **Lei dos cossenos:** a² = b² + c² − 2bc·cos A.
+- **Radianos:** π rad = 180°.
+- **Funções periódicas:** em f(x) = a + b·sen(cx), o período é 2π/c e o valor varia entre a − b e a + b (marés, temperatura, roda-gigante).
+- **Aplicações:** altura de prédios, rampas e distâncias inacessíveis.
+
 ## Fácil
 
 ### 1

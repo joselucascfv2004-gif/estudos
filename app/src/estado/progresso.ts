@@ -28,6 +28,9 @@ export const BONUS_PERFEITA = 20;
 export type EstatQuestao = { acertos: number; erros: number; ultima: string; caixa?: number; proxima?: string };
 export type EstatTopico = { licoes: [number, number, number]; melhor: [number, number, number] };
 
+export type Salva = { nota: string; dia: string };
+export type ResultadoSimulado = { dia: string; titulo: string; acertos: number; total: number; segundos: number };
+
 export type Progresso = {
   versao: number;
   onboarding: boolean;
@@ -55,6 +58,18 @@ export type Progresso = {
   comboRecorde: number;
   desafiosFeitos: Record<string, boolean>;
   ultimoTopico: string | null;
+  tema: 'claro' | 'escuro';
+  /** Questões marcadas com estrela, com a anotação do aluno. */
+  salvas: Record<string, Salva>;
+  /** Acertos por dia e disciplina: dia -> disciplina -> [acertos, respondidas]. */
+  acertosDia: Record<string, Record<string, [number, number]>>;
+  /** Tópicos estudados em cada dia (para o plano de estudos). */
+  topicosDia: Record<string, string[]>;
+  dataProva: string | null;
+  nomeProva: string;
+  simulados: ResultadoSimulado[];
+  /** Plano do dia, gerado uma vez por dia para não mudar enquanto o aluno estuda. */
+  planoDia: { dia: string; topicos: string[] } | null;
 };
 
 export function estadoInicial(): Progresso {
@@ -82,6 +97,14 @@ export function estadoInicial(): Progresso {
     comboRecorde: 0,
     desafiosFeitos: {},
     ultimoTopico: null,
+    tema: 'claro',
+    salvas: {},
+    acertosDia: {},
+    topicosDia: {},
+    dataProva: null,
+    nomeProva: '',
+    simulados: [],
+    planoDia: null,
   };
 }
 
@@ -245,9 +268,108 @@ export function acertoDisciplina(p: Progresso, disciplinaId: string): number | n
   return total ? Math.round((acertos / total) * 100) : null;
 }
 
+// ---------- Plano de estudos ----------
+
+const iniciado = (p: Progresso, topicoId: string) => !!p.topicos[topicoId] || !!p.recentes[topicoId];
+
+/**
+ * Quantos assuntos por dia o aluno precisa ver para passar por todos antes da prova,
+ * reservando a última semana para revisão.
+ */
+export function assuntosPorDia(p: Progresso, dia = hoje()): number {
+  const faltam = topicosDaTrilha(p.trilha).filter((t) => !iniciado(p, t.id)).length;
+  if (!p.dataProva) return faltam ? 1 : 0;
+  const dias = diferencaDias(dia, p.dataProva);
+  if (dias <= 0) return 0;
+  const uteis = dias > 14 ? dias - 7 : dias;
+  return Math.min(4, Math.max(faltam ? 1 : 0, Math.ceil(faltam / uteis)));
+}
+
+/** Escolhe os assuntos do dia: primeiro os nunca estudados (alternando disciplinas), depois os menos dominados. */
+export function gerarPlano(p: Progresso, dia = hoje()): string[] {
+  const quantidade = Math.max(1, assuntosPorDia(p, dia));
+  const fraco = pontosFracos(p)[0]?.topicoId;
+  const porDisciplina = new Map<string, string[]>();
+  for (const t of topicosDaTrilha(p.trilha)) {
+    const disc = t.id.split('/')[0];
+    porDisciplina.set(disc, [...(porDisciplina.get(disc) ?? []), t.id]);
+  }
+  // intercala as disciplinas: 1º tópico de cada uma, depois o 2º de cada uma...
+  const intercalados: string[] = [];
+  const listas = [...porDisciplina.values()];
+  for (let i = 0; intercalados.length < listas.reduce((s, l) => s + l.length, 0); i++) {
+    for (const l of listas) if (l[i]) intercalados.push(l[i]);
+  }
+  const novos = intercalados.filter((id) => !iniciado(p, id) && id !== fraco);
+  const escolhidos = novos.slice(0, quantidade);
+  if (escolhidos.length < quantidade) {
+    const revisar = intercalados
+      .filter((id) => iniciado(p, id) && id !== fraco)
+      .sort((a, b) => dominioTopico(p, a) - dominioTopico(p, b));
+    escolhidos.push(...revisar.slice(0, quantidade - escolhidos.length));
+  }
+  return escolhidos;
+}
+
+/** Nível em que o aluno deve continuar um tópico: o primeiro liberado que ainda não foi dominado. */
+export function nivelSugerido(p: Progresso, topicoId: string): Nivel {
+  for (const n of [0, 1, 2] as Nivel[]) {
+    if (!nivelDesbloqueado(p, topicoId, n)) return Math.max(0, n - 1) as Nivel;
+    if ((p.topicos[topicoId]?.melhor[n] ?? 0) < ACERTO_PARA_DESBLOQUEAR) return n;
+  }
+  return 2;
+}
+
+export const estudouTopicoHoje = (p: Progresso, topicoId: string, dia = hoje()) => (p.topicosDia[dia] ?? []).includes(topicoId);
+
+// ---------- Evolução ----------
+
+export type Semana = { inicio: string; acertos: number; total: number };
+
+function somarPeriodo(p: Progresso, inicio: string, fim: string, disciplinaId?: string): [number, number] {
+  let a = 0;
+  let t = 0;
+  for (const [d, porDisc] of Object.entries(p.acertosDia)) {
+    if (d < inicio || d > fim) continue;
+    for (const [disc, [ac, tot]] of Object.entries(porDisc)) {
+      if (disciplinaId && disc !== disciplinaId) continue;
+      a += ac;
+      t += tot;
+    }
+  }
+  return [a, t];
+}
+
+/** Acertos das últimas semanas (da mais antiga para a atual). */
+export function evolucaoSemanal(p: Progresso, semanas = 8, dia = hoje()): Semana[] {
+  return Array.from({ length: semanas }, (_, i) => {
+    const fim = somarDias(dia, -7 * (semanas - 1 - i));
+    const inicio = somarDias(fim, -6);
+    const [acertos, total] = somarPeriodo(p, inicio, fim);
+    return { inicio, acertos, total };
+  });
+}
+
+export type EvolucaoDisciplina = { disciplinaId: string; atual: number | null; anterior: number | null; respostas: number };
+
+/** Acerto das últimas 4 semanas comparado com as 4 anteriores, por disciplina estudada. */
+export function evolucaoDisciplinas(p: Progresso, dia = hoje()): EvolucaoDisciplina[] {
+  const discs = new Set<string>();
+  for (const porDisc of Object.values(p.acertosDia)) for (const d of Object.keys(porDisc)) discs.add(d);
+  const pct = ([a, t]: [number, number]) => (t ? Math.round((a / t) * 100) : null);
+  return [...discs]
+    .map((disciplinaId) => {
+      const atual = somarPeriodo(p, somarDias(dia, -27), dia, disciplinaId);
+      const anterior = somarPeriodo(p, somarDias(dia, -55), somarDias(dia, -28), disciplinaId);
+      return { disciplinaId, atual: pct(atual), anterior: pct(anterior), respostas: atual[1] };
+    })
+    .filter((e) => e.respostas > 0)
+    .sort((a, b) => b.respostas - a.respostas);
+}
+
 // ---------- Montagem de lições ----------
 
-export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos';
+export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos' | 'salvas' | 'simulado';
 
 /** Prioriza questões nunca vistas, depois as que o aluno errou, depois as demais. */
 function priorizar(p: Progresso, qs: Questao[], quantidade: number): Questao[] {
@@ -385,8 +507,19 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
       ...agendar(anterior, acertou, dia),
     };
     const topicoId = getQuestao(id)?.topicoId;
-    if (topicoId) p.recentes[topicoId] = ((p.recentes[topicoId] ?? '') + (acertou ? '1' : '0')).slice(-JANELA_RECENTE);
+    if (topicoId) {
+      p.recentes[topicoId] = ((p.recentes[topicoId] ?? '') + (acertou ? '1' : '0')).slice(-JANELA_RECENTE);
+      const disc = topicoId.split('/')[0];
+      const doDia = (p.acertosDia[dia] = { ...(p.acertosDia[dia] ?? {}) });
+      const [a, t] = doDia[disc] ?? [0, 0];
+      doDia[disc] = [a + (acertou ? 1 : 0), t + 1];
+      const estudados = new Set(p.topicosDia[dia] ?? []);
+      estudados.add(topicoId);
+      p.topicosDia[dia] = [...estudados];
+    }
   }
+  p.acertosDia = manterUltimosDias(p.acertosDia, dia);
+  p.topicosDia = manterUltimosDias(p.topicosDia, dia);
 
   // Tópico
   let desbloqueouNivel: Nivel | null = null;
@@ -467,6 +600,51 @@ export function comprarProtetor(p: Progresso): Progresso | null {
 
 export function nomeDoTopico(topicoId: string) {
   return getTopico(topicoId)?.topico.titulo ?? topicoId;
+}
+
+/** Guarda só os últimos 180 dias de histórico, para não crescer sem limite. */
+function manterUltimosDias<T>(registro: Record<string, T>, dia: string, dias = 180): Record<string, T> {
+  const limite = somarDias(dia, -dias);
+  return Object.fromEntries(Object.entries(registro).filter(([d]) => d > limite));
+}
+
+/** Minutos por questão no simulado (média do ENEM: cerca de 3 minutos). */
+export const MINUTOS_POR_QUESTAO = 3;
+
+/**
+ * Monta um simulado: questões de todos os tópicos da trilha (ou de uma disciplina), com cerca de
+ * 30% fáceis, 40% médias e 30% difíceis, espalhadas entre os tópicos.
+ */
+export function montarSimulado(p: Progresso, quantidade: number, disciplinaId?: string): Questao[] {
+  const topicos = embaralhar(topicosDaTrilha(p.trilha).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/')));
+  if (!topicos.length) return [];
+  const faceis = Math.round(quantidade * 0.3);
+  const dificeis = Math.round(quantidade * 0.3);
+  const niveis: Nivel[] = embaralhar([
+    ...Array<Nivel>(faceis).fill(0),
+    ...Array<Nivel>(quantidade - faceis - dificeis).fill(1),
+    ...Array<Nivel>(dificeis).fill(2),
+  ]);
+  const usadas = new Set<string>();
+  const escolhidas: Questao[] = [];
+  for (let i = 0; i < niveis.length * 4 && escolhidas.length < quantidade; i++) {
+    const t = topicos[i % topicos.length];
+    const nivel = niveis[escolhidas.length];
+    const livres = questoesDoTopico(t.id, nivel).filter((q) => !usadas.has(q.id));
+    const [q] = priorizar(p, livres, 1);
+    if (q) {
+      usadas.add(q.id);
+      escolhidas.push(q);
+    }
+  }
+  return escolhidas;
+}
+
+export function montarSalvas(p: Progresso): Questao[] {
+  const qs = Object.keys(p.salvas)
+    .map((id) => getQuestao(id)?.questao)
+    .filter((q): q is Questao => !!q);
+  return embaralhar(qs).slice(0, TAMANHO_LICAO);
 }
 
 function structuredCloneSeguro<T>(v: T): T {

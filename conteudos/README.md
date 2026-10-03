@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4640 questões** em **86 tópicos**.
+**4744 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -224,3 +224,14 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
+
+## 📝 ENEM — provas oficiais — 104 questões
+
+*Provas anteriores*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [ENEM 2023 — Matemática](enem-oficial/01-enem-2023-matematica.md) | ENEM | 6 | 8 | 5 |
+| [ENEM 2023 — Ciências da Natureza](enem-oficial/02-enem-2023-ciencias-da-natureza.md) | ENEM | 9 | 13 | 6 |
+| [ENEM 2023 — Ciências Humanas](enem-oficial/03-enem-2023-ciencias-humanas.md) | ENEM | 8 | 14 | 8 |
+| [ENEM 2023 — Linguagens](enem-oficial/04-enem-2023-linguagens.md) | ENEM | 9 | 10 | 8 |

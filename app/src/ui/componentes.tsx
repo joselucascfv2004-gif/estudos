@@ -1,7 +1,8 @@
+import { router } from 'expo-router';
 import { ReactNode } from 'react';
-import { Pressable, StyleProp, StyleSheet, Text, View, ViewStyle } from 'react-native';
+import { Pressable, StyleProp, Text, View, ViewStyle } from 'react-native';
 
-import { cores, escurecer } from './tema';
+import { cores, criarEstilos, escurecer, useCores } from './tema';
 
 type BotaoProps = {
   titulo: string;
@@ -17,9 +18,11 @@ type BotaoProps = {
 
 /** Botão "3D" no estilo dos apps gamificados. */
 export function Botao({ titulo, onPress, cor = cores.verde, corTexto, contorno, desativado, estilo, pequeno, testID }: BotaoProps) {
-  const fundo = desativado ? cores.cinzaClaro : contorno ? cores.fundo : cor;
-  const borda = desativado ? cores.cinzaClaro : contorno ? cores.borda : escurecer(cor);
-  const texto = desativado ? cores.cinza : corTexto ?? (contorno ? cor : '#FFFFFF');
+  const c = useCores();
+  const styles = useEstilos();
+  const fundo = desativado ? c.cinzaClaro : contorno ? c.fundo : cor;
+  const borda = desativado ? c.cinzaClaro : contorno ? c.borda : escurecer(cor);
+  const texto = desativado ? c.cinza : corTexto ?? (contorno ? cor : '#FFFFFF');
   return (
     <Pressable
       testID={testID}
@@ -39,7 +42,9 @@ export function Botao({ titulo, onPress, cor = cores.verde, corTexto, contorno, 
   );
 }
 
-export function Barra({ valor, cor = cores.verde, altura = 14, fundo = cores.cinzaClaro }: { valor: number; cor?: string; altura?: number; fundo?: string }) {
+export function Barra({ valor, cor = cores.verde, altura = 14, fundo }: { valor: number; cor?: string; altura?: number; fundo?: string }) {
+  const c = useCores();
+  fundo = fundo ?? c.cinzaClaro;
   const v = Math.max(0, Math.min(1, valor));
   return (
     <View style={{ height: altura, borderRadius: altura, backgroundColor: fundo, overflow: 'hidden' }}>
@@ -53,7 +58,8 @@ export function Barra({ valor, cor = cores.verde, altura = 14, fundo = cores.cin
 }
 
 export function Cartao({ children, estilo, onPress, testID }: { children: ReactNode; estilo?: StyleProp<ViewStyle>; onPress?: () => void; testID?: string }) {
-  if (!onPress) return <View style={[styles.cartao, estilo]}>{children}</View>;
+  const styles = useEstilos();
+  if (!onPress) return <View testID={testID} style={[styles.cartao, estilo]}>{children}</View>;
   return (
     <Pressable testID={testID} onPress={onPress} style={({ pressed }) => [styles.cartao, estilo, pressed && { borderBottomWidth: 2, marginTop: 2 }]}>
       {children}
@@ -62,17 +68,20 @@ export function Cartao({ children, estilo, onPress, testID }: { children: ReactN
 }
 
 export function Chip({ texto, ativo, onPress, cor = cores.azul }: { texto: string; ativo?: boolean; onPress?: () => void; cor?: string }) {
+  const c = useCores();
+  const styles = useEstilos();
   return (
     <Pressable
       onPress={onPress}
-      style={[styles.chip, ativo ? { backgroundColor: cor, borderColor: escurecer(cor) } : { backgroundColor: cores.fundo, borderColor: cores.borda }]}
+      style={[styles.chip, ativo ? { backgroundColor: cor, borderColor: escurecer(cor) } : { backgroundColor: c.fundo, borderColor: c.borda }]}
     >
-      <Text style={[styles.chipTexto, { color: ativo ? '#FFF' : cores.textoSuave }]}>{texto}</Text>
+      <Text style={[styles.chipTexto, { color: ativo ? '#FFF' : c.textoSuave }]}>{texto}</Text>
     </Pressable>
   );
 }
 
 export function Estatistica({ emoji, valor, rotulo, cor }: { emoji: string; valor: string | number; rotulo?: string; cor?: string }) {
+  const styles = useEstilos();
   return (
     <View style={styles.estat}>
       <Text style={styles.estatEmoji}>{emoji}</Text>
@@ -85,10 +94,27 @@ export function Estatistica({ emoji, valor, rotulo, cor }: { emoji: string; valo
 }
 
 export function Titulo({ children, estilo }: { children: ReactNode; estilo?: object }) {
+  const styles = useEstilos();
   return <Text style={[styles.titulo, estilo]}>{children}</Text>;
 }
 
-export const styles = StyleSheet.create({
+/** Barra de topo com botão de voltar, para telas fora das abas. */
+export function Cabecalho({ titulo, direita }: { titulo: string; direita?: ReactNode }) {
+  const c = useCores();
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 2, borderBottomColor: c.borda }}>
+      <Pressable testID="btn-voltar" onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))} hitSlop={12}>
+        <Text style={{ fontSize: 26, fontWeight: '800', color: c.textoSuave }}>←</Text>
+      </Pressable>
+      <Text style={{ flex: 1, fontSize: 20, fontWeight: '800', color: c.texto }} numberOfLines={1}>
+        {titulo}
+      </Text>
+      {direita}
+    </View>
+  );
+}
+
+export const useEstilos = criarEstilos((c) => ({
   botao: {
     borderRadius: 16,
     paddingVertical: 14,
@@ -100,18 +126,18 @@ export const styles = StyleSheet.create({
   botaoPequeno: { paddingVertical: 9, paddingHorizontal: 14, borderRadius: 12 },
   botaoTexto: { fontSize: 16, fontWeight: '800', letterSpacing: 0.8 },
   cartao: {
-    backgroundColor: cores.fundo,
+    backgroundColor: c.fundo,
     borderRadius: 18,
     borderWidth: 2,
     borderBottomWidth: 4,
-    borderColor: cores.borda,
+    borderColor: c.borda,
     padding: 16,
   },
   chip: { paddingHorizontal: 14, paddingVertical: 8, borderRadius: 20, borderWidth: 2, borderBottomWidth: 3, marginRight: 8 },
   chipTexto: { fontWeight: '800', fontSize: 13 },
   estat: { flexDirection: 'row', alignItems: 'center', gap: 6 },
   estatEmoji: { fontSize: 22 },
-  estatValor: { fontSize: 17, fontWeight: '800', color: cores.texto },
-  estatRotulo: { fontSize: 11, color: cores.textoSuave, fontWeight: '600' },
-  titulo: { fontSize: 22, fontWeight: '800', color: cores.texto },
-});
+  estatValor: { fontSize: 17, fontWeight: '800', color: c.texto },
+  estatRotulo: { fontSize: 11, color: c.textoSuave, fontWeight: '600' },
+  titulo: { fontSize: 22, fontWeight: '800', color: c.texto },
+}));

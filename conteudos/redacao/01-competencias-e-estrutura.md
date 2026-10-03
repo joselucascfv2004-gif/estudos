@@ -7,6 +7,20 @@ fonte: Questão inédita (baseada nos critérios públicos da redação do ENEM)
 
 # Competências do ENEM e estrutura do texto
 
+## Resumo
+
+- **Tipo textual:** dissertativo-argumentativo, em prosa, de 7 a 30 linhas escritas (até 7 linhas é texto insuficiente). Nota de 0 a 1000.
+- **As 5 competências** (200 pontos cada):
+  - **C1:** norma-padrão da língua;
+  - **C2:** compreender o tema, usar repertório e respeitar o tipo textual;
+  - **C3:** selecionar e organizar os argumentos (projeto de texto);
+  - **C4:** coesão;
+  - **C5:** proposta de intervenção que respeite os direitos humanos.
+- **Estrutura sugerida:** introdução (contexto e tese) + 2 parágrafos de desenvolvimento (um argumento cada, com repertório e análise) + conclusão (retomada e proposta).
+- **Proposta completa:** agente + ação + meio/modo + finalidade + detalhamento.
+- **Zera a redação:** fuga total ao tema, texto que não é dissertativo-argumentativo, texto insuficiente, cópia dos textos motivadores e parte deliberadamente desconectada do tema.
+- **Tangenciar o tema** (fugir do recorte) não zera a redação, mas reduz muito a nota.
+
 ## Fácil
 
 ### 1

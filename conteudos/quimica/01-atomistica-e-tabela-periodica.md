@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Atomística e tabela periódica
 
+## Resumo
+
+- **Átomo:** prótons (+) e nêutrons no núcleo; elétrons (−) na eletrosfera. **Z** = nº de prótons; **A** = prótons + nêutrons.
+- **Isótopos:** mesmo Z (mesmo elemento), A diferente. **Isóbaros:** mesmo A. **Isótonos:** mesmo nº de nêutrons.
+- **Íons:** cátion perdeu elétrons (+); ânion ganhou elétrons (−).
+- **Modelos atômicos:** Dalton (bola maciça) → Thomson (pudim de passas) → Rutherford (núcleo e grande vazio) → Bohr (níveis de energia; o elétron emite luz ao voltar de nível).
+- **Distribuição eletrônica** (Linus Pauling): 1s 2s 2p 3s 3p 4s 3d 4p…
+- **Tabela periódica:** famílias (colunas) têm propriedades parecidas; períodos (linhas) indicam o nº de camadas.
+- **Tendências:** o raio atômico cresce para baixo e para a esquerda; a eletronegatividade e a energia de ionização crescem para cima e para a direita (o flúor é o mais eletronegativo).
+
 ## Fácil
 
 ### 1

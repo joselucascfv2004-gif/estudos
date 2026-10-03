@@ -11,6 +11,17 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Equação fundamental das ondas, som, ondas eletromagnéticas, reflexão, refração, espelhos e lentes.
 
+## Resumo
+
+- **Equação da onda:** v = λ·f. Período T = 1/f.
+- **Som** é onda mecânica longitudinal (não se propaga no vácuo). **Luz** é onda eletromagnética transversal (3 × 10⁸ m/s no vácuo).
+- **Fenômenos:** reflexão, refração (muda a velocidade e a direção), difração (contorna obstáculos), interferência e ressonância.
+- **Efeito Doppler:** fonte se aproximando → som mais agudo; se afastando → mais grave.
+- **Espelho plano:** imagem virtual, do mesmo tamanho e simétrica.
+- **Lentes e espelhos esféricos:** 1/f = 1/p + 1/p'; aumento A = −p'/p. Vergência (di) = 1/f (em metros).
+- **Defeitos da visão:** miopia → lente divergente; hipermetropia → lente convergente.
+- **Refração:** n = c/v; lei de Snell: n₁·sen θ₁ = n₂·sen θ₂.
+
 ## Fácil
 
 ### 1

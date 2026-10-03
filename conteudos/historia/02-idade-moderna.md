@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Idade Moderna
 
+## Resumo
+
+- **Grandes Navegações:** Portugal e Espanha buscam rotas para as Índias; chegada à América (1492) e ao Brasil (1500).
+- **Renascimento:** humanismo, antropocentrismo e racionalismo (Da Vinci, Michelangelo).
+- **Reforma Protestante:** Lutero (1517) critica a venda de indulgências; Calvino e anglicanismo. **Contrarreforma:** Concílio de Trento, jesuítas, Inquisição.
+- **Absolutismo:** poder concentrado no rei (Luís XIV). Teóricos: Maquiavel, Hobbes e Bossuet.
+- **Mercantilismo:** metalismo, balança comercial favorável, protecionismo e exploração colonial (pacto colonial).
+- **Colonização da América:** exploração de metais, plantations, trabalho indígena e escravidão africana.
+- **Revolução Inglesa** (século XVII): fim do absolutismo inglês e Bill of Rights (1689).
+
 ## Fácil
 
 ### 1

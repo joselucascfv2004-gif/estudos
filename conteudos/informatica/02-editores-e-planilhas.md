@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo CESGRANRIO, CEBRASPE, FGV e FCC)
 
 # Editores de texto e planilhas
 
+## Resumo
+
+- **Word em português:** Ctrl + N (negrito), Ctrl + I (itálico), Ctrl + S (sublinhado), Ctrl + B (salvar), Ctrl + P (imprimir), F7 (ortografia). Estilos geram sumário automático.
+- **Equivalentes no LibreOffice:** Writer = Word, Calc = Excel, Impress = PowerPoint. Formatos: .docx, .xlsx e .pptx × .odt, .ods e .odp.
+- **Excel:** toda fórmula começa com **=**. Ordem das operações: ^ antes de * e /, depois + e −. O & junta textos.
+- **Funções:** SOMA, MÉDIA, MÁXIMO, MÍNIMO, MED (mediana), CONT.NÚM (conta números), CONT.VALORES (conta não vazias), CONT.SE, SOMASE, SE, E, OU, PROCV, ARRED e HOJE.
+- **Referências:** A1 é relativa (muda ao copiar); $A$1 é absoluta (fixa); $A1 e A$1 são mistas (fixam só a coluna ou só a linha).
+- **Erros:** #DIV/0! (divisão por zero), #REF! (referência inválida), #NOME? (função escrita errado), #N/D (não encontrado), #VALOR! (tipo de dado errado), ##### (coluna estreita).
+- **LibreOffice Calc:** referência a outra planilha com ponto (Planilha2.A1); no Excel, com exclamação (Planilha2!A1).
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Brasil República (1889–1964)
 
+## Resumo
+
+- **República da Espada** (Deodoro e Floriano) e **Constituição de 1891** (federalismo, voto aberto para homens alfabetizados).
+- **República Oligárquica:** política do café com leite (SP e MG), política dos governadores, coronelismo e voto de cabresto.
+- **Revoltas:** Canudos, Contestado, Revolta da Vacina (1904), Revolta da Chibata (1910), tenentismo.
+- **Revolução de 1930:** Getúlio Vargas chega ao poder.
+- **Era Vargas** (1930–1945): voto feminino (1932), Estado Novo (1937, ditadura, censura pelo DIP), CLT (1943), Petrobras (1953, no segundo governo).
+- **República Populista** (1946–1964): Dutra, Vargas (suicídio em 1954), Juscelino Kubitschek (Plano de Metas, Brasília), Jânio Quadros (renúncia) e João Goulart (reformas de base).
+- **Golpe de 1964:** deposição de Jango pelos militares, com apoio civil.
+
 ## Fácil
 
 ### 1

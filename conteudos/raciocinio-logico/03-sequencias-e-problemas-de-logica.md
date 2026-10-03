@@ -11,6 +11,15 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Sequências numéricas e de letras, padrões cíclicos, calendários, relógios e problemas de verdade e mentira.
 
+## Resumo
+
+- **Sequências:** procure o padrão nas diferenças, nos quocientes, nas posições pares e ímpares ou em ciclos (letras, dias da semana, figuras).
+- **Ciclos:** para achar o termo n de um padrão que se repete a cada k termos, use o **resto** de n ÷ k.
+- **Calendário:** 7 dias depois cai no mesmo dia da semana; um ano comum avança 1 dia da semana, e um bissexto avança 2.
+- **Problemas de associação** (quem é quem): monte uma tabela com ✔ e ✘ e vá eliminando.
+- **Verdades e mentiras:** suponha que alguém diz a verdade e veja se aparece contradição.
+- **Princípio da casa dos pombos:** com n caixas e n + 1 objetos, alguma caixa terá pelo menos 2.
+
 ## Fácil
 
 ### 1

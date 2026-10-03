@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Lei de Ohm, potência e consumo de energia, associação de resistores, carga elétrica, lei de Coulomb e força magnética.
 
+## Resumo
+
+- **Corrente:** i = Q/Δt (ampère). **1ª lei de Ohm:** U = R·i.
+- **Potência elétrica:** P = U·i = R·i² = U²/R. **Energia:** E = P·Δt (em kWh na conta de luz).
+- **Resistores em série:** R_eq = soma das resistências (mesma corrente). **Em paralelo:** 1/R_eq = soma dos inversos (mesma tensão). Tomadas de casa são ligadas em paralelo.
+- **2ª lei de Ohm:** R = ρ·L/A (fio mais longo resiste mais; mais grosso, menos).
+- **Lei de Coulomb:** F = k·|q₁·q₂|/d². Cargas iguais se repelem; opostas se atraem.
+- **Magnetismo:** corrente elétrica gera campo magnético; variação de fluxo magnético gera corrente (indução, usada em usinas e transformadores).
+- **Chuveiro:** a posição "inverno" tem **menor** resistência e, por isso, maior potência.
+
 ## Fácil
 
 ### 1

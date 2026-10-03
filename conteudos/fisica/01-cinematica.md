@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Velocidade média, MRU, MRUV, queda livre e lançamentos.
 
+## Resumo
+
+- **Velocidade média** = distância ÷ tempo. Para converter, km/h ÷ 3,6 = m/s.
+- **MU (velocidade constante):** S = S₀ + v·t.
+- **MUV (aceleração constante):** v = v₀ + a·t; S = S₀ + v₀·t + a·t²/2; **Torricelli:** v² = v₀² + 2·a·ΔS.
+- **Queda livre:** a = g ≈ 10 m/s². Lançamento vertical: na altura máxima, v = 0.
+- **Gráficos:** no gráfico v × t, a **área** é o deslocamento e a **inclinação** é a aceleração.
+- **Lançamento oblíquo:** na horizontal é MU; na vertical é MUV.
+- **Movimento circular:** v = 2πR/T; aceleração centrípeta = v²/R.
+
 ## Fácil
 
 ### 1

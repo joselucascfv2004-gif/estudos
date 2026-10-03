@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Desconto comercial e racional, SAC, Tabela Price e séries de pagamentos.
 
+## Resumo
+
+- **Desconto comercial (por fora) simples:** D = N·i·t (calculado sobre o valor nominal N). Valor atual A = N − D.
+- **Desconto racional (por dentro) simples:** A = N/(1 + i·t). Calculado sobre o valor atual, é menor que o comercial.
+- **Desconto composto racional:** A = N/(1 + i)ᵗ.
+- **SAC (Sistema de Amortização Constante):** a amortização é fixa; os juros e as parcelas **diminuem** com o tempo.
+- **Price (Sistema Francês):** as **parcelas são fixas**; no começo, a maior parte é juros, e a amortização cresce.
+- **Em cada parcela:** parcela = juros + amortização. Juros = taxa × saldo devedor do período anterior.
+- **Comparação:** no SAC a primeira parcela é maior, mas o total de juros pago é menor que na Price.
+
 ## Fácil
 
 ### 1

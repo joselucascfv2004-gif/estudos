@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo CESGRANRIO, CEBRASPE, FGV e FCC)
 
 # Hardware e sistemas operacionais
 
+## Resumo
+
+- **Hardware:** CPU (processa), RAM (memória volátil, de trabalho), ROM e BIOS/UEFI (iniciam o computador), armazenamento (HD mecânico, SSD mais rápido), placa-mãe (interliga tudo).
+- **Hierarquia de memória** (da mais rápida para a mais lenta): registradores → cache → RAM → disco.
+- **Unidades:** 1 byte = 8 bits; 1 KB = 1024 bytes; depois MB, GB e TB. A velocidade de internet é medida em bits por segundo (Mbps).
+- **Periféricos:** entrada (teclado, mouse), saída (monitor, impressora) e entrada e saída (touchscreen, pendrive).
+- **Atalhos do Windows:** Ctrl + C, X, V (copiar, recortar, colar); Ctrl + Z (desfazer); Win + E (Explorador de Arquivos); Win + D (área de trabalho); Win + L (bloquear); Alt + F4 (fechar); F2 (renomear); Shift + Delete (excluir sem passar pela Lixeira).
+- **Linux:** código aberto. Comandos: ls (listar), cd (mudar de pasta), pwd (pasta atual), cp, mv, rm, mkdir, chmod (permissões rwx = 4, 2, 1), sudo e root (administrador).
+- **Sistemas de arquivos:** NTFS (Windows), ext4 (Linux) e FAT32 (limite de 4 GB por arquivo).
+
 ## Fácil
 
 ### 1

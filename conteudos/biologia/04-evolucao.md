@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Evolução e origem da vida
 
+## Resumo
+
+- **Lamarck:** uso e desuso + herança dos caracteres adquiridos (ideia superada).
+- **Darwin e Wallace:** **seleção natural**. Há variação entre indivíduos, e os mais adaptados ao ambiente deixam mais descendentes.
+- **Teoria sintética (neodarwinismo):** une seleção natural, mutação, recombinação genética e genética de populações.
+- **Evidências:** fósseis, órgãos homólogos (mesma origem: braço humano e asa de morcego), análogos (mesma função: asa de inseto e de ave), vestigiais e comparação de DNA.
+- **Especiação:** isolamento geográfico → acúmulo de diferenças → isolamento reprodutivo → nova espécie.
+- **Exemplos atuais:** bactérias resistentes a antibióticos e insetos resistentes a inseticidas. O antibiótico **seleciona** os resistentes; não os cria.
+- **Origem da vida:** abiogênese × biogênese (Pasteur); hipótese de Oparin e Haldane e o experimento de Miller.
+
 ## Fácil
 
 ### 1

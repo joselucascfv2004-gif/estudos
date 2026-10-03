@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Química orgânica
 
+## Resumo
+
+- **Carbono:** faz 4 ligações e forma cadeias (abertas ou fechadas, saturadas ou insaturadas).
+- **Hidrocarbonetos:** alcanos (só ligações simples), alcenos (dupla), alcinos (tripla), aromáticos (anel benzênico). Petróleo e gás natural são misturas de hidrocarbonetos.
+- **Funções:** álcool (–OH), aldeído (–CHO), cetona (C=O no meio), ácido carboxílico (–COOH), éster (–COO–, aromas), éter (–O–), amina (–NH₂), amida.
+- **Nomenclatura:** prefixo (nº de carbonos: met, et, prop, but, pent…) + infixo (an, en, in) + sufixo (o, ol, al, ona, oico).
+- **Isomeria:** mesma fórmula molecular, estruturas diferentes. A isomeria óptica exige carbono quiral (4 ligantes diferentes).
+- **Reações importantes:** combustão, esterificação (ácido + álcool → éster + água), saponificação (gordura + base → sabão) e polimerização (plásticos).
+- **Biomoléculas:** carboidratos, lipídios e proteínas (aminoácidos unidos por ligação peptídica).
+
 ## Fácil
 
 ### 1

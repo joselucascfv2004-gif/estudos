@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo CEBRASPE, FGV, CESGRANRIO e FCC)
 
 # Ética no serviço público e na administração
 
+## Resumo
+
+- **Ética × moral:** a moral são as normas e costumes de um grupo; a ética é a reflexão sobre elas.
+- **Princípios da administração pública (art. 37 da CF, LIMPE):** legalidade, impessoalidade, moralidade, publicidade e eficiência.
+- **Legalidade:** o servidor só faz o que a lei permite (o particular pode tudo o que a lei não proíbe).
+- **Código de Ética do servidor federal** (Decreto 1.171/1994): deveres (cortesia, assiduidade, sigilo, comunicar irregularidades), vedações (usar o cargo para favorecimento, receber presentes). A Comissão de Ética aplica a pena de **censura**.
+- **Lei 8.112/1990:** penalidades disciplinares (advertência, suspensão de até 90 dias, demissão, cassação de aposentadoria, destituição de cargo ou função).
+- **Improbidade administrativa** (Lei 8.429/1992, alterada em 2021): enriquecimento ilícito, lesão ao erário e violação de princípios. Exige **dolo**.
+- **Lei de Acesso à Informação** (12.527/2011): a publicidade é a regra e o sigilo, a exceção. O pedido não precisa de justificativa; prazo de 20 dias (+10). Sigilo de até 25, 15 ou 5 anos.
+- **Conflito de interesses** (Lei 12.813/2013) e nepotismo (Súmula Vinculante 13).
+
 ## Fácil
 
 ### 1

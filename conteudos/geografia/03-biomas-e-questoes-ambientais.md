@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Biomas e questões ambientais
 
+## Resumo
+
+- **Amazônia:** floresta equatorial, maior biodiversidade do mundo, solo pobre (os nutrientes estão na biomassa). Ameaças: desmatamento, garimpo e queimadas.
+- **Cerrado:** savana, "berço das águas", árvores de troncos retorcidos e raízes profundas. Muito ocupado pela soja e pela pecuária.
+- **Caatinga:** exclusivamente brasileira, semiárida, vegetação que perde as folhas na seca (caducifólia).
+- **Mata Atlântica:** o bioma mais devastado (restam cerca de 12%), onde vive a maior parte da população.
+- **Pantanal:** a maior planície alagável do mundo, com cheias periódicas. **Pampa:** campos do Sul (pecuária).
+- **Questões ambientais:** aquecimento global, ilhas de calor, inversão térmica, desertificação e assoreamento dos rios.
+- **Acordos:** Rio-92, Protocolo de Kyoto (1997), Acordo de Paris (2015) e os Objetivos de Desenvolvimento Sustentável.
+
 ## Fácil
 
 ### 1

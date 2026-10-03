@@ -44,6 +44,8 @@ function lerTopico(arquivo) {
   if (!provas.length) erro(arquivo, 1, 'frontmatter sem "provas"');
 
   const questoes = [];
+  const resumo = [];
+  let noResumo = false;
   let nivel = null;
   let atual = null;
   let campo = null; // 'enunciado' | 'explicacao'
@@ -71,8 +73,17 @@ function lerTopico(arquivo) {
     if ((m = linha.match(/^##\s+(.+?)\s*$/)) && !linha.startsWith('###')) {
       fechar();
       const chave = m[1].toLowerCase();
+      noResumo = chave === 'resumo';
+      if (noResumo) {
+        nivel = null;
+        return;
+      }
       if (!(chave in NIVEIS)) erro(arquivo, n, `nível desconhecido "${m[1]}" (use Fácil, Médio ou Difícil)`);
       nivel = NIVEIS[chave] ?? null;
+      return;
+    }
+    if (noResumo) {
+      resumo.push(linha);
       return;
     }
     if (linha.startsWith('### ')) {
@@ -118,7 +129,7 @@ function lerTopico(arquivo) {
   porNivel.forEach((c, i) => {
     if (c === 0) erro(arquivo, 1, `nenhuma questão de nível ${NOMES_NIVEL[i]}`);
   });
-  return { meta, provas, questoes, porNivel };
+  return { meta, provas, questoes, porNivel, resumo: resumo.join('\n').replace(/\n{3,}/g, '\n\n').trim() };
 }
 
 function main() {
@@ -148,7 +159,7 @@ function main() {
     const arquivos = fs.readdirSync(dir).filter((f) => f.endsWith('.md') && !f.startsWith('_') && f !== 'README.md').sort();
     for (const f of arquivos) {
       const arquivo = path.join(dir, f);
-      const { meta, provas, questoes: qs, porNivel } = lerTopico(arquivo);
+      const { meta, provas, questoes: qs, porNivel, resumo } = lerTopico(arquivo);
       const slug = f.replace(/\.md$/, '').replace(/^\d+-/, '');
       const id = `${pasta.name}/${slug}`;
       disciplina.topicos.push({
@@ -158,6 +169,8 @@ function main() {
         provas,
         arquivo: path.relative(RAIZ, arquivo),
         porNivel,
+        ...(resumo ? { resumo } : {}),
+        ...(meta.ordem === 'original' ? { ordemOriginal: true } : {}),
       });
       const contador = [0, 0, 0];
       questoes[id] = qs.map((q) => {

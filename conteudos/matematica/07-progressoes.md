@@ -11,6 +11,15 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Termo geral e soma de PA e PG, PG infinita e problemas de sequências.
 
+## Resumo
+
+- **PA (progressão aritmética):** soma-se sempre a mesma razão r. Termo geral: aₙ = a₁ + (n − 1)·r.
+- **Soma da PA:** Sₙ = (a₁ + aₙ)·n / 2.
+- **PG (progressão geométrica):** multiplica-se sempre pela mesma razão q. Termo geral: aₙ = a₁ · qⁿ⁻¹.
+- **Soma da PG finita:** Sₙ = a₁(qⁿ − 1)/(q − 1). **Soma infinita** (|q| < 1): S = a₁/(1 − q).
+- **Como reconhecer:** diferenças iguais entre termos → PA; quocientes iguais → PG.
+- **Aplicações:** PA aparece em economias que crescem um valor fixo por mês; PG aparece em juros compostos, bactérias que dobram e reduções percentuais repetidas.
+
 ## Fácil
 
 ### 1

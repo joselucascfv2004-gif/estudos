@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Brasil Colônia
 
+## Resumo
+
+- **Primeiros anos:** extração do pau-brasil com escambo com os indígenas.
+- **Capitanias hereditárias** (1534) e **Governo-Geral** (1549, Tomé de Sousa e Salvador como capital).
+- **Ciclo do açúcar:** latifúndio, monocultura, escravidão africana (plantation) no Nordeste.
+- **Resistência:** quilombos, especialmente o de Palmares (Zumbi), e resistência indígena.
+- **Expansão territorial:** bandeirantes, pecuária e Tratado de Madri (1750, uti possidetis).
+- **Ciclo do ouro** (séc. XVIII): Minas Gerais, capital transferida para o Rio de Janeiro (1763), impostos como o quinto e a derrama.
+- **Revoltas:** Inconfidência Mineira (1789, Tiradentes, elite mineira) e Conjuração Baiana (1798, camadas populares, abolição).
+- **Vinda da Família Real** (1808): abertura dos portos e elevação a Reino Unido (1815).
+
 ## Fácil
 
 ### 1

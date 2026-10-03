@@ -11,6 +11,17 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Leis de Newton, peso, atrito, plano inclinado, sistemas de blocos, molas e movimento circular.
 
+## Resumo
+
+- **1ª lei (inércia):** sem força resultante, o corpo fica parado ou em MRU.
+- **2ª lei:** F_resultante = m · a.
+- **3ª lei (ação e reação):** forças de mesma intensidade e sentidos opostos, em **corpos diferentes**.
+- **Peso:** P = m·g. **Normal:** reação da superfície (no plano horizontal sem outras forças verticais, N = P).
+- **Atrito:** F_at = μ·N. O atrito estático máximo é maior que o cinético.
+- **Plano inclinado:** a componente do peso ao longo do plano é P·sen θ; a componente perpendicular é P·cos θ.
+- **Força elástica:** F = k·x (lei de Hooke).
+- **Dica:** desenhe todas as forças em cada corpo antes de aplicar F = m·a.
+
 ## Fácil
 
 ### 1

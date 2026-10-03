@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Probabilidade clássica, eventos complementares, independentes, condicionais e distribuição binomial.
 
+## Resumo
+
+- **Probabilidade** = casos favoráveis ÷ casos possíveis (sempre entre 0 e 1, ou 0% e 100%).
+- **Evento complementar:** P(não A) = 1 − P(A). Útil para "pelo menos um".
+- **Eventos independentes** ("e"): multiplique as probabilidades.
+- **Eventos mutuamente exclusivos** ("ou"): some as probabilidades. Em geral: P(A ou B) = P(A) + P(B) − P(A e B).
+- **Probabilidade condicional:** P(A | B) = P(A e B) / P(B). O espaço amostral passa a ser só B.
+- **Com ou sem reposição:** sem reposição, o total diminui a cada retirada.
+- **Dica:** monte uma tabela ou árvore de possibilidades nos problemas com duas etapas.
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Brasil Império
 
+## Resumo
+
+- **Independência** (1822): D. Pedro I. A Constituição de 1824 cria o **Poder Moderador** e o voto censitário.
+- **Primeiro Reinado:** Confederação do Equador e Guerra da Cisplatina; abdicação em 1831.
+- **Período Regencial** (1831–1840): revoltas como Cabanagem, Sabinada, Balaiada, Farroupilha e Revolta dos Malês. Termina com o Golpe da Maioridade.
+- **Segundo Reinado** (D. Pedro II): café no Sudeste, parlamentarismo "às avessas", Guerra do Paraguai (1864–1870).
+- **Abolição gradual:** Lei Eusébio de Queirós (1850, fim do tráfico), Ventre Livre (1871), Sexagenários (1885), Lei Áurea (1888).
+- **Imigração europeia** para substituir a mão de obra escravizada nas lavouras de café.
+- **Crise do Império:** questões religiosa, militar e abolicionista, e Proclamação da República em 1889.
+
 ## Fácil
 
 ### 1

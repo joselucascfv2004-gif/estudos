@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo CESGRANRIO — Banco do Brasil, Caixa, BNB)
 
 # Lavagem de dinheiro, compliance e proteção de dados
 
+## Resumo
+
+- **Lavagem de dinheiro** (Lei 9.613/1998): dar aparência lícita a recursos de origem ilícita. Etapas: **colocação**, **ocultação** e **integração**.
+- **COAF:** a unidade de inteligência financeira do Brasil, que recebe as comunicações de operações suspeitas.
+- **Comunicação obrigatória:** operações em espécie a partir de R$ 50 mil (Circular BCB 3.978/2020), feitas **sem avisar o cliente**.
+- **Prevenção:** conheça seu cliente (KYC), abordagem baseada em risco, atenção a PEP (pessoa exposta politicamente) e ao beneficiário final.
+- **Sinais de alerta:** fracionamento de depósitos, movimentação incompatível com a renda, conta de passagem.
+- **Lei Anticorrupção** (12.846/2013): responsabilidade objetiva das empresas; o programa de integridade pode reduzir a multa; acordo de leniência.
+- **LGPD** (13.709/2018): princípios da finalidade e da necessidade, bases legais (consentimento é só uma delas), dados sensíveis e a ANPD como fiscalizadora.
+- **Sigilo bancário:** LC 105/2001. **Segurança:** cuidado com phishing e engenharia social.
+
 ## Fácil
 
 ### 1

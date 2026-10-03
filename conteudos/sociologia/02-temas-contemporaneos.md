@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Temas contemporâneos da Sociologia
 
+## Resumo
+
+- **Trabalho:** fordismo (linha de montagem), taylorismo, toyotismo (produção flexível, just in time), precarização e uberização.
+- **Desigualdade social:** concentração de renda, medida pelo índice de Gini. Racismo estrutural (Silvio Almeida).
+- **Cidadania** (T. H. Marshall): direitos civis, políticos e sociais. Movimentos sociais lutam por direitos.
+- **Gênero:** "ninguém nasce mulher: torna-se mulher" (Simone de Beauvoir); desigualdade salarial e violência de gênero.
+- **Indústria cultural e consumo:** cultura de massa (Adorno), sociedade do espetáculo e modernidade líquida (Bauman).
+- **Violência e segurança pública,** juventude e encarceramento.
+- **Redes sociais:** bolhas de informação, desinformação (*fake news*) e cultura do cancelamento.
+- **Estado e democracia:** democracia representativa e participativa; Estado de bem-estar social × neoliberalismo.
+
 ## Fácil
 
 ### 1

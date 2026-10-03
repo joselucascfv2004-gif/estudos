@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Seres vivos: classificação, botânica e zoologia
 
+## Resumo
+
+- **Classificação:** reino, filo, classe, ordem, família, gênero e espécie. **Nome científico:** Gênero espécie (ex.: *Homo sapiens*).
+- **Vírus:** acelulares, parasitas intracelulares obrigatórios. **Bactérias:** procariontes; algumas causam doenças, muitas são úteis.
+- **Fungos:** heterótrofos por absorção, decompositores; parede de quitina. Leveduras na fermentação.
+- **Plantas:** briófitas (sem vasos, como os musgos) → pteridófitas (com vasos, sem sementes, como as samambaias) → gimnospermas (sementes nuas, como o pinheiro) → angiospermas (flores e frutos).
+- **Fisiologia vegetal:** o xilema leva água e sais (seiva bruta); o floema leva açúcares (seiva elaborada). Estômatos fazem trocas gasosas e transpiração.
+- **Animais:** poríferos, cnidários, platelmintos, nematelmintos, anelídeos, moluscos, artrópodes (o maior filo), equinodermos e cordados.
+- **Vertebrados:** peixes, anfíbios (metamorfose), répteis (ovo com casca), aves (penas, homeotermia) e mamíferos (pelos, glândulas mamárias).
+
 ## Fácil
 
 ### 1

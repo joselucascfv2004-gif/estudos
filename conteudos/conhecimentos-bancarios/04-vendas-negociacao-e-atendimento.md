@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo CESGRANRIO — Banco do Brasil, Caixa, BNB)
 
 # Vendas, negociação e atendimento
 
+## Resumo
+
+- **Marketing de relacionamento:** fidelizar e criar relações de longo prazo, o que custa menos que conquistar novos clientes.
+- **4 Ps:** produto, preço, praça e promoção. Os serviços são intangíveis, inseparáveis, variáveis e perecíveis.
+- **Venda consultiva:** entender a necessidade e oferecer a solução adequada. **SPIN:** perguntas de Situação, Problema, Implicação e Necessidade.
+- **Cross-selling:** oferecer produto complementar. **Up-selling:** oferecer uma versão superior.
+- **Negociação:** ganha-ganha; foco em interesses, não em posições (Harvard); BATNA (melhor alternativa sem acordo) e ZOPA (zona de acordo possível).
+- **CDC nos bancos:** Súmula 297 do STJ. É proibida a **venda casada**; há direito de arrependimento de 7 dias fora do estabelecimento; a cobrança indevida é devolvida em dobro.
+- **Atendimento:** SAC gratuito e com atendente humano; Ouvidoria como última instância (responde em até 10 dias úteis); atendimento prioritário (Lei 10.048/2000).
+- **Satisfação:** expectativa × desempenho percebido; NPS mede a chance de o cliente recomendar a empresa.
+
 ## Fácil
 
 ### 1

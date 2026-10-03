@@ -7,6 +7,20 @@ fonte: Questão inédita (estilo vestibulares militares e concursos)
 
 # Gramática e vocabulário
 
+## Resumo
+
+- **Simple present:** he/she/it + s (She works). Perguntas e negativas com do/does.
+- **Simple past:** verbos regulares + -ed; irregulares (go → went). Negativas com didn't + verbo na forma base.
+- **Present perfect** (have/has + particípio): ações que começaram no passado e continuam, ou de tempo indefinido (since, for, already, yet).
+- **Condicionais:**
+  - 1ª: if + presente, will + verbo (situação real);
+  - 2ª: if + passado, would + verbo (hipótese no presente);
+  - 3ª: if + had + particípio, would have + particípio (hipótese no passado).
+- **Voz passiva:** verbo to be no tempo da ativa + particípio (The book **was written** by…).
+- **Pronomes relativos:** who (pessoas), which (coisas), whose (posse), that (ambos).
+- **Comparativos:** -er/more; superlativos: the -est/the most. Irregulares: good, better, the best; bad, worse, the worst.
+- **Phrasal verbs comuns:** give up (desistir), look after (cuidar), put up with (tolerar), find out (descobrir).
+
 ## Fácil
 
 ### 1

@@ -7,6 +7,16 @@ fonte: Questão inédita (estilo ENEM/vestibulares)
 
 # Ligações químicas, funções inorgânicas e reações
 
+## Resumo
+
+- **Ligação iônica:** metal + ametal, com transferência de elétrons (ex.: NaCl). Forma sólidos com alto ponto de fusão que conduzem eletricidade fundidos ou em solução.
+- **Ligação covalente:** ametal + ametal, com compartilhamento de elétrons (ex.: H₂O, CO₂). **Metálica:** "mar de elétrons" (boa condução).
+- **Polaridade e interações:** ligações de hidrogênio (H ligado a F, O ou N) são as mais fortes e explicam o alto ponto de ebulição da água.
+- **Ácidos** liberam H⁺ em água (HCl, H₂SO₄). **Bases** liberam OH⁻ (NaOH). **Sais** vêm da neutralização ácido + base → sal + água.
+- **Óxidos:** ácidos (CO₂, SO₃ → chuva ácida) e básicos (CaO, cal virgem).
+- **Reações:** síntese, decomposição, simples troca (o metal mais reativo desloca o menos reativo) e dupla troca (ocorre se formar precipitado, gás ou água).
+- **Balanceamento:** o número de átomos de cada elemento é igual dos dois lados.
+
 ## Fácil
 
 ### 1

@@ -11,6 +11,16 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Cálculo de porcentagens, aumentos e descontos, variações sucessivas e lucro.
 
+## Resumo
+
+- **x% = x/100.** Ex.: 15% = 0,15.
+- **Aumento de x%:** multiplique por (1 + x/100). Ex.: +20% → × 1,2.
+- **Desconto de x%:** multiplique por (1 − x/100). Ex.: −30% → × 0,7.
+- **Aumentos e descontos sucessivos:** multiplique os fatores. +10% e depois −10% = 1,1 × 0,9 = 0,99, ou seja, **queda de 1%** (não volta ao valor inicial!).
+- **Variação percentual** = (valor final − valor inicial) ÷ valor inicial × 100.
+- **Porcentagem de porcentagem:** 20% de 50% = 0,2 × 0,5 = 10%.
+- **Pontos percentuais × porcentagem:** se a taxa foi de 10% para 12%, subiu 2 pontos percentuais, o que é um aumento de 20% sobre a taxa.
+
 ## Fácil
 
 ### 1

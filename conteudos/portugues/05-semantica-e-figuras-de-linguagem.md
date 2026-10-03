@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo ENEM, vestibulares e concursos)
 
 # Semântica e figuras de linguagem
 
+## Resumo
+
+- **Denotação** é o sentido literal; **conotação** é o sentido figurado.
+- **Sinônimos, antônimos, homônimos e parônimos;** **polissemia** é uma palavra com vários sentidos (manga, banco).
+- **Metáfora:** comparação implícita ("ele é uma fera"). **Comparação:** explícita, com "como" ("forte como um touro").
+- **Metonímia:** substituição por proximidade de sentido ("li Machado", "bebi um copo"). **Catacrese:** "pé da mesa".
+- **Hipérbole:** exagero. **Eufemismo:** suavização ("partiu desta para melhor"). **Ironia:** dizer o contrário do que se pensa.
+- **Antítese:** ideias opostas. **Paradoxo:** ideias contraditórias juntas ("ferida que dói e não se sente").
+- **Prosopopeia:** dar características humanas a seres inanimados. **Sinestesia:** mistura de sentidos ("cheiro doce").
+- **Sonoras e de construção:** aliteração (consoantes), assonância (vogais), onomatopeia, anáfora (repetição no início), elipse, zeugma, pleonasmo, polissíndeto (muitos "e") e assíndeto (sem conectivos).
+
 ## Fácil
 
 ### 1

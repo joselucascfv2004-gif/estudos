@@ -7,6 +7,15 @@ fonte: Questão inédita (estilo CESGRANRIO, CEBRASPE, FGV e FCC)
 
 # Argumentação lógica e quantificadores
 
+## Resumo
+
+- **Argumento válido:** se as premissas forem verdadeiras, a conclusão é obrigatoriamente verdadeira. A validade depende da forma, não do conteúdo.
+- **Formas válidas:** *modus ponens* (P → Q; P; logo Q), *modus tollens* (P → Q; ~Q; logo ~P), silogismo disjuntivo (P ∨ Q; ~P; logo Q) e silogismo hipotético (P → Q; Q → R; logo P → R).
+- **Falácias formais:** afirmar o consequente (P → Q; Q; logo P) e negar o antecedente (P → Q; ~P; logo ~Q).
+- **Quantificadores em diagramas:** "todo A é B" (A dentro de B); "nenhum A é B" (conjuntos separados); "algum A é B" (há interseção).
+- **Negações:** todo → algum… não; nenhum → algum; algum → nenhum.
+- **Dica:** desenhe os diagramas e teste se existe algum desenho em que as premissas são verdadeiras e a conclusão, falsa. Se existir, o argumento é inválido.
+
 ## Fácil
 
 ### 1

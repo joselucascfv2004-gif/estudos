@@ -7,6 +7,17 @@ fonte: Questão inédita (estilo CESGRANRIO, CEBRASPE, FGV e FCC)
 
 # Internet, redes e segurança da informação
 
+## Resumo
+
+- **Protocolos:** HTTP e HTTPS (web; o S indica criptografia, porta 443), DNS (traduz nomes em IP), SMTP (envia e-mail), POP3 e IMAP (recebem; o IMAP sincroniza com o servidor), FTP (arquivos), DHCP (distribui IPs).
+- **TCP × UDP:** o TCP garante a entrega ordenada; o UDP é mais rápido e sem garantia (streaming, jogos).
+- **IPv4:** 32 bits (ex.: 192.168.0.1). **IPv6:** 128 bits, em hexadecimal.
+- **Intranet:** rede privada que usa tecnologia da internet. **Extranet:** acesso a parceiros. **VPN:** túnel criptografado.
+- **Malwares:** vírus (precisa de hospedeiro), worm (se espalha sozinho), trojan (disfarçado), ransomware (sequestra dados), spyware e keylogger (espionam), botnet (computadores "zumbis").
+- **Golpes:** phishing (mensagem falsa), pharming (DNS adulterado), engenharia social. A defesa é desconfiar de urgência e conferir o link.
+- **Pilares da segurança:** confidencialidade, integridade e disponibilidade (+ autenticidade). Firewall filtra o tráfego; antivírus remove malware; 2FA adiciona outro fator.
+- **Backup:** completo, incremental (desde o último backup de qualquer tipo) e diferencial (desde o último completo). Regra 3-2-1.
+
 ## Fácil
 
 ### 1

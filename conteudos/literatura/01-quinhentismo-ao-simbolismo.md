@@ -7,6 +7,18 @@ fonte: Questão inédita (estilo ENEM e vestibulares)
 
 # Do Quinhentismo ao Simbolismo
 
+## Resumo
+
+- **Quinhentismo** (séc. XVI): literatura de informação (Carta de Caminha) e de catequese (Anchieta).
+- **Barroco** (séc. XVII): conflito entre fé e razão, antíteses e paradoxos. Gregório de Matos ("Boca do Inferno") e Padre Antônio Vieira (sermões).
+- **Arcadismo** (séc. XVIII): vida simples no campo, *carpe diem*, *fugere urbem*, pastores. Tomás Antônio Gonzaga (*Marília de Dirceu*) e Cláudio Manuel da Costa.
+- **Romantismo** (séc. XIX): subjetivismo e nacionalismo.
+  - Poesia em 3 gerações: indianista (Gonçalves Dias), ultrarromântica (Álvares de Azevedo) e condoreira (Castro Alves, abolicionista).
+  - Prosa: José de Alencar (*Iracema*, *Senhora*).
+- **Realismo** (1881): crítica social e análise psicológica. Machado de Assis (*Memórias póstumas de Brás Cubas*, *Dom Casmurro*), ironia e narrador não confiável.
+- **Naturalismo:** determinismo (meio, raça e momento). Aluísio Azevedo (*O cortiço*).
+- **Parnasianismo:** "arte pela arte" e forma perfeita (Olavo Bilac). **Simbolismo:** musicalidade, misticismo e sinestesia (Cruz e Sousa).
+
 ## Fácil
 
 ### 1
