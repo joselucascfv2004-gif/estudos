@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**5399 questões** em **138 tópicos**.
+**5536 questões** em **142 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 1486 questões
+## ENEM — provas oficiais — 1623 questões
 
 *Provas anteriores*
 
@@ -283,3 +283,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2012 — Linguagens](enem-oficial/50-enem-2012-linguagens.md) | ENEM | 8 | 14 | 8 |
 | [ENEM 2012 — Ciências Humanas](enem-oficial/51-enem-2012-ciencias-humanas.md) | ENEM | 10 | 20 | 7 |
 | [ENEM 2012 — Ciências da Natureza](enem-oficial/52-enem-2012-ciencias-da-natureza.md) | ENEM | 15 | 16 | 3 |
+| [ENEM 2011 — Matemática](enem-oficial/53-enem-2011-matematica.md) | ENEM | 15 | 11 | 4 |
+| [ENEM 2011 — Linguagens](enem-oficial/54-enem-2011-linguagens.md) | ENEM | 10 | 13 | 5 |
+| [ENEM 2011 — Ciências Humanas](enem-oficial/55-enem-2011-ciencias-humanas.md) | ENEM | 15 | 19 | 5 |
+| [ENEM 2011 — Ciências da Natureza](enem-oficial/56-enem-2011-ciencias-da-natureza.md) | ENEM | 11 | 22 | 7 |

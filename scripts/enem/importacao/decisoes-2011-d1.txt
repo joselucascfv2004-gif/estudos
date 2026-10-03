@@ -1,0 +1,221 @@
+## 55-enem-2011-ciencias-humanas.md | 2011 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2011 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2011, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **História do Brasil:** voto censitário (1824), coronelismo e voto de cabresto, "café com leite" cheio de conflitos, Revolta da Vacina, Era Vargas, anos 1960 (UDN × CGT), caras-pintadas.
+- **História geral:** muralhas medievais e comércio, açúcar e Cruzadas, Renascimento (ciência e arte), café e islamismo, Haiti e Conjuração Baiana.
+- **Geografia:** soja e desmatamento, fronteira agrícola no cerrado, erosão, ilhas de calor, araucária, Sobradinho, chuva ácida, favelas em áreas de risco, China na África.
+- **Filosofia e sociologia:** autonomia moral, tipos de poder (Weber), democracia e imprensa, movimentos sociais, televisão e socialização, trabalho flexível.
+
+@1 f sociologia/temas-contemporaneos
+x: Os jovens usaram sites e redes sociais para espalhar ideias de mudança e convocar manifestações, que derrubaram governos (a Primavera Árabe).
+@2 m filosofia/filosofia-moderna-e-contemporanea
+x: As normas morais são criadas pelos próprios seres humanos, que dão a si mesmos a lei que devem seguir (autonomia). Por isso é possível reconhecê-las e, ainda assim, não cumpri-las.
+@3 f historia/ditadura-e-redemocratizacao
+s: Movimento dos Caras-Pintadas => (Imagem: Movimento dos Caras-Pintadas.)
+x: Em 1992, estudantes com o rosto pintado de verde e amarelo foram às ruas pedir a saída do presidente Fernando Collor, acusado de corrupção. Eles pressionaram o Congresso, que abriu o processo de impeachment.
+@4 f geografia/biomas-e-questoes-ambientais
+x: A expansão da soja, com grandes monoculturas mecanizadas, avança sobre áreas de floresta e de cerrado e ajuda a acelerar o desmatamento da Amazônia.
+@5 m geografia/economia-agropecuaria-industria-energia
+x: O Centro-Oeste recebeu infraestrutura nova para uma economia moderna: a agropecuária mecanizada de grãos e gado avançou sobre o cerrado, degradando parte dele.
+@7 m geografia/economia-agropecuaria-industria-energia
+x: Sementes híbridas melhoradas podem se adaptar a climas e solos diferentes. Isso permite levar o cultivo do pinhão manso a mais regiões do país.
+@8 f geografia/geografia-fisica
+x: Sem a vegetação, o solo fica exposto à chuva, que arrasta a terra e provoca erosão e deslizamentos. O desmatamento vai no caminho contrário da preservação do solo.
+@9 f geografia/populacao-e-urbanizacao
+x: Asfalto e concreto impermeabilizam o solo, absorvem calor e impedem a evaporação da água. Isso intensifica a ilha de calor nas áreas centrais das cidades.
+@10 f geografia/populacao-e-urbanizacao
+x: Respirar poluição todos os dias causa doenças respiratórias e cardiovasculares. A tendência é a diminuição da expectativa de vida dessa população.
+@11 m geografia/biomas-e-questoes-ambientais
+s: Disponível em: http://www.ra-bugio.org.br. Acesso em: 28 jul. 2010. => (Imagem: uma araucária.) || > Disponível em: http://www.ra-bugio.org.br. Acesso em: 28 jul. 2010.
+x: A araucária é a árvore típica da Mata de Araucárias, no Sul do Brasil. Ela foi muito derrubada para a extração de madeira, usada inclusive na indústria de papel e celulose.
+@12 m geografia/economia-agropecuaria-industria-energia
+s: (adaptado). O trecho da música => (adaptado). || O trecho da música
+s: Sá e Guarabyra. Disco => > Sá e Guarabyra. Disco
+x: A represa de Sobradinho, no rio São Francisco, alagou cidades e povoados. A população ribeirinha foi obrigada a deixar suas casas: "tira gente, põe represa".
+@13 m geografia/biomas-e-questoes-ambientais
+x: O lixo jogado de forma errada, como em lixões, contamina o solo e o lençol freático com o chorume. Com o consumo crescente, o problema tende a piorar.
+@15 f quimica/quimica-ambiental
+x: A chuva ácida corrói metais, pinturas e monumentos, prejudica a vegetação e acidifica lagos, afetando a vida aquática.
+@16 m sociologia/temas-contemporaneos
+x: Com as novas tecnologias, as empresas descentralizam tarefas e coordenam tudo em rede. Isso favorece o trabalho flexível e a terceirização, em vez do emprego fixo na fábrica.
+@17 f historia/brasil-republica
+x: O coronelismo existia numa sociedade agrária, em que poucos donos de terra controlavam a vida e o voto dos trabalhadores rurais. A concentração da terra garantia o poder político local.
+@18 f sociologia/temas-contemporaneos
+x: Pelo diálogo, pelo confronto e pelo conflito, os movimentos sociais pressionam o Estado a atender as demandas da população, ajudando a construir a democracia.
+@19 m historia/brasil-imperio
+s: comércio ou empregos. Constituição Política => comércio ou empregos. || > Constituição Política
+x: A Constituição de 1824 exigia renda mínima para votar (voto censitário). Assim, só proprietários e comerciantes com dinheiro participavam das eleições e controlavam o poder.
+@20 f sociologia/temas-contemporaneos
+x: O Brasil tem leis e tratados contra a tortura, mas ninguém havia sido condenado em última instância. A existência da lei não basta para garantir justiça às vítimas.
+@21 f filosofia/filosofia-moderna-e-contemporanea
+s: Texto II É necessário => Texto II || É necessário
+x: Se democracia é todos participarem das decisões, é preciso estar bem informado. A imprensa livre fornece informações que alimentam o debate político.
+@22 d historia/brasil-republica
+x: Os dois autores dizem que a aliança entre São Paulo e Minas não foi tão estável: houve divergências, desacertos e conflitos. A ideia de um acordo tranquilo de alternância é uma idealização.
+@23 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Guattari, o acidente de Chernobyl mostra os limites da técnica. Ele propõe uma gestão "mais coletiva" da ciência, voltada a finalidades mais humanas.
+@24 d sociologia/temas-contemporaneos
+s: processos de trabalho. Revista Eletrônica => processos de trabalho. || > Revista Eletrônica
+s: 1 ago. 2004. A utilização => 1 ago. 2004. || A utilização
+x: Com a automação, a produção passa a exigir trabalhadores qualificados e polivalentes. Por isso, empresas e trabalhadores participam ativamente da qualificação profissional.
+@26 d historia/brasil-republica
+x: Os defensores de 1930 pintaram a República de 1889 como excludente e militarista para dizer que o "Brasil brasileiro" nasceu com eles. Assim, legitimavam o novo governo.
+@27 m sociologia/sociologia-classica
+x: As crianças ainda estão formando sua visão de mundo e têm menos senso crítico. Por isso absorvem com mais facilidade os comportamentos e papéis sociais mostrados na televisão.
+@28 f geografia/populacao-e-urbanizacao
+x: Sem planejamento, as favelas ocupam morros, margens de córregos e palafitas, áreas sujeitas a enchentes e deslizamentos, com perdas materiais e de vidas.
+@30 m sociologia/sociologia-classica
+x: O poder carismático vem da crença nas qualidades extraordinárias do líder. Foi o caso do fascismo italiano, centrado na figura de Mussolini, o "Duce".
+@31 m historia/brasil-colonia
+x: O ancião não entende por que os europeus atravessam o oceano atrás de tanta madeira. Para os tupinambás, o trabalho atendia às necessidades; para os europeus, o pau-brasil era mercadoria para o comércio.
+@32 f sociologia/temas-contemporaneos
+x: A lei leva às escolas a história da África e dos afro-brasileiros, mostrando sua contribuição para o país. Isso ajuda a reconhecer a diversidade étnico-racial do Brasil.
+@33 f historia/brasil-colonia
+x: Na Europa, o açúcar era um produto de luxo, caro e muito procurado. Produzi-lo em grande escala no Brasil prometia lucros altos para Portugal.
+@34 d historia/brasil-imperio
+x: Com medo de uma revolução como a do Haiti, parte da elite apoiou a Independência para conduzi-la ela mesma, sem dar ao povo espaço para transformá-la num movimento libertário.
+@35 m historia/antiguidade-e-idade-media
+x: No fim da Idade Média, o comércio e as cidades cresceram. As muralhas deixaram de servir só para fechar e passaram a ter portas que controlavam a passagem de pessoas e mercadorias.
+@37 m geografia/economia-agropecuaria-industria-energia
+x: A proibição das queimadas (questão ambiental) estimula a colheita mecanizada (questão socioeconômica), que torna o plantio mais eficiente e aumenta a produtividade.
+@38 f historia/idade-moderna
+x: No Renascimento, artistas como Leonardo da Vinci estudavam anatomia, perspectiva e luz. A arte se aproximou da ciência.
+@39 m geografia/geopolitica-e-globalizacao
+a: Pela presença de órgãos econômicos internacionais como o Fundo Monetário Internacional (FMI) e o Banco Mundial, que restringem os investimentos chineses, uma vez que estes não se preocupam com a preservação do meio ambiente. | Pela ação de ONGs (Organizações Não Governamentais) que limitam os investimentos estatais chineses, uma vez que estes se mostram desinteressados em relação aos problemas sociais africanos. | Pela aliança com os capitais e investimentos diretos realizados pelos países ocidentais, promovendo o crescimento econômico de algumas regiões desse continente. | Pela presença cada vez maior de investimentos diretos, o que pode representar uma ameaça à soberania dos países africanos ou manipulação das ações destes governos em favor dos grandes projetos. | Pela presença de um número cada vez maior de diplomatas, o que pode levar à formação de um Mercado Comum Sino-Africano, ameaçando os interesses ocidentais.
+x: A China investe sem exigir condições e compra grandes áreas em países com governos frágeis. O texto teme que esses países virem "protetorados", ou seja, percam parte de sua soberania.
+@40 m historia/idade-moderna
+x: O café veio do mundo árabe, de maioria muçulmana. Por isso alguns clérigos o viam como "obra do diabo", e o papa o "batizou" para torná-lo uma bebida cristã.
+@41 d historia/ditadura-e-redemocratizacao
+s: 1957. Os trabalhadores => 1957. || Os trabalhadores
+s: Mensagem programática da União => > Mensagem programática da União
+s: Manifesto do Comando Geral => > Manifesto do Comando Geral
+x: O CGT queria reforma agrária que extinguisse o latifúndio, controle dos bancos e das remessas de lucro ao exterior. Essas reformas limitariam a propriedade privada.
+@42 m historia/ditadura-e-redemocratizacao
+x: Para os conservadores, as peças do CPC, que defendiam reformas e criticavam o "imperialismo", espalhavam ideias comunistas e ameaçavam a democracia.
+@43 m historia/brasil-republica
+s: Charge capa da revista “O Malho”, de 1904. Disponível em: http://1.bp.blogspot.com. A imagem => (Charge da capa da revista “O Malho”, de 1904, não reproduzida aqui.) || A imagem
+x: Na reforma do Rio de Janeiro, cortiços foram derrubados e a vacinação contra a varíola foi imposta à força, sem explicação à população. A revolta mostra a insatisfação com uma modernização autoritária.
+@45 m geografia/geopolitica-e-globalizacao
+x: As pessoas migram, sobretudo, em busca de trabalho. Os países desenvolvidos, por sua vez, têm criado cada vez mais barreiras contra a entrada de imigrantes.
+
+## 56-enem-2011-ciencias-da-natureza.md | 2011 | 1 | 1º dia, caderno azul | Ciências da Natureza
+auto: sim
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2011 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, quadros e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Química:** calor de combustão por mol de CO₂, equilíbrio químico (H⁺ desmineraliza o dente), ligações de hidrogênio, estequiometria em solução, nitrogênio e contaminação da água.
+- **Física:** empuxo, potência e resistência (P = R · i²), queda livre (movimento acelerado), difração, 2ª lei da termodinâmica, indução eletromagnética.
+- **Biologia:** sangue (hemácias, plaquetas), vacinas e memória imunológica, replicação semiconservativa do DNA, epigenética, cadeia alimentar, relações ecológicas, dengue.
+
+@46 d fisica/termologia
+s: Eixo Engrenagem Palhetas Peso Inovação Tecnológica. Disponível => > Inovação Tecnológica. Disponível
+s: O esquema, que já foi testado, é mostrado a seguir. => O esquema, que já foi testado, mostra um eixo com palhetas, ligado a uma engrenagem com trava e a um peso.
+x: O movimento browniano é aleatório e acontece igualmente nos dois sentidos, então, em média, as palhetas não girariam para lado nenhum. A trava faz a engrenagem girar só em um sentido, determinando o movimento e permitindo levantar o peso.
+@47 m biologia/ecologia
+s: Os personagens da figura estão representando => Os personagens da figura (um homem, um tigre e abutres) estão representando
+s: Disponível em: http://www.cienciasgaspar.blogspot.com. Suponha => > Disponível em: http://www.cienciasgaspar.blogspot.com. || Suponha
+x: Frutas e grãos são produtores; o homem que os come é consumidor primário. O tigre que come o homem é consumidor secundário, e os abutres que comem o tigre são consumidores terciários.
+@48 f biologia/fisiologia-humana
+x: As hemácias transportam oxigênio pelo sangue. Com poucas hemácias, o animal teria dificuldade em levar oxigênio aos tecidos.
+@49 m biologia/fisiologia-humana
+s: Os resultados estão dispostos na tabela: Constituinte Número normal Paciente Glóbulos vermelhos 4,8 milhões/mm3 4 milhões/mm3 Glóbulos brancos (5 000 – 10 000)/mm3 9 000/mm3 Plaquetas (250 000 – 400 000)/mm3 200 000/mm3 => Os resultados estão dispostos na tabela: || Quadro (constituinte: número normal; paciente): Glóbulos vermelhos: 4,8 milhões/mm³; 4 milhões/mm³. Glóbulos brancos: 5 000 a 10 000/mm³; 9 000/mm³. Plaquetas: 250 000 a 400 000/mm³; 200 000/mm³.
+x: As plaquetas do paciente estão abaixo do normal, e elas são responsáveis pela coagulação: por isso o sangramento nasal. (As hemácias baixas explicam o cansaço, pois transportam oxigênio; os glóbulos brancos estão normais.)
+@50 d quimica/fisico-quimica
+s: Substância Fórmula ∆Hc º (kJ/mol) || benzeno C6 H6 (l) -3 268 etanol C2 H5 OH (l) -1 368 glicose C6 H12 O6 (s) -2 808 metano CH4 (g) -890 octano C8 H18 (l) -5 471 => Quadro (substância, fórmula: ∆Hc°, em kJ/mol): Benzeno, C₆H₆ (l): −3 268. Etanol, C₂H₅OH (l): −1 368. Glicose, C₆H₁₂O₆ (s): −2 808. Metano, CH₄ (g): −890. Octano, C₈H₁₈ (l): −5 471.
+x: Cada carbono do combustível vira um CO₂. Divida os mols de CO₂ pela energia: benzeno 6/3 268 ≈ 1,8 × 10⁻³; etanol 2/1 368 ≈ 1,5 × 10⁻³; glicose 6/2 808 ≈ 2,1 × 10⁻³; metano 1/890 ≈ 1,1 × 10⁻³; octano 8/5 471 ≈ 1,5 × 10⁻³ mol de CO₂ por kJ. A glicose emite mais CO₂ para a mesma energia.
+@51 f quimica/quimica-ambiental
+x: O biodigestor transforma resíduos orgânicos (restos de mandioca, esterco) em biogás, um combustível barato produzido na própria região, sem derrubar a mata.
+@52 f biologia/saude-e-doencas
+s: oliberal.com.br. O procedimento => oliberal.com.br. || O procedimento
+s: O Liberal. 8 jul. 2008. => > O Liberal. 8 jul. 2008.
+x: A cloração mata os microrganismos que causam diarreia. Filtração e decantação removem partículas, mas não eliminam bactérias e vírus; o flúor serve para prevenir cáries.
+@53 m biologia/saude-e-doencas
+x: A vacina faz o organismo produzir células de memória. Quando o vírus aparece de verdade, elas garantem uma resposta secundária mais rápida e mais forte.
+@54 d quimica/solucoes
+s: cujos resultados estão mostrados no quadro a seguir. Amostra Porcentagem de Sn (%) || Porcentagem de Pb (%) || I 60 40 II 62 38 III 65 35 IV 63 37 V 59 41 => cujos resultados estão mostrados no quadro a seguir. || Quadro (amostra: % de Sn; % de Pb): I: 60; 40. II: 62; 38. III: 65; 35. IV: 63; 37. V: 59; 41.
+x: Usando a média ponderada pelas porcentagens, como pede a questão: I = 0,60 × 7,3 + 0,40 × 11,3 = 8,90; II = 8,82; III = 8,70; IV = 8,78; V = 8,94 g/mL. Só II e IV ficam entre 8,74 e 8,82 g/mL.
+@55 m quimica/quimica-organica
+x: O óleo é apolar (lipofílico). As substâncias tóxicas da torta não se dissolvem nele porque são hidrofílicas, isto é, polares, com afinidade pela água.
+@56 m fisica/eletricidade
+x: O captador funciona porque a corda de aço é magnetizada pelo ímã e, ao vibrar, muda o fluxo magnético na bobina. O náilon praticamente não se magnetiza, então não induz corrente.
+@57 f biologia/ecologia
+x: A microvespa se desenvolve dentro dos ovos da borboleta e os destrói: é um parasita introduzido no ambiente para controlar a praga.
+@58 m quimica/ligacoes-e-funcoes-inorganicas
+s: à base de glicerina e polietilenoglicol: glicerina polietilenoglicol => à base de glicerina e polietilenoglicol, substâncias com grupos hidroxila (–OH).
+x: Os grupos –OH da glicerina e do polietilenoglicol atraem as moléculas de água por ligações de hidrogênio, retendo a umidade na pele.
+@59 m quimica/ligacoes-e-funcoes-inorganicas
+x: A cal retira a água do ambiente do tronco, que fica seco demais para os microrganismos, como ocorre na osmose.
+@60 d fisica/eletricidade
+s: ilustradas no quadro, como => como
+x: O disjuntor de B tem 40% menos: 30 A contra 50 A de A. Com a mesma potência, P = R · i², então R = P/i². A razão é R(A)/R(B) = (30/50)² = 0,36, mais próxima de 0,3.
+@61 m biologia/genetica-e-biotecnologia
+x: Meselson e Stahl mostraram que, ao se replicar, a dupla hélice se abre e cada fita antiga serve de molde para uma nova. Cada molécula-filha tem uma fita antiga e uma nova: replicação semiconservativa.
+@62 d quimica/quimica-ambiental
+s: O ciclo representado na figura seguinte reflete a dinâmica dos nutrientes em um lago. => O ciclo representado na figura seguinte reflete a dinâmica dos nutrientes em um lago. || (Na figura, os produtores primários assimilam C, N e P na proporção atômica de 106 : 16 : 1.)
+a: C. | N. | P. | CO₂. | PO₄³⁻.
+x: A proporção ideal é 106 C : 16 N : 1 P. Divida o que há no lago por essa proporção: C = 21,2/106 = 0,2; N = 1,2/16 = 0,075; P = 0,2/1 = 0,2. O nitrogênio é o que está mais em falta, então é o nutriente limítrofe.
+@65 m biologia/genetica-e-biotecnologia
+s: (adaptado). Alguns cânceres => (adaptado). || Alguns cânceres
+s: A reabilitação do herege. => > A reabilitação do herege.
+x: Epigenética é a mudança na atividade dos genes sem alterar a sequência do DNA. Alguns cânceres surgem quando genes são desligados por modificações químicas nas bases nitrogenadas, como a metilação.
+@66 f fisica/termologia
+x: Pela segunda lei da termodinâmica, é impossível converter todo o calor em trabalho: parte sempre "vaza" como calor para o ambiente.
+@68 m biologia/genetica-e-biotecnologia
+x: Se é possível sintetizar um genoma e fazê-lo comandar uma célula, também é possível programar microrganismos para produzir remédios, vacinas e combustíveis.
+@69 f biologia/saude-e-doencas
+x: A vacina contém o agente enfraquecido ou partes dele, que estimulam o corpo a produzir anticorpos e células de memória contra o vírus.
+@71 m quimica/quimica-ambiental
+x: O texto apresenta os biocombustíveis de segunda geração como alternativa barata e abundante, mas lembra que, para serem viáveis, a tecnologia que transforma celulose em combustível precisa ser muito eficiente.
+@72 m quimica/quimica-organica
+s: Partindo do ácido cólico representado na figura, => Partindo do ácido cólico (um ácido carboxílico com grupos hidroxila),
+s: aminoácido taurina. || ácido cólico => aminoácido taurina.
+x: A amida se forma pela reação de um grupo amina com um ácido carboxílico. No ácido cólico, o grupo que reage com a amina da glicina ou da taurina é a carboxila (–COOH).
+@73 m fisica/estatica-e-hidrostatica
+s: conforme ilustrado: um dinamômetro => : um dinamômetro
+x: O empuxo é 30 − 24 = 6 N. O cubo tem 1 000 cm³; metade submersa = 500 cm³ = 5 × 10⁻⁴ m³. Empuxo = densidade × g × volume: 6 = d × 10 × 5 × 10⁻⁴, então d = 1 200 kg/m³ = 1,2 g/cm³.
+@74 m fisica/ondulatoria-e-optica
+s: o sonar é mais adequado, pois a A propagação da luz na água ocorre a uma velocidade maior que a do som neste meio. => o sonar é mais adequado, pois a
+a: propagação da luz na água ocorre a uma velocidade maior que a do som neste meio. | absorção da luz ao longo de uma camada de água é facilitada enquanto a absorção do som não. | refração da luz a uma grande profundidade acontece com uma intensidade menor que a do som. | atenuação da luz nos materiais analisados é distinta da atenuação de som nestes mesmos materiais. | reflexão da luz nas camadas de sedimentos é menos intensa do que a reflexão do som neste material.
+x: A luz é absorvida (atenuada) rapidamente pela água e pelos sedimentos, enquanto o som atravessa esses materiais com muito menos perda. Como os dois se atenuam de forma diferente, o sonar consegue "enxergar" através das camadas.
+@75 d quimica/fisico-quimica
+s: A equação química seguinte representa esse processo: => A equação química seguinte representa esse processo: || Ca₅(PO₄)₃OH (s) ⇌ 5 Ca²⁺ (aq) + 3 PO₄³⁻ (aq) + OH⁻ (aq) — para a direita, desmineralização (hidroxiapatita se dissolve); para a esquerda, mineralização.
+a: OH⁻, que reage com os íons Ca²⁺, deslocando o equilíbrio para a direita. | H⁺, que reage com as hidroxilas OH⁻, deslocando o equilíbrio para a direita. | OH⁻, que reage com os íons Ca²⁺, deslocando o equilíbrio para a esquerda. | H⁺, que reage com as hidroxilas OH⁻, deslocando o equilíbrio para a esquerda. | Ca²⁺, que reage com as hidroxilas OH⁻, deslocando o equilíbrio para a esquerda.
+x: O refrigerante deixa a boca ácida, com mais H⁺. O H⁺ reage com o OH⁻, formando água. Com menos OH⁻, o equilíbrio se desloca para a direita (princípio de Le Chatelier), dissolvendo a hidroxiapatita do dente.
+@76 m biologia/evolucao
+e: Diferente do que o senso comum acredita, as lagartas de borboletas não possuem voracidade generalizada. Um estudo mostrou que as borboletas de asas transparentes da família Ithomiinae, comuns na Floresta Amazônica e na Mata Atlântica, consomem, sobretudo, plantas da família Solanaceae, a mesma do tomate. Contudo, os ancestrais dessas borboletas consumiam espécies vegetais da família Apocinaceae, mas a quantidade dessas plantas parece não ter sido suficiente para garantir o suprimento alimentar dessas borboletas. Dessa forma, as solanáceas tornaram-se uma opção de alimento, pois são abundantes na Mata Atlântica e na Floresta Amazônica. || > Cores ao vento. Genes e fósseis revelam origem e diversidade de borboletas sul-americanas. Revista Pesquisa FAPESP. N° 170, 2010 (adaptado). || Nesse texto, a ideia do senso comum é confrontada com os conhecimentos científicos, ao se entender que as larvas das borboletas Ithomiinae encontradas atualmente na Mata Atlântica e na Floresta Amazônica, apresentam
+a: facilidade em digerir todas as plantas desses locais. | interação com as plantas hospedeiras da família Apocinaceae. | adaptação para se alimentar de todas as plantas desses locais. | voracidade indiscriminada por todas as plantas existentes nesses locais. | especificidade pelas plantas da família Solanaceae existentes nesses locais.
+x: O senso comum diz que as lagartas comem qualquer planta, mas o estudo mostra que as Ithomiinae atuais comem sobretudo solanáceas. Elas têm especificidade alimentar.
+@77 m fisica/cinematica
+s: Distância percorrida pela régua durante a queda (metro) || Tempo de reação (segundo) || 0,30 0,24 0,15 0,17 0,10 0,14 => Quadro (distância percorrida pela régua durante a queda, em metro: tempo de reação, em segundo): 0,30: 0,24. 0,15: 0,17. 0,10: 0,14.
+x: Na queda, a única força relevante é o peso, que é constante. Por isso a aceleração é constante (a da gravidade) e a velocidade aumenta: a distância cresce com o quadrado do tempo (d = g · t²/2), mais rápido que o tempo.
+@78 m fisica/estatica-e-hidrostatica
+x: A cada descarga sai exatamente a água guardada no tanque, que tem volume fixo e calculado para cobrir o sifão. Já a válvula deixa a água correr enquanto estiver apertada. A economia vem do volume do tanque.
+@79 f biologia/ecologia
+s: (adaptado). O gás mencionado => (adaptado). || O gás mencionado
+s: Jornal Web. Disponível => > Jornal Web. Disponível
+x: Num lixão, a matéria orgânica enterrada é decomposta por bactérias sem oxigênio (decomposição anaeróbia), que liberam gás metano.
+@80 m quimica/quimica-ambiental
+x: As represas inundam vegetação, que se decompõe sem oxigênio e libera metano, um gás de efeito estufa forte. Como as hidrelétricas produzem 80% da eletricidade, elas acabam sendo uma fonte poluidora importante.
+@81 m quimica/estequiometria
+s: 5 H2 O2 (aq) + 2 KMnO4 (aq) + 3 H2 SO4 (aq) || 5 O2 (g) + 2 MnSO4 (aq) + K2 SO4 (aq) + 8 H2 O (l) => 5 H₂O₂ (aq) + 2 KMnO₄ (aq) + 3 H₂SO₄ (aq) → 5 O₂ (g) + 2 MnSO₄ (aq) + K₂SO₄ (aq) + 8 H₂O (l)
+a: 2,0 × 10⁰ mol. | 2,0 × 10⁻³ mol. | 8,0 × 10⁻¹ mol. | 8,0 × 10⁻⁴ mol. | 5,0 × 10⁻³ mol.
+x: Há 0,020 L × 0,1 mol/L = 2,0 × 10⁻³ mol de H₂O₂. Pela equação, 5 mol de H₂O₂ reagem com 2 mol de KMnO₄: 2,0 × 10⁻³ × 2/5 = 8,0 × 10⁻⁴ mol.
+@82 f biologia/ecologia
+x: A fêmea de Photuris atrai o macho de outro gênero para matá-lo e comê-lo. Um animal capturando e comendo outro é predatismo.
+@83 m quimica/quimica-ambiental
+s: afetará o meio ambiente, causando A o acúmulo de sais insolúveis, desencadeando um processo de salinificação do solo. => afetará o meio ambiente, causando
+a: o acúmulo de sais insolúveis, desencadeando um processo de salinificação do solo. | a eliminação de microrganismos existentes no solo responsáveis pelo processo de desnitrificação. | a contaminação de rios e lagos devido à alta solubilidade de íons como NO₃⁻ e NH₄⁺ em água. | a diminuição do pH do solo pela presença de NH₃, que reage com a água, formando o NH₄OH (aq). | a diminuição da oxigenação do solo, uma vez que o nitrogênio ativo forma espécies químicas do tipo NO₂, NO₃⁻, N₂O.
+x: Nitratos e amônio são muito solúveis em água. A chuva os leva do solo para rios e lagos, contaminando a água (e podendo causar eutrofização).
+@84 m fisica/ondulatoria-e-optica
+s: Buraco Lâmpada Raios de luz => (Nas figuras, a luz de uma lâmpada passa por um buraco bem pequeno e se espalha para os lados.)
+x: Ao passar por uma abertura pequena, a luz se espalha: é a difração. O som também sofre difração e contorna obstáculos, por isso o menino ouve a conversa atrás do muro.
+@85 f quimica/quimica-ambiental
+x: O problema da incineração é soltar poluentes no ar. Filtros nas chaminés retêm parte desses poluentes.
+@87 m biologia/seres-vivos v
+x: Mosca, mosquito, besouro, barata, borboleta e grilo são insetos (filo dos artrópodes); nós somos cordados. O que temos em comum com todos eles é o reino: todos somos animais.
+@88 d biologia/ecologia
+x: As algas absorvem os resíduos nitrogenados dos animais como nutrientes e, na fotossíntese, liberam oxigênio, que os animais usam na respiração.
+@89 f biologia/saude-e-doencas
+x: As larvas do Aedes aegypti se desenvolvem em água parada. Eliminar recipientes que acumulam água impede a reprodução do mosquito.
+@90 f biologia/ecologia
+x: Na digestão, os bois (ruminantes) produzem metano, um gás que retém muito calor. Com rebanhos enormes, essa emissão contribui bastante para o aquecimento global.

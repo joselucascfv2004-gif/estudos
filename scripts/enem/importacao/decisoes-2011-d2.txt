@@ -1,0 +1,173 @@
+## 53-enem-2011-matematica.md | 2011 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2011 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações, expoentes e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Medidas e escalas:** converta tudo para a mesma unidade antes de dividir (km → cm).
+- **Estatística:** média (soma ÷ quantidade), mediana (valor do meio, com os dados em ordem) e moda (o que mais se repete).
+- **Porcentagem e juros:** perdas e ganhos se calculam sobre valores diferentes; juros compostos: (1 + i)ⁿ.
+- **Funções:** empresa indiferente quando os custos são iguais; lucro zero quando faturamento = custo.
+- **Contagem:** para achar a posição de um número na lista, conte quantos números vêm antes dele.
+- **Logaritmo:** isole o log e use a definição: log₁₀ M = k ⇔ M = 10ᵏ.
+
+@136 f matematica/grandezas-medidas-escalas
+s: b) altura b entre o solo e o encosto do piloto. => b) altura b entre o solo e o encosto do piloto. || (Na figura, a = 2 300 mm e b = 160 cm.)
+x: Para passar de milímetros a metros, divida por 1 000: 2 300 mm = 2,3 m. De centímetros a metros, divida por 100: 160 cm = 1,6 m.
+@138 f matematica/numeros-e-operacoes
+x: Compare as diferenças para 68 mm: 68,21 (0,21), 68,102 (0,102), 68,02 (0,02), 68,012 (0,012) e 68,001 (0,001). A menor diferença é a de 68,001 mm.
+@141 f matematica/grandezas-medidas-escalas
+x: 6 000 m equivalem a 6 000 × 3,3 = 19 800 pés. A diferença é 31 000 − 19 800 = 11 200 pés.
+@142 f matematica/geometria-plana
+x: Perímetros: terreno 1 = 200 m; 2 = 220 m; 3 = 180 m; 4 = 180 m; 5 = 360 m. Só os terrenos 3 e 4 respeitam o limite de 180 m. Áreas: 3 = 60 × 30 = 1 800 m²; 4 = 70 × 20 = 1 400 m². O de maior área é o 3.
+@143 f matematica/grandezas-medidas-escalas
+x: 2 000 km = 200 000 000 cm. No mapa são 8 cm: 200 000 000 ÷ 8 = 25 000 000. A escala é 1 : 25 000 000.
+@147 f matematica/grandezas-medidas-escalas
+x: Na escala 1 : 250, cada medida real é dividida por 250. 28 m = 2 800 cm ÷ 250 = 11,2 cm. 12 m = 1 200 cm ÷ 250 = 4,8 cm.
+@149 f matematica/razao-proporcao-regra-de-tres
+s: Uma garrafa de espumante serve três convidados. Quem organiza => Uma garrafa de espumante serve três convidados. || Quem organiza
+s: ceia. Jornal Hoje. => ceia. || > Jornal Hoje.
+x: Para 30 pessoas: carne 30 × 250 g = 7,5 kg; arroz 30 ÷ 4 = 7,5 copos; farofa 30 × 4 = 120 colheres; vinho 30 ÷ 6 = 5 garrafas; cerveja 30 ÷ 2 = 15; espumante 30 ÷ 3 = 10.
+@150 f matematica/estatistica
+s: Região 2005 2006 2007 2008 2009 Norte 2% 2% 1% 2% 1% Nordeste 18% 19% 21% 15% 19% Centro-Oeste 5% 6% 7% 8% 9% Sudeste 55% 61% 58% 66% 60% Sul 21% 12% 13% 9% 11% => Quadro (região: percentual em 2005; 2006; 2007; 2008; 2009): Norte: 2%; 2%; 1%; 2%; 1%. Nordeste: 18%; 19%; 21%; 15%; 19%. Centro-Oeste: 5%; 6%; 7%; 8%; 9%. Sudeste: 55%; 61%; 58%; 66%; 60%. Sul: 21%; 12%; 13%; 9%; 11%.
+x: Média do Nordeste: (18 + 19 + 21 + 15 + 19) ÷ 5 = 92 ÷ 5 = 18,4%.
+@160 f matematica/funcoes-afim-e-quadratica
+x: A primeira empresa cobra 100n + 350 e a segunda 120n + 150 (em milhares de reais). Fica indiferente quando os valores são iguais: 100n + 350 = 120n + 150.
+@161 f matematica/progressoes
+x: As vendas crescem 1 500 por mês (PA). Julho é o 7º mês: 33 000 + 6 × 1 500 = 42 000 passagens.
+@163 f matematica/razao-proporcao-regra-de-tres
+x: São 2 banhos de 10 min = 20 min por dia; em 7 dias, 140 min = 7/3 h. O consumo é 4,8 × 7/3 = 11,2 kWh.
+@164 f matematica/razao-proporcao-regra-de-tres
+x: Densidade = habitantes ÷ área = 20 000 000 ÷ 800 000 = 25 habitantes por km².
+@170 f matematica/geometria-plana
+x: A raia 1 é a mais interna: nas curvas, ela tem o menor raio e, por isso, o menor comprimento. Partindo do mesmo ponto e dando uma volta completa, quem corre nela percorre a menor distância.
+@171 f matematica/porcentagem
+x: O acréscimo de mulheres é 8 mil sobre 32 mil = 25%. Para os homens, 25% de 28 mil = 7 mil. Total: 28 + 7 = 35 mil.
+@179 f matematica/funcoes-afim-e-quadratica
+x: Lucro = 5q − (2q + 12) = 3q − 12. Para não ter prejuízo, 3q − 12 ≥ 0, ou seja, q ≥ 4.
+@145 m matematica/porcentagem
+s: aumentando o consumo em do que foi => aumentando o consumo em 1/5 do que foi
+x: 331 bilhões de xícaras × 120 mL = 39 720 bilhões de mL ≈ 39,7 bilhões de litros. Aumentar 1/5 é multiplicar por 1,2: 39,7 × 1,2 ≈ 47,7, cerca de 48 bilhões de litros.
+@146 m matematica/razao-proporcao-regra-de-tres
+x: Para gastar 200 calorias: agachamentos (100 em 20 min) precisam de 40 min, 20 a mais; supermercado (100 em 30 min) precisa de 60 min, 30 a mais; tirar o pó (150 em 30 min) precisa de 40 min, 10 a mais. As outras já gastam 200. Total a mais: 20 + 30 + 10 = 60 minutos.
+@148 m matematica/estatistica
+s: Dia do mês Temperatura (em °C) || 1 15,5 3 14 5 13,5 7 18 9 19,5 11 20 13 13,5 15 13,5 17 18 19 20 21 18,5 23 13,5 25 21,5 27 20 29 16 Em relação => Quadro (dia do mês: temperatura em °C): 1: 15,5. 3: 14. 5: 13,5. 7: 18. 9: 19,5. 11: 20. 13: 13,5. 15: 13,5. 17: 18. 19: 20. 21: 18,5. 23: 13,5. 25: 21,5. 27: 20. 29: 16. || Em relação
+x: Em ordem: 13,5; 13,5; 13,5; 13,5; 14; 15,5; 16; 18; 18; 18,5; 19,5; 20; 20; 20; 21,5. A soma é 255 e 255 ÷ 15 = 17 °C (média). O 8º valor, o do meio, é 18 °C (mediana). O que mais se repete é 13,5 °C (moda).
+@152 m matematica/geometria-analitica
+x: A estação precisa estar na reta y = x + 4 e a no máximo 5 km de P(−5, 5). (−3, 1) está na reta (−3 + 4 = 1) e sua distância a P é √(2² + 4²) = √20 ≈ 4,5 km. (0, 4) e (2, 6) estão na reta, mas a mais de 5 km; (−5, 0) e (−2, 1) não estão na reta.
+@155 m matematica/funcoes-afim-e-quadratica
+x: Em fevereiro (x = 2) havia 880 605 trabalhadores, então em janeiro (x = 1) havia 880 605 − 4 300 = 876 305. Antes de janeiro (x = 0), seriam 876 305 − 4 300 = 872 005. Logo y = 872 005 + 4 300x.
+@157 m matematica/porcentagem
+s: Rendimento mensal (%) || IR (imposto de renda) || POUPANÇA 0,560 ISENTO CDB 0,876 4% (sobre o ganho) => Quadro (aplicação: rendimento mensal; imposto de renda): Poupança: 0,560%; isento. CDB: 0,876%; 4% sobre o ganho.
+x: Poupança: 500 × 0,0056 = R$ 2,80, montante R$ 502,80. CDB: ganho de 500 × 0,00876 = R$ 4,38; o imposto é 4% disso, R$ 0,175. Sobra R$ 4,205, montante ≈ R$ 504,21. O CDB é mais vantajoso.
+@162 m matematica/porcentagem
+x: Seja x o valor inicial. Após perder 30%, restam 0,7x. Ela recupera 20% do que perdeu: 0,2 × 0,3x = 0,06x. Fica com 0,76x = 3 800, então x = R$ 5 000,00.
+@167 m matematica/probabilidade
+x: Somas com duas bolas diferentes de 1 a 15: 12 = 1+11, 2+10, 3+9, 4+8, 5+7 (5 jeitos). 17 = 2+15, 3+14, 4+13, 5+12, 6+11, 7+10, 8+9 (7 jeitos). 22 = 7+15, 8+14, 9+13, 10+12 (4 jeitos). Bernardo tem mais chance.
+@168 m matematica/geometria-espacial
+s: (utilize p = 3) => (utilize π = 3)
+s: mar. 1996. Pretende-se => mar. 1996. || Pretende-se
+s: Ciência Hoje das Crianças. FNDE => > Ciência Hoje das Crianças. FNDE
+x: O volume do copo é π · r² · h = 3 × 2² × 10 = 120 cm³ = 120 mL. A mistura tem 1 parte de açúcar para 5 de água, ou seja, a água é 5/6 do total: 5/6 × 120 = 100 mL.
+@173 m matematica/estatistica
+s: Estrelas da Sequência Principal Classe Espectral Temperatura Luminosidade Massa Raio O5 40 000 5 x 105 40 18 B0 28 000 2 x 104 18 7 A0 9 900 80 3 2.5 G2 5 770 1 1 1 M0 3 480 0,06 0,5 0,6 Temperatura em Kelvin. => Quadro — Estrelas da sequência principal (classe espectral: temperatura; luminosidade; massa; raio): O5: 40 000; 5 × 10⁵; 40; 18. B0: 28 000; 2 × 10⁴; 18; 7. A0: 9 900; 80; 3; 2,5. G2: 5 770; 1; 1; 1. M0: 3 480; 0,06; 0,5; 0,6. Temperatura em Kelvin.
+x: O Sol é da classe G2, com 5 770 K. Cinco vezes isso é 28 850 K, temperatura próxima à da classe B0 (28 000 K), cuja luminosidade é 2 × 10⁴ = 20 000 vezes a do Sol.
+@178 m matematica/porcentagem
+s: O quadro fornece algumas aproximações para a análise das rentabilidades: n 1,03n 3 1,093 6 1,194 9 1,305 12 1,426 Para escolher => O quadro fornece algumas aproximações para a análise das rentabilidades: || Quadro (n: 1,03ⁿ): 3: 1,093. 6: 1,194. 9: 1,305. 12: 1,426. || Para escolher
+a: escolher qualquer um dos investimentos A, B ou C, pois as suas rentabilidades anuais são iguais a 36%. | escolher os investimentos A ou C, pois suas rentabilidades anuais são iguais a 39%. | escolher o investimento A, pois a sua rentabilidade anual é maior que as rentabilidades anuais dos investimentos B e C. | escolher o investimento B, pois sua rentabilidade de 36% é maior que as rentabilidades de 3% do investimento A e de 18% do investimento C. | escolher o investimento C, pois sua rentabilidade de 39% ao ano é maior que a rentabilidade de 36% ao ano dos investimentos A e B.
+x: A: 3% ao mês por 12 meses dá 1,03¹² ≈ 1,426, ou 42,6% ao ano. B: 36% ao ano. C: 18% ao semestre por 2 semestres dá 1,18² ≈ 1,392, ou 39,2% ao ano. O maior rendimento é o de A.
+@139 d matematica/exponencial-e-logaritmo
+s: U.S. GEOLOGICAL SURVEY. => > U.S. GEOLOGICAL SURVEY.
+s: denotada como Mw ) => denotada como Mw)
+s: MW e M0 se relacionam pela fórmula: || ( ) || log , 10 M MW + − = Onde => MW e M0 se relacionam pela fórmula: || MW = −10,7 + (2/3) · log₁₀(M0) || Onde
+a: 10^(−5,10) | 10^(−0,73) | 10^(12,00) | 10^(21,65) | 10^(27,00)
+x: Com MW = 7,3: 7,3 = −10,7 + (2/3) · log M0. Então (2/3) · log M0 = 18, e log M0 = 18 × 3/2 = 27. Logo M0 = 10^27 dina·cm.
+@153 d matematica/razao-proporcao-regra-de-tres
+s: A figura mostra como calcular essas medidas => A figura (descrita a seguir) mostra como calcular essas medidas
+s: Disponível em: http://www1.folha.uol.com.br. Acesso em: 24 abr. 2011(adaptado). => (Na figura: IMC = massa (kg) ÷ [altura (m) × altura (m)]. IAC, em % de gordura corporal = circunferência do quadril (cm) ÷ [altura (m) × √altura (m)] − 18.) || > Disponível em: http://www1.folha.uol.com.br. Acesso em: 24 abr. 2011 (adaptado).
+s: (Use √3 � 1,7����1,7 � � 1,3 ) => (Use √3 = 1,7 e √1,7 = 1,3.)
+x: Pelo IMC: 60 ÷ h² = 20, então h² = 3 e h = √3 ≈ 1,7 m. IAC = 100 ÷ (1,7 × √1,7) − 18 = 100 ÷ (1,7 × 1,3) − 18 = 100 ÷ 2,21 − 18 ≈ 45,2 − 18 ≈ 27%. O normal vai até 26%, então ela deve reduzir cerca de 1%.
+@174 d matematica/analise-combinatoria
+x: Os números usam os algarismos 1, 3, 5, 7 e 9, sem repetir (120 números). Antes de 75 913 vêm: os que começam por 1, 3 ou 5 (3 × 24 = 72); os que começam por 71 ou 73 (2 × 6 = 12); os que começam por 751 ou 753 (2 × 2 = 4). São 88 números antes; 75 913 é o menor que começa por 759, então ocupa a 89ª posição.
+@177 d matematica/razao-proporcao-regra-de-tres
+a: S = k · b · d | S = b · d² | S = k · b · d² | S = k · b/d² | S = k · d²/b
+x: Diretamente proporcional à largura b e ao quadrado da altura d, com constante k: S = k · b · d².
+
+## 54-enem-2011-linguagens.md | 2011 | 2 | 2º dia, caderno amarelo | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2011 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Variação linguística:** nomes regionais (mandioca, aipim, macaxeira), norma brasileira diferente da portuguesa, a distância entre a norma idealizada e a praticada.
+- **Funções da linguagem:** referencial (informação objetiva), emotiva (sentimentos do emissor), metalinguística (a língua falando dela mesma).
+- **Literatura:** Guimarães Rosa (agregados e fazendeiros), João Cabral (Severino, um entre muitos), Aluísio Azevedo (naturalismo), Manuel Bandeira (o cotidiano e a passagem do tempo), Noel Rosa.
+- **Educação física:** culto ao corpo, lutas (autocontrole e respeito), danças folclóricas.
+- **Coesão:** "além disso" acrescenta uma ideia nova, em sequência.
+
+@96 m artes/artes-e-educacao-fisica
+x: O texto fala em corpos "modelados" pela moda, academias e musculação. Isso mostra a busca por dietas e exercícios voltados a ganhar músculos e modelar o corpo, segundo padrões de beleza.
+@98 d literatura/pre-modernismo-ao-contemporaneo
+x: Riobaldo fala do meeiro Zé-Zim, que vive mudando, e de sua mãe, que dependia da "proteção" da família Guedes. O sertanejo pobre é livre, mas depende do fazendeiro para morar e trabalhar.
+@99 m portugues/interpretacao-de-texto
+e: A discussão sobre “o fim do livro de papel” com a chegada da mídia eletrônica me lembra a discussão idêntica sobre a obsolescência do folheto de cordel. Os folhetos talvez não existam mais daqui a 100 ou 200 anos, mas, mesmo que isso aconteça, os poemas de Leandro Gomes de Barros ou Manuel Camilo dos Santos continuarão sendo publicados e lidos — em CD-ROM, em livro eletrônico, em “chips quânticos”, sei lá o quê. O texto é uma espécie de alma imortal, capaz de reencarnar em corpos variados: página impressa, livro em Braille, folheto, “coffee-table book”, cópia manuscrita, arquivo PDF... Qualquer texto pode se reencarnar nesses (e em outros) formatos, não importa se é Moby Dick ou Viagem a São Saruê, se é Macbeth ou O livro de piadas de Casseta & Planeta. || > TAVARES, B. Disponível em: http://jornaldaparaiba.globo.com. || Ao refletir sobre a possível extinção do livro impresso e o surgimento de outros suportes em via eletrônica, o cronista manifesta seu ponto de vista, defendendo que
+a: o cordel é um dos gêneros textuais, por exemplo, que será extinto com o avanço da tecnologia. | o livro impresso permanecerá como objeto cultural veiculador de impressões e de valores culturais. | o surgimento da mídia eletrônica decretou o fim do prazer de se ler textos em livros e suportes impressos. | os textos continuarão vivos e passíveis de reprodução em novas tecnologias, mesmo que os livros desapareçam. | os livros impressos desaparecerão e, com eles, a possibilidade de se ler obras literárias dos mais diversos gêneros.
+x: O cronista compara o texto a uma "alma imortal" que pode "reencarnar" em vários formatos. Mesmo que o papel desapareça, os textos continuarão sendo lidos em novas tecnologias.
+@100 m literatura/pre-modernismo-ao-contemporaneo v
+s: Texto I // Onde => Texto I || Onde
+s: Texto II Um vulto => Texto II || Um vulto
+x: A canção pergunta, com ironia, de onde vem o dinheiro de quem enriquece "de repente", sem herança, e ainda posa de caridoso. O tema do enriquecimento de origem duvidosa continua atual.
+@101 m literatura/pre-modernismo-ao-contemporaneo v
+s: Texto I // O meu => Texto I || O meu
+s: Texto II João Cabral => Texto II || João Cabral
+x: Severino tenta se apresentar, mas tudo o que diz (nome, mãe, pai, lugar) vale para muitos outros. Ele representa os muitos "Severinos" que vivem a mesma condição de miséria no sertão.
+@103 m portugues/funcoes-generos-e-variacao
+x: O hipertexto não tem sequência fixa: o leitor escolhe os caminhos pelos links e se torna "coautor" do texto final. É uma leitura escolhida pelo próprio leitor e mais colaborativa.
+@105 f artes/artes-e-educacao-fisica
+x: O texto mostra que as lutas também têm uma dimensão filosófica, de modo de vida. Usá-las para brigas é entender errado seu objetivo, que inclui autocontrole, respeito ao outro e formação do caráter.
+@106 f portugues/interpretacao-de-texto
+x: O autor cita Cícero para lembrar que toda idade tem seus encantos e que "ler as palavras de Cícero pode ajudar a aceitar melhor a passagem do tempo". O objetivo é mostrar que dá para envelhecer sem angústia.
+@107 m portugues/funcoes-generos-e-variacao v
+x: Noel Rosa diz que o samba "não tem tradução" e que a gíria do morro "já passou de português". Ao falar da própria língua (metalinguagem), ele valoriza a fala popular como marca da identidade brasileira.
+@108 f artes/artes-e-educacao-fisica
+x: O texto diz que as danças folclóricas se ligam à religião, às festas, às lendas, à história e ao cotidiano. Elas revelam várias dimensões da vida de um povo e seu modo de se expressar.
+@109 m portugues/morfologia-e-sintaxe
+x: "Além disso" acrescenta mais um benefício aos já citados, dando sequência às ideias. As outras opções erram: "mas também" soma (não contrasta), "como" dá exemplos e "fatores" retoma vários benefícios, não só colesterol e glicose.
+@112 f portugues/funcoes-generos-e-variacao
+x: É uma história curta, com personagens, um acontecimento e um desfecho engraçado ("uma feiura caprichada"). Essas são marcas da anedota, a piada contada.
+@113 m literatura/pre-modernismo-ao-contemporaneo v
+x: Na roça, onde a vida parece parada, o poeta observa o enterro, a carrocinha e o murmúrio da água, que lembra "que a vida passa". O cotidiano rural leva à percepção de que a vida é passageira.
+@115 m portugues/interpretacao-de-texto
+s: Rio de Janeiro: FBN, 2008. || Ao argumentar => Rio de Janeiro: FBN, 2008. || Ao argumentar
+s: o ciclo da pobreza, que penaliza um largo contingente populacional. Formação de leitores => o ciclo da pobreza, que penaliza um largo contingente populacional. || > Formação de leitores
+x: O autor diz que ler e escrever ajudam, mas não bastam: ser cidadão depende também de romper com a pobreza. Ele faz uma avaliação crítica da condição cidadã no Brasil.
+@116 f portugues/funcoes-generos-e-variacao
+x: A notícia apresenta dados (86 000 km³, comparação com o Aquífero Guarani) de forma objetiva, sem opinião do autor. O foco é a informação precisa: função referencial.
+@117 f portugues/funcoes-generos-e-variacao v
+x: O eu lírico fala da própria dor, do coração e da decisão de "voltar pra mim". Ele expressa seus sentimentos e sua atitude pessoal: função emotiva.
+@118 m portugues/funcoes-generos-e-variacao
+x: Português e tupi conviveram como línguas de comunicação: os bandeirantes usavam o tupi, e em São Paulo as famílias falavam a língua indígena em casa. O texto mostra essa convivência entre as duas línguas.
+@119 m literatura/quinhentismo-ao-simbolismo
+x: O fado triste dos portugueses deixa todos melancólicos, até que o chorado baiano, com cavaquinho e violão, "desperta o sangue" de todos. A música brasileira, sensual e envolvente, se impõe e cala o fado.
+@120 d literatura/pre-modernismo-ao-contemporaneo
+e: Guardar // Guardar uma coisa não é escondê-la ou trancá-la. // Em cofre não se guarda coisa alguma. // Em cofre perde-se a coisa à vista. // Guardar uma coisa é olhá-la, fitá-la, mirá-la por // admirá-la, isto é, iluminá-la ou ser por ela iluminado. // Guardar uma coisa é vigiá-la, isto é, fazer vigília por // ela, isto é, velar por ela, isto é, estar acordado por ela, // isto é, estar por ela ou ser por ela. // Por isso melhor se guarda o voo de um pássaro // Do que um pássaro sem voos. // Por isso se escreve, por isso se diz, por isso se publica, // por isso se declara e declama um poema: // Para guardá-lo: // Para que ele, por sua vez, guarde o que guarda: // Guarde o que quer que guarda um poema: // Por isso o lance do poema: // Por guardar-se o que se quer guardar. || > Poema "Guardar", de Antonio Cicero. In: MORICONI, I. (Org.). Os cem melhores poemas brasileiros do século. Rio de Janeiro: Objetiva, 2001. (Na prova, a referência saiu por engano com o nome de Gilka Machado.) || A memória é um importante recurso do patrimônio cultural de uma nação. Ela está presente nas lembranças do passado e no acervo cultural de um povo. Ao tratar o fazer poético como uma das maneiras de se guardar o que se quer, o texto
+x: Para o poeta, guardar é olhar, admirar e "estar por ela", não trancar. O poema guarda aquilo que se quer guardar, mantendo vivos sentimentos e valores. A literatura promove a subjetividade e os valores humanos.
+@121 d literatura/pre-modernismo-ao-contemporaneo v
+x: A poeta brinca com os sentidos de "língua" (órgão do beijo, idioma, linguagem) para falar do desejo feminino, e cria palavras novas como "língua-lama" e "língua-resplendor". Explora a essência feminina e inova o vocabulário.
+@125 m portugues/interpretacao-de-texto
+s: Texto II Não podemos => Texto II || Não podemos
+s: (adaptado). Os textos apresentados => (adaptado). || Os textos apresentados
+s: Cartas. Istoé. => > Cartas. Istoé.
+s: Carta do Leitor. Carta Capital. => > Carta do Leitor. Carta Capital.
+x: O primeiro leitor reclama de "falta de competência da classe política"; o segundo critica os governantes que culpam os moradores e propõe um serviço preventivo. Os dois apontam a incapacidade dos políticos de resolver os problemas.
+@126 f portugues/semantica-e-figuras-de-linguagem
+s: tranquila. Veja. => tranquila. || > Veja.
+x: O título joga com "acordar" e "dormir": se para o leitor é difícil acordar no inverno, para quem passa fome e frio o difícil é dormir. Esse jogo mostra que o problema do leitor é pequeno perto do dos necessitados.
+@127 f portugues/funcoes-generos-e-variacao
+x: O texto diz que a forma como falamos o português é "a melhor expressão da brasilidade". Ele ressalta a importância da língua para a identidade nacional.
+@128 m portugues/funcoes-generos-e-variacao
+x: Em vez de usar "mouse" e "windows", os guaranis criaram palavras em sua própria língua (angojhá, oventã). Mesmo usando uma tecnologia de fora, preservam sua identidade por meio do idioma.
+@129 d portugues/funcoes-generos-e-variacao
+x: A autora diz que usos como "tem muitos livros" aparecem até em quem domina a norma padrão. Isso mostra a diferença entre a norma idealizada pela gramática e a que é realmente praticada, mesmo por pessoas escolarizadas.
+@130 f portugues/funcoes-generos-e-variacao
+x: Aipim, macaxeira e mandioca são nomes regionais da mesma planta. É um caso de variação regional do vocabulário.
+@131 d portugues/funcoes-generos-e-variacao
+x: O texto fala de usos que "configuram uma norma nacional distinta da do português europeu". Há formas próprias do Brasil que caracterizam uma norma brasileira.
+@135 f portugues/funcoes-generos-e-variacao
+x: O Twitter obriga a dizer muito em 140 caracteres. Isso estimula frases claras e objetivas, o que melhora a comunicação.
