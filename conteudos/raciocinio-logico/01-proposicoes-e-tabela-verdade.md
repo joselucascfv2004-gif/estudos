@@ -24,6 +24,7 @@ Proposições simples e compostas, conectivos (e, ou, se...então, se e somente 
 ## Fácil
 
 ### 1
+<!-- modelo: f1 -->
 Sabendo que p é falsa e q é falsa, qual é o valor lógico de p → q?
 
 - A) Verdadeira
@@ -31,715 +32,441 @@ Sabendo que p é falsa e q é falsa, qual é o valor lógico de p → q?
 
 **Resposta:** A
 
-**Explicação:** A condicional (→) só é falsa quando o antecedente é V e o consequente é F. Com p = F e q = F, o resultado é V.
+**Explicação:** Ferramenta: valor lógico dos conectivos. A condicional (→) só é falsa quando o antecedente é V e o consequente é F. Com p = F e q = F, o resultado é V.
 
 ### 2
-Quantas linhas tem a tabela-verdade de uma proposição composta formada por 3 proposições simples distintas?
+<!-- modelo: f7 -->
+Em qual situação a proposição ~p ∧ q é verdadeira?
 
-- A) 5
-- B) 6
-- C) 8
-- D) 9
-- E) 16
+- A) Somente quando p falsa e q verdadeira
+- B) Somente quando p verdadeira e q falsa
+- C) Somente quando p verdadeira e q verdadeira
+- D) Em todas as situações
+- E) Somente quando p falsa e q falsa
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: o caso especial de cada conectivo. O "e" só é verdadeiro quando ~p e q são verdadeiras, isto é, p falsa e q verdadeira. Resposta: p falsa e q verdadeira.
+
+### 3
+<!-- modelo: f4 -->
+Qual é o conectivo principal da proposição: "O recenseador visita a casa se, e somente se, Pedro é economista."?
+
+- A) Bicondicional (↔)
+- B) Disjunção inclusiva (∨)
+- C) Disjunção exclusiva (⊻)
+- D) Condicional (→)
+- E) Conjunção (∧)
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: conectivo principal. "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
+
+### 4
+<!-- modelo: f4 -->
+Qual é o conectivo principal da proposição: "Ou o cliente paga em dia, ou Maria viaja, mas não ambos."?
+
+- A) Condicional (→)
+- B) Disjunção exclusiva (⊻)
+- C) Bicondicional (↔)
+- D) Conjunção (∧)
+- E) Disjunção inclusiva (∨)
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: conectivo principal. "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
+
+### 5
+<!-- modelo: f2 -->
+Quantas linhas tem a tabela-verdade de uma proposição composta formada por 5 proposições simples distintas?
+
+- A) 25
+- B) 10
+- C) 32
+- D) 64
+- E) 7
 
 **Resposta:** C
 
-**Explicação:** Cada proposição simples tem 2 valores possíveis: 2^3 = 8 linhas.
+**Explicação:** Ferramenta: número de linhas (2ⁿ). Cada proposição simples tem 2 valores possíveis: 2^5 = 32 linhas.
 
-### 3
-Qual das sentenças abaixo é uma proposição (sentença declarativa à qual se pode atribuir um único valor lógico, V ou F)?
+### 6
+<!-- modelo: f8 -->
+Quantas linhas tem a tabela-verdade da proposição "Se o sistema está disponível e o banco não abre, então o recenseador visita a casa."?
 
-- A) Estude todos os dias!
-- B) x + 3 = 10.
-- C) Esta frase é falsa.
-- D) Que dia lindo!
-- E) A Lua é maior que a Terra.
+- A) 16
+- B) 8
+- C) 6
+- D) 3
+- E) 10
 
-**Resposta:** E
+**Resposta:** B
 
-**Explicação:** "A Lua é maior que a Terra." é declarativa e tem valor lógico definido (pode ser V ou F). Exclamações, ordens, perguntas, sentenças abertas (com variável ou sujeito indeterminado como "ele") e paradoxos não são proposições.
+**Explicação:** Ferramenta: 2ⁿ linhas, com n = proposições simples DIFERENTES. Uma proposição e a sua negação contam como uma só (ex.: "chove" e "não chove" usam a mesma proposição). Aqui há 3 proposições simples diferentes: 2³ = 8 linhas.
 
-### 4
-Qual é o conectivo principal da proposição: "O recenseador visita a casa se, e somente se, o candidato é aprovado."?
+### 7
+<!-- modelo: f2 -->
+Quantas linhas tem a tabela-verdade de uma proposição composta formada por 4 proposições simples distintas?
 
-- A) Disjunção exclusiva (⊻)
-- B) Conjunção (∧)
-- C) Disjunção inclusiva (∨)
-- D) Bicondicional (↔)
-- E) Condicional (→)
+- A) 6
+- B) 8
+- C) 15
+- D) 16
+- E) 32
 
 **Resposta:** D
 
-**Explicação:** "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
-
-### 5
-Considere a proposição: "Se o sistema está disponível, então João estuda". Sabendo que "o sistema está disponível" é verdadeira e que "João estuda" é falsa, a proposição é:
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Aqui temos V → F, logo falsa.
-
-### 6
-Sabendo que p é falsa e q é falsa, qual é o valor lógico de p ∨ q?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A disjunção (∨) só é falsa se ambas forem falsas. Com p = F e q = F, o resultado é F.
-
-### 7
-Quantas linhas tem a tabela-verdade de uma proposição composta formada por 6 proposições simples distintas?
-
-- A) 64
-- B) 12
-- C) 36
-- D) 8
-- E) 128
-
-**Resposta:** A
-
-**Explicação:** Cada proposição simples tem 2 valores possíveis: 2^6 = 64 linhas.
+**Explicação:** Ferramenta: número de linhas (2ⁿ). Cada proposição simples tem 2 valores possíveis: 2^4 = 16 linhas.
 
 ### 8
-Qual é o conectivo principal da proposição: "Se Pedro é economista, então o relatório foi entregue."?
+<!-- modelo: f5 -->
+Considere a proposição: "Se a taxa de juros sobe, então a meta foi atingida". Sabendo que "a taxa de juros sobe" é falsa e que "a meta foi atingida" é falsa, a proposição é:
 
-- A) Conjunção (∧)
-- B) Bicondicional (↔)
-- C) Disjunção inclusiva (∨)
-- D) Disjunção exclusiva (⊻)
-- E) Condicional (→)
+- A) Verdadeira
+- B) Falsa
 
-**Resposta:** E
+**Resposta:** A
 
-**Explicação:** "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
+**Explicação:** Ferramenta: valor lógico da condicional. A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Aqui temos F → F, logo verdadeira.
 
 ### 9
-Considere a proposição: "Se Ana trabalha no IBGE, então Lucas é bancário". Sabendo que "Ana trabalha no IBGE" é verdadeira e que "Lucas é bancário" é falsa, a proposição é:
+<!-- modelo: f3 -->
+Qual das sentenças abaixo é uma proposição (sentença declarativa à qual se pode atribuir um único valor lógico, V ou F)?
 
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Aqui temos V → F, logo falsa.
-
-### 10
-Sabendo que p é verdadeira e q é falsa, qual é o valor lógico de p ∧ q?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A conjunção (∧) só é verdadeira se ambas forem verdadeiras. Com p = V e q = F, o resultado é F.
-
-### 11
-Qual é o conectivo principal da proposição: "A meta foi atingida ou o cliente paga em dia."?
-
-- A) Disjunção inclusiva (∨)
-- B) Condicional (→)
-- C) Conjunção (∧)
-- D) Bicondicional (↔)
-- E) Disjunção exclusiva (⊻)
-
-**Resposta:** A
-
-**Explicação:** "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
-
-### 12
-Considere a proposição: "Se chove, então Carlos pratica esportes". Sabendo que "chove" é falsa e que "Carlos pratica esportes" é falsa, a proposição é:
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** A
-
-**Explicação:** A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Aqui temos F → F, logo verdadeira.
-
-### 13
-Sabendo que p é falsa e q é falsa, qual é o valor lógico de p ∧ q?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A conjunção (∧) só é verdadeira se ambas forem verdadeiras. Com p = F e q = F, o resultado é F.
-
-### 14
-Qual é o conectivo principal da proposição: "A meta foi atingida se, e somente se, o cliente paga em dia."?
-
-- A) Condicional (→)
-- B) Disjunção inclusiva (∨)
-- C) Disjunção exclusiva (⊻)
-- D) Conjunção (∧)
-- E) Bicondicional (↔)
-
-**Resposta:** E
-
-**Explicação:** "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
-
-### 15
-Considere a proposição: "Se Ana trabalha no IBGE, então chove". Sabendo que "Ana trabalha no IBGE" é verdadeira e que "chove" é falsa, a proposição é:
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Aqui temos V → F, logo falsa.
-
-### 16
-Sabendo que p é verdadeira e q é verdadeira, qual é o valor lógico de p ↔ q?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** A
-
-**Explicação:** A bicondicional (↔) é verdadeira quando ambas têm o mesmo valor. Com p = V e q = V, o resultado é V.
-
-### 17
-Qual é o conectivo principal da proposição: "O cliente paga em dia se, e somente se, o banco abre."?
-
-- A) Conjunção (∧)
-- B) Bicondicional (↔)
-- C) Disjunção inclusiva (∨)
-- D) Condicional (→)
-- E) Disjunção exclusiva (⊻)
-
-**Resposta:** B
-
-**Explicação:** "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
-
-### 18
-Considere a proposição: "Se o recenseador visita a casa, então João estuda". Sabendo que "o recenseador visita a casa" é verdadeira e que "João estuda" é falsa, a proposição é:
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A condicional só é falsa quando o antecedente é verdadeiro e o consequente é falso (V → F). Aqui temos V → F, logo falsa.
-
-### 19
-Sabendo que p é falsa e q é verdadeira, qual é o valor lógico de p ↔ q?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** A bicondicional (↔) é verdadeira quando ambas têm o mesmo valor. Com p = F e q = V, o resultado é F.
-
-### 20
-Qual é o conectivo principal da proposição: "Ou Lucas é bancário, ou João estuda, mas não ambos."?
-
-- A) Bicondicional (↔)
-- B) Conjunção (∧)
-- C) Disjunção exclusiva (⊻)
-- D) Condicional (→)
-- E) Disjunção inclusiva (∨)
+- A) x + 3 = 10.
+- B) Você vai ao concurso amanhã?
+- C) A Lua é maior que a Terra.
+- D) Que dia lindo!
+- E) Ele é muito inteligente.
 
 **Resposta:** C
 
-**Explicação:** "Se..., então" é condicional; "e" é conjunção; "ou" é disjunção inclusiva; "se, e somente se" é bicondicional; "ou..., ou..., mas não ambos" é disjunção exclusiva.
+**Explicação:** Ferramenta: o que é proposição. "A Lua é maior que a Terra." é declarativa e tem valor lógico definido (pode ser V ou F). Exclamações, ordens, perguntas, sentenças abertas (com variável ou sujeito indeterminado como "ele") e paradoxos não são proposições.
+
+### 10
+<!-- modelo: f1 -->
+Sabendo que p é verdadeira e q é falsa, qual é o valor lógico de p → q?
+
+- A) Verdadeira
+- B) Falsa
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: valor lógico dos conectivos. A condicional (→) só é falsa quando o antecedente é V e o consequente é F. Com p = V e q = F, o resultado é F.
+
+### 11
+<!-- modelo: f6 -->
+Considere as proposições p: "chove" e q: "a taxa de juros sobe". Qual frase traduz a proposição p ∨ ~q?
+
+- A) Chove e a taxa de juros não sobe.
+- B) Chove se, e somente se, a taxa de juros não sobe.
+- C) Se não chove, então a taxa de juros sobe.
+- D) Chove ou a taxa de juros não sobe.
+- E) Se chove, então a taxa de juros não sobe.
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: dicionário dos símbolos. ~ é "não", ∧ é "e", ∨ é "ou", → é "se..., então" e ↔ é "se, e somente se". Traduza símbolo por símbolo. p ∨ ~q: "Chove ou a taxa de juros não sobe."
 
 ## Médio
 
 ### 1
-Sendo p falsa, r verdadeira, qual é o valor lógico da proposição (r ↔ r) → (p ∨ r)?
+<!-- modelo: m2 -->
+Sabe-se que a proposição "Se o candidato é aprovado, então Carlos pratica esportes" é FALSA. Então, é correto concluir que:
+
+- A) O candidato não é aprovado ou Carlos pratica esportes.
+- B) O candidato é aprovado e Carlos não pratica esportes.
+- C) O candidato não é aprovado e Carlos não pratica esportes.
+- D) O candidato não é aprovado e Carlos pratica esportes.
+- E) O candidato é aprovado e Carlos pratica esportes.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: condicional falsa (só V → F). Uma condicional só é falsa quando o antecedente é V e o consequente é F. Logo "o candidato é aprovado" é verdadeira e "Carlos pratica esportes" é falsa: o candidato é aprovado e Carlos não pratica esportes.
+
+### 2
+<!-- modelo: m1 -->
+Sendo p verdadeira, q falsa, r falsa, qual é o valor lógico da proposição ~(r ↔ q) ∨ (~p → q)?
 
 - A) Verdadeira
 - B) Falsa
 
 **Resposta:** A
 
-**Explicação:** Substituindo os valores (p = F, r = V) e resolvendo primeiro os parênteses e as negações, o resultado é V.
-
-### 2
-Sabe-se que a proposição "Se faz sol, então o banco abre" é FALSA. Então, é correto concluir que:
-
-- A) Não faz sol e o banco não abre.
-- B) Faz sol e o banco abre.
-- C) Não faz sol e o banco abre.
-- D) Faz sol e o banco não abre.
-- E) Não faz sol ou o banco abre.
-
-**Resposta:** D
-
-**Explicação:** Uma condicional só é falsa quando o antecedente é V e o consequente é F. Logo "faz sol" é verdadeira e "o banco abre" é falsa: faz sol e o banco não abre.
+**Explicação:** Ferramenta: substituir valores e resolver. Substituindo os valores (p = V, q = F, r = F) e resolvendo primeiro os parênteses e as negações, o resultado é V.
 
 ### 3
+<!-- modelo: m3 -->
 Qual das proposições abaixo é uma tautologia (verdadeira em todas as linhas da tabela-verdade)?
 
-- A) p ↔ ~p
-- B) p → p
-- C) p ∧ ~p
-- D) ~p → q
-- E) p ∧ q
+- A) p → (p ∧ q)
+- B) p ∨ q
+- C) p ∧ q
+- D) p → (p ∨ q)
+- E) ~p → q
 
-**Resposta:** B
+**Resposta:** D
 
-**Explicação:** p → p é verdadeira para qualquer valor de p e q. As demais são contingências (podem ser V ou F) ou contradições (sempre F, como p ∧ ~p).
+**Explicação:** Ferramenta: tautologia. p → (p ∨ q) é verdadeira para qualquer valor de p e q. As demais são contingências (podem ser V ou F) ou contradições (sempre F, como p ∧ ~p).
 
 ### 4
-Na tabela-verdade da proposição (q → q) → (p ∨ ~q), em quantas linhas ela é verdadeira?
-
-- A) 3
-- B) 1
-- C) 2
-- D) 0
-- E) 4
-
-**Resposta:** A
-
-**Explicação:** Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 3 delas.
-
-### 5
-Sabendo que a proposição "João estuda ou Carlos pratica esportes" é FALSA, é correto afirmar que:
-
-- A) "João estuda" é verdadeira.
-- B) "João não estuda" e "Carlos não pratica esportes" são ambas verdadeiras.
-- C) "João estuda e Carlos pratica esportes" é verdadeira.
-- D) Não é possível saber o valor de "João estuda".
-- E) "Carlos pratica esportes" é verdadeira.
-
-**Resposta:** B
-
-**Explicação:** Uma disjunção inclusiva só é falsa quando as duas partes são falsas; logo as negações de ambas são verdadeiras.
-
-### 6
-Sendo p falsa, q verdadeira, r falsa, qual é o valor lógico da proposição (q → r) ∧ (r ∨ ~p)?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** Substituindo os valores (p = F, q = V, r = F) e resolvendo primeiro os parênteses e as negações, o resultado é F.
-
-### 7
-Sabe-se que a proposição "Se João estuda, então a meta foi atingida" é FALSA. Então, é correto concluir que:
-
-- A) João não estuda e a meta não foi atingida.
-- B) João não estuda ou a meta foi atingida.
-- C) João não estuda e a meta foi atingida.
-- D) João estuda e a meta foi atingida.
-- E) João estuda e a meta não foi atingida.
-
-**Resposta:** E
-
-**Explicação:** Uma condicional só é falsa quando o antecedente é V e o consequente é F. Logo "João estuda" é verdadeira e "a meta foi atingida" é falsa: João estuda e a meta não foi atingida.
-
-### 8
-Na tabela-verdade da proposição q ∨ (p → ~q), em quantas linhas ela é verdadeira?
-
-- A) 3
-- B) 4
-- C) 1
-- D) 2
-- E) 0
-
-**Resposta:** B
-
-**Explicação:** Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 4 delas.
-
-### 9
-Sabendo que a proposição "Lucas é bancário ou o banco abre" é FALSA, é correto afirmar que:
-
-- A) "Lucas é bancário e o banco abre" é verdadeira.
-- B) Não é possível saber o valor de "Lucas é bancário".
-- C) "O banco abre" é verdadeira.
-- D) "Lucas não é bancário" e "o banco não abre" são ambas verdadeiras.
-- E) "Lucas é bancário" é verdadeira.
-
-**Resposta:** D
-
-**Explicação:** Uma disjunção inclusiva só é falsa quando as duas partes são falsas; logo as negações de ambas são verdadeiras.
-
-### 10
-Sendo p falsa, q verdadeira, r falsa, qual é o valor lógico da proposição (q ∨ p) → (r ∧ ~p)?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** Substituindo os valores (p = F, q = V, r = F) e resolvendo primeiro os parênteses e as negações, o resultado é F.
-
-### 11
-Sabe-se que a proposição "Se Lucas é bancário, então Maria viaja" é FALSA. Então, é correto concluir que:
-
-- A) Lucas é bancário e Maria viaja.
-- B) Lucas não é bancário ou Maria viaja.
-- C) Lucas é bancário e Maria não viaja.
-- D) Lucas não é bancário e Maria viaja.
-- E) Lucas não é bancário e Maria não viaja.
-
-**Resposta:** C
-
-**Explicação:** Uma condicional só é falsa quando o antecedente é V e o consequente é F. Logo "Lucas é bancário" é verdadeira e "Maria viaja" é falsa: Lucas é bancário e Maria não viaja.
-
-### 12
-Na tabela-verdade da proposição (~p ∧ q) ↔ (q ∧ q), em quantas linhas ela é verdadeira?
-
-- A) 0
-- B) 4
-- C) 1
-- D) 3
-- E) 2
-
-**Resposta:** D
-
-**Explicação:** Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 3 delas.
-
-### 13
-Sabendo que a proposição "Pedro é economista ou a meta foi atingida" é FALSA, é correto afirmar que:
-
-- A) "Pedro não é economista" e "a meta não foi atingida" são ambas verdadeiras.
-- B) "Pedro é economista" é verdadeira.
-- C) "Pedro é economista e a meta foi atingida" é verdadeira.
-- D) Não é possível saber o valor de "Pedro é economista".
-- E) "A meta foi atingida" é verdadeira.
-
-**Resposta:** A
-
-**Explicação:** Uma disjunção inclusiva só é falsa quando as duas partes são falsas; logo as negações de ambas são verdadeiras.
-
-### 14
-Sendo p verdadeira, r falsa, qual é o valor lógico da proposição ~p ↔ ~(r ∨ p)?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** A
-
-**Explicação:** Substituindo os valores (p = V, r = F) e resolvendo primeiro os parênteses e as negações, o resultado é V.
-
-### 15
-Sabe-se que a proposição "Se João estuda, então a taxa de juros sobe" é FALSA. Então, é correto concluir que:
-
-- A) João não estuda e a taxa de juros sobe.
-- B) João não estuda e a taxa de juros não sobe.
-- C) João estuda e a taxa de juros não sobe.
-- D) João não estuda ou a taxa de juros sobe.
-- E) João estuda e a taxa de juros sobe.
-
-**Resposta:** C
-
-**Explicação:** Uma condicional só é falsa quando o antecedente é V e o consequente é F. Logo "João estuda" é verdadeira e "a taxa de juros sobe" é falsa: João estuda e a taxa de juros não sobe.
-
-### 16
-Na tabela-verdade da proposição ~(~p ↔ q) → (q ∨ ~q), em quantas linhas ela é verdadeira?
+<!-- modelo: m4 -->
+Na tabela-verdade da proposição (p → ~q) ↔ (p ↔ q), em quantas linhas ela é verdadeira?
 
 - A) 4
-- B) 2
-- C) 1
-- D) 0
-- E) 3
-
-**Resposta:** A
-
-**Explicação:** Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 4 delas.
-
-### 17
-Sabendo que a proposição "Faz sol e Lucas é bancário" é VERDADEIRA, é correto afirmar que:
-
-- A) "Faz sol" é verdadeira e "Lucas é bancário" é verdadeira.
-- B) "Faz sol" pode ser falsa.
-- C) "Não faz sol ou Lucas não é bancário" é verdadeira.
-- D) "Lucas não é bancário" é verdadeira.
-- E) "Se faz sol, então Lucas não é bancário" é verdadeira.
-
-**Resposta:** A
-
-**Explicação:** Uma conjunção só é verdadeira quando as duas partes são verdadeiras.
-
-### 18
-Sendo q falsa, r falsa, qual é o valor lógico da proposição r → ~(q ∨ q)?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** A
-
-**Explicação:** Substituindo os valores (q = F, r = F) e resolvendo primeiro os parênteses e as negações, o resultado é V.
-
-### 19
-Na tabela-verdade da proposição (p ↔ ~p) ∧ ~(q ∨ p), em quantas linhas ela é verdadeira?
-
-- A) 2
-- B) 4
-- C) 3
-- D) 1
-- E) 0
-
-**Resposta:** E
-
-**Explicação:** Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 0 delas.
-
-### 20
-Sabendo que a proposição "O relatório foi entregue e Carlos pratica esportes" é VERDADEIRA, é correto afirmar que:
-
-- A) "O relatório não foi entregue ou Carlos não pratica esportes" é verdadeira.
-- B) "O relatório foi entregue" pode ser falsa.
-- C) "Carlos não pratica esportes" é verdadeira.
-- D) "O relatório foi entregue" é verdadeira e "Carlos pratica esportes" é verdadeira.
-- E) "Se o relatório foi entregue, então Carlos não pratica esportes" é verdadeira.
-
-**Resposta:** D
-
-**Explicação:** Uma conjunção só é verdadeira quando as duas partes são verdadeiras.
-
-## Difícil
-
-### 1
-Considere as premissas: "Se João treina, então João vence a corrida" e "João treina". Uma conclusão válida é:
-
-- A) João não treina.
-- B) João não vence a corrida.
-- C) Nada se pode concluir.
-- D) João vence a corrida.
-- E) João vence a corrida somente se não treina.
-
-**Resposta:** D
-
-**Explicação:** Modus ponens: de "p → q" e "p", conclui-se "q".
-
-### 2
-Quantas linhas da tabela-verdade da proposição (~q → r) ↔ (p → p) têm valor lógico VERDADEIRO?
-
-- A) 6
-- B) 4
-- C) 5
-- D) 7
-- E) 8
-
-**Resposta:** A
-
-**Explicação:** Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 6 linhas.
-
-### 3
-Qual das proposições abaixo é uma contradição (falsa em todas as linhas da tabela-verdade)?
-
-- A) (p ∧ q) → p
-- B) p ↔ ~p
-- C) p ∨ ~p
-- D) ~p ∨ q
-- E) p → q
-
-**Resposta:** B
-
-**Explicação:** p ↔ ~p é falsa para quaisquer valores de p e q. Note que p → q equivale a ~p ∨ q, cuja negação é p ∧ ~q.
-
-### 4
-Sabendo que a proposição p → q é FALSA, qual é o valor lógico de (p ↔ q) ∧ (q ∧ s), quaisquer que sejam os valores de r e s?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** B
-
-**Explicação:** Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em F independentemente de r e s.
-
-### 5
-Sabe-se que a proposição "O candidato é aprovado se, e somente se, o recenseador visita a casa" é VERDADEIRA e que "o candidato é aprovado" é FALSA. Então:
-
-- A) O candidato não é aprovado e o recenseador visita a casa.
-- B) O recenseador visita a casa.
-- C) O recenseador não visita a casa.
-- D) O candidato é aprovado.
-- E) Não é possível determinar o valor de "o recenseador visita a casa".
-
-**Resposta:** C
-
-**Explicação:** A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "o candidato é aprovado" é F, "o recenseador visita a casa" também é F, ou seja: o recenseador não visita a casa.
-
-### 6
-Considere as premissas: "Se Natália estuda, então Natália é aprovado" e "Natália estuda". Uma conclusão válida é:
-
-- A) Natália é aprovado.
-- B) Natália não é aprovado.
-- C) Natália é aprovado somente se não estuda.
-- D) Natália não estuda.
-- E) Nada se pode concluir.
-
-**Resposta:** A
-
-**Explicação:** Modus ponens: de "p → q" e "p", conclui-se "q".
-
-### 7
-Quantas linhas da tabela-verdade da proposição ~(p ∧ r) → (p ∧ ~q) têm valor lógico VERDADEIRO?
-
-- A) 1
-- B) 5
-- C) 3
-- D) 4
-- E) 2
-
-**Resposta:** C
-
-**Explicação:** Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 3 linhas.
-
-### 8
-Sabendo que a proposição p → q é FALSA, qual é o valor lógico de (~q ∨ s) ∨ (s → p), quaisquer que sejam os valores de r e s?
-
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** A
-
-**Explicação:** Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em V independentemente de r e s.
-
-### 9
-Sabe-se que a proposição "O recenseador visita a casa se, e somente se, a meta foi atingida" é VERDADEIRA e que "o recenseador visita a casa" é FALSA. Então:
-
-- A) A meta foi atingida.
-- B) O recenseador visita a casa.
-- C) A meta não foi atingida.
-- D) Não é possível determinar o valor de "a meta foi atingida".
-- E) O recenseador não visita a casa e a meta foi atingida.
-
-**Resposta:** C
-
-**Explicação:** A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "o recenseador visita a casa" é F, "a meta foi atingida" também é F, ou seja: a meta não foi atingida.
-
-### 10
-Considere as premissas: "Se Bruno economiza, então Bruno viaja nas férias" e "Bruno não viaja nas férias". Uma conclusão válida é:
-
-- A) Bruno viaja nas férias.
-- B) Bruno não economiza.
-- C) Bruno economiza e não viaja nas férias.
-- D) Bruno economiza.
-- E) Nada se pode concluir.
-
-**Resposta:** B
-
-**Explicação:** Modus tollens: de "p → q" e "~q", conclui-se "~p". Se Bruno tivesse estudado/agido, o resultado ocorreria; como não ocorreu, Bruno não economiza.
-
-### 11
-Quantas linhas da tabela-verdade da proposição (q ∧ q) ∧ (p ↔ r) têm valor lógico VERDADEIRO?
-
-- A) 0
-- B) 4
+- B) 0
 - C) 2
 - D) 3
 - E) 1
 
-**Resposta:** C
+**Resposta:** E
 
-**Explicação:** Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 2 linhas.
+**Explicação:** Ferramenta: contar linhas verdadeiras. Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 1 delas.
 
-### 12
-Sabendo que a proposição p → q é FALSA, qual é o valor lógico de p ∧ (~q ∨ ~p), quaisquer que sejam os valores de r e s?
+### 5
+<!-- modelo: m4 -->
+Na tabela-verdade da proposição q ∧ (q → p), em quantas linhas ela é verdadeira?
 
-- A) Verdadeira
-- B) Falsa
-
-**Resposta:** A
-
-**Explicação:** Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em V independentemente de r e s.
-
-### 13
-Sabe-se que a proposição "Pedro é economista se, e somente se, o cliente paga em dia" é VERDADEIRA e que "Pedro é economista" é FALSA. Então:
-
-- A) Pedro não é economista e o cliente paga em dia.
-- B) O cliente paga em dia.
-- C) Pedro é economista.
-- D) O cliente não paga em dia.
-- E) Não é possível determinar o valor de "o cliente paga em dia".
+- A) 3
+- B) 2
+- C) 0
+- D) 1
+- E) 4
 
 **Resposta:** D
 
-**Explicação:** A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "Pedro é economista" é F, "o cliente paga em dia" também é F, ou seja: o cliente não paga em dia.
+**Explicação:** Ferramenta: contar linhas verdadeiras. Montando as 4 linhas (VV, VF, FV, FF) para (p, q), a proposição é V em 1 delas.
 
-### 14
-Quantas linhas da tabela-verdade da proposição (p → q) → (q ↔ r) têm valor lógico VERDADEIRO?
-
-- A) 5
-- B) 3
-- C) 6
-- D) 7
-- E) 4
-
-**Resposta:** A
-
-**Explicação:** Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 5 linhas.
-
-### 15
-Sabendo que a proposição p → q é FALSA, qual é o valor lógico de s → (~q ∧ s), quaisquer que sejam os valores de r e s?
+### 6
+<!-- modelo: m1 -->
+Sendo p verdadeira, q verdadeira, qual é o valor lógico da proposição ~(q → ~p) ↔ q?
 
 - A) Verdadeira
 - B) Falsa
 
 **Resposta:** A
 
-**Explicação:** Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em V independentemente de r e s.
+**Explicação:** Ferramenta: substituir valores e resolver. Substituindo os valores (p = V, q = V) e resolvendo primeiro os parênteses e as negações, o resultado é V.
 
-### 16
-Sabe-se que a proposição "Maria viaja se, e somente se, Carlos pratica esportes" é VERDADEIRA e que "Maria viaja" é FALSA. Então:
+### 7
+<!-- modelo: m2 -->
+Sabe-se que a proposição "Se o cliente paga em dia, então o sistema está disponível" é FALSA. Então, é correto concluir que:
 
-- A) Carlos pratica esportes.
-- B) Carlos não pratica esportes.
-- C) Maria viaja.
-- D) Maria não viaja e Carlos pratica esportes.
-- E) Não é possível determinar o valor de "Carlos pratica esportes".
-
-**Resposta:** B
-
-**Explicação:** A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "Maria viaja" é F, "Carlos pratica esportes" também é F, ou seja: Carlos não pratica esportes.
-
-### 17
-Considere as premissas: "Se Felipe chega cedo, então Felipe pega o ônibus" e "Felipe não pega o ônibus". Uma conclusão válida é:
-
-- A) Felipe não chega cedo.
-- B) Nada se pode concluir.
-- C) Felipe chega cedo e não pega o ônibus.
-- D) Felipe chega cedo.
-- E) Felipe pega o ônibus.
-
-**Resposta:** A
-
-**Explicação:** Modus tollens: de "p → q" e "~q", conclui-se "~p". Se Felipe tivesse estudado/agido, o resultado ocorreria; como não ocorreu, Felipe não chega cedo.
-
-### 18
-Quantas linhas da tabela-verdade da proposição ~r ∨ (p ∧ q) têm valor lógico VERDADEIRO?
-
-- A) 5
-- B) 3
-- C) 7
-- D) 4
-- E) 6
-
-**Resposta:** A
-
-**Explicação:** Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 5 linhas.
-
-### 19
-Sabendo que a proposição p → q é FALSA, qual é o valor lógico de (s ∨ p) ↔ (q ↔ p), quaisquer que sejam os valores de r e s?
-
-- A) Verdadeira
-- B) Falsa
+- A) O cliente paga em dia e o sistema está disponível.
+- B) O cliente paga em dia e o sistema não está disponível.
+- C) O cliente não paga em dia e o sistema não está disponível.
+- D) O cliente não paga em dia ou o sistema está disponível.
+- E) O cliente não paga em dia e o sistema está disponível.
 
 **Resposta:** B
 
-**Explicação:** Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em F independentemente de r e s.
+**Explicação:** Ferramenta: condicional falsa (só V → F). Uma condicional só é falsa quando o antecedente é V e o consequente é F. Logo "o cliente paga em dia" é verdadeira e "o sistema está disponível" é falsa: o cliente paga em dia e o sistema não está disponível.
 
-### 20
-Sabe-se que a proposição "João estuda se, e somente se, Ana trabalha no IBGE" é VERDADEIRA e que "João estuda" é FALSA. Então:
+### 8
+<!-- modelo: m7 -->
+Sabe-se que a proposição p → (q → r) é FALSA. Então, os valores lógicos de p, q e r são:
 
-- A) Ana trabalha no IBGE.
-- B) João estuda.
-- C) Ana não trabalha no IBGE.
-- D) João não estuda e Ana trabalha no IBGE.
-- E) Não é possível determinar o valor de "Ana trabalha no IBGE".
+- A) p = V, q = V e r = F
+- B) p = V, q = F e r = F
+- C) p = V, q = F e r = V
+- D) p = V, q = V e r = V
+- E) p = F, q = V e r = V
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: começar pelo conectivo principal. Condicional falsa: p é V e q → r é F; e q → r só é F com q verdadeira e r falsa. Logo, p = V, q = V e r = F.
+
+### 9
+<!-- modelo: m5 -->
+Sabendo que a proposição "O sistema está disponível ou chove" é FALSA, é correto afirmar que:
+
+- A) "Chove" é verdadeira.
+- B) "O sistema está disponível e chove" é verdadeira.
+- C) "O sistema está disponível" é verdadeira.
+- D) "O sistema não está disponível" e "não chove" são ambas verdadeiras.
+- E) Não é possível saber o valor de "o sistema está disponível".
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: conjunção verdadeira / disjunção falsa. Uma disjunção inclusiva só é falsa quando as duas partes são falsas; logo as negações de ambas são verdadeiras.
+
+### 10
+<!-- modelo: m6 -->
+Sejam p: "João estuda" e q: "o candidato é aprovado". Em linguagem simbólica, a frase "João estuda se, e somente se, o candidato não é aprovado." é escrita como:
+
+- A) p ↔ ~q
+- B) ~p ∧ ~q
+- C) q → ~p
+- D) ~(p ∧ q)
+- E) ~p ∨ ~q
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: frase → símbolos. "Não é verdade que..." nega TUDO o que vem depois, por isso usa parênteses; "não" colado numa parte nega só aquela parte. "João estuda se, e somente se, o candidato não é aprovado." = p ↔ ~q.
+
+### 11
+<!-- modelo: m8 -->
+Sendo p verdadeira, q verdadeira e r falsa, quantas das proposições a seguir são verdadeiras? I. p ↔ ~r; II. r → q; III. r ∨ p; IV. q ↔ r.
+
+- A) 0
+- B) 4
+- C) 1
+- D) 2
+- E) 3
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: substituir e aplicar a regra de cada conectivo. Troque cada letra pelo seu valor (V ou F) e resolva uma proposição de cada vez. I: V; II: V; III: V; IV: F. Total: 3.
+
+## Difícil
+
+### 1
+<!-- modelo: d1 -->
+Considere as premissas: "Se Sofia treina, então Sofia vence a corrida" e "Sofia treina". Uma conclusão válida é:
+
+- A) Sofia vence a corrida.
+- B) Sofia não treina.
+- C) Nada se pode concluir.
+- D) Sofia não vence a corrida.
+- E) Sofia vence a corrida somente se não treina.
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: modus ponens e modus tollens. Modus ponens: de "p → q" e "p", conclui-se "q".
+
+### 2
+<!-- modelo: d3 -->
+Qual das proposições abaixo é uma contradição (falsa em todas as linhas da tabela-verdade)?
+
+- A) p → (q → p)
+- B) p → q
+- C) ~(p ∨ ~p)
+- D) p ∨ ~p
+- E) ~p ∨ q
 
 **Resposta:** C
 
-**Explicação:** A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "João estuda" é F, "Ana trabalha no IBGE" também é F, ou seja: Ana não trabalha no IBGE.
+**Explicação:** Ferramenta: contradição. ~(p ∨ ~p) é falsa para quaisquer valores de p e q. Note que p → q equivale a ~p ∨ q, cuja negação é p ∧ ~q.
+
+### 3
+<!-- modelo: d2 -->
+Quantas linhas da tabela-verdade da proposição r ∨ (p ∧ q) têm valor lógico VERDADEIRO?
+
+- A) 4
+- B) 3
+- C) 6
+- D) 5
+- E) 7
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: tabela-verdade com 3 proposições. Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 5 linhas.
+
+### 4
+<!-- modelo: d2 -->
+Quantas linhas da tabela-verdade da proposição (p ∨ q) → ~(q ∧ r) têm valor lógico VERDADEIRO?
+
+- A) 4
+- B) 7
+- C) 6
+- D) 5
+- E) 8
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: tabela-verdade com 3 proposições. Com 3 proposições há 8 linhas. Avaliando a expressão em cada uma, ela é V em 6 linhas.
+
+### 5
+<!-- modelo: d8 -->
+Uma proposição composta P, formada por p e q, é verdadeira somente quando p e q são falsas. Qual das proposições abaixo pode ser P?
+
+- A) p ↔ q
+- B) ~p ∧ ~q
+- C) p ∨ q
+- D) ~(p ↔ q)
+- E) p → q
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: a tabela-verdade é a "impressão digital" da proposição. Duas proposições com a mesma tabela são equivalentes. Procure o conectivo cujo caso especial é o descrito. ~p ∧ ~q tem exatamente essa tabela.
+
+### 6
+<!-- modelo: d5 -->
+Sabe-se que a proposição "Maria viaja se, e somente se, o cliente paga em dia" é VERDADEIRA e que "Maria viaja" é FALSA. Então:
+
+- A) Maria viaja.
+- B) O cliente não paga em dia.
+- C) Maria não viaja e o cliente paga em dia.
+- D) Não é possível determinar o valor de "o cliente paga em dia".
+- E) O cliente paga em dia.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: bicondicional. A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "Maria viaja" é F, "o cliente paga em dia" também é F, ou seja: o cliente não paga em dia.
+
+### 7
+<!-- modelo: d6 -->
+Considere as premissas: P1: "O banco abre ou Lucas é bancário." P2: "Se Lucas é bancário, então chove." P3: "O banco não abre." Uma conclusão válida é:
+
+- A) Chove.
+- B) Lucas não é bancário.
+- C) Não chove.
+- D) Nada se pode concluir.
+- E) O banco abre e não chove.
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: encadear regras (silogismo disjuntivo + modus ponens). Use primeiro a premissa simples (P3) e vá "derrubando dominós". Se o banco não abre, então, por P1, Lucas é bancário. Por P2, chove.
+
+### 8
+<!-- modelo: d1 -->
+Considere as premissas: "Se Caio treina, então Caio vence a corrida" e "Caio não vence a corrida". Uma conclusão válida é:
+
+- A) Caio treina.
+- B) Caio não treina.
+- C) Nada se pode concluir.
+- D) Caio treina e não vence a corrida.
+- E) Caio vence a corrida.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: modus ponens e modus tollens. Modus tollens: de "p → q" e "~q", conclui-se "~p". Se a 1ª parte tivesse acontecido, a 2ª também aconteceria; como a 2ª não aconteceu, Caio não treina.
+
+### 9
+<!-- modelo: d5 -->
+Sabe-se que a proposição "O recenseador visita a casa se, e somente se, o cliente paga em dia" é VERDADEIRA e que "o recenseador visita a casa" é FALSA. Então:
+
+- A) O cliente não paga em dia.
+- B) Não é possível determinar o valor de "o cliente paga em dia".
+- C) O recenseador não visita a casa e o cliente paga em dia.
+- D) O recenseador visita a casa.
+- E) O cliente paga em dia.
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: bicondicional. A bicondicional é verdadeira quando as duas partes têm o mesmo valor. Como "o recenseador visita a casa" é F, "o cliente paga em dia" também é F, ou seja: o cliente não paga em dia.
+
+### 10
+<!-- modelo: d7 -->
+Considere verdadeiras as proposições: "Se faz sol, então a taxa de juros sobe", "Se a taxa de juros sobe, então o recenseador visita a casa" e "O recenseador não visita a casa". Pode-se concluir que:
+
+- A) A taxa de juros não sobe, mas nada se sabe sobre "faz sol".
+- B) Faz sol e a taxa de juros não sobe.
+- C) Não faz sol e a taxa de juros sobe.
+- D) Faz sol e a taxa de juros sobe.
+- E) Não faz sol e a taxa de juros não sobe.
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: modus tollens em cadeia. Se o fim da cadeia é falso, tudo o que levaria a ele também é falso (de trás para a frente). Como o recenseador não visita a casa, então a taxa de juros não sobe (2ª premissa); e então não faz sol (1ª premissa).
+
+### 11
+<!-- modelo: d4 -->
+Sabendo que a proposição p → q é FALSA, qual é o valor lógico de (r ∨ ~p) → p, quaisquer que sejam os valores de r e s?
+
+- A) Verdadeira
+- B) Falsa
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: valores a partir de uma condicional falsa. Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em V independentemente de r e s.

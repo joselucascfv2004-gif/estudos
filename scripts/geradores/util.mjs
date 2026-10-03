@@ -237,3 +237,29 @@ export function paraMarkdown(topico, niveis) {
   });
   return l.join('\n');
 }
+
+/**
+ * Prepara um tópico antigo para o modo sem repetição: cada modelo antigo ganha o rótulo da sua
+ * "ferramenta" na explicação, os 3 primeiros de cada nível geram 2 questões (valores diferentes)
+ * e os modelos novos (`extras`, um array por nível) entram no fim. `dobrar` troca quais modelos
+ * geram 2 questões (use quando o enunciado de algum dos 3 primeiros não muda).
+ */
+export function prepararAntigos(topico, rotulos, extras, dobrar = [[0, 1, 2], [0, 1, 2], [0, 1, 2]]) {
+  topico.niveis = topico.niveis.map((nivel, n) => {
+    const antigos = nivel.map((fn, k) => {
+      const w = (r) => {
+        const q = fn(r);
+        if (!String(q.x).startsWith('Ferramenta')) q.x = `Ferramenta: ${rotulos[n][k]}. ${q.x}`;
+        return q;
+      };
+      if (fn.alternativas) w.alternativas = fn.alternativas;
+      if (dobrar[n].includes(k)) w.vezes = 2;
+      return w;
+    });
+    // as chamadas recursivas internas (topico.niveis[n][k](r)) passam a usar a versão com rótulo
+    antigos.forEach((w, k) => (nivel[k] = w));
+    return [...antigos, ...extras[n]];
+  });
+  topico.unico = true;
+  return topico;
+}

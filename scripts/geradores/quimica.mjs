@@ -1,5 +1,6 @@
 // Química: cálculos (estequiometria, soluções, físico-química quantitativa).
-import { arred, num , sup } from './util.mjs';
+import { arred, num, sup, expl } from './util.mjs';
+import EXTRAS from './quimica-extras.mjs';
 
 const PROVAS = ['ENEM', 'Militares'];
 const u = (un) => (v) => `${num(v)} ${un}`;
@@ -284,7 +285,7 @@ const solucoes = {
         return {
           e: `Uma amostra de ${kg} kg de solo contém ${num(mg)} mg de chumbo. Qual é a concentração de chumbo em ppm (partes por milhão, em massa)?`,
           r: mg / kg,
-          d: [mg * kg, (mg / kg) * 1000, (mg / kg) / 1000, kg / mg],
+          d: [mg * kg, (mg / kg) * 1000, (mg / kg) * 10, mg + kg, (mg / kg) / 10, (mg / kg) * 100],
           f: u('ppm'),
           x: `1 ppm = 1 mg por kg. ${num(mg)} mg/${kg} kg = ${num(mg / kg)} ppm.`,
         };
@@ -385,7 +386,7 @@ const fq = {
           r: m0 / 2 ** n,
           d: [m0 / (2 * n), m0 - (m0 / 2) * n > 0 ? m0 - (m0 / 2) * n : m0 / 3, m0 / 2 ** (n + 1), m0 / 2 ** (n - 1) === m0 ? m0 / 5 : m0 / 2 ** (n - 1)],
           f: u('g'),
-          x: `${t * n} dias = ${n} meia(s)-vida(s): ${m0}/2^${n} = ${num(m0 / 2 ** n)} g.`,
+          x: `${t * n} dias = ${n} ${n === 1 ? 'meia-vida' : 'meias-vidas'}: ${m0}/2^${n} = ${num(m0 / 2 ** n)} g.`,
         };
       },
       (r) => {
@@ -491,7 +492,7 @@ const fq = {
           e: `Uma solução de ácido forte tem pH = ${pH1}. Ela é diluída ${num(dil)} vezes com água pura. Qual passa a ser o pH aproximado?`,
           r: pH2,
           d: [pH1, pH1 - Math.log10(dil), pH1 * Math.log10(dil), 7],
-          x: `Diluir ${num(dil)} vezes divide [H⁺] por 10^${Math.log10(dil)}: o pH aumenta ${Math.log10(dil)} unidade(s): ${pH1} + ${Math.log10(dil)} = ${pH2}.`,
+          x: `Diluir ${num(dil)} vezes divide [H⁺] por 10^${Math.log10(dil)}: o pH aumenta ${Math.log10(dil)} ${Math.log10(dil) === 1 ? 'unidade' : 'unidades'}: ${pH1} + ${Math.log10(dil)} = ${pH2}.`,
         };
       },
       (r) => {
@@ -500,9 +501,9 @@ const fq = {
         return {
           e: `Um fóssil apresenta ${num(frac[0])}% do carbono-14 que tinha quando o organismo morreu. Sabendo que a meia-vida do C-14 é de 5.730 anos, qual é a idade aproximada do fóssil?`,
           r: anos,
-          d: [anos / 2, anos + t, t, anos * 2],
+          d: [1, 2, 3, 4, 5, 6].filter((k) => k !== frac[1]).map((k) => k * t),
           f: u('anos'),
-          x: `${num(frac[0])}% = (1/2)^${frac[1]}, ou seja, ${frac[1]} meia(s)-vida(s): ${frac[1]} × 5.730 = ${num(anos)} anos.`,
+          x: `${num(frac[0])}% = (1/2)^${frac[1]}, ou seja, ${frac[1]} ${frac[1] === 1 ? 'meia-vida' : 'meias-vidas'}: ${frac[1]} × 5.730 = ${num(anos)} anos.`,
         };
       },
       (r) => {
@@ -518,4 +519,42 @@ const fq = {
   ],
 };
 
-export default [estequiometria, solucoes, fq];
+// Rótulo da "ferramenta" de cada modelo antigo, na ordem em que aparecem em cada nível.
+const FERR = {
+  estequiometria: [
+    ['massa = n·M', 'n = m/M', 'constante de Avogadro', 'volume molar (CNTP)', 'massa molar'],
+    ['proporção estequiométrica', 'rendimento', 'pureza', 'proporção em mols', 'massa → volume (CNTP)'],
+    ['reagente limitante', 'proporção em massa', 'densidade + estequiometria', 'pureza + rendimento + volume'],
+  ],
+  solucoes: [
+    ['concentração comum (C = m/V)', 'concentração em mol/L', 'título em massa', 'massa a partir da concentração'],
+    ['diluição (C₁V₁ = C₂V₂)', 'preparo de solução', 'mistura de soluções', 'ppm', 'C = d·título'],
+    ['titulação (n ácido = n base)', 'titulação com proporção 1:2', 'diluição a partir de estoque', 'ppm × consumo'],
+  ],
+  fq: [
+    ['pH = −log[H⁺]', 'pH + pOH = 14', 'meia-vida', 'sinal de ΔH'],
+    ['pH de ácido/base forte', 'constante de equilíbrio Kc', 'lei de Hess', 'velocidade média', 'entalpia × quantidade'],
+    ['energia de ligação', 'equilíbrio (tabela início-reage-equilíbrio)', 'diluição e pH', 'datação por C-14', 'lei de velocidade'],
+  ],
+};
+
+function preparar(topico, chave) {
+  topico.niveis = topico.niveis.map((nivel, n) => {
+    const antigos = nivel.map((fn, k) => {
+      const w = (r) => {
+        const q = fn(r);
+        if (!String(q.x).startsWith('Ferramenta')) q.x = `Ferramenta: ${FERR[chave][n][k]}. ${q.x}`;
+        return q;
+      };
+      if (k < 3) w.vezes = 2;
+      return w;
+    });
+    antigos.forEach((w, k) => (nivel[k] = w));
+    return [...antigos, ...EXTRAS[chave][n]];
+  });
+  topico.unico = true;
+  return topico;
+}
+
+void expl;
+export default [preparar(estequiometria, 'estequiometria'), preparar(solucoes, 'solucoes'), preparar(fq, 'fq')];

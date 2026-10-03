@@ -1,5 +1,6 @@
 // Raciocínio lógico (concursos: Banco do Brasil, BNB, Caixa, IBGE...).
-import { fracao, nome, num } from './util.mjs';
+import { fracao, nome, num, prepararAntigos } from './util.mjs';
+import EXTRAS from './logica-extras.mjs';
 
 const PROVAS = ['Concursos', 'Militares'];
 const VF = (v) => (v ? 'Verdadeira' : 'Falsa');
@@ -17,7 +18,11 @@ function gerarExpr(r, vars, prof) {
     return r() < 0.3 ? { neg: true, v } : { v };
   }
   const op = r.pick(Object.keys(OPS));
-  const e = { op, a: gerarExpr(r, vars, prof - 1), b: gerarExpr(r, vars, prof - 1) };
+  const a = gerarExpr(r, vars, prof - 1);
+  let b = gerarExpr(r, vars, prof - 1);
+  // evita "q ∧ q", "~r ∨ r" e partes repetidas
+  for (let t = 0; t < 20 && (b.v ? b.v === a.v : texto(b) === texto(a)); t++) b = gerarExpr(r, vars, prof - 1);
+  const e = { op, a, b };
   return r() < 0.2 ? { neg: true, e } : e;
 }
 function avaliar(e, val) {
@@ -237,7 +242,7 @@ const proposicoes = {
       (r) => {
         const pessoa = nome(r);
         const [acao, res, nacao, nres] = r.pick([
-          ['estuda', 'é aprovado', 'não estuda', 'não é aprovado'],
+          ['estuda', 'passa na prova', 'não estuda', 'não passa na prova'],
           ['economiza', 'viaja nas férias', 'não economiza', 'não viaja nas férias'],
           ['treina', 'vence a corrida', 'não treina', 'não vence a corrida'],
           ['chega cedo', 'pega o ônibus', 'não chega cedo', 'não pega o ônibus'],
@@ -248,7 +253,7 @@ const proposicoes = {
             e: `Considere as premissas: "Se ${pessoa} ${acao}, então ${pessoa} ${res}" e "${pessoa} ${nres}". Uma conclusão válida é:`,
             r: `${pessoa} ${nacao}.`,
             d: [`${pessoa} ${acao}.`, `${pessoa} ${res}.`, `${pessoa} ${acao} e ${nres}.`, `Nada se pode concluir.`],
-            x: `Modus tollens: de "p → q" e "~q", conclui-se "~p". Se ${pessoa} tivesse estudado/agido, o resultado ocorreria; como não ocorreu, ${pessoa} ${nacao}.`,
+            x: `Modus tollens: de "p → q" e "~q", conclui-se "~p". Se a 1ª parte tivesse acontecido, a 2ª também aconteceria; como a 2ª não aconteceu, ${pessoa} ${nacao}.`,
           };
         return {
           e: `Considere as premissas: "Se ${pessoa} ${acao}, então ${pessoa} ${res}" e "${pessoa} ${acao}". Uma conclusão válida é:`,
@@ -536,7 +541,7 @@ const sequencias = {
         };
       },
       (r) => {
-        const h = r.int(1, 11), m = r.pick([0, 0, 30]);
+        const h = r.int(2, 11), m = r.pick([0, 0, 30]);
         const ang = Math.abs(30 * h - 5.5 * m);
         const menor = Math.min(ang, 360 - ang);
         return {
@@ -584,10 +589,10 @@ const sequencias = {
         void mes;
         const alvo = (d0 + nDias) % 7;
         return {
-          e: `Em determinado ano, 1º de janeiro caiu em uma ${dias[d0]}. Em que dia da semana caiu o ${txt}?`,
+          e: `Em determinado ano, 1º de janeiro caiu em ${d0 === 0 || d0 === 6 ? 'um' : 'uma'} ${dias[d0]}. Em que dia da semana caiu o ${txt}?`,
           r: dias[alvo],
           d: dias.filter((_, i) => i !== alvo),
-          x: `De 1º de janeiro até o ${txt.split(' (')[0]} passam ${nDias} dias. ${nDias} = 7 × ${Math.floor(nDias / 7)} + ${nDias % 7}: avançamos ${nDias % 7} dia(s) a partir de ${dias[d0]}: ${dias[alvo]}.`,
+          x: `De 1º de janeiro até o ${txt.split(' (')[0]} passam ${nDias} dias. ${nDias} = 7 × ${Math.floor(nDias / 7)} + ${nDias % 7}: avançamos ${nDias % 7} ${nDias % 7 === 1 ? 'dia' : 'dias'} a partir de ${dias[d0]}: ${dias[alvo]}.`,
         };
       },
       (r) => {
@@ -630,7 +635,7 @@ const sequencias = {
         return sequencias.niveis[2][0](r);
       },
       (r) => {
-        const h = r.int(1, 11), m = r.pick([10, 15, 20, 25, 40, 45, 50]);
+        const h = r.int(2, 11), m = r.pick([10, 15, 20, 25, 40, 45, 50]);
         const ang = Math.abs(30 * h - 5.5 * m);
         const menor = Math.min(ang, 360 - ang);
         return {
@@ -825,4 +830,34 @@ function fat(n) {
   return r;
 }
 void fracao;
-export default [proposicoes, negacoes, sequencias, conjuntos];
+// Rótulo da "ferramenta" de cada modelo antigo, na ordem em que aparecem em cada nível.
+const FERR = {
+  proposicoes: [
+    ['valor lógico dos conectivos', 'número de linhas (2ⁿ)', 'o que é proposição', 'conectivo principal', 'valor lógico da condicional'],
+    ['substituir valores e resolver', 'condicional falsa (só V → F)', 'tautologia', 'contar linhas verdadeiras', 'conjunção verdadeira / disjunção falsa'],
+    ['modus ponens e modus tollens', 'tabela-verdade com 3 proposições', 'contradição', 'valores a partir de uma condicional falsa', 'bicondicional'],
+  ],
+  negacoes: [
+    ['negação de "todo"', 'De Morgan (negação do "e")', 'De Morgan (negação do "ou")', 'negação de "algum"', 'dupla negação'],
+    ['negação da condicional (mantém e nega)', 'contrapositiva', 'condicional ≡ disjunção', 'negação de "nenhum"', 'De Morgan com negação'],
+    ['negação da bicondicional', 'negação de condicional composta', 'contrapositiva com negação', 'negação de quantificador + conjunção', 'disjunção ≡ condicional'],
+  ],
+  sequencias: [
+    ['descobrir o padrão', 'sequência de letras', 'padrão cíclico (resto da divisão)', 'ângulo dos ponteiros'],
+    ['diferenças crescentes', 'sequências intercaladas', 'calendário (resto por 7)', 'contagem pelo complementar'],
+    ['testar hipóteses (verdade e mentira)', 'ângulo dos ponteiros (minutos quebrados)', 'tabela de associação', 'casa dos pombos'],
+  ],
+  conjuntos: [
+    ['união de dois conjuntos', 'número de subconjuntos (2ⁿ)', 'interseção e diferença', 'fórmula da união'],
+    ['"apenas" no diagrama de Venn', 'união de três conjuntos', 'subconjuntos com 2 elementos (combinação)', 'interseção a partir do total'],
+    ['mínimo e máximo da interseção', 'subconjuntos que contêm um elemento', '"apenas A" com três conjuntos', 'interseção em porcentagem'],
+  ],
+};
+
+export { SIMPLES, QUANT, cap, dois, avaliar, texto, gerarExpr, varsDe };
+export default [
+  prepararAntigos(proposicoes, FERR.proposicoes, EXTRAS.proposicoes, [[0, 1, 3], [0, 1, 3], [0, 1, 4]]),
+  prepararAntigos(negacoes, FERR.negacoes, EXTRAS.negacoes),
+  prepararAntigos(sequencias, FERR.sequencias, EXTRAS.sequencias),
+  prepararAntigos(conjuntos, FERR.conjuntos, EXTRAS.conjuntos),
+];

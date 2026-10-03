@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4240 questões** em **90 tópicos**.
+**4017 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -44,7 +44,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 11 | 11 | 11 |
 | [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 11 | 12 | 11 |
 
-## Química — 430 questões
+## Química — 345 questões
 
 *Ciências da Natureza*
 
@@ -52,11 +52,11 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Atomística e tabela periódica](quimica/01-atomistica-e-tabela-periodica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Ligações químicas, funções inorgânicas e reações](quimica/02-ligacoes-e-funcoes-inorganicas.md) | ENEM, Militares | 17 | 17 | 16 |
-| [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 11 | 11 | 10 |
+| [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 10 | 11 | 10 |
 | [Química orgânica](quimica/05-quimica-organica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Físico-química (conceitos)](quimica/06-fisico-quimica.md) | ENEM, Militares | 17 | 17 | 16 |
-| [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 10 | 11 | 11 |
 | [Química ambiental, separação de misturas e materiais](quimica/08-quimica-ambiental.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## Biologia — 350 questões
@@ -88,13 +88,13 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Brasil República (1889–1964)](historia/07-brasil-republica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Ditadura militar e Nova República](historia/08-ditadura-e-redemocratizacao.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## Geografia — 310 questões
+## Geografia — 286 questões
 
 *Ciências Humanas*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Cartografia](geografia/01-cartografia.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
+| [Cartografia](geografia/01-cartografia.md) | ENEM, Militares, Concursos | 12 | 12 | 12 |
 | [Geografia física](geografia/02-geografia-fisica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Biomas e questões ambientais](geografia/03-biomas-e-questoes-ambientais.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [População e urbanização](geografia/04-populacao-e-urbanizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
@@ -175,16 +175,16 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Competências do ENEM e estrutura do texto](redacao/01-competencias-e-estrutura.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Coesão, argumentação e repertório](redacao/02-coesao-argumentacao-e-repertorio.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
-## Raciocínio Lógico — 290 questões
+## Raciocínio Lógico — 176 questões
 
 *Concursos Públicos*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Proposições, conectivos e tabela-verdade](raciocinio-logico/01-proposicoes-e-tabela-verdade.md) | Concursos, Militares | 20 | 20 | 20 |
-| [Equivalências lógicas e negações](raciocinio-logico/02-equivalencias-e-negacoes.md) | Concursos, Militares | 20 | 20 | 20 |
-| [Sequências e problemas de lógica](raciocinio-logico/03-sequencias-e-problemas-de-logica.md) | Concursos, Militares | 20 | 20 | 20 |
-| [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 20 | 20 | 20 |
+| [Proposições, conectivos e tabela-verdade](raciocinio-logico/01-proposicoes-e-tabela-verdade.md) | Concursos, Militares | 11 | 11 | 11 |
+| [Equivalências lógicas e negações](raciocinio-logico/02-equivalencias-e-negacoes.md) | Concursos, Militares | 11 | 11 | 11 |
+| [Sequências e problemas de lógica](raciocinio-logico/03-sequencias-e-problemas-de-logica.md) | Concursos, Militares | 10 | 10 | 10 |
+| [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 10 | 10 | 10 |
 | [Argumentação lógica e quantificadores](raciocinio-logico/05-argumentacao-e-quantificadores.md) | Concursos, Militares | 17 | 17 | 16 |
 
 ## Matemática Financeira — 65 questões

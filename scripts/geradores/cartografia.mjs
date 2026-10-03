@@ -1,6 +1,8 @@
 // Geografia: cartografia (escalas, coordenadas, fusos, orientação, curvas de nível).
-import { num } from './util.mjs';
+import { num, prepararAntigos } from './util.mjs';
+import EXTRAS from './cartografia-extras.mjs';
 
+const em = (c) => (c.startsWith('Cidade') ? 'na ' : 'em ') + c;
 const u = (un) => (v) => `${num(v)} ${un}`;
 const h2 = (h) => `${String(((h % 24) + 24) % 24).padStart(2, '0')}h`;
 const DIR = ['Norte', 'Nordeste', 'Leste', 'Sudeste', 'Sul', 'Sudoeste', 'Oeste', 'Noroeste'];
@@ -75,7 +77,7 @@ const carto = {
         const h = r.int(0, 23);
         const res = h + dif;
         return {
-          e: `Considerando apenas os fusos teóricos (15° = 1 h, sem horário de verão), quando são ${h2(h)} em ${c1} (${Math.abs(l1)}° ${l1 >= 0 ? 'L' : 'O'}), que horas são em ${c2} (${Math.abs(l2)}° ${l2 >= 0 ? 'L' : 'O'})?`,
+          e: `Considerando apenas os fusos teóricos (15° = 1 h, sem horário de verão), quando são ${h2(h)} ${em(c1)} (${Math.abs(l1)}° ${l1 >= 0 ? 'L' : 'O'}), que horas são ${em(c2)} (${Math.abs(l2)}° ${l2 >= 0 ? 'L' : 'O'})?`,
           r: res,
           d: [h - dif, res + 1, res - 1, h + Math.abs(dif) * (dif > 0 ? -1 : 1) + 2],
           f: (v) => `${h2(v)}${v >= 24 ? ' (dia seguinte)' : v < 0 ? ' (dia anterior)' : ''}`,
@@ -83,7 +85,7 @@ const carto = {
         };
       },
       (r) => {
-        const l1 = r.int(-30, 0), l2 = r.int(1, 30);
+        const l1 = r.int(-30, -1), l2 = r.int(1, 30);
         const graus = l2 - l1;
         return {
           e: `Dois pontos estão sobre o mesmo meridiano, nas latitudes ${Math.abs(l1)}° ${l1 < 0 ? 'S' : 'N'} e ${l2}° N. Considerando que 1° de latitude corresponde a aproximadamente 111 km, qual é a distância aproximada entre eles?`,
@@ -98,7 +100,7 @@ const carto = {
         return {
           e: `Em uma carta topográfica, as curvas de nível têm equidistância de ${eq} m, e a curva mais baixa representada é a de ${base} m. Qual é a altitude da ${n}ª curva acima dela?`,
           r: base + n * eq,
-          d: [base + (n - 1) * eq, n * eq, base + (n + 1) * eq, base * n],
+          d: [base + (n - 1) * eq, n * eq, base + (n + 1) * eq, base + 2 * n * eq],
           f: u('m'),
           x: `Cada curva sobe ${eq} m: ${base} + ${n} × ${eq} = ${base + n * eq} m.`,
         };
@@ -116,8 +118,8 @@ const carto = {
       },
       (r) => {
         const [proj, carac] = r.pick([
-          ['Mercator', 'cilíndrica conforme: preserva as formas (ângulos), mas exagera as áreas próximas aos polos'],
-          ['Peters', 'cilíndrica equivalente: preserva as proporções entre as áreas, mas distorce as formas'],
+          ['de Mercator', 'cilíndrica conforme: preserva as formas (ângulos), mas exagera as áreas próximas aos polos'],
+          ['de Peters', 'cilíndrica equivalente: preserva as proporções entre as áreas, mas distorce as formas'],
           ['azimutal (plana)', 'é feita a partir de um plano tangente a um ponto, muito usada para representar regiões polares'],
           ['cônica', 'é mais adequada para representar regiões de latitudes médias'],
         ]);
@@ -130,10 +132,10 @@ const carto = {
           'preserva simultaneamente formas, áreas e distâncias',
         ];
         return {
-          e: `Sobre a projeção de ${proj}, é correto afirmar que ela:`,
+          e: `Sobre a projeção ${proj}, é correto afirmar que ela:`,
           r: carac,
           d: r.shuffle(todas.filter((t) => t !== carac)),
-          x: `Toda projeção cartográfica tem distorções. A de ${proj} ${carac}.`,
+          x: `Toda projeção cartográfica tem distorções. A projeção ${proj} ${carac}.`,
         };
       },
     ],
@@ -162,8 +164,8 @@ const carto = {
       },
       (r) => {
         const saida = r.int(0, 23), voo = r.int(3, 14);
-        const [c1, l1] = r.pick(CIDADES.filter((c) => Number.isInteger(c[1] / 15)));
-        const [c2, l2] = r.pick(CIDADES.filter((c) => Number.isInteger(c[1] / 15) && c[1] !== l1));
+        const [c1, l1] = r.pick(CIDADES.filter((c) => Number.isInteger(c[1] / 15) && !c[0].startsWith('Cidade')));
+        const [c2, l2] = r.pick(CIDADES.filter((c) => Number.isInteger(c[1] / 15) && c[1] !== l1 && !c[0].startsWith('Cidade')));
         const dif = (l2 - l1) / 15;
         const chegada = saida + voo + dif;
         const dia = chegada >= 24 ? ' do dia seguinte' : chegada < 0 ? ' do dia anterior' : '';
@@ -205,4 +207,11 @@ const carto = {
   ],
 };
 
-export default [carto];
+// Rótulo da "ferramenta" de cada modelo antigo, na ordem em que aparecem em cada nível.
+const FERR = [
+  ['escala (real = mapa × denominador)', 'rosa dos ventos (direção oposta)', 'hemisférios', 'fusos (15° = 1 h)', 'comparar escalas'],
+  ['fusos entre duas cidades', 'distância pela latitude (1° ≈ 111 km)', 'curvas de nível (equidistância)', 'área com escala', 'projeções cartográficas'],
+  ['antípoda', 'declividade (altura ÷ distância)', 'fuso + duração do voo', 'escala gráfica → numérica', 'latitude e insolação'],
+];
+
+export default [prepararAntigos(carto, FERR, EXTRAS)];
