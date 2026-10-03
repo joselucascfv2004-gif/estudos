@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4476 questões** em **90 tópicos**.
+**4240 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -30,19 +30,19 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Geometria analítica](matematica/16-geometria-analitica.md) | ENEM, Militares | 12 | 12 | 11 |
 | [Números complexos e polinômios](matematica/17-numeros-complexos-e-polinomios.md) | Militares | 12 | 11 | 11 |
 
-## Física — 420 questões
+## Física — 239 questões
 
 *Ciências da Natureza*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Cinemática](fisica/01-cinematica.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Dinâmica e leis de Newton](fisica/02-dinamica.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Trabalho, energia, potência e impulso](fisica/03-trabalho-energia-e-potencia.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Estática e hidrostática](fisica/04-estatica-e-hidrostatica.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Termologia](fisica/05-termologia.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 20 | 20 | 20 |
+| [Cinemática](fisica/01-cinematica.md) | ENEM, Militares | 12 | 12 | 12 |
+| [Dinâmica e leis de Newton](fisica/02-dinamica.md) | ENEM, Militares | 12 | 12 | 12 |
+| [Trabalho, energia, potência e impulso](fisica/03-trabalho-energia-e-potencia.md) | ENEM, Militares | 12 | 12 | 12 |
+| [Estática e hidrostática](fisica/04-estatica-e-hidrostatica.md) | ENEM, Militares | 10 | 11 | 10 |
+| [Termologia](fisica/05-termologia.md) | ENEM, Militares | 11 | 11 | 11 |
+| [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 11 | 11 | 11 |
+| [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 11 | 12 | 11 |
 
 ## Química — 430 questões
 
@@ -187,14 +187,14 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 20 | 20 | 20 |
 | [Argumentação lógica e quantificadores](raciocinio-logico/05-argumentacao-e-quantificadores.md) | Concursos, Militares | 17 | 17 | 16 |
 
-## Matemática Financeira — 120 questões
+## Matemática Financeira — 65 questões
 
 *Concursos Públicos*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Juros simples e compostos](matematica-financeira/01-juros-simples-e-compostos.md) | Concursos, ENEM | 20 | 20 | 20 |
-| [Descontos e sistemas de amortização](matematica-financeira/02-descontos-e-amortizacao.md) | Concursos | 20 | 20 | 20 |
+| [Juros simples e compostos](matematica-financeira/01-juros-simples-e-compostos.md) | Concursos, ENEM | 12 | 11 | 11 |
+| [Descontos e sistemas de amortização](matematica-financeira/02-descontos-e-amortizacao.md) | Concursos | 10 | 11 | 10 |
 
 ## Conhecimentos Bancários — 200 questões
 

@@ -1,5 +1,5 @@
 // Física: questões com cálculo (g = 10 m/s²).
-import { arred, nome, num } from './util.mjs';
+import { arred, expl, nome, num } from './util.mjs';
 
 const PROVAS = ['ENEM', 'Militares'];
 const u = (un) => (v) => `${num(v)} ${un}`;
@@ -1253,5 +1253,74 @@ const ondas = {
   ],
 };
 
+// ======================================================= Modelos novos e rótulos
+// Cada modelo antigo ganha o rótulo da "ferramenta" usada; os novos já vêm com a explicação completa.
+import EXTRAS from './fisica-extras.mjs';
+
+const FERR = {
+  cinematica: [
+    ['velocidade média (vm = Δs/Δt)', 'função horária do MU (s = s₀ + vt)', 'tempo no MU (t = d/v)', 'aceleração média (a = Δv/Δt)', 'queda livre (v = g·t)'],
+    ['MUV (s = v₀t + at²/2)', 'equação de Torricelli', 'queda livre (h = gt²/2)', 'velocidade relativa (encontro)', 'velocidade relativa (perseguição)'],
+    ['lançamento horizontal', 'lançamento vertical', 'lançamento oblíquo', 'gráfico v × t (área = deslocamento)', 'tempo de reação + frenagem'],
+  ],
+  dinamica: [
+    ['2ª lei de Newton (F = m·a)', 'peso (P = m·g)', 'soma de forças na mesma direção', 'força de atrito (Fat = μ·N)', 'leis de Newton'],
+    ['2ª lei de Newton com atrito', 'sistema de blocos (mesma aceleração)', 'peso aparente no elevador', 'soma vetorial (Pitágoras)', 'lei de Hooke (F = k·x)'],
+    ['plano inclinado (P·sen θ)', 'plano inclinado com atrito', 'força centrípeta (m·v²/R)', 'máquina de Atwood', 'curva com atrito (μ·g·R = v²)'],
+  ],
+  energia: [
+    ['energia cinética (m·v²/2)', 'energia potencial (m·g·h)', 'trabalho (τ = F·d)', 'potência (P = τ/Δt)', 'transformações de energia'],
+    ['conservação da energia mecânica', 'potência útil', 'rendimento', 'impulso (F·Δt = Δ(m·v))', 'energia elástica (k·x²/2)'],
+    ['conservação da energia mecânica', 'conservação da quantidade de movimento', 'energia dissipada', 'potência de uma queda d\'água', 'energia elástica → cinética'],
+  ],
+  hidro: [
+    ['densidade (d = m/V)', 'pressão (p = F/A)', 'pressão hidrostática (d·g·h)', 'alavanca (F₁·d₁ = F₂·d₂)'],
+    ['empuxo (E = d·V·g)', 'princípio de Pascal', 'pressão absoluta', 'flutuação (fração submersa)', 'peso aparente (P − E)'],
+    ['equilíbrio de momentos', 'flutuação (densidade)', 'vasos comunicantes', 'prensa hidráulica (volume deslocado)'],
+  ],
+  termo: [
+    ['conversão de escalas (°C → °F)', 'conversão de escalas (°C → K)', 'calor sensível (Q = m·c·ΔT)', 'dilatação linear (ΔL = L₀·α·ΔT)', 'propagação do calor'],
+    ['calor latente (Q = m·L)', 'equilíbrio térmico (Σ Q = 0)', 'transformações gasosas', 'potência e calor (Q = P·Δt)', '1ª lei da termodinâmica (ΔU = Q − τ)'],
+    ['calor sensível + latente', 'rendimento de Carnot', 'escalas termométricas', 'trabalho a pressão constante (τ = p·ΔV)', 'dilatação aparente'],
+  ],
+  eletro: [
+    ['1ª lei de Ohm (U = R·i)', 'potência elétrica (P = U·i)', 'energia elétrica (E = P·Δt)', 'resistores em série'],
+    ['resistores em paralelo', 'potência (P = U²/R)', 'potência (P = U·i)', 'carga elétrica (Q = n·e)', 'associação mista'],
+    ['lei de Coulomb', 'gerador com resistência interna', 'potência com tensão diferente', 'força magnética (F = B·i·L)', 'potência em paralelo'],
+  ],
+  ondas: [
+    ['equação da onda (v = λ·f)', 'período (T = 1/f)', 'eco (som vai e volta)', 'espelhos planos associados', 'espelho plano'],
+    ['índice de refração (n = c/v)', 'equação de Gauss (espelho)', 'aumento linear', 'vergência (V = 1/f)', 'ondas eletromagnéticas (c = λ·f)'],
+    ['lei de Snell', 'ângulo limite', 'cordas vibrantes', 'tubos sonoros', 'lupa (aumento)'],
+  ],
+};
+
+function preparar(topico, chave) {
+  topico.niveis = topico.niveis.map((nivel, n) => {
+    const antigos = nivel.map((fn, k) => {
+      const w = (r) => {
+        const q = fn(r);
+        if (!String(q.x).startsWith('Ferramenta')) q.x = `Ferramenta: ${FERR[chave][n][k]}. ${q.x}`;
+        return q;
+      };
+      if (k < 3) w.vezes = 2;
+      return w;
+    });
+    // as chamadas recursivas internas (nivel[k](r)) passam a usar a versão com rótulo
+    antigos.forEach((w, k) => (nivel[k] = w));
+    return [...antigos, ...EXTRAS[chave][n]];
+  });
+  topico.unico = true;
+  return topico;
+}
+
 void nome;
-export default [cinematica, dinamica, energia, hidro, termo, eletro, ondas];
+export default [
+  preparar(cinematica, 'cinematica'),
+  preparar(dinamica, 'dinamica'),
+  preparar(energia, 'energia'),
+  preparar(hidro, 'hidro'),
+  preparar(termo, 'termo'),
+  preparar(eletro, 'eletro'),
+  preparar(ondas, 'ondas'),
+];

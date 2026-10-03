@@ -15,7 +15,7 @@ const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PASTA_GERADORES = path.join(RAIZ, 'scripts', 'geradores');
 const POR_NIVEL = 20;
 
-const modulos = fs.readdirSync(PASTA_GERADORES).filter((f) => f.endsWith('.mjs') && f !== 'util.mjs' && f !== 'resumos.mjs').sort();
+const modulos = fs.readdirSync(PASTA_GERADORES).filter((f) => f.endsWith('.mjs') && f !== 'util.mjs' && f !== 'resumos.mjs' && !f.endsWith('-extras.mjs')).sort();
 const enunciados = new Map();
 let total = 0;
 for (const m of modulos) {

@@ -24,6 +24,21 @@ Desconto comercial e racional, SAC, Tabela Price e séries de pagamentos.
 ## Fácil
 
 ### 1
+<!-- modelo: f1 -->
+Um título de valor nominal R$ 5.000,00 foi descontado 4 meses antes do vencimento, com desconto comercial simples de 4% ao mês. Qual foi o valor do desconto?
+
+- A) R$ 4.310,34
+- B) R$ 200,00
+- C) R$ 4.200,00
+- D) R$ 800,00
+- E) R$ 1.600,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: desconto comercial ("por fora"). A taxa incide sobre o valor NOMINAL (o de face do título). D = 5.000 × 0,04 × 4 = R$ 800,00.
+
+### 2
+<!-- modelo: f1 -->
 Um título de valor nominal R$ 11.500,00 foi descontado 4 meses antes do vencimento, com desconto comercial simples de 2% ao mês. Qual foi o valor do desconto?
 
 - A) R$ 920,00
@@ -34,775 +49,414 @@ Um título de valor nominal R$ 11.500,00 foi descontado 4 meses antes do vencime
 
 **Resposta:** A
 
-**Explicação:** Desconto comercial (por fora): D = N·d·t = 11.500 × 0,02 × 4 = R$ 920,00.
-
-### 2
-Uma duplicata de R$ 5.000,00 foi descontada em um banco 4 meses antes do vencimento, a uma taxa de desconto comercial simples de 5% ao mês. Qual foi o valor recebido (valor atual)?
-
-- A) R$ 5.000,00
-- B) R$ 4.166,67
-- C) R$ 1.000,00
-- D) R$ 4.000,00
-- E) R$ 4.750,00
-
-**Resposta:** D
-
-**Explicação:** A = N(1 − d·t) = 5.000 × (1 − 0,2) = R$ 4.000,00.
+**Explicação:** Ferramenta: desconto comercial ("por fora"). A taxa incide sobre o valor NOMINAL (o de face do título). D = 11.500 × 0,02 × 4 = R$ 920,00.
 
 ### 3
-Um financiamento de R$ 40.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 30 parcelas mensais. Qual é o valor de cada amortização?
+<!-- modelo: f2 -->
+Uma duplicata de R$ 18.500,00 foi descontada em um banco 2 meses antes do vencimento, a uma taxa de desconto comercial simples de 3% ao mês. Qual foi o valor recebido (valor atual)?
 
-- A) R$ 1.466,67
-- B) R$ 1.379,31
-- C) R$ 1.333,33
-- D) R$ 3.333,33
-- E) R$ 400,00
+- A) R$ 17.945,00
+- B) R$ 18.500,00
+- C) R$ 17.390,00
+- D) R$ 17.452,83
+- E) R$ 1.110,00
 
 **Resposta:** C
 
-**Explicação:** No SAC, a amortização é constante: A = 40.000/30 = R$ 1.333,33.
+**Explicação:** Ferramenta: valor atual = nominal − desconto. A = N(1 − d·t). 18.500 × 0,94 = R$ 17.390,00.
 
 ### 4
-Complete corretamente: "No Sistema Price (Francês), as prestações ..."
+<!-- modelo: f5 -->
+Em um financiamento de R$ 46.000,00 com juros de 1,5% ao mês, quanto de juros está incluído na primeira prestação (em qualquer sistema de amortização)?
 
-- A) diminui, enquanto a parcela de amortização aumenta
-- B) são crescentes, com juros crescentes
-- C) são decrescentes, com amortizações constantes e juros decrescentes
-- D) são constantes, com juros decrescentes e amortizações crescentes
-- E) são sempre iguais aos juros do período
+- A) R$ 6.900,00
+- B) R$ 690,00
+- C) R$ 8.280,00
+- D) R$ 69.000,00
+- E) R$ 69,00
 
-**Resposta:** D
+**Resposta:** B
 
-**Explicação:** SAC: amortização constante ⇒ saldo cai linearmente ⇒ juros e prestações decrescentes. Price: prestação constante ⇒ como os juros caem com o saldo, a amortização cresce.
+**Explicação:** Ferramenta: juros sobre o saldo devedor. No primeiro mês, o saldo devedor é o valor financiado inteiro. 1,5% de R$ 46.000,00 = R$ 690,00.
 
 ### 5
-Um título de valor nominal R$ 10.500,00 foi descontado 4 meses antes do vencimento, com desconto comercial simples de 4% ao mês. Qual foi o valor do desconto?
+<!-- modelo: f5 -->
+Em um financiamento de R$ 73.000,00 com juros de 1% ao mês, quanto de juros está incluído na primeira prestação (em qualquer sistema de amortização)?
 
-- A) R$ 3.360,00
-- B) R$ 9.051,72
-- C) R$ 1.680,00
-- D) R$ 420,00
-- E) R$ 8.820,00
-
-**Resposta:** C
-
-**Explicação:** Desconto comercial (por fora): D = N·d·t = 10.500 × 0,04 × 4 = R$ 1.680,00.
-
-### 6
-Uma duplicata de R$ 20.000,00 foi descontada em um banco 2 meses antes do vencimento, a uma taxa de desconto comercial simples de 2% ao mês. Qual foi o valor recebido (valor atual)?
-
-- A) R$ 20.000,00
-- B) R$ 800,00
-- C) R$ 19.200,00
-- D) R$ 19.600,00
-- E) R$ 19.230,77
-
-**Resposta:** C
-
-**Explicação:** A = N(1 − d·t) = 20.000 × (1 − 0,04) = R$ 19.200,00.
-
-### 7
-Um financiamento de R$ 26.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 40 parcelas mensais. Qual é o valor de cada amortização?
-
-- A) R$ 650,00
-- B) R$ 715,00
-- C) R$ 2.166,67
-- D) R$ 260,00
-- E) R$ 666,67
-
-**Resposta:** A
-
-**Explicação:** No SAC, a amortização é constante: A = 26.000/40 = R$ 650,00.
-
-### 8
-Complete corretamente: "No Sistema Price, ao longo do tempo, a parcela de juros ..."
-
-- A) são sempre iguais aos juros do período
-- B) são constantes ao longo de todo o financiamento
-- C) aumenta, enquanto a parcela de amortização diminui
-- D) diminui, enquanto a parcela de amortização aumenta
-- E) são crescentes, com juros crescentes
-
-**Resposta:** D
-
-**Explicação:** SAC: amortização constante ⇒ saldo cai linearmente ⇒ juros e prestações decrescentes. Price: prestação constante ⇒ como os juros caem com o saldo, a amortização cresce.
-
-### 9
-Um título de valor nominal R$ 8.500,00 foi descontado 4 meses antes do vencimento, com desconto comercial simples de 1% ao mês. Qual foi o valor do desconto?
-
-- A) R$ 8.160,00
-- B) R$ 340,00
-- C) R$ 680,00
-- D) R$ 85,00
-- E) R$ 8.173,08
-
-**Resposta:** B
-
-**Explicação:** Desconto comercial (por fora): D = N·d·t = 8.500 × 0,01 × 4 = R$ 340,00.
-
-### 10
-Uma duplicata de R$ 15.000,00 foi descontada em um banco 4 meses antes do vencimento, a uma taxa de desconto comercial simples de 4% ao mês. Qual foi o valor recebido (valor atual)?
-
-- A) R$ 12.600,00
-- B) R$ 2.400,00
-- C) R$ 15.000,00
-- D) R$ 14.400,00
-- E) R$ 12.931,03
-
-**Resposta:** A
-
-**Explicação:** A = N(1 − d·t) = 15.000 × (1 − 0,16) = R$ 12.600,00.
-
-### 11
-Um financiamento de R$ 56.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 20 parcelas mensais. Qual é o valor de cada amortização?
-
-- A) R$ 4.666,67
-- B) R$ 2.947,37
-- C) R$ 560,00
-- D) R$ 2.800,00
-- E) R$ 3.080,00
-
-**Resposta:** D
-
-**Explicação:** No SAC, a amortização é constante: A = 56.000/20 = R$ 2.800,00.
-
-### 12
-Complete corretamente: "No SAC, as prestações ..."
-
-- A) aumenta, enquanto a parcela de amortização diminui
-- B) são decrescentes, com amortizações constantes e juros decrescentes
-- C) diminui, enquanto a parcela de amortização aumenta
-- D) são sempre iguais aos juros do período
-- E) são crescentes, com juros crescentes
-
-**Resposta:** B
-
-**Explicação:** SAC: amortização constante ⇒ saldo cai linearmente ⇒ juros e prestações decrescentes. Price: prestação constante ⇒ como os juros caem com o saldo, a amortização cresce.
-
-### 13
-Um título de valor nominal R$ 15.500,00 foi descontado 1 mês antes do vencimento, com desconto comercial simples de 5% ao mês. Qual foi o valor do desconto?
-
-- A) R$ 14.761,90
-- B) R$ 14.725,00
-- C) R$ 775,00
-- D) R$ 777,00
-- E) R$ 1.550,00
-
-**Resposta:** C
-
-**Explicação:** Desconto comercial (por fora): D = N·d·t = 15.500 × 0,05 × 1 = R$ 775,00.
-
-### 14
-Uma duplicata de R$ 12.500,00 foi descontada em um banco 3 meses antes do vencimento, a uma taxa de desconto comercial simples de 3% ao mês. Qual foi o valor recebido (valor atual)?
-
-- A) R$ 12.500,00
-- B) R$ 12.125,00
-- C) R$ 11.375,00
-- D) R$ 1.125,00
-- E) R$ 11.467,89
-
-**Resposta:** C
-
-**Explicação:** A = N(1 − d·t) = 12.500 × (1 − 0,09) = R$ 11.375,00.
-
-### 15
-Um financiamento de R$ 20.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 60 parcelas mensais. Qual é o valor de cada amortização?
-
-- A) R$ 366,67
-- B) R$ 200,00
-- C) R$ 333,33
-- D) R$ 1.666,67
-- E) R$ 338,98
-
-**Resposta:** C
-
-**Explicação:** No SAC, a amortização é constante: A = 20.000/60 = R$ 333,33.
-
-### 16
-Um título de valor nominal R$ 19.500,00 foi descontado 5 meses antes do vencimento, com desconto comercial simples de 2% ao mês. Qual foi o valor do desconto?
-
-- A) R$ 17.727,27
-- B) R$ 17.550,00
-- C) R$ 390,00
-- D) R$ 3.900,00
-- E) R$ 1.950,00
+- A) R$ 7.300,00
+- B) R$ 73,00
+- C) R$ 8.760,00
+- D) R$ 73.000,00
+- E) R$ 730,00
 
 **Resposta:** E
 
-**Explicação:** Desconto comercial (por fora): D = N·d·t = 19.500 × 0,02 × 5 = R$ 1.950,00.
+**Explicação:** Ferramenta: juros sobre o saldo devedor. No primeiro mês, o saldo devedor é o valor financiado inteiro. 1% de R$ 73.000,00 = R$ 730,00.
 
-### 17
-Uma duplicata de R$ 19.500,00 foi descontada em um banco 5 meses antes do vencimento, a uma taxa de desconto comercial simples de 5% ao mês. Qual foi o valor recebido (valor atual)?
+### 6
+<!-- modelo: f3 -->
+Um financiamento de R$ 38.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 40 parcelas mensais. Qual é o valor de cada amortização?
 
-- A) R$ 4.875,00
-- B) R$ 14.625,00
-- C) R$ 15.600,00
-- D) R$ 18.525,00
-- E) R$ 19.500,00
+- A) R$ 1.045,00
+- B) R$ 380,00
+- C) R$ 974,36
+- D) R$ 3.166,67
+- E) R$ 950,00
 
-**Resposta:** B
+**Resposta:** E
 
-**Explicação:** A = N(1 − d·t) = 19.500 × (1 − 0,25) = R$ 14.625,00.
+**Explicação:** Ferramenta: SAC. No SAC, a dívida é dividida em partes iguais: amortização = valor ÷ número de parcelas. 38.000 ÷ 40 = R$ 950,00.
 
-### 18
-Um financiamento de R$ 21.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 50 parcelas mensais. Qual é o valor de cada amortização?
+### 7
+<!-- modelo: f6 -->
+Um mesmo valor de R$ 240.000,00 pode ser financiado, com a mesma taxa e o mesmo prazo, pelo SAC ou pela Tabela Price. Sobre a PRIMEIRA prestação, é correto afirmar:
 
-- A) R$ 420,00
-- B) R$ 462,00
-- C) R$ 1.750,00
-- D) R$ 428,57
-- E) R$ 210,00
+- A) a da Price é maior que a do SAC
+- B) depende apenas do valor financiado
+- C) as duas são iguais
+- D) a do SAC é maior que a da Price
+- E) no SAC não há juros na primeira prestação
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: comparar os sistemas. Os juros da 1ª prestação são iguais nos dois. A diferença está na amortização: no SAC ela já começa "grande" (valor ÷ n); na Price ela começa pequena e cresce. Por isso a 1ª prestação do SAC é maior (e o total de juros pago no SAC é menor).
+
+### 8
+<!-- modelo: f3 -->
+Um financiamento de R$ 25.000,00 será pago pelo Sistema de Amortização Constante (SAC) em 30 parcelas mensais. Qual é o valor de cada amortização?
+
+- A) R$ 862,07
+- B) R$ 250,00
+- C) R$ 916,67
+- D) R$ 833,33
+- E) R$ 2.083,33
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: SAC. No SAC, a dívida é dividida em partes iguais: amortização = valor ÷ número de parcelas. 25.000 ÷ 30 = R$ 833,33.
+
+### 9
+<!-- modelo: f4 -->
+Complete corretamente: "No SAC, as prestações ..."
+
+- A) são decrescentes, com amortizações constantes e juros decrescentes
+- B) são sempre iguais aos juros do período
+- C) aumenta, enquanto a parcela de amortização diminui
+- D) diminui, enquanto a parcela de amortização aumenta
+- E) são constantes, com juros decrescentes e amortizações crescentes
 
 **Resposta:** A
 
-**Explicação:** No SAC, a amortização é constante: A = 21.000/50 = R$ 420,00.
+**Explicação:** Ferramenta: lógica dos sistemas. Os juros são sempre sobre o saldo devedor, que cai. SAC: amortização fixa ⇒ prestação cai. Price: prestação fixa ⇒ como os juros caem, a amortização cresce.
 
-### 19
-Um título de valor nominal R$ 3.500,00 foi descontado 3 meses antes do vencimento, com desconto comercial simples de 1% ao mês. Qual foi o valor do desconto?
+### 10
+<!-- modelo: f2 -->
+Uma duplicata de R$ 13.000,00 foi descontada em um banco 2 meses antes do vencimento, a uma taxa de desconto comercial simples de 4% ao mês. Qual foi o valor recebido (valor atual)?
 
-- A) R$ 3.395,00
-- B) R$ 105,00
-- C) R$ 3.398,06
-- D) R$ 210,00
-- E) R$ 35,00
+- A) R$ 1.040,00
+- B) R$ 12.480,00
+- C) R$ 12.037,04
+- D) R$ 11.960,00
+- E) R$ 13.000,00
 
-**Resposta:** B
+**Resposta:** D
 
-**Explicação:** Desconto comercial (por fora): D = N·d·t = 3.500 × 0,01 × 3 = R$ 105,00.
-
-### 20
-Uma duplicata de R$ 13.500,00 foi descontada em um banco 3 meses antes do vencimento, a uma taxa de desconto comercial simples de 3% ao mês. Qual foi o valor recebido (valor atual)?
-
-- A) R$ 12.385,32
-- B) R$ 12.285,00
-- C) R$ 1.215,00
-- D) R$ 13.095,00
-- E) R$ 13.500,00
-
-**Resposta:** B
-
-**Explicação:** A = N(1 − d·t) = 13.500 × (1 − 0,09) = R$ 12.285,00.
+**Explicação:** Ferramenta: valor atual = nominal − desconto. A = N(1 − d·t). 13.000 × 0,92 = R$ 11.960,00.
 
 ## Médio
 
 ### 1
-Um empréstimo de R$ 49.000,00 será pago pelo SAC em 10 prestações mensais, à taxa de 2,5% ao mês. Qual é o valor da primeira prestação?
+<!-- modelo: m4 -->
+Um empréstimo de R$ 25.000,00 será pago pelo Sistema Price em 12 prestações mensais iguais, à taxa de 1% ao mês. Sabendo que o fator de recuperação de capital para essas condições é 0,0888, qual é o valor de cada prestação?
 
-- A) R$ 5.022,50
-- B) R$ 5.512,50
-- C) R$ 6.125,00
-- D) R$ 4.900,00
-- E) R$ 1.225,00
+- A) R$ 2.220,00
+- B) R$ 26.640,00
+- C) R$ 2.333,33
+- D) R$ 2.221,00
+- E) R$ 2.083,33
 
-**Resposta:** C
+**Resposta:** A
 
-**Explicação:** Amortização: 49.000/10 = R$ 4.900,00. Juros da 1ª: 2,5% de 49.000 = R$ 1.225,00. Prestação: R$ 6.125,00.
+**Explicação:** Ferramenta: fator de recuperação de capital. Na Price, a prestação é o valor financiado vezes o fator dado. 25.000 × 0,0888 = R$ 2.220,00.
 
 ### 2
-Um financiamento de R$ 27.000,00 é pago pelo SAC em 10 parcelas, com juros de 3% ao mês. Qual é o valor da 3ª prestação?
+<!-- modelo: m5 -->
+Um financiamento de R$ 60.000,00 pelo SAC tem 20 parcelas. Qual é o saldo devedor imediatamente após o pagamento da 4ª parcela?
 
-- A) R$ 648,00
-- B) R$ 3.348,00
-- C) R$ 3.267,00
-- D) R$ 3.510,00
-- E) R$ 2.700,00
+- A) R$ 51.000,00
+- B) R$ 15.000,00
+- C) R$ 12.000,00
+- D) R$ 48.000,00
+- E) R$ 45.000,00
 
-**Resposta:** B
+**Resposta:** D
 
-**Explicação:** Antes da 3ª parcela, o saldo é 27.000 − 2 × 2.700 = R$ 21.600,00. Juros: R$ 648,00. Prestação: R$ 2.700,00 + R$ 648,00 = R$ 3.348,00.
+**Explicação:** Ferramenta: saldo cai linearmente. Cada parcela do SAC amortiza a mesma quantia. 60.000 − 4 × 3.000 = R$ 48.000,00.
 
 ### 3
-Um título de R$ 2.040,00 foi resgatado 5 meses antes do vencimento, com desconto racional (por dentro) simples de 4% ao mês. Qual foi o valor do desconto?
+<!-- modelo: m7 -->
+Um financiamento pelo SAC tem 10 parcelas, cada uma com amortização de R$ 2.400,00, e juros de 5% ao mês. Qual é o valor da ÚLTIMA prestação?
 
-- A) R$ 408,00
-- B) R$ 342,00
-- C) R$ 1.700,00
-- D) R$ 340,00
-- E) R$ 81,60
+- A) R$ 2.520,00
+- B) R$ 3.600,00
+- C) R$ 2.519,00
+- D) R$ 120,00
+- E) R$ 2.400,00
 
-**Resposta:** D
+**Resposta:** A
 
-**Explicação:** Desconto racional: A = N/(1 + i·t) = 2.040/1,2 = R$ 1.700,00. D = N − A = R$ 340,00.
+**Explicação:** Ferramenta: saldo antes da última parcela. Antes da última parcela, só falta uma amortização: o saldo é A. R$ 2.400,00 + 5% de R$ 2.400,00 = R$ 2.520,00.
 
 ### 4
-Um empréstimo de R$ 27.000,00 será pago pelo Sistema Price em 24 prestações mensais iguais, à taxa de 1% ao mês. Sabendo que o fator de recuperação de capital para essas condições é 0,0471, qual é o valor de cada prestação?
+<!-- modelo: m2 -->
+Um financiamento de R$ 69.600,00 é pago pelo SAC em 24 parcelas, com juros de 2% ao mês. Qual é o valor da 9ª prestação?
 
-- A) R$ 1.271,70
-- B) R$ 1.144,53
-- C) R$ 30.520,80
-- D) R$ 1.395,00
-- E) R$ 1.125,00
+- A) R$ 928,00
+- B) R$ 2.900,00
+- C) R$ 3.828,00
+- D) R$ 3.770,00
+- E) R$ 4.292,00
 
-**Resposta:** A
+**Resposta:** C
 
-**Explicação:** PMT = PV × FRC = 27.000 × 0,0471 = R$ 1.271,70.
+**Explicação:** Ferramenta: saldo antes da parcela. Antes da 9ª parcela já foram pagas 8 amortizações. Saldo: R$ 46.400,00; juros: R$ 928,00; prestação: R$ 3.828,00.
 
 ### 5
-Um financiamento de R$ 27.000,00 pelo SAC tem 12 parcelas. Qual é o saldo devedor imediatamente após o pagamento da 9ª parcela?
+<!-- modelo: m1 -->
+Um empréstimo de R$ 48.000,00 será pago pelo SAC em 20 prestações mensais, à taxa de 1,5% ao mês. Qual é o valor da primeira prestação?
 
-- A) R$ 4.500,00
-- B) R$ 20.250,00
-- C) R$ 6.750,00
-- D) R$ 3.000,00
-- E) R$ 9.000,00
+- A) R$ 2.760,00
+- B) R$ 2.436,00
+- C) R$ 3.120,00
+- D) R$ 2.400,00
+- E) R$ 720,00
 
 **Resposta:** C
 
-**Explicação:** Cada parcela amortiza R$ 2.250,00. Após 9 parcelas: 27.000 − 9 × 2.250 = R$ 6.750,00.
+**Explicação:** Ferramenta: prestação = amortização + juros. Amortização do SAC: valor ÷ n. Juros: taxa sobre o saldo (no início, o valor todo). R$ 2.400,00 + R$ 720,00 = R$ 3.120,00.
 
 ### 6
-Um empréstimo de R$ 53.000,00 será pago pelo SAC em 12 prestações mensais, à taxa de 1,5% ao mês. Qual é o valor da primeira prestação?
+<!-- modelo: m6 -->
+Uma empresa descontou um título de R$ 8.000,00 60 dias antes do vencimento, com desconto comercial simples de 3% ao mês (mês de 30 dias). Quanto recebeu?
 
-- A) R$ 4.482,92
-- B) R$ 4.814,17
-- C) R$ 795,00
-- D) R$ 5.211,67
-- E) R$ 4.416,67
+- A) R$ 7.547,17
+- B) R$ 7.760,00
+- C) R$ 480,00
+- D) R$ 7.520,00
+- E) R$ 7.522,00
 
 **Resposta:** D
 
-**Explicação:** Amortização: 53.000/12 = R$ 4.416,67. Juros da 1ª: 1,5% de 53.000 = R$ 795,00. Prestação: R$ 5.211,67.
+**Explicação:** Ferramenta: tempo em meses. 60 dias = 2 mês(es). D = 8.000 × 0,03 × 2 = R$ 480,00; recebeu R$ 7.520,00.
 
 ### 7
-Um financiamento de R$ 30.000,00 é pago pelo SAC em 12 parcelas, com juros de 1% ao mês. Qual é o valor da 7ª prestação?
+<!-- modelo: m1 -->
+Um empréstimo de R$ 35.000,00 será pago pelo SAC em 20 prestações mensais, à taxa de 3% ao mês. Qual é o valor da primeira prestação?
 
-- A) R$ 150,00
-- B) R$ 2.625,00
-- C) R$ 2.500,00
-- D) R$ 2.650,00
-- E) R$ 2.800,00
+- A) R$ 2.800,00
+- B) R$ 1.802,50
+- C) R$ 1.050,00
+- D) R$ 1.750,00
+- E) R$ 2.275,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: prestação = amortização + juros. Amortização do SAC: valor ÷ n. Juros: taxa sobre o saldo (no início, o valor todo). R$ 1.750,00 + R$ 1.050,00 = R$ 2.800,00.
+
+### 8
+<!-- modelo: m2 -->
+Um financiamento de R$ 28.000,00 é pago pelo SAC em 10 parcelas, com juros de 3% ao mês. Qual é o valor da 5ª prestação?
+
+- A) R$ 504,00
+- B) R$ 2.800,00
+- C) R$ 3.640,00
+- D) R$ 3.304,00
+- E) R$ 3.220,00
 
 **Resposta:** D
 
-**Explicação:** Antes da 7ª parcela, o saldo é 30.000 − 6 × 2.500 = R$ 15.000,00. Juros: R$ 150,00. Prestação: R$ 2.500,00 + R$ 150,00 = R$ 2.650,00.
-
-### 8
-Um título de R$ 1.120,00 foi resgatado 3 meses antes do vencimento, com desconto racional (por dentro) simples de 4% ao mês. Qual foi o valor do desconto?
-
-- A) R$ 120,00
-- B) R$ 144,00
-- C) R$ 44,80
-- D) R$ 134,40
-- E) R$ 1.000,00
-
-**Resposta:** A
-
-**Explicação:** Desconto racional: A = N/(1 + i·t) = 1.120/1,12 = R$ 1.000,00. D = N − A = R$ 120,00.
+**Explicação:** Ferramenta: saldo antes da parcela. Antes da 5ª parcela já foram pagas 4 amortizações. Saldo: R$ 16.800,00; juros: R$ 504,00; prestação: R$ 3.304,00.
 
 ### 9
-Um empréstimo de R$ 31.000,00 será pago pelo Sistema Price em 10 prestações mensais iguais, à taxa de 5% ao mês. Sabendo que o fator de recuperação de capital para essas condições é 0,1295, qual é o valor de cada prestação?
+<!-- modelo: m3 -->
+Um título de R$ 530,00 foi resgatado 3 meses antes do vencimento, com desconto racional (por dentro) simples de 2% ao mês. Qual foi o valor do desconto?
 
-- A) R$ 3.100,00
-- B) R$ 4.415,95
-- C) R$ 40.145,00
-- D) R$ 4.650,00
-- E) R$ 4.014,50
+- A) R$ 30,00
+- B) R$ 10,60
+- C) R$ 500,00
+- D) R$ 31,80
+- E) R$ 36,00
 
-**Resposta:** E
+**Resposta:** A
 
-**Explicação:** PMT = PV × FRC = 31.000 × 0,1295 = R$ 4.014,50.
+**Explicação:** Ferramenta: desconto racional ("por dentro"). A taxa incide sobre o valor ATUAL: N = A(1 + i·t). A = 530 ÷ 1,06 = R$ 500,00; D = R$ 30,00.
 
 ### 10
-Um financiamento de R$ 84.000,00 pelo SAC tem 24 parcelas. Qual é o saldo devedor imediatamente após o pagamento da 5ª parcela?
+<!-- modelo: m3 -->
+Um título de R$ 1.035,00 foi resgatado 3 meses antes do vencimento, com desconto racional (por dentro) simples de 5% ao mês. Qual foi o valor do desconto?
 
-- A) R$ 70.000,00
-- B) R$ 16.800,00
-- C) R$ 66.500,00
-- D) R$ 63.000,00
-- E) R$ 17.500,00
+- A) R$ 135,00
+- B) R$ 155,25
+- C) R$ 900,00
+- D) R$ 51,75
+- E) R$ 162,00
 
-**Resposta:** C
+**Resposta:** A
 
-**Explicação:** Cada parcela amortiza R$ 3.500,00. Após 5 parcelas: 84.000 − 5 × 3.500 = R$ 66.500,00.
+**Explicação:** Ferramenta: desconto racional ("por dentro"). A taxa incide sobre o valor ATUAL: N = A(1 + i·t). A = 1.035 ÷ 1,15 = R$ 900,00; D = R$ 135,00.
 
 ### 11
-Um empréstimo de R$ 8.000,00 será pago pelo SAC em 24 prestações mensais, à taxa de 2,5% ao mês. Qual é o valor da primeira prestação?
+<!-- modelo: m5 -->
+Um financiamento de R$ 126.000,00 pelo SAC tem 36 parcelas. Qual é o saldo devedor imediatamente após o pagamento da 24ª parcela?
 
-- A) R$ 533,33
-- B) R$ 333,33
-- C) R$ 341,67
-- D) R$ 200,00
-- E) R$ 433,33
-
-**Resposta:** A
-
-**Explicação:** Amortização: 8.000/24 = R$ 333,33. Juros da 1ª: 2,5% de 8.000 = R$ 200,00. Prestação: R$ 533,33.
-
-### 12
-Um financiamento de R$ 54.000,00 é pago pelo SAC em 20 parcelas, com juros de 1% ao mês. Qual é o valor da 11ª prestação?
-
-- A) R$ 2.943,00
-- B) R$ 2.970,00
-- C) R$ 2.700,00
-- D) R$ 3.240,00
-- E) R$ 270,00
-
-**Resposta:** B
-
-**Explicação:** Antes da 11ª parcela, o saldo é 54.000 − 10 × 2.700 = R$ 27.000,00. Juros: R$ 270,00. Prestação: R$ 2.700,00 + R$ 270,00 = R$ 2.970,00.
-
-### 13
-Um título de R$ 1.440,00 foi resgatado 5 meses antes do vencimento, com desconto racional (por dentro) simples de 4% ao mês. Qual foi o valor do desconto?
-
-- A) R$ 288,00
-- B) R$ 1.200,00
-- C) R$ 120,00
-- D) R$ 57,60
-- E) R$ 240,00
-
-**Resposta:** E
-
-**Explicação:** Desconto racional: A = N/(1 + i·t) = 1.440/1,2 = R$ 1.200,00. D = N − A = R$ 240,00.
-
-### 14
-Um empréstimo de R$ 47.000,00 será pago pelo Sistema Price em 10 prestações mensais iguais, à taxa de 5% ao mês. Sabendo que o fator de recuperação de capital para essas condições é 0,1295, qual é o valor de cada prestação?
-
-- A) R$ 6.086,50
-- B) R$ 4.700,00
-- C) R$ 7.050,00
-- D) R$ 60.865,00
-- E) R$ 12.173,00
-
-**Resposta:** A
-
-**Explicação:** PMT = PV × FRC = 47.000 × 0,1295 = R$ 6.086,50.
-
-### 15
-Um financiamento de R$ 81.000,00 pelo SAC tem 36 parcelas. Qual é o saldo devedor imediatamente após o pagamento da 4ª parcela?
-
-- A) R$ 74.250,00
-- B) R$ 72.000,00
-- C) R$ 20.250,00
-- D) R$ 69.750,00
-- E) R$ 9.000,00
-
-**Resposta:** B
-
-**Explicação:** Cada parcela amortiza R$ 2.250,00. Após 4 parcelas: 81.000 − 4 × 2.250 = R$ 72.000,00.
-
-### 16
-Um empréstimo de R$ 57.000,00 será pago pelo SAC em 24 prestações mensais, à taxa de 2,5% ao mês. Qual é o valor da primeira prestação?
-
-- A) R$ 3.800,00
-- B) R$ 3.087,50
-- C) R$ 2.375,00
-- D) R$ 1.425,00
-- E) R$ 2.434,37
-
-**Resposta:** A
-
-**Explicação:** Amortização: 57.000/24 = R$ 2.375,00. Juros da 1ª: 2,5% de 57.000 = R$ 1.425,00. Prestação: R$ 3.800,00.
-
-### 17
-Um financiamento de R$ 6.000,00 é pago pelo SAC em 12 parcelas, com juros de 3% ao mês. Qual é o valor da 9ª prestação?
-
-- A) R$ 545,00
-- B) R$ 60,00
-- C) R$ 680,00
-- D) R$ 500,00
-- E) R$ 560,00
-
-**Resposta:** E
-
-**Explicação:** Antes da 9ª parcela, o saldo é 6.000 − 8 × 500 = R$ 2.000,00. Juros: R$ 60,00. Prestação: R$ 500,00 + R$ 60,00 = R$ 560,00.
-
-### 18
-Um título de R$ 2.185,00 foi resgatado 3 meses antes do vencimento, com desconto racional (por dentro) simples de 5% ao mês. Qual foi o valor do desconto?
-
-- A) R$ 285,00
-- B) R$ 342,00
-- C) R$ 109,25
-- D) R$ 327,75
-- E) R$ 1.900,00
-
-**Resposta:** A
-
-**Explicação:** Desconto racional: A = N/(1 + i·t) = 2.185/1,15 = R$ 1.900,00. D = N − A = R$ 285,00.
-
-### 19
-Um empréstimo de R$ 46.000,00 será pago pelo Sistema Price em 12 prestações mensais iguais, à taxa de 1% ao mês. Sabendo que o fator de recuperação de capital para essas condições é 0,0888, qual é o valor de cada prestação?
-
-- A) R$ 49.017,60
-- B) R$ 5.106,00
-- C) R$ 4.084,80
-- D) R$ 3.833,33
-- E) R$ 4.293,33
+- A) R$ 38.500,00
+- B) R$ 45.500,00
+- C) R$ 42.000,00
+- D) R$ 84.000,00
+- E) R$ 5.250,00
 
 **Resposta:** C
 
-**Explicação:** PMT = PV × FRC = 46.000 × 0,0888 = R$ 4.084,80.
-
-### 20
-Um financiamento de R$ 15.000,00 pelo SAC tem 12 parcelas. Qual é o saldo devedor imediatamente após o pagamento da 2ª parcela?
-
-- A) R$ 2.500,00
-- B) R$ 11.250,00
-- C) R$ 13.750,00
-- D) R$ 7.500,00
-- E) R$ 12.500,00
-
-**Resposta:** E
-
-**Explicação:** Cada parcela amortiza R$ 1.250,00. Após 2 parcelas: 15.000 − 2 × 1.250 = R$ 12.500,00.
+**Explicação:** Ferramenta: saldo cai linearmente. Cada parcela do SAC amortiza a mesma quantia. 126.000 − 24 × 3.500 = R$ 42.000,00.
 
 ## Difícil
 
 ### 1
-Um empréstimo de R$ 22.800,00 é pago pelo SAC em 12 parcelas mensais, com juros de 2% ao mês. Qual é o total de juros pago ao longo do financiamento?
+<!-- modelo: d4 -->
+Um financiamento de R$ 42.000,00 pelo Sistema Price, em 12 prestações de R$ 3.973,20, tem juros de 2% ao mês. Qual é o valor amortizado na primeira prestação?
 
-- A) R$ 5.472,00
-- B) R$ 5.928,00
-- C) R$ 2.964,00
-- D) R$ 456,00
-- E) R$ 2.508,00
+- A) R$ 4.813,20
+- B) R$ 3.500,00
+- C) R$ 3.133,20
+- D) R$ 3.973,20
+- E) R$ 840,00
 
 **Resposta:** C
 
-**Explicação:** Os juros incidem sobre saldos 22.800, 20.900, ..., 1.900 (PA). Soma dos saldos = (22.800 + 1.900)·12/2 = 148.200. Juros totais = 2% disso = R$ 2.964,00.
+**Explicação:** Ferramenta: amortização = prestação − juros. Os juros da 1ª prestação são a taxa sobre o valor financiado. R$ 3.973,20 − R$ 840,00 = R$ 3.133,20.
 
 ### 2
-Um banco desconta títulos com desconto comercial simples de 5% ao mês. Para um título descontado 4 meses antes do vencimento, qual é a taxa efetiva mensal de juros simples paga pelo cliente?
-
-- A) 5%
-- B) 6,25%
-- C) 7,25%
-- D) 20%
-- E) 6%
-
-**Resposta:** B
-
-**Explicação:** Para N = 100: desconto = 20, valor recebido = 80. Juros de 20 sobre 80 em 4 meses: i = 20/(80 × 4) ≈ 6,25% a.m.
-
-### 3
-Um título de R$ 14.300,00 é descontado 2 meses antes do vencimento à taxa simples de 5% ao mês. Qual é a diferença entre o desconto comercial e o desconto racional?
-
-- A) R$ 0,00
-- B) R$ 1.300,00
-- C) R$ 130,00
-- D) R$ 1.430,00
-- E) R$ 260,00
-
-**Resposta:** C
-
-**Explicação:** Comercial: R$ 1.430,00. Racional: N − N/(1 + it) = R$ 1.300,00. Diferença: R$ 130,00 (o comercial é sempre maior).
-
-### 4
-Um financiamento de R$ 29.000,00 pelo Sistema Price, em 12 prestações de R$ 2.743,40, tem juros de 2% ao mês. Qual é o valor amortizado na primeira prestação?
-
-- A) R$ 580,00
-- B) R$ 3.323,40
-- C) R$ 2.743,40
-- D) R$ 2.416,67
-- E) R$ 2.163,40
-
-**Resposta:** E
-
-**Explicação:** Juros da 1ª prestação: 2% de 29.000 = R$ 580,00. Amortização = prestação − juros = R$ 2.743,40 − R$ 580,00 = R$ 2.163,40.
-
-### 5
-Uma loja oferece um produto em 12 prestações mensais de R$ 1.900,00, sem entrada (a primeira vence em 30 dias). Com taxa de 2% ao mês e fator de valor presente 10,575, qual é o preço à vista equivalente?
-
-- A) R$ 22.800,00
-- B) R$ 20.494,35
-- C) R$ 20.900,00
-- D) R$ 18.387,10
-- E) R$ 20.092,50
-
-**Resposta:** E
-
-**Explicação:** Valor presente da série: PV = PMT × aₙ,ᵢ = 1.900 × 10,575 = R$ 20.092,50 (menor que R$ 22.800,00, a soma nominal).
-
-### 6
-Um empréstimo de R$ 2.000,00 é pago pelo SAC em 4 parcelas mensais, com juros de 2% ao mês. Qual é o total de juros pago ao longo do financiamento?
-
-- A) R$ 200,00
-- B) R$ 160,00
-- C) R$ 40,00
-- D) R$ 60,00
-- E) R$ 100,00
-
-**Resposta:** E
-
-**Explicação:** Os juros incidem sobre saldos 2.000, 1.500, ..., 500 (PA). Soma dos saldos = (2.000 + 500)·4/2 = 5.000. Juros totais = 2% disso = R$ 100,00.
-
-### 7
-Um banco desconta títulos com desconto comercial simples de 4% ao mês. Para um título descontado 5 meses antes do vencimento, qual é a taxa efetiva mensal de juros simples paga pelo cliente?
-
-- A) 4%
-- B) 5%
-- C) 6%
-- D) 4,8%
-- E) 20%
-
-**Resposta:** B
-
-**Explicação:** Para N = 100: desconto = 20, valor recebido = 80. Juros de 20 sobre 80 em 5 meses: i = 20/(80 × 5) ≈ 5% a.m.
-
-### 8
-Um título de R$ 4.400,00 é descontado 4 meses antes do vencimento à taxa simples de 5% ao mês. Qual é a diferença entre o desconto comercial e o desconto racional?
-
-- A) R$ 146,67
-- B) R$ 293,33
-- C) R$ 733,33
-- D) R$ 0,00
-- E) R$ 880,00
-
-**Resposta:** A
-
-**Explicação:** Comercial: R$ 880,00. Racional: N − N/(1 + it) = R$ 733,33. Diferença: R$ 146,67 (o comercial é sempre maior).
-
-### 9
-Um financiamento de R$ 46.000,00 pelo Sistema Price, em 12 prestações de R$ 4.351,60, tem juros de 2% ao mês. Qual é o valor amortizado na primeira prestação?
-
-- A) R$ 3.431,60
-- B) R$ 920,00
-- C) R$ 3.833,33
-- D) R$ 4.351,60
-- E) R$ 5.271,60
-
-**Resposta:** A
-
-**Explicação:** Juros da 1ª prestação: 2% de 46.000 = R$ 920,00. Amortização = prestação − juros = R$ 4.351,60 − R$ 920,00 = R$ 3.431,60.
-
-### 10
-Uma loja oferece um produto em 10 prestações mensais de R$ 1.800,00, sem entrada (a primeira vence em 30 dias). Com taxa de 5% ao mês e fator de valor presente 7,722, qual é o preço à vista equivalente?
-
-- A) R$ 14.594,58
-- B) R$ 16.200,00
-- C) R$ 12.000,00
-- D) R$ 13.899,60
-- E) R$ 18.000,00
-
-**Resposta:** D
-
-**Explicação:** Valor presente da série: PV = PMT × aₙ,ᵢ = 1.800 × 7,722 = R$ 13.899,60 (menor que R$ 18.000,00, a soma nominal).
-
-### 11
-Um empréstimo de R$ 6.000,00 é pago pelo SAC em 10 parcelas mensais, com juros de 5% ao mês. Qual é o total de juros pago ao longo do financiamento?
-
-- A) R$ 3.000,00
-- B) R$ 1.350,00
-- C) R$ 3.300,00
-- D) R$ 1.650,00
-- E) R$ 300,00
-
-**Resposta:** D
-
-**Explicação:** Os juros incidem sobre saldos 6.000, 5.400, ..., 600 (PA). Soma dos saldos = (6.000 + 600)·10/2 = 33.000. Juros totais = 5% disso = R$ 1.650,00.
-
-### 12
-Um banco desconta títulos com desconto comercial simples de 4% ao mês. Para um título descontado 2 meses antes do vencimento, qual é a taxa efetiva mensal de juros simples paga pelo cliente?
-
-- A) 8%
-- B) 4,35%
-- C) 5,35%
-- D) 4%
-- E) 4,32%
-
-**Resposta:** B
-
-**Explicação:** Para N = 100: desconto = 8, valor recebido = 92. Juros de 8 sobre 92 em 2 meses: i = 8/(92 × 2) ≈ 4,35% a.m.
-
-### 13
-Um título de R$ 3.300,00 é descontado 5 meses antes do vencimento à taxa simples de 5% ao mês. Qual é a diferença entre o desconto comercial e o desconto racional?
-
-- A) R$ 330,00
-- B) R$ 165,00
-- C) R$ 825,00
-- D) R$ 0,00
-- E) R$ 660,00
-
-**Resposta:** B
-
-**Explicação:** Comercial: R$ 825,00. Racional: N − N/(1 + it) = R$ 660,00. Diferença: R$ 165,00 (o comercial é sempre maior).
-
-### 14
-Um financiamento de R$ 19.000,00 pelo Sistema Price, em 12 prestações de R$ 1.687,20, tem juros de 1% ao mês. Qual é o valor amortizado na primeira prestação?
-
-- A) R$ 1.583,33
-- B) R$ 1.877,20
-- C) R$ 1.497,20
-- D) R$ 190,00
-- E) R$ 1.687,20
-
-**Resposta:** C
-
-**Explicação:** Juros da 1ª prestação: 1% de 19.000 = R$ 190,00. Amortização = prestação − juros = R$ 1.687,20 − R$ 190,00 = R$ 1.497,20.
-
-### 15
-Uma loja oferece um produto em 10 prestações mensais de R$ 1.900,00, sem entrada (a primeira vence em 30 dias). Com taxa de 5% ao mês e fator de valor presente 7,722, qual é o preço à vista equivalente?
-
-- A) R$ 14.671,80
-- B) R$ 15.405,39
-- C) R$ 19.000,00
-- D) R$ 17.100,00
-- E) R$ 12.666,67
-
-**Resposta:** A
-
-**Explicação:** Valor presente da série: PV = PMT × aₙ,ᵢ = 1.900 × 7,722 = R$ 14.671,80 (menor que R$ 19.000,00, a soma nominal).
-
-### 16
-Um empréstimo de R$ 24.000,00 é pago pelo SAC em 12 parcelas mensais, com juros de 1% ao mês. Qual é o total de juros pago ao longo do financiamento?
-
-- A) R$ 1.320,00
-- B) R$ 1.560,00
-- C) R$ 240,00
-- D) R$ 2.880,00
-- E) R$ 3.120,00
-
-**Resposta:** B
-
-**Explicação:** Os juros incidem sobre saldos 24.000, 22.000, ..., 2.000 (PA). Soma dos saldos = (24.000 + 2.000)·12/2 = 156.000. Juros totais = 1% disso = R$ 1.560,00.
-
-### 17
+<!-- modelo: d2 -->
 Um banco desconta títulos com desconto comercial simples de 5% ao mês. Para um título descontado 2 meses antes do vencimento, qual é a taxa efetiva mensal de juros simples paga pelo cliente?
 
-- A) 6,56%
+- A) 5,56%
 - B) 5,5%
-- C) 5,56%
+- C) 10%
 - D) 5%
-- E) 10%
-
-**Resposta:** C
-
-**Explicação:** Para N = 100: desconto = 10, valor recebido = 90. Juros de 10 sobre 90 em 2 meses: i = 10/(90 × 2) ≈ 5,56% a.m.
-
-### 18
-Um título de R$ 16.500,00 é descontado 2 meses antes do vencimento à taxa simples de 2% ao mês. Qual é a diferença entre o desconto comercial e o desconto racional?
-
-- A) R$ 50,77
-- B) R$ 660,00
-- C) R$ 0,00
-- D) R$ 634,62
-- E) R$ 25,38
-
-**Resposta:** E
-
-**Explicação:** Comercial: R$ 660,00. Racional: N − N/(1 + it) = R$ 634,62. Diferença: R$ 25,38 (o comercial é sempre maior).
-
-### 19
-Um financiamento de R$ 30.000,00 pelo Sistema Price, em 12 prestações de R$ 2.838,00, tem juros de 2% ao mês. Qual é o valor amortizado na primeira prestação?
-
-- A) R$ 2.238,00
-- B) R$ 600,00
-- C) R$ 3.438,00
-- D) R$ 2.838,00
-- E) R$ 2.500,00
+- E) 6,56%
 
 **Resposta:** A
 
-**Explicação:** Juros da 1ª prestação: 2% de 30.000 = R$ 600,00. Amortização = prestação − juros = R$ 2.838,00 − R$ 600,00 = R$ 2.238,00.
+**Explicação:** Ferramenta: taxa sobre o que o cliente realmente recebeu. O cliente recebe menos que o nominal, mas os juros são calculados sobre o nominal: a taxa efetiva fica maior. Para N = 100: recebe 90 e paga 10 de juros em 2 meses ⇒ 10 ÷ (90 × 2) ≈ 5,56% ao mês.
 
-### 20
-Uma loja oferece um produto em 10 prestações mensais de R$ 1.200,00, sem entrada (a primeira vence em 30 dias). Com taxa de 5% ao mês e fator de valor presente 7,722, qual é o preço à vista equivalente?
+### 3
+<!-- modelo: d1 -->
+Um empréstimo de R$ 24.000,00 é pago pelo SAC em 12 parcelas mensais, com juros de 5% ao mês. Qual é o total de juros pago ao longo do financiamento?
 
-- A) R$ 12.000,00
-- B) R$ 8.000,00
-- C) R$ 9.729,72
-- D) R$ 10.800,00
-- E) R$ 9.266,40
+- A) R$ 6.600,00
+- B) R$ 15.600,00
+- C) R$ 1.200,00
+- D) R$ 14.400,00
+- E) R$ 7.800,00
 
 **Resposta:** E
 
-**Explicação:** Valor presente da série: PV = PMT × aₙ,ᵢ = 1.200 × 7,722 = R$ 9.266,40 (menor que R$ 12.000,00, a soma nominal).
+**Explicação:** Ferramenta: soma de uma PA. Os saldos sobre os quais incidem os juros formam uma PA decrescente. Soma dos saldos = (24.000 + 2.000) × 12 ÷ 2 = 156.000; 5% disso = R$ 7.800,00.
+
+### 4
+<!-- modelo: d1 -->
+Um empréstimo de R$ 18.000,00 é pago pelo SAC em 10 parcelas mensais, com juros de 5% ao mês. Qual é o total de juros pago ao longo do financiamento?
+
+- A) R$ 9.000,00
+- B) R$ 4.950,00
+- C) R$ 9.900,00
+- D) R$ 4.050,00
+- E) R$ 900,00
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: soma de uma PA. Os saldos sobre os quais incidem os juros formam uma PA decrescente. Soma dos saldos = (18.000 + 1.800) × 10 ÷ 2 = 99.000; 5% disso = R$ 4.950,00.
+
+### 5
+<!-- modelo: d3 -->
+Um título de R$ 9.900,00 é descontado 2 meses antes do vencimento à taxa simples de 2% ao mês. Qual é a diferença entre o desconto comercial e o desconto racional?
+
+- A) R$ 396,00
+- B) R$ 380,77
+- C) R$ 0,00
+- D) R$ 30,46
+- E) R$ 15,23
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: por fora x por dentro. O comercial usa a taxa sobre o valor maior (nominal), por isso é sempre maior. Comercial R$ 396,00; racional R$ 380,77; diferença R$ 15,23.
+
+### 6
+<!-- modelo: d3 -->
+Um título de R$ 18.700,00 é descontado 2 meses antes do vencimento à taxa simples de 2% ao mês. Qual é a diferença entre o desconto comercial e o desconto racional?
+
+- A) R$ 0,00
+- B) R$ 748,00
+- C) R$ 57,54
+- D) R$ 28,77
+- E) R$ 719,23
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: por fora x por dentro. O comercial usa a taxa sobre o valor maior (nominal), por isso é sempre maior. Comercial R$ 748,00; racional R$ 719,23; diferença R$ 28,77.
+
+### 7
+<!-- modelo: d5 -->
+Uma loja oferece um produto em 12 prestações mensais de R$ 200,00, sem entrada (a primeira vence em 30 dias). Com taxa de 2% ao mês e fator de valor presente 10,575, qual é o preço à vista equivalente?
+
+- A) R$ 2.400,00
+- B) R$ 2.115,00
+- C) R$ 2.157,30
+- D) R$ 1.935,48
+- E) R$ 2.200,00
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: valor presente de uma série. Cada prestação futura vale menos hoje; o fator já soma todas trazidas para a data zero. 200 × 10,575 = R$ 2.115,00 (menor que a soma nominal R$ 2.400,00).
+
+### 8
+<!-- modelo: d6 -->
+Um empréstimo de R$ 60.000,00 pela Tabela Price tem prestações de R$ 5.328,00 e juros de 1% ao mês. Qual é o saldo devedor logo após o pagamento da primeira prestação?
+
+- A) R$ 54.672,00
+- B) R$ 55.272,00
+- C) R$ 55.271,00
+- D) R$ 55.000,00
+- E) R$ 60.600,00
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: saldo anterior − amortização. A prestação paga primeiro os juros; só o que sobra reduz a dívida. Juros: R$ 600,00; amortização: R$ 4.728,00; saldo: R$ 55.272,00.
+
+### 9
+<!-- modelo: d4 -->
+Um financiamento de R$ 12.000,00 pelo Sistema Price, em 10 prestações de R$ 1.406,40, tem juros de 3% ao mês. Qual é o valor amortizado na primeira prestação?
+
+- A) R$ 360,00
+- B) R$ 1.406,40
+- C) R$ 1.046,40
+- D) R$ 1.766,40
+- E) R$ 1.200,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: amortização = prestação − juros. Os juros da 1ª prestação são a taxa sobre o valor financiado. R$ 1.406,40 − R$ 360,00 = R$ 1.046,40.
+
+### 10
+<!-- modelo: d5 -->
+Uma loja oferece um produto em 10 prestações mensais de R$ 2.000,00, sem entrada (a primeira vence em 30 dias). Com taxa de 2% ao mês e fator de valor presente 8,983, qual é o preço à vista equivalente?
+
+- A) R$ 17.966,00
+- B) R$ 18.000,00
+- C) R$ 16.666,67
+- D) R$ 20.000,00
+- E) R$ 18.325,32
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: valor presente de uma série. Cada prestação futura vale menos hoje; o fator já soma todas trazidas para a data zero. 2.000 × 8,983 = R$ 17.966,00 (menor que a soma nominal R$ 20.000,00).
