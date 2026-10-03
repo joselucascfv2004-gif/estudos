@@ -1,11 +1,11 @@
 ---
 nome: Espanhol
 area: Linguagens e Códigos
-emoji: 🇪🇸
+icone: translate-variant
 cor: #E0A800
 ordem: 12
 ---
 
-# 🇪🇸 Espanhol
+# Espanhol
 
 Leitura e compreensão de textos em espanhol.

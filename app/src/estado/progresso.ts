@@ -4,13 +4,14 @@
 import {
   Nivel,
   Questao,
-  Trilha,
   XP_POR_NIVEL,
   getQuestao,
   getTopico,
+  incidencia,
   questoesDoTopico,
-  topicosDaTrilha,
+  topicosDaProva,
 } from '../data/banco';
+import { provaDaTrilhaAntiga } from '../data/provas';
 import { diferencaDias, embaralhar, hoje, somarDias } from './datas';
 
 export const TAMANHO_LICAO = 10;
@@ -35,7 +36,10 @@ export type Progresso = {
   versao: number;
   onboarding: boolean;
   nome: string;
-  trilha: Trilha;
+  /** id da prova-alvo (ver data/provas.ts) */
+  prova: string;
+  /** campo antigo (versões anteriores), convertido em `prova` */
+  trilha?: string;
   metaDiaria: number;
   xpTotal: number;
   moedas: number;
@@ -77,7 +81,7 @@ export function estadoInicial(): Progresso {
     versao: 2,
     onboarding: false,
     nome: '',
-    trilha: 'ENEM',
+    prova: 'enem',
     metaDiaria: 200,
     xpTotal: 0,
     moedas: 20,
@@ -118,6 +122,8 @@ export function normalizar(salvo: Partial<Progresso> | null): Progresso {
     ofensiva: { ...base.ofensiva, ...salvo.ofensiva },
     lembrete: { ...base.lembrete, ...salvo.lembrete },
   } as Progresso;
+  if (!salvo.prova) p.prova = provaDaTrilhaAntiga(salvo.trilha ?? 'ENEM');
+  delete p.trilha;
   return (salvo.versao ?? 1) < 2 ? migrarParaV2(p) : p;
 }
 
@@ -248,9 +254,9 @@ export function desempenhoTopico(p: Progresso, topicoId: string): Desempenho {
   return { topicoId, respostas: h.length, acerto: h.length ? Math.round((acertos / h.length) * 100) : 0 };
 }
 
-/** Tópicos da trilha com acerto recente abaixo do limite, do pior para o melhor. */
-export function pontosFracos(p: Progresso, trilha: Trilha = p.trilha): Desempenho[] {
-  return topicosDaTrilha(trilha)
+/** Tópicos da prova com acerto recente abaixo do limite, do pior para o melhor. */
+export function pontosFracos(p: Progresso): Desempenho[] {
+  return topicosDaProva(p.prova)
     .map((t) => desempenhoTopico(p, t.id))
     .filter((d) => d.respostas >= MIN_RESPOSTAS_AVALIAR && d.acerto < LIMITE_PONTO_FRACO)
     .sort((a, b) => a.acerto - b.acerto || b.respostas - a.respostas);
@@ -272,40 +278,66 @@ export function acertoDisciplina(p: Progresso, disciplinaId: string): number | n
 
 const iniciado = (p: Progresso, topicoId: string) => !!p.topicos[topicoId] || !!p.recentes[topicoId];
 
-/**
- * Quantos assuntos por dia o aluno precisa ver para passar por todos antes da prova,
- * reservando a última semana para revisão.
- */
-export function assuntosPorDia(p: Progresso, dia = hoje()): number {
-  const faltam = topicosDaTrilha(p.trilha).filter((t) => !iniciado(p, t.id)).length;
-  if (!p.dataProva) return faltam ? 1 : 0;
+/** Máximo de assuntos novos por dia no plano. */
+export const MAX_ASSUNTOS_DIA = 4;
+
+/** Dias de estudo até a prova, reservando a última semana para revisão (null sem prazo). */
+function diasDeEstudo(p: Progresso, dia: string): number | null {
+  if (!p.dataProva) return null;
   const dias = diferencaDias(dia, p.dataProva);
   if (dias <= 0) return 0;
-  const uteis = dias > 14 ? dias - 7 : dias;
-  return Math.min(4, Math.max(faltam ? 1 : 0, Math.ceil(faltam / uteis)));
+  return dias > 14 ? dias - 7 : dias;
 }
 
-/** Escolhe os assuntos do dia: primeiro os nunca estudados (alternando disciplinas), depois os menos dominados. */
+/** Quantos assuntos por dia o aluno precisa ver para passar por todos antes da prova. */
+export function assuntosPorDia(p: Progresso, dia = hoje()): number {
+  const faltam = topicosDaProva(p.prova).filter((t) => !iniciado(p, t.id)).length;
+  const uteis = diasDeEstudo(p, dia);
+  if (uteis == null) return faltam ? 1 : 0;
+  if (uteis <= 0) return 0;
+  return Math.min(MAX_ASSUNTOS_DIA, Math.max(faltam ? 1 : 0, Math.ceil(faltam / uteis)));
+}
+
+export type Cobertura = { total: number; vistos: number; cabem: number; diasDeEstudo: number; porDia: number };
+
+/** Quantos assuntos da prova ainda cabem no prazo, no ritmo do plano (null sem prazo). */
+export function coberturaPrazo(p: Progresso, dia = hoje()): Cobertura | null {
+  const uteis = diasDeEstudo(p, dia);
+  if (uteis == null) return null;
+  const topicos = topicosDaProva(p.prova);
+  const faltam = topicos.filter((t) => !iniciado(p, t.id)).length;
+  const porDia = assuntosPorDia(p, dia);
+  return { total: topicos.length, vistos: topicos.length - faltam, cabem: Math.min(faltam, uteis * porDia), diasDeEstudo: uteis, porDia };
+}
+
+/**
+ * Escolhe os assuntos do dia: primeiro os nunca estudados, começando pelos que mais caem na prova
+ * (e alternando as disciplinas); depois, os menos dominados.
+ */
 export function gerarPlano(p: Progresso, dia = hoje()): string[] {
   const quantidade = Math.max(1, assuntosPorDia(p, dia));
   const fraco = pontosFracos(p)[0]?.topicoId;
+  const topicos = topicosDaProva(p.prova);
+  const peso = new Map(topicos.map((t) => [t.id, incidencia(t)]));
   const porDisciplina = new Map<string, string[]>();
-  for (const t of topicosDaTrilha(p.trilha)) {
+  for (const t of topicos) {
     const disc = t.id.split('/')[0];
     porDisciplina.set(disc, [...(porDisciplina.get(disc) ?? []), t.id]);
   }
   // intercala as disciplinas: 1º tópico de cada uma, depois o 2º de cada uma...
   const intercalados: string[] = [];
   const listas = [...porDisciplina.values()];
-  for (let i = 0; intercalados.length < listas.reduce((s, l) => s + l.length, 0); i++) {
+  for (let i = 0; intercalados.length < topicos.length; i++) {
     for (const l of listas) if (l[i]) intercalados.push(l[i]);
   }
+  // os assuntos que mais caem vêm primeiro (a ordenação é estável e mantém a alternância)
+  intercalados.sort((a, b) => (peso.get(b) ?? 3) - (peso.get(a) ?? 3));
   const novos = intercalados.filter((id) => !iniciado(p, id) && id !== fraco);
   const escolhidos = novos.slice(0, quantidade);
   if (escolhidos.length < quantidade) {
     const revisar = intercalados
       .filter((id) => iniciado(p, id) && id !== fraco)
-      .sort((a, b) => dominioTopico(p, a) - dominioTopico(p, b));
+      .sort((a, b) => dominioTopico(p, a) - dominioTopico(p, b) || (peso.get(b) ?? 3) - (peso.get(a) ?? 3));
     escolhidos.push(...revisar.slice(0, quantidade - escolhidos.length));
   }
   return escolhidos;
@@ -391,7 +423,7 @@ export function montarLicaoTopico(p: Progresso, topicoId: string, nivel: Nivel):
 }
 
 export function montarDesafio(p: Progresso): Questao[] {
-  const topicos = embaralhar(topicosDaTrilha(p.trilha));
+  const topicos = embaralhar(topicosDaProva(p.prova));
   const escolhidas: Questao[] = [];
   // nível proporcional ao avanço do aluno: mais difícil conforme ganha XP
   const { nivel } = nivelDoUsuario(p.xpTotal);
@@ -432,7 +464,7 @@ export function montarPontosFracos(p: Progresso, topicoId?: string): Questao[] {
 }
 
 export function montarTreino(p: Progresso, disciplinaId?: string): Questao[] {
-  const topicos = topicosDaTrilha(p.trilha).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/'));
+  const topicos = topicosDaProva(p.prova).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/'));
   const candidatas = topicos.flatMap((t) =>
     ([0, 1, 2] as Nivel[]).filter((n) => nivelDesbloqueado(p, t.id, n)).flatMap((n) => questoesDoTopico(t.id, n)),
   );
@@ -451,30 +483,30 @@ export type ResumoLicao = {
   comboMax: number;
 };
 
-export type Conquista = { id: string; titulo: string; descricao: string; emoji: string; ok: (p: Progresso) => boolean };
+export type Conquista = { id: string; titulo: string; descricao: string; icone: string; ok: (p: Progresso) => boolean };
 
 const respondidas = (p: Progresso) => Object.values(p.questoes).reduce((s, q) => s + q.acertos + q.erros, 0);
 const disciplinasEstudadas = (p: Progresso) =>
   new Set(Object.keys(p.questoes).map((id) => id.split('/')[0])).size;
 
 export const CONQUISTAS: Conquista[] = [
-  { id: 'primeira', emoji: '🌱', titulo: 'Primeiro passo', descricao: 'Conclua sua primeira lição', ok: (p) => p.totalLicoes >= 1 },
-  { id: 'perfeita', emoji: '🎯', titulo: 'Gabaritou!', descricao: 'Acerte todas as questões de uma lição', ok: (p) => p.licoesPerfeitas >= 1 },
-  { id: 'ofensiva3', emoji: '🔥', titulo: 'Esquentando', descricao: 'Ofensiva de 3 dias', ok: (p) => p.ofensiva.recorde >= 3 },
-  { id: 'ofensiva7', emoji: '📅', titulo: 'Uma semana firme', descricao: 'Ofensiva de 7 dias', ok: (p) => p.ofensiva.recorde >= 7 },
-  { id: 'ofensiva30', emoji: '🏆', titulo: 'Hábito criado', descricao: 'Ofensiva de 30 dias', ok: (p) => p.ofensiva.recorde >= 30 },
-  { id: 'ofensiva100', emoji: '💯', titulo: 'Imparável', descricao: 'Ofensiva de 100 dias', ok: (p) => p.ofensiva.recorde >= 100 },
-  { id: 'q100', emoji: '✏️', titulo: 'Centena', descricao: 'Responda 100 questões', ok: (p) => respondidas(p) >= 100 },
-  { id: 'q500', emoji: '📝', titulo: 'Maratonista', descricao: 'Responda 500 questões', ok: (p) => respondidas(p) >= 500 },
-  { id: 'q1000', emoji: '🧠', titulo: 'Mil questões', descricao: 'Responda 1.000 questões', ok: (p) => respondidas(p) >= 1000 },
-  { id: 'xp5000', emoji: '⚡', titulo: 'Energia pura', descricao: 'Acumule 5.000 XP', ok: (p) => p.xpTotal >= 5000 },
-  { id: 'xp50000', emoji: '🚀', titulo: 'Rumo à aprovação', descricao: 'Acumule 50.000 XP', ok: (p) => p.xpTotal >= 50000 },
-  { id: 'dificil', emoji: '💪', titulo: 'Destemido', descricao: 'Conclua uma lição de nível difícil', ok: (p) => p.licoesDificeis >= 1 },
-  { id: 'revisao', emoji: '🔁', titulo: 'Aprendendo com os erros', descricao: 'Conclua uma revisão', ok: (p) => p.revisoesFeitas >= 1 },
-  { id: 'revisao20', emoji: '🐘', titulo: 'Memória de elefante', descricao: 'Conclua 20 revisões', ok: (p) => p.revisoesFeitas >= 20 },
-  { id: 'combo10', emoji: '🎰', titulo: 'Em chamas', descricao: 'Acerte 10 questões seguidas', ok: (p) => p.comboRecorde >= 10 },
-  { id: 'explorador', emoji: '🧭', titulo: 'Explorador', descricao: 'Estude 5 disciplinas diferentes', ok: (p) => disciplinasEstudadas(p) >= 5 },
-  { id: 'poliglota', emoji: '🌐', titulo: 'Enciclopédia', descricao: 'Estude 12 disciplinas diferentes', ok: (p) => disciplinasEstudadas(p) >= 12 },
+  { id: 'primeira', icone: 'sprout-outline', titulo: 'Primeiro passo', descricao: 'Conclua sua primeira lição', ok: (p) => p.totalLicoes >= 1 },
+  { id: 'perfeita', icone: 'target', titulo: 'Gabaritou!', descricao: 'Acerte todas as questões de uma lição', ok: (p) => p.licoesPerfeitas >= 1 },
+  { id: 'ofensiva3', icone: 'fire', titulo: 'Esquentando', descricao: 'Ofensiva de 3 dias', ok: (p) => p.ofensiva.recorde >= 3 },
+  { id: 'ofensiva7', icone: 'calendar-check-outline', titulo: 'Uma semana firme', descricao: 'Ofensiva de 7 dias', ok: (p) => p.ofensiva.recorde >= 7 },
+  { id: 'ofensiva30', icone: 'trophy-outline', titulo: 'Hábito criado', descricao: 'Ofensiva de 30 dias', ok: (p) => p.ofensiva.recorde >= 30 },
+  { id: 'ofensiva100', icone: 'trophy-award', titulo: 'Imparável', descricao: 'Ofensiva de 100 dias', ok: (p) => p.ofensiva.recorde >= 100 },
+  { id: 'q100', icone: 'pencil-outline', titulo: 'Centena', descricao: 'Responda 100 questões', ok: (p) => respondidas(p) >= 100 },
+  { id: 'q500', icone: 'run-fast', titulo: 'Maratonista', descricao: 'Responda 500 questões', ok: (p) => respondidas(p) >= 500 },
+  { id: 'q1000', icone: 'brain', titulo: 'Mil questões', descricao: 'Responda 1.000 questões', ok: (p) => respondidas(p) >= 1000 },
+  { id: 'xp5000', icone: 'lightning-bolt', titulo: 'Energia pura', descricao: 'Acumule 5.000 XP', ok: (p) => p.xpTotal >= 5000 },
+  { id: 'xp50000', icone: 'rocket-launch-outline', titulo: 'Rumo à aprovação', descricao: 'Acumule 50.000 XP', ok: (p) => p.xpTotal >= 50000 },
+  { id: 'dificil', icone: 'arm-flex-outline', titulo: 'Destemido', descricao: 'Conclua uma lição de nível difícil', ok: (p) => p.licoesDificeis >= 1 },
+  { id: 'revisao', icone: 'refresh', titulo: 'Aprendendo com os erros', descricao: 'Conclua uma revisão', ok: (p) => p.revisoesFeitas >= 1 },
+  { id: 'revisao20', icone: 'memory', titulo: 'Memória de elefante', descricao: 'Conclua 20 revisões', ok: (p) => p.revisoesFeitas >= 20 },
+  { id: 'combo10', icone: 'fire-circle', titulo: 'Em chamas', descricao: 'Acerte 10 questões seguidas', ok: (p) => p.comboRecorde >= 10 },
+  { id: 'explorador', icone: 'compass-outline', titulo: 'Explorador', descricao: 'Estude 5 disciplinas diferentes', ok: (p) => disciplinasEstudadas(p) >= 5 },
+  { id: 'poliglota', icone: 'earth', titulo: 'Enciclopédia', descricao: 'Estude 12 disciplinas diferentes', ok: (p) => disciplinasEstudadas(p) >= 12 },
 ];
 
 export type EventosLicao = {
@@ -612,11 +644,11 @@ function manterUltimosDias<T>(registro: Record<string, T>, dia: string, dias = 1
 export const MINUTOS_POR_QUESTAO = 3;
 
 /**
- * Monta um simulado: questões de todos os tópicos da trilha (ou de uma disciplina), com cerca de
+ * Monta um simulado: questões de todos os tópicos da prova (ou de uma disciplina), com cerca de
  * 30% fáceis, 40% médias e 30% difíceis, espalhadas entre os tópicos.
  */
 export function montarSimulado(p: Progresso, quantidade: number, disciplinaId?: string): Questao[] {
-  const topicos = embaralhar(topicosDaTrilha(p.trilha).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/')));
+  const topicos = embaralhar(topicosDaProva(p.prova).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/')));
   if (!topicos.length) return [];
   const faceis = Math.round(quantidade * 0.3);
   const dificeis = Math.round(quantidade * 0.3);

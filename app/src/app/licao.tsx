@@ -22,6 +22,7 @@ import {
   xpDaResposta,
 } from '../estado/progresso';
 import { Barra, Botao } from '../ui/componentes';
+import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 
@@ -97,7 +98,7 @@ export default function Licao() {
   if (!inicial.length) {
     return (
       <SafeAreaView style={[s.tela, s.centro]}>
-        <Text style={{ fontSize: 60 }}>{modo === 'revisao' ? '✨' : '📭'}</Text>
+        <Icone nome={modo === 'revisao' ? 'check-all' : 'inbox-outline'} tamanho={72} cor={modo === 'revisao' ? c.verde : c.cinza} />
         <Text style={s.fimTitulo}>{modo === 'revisao' ? 'Nada para revisar hoje!' : 'Sem questões aqui'}</Text>
         <Text style={s.fimSub}>
           {modo === 'revisao'
@@ -163,12 +164,16 @@ export default function Licao() {
     <SafeAreaView style={s.tela}>
       <View style={s.topo}>
         <Pressable testID="btn-sair" onPress={() => setSair(true)} hitSlop={12}>
-          <Text style={s.fechar}>✕</Text>
+          <Icone nome="close" tamanho={28} cor={c.cinza} />
         </Pressable>
         <View style={{ flex: 1 }}>
           <Barra valor={progresso} altura={16} />
         </View>
-        {combo >= 2 && <Text style={s.combo}>🔥{combo}</Text>}
+        {combo >= 2 && (
+          <ComIcone icone="fire" cor={c.laranja} tamanho={20} estilo={{ gap: 2 }} estiloTexto={s.combo}>
+            {combo}
+          </ComIcone>
+        )}
       </View>
 
       <ScrollView ref={rolagem} contentContainerStyle={s.corpo}>
@@ -214,10 +219,15 @@ export default function Licao() {
         </View>
       ) : (
         <View style={[s.rodape, s.painel, { backgroundColor: acertou ? c.verdeClaro : c.vermelhoClaro }]}>
-          <Text style={[s.painelTitulo, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}>
-            {acertou ? `✅ ${elogio}` : `❌ Resposta correta: ${LETRAS[corretaExibida]}`}
+          <ComIcone
+            icone={acertou ? 'check-circle' : 'close-circle'}
+            cor={acertou ? c.verdeEscuro : c.vermelhoEscuro}
+            tamanho={24}
+            estiloTexto={[s.painelTitulo, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}
+          >
+            {acertou ? elogio : `Resposta correta: ${LETRAS[corretaExibida]}`}
             {acertou && !item.repeticao ? `  +${xpDaResposta(q, combo, modo)} XP` : ''}
-          </Text>
+          </ComIcone>
           <ScrollView style={{ maxHeight: 170 }}>
             <Text style={[s.explicacao, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}>{q.x}</Text>
             {q.f ? <Text style={s.fonte}>Fonte: {q.f}</Text> : null}
@@ -236,7 +246,7 @@ export default function Licao() {
       <Modal visible={sair} transparent animationType="fade" onRequestClose={() => setSair(false)}>
         <View style={s.modalFundo}>
           <View style={s.modal}>
-            <Text style={{ fontSize: 48, textAlign: 'center' }}>😢</Text>
+            <Icone nome="emoticon-sad-outline" tamanho={56} cor={c.textoSuave} estilo={{ textAlign: 'center' }} />
             <Text style={s.modalTitulo}>Espera, não vá embora!</Text>
             <Text style={s.modalTexto}>Se sair agora, você perde o XP desta lição.</Text>
             <Botao titulo="Continuar estudando" cor={c.azul} onPress={() => setSair(false)} />
@@ -264,19 +274,23 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
   const { ev } = fim;
   const pct = ev.total ? Math.round((ev.acertos / ev.total) * 100) : 0;
   const perfeita = ev.total > 0 && ev.acertos === ev.total;
-  const destaques: string[] = [];
-  if (ev.ofensivaAumentou) destaques.push(`🔥 Ofensiva de ${p.ofensiva.atual} dia${p.ofensiva.atual > 1 ? 's' : ''}!`);
-  if (ev.metaBatidaAgora) destaques.push('🎯 Meta diária batida! +10 💎');
-  if (ev.bonusDesafio) destaques.push(`⚔️ Bônus do desafio: +${ev.bonusDesafio} XP`);
-  if (perfeita) destaques.push(`🎯 Lição perfeita: +${BONUS_PERFEITA} XP`);
-  if (ev.subiuDeNivel) destaques.push(`⭐ Você subiu para o nível ${nivelDoUsuario(p.xpTotal).nivel}!`);
-  if (ev.desbloqueouNivel != null) destaques.push(`🔓 Nível ${NOMES_NIVEL[ev.desbloqueouNivel]} desbloqueado!`);
-  for (const c of ev.novasConquistas) destaques.push(`${c.emoji} Conquista: ${c.titulo}`);
+  const destaques: { icone: string; texto: string }[] = [];
+  if (ev.ofensivaAumentou) destaques.push({ icone: 'fire', texto: `Ofensiva de ${p.ofensiva.atual} dia${p.ofensiva.atual > 1 ? 's' : ''}!` });
+  if (ev.metaBatidaAgora) destaques.push({ icone: 'target', texto: 'Meta diária batida! +10 moedas' });
+  if (ev.bonusDesafio) destaques.push({ icone: 'sword-cross', texto: `Bônus do desafio: +${ev.bonusDesafio} XP` });
+  if (perfeita) destaques.push({ icone: 'bullseye-arrow', texto: `Lição perfeita: +${BONUS_PERFEITA} XP` });
+  if (ev.subiuDeNivel) destaques.push({ icone: 'star', texto: `Você subiu para o nível ${nivelDoUsuario(p.xpTotal).nivel}!` });
+  if (ev.desbloqueouNivel != null) destaques.push({ icone: 'lock-open-variant-outline', texto: `Nível ${NOMES_NIVEL[ev.desbloqueouNivel]} desbloqueado!` });
+  for (const cq of ev.novasConquistas) destaques.push({ icone: cq.icone, texto: `Conquista: ${cq.titulo}` });
 
   return (
     <SafeAreaView style={s.tela}>
       <ScrollView contentContainerStyle={[s.centro, { padding: 24, flexGrow: 1 }]}>
-        <Text style={{ fontSize: 80 }}>{perfeita ? '🏆' : pct >= 70 ? '🎉' : pct >= 40 ? '💪' : '📚'}</Text>
+        <Icone
+          nome={perfeita ? 'trophy' : pct >= 70 ? 'party-popper' : pct >= 40 ? 'arm-flex-outline' : 'book-open-variant'}
+          tamanho={88}
+          cor={perfeita ? c.amarelo : pct >= 70 ? c.verde : c.azul}
+        />
         <Text style={s.fimTitulo}>{perfeita ? 'Perfeito!' : pct >= 70 ? 'Lição concluída!' : 'Continue praticando!'}</Text>
         <Text style={s.fimSub}>
           {pct >= 70
@@ -288,10 +302,10 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
           <Caixa titulo="Acertos" valor={`${pct}%`} cor={c.verde} />
           <Caixa titulo="Moedas" valor={`+${ev.moedasGanhas}`} cor={c.azul} />
         </View>
-        {destaques.map((t) => (
-          <Text key={t} style={s.destaque}>
-            {t}
-          </Text>
+        {destaques.map((d) => (
+          <ComIcone key={d.texto} icone={d.icone} cor={c.laranja} estiloTexto={s.destaque} estilo={{ alignSelf: 'center' }}>
+            {d.texto}
+          </ComIcone>
         ))}
       </ScrollView>
       <View style={s.rodape}>
@@ -316,7 +330,6 @@ const useEstilos = criarEstilos((c) => ({
   tela: { flex: 1, backgroundColor: c.fundo },
   centro: { alignItems: 'center', justifyContent: 'center' },
   topo: { flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 12 },
-  fechar: { fontSize: 24, color: c.cinza, fontWeight: '800' },
   combo: { fontSize: 16, fontWeight: '800', color: c.laranja },
   corpo: { padding: 18, paddingTop: 6 },
   etiquetas: { flexDirection: 'row', alignItems: 'center', gap: 8, marginBottom: 12 },

@@ -84,9 +84,9 @@ export function criarEstilos<T extends StyleSheet.NamedStyles<T>>(fn: (c: Paleta
 }
 
 export const coresNivel = [
-  { cor: '#58CC02', escura: '#58A700', clara: '#D7FFB8', emoji: '🟢' },
-  { cor: '#FFB100', escura: '#E59A00', clara: '#FFF1C7', emoji: '🟡' },
-  { cor: '#FF4B4B', escura: '#EA2B2B', clara: '#FFDFE0', emoji: '🔴' },
+  { cor: '#58CC02', escura: '#58A700', clara: '#D7FFB8', icone: 'signal-cellular-1' },
+  { cor: '#FFB100', escura: '#E59A00', clara: '#FFF1C7', icone: 'signal-cellular-2' },
+  { cor: '#FF4B4B', escura: '#EA2B2B', clara: '#FFDFE0', icone: 'signal-cellular-3' },
 ];
 
 /** Escurece uma cor hex (para a "borda 3D" dos botões). */

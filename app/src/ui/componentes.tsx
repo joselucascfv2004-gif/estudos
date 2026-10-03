@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { ReactNode } from 'react';
 import { Pressable, StyleProp, Text, View, ViewStyle } from 'react-native';
 
+import { Icone } from './Icone';
 import { cores, criarEstilos, escurecer, useCores } from './tema';
 
 type BotaoProps = {
@@ -14,10 +15,12 @@ type BotaoProps = {
   estilo?: StyleProp<ViewStyle>;
   pequeno?: boolean;
   testID?: string;
+  /** ícone opcional antes do texto */
+  icone?: string;
 };
 
 /** Botão "3D" no estilo dos apps gamificados. */
-export function Botao({ titulo, onPress, cor = cores.verde, corTexto, contorno, desativado, estilo, pequeno, testID }: BotaoProps) {
+export function Botao({ titulo, onPress, cor = cores.verde, corTexto, contorno, desativado, estilo, pequeno, testID, icone }: BotaoProps) {
   const c = useCores();
   const styles = useEstilos();
   const fundo = desativado ? c.cinzaClaro : contorno ? c.fundo : cor;
@@ -37,7 +40,10 @@ export function Botao({ titulo, onPress, cor = cores.verde, corTexto, contorno, 
         estilo,
       ]}
     >
-      <Text style={[styles.botaoTexto, pequeno && { fontSize: 14 }, { color: texto }]}>{titulo.toUpperCase()}</Text>
+      <View style={{ flexDirection: 'row', alignItems: 'center', gap: 8 }}>
+        {icone ? <Icone nome={icone} tamanho={pequeno ? 16 : 20} cor={texto} /> : null}
+        <Text style={[styles.botaoTexto, pequeno && { fontSize: 14 }, { color: texto, flexShrink: 1, textAlign: 'center' }]}>{titulo.toUpperCase()}</Text>
+      </View>
     </Pressable>
   );
 }
@@ -67,29 +73,18 @@ export function Cartao({ children, estilo, onPress, testID }: { children: ReactN
   );
 }
 
-export function Chip({ texto, ativo, onPress, cor = cores.azul }: { texto: string; ativo?: boolean; onPress?: () => void; cor?: string }) {
+export function Chip({ texto, ativo, onPress, cor = cores.azul, icone, testID }: { texto: string; ativo?: boolean; onPress?: () => void; cor?: string; icone?: string; testID?: string }) {
   const c = useCores();
   const styles = useEstilos();
   return (
     <Pressable
+      testID={testID}
       onPress={onPress}
       style={[styles.chip, ativo ? { backgroundColor: cor, borderColor: escurecer(cor) } : { backgroundColor: c.fundo, borderColor: c.borda }]}
     >
+      {icone ? <Icone nome={icone} tamanho={16} cor={ativo ? '#FFF' : c.textoSuave} /> : null}
       <Text style={[styles.chipTexto, { color: ativo ? '#FFF' : c.textoSuave }]}>{texto}</Text>
     </Pressable>
-  );
-}
-
-export function Estatistica({ emoji, valor, rotulo, cor }: { emoji: string; valor: string | number; rotulo?: string; cor?: string }) {
-  const styles = useEstilos();
-  return (
-    <View style={styles.estat}>
-      <Text style={styles.estatEmoji}>{emoji}</Text>
-      <View>
-        <Text style={[styles.estatValor, cor ? { color: cor } : null]}>{valor}</Text>
-        {rotulo ? <Text style={styles.estatRotulo}>{rotulo}</Text> : null}
-      </View>
-    </View>
   );
 }
 
@@ -99,13 +94,14 @@ export function Titulo({ children, estilo }: { children: ReactNode; estilo?: obj
 }
 
 /** Barra de topo com botão de voltar, para telas fora das abas. */
-export function Cabecalho({ titulo, direita }: { titulo: string; direita?: ReactNode }) {
+export function Cabecalho({ titulo, direita, icone }: { titulo: string; direita?: ReactNode; icone?: string }) {
   const c = useCores();
   return (
     <View style={{ flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 12, borderBottomWidth: 2, borderBottomColor: c.borda }}>
       <Pressable testID="btn-voltar" onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))} hitSlop={12}>
-        <Text style={{ fontSize: 26, fontWeight: '800', color: c.textoSuave }}>←</Text>
+        <Icone nome="arrow-left" tamanho={26} cor={c.textoSuave} />
       </Pressable>
+      {icone ? <Icone nome={icone} tamanho={22} cor={c.texto} /> : null}
       <Text style={{ flex: 1, fontSize: 20, fontWeight: '800', color: c.texto }} numberOfLines={1}>
         {titulo}
       </Text>
@@ -133,11 +129,7 @@ export const useEstilos = criarEstilos((c) => ({
     borderColor: c.borda,
     padding: 16,
   },
-  chip: { paddingHorizontal: 14, paddingVertical: 8, borderRadius: 20, borderWidth: 2, borderBottomWidth: 3, marginRight: 8 },
+  chip: { flexDirection: 'row', alignItems: 'center', gap: 6, paddingHorizontal: 14, paddingVertical: 8, borderRadius: 20, borderWidth: 2, borderBottomWidth: 3, marginRight: 8 },
   chipTexto: { fontWeight: '800', fontSize: 13 },
-  estat: { flexDirection: 'row', alignItems: 'center', gap: 6 },
-  estatEmoji: { fontSize: 22 },
-  estatValor: { fontSize: 17, fontWeight: '800', color: c.texto },
-  estatRotulo: { fontSize: 11, color: c.textoSuave, fontWeight: '600' },
   titulo: { fontSize: 22, fontWeight: '800', color: c.texto },
 }));

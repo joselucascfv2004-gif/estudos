@@ -1,13 +1,14 @@
 import { Redirect, Tabs } from 'expo-router';
-import { ActivityIndicator, Text, View } from 'react-native';
+import { ActivityIndicator, ColorValue, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useProgresso } from '../../estado/ProgressoContext';
+import { Icone } from '../../ui/Icone';
 import { cores, useCores } from '../../ui/tema';
 
-const icone = (emoji: string) =>
-  function Icone({ focused }: { focused: boolean }) {
-    return <Text style={{ fontSize: 22, opacity: focused ? 1 : 0.5 }}>{emoji}</Text>;
+const icone = (nome: string, nomeAtivo: string) =>
+  function IconeAba({ focused, color }: { focused: boolean; color: ColorValue }) {
+    return <Icone nome={focused ? nomeAtivo : nome} tamanho={26} cor={String(color)} />;
   };
 
 export default function AbasLayout() {
@@ -41,10 +42,10 @@ export default function AbasLayout() {
         },
       }}
     >
-      <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: icone('🏠') }} />
-      <Tabs.Screen name="praticar" options={{ title: 'Treinar', tabBarIcon: icone('🎯') }} />
-      <Tabs.Screen name="conquistas" options={{ title: 'Progresso', tabBarIcon: icone('📈') }} />
-      <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icone('👤') }} />
+      <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: icone('home-outline', 'home') }} />
+      <Tabs.Screen name="praticar" options={{ title: 'Treinar', tabBarIcon: icone('target', 'target') }} />
+      <Tabs.Screen name="conquistas" options={{ title: 'Progresso', tabBarIcon: icone('chart-line', 'chart-line') }} />
+      <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icone('account-outline', 'account') }} />
     </Tabs>
   );
 }

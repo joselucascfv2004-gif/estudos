@@ -7,6 +7,7 @@ import { getQuestao, getTopico } from '../data/banco';
 import { useProgresso } from '../estado/ProgressoContext';
 import { Botao, Cabecalho, Cartao } from '../ui/componentes';
 import { AcoesQuestao } from '../ui/salvar';
+import { ComIcone, Icone } from '../ui/Icone';
 import { criarEstilos, useCores } from '../ui/tema';
 
 const LETRAS = 'ABCDE';
@@ -23,14 +24,14 @@ export default function Salvas() {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
-      <Cabecalho titulo="⭐ Questões salvas" />
+      <Cabecalho titulo="Questões salvas" icone="star-outline" />
       <ScrollView contentContainerStyle={{ padding: 16, gap: 12 }}>
         {ids.length === 0 ? (
           <View style={{ alignItems: 'center', padding: 24 }}>
-            <Text style={{ fontSize: 56 }}>⭐</Text>
+            <Icone nome="star-outline" tamanho={64} cor={c.amarelo} />
             <Text style={s.vazioTitulo}>Nenhuma questão salva</Text>
             <Text style={s.vazioTexto}>
-              Durante as lições, toque em "☆ Salvar" ou "📝 Anotar" depois de responder. As questões aparecem aqui para você rever quando quiser.
+              Durante as lições, toque em "Salvar" ou "Anotar" depois de responder. As questões aparecem aqui para você rever quando quiser.
             </Text>
           </View>
         ) : (
@@ -50,9 +51,9 @@ export default function Salvas() {
               return (
                 <Cartao key={id}>
                   <Pressable onPress={() => setAberta(expandida ? null : id)}>
-                    <Text style={s.topico}>
-                      {t?.disciplina.emoji} {t?.topico.titulo}
-                    </Text>
+                    <ComIcone icone={t?.disciplina.icone ?? 'book-outline'} cor={t?.disciplina.cor} tamanho={16} estilo={{ gap: 6 }} estiloTexto={s.topico}>
+                      {t?.topico.titulo}
+                    </ComIcone>
                     <Text style={s.enunciado} numberOfLines={expandida ? undefined : 4}>
                       {q.e}
                     </Text>
@@ -61,7 +62,7 @@ export default function Salvas() {
                         {q.a.map((alt, i) => (
                           <Text key={i} style={[s.alt, i === q.c && s.altCerta]}>
                             {LETRAS[i]}) {alt}
-                            {i === q.c ? '  ✅' : ''}
+                            {i === q.c ? '  (correta)' : ''}
                           </Text>
                         ))}
                         <Text style={s.explicacao}>{q.x}</Text>
@@ -72,7 +73,9 @@ export default function Salvas() {
                   </Pressable>
                   {!!nota && (
                     <View style={s.nota}>
-                      <Text style={s.notaTexto}>📝 {nota}</Text>
+                      <ComIcone icone="note-text-outline" cor={c.texto} tamanho={18} estiloTexto={s.notaTexto}>
+                        {nota}
+                      </ComIcone>
                     </View>
                   )}
                   <AcoesQuestao id={id} claro />

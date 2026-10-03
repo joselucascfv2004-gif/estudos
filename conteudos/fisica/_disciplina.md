@@ -1,11 +1,11 @@
 ---
 nome: Física
 area: Ciências da Natureza
-emoji: ⚡
+icone: lightning-bolt
 cor: #FF9600
 ordem: 2
 ---
 
-# ⚡ Física
+# Física
 
 Mecânica, energia, termologia, eletricidade, ondas e óptica.

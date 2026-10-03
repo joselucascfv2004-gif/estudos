@@ -6,6 +6,7 @@ import { getTopico } from '../data/banco';
 import { useProgresso } from '../estado/ProgressoContext';
 import { nivelSugerido } from '../estado/progresso';
 import { Botao, Cabecalho } from './componentes';
+import { ComIcone } from './Icone';
 import { criarEstilos, useCores } from './tema';
 
 /** Texto com trechos em **negrito**. */
@@ -37,11 +38,11 @@ export default function TelaResumo() {
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
-      <Cabecalho titulo={`📖 ${info.topico.titulo}`} />
+      <Cabecalho titulo={info.topico.titulo} icone="book-open-variant" />
       <ScrollView contentContainerStyle={{ padding: 18, paddingBottom: 30 }}>
-        <Text style={s.disciplina}>
-          {info.disciplina.emoji} {info.disciplina.nome} · resumo em 2 minutos
-        </Text>
+        <ComIcone icone={info.disciplina.icone} cor={info.disciplina.cor} tamanho={18} estiloTexto={s.disciplina}>
+          {info.disciplina.nome} · resumo em 2 minutos
+        </ComIcone>
         {linhas.map((linha, i) => {
           const t = linha.trim();
           if (!t) return <View key={i} style={{ height: 8 }} />;

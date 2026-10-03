@@ -4,10 +4,12 @@ import { Modal, Pressable, Text, TextInput, View } from 'react-native';
 import { hoje } from '../estado/datas';
 import { useProgresso } from '../estado/ProgressoContext';
 import { Botao } from './componentes';
+import { ComIcone } from './Icone';
 import { criarEstilos, useCores } from './tema';
 
 /** Botões "Salvar" (estrela) e "Anotar" de uma questão. */
 export function AcoesQuestao({ id, claro }: { id: string; claro?: boolean }) {
+  const c = useCores();
   const s = useEstilos();
   const { p, atualizar } = useProgresso();
   const [anotando, setAnotando] = useState(false);
@@ -25,10 +27,14 @@ export function AcoesQuestao({ id, claro }: { id: string; claro?: boolean }) {
   return (
     <View style={s.acoes}>
       <Pressable testID="btn-salvar" onPress={alternar} style={[s.acao, claro && s.acaoClara]} hitSlop={6}>
-        <Text style={s.acaoTexto}>{salva ? '⭐ Salva' : '☆ Salvar'}</Text>
+        <ComIcone icone={salva ? 'star' : 'star-outline'} cor={salva ? c.amarelo : c.texto} tamanho={18} estilo={{ gap: 4 }} estiloTexto={s.acaoTexto}>
+          {salva ? 'Salva' : 'Salvar'}
+        </ComIcone>
       </Pressable>
       <Pressable testID="btn-anotar" onPress={() => setAnotando(true)} style={[s.acao, claro && s.acaoClara]} hitSlop={6}>
-        <Text style={s.acaoTexto}>{salva?.nota ? '📝 Ver anotação' : '📝 Anotar'}</Text>
+        <ComIcone icone="note-edit-outline" cor={c.texto} tamanho={18} estilo={{ gap: 4 }} estiloTexto={s.acaoTexto}>
+          {salva?.nota ? 'Ver anotação' : 'Anotar'}
+        </ComIcone>
       </Pressable>
       <ModalNota id={id} visivel={anotando} fechar={() => setAnotando(false)} />
     </View>
@@ -46,7 +52,9 @@ export function ModalNota({ id, visivel, fechar }: { id: string; visivel: boolea
     <Modal visible={visivel} transparent animationType="fade" onRequestClose={fechar} onShow={() => setTexto(p.salvas[id]?.nota ?? '')}>
       <View style={s.fundo}>
         <View style={s.caixa}>
-          <Text style={s.titulo}>📝 Minha anotação</Text>
+          <ComIcone icone="note-edit-outline" cor={c.texto} tamanho={22} estiloTexto={s.titulo}>
+            Minha anotação
+          </ComIcone>
           <Text style={s.sub}>Escreva o macete, a fórmula ou o motivo do erro. A questão fica salva em "Questões salvas".</Text>
           <TextInput
             testID="input-nota"

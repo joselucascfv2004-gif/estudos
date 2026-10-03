@@ -1,11 +1,11 @@
 ---
 nome: Química
 area: Ciências da Natureza
-emoji: ⚗️
+icone: flask-outline
 cor: #A560E8
 ordem: 3
 ---
 
-# ⚗️ Química
+# Química
 
 Atomística, ligações, estequiometria, soluções, orgânica, físico-química e química ambiental.

@@ -3,12 +3,13 @@ import { useEffect } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { disciplinasDaTrilha, getTopico } from '../../data/banco';
-import { TRILHAS } from '../../data/trilhas';
+import { disciplinasDaProva, getTopico } from '../../data/banco';
+import { getProva } from '../../data/provas';
 import { diferencaDias, hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
   BONUS_DESAFIO,
+  coberturaPrazo,
   dominioTopico,
   estudouHoje,
   estudouTopicoHoje,
@@ -19,7 +20,8 @@ import {
   xpHoje,
 } from '../../estado/progresso';
 import { BarraStatus } from '../../ui/BarraStatus';
-import { Barra, Botao, Cartao, Chip } from '../../ui/componentes';
+import { Barra, Botao, Cartao } from '../../ui/componentes';
+import { ComIcone, Icone } from '../../ui/Icone';
 import { clarear, criarEstilos, useCores } from '../../ui/tema';
 
 
@@ -27,7 +29,8 @@ export default function Inicio() {
   const c = useCores();
   const s = useEstilos();
   const { p, atualizar, aviso, limparAviso } = useProgresso();
-  const lista = disciplinasDaTrilha(p.trilha);
+  const prova = getProva(p.prova);
+  const lista = disciplinasDaProva(p.prova);
   const xp = xpHoje(p);
   const desafioFeito = !!p.desafiosFeitos[hoje()];
   const ultimo = p.ultimoTopico ? getTopico(p.ultimoTopico) : undefined;
@@ -38,6 +41,7 @@ export default function Inicio() {
   const infoFraco = fraco ? getTopico(fraco.topicoId) : undefined;
   const dia = hoje();
   const diasProva = p.dataProva ? diferencaDias(dia, p.dataProva) : null;
+  const cobertura = coberturaPrazo(p, dia);
 
   // o plano é gerado uma vez por dia, para os itens não mudarem enquanto o aluno estuda
   useEffect(() => {
@@ -63,24 +67,29 @@ export default function Inicio() {
       <ScrollView contentContainerStyle={s.conteudo}>
         {aviso && (
           <Cartao estilo={[s.aviso, aviso.tipo === 'perdeu' && { backgroundColor: c.vermelhoClaro, borderColor: c.vermelho }]} onPress={limparAviso}>
-            <Text style={s.avisoTexto}>
+            <ComIcone icone={aviso.tipo === 'protetor' ? 'shield-check-outline' : 'fire-off'} estiloTexto={s.avisoTexto}>
               {aviso.tipo === 'protetor'
-                ? `🛡️ Seu protetor de ofensiva foi usado (${aviso.dias} dia${aviso.dias === 1 ? '' : 's'}). A ofensiva continua!`
-                : '💔 Você perdeu sua ofensiva. Faça uma lição hoje para começar uma nova!'}
-            </Text>
+                ? `Seu protetor de ofensiva foi usado (${aviso.dias} dia${aviso.dias === 1 ? '' : 's'}). A ofensiva continua!`
+                : 'Você perdeu sua ofensiva. Faça uma lição hoje para começar uma nova!'}
+            </ComIcone>
             <Text style={s.avisoFechar}>Toque para fechar</Text>
           </Cartao>
         )}
 
-        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={{ marginBottom: 16 }}>
-          {TRILHAS.map((t) => (
-            <Chip key={t.id} texto={`${t.emoji} ${t.rotulo}`} ativo={p.trilha === t.id} onPress={() => atualizar((x) => ({ ...x, trilha: t.id }))} />
-          ))}
-        </ScrollView>
+        <Cartao testID="cartao-prova" estilo={[s.linhaProva, { marginBottom: 14 }]} onPress={() => router.push('/perfil')}>
+          <Icone nome={prova.icone} tamanho={26} cor={c.azul} />
+          <View style={{ flex: 1 }}>
+            <Text style={s.cartaoSub0}>Estudando para</Text>
+            <Text style={s.cartaoTitulo}>{prova.nome}</Text>
+          </View>
+          <Text style={s.trocar}>TROCAR</Text>
+        </Cartao>
 
         <Cartao estilo={{ marginBottom: 14 }}>
           <View style={s.linha}>
-            <Text style={s.cartaoTitulo}>🎯 Meta diária</Text>
+            <ComIcone icone="target" cor={c.verde} estiloTexto={s.cartaoTitulo}>
+              Meta diária
+            </ComIcone>
             <Text style={s.cartaoValor}>
               {Math.min(xp, p.metaDiaria)}/{p.metaDiaria} XP
             </Text>
@@ -88,10 +97,10 @@ export default function Inicio() {
           <Barra valor={xp / p.metaDiaria} cor={xp >= p.metaDiaria ? c.amarelo : c.verde} />
           <Text style={s.cartaoSub}>
             {xp >= p.metaDiaria
-              ? 'Meta batida! Cada XP extra é um bônus para a sua aprovação. 🏅'
+              ? 'Meta batida! Cada XP extra é um bônus para a sua aprovação.'
               : estudouHoje(p)
                 ? `Faltam ${p.metaDiaria - xp} XP para bater a meta de hoje.`
-                : `Faça uma lição para manter sua ofensiva de ${p.ofensiva.atual} dia${p.ofensiva.atual === 1 ? '' : 's'}! 🔥`}
+                : `Faça uma lição para manter sua ofensiva de ${p.ofensiva.atual} dia${p.ofensiva.atual === 1 ? '' : 's'}!`}
           </Text>
         </Cartao>
 
@@ -100,16 +109,27 @@ export default function Inicio() {
             <View style={s.contagem}>
               <Text style={s.contagemNumero}>{diasProva}</Text>
               <Text style={s.contagemTexto}>
-                {diasProva === 0 ? 'É hoje! Boa prova! 🍀' : `dia${diasProva === 1 ? '' : 's'} para ${p.nomeProva.trim() || 'a sua prova'}`}
+                {diasProva === 0 ? 'É hoje! Boa prova!' : `dia${diasProva === 1 ? '' : 's'} para ${p.nomeProva.trim() || prova.nome}`}
               </Text>
             </View>
           ) : (
-            <Text style={[s.cartaoSub, { marginTop: 0, marginBottom: 8 }]} onPress={() => router.push('/perfil')}>
-              📅 Toque aqui para informar a data da sua prova e ver a contagem regressiva.
+            <Pressable onPress={() => router.push('/perfil')} style={{ marginBottom: 8 }}>
+              <ComIcone icone="calendar-clock" cor={c.textoSuave} estiloTexto={[s.cartaoSub, { marginTop: 0 }]}>
+                Toque aqui para escolher um prazo (1 mês, 2 meses...) ou a data da sua prova. O plano passa a priorizar os assuntos que mais caem.
+              </ComIcone>
+            </Pressable>
+          )}
+          {cobertura && cobertura.diasDeEstudo > 0 && cobertura.vistos < cobertura.total && (
+            <Text testID="texto-cobertura" style={[s.cartaoSub, { marginTop: 0, marginBottom: 10 }]}>
+              {cobertura.cabem >= cobertura.total - cobertura.vistos
+                ? `No ritmo de ${cobertura.porDia} assunto${cobertura.porDia > 1 ? 's' : ''} novo${cobertura.porDia > 1 ? 's' : ''} por dia, você passa pelos ${cobertura.total - cobertura.vistos} assuntos que faltam e ainda sobra a última semana para revisar.`
+                : `No prazo, dá para ver ${cobertura.cabem} dos ${cobertura.total - cobertura.vistos} assuntos que faltam (${cobertura.porDia} por dia). O plano começa pelos que mais caem na prova.`}
             </Text>
           )}
           <View style={s.linha}>
-            <Text style={s.cartaoTitulo}>📋 Plano de hoje</Text>
+            <ComIcone icone="clipboard-check-outline" cor={c.azul} estiloTexto={s.cartaoTitulo}>
+              Plano de hoje
+            </ComIcone>
             <Text style={s.cartaoValor}>
               {feitos}/{itensPlano.length}
             </Text>
@@ -117,14 +137,16 @@ export default function Inicio() {
           {pendentes > 0 && (
             <ItemPlano
               feito={false}
-              texto={`🧠 Revisar ${pendentes} ${pendentes === 1 ? 'questão' : 'questões'}`}
+              icone="brain"
+              texto={`Revisar ${pendentes} ${pendentes === 1 ? 'questão' : 'questões'}`}
               onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
             />
           )}
           {fraco && infoFraco && (
             <ItemPlano
               feito={estudouTopicoHoje(p, fraco.topicoId)}
-              texto={`🎯 Treinar ponto fraco: ${infoFraco.topico.titulo}`}
+              icone="target"
+              texto={`Treinar ponto fraco: ${infoFraco.topico.titulo}`}
               onPress={() => router.push({ pathname: '/licao', params: { modo: 'fracos', topico: fraco.topicoId } })}
             />
           )}
@@ -135,20 +157,23 @@ export default function Inicio() {
                 key={id}
                 testID={`plano-${id}`}
                 feito={estudouTopicoHoje(p, id)}
-                texto={`${info.disciplina.emoji} ${info.topico.titulo}`}
+                icone={info.disciplina.icone}
+                texto={info.topico.titulo}
                 onPress={() => router.push({ pathname: '/licao', params: { modo: 'topico', topico: id, nivel: String(nivelSugerido(p, id)) } })}
               />
             );
           })}
-          {itensPlano.length > 0 && feitos === itensPlano.length && <Text style={s.cartaoSub}>🎉 Plano do dia concluído! Amanhã tem mais.</Text>}
+          {itensPlano.length > 0 && feitos === itensPlano.length && <Text style={s.cartaoSub}>Plano do dia concluído! Amanhã tem mais.</Text>}
         </Cartao>
 
         <Cartao estilo={[s.desafio, desafioFeito && { backgroundColor: c.fundoSuave, borderColor: c.borda }]}>
-          <Text style={[s.cartaoTitulo, { color: desafioFeito ? c.textoSuave : '#FFF' }]}>⚔️ Desafio do dia</Text>
+          <ComIcone icone="sword-cross" cor={desafioFeito ? c.textoSuave : '#FFF'} estiloTexto={[s.cartaoTitulo, { color: desafioFeito ? c.textoSuave : '#FFF' }]}>
+            Desafio do dia
+          </ComIcone>
           <Text style={[s.cartaoSub, { color: desafioFeito ? c.textoSuave : '#FFF', marginBottom: 12 }]}>
             {desafioFeito
               ? 'Concluído! Volte amanhã para um novo desafio. Você ainda pode treinar à vontade.'
-              : `10 questões misturadas da trilha ${p.trilha === 'Todas' ? 'completa' : p.trilha}. Bônus de +${BONUS_DESAFIO} XP!`}
+              : `10 questões misturadas das matérias de ${prova.nome}. Bônus de +${BONUS_DESAFIO} XP!`}
           </Text>
           <Botao
             testID="btn-desafio"
@@ -162,9 +187,9 @@ export default function Inicio() {
         {ultimo && (
           <Cartao estilo={{ marginBottom: 14 }} onPress={() => router.push({ pathname: '/disciplina/[id]', params: { id: ultimo.disciplina.id } })}>
             <Text style={s.cartaoSub}>Continuar de onde parou</Text>
-            <Text style={s.cartaoTitulo}>
-              {ultimo.disciplina.emoji} {ultimo.topico.titulo}
-            </Text>
+            <ComIcone icone={ultimo.disciplina.icone} cor={ultimo.disciplina.cor} estiloTexto={s.cartaoTitulo}>
+              {ultimo.topico.titulo}
+            </ComIcone>
           </Cartao>
         )}
 
@@ -181,7 +206,7 @@ export default function Inicio() {
                     estilo={[s.disc, { backgroundColor: clarear(d.cor, 0.12, c.fundo), borderColor: clarear(d.cor, 0.45, c.fundo) }]}
                     onPress={() => router.push({ pathname: '/disciplina/[id]', params: { id: d.id } })}
                   >
-                    <Text style={s.discEmoji}>{d.emoji}</Text>
+                    <Icone nome={d.icone} tamanho={30} cor={d.cor} />
                     <Text style={s.discNome} numberOfLines={2}>
                       {d.nome}
                     </Text>
@@ -201,16 +226,17 @@ export default function Inicio() {
   );
 }
 
-function ItemPlano({ texto, feito, onPress, testID }: { texto: string; feito: boolean; onPress: () => void; testID?: string }) {
+function ItemPlano({ texto, icone, feito, onPress, testID }: { texto: string; icone: string; feito: boolean; onPress: () => void; testID?: string }) {
   const c = useCores();
   const s = useEstilos();
   return (
     <Pressable testID={testID} onPress={onPress} style={({ pressed }) => [s.itemPlano, pressed && { opacity: 0.6 }]}>
-      <Text style={s.check}>{feito ? '✅' : '⬜'}</Text>
+      <Icone nome={feito ? 'checkbox-marked-circle' : 'checkbox-blank-circle-outline'} tamanho={22} cor={feito ? c.verde : c.cinza} />
+      <Icone nome={icone} tamanho={18} cor={c.textoSuave} />
       <Text style={[s.itemTexto, feito && { color: c.textoSuave, textDecorationLine: 'line-through' }]} numberOfLines={2}>
         {texto}
       </Text>
-      {!feito && <Text style={{ color: c.azul, fontWeight: '800' }}>▶</Text>}
+      {!feito && <Icone nome="chevron-right" tamanho={22} cor={c.azul} />}
     </Pressable>
   );
 }
@@ -220,12 +246,14 @@ const useEstilos = criarEstilos((c) => ({
   contagemNumero: { fontSize: 36, fontWeight: '800', color: c.laranja },
   contagemTexto: { flex: 1, fontSize: 16, fontWeight: '800', color: c.texto },
   itemPlano: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 8, borderTopWidth: 1, borderTopColor: c.borda },
-  check: { fontSize: 18 },
   itemTexto: { flex: 1, fontSize: 15, fontWeight: '700', color: c.texto },
   conteudo: { padding: 16 },
   linha: { flexDirection: 'row', justifyContent: 'space-between', alignItems: 'center', marginBottom: 10 },
   cartaoTitulo: { fontSize: 18, fontWeight: '800', color: c.texto },
   cartaoValor: { fontSize: 15, fontWeight: '800', color: c.textoSuave },
+  linhaProva: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 12 },
+  cartaoSub0: { fontSize: 12, fontWeight: '700', color: c.textoSuave },
+  trocar: { fontSize: 13, fontWeight: '800', color: c.azul },
   cartaoSub: { fontSize: 14, color: c.textoSuave, marginTop: 8, fontWeight: '600', lineHeight: 20 },
   desafio: { backgroundColor: c.azul, borderColor: c.azulEscuro, marginBottom: 14 },
   aviso: { backgroundColor: c.azulClaro, borderColor: c.azul, marginBottom: 14 },
@@ -234,7 +262,6 @@ const useEstilos = criarEstilos((c) => ({
   area: { fontSize: 13, fontWeight: '800', color: c.textoSuave, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 8 },
   grade: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' },
   disc: { width: '48.5%', marginBottom: 12, padding: 14, gap: 4 },
-  discEmoji: { fontSize: 30 },
   discNome: { fontSize: 16, fontWeight: '800', color: c.texto, minHeight: 40 },
   discSub: { fontSize: 12, fontWeight: '700', color: c.textoSuave, marginBottom: 4 },
 }));

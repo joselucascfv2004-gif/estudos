@@ -3,12 +3,14 @@ import { Modal, Pressable, ScrollView, Switch, Text, TextInput, View } from 'rea
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { totalQuestoes } from '../../data/banco';
-import { METAS, TRILHAS } from '../../data/trilhas';
+import { METAS, getProva } from '../../data/provas';
 import { configurarLembrete, lembretesDisponiveis } from '../../estado/lembretes';
 import { diferencaDias, hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
 import { MAX_PROTETORES, PRECO_PROTETOR, comprarProtetor, nivelDoUsuario } from '../../estado/progresso';
 import { Barra, Botao, Cartao, Chip } from '../../ui/componentes';
+import { ComIcone, Icone } from '../../ui/Icone';
+import { EscolhaPrazo, EscolhaProva } from '../../ui/Objetivo';
 import { criarEstilos, useCores } from '../../ui/tema';
 
 
@@ -21,11 +23,17 @@ export default function Perfil() {
   const [dataTexto, setDataTexto] = useState(p.dataProva ? paraBr(p.dataProva) : '');
   const [dataMsg, setDataMsg] = useState('');
 
+  function definirData(iso: string) {
+    atualizar((x) => ({ ...x, dataProva: iso, planoDia: null }));
+    setDataTexto(paraBr(iso));
+    setDataMsg(`Faltam ${diferencaDias(hoje(), iso)} dias. O plano de estudos aparece na tela inicial.`);
+  }
+
   function salvarData(texto: string) {
     setDataTexto(texto);
     const m = texto.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
     if (!texto.trim()) {
-      atualizar((x) => ({ ...x, dataProva: null }));
+      atualizar((x) => ({ ...x, dataProva: null, planoDia: null }));
       setDataMsg('');
       return;
     }
@@ -44,8 +52,7 @@ export default function Perfil() {
       setDataMsg('A data da prova precisa ser no futuro.');
       return;
     }
-    atualizar((x) => ({ ...x, dataProva: iso }));
-    setDataMsg(`✅ Faltam ${diferencaDias(hoje(), iso)} dias. O plano de estudos aparece na tela inicial.`);
+    definirData(iso);
   }
   const n = nivelDoUsuario(p.xpTotal);
   const est = Object.values(p.questoes);
@@ -59,7 +66,7 @@ export default function Perfil() {
     if (ativo && !ok) {
       setMsg('Não foi possível ativar o lembrete. Verifique a permissão de notificações do app.');
       atualizar((x) => ({ ...x, lembrete: { ...x.lembrete, ativo: false } }));
-    } else setMsg(ativo ? `Lembrete diário às ${String(hora).padStart(2, '0')}:${String(minuto).padStart(2, '0')} ✅` : '');
+    } else setMsg(ativo ? `Lembrete diário às ${String(hora).padStart(2, '0')}:${String(minuto).padStart(2, '0')} ativado.` : '');
   }
 
   return (
@@ -67,7 +74,7 @@ export default function Perfil() {
       <ScrollView contentContainerStyle={{ padding: 16, gap: 14 }}>
         <View style={s.cabecalho}>
           <View style={s.avatar}>
-            <Text style={{ fontSize: 40 }}>🎓</Text>
+            <Icone nome="school-outline" tamanho={44} cor={c.azul} />
           </View>
           <View style={{ flex: 1 }}>
             <TextInput
@@ -77,7 +84,9 @@ export default function Perfil() {
               style={s.nome}
               placeholderTextColor={c.cinza}
             />
-            <Text style={s.nivel}>⭐ Nível {n.nivel}</Text>
+            <ComIcone icone="star" cor={c.amarelo} tamanho={16} estilo={{ gap: 4, marginBottom: 4 }} estiloTexto={s.nivel}>
+              Nível {n.nivel}
+            </ComIcone>
             <Barra valor={n.xpNoNivel / n.xpParaProximo} cor={c.amarelo} altura={10} />
             <Text style={s.mini}>
               {n.xpNoNivel}/{n.xpParaProximo} XP para o nível {n.nivel + 1}
@@ -86,24 +95,27 @@ export default function Perfil() {
         </View>
 
         <View style={s.grade}>
-          <Info emoji="🔥" valor={p.ofensiva.atual} rotulo="Ofensiva atual" />
-          <Info emoji="🏅" valor={p.ofensiva.recorde} rotulo="Recorde de ofensiva" />
-          <Info emoji="⚡" valor={p.xpTotal} rotulo="XP total" />
-          <Info emoji="📘" valor={p.totalLicoes} rotulo="Lições concluídas" />
-          <Info emoji="✏️" valor={respostas} rotulo="Respostas" />
-          <Info emoji="🎯" valor={respostas ? `${Math.round((acertos / respostas) * 100)}%` : '—'} rotulo="Taxa de acerto" />
+          <Info icone="fire" cor={c.laranja} valor={p.ofensiva.atual} rotulo="Ofensiva atual" />
+          <Info icone="trophy-outline" cor={c.amarelo} valor={p.ofensiva.recorde} rotulo="Recorde de ofensiva" />
+          <Info icone="lightning-bolt" cor={c.amarelo} valor={p.xpTotal} rotulo="XP total" />
+          <Info icone="book-check-outline" cor={c.azul} valor={p.totalLicoes} rotulo="Lições concluídas" />
+          <Info icone="pencil-outline" cor={c.roxo} valor={respostas} rotulo="Respostas" />
+          <Info icone="target" cor={c.verde} valor={respostas ? `${Math.round((acertos / respostas) * 100)}%` : '—'} rotulo="Taxa de acerto" />
         </View>
         <Text style={s.mini}>
           Você já dominou {dominadas} de {totalQuestoes} questões do app.
         </Text>
 
         <Cartao>
-          <Text style={s.secao}>🛡️ Loja</Text>
+          <ComIcone icone="shield-outline" cor={c.azul} estiloTexto={s.secao}>
+            Loja
+          </ComIcone>
           <Text style={s.texto}>
-            O protetor de ofensiva salva sua ofensiva se você ficar um dia sem estudar. Você tem {p.protetores}/{MAX_PROTETORES} e {p.moedas} 💎.
+            O protetor de ofensiva salva sua ofensiva se você ficar um dia sem estudar. Você tem {p.protetores}/{MAX_PROTETORES} protetores e {p.moedas} moedas.
           </Text>
           <Botao
-            titulo={`Comprar protetor · ${PRECO_PROTETOR} 💎`}
+            icone="diamond-stone"
+            titulo={`Comprar protetor · ${PRECO_PROTETOR} moedas`}
             cor={c.azul}
             desativado={p.moedas < PRECO_PROTETOR || p.protetores >= MAX_PROTETORES}
             onPress={() => atualizar((x) => comprarProtetor(x) ?? x)}
@@ -111,31 +123,33 @@ export default function Perfil() {
         </Cartao>
 
         <Cartao>
-          <Text style={s.secao}>🎯 Meta diária</Text>
+          <ComIcone icone="target" cor={c.verde} estiloTexto={s.secao}>
+            Meta diária
+          </ComIcone>
           <View style={s.chips}>
             {METAS.map((m) => (
               <Chip key={m.xp} texto={`${m.nome} · ${m.xp} XP`} ativo={p.metaDiaria === m.xp} cor={c.verde} onPress={() => atualizar((x) => ({ ...x, metaDiaria: m.xp }))} />
             ))}
           </View>
-          <Text style={[s.secao, { marginTop: 16 }]}>🧭 Trilha</Text>
-          <View style={s.chips}>
-            {TRILHAS.map((t) => (
-              <Chip key={t.id} texto={`${t.emoji} ${t.rotulo}`} ativo={p.trilha === t.id} onPress={() => atualizar((x) => ({ ...x, trilha: t.id }))} />
-            ))}
-          </View>
         </Cartao>
 
         <Cartao>
-          <Text style={s.secao}>📅 Minha prova</Text>
-          <Text style={s.texto}>Informe qual prova você vai fazer e a data. O app conta os dias e monta um plano de estudos para cada dia.</Text>
-          <TextInput
-            testID="input-nome-prova"
-            value={p.nomeProva}
-            placeholder="Nome da prova (ex.: ENEM, EsPCEx, Banco do Brasil)"
-            onChangeText={(t) => atualizar((x) => ({ ...x, nomeProva: t.slice(0, 40) }))}
-            style={s.campo}
-            placeholderTextColor={c.cinza}
-          />
+          <ComIcone icone="flag-checkered" cor={c.azul} estiloTexto={s.secao}>
+            Meu objetivo
+          </ComIcone>
+          <Text style={s.texto}>Escolha a sua prova. O app mostra só as matérias que caem nela.</Text>
+          <EscolhaProva valor={p.prova} onEscolher={(id) => atualizar((x) => ({ ...x, prova: id, planoDia: null }))} />
+        </Cartao>
+
+        <Cartao>
+          <ComIcone icone="calendar-clock" cor={c.laranja} estiloTexto={s.secao}>
+            Prazo
+          </ComIcone>
+          <Text style={s.texto}>
+            Em quanto tempo você quer estudar para {getProva(p.prova).nome}? O app conta os dias e monta um plano diário que passa pelos assuntos que
+            mais caem primeiro. Escolha um prazo ou digite a data da prova.
+          </Text>
+          <EscolhaPrazo dataProva={p.dataProva} onEscolher={definirData} />
           <TextInput
             testID="input-data-prova"
             value={dataTexto}
@@ -146,13 +160,23 @@ export default function Perfil() {
             style={s.campo}
             placeholderTextColor={c.cinza}
           />
+          <TextInput
+            testID="input-nome-prova"
+            value={p.nomeProva}
+            placeholder={`Nome na contagem regressiva (ex.: ${getProva(p.prova).nome} 2026)`}
+            onChangeText={(t) => atualizar((x) => ({ ...x, nomeProva: t.slice(0, 40) }))}
+            style={s.campo}
+            placeholderTextColor={c.cinza}
+          />
           {!!dataMsg && <Text style={s.mini}>{dataMsg}</Text>}
         </Cartao>
 
         <Cartao>
           <View style={s.linha}>
             <View style={{ flex: 1 }}>
-              <Text style={s.secao}>🌙 Modo escuro</Text>
+              <ComIcone icone="weather-night" cor={c.roxo} estiloTexto={s.secao}>
+                Modo escuro
+              </ComIcone>
               <Text style={s.mini}>Fundo escuro, mais confortável para estudar à noite.</Text>
             </View>
             <Switch
@@ -165,7 +189,9 @@ export default function Perfil() {
         </Cartao>
 
         <Cartao>
-          <Text style={s.secao}>⏰ Lembrete diário</Text>
+          <ComIcone icone="bell-outline" cor={c.amarelo} estiloTexto={s.secao}>
+            Lembrete diário
+          </ComIcone>
           {lembretesDisponiveis() ? (
             <>
               <View style={s.linha}>
@@ -176,11 +202,11 @@ export default function Perfil() {
                 <Text style={s.texto}>Horário</Text>
                 <View style={s.hora}>
                   <Pressable onPress={() => mudarLembrete(p.lembrete.ativo, (p.lembrete.hora + 23) % 24)} hitSlop={8}>
-                    <Text style={s.horaBotao}>−</Text>
+                    <Icone nome="minus-circle-outline" tamanho={28} cor={c.azul} />
                   </Pressable>
                   <Text style={s.horaTexto}>{String(p.lembrete.hora).padStart(2, '0')}:00</Text>
                   <Pressable onPress={() => mudarLembrete(p.lembrete.ativo, (p.lembrete.hora + 1) % 24)} hitSlop={8}>
-                    <Text style={s.horaBotao}>+</Text>
+                    <Icone nome="plus-circle-outline" tamanho={28} cor={c.azul} />
                   </Pressable>
                 </View>
               </View>
@@ -194,7 +220,9 @@ export default function Perfil() {
         <Cartao>
           <View style={s.linha}>
             <View style={{ flex: 1 }}>
-              <Text style={s.secao}>🔓 Liberar todos os níveis</Text>
+              <ComIcone icone="lock-open-variant-outline" cor={c.verde} estiloTexto={s.secao}>
+                Liberar todos os níveis
+              </ComIcone>
               <Text style={s.mini}>Para quem já domina o básico e quer ir direto ao difícil.</Text>
             </View>
             <Switch value={p.desbloquearTudo} onValueChange={(v) => atualizar((x) => ({ ...x, desbloquearTudo: v }))} trackColor={{ true: c.verde }} />
@@ -234,12 +262,11 @@ function paraBr(iso: string) {
   return `${d}/${m}/${a}`;
 }
 
-function Info({ emoji, valor, rotulo }: { emoji: string; valor: string | number; rotulo: string }) {
-  const c = useCores();
+function Info({ icone, cor, valor, rotulo }: { icone: string; cor: string; valor: string | number; rotulo: string }) {
   const s = useEstilos();
   return (
     <Cartao estilo={s.info}>
-      <Text style={{ fontSize: 22 }}>{emoji}</Text>
+      <Icone nome={icone} tamanho={24} cor={cor} />
       <View style={{ flex: 1 }}>
         <Text style={s.infoValor}>{valor}</Text>
         <Text style={s.infoRotulo}>{rotulo}</Text>
@@ -264,7 +291,7 @@ const useEstilos = criarEstilos((c) => ({
   cabecalho: { flexDirection: 'row', gap: 14, alignItems: 'center' },
   avatar: { width: 84, height: 84, borderRadius: 42, backgroundColor: c.azulClaro, alignItems: 'center', justifyContent: 'center', borderWidth: 3, borderColor: c.azul },
   nome: { fontSize: 22, fontWeight: '800', color: c.texto, paddingVertical: 2 },
-  nivel: { fontSize: 15, fontWeight: '800', color: c.amarelo, marginBottom: 4 },
+  nivel: { fontSize: 15, fontWeight: '800', color: c.amarelo },
   mini: { fontSize: 12, color: c.textoSuave, fontWeight: '600', marginTop: 4 },
   grade: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 10 },
   info: { width: '48.5%', flexDirection: 'row', alignItems: 'center', gap: 10, padding: 12 },
@@ -275,7 +302,6 @@ const useEstilos = criarEstilos((c) => ({
   chips: { flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginTop: 10 },
   linha: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 },
   hora: { flexDirection: 'row', alignItems: 'center', gap: 14 },
-  horaBotao: { fontSize: 26, fontWeight: '800', color: c.azul, paddingHorizontal: 6 },
   horaTexto: { fontSize: 18, fontWeight: '800', color: c.texto },
   modalFundo: { flex: 1, backgroundColor: c.veu, justifyContent: 'center', padding: 24 },
   modal: { backgroundColor: c.fundo, borderRadius: 22, padding: 22 },

@@ -1,11 +1,11 @@
 ---
 nome: Redação
 area: Redação
-emoji: ✍️
+icone: pencil-outline
 cor: #3C9D5D
 ordem: 14
 ---
 
-# ✍️ Redação
+# Redação
 
 Texto dissertativo-argumentativo do ENEM: competências, estrutura, coesão e proposta de intervenção.

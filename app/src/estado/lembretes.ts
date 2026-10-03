@@ -27,10 +27,10 @@ function notificacoes(): ModNotif | null {
 }
 
 const FRASES = [
-  'Sua ofensiva está esperando por você! 🔥',
-  '10 questões hoje = um passo mais perto da aprovação. 🎯',
-  'Bora manter o ritmo? Leva só 5 minutos. ⏱️',
-  'Quem estuda todo dia chega lá. Vamos? 💪',
+  'Sua ofensiva está esperando por você!',
+  '10 questões hoje = um passo mais perto da aprovação.',
+  'Bora manter o ritmo? Leva só 5 minutos.',
+  'Quem estuda todo dia chega lá. Vamos?',
 ];
 
 /** Agenda (ou cancela) o lembrete diário. Retorna false se não houve permissão. */
@@ -50,7 +50,7 @@ export async function configurarLembrete(ativo: boolean, hora: number, minuto: n
       });
     }
     await N.scheduleNotificationAsync({
-      content: { title: 'Hora de estudar! 📚', body: FRASES[Math.floor(Math.random() * FRASES.length)] },
+      content: { title: 'Hora de estudar!', body: FRASES[Math.floor(Math.random() * FRASES.length)] },
       trigger: { type: N.SchedulableTriggerInputTypes.DAILY, hour: hora, minute: minuto, channelId: 'lembretes' },
     });
     return true;

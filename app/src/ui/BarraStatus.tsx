@@ -2,6 +2,7 @@ import { Text, View } from 'react-native';
 
 import { useProgresso } from '../estado/ProgressoContext';
 import { estudouHoje, nivelDoUsuario } from '../estado/progresso';
+import { Icone } from './Icone';
 import { criarEstilos, useCores } from './tema';
 
 export function BarraStatus() {
@@ -12,20 +13,19 @@ export function BarraStatus() {
   const ativo = estudouHoje(p);
   return (
     <View style={s.barra}>
-      <Item emoji="⭐" valor={`Nv ${nivel}`} cor={c.azul} />
-      <Item emoji="🔥" valor={p.ofensiva.atual} cor={ativo ? c.laranja : c.cinza} apagado={!ativo} />
-      <Item emoji="💎" valor={p.moedas} cor={c.azul} />
-      <Item emoji="⚡" valor={p.xpTotal} cor={c.amarelo} />
+      <Item icone="star" valor={`Nv ${nivel}`} cor={c.azul} rotulo="Nível" />
+      <Item icone="fire" valor={p.ofensiva.atual} cor={ativo ? c.laranja : c.cinza} rotulo="Dias seguidos de estudo" />
+      <Item icone="diamond-stone" valor={p.moedas} cor={c.azul} rotulo="Moedas" />
+      <Item icone="lightning-bolt" valor={p.xpTotal} cor={c.amarelo} rotulo="XP total" />
     </View>
   );
 }
 
-function Item({ emoji, valor, cor, apagado }: { emoji: string; valor: string | number; cor: string; apagado?: boolean }) {
-  const c = useCores();
+function Item({ icone, valor, cor, rotulo }: { icone: string; valor: string | number; cor: string; rotulo: string }) {
   const s = useEstilos();
   return (
-    <View style={s.item}>
-      <Text style={[s.emoji, apagado && { opacity: 0.35 }]}>{emoji}</Text>
+    <View style={s.item} accessibilityLabel={`${rotulo}: ${valor}`}>
+      <Icone nome={icone} tamanho={22} cor={cor} />
       <Text style={[s.valor, { color: cor }]}>{valor}</Text>
     </View>
   );
@@ -43,6 +43,5 @@ const useEstilos = criarEstilos((c) => ({
     backgroundColor: c.fundo,
   },
   item: { flexDirection: 'row', alignItems: 'center', gap: 4 },
-  emoji: { fontSize: 20 },
   valor: { fontSize: 16, fontWeight: '800' },
 }));

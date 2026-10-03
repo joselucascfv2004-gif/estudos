@@ -1,11 +1,11 @@
 ---
 nome: Literatura
 area: Linguagens e Códigos
-emoji: 📚
+icone: book-open-page-variant-outline
 cor: #B83280
 ordem: 10
 ---
 
-# 📚 Literatura
+# Literatura
 
 Escolas literárias brasileiras e portuguesas.

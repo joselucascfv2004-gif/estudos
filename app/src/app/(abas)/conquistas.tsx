@@ -7,6 +7,7 @@ import { CONQUISTAS, evolucaoDisciplinas, evolucaoSemanal } from '../../estado/p
 import { getDisciplina } from '../../data/banco';
 import { BarraStatus } from '../../ui/BarraStatus';
 import { Cartao } from '../../ui/componentes';
+import { Icone } from '../../ui/Icone';
 import { criarEstilos, useCores } from '../../ui/tema';
 
 export default function Conquistas() {
@@ -41,7 +42,10 @@ export default function Conquistas() {
               );
             })}
           </View>
-          <Text style={s.legenda}>🟨 meta batida · 🟦 estudou (meta: {p.metaDiaria} XP por dia)</Text>
+          <View style={s.legendas}>
+            <Legenda cor={c.amarelo} texto="meta batida" />
+            <Legenda cor={c.azul} texto={`estudou (meta: ${p.metaDiaria} XP por dia)`} />
+          </View>
         </Cartao>
 
         <Text style={s.titulo}>Sua evolução</Text>
@@ -66,7 +70,11 @@ export default function Conquistas() {
                   );
                 })}
               </View>
-              <Text style={s.legenda}>🟩 70% ou mais · 🟨 50% a 69% · 🟥 abaixo de 50%</Text>
+              <View style={s.legendas}>
+                <Legenda cor={c.verde} texto="70% ou mais" />
+                <Legenda cor={c.amarelo} texto="50% a 69%" />
+                <Legenda cor={c.vermelho} texto="abaixo de 50%" />
+              </View>
             </>
           ) : (
             <Text style={s.legenda}>Responda algumas questões e o gráfico da sua evolução aparece aqui.</Text>
@@ -81,7 +89,7 @@ export default function Conquistas() {
               const diff = e.atual != null && e.anterior != null ? e.atual - e.anterior : null;
               return (
                 <View key={e.disciplinaId} style={s.linhaDisc}>
-                  <Text style={{ fontSize: 20 }}>{d?.emoji}</Text>
+                  <Icone nome={d?.icone ?? 'book-outline'} tamanho={22} cor={d?.cor} />
                   <View style={{ flex: 1 }}>
                     <Text style={s.discNome}>{d?.nome}</Text>
                     <View style={s.trilhoDisc}>
@@ -92,14 +100,14 @@ export default function Conquistas() {
                     <Text style={s.discPct}>{e.atual}%</Text>
                     {diff != null && (
                       <Text style={[s.discDiff, { color: diff > 0 ? c.verdeEscuro : diff < 0 ? c.vermelhoEscuro : c.textoSuave }]}>
-                        {diff > 0 ? `▲ ${diff}` : diff < 0 ? `▼ ${-diff}` : '= 0'}
+                        {diff > 0 ? `+${diff}` : diff < 0 ? `−${-diff}` : '= 0'}
                       </Text>
                     )}
                   </View>
                 </View>
               );
             })}
-            <Text style={s.legenda}>▲▼ comparação com as 4 semanas anteriores</Text>
+            <Text style={s.legenda}>Número pequeno: diferença em relação às 4 semanas anteriores</Text>
           </Cartao>
         )}
 
@@ -111,7 +119,7 @@ export default function Conquistas() {
             const ok = !!p.conquistas[cq.id];
             return (
               <Cartao key={cq.id} estilo={[s.conquista, !ok && { backgroundColor: c.fundoSuave }]}>
-                <Text style={[s.emoji, !ok && { opacity: 0.25 }]}>{ok ? cq.emoji : '🔒'}</Text>
+                <Icone nome={ok ? cq.icone : 'lock-outline'} tamanho={34} cor={ok ? c.amarelo : c.cinza} />
                 <Text style={[s.nome, !ok && { color: c.cinza }]}>{cq.titulo}</Text>
                 <Text style={s.desc}>{cq.descricao}</Text>
               </Cartao>
@@ -121,6 +129,16 @@ export default function Conquistas() {
         <View style={{ height: 20 }} />
       </ScrollView>
     </SafeAreaView>
+  );
+}
+
+function Legenda({ cor, texto }: { cor: string; texto: string }) {
+  const s = useEstilos();
+  return (
+    <View style={{ flexDirection: 'row', alignItems: 'center', gap: 5 }}>
+      <View style={{ width: 10, height: 10, borderRadius: 3, backgroundColor: cor }} />
+      <Text style={[s.legenda, { marginTop: 0 }]}>{texto}</Text>
+    </View>
   );
 }
 
@@ -141,7 +159,7 @@ const useEstilos = criarEstilos((c) => ({
   legenda: { fontSize: 12, color: c.textoSuave, marginTop: 12, fontWeight: '600' },
   grade: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between' },
   conquista: { width: '48.5%', marginBottom: 12, alignItems: 'center', padding: 12 },
-  emoji: { fontSize: 38 },
+  legendas: { flexDirection: 'row', flexWrap: 'wrap', gap: 12, marginTop: 12 },
   nome: { fontSize: 15, fontWeight: '800', color: c.texto, textAlign: 'center', marginTop: 4 },
   desc: { fontSize: 12, color: c.textoSuave, textAlign: 'center', marginTop: 2 },
 }));

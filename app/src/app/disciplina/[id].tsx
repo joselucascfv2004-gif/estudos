@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { BackHandler, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
-import { NOMES_NIVEL, Nivel, Topico, disciplinasDaTrilha, getDisciplina, questoesDoTopico } from '../../data/banco';
+import { NOMES_NIVEL, Nivel, Topico, disciplinasDaProva, getDisciplina, incidencia, questoesDoTopico } from '../../data/banco';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
   ACERTO_PARA_DESBLOQUEAR,
@@ -15,6 +15,7 @@ import {
   nivelDesbloqueado,
 } from '../../estado/progresso';
 import { Barra, Botao } from '../../ui/componentes';
+import { ComIcone, Icone } from '../../ui/Icone';
 import { clarear, coresNivel, criarEstilos, escurecer, useCores } from '../../ui/tema';
 
 export default function TelaDisciplina() {
@@ -35,21 +36,21 @@ export default function TelaDisciplina() {
   }, [aberto]);
   const completa = getDisciplina(id);
   if (!completa) return null;
-  // mostra os tópicos da trilha escolhida; se nenhum, mostra todos
-  const daTrilha = disciplinasDaTrilha(p.trilha).find((d) => d.id === id);
-  const d = daTrilha ?? completa;
+  // mostra os tópicos da prova escolhida; se nenhum, mostra todos
+  const daProva = disciplinasDaProva(p.prova).find((x) => x.id === id);
+  const d = daProva ?? completa;
   const ocultos = completa.topicos.length - d.topicos.length;
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }} edges={['top']}>
       <View style={[s.topo, { backgroundColor: d.cor, borderBottomColor: escurecer(d.cor) }]}>
         <Pressable onPress={() => (router.canGoBack() ? router.back() : router.replace('/'))} hitSlop={12}>
-          <Text style={s.voltar}>←</Text>
+          <Icone nome="arrow-left" tamanho={28} cor="#FFF" />
         </Pressable>
         <View style={{ flex: 1 }}>
-          <Text style={s.topoTitulo}>
-            {d.emoji} {d.nome}
-          </Text>
+          <ComIcone icone={d.icone} cor="#FFF" tamanho={22} estiloTexto={s.topoTitulo}>
+            {d.nome}
+          </ComIcone>
           <Text style={s.topoSub}>{d.area}</Text>
         </View>
         <Botao
@@ -84,7 +85,7 @@ export default function TelaDisciplina() {
                   },
                 ]}
               >
-                <Text style={s.noTexto}>{coroas === 3 ? '👑' : coroas > 0 ? '⭐' : String(i + 1)}</Text>
+                {coroas > 0 ? <Icone nome={coroas === 3 ? 'crown' : 'star'} tamanho={34} cor="#FFF" /> : <Text style={s.noTexto}>{String(i + 1)}</Text>}
               </Pressable>
               <Text style={s.noTitulo} numberOfLines={2}>
                 {t.titulo}
@@ -97,14 +98,18 @@ export default function TelaDisciplina() {
                   />
                 ))}
                 <Text style={s.noPct}>{Math.round(dom * 100)}%</Text>
-                {fraco && <Text style={s.alerta}>🎯 ponto fraco</Text>}
+                {fraco && (
+                  <ComIcone icone="target" cor={c.vermelhoEscuro} tamanho={13} estilo={{ gap: 2, marginLeft: 4 }} estiloTexto={s.alerta}>
+                    ponto fraco
+                  </ComIcone>
+                )}
               </View>
             </View>
           );
         })}
         {ocultos > 0 && (
           <Text style={s.ocultos}>
-            + {ocultos} tópico{ocultos > 1 ? 's' : ''} de outras trilhas. Escolha a trilha “Tudo” na tela inicial para ver.
+            + {ocultos} tópico{ocultos > 1 ? 's' : ''} que não cai{ocultos > 1 ? 'em' : ''} na sua prova. Para ver tudo, escolha “Tudo” no Perfil.
           </Text>
         )}
       </ScrollView>
@@ -116,11 +121,14 @@ export default function TelaDisciplina() {
             <View style={s.alca} />
             <Text style={s.folhaTitulo}>{aberto.titulo}</Text>
             {!!aberto.descricao && <Text style={s.folhaDesc}>{aberto.descricao}</Text>}
-            <Text style={s.provas}>Cai em: {aberto.provas.join(' · ')}</Text>
+            <Text style={s.provas}>
+              Cai em: {aberto.provas.join(' · ')} · {['', 'cai pouco', 'cai às vezes', 'cai com frequência', 'cai bastante', 'cai muito'][incidencia(aberto)]}
+            </Text>
             {!!aberto.resumo && (
               <Botao
                 testID="btn-resumo"
-                titulo="📖 Ler o resumo (2 min)"
+                icone="book-open-variant"
+                titulo="Ler o resumo (2 min)"
                 contorno
                 cor={d.cor}
                 pequeno
@@ -143,11 +151,16 @@ export default function TelaDisciplina() {
                     router.push({ pathname: '/licao', params: { modo: 'fracos', topico: aberto.id } });
                   }}
                 >
-                  <Text style={[s.provas, { color: fraco ? c.vermelhoEscuro : c.verdeEscuro }]}>
+                  <ComIcone
+                    icone={fraco ? 'target' : 'check-circle-outline'}
+                    cor={fraco ? c.vermelhoEscuro : c.verdeEscuro}
+                    tamanho={18}
+                    estiloTexto={[s.provas, { color: fraco ? c.vermelhoEscuro : c.verdeEscuro }]}
+                  >
                     {fraco
-                      ? `🎯 Ponto fraco: ${des.acerto}% de acerto nas últimas ${des.respostas} questões. Toque para treinar seus erros.`
-                      : `✅ ${des.acerto}% de acerto nas últimas ${des.respostas} questões.`}
-                  </Text>
+                      ? `Ponto fraco: ${des.acerto}% de acerto nas últimas ${des.respostas} questões. Toque para treinar seus erros.`
+                      : `${des.acerto}% de acerto nas últimas ${des.respostas} questões.`}
+                  </ComIcone>
                 </Pressable>
               );
             })()}
@@ -175,9 +188,9 @@ export default function TelaDisciplina() {
                   ]}
                 >
                   <View style={{ flex: 1 }}>
-                    <Text style={[s.nivelNome, { color: livre ? c.texto : c.cinza }]}>
-                      {livre ? cn.emoji : '🔒'} {NOMES_NIVEL[n]}
-                    </Text>
+                    <ComIcone icone={livre ? cn.icone : 'lock-outline'} cor={livre ? cn.escura : c.cinza} estiloTexto={[s.nivelNome, { color: livre ? c.texto : c.cinza }]}>
+                      {NOMES_NIVEL[n]}
+                    </ComIcone>
                     <Text style={s.nivelInfo}>
                       {livre
                         ? `${Math.round(dom * total)}/${total} questões dominadas${melhor ? ` · recorde ${melhor}%` : ''}`
@@ -189,7 +202,7 @@ export default function TelaDisciplina() {
                       </View>
                     )}
                   </View>
-                  {livre && <Text style={[s.nivelIr, { color: cn.escura }]}>▶</Text>}
+                  {livre && <Icone nome="chevron-right" tamanho={28} cor={cn.escura} estilo={{ marginLeft: 6 }} />}
                 </Pressable>
               );
             })}
@@ -201,9 +214,8 @@ export default function TelaDisciplina() {
 }
 
 const useEstilos = criarEstilos((c) => ({
-  alerta: { fontSize: 11, fontWeight: '800', color: c.vermelhoEscuro, marginLeft: 4 },
+  alerta: { fontSize: 11, fontWeight: '800', color: c.vermelhoEscuro },
   topo: { flexDirection: 'row', alignItems: 'center', padding: 16, gap: 12, borderBottomWidth: 4 },
-  voltar: { fontSize: 28, color: '#FFF', fontWeight: '800' },
   topoTitulo: { fontSize: 20, fontWeight: '800', color: '#FFF' },
   topoSub: { fontSize: 13, color: 'rgba(255,255,255,0.85)', fontWeight: '700' },
   noWrap: { alignItems: 'center', marginBottom: 26 },
@@ -223,5 +235,4 @@ const useEstilos = criarEstilos((c) => ({
   nivel: { flexDirection: 'row', alignItems: 'center', padding: 14, borderRadius: 16, borderWidth: 2, borderBottomWidth: 4 },
   nivelNome: { fontSize: 17, fontWeight: '800' },
   nivelInfo: { fontSize: 13, color: c.textoSuave, marginTop: 2, fontWeight: '600' },
-  nivelIr: { fontSize: 22, marginLeft: 10 },
 }));

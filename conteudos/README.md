@@ -6,7 +6,7 @@
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## 📐 Matemática — 1020 questões
+## Matemática — 1020 questões
 
 *Matemática e suas Tecnologias*
 
@@ -30,7 +30,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Geometria analítica](matematica/16-geometria-analitica.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Números complexos e polinômios](matematica/17-numeros-complexos-e-polinomios.md) | Militares | 20 | 20 | 20 |
 
-## ⚡ Física — 420 questões
+## Física — 420 questões
 
 *Ciências da Natureza*
 
@@ -44,7 +44,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 20 | 20 | 20 |
 
-## ⚗️ Química — 430 questões
+## Química — 430 questões
 
 *Ciências da Natureza*
 
@@ -59,7 +59,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 20 | 20 | 20 |
 | [Química ambiental, separação de misturas e materiais](quimica/08-quimica-ambiental.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🧬 Biologia — 350 questões
+## Biologia — 350 questões
 
 *Ciências da Natureza*
 
@@ -73,7 +73,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Seres vivos: classificação, botânica e zoologia](biologia/06-seres-vivos.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Saúde, doenças e parasitoses](biologia/07-saude-e-doencas.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🏛️ História — 400 questões
+## História — 400 questões
 
 *Ciências Humanas*
 
@@ -88,7 +88,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Brasil República (1889–1964)](historia/07-brasil-republica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Ditadura militar e Nova República](historia/08-ditadura-e-redemocratizacao.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🌎 Geografia — 310 questões
+## Geografia — 310 questões
 
 *Ciências Humanas*
 
@@ -101,7 +101,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Agropecuária, indústria, energia e transportes](geografia/05-economia-agropecuaria-industria-energia.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Geopolítica e globalização](geografia/06-geopolitica-e-globalizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
-## 🦉 Filosofia — 100 questões
+## Filosofia — 100 questões
 
 *Ciências Humanas*
 
@@ -110,7 +110,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Filosofia antiga e medieval](filosofia/01-filosofia-antiga-e-medieval.md) | ENEM | 17 | 17 | 16 |
 | [Filosofia moderna e contemporânea](filosofia/02-filosofia-moderna-e-contemporanea.md) | ENEM | 17 | 17 | 16 |
 
-## 👥 Sociologia — 100 questões
+## Sociologia — 100 questões
 
 *Ciências Humanas*
 
@@ -119,7 +119,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Sociologia clássica e conceitos fundamentais](sociologia/01-sociologia-classica.md) | ENEM | 17 | 17 | 16 |
 | [Temas contemporâneos da Sociologia](sociologia/02-temas-contemporaneos.md) | ENEM, Concursos | 17 | 17 | 16 |
 
-## 📖 Língua Portuguesa — 300 questões
+## Língua Portuguesa — 300 questões
 
 *Linguagens e Códigos*
 
@@ -132,7 +132,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Semântica e figuras de linguagem](portugues/05-semantica-e-figuras-de-linguagem.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Funções da linguagem, gêneros textuais e variação linguística](portugues/06-funcoes-generos-e-variacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
-## 📚 Literatura — 100 questões
+## Literatura — 100 questões
 
 *Linguagens e Códigos*
 
@@ -141,7 +141,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Do Quinhentismo ao Simbolismo](literatura/01-quinhentismo-ao-simbolismo.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Do Pré-Modernismo à literatura contemporânea](literatura/02-pre-modernismo-ao-contemporaneo.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🇬🇧 Inglês — 100 questões
+## Inglês — 100 questões
 
 *Linguagens e Códigos*
 
@@ -150,7 +150,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Leitura e interpretação de textos](ingles/01-leitura-e-interpretacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Gramática e vocabulário](ingles/02-gramatica-e-vocabulario.md) | Militares, Concursos | 17 | 17 | 16 |
 
-## 🇪🇸 Espanhol — 50 questões
+## Espanhol — 50 questões
 
 *Linguagens e Códigos*
 
@@ -158,7 +158,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Leitura, vocabulário e gramática em contexto](espanhol/01-leitura-e-vocabulario.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## 🎨 Artes e Educação Física — 50 questões
+## Artes e Educação Física — 50 questões
 
 *Linguagens e Códigos*
 
@@ -166,7 +166,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Arte, cultura e práticas corporais](artes/01-artes-e-educacao-fisica.md) | ENEM | 17 | 17 | 16 |
 
-## ✍️ Redação — 100 questões
+## Redação — 100 questões
 
 *Redação*
 
@@ -175,7 +175,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Competências do ENEM e estrutura do texto](redacao/01-competencias-e-estrutura.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Coesão, argumentação e repertório](redacao/02-coesao-argumentacao-e-repertorio.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
-## 🧩 Raciocínio Lógico — 290 questões
+## Raciocínio Lógico — 290 questões
 
 *Concursos Públicos*
 
@@ -187,7 +187,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 20 | 20 | 20 |
 | [Argumentação lógica e quantificadores](raciocinio-logico/05-argumentacao-e-quantificadores.md) | Concursos, Militares | 17 | 17 | 16 |
 
-## 💰 Matemática Financeira — 120 questões
+## Matemática Financeira — 120 questões
 
 *Concursos Públicos*
 
@@ -196,7 +196,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Juros simples e compostos](matematica-financeira/01-juros-simples-e-compostos.md) | Concursos, ENEM | 20 | 20 | 20 |
 | [Descontos e sistemas de amortização](matematica-financeira/02-descontos-e-amortizacao.md) | Concursos | 20 | 20 | 20 |
 
-## 🏦 Conhecimentos Bancários — 200 questões
+## Conhecimentos Bancários — 200 questões
 
 *Concursos Públicos*
 
@@ -207,7 +207,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Lavagem de dinheiro, compliance e proteção de dados](conhecimentos-bancarios/03-pld-compliance-e-etica.md) | Concursos | 17 | 17 | 16 |
 | [Vendas, negociação e atendimento](conhecimentos-bancarios/04-vendas-negociacao-e-atendimento.md) | Concursos | 17 | 17 | 16 |
 
-## 💻 Informática — 150 questões
+## Informática — 150 questões
 
 *Concursos Públicos*
 
@@ -217,7 +217,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Editores de texto e planilhas](informatica/02-editores-e-planilhas.md) | Concursos | 17 | 17 | 16 |
 | [Internet, redes e segurança da informação](informatica/03-internet-redes-e-seguranca.md) | Concursos, Militares | 17 | 17 | 16 |
 
-## ⚖️ Ética e Administração Pública — 50 questões
+## Ética e Administração Pública — 50 questões
 
 *Concursos Públicos*
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## 📝 ENEM — provas oficiais — 104 questões
+## ENEM — provas oficiais — 104 questões
 
 *Provas anteriores*
 

@@ -1,11 +1,11 @@
 ---
 nome: Sociologia
 area: Ciências Humanas
-emoji: 👥
+icone: account-group-outline
 cor: #D9479A
 ordem: 8
 ---
 
-# 👥 Sociologia
+# Sociologia
 
 Clássicos da sociologia e temas contemporâneos.

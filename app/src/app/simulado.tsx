@@ -3,12 +3,14 @@ import { useEffect, useRef, useState } from 'react';
 import { BackHandler, Modal, Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { NOMES_NIVEL, Questao, XP_POR_NIVEL, disciplinasDaTrilha, getDisciplina, getQuestao, getTopico, podeEmbaralhar } from '../data/banco';
+import { NOMES_NIVEL, Questao, XP_POR_NIVEL, disciplinasDaProva, getDisciplina, getQuestao, getTopico, podeEmbaralhar } from '../data/banco';
 import { embaralhar, hoje } from '../estado/datas';
 import { useProgresso } from '../estado/ProgressoContext';
 import { MINUTOS_POR_QUESTAO, concluirLicao, montarSimulado } from '../estado/progresso';
 import { Botao, Cabecalho, Cartao, Chip } from '../ui/componentes';
+import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
+import { getProva } from '../data/provas';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 
 const LETRAS = 'ABCDE';
@@ -41,13 +43,14 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
   const { p } = useProgresso();
   const [disciplina, setDisciplina] = useState<string | undefined>(undefined);
   const [tamanho, setTamanho] = useState(20);
-  const disciplinas = disciplinasDaTrilha(p.trilha);
+  const disciplinas = disciplinasDaProva(p.prova);
+  const nomeProva = getProva(p.prova).nome;
   const minutos = tamanho * MINUTOS_POR_QUESTAO;
   const ultimos = [...p.simulados].reverse().slice(0, 5);
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
-      <Cabecalho titulo="⏱️ Simulado" />
+      <Cabecalho titulo="Simulado" icone="timer-outline" />
       <ScrollView contentContainerStyle={{ padding: 16, gap: 14 }}>
         <Text style={s.texto}>
           Como na prova de verdade: questões misturadas, tempo marcando e o gabarito só no final. Você pode pular e voltar nas questões.
@@ -55,9 +58,9 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
 
         <Text style={s.secao}>Conteúdo</Text>
         <View style={s.chips}>
-          <Chip texto={`Tudo (${p.trilha})`} ativo={!disciplina} onPress={() => setDisciplina(undefined)} />
+          <Chip texto={`Tudo (${nomeProva})`} ativo={!disciplina} onPress={() => setDisciplina(undefined)} />
           {disciplinas.map((d) => (
-            <Chip key={d.id} texto={`${d.emoji} ${d.nome}`} ativo={disciplina === d.id} onPress={() => setDisciplina(d.id)} />
+            <Chip key={d.id} texto={d.nome} icone={d.icone} ativo={disciplina === d.id} onPress={() => setDisciplina(d.id)} />
           ))}
         </View>
 
@@ -69,7 +72,9 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
         </View>
 
         <Cartao estilo={{ backgroundColor: c.amareloClaro, borderColor: c.amarelo }}>
-          <Text style={s.cartaoTitulo}>⏳ Tempo: {minutos >= 60 ? `${Math.floor(minutos / 60)}h${minutos % 60 ? ` ${minutos % 60}min` : ''}` : `${minutos} min`}</Text>
+          <ComIcone icone="timer-sand" cor={c.laranja} estiloTexto={s.cartaoTitulo}>
+            Tempo: {minutos >= 60 ? `${Math.floor(minutos / 60)}h${minutos % 60 ? ` ${minutos % 60}min` : ''}` : `${minutos} min`}
+          </ComIcone>
           <Text style={s.texto}>
             {MINUTOS_POR_QUESTAO} minutos por questão, que é a média do ENEM. Quando o tempo acabar, o simulado é entregue automaticamente.
           </Text>
@@ -84,7 +89,7 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
             if (!qs.length) return;
             comecar({
               itens: qs.map((q) => ({ q, ordem: podeEmbaralhar(q) ? embaralhar(q.a.map((_, i) => i)) : q.a.map((_, i) => i) })),
-              titulo: disciplina ? getDisciplina(disciplina)?.nome ?? 'Simulado' : `Simulado ${p.trilha}`,
+              titulo: disciplina ? getDisciplina(disciplina)?.nome ?? 'Simulado' : `Simulado ${nomeProva}`,
               segundosTotais: qs.length * MINUTOS_POR_QUESTAO * 60,
             });
           }}
@@ -166,13 +171,15 @@ function TelaProva({ prova, terminar }: { prova: Prova; terminar: (r: Resultado)
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
       <View style={s.topo}>
         <Pressable testID="btn-sair-simulado" onPress={() => setConfirmar('sair')} hitSlop={12}>
-          <Text style={s.fechar}>✕</Text>
+          <Icone nome="close" tamanho={28} cor={c.cinza} />
         </Pressable>
-        <Text style={[s.relogio, pouco && { color: c.vermelho }]}>⏱️ {formatarTempo(restante)}</Text>
+        <ComIcone icone="timer-outline" cor={pouco ? c.vermelho : c.texto} estiloTexto={[s.relogio, pouco && { color: c.vermelho }]}>
+          {formatarTempo(restante)}
+        </ComIcone>
         <Pressable testID="btn-mapa" onPress={() => setMapa(true)} style={s.botaoMapa}>
-          <Text style={s.botaoMapaTexto}>
-            {pos + 1}/{prova.itens.length} ▦
-          </Text>
+          <ComIcone icone="view-grid-outline" cor={c.azulEscuro} tamanho={16} estilo={{ gap: 4 }} estiloTexto={s.botaoMapaTexto}>
+            {pos + 1}/{prova.itens.length}
+          </ComIcone>
         </Pressable>
       </View>
 
@@ -205,9 +212,9 @@ function TelaProva({ prova, terminar }: { prova: Prova; terminar: (r: Resultado)
       </ScrollView>
 
       <View style={s.rodape}>
-        <Botao titulo="◀ Anterior" contorno cor={c.azul} desativado={pos === 0} onPress={() => ir(pos - 1)} estilo={{ flex: 1 }} pequeno />
+        <Botao icone="chevron-left" titulo="Anterior" contorno cor={c.azul} desativado={pos === 0} onPress={() => ir(pos - 1)} estilo={{ flex: 1 }} pequeno />
         {pos + 1 < prova.itens.length ? (
-          <Botao testID="btn-proxima" titulo="Próxima ▶" cor={c.azul} onPress={() => ir(pos + 1)} estilo={{ flex: 1 }} pequeno />
+          <Botao testID="btn-proxima" icone="chevron-right" titulo="Próxima" cor={c.azul} onPress={() => ir(pos + 1)} estilo={{ flex: 1 }} pequeno />
         ) : (
           <Botao testID="btn-entregar" titulo="Entregar" cor={c.verde} onPress={() => setConfirmar('entregar')} estilo={{ flex: 1 }} pequeno />
         )}
@@ -286,7 +293,11 @@ function TelaResultado({ r }: { r: Resultado }) {
       <Cabecalho titulo="Resultado do simulado" />
       <ScrollView contentContainerStyle={{ padding: 16, gap: 12 }}>
         <View style={{ alignItems: 'center' }}>
-          <Text style={{ fontSize: 64 }}>{pct >= 80 ? '🏆' : pct >= 60 ? '🎉' : pct >= 40 ? '💪' : '📚'}</Text>
+          <Icone
+            nome={pct >= 80 ? 'trophy' : pct >= 60 ? 'party-popper' : pct >= 40 ? 'arm-flex-outline' : 'book-open-variant'}
+            tamanho={72}
+            cor={pct >= 80 ? c.amarelo : pct >= 60 ? c.verde : c.azul}
+          />
           <Text testID="resultado-pct" style={s.grande}>
             {pct}%
           </Text>
@@ -302,9 +313,9 @@ function TelaResultado({ r }: { r: Resultado }) {
               const d = getDisciplina(disc);
               return (
                 <View key={disc} style={s.linhaDisc}>
-                  <Text style={s.textoForte}>
-                    {d?.emoji} {d?.nome}
-                  </Text>
+                  <ComIcone icone={d?.icone ?? 'book-outline'} cor={d?.cor} estiloTexto={s.textoForte}>
+                    {d?.nome}
+                  </ComIcone>
                   <Text style={[s.textoForte, { color: a / t >= 0.7 ? c.verdeEscuro : c.vermelhoEscuro }]}>
                     {a}/{t}
                   </Text>
@@ -323,10 +334,10 @@ function TelaResultado({ r }: { r: Resultado }) {
           return (
             <Cartao key={it.q.id} estilo={{ borderColor: certa ? c.verde : c.vermelho }}>
               <Pressable onPress={() => setAberta(aberto ? null : i)}>
-                <Text style={s.textoForte}>
-                  {certa ? '✅' : '❌'} Questão {i + 1}
+                <ComIcone icone={certa ? 'check-circle' : 'close-circle'} cor={certa ? c.verdeEscuro : c.vermelhoEscuro} estiloTexto={s.textoForte}>
+                  Questão {i + 1}
                   {marcada == null ? ' · em branco' : ''}
-                </Text>
+                </ComIcone>
                 <Text style={s.enunciadoPequeno} numberOfLines={aberto ? undefined : 3}>
                   {it.q.e}
                 </Text>
@@ -335,7 +346,7 @@ function TelaResultado({ r }: { r: Resultado }) {
                     {it.q.a.map((alt, j) => (
                       <Text key={j} style={[s.altCorrecao, j === it.q.c && { color: c.verdeEscuro, fontWeight: '800' }, j === marcada && j !== it.q.c && { color: c.vermelhoEscuro }]}>
                         {LETRAS[j]}) {alt}
-                        {j === it.q.c ? '  ✅' : j === marcada ? '  ← sua resposta' : ''}
+                        {j === it.q.c ? '  (correta)' : j === marcada ? '  (sua resposta)' : ''}
                       </Text>
                     ))}
                     <Text style={s.explicacao}>{it.q.x}</Text>
@@ -363,7 +374,6 @@ const useEstilos = criarEstilos((c) => ({
   historicoTitulo: { fontSize: 15, fontWeight: '800', color: c.texto },
   historicoInfo: { fontSize: 13, color: c.textoSuave, fontWeight: '600', marginTop: 2 },
   topo: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', paddingHorizontal: 16, paddingVertical: 10, borderBottomWidth: 2, borderBottomColor: c.borda },
-  fechar: { fontSize: 24, color: c.cinza, fontWeight: '800' },
   relogio: { fontSize: 20, fontWeight: '800', color: c.texto, fontVariant: ['tabular-nums'] },
   botaoMapa: { paddingHorizontal: 12, paddingVertical: 6, borderRadius: 12, borderWidth: 2, borderColor: c.borda },
   botaoMapaTexto: { fontSize: 15, fontWeight: '800', color: c.texto },

@@ -142,7 +142,7 @@ npm run export:web   # gera a versão web estática em dist/
 
 ```
 conteudos/                 questões em Markdown, uma pasta por disciplina
-  <disciplina>/_disciplina.md   nome, área, emoji, cor e ordem da disciplina
+  <disciplina>/_disciplina.md   nome, área, ícone, cor e ordem da disciplina
   <disciplina>/NN-topico.md     um tópico com as seções Fácil, Médio e Difícil
   README.md                índice gerado automaticamente
 scripts/
@@ -194,7 +194,7 @@ app/                       aplicativo Expo (React Native + expo-router)
    ```
 
    Antes de `## Fácil`, coloque uma seção `## Resumo` com a teoria do tópico (listas com `- ` e
-   negrito com `**...**`). Ela aparece no app no botão "📖 Ler o resumo".
+   negrito com `**...**`). Ela aparece no app no botão "Ler o resumo".
 
    O campo `provas` aceita qualquer combinação de `ENEM`, `Militares` e `Concursos`. Uma questão pode
    ter sua própria fonte com a linha `**Fonte:** ENEM 2019, questão 140`, colocada depois da explicação.

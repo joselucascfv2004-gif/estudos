@@ -17,6 +17,8 @@ const NIVEIS = { 'fácil': 0, 'facil': 0, 'médio': 1, 'medio': 1, 'difícil': 2
 const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'];
 const PROVAS_VALIDAS = ['ENEM', 'Militares', 'Concursos'];
 
+const ARQ_INCIDENCIA = path.join(PASTA_CONTEUDOS, '_incidencia.md');
+
 const erros = [];
 const erro = (arquivo, linha, msg) => erros.push(`${path.relative(RAIZ, arquivo)}:${linha}: ${msg}`);
 
@@ -132,7 +134,24 @@ function lerTopico(arquivo) {
   return { meta, provas, questoes, porNivel, resumo: resumo.join('\n').replace(/\n{3,}/g, '\n\n').trim() };
 }
 
+/** Lê conteudos/_incidencia.md: linhas "- disciplina/assunto: nota" (1 a 5). */
+function lerIncidencia() {
+  const mapa = new Map();
+  if (!fs.existsSync(ARQ_INCIDENCIA)) return mapa;
+  fs.readFileSync(ARQ_INCIDENCIA, 'utf8')
+    .split(/\r?\n/)
+    .forEach((linha, i) => {
+      const m = linha.match(/^-\s+([\w-]+\/[\w-]+):\s*(\d)\s*$/);
+      if (!m) return;
+      const nota = Number(m[2]);
+      if (nota < 1 || nota > 5) erro(ARQ_INCIDENCIA, i + 1, `nota ${nota} fora de 1 a 5`);
+      mapa.set(m[1], nota);
+    });
+  return mapa;
+}
+
 function main() {
+  const incidencia = lerIncidencia();
   const disciplinas = [];
   const questoes = {};
   let total = 0;
@@ -146,12 +165,12 @@ function main() {
       continue;
     }
     const { meta: info } = lerFrontmatter(fs.readFileSync(arqInfo, 'utf8'), arqInfo);
-    for (const k of ['nome', 'area', 'emoji', 'cor', 'ordem']) if (!info[k]) erro(arqInfo, 1, `falta "${k}"`);
+    for (const k of ['nome', 'area', 'icone', 'cor', 'ordem']) if (!info[k]) erro(arqInfo, 1, `falta "${k}"`);
     const disciplina = {
       id: pasta.name,
       nome: info.nome,
       area: info.area,
-      emoji: info.emoji,
+      icone: info.icone,
       cor: info.cor,
       ordem: Number(info.ordem) || 99,
       topicos: [],
@@ -171,6 +190,7 @@ function main() {
         porNivel,
         ...(resumo ? { resumo } : {}),
         ...(meta.ordem === 'original' ? { ordemOriginal: true } : {}),
+        ...(incidencia.has(id) ? { incidencia: incidencia.get(id) } : {}),
       });
       const contador = [0, 0, 0];
       questoes[id] = qs.map((q) => {
@@ -184,6 +204,8 @@ function main() {
     if (disciplina.topicos.length) disciplinas.push(disciplina);
   }
   disciplinas.sort((a, b) => a.ordem - b.ordem || a.nome.localeCompare(b.nome));
+  const ids = new Set(disciplinas.flatMap((d) => d.topicos.map((t) => t.id)));
+  for (const id of incidencia.keys()) if (!ids.has(id)) erro(ARQ_INCIDENCIA, 0, `assunto "${id}" não existe`);
 
   if (erros.length) {
     console.error(`\n${erros.length} problema(s) encontrado(s):\n`);
@@ -207,7 +229,7 @@ function main() {
   ];
   for (const d of disciplinas) {
     const soma = d.topicos.reduce((s, t) => s + t.porNivel.reduce((a, b) => a + b, 0), 0);
-    linhas.push(`## ${d.emoji} ${d.nome} — ${soma} questões`, '', `*${d.area}*`, '');
+    linhas.push(`## ${d.nome} — ${soma} questões`, '', `*${d.area}*`, '');
     linhas.push('| Tópico | Provas | Fácil | Médio | Difícil |', '|---|---|---:|---:|---:|');
     for (const t of d.topicos) {
       linhas.push(`| [${t.titulo}](${path.relative('conteudos', t.arquivo)}) | ${t.provas.join(', ')} | ${t.porNivel.join(' | ')} |`);

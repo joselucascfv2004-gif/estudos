@@ -34,3 +34,10 @@ export function embaralhar<T>(lista: T[]): T[] {
   }
   return a;
 }
+
+/** Soma meses a uma data (31/01 + 1 mês = último dia de fevereiro). */
+export function somarMeses(data: string, meses: number): string {
+  const [a, m, d] = data.split('-').map(Number);
+  const ultimoDia = new Date(a, m - 1 + meses + 1, 0).getDate();
+  return hoje(new Date(a, m - 1 + meses, Math.min(d, ultimoDia)));
+}

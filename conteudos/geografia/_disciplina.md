@@ -1,11 +1,11 @@
 ---
 nome: Geografia
 area: Ciências Humanas
-emoji: 🌎
+icone: earth
 cor: #2B70C9
 ordem: 6
 ---
 
-# 🌎 Geografia
+# Geografia
 
 Cartografia, geografia física, população, economia, geopolítica e meio ambiente.

@@ -1,8 +1,9 @@
 // Acesso ao banco de questões gerado por scripts/compilar-conteudos.mjs.
 // Não edite banco.json à mão: edite os arquivos em /conteudos e rode `npm run conteudo`.
 
+import { getProva } from './provas';
+
 export type Prova = 'ENEM' | 'Militares' | 'Concursos';
-export type Trilha = Prova | 'Todas';
 export type Nivel = 0 | 1 | 2;
 
 export const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'] as const;
@@ -35,6 +36,8 @@ export type Topico = {
   resumo?: string;
   /** provas oficiais: as alternativas aparecem na ordem original (sem embaralhar) */
   ordemOriginal?: boolean;
+  /** quanto o assunto costuma cair nas provas: 1 (pouco) a 5 (muito) */
+  incidencia?: number;
 };
 
 /** As alternativas desta questão podem ser embaralhadas? (não em provas oficiais nem em certo/errado) */
@@ -46,7 +49,8 @@ export type Disciplina = {
   id: string;
   nome: string;
   area: string;
-  emoji: string;
+  /** nome do ícone (Material Community Icons) */
+  icone: string;
   cor: string;
   ordem: number;
   topicos: Topico[];
@@ -91,16 +95,26 @@ export function questoesDoTopico(topicoId: string, nivel?: Nivel): Questao[] {
   return nivel == null ? todas : todas.filter((q) => q.n === nivel);
 }
 
-export function topicoNaTrilha(t: Topico, trilha: Trilha) {
-  return trilha === 'Todas' || t.provas.includes(trilha);
-}
-
-export function disciplinasDaTrilha(trilha: Trilha) {
+/** Disciplinas (com os tópicos filtrados) cobradas na prova-alvo do aluno. */
+export function disciplinasDaProva(provaId: string): Disciplina[] {
+  const prova = getProva(provaId);
+  if (prova.materias) {
+    return prova.materias
+      .map((m) => {
+        const d = getDisciplina(m.disciplina);
+        if (!d) return null;
+        return { ...d, topicos: m.topicos ? d.topicos.filter((t) => m.topicos!.some((slug) => t.id === `${d.id}/${slug}`)) : d.topicos };
+      })
+      .filter((d): d is Disciplina => !!d && d.topicos.length > 0)
+      .sort((a, b) => a.ordem - b.ordem);
+  }
   return disciplinas
-    .map((d) => ({ ...d, topicos: d.topicos.filter((t) => topicoNaTrilha(t, trilha)) }))
+    .map((d) => ({ ...d, topicos: prova.grupo === 'Todas' ? d.topicos : d.topicos.filter((t) => t.provas.includes(prova.grupo as Prova)) }))
     .filter((d) => d.topicos.length > 0);
 }
 
-export function topicosDaTrilha(trilha: Trilha): Topico[] {
-  return disciplinasDaTrilha(trilha).flatMap((d) => d.topicos);
+export function topicosDaProva(provaId: string): Topico[] {
+  return disciplinasDaProva(provaId).flatMap((d) => d.topicos);
 }
+
+export const incidencia = (t: Topico) => t.incidencia ?? 3;

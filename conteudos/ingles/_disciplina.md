@@ -1,11 +1,11 @@
 ---
 nome: Inglês
 area: Linguagens e Códigos
-emoji: 🇬🇧
+icone: translate
 cor: #1F6FEB
 ordem: 11
 ---
 
-# 🇬🇧 Inglês
+# Inglês
 
 Leitura e compreensão de textos em inglês.

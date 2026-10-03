@@ -1,11 +1,11 @@
 ---
 nome: Biologia
 area: Ciências da Natureza
-emoji: 🧬
+icone: dna
 cor: #58A700
 ordem: 4
 ---
 
-# 🧬 Biologia
+# Biologia
 
 Citologia, genética, ecologia, evolução, fisiologia, seres vivos e saúde.

@@ -1,11 +1,11 @@
 ---
 nome: Matemática
 area: Matemática e suas Tecnologias
-emoji: 📐
+icone: calculator-variant-outline
 cor: #1CB0F6
 ordem: 1
 ---
 
-# 📐 Matemática
+# Matemática
 
 Os conteúdos que mais caem no ENEM, nos vestibulares militares e nas provas de concursos.
