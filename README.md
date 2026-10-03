@@ -6,8 +6,11 @@ Aplicativo de celular (Android/iOS, também roda no navegador) para estudar todo
 
 Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destrava níveis mais difíceis.
 
-- **4.744 questões** em **90 tópicos** de **20 disciplinas**
-- **104 questões oficiais do ENEM 2023** (INEP), com o gabarito oficial
+- **4.236 questões** em **98 tópicos** de **20 disciplinas**
+- **323 questões oficiais do ENEM** (provas de 2020, 2022 e 2023, publicadas pelo INEP), com o gabarito
+  oficial, classificadas por assunto: elas aparecem também dentro de cada tópico (por exemplo, "Funções")
+- As questões de cálculo não repetem enunciado: cada modelo gera uma questão diferente, e a explicação
+  diz qual **ferramenta** da matemática resolve o problema e por quê
 - Os tópicos inéditos têm **50 a 60 questões**, divididas em **Fácil, Médio e Difícil**
 - Todas as questões têm **gabarito e explicação**, e todo tópico tem um **resumo teórico**
 - Índice completo: [`conteudos/README.md`](conteudos/README.md)
@@ -16,13 +19,14 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 
 | Recurso | Como funciona |
 |---|---|
-| Trilhas | ENEM, Militares, Concursos ou Todas: o app mostra só as disciplinas da sua prova |
+| Prova-alvo | ENEM, ESA, EsPCEx, EEAR, AFA, Escola Naval, Colégio Naval, Banco do Brasil, Caixa, BNB, IBGE ou Todas: o app mostra só as matérias que caem na sua prova |
+| Prazo | Escolha em quanto tempo quer estar pronto (1, 2, 3 ou 6 meses, ou a data da prova). O plano prioriza os assuntos que mais caem |
 | Caminho por disciplina | Cada tópico tem 3 níveis. O Médio libera com 70% de acerto no Fácil, e o Difícil com 70% no Médio |
 | Lição | 10 questões. As erradas voltam no fim da lição. Há combo de acertos, vibração e explicação após cada resposta |
 | XP e níveis | Fácil vale 10 XP, Médio 15 e Difícil 20, com bônus de combo e de lição perfeita |
 | Meta diária | 100, 200, 400 ou 600 XP por dia |
 | Ofensiva 🔥 | Dias seguidos batendo a meta. Protetores de ofensiva podem ser comprados com 💎 |
-| Desafio do dia | 10 questões misturadas da sua trilha, com bônus de +50 XP |
+| Desafio do dia | 10 questões misturadas da sua prova-alvo, com bônus de +50 XP |
 | Revisão espaçada | Toda questão respondida volta para revisão com o passar do tempo. Quem acerta volta cada vez mais tarde (1, 3, 7, 15, 30 e 60 dias), e quem erra volta no mesmo dia |
 | Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial e ganha um treino focado nos seus erros |
 | Plano de estudos | Informe a data e o nome da sua prova no Perfil. A tela inicial mostra a contagem regressiva e o plano do dia (revisões, ponto fraco e assuntos novos), calculado para passar por todos os assuntos antes da prova |
@@ -39,7 +43,7 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 
 | Área | Disciplinas |
 |---|---|
-| Provas anteriores | ENEM — provas oficiais (2023: Matemática, Natureza, Humanas e Linguagens) |
+| Provas anteriores | ENEM — provas oficiais (2020, 2022 e 2023: Matemática, Natureza, Humanas e Linguagens) |
 | Matemática | Matemática (17 tópicos), Matemática Financeira |
 | Ciências da Natureza | Física, Química, Biologia |
 | Ciências Humanas | História, Geografia, Filosofia, Sociologia |
@@ -58,10 +62,12 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
   - **Questões teóricas** (humanas, linguagens, biologia, concursos) foram escritas à mão em Markdown.
     As alternativas são embaralhadas de forma equilibrada, para que o gabarito não se concentre em uma
     letra.
-- **Questões oficiais do ENEM:** a pasta `conteudos/enem-oficial/` traz questões da prova de 2023
-  publicada pelo INEP, com o texto, a ordem das alternativas e o gabarito oficiais. Cada uma traz a
-  fonte (dia, caderno e número da questão). Foram incluídas só as questões que podem ser resolvidas
-  sem figuras, gráficos ou mapas. As explicações foram escritas para o app.
+- **Questões oficiais do ENEM:** a pasta `conteudos/enem-oficial/` traz questões das provas de 2020,
+  2022 e 2023 publicadas pelo INEP, com o texto, a ordem das alternativas e o gabarito oficiais. Cada
+  uma traz a fonte (dia, caderno e número da questão) e a linha `**Assunto:**`, que a coloca também
+  dentro do tópico certo do conteúdo. Foram incluídas só as questões que podem ser resolvidas sem
+  figuras, gráficos ou mapas (quadros com números foram escritos em texto). As explicações foram
+  escritas para o app. A prova de 2021 não entrou porque o PDF do INEP não permite extrair o texto.
 
 ## Como instalar no celular
 
@@ -198,6 +204,8 @@ app/                       aplicativo Expo (React Native + expo-router)
 
    O campo `provas` aceita qualquer combinação de `ENEM`, `Militares` e `Concursos`. Uma questão pode
    ter sua própria fonte com a linha `**Fonte:** ENEM 2019, questão 140`, colocada depois da explicação.
+   Questões oficiais podem ter também `**Assunto:** matematica/funcoes-afim-e-quadratica` (uma ou mais
+   separadas por vírgula): a questão passa a aparecer também nesse tópico.
 
 2. Rode `npm run conteudo` dentro de `app/`. O compilador avisa se faltar resposta, explicação ou
    alternativa, ou se houver alternativas repetidas.

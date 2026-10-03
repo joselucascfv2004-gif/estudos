@@ -420,14 +420,18 @@ function priorizar(p: Progresso, qs: Questao[], quantidade: number): Questao[] {
 
 /**
  * Escolhe `quantidade` questões na ordem de prioridade, evitando duas do mesmo modelo de enunciado
- * na mesma lição (só repete modelo se não houver outra opção).
+ * na mesma lição (só repete modelo se não houver outra opção). Uma questão oficial classificada em
+ * mais de um assunto aparece uma vez só.
  */
 export function semModeloRepetido(qs: Questao[], quantidade: number): Questao[] {
   const escolhidas: Questao[] = [];
   const modelos = new Set<string>();
+  const ids = new Set<string>();
   const adiadas: Questao[] = [];
   for (const q of qs) {
     if (escolhidas.length >= quantidade) break;
+    if (ids.has(q.id)) continue;
+    ids.add(q.id);
     const chave = q.m ? `${q.id.split('#')[0]}~${q.m}` : null;
     if (chave && modelos.has(chave)) {
       adiadas.push(q);
@@ -485,7 +489,7 @@ export function montarPontosFracos(p: Progresso, topicoId?: string): Questao[] {
     else if (e.caixa === 0 || e.erros > e.acertos) erradas.push(q);
     else resto.push(q);
   }
-  return embaralhar([...erradas, ...nunca, ...resto].slice(0, TAMANHO_LICAO));
+  return embaralhar(semModeloRepetido([...erradas, ...nunca, ...resto], TAMANHO_LICAO));
 }
 
 export function montarTreino(p: Progresso, disciplinaId?: string): Questao[] {
