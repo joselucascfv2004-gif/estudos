@@ -1,2 +1,5 @@
 node_modules/
 .DS_Store
+
+# Vídeos e áudios gerados para o TikTok (arquivos grandes, não vão para o GitHub)
+tiktok/saida/
