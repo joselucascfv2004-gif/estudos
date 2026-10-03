@@ -1,16 +1,16 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Modal, Pressable, ScrollView, Switch, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { totalQuestoes } from '../../data/banco';
+import { LINGUAS, NOMES_NIVEL, Nivel, disciplinasDaProva, getTopico, totalQuestoes } from '../../data/banco';
 import { METAS, getProva } from '../../data/provas';
 import { configurarLembrete, lembretesDisponiveis } from '../../estado/lembretes';
 import { diferencaDias, hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
-import { MAX_PROTETORES, PRECO_PROTETOR, comprarProtetor, nivelDoUsuario } from '../../estado/progresso';
+import { MAX_PROTETORES, PRECO_PROTETOR, PrefRevisao, comprarProtetor, nivelDoUsuario } from '../../estado/progresso';
 import { Barra, Botao, Cartao, Chip } from '../../ui/componentes';
 import { ComIcone, Icone } from '../../ui/Icone';
-import { EscolhaPrazo, EscolhaProva } from '../../ui/Objetivo';
+import { EscolhaLingua, EscolhaPrazo, EscolhaProva } from '../../ui/Objetivo';
 import { criarEstilos, useCores } from '../../ui/tema';
 
 
@@ -20,40 +20,66 @@ export default function Perfil() {
   const { p, atualizar, apagarTudo } = useProgresso();
   const [confirmar, setConfirmar] = useState(false);
   const [msg, setMsg] = useState('');
+  // Prazo: as escolhas ficam num rascunho até o aluno tocar em "Salvar período"
+  const [rascunhoData, setRascunhoData] = useState<string | null>(p.dataProva);
   const [dataTexto, setDataTexto] = useState(p.dataProva ? paraBr(p.dataProva) : '');
-  const [dataMsg, setDataMsg] = useState('');
+  const [rascunhoNome, setRascunhoNome] = useState(p.nomeProva);
+  const [dataErro, setDataErro] = useState('');
+  const [salvo, setSalvo] = useState('');
+  const [linguaMsg, setLinguaMsg] = useState('');
+  const [revisaoMsg, setRevisaoMsg] = useState('');
+  // se o período mudar fora desta tela (ex.: progresso apagado), o rascunho acompanha
+  useEffect(() => {
+    setRascunhoData(p.dataProva);
+    setDataTexto(p.dataProva ? paraBr(p.dataProva) : '');
+    setRascunhoNome(p.nomeProva);
+    setDataErro('');
+  }, [p.dataProva, p.nomeProva]);
+  const mudouPeriodo = rascunhoData !== p.dataProva || rascunhoNome.trim() !== p.nomeProva.trim();
 
-  function definirData(iso: string) {
-    atualizar((x) => ({ ...x, dataProva: iso, planoDia: null }));
-    setDataTexto(paraBr(iso));
-    setDataMsg(`Faltam ${diferencaDias(hoje(), iso)} dias. O plano de estudos aparece na tela inicial.`);
+  function escolherData(iso: string | null) {
+    setRascunhoData(iso);
+    setDataTexto(iso ? paraBr(iso) : '');
+    setDataErro('');
+    setSalvo('');
   }
 
-  function salvarData(texto: string) {
+  function digitarData(texto: string) {
     setDataTexto(texto);
-    const m = texto.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+    setSalvo('');
     if (!texto.trim()) {
-      atualizar((x) => ({ ...x, dataProva: null, planoDia: null }));
-      setDataMsg('');
+      setRascunhoData(null);
+      setDataErro('');
       return;
     }
-    if (!m) {
-      setDataMsg('Digite no formato DD/MM/AAAA, por exemplo 08/11/2026.');
+    const iso = lerData(texto);
+    if (typeof iso === 'object') {
+      setDataErro(iso.erro);
       return;
     }
-    const [, d, mes, a] = m.map(Number);
-    const data = new Date(a, mes - 1, d);
-    if (data.getDate() !== d || data.getMonth() !== mes - 1) {
-      setDataMsg('Essa data não existe. Confira o dia e o mês.');
-      return;
-    }
-    const iso = hoje(data);
-    if (iso <= hoje()) {
-      setDataMsg('A data da prova precisa ser no futuro.');
-      return;
-    }
-    definirData(iso);
+    setRascunhoData(iso);
+    setDataErro('');
   }
+
+  function salvarPeriodo() {
+    if (dataErro) return;
+    const nome = rascunhoNome.trim();
+    atualizar((x) => ({ ...x, dataProva: rascunhoData, nomeProva: nome, planoDia: null }));
+    setRascunhoNome(nome);
+    setSalvo(
+      rascunhoData
+        ? `Período salvo! Prova em ${paraBr(rascunhoData)}, faltam ${diferencaDias(hoje(), rascunhoData)} dias. O plano de estudos da tela inicial já foi atualizado.`
+        : 'Período salvo: sem prazo definido. O app sugere um assunto novo por dia, no seu ritmo.',
+    );
+  }
+
+  function mudarPrefRevisao(muda: (pr: PrefRevisao) => PrefRevisao) {
+    atualizar((x) => ({ ...x, prefRevisao: muda(x.prefRevisao) }));
+    setRevisaoMsg('Preferências salvas. Valem para as próximas revisões.');
+  }
+  const alternar = (lista: string[], item: string) => (lista.includes(item) ? lista.filter((x) => x !== item) : [...lista, item]);
+  const materiasDaProva = disciplinasDaProva(p.prova, p.lingua);
+  const pref = p.prefRevisao;
   const n = nivelDoUsuario(p.xpTotal);
   const est = Object.values(p.questoes);
   const acertos = est.reduce((s, q) => s + q.acertos, 0);
@@ -138,7 +164,16 @@ export default function Perfil() {
             Meu objetivo
           </ComIcone>
           <Text style={s.texto}>Escolha a sua prova. O app mostra só as matérias que caem nela.</Text>
-          <EscolhaProva valor={p.prova} onEscolher={(id) => atualizar((x) => ({ ...x, prova: id, planoDia: null }))} />
+          <EscolhaProva valor={p.prova} lingua={p.lingua} onEscolher={(id) => atualizar((x) => ({ ...x, prova: id, planoDia: null }))} />
+          <EscolhaLingua
+            prova={p.prova}
+            valor={p.lingua}
+            onEscolher={(l) => {
+              atualizar((x) => ({ ...x, lingua: l, planoDia: null }));
+              setLinguaMsg(`Pronto! Agora só aparecem questões de ${LINGUAS.find((x) => x.id === l)?.nome}.`);
+            }}
+          />
+          {!!linguaMsg && <Text style={s.mini}>{linguaMsg}</Text>}
         </Cartao>
 
         <Cartao>
@@ -149,26 +184,116 @@ export default function Perfil() {
             Em quanto tempo você quer estudar para {getProva(p.prova).nome}? O app conta os dias e monta um plano diário que passa pelos assuntos que
             mais caem primeiro. Escolha um prazo ou digite a data da prova.
           </Text>
-          <EscolhaPrazo dataProva={p.dataProva} onEscolher={definirData} />
+          <View style={s.salvoAtual}>
+            <Icone nome="content-save-outline" tamanho={18} cor={c.textoSuave} />
+            <Text style={[s.mini, { marginTop: 0, flex: 1 }]}>
+              {p.dataProva
+                ? `Período salvo: até ${paraBr(p.dataProva)} (faltam ${diferencaDias(hoje(), p.dataProva)} dias)${p.nomeProva ? ` · ${p.nomeProva}` : ''}`
+                : 'Período salvo: sem prazo definido'}
+            </Text>
+          </View>
+          <EscolhaPrazo dataProva={rascunhoData} onEscolher={escolherData} />
+          <View style={s.chips}>
+            <Chip testID="prazo-nenhum" texto="Sem prazo" icone="infinity" ativo={!rascunhoData && !dataTexto} onPress={() => escolherData(null)} />
+          </View>
           <TextInput
             testID="input-data-prova"
             value={dataTexto}
             placeholder="Data (DD/MM/AAAA)"
             keyboardType="numbers-and-punctuation"
             maxLength={10}
-            onChangeText={salvarData}
+            onChangeText={digitarData}
             style={s.campo}
             placeholderTextColor={c.cinza}
           />
           <TextInput
             testID="input-nome-prova"
-            value={p.nomeProva}
+            value={rascunhoNome}
             placeholder={`Nome na contagem regressiva (ex.: ${getProva(p.prova).nome} 2026)`}
-            onChangeText={(t) => atualizar((x) => ({ ...x, nomeProva: t.slice(0, 40) }))}
+            onChangeText={(t) => {
+              setRascunhoNome(t.slice(0, 40));
+              setSalvo('');
+            }}
             style={s.campo}
             placeholderTextColor={c.cinza}
           />
-          {!!dataMsg && <Text style={s.mini}>{dataMsg}</Text>}
+          {!!dataErro && <Text style={[s.mini, { color: c.vermelho }]}>{dataErro}</Text>}
+          {!dataErro && rascunhoData && mudouPeriodo && (
+            <Text style={s.mini}>
+              Novo prazo: {paraBr(rascunhoData)} (faltam {diferencaDias(hoje(), rascunhoData)} dias). Toque em Salvar período para confirmar.
+            </Text>
+          )}
+          {!dataErro && !rascunhoData && mudouPeriodo && <Text style={s.mini}>Sem prazo. Toque em Salvar período para confirmar.</Text>}
+          <Botao
+            testID="btn-salvar-periodo"
+            icone="content-save-outline"
+            titulo="Salvar período"
+            cor={c.laranja}
+            desativado={!!dataErro || !mudouPeriodo}
+            onPress={salvarPeriodo}
+            estilo={{ marginTop: 12 }}
+          />
+          {!!salvo && (
+            <View testID="periodo-salvo" style={s.confirmacao}>
+              <Icone nome="check-circle" tamanho={22} cor={c.verdeEscuro} />
+              <Text style={s.confirmacaoTexto}>{salvo}</Text>
+            </View>
+          )}
+        </Cartao>
+
+        <Cartao>
+          <ComIcone icone="brain" cor={c.roxo} estiloTexto={s.secao}>
+            Minhas revisões
+          </ComIcone>
+          <Text style={s.texto}>
+            As revisões caem em dias variados e misturam assuntos que você já estudou. Escolha o que você quer revisar com mais frequência até a sua prova:
+            essas questões voltam antes e aparecem mais.
+          </Text>
+          <Text style={s.rotulo}>Nível que quero revisar mais</Text>
+          <View style={s.chips}>
+            <Chip testID="rev-nivel-todos" texto="Todos" cor={c.roxo} ativo={pref.nivel == null} onPress={() => mudarPrefRevisao((x) => ({ ...x, nivel: null }))} />
+            {([0, 1, 2] as Nivel[]).map((n) => (
+              <Chip
+                key={n}
+                testID={`rev-nivel-${n}`}
+                texto={NOMES_NIVEL[n]}
+                cor={c.roxo}
+                ativo={pref.nivel === n}
+                onPress={() => mudarPrefRevisao((x) => ({ ...x, nivel: n }))}
+              />
+            ))}
+          </View>
+          <Text style={s.rotulo}>Matérias que quero revisar mais</Text>
+          <View style={s.chips}>
+            {materiasDaProva.map((d) => (
+              <Chip
+                key={d.id}
+                testID={`rev-materia-${d.id}`}
+                texto={d.nome}
+                icone={d.icone}
+                cor={c.roxo}
+                ativo={pref.disciplinas.includes(d.id)}
+                onPress={() => mudarPrefRevisao((x) => ({ ...x, disciplinas: alternar(x.disciplinas, d.id) }))}
+              />
+            ))}
+          </View>
+          <Text style={s.rotulo}>Assuntos que quero revisar mais</Text>
+          {pref.topicos.length ? (
+            <View style={s.chips}>
+              {pref.topicos.map((t) => (
+                <Chip
+                  key={t}
+                  texto={`${getTopico(t)?.topico.titulo ?? t}  ✕`}
+                  cor={c.roxo}
+                  ativo
+                  onPress={() => mudarPrefRevisao((x) => ({ ...x, topicos: x.topicos.filter((y) => y !== t) }))}
+                />
+              ))}
+            </View>
+          ) : (
+            <Text style={s.mini}>Nenhum ainda. Para marcar, abra uma matéria na tela inicial, toque no assunto e escolha "Revisar mais este assunto".</Text>
+          )}
+          {!!revisaoMsg && <Text style={[s.mini, { color: c.verdeEscuro }]}>{revisaoMsg}</Text>}
         </Cartao>
 
         <Cartao>
@@ -257,6 +382,18 @@ export default function Perfil() {
   );
 }
 
+/** Lê uma data DD/MM/AAAA digitada; devolve a data no formato do app ou o motivo do erro. */
+function lerData(texto: string): string | { erro: string } {
+  const m = texto.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (!m) return { erro: 'Digite no formato DD/MM/AAAA, por exemplo 08/11/2026.' };
+  const [, d, mes, a] = m.map(Number);
+  const data = new Date(a, mes - 1, d);
+  if (data.getDate() !== d || data.getMonth() !== mes - 1) return { erro: 'Essa data não existe. Confira o dia e o mês.' };
+  const iso = hoje(data);
+  if (iso <= hoje()) return { erro: 'A data da prova precisa ser no futuro.' };
+  return iso;
+}
+
 function paraBr(iso: string) {
   const [a, m, d] = iso.split('-');
   return `${d}/${m}/${a}`;
@@ -300,6 +437,10 @@ const useEstilos = criarEstilos((c) => ({
   secao: { fontSize: 17, fontWeight: '800', color: c.texto },
   texto: { fontSize: 14, color: c.textoSuave, fontWeight: '600', lineHeight: 20, marginVertical: 8, flexShrink: 1 },
   chips: { flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginTop: 10 },
+  rotulo: { fontSize: 14, fontWeight: '800', color: c.texto, marginTop: 12 },
+  salvoAtual: { flexDirection: 'row', alignItems: 'center', gap: 6, padding: 10, borderRadius: 12, backgroundColor: c.fundoSuave },
+  confirmacao: { flexDirection: 'row', alignItems: 'center', gap: 10, marginTop: 12, padding: 12, borderRadius: 14, backgroundColor: c.verdeClaro },
+  confirmacaoTexto: { flex: 1, fontSize: 14, fontWeight: '700', color: c.verdeEscuro, lineHeight: 20 },
   linha: { flexDirection: 'row', alignItems: 'center', justifyContent: 'space-between', gap: 10 },
   hora: { flexDirection: 'row', alignItems: 'center', gap: 14 },
   horaTexto: { fontSize: 18, fontWeight: '800', color: c.texto },

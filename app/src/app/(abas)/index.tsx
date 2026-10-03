@@ -30,7 +30,7 @@ export default function Inicio() {
   const s = useEstilos();
   const { p, atualizar, aviso, limparAviso } = useProgresso();
   const prova = getProva(p.prova);
-  const lista = disciplinasDaProva(p.prova);
+  const lista = disciplinasDaProva(p.prova, p.lingua);
   const xp = xpHoje(p);
   const desafioFeito = !!p.desafiosFeitos[hoje()];
   const ultimo = p.ultimoTopico ? getTopico(p.ultimoTopico) : undefined;

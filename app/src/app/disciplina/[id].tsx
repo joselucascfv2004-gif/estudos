@@ -22,7 +22,7 @@ export default function TelaDisciplina() {
   const c = useCores();
   const s = useEstilos();
   const { id } = useLocalSearchParams<{ id: string }>();
-  const { p } = useProgresso();
+  const { p, atualizar } = useProgresso();
   const [aberto, setAberto] = useState<Topico | null>(null);
   const insets = useSafeAreaInsets();
   // botão "voltar" do Android fecha a folha de níveis antes de sair da tela
@@ -37,7 +37,7 @@ export default function TelaDisciplina() {
   const completa = getDisciplina(id);
   if (!completa) return null;
   // mostra os tópicos da prova escolhida; se nenhum, mostra todos
-  const daProva = disciplinasDaProva(p.prova).find((x) => x.id === id);
+  const daProva = disciplinasDaProva(p.prova, p.lingua).find((x) => x.id === id);
   const d = daProva ?? completa;
   const ocultos = completa.topicos.length - d.topicos.length;
 
@@ -161,6 +161,32 @@ export default function TelaDisciplina() {
                     {fraco
                       ? `Ponto fraco: ${des.acerto}% de acerto nas últimas ${des.respostas} questões. Toque para treinar seus erros.`
                       : `${des.acerto}% de acerto nas últimas ${des.respostas} questões.`}
+                  </ComIcone>
+                </Pressable>
+              );
+            })()}
+            {(() => {
+              const marcado = p.prefRevisao.topicos.includes(aberto.id);
+              return (
+                <Pressable
+                  testID="revisar-mais"
+                  onPress={() =>
+                    atualizar((x) => ({
+                      ...x,
+                      prefRevisao: {
+                        ...x.prefRevisao,
+                        topicos: marcado ? x.prefRevisao.topicos.filter((t) => t !== aberto.id) : [...x.prefRevisao.topicos, aberto.id],
+                      },
+                    }))
+                  }
+                >
+                  <ComIcone
+                    icone={marcado ? 'checkbox-marked' : 'checkbox-blank-outline'}
+                    cor={c.roxo}
+                    tamanho={20}
+                    estiloTexto={[s.provas, { color: c.texto }]}
+                  >
+                    {marcado ? 'Este assunto aparece mais nas suas revisões' : 'Revisar mais este assunto'}
                   </ComIcone>
                 </Pressable>
               );

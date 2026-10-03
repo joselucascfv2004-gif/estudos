@@ -3,13 +3,13 @@ import { useState } from 'react';
 import { Pressable, ScrollView, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { totalQuestoes } from '../data/banco';
+import { Lingua, totalQuestoes } from '../data/banco';
 import { METAS, getProva } from '../data/provas';
 import { configurarLembrete, lembretesDisponiveis } from '../estado/lembretes';
 import { useProgresso } from '../estado/ProgressoContext';
 import { Barra, Botao } from '../ui/componentes';
 import { Icone } from '../ui/Icone';
-import { EscolhaPrazo, EscolhaProva, LinhaOpcao } from '../ui/Objetivo';
+import { EscolhaLingua, EscolhaPrazo, EscolhaProva, LinhaOpcao } from '../ui/Objetivo';
 import { criarEstilos, useCores } from '../ui/tema';
 
 export default function BoasVindas() {
@@ -19,6 +19,7 @@ export default function BoasVindas() {
   const [passo, setPasso] = useState(0);
   const [nome, setNome] = useState('');
   const [prova, setProva] = useState('enem');
+  const [lingua, setLingua] = useState<Lingua>('ingles');
   const [dataProva, setDataProva] = useState<string | null>(null);
   const [meta, setMeta] = useState(200);
   const ultimoPasso = lembretesDisponiveis() ? 4 : 3;
@@ -26,7 +27,7 @@ export default function BoasVindas() {
   async function concluir(lembrete: boolean) {
     let ativo = false;
     if (lembrete) ativo = await configurarLembrete(true, 19, 0);
-    atualizar((p) => ({ ...p, onboarding: true, nome: nome.trim(), prova, dataProva, planoDia: null, metaDiaria: meta, lembrete: { ativo, hora: 19, minuto: 0 } }));
+    atualizar((p) => ({ ...p, onboarding: true, nome: nome.trim(), prova, lingua, dataProva, planoDia: null, metaDiaria: meta, lembrete: { ativo, hora: 19, minuto: 0 } }));
     router.replace('/');
   }
 
@@ -63,7 +64,8 @@ export default function BoasVindas() {
           <>
             <Text style={s.titulo}>Para qual prova você vai estudar?</Text>
             <Text style={s.texto}>O app mostra só as matérias que caem nela. Você pode mudar quando quiser.</Text>
-            <EscolhaProva valor={prova} onEscolher={setProva} />
+            <EscolhaProva valor={prova} onEscolher={setProva} lingua={lingua} />
+            <EscolhaLingua prova={prova} valor={lingua} onEscolher={setLingua} />
           </>
         )}
 

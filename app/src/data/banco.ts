@@ -5,6 +5,12 @@ import { getProva } from './provas';
 
 export type Prova = 'ENEM' | 'Militares' | 'Concursos';
 export type Nivel = 0 | 1 | 2;
+/** Língua estrangeira escolhida pelo aluno (o ENEM pede uma das duas). */
+export type Lingua = 'ingles' | 'espanhol';
+export const LINGUAS: { id: Lingua; nome: string; icone: string }[] = [
+  { id: 'ingles', nome: 'Inglês', icone: 'translate' },
+  { id: 'espanhol', nome: 'Espanhol', icone: 'translate-variant' },
+];
 
 export const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'] as const;
 export const XP_POR_NIVEL = [10, 15, 20] as const;
@@ -96,10 +102,18 @@ export function getQuestao(id: string) {
 
 // questões do próprio arquivo + questões oficiais classificadas neste assunto
 const questoesComOficiais = new Map<string, Questao[]>();
+// assuntos em que cada questão aparece (o próprio arquivo e, nas oficiais, os assuntos classificados)
+const topicosPorQuestao = new Map<string, string[]>();
 for (const { topico } of topicoPorId.values()) {
   const proprias = banco.questoes[topico.id] ?? [];
   const oficiais = (topico.oficiais ?? []).map((id) => questaoPorId.get(id)?.questao).filter((q): q is Questao => !!q);
   questoesComOficiais.set(topico.id, oficiais.length ? [...proprias, ...oficiais] : proprias);
+  for (const q of [...proprias, ...oficiais]) topicosPorQuestao.set(q.id, [...(topicosPorQuestao.get(q.id) ?? []), topico.id]);
+}
+
+/** Assuntos em que a questão aparece. */
+export function topicosDaQuestao(id: string): string[] {
+  return topicosPorQuestao.get(id) ?? [];
 }
 
 export function questoesDoTopico(topicoId: string, nivel?: Nivel): Questao[] {
@@ -112,8 +126,24 @@ export function totalOficiais(topico: Topico) {
   return topico.oficiais?.length ?? 0;
 }
 
-/** Disciplinas (com os tópicos filtrados) cobradas na prova-alvo do aluno. */
-export function disciplinasDaProva(provaId: string): Disciplina[] {
+/** A prova cobra as duas línguas estrangeiras (o aluno escolhe uma)? */
+export function provaTemDuasLinguas(provaId: string): boolean {
+  const ids = new Set(disciplinasSemFiltroDeLingua(provaId).map((d) => d.id));
+  return LINGUAS.every((l) => ids.has(l.id));
+}
+
+/**
+ * Disciplinas (com os tópicos filtrados) cobradas na prova-alvo do aluno. Se a prova tem inglês e
+ * espanhol, entra só a língua escolhida (`lingua`); sem `lingua`, entram as duas.
+ */
+export function disciplinasDaProva(provaId: string, lingua?: Lingua): Disciplina[] {
+  const lista = disciplinasSemFiltroDeLingua(provaId);
+  if (!lingua || !lista.some((d) => d.id === lingua)) return lista;
+  const outras = new Set(LINGUAS.filter((l) => l.id !== lingua).map((l) => l.id));
+  return lista.filter((d) => !outras.has(d.id as Lingua));
+}
+
+function disciplinasSemFiltroDeLingua(provaId: string): Disciplina[] {
   const prova = getProva(provaId);
   if (prova.materias) {
     return prova.materias
@@ -130,8 +160,8 @@ export function disciplinasDaProva(provaId: string): Disciplina[] {
     .filter((d) => d.topicos.length > 0);
 }
 
-export function topicosDaProva(provaId: string): Topico[] {
-  return disciplinasDaProva(provaId).flatMap((d) => d.topicos);
+export function topicosDaProva(provaId: string, lingua?: Lingua): Topico[] {
+  return disciplinasDaProva(provaId, lingua).flatMap((d) => d.topicos);
 }
 
 export const incidencia = (t: Topico) => t.incidencia ?? 3;

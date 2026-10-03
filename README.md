@@ -20,14 +20,16 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Recurso | Como funciona |
 |---|---|
 | Prova-alvo | ENEM, ESA, EsPCEx, EEAR, AFA, Escola Naval, Colégio Naval, Banco do Brasil, Caixa, BNB, IBGE ou Todas: o app mostra só as matérias que caem na sua prova |
-| Prazo | Escolha em quanto tempo quer estar pronto (1, 2, 3 ou 6 meses, ou a data da prova). O plano prioriza os assuntos que mais caem |
+| Prazo | Escolha em quanto tempo quer estar pronto (1, 2, 3 ou 6 meses, ou a data da prova) e toque em **Salvar período** no Perfil para confirmar. O plano prioriza os assuntos que mais caem |
 | Caminho por disciplina | Cada tópico tem 3 níveis. O Médio libera com 70% de acerto no Fácil, e o Difícil com 70% no Médio |
 | Lição | 10 questões. As erradas voltam no fim da lição. Há combo de acertos, vibração e explicação após cada resposta |
 | XP e níveis | Fácil vale 10 XP, Médio 15 e Difícil 20, com bônus de combo e de lição perfeita |
 | Meta diária | 100, 200, 400 ou 600 XP por dia |
 | Ofensiva 🔥 | Dias seguidos batendo a meta. Protetores de ofensiva podem ser comprados com 💎 |
 | Desafio do dia | 10 questões misturadas da sua prova-alvo, com bônus de +50 XP |
-| Revisão espaçada | Toda questão respondida volta para revisão com o passar do tempo. Quem acerta volta cada vez mais tarde (1, 3, 7, 15, 30 e 60 dias), e quem erra volta no mesmo dia |
+| Revisão espaçada | Toda questão respondida volta para revisão em outro dia. Quem erra não repete na hora: a questão fica guardada e volta em 1 a 3 dias. Quem acerta volta cada vez mais tarde (cerca de 4, 7, 15, 30 e 60 dias), sempre com alguns dias de variação, para as revisões misturarem assuntos de dias diferentes. Sem revisão vencida, dá para fazer uma revisão surpresa com questões já vistas |
+| Minhas revisões | No Perfil, o aluno escolhe o nível, as matérias e os assuntos que quer revisar mais (os assuntos também podem ser marcados na tela da matéria). Essas questões voltam antes e aparecem mais nas revisões |
+| Língua estrangeira | No ENEM, o aluno escolhe Inglês ou Espanhol (na abertura do app ou no Perfil) e só vê as questões da língua escolhida |
 | Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial e ganha um treino focado nos seus erros |
 | Plano de estudos | Informe a data e o nome da sua prova no Perfil. A tela inicial mostra a contagem regressiva e o plano do dia (revisões, ponto fraco e assuntos novos), calculado para passar por todos os assuntos antes da prova |
 | Simulado | Prova com cronômetro (3 min por questão), navegação entre as questões e gabarito só no final, com correção, acerto por disciplina e histórico |

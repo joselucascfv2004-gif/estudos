@@ -40,12 +40,12 @@ function vibrar(tipo: 'ok' | 'erro') {
   }
 }
 
-type Item = { q: Questao; ordem: number[]; repeticao: boolean };
+type Item = { q: Questao; ordem: number[] };
 
-function prepararItem(q: Questao, repeticao = false): Item {
+function prepararItem(q: Questao): Item {
   const indices = q.a.map((_, i) => i);
   // embaralha as alternativas (exceto certo/errado e provas oficiais)
-  return { q, ordem: podeEmbaralhar(q) ? embaralhar(indices) : indices, repeticao };
+  return { q, ordem: podeEmbaralhar(q) ? embaralhar(indices) : indices };
 }
 
 export default function Licao() {
@@ -69,7 +69,7 @@ export default function Licao() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const [fila, setFila] = useState<Item[]>(inicial);
+  const fila = inicial;
   const [pos, setPos] = useState(0);
   const [escolha, setEscolha] = useState<number | null>(null);
   const [verificado, setVerificado] = useState(false);
@@ -102,7 +102,7 @@ export default function Licao() {
         <Text style={s.fimTitulo}>{modo === 'revisao' ? 'Nada para revisar hoje!' : 'Sem questões aqui'}</Text>
         <Text style={s.fimSub}>
           {modo === 'revisao'
-            ? 'As questões que você responde voltam para revisão com o passar dos dias. Volte amanhã!'
+            ? 'As questões que você responde hoje voltam para revisão daqui a alguns dias. Volte amanhã!'
             : modo === 'fracos'
               ? 'Você ainda não tem pontos fracos. Continue estudando que o app vai acompanhando o seu desempenho.'
               : 'Não encontramos questões para esta seleção.'}
@@ -134,12 +134,11 @@ export default function Licao() {
       const novoCombo = combo + 1;
       setCombo(novoCombo);
       setComboMax((m) => Math.max(m, novoCombo));
-      if (!item.repeticao) setXp((v) => v + xpDaResposta(q, novoCombo, modo));
+      setXp((v) => v + xpDaResposta(q, novoCombo, modo));
       setElogio(ELOGIOS[Math.floor(Math.random() * ELOGIOS.length)]);
     } else {
+      // a questão errada não volta agora: fica guardada para a revisão de daqui a alguns dias
       setCombo(0);
-      // como no Duolingo: a questão errada volta no fim da lição (uma vez)
-      if (!item.repeticao) setFila((f) => [...f, prepararItem(q, true)]);
     }
   }
 
@@ -182,7 +181,6 @@ export default function Licao() {
           <Text style={s.etiquetaTopico} numberOfLines={1}>
             {modo === 'topico' ? titulo : (topico?.titulo ?? titulo)}
           </Text>
-          {item.repeticao && <Text style={[s.etiqueta, { backgroundColor: c.azulClaro, color: c.azulEscuro }]}>Revendo</Text>}
         </View>
         <Text style={s.enunciado}>{q.e}</Text>
         <View style={{ gap: 10, marginTop: 8 }}>
@@ -226,7 +224,7 @@ export default function Licao() {
             estiloTexto={[s.painelTitulo, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}
           >
             {acertou ? elogio : `Resposta correta: ${LETRAS[corretaExibida]}`}
-            {acertou && !item.repeticao ? `  +${xpDaResposta(q, combo, modo)} XP` : ''}
+            {acertou ? `  +${xpDaResposta(q, combo, modo)} XP` : ''}
           </ComIcone>
           <ScrollView style={{ maxHeight: 170 }}>
             <Text style={[s.explicacao, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}>{q.x}</Text>
@@ -274,6 +272,7 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
   const { ev } = fim;
   const pct = ev.total ? Math.round((ev.acertos / ev.total) * 100) : 0;
   const perfeita = ev.total > 0 && ev.acertos === ev.total;
+  const erros = ev.total - ev.acertos;
   const destaques: { icone: string; texto: string }[] = [];
   if (ev.ofensivaAumentou) destaques.push({ icone: 'fire', texto: `Ofensiva de ${p.ofensiva.atual} dia${p.ofensiva.atual > 1 ? 's' : ''}!` });
   if (ev.metaBatidaAgora) destaques.push({ icone: 'target', texto: 'Meta diária batida! +10 moedas' });
@@ -293,9 +292,10 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
         />
         <Text style={s.fimTitulo}>{perfeita ? 'Perfeito!' : pct >= 70 ? 'Lição concluída!' : 'Continue praticando!'}</Text>
         <Text style={s.fimSub}>
-          {pct >= 70
-            ? 'Você está mandando muito bem. O app vai trazer estas questões de volta nos próximos dias para fixar o conteúdo.'
-            : 'Errar faz parte: as questões erradas voltam na sua revisão de hoje.'}
+          {pct >= 70 ? 'Você está mandando muito bem. ' : 'Errar faz parte. '}
+          {erros
+            ? `${erros === 1 ? 'A questão que você errou ficou guardada' : `As ${erros} questões que você errou ficaram guardadas`} e volta${erros === 1 ? '' : 'm'} na sua revisão daqui a alguns dias.`
+            : 'O app vai trazer estas questões de volta nos próximos dias para fixar o conteúdo.'}
         </Text>
         <View style={s.caixas}>
           <Caixa titulo="XP" valor={`+${fim.xp}`} cor={c.amarelo} />

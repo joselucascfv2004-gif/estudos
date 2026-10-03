@@ -7,13 +7,13 @@ import { getProva } from '../../data/provas';
 import { diferencaDias, hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
-  INTERVALOS,
   LIMITE_PONTO_FRACO,
   MIN_RESPOSTAS_AVALIAR,
   acertoDisciplina,
   pontosFracos,
   proximaRevisao,
   revisoesPendentes,
+  tamanhoRevisao,
 } from '../../estado/progresso';
 import { BarraStatus } from '../../ui/BarraStatus';
 import { Barra, Botao, Cartao } from '../../ui/componentes';
@@ -31,6 +31,8 @@ export default function Praticar() {
   const { p } = useProgresso();
   const pendentes = revisoesPendentes(p).length;
   const proxima = proximaRevisao(p);
+  // sem revisão vencida, dá para fazer uma revisão surpresa com questões de dias anteriores
+  const surpresa = pendentes ? 0 : tamanhoRevisao(p);
   const fracos = pontosFracos(p).slice(0, 5);
   const plural = (n: number) => (n === 1 ? 'questão' : 'questões');
 
@@ -42,20 +44,24 @@ export default function Praticar() {
 
         <Cartao estilo={{ backgroundColor: c.roxoClaro, borderColor: c.roxoBorda }}>
           <ComIcone icone="brain" cor={c.roxo} tamanho={22} estiloTexto={s.cartaoTitulo}>
-            Revisão do dia
+            Revisão
           </ComIcone>
           <Text style={s.sub}>
             {pendentes
-              ? `${pendentes} ${plural(pendentes)} para revisar hoje. Quem acerta volta cada vez mais tarde (${INTERVALOS.slice(1).join(', ')} dias); quem erra volta logo.`
+              ? `${pendentes} ${plural(pendentes)} de dias anteriores esperando revisão. As questões erradas voltam em poucos dias; as que você acerta voltam cada vez mais tarde, em dias variados.`
               : proxima
-                ? `Tudo revisado por hoje! Próxima revisão ${quandoFalta(proxima.dia)}: ${proxima.quantidade} ${plural(proxima.quantidade)}.`
-                : 'As questões que você responder voltam aqui com o passar dos dias, para fixar o conteúdo na memória.'}
+                ? `Nenhuma revisão marcada para hoje. Próxima ${quandoFalta(proxima.dia)}: ${proxima.quantidade} ${plural(proxima.quantidade)}.`
+                : 'As questões que você responder voltam aqui em outros dias, misturando assuntos, para fixar o conteúdo na memória.'}
+            {surpresa ? ' Quer adiantar? Faça uma revisão surpresa com questões que você já viu.' : ''}
+          </Text>
+          <Text style={s.dica} onPress={() => router.push('/perfil')}>
+            Escolha no Perfil as matérias, assuntos e o nível que você quer revisar mais.
           </Text>
           <Botao
             testID="btn-revisao"
-            titulo={pendentes ? `Revisar ${Math.min(pendentes, 10)} agora` : 'Nada para revisar hoje'}
+            titulo={pendentes ? `Revisar ${Math.min(pendentes, 10)} agora` : surpresa ? `Revisão surpresa (${surpresa})` : 'Nada para revisar ainda'}
             cor={c.roxo}
-            desativado={!pendentes}
+            desativado={!pendentes && !surpresa}
             onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
           />
         </Cartao>
@@ -138,7 +144,7 @@ export default function Praticar() {
 
         <Text style={s.secao}>Treinar por disciplina</Text>
         <View style={{ gap: 10 }}>
-          {disciplinasDaProva(p.prova).map((d) => {
+          {disciplinasDaProva(p.prova, p.lingua).map((d) => {
             const acerto = acertoDisciplina(p, d.id);
             return (
               <Cartao
@@ -166,6 +172,7 @@ const useEstilos = criarEstilos((c) => ({
   titulo: { fontSize: 26, fontWeight: '800', color: c.texto },
   cartaoTitulo: { fontSize: 19, fontWeight: '800', color: c.texto },
   sub: { fontSize: 14, color: c.textoSuave, fontWeight: '600', marginVertical: 10, lineHeight: 20 },
+  dica: { fontSize: 13, color: c.roxo, fontWeight: '800', marginBottom: 12, textDecorationLine: 'underline' },
   secao: { fontSize: 13, fontWeight: '800', color: c.textoSuave, textTransform: 'uppercase', letterSpacing: 1, marginTop: 6 },
   linha: { flexDirection: 'row', alignItems: 'center', gap: 12, paddingVertical: 12 },
   nome: { fontSize: 16, fontWeight: '800', color: c.texto },
