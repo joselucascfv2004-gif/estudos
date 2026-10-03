@@ -24,6 +24,147 @@ Razões trigonométricas, ângulos notáveis, leis dos senos e cossenos, ciclo t
 ## Fácil
 
 ### 1
+<!-- modelo: f3 -->
+Quanto vale 120° em radianos?
+
+- A) π
+- B) 2π/3
+- C) π/6
+- D) 2π
+- E) π/3
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: regra de três com π = 180°. Meia volta é 180° ou π radianos. 120° = (120/180)π = 2π/3 rad.
+
+### 2
+<!-- modelo: f7 -->
+Sabendo que sen x = 5/13 e que x é um ângulo agudo, qual é o valor de cos x?
+
+- A) 13/5
+- B) 8/13
+- C) 12/13
+- D) 12/5
+- E) 5/12
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: relação fundamental. sen²x + cos²x = 1 (é o teorema de Pitágoras no círculo). cos²x = 1 − 25/169 = 144/169 ⇒ cos x = 12/13.
+
+### 3
+<!-- modelo: f6 -->
+Uma escada de 16 m está apoiada em uma parede e forma um ângulo de 60° com o chão. A que distância da parede está o pé da escada?
+
+- A) 4 m
+- B) 13,84 m
+- C) 32 m
+- D) 8 m
+- E) 16 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: cosseno. cos = cateto adjacente ÷ hipotenusa. O pé da escada está no lado adjacente ao ângulo com o chão. 16 × cos 60° = 16 × 1/2 = 8 m.
+
+### 4
+<!-- modelo: f11 -->
+Um triângulo retângulo tem catetos de 3 cm e 4 cm. Qual é o seno do menor ângulo agudo?
+
+- A) 3/4
+- B) 3/5
+- C) 5/3
+- D) 4/3
+- E) 4/5
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: menor ângulo fica em frente ao menor lado. Calcule a hipotenusa e use sen = oposto ÷ hipotenusa. Hipotenusa 5. O menor ângulo é oposto ao cateto 3: sen = 3/5.
+
+### 5
+<!-- modelo: f2 -->
+Em um triângulo retângulo, a hipotenusa mede 8 cm e um dos ângulos agudos mede 30°. Quanto mede o cateto oposto a esse ângulo?
+
+- A) 16 cm
+- B) 2,67 cm
+- C) 8 cm
+- D) 2 cm
+- E) 4 cm
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: seno no triângulo retângulo. sen = cateto oposto ÷ hipotenusa. sen 30° = 1/2 = x/8 ⇒ x = 4 cm.
+
+### 6
+<!-- modelo: f4 -->
+Uma rampa reta de 26 m de comprimento forma um ângulo de 30° com o chão. Qual é a altura que ela atinge?
+
+- A) 6,5 m
+- B) 8,67 m
+- C) 26 m
+- D) 13 m
+- E) 52 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: seno. A rampa é a hipotenusa; a altura é o cateto oposto ao ângulo com o chão. 26 × sen 30° = 26 × 1/2 = 13 m.
+
+### 7
+<!-- modelo: f9 -->
+Um ângulo mede 3π/4 radianos. Quanto ele mede em graus?
+
+- A) 45°
+- B) 135°
+- C) 225°
+- D) 67,5°
+- E) 270°
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: trocar π por 180°. Basta substituir π por 180° e fazer a conta. 3π/4 = 3180°/4 = 135°.
+
+### 8
+<!-- modelo: f3 -->
+Quanto vale 300° em radianos?
+
+- A) 5π/3
+- B) 3π/2
+- C) 5π/6
+- D) 2π/3
+- E) π/6
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: regra de três com π = 180°. Meia volta é 180° ou π radianos. 300° = (300/180)π = 5π/3 rad.
+
+### 9
+<!-- modelo: f12 -->
+Qual é o menor ângulo formado pelos ponteiros de um relógio às 7 horas em ponto?
+
+- A) 180°
+- B) 150°
+- C) 42°
+- D) 75°
+- E) 210°
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: dividir a volta em 12. O mostrador tem 12 "fatias" de 360° ÷ 12 = 30°. Às 7h, os ponteiros estão 5 fatias distantes: 5 × 30° = 150°.
+
+### 10
+<!-- modelo: f7 -->
+Sabendo que sen x = 8/17 e que x é um ângulo agudo, qual é o valor de cos x?
+
+- A) 8/15
+- B) 15/8
+- C) 15/17
+- D) 17/8
+- E) 9/17
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: relação fundamental. sen²x + cos²x = 1 (é o teorema de Pitágoras no círculo). cos²x = 1 − 64/289 = 225/289 ⇒ cos x = 15/17.
+
+### 11
+<!-- modelo: f1 -->
 Qual é o valor de cos 30°?
 
 - A) √3/2
@@ -34,775 +175,498 @@ Qual é o valor de cos 30°?
 
 **Resposta:** A
 
-**Explicação:** Tabela dos ângulos notáveis: sen 30° = 1/2, sen 45° = √2/2, sen 60° = √3/2; cos é o inverso dessa ordem; tg = sen/cos. Logo cos 30° = √3/2.
-
-### 2
-Em um triângulo retângulo, a hipotenusa mede 24 cm e um dos ângulos agudos mede 30°. Quanto mede o cateto oposto a esse ângulo?
-
-- A) 8 cm
-- B) 24 cm
-- C) 12 cm
-- D) 48 cm
-- E) 6 cm
-
-**Resposta:** C
-
-**Explicação:** sen 30° = cateto oposto/hipotenusa ⇒ 1/2 = x/24 ⇒ x = 12 cm.
-
-### 3
-Quanto vale 135° em radianos?
-
-- A) 2π
-- B) 5π/6
-- C) 3π/2
-- D) π/3
-- E) 3π/4
-
-**Resposta:** E
-
-**Explicação:** 180° = π rad. Então 135° = 135/180 · π = 3π/4 rad.
-
-### 4
-Uma rampa reta de 8 m de comprimento forma um ângulo de 30° com o chão. Qual é a altura que ela atinge?
-
-- A) 16 m
-- B) 8 m
-- C) 2 m
-- D) 4 m
-- E) 2,67 m
-
-**Resposta:** D
-
-**Explicação:** A rampa é a hipotenusa: altura = 8 × sen 30° = 8 × 1/2 = 4 m.
-
-### 5
-O ângulo de 100° está em qual quadrante, e qual é o sinal de cos 100°?
-
-- A) 4º quadrante; negativo
-- B) 3º quadrante; negativo
-- C) 2º quadrante; positivo
-- D) 2º quadrante; negativo
-- E) 1º quadrante; positivo
-
-**Resposta:** D
-
-**Explicação:** 100° está entre 90° e 180°: 2º quadrante. Nele, só o seno é positivo; logo cos 100° é negativo.
-
-### 6
-Qual é o valor de tg 45°?
-
-- A) 1
-- B) 1/2
-- C) √3
-- D) 0
-- E) √3/2
-
-**Resposta:** A
-
-**Explicação:** Tabela dos ângulos notáveis: sen 30° = 1/2, sen 45° = √2/2, sen 60° = √3/2; cos é o inverso dessa ordem; tg = sen/cos. Logo tg 45° = 1.
-
-### 7
-Em um triângulo retângulo, a hipotenusa mede 36 cm e um dos ângulos agudos mede 30°. Quanto mede o cateto oposto a esse ângulo?
-
-- A) 9 cm
-- B) 72 cm
-- C) 36 cm
-- D) 18 cm
-- E) 12 cm
-
-**Resposta:** D
-
-**Explicação:** sen 30° = cateto oposto/hipotenusa ⇒ 1/2 = x/36 ⇒ x = 18 cm.
-
-### 8
-Quanto vale 45° em radianos?
-
-- A) π/6
-- B) 3π/2
-- C) 3π/4
-- D) π/4
-- E) 2π
-
-**Resposta:** D
-
-**Explicação:** 180° = π rad. Então 45° = 45/180 · π = π/4 rad.
-
-### 9
-Uma rampa reta de 14 m de comprimento forma um ângulo de 30° com o chão. Qual é a altura que ela atinge?
-
-- A) 14 m
-- B) 28 m
-- C) 4,67 m
-- D) 7 m
-- E) 3,5 m
-
-**Resposta:** D
-
-**Explicação:** A rampa é a hipotenusa: altura = 14 × sen 30° = 14 × 1/2 = 7 m.
-
-### 10
-O ângulo de 330° está em qual quadrante, e qual é o sinal de tg 330°?
-
-- A) 1º quadrante; negativo
-- B) 4º quadrante; negativo
-- C) 4º quadrante; positivo
-- D) 2º quadrante; negativo
-- E) 3º quadrante; positivo
-
-**Resposta:** B
-
-**Explicação:** 330° está entre 270° e 360°: 4º quadrante. Nele, só o cosseno é positivo; logo tg 330° é negativo.
-
-### 11
-Em um triângulo retângulo, a hipotenusa mede 54 cm e um dos ângulos agudos mede 30°. Quanto mede o cateto oposto a esse ângulo?
-
-- A) 13,5 cm
-- B) 18 cm
-- C) 27 cm
-- D) 108 cm
-- E) 54 cm
-
-**Resposta:** C
-
-**Explicação:** sen 30° = cateto oposto/hipotenusa ⇒ 1/2 = x/54 ⇒ x = 27 cm.
+**Explicação:** Ferramenta: tabela dos ângulos notáveis. Seno de 30°, 45°, 60°: 1/2, √2/2, √3/2 (o numerador "cresce"). Cosseno é a mesma lista ao contrário. Tangente = seno ÷ cosseno. cos 30° = √3/2.
 
 ### 12
-Quanto vale 120° em radianos?
+<!-- modelo: f8 -->
+Em certo horário, os raios de sol chegam ao chão formando um ângulo de 45° com a horizontal. Uma árvore projeta uma sombra de 20 m. Qual é a altura da árvore?
 
-- A) 3π/4
-- B) π/4
-- C) 7π/6
-- D) 3π/2
-- E) 2π/3
+- A) 40 m
+- B) 10 m
+- C) 28,2 m
+- D) 34,6 m
+- E) 20 m
 
 **Resposta:** E
 
-**Explicação:** 180° = π rad. Então 120° = 120/180 · π = 2π/3 rad.
+**Explicação:** Ferramenta: tangente. tg = cateto oposto (altura) ÷ cateto adjacente (sombra). Como tg 45° = 1, altura = sombra. h = 20 × 1 = 20 m.
 
 ### 13
-Uma rampa reta de 6 m de comprimento forma um ângulo de 30° com o chão. Qual é a altura que ela atinge?
+<!-- modelo: f5 -->
+O ângulo de 330° está em qual quadrante, e qual é o sinal de tg 330°?
 
-- A) 6 m
-- B) 1,5 m
-- C) 12 m
-- D) 3 m
-- E) 2 m
+- A) 4º quadrante; positivo
+- B) 2º quadrante; negativo
+- C) 3º quadrante; positivo
+- D) 1º quadrante; negativo
+- E) 4º quadrante; negativo
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: sinais no ciclo. Seno é a "altura" (y) e cosseno é o "lado" (x) no ciclo. 1º: tudo +; 2º: só seno +; 3º: só tangente +; 4º: só cosseno +. 330° está no 4º quadrante; tg 330° é negativo.
+
+### 14
+<!-- modelo: f10 -->
+Qual é o valor de 2·sen 90° + cos 0°?
+
+- A) 3
+- B) 2
+- C) 5
+- D) 4
+- E) 1
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: pontos do ciclo nos eixos. Em 0°, 90°, 180° e 270° o ponto do ciclo está sobre os eixos: (1, 0), (0, 1), (−1, 0) e (0, −1). O cosseno é o x e o seno é o y. 2 · 1 + 1 = 3.
+
+### 15
+<!-- modelo: f1 -->
+Qual é o valor de cos 45°?
+
+- A) 1/2
+- B) √3/3
+- C) √3
+- D) √2/2
+- E) 1
 
 **Resposta:** D
 
-**Explicação:** A rampa é a hipotenusa: altura = 6 × sen 30° = 6 × 1/2 = 3 m.
-
-### 14
-O ângulo de 240° está em qual quadrante, e qual é o sinal de tg 240°?
-
-- A) 3º quadrante; negativo
-- B) 2º quadrante; negativo
-- C) 1º quadrante; positivo
-- D) 4º quadrante; positivo
-- E) 3º quadrante; positivo
-
-**Resposta:** E
-
-**Explicação:** 240° está entre 180° e 270°: 3º quadrante. Nele, só a tangente é positiva; logo tg 240° é positivo.
-
-### 15
-Qual é o valor de tg 60°?
-
-- A) 1
-- B) √3/3
-- C) √3
-- D) √3/2
-- E) 0
-
-**Resposta:** C
-
-**Explicação:** Tabela dos ângulos notáveis: sen 30° = 1/2, sen 45° = √2/2, sen 60° = √3/2; cos é o inverso dessa ordem; tg = sen/cos. Logo tg 60° = √3.
+**Explicação:** Ferramenta: tabela dos ângulos notáveis. Seno de 30°, 45°, 60°: 1/2, √2/2, √3/2 (o numerador "cresce"). Cosseno é a mesma lista ao contrário. Tangente = seno ÷ cosseno. cos 45° = √2/2.
 
 ### 16
-Em um triângulo retângulo, a hipotenusa mede 8 cm e um dos ângulos agudos mede 30°. Quanto mede o cateto oposto a esse ângulo?
+<!-- modelo: f10 -->
+Qual é o valor de sen 90° + cos 180°?
 
-- A) 2,67 cm
-- B) 4 cm
-- C) 2 cm
-- D) 16 cm
-- E) 8 cm
-
-**Resposta:** B
-
-**Explicação:** sen 30° = cateto oposto/hipotenusa ⇒ 1/2 = x/8 ⇒ x = 4 cm.
-
-### 17
-Uma rampa reta de 4 m de comprimento forma um ângulo de 30° com o chão. Qual é a altura que ela atinge?
-
-- A) 8 m
-- B) 2 m
-- C) 4 m
-- D) 1,33 m
-- E) 1 m
+- A) −2
+- B) 0
+- C) 2
+- D) 1
+- E) −1
 
 **Resposta:** B
 
-**Explicação:** A rampa é a hipotenusa: altura = 4 × sen 30° = 4 × 1/2 = 2 m.
-
-### 18
-O ângulo de 120° está em qual quadrante, e qual é o sinal de cos 120°?
-
-- A) 2º quadrante; negativo
-- B) 3º quadrante; negativo
-- C) 1º quadrante; positivo
-- D) 4º quadrante; negativo
-- E) 2º quadrante; positivo
-
-**Resposta:** A
-
-**Explicação:** 120° está entre 90° e 180°: 2º quadrante. Nele, só o seno é positivo; logo cos 120° é negativo.
-
-### 19
-Qual é o valor de sen 30°?
-
-- A) 1/2
-- B) √3
-- C) √2/2
-- D) 2
-- E) √3/2
-
-**Resposta:** A
-
-**Explicação:** Tabela dos ângulos notáveis: sen 30° = 1/2, sen 45° = √2/2, sen 60° = √3/2; cos é o inverso dessa ordem; tg = sen/cos. Logo sen 30° = 1/2.
-
-### 20
-Em um triângulo retângulo, a hipotenusa mede 12 cm e um dos ângulos agudos mede 30°. Quanto mede o cateto oposto a esse ângulo?
-
-- A) 4 cm
-- B) 3 cm
-- C) 6 cm
-- D) 12 cm
-- E) 24 cm
-
-**Resposta:** C
-
-**Explicação:** sen 30° = cateto oposto/hipotenusa ⇒ 1/2 = x/12 ⇒ x = 6 cm.
+**Explicação:** Ferramenta: pontos do ciclo nos eixos. Em 0°, 90°, 180° e 270° o ponto do ciclo está sobre os eixos: (1, 0), (0, 1), (−1, 0) e (0, −1). O cosseno é o x e o seno é o y. 1 + (−1) = 0.
 
 ## Médio
 
 ### 1
-Uma pessoa está a 28 m da base de um prédio e vê o topo sob um ângulo de 60° com a horizontal. Desprezando a altura da pessoa, qual é a altura aproximada do prédio? (Use √3 = 1,73.)
+<!-- modelo: m5 -->
+A ponta do ponteiro de um relógio de parede, de 5 cm, gira 90°. Que distância ela percorre? (Use π = 3,14.)
 
-- A) 48,44 m
-- B) 39,48 m
-- C) 24,22 m
-- D) 16,18 m
-- E) 56 m
+- A) 15,7 cm
+- B) 19,63 cm
+- C) 7,85 cm
+- D) 10,85 cm
+- E) 3,93 cm
 
-**Resposta:** A
+**Resposta:** C
 
-**Explicação:** tg 60° = h/28 ⇒ h = 28 × √3 ≈ 28 × 1,73 = 48,44 m.
+**Explicação:** Ferramenta: arco como fração da circunferência. O arco é a fração 90/360 da volta inteira (2πr). (90/360) × 2 × 3,14 × 5 = 7,85 cm.
 
 ### 2
-Em um triângulo, dois lados medem 5 cm e 21 cm e formam entre si um ângulo de 60°. Quanto mede o terceiro lado?
+<!-- modelo: m7 -->
+A altura de uma cabine de roda-gigante é h(t) = 20 − 8·cos(πt/20), com t em minutos. Quanto tempo leva uma volta completa?
 
-- A) 25 cm
-- B) 22 cm
-- C) 19 cm
-- D) 20 cm
-- E) 17 cm
+- A) 10 min
+- B) 20 min
+- C) 40 min
+- D) 28 min
+- E) 80 min
 
 **Resposta:** C
 
-**Explicação:** Lei dos cossenos: x² = 5² + 21² − 2·5·21·cos 60° = 466 − 105 = 361 ⇒ x = 19 cm.
+**Explicação:** Ferramenta: período de função periódica. Uma volta completa corresponde a um período: o argumento πt/k precisa variar 2π. πt/20 = 2π ⇒ t = 40 min.
 
 ### 3
-Qual é o período da função f(x) = cos(3x)?
-
-- A) 3π
-- B) 6π
-- C) 2π/3
-- D) π/3
-- E) 4π/3
-
-**Resposta:** C
-
-**Explicação:** O período de cos(kx) é 2π/|k| = 2π/3.
-
-### 4
-Qual é o valor mínimo da função f(x) = −2 + 1·cos(x)?
-
-- A) −3
-- B) −4
-- C) −1
-- D) −2
-- E) 1
-
-**Resposta:** A
-
-**Explicação:** Como −1 ≤ cos(x) ≤ 1, f varia de −3 a −1. O valor mínimo é −3.
-
-### 5
-Qual é o comprimento de um arco de 45° em uma circunferência de raio 30 cm? (Use π = 3,14.)
-
-- A) 353,25 cm
-- B) 11,78 cm
-- C) 22,5 cm
-- D) 23,55 cm
-- E) 47,1 cm
-
-**Resposta:** D
-
-**Explicação:** Comprimento = (45/360) × 2πr = (45/360) × 2 × 3,14 × 30 ≈ 23,55 cm.
-
-### 6
-Uma pessoa está a 10 m da base de um prédio e vê o topo sob um ângulo de 60° com a horizontal. Desprezando a altura da pessoa, qual é a altura aproximada do prédio? (Use √3 = 1,73.)
-
-- A) 20 m
-- B) 5,78 m
-- C) 14,1 m
-- D) 17,3 m
-- E) 8,65 m
-
-**Resposta:** D
-
-**Explicação:** tg 60° = h/10 ⇒ h = 10 × √3 ≈ 10 × 1,73 = 17,3 m.
-
-### 7
-Em um triângulo, dois lados medem 3 cm e 8 cm e formam entre si um ângulo de 60°. Quanto mede o terceiro lado?
+<!-- modelo: m6 -->
+Em um triângulo ABC, o lado BC mede 4 cm e é oposto ao ângulo A = 30°. O lado AC é oposto ao ângulo B = 45°. Quanto mede AC?
 
 - A) 8 cm
-- B) 9 cm
-- C) 7 cm
-- D) 10 cm
-- E) 6 cm
-
-**Resposta:** C
-
-**Explicação:** Lei dos cossenos: x² = 3² + 8² − 2·3·8·cos 60° = 73 − 24 = 49 ⇒ x = 7 cm.
-
-### 8
-Qual é o valor máximo da função f(x) = −2 + 1·sen(x)?
-
-- A) 2
-- B) −3
-- C) −2
-- D) −1
-- E) 1
-
-**Resposta:** D
-
-**Explicação:** Como −1 ≤ sen(x) ≤ 1, f varia de −3 a −1. O valor máximo é −1.
-
-### 9
-Qual é o comprimento de um arco de 90° em uma circunferência de raio 20 cm? (Use π = 3,14.)
-
-- A) 62,8 cm
-- B) 31,4 cm
-- C) 30 cm
-- D) 15,7 cm
-- E) 314 cm
-
-**Resposta:** B
-
-**Explicação:** Comprimento = (90/360) × 2πr = (90/360) × 2 × 3,14 × 20 ≈ 31,4 cm.
-
-### 10
-Uma pessoa está a 54 m da base de um prédio e vê o topo sob um ângulo de 60° com a horizontal. Desprezando a altura da pessoa, qual é a altura aproximada do prédio? (Use √3 = 1,73.)
-
-- A) 46,71 m
-- B) 108 m
-- C) 31,21 m
-- D) 93,42 m
-- E) 76,14 m
-
-**Resposta:** D
-
-**Explicação:** tg 60° = h/54 ⇒ h = 54 × √3 ≈ 54 × 1,73 = 93,42 m.
-
-### 11
-Em um triângulo, dois lados medem 5 cm e 8 cm e formam entre si um ângulo de 60°. Quanto mede o terceiro lado?
-
-- A) 4 cm
-- B) 12 cm
-- C) 9 cm
-- D) 7 cm
-- E) 8 cm
-
-**Resposta:** D
-
-**Explicação:** Lei dos cossenos: x² = 5² + 8² − 2·5·8·cos 60° = 89 − 40 = 49 ⇒ x = 7 cm.
-
-### 12
-Qual é o valor máximo da função f(x) = 3 + 1·cos(x)?
-
-- A) 2
-- B) 4
-- C) 3
-- D) 1
-- E) 14
-
-**Resposta:** B
-
-**Explicação:** Como −1 ≤ cos(x) ≤ 1, f varia de 2 a 4. O valor máximo é 4.
-
-### 13
-Qual é o comprimento de um arco de 30° em uma circunferência de raio 10 cm? (Use π = 3,14.)
-
-- A) 2,62 cm
-- B) 10,47 cm
-- C) 26,17 cm
-- D) 5,23 cm
-- E) 5 cm
-
-**Resposta:** D
-
-**Explicação:** Comprimento = (30/360) × 2πr = (30/360) × 2 × 3,14 × 10 ≈ 5,23 cm.
-
-### 14
-Uma pessoa está a 22 m da base de um prédio e vê o topo sob um ângulo de 60° com a horizontal. Desprezando a altura da pessoa, qual é a altura aproximada do prédio? (Use √3 = 1,73.)
-
-- A) 19,03 m
-- B) 44 m
-- C) 12,72 m
-- D) 38,06 m
-- E) 31,02 m
-
-**Resposta:** D
-
-**Explicação:** tg 60° = h/22 ⇒ h = 22 × √3 ≈ 22 × 1,73 = 38,06 m.
-
-### 15
-Em um triângulo, dois lados medem 7 cm e 15 cm e formam entre si um ângulo de 60°. Quanto mede o terceiro lado?
-
-- A) 13 cm
-- B) 14 cm
-- C) 21 cm
-- D) 9 cm
-- E) 17 cm
-
-**Resposta:** A
-
-**Explicação:** Lei dos cossenos: x² = 7² + 15² − 2·7·15·cos 60° = 274 − 105 = 169 ⇒ x = 13 cm.
-
-### 16
-Qual é o valor mínimo da função f(x) = 2 + 3·cos(x)?
-
-- A) 6
-- B) −1
-- C) 5
-- D) 3
-- E) 2
-
-**Resposta:** B
-
-**Explicação:** Como −1 ≤ cos(x) ≤ 1, f varia de −1 a 5. O valor mínimo é −1.
-
-### 17
-Qual é o comprimento de um arco de 30° em uma circunferência de raio 5 cm? (Use π = 3,14.)
-
-- A) 2,5 cm
-- B) 1,31 cm
-- C) 2,62 cm
-- D) 6,54 cm
-- E) 5,23 cm
-
-**Resposta:** C
-
-**Explicação:** Comprimento = (30/360) × 2πr = (30/360) × 2 × 3,14 × 5 ≈ 2,62 cm.
-
-### 18
-Qual é o período da função f(x) = sen(8x)?
-
-- A) 16π
-- B) 8π
-- C) π/2
-- D) π/8
-- E) π/4
+- B) 2√2 cm
+- C) 4√3 cm
+- D) 2 cm
+- E) 4√2 cm
 
 **Resposta:** E
 
-**Explicação:** O período de sen(kx) é 2π/|k| = 2π/8 = π/4.
+**Explicação:** Ferramenta: lei dos senos. Em qualquer triângulo, lado ÷ seno do ângulo oposto é constante. 4/sen 30° = AC/sen 45° ⇒ AC = 4 × (√2/2) ÷ (1/2) = 4√2 cm.
 
-### 19
-Qual é o valor máximo da função f(x) = 1 + 5·sen(x)?
+### 4
+<!-- modelo: m4 -->
+Qual é o valor mínimo da função f(x) = 5 + 5·sen(x)?
 
-- A) 16
-- B) 6
-- C) 3
-- D) 5
+- A) 25
+- B) 0
+- C) 5
+- D) 10
 - E) 1
 
 **Resposta:** B
 
-**Explicação:** Como −1 ≤ sen(x) ≤ 1, f varia de −4 a 6. O valor máximo é 6.
+**Explicação:** Ferramenta: limites do seno e cosseno. Seno e cosseno sempre ficam entre −1 e 1. f varia de 5 − 5 = 0 a 5 + 5 = 10. O mínimo é 0.
 
-### 20
-Qual é o comprimento de um arco de 45° em uma circunferência de raio 20 cm? (Use π = 3,14.)
+### 5
+<!-- modelo: m3 -->
+Qual é o período da função f(x) = cos(6x)?
 
-- A) 157 cm
-- B) 31,4 cm
-- C) 15,7 cm
-- D) 15 cm
-- E) 7,85 cm
+- A) π/3
+- B) π/6
+- C) 2π/3
+- D) 12π
+- E) 6π
 
-**Resposta:** C
+**Resposta:** A
 
-**Explicação:** Comprimento = (45/360) × 2πr = (45/360) × 2 × 3,14 × 20 ≈ 15,7 cm.
+**Explicação:** Ferramenta: período. sen x e cos x repetem a cada 2π. Multiplicar x por k "acelera" o ciclo: período 2π/k. 2π/6 = π/3.
+
+### 6
+<!-- modelo: m10 -->
+Um terreno triangular tem dois lados de 9 m e 4 m, que formam entre si um ângulo de 30°. Qual é a área do terreno?
+
+- A) 18 m²
+- B) 4,5 m²
+- C) 13 m²
+- D) 5 m²
+- E) 9 m²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: área com dois lados e o ângulo. A = (1/2)·a·b·sen θ. (A altura é b·sen θ.) (1/2) × 9 × 4 × sen 30° = 9 m².
+
+### 7
+<!-- modelo: m4 -->
+Qual é o valor máximo da função f(x) = 2 + 5·sen(x)?
+
+- A) 2
+- B) 6
+- C) 5
+- D) 7
+- E) 10
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: limites do seno e cosseno. Seno e cosseno sempre ficam entre −1 e 1. f varia de 2 − 5 = −3 a 2 + 5 = 7. O máximo é 7.
+
+### 8
+<!-- modelo: m2 -->
+Dois navios partem do mesmo porto em direções que formam um ângulo de 120°. Depois de algum tempo, um está a 3 km e o outro a 5 km do porto. Qual é a distância entre eles?
+
+- A) 6 km
+- B) 7 km
+- C) 2 km
+- D) 17 km
+- E) 8 km
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: lei dos cossenos. Com dois lados e o ângulo entre eles: x² = a² + b² − 2ab·cos θ. x² = 9 + 25 − 2·3·5·cos 120° = 49 ⇒ x = 7 km.
+
+### 9
+<!-- modelo: m1 -->
+Uma pessoa está a 42 m da base de um prédio e vê o topo sob um ângulo de 60° com a horizontal. Desprezando a altura da pessoa, qual é a altura aproximada do prédio? (Use √3 = 1,73.)
+
+- A) 59,22 m
+- B) 24,28 m
+- C) 36,33 m
+- D) 72,66 m
+- E) 84 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: tangente. Conhecemos o cateto adjacente (distância) e queremos o oposto (altura): tg. h = 42 × tg 60° = 42 × 1,73 = 72,66 m.
+
+### 10
+<!-- modelo: m9 -->
+Qual é o valor de tg 135°?
+
+- A) √2/2
+- B) 1
+- C) √3/2
+- D) −√3/2
+- E) −1
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: redução ao 1º quadrante. Ache o ângulo do 1º quadrante "espelhado" e acerte o sinal pelo quadrante original. tg 135° = −tg 45° = −1.
+
+### 11
+<!-- modelo: m10 -->
+Um terreno triangular tem dois lados de 10 m e 5 m, que formam entre si um ângulo de 30°. Qual é a área do terreno?
+
+- A) 12,5 m²
+- B) 6,25 m²
+- C) 25 m²
+- D) 15,63 m²
+- E) 15 m²
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: área com dois lados e o ângulo. A = (1/2)·a·b·sen θ. (A altura é b·sen θ.) (1/2) × 10 × 5 × sen 30° = 12,5 m².
+
+### 12
+<!-- modelo: m8 -->
+Se x é um ângulo agudo e sen x = 20/29, qual é o valor de tg x?
+
+- A) 29/21
+- B) 20/21
+- C) 21/29
+- D) 21/20
+- E) 20/29
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: tg = sen ÷ cos. Ache o cosseno pela relação fundamental e divida. cos x = 21/29; tg x = (20/29) ÷ (21/29) = 20/21.
+
+### 13
+<!-- modelo: m11 -->
+Qual é a solução da equação 2·sen x − √3 = 0 para x entre 0° e 90°?
+
+- A) 0°
+- B) 60°
+- C) 90°
+- D) 45°
+- E) 30°
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: isolar a função e consultar a tabela. Resolva como equação comum para achar o valor do seno, cosseno ou tangente; depois use a tabela dos notáveis. Isolando, obtemos o valor notável do ângulo de 60°.
+
+### 14
+<!-- modelo: m9 -->
+Qual é o valor de sen 150°?
+
+- A) √2/2
+- B) −√2/2
+- C) 1
+- D) 1/2
+- E) −1
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: redução ao 1º quadrante. Ache o ângulo do 1º quadrante "espelhado" e acerte o sinal pelo quadrante original. sen 150° = sen(180° − 30°) = sen 30° = 1/2.
+
+### 15
+<!-- modelo: m1 -->
+Uma pessoa está a 62 m da base de um prédio e vê o topo sob um ângulo de 60° com a horizontal. Desprezando a altura da pessoa, qual é a altura aproximada do prédio? (Use √3 = 1,73.)
+
+- A) 53,63 m
+- B) 107,26 m
+- C) 35,84 m
+- D) 87,42 m
+- E) 124 m
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: tangente. Conhecemos o cateto adjacente (distância) e queremos o oposto (altura): tg. h = 62 × tg 60° = 62 × 1,73 = 107,26 m.
 
 ## Difícil
 
 ### 1
-A altura da maré em um porto, em metros, é modelada por h(t) = 3 + 2·cos(πt/6), em que t é o tempo em horas após a meia-noite (0 ≤ t ≤ 12). Qual é a altura mínima da maré e em que horário ela ocorre?
-
-- A) 5 m, às 6h
-- B) 3 m, às 3h
-- C) 1 m, às 0h
-- D) 1 m, às 12h
-- E) 1 m, às 6h
-
-**Resposta:** E
-
-**Explicação:** cos(πt/6) vale −1 em t = 6. Assim, h = 3 − 2 = 1 m.
-
-### 2
-Sabendo que sen x = 20/29 e que x é um ângulo do 1º quadrante, qual é o valor de sen(2x)?
-
-- A) 420/841
-- B) 840/841
-- C) 40/29
-- D) 41/841
-- E) 42/29
-
-**Resposta:** B
-
-**Explicação:** cos x = √(1 − sen²x) = 21/29. sen(2x) = 2·sen x·cos x = 2 · 20/29 · 21/29 = 840/841.
-
-### 3
-Qual é o valor exato de tg 75°?
+<!-- modelo: d3 -->
+Qual é o valor exato de tg 15°?
 
 - A) (√3 + 1)/2
 - B) (√6 − √2)/4
-- C) 2 − √3
-- D) 2 + √3
+- C) 2 + √3
+- D) 2 − √3
 - E) (√6 + √2)/4
 
 **Resposta:** D
 
-**Explicação:** Usando a fórmula da soma/diferença de arcos: tg(45° + 30°) = (1 + √3/3)/(1 − √3/3) = 2 + √3.
+**Explicação:** Ferramenta: soma e diferença de arcos. Escreva o ângulo como soma ou diferença de ângulos notáveis. tg(45° − 30°) = (1 − √3/3)/(1 + √3/3) = 2 − √3.
 
-### 4
-Quantas soluções a equação cos x = 1/2 possui no intervalo 0 ≤ x ≤ 4π?
+### 2
+<!-- modelo: d10 -->
+Qual é o menor ângulo formado pelos ponteiros de um relógio às 6h10?
 
-- A) 5
-- B) 12
-- C) 3
-- D) 4
-- E) 8
-
-**Resposta:** D
-
-**Explicação:** Em cada volta [0, 2π] há 2 solução(ões): π/3 e 5π/3. Em 2 volta(s), 4 soluções (os extremos 0 e 4π não são soluções).
-
-### 5
-Em um triângulo, o lado oposto a um ângulo de 30° mede 6 cm. Qual é o raio da circunferência circunscrita a esse triângulo?
-
-- A) 3√3 cm
-- B) 12 cm
-- C) 3 cm
-- D) 6√2 cm
-- E) 6 cm
+- A) 250°
+- B) 120°
+- C) 235°
+- D) 140°
+- E) 125°
 
 **Resposta:** E
 
-**Explicação:** Lei dos senos: a/sen A = 2R ⇒ 2R = 6/sen 30° ⇒ R = 6 cm.
+**Explicação:** Ferramenta: velocidade dos ponteiros. O ponteiro dos minutos anda 6° por minuto; o das horas anda 30° por hora e MAIS 0,5° por minuto. Horas: 180° + 5° = 185°. Minutos: 60°. Diferença: 125°.
+
+### 3
+<!-- modelo: d8 -->
+Sabendo que cos x = 5/13, qual é o valor de cos(2x)?
+
+- A) 119/169
+- B) −119/169
+- C) 120/169
+- D) 10/13
+- E) 50/169
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: arco duplo. cos(2x) = 2cos²x − 1 (dá para usar sem saber o seno). 2 × 25/169 − 1 = −119/169.
+
+### 4
+<!-- modelo: d11 -->
+Um poste de 6 m projeta sombra quando o sol está a 60° acima do horizonte e, horas depois, a 30°. Quanto a sombra aumentou nesse intervalo? (Use √3 = 1,73.)
+
+- A) 6,91 m
+- B) 12 m
+- C) 3,47 m
+- D) 3,46 m
+- E) 10,38 m
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: tangente em dois momentos. Sombra = altura ÷ tg (ângulo do sol). A 60°: 6 ÷ 1,73 ≈ 3,47 m. A 30°: 6 × 1,73 ≈ 10,38 m. Aumento ≈ 6,91 m.
+
+### 5
+<!-- modelo: d5 -->
+Em um triângulo, o lado oposto a um ângulo de 60° mede 3 cm. Qual é o raio da circunferência circunscrita a esse triângulo?
+
+- A) 1,5√3 cm
+- B) 3 cm
+- C) √3 cm
+- D) 1,5 cm
+- E) 2√3 cm
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: lei dos senos estendida. lado ÷ seno do ângulo oposto = 2R (diâmetro da circunferência circunscrita). 2R = 3 ÷ sen 60° ⇒ R = √3 cm.
 
 ### 6
-A altura da maré em um porto, em metros, é modelada por h(t) = 5 + 1,5·cos(πt/6), em que t é o tempo em horas após a meia-noite (0 ≤ t ≤ 12). Qual é a altura mínima da maré e em que horário ela ocorre?
+<!-- modelo: d9 -->
+Os lados de um triângulo medem 3 cm, 8 cm e 7 cm. Quanto mede o ângulo oposto ao lado de 7 cm?
 
-- A) 3,5 m, às 6h
-- B) 3,5 m, às 12h
-- C) 5 m, às 3h
-- D) 6,5 m, às 6h
-- E) 3,5 m, às 0h
+- A) 45°
+- B) 120°
+- C) 90°
+- D) 60°
+- E) 30°
 
-**Resposta:** A
+**Resposta:** D
 
-**Explicação:** cos(πt/6) vale −1 em t = 6. Assim, h = 5 − 1,5 = 3,5 m.
+**Explicação:** Ferramenta: lei dos cossenos ao contrário. Isole o cosseno: cos θ = (b² + c² − a²)/(2bc). cos θ = (9 + 64 − 49)/(2 · 3 · 8) = 1/2 ⇒ θ = 60°.
 
 ### 7
-Sabendo que sen x = 3/5 e que x é um ângulo do 1º quadrante, qual é o valor de sen(2x)?
-
-- A) 24/25
-- B) 8/5
-- C) 7/25
-- D) 12/25
-- E) 6/5
-
-**Resposta:** A
-
-**Explicação:** cos x = √(1 − sen²x) = 4/5. sen(2x) = 2·sen x·cos x = 2 · 3/5 · 4/5 = 24/25.
-
-### 8
-Qual é o valor exato de cos 15°?
-
-- A) 2 − √3
-- B) (√6 + √2)/4
-- C) (√3 + 1)/2
-- D) (√6 − √2)/4
-- E) 2 + √3
-
-**Resposta:** B
-
-**Explicação:** Usando a fórmula da soma/diferença de arcos: cos(45° − 30°) = cos45·cos30 + sen45·sen30 = (√6 + √2)/4.
-
-### 9
-Quantas soluções a equação sen x = 1 possui no intervalo 0 ≤ x ≤ 10π?
+<!-- modelo: d4 -->
+Quantas soluções a equação sen x = −√2/2 possui no intervalo 0 ≤ x ≤ 2π?
 
 - A) 4
-- B) 5
-- C) 6
-- D) 20
-- E) 10
+- B) 1
+- C) 2
+- D) 5
+- E) 3
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: contar por volta. Em cada volta de 0 a 2π a equação tem 2 solução(ões): 5π/4 e 7π/4. O intervalo tem 1 volta(s). 2 × 1 = 2 (0 e 2π não são soluções).
+
+### 8
+<!-- modelo: d10 -->
+Qual é o menor ângulo formado pelos ponteiros de um relógio às 3h40?
+
+- A) 230°
+- B) 130°
+- C) 145°
+- D) 150°
+- E) 125°
 
 **Resposta:** B
 
-**Explicação:** Em cada volta [0, 2π] há 1 solução(ões): π/2. Em 5 volta(s), 5 soluções (os extremos 0 e 10π não são soluções).
+**Explicação:** Ferramenta: velocidade dos ponteiros. O ponteiro dos minutos anda 6° por minuto; o das horas anda 30° por hora e MAIS 0,5° por minuto. Horas: 90° + 20° = 110°. Minutos: 240°. Diferença: 130°.
+
+### 9
+<!-- modelo: d7 -->
+Para os valores de x em que a expressão existe, tg x · cos x é igual a:
+
+- A) 1/cos x
+- B) 1
+- C) tg x
+- D) sen x
+- E) cos x
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: identidades trigonométricas. Use sen²x + cos²x = 1 e tg x = sen x/cos x para reescrever tudo em seno e cosseno. tg x = sen x / cos x ⇒ sen x.
 
 ### 10
-Em um triângulo, o lado oposto a um ângulo de 60° mede 12 cm. Qual é o raio da circunferência circunscrita a esse triângulo?
+<!-- modelo: d6 -->
+De um ponto A, uma pessoa vê o topo de uma torre sob um ângulo de 30°. Andando 30 m em direção à torre, até um ponto B, passa a vê-lo sob um ângulo de 60°. Qual é a altura da torre? (Use √3 = 1,73 e despreze a altura da pessoa.)
 
-- A) 12 cm
-- B) 4√3 cm
-- C) 6 cm
-- D) 6√3 cm
-- E) 8√3 cm
+- A) 17,34 m
+- B) 25,95 m
+- C) 51,9 m
+- D) 30 m
+- E) 15 m
 
 **Resposta:** B
 
-**Explicação:** Lei dos senos: a/sen A = 2R ⇒ 2R = 12/(√3/2) ⇒ R = 12/√3 = 4√3 cm.
+**Explicação:** Ferramenta: dois triângulos retângulos. Escreva a tangente em cada ponto e elimine a distância desconhecida. (Ou repare: o triângulo ABT é isósceles, com BT = AB.) BT = 30 m (isósceles, ângulos de 30°); h = 30 × sen 60° = 30√3/2 ≈ 25,98 m.
 
 ### 11
-A altura da maré em um porto, em metros, é modelada por h(t) = 3 + 2·cos(πt/6), em que t é o tempo em horas após a meia-noite (0 ≤ t ≤ 12). Qual é a altura máxima da maré e em que horário ela ocorre?
+<!-- modelo: d2 -->
+Sabendo que sen x = 20/29 e que x é um ângulo do 1º quadrante, qual é o valor de sen(2x)?
 
-- A) 5 m, às 0h
-- B) 3 m, às 3h
-- C) 5 m, às 12h apenas
-- D) 5 m, às 6h
-- E) 1 m, às 0h
+- A) 41/841
+- B) 40/29
+- C) 42/29
+- D) 840/841
+- E) 420/841
 
-**Resposta:** A
+**Resposta:** D
 
-**Explicação:** cos(πt/6) vale 1 em t = 0 (e t = 12). Assim, h = 3 + 2 = 5 m.
+**Explicação:** Ferramenta: arco duplo. sen(2x) = 2·sen x·cos x. Antes, ache cos x pela relação fundamental. cos x = 21/29; 2 × 20/29 × 21/29 = 840/841.
 
 ### 12
-Quantas soluções a equação sen x = 1 possui no intervalo 0 ≤ x ≤ 4π?
+<!-- modelo: d7 -->
+Para os valores de x em que a expressão existe, (sen x + cos x)² − 2·sen x·cos x é igual a:
 
-- A) 8
-- B) 2
-- C) 4
-- D) 3
-- E) 1
+- A) 1
+- B) sen x
+- C) cos x
+- D) tg x
+- E) 1/cos x
 
-**Resposta:** B
+**Resposta:** A
 
-**Explicação:** Em cada volta [0, 2π] há 1 solução(ões): π/2. Em 2 volta(s), 2 soluções (os extremos 0 e 4π não são soluções).
+**Explicação:** Ferramenta: identidades trigonométricas. Use sen²x + cos²x = 1 e tg x = sen x/cos x para reescrever tudo em seno e cosseno. sen²x + 2sen x cos x + cos²x − 2sen x cos x ⇒ 1.
 
 ### 13
-Em um triângulo, o lado oposto a um ângulo de 30° mede 10 cm. Qual é o raio da circunferência circunscrita a esse triângulo?
+<!-- modelo: d11 -->
+Um poste de 12 m projeta sombra quando o sol está a 60° acima do horizonte e, horas depois, a 30°. Quanto a sombra aumentou nesse intervalo? (Use √3 = 1,73.)
 
-- A) 5 cm
-- B) 10√2 cm
-- C) 20 cm
-- D) 10 cm
-- E) 5√3 cm
+- A) 24 m
+- B) 13,82 m
+- C) 6,91 m
+- D) 20,76 m
+- E) 6,94 m
 
-**Resposta:** D
+**Resposta:** B
 
-**Explicação:** Lei dos senos: a/sen A = 2R ⇒ 2R = 10/sen 30° ⇒ R = 10 cm.
+**Explicação:** Ferramenta: tangente em dois momentos. Sombra = altura ÷ tg (ângulo do sol). A 60°: 12 ÷ 1,73 ≈ 6,94 m. A 30°: 12 × 1,73 ≈ 20,76 m. Aumento ≈ 13,82 m.
 
 ### 14
-A altura da maré em um porto, em metros, é modelada por h(t) = 4 + 1·cos(πt/6), em que t é o tempo em horas após a meia-noite (0 ≤ t ≤ 12). Qual é a altura mínima da maré e em que horário ela ocorre?
+<!-- modelo: d2 -->
+Sabendo que sen x = 3/5 e que x é um ângulo do 1º quadrante, qual é o valor de sen(2x)?
 
-- A) 3 m, às 6h
-- B) 3 m, às 0h
-- C) 5 m, às 6h
-- D) 4 m, às 3h
-- E) 3 m, às 12h
-
-**Resposta:** A
-
-**Explicação:** cos(πt/6) vale −1 em t = 6. Assim, h = 4 − 1 = 3 m.
-
-### 15
-Sabendo que sen x = 8/17 e que x é um ângulo do 1º quadrante, qual é o valor de sen(2x)?
-
-- A) 240/289
-- B) 16/17
-- C) 161/289
-- D) 30/17
-- E) 120/289
-
-**Resposta:** A
-
-**Explicação:** cos x = √(1 − sen²x) = 15/17. sen(2x) = 2·sen x·cos x = 2 · 8/17 · 15/17 = 240/289.
-
-### 16
-Quantas soluções a equação sen x = 1 possui no intervalo 0 ≤ x ≤ 8π?
-
-- A) 16
-- B) 4
-- C) 5
-- D) 3
-- E) 8
-
-**Resposta:** B
-
-**Explicação:** Em cada volta [0, 2π] há 1 solução(ões): π/2. Em 4 volta(s), 4 soluções (os extremos 0 e 8π não são soluções).
-
-### 17
-A altura da maré em um porto, em metros, é modelada por h(t) = 4 + 2·cos(πt/6), em que t é o tempo em horas após a meia-noite (0 ≤ t ≤ 12). Qual é a altura mínima da maré e em que horário ela ocorre?
-
-- A) 2 m, às 0h
-- B) 4 m, às 3h
-- C) 2 m, às 12h
-- D) 2 m, às 6h
-- E) 6 m, às 6h
+- A) 8/5
+- B) 6/5
+- C) 12/25
+- D) 24/25
+- E) 7/25
 
 **Resposta:** D
 
-**Explicação:** cos(πt/6) vale −1 em t = 6. Assim, h = 4 − 2 = 2 m.
+**Explicação:** Ferramenta: arco duplo. sen(2x) = 2·sen x·cos x. Antes, ache cos x pela relação fundamental. cos x = 4/5; 2 × 3/5 × 4/5 = 24/25.
 
-### 18
-Qual é o valor exato de sen 15°?
+### 15
+<!-- modelo: d1 -->
+A altura da maré em um porto, em metros, é modelada por h(t) = 5 + 1,5·cos(πt/6), em que t é o tempo em horas após a meia-noite (0 ≤ t < 12). Qual é a altura máxima da maré e em que horário ela ocorre?
 
-- A) (√6 − √2)/4
-- B) (√3 + 1)/2
-- C) 2 − √3
-- D) (√6 + √2)/4
-- E) 2 + √3
+- A) 3,5 m, às 0h
+- B) 5 m, às 3h
+- C) 6,5 m, às 6h
+- D) 8 m, às 0h
+- E) 6,5 m, às 0h
 
-**Resposta:** A
+**Resposta:** E
 
-**Explicação:** Usando a fórmula da soma/diferença de arcos: sen(45° − 30°) = sen45·cos30 − sen30·cos45 = (√6 − √2)/4.
-
-### 19
-Quantas soluções a equação tg x = 1 possui no intervalo 0 ≤ x ≤ 6π?
-
-- A) 5
-- B) 6
-- C) 7
-- D) 4
-- E) 12
-
-**Resposta:** B
-
-**Explicação:** Em cada volta [0, 2π] há 2 solução(ões): π/4 e 5π/4. Em 3 volta(s), 6 soluções (os extremos 0 e 6π não são soluções).
-
-### 20
-Quantas soluções a equação cos x = 0 possui no intervalo 0 ≤ x ≤ 2π?
-
-- A) 2
-- B) 0
-- C) 4
-- D) 3
-- E) 1
-
-**Resposta:** A
-
-**Explicação:** Em cada volta [0, 2π] há 2 solução(ões): π/2 e 3π/2. Em 1 volta(s), 2 soluções (os extremos 0 e 2π não são soluções).
+**Explicação:** Ferramenta: função cosseno. O cosseno vale 1 quando o argumento é 0 e −1 quando o argumento é π. πt/6 = 0 ⇒ t = 0; h = 5 + 1,5 = 6,5 m.

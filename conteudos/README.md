@@ -2,11 +2,11 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4679 questões** em **90 tópicos**.
+**4607 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## Matemática — 955 questões
+## Matemática — 883 questões
 
 *Matemática e suas Tecnologias*
 
@@ -18,11 +18,11 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Equações, inequações e sistemas](matematica/04-equacoes-e-sistemas.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Funções afim e quadrática](matematica/05-funcoes-afim-e-quadratica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Função exponencial e logaritmo](matematica/06-exponencial-e-logaritmo.md) | ENEM, Militares, Concursos | 15 | 15 | 15 |
-| [Progressões aritméticas e geométricas](matematica/07-progressoes.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Geometria plana](matematica/08-geometria-plana.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Geometria espacial](matematica/09-geometria-espacial.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Trigonometria](matematica/10-trigonometria.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Estatística](matematica/11-estatistica.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
+| [Progressões aritméticas e geométricas](matematica/07-progressoes.md) | ENEM, Militares, Concursos | 16 | 16 | 16 |
+| [Geometria plana](matematica/08-geometria-plana.md) | ENEM, Militares, Concursos | 17 | 16 | 15 |
+| [Geometria espacial](matematica/09-geometria-espacial.md) | ENEM, Militares, Concursos | 15 | 15 | 15 |
+| [Trigonometria](matematica/10-trigonometria.md) | ENEM, Militares, Concursos | 16 | 15 | 15 |
+| [Estatística](matematica/11-estatistica.md) | ENEM, Militares, Concursos | 13 | 14 | 14 |
 | [Análise combinatória](matematica/12-analise-combinatoria.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 | [Probabilidade](matematica/13-probabilidade.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 | [Grandezas, medidas e escalas](matematica/14-grandezas-medidas-escalas.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |

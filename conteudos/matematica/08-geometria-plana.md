@@ -1,7 +1,7 @@
 ---
 titulo: Geometria plana
 provas: ENEM, Militares, Concursos
-descricao: Áreas e perímetros, teorema de Pitágoras, semelhança, polígonos e círculo.
+descricao: Áreas e perímetros, ângulos, teorema de Pitágoras, semelhança, polígonos e círculo.
 fonte: Questão inédita gerada por computador (gabarito calculado)
 ---
 
@@ -9,7 +9,7 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 # Geometria plana
 
-Áreas e perímetros, teorema de Pitágoras, semelhança, polígonos e círculo.
+Áreas e perímetros, ângulos, teorema de Pitágoras, semelhança, polígonos e círculo.
 
 ## Resumo
 
@@ -24,6 +24,63 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 ## Fácil
 
 ### 1
+<!-- modelo: f5 -->
+Qual é a soma das medidas dos ângulos internos de um polígono convexo de 12 lados?
+
+- A) 1.980°
+- B) 3.600°
+- C) 1.800°
+- D) 2.160°
+- E) 360°
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: dividir em triângulos. De um vértice saem diagonais que dividem o polígono em 12 − 2 triângulos, cada um com 180°. 180° × 10 = 1.800°.
+
+### 2
+<!-- modelo: f6 -->
+Um terreno tem a forma de um triângulo com base de 16 m e altura de 16 m em relação a essa base. Qual é a sua área?
+
+- A) 32 m²
+- B) 128 m²
+- C) 64 m²
+- D) 256 m²
+- E) 131 m²
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: área do triângulo. Todo triângulo é metade de um retângulo (ou paralelogramo) de mesma base e altura. 16 × 16 ÷ 2 = 128 m².
+
+### 3
+<!-- modelo: f10 -->
+Qual é o suplemento de um ângulo de 78°?
+
+- A) 12°
+- B) 102°
+- C) 78°
+- D) 282°
+- E) 39°
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: suplemento. Complementares somam 90°; suplementares somam 180°. 180° − 78° = 102°.
+
+### 4
+<!-- modelo: f9 -->
+Uma parede de 2,4 m por 2,8 m será coberta com azulejos quadrados de 40 cm de lado, sem sobras nem cortes. Quantos azulejos serão usados?
+
+- A) 168
+- B) 42
+- C) 21
+- D) 17
+- E) 26
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: área ÷ área (mesma unidade). Converta tudo para centímetros antes de dividir; ou conte quantos cabem em cada direção. 6 azulejos na largura × 7 na altura = 42.
+
+### 5
+<!-- modelo: f1 -->
 Uma sala retangular mede 4 m por 8 m. O piso escolhido custa R$ 45,00 o metro quadrado. Quanto será gasto com o piso?
 
 - A) R$ 1.080,00
@@ -34,310 +91,236 @@ Uma sala retangular mede 4 m por 8 m. O piso escolhido custa R$ 45,00 o metro qu
 
 **Resposta:** E
 
-**Explicação:** Área = 4 × 8 = 32 m². Custo = 32 × R$ 45,00 = R$ 1.440,00.
+**Explicação:** Ferramenta: área do retângulo. Piso cobre superfície: é área (base × altura), não perímetro. 4 × 8 = 32 m²; × R$ 45,00 = R$ 1.440,00.
 
-### 2
+### 6
+<!-- modelo: f3 -->
+Um irrigador gira e molha um círculo de 2 m de raio. Qual é a área de gramado molhada? (Use π = 3.)
+
+- A) 6 m²
+- B) 18 m²
+- C) 12 m²
+- D) 36 m²
+- E) 48 m²
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: área do círculo. A = π · r². Cuidado para não usar o diâmetro no lugar do raio. 3 × 2² = 12 m².
+
+### 7
+<!-- modelo: f7 -->
+Dois ângulos de um triângulo medem 56° e 21°. Quanto mede o terceiro ângulo?
+
+- A) 283°
+- B) 124°
+- C) 103°
+- D) 69°
+- E) 77°
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: soma dos ângulos do triângulo. Os três ângulos internos de qualquer triângulo somam 180°. 180° − 56° − 21° = 103°.
+
+### 8
+<!-- modelo: f8 -->
+Uma pista de caminhada é uma circunferência de 25 m de raio. Quantos metros anda quem dá 3 voltas completas? (Use π = 3,14.)
+
+- A) 942 m
+- B) 157 m
+- C) 5.887,5 m
+- D) 235,5 m
+- E) 471 m
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: comprimento da circunferência. Uma volta tem C = 2πr. C = 2 × 3,14 × 25 = 157 m; × 3 = 471 m.
+
+### 9
+<!-- modelo: f11 -->
+Uma pipa tem a forma de um losango cujas diagonais medem 21 cm e 5 cm. Quantos cm² de papel cobrem a pipa?
+
+- A) 105 cm²
+- B) 52 cm²
+- C) 26 cm²
+- D) 52,5 cm²
+- E) 26,25 cm²
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: área do losango. O losango é metade do retângulo formado pelas suas diagonais. 21 × 5 ÷ 2 = 52,5 cm².
+
+### 10
+<!-- modelo: f10 -->
+Qual é o complemento de um ângulo de 18°?
+
+- A) 72°
+- B) 9°
+- C) 342°
+- D) 162°
+- E) 18°
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: complemento. Complementares somam 90°; suplementares somam 180°. 90° − 18° = 72°.
+
+### 11
+<!-- modelo: f2 -->
 Um triângulo retângulo tem catetos medindo 12 cm e 16 cm. Qual é a medida da hipotenusa?
 
 - A) 28 cm
 - B) 21 cm
-- C) 11 cm
+- C) 4 cm
 - D) 20 cm
-- E) 14 cm
+- E) 19 cm
 
 **Resposta:** D
 
-**Explicação:** Pitágoras: h² = 12² + 16² = 400 ⇒ h = 20 cm.
+**Explicação:** Ferramenta: teorema de Pitágoras. Em todo triângulo retângulo: hipotenusa² = cateto² + cateto². h² = 144 + 256 = 400 ⇒ h = 20 cm.
 
-### 3
-Qual é a área de um círculo de raio 3 m? (Use π = 3.)
+### 12
+<!-- modelo: f2 -->
+Um triângulo retângulo tem catetos medindo 6 cm e 8 cm. Qual é a medida da hipotenusa?
 
-- A) 81 m²
-- B) 27 m²
-- C) 108 m²
-- D) 9 m²
-- E) 18 m²
+- A) 2 cm
+- B) 10 cm
+- C) 9 cm
+- D) 11 cm
+- E) 14 cm
 
 **Resposta:** B
 
-**Explicação:** A = π·r² = 3 × 3² = 27 m².
+**Explicação:** Ferramenta: teorema de Pitágoras. Em todo triângulo retângulo: hipotenusa² = cateto² + cateto². h² = 36 + 64 = 100 ⇒ h = 10 cm.
 
-### 4
-Um terreno retangular de 11 m por 9 m será cercado com 4 voltas de arame. Quantos metros de arame serão necessários?
+### 13
+<!-- modelo: f7 -->
+Dois ângulos de um triângulo medem 25° e 80°. Quanto mede o terceiro ângulo?
 
-- A) 80 m
-- B) 40 m
-- C) 396 m
-- D) 200 m
-- E) 160 m
-
-**Resposta:** E
-
-**Explicação:** Perímetro = 2 × (11 + 9) = 40 m. Com 4 voltas: 40 × 4 = 160 m.
-
-### 5
-Qual é a soma das medidas dos ângulos internos de um polígono convexo de 10 lados?
-
-- A) 1.440°
-- B) 2.880°
-- C) 1.800°
-- D) 360°
-- E) 1.620°
-
-**Resposta:** A
-
-**Explicação:** Sᵢ = 180° · (n − 2) = 180° · 8 = 1.440°.
-
-### 6
-Uma sala retangular mede 7 m por 7 m. O piso escolhido custa R$ 40,00 o metro quadrado. Quanto será gasto com o piso?
-
-- A) R$ 89,00
-- B) R$ 560,00
-- C) R$ 980,00
-- D) R$ 1.960,00
-- E) R$ 1.120,00
-
-**Resposta:** D
-
-**Explicação:** Área = 7 × 7 = 49 m². Custo = 49 × R$ 40,00 = R$ 1.960,00.
-
-### 7
-Um triângulo retângulo tem catetos medindo 20 cm e 21 cm. Qual é a medida da hipotenusa?
-
-- A) 30 cm
-- B) 6 cm
-- C) 29 cm
-- D) 20,5 cm
-- E) 41 cm
+- A) 65°
+- B) 155°
+- C) 75°
+- D) 255°
+- E) 105°
 
 **Resposta:** C
 
-**Explicação:** Pitágoras: h² = 20² + 21² = 841 ⇒ h = 29 cm.
-
-### 8
-Qual é a área de um círculo de raio 9 m? (Use π = 3.)
-
-- A) 729 m²
-- B) 243 m²
-- C) 54 m²
-- D) 972 m²
-- E) 27 m²
-
-**Resposta:** B
-
-**Explicação:** A = π·r² = 3 × 9² = 243 m².
-
-### 9
-Um terreno retangular de 28 m por 30 m será cercado com 3 voltas de arame. Quantos metros de arame serão necessários?
-
-- A) 116 m
-- B) 464 m
-- C) 2.520 m
-- D) 348 m
-- E) 174 m
-
-**Resposta:** D
-
-**Explicação:** Perímetro = 2 × (28 + 30) = 116 m. Com 3 voltas: 116 × 3 = 348 m.
-
-### 10
-Qual é a soma das medidas dos ângulos internos de um polígono convexo de 20 lados?
-
-- A) 360°
-- B) 6.480°
-- C) 3.420°
-- D) 3.600°
-- E) 3.240°
-
-**Resposta:** E
-
-**Explicação:** Sᵢ = 180° · (n − 2) = 180° · 18 = 3.240°.
-
-### 11
-Uma sala retangular mede 9 m por 6 m. O piso escolhido custa R$ 40,00 o metro quadrado. Quanto será gasto com o piso?
-
-- A) R$ 94,00
-- B) R$ 1.200,00
-- C) R$ 600,00
-- D) R$ 2.160,00
-- E) R$ 1.080,00
-
-**Resposta:** D
-
-**Explicação:** Área = 9 × 6 = 54 m². Custo = 54 × R$ 40,00 = R$ 2.160,00.
-
-### 12
-Um triângulo retângulo tem catetos medindo 9 cm e 12 cm. Qual é a medida da hipotenusa?
-
-- A) 15 cm
-- B) 16 cm
-- C) 10,5 cm
-- D) 8 cm
-- E) 21 cm
-
-**Resposta:** A
-
-**Explicação:** Pitágoras: h² = 9² + 12² = 225 ⇒ h = 15 cm.
-
-### 13
-Qual é a área de um círculo de raio 8 m? (Use π = 3.)
-
-- A) 48 m²
-- B) 192 m²
-- C) 576 m²
-- D) 24 m²
-- E) 768 m²
-
-**Resposta:** B
-
-**Explicação:** A = π·r² = 3 × 8² = 192 m².
+**Explicação:** Ferramenta: soma dos ângulos do triângulo. Os três ângulos internos de qualquer triângulo somam 180°. 180° − 25° − 80° = 75°.
 
 ### 14
-Um terreno retangular de 13 m por 9 m será cercado com 5 voltas de arame. Quantos metros de arame serão necessários?
+<!-- modelo: f13 -->
+Um quadrado tem perímetro de 72 cm. Qual é a sua área?
 
-- A) 220 m
-- B) 110 m
-- C) 44 m
-- D) 264 m
-- E) 585 m
+- A) 5.184 cm²
+- B) 648 cm²
+- C) 36 cm²
+- D) 72 cm²
+- E) 324 cm²
 
-**Resposta:** A
+**Resposta:** E
 
-**Explicação:** Perímetro = 2 × (13 + 9) = 44 m. Com 5 voltas: 44 × 5 = 220 m.
+**Explicação:** Ferramenta: perímetro → lado → área. Perímetro ÷ 4 dá o lado; o lado ao quadrado dá a área. Lado: 72 ÷ 4 = 18; área: 18² = 324 cm².
 
 ### 15
-Qual é a soma das medidas dos ângulos internos de um polígono convexo de 5 lados?
+<!-- modelo: f12 -->
+Quanto mede cada ângulo externo de um polígono regular de 5 lados?
 
-- A) 360°
-- B) 900°
-- C) 720°
-- D) 540°
-- E) 1.080°
+- A) 36°
+- B) 108°
+- C) 288°
+- D) 120°
+- E) 72°
 
-**Resposta:** D
+**Resposta:** E
 
-**Explicação:** Sᵢ = 180° · (n − 2) = 180° · 3 = 540°.
+**Explicação:** Ferramenta: soma dos ângulos externos. Em qualquer polígono convexo, os externos somam 360°. No regular, são todos iguais. 360° ÷ 5 = 72°.
 
 ### 16
-Uma sala retangular mede 6 m por 8 m. O piso escolhido custa R$ 45,00 o metro quadrado. Quanto será gasto com o piso?
+<!-- modelo: f6 -->
+Um terreno tem a forma de um triângulo com base de 31 m e altura de 23 m em relação a essa base. Qual é a sua área?
 
-- A) R$ 2.160,00
-- B) R$ 93,00
-- C) R$ 1.260,00
-- D) R$ 630,00
-- E) R$ 1.080,00
+- A) 178,25 m²
+- B) 54 m²
+- C) 713 m²
+- D) 108 m²
+- E) 356,5 m²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: área do triângulo. Todo triângulo é metade de um retângulo (ou paralelogramo) de mesma base e altura. 31 × 23 ÷ 2 = 356,5 m².
+
+### 17
+<!-- modelo: f4 -->
+Um terreno retangular de 30 m por 18 m será cercado com 4 voltas de arame. Quantos metros de arame serão necessários?
+
+- A) 384 m
+- B) 480 m
+- C) 192 m
+- D) 2.160 m
+- E) 96 m
 
 **Resposta:** A
 
-**Explicação:** Área = 6 × 8 = 48 m². Custo = 48 × R$ 45,00 = R$ 2.160,00.
-
-### 17
-Qual é a área de um círculo de raio 10 m? (Use π = 3.)
-
-- A) 1.200 m²
-- B) 60 m²
-- C) 30 m²
-- D) 900 m²
-- E) 300 m²
-
-**Resposta:** E
-
-**Explicação:** A = π·r² = 3 × 10² = 300 m².
-
-### 18
-Um terreno retangular de 25 m por 25 m será cercado com 3 voltas de arame. Quantos metros de arame serão necessários?
-
-- A) 1.875 m
-- B) 300 m
-- C) 150 m
-- D) 400 m
-- E) 100 m
-
-**Resposta:** B
-
-**Explicação:** Perímetro = 2 × (25 + 25) = 100 m. Com 3 voltas: 100 × 3 = 300 m.
-
-### 19
-Qual é a soma das medidas dos ângulos internos de um polígono convexo de 9 lados?
-
-- A) 360°
-- B) 1.440°
-- C) 2.520°
-- D) 1.620°
-- E) 1.260°
-
-**Resposta:** E
-
-**Explicação:** Sᵢ = 180° · (n − 2) = 180° · 7 = 1.260°.
-
-### 20
-Uma sala retangular mede 5 m por 4 m. O piso escolhido custa R$ 50,00 o metro quadrado. Quanto será gasto com o piso?
-
-- A) R$ 900,00
-- B) R$ 70,00
-- C) R$ 450,00
-- D) R$ 1.000,00
-- E) R$ 500,00
-
-**Resposta:** D
-
-**Explicação:** Área = 5 × 4 = 20 m². Custo = 20 × R$ 50,00 = R$ 1.000,00.
+**Explicação:** Ferramenta: perímetro. Cerca contorna o terreno: é perímetro (soma dos lados). 2 × (30 + 18) = 96 m; × 4 = 384 m.
 
 ## Médio
 
 ### 1
-Um terreno tem a forma de um trapézio com bases de 13 m e 5 m e altura de 12 m. Qual é a sua área?
+<!-- modelo: m3 -->
+A roda de uma bicicleta tem raio de 50 cm. Quantos metros a bicicleta percorre quando a roda dá 1.000 voltas completas? (Use π = 3,14.)
 
-- A) 216 m²
-- B) 108 m²
-- C) 390 m²
-- D) 48 m²
-- E) 156 m²
+- A) 314 m
+- B) 6.280 m
+- C) 1.570 m
+- D) 785 m
+- E) 3.140 m
 
-**Resposta:** B
+**Resposta:** E
 
-**Explicação:** A = (B + b)·h/2 = (13 + 5) × 12/2 = 108 m².
+**Explicação:** Ferramenta: comprimento da circunferência. Em cada volta, a roda "desenrola" o seu contorno no chão: 2πr. 2 × 3,14 × 0,5 = 3,140 m por volta; × 1000 = 3.140 m.
 
 ### 2
-Uma escada de 10 m está apoiada em uma parede vertical, com o pé a 6 m da base da parede. A que altura da parede está o topo da escada?
+<!-- modelo: m5 -->
+Em um mesmo instante, um poste projeta uma sombra de 9 m e uma pessoa de 2 m de altura projeta uma sombra de 1 m. Qual é a altura do poste?
 
-- A) 8 m
-- B) 16 m
-- C) 4 m
-- D) 11,7 m
-- E) 7 m
+- A) 19 m
+- B) 11 m
+- C) 9 m
+- D) 4,5 m
+- E) 18 m
 
-**Resposta:** A
+**Resposta:** E
 
-**Explicação:** A escada é a hipotenusa: h² + 6² = 10² ⇒ h² = 64 ⇒ h = 8 m.
+**Explicação:** Ferramenta: semelhança de triângulos. No mesmo instante, os raios de sol são paralelos: altura ÷ sombra é igual para o poste e a pessoa. h ÷ 9 = 2 ÷ 1 ⇒ h = 18 m.
 
 ### 3
-A roda de uma bicicleta tem raio de 30 cm. Quantos metros a bicicleta percorre quando a roda dá 200 voltas completas? (Use π = 3,14.)
+<!-- modelo: m6 -->
+Uma pizza redonda de 15 cm de raio foi cortada em fatias iguais de 60° cada. Qual é a área de uma fatia? (Use π = 3.)
 
-- A) 37,68 m
-- B) 56,52 m
-- C) 188,4 m
-- D) 753,6 m
-- E) 376,8 m
+- A) 225 cm²
+- B) 675 cm²
+- C) 15 cm²
+- D) 112,5 cm²
+- E) 113,5 cm²
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** Cada volta corresponde ao comprimento da circunferência: 2πr = 2 × 3,14 × 0,3 = 1,884 m. Em 200 voltas: 376,8 m.
+**Explicação:** Ferramenta: setor circular. A fatia é a fração 60/360 do círculo inteiro. Círculo: 3 × 15² = 675 cm²; × 60/360 = 112,5 cm².
 
 ### 4
-Quantas diagonais tem um polígono convexo de 9 lados?
+<!-- modelo: m1 -->
+Um terreno tem a forma de um trapézio com bases de 17 m e 15 m e altura de 7 m. Qual é a sua área?
 
-- A) 6
-- B) 36
-- C) 31,5
-- D) 54
-- E) 27
+- A) 7 m²
+- B) 224 m²
+- C) 892,5 m²
+- D) 119 m²
+- E) 112 m²
 
 **Resposta:** E
 
-**Explicação:** d = n(n − 3)/2 = 9 × 6/2 = 27.
+**Explicação:** Ferramenta: área do trapézio. Média das bases vezes a altura. (17 + 15) × 7 ÷ 2 = 112 m².
 
 ### 5
+<!-- modelo: m5 -->
 Em um mesmo instante, um poste projeta uma sombra de 3,2 m e uma pessoa de 2 m de altura projeta uma sombra de 0,8 m. Qual é a altura do poste?
 
 - A) 5,2 m
@@ -348,461 +331,370 @@ Em um mesmo instante, um poste projeta uma sombra de 3,2 m e uma pessoa de 2 m d
 
 **Resposta:** B
 
-**Explicação:** Triângulos semelhantes: h/3,2 = 2/0,8 ⇒ h = 3,2 × 2/0,8 = 8 m.
+**Explicação:** Ferramenta: semelhança de triângulos. No mesmo instante, os raios de sol são paralelos: altura ÷ sombra é igual para o poste e a pessoa. h ÷ 3,2 = 2 ÷ 0,8 ⇒ h = 8 m.
 
 ### 6
-Um terreno tem a forma de um trapézio com bases de 9 m e 5 m e altura de 4 m. Qual é a sua área?
+<!-- modelo: m13 -->
+Um retângulo tem área de 120 m² e um dos lados mede 10 m. Qual é o seu perímetro?
 
-- A) 56 m²
-- B) 28 m²
-- C) 90 m²
-- D) 8 m²
-- E) 36 m²
+- A) 32 m
+- B) 44 m
+- C) 40 m
+- D) 120 m
+- E) 22 m
 
 **Resposta:** B
 
-**Explicação:** A = (B + b)·h/2 = (9 + 5) × 4/2 = 28 m².
+**Explicação:** Ferramenta: área → lado → perímetro. Com a área e um lado, o outro lado é área ÷ lado. Outro lado: 120 ÷ 10 = 12; perímetro: 2 × (10 + 12) = 44 m.
 
 ### 7
-Uma escada de 13 m está apoiada em uma parede vertical, com o pé a 5 m da base da parede. A que altura da parede está o topo da escada?
-
-- A) 8 m
-- B) 11 m
-- C) 13,9 m
-- D) 12 m
-- E) 18 m
-
-**Resposta:** D
-
-**Explicação:** A escada é a hipotenusa: h² + 5² = 13² ⇒ h² = 144 ⇒ h = 12 m.
-
-### 8
-A roda de uma bicicleta tem raio de 40 cm. Quantos metros a bicicleta percorre quando a roda dá 500 voltas completas? (Use π = 3,14.)
-
-- A) 628 m
-- B) 2.512 m
-- C) 1.256 m
-- D) 251,2 m
-- E) 125,6 m
-
-**Resposta:** C
-
-**Explicação:** Cada volta corresponde ao comprimento da circunferência: 2πr = 2 × 3,14 × 0,4 = 2,512 m. Em 500 voltas: 1.256 m.
-
-### 9
-Quantas diagonais tem um polígono convexo de 6 lados?
-
-- A) 3
-- B) 18
-- C) 12
-- D) 15
-- E) 9
-
-**Resposta:** E
-
-**Explicação:** d = n(n − 3)/2 = 6 × 3/2 = 9.
-
-### 10
-Em um mesmo instante, um poste projeta uma sombra de 7,2 m e uma pessoa de 2 m de altura projeta uma sombra de 1,2 m. Qual é a altura do poste?
-
-- A) 4,32 m
-- B) 13 m
-- C) 7,2 m
-- D) 9,2 m
-- E) 12 m
-
-**Resposta:** E
-
-**Explicação:** Triângulos semelhantes: h/7,2 = 2/1,2 ⇒ h = 7,2 × 2/1,2 = 12 m.
-
-### 11
-Um terreno tem a forma de um trapézio com bases de 14 m e 6 m e altura de 7 m. Qual é a sua área?
-
-- A) 294 m²
-- B) 98 m²
-- C) 70 m²
-- D) 28 m²
-- E) 140 m²
-
-**Resposta:** C
-
-**Explicação:** A = (B + b)·h/2 = (14 + 6) × 7/2 = 70 m².
-
-### 12
+<!-- modelo: m2 -->
 Uma escada de 17 m está apoiada em uma parede vertical, com o pé a 8 m da base da parede. A que altura da parede está o topo da escada?
 
 - A) 14 m
-- B) 25 m
-- C) 18,8 m
-- D) 9 m
-- E) 15 m
+- B) 15 m
+- C) 9 m
+- D) 25 m
+- E) 18,8 m
 
-**Resposta:** E
+**Resposta:** B
 
-**Explicação:** A escada é a hipotenusa: h² + 8² = 17² ⇒ h² = 225 ⇒ h = 15 m.
+**Explicação:** Ferramenta: teorema de Pitágoras. Parede, chão e escada formam um triângulo retângulo; a escada é a hipotenusa. h² = 17² − 8² = 225 ⇒ h = 15 m.
 
-### 13
-A roda de uma bicicleta tem raio de 30 cm. Quantos metros a bicicleta percorre quando a roda dá 1.000 voltas completas? (Use π = 3,14.)
+### 8
+<!-- modelo: m10 -->
+Duas retas paralelas são cortadas por uma transversal, formando dois ângulos alternos internos que medem (2x + 30)° e (4x − 10)°. Quanto mede cada um desses ângulos?
 
-- A) 282,6 m
-- B) 942 m
-- C) 1.884 m
-- D) 188,4 m
-- E) 3.768 m
-
-**Resposta:** C
-
-**Explicação:** Cada volta corresponde ao comprimento da circunferência: 2πr = 2 × 3,14 × 0,3 = 1,884 m. Em 1000 voltas: 1.884 m.
-
-### 14
-Em um mesmo instante, um poste projeta uma sombra de 9,6 m e uma pessoa de 1,8 m de altura projeta uma sombra de 1,2 m. Qual é a altura do poste?
-
-- A) 9,6 m
-- B) 15,4 m
-- C) 14,4 m
-- D) 11,4 m
-- E) 6,4 m
+- A) 110°
+- B) 35°
+- C) 70°
+- D) 40°
+- E) 20°
 
 **Resposta:** C
 
-**Explicação:** Triângulos semelhantes: h/9,6 = 1,8/1,2 ⇒ h = 9,6 × 1,8/1,2 = 14,4 m.
+**Explicação:** Ferramenta: ângulos alternos internos. Com retas paralelas, ângulos alternos internos são iguais. 2x + 30 = 4x − 10 ⇒ x = 20; ângulo = 70°.
 
-### 15
-Um terreno tem a forma de um trapézio com bases de 11 m e 4 m e altura de 12 m. Qual é a sua área?
+### 9
+<!-- modelo: m9 -->
+Quanto mede cada ângulo interno de um polígono regular de 10 lados?
 
-- A) 180 m²
-- B) 264 m²
-- C) 132 m²
-- D) 90 m²
-- E) 42 m²
+- A) 162°
+- B) 1.440°
+- C) 144°
+- D) 36°
+- E) 225°
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: soma ÷ quantidade. Ângulos internos somam 180°(n − 2) e, no polígono regular, são todos iguais. (Ou: 180° − ângulo externo.) 180° × 8 ÷ 10 = 144°.
+
+### 10
+<!-- modelo: m7 -->
+Um triângulo isósceles tem os dois lados iguais medindo 15 cm e a base medindo 18 cm. Qual é a sua área?
+
+- A) 117 cm²
+- B) 118 cm²
+- C) 135 cm²
+- D) 108 cm²
+- E) 216 cm²
 
 **Resposta:** D
 
-**Explicação:** A = (B + b)·h/2 = (11 + 4) × 12/2 = 90 m².
+**Explicação:** Ferramenta: altura por Pitágoras. A altura do isósceles cai no meio da base e forma dois triângulos retângulos. Metade da base: 9. Altura: √(15² − 9²) = 12. Área: 18 × 12 ÷ 2 = 108 cm².
 
-### 16
-Uma escada de 15 m está apoiada em uma parede vertical, com o pé a 9 m da base da parede. A que altura da parede está o topo da escada?
+### 11
+<!-- modelo: m4 -->
+Quantas diagonais tem um polígono convexo de 20 lados?
 
-- A) 24 m
-- B) 12 m
-- C) 11 m
-- D) 17,5 m
-- E) 6 m
-
-**Resposta:** B
-
-**Explicação:** A escada é a hipotenusa: h² + 9² = 15² ⇒ h² = 144 ⇒ h = 12 m.
-
-### 17
-A roda de uma bicicleta tem raio de 40 cm. Quantos metros a bicicleta percorre quando a roda dá 200 voltas completas? (Use π = 3,14.)
-
-- A) 251,2 m
-- B) 50,24 m
-- C) 502,4 m
-- D) 1.004,8 m
-- E) 100,48 m
+- A) 190
+- B) 180
+- C) 170
+- D) 17
+- E) 340
 
 **Resposta:** C
 
-**Explicação:** Cada volta corresponde ao comprimento da circunferência: 2πr = 2 × 3,14 × 0,4 = 2,512 m. Em 200 voltas: 502,4 m.
+**Explicação:** Ferramenta: contagem de diagonais. De cada vértice saem n − 3 diagonais (não vai para si nem para os 2 vizinhos); cada diagonal foi contada duas vezes. 20 × 17 ÷ 2 = 170.
 
-### 18
-Quantas diagonais tem um polígono convexo de 20 lados?
+### 12
+<!-- modelo: m2 -->
+Uma escada de 29 m está apoiada em uma parede vertical, com o pé a 20 m da base da parede. A que altura da parede está o topo da escada?
 
-- A) 170
-- B) 340
-- C) 180
-- D) 190
-- E) 17
+- A) 9 m
+- B) 49 m
+- C) 20 m
+- D) 35,2 m
+- E) 21 m
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: teorema de Pitágoras. Parede, chão e escada formam um triângulo retângulo; a escada é a hipotenusa. h² = 29² − 20² = 441 ⇒ h = 21 m.
+
+### 13
+<!-- modelo: m8 -->
+Uma arruela é formada por dois círculos de mesmo centro: o externo com raio 5 mm e o interno (furo) com raio 2 mm. Qual é a área da arruela? (Use π = 3.)
+
+- A) 18 mm²
+- B) 75 mm²
+- C) 27 mm²
+- D) 87 mm²
+- E) 63 mm²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: área por subtração. Área da peça = área de fora − área do furo. 3 × 5² − 3 × 2² = 75 − 12 = 63 mm².
+
+### 14
+<!-- modelo: m11 -->
+A tela retangular de um monitor mede 48 cm de largura por 36 cm de altura. Qual é a medida da sua diagonal?
+
+- A) 60 cm
+- B) 42 cm
+- C) 84 cm
+- D) 70 cm
+- E) 12 cm
 
 **Resposta:** A
 
-**Explicação:** d = n(n − 3)/2 = 20 × 17/2 = 170.
+**Explicação:** Ferramenta: Pitágoras no retângulo. A diagonal divide o retângulo em dois triângulos retângulos. d² = 48² + 36² = 3600 ⇒ d = 60 cm.
 
-### 19
-Em um mesmo instante, um poste projeta uma sombra de 2,5 m e uma pessoa de 1,5 m de altura projeta uma sombra de 0,5 m. Qual é a altura do poste?
+### 15
+<!-- modelo: m1 -->
+Um terreno tem a forma de um trapézio com bases de 16 m e 4 m e altura de 8 m. Qual é a sua área?
 
-- A) 7,5 m
-- B) 4 m
-- C) 8,5 m
-- D) 2,5 m
-- E) 0,83 m
+- A) 256 m²
+- B) 48 m²
+- C) 128 m²
+- D) 160 m²
+- E) 80 m²
 
-**Resposta:** A
+**Resposta:** E
 
-**Explicação:** Triângulos semelhantes: h/2,5 = 1,5/0,5 ⇒ h = 2,5 × 1,5/0,5 = 7,5 m.
+**Explicação:** Ferramenta: área do trapézio. Média das bases vezes a altura. (16 + 4) × 8 ÷ 2 = 80 m².
 
-### 20
-Um terreno tem a forma de um trapézio com bases de 9 m e 5 m e altura de 9 m. Qual é a sua área?
+### 16
+<!-- modelo: m12 -->
+Um terreno em forma de "L" foi obtido retirando-se, de um canto de um retângulo de 16 m por 18 m, um retângulo de 5 m por 11 m. Qual é a área do terreno?
 
-- A) 202,5 m²
-- B) 63 m²
-- C) 81 m²
-- D) 126 m²
-- E) 18 m²
+- A) 343 m²
+- B) 68 m²
+- C) 288 m²
+- D) 233 m²
+- E) 77 m²
 
-**Resposta:** B
+**Resposta:** D
 
-**Explicação:** A = (B + b)·h/2 = (9 + 5) × 9/2 = 63 m².
+**Explicação:** Ferramenta: área por subtração. Calcule a figura "completa" e retire o pedaço que falta. 16 × 18 − 5 × 11 = 288 − 55 = 233 m².
 
 ## Difícil
 
 ### 1
-Um quadrado de lado 8 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
+<!-- modelo: d12 -->
+Cada ângulo interno de um polígono regular mede 135°. Quantos lados tem esse polígono?
 
-- A) 40 cm²
-- B) 48 cm²
-- C) 26 cm²
-- D) 32 cm²
-- E) 16 cm²
+- A) 6
+- B) 3
+- C) 10
+- D) 8
+- E) 14
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** Raio = 4 cm. Área do quadrado: 64; do círculo: 3 × 16 = 48. Diferença: 16 cm².
+**Explicação:** Ferramenta: pelo ângulo externo. Externo = 180° − interno; e a soma dos externos é 360°. Externo: 180° − 135° = 45°; n = 360 ÷ 45 = 8.
 
 ### 2
-Qual é a área de um triângulo equilátero de lado 4 cm? (Use √3 = 1,7.)
+<!-- modelo: d8 -->
+Qual é o raio da circunferência inscrita em um triângulo retângulo de catetos 7 cm e 24 cm?
 
-- A) 27,2 cm²
-- B) 8 cm²
-- C) 13,6 cm²
-- D) 6,8 cm²
-- E) 5,1 cm²
+- A) 3 cm
+- B) 12,5 cm
+- C) 6 cm
+- D) 7,75 cm
+- E) 9 cm
 
-**Resposta:** D
+**Resposta:** A
 
-**Explicação:** A = l²√3/4 = 16 × 1,7/4 = 6,8 cm².
+**Explicação:** Ferramenta: tangentes e área. No triângulo retângulo, r = (cateto + cateto − hipotenusa)/2. (Também sai de Área = r × semiperímetro.) Hipotenusa 25: r = (7 + 24 − 25) ÷ 2 = 3 cm.
 
 ### 3
-Um piso tem o formato de um hexágono regular de lado 10 m. Qual é a sua área? (Use √3 = 1,7.)
+<!-- modelo: d12 -->
+Cada ângulo interno de um polígono regular mede 160°. Quantos lados tem esse polígono?
 
-- A) 60 m²
-- B) 600 m²
-- C) 127,5 m²
-- D) 255 m²
-- E) 42,5 m²
+- A) 16
+- B) 20
+- C) 21
+- D) 18
+- E) 2
 
 **Resposta:** D
 
-**Explicação:** O hexágono regular é formado por 6 triângulos equiláteros de lado 10: A = 6 × 100 × 1,7/4 = 255 m².
+**Explicação:** Ferramenta: pelo ângulo externo. Externo = 180° − interno; e a soma dos externos é 360°. Externo: 180° − 160° = 20°; n = 360 ÷ 20 = 18.
 
 ### 4
-Um quadrado está inscrito em uma circunferência de raio 2 cm. Qual é a área desse quadrado?
-
-- A) 16 cm²
-- B) 12 cm²
-- C) 4 cm²
-- D) 7 cm²
-- E) 8 cm²
-
-**Resposta:** E
-
-**Explicação:** A diagonal do quadrado é o diâmetro: d = 4. Área = d²/2 = 16/2 = 8 cm².
-
-### 5
-Três retas paralelas cortam duas transversais. Na primeira transversal, os segmentos determinados medem 5 cm e 8 cm. Na segunda, o segmento correspondente ao de 5 cm mede 15 cm. Quanto mede o outro segmento da segunda transversal?
-
-- A) 40 cm
-- B) 18 cm
-- C) 27 cm
-- D) 24 cm
-- E) 9,38 cm
-
-**Resposta:** D
-
-**Explicação:** Pelo Teorema de Tales: 5/8 = 15/x ⇒ x = 8 × 15/5 = 24 cm.
-
-### 6
-Um quadrado de lado 4 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
-
-- A) 4 cm²
-- B) 7 cm²
-- C) 12 cm²
-- D) 8 cm²
-- E) 6 cm²
-
-**Resposta:** A
-
-**Explicação:** Raio = 2 cm. Área do quadrado: 16; do círculo: 3 × 4 = 12. Diferença: 4 cm².
-
-### 7
-Qual é a área de um triângulo equilátero de lado 10 cm? (Use √3 = 1,7.)
-
-- A) 170 cm²
-- B) 85 cm²
-- C) 12,75 cm²
-- D) 50 cm²
-- E) 42,5 cm²
-
-**Resposta:** E
-
-**Explicação:** A = l²√3/4 = 100 × 1,7/4 = 42,5 cm².
-
-### 8
-Um piso tem o formato de um hexágono regular de lado 4 m. Qual é a sua área? (Use √3 = 1,7.)
-
-- A) 24 m²
-- B) 96 m²
-- C) 6,8 m²
-- D) 40,8 m²
-- E) 20,4 m²
-
-**Resposta:** D
-
-**Explicação:** O hexágono regular é formado por 6 triângulos equiláteros de lado 4: A = 6 × 16 × 1,7/4 = 40,8 m².
-
-### 9
-Um quadrado está inscrito em uma circunferência de raio 8 cm. Qual é a área desse quadrado?
-
-- A) 64 cm²
-- B) 16 cm²
-- C) 192 cm²
-- D) 256 cm²
-- E) 128 cm²
-
-**Resposta:** E
-
-**Explicação:** A diagonal do quadrado é o diâmetro: d = 16. Área = d²/2 = 256/2 = 128 cm².
-
-### 10
-Três retas paralelas cortam duas transversais. Na primeira transversal, os segmentos determinados medem 2 cm e 5 cm. Na segunda, o segmento correspondente ao de 2 cm mede 8 cm. Quanto mede o outro segmento da segunda transversal?
-
-- A) 11 cm
-- B) 24 cm
-- C) 10 cm
-- D) 20 cm
-- E) 3,2 cm
-
-**Resposta:** D
-
-**Explicação:** Pelo Teorema de Tales: 2/5 = 8/x ⇒ x = 5 × 8/2 = 20 cm.
-
-### 11
-Um quadrado de lado 6 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
-
-- A) 10 cm²
-- B) 9 cm²
-- C) 7 cm²
-- D) 18 cm²
-- E) 27 cm²
-
-**Resposta:** B
-
-**Explicação:** Raio = 3 cm. Área do quadrado: 36; do círculo: 3 × 9 = 27. Diferença: 9 cm².
-
-### 12
-Qual é a área de um triângulo equilátero de lado 6 cm? (Use √3 = 1,7.)
-
-- A) 15,3 cm²
-- B) 30,6 cm²
-- C) 18 cm²
-- D) 61,2 cm²
-- E) 7,65 cm²
-
-**Resposta:** A
-
-**Explicação:** A = l²√3/4 = 36 × 1,7/4 = 15,3 cm².
-
-### 13
-Três retas paralelas cortam duas transversais. Na primeira transversal, os segmentos determinados medem 4 cm e 8 cm. Na segunda, o segmento correspondente ao de 4 cm mede 8 cm. Quanto mede o outro segmento da segunda transversal?
-
-- A) 32 cm
-- B) 16 cm
-- C) 12 cm
-- D) 4 cm
-- E) 18 cm
-
-**Resposta:** B
-
-**Explicação:** Pelo Teorema de Tales: 4/8 = 8/x ⇒ x = 8 × 8/4 = 16 cm.
-
-### 14
-Um quadrado está inscrito em uma circunferência de raio 4 cm. Qual é a área desse quadrado?
-
-- A) 32 cm²
-- B) 48 cm²
-- C) 64 cm²
-- D) 8 cm²
-- E) 16 cm²
-
-**Resposta:** A
-
-**Explicação:** A diagonal do quadrado é o diâmetro: d = 8. Área = d²/2 = 64/2 = 32 cm².
-
-### 15
-Três retas paralelas cortam duas transversais. Na primeira transversal, os segmentos determinados medem 8 cm e 5 cm. Na segunda, o segmento correspondente ao de 8 cm mede 24 cm. Quanto mede o outro segmento da segunda transversal?
-
-- A) 18 cm
-- B) 40 cm
-- C) 15 cm
-- D) 38,4 cm
-- E) 21 cm
-
-**Resposta:** C
-
-**Explicação:** Pelo Teorema de Tales: 8/5 = 24/x ⇒ x = 5 × 24/8 = 15 cm.
-
-### 16
-Um quadrado de lado 12 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
-
-- A) 38 cm²
-- B) 72 cm²
-- C) 36 cm²
-- D) 34 cm²
-- E) 108 cm²
-
-**Resposta:** C
-
-**Explicação:** Raio = 6 cm. Área do quadrado: 144; do círculo: 3 × 36 = 108. Diferença: 36 cm².
-
-### 17
+<!-- modelo: d2 -->
 Qual é a área de um triângulo equilátero de lado 8 cm? (Use √3 = 1,7.)
 
-- A) 54,4 cm²
+- A) 32 cm²
 - B) 10,2 cm²
 - C) 108,8 cm²
-- D) 32 cm²
+- D) 54,4 cm²
 - E) 27,2 cm²
 
 **Resposta:** E
 
-**Explicação:** A = l²√3/4 = 64 × 1,7/4 = 27,2 cm².
+**Explicação:** Ferramenta: fórmula do equilátero. A altura é l√3/2 (Pitágoras com metade da base); a área fica l²√3/4. 64 × 1,7 ÷ 4 = 27,2 cm².
 
-### 18
-Um quadrado está inscrito em uma circunferência de raio 10 cm. Qual é a área desse quadrado?
+### 5
+<!-- modelo: d9 -->
+Em uma circunferência, um ângulo central mede 80°. Quanto mede um ângulo inscrito que enxerga o mesmo arco?
 
-- A) 200 cm²
-- B) 20 cm²
-- C) 100 cm²
-- D) 400 cm²
-- E) 300 cm²
+- A) 160°
+- B) 280°
+- C) 40°
+- D) 100°
+- E) 80°
 
-**Resposta:** A
+**Resposta:** C
 
-**Explicação:** A diagonal do quadrado é o diâmetro: d = 20. Área = d²/2 = 400/2 = 200 cm².
+**Explicação:** Ferramenta: ângulo inscrito. O ângulo inscrito vale metade do ângulo central que enxerga o mesmo arco. 80° ÷ 2 = 40°.
 
-### 19
-Três retas paralelas cortam duas transversais. Na primeira transversal, os segmentos determinados medem 4 cm e 9 cm. Na segunda, o segmento correspondente ao de 4 cm mede 16 cm. Quanto mede o outro segmento da segunda transversal?
+### 6
+<!-- modelo: d3 -->
+Um piso tem o formato de um hexágono regular de lado 6 m. Qual é a sua área? (Use √3 = 1,7.)
 
-- A) 7,11 cm
-- B) 18 cm
-- C) 40 cm
-- D) 21 cm
-- E) 36 cm
+- A) 15,3 m²
+- B) 45,9 m²
+- C) 216 m²
+- D) 36 m²
+- E) 91,8 m²
 
 **Resposta:** E
 
-**Explicação:** Pelo Teorema de Tales: 4/9 = 16/x ⇒ x = 9 × 16/4 = 36 cm.
+**Explicação:** Ferramenta: decompor em triângulos. O hexágono regular é formado por 6 triângulos equiláteros iguais. 6 × 36 × 1,7 ÷ 4 = 91,8 m².
 
-### 20
-Um quadrado está inscrito em uma circunferência de raio 9 cm. Qual é a área desse quadrado?
+### 7
+<!-- modelo: d6 -->
+Em um triângulo retângulo de catetos 6 cm e 8 cm, qual é a altura relativa à hipotenusa?
 
-- A) 324 cm²
-- B) 18 cm²
-- C) 243 cm²
-- D) 162 cm²
-- E) 81 cm²
+- A) 24 cm
+- B) 6 cm
+- C) 4,8 cm
+- D) 5 cm
+- E) 7 cm
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: duas formas de calcular a área. Área = cateto × cateto ÷ 2 = hipotenusa × altura ÷ 2. Iguale as duas. Hipotenusa 10. 6 × 8 = 10 × h ⇒ h = 4,8 cm.
+
+### 8
+<!-- modelo: d11 -->
+Um triângulo retângulo tem catetos de 3 m e 6 m. Dentro dele será construído o maior quadrado possível, com um vértice no ângulo reto e o vértice oposto sobre a hipotenusa. Quanto mede o lado do quadrado?
+
+- A) 3 m
+- B) 2,25 m
+- C) 1,5 m
+- D) 5 m
+- E) 2 m
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: semelhança de triângulos. O quadrado deixa um triângulo menor semelhante ao original em cima dele. (3 − l)/l = 3/6 ⇒ l = 3 × 6 ÷ (3 + 6) = 2 m.
+
+### 9
+<!-- modelo: d6 -->
+Em um triângulo retângulo de catetos 9 cm e 12 cm, qual é a altura relativa à hipotenusa?
+
+- A) 7,5 cm
+- B) 7,2 cm
+- C) 9 cm
+- D) 10,5 cm
+- E) 54 cm
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: duas formas de calcular a área. Área = cateto × cateto ÷ 2 = hipotenusa × altura ÷ 2. Iguale as duas. Hipotenusa 15. 9 × 12 = 15 × h ⇒ h = 7,2 cm.
+
+### 10
+<!-- modelo: d5 -->
+Três retas paralelas cortam duas transversais. Na primeira transversal, os segmentos determinados medem 9 cm e 7 cm. Na segunda, o segmento correspondente ao de 9 cm mede 18 cm. Quanto mede o outro segmento da segunda transversal?
+
+- A) 28 cm
+- B) 13 cm
+- C) 14 cm
+- D) 16 cm
+- E) 63 cm
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: teorema de Tales. Paralelas cortando transversais geram segmentos proporcionais. 9/7 = 18/x ⇒ x = 14 cm.
+
+### 11
+<!-- modelo: d7 -->
+Um terreno triangular tem lados de 7 m, 15 m e 20 m. Qual é a sua área?
+
+- A) 150 m²
+- B) 41 m²
+- C) 42 m²
+- D) 52,5 m²
+- E) 84 m²
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: fórmula de Heron. Sem a altura, use A = √[p(p − a)(p − b)(p − c)], em que p é o semiperímetro. p = 21; A = √(21 · 14 · 6 · 1) = √1764 = 42 m².
+
+### 12
+<!-- modelo: d4 -->
+Um quadrado está inscrito em uma circunferência de raio 5 cm. Qual é a área desse quadrado?
+
+- A) 50 cm²
+- B) 75 cm²
+- C) 25 cm²
+- D) 100 cm²
+- E) 10 cm²
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: diagonal do quadrado. A diagonal do quadrado inscrito é o diâmetro. Área do quadrado = d²/2. d = 10; 100 ÷ 2 = 50 cm².
+
+### 13
+<!-- modelo: d2 -->
+Qual é a área de um triângulo equilátero de lado 4 cm? (Use √3 = 1,7.)
+
+- A) 27,2 cm²
+- B) 8 cm²
+- C) 6,8 cm²
+- D) 13,6 cm²
+- E) 5,1 cm²
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: fórmula do equilátero. A altura é l√3/2 (Pitágoras com metade da base); a área fica l²√3/4. 16 × 1,7 ÷ 4 = 6,8 cm².
+
+### 14
+<!-- modelo: d1 -->
+Um quadrado de lado 10 cm tem um círculo inscrito (tangente aos quatro lados). Qual é a área da região do quadrado que fica fora do círculo? (Use π = 3.)
+
+- A) 28 cm²
+- B) 50 cm²
+- C) 25 cm²
+- D) 70 cm²
+- E) 75 cm²
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: área por subtração. O diâmetro do círculo inscrito é o lado do quadrado. Raio 5. 100 − 3 × 25 = 25 cm².
+
+### 15
+<!-- modelo: d10 -->
+Uma pizzaria vende pizza de 30 cm de diâmetro por R$ 36,00 e de 40 cm por R$ 60,00. Considerando o preço por área (use π = 3), qual pizza compensa mais?
+
+- A) A pizza de 30 cm, porque custa menos por cm²
+- B) As duas custam o mesmo por cm²
+- C) A pizza de 40 cm, porque o diâmetro é maior
+- D) A pizza de 40 cm, porque custa menos por cm²
+- E) A pizza de 30 cm, porque é mais barata
 
 **Resposta:** D
 
-**Explicação:** A diagonal do quadrado é o diâmetro: d = 18. Área = d²/2 = 324/2 = 162 cm².
+**Explicação:** Ferramenta: preço por unidade de área. Compare o preço de cada cm²: preço ÷ área. A área cresce com o quadrado do raio. 30 cm: área 675 cm² → 5,333 centavos/cm². 40 cm: área 1200 cm² → 5,000 centavos/cm².
