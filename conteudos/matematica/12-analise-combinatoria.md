@@ -23,7 +23,78 @@ Princípio fundamental da contagem, permutações, arranjos e combinações.
 ## Fácil
 
 ### 1
-Caio tem 5 camisetas, 4 calças e 4 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
+<!-- modelo: f5 -->
+De uma cidade A a uma cidade B há 2 estradas, e de B a C há 2 estradas. Também há 2 estradas que ligam A diretamente a C. De quantas maneiras é possível ir de A até C?
+
+- A) 6
+- B) 4
+- C) 7
+- D) 9
+- E) 8
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: multiplicar "e", somar "ou". Passar por B é uma etapa E outra (multiplica); ir direto é OUTRA opção (soma). 2 × 2 + 2 = 6.
+
+### 2
+<!-- modelo: f6 -->
+Uma lanchonete monta combos com 1 sanduíche (6 opções) e 1 bebida (5 opções); a sobremesa é opcional (3 opções, ou nenhuma). Quantos combos diferentes podem ser montados?
+
+- A) 91
+- B) 90
+- C) 33
+- D) 14
+- E) 120
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: "não escolher" também é opção. Para a sobremesa existem 3 escolhas + a opção "sem sobremesa" = 4. 6 × 5 × 4 = 120.
+
+### 3
+<!-- modelo: f8 -->
+Uma bandeira tem 3 faixas horizontais, e cada uma deve ser pintada com uma cor diferente, escolhida entre 5 cores disponíveis. Quantas bandeiras diferentes podem ser feitas?
+
+- A) 120
+- B) 15
+- C) 125
+- D) 60
+- E) 10
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: arranjo (a ordem importa). Trocar as cores de lugar gera outra bandeira: a ordem importa e não se repete cor. 5 × 4 × 3 = 60.
+
+### 4
+<!-- modelo: f9 -->
+As bicicletas de um condomínio recebem um código com 2 letras (de 26) seguidas de 3 algarismos (0 a 9), podendo repetir. Quantos códigos diferentes existem?
+
+- A) 82
+- B) 60.466.176
+- C) 676.000
+- D) 1.560
+- E) 67.600
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: princípio multiplicativo. Cada posição é uma etapa com suas opções. 26² × 10³ = 676.000.
+
+### 5
+<!-- modelo: f1 -->
+João tem 8 camisetas, 6 calças e 2 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
+
+- A) 28
+- B) 16
+- C) 50
+- D) 96
+- E) 192
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: princípio multiplicativo. Escolhas em etapas (uma E depois outra) se multiplicam. 8 × 6 × 2 = 96.
+
+### 6
+<!-- modelo: f1 -->
+Lucas tem 5 camisetas, 4 calças e 4 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
 
 - A) 13
 - B) 160
@@ -33,775 +104,540 @@ Caio tem 5 camisetas, 4 calças e 4 pares de tênis. De quantas maneiras diferen
 
 **Resposta:** C
 
-**Explicação:** Princípio multiplicativo: 5 × 4 × 4 = 80.
-
-### 2
-Quantos anagramas tem a palavra ESCOLA?
-
-- A) 216
-- B) 360
-- C) 720
-- D) 120
-- E) 36
-
-**Resposta:** C
-
-**Explicação:** ESCOLA tem 6 letras distintas: 6! = 720 anagramas.
-
-### 3
-Quantas senhas de 3 dígitos (de 0 a 9) podem ser formadas, se for permitido repetir dígitos?
-
-- A) 30
-- B) 100
-- C) 720
-- D) 1.000
-- E) 729
-
-**Resposta:** D
-
-**Explicação:** Cada posição tem 10 opções: 10^3 = 1.000.
-
-### 4
-Em uma reunião com 19 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
-
-- A) 190
-- B) 361
-- C) 38
-- D) 342
-- E) 171
-
-**Resposta:** E
-
-**Explicação:** Cada aperto envolve um par de pessoas: C(19, 2) = 19·18/2 = 171.
-
-### 5
-De uma cidade A a uma cidade B há 4 estradas, e de B a C há 4 estradas. Também há 3 estradas que ligam A diretamente a C. De quantas maneiras é possível ir de A até C?
-
-- A) 19
-- B) 48
-- C) 16
-- D) 28
-- E) 11
-
-**Resposta:** A
-
-**Explicação:** Passando por B: 4 × 4 = 16. Direto: 3. Total: 19 (soma porque são caminhos alternativos).
-
-### 6
-Júlia tem 4 camisetas, 2 calças e 3 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
-
-- A) 11
-- B) 24
-- C) 48
-- D) 18
-- E) 9
-
-**Resposta:** B
-
-**Explicação:** Princípio multiplicativo: 4 × 2 × 3 = 24.
+**Explicação:** Ferramenta: princípio multiplicativo. Escolhas em etapas (uma E depois outra) se multiplicam. 5 × 4 × 4 = 80.
 
 ### 7
+<!-- modelo: f2 -->
 Quantos anagramas tem a palavra NOITE?
-
-- A) 60
-- B) 25
-- C) 120
-- D) 24
-- E) 125
-
-**Resposta:** C
-
-**Explicação:** NOITE tem 5 letras distintas: 5! = 120 anagramas.
-
-### 8
-Em uma reunião com 29 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
-
-- A) 812
-- B) 406
-- C) 58
-- D) 435
-- E) 841
-
-**Resposta:** B
-
-**Explicação:** Cada aperto envolve um par de pessoas: C(29, 2) = 29·28/2 = 405.99999999999994.
-
-### 9
-De uma cidade A a uma cidade B há 4 estradas, e de B a C há 5 estradas. Também há 2 estradas que ligam A diretamente a C. De quantas maneiras é possível ir de A até C?
-
-- A) 11
-- B) 30
-- C) 20
-- D) 22
-- E) 40
-
-**Resposta:** D
-
-**Explicação:** Passando por B: 4 × 5 = 20. Direto: 2. Total: 22 (soma porque são caminhos alternativos).
-
-### 10
-Caio tem 2 camisetas, 5 calças e 5 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
-
-- A) 50
-- B) 12
-- C) 35
-- D) 100
-- E) 15
-
-**Resposta:** A
-
-**Explicação:** Princípio multiplicativo: 2 × 5 × 5 = 50.
-
-### 11
-Quantos anagramas tem a palavra PRATO?
-
-- A) 60
-- B) 25
-- C) 125
-- D) 24
-- E) 120
-
-**Resposta:** E
-
-**Explicação:** PRATO tem 5 letras distintas: 5! = 120 anagramas.
-
-### 12
-Quantas senhas de 6 dígitos (de 0 a 9) podem ser formadas, se for permitido repetir dígitos?
-
-- A) 531.441
-- B) 60
-- C) 1.000.000
-- D) 100.000
-- E) 151.200
-
-**Resposta:** C
-
-**Explicação:** Cada posição tem 10 opções: 10^6 = 1.000.000.
-
-### 13
-Em uma reunião com 7 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
-
-- A) 28
-- B) 14
-- C) 42
-- D) 49
-- E) 21
-
-**Resposta:** E
-
-**Explicação:** Cada aperto envolve um par de pessoas: C(7, 2) = 7·6/2 = 21.
-
-### 14
-De uma cidade A a uma cidade B há 5 estradas, e de B a C há 3 estradas. Também há 2 estradas que ligam A diretamente a C. De quantas maneiras é possível ir de A até C?
-
-- A) 21
-- B) 17
-- C) 30
-- D) 15
-- E) 10
-
-**Resposta:** B
-
-**Explicação:** Passando por B: 5 × 3 = 15. Direto: 2. Total: 17 (soma porque são caminhos alternativos).
-
-### 15
-Pedro tem 2 camisetas, 3 calças e 3 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
-
-- A) 8
-- B) 18
-- C) 9
-- D) 15
-- E) 36
-
-**Resposta:** B
-
-**Explicação:** Princípio multiplicativo: 2 × 3 × 3 = 18.
-
-### 16
-Quantos anagramas tem a palavra MUNDO?
 
 - A) 24
 - B) 60
-- C) 25
-- D) 125
+- C) 125
+- D) 25
 - E) 120
 
 **Resposta:** E
 
-**Explicação:** MUNDO tem 5 letras distintas: 5! = 120 anagramas.
+**Explicação:** Ferramenta: permutação simples. Para a 1ª letra há 5 opções, para a 2ª, 4, e assim por diante: n!. 5! = 120.
 
-### 17
-Em uma reunião com 30 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
+### 8
+<!-- modelo: f7 -->
+Qual é o valor de 9!/6!?
 
-- A) 60
-- B) 870
-- C) 900
-- D) 435
-- E) 465
+- A) 504
+- B) 252
+- C) 3
+- D) 6
+- E) 54
 
-**Resposta:** D
+**Resposta:** A
 
-**Explicação:** Cada aperto envolve um par de pessoas: C(30, 2) = 30·29/2 = 435.
+**Explicação:** Ferramenta: simplificar fatoriais. 9! = 9 × 8 × ... × 7 × 6!. O 6! cancela. 9 × 8 × 7 = 504.
 
-### 18
-De uma cidade A a uma cidade B há 3 estradas, e de B a C há 5 estradas. Também há 4 estradas que ligam A diretamente a C. De quantas maneiras é possível ir de A até C?
+### 9
+<!-- modelo: f6 -->
+Uma lanchonete monta combos com 1 sanduíche (6 opções) e 1 bebida (3 opções); a sobremesa é opcional (2 opções, ou nenhuma). Quantos combos diferentes podem ser montados?
 
-- A) 12
-- B) 19
-- C) 60
-- D) 15
-- E) 35
-
-**Resposta:** B
-
-**Explicação:** Passando por B: 3 × 5 = 15. Direto: 4. Total: 19 (soma porque são caminhos alternativos).
-
-### 19
-Caio tem 6 camisetas, 2 calças e 5 pares de tênis. De quantas maneiras diferentes pode se vestir usando uma peça de cada tipo?
-
-- A) 13
-- B) 40
-- C) 60
-- D) 17
-- E) 120
+- A) 36
+- B) 37
+- C) 54
+- D) 11
+- E) 20
 
 **Resposta:** C
 
-**Explicação:** Princípio multiplicativo: 6 × 2 × 5 = 60.
+**Explicação:** Ferramenta: "não escolher" também é opção. Para a sobremesa existem 2 escolhas + a opção "sem sobremesa" = 3. 6 × 3 × 3 = 54.
 
-### 20
-Em uma reunião com 13 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
+### 10
+<!-- modelo: f4 -->
+Em uma reunião com 21 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
 
-- A) 169
-- B) 78
-- C) 156
-- D) 91
-- E) 26
+- A) 42
+- B) 210
+- C) 231
+- D) 420
+- E) 441
 
 **Resposta:** B
 
-**Explicação:** Cada aperto envolve um par de pessoas: C(13, 2) = 13·12/2 = 78.
+**Explicação:** Ferramenta: combinação de 2. Um aperto é um par de pessoas; "A com B" é o mesmo que "B com A", então a ordem não importa. C(21, 2) = 21 × 20 ÷ 2 = 210.
+
+### 11
+<!-- modelo: f8 -->
+Uma bandeira tem 3 faixas horizontais, e cada uma deve ser pintada com uma cor diferente, escolhida entre 4 cores disponíveis. Quantas bandeiras diferentes podem ser feitas?
+
+- A) 27
+- B) 64
+- C) 12
+- D) 24
+- E) 4
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: arranjo (a ordem importa). Trocar as cores de lugar gera outra bandeira: a ordem importa e não se repete cor. 4 × 3 × 2 = 24.
+
+### 12
+<!-- modelo: f2 -->
+Quantos anagramas tem a palavra PEDRA?
+
+- A) 120
+- B) 60
+- C) 25
+- D) 24
+- E) 125
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: permutação simples. Para a 1ª letra há 5 opções, para a 2ª, 4, e assim por diante: n!. 5! = 120.
+
+### 13
+<!-- modelo: f4 -->
+Em uma reunião com 5 pessoas, cada uma cumprimentou todas as outras com um aperto de mão, uma única vez. Quantos apertos de mão ocorreram?
+
+- A) 20
+- B) 11
+- C) 10
+- D) 15
+- E) 25
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: combinação de 2. Um aperto é um par de pessoas; "A com B" é o mesmo que "B com A", então a ordem não importa. C(5, 2) = 5 × 4 ÷ 2 = 10.
+
+### 14
+<!-- modelo: f10 -->
+Em um campeonato com 13 times, cada time enfrenta todos os outros duas vezes (turno e returno, uma vez em casa e outra fora). Quantos jogos são disputados?
+
+- A) 78
+- B) 26
+- C) 156
+- D) 169
+- E) 312
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: pares ordenados. "A em casa contra B" é diferente de "B em casa contra A": a ordem importa. 13 × 12 = 156 jogos.
+
+### 15
+<!-- modelo: f3 -->
+Quantas senhas de 4 dígitos (de 0 a 9) podem ser formadas, se for permitido repetir dígitos?
+
+- A) 1.000
+- B) 10.000
+- C) 5.040
+- D) 40
+- E) 6.561
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: princípio multiplicativo. Cada posição tem 10 opções, independentemente das outras. 10⁴ = 10.000.
 
 ## Médio
 
 ### 1
-De quantas maneiras é possível escolher uma comissão de 4 pessoas entre 7 candidatos?
+<!-- modelo: m8 -->
+Há 9 pontos marcados sobre uma circunferência. Quantos triângulos diferentes podem ser formados com vértices nesses pontos?
 
-- A) 37
-- B) 28
-- C) 70
-- D) 35
-- E) 840
+- A) 504
+- B) 84
+- C) 27
+- D) 36
+- E) 168
 
-**Resposta:** D
+**Resposta:** B
 
-**Explicação:** A ordem não importa (combinação): C(7, 4) = 7!/(4!·3!) = 35.
+**Explicação:** Ferramenta: combinação de 3. Três pontos de uma circunferência nunca estão alinhados, e a ordem dos vértices não muda o triângulo. C(9, 3) = 9 × 8 × 7 ÷ 6 = 84.
 
 ### 2
-Quantos anagramas tem a palavra CASA?
+<!-- modelo: m2 -->
+Quantos anagramas tem a palavra PARALELA?
 
-- A) 6
-- B) 36
-- C) 24
-- D) 14
-- E) 12
+- A) 1.680
+- B) 40.320
+- C) 6.720
+- D) 3.360
+- E) 5.040
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** Permutação com repetição: 4!/2! = 12.
+**Explicação:** Ferramenta: permutação com repetição. Letras iguais trocadas entre si não geram anagrama novo; divida pelo fatorial de cada repetição. 8!/(3!·2!) = 3.360.
 
 ### 3
-Em uma corrida com 10 atletas, de quantas maneiras diferentes pode ser formado o pódio (1º, 2º e 3º lugares)?
+<!-- modelo: m10 -->
+Há 7 acessórios para um carro disponíveis. Quantas escolhas diferentes existem, considerando que se pode escolher qualquer quantidade deles (inclusive nenhum)?
 
-- A) 720
-- B) 30
-- C) 1.000
-- D) 90
-- E) 120
+- A) 49
+- B) 128
+- C) 127
+- D) 64
+- E) 14
 
-**Resposta:** A
+**Resposta:** B
 
-**Explicação:** A ordem importa (arranjo): 10 × 9 × 8 = 720.
+**Explicação:** Ferramenta: sim ou não para cada item. Cada item tem duas possibilidades: entra ou não entra. 2⁷ = 128.
 
 ### 4
-Quantos anagramas da palavra PROVA começam por vogal?
-
-- A) 120
-- B) 48
-- C) 72
-- D) 12
-- E) 24
-
-**Resposta:** B
-
-**Explicação:** PROVA tem 2 vogais para a 1ª posição; as 4 letras restantes permutam: 2 × 4! = 48.
-
-### 5
-Um sistema de códigos usa 3 letras (de um alfabeto de 26) seguidas de 4 algarismos (0 a 9), permitindo repetições. Quantos códigos diferentes existem?
-
-- A) 118
-- B) 351.520.000
-- C) 78.624.000
-- D) 175.760.000
-- E) 78.364.164.096
-
-**Resposta:** D
-
-**Explicação:** Princípio multiplicativo: 26^3 × 10^4 = 17.576 × 10.000 = 175.760.000.
-
-### 6
-De quantas maneiras é possível escolher uma comissão de 3 pessoas entre 12 candidatos?
-
-- A) 36
-- B) 440
-- C) 66
-- D) 1.320
-- E) 220
-
-**Resposta:** E
-
-**Explicação:** A ordem não importa (combinação): C(12, 3) = 12!/(3!·9!) = 220.
-
-### 7
-Quantos anagramas tem a palavra PAPAI?
-
-- A) 24
-- B) 15
-- C) 120
-- D) 30
-- E) 60
-
-**Resposta:** D
-
-**Explicação:** Permutação com repetição: 5!/(2!·2!) = 30.
-
-### 8
-Em uma corrida com 16 atletas, de quantas maneiras diferentes pode ser formado o pódio (1º, 2º e 3º lugares)?
-
-- A) 4.096
-- B) 240
-- C) 560
-- D) 48
-- E) 3.360
-
-**Resposta:** E
-
-**Explicação:** A ordem importa (arranjo): 16 × 15 × 14 = 3360.
-
-### 9
-Um sistema de códigos usa 3 letras (de um alfabeto de 26) seguidas de 3 algarismos (0 a 9), permitindo repetições. Quantos códigos diferentes existem?
-
-- A) 17.576.000
-- B) 11.232.000
-- C) 108
-- D) 35.152.000
-- E) 2.176.782.336
-
-**Resposta:** A
-
-**Explicação:** Princípio multiplicativo: 26^3 × 10^3 = 17.576 × 1.000 = 17.576.000.
-
-### 10
-De quantas maneiras é possível escolher uma comissão de 2 pessoas entre 13 candidatos?
-
-- A) 26
-- B) 78
-- C) 13
-- D) 80
-- E) 156
-
-**Resposta:** B
-
-**Explicação:** A ordem não importa (combinação): C(13, 2) = 13!/(2!·11!) = 78.
-
-### 11
-Em uma corrida com 19 atletas, de quantas maneiras diferentes pode ser formado o pódio (1º, 2º e 3º lugares)?
-
-- A) 5.814
-- B) 6.859
-- C) 969
-- D) 57
-- E) 342
-
-**Resposta:** A
-
-**Explicação:** A ordem importa (arranjo): 19 × 18 × 17 = 5814.
-
-### 12
-Quantos anagramas da palavra ESTUDO começam por vogal?
-
-- A) 360
-- B) 358
-- C) 120
-- D) 720
-- E) 72
-
-**Resposta:** A
-
-**Explicação:** ESTUDO tem 3 vogais para a 1ª posição; as 5 letras restantes permutam: 3 × 5! = 360.
-
-### 13
-Um sistema de códigos usa 3 letras (de um alfabeto de 26) seguidas de 2 algarismos (0 a 9), permitindo repetições. Quantos códigos diferentes existem?
-
-- A) 1.757.600
-- B) 98
-- C) 1.404.000
-- D) 3.515.200
-- E) 60.466.176
-
-**Resposta:** A
-
-**Explicação:** Princípio multiplicativo: 26^3 × 10^2 = 17.576 × 100 = 1.757.600.
-
-### 14
-De quantas maneiras é possível escolher uma comissão de 3 pessoas entre 6 candidatos?
-
-- A) 20
-- B) 15
-- C) 18
-- D) 120
-- E) 40
-
-**Resposta:** A
-
-**Explicação:** A ordem não importa (combinação): C(6, 3) = 6!/(3!·3!) = 20.
-
-### 15
-Quantos anagramas tem a palavra CARRO?
-
-- A) 30
-- B) 61
-- C) 24
-- D) 60
-- E) 120
-
-**Resposta:** D
-
-**Explicação:** Permutação com repetição: 5!/2! = 60.
-
-### 16
-Em uma corrida com 20 atletas, de quantas maneiras diferentes pode ser formado o pódio (1º, 2º e 3º lugares)?
-
-- A) 380
-- B) 6.840
-- C) 8.000
-- D) 60
-- E) 1.140
-
-**Resposta:** B
-
-**Explicação:** A ordem importa (arranjo): 20 × 19 × 18 = 6840.
-
-### 17
-Um sistema de códigos usa 2 letras (de um alfabeto de 26) seguidas de 4 algarismos (0 a 9), permitindo repetições. Quantos códigos diferentes existem?
-
-- A) 3.276.000
-- B) 13.520.000
-- C) 6.760.000
-- D) 92
-- E) 2.176.782.336
-
-**Resposta:** C
-
-**Explicação:** Princípio multiplicativo: 26^2 × 10^4 = 676 × 10.000 = 6.760.000.
-
-### 18
-De quantas maneiras é possível escolher uma comissão de 2 pessoas entre 6 candidatos?
-
-- A) 12
-- B) 30
-- C) 6
-- D) 15
-- E) 45
-
-**Resposta:** D
-
-**Explicação:** A ordem não importa (combinação): C(6, 2) = 6!/(2!·4!) = 15.
-
-### 19
-Quantos anagramas tem a palavra BATATA?
-
-- A) 60
-- B) 720
-- C) 120
-- D) 30
-- E) 63
-
-**Resposta:** A
-
-**Explicação:** Permutação com repetição: 6!/(3!·2!) = 60.
-
-### 20
+<!-- modelo: m3 -->
 Em uma corrida com 7 atletas, de quantas maneiras diferentes pode ser formado o pódio (1º, 2º e 3º lugares)?
 
-- A) 210
-- B) 21
-- C) 343
-- D) 42
-- E) 35
-
-**Resposta:** A
-
-**Explicação:** A ordem importa (arranjo): 7 × 6 × 5 = 210.
-
-## Difícil
-
-### 1
-Uma comissão de 4 pessoas será formada a partir de 6 homens e 5 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
-
-- A) 330
-- B) 450
-- C) 25
-- D) 300
-- E) 150
-
-**Resposta:** E
-
-**Explicação:** Escolhemos 2 mulheres de 5: C(5,2) = 10; e 2 homens de 6: C(6,2) = 15. Total: 150.
-
-### 2
-De quantas maneiras 6 pessoas podem se sentar em uma fila de 6 cadeiras se duas delas, que são namorados, devem ficar sempre juntas?
-
-- A) 48
-- B) 120
-- C) 240
-- D) 720
-- E) 480
+- A) 35
+- B) 42
+- C) 210
+- D) 343
+- E) 21
 
 **Resposta:** C
 
-**Explicação:** Tratamos o casal como um bloco: 5 elementos permutam (5!) e o casal pode trocar de lugar entre si (×2): 2 × 120 = 240.
-
-### 3
-De quantas maneiras 4 pessoas podem se sentar ao redor de uma mesa circular? (Disposições que diferem apenas por rotação são consideradas iguais.)
-
-- A) 16
-- B) 12
-- C) 6
-- D) 24
-- E) 2
-
-**Resposta:** C
-
-**Explicação:** Permutação circular: (n − 1)! = 3! = 6.
-
-### 4
-Quantas soluções inteiras não negativas tem a equação x + y + z = 9?
-
-- A) 28
-- B) 55
-- C) 36
-- D) 165
-- E) 81
-
-**Resposta:** B
-
-**Explicação:** Por "bolas e barras": distribuímos 9 unidades entre 3 variáveis: C(9 + 2, 2) = C(11, 2) = 55.
+**Explicação:** Ferramenta: arranjo. No pódio a ordem importa (ouro ≠ prata). 7 × 6 × 5 = 210.
 
 ### 5
-Usando apenas os algarismos 1, 2, ..., 6, quantos números pares de três algarismos distintos podem ser formados?
+<!-- modelo: m6 -->
+Uma pizzaria oferece 10 sabores. Quantas pizzas diferentes de 2 sabores (meio a meio, com sabores distintos) podem ser pedidas?
 
-- A) 120
-- B) 59
-- C) 30
-- D) 108
-- E) 60
+- A) 100
+- B) 55
+- C) 20
+- D) 45
+- E) 90
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** A unidade deve ser par (3 opções); depois sobram 5 opções para a centena e 4 para a dezena: 3 × 5 × 4 = 60.
+**Explicação:** Ferramenta: combinação. "Calabresa com queijo" é a mesma pizza que "queijo com calabresa". C(10, 2) = 10 × 9 ÷ 2 = 45.
 
 ### 6
-Uma comissão de 5 pessoas será formada a partir de 8 homens e 7 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
+<!-- modelo: m7 -->
+Na Mega-Sena, uma aposta simples tem 6 números. Uma aposta com 8 números equivale a quantas apostas simples?
 
-- A) 77
-- B) 1.176
-- C) 3.003
-- D) 588
-- E) 2.352
-
-**Resposta:** B
-
-**Explicação:** Escolhemos 2 mulheres de 7: C(7,2) = 21; e 3 homens de 8: C(8,3) = 56. Total: 1176.
-
-### 7
-De quantas maneiras 7 pessoas podem se sentar ao redor de uma mesa circular? (Disposições que diferem apenas por rotação são consideradas iguais.)
-
-- A) 2.520
-- B) 120
-- C) 720
-- D) 49
-- E) 5.040
-
-**Resposta:** C
-
-**Explicação:** Permutação circular: (n − 1)! = 6! = 720.
-
-### 8
-Quantas soluções inteiras não negativas tem a equação x + y + z = 15?
-
-- A) 91
-- B) 225
-- C) 105
-- D) 680
-- E) 136
-
-**Resposta:** E
-
-**Explicação:** Por "bolas e barras": distribuímos 15 unidades entre 3 variáveis: C(15 + 2, 2) = C(17, 2) = 136.
-
-### 9
-Usando apenas os algarismos 1, 2, ..., 7, quantos números pares de três algarismos distintos podem ser formados?
-
-- A) 45
-- B) 210
-- C) 90
-- D) 120
-- E) 147
-
-**Resposta:** C
-
-**Explicação:** A unidade deve ser par (3 opções); depois sobram 6 opções para a centena e 5 para a dezena: 3 × 6 × 5 = 90.
-
-### 10
-Uma comissão de 4 pessoas será formada a partir de 7 homens e 4 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
-
-- A) 252
-- B) 210
-- C) 27
-- D) 330
-- E) 126
-
-**Resposta:** E
-
-**Explicação:** Escolhemos 2 mulheres de 4: C(4,2) = 6; e 2 homens de 7: C(7,2) = 21. Total: 126.
-
-### 11
-De quantas maneiras 7 pessoas podem se sentar em uma fila de 7 cadeiras se duas delas, que são namorados, devem ficar sempre juntas?
-
-- A) 240
-- B) 720
-- C) 1.440
-- D) 3.600
-- E) 5.040
-
-**Resposta:** C
-
-**Explicação:** Tratamos o casal como um bloco: 6 elementos permutam (6!) e o casal pode trocar de lugar entre si (×2): 2 × 720 = 1440.
-
-### 12
-Quantas soluções inteiras não negativas tem a equação x + y + z = 6?
-
-- A) 10
-- B) 36
-- C) 15
-- D) 56
+- A) 48
+- B) 57
+- C) 20.160
+- D) 2
 - E) 28
 
 **Resposta:** E
 
-**Explicação:** Por "bolas e barras": distribuímos 6 unidades entre 3 variáveis: C(6 + 2, 2) = C(8, 2) = 28.
+**Explicação:** Ferramenta: combinação. Cada grupo de 6 números escolhido entre os apostados é uma aposta simples; a ordem do sorteio não importa. C(8, 6) = 28.
 
-### 13
-Uma comissão de 4 pessoas será formada a partir de 5 homens e 6 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
-
-- A) 300
-- B) 75
-- C) 25
-- D) 330
-- E) 150
-
-**Resposta:** E
-
-**Explicação:** Escolhemos 2 mulheres de 6: C(6,2) = 15; e 2 homens de 5: C(5,2) = 10. Total: 150.
-
-### 14
-De quantas maneiras 6 pessoas podem se sentar ao redor de uma mesa circular? (Disposições que diferem apenas por rotação são consideradas iguais.)
-
-- A) 360
-- B) 720
-- C) 24
-- D) 36
-- E) 120
-
-**Resposta:** E
-
-**Explicação:** Permutação circular: (n − 1)! = 5! = 120.
-
-### 15
-Usando apenas os algarismos 1, 2, ..., 5, quantos números pares de três algarismos distintos podem ser formados?
-
-- A) 50
-- B) 60
-- C) 12
-- D) 36
-- E) 24
-
-**Resposta:** E
-
-**Explicação:** A unidade deve ser par (2 opções); depois sobram 4 opções para a centena e 3 para a dezena: 2 × 4 × 3 = 24.
-
-### 16
-Uma comissão de 4 pessoas será formada a partir de 6 homens e 6 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
-
-- A) 450
-- B) 30
-- C) 113
-- D) 495
-- E) 225
-
-**Resposta:** E
-
-**Explicação:** Escolhemos 2 mulheres de 6: C(6,2) = 15; e 2 homens de 6: C(6,2) = 15. Total: 225.
-
-### 17
-De quantas maneiras 4 pessoas podem se sentar em uma fila de 4 cadeiras se duas delas, que são namorados, devem ficar sempre juntas?
+### 7
+<!-- modelo: m1 -->
+De quantas maneiras é possível escolher uma comissão de 4 pessoas entre 6 candidatos?
 
 - A) 24
-- B) 13
-- C) 4
-- D) 12
-- E) 6
+- B) 30
+- C) 15
+- D) 20
+- E) 360
 
-**Resposta:** D
+**Resposta:** C
 
-**Explicação:** Tratamos o casal como um bloco: 3 elementos permutam (3!) e o casal pode trocar de lugar entre si (×2): 2 × 6 = 12.
+**Explicação:** Ferramenta: combinação. Numa comissão todos têm o mesmo papel: a ordem não importa. Calcule o arranjo e divida pelas k! ordens repetidas. C(6, 4) = 360 ÷ 4! = 15.
 
-### 18
-De quantas maneiras 5 pessoas podem se sentar ao redor de uma mesa circular? (Disposições que diferem apenas por rotação são consideradas iguais.)
+### 8
+<!-- modelo: m5 -->
+Um sistema de códigos usa 3 letras (de um alfabeto de 26) seguidas de 4 algarismos (0 a 9), sem repetir nenhuma letra nem nenhum algarismo. Quantos códigos diferentes existem?
 
-- A) 6
-- B) 120
-- C) 60
-- D) 24
-- E) 25
+- A) 175.760.000
+- B) 20.640
+- C) 78.624.000
+- D) 546.000
+- E) 118
 
-**Resposta:** D
+**Resposta:** C
 
-**Explicação:** Permutação circular: (n − 1)! = 4! = 24.
+**Explicação:** Ferramenta: arranjo em cada bloco. Sem repetição, cada escolha tem uma opção a menos que a anterior. 26 × 25 × 24 × 10 × 9 × 8 × 7 = 78.624.000.
 
-### 19
-Quantas soluções inteiras não negativas tem a equação x + y + z = 14?
+### 9
+<!-- modelo: m8 -->
+Há 6 pontos marcados sobre uma circunferência. Quantos triângulos diferentes podem ser formados com vértices nesses pontos?
 
-- A) 78
-- B) 91
-- C) 196
-- D) 120
-- E) 560
-
-**Resposta:** D
-
-**Explicação:** Por "bolas e barras": distribuímos 14 unidades entre 3 variáveis: C(14 + 2, 2) = C(16, 2) = 120.
-
-### 20
-Uma comissão de 4 pessoas será formada a partir de 4 homens e 5 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
-
-- A) 60
-- B) 126
-- C) 16
-- D) 10
+- A) 15
+- B) 18
+- C) 40
+- D) 20
 - E) 120
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: combinação de 3. Três pontos de uma circunferência nunca estão alinhados, e a ordem dos vértices não muda o triângulo. C(6, 3) = 6 × 5 × 4 ÷ 6 = 20.
+
+### 10
+<!-- modelo: m2 -->
+Quantos anagramas tem a palavra CASA?
+
+- A) 12
+- B) 24
+- C) 14
+- D) 6
+- E) 11
 
 **Resposta:** A
 
-**Explicação:** Escolhemos 2 mulheres de 5: C(5,2) = 10; e 2 homens de 4: C(4,2) = 6. Total: 60.
+**Explicação:** Ferramenta: permutação com repetição. Letras iguais trocadas entre si não geram anagrama novo; divida pelo fatorial de cada repetição. 4!/2! = 12.
+
+### 11
+<!-- modelo: m3 -->
+Em uma corrida com 13 atletas, de quantas maneiras diferentes pode ser formado o pódio (1º, 2º e 3º lugares)?
+
+- A) 156
+- B) 286
+- C) 2.197
+- D) 1.716
+- E) 39
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: arranjo. No pódio a ordem importa (ouro ≠ prata). 13 × 12 × 11 = 1716.
+
+### 12
+<!-- modelo: m9 -->
+Quantas senhas de 3 dígitos (0 a 9) podem ser criadas se não for permitido repetir dígitos?
+
+- A) 120
+- B) 30
+- C) 720
+- D) 504
+- E) 1.000
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: arranjo. Cada dígito usado sai da lista de opções. 10 × 9 × 8 = 720.
+
+### 13
+<!-- modelo: m4 -->
+Quantos anagramas da palavra LIVRO começam por vogal?
+
+- A) 48
+- B) 24
+- C) 120
+- D) 12
+- E) 72
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: resolver a restrição primeiro. Preencha primeiro a posição que tem regra; o resto é livre. 2 vogais para a 1ª posição × 4! para as outras = 48.
+
+### 14
+<!-- modelo: m1 -->
+De quantas maneiras é possível escolher uma comissão de 3 pessoas entre 15 candidatos?
+
+- A) 45
+- B) 910
+- C) 105
+- D) 455
+- E) 2.730
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: combinação. Numa comissão todos têm o mesmo papel: a ordem não importa. Calcule o arranjo e divida pelas k! ordens repetidas. C(15, 3) = 2730 ÷ 3! = 455.
+
+### 15
+<!-- modelo: m6 -->
+Uma pizzaria oferece 12 sabores. Quantas pizzas diferentes de 2 sabores (meio a meio, com sabores distintos) podem ser pedidas?
+
+- A) 66
+- B) 144
+- C) 132
+- D) 78
+- E) 24
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: combinação. "Calabresa com queijo" é a mesma pizza que "queijo com calabresa". C(12, 2) = 12 × 11 ÷ 2 = 66.
+
+## Difícil
+
+### 1
+<!-- modelo: d2 -->
+De quantas maneiras 8 pessoas podem se sentar em uma fila de 8 cadeiras se duas delas, que são irmãos, devem ficar sempre lado a lado?
+
+- A) 30.240
+- B) 40.320
+- C) 1.440
+- D) 5.040
+- E) 10.080
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: técnica do bloco. Cole os dois num "bloco": agora são n − 1 elementos. Depois, o bloco pode ter os dois em 2 ordens. 2 × 7! = 10080.
+
+### 2
+<!-- modelo: d8 -->
+Uma estante vai receber 3 livros diferentes de Matemática e 4 livros diferentes de Português. De quantas maneiras eles podem ser organizados em fila, se os livros da mesma matéria devem ficar juntos?
+
+- A) 5.040
+- B) 30
+- C) 288
+- D) 144
+- E) 10.080
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: blocos dentro de blocos. Os dois blocos (Matemática e Português) podem trocar de ordem (2!). Dentro de cada bloco, os livros permutam. 2! × 3! × 4! = 2 × 6 × 24 = 288.
+
+### 3
+<!-- modelo: d10 -->
+Usando os algarismos de 1 a 9, sem repetição, quantos números de 4 algarismos maiores que 6.000 podem ser formados?
+
+- A) 1.344
+- B) 3.024
+- C) 1.008
+- D) 2.916
+- E) 224
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: primeira casa com restrição. Para passar de 6.000, o milhar deve ser de 6 a 9 (4 opções; 6.000 exato não se forma, pois não há zero). Depois 8, 7 e 6 opções. 4 × 8 × 7 × 6 = 1.344.
+
+### 4
+<!-- modelo: d7 -->
+Uma equipe de 3 pessoas será escolhida entre 6 homens e 3 mulheres. Quantas equipes têm PELO MENOS uma mulher?
+
+- A) 66
+- B) 45
+- C) 64
+- D) 84
+- E) 20
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: complementar. Contar "pelo menos uma" diretamente é trabalhoso. Conte tudo e tire as equipes sem mulher nenhuma. C(9, 3) − C(6, 3) = 84 − 20 = 64.
+
+### 5
+<!-- modelo: d2 -->
+De quantas maneiras 5 pessoas podem se sentar em uma fila de 5 cadeiras se duas delas, que são irmãos, devem ficar sempre lado a lado?
+
+- A) 120
+- B) 48
+- C) 12
+- D) 72
+- E) 24
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: técnica do bloco. Cole os dois num "bloco": agora são n − 1 elementos. Depois, o bloco pode ter os dois em 2 ordens. 2 × 4! = 48.
+
+### 6
+<!-- modelo: d7 -->
+Uma equipe de 4 pessoas será escolhida entre 8 homens e 4 mulheres. Quantas equipes têm PELO MENOS uma mulher?
+
+- A) 425
+- B) 70
+- C) 224
+- D) 495
+- E) 660
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: complementar. Contar "pelo menos uma" diretamente é trabalhoso. Conte tudo e tire as equipes sem mulher nenhuma. C(12, 4) − C(8, 4) = 495 − 70 = 425.
+
+### 7
+<!-- modelo: d4 -->
+Quantas soluções inteiras não negativas tem a equação x + y + z = 15?
+
+- A) 91
+- B) 136
+- C) 680
+- D) 105
+- E) 225
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: bolas e barras. Imagine 15 bolinhas e 2 barras separando-as em 3 grupos: basta escolher a posição das 2 barras entre 17 lugares. C(17, 2) = 136.
+
+### 8
+<!-- modelo: d6 -->
+Em um bairro com ruas em forma de grade, uma pessoa precisa andar 5 quarteirões para o leste e 4 para o norte, sempre se aproximando do destino. Quantos caminhos diferentes ela pode fazer?
+
+- A) 252
+- B) 362.880
+- C) 126
+- D) 512
+- E) 20
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: anagramas de L e N. Todo caminho é uma sequência de 5 letras L e 4 letras N. Contar caminhos = contar anagramas. 9!/(5! · 4!) = 126.
+
+### 9
+<!-- modelo: d1 -->
+Uma comissão de 4 pessoas será formada a partir de 5 homens e 7 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
+
+- A) 210
+- B) 495
+- C) 420
+- D) 105
+- E) 31
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: combinação em grupos. Escolha as mulheres E os homens separadamente e multiplique. C(7, 2) × C(5, 2) = 21 × 10 = 210.
+
+### 10
+<!-- modelo: d5 -->
+Usando apenas os algarismos 1, 2, ..., 7, quantos números pares de três algarismos distintos podem ser formados?
+
+- A) 147
+- B) 210
+- C) 90
+- D) 120
+- E) 45
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: começar pela restrição. A unidade precisa ser par (3 opções). Depois: 6 para a centena e 5 para a dezena. 3 × 6 × 5 = 90.
+
+### 11
+<!-- modelo: d9 -->
+De quantas maneiras 6 balas iguais podem ser distribuídas entre 3 crianças, de modo que cada criança receba pelo menos uma bala?
+
+- A) 729
+- B) 28
+- C) 20
+- D) 10
+- E) 18
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: bolas e barras com mínimo. Dê primeiro 1 bala a cada criança; sobram 3 para distribuir livremente. C(3 + 2, 2) = C(5, 2) = 10.
+
+### 12
+<!-- modelo: d3 -->
+De quantas maneiras 6 pessoas podem se sentar ao redor de uma mesa circular? (Disposições que diferem apenas por rotação são consideradas iguais.)
+
+- A) 720
+- B) 24
+- C) 120
+- D) 360
+- E) 36
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: permutação circular. Fixe uma pessoa (para eliminar as rotações) e permute as outras. (6 − 1)! = 120.
+
+### 13
+<!-- modelo: d6 -->
+Em um bairro com ruas em forma de grade, uma pessoa precisa andar 6 quarteirões para o leste e 5 para o norte, sempre se aproximando do destino. Quantos caminhos diferentes ela pode fazer?
+
+- A) 462
+- B) 30
+- C) 2.048
+- D) 39.916.800
+- E) 924
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: anagramas de L e N. Todo caminho é uma sequência de 6 letras L e 5 letras N. Contar caminhos = contar anagramas. 11!/(6! · 5!) = 462.
+
+### 14
+<!-- modelo: d1 -->
+Uma comissão de 4 pessoas será formada a partir de 7 homens e 5 mulheres. Quantas comissões diferentes têm exatamente 2 mulheres?
+
+- A) 350
+- B) 495
+- C) 420
+- D) 210
+- E) 31
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: combinação em grupos. Escolha as mulheres E os homens separadamente e multiplique. C(5, 2) × C(7, 2) = 10 × 21 = 210.

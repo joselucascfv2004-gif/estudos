@@ -24,7 +24,22 @@ Operações com matrizes, determinantes (Sarrus e propriedades), matriz inversa 
 ## Fácil
 
 ### 1
-Qual é o determinante da matriz A = [−3 3; −5 4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: f1 -->
+Qual é o determinante da matriz A = [4 4; −2 −1]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 4
+- B) 12
+- C) 8
+- D) 3
+- E) 5
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: determinante 2×2. Produto da diagonal principal menos o produto da diagonal secundária. 4·(−1) − 4·(−2) = 4.
+
+### 2
+<!-- modelo: f1 -->
+Qual é o determinante da matriz A = [−3 3; −5 4]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
 - A) 5
 - B) 3
@@ -34,775 +49,470 @@ Qual é o determinante da matriz A = [−3 3; −5 4]? (Notação: [a b; c d] in
 
 **Resposta:** B
 
-**Explicação:** det = a·d − b·c = (−3)(4) − (3)(−5) = 3.
-
-### 2
-A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = i − 2j + 3. Qual é o valor de a₂₂?
-
-- A) 1
-- B) 0
-- C) 3
-- D) 4
-- E) 2
-
-**Resposta:** A
-
-**Explicação:** a₂₂ = 1·2 − 2·2 + 3 = 1.
+**Explicação:** Ferramenta: determinante 2×2. Produto da diagonal principal menos o produto da diagonal secundária. (−3)·4 − 3·(−5) = 3.
 
 ### 3
-Sendo A = [5 2; −5 0] e B = [1 9; −2 3], qual é o elemento da linha 2 e coluna 2 da matriz 2A − B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: f7 -->
+Se as matrizes [x + 5 −2; 0 y − 5] e [1 −2; 0 −2] são iguais, qual é o valor de x + y? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) −3
-- B) −6
-- C) 3
+- A) 2
+- B) −12
+- C) 4
 - D) −1
-- E) 0
+- E) −7
 
-**Resposta:** A
+**Resposta:** D
 
-**Explicação:** Elemento (2,2): 2·(0) − (3) = −3.
+**Explicação:** Ferramenta: igualdade de matrizes. Matrizes iguais têm todos os elementos correspondentes iguais. x + 5 = 1 ⇒ x = −4; y − 5 = −2 ⇒ y = 3; x + y = −1.
 
 ### 4
-Dada A = [6 7 2; 9 4 4; 5 8 6], qual é o elemento da linha 3, coluna 2 da transposta Aᵗ? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: f5 -->
+A matriz A tem ordem 2×3 e a matriz B tem ordem 3×1. Qual é a ordem da matriz A·B?
 
-- A) 6
-- B) 8
-- C) 7
-- D) 4
-- E) 12
+- A) 1×2
+- B) 2×1
+- C) 2×3
+- D) 3×1
+- E) 3×3
 
-**Resposta:** D
+**Resposta:** B
 
-**Explicação:** Na transposta, linhas viram colunas: (Aᵗ)32 = A23 = 4.
+**Explicação:** Ferramenta: condição do produto. A·B existe se o número de colunas de A é igual ao número de linhas de B. O resultado fica com as linhas de A e as colunas de B. (2×3)·(3×1) = 2×1.
 
 ### 5
-Qual é o determinante da matriz A = [−5 −5; 4 7]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: f5 -->
+A matriz A tem ordem 2×5 e a matriz B tem ordem 5×1. Qual é a ordem da matriz A·B?
 
-- A) −14
-- B) 2
-- C) 15
-- D) −15
-- E) −55
+- A) 5×1
+- B) 5×5
+- C) 2×5
+- D) 1×2
+- E) 2×1
 
-**Resposta:** D
+**Resposta:** E
 
-**Explicação:** det = a·d − b·c = (−5)(7) − (−5)(4) = −15.
+**Explicação:** Ferramenta: condição do produto. A·B existe se o número de colunas de A é igual ao número de linhas de B. O resultado fica com as linhas de A e as colunas de B. (2×5)·(5×1) = 2×1.
 
 ### 6
-A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = 3i − 2j − 1. Qual é o valor de a₁₂?
+<!-- modelo: f6 -->
+Uma rede de padarias organiza suas vendas em uma matriz V, em que o elemento vᵢⱼ é a quantidade de pães vendidos pela loja i no dia j da semana. O que representa o elemento v₁₂?
 
-- A) −13
-- B) −4
-- C) −2
-- D) 0
-- E) 3
+- A) O total vendido pela loja 1 na semana
+- B) A quantidade vendida pela loja 2 no dia 1
+- C) A quantidade vendida pela loja 3 em um dia
+- D) O total vendido no dia 2 por todas as lojas
+- E) A quantidade vendida pela loja 1 no dia 2
 
-**Resposta:** C
+**Resposta:** E
 
-**Explicação:** a₁₂ = 3·1 − 2·2 − 1 = −2.
+**Explicação:** Ferramenta: índices da matriz. O primeiro índice é a linha (aqui, a loja) e o segundo é a coluna (o dia). v₁₂: linha 1 (loja), coluna 2 (dia).
 
 ### 7
-Sendo A = [2 −5; −2 2] e B = [−4 8; −5 −3], qual é o elemento da linha 2 e coluna 1 da matriz 2A − B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: f8 -->
+O traço de uma matriz quadrada é a soma dos elementos da diagonal principal. Qual é o traço de [3 6 2; 7 −5 0; 1 5 5]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 0
-- B) 11
-- C) 1
-- D) 6
-- E) 3
-
-**Resposta:** C
-
-**Explicação:** Elemento (2,1): 2·(−2) − (−5) = 1.
-
-### 8
-Dada A = [7 3 8; 6 7 6; 5 2 6], qual é o elemento da linha 1, coluna 3 da transposta Aᵗ? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 6
-- B) 5
-- C) 8
-- D) 13
-- E) 7
-
-**Resposta:** B
-
-**Explicação:** Na transposta, linhas viram colunas: (Aᵗ)13 = A31 = 5.
-
-### 9
-Qual é o determinante da matriz A = [−1 −5; 8 −4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 88
-- B) 44
-- C) 45
-- D) 22
-- E) 46
-
-**Resposta:** B
-
-**Explicação:** det = a·d − b·c = (−1)(−4) − (−5)(8) = 44.
-
-### 10
-A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = 2i − j − 1. Qual é o valor de a₂₃?
-
-- A) 0
-- B) 3
-- C) 10
-- D) 2
-- E) −13
-
-**Resposta:** A
-
-**Explicação:** a₂₃ = 2·2 − 1·3 − 1 = 0.
-
-### 11
-Sendo A = [1 −4; 2 9] e B = [6 4; 6 0], qual é o elemento da linha 1 e coluna 1 da matriz 2A − B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) −10
-- B) −5
-- C) −4
-- D) 8
-- E) −2
-
-**Resposta:** C
-
-**Explicação:** Elemento (1,1): 2·(1) − (6) = −4.
-
-### 12
-Dada A = [4 8 6; 9 9 3; 9 6 2], qual é o elemento da linha 2, coluna 1 da transposta Aᵗ? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 9
-- B) 7
-- C) 17
-- D) 8
-- E) 4
+- A) 2
+- B) 4
+- C) 6
+- D) 3
+- E) 24
 
 **Resposta:** D
 
-**Explicação:** Na transposta, linhas viram colunas: (Aᵗ)21 = A12 = 8.
+**Explicação:** Ferramenta: diagonal principal. São os elementos em que linha = coluna: a₁₁, a₂₂, a₃₃. 3 + (−5) + 5 = 3.
 
-### 13
-Qual é o determinante da matriz A = [3 0; 0 3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+### 8
+<!-- modelo: f2 -->
+A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = 2i − 3j + 1. Qual é o valor de a₃₃?
 
-- A) 6
-- B) 9
-- C) 27
-- D) 10
-- E) 7
+- A) −53
+- B) −2
+- C) 0
+- D) −4
+- E) −6
 
 **Resposta:** B
 
-**Explicação:** det = a·d − b·c = (3)(3) − (0)(0) = 9.
+**Explicação:** Ferramenta: lei de formação. i é a linha e j é a coluna do elemento. Substitua na fórmula. i = 3, j = 3: 2·3 − 3·3 + 1 = −2.
 
-### 14
-A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = i − 3j + 1. Qual é o valor de a₁₁?
+### 9
+<!-- modelo: f4 -->
+Dada A = [5 1 3; 5 2 9; 1 2 3], qual é o elemento da linha 3, coluna 1 da transposta Aᵗ? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) −1
-- B) −3
-- C) −2
-- D) 1
-- E) 9
-
-**Resposta:** A
-
-**Explicação:** a₁₁ = 1·1 − 3·1 + 1 = −1.
-
-### 15
-Sendo A = [8 9; 7 −2] e B = [6 9; 6 8], qual é o elemento da linha 1 e coluna 2 da matriz 3A − B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 18
-- B) 28
-- C) 0
-- D) 15
-- E) 36
-
-**Resposta:** A
-
-**Explicação:** Elemento (1,2): 3·(9) − (9) = 18.
-
-### 16
-Dada A = [4 6 1; 3 8 9; 3 1 6], qual é o elemento da linha 3, coluna 2 da transposta Aᵗ? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 10
-- B) 8
-- C) 9
-- D) 6
+- A) 4
+- B) 2
+- C) 3
+- D) 5
 - E) 1
 
 **Resposta:** C
 
-**Explicação:** Na transposta, linhas viram colunas: (Aᵗ)32 = A23 = 9.
+**Explicação:** Ferramenta: transposta. Na transposta, a linha vira coluna: o elemento (i, j) de Aᵗ é o (j, i) de A. (Aᵗ)31 = A13 = 3.
 
-### 17
-Qual é o determinante da matriz A = [9 9; 9 2]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+### 10
+<!-- modelo: f2 -->
+A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = 3i + 3j + 4. Qual é o valor de a₂₂?
+
+- A) 8
+- B) 16
+- C) 10
+- D) 40
+- E) 17
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: lei de formação. i é a linha e j é a coluna do elemento. Substitua na fórmula. i = 2, j = 2: 3·2 + 3·2 + 4 = 16.
+
+### 11
+<!-- modelo: f3 -->
+Sendo A = [7 8; −2 −4] e B = [8 1; −3 2], qual é o elemento da linha 1 e coluna 1 da matriz 3A − B? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
 - A) 11
-- B) 63
-- C) 99
-- D) −62
-- E) −63
+- B) 39
+- C) 13
+- D) 15
+- E) 29
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: operações elemento a elemento. Multiplicar por número e subtrair matrizes se faz posição por posição. 3·7 − 8 = 13.
+
+### 12
+<!-- modelo: f3 -->
+Sendo A = [−3 5; 2 5] e B = [1 9; −3 1], qual é o elemento da linha 2 e coluna 1 da matriz 3A − B? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 3
+- B) 15
+- C) 5
+- D) 11
+- E) 9
 
 **Resposta:** E
 
-**Explicação:** det = a·d − b·c = (9)(2) − (9)(9) = −63.
-
-### 18
-A matriz A = (aᵢⱼ) 3×3 é definida por aᵢⱼ = 4i + 2j + 4. Qual é o valor de a₁₃?
-
-- A) 14
-- B) 28
-- C) 10
-- D) 6
-- E) 18
-
-**Resposta:** A
-
-**Explicação:** a₁₃ = 4·1 + 2·3 + 4 = 14.
-
-### 19
-Sendo A = [3 8; 3 4] e B = [−1 8; 2 −5], qual é o elemento da linha 1 e coluna 1 da matriz 2A − B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 9
-- B) 5
-- C) 8
-- D) 7
-- E) 4
-
-**Resposta:** D
-
-**Explicação:** Elemento (1,1): 2·(3) − (−1) = 7.
-
-### 20
-Dada A = [5 4 4; 8 2 9; 9 8 5], qual é o elemento da linha 1, coluna 2 da transposta Aᵗ? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 8
-- B) 4
-- C) 5
-- D) 12
-- E) 2
-
-**Resposta:** A
-
-**Explicação:** Na transposta, linhas viram colunas: (Aᵗ)12 = A21 = 8.
+**Explicação:** Ferramenta: operações elemento a elemento. Multiplicar por número e subtrair matrizes se faz posição por posição. 3·2 − (−3) = 9.
 
 ## Médio
 
 ### 1
-Qual é o determinante da matriz [4 0 3; 0 −2 2; 3 −1 4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: m2 -->
+Sendo A = [4 4; 3 0] e B = [5 1; 1 5], qual é o elemento c₁₁ da matriz C = A·B? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 6
-- B) −4
-- C) −10
-- D) −6
-- E) −32
+- A) 27
+- B) 20
+- C) 29
+- D) 24
+- E) 22
 
 **Resposta:** D
 
-**Explicação:** Pela regra de Sarrus (ou por cofatores), det = −6.
+**Explicação:** Ferramenta: linha × coluna. No produto, cada elemento é a "linha de A" multiplicada pela "coluna de B", termo a termo, somando. 4·5 + 4·1 = 24.
 
 ### 2
-Sendo A = [−3 3; −3 5] e B = [0 −2; 2 1], qual é o elemento c₁₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 12
-- B) 11
-- C) 18
-- D) 9
-- E) 8
-
-**Resposta:** D
-
-**Explicação:** c12 = (linha 1 de A)·(coluna 2 de B) = −3·−2 + 3·1 = 9.
-
-### 3
-Uma matriz quadrada A de ordem 3 tem determinante 8. Qual é o determinante da matriz 2A?
+<!-- modelo: m6 -->
+Qual é o determinante da matriz [−1 −8 −6; 0 4 1; 0 0 4]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
 - A) 16
-- B) 64
-- C) 128
-- D) 10
-- E) 48
+- B) 0
+- C) −8
+- D) 7
+- E) −16
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: matriz triangular. Abaixo da diagonal só há zeros: o determinante é o produto da diagonal principal. (−1) × 4 × 4 = −16.
+
+### 3
+<!-- modelo: m3 -->
+Uma matriz quadrada A de ordem 2 tem determinante 9. Qual é o determinante da matriz 2A?
+
+- A) 37
+- B) 36
+- C) 11
+- D) 18
+- E) 72
 
 **Resposta:** B
 
-**Explicação:** Multiplicar uma matriz de ordem 3 por 2 multiplica cada uma das 3 linhas por 2: det(2A) = 2^3·det A = 8 × 8 = 64.
+**Explicação:** Ferramenta: propriedade do determinante. Multiplicar a matriz por 2 multiplica cada uma das 2 linhas por 2; cada linha multiplica o determinante por 2. 2² × 9 = 36.
 
 ### 4
-Para qual valor de x o determinante da matriz [1 x; 3 3] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: m2 -->
+Sendo A = [−2 −2; −3 0] e B = [−3 −1; −2 2], qual é o elemento c₁₁ da matriz C = A·B? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 4
-- B) 11
-- C) 3
-- D) 1,33
-- E) 1
-
-**Resposta:** E
-
-**Explicação:** det = 1·3 − x·3 = 0 ⇒ 3x = 3 ⇒ x = 1.
-
-### 5
-Qual é o determinante da matriz [−2 3 −2; −1 4 −2; −3 4 −3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 1
-- B) 4
-- C) 3
-- D) 2
-- E) 24
-
-**Resposta:** A
-
-**Explicação:** Pela regra de Sarrus (ou por cofatores), det = 1.
-
-### 6
-Sendo A = [−2 3; 5 3] e B = [−1 −3; −2 2], qual é o elemento c₁₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 15
-- B) 14
-- C) 10
-- D) 18
-- E) 12
-
-**Resposta:** E
-
-**Explicação:** c12 = (linha 1 de A)·(coluna 2 de B) = −2·−3 + 3·2 = 12.
-
-### 7
-Uma matriz quadrada A de ordem 3 tem determinante −4. Qual é o determinante da matriz 2A?
-
-- A) −32
-- B) −64
-- C) −2
-- D) −24
-- E) −8
-
-**Resposta:** A
-
-**Explicação:** Multiplicar uma matriz de ordem 3 por 2 multiplica cada uma das 3 linhas por 2: det(2A) = 2^3·det A = 8 × (−4) = −32.
-
-### 8
-Para qual valor de x o determinante da matriz [4 x; 4 2] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 1,5
-- B) 2
-- C) 8
-- D) 1
-- E) 3
-
-**Resposta:** B
-
-**Explicação:** det = 4·2 − x·4 = 0 ⇒ 4x = 8 ⇒ x = 2.
-
-### 9
-Qual é o determinante da matriz [0 3 3; 0 −1 −1; −3 −1 −3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) −2
-- B) 0
-- C) 2
-- D) 3
-- E) −4
-
-**Resposta:** B
-
-**Explicação:** Pela regra de Sarrus (ou por cofatores), det = 0.
-
-### 10
-Sendo A = [−2 5; 5 1] e B = [5 −1; 4 −3], qual é o elemento c₁₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) −11
-- B) −23
-- C) −6
-- D) −5
-- E) −13
-
-**Resposta:** E
-
-**Explicação:** c12 = (linha 1 de A)·(coluna 2 de B) = −2·−1 + 5·−3 = −13.
-
-### 11
-Uma matriz quadrada A de ordem 3 tem determinante 6. Qual é o determinante da matriz 2A?
-
-- A) 12
-- B) 48
-- C) 96
-- D) 36
-- E) 8
-
-**Resposta:** B
-
-**Explicação:** Multiplicar uma matriz de ordem 3 por 2 multiplica cada uma das 3 linhas por 2: det(2A) = 2^3·det A = 8 × 6 = 48.
-
-### 12
-Para qual valor de x o determinante da matriz [4 x; 2 3] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 3,5
-- B) 0,5
-- C) 18
-- D) 12
-- E) 6
-
-**Resposta:** E
-
-**Explicação:** det = 4·3 − x·2 = 0 ⇒ 2x = 12 ⇒ x = 6.
-
-### 13
-Qual é o determinante da matriz [2 −3 3; 2 −3 −2; 3 −1 4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 35
-- B) 31
-- C) 34
-- D) 37
-- E) 36
-
-**Resposta:** A
-
-**Explicação:** Pela regra de Sarrus (ou por cofatores), det = 35.
-
-### 14
-Sendo A = [0 2; 3 3] e B = [−2 1; 4 −2], qual é o elemento c₂₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 6
-- B) 2
-- C) −3
-- D) −6
-- E) −1
-
-**Resposta:** C
-
-**Explicação:** c22 = (linha 2 de A)·(coluna 2 de B) = 3·1 + 3·−2 = −3.
-
-### 15
-Uma matriz quadrada A de ordem 3 tem determinante −3. Qual é o determinante da matriz 2A?
-
-- A) −48
-- B) −6
-- C) −18
-- D) −24
-- E) −1
+- A) 8
+- B) 6
+- C) 13
+- D) 10
+- E) 11
 
 **Resposta:** D
 
-**Explicação:** Multiplicar uma matriz de ordem 3 por 2 multiplica cada uma das 3 linhas por 2: det(2A) = 2^3·det A = 8 × (−3) = −24.
+**Explicação:** Ferramenta: linha × coluna. No produto, cada elemento é a "linha de A" multiplicada pela "coluna de B", termo a termo, somando. (−2)·(−3) + (−2)·(−2) = 10.
 
-### 16
-Para qual valor de x o determinante da matriz [4 x; 5 5] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+### 5
+<!-- modelo: m4 -->
+Para qual valor de x o determinante da matriz [5 x; 2 4] é igual a zero? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 20
-- B) 2
-- C) 1,8
-- D) 1,25
-- E) 4
+- A) 15
+- B) 11
+- C) 0,4
+- D) 10
+- E) 20
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** det = 4·5 − x·5 = 0 ⇒ 5x = 20 ⇒ x = 4.
+**Explicação:** Ferramenta: equação com determinante. Escreva o determinante em função de x e iguale a zero. 5·4 − 2x = 0 ⇒ x = 10.
 
-### 17
-Qual é o determinante da matriz [−3 4 −3; −1 0 3; −1 0 −3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+### 6
+<!-- modelo: m8 -->
+Para que valores de k o sistema { 4x + 3y = 1 ; 8x + ky = 2 } tem uma única solução?
 
-- A) −22
-- B) −28
-- C) −24
-- D) 24
-- E) 0
-
-**Resposta:** C
-
-**Explicação:** Pela regra de Sarrus (ou por cofatores), det = −24.
-
-### 18
-Sendo A = [−1 2; −2 1] e B = [2 5; 2 2], qual é o elemento c₁₂ da matriz C = A·B? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 10
-- B) 2
-- C) −1
-- D) 1
-- E) −6
+- A) k ≠ 8
+- B) k > 6
+- C) k ≠ 6
+- D) k = 6
+- E) k ≠ 3
 
 **Resposta:** C
 
-**Explicação:** c12 = (linha 1 de A)·(coluna 2 de B) = −1·5 + 2·2 = −1.
+**Explicação:** Ferramenta: determinante diferente de zero. Um sistema 2×2 tem solução única quando o determinante dos coeficientes não é zero. det = 4k − 3·8 = 4(k − 6) ≠ 0 ⇒ k ≠ 6.
 
-### 19
-Uma matriz quadrada A de ordem 2 tem determinante −3. Qual é o determinante da matriz 3A?
+### 7
+<!-- modelo: m1 -->
+Qual é o determinante da matriz [1 −3 −3; 0 1 0; −1 1 0]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 0
-- B) −9
-- C) −27
-- D) −81
-- E) −18
-
-**Resposta:** C
-
-**Explicação:** Multiplicar uma matriz de ordem 2 por 3 multiplica cada uma das 2 linhas por 3: det(3A) = 3^2·det A = 9 × (−3) = −27.
-
-### 20
-Para qual valor de x o determinante da matriz [3 x; 4 4] é igual a zero? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 1,33
-- B) 3
-- C) 1,75
-- D) 2
-- E) 12
+- A) −7
+- B) −3
+- C) 3
+- D) 0
+- E) −1
 
 **Resposta:** B
 
-**Explicação:** det = 3·4 − x·4 = 0 ⇒ 4x = 12 ⇒ x = 3.
+**Explicação:** Ferramenta: regra de Sarrus. Repita as duas primeiras colunas à direita; some os produtos das 3 diagonais descendentes e subtraia os das 3 ascendentes. Resultado: det = −3.
+
+### 8
+<!-- modelo: m7 -->
+Uma matriz A de ordem 3 tem determinante 3. A matriz B é obtida de A trocando a 1ª linha com a 2ª e multiplicando a 3ª linha por 2. Qual é o determinante de B?
+
+- A) 24
+- B) 3
+- C) −3
+- D) −6
+- E) 6
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: propriedades do determinante. Trocar duas linhas troca o sinal; multiplicar uma linha por k multiplica o determinante por k. 3 → −3 (troca) → −3 × 2 = −6.
+
+### 9
+<!-- modelo: m3 -->
+Uma matriz quadrada A de ordem 2 tem determinante 5. Qual é o determinante da matriz 2A?
+
+- A) 20
+- B) 10
+- C) 21
+- D) 40
+- E) 7
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: propriedade do determinante. Multiplicar a matriz por 2 multiplica cada uma das 2 linhas por 2; cada linha multiplica o determinante por 2. 2² × 5 = 20.
+
+### 10
+<!-- modelo: m1 -->
+Qual é o determinante da matriz [−3 −3 −1; 4 2 4; 4 −2 4]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 32
+- B) −24
+- C) −30
+- D) −32
+- E) −36
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: regra de Sarrus. Repita as duas primeiras colunas à direita; some os produtos das 3 diagonais descendentes e subtraia os das 3 ascendentes. Resultado: det = −32.
+
+### 11
+<!-- modelo: m5 -->
+Uma escola comprou cadernos, canetas e mochilas nas quantidades da matriz linha Q = [5 3 3]. Os preços unitários, em reais, estão na matriz coluna P = [4; 10; 15]. O produto Q·P representa o gasto total. Qual é esse valor?
+
+- A) R$ 117,00
+- B) R$ 319,00
+- C) R$ 20,00
+- D) R$ 110,00
+- E) R$ 95,00
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: produto linha × coluna. Cada quantidade multiplica o seu preço, e os resultados se somam. 5·4 + 3·10 + 3·15 = 95.
+
+### 12
+<!-- modelo: m6 -->
+Qual é o determinante da matriz [1 −7 4; 0 4 5; 0 0 −2]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) −8
+- B) −35
+- C) 8
+- D) 3
+- E) 0
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: matriz triangular. Abaixo da diagonal só há zeros: o determinante é o produto da diagonal principal. 1 × 4 × (−2) = −8.
 
 ## Difícil
 
 ### 1
-A e B são matrizes quadradas de ordem 3 com det A = −3 e det B = 2. Qual é o valor de det(AᵗB)?
+<!-- modelo: d6 -->
+Sendo A = [1 2; 0 1], qual é a soma de todos os elementos da matriz A⁴⁷? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) −1
-- B) 6
-- C) −18
-- D) −6
-- E) −3/2
+- A) 288
+- B) 94
+- C) 4
+- D) 96
+- E) 140.737.488.355.330
 
 **Resposta:** D
 
-**Explicação:** det(AᵗB) = det A · det B = −3 × 2 = −6 (e det Aᵗ = det A).
+**Explicação:** Ferramenta: descobrir o padrão. Calcule A², A³... e observe: o 1 e o 0 ficam, e o canto superior direito cresce de a em a. A² = [1 4; 0 1], A³ = [1 6; 0 1] ⇒ Aⁿ = [1 2n; 0 1]. Soma: 2 + 2·47 = 96.
 
 ### 2
-Qual é o elemento da linha 2, coluna 2 da inversa da matriz [1 1; 1 2]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: d4 -->
+Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [2 4; 3 3]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) −1
-- B) 1
-- C) −1/2
-- D) 1/2
-- E) 2
+- A) 37
+- B) 13
+- C) 25
+- D) 39
+- E) 36
 
-**Resposta:** B
+**Resposta:** A
 
-**Explicação:** Para [a b; c d], A⁻¹ = (1/det)·[d −b; −c a]. det = 1. Elemento (2,2) = 1/1 = 1.
+**Explicação:** Ferramenta: produto de matrizes. Calcule só os elementos da diagonal de A·A. (A²)₁₁ = 2² + 4·3; (A²)₂₂ = 3·4 + 3². Soma: 37.
 
 ### 3
-No sistema { 2x + y = 0 ; 2x + 5y = 24 }, use a regra de Cramer para encontrar x.
+<!-- modelo: d7 -->
+Qual é o determinante da matriz [1 1 1; 3 5 6; 9 25 36]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 8
-- B) −3
-- C) 3
-- D) −4
+- A) 12
+- B) 8
+- C) 90
+- D) 196
 - E) 6
 
-**Resposta:** B
+**Resposta:** E
 
-**Explicação:** D = 2·5 − 1·2 = 8; Dx = 0·5 − 1·24 = −24. x = Dx/D = −3.
+**Explicação:** Ferramenta: matriz de Vandermonde. Matrizes com colunas (1, a, a²) têm determinante igual ao produto das diferenças (b − a)(c − a)(c − b). (5 − 3)(6 − 3)(6 − 5) = 6.
 
 ### 4
-Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [−1 −1; 2 −3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
+<!-- modelo: d5 -->
+Para que valores de x a matriz [x 2; 2 x] é invertível? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 25
-- B) 8
-- C) 6
-- D) 10
-- E) 16
+- A) x = 2 ou x = −2
+- B) x ≠ 2 e x ≠ −2
+- C) x > 2
+- D) x ≠ 4
+- E) x ≠ 0
 
-**Resposta:** C
+**Resposta:** B
 
-**Explicação:** A² tem diagonal (−1)² + (−1)·2 = −1 e 2·(−1) + (−3)² = 7. Traço = 6.
+**Explicação:** Ferramenta: inversa existe ⇔ det ≠ 0. Calcule o determinante em função de x e veja quando ele zera. x² − 4 ≠ 0 ⇒ x ≠ ±2.
 
 ### 5
-A e B são matrizes quadradas de ordem 3 com det A = 2 e det B = 3. Qual é o valor de det(A⁻¹)?
+<!-- modelo: d3 -->
+No sistema { 5x + y = −4 ; x + 3y = 16 }, use a regra de Cramer para encontrar x.
 
-- A) 1/4
-- B) −2
-- C) 1/2
-- D) −1/2
+- A) 4
+- B) 6
+- C) −2
+- D) 14
 - E) 2
 
 **Resposta:** C
 
-**Explicação:** det(A⁻¹) = 1/det A = 1/2.
+**Explicação:** Ferramenta: regra de Cramer. x = Dx/D: em Dx, a coluna de x é trocada pelos termos independentes. D = 14; Dx = −28; x = −2.
 
 ### 6
-No sistema { 3x + 3y = −6 ; 4x + 2y = 0 }, use a regra de Cramer para encontrar x.
+<!-- modelo: d2 -->
+Qual é o elemento da linha 1, coluna 1 da inversa da matriz [2 1; 5 1]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 1
-- B) 4
-- C) 2
-- D) 5
-- E) 3
-
-**Resposta:** C
-
-**Explicação:** D = 3·2 − 3·4 = −6; Dx = −6·2 − 3·0 = −12. x = Dx/D = 2.
-
-### 7
-Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [0 −2; 3 −3]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 9
-- B) −3
-- C) 36
-- D) −1
-- E) 0
-
-**Resposta:** B
-
-**Explicação:** A² tem diagonal 0² + (−2)·3 = −6 e 3·(−2) + (−3)² = 3. Traço = −3.
-
-### 8
-A e B são matrizes quadradas de ordem 3 com det A = 6 e det B = 2. Qual é o valor de det(AB)?
-
-- A) 12
-- B) 36
-- C) 8
-- D) −12
-- E) 3
-
-**Resposta:** A
-
-**Explicação:** det(AB) = det A · det B = 6 × 2 = 12 (e det Aᵗ = det A).
-
-### 9
-No sistema { 3x + 5y = 4 ; 5x + 2y = 13 }, use a regra de Cramer para encontrar x.
-
-- A) 3
-- B) 4
-- C) 2
-- D) 5
-- E) 1
-
-**Resposta:** A
-
-**Explicação:** D = 3·2 − 5·5 = −19; Dx = 4·2 − 5·13 = −57. x = Dx/D = 3.
-
-### 10
-Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [1 2; 3 2]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 5
-- B) 16
-- C) 17
-- D) 19
-- E) 9
-
-**Resposta:** C
-
-**Explicação:** A² tem diagonal 1² + 2·3 = 7 e 3·2 + 2² = 10. Traço = 17.
-
-### 11
-A e B são matrizes quadradas de ordem 3 com det A = −3 e det B = −1. Qual é o valor de det(A⁻¹)?
-
-- A) 1/3
-- B) −1/3
-- C) 3
-- D) 1/9
-- E) −3
-
-**Resposta:** B
-
-**Explicação:** det(A⁻¹) = 1/det A = −1/3.
-
-### 12
-No sistema { 2x + 5y = 26 ; 4x − y = 8 }, use a regra de Cramer para encontrar x.
-
-- A) 3
-- B) 7
-- C) 4
-- D) 2
-- E) 5
-
-**Resposta:** A
-
-**Explicação:** D = 2·−1 − 5·4 = −22; Dx = 26·−1 − 5·8 = −66. x = Dx/D = 3.
-
-### 13
-Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [−2 −3; −1 2]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 16
-- B) 0
-- C) 14
-- D) 8
-- E) 49
-
-**Resposta:** C
-
-**Explicação:** A² tem diagonal (−2)² + (−3)·(−1) = 7 e (−1)·(−3) + 2² = 7. Traço = 14.
-
-### 14
-No sistema { 2x + 5y = 18 ; 5x + 4y = 11 }, use a regra de Cramer para encontrar x.
-
-- A) 1
-- B) −17
-- C) 3
-- D) 4
-- E) −1
-
-**Resposta:** E
-
-**Explicação:** D = 2·4 − 5·5 = −17; Dx = 18·4 − 5·11 = 17. x = Dx/D = −1.
-
-### 15
-Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [−2 −2; 3 4]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 12
-- B) 20
-- C) 10
-- D) 4
-- E) 8
-
-**Resposta:** E
-
-**Explicação:** A² tem diagonal (−2)² + (−2)·3 = −2 e 3·(−2) + 4² = 10. Traço = 8.
-
-### 16
-A e B são matrizes quadradas de ordem 3 com det A = 5 e det B = 2. Qual é o valor de det(A⁻¹)?
-
-- A) −5
-- B) 1/25
-- C) 1/5
-- D) −1/5
-- E) 5
-
-**Resposta:** C
-
-**Explicação:** det(A⁻¹) = 1/det A = 1/5.
-
-### 17
-No sistema { 5x + 2y = 37 ; 4x + 3y = 38 }, use a regra de Cramer para encontrar x.
-
-- A) 3
-- B) 11
-- C) 5
-- D) 6
-- E) 7
-
-**Resposta:** C
-
-**Explicação:** D = 5·3 − 2·4 = 7; Dx = 37·3 − 2·38 = 35. x = Dx/D = 5.
-
-### 18
-Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [0 1; 0 −1]? (Notação: [a b; c d] indica a matriz cujas linhas são separadas por ";".)
-
-- A) 3
-- B) 0
-- C) 11
-- D) 1
-- E) 2
-
-**Resposta:** D
-
-**Explicação:** A² tem diagonal 0² + 1·0 = 0 e 0·1 + (−1)² = 1. Traço = 1.
-
-### 19
-A e B são matrizes quadradas de ordem 3 com det A = 3 e det B = 5. Qual é o valor de det(A⁻¹)?
-
-- A) −3
-- B) 3
-- C) 1/9
+- A) 1/2
+- B) −2/3
+- C) 1/6
 - D) 1/3
 - E) −1/3
 
+**Resposta:** E
+
+**Explicação:** Ferramenta: inversa 2×2. Troque a e d de lugar, troque o sinal de b e c, e divida tudo pelo determinante. det = −3; elemento = 1/−3 = −1/3.
+
+### 7
+<!-- modelo: d4 -->
+Qual é o traço (soma da diagonal principal) da matriz A², sendo A = [−1 3; −2 −1]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 49
+- B) 2
+- C) −8
+- D) −10
+- E) 4
+
 **Resposta:** D
 
-**Explicação:** det(A⁻¹) = 1/det A = 1/3.
+**Explicação:** Ferramenta: produto de matrizes. Calcule só os elementos da diagonal de A·A. (A²)₁₁ = (−1)² + 3·(−2); (A²)₂₂ = (−2)·3 + (−1)². Soma: −10.
 
-### 20
-No sistema { 5x + 4y = 11 ; 2x + 3y = 10 }, use a regra de Cramer para encontrar x.
+### 8
+<!-- modelo: d2 -->
+Qual é o elemento da linha 1, coluna 1 da inversa da matriz [1 2; 4 3]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
 
-- A) 1
-- B) 4
-- C) 7
-- D) 3
-- E) −1
+- A) −3/5
+- B) 3/5
+- C) 1
+- D) 3/10
+- E) −1/5
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: inversa 2×2. Troque a e d de lugar, troque o sinal de b e c, e divida tudo pelo determinante. det = −5; elemento = 3/−5 = −3/5.
+
+### 9
+<!-- modelo: d3 -->
+No sistema { 3x + 3y = 24 ; 4x + y = 14 }, use a regra de Cramer para encontrar x.
+
+- A) 6
+- B) 8
+- C) 3
+- D) 4
+- E) 2
 
 **Resposta:** E
 
-**Explicação:** D = 5·3 − 4·2 = 7; Dx = 11·3 − 4·10 = −7. x = Dx/D = −1.
+**Explicação:** Ferramenta: regra de Cramer. x = Dx/D: em Dx, a coluna de x é trocada pelos termos independentes. D = −9; Dx = −18; x = 2.
+
+### 10
+<!-- modelo: d1 -->
+A e B são matrizes quadradas de ordem 3 com det A = 5 e det B = 2. Qual é o valor de det(AᵗB)?
+
+- A) −10
+- B) 7
+- C) 5/2
+- D) 30
+- E) 10
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: teorema de Binet. det(A·B) = det A · det B; det(Aᵗ) = det A; det(A⁻¹) = 1/det A. 5 × 2 = 10.
+
+### 11
+<!-- modelo: d1 -->
+A e B são matrizes quadradas de ordem 3 com det A = 2 e det B = 3. Qual é o valor de det(AᵗB)?
+
+- A) −6
+- B) 18
+- C) 6
+- D) 5
+- E) 2/3
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: teorema de Binet. det(A·B) = det A · det B; det(Aᵗ) = det A; det(A⁻¹) = 1/det A. 2 × 3 = 6.

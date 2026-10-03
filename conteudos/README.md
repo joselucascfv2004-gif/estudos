@@ -2,11 +2,11 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4607 questões** em **90 tópicos**.
+**4476 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## Matemática — 883 questões
+## Matemática — 752 questões
 
 *Matemática e suas Tecnologias*
 
@@ -23,12 +23,12 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Geometria espacial](matematica/09-geometria-espacial.md) | ENEM, Militares, Concursos | 15 | 15 | 15 |
 | [Trigonometria](matematica/10-trigonometria.md) | ENEM, Militares, Concursos | 16 | 15 | 15 |
 | [Estatística](matematica/11-estatistica.md) | ENEM, Militares, Concursos | 13 | 14 | 14 |
-| [Análise combinatória](matematica/12-analise-combinatoria.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Probabilidade](matematica/13-probabilidade.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Grandezas, medidas e escalas](matematica/14-grandezas-medidas-escalas.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
-| [Matrizes, determinantes e sistemas](matematica/15-matrizes-e-determinantes.md) | Militares, ENEM | 20 | 20 | 20 |
-| [Geometria analítica](matematica/16-geometria-analitica.md) | ENEM, Militares | 20 | 20 | 20 |
-| [Números complexos e polinômios](matematica/17-numeros-complexos-e-polinomios.md) | Militares | 20 | 20 | 20 |
+| [Análise combinatória](matematica/12-analise-combinatoria.md) | ENEM, Militares, Concursos | 15 | 15 | 14 |
+| [Probabilidade](matematica/13-probabilidade.md) | ENEM, Militares, Concursos | 13 | 14 | 14 |
+| [Grandezas, medidas e escalas](matematica/14-grandezas-medidas-escalas.md) | ENEM, Militares, Concursos | 14 | 14 | 12 |
+| [Matrizes, determinantes e sistemas](matematica/15-matrizes-e-determinantes.md) | Militares, ENEM | 12 | 12 | 11 |
+| [Geometria analítica](matematica/16-geometria-analitica.md) | ENEM, Militares | 12 | 12 | 11 |
+| [Números complexos e polinômios](matematica/17-numeros-complexos-e-polinomios.md) | Militares | 12 | 11 | 11 |
 
 ## Física — 420 questões
 
