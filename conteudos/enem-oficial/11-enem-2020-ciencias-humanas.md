@@ -438,9 +438,7 @@ O texto descreve a experiência do personagem de Tolstoi diante de um aspecto in
 **Assunto:** filosofia/filosofia-moderna-e-contemporanea
 
 ### 61
-A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos América Latina, foi precoce:
-
-especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções.
+A Divisão Internacional do Trabalho significa que alguns países se especializam em ganhar e outros, em perder. Nossa comarca no mundo, que hoje chamamos América Latina, foi precoce: especializou-se em perder desde os remotos tempos em que os europeus do Renascimento se aventuraram pelos mares e lhe cravaram os dentes na garganta. Passaram-se os séculos e a América Latina aprimorou suas funções.
 
 > GALEANO, E. As veias abertas da América Latina. São Paulo: Paz e Terra, 1978.
 
