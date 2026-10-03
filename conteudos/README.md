@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4564 questões** em **110 tópicos**.
+**4675 questões** em **114 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 651 questões
+## ENEM — provas oficiais — 762 questões
 
 *Provas anteriores*
 
@@ -255,3 +255,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2017 — Ciências da Natureza](enem-oficial/22-enem-2017-ciencias-da-natureza.md) | ENEM | 9 | 8 | 6 |
 | [ENEM 2017 — Ciências Humanas](enem-oficial/23-enem-2017-ciencias-humanas.md) | ENEM | 10 | 16 | 5 |
 | [ENEM 2017 — Linguagens](enem-oficial/24-enem-2017-linguagens.md) | ENEM | 9 | 10 | 5 |
+| [ENEM 2016 — Matemática](enem-oficial/25-enem-2016-matematica.md) | ENEM | 7 | 8 | 7 |
+| [ENEM 2016 — Linguagens](enem-oficial/26-enem-2016-linguagens.md) | ENEM | 10 | 13 | 5 |
+| [ENEM 2016 — Ciências Humanas](enem-oficial/27-enem-2016-ciencias-humanas.md) | ENEM | 11 | 19 | 5 |
+| [ENEM 2016 — Ciências da Natureza](enem-oficial/28-enem-2016-ciencias-da-natureza.md) | ENEM | 8 | 13 | 5 |
