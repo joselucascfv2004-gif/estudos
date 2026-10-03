@@ -1,0 +1,200 @@
+## 51-enem-2012-ciencias-humanas.md | 2012 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2012 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2012, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Kant (esclarecimento e autonomia), Montesquieu (liberdade dentro da lei), Habermas (debate público), Platão (razão acima dos sentidos), Descartes e Hume (papel dos sentidos), Maquiavel (livre-arbítrio), pré-socráticos e Basílio (princípio originário).
+- **História do Brasil:** Pombal e aldeamentos, Vieira e a escravidão, festas coloniais, Noite das Garrafadas, Estado Novo (SPHAN e sindicalismo), caso Herzog.
+- **História geral:** Revolução Gloriosa e absolutismo, Colombo, crise de 1929, direitos civis nos EUA, Segunda Guerra.
+- **Geografia:** portos e escoamento, paisagem simbólica, crátons, terremotos, Amazônia (rios), desconcentração industrial, irrigação, reúso da água.
+- **Sociologia:** processo civilizador (Elias), identidade afro-brasileira, quebradeiras de coco, disciplina dos corpos.
+
+@2 f filosofia/filosofia-moderna-e-contemporanea
+x: Para Kant, esclarecimento é sair da "menoridade", isto é, ter coragem de pensar por conta própria, sem a direção de outro. É a autonomia da razão como sinal de maioridade.
+@3 d sociologia/sociologia-classica
+s: 2010. Texto II Nenhuma => 2010. || Texto II || Nenhuma
+s: Entrevista com Joel Birman. => > Entrevista com Joel Birman.
+x: Para Elias, toda sociedade precisa controlar as pulsões dos indivíduos. O Texto I diz que no Brasil a cidadania é frágil e o Estado está ausente, o que abre espaço à violência. Isso mostra a dificuldade histórica de criar formas de controle social compatíveis com a democracia.
+@4 m historia/seculo-xx
+s: Disponível em: http://quadro-a-quadro.blog.br. Acesso em: 27 jan. 2012. => (Capa da primeira edição da revista do Capitão América, não reproduzida aqui.) || > Disponível em: http://quadro-a-quadro.blog.br. Acesso em: 27 jan. 2012.
+x: O texto fala de um herói com a bandeira americana dando um soco no "Führer", Hitler, em tempos de guerra. A revista associa os EUA à luta contra os regimes totalitários na Segunda Guerra Mundial.
+@5 f historia/brasil-colonia
+x: Misturados no Brasil, africanos de várias regiões perceberam elos culturais comuns entre si, como na língua e na religião. Isso permitiu formar uma identidade cultural afro-brasileira.
+@6 f historia/seculo-xx
+x: Martin Luther King liderou, nos anos 1950 e 1960, o movimento pelos direitos civis: fim da segregação racial e igualdade de direitos para a população negra.
+@7 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Montesquieu, liberdade não é fazer o que se quer, mas "fazer tudo o que as leis permitem". A liberdade dos cidadãos depende de agir conforme as leis.
+@9 d filosofia/filosofia-moderna-e-contemporanea
+x: Habermas propõe que as diferentes culturas convivam e que suas visões sejam discutidas no debate público, valendo o melhor argumento. Assim, as minorias podem questionar regras impostas pela cultura dominante.
+@10 m historia/idade-moderna
+s: (adaptado). O documento => (adaptado). || O documento
+s: Carta de Colombo aos reis => > Carta de Colombo aos reis
+x: Colombo destaca o ouro da região. Para controlar e explorar essas riquezas, os espanhóis fundaram cidades, que funcionavam como centros administrativos e de controle da circulação do ouro e da prata.
+@11 m historia/idade-moderna
+s: Declaração de Direitos. Disponível => > Declaração de Direitos. Disponível
+a: Redução da influência do papa – Teocracia. | Limitação do poder do soberano – Absolutismo. | Ampliação da dominação da nobreza – República. | Expansão da força do presidente – Parlamentarismo. | Restrição da competência do congresso – Presidencialismo.
+x: A Declaração de Direitos (Bill of Rights, 1689) impede o rei de suspender leis e cobrar impostos sem o Parlamento: limita o poder do soberano. Na maior parte da Europa continental, predominava o absolutismo.
+@13 m historia/brasil-republica
+s: 1936. || In: ALVES FILHO => 1936. In: ALVES FILHO
+x: O texto diz que obras de arte e bens históricos estavam se perdendo e que eles são patrimônio de todos. O SPHAN foi criado para proteger da destruição as obras representativas da cultura nacional.
+@14 m geografia/economia-agropecuaria-industria-energia
+s: Folha de S. Paulo, 25 dez. => > Folha de S. Paulo, 25 dez.
+x: Navios esperando para atracar atrasam o escoamento da produção. Como o Brasil exporta muitos produtos agrícolas pelo porto de Santos, a demora dificulta e reduz essas exportações.
+@15 m historia/ditadura-e-redemocratizacao
+s: 1999. A morte => 1999. || A morte
+s: Em nome da verdade. In: => > Em nome da verdade. In:
+x: Os jornalistas pedem à Justiça "novas diligências" para esclarecer os fatos. O abaixo-assinado mostra a expectativa de que os culpados pela morte de Herzog fossem investigados.
+@17 m historia/brasil-imperio
+x: A frieza em Minas e a Noite das Garrafadas mostram a insatisfação com Pedro I, acusado de governar de forma autoritária e de favorecer os portugueses. Esses episódios antecederam sua abdicação, em 1831.
+@18 f geografia/cartografia
+x: Para o autor, a paisagem carrega memória e cria sentimento de pertencimento. Além de ser algo concreto, ela tem uma dimensão simbólica, ligada à relação afetiva das pessoas com o lugar.
+@20 d geografia/geopolitica-e-globalizacao
+x: Na África colonial, os colonizadores tomaram as melhores terras, voltadas à exportação. Mesmo após a independência, a minoria branca continuou com grande parte delas, e a população pobre ficou com terras agrícolas marginais.
+@21 d historia/seculo-xx
+s: Texto II Estamos => Texto II || Estamos
+s: Entrevista de George Soros. => > Entrevista de George Soros.
+x: A crise de 1929 veio da superprodução industrial nos EUA, que não encontrava compradores. A crise de 2008 nasceu da especulação financeira e do crédito fácil. Comparar as duas esconde essa diferença de origem.
+@23 m sociologia/temas-contemporaneos
+x: O texto trata o obeso como "guloso" e em "pecado da gula", como se engordar fosse só falta de controle. Esse discurso culpa o indivíduo e associa obesidade a fraqueza de caráter.
+@25 m filosofia/filosofia-antiga-e-medieval
+x: Platão aceita de Parmênides que o conhecimento verdadeiro vem da razão, não da sensação. A razão é capaz de gerar conhecimento; os sentidos, não.
+@26 f geografia/biomas-e-questoes-ambientais
+x: Os motores a combustão queimam derivados de petróleo e liberam gases do efeito estufa, que aquecem o planeta e derretem as calotas polares. Transportes de massa, como metrô e ônibus, reduzem o uso do carro.
+@27 m sociologia/temas-contemporaneos
+x: As quebradeiras lutam "pela libertação dos babaçuais", porque muitas palmeiras ficam dentro de fazendas e os donos impedem o acesso. O movimento nasce dessa dificuldade de chegar ao babaçu.
+@28 m filosofia/filosofia-antiga-e-medieval
+s: Texto II Basílio => Texto II || Basílio
+x: Para Anaxímenes, tudo vem do ar; para Basílio, tudo vem de Deus. Apesar da diferença, ambos buscam um princípio originário do mundo.
+@29 f geografia/geografia-fisica
+x: Terremotos acontecem onde as placas tectônicas se encontram e acumulam tensão, que é liberada de repente. As áreas de alívio dessa tensão geológica são as mais afetadas.
+@30 m filosofia/filosofia-moderna-e-contemporanea
+s: Texto II Sempre => Texto II || Sempre
+x: Descartes desconfia dos sentidos, que "eram enganosos". Hume diz que toda ideia válida deve vir de uma impressão sensorial. Eles dão lugares diferentes aos sentidos na formação do conhecimento.
+@31 m filosofia/filosofia-moderna-e-contemporanea
+x: Maquiavel admite a sorte, mas diz que o livre-arbítrio controla metade dos nossos atos. Confiar na capacidade humana de decidir, sem deixar tudo a Deus e ao acaso, é marca do humanismo renascentista.
+@32 m geografia/geografia-fisica
+x: Uma sociedade que depende do setor primário (agricultura, pecuária, extrativismo) sofre mais com secas, chuvas e geadas. Por isso fica mais vulnerável às variações do clima.
+@33 m geografia/geopolitica-e-globalizacao
+a: o crescimento da carga tributária. | o aumento da mobilidade ocupacional. | a redução da competitividade entre as empresas. | o direcionamento das vendas para os mercados regionais. | a ampliação do poder de planejamento dos Estados nacionais.
+x: As empresas espalham suas atividades pelo mundo conforme as vantagens de cada lugar. Isso faz os trabalhadores mudarem mais de emprego, função e lugar: a mobilidade ocupacional aumenta.
+@34 f geografia/populacao-e-urbanizacao
+x: Na colonização antiga, a população se movia de leste para oeste seguindo os grandes rios da Amazônia. Assim surgiram povoados ligados entre si ao longo dos rios.
+@35 d historia/brasil-colonia
+x: A política pombalina queria integrar os indígenas à colônia, em aldeamentos controlados por administradores. O governador desconfia dos indígenas e busca controlá-los e adaptá-los ao trabalho regular.
+@36 m geografia/economia-agropecuaria-industria-energia
+x: Para a indústria se espalhar por várias regiões, as empresas precisam coordenar fábricas distantes da sede. O avanço dos meios de comunicação permitiu essa desconcentração.
+@37 d geografia/geografia-fisica
+x: Os crátons das Guianas e Sul-Amazônico são escudos cristalinos muito antigos, com intrusões graníticas ricas em minérios como ferro e manganês. Por isso atraem empresas de mineração.
+@38 m geografia/biomas-e-questoes-ambientais
+x: A irrigação em larga escala desvia água de rios com canais e barragens, mudando seu curso e causando conflitos pelo uso da água.
+@39 d geografia/economia-agropecuaria-industria-energia
+s: Texto II Com a => Texto II || Com a
+x: Nos dois contextos, mudanças no campo tiraram dos pequenos agricultores o acesso à terra. Sem terra, muitos migraram para as cidades ou outros países, muitas vezes em condições precárias.
+@40 f historia/brasil-colonia
+x: Vieira compara o sofrimento dos escravizados nos engenhos ao de Cristo: trabalho dia e noite, fome, açoites e prisões. Ele fala aos escravos que produzem o açúcar.
+@41 m historia/brasil-republica
+x: O documento diz que o sindicato do Estado Novo foge da luta de classes e busca "harmonia e cooperação" entre capital e trabalho. A ideia é o consenso entre trabalhadores e patrões, sob o controle do Estado.
+@42 f geografia/biomas-e-questoes-ambientais
+x: Se o consumo de água cresce mais que a população, é preciso usar melhor a água disponível. Reutilizar a água é uma estratégia para mudar essa lógica.
+@43 f geografia/populacao-e-urbanizacao v
+x: A canção fala de quem vive "andando pelos sertões", guardando lembranças das terras e dos amigos que deixou para trás. É a experiência do migrante.
+@44 m historia/brasil-colonia
+s: (adaptado). O viajante => (adaptado). || O viajante
+s: Barbinais, Le Gentil. => > Barbinais, Le Gentil.
+x: O francês estranha ver padres, frades, mulheres, cavalheiros e escravos dançando juntos numa igreja. As festas religiosas coloniais misturavam todos num sentido comunitário de devoção.
+
+## 52-enem-2012-ciencias-da-natureza.md | 2012 | 1 | 1º dia, caderno azul | Ciências da Natureza
+auto: sim
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2012 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, quadros e gráficos simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Química:** reciclagem, esterificação, ácidos neutralizam bases, estequiometria da combustão, potencial de redução (metal que se oxida primeiro protege o outro), osmose, tensoativos.
+- **Física:** pressão = força ÷ área, energia elástica, ondas (v = λ · f), refração, eficiência (lúmen por watt), empuxo e densidade, 2ª lei da termodinâmica, frequência da luz.
+- **Biologia:** transgênicos (gene → RNA mensageiro → proteína), leptospirose, fermentação, nicho ecológico, biogênese, doença de Chagas, membranas.
+
+@46 f quimica/quimica-ambiental
+x: Reciclar é transformar o material em matéria-prima para fazer um produto novo. As latas de alumínio são derretidas e viram lingotes. Reutilizar garrafas ou sacos, sem transformá-los, é reutilização.
+@47 f fisica/estatica-e-hidrostatica
+x: Pressão é força dividida por área. Com pneus mais largos, o peso do trator se distribui por uma área maior, e a pressão sobre o solo diminui.
+@48 m biologia/genetica-e-biotecnologia
+x: O gene transferido passa a fazer parte do DNA do milho (DNA recombinante). Ele é transcrito em RNA mensageiro, que é traduzido na proteína responsável pela característica de interesse.
+@50 f fisica/trabalho-energia-e-potencia
+x: A mola comprimida guarda energia potencial elástica, que vira energia de movimento (cinética) quando o carrinho é solto. O mesmo acontece no estilingue: o elástico esticado lança a pedra.
+@51 f biologia/ecologia
+x: Na biorremediação, o microrganismo "come" o poluente: ele o metaboliza e transforma em substâncias menos tóxicas ou inofensivas.
+@52 f biologia/saude-e-doencas
+x: Contato com água de enchente, sem esgoto e com lixo acumulado (que atrai ratos), seguido de febre, dor de cabeça e dores musculares, indica leptospirose, transmitida pela urina de ratos.
+@53 m quimica/quimica-ambiental
+e: O rótulo de um desodorante aerossol informa ao consumidor que o produto possui em sua composição os gases isobutano, butano e propano, dentre outras substâncias. Além dessa informação, o rótulo traz, ainda, a inscrição “Não contém CFC”. As reações a seguir, que ocorrem na estratosfera, justificam a não utilização de CFC (clorofluorcarbono ou Freon) nesse desodorante: || I) CF₂Cℓ₂ → (com radiação UV) CF₂Cℓ• + Cℓ• || II) Cℓ• + O₃ → O₂ + CℓO• || A preocupação com as possíveis ameaças à camada de ozônio (O₃) baseia-se na sua principal função: proteger a matéria viva na Terra dos efeitos prejudiciais dos raios solares ultravioleta. A absorção da radiação ultravioleta pelo ozônio estratosférico é intensa o suficiente para eliminar boa parte da fração de ultravioleta que é prejudicial à vida. || A finalidade da utilização dos gases isobutano, butano e propano neste aerossol é
+a: substituir o CFC, pois não reagem com o ozônio, servindo como gases propelentes em aerossóis. | servir como propelentes, pois, como são muito reativos, capturam o Freon existente livre na atmosfera, impedindo a destruição do ozônio. | reagir com o ar, pois se decompõem espontaneamente em dióxido de carbono (CO₂) e água (H₂O), que não atacam o ozônio. | impedir a destruição do ozônio pelo CFC, pois os hidrocarbonetos gasosos reagem com a radiação UV, liberando hidrogênio (H₂), que reage com o oxigênio do ar (O₂), formando água (H₂O). | destruir o CFC, pois reagem com a radiação UV, liberando carbono (C), que reage com o oxigênio do ar (O₂), formando dióxido de carbono (CO₂), que é inofensivo para a camada de ozônio.
+x: O CFC libera cloro, que destrói o ozônio. Butano, isobutano e propano fazem o mesmo papel de propelente (empurrar o produto para fora da lata), mas não liberam cloro e não atacam o ozônio. Eles só substituem o CFC.
+@54 m fisica/ondulatoria-e-optica
+x: A velocidade da onda depende só do meio (a água), então continua 1,0 m/s. A frequência caiu de 2 para 1 gota por segundo; como v = λ · f, o comprimento de onda dobra: fica maior que 25 cm (50 cm).
+@57 m biologia/ecologia
+x: No cerrado, com seca e queimadas, as gemas (pontos de crescimento) protegidas por muitos pelos resistem ao fogo e à perda de água, permitindo que a planta volte a brotar.
+@58 m quimica/quimica-organica
+s: C6 H5 CO2 CH2 CH3 , cuja estrutura está mostrada a seguir. => C₆H₅CO₂CH₂CH₃ (benzoato de etila).
+s: C O O CH2 CH3 O ácido => || O ácido
+x: O éster C₆H₅–COO–CH₂CH₃ tem a parte C₆H₅–CO–, que vem do ácido benzoico (C₆H₅COOH), e a parte –CH₂CH₃, que vem do etanol. Ácido benzoico + etanol → benzoato de etila + água.
+@59 m quimica/estequiometria
+s: Um hamburguer ecológico? => > Um hamburguer ecológico?
+s: é de Dados: CO2 (44 g/mol); C4 H10 (58 g/mol) => é de (dados: CO₂ = 44 g/mol; C₄H₁₀ = 58 g/mol)
+s: butano (C4 H10 ) => butano (C₄H₁₀)
+x: Na combustão, C₄H₁₀ + 13/2 O₂ → 4 CO₂ + 5 H₂O: 58 g de butano geram 4 × 44 = 176 g de CO₂. Para deixar de emitir 1 000 g de CO₂: 58 × 1 000 ÷ 176 ≈ 330 g = 0,33 kg.
+@61 m fisica/eletricidade
+x: Eficiência = luz ÷ potência. Incandescente de 40 W: 600 ÷ 40 = 15 lm/W. Fluorescente: 3 000 ÷ 40 = 75 lm/W, 5 vezes mais. Uma fluorescente de 8 W produz 8 × 75 = 600 lm, a mesma luz da incandescente de 40 W. Logo a incandescente é menos eficiente que ela.
+@62 m biologia/evolucao
+s: (adaptado). Sem controle => (adaptado). || Sem controle
+s: Terra da Gente, ano 4 => > Terra da Gente, ano 4
+x: Os híbridos que escapam podem se reproduzir e competir com a espécie nativa, ou cruzar com ela, até tomar o seu lugar. Com o tempo, substituem geneticamente a espécie natural.
+@63 f biologia/citologia
+x: As leveduras fazem fermentação alcoólica: transformam açúcar em álcool e gás carbônico. As bolhas de CO₂ ficam presas na massa e a fazem crescer.
+@64 f fisica/ondulatoria-e-optica
+x: A luz que sai do peixe muda de direção (refrata) ao passar da água para o ar. O índio vê o peixe numa posição aparente, acima da real, e por isso deve mirar mais abaixo.
+@65 m biologia/genetica-e-biotecnologia
+x: O DNA do indivíduo é o mesmo o ano todo. O que muda é quais genes estão sendo usados (transcritos) em cada momento, conforme a necessidade.
+@68 f biologia/ecologia
+s: (adaptado). Essa descrição => (adaptado). || Essa descrição
+s: Ciência Hoje das Crianças, ano 19 => > Ciência Hoje das Crianças, ano 19
+x: O texto descreve o modo de vida do tamanduá: hábitos noturnos, onde repousa, como se reproduz e cuida do filhote, seu território. Esse conjunto de hábitos e papéis é o nicho ecológico.
+@69 m quimica/ligacoes-e-funcoes-inorganicas
+s: Material Concentração de H3 O+ (mol/L) || Suco de limão 10–2 Leite 10–6 Vinagre 10–3 Álcool 10–8 Sabão 10–12 Carbonato de sódio/ barrilha 10–12 Dentre => Quadro (material: concentração de H₃O⁺, em mol/L): Suco de limão: 10⁻². Leite: 10⁻⁶. Vinagre: 10⁻³. Álcool: 10⁻⁸. Sabão: 10⁻¹². Carbonato de sódio/barrilha: 10⁻¹². || Dentre
+x: O cheiro vem de aminas, que são bases. Para neutralizá-las, usa-se algo ácido, com muito H₃O⁺ (concentração maior que 10⁻⁷ mol/L). Os mais ácidos da lista são o suco de limão (10⁻²) e o vinagre (10⁻³).
+@70 m quimica/quimica-organica
+x: O tensoativo (parecido com um detergente) tem uma parte que se liga à água e outra que se liga ao hidrocarboneto. Assim ele envolve o óleo e permite que ele se misture à água, facilitando a remoção.
+@71 f fisica/trabalho-energia-e-potencia
+x: O país é plano (ruim para hidrelétricas), tem poucos rios e nenhum combustível fóssil, mas tem ventos constantes. A melhor opção é a energia eólica, que não emite gases do efeito estufa.
+@72 f fisica/cinematica
+x: 1º trecho: 80 km a 80 km/h = 1 h. 2º trecho: 60 km a 120 km/h = 0,5 h. Total: 1,5 h.
+@75 f biologia/evolucao
+x: Redi mostrou que larvas só aparecem na carne quando moscas põem ovos nela, e Pasteur mostrou que caldos fervidos e protegidos não criam micróbios. Todo ser vivo vem de outro ser vivo (biogênese).
+@76 f quimica/ligacoes-e-funcoes-inorganicas
+x: O HCℓ é um ácido. A água de cal, solução de hidróxido de cálcio, é básica e neutraliza o ácido: Ca(OH)₂ + 2 HCℓ → CaCℓ₂ + 2 H₂O.
+@77 d fisica/estatica-e-hidrostatica
+s: com 1 de seu volume => com 1/3 de seu volume
+s: rágua = 1 g cm3 . => ρ(água) = 1 g/cm³.
+x: A água subiu de 1,0 L para 1,5 L: a parte submersa dos legumes tem 0,5 L. Como 1/3 fica fora, a parte submersa é 2/3 do volume: V = 0,5 ÷ (2/3) = 0,75 L = 750 cm³. Com densidade 0,5 g/cm³, a massa é 0,5 × 750 = 375 g = 0,375 kg.
+@78 d fisica/dinamica
+s: para carros sem ABS e com ABS, respectivamente, são: => para carros sem ABS e com ABS, respectivamente, são (gráficos descritos em palavras):
+a: Sem ABS: o atrito cresce em linha reta até um máximo e cai de repente para um valor constante menor. Com ABS: o atrito cresce em linha reta e, cada vez que chega ao limite, cai um pouco e volta a subir (dente de serra). | Sem ABS: o atrito cresce em linha reta, pouco inclinada. Com ABS: o atrito cresce em linha reta, mais inclinada. | Sem ABS: o atrito cresce em linha reta. Com ABS: o atrito é constante. | Sem ABS: o atrito sobe e depois desce em linha reta (forma de triângulo). Com ABS: dente de serra. | Sem ABS: o atrito cresce em linha reta até um máximo e cai de repente para um valor constante menor. Com ABS: o atrito é constante.
+x: Sem ABS, o atrito estático cresce com a força no pedal até o pneu travar; aí passa a valer o atrito cinético, que é menor e constante. Com ABS, o sistema solta a roda sempre que ela está prestes a deslizar, então o atrito sobe, cai um pouco e volta a subir, ficando perto do máximo (dente de serra).
+@81 f biologia/ecologia
+x: A nuvem de poeira bloqueou a luz do Sol. Sem luz, as plantas e algas fizeram menos fotossíntese, e toda a cadeia alimentar que dependia delas foi afetada.
+@82 d quimica/fisico-quimica
+s: Semirreação Potencial Padrão de Redução (V) || Li+ + e– → Li –3,05 K+ + e– → K –2,93 Mg2+ + 2 e– → Mg –2,36 Al3+ + 3 e– → Al –1,66 Zn2+ + 2 e– → Zn –0,76 Cu2+ + 2 e– → Cu +0,34 => Quadro (semirreação: potencial padrão de redução, em V): Li⁺ + e⁻ → Li: −3,05. K⁺ + e⁻ → K: −2,93. Mg²⁺ + 2 e⁻ → Mg: −2,36. Al³⁺ + 3 e⁻ → Al: −1,66. Zn²⁺ + 2 e⁻ → Zn: −0,76. Cu²⁺ + 2 e⁻ → Cu: +0,34.
+x: O magnésio protege o alumínio porque se oxida primeiro: seu potencial de redução (−2,36 V) é menor que o do alumínio (−1,66 V). Os metais que também têm potencial menor que o do alumínio são o lítio (−3,05 V) e o potássio (−2,93 V).
+@83 m fisica/termologia
+x: Pela segunda lei da termodinâmica, nenhuma máquina térmica transforma todo o calor em trabalho: parte sempre se perde. Por isso há um limite para a eficiência dos motores.
+@84 m fisica/ondulatoria-e-optica
+s: “Uma companhia aérea negou-se a transportar material médico por este portar um certificado de esterilização por irradiação.” Física na Escola => “Uma companhia aérea negou-se a transportar material médico por este portar um certificado de esterilização por irradiação.” || > Física na Escola
+x: Na esterilização, a radiação atravessa o material e mata os microrganismos, mas o material não passa a emitir radiação. Ser irradiado não torna algo radioativo.
+@86 m biologia/citologia
+x: A solução de 0,20 mol/L é mais concentrada que o interior da célula (equivalente a 0,15 mol/L). Por osmose, a água sai da célula para a solução, e a célula murcha.
+@87 f biologia/saude-e-doencas
+x: Com o desmatamento, os animais silvestres de que o barbeiro se alimenta somem ou migram. O inseto passa a procurar sangue em casas próximas, picando pessoas e transmitindo a doença.
+@88 m fisica/ondulatoria-e-optica
+x: O bronzeado depende da radiação ultravioleta, de alta frequência. A lâmpada incandescente emite principalmente luz visível e infravermelho, de frequência mais baixa, sem UV suficiente.
+@89 f biologia/citologia
+x: Cada fosfolipídio tem uma "cabeça" que gosta de água (hidrofílica) e "caudas" que fogem dela (hidrofóbicas). Por isso eles se organizam em bicamadas, com as caudas escondidas no meio: são moléculas anfifílicas.
+@90 m quimica/estequiometria
+s: mais próxima de Dado: massa molar do aspartame = 294 g/mol => mais próxima de (dado: massa molar do aspartame = 294 g/mol)
+a: 1,3 × 10⁻⁴. | 9,5 × 10⁻³. | 4 × 10⁻². | 2,6. | 823.
+x: O limite é 40 mg por kg: 40 × 70 = 2 800 mg = 2,8 g por dia. Em mol: 2,8 ÷ 294 ≈ 0,0095 = 9,5 × 10⁻³ mol.

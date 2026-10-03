@@ -1,0 +1,176 @@
+## 49-enem-2012-matematica.md | 2012 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2012 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações, expoentes e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Contagem:** princípio multiplicativo (objeto × personagem × cômodo) e soma de casos possíveis em dados.
+- **Probabilidade:** some as chances de cada caminho; "entre os que opinaram" muda o total.
+- **Proporção:** divisão proporcional, escalas (1 : 700 000) e grandezas diretamente e inversamente proporcionais.
+- **Porcentagem:** descontos sucessivos se multiplicam (0,7 × 0,9).
+- **Geometria:** volume deslocado = área da base × subida do nível; quadrado inscrito no círculo (diagonal = diâmetro); redução linear de 20% → volume × 0,8³.
+- **Matemática financeira:** compare valores trazidos para a mesma data (dividindo por 1,1 a cada semestre).
+
+@136 f matematica/analise-combinatoria
+x: Há 5 objetos × 6 personagens × 9 cômodos = 270 respostas diferentes. Como há 280 alunos, sobram 10 alunos a mais do que respostas possíveis, então alguém certamente acerta.
+@142 f matematica/progressoes
+x: As colunas usam 1 + 2 + 3 + 4 + 5 + 6 + 7 = 28 cartas. O monte fica com 52 − 28 = 24 cartas.
+@144 f matematica/estatistica
+e: Uma pesquisa realizada por estudantes da Faculdade de Estatística mostra, em horas por dia, como os jovens entre 12 e 18 anos gastam seu tempo, tanto durante a semana (de segunda-feira a sexta-feira), como no fim de semana (sábado e domingo). A seguinte tabela ilustra os resultados da pesquisa. || Quadro — Rotina juvenil (atividade: horas por dia durante a semana; horas por dia no fim de semana): Assistir à televisão: 3; 3. Atividades domésticas: 1; 1. Atividades escolares: 5; 1. Atividades de lazer: 2; 4. Descanso, higiene e alimentação: 10; 12. Outras atividades: 3; 3. || De acordo com esta pesquisa, quantas horas de seu tempo gasta um jovem entre 12 e 18 anos, na semana inteira (de segunda-feira a domingo), nas atividades escolares?
+x: De segunda a sexta são 5 dias × 5 horas = 25 horas. No sábado e no domingo, 2 dias × 1 hora = 2 horas. Total: 27 horas.
+@156 f matematica/razao-proporcao-regra-de-tres
+x: Para juntar 9 200 tíquetes, recebendo 20 por período, são precisos 9 200 ÷ 20 = 460 períodos. Cada um custa R$ 3,00: 460 × 3 = R$ 1 380,00.
+@157 f matematica/numeros-e-operacoes
+x: O número tem 8 algarismos e o espaço é o 3º da esquerda. Contando da direita: 7 (unidade), 0 (dezena), 2 (centena), 8 (milhar), 9 (dezena de milhar) e o espaço (centena de milhar).
+@160 f matematica/razao-proporcao-regra-de-tres
+x: São 5 gotas para cada 2 kg. 30 gotas são 6 vezes 5 gotas, então a massa é 6 × 2 = 12 kg.
+@161 f matematica/grandezas-medidas-escalas
+x: Karnazes correu 10 × 42 = 420 km = 42 000 000 cm. A pista da lousa tem 60 cm: 42 000 000 ÷ 60 = 700 000. A escala é 1 : 700 000.
+@168 f matematica/numeros-e-operacoes
+s: A ilustração a seguir sugere => A ilustração (não reproduzida aqui) sugere
+s: superfície terrestre. => superfície terrestre. Na ilustração, essa proximidade está indicada como “325 mil km”.
+a: 3,25 × 10² km. | 3,25 × 10³ km. | 3,25 × 10⁴ km. | 3,25 × 10⁵ km. | 3,25 × 10⁶ km.
+x: 325 mil km = 325 000 km = 3,25 × 100 000 = 3,25 × 10⁵ km.
+@169 f matematica/razao-proporcao-regra-de-tres
+x: A bacia comum gasta 15 L por descarga; 60 L por dia são 4 descargas. A ecológica gastaria 4 × 6 = 24 L. A economia é 60 − 24 = 36 litros.
+@170 f matematica/estatistica
+e: A tabela a seguir mostra a evolução da receita bruta anual nos três últimos anos de cinco microempresas (ME) que se encontram à venda. || Quadro (ME: receita bruta em 2009; em 2010; em 2011, em milhares de reais): Alfinetes V: 200; 220; 240. Balas W: 200; 230; 200. Chocolates X: 250; 210; 215. Pizzaria Y: 230; 230; 230. Tecelagem Z: 160; 210; 245. || Um investidor deseja comprar duas das empresas listadas na tabela. Para tal, ele calcula a média da receita bruta anual dos últimos três anos (de 2009 até 2011) e escolhe as duas empresas de maior média anual. || As empresas que este investidor escolhe comprar são
+x: Médias: Alfinetes V = 660 ÷ 3 = 220. Balas W = 630 ÷ 3 = 210. Chocolates X = 675 ÷ 3 = 225. Pizzaria Y = 230. Tecelagem Z = 615 ÷ 3 = 205. As duas maiores são Pizzaria Y (230) e Chocolates X (225).
+@171 f matematica/porcentagem
+e: Um laboratório realiza exames em que é possível observar a taxa de glicose de uma pessoa. Os resultados são analisados de acordo com o quadro a seguir. || Quadro: Hipoglicemia: taxa de glicose menor ou igual a 70 mg/dL. Normal: maior que 70 mg/dL e menor ou igual a 100 mg/dL. Pré-diabetes: maior que 100 mg/dL e menor ou igual a 125 mg/dL. Diabetes Melito: maior que 125 mg/dL e menor ou igual a 250 mg/dL. Hiperglicemia: maior que 250 mg/dL. || Um paciente fez um exame de glicose nesse laboratório e comprovou que estava com hiperglicemia. Sua taxa de glicose era de 300 mg/dL. Seu médico prescreveu um tratamento em duas etapas. Na primeira etapa ele conseguiu reduzir sua taxa em 30% e na segunda etapa em 10%. || Ao calcular sua taxa de glicose após as duas reduções, o paciente verificou que estava na categoria de
+x: Reduzir 30% é multiplicar por 0,7: 300 × 0,7 = 210. Reduzir mais 10% é multiplicar por 0,9: 210 × 0,9 = 189 mg/dL. Esse valor está entre 125 e 250: diabetes melito.
+@174 f matematica/probabilidade
+x: Com dois dados, soma 7 sai de 6 jeitos (1+6, 2+5, 3+4, 4+3, 5+2, 6+1); soma 8 de 5 jeitos; soma 4 de só 3 jeitos (1+3, 2+2, 3+1). José tem a maior chance.
+@180 f matematica/grandezas-medidas-escalas
+x: 3’ (minutos) = 3/60 de grau = 0,05°. Então 124° 3’ 0” = 124,05°.
+@138 m matematica/probabilidade
+e: Em um jogo há duas urnas com 10 bolas de mesmo tamanho em cada urna. A tabela a seguir indica as quantidades de bolas de cada cor em cada urna. || Quadro (cor: bolas na urna 1; bolas na urna 2): Amarela: 4; 0. Azul: 3; 1. Branca: 2; 2. Verde: 1; 3. Vermelha: 0; 4. || Uma jogada consiste em: 1º) o jogador apresenta um palpite sobre a cor da bola que será retirada por ele da urna 2; 2º) ele retira, aleatoriamente, uma bola da urna 1 e a coloca na urna 2, misturando-a com as que lá estão; 3º) em seguida ele retira, também aleatoriamente, uma bola da urna 2; 4º) se a cor da última bola retirada for a mesma do palpite inicial, ele ganha o jogo. || Qual cor deve ser escolhida pelo jogador para que ele tenha a maior probabilidade de ganhar?
+x: Depois da troca, a urna 2 tem 11 bolas. A chance de cada cor é (bolas dessa cor na urna 2 + chance de vir uma da urna 1) ÷ 11. Vermelha: (4 + 0) ÷ 11. Verde: (3 + 0,1) ÷ 11. Branca: (2 + 0,2) ÷ 11. Azul: (1 + 0,3) ÷ 11. Amarela: (0 + 0,4) ÷ 11. A maior é a vermelha.
+@147 m matematica/geometria-espacial
+s: como mostrado na figura. => como mostrado na figura. || (Na figura, o tanque é um paralelepípedo com base de 40 cm por 30 cm e altura de 25 cm; a água está 5 cm abaixo da borda.)
+s: 5 cm 25 cm 30 cm 40 cm O que => O que
+x: A água está a 25 − 5 = 20 cm de altura. O objeto empurra 2 400 cm³ de água para cima, espalhados na base de 40 × 30 = 1 200 cm²: o nível sobe 2 400 ÷ 1 200 = 2 cm e fica com 22 cm, ainda abaixo da borda.
+@152 m matematica/numeros-e-operacoes
+x: A sala tem 4 × 5 = 20 m²: 20 × 600 = 12 000 BTU/h. Há 2 pessoas além das duas primeiras: + 1 200. A televisão: + 600. Total: 13 800 BTU/h.
+@155 m matematica/funcoes-afim-e-quadratica
+s: QO = –20 + 4P QD = 46 – 2P em que => QO = −20 + 4P e QD = 46 − 2P, em que
+x: No equilíbrio, QO = QD: −20 + 4P = 46 − 2P. Então 6P = 66 e P = 11.
+@162 m matematica/geometria-plana
+s: Figura 1 Figura 1 Dobrando-se => Dobrando-se
+s: Figura 2 Figura 2 O perímetro => O perímetro
+x: Com quatro circunferências de raio r tangentes, cada lado do losango liga dois centros e mede r + r = 2r; o perímetro é 8r. Dobrando o raio de duas circunferências opostas, cada lado liga uma circunferência de raio r a uma de raio 2r e mede 3r; o perímetro vira 12r. O aumento é 4r sobre 8r = 50%.
+@163 m matematica/razao-proporcao-regra-de-tres
+x: Seja T o total. Na 1ª parte: José 6/15, Carlos 5/15 e Paulo 4/15 de T. Na 2ª: José 4/10, Carlos 4/10 e Paulo 2/10. José mantém 40%, Paulo cai, e Carlos sobe de 1/3 para 2/5, ou seja, 1/15 de T a mais. Então T/15 = 50 e T = 750. Na 2ª parte: 300, 300 e 150.
+@164 m matematica/probabilidade
+s: O gráfico a seguir apresenta o resultado da enquete. CONTOS DE HALLOWEEN opinião dos visitantes DIVERTIDO ASSUSTADOR CHATO NÃO OPINARAM 15% 52% 12% 21% 0% 10% 20% 30% 40% 50% 60% O administrador => O gráfico a seguir apresenta o resultado da enquete. || Gráfico — Contos de Halloween, opinião dos visitantes: Divertido: 15%. Assustador: 52%. Chato: 12%. Não opinaram: 21%. || O administrador
+x: Opinaram 100% − 21% = 79% dos visitantes, e 12% acharam chato. Entre os que opinaram, a chance é 12/79 ≈ 0,15.
+@167 m matematica/grandezas-medidas-escalas
+s: são mostrados na figura seguinte. => são mostrados na figura seguinte. || (Na figura, o alcance do cadeirante vai de 0,40 m, altura mínima, até 1,35 m, altura máxima; a faixa confortável fica entre 0,80 m e 1,00 m, e há também a marca de 1,20 m.)
+x: As tomadas (0,20 m) ficam abaixo do mínimo de 0,40 m, e os interruptores (1,47 m) acima do máximo de 1,35 m. A única proposta com as duas alturas dentro da faixa de 0,40 m a 1,35 m é 0,45 m e 1,20 m.
+@173 m matematica/analise-combinatoria
+s: claras ou escuras. Folha de São Paulo. => claras ou escuras. || > Folha de São Paulo.
+s: (adaptado). De acordo com o texto => (adaptado). || De acordo com o texto
+x: São 3 cores primárias e 3 secundárias (cada combinação de duas primárias): 6 cores. Cada uma pode aparecer pura, clara ou escura: 6 × 3 = 18. Somando o preto e o branco: 20 cores.
+@176 m matematica/geometria-espacial
+a: 20% menor que V, uma vez que o volume do cubo é diretamente proporcional ao comprimento de seu lado. | 36% menor que V, porque a área da base diminui de a² para ((1 − 0,2)a)². | 48,8% menor que V, porque o volume diminui de a³ para (0,8a)³. | 51,2% menor que V, porque cada lado diminui para 80% do comprimento original. | 60% menor que V, porque cada lado diminui 20%.
+x: Cada aresta passa a medir 0,8a, então o volume vira (0,8a)³ = 0,512a³. O volume fica 51,2% do original, ou seja, 48,8% menor.
+@177 m matematica/exponencial-e-logaritmo
+s: A = k.m , em que => A = k · m^(2/3), em que
+a: ∛16 | 4 | √24 | 8 | 64
+x: Se a massa vira 8m, a área vira k · (8m)^(2/3) = 8^(2/3) · k · m^(2/3). Como 8^(1/3) = 2, 8^(2/3) = 2² = 4. A área é multiplicada por 4.
+@179 m matematica/funcoes-afim-e-quadratica
+s: qual dos gráficos a seguir representa => qual dos gráficos descritos a seguir representa
+a: Uma reta crescente que parte da origem. | Uma curva decrescente, que começa alta e vai caindo. | Uma reta horizontal (E constante). | Uma curva crescente que parte da origem e fica cada vez mais inclinada (parábola). | Uma reta decrescente.
+x: P = R · i², e E é proporcional a P, então E é proporcional a i². O gráfico de E em função de i é um arco de parábola: parte da origem e sobe cada vez mais rápido.
+@151 m matematica/geometria-plana
+s: y x Nestas condições => (Na figura, o forro mede originalmente 5 de comprimento por 3 de largura.) || Nestas condições
+x: A área original é 5 × 3 = 15. Depois de lavado: (5 − x)(3 − y) = 15 − 5y − 3x + xy. A área perdida é a diferença: 15 − (15 − 5y − 3x + xy) = 5y + 3x − xy.
+@153 m matematica/razao-proporcao-regra-de-tres
+a: S = k · b · d²/x² | S = k · b · d/x² | S = k · b · d²/x | S = k · b² · d/x | S = k · b · 2d/(2x)
+x: Diretamente proporcional a b e a d² vai no numerador; inversamente proporcional a x² vai no denominador: S = k · b · d²/x².
+@165 d matematica/geometria-plana
+a: R ≥ L/√2 | R ≥ 2L/π | R ≥ L/√π | R ≥ L/2 | R ≥ L/(2√2)
+x: A base quadrada cabe inteira no círculo quando a diagonal do quadrado (L√2) não passa do diâmetro (2R): 2R ≥ L√2, ou seja, R ≥ L√2/2 = L/√2.
+@148 d matematica/geometria-plana
+s: (ambientes representados por três retângulos e um trapézio). || 9 m 4 m 14 m 7 m II I IV III 5 m 8 m Avaliando-se => (ambientes representados por três retângulos e um trapézio). || (Descrição da planta: o ambiente I é um retângulo de 5 m por 8 m. Acima dele fica o ambiente II, retângulo de 5 m por 6 m, de modo que I e II juntos medem 14 m de altura. Ao lado de II fica o ambiente III, retângulo de 4 m por 6 m; II e III juntos medem 9 m de largura. Ao lado de III fica o ambiente IV, um trapézio de 7 m de largura, com lados paralelos de 6 m, junto a III, e de 4 m, na outra ponta.) || Avaliando-se
+x: Áreas: I = 5 × 8 = 40 m². II = 5 × 6 = 30 m². III = 4 × 6 = 24 m². IV = (6 + 4) × 7 ÷ 2 = 35 m². O aparelho precisa cobrir área maior que a do ambiente, e o modelo A (35 m²) gasta menos gás. II e III usam o modelo A; I (40 m²) e IV (35 m², que não é menor que 35) precisam do B. São duas unidades de cada tipo.
+@150 d matematica/porcentagem
+x: Guardando o dinheiro a 10% por semestre, um pagamento daqui a 6 meses custa hoje o valor ÷ 1,1, e daqui a 12 meses, o valor ÷ 1,21. Opção 1: 55 000. Opção 2: 30 000 + 26 000 ÷ 1,1 ≈ 53 636. Opção 3: 20 000 + 18 182 + 14 876 ≈ 53 058. Opção 4: 15 000 + 39 000 ÷ 1,21 ≈ 47 231. Opção 5: 60 000 ÷ 1,21 ≈ 49 587. A mais barata hoje é a opção 4.
+@172 d matematica/estatistica
+x: Cada talhão tem 30 000 m² = 3 hectares. O desvio de 90 kg por talhão vale 30 kg por hectare = 0,5 saca por hectare. A variância é o quadrado do desvio padrão: 0,5² = 0,25.
+@178 d matematica/matrizes-e-determinantes
+e: Um aluno registrou as notas bimestrais de algumas de suas disciplinas numa tabela. Ele observou que as entradas numéricas da tabela formavam uma matriz 4x4, e que poderia calcular as médias anuais dessas disciplinas usando produto de matrizes. Todas as provas possuíam o mesmo peso, e a tabela que ele conseguiu é mostrada a seguir. || Quadro (disciplina: notas do 1º, 2º, 3º e 4º bimestres): Matemática: 5,9; 6,2; 4,5; 5,5. Português: 6,6; 7,1; 6,5; 8,4. Geografia: 8,6; 6,8; 7,8; 9,0. História: 6,2; 5,6; 5,9; 7,7. || Para obter essas médias, ele multiplicou a matriz obtida a partir da tabela por
+a: uma matriz linha com os elementos 1/2, 1/2, 1/2, 1/2. | uma matriz linha com os elementos 1/4, 1/4, 1/4, 1/4. | uma matriz coluna com os elementos 1, 1, 1, 1. | uma matriz coluna com os elementos 1/2, 1/2, 1/2, 1/2. | uma matriz coluna com os elementos 1/4, 1/4, 1/4, 1/4.
+x: A matriz das notas é 4 × 4, com cada linha sendo uma disciplina. Para obter a média de cada linha, multiplicamos a matriz (à direita) por uma matriz coluna 4 × 1 com todos os elementos iguais a 1/4: cada nota é somada com peso 1/4, resultando em uma coluna com as 4 médias.
+
+## 50-enem-2012-linguagens.md | 2012 | 2 | 2º dia, caderno amarelo | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2012 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Variação linguística:** a língua muda com o tempo (palavras que caem em desuso, "ter" no lugar de "haver"); adequar a linguagem à situação é diferente de "erro".
+- **Funções da linguagem:** emotiva (foco no emissor), apelativa (no receptor), metalinguística (no código).
+- **Argumentação:** exemplificação e comparação; carta do leitor que rebate uma reportagem.
+- **Literatura:** Mário de Andrade (tupi tangendo um alaúde), Lima Barreto (o patriotismo frustrado de Policarpo), Cecília Meireles (o poder das palavras), Manoel de Barros (o lúdico e o insignificante).
+- **Semântica:** metáfora ("beber paisagens"), "é como se" indicando possibilidade.
+
+@97 f portugues/interpretacao-de-texto
+x: Para Chartier, na internet cada pessoa pode ler e também escrever, julgando as ideias dos outros. A universalidade (acesso de todos) e a interatividade (troca de juízos) correspondem ao acesso livre e imediato à informação e ao intercâmbio de julgamentos.
+@98 m portugues/funcoes-generos-e-variacao
+x: Numa roda em que todos se tratavam por "você", a moça usou "o senhor" só com o autor, marcando a idade dele. A violação aparece quando ele diz que essa palavra "ergueu entre nós um muro frio e triste".
+@100 f portugues/interpretacao-de-texto
+x: O autor sustenta que "não somos tão especiais" mostrando exemplos de animais com inteligência, amor, consciência e cultura, e comparando-os com os humanos.
+@101 m literatura/pre-modernismo-ao-contemporaneo v
+x: Enquanto os irmãos brincam na lama, provam do fogo e se jogam na cama, a voz feminina fica fechada, cozinhando, servindo e é "afiançada por dote e marido". O poema mostra que os papéis dados a homens e mulheres geram liberdades e realizações desiguais.
+@102 m literatura/pre-modernismo-ao-contemporaneo v
+x: O "sedutor médio" propõe juntar rendas e ser "meio felizes": o casamento vira um negócio morno. O adjetivo "médio" e o advérbio "meio" ironizam os valores de uma vida acomodada.
+@103 f portugues/funcoes-generos-e-variacao
+x: O leitor elogia a reportagem, mas diz que ela tratou de separações de gente rica e sugere conselhos mais básicos. Ele rebate o enfoque da reportagem e propõe novas ideias.
+@104 f portugues/funcoes-generos-e-variacao
+x: O texto apresenta o SendLater, extensão que permite agendar o envio de e-mails no Thunderbird. O objetivo é divulgar um produto que amplia a função de um recurso de comunicação.
+@105 m portugues/interpretacao-de-texto
+x: A frase brinca com o ditado "lugar de mulher é na cozinha" e é sustentada pelos números: de 5 alunas em 2005 para 79. Ela serve para mostrar que a situação das mulheres mudou na sociedade atual.
+@107 m portugues/semantica-e-figuras-de-linguagem
+x: O personagem para de beber álcool, mas passa a "beber" paisagens, músicas e quadros. O verbo ganha sentido figurado (metáfora), e por isso a morte por "etilismo abstrato" soa irônica.
+@108 d literatura/pre-modernismo-ao-contemporaneo v
+x: O verso final, "Sou um tupi tangendo um alaúde", junta o indígena (o primitivo, o nacional) ao alaúde, instrumento europeu (o civilizado). Essa mistura antecipa a síntese que Oswald de Andrade proporia com a Antropofagia.
+@109 m portugues/interpretacao-de-texto
+x: O menino se pergunta se terá de mudar de nome, corpo e jeito ao crescer e conclui que não quer "ser" o que esperam dele. O conflito é entre o padrão imposto e o desejo de ser autêntico.
+@110 d literatura/pre-modernismo-ao-contemporaneo
+x: O personagem acha que manipula os outros como um titereiro, mas o narrador o mostra como "títere voluntário", que se desarticula conforme a conveniência. A crítica está nessa imagem do fantoche que pensa dominar os jogos de poder da linguagem.
+@111 d portugues/semantica-e-figuras-de-linguagem
+x: Os jornais velhos viram papel de embrulhar peixe: a metáfora indica que muito tempo passou entre as duas datas do diário (1912 e 1919). A relação entre os fragmentos é de tempo.
+@113 m artes/artes-e-educacao-fisica v
+x: A canção mostra que, durante os noventa minutos, a fome, o salário e a vida "ficam lá fora". O futebol aparece como algo que faz esquecer os problemas, levando à reflexão sobre a alienação.
+@115 m portugues/funcoes-generos-e-variacao
+s: Antigamente Antigamente, => Antigamente || Antigamente,
+s: Palavras do arco da velha Expressão Significado Cair nos braços de Morfeu Dormir Debicar Zombar, ridicularizar Tunda Surra Mangar Escarnecer, caçoar Tugir Murmurar Liró Bem-vestido Copo d’água Lanche oferecido pelos amigos Convescote Piquenique Bilontra Velhaco Treteiro de topete Tratante atrevido Abrir o arco Fugir => Palavras do arco da velha — Quadro (expressão: significado): Cair nos braços de Morfeu: dormir. Debicar: zombar, ridicularizar. Tunda: surra. Mangar: escarnecer, caçoar. Tugir: murmurar. Liró: bem-vestido. Copo d’água: lanche oferecido pelos amigos. Convescote: piquenique. Bilontra: velhaco. Treteiro de topete: tratante atrevido. Abrir o arco: fugir.
+x: Palavras comuns no passado, como "tunda" e "debicar", hoje quase não são usadas. Isso mostra que o vocabulário da língua muda com o tempo: é variável e diversificado.
+@116 f portugues/semantica-e-figuras-de-linguagem
+e: Tirinha de Hagar (Dik Browne). No barco, as falas são: “Veja quantos tubarões estão seguindo a gente!” e, de Hagar, “É como se eles soubessem que algo ruim vai acontecer!” || > BROWNE, D. Folha de S. Paulo, 13 ago. 2011. || As palavras e as expressões são mediadoras dos sentidos produzidos nos textos. Na fala de Hagar, a expressão “é como se” ajuda a conduzir o conteúdo enunciado para o campo da
+x: "É como se" introduz uma hipótese: Hagar não sabe se os tubarões preveem algo, mas supõe isso pela presença deles. A expressão leva para o campo da possibilidade.
+@117 m portugues/funcoes-generos-e-variacao
+x: O autor brinca com "voltou de ateu", "disilimina esse" e "eu não sei a ler" e diz que buscar a beleza nas palavras pode ser "instrumento de rir". Ele valoriza o lado lúdico e poético do uso coloquial da língua.
+@118 m literatura/pre-modernismo-ao-contemporaneo
+x: Policarpo acreditava no tupi, na terra fértil e na doçura do povo, e se decepciona com tudo. Conclui que a pátria que imaginou "era um mito". A construção da pátria sobre ideias míticas leva à frustração.
+@119 d portugues/interpretacao-de-texto
+x: O autor diz que a tecnologia multiplicou as notícias, mas as pessoas não conseguem absorver tudo. A oferta de informação não combina com o tempo que o público tem para "digerir" tanto conteúdo.
+@120 m portugues/funcoes-generos-e-variacao
+x: O Texto I diz que o rádio usa linguagem simples e conversa com o ouvinte. A canção imita um locutor que fala direto com o público ("leva até vocês", "Arlindo Orlando, volte"), com o estilo típico do rádio.
+@121 d literatura/pre-modernismo-ao-contemporaneo v
+x: Cecília Meireles mostra que as palavras podem ser amor, calúnia, liberdade ou veneno, e que "reis, impérios, povos" giram pelo impulso delas. As relações humanas dependem do significado e da força das palavras.
+@122 d literatura/pre-modernismo-ao-contemporaneo
+x: O poema parodia o Salmo ("O Senhor é meu pastor"), mas o "pastor" é Pote Cru, que vive entre trapos, restos e ruínas. O eu lírico o segue na valorização do que é pequeno e insignificante, marca da poesia de Manoel de Barros.
+@125 m portugues/funcoes-generos-e-variacao
+x: O autor reconhece que "varreção" seria um erro num vestibular, ou seja, numa situação formal de escrita. Ele admite a necessidade da norma padrão nesses contextos.
+@126 d literatura/pre-modernismo-ao-contemporaneo
+x: Em 1972, em plena ditadura, o poeta usa morcegos, hienas, um "porco de radar" e "centuriões sentinelas" para representar a vigilância e a violência do regime. São alegorias fortes da opressão.
+@127 f portugues/funcoes-generos-e-variacao
+x: O cronista fala de si mesmo: está nervoso, zangado, sem clima para escrever. O foco está no emissor e em suas emoções, o que caracteriza a função emotiva.
+@128 m portugues/funcoes-generos-e-variacao
+x: Bagno defende os usos brasileiros, mas escreve na norma padrão porque a entrevista, publicada por uma editora, pede linguagem formal. Ele adequa a linguagem à situação.
+@129 m portugues/funcoes-generos-e-variacao
+x: Todas as línguas podem, em teoria, expressar qualquer conteúdo, mas na prática cada uma tem o vocabulário que sua cultura desenvolveu. O texto destaca essas diferenças de léxico ligadas à cultura de cada comunidade.
+@130 d portugues/funcoes-generos-e-variacao
+x: A autora mostra que "ter" e "haver" conviveram por séculos e que "um purismo estreito só revela um conhecimento deficiente da língua". Para ela, o purismo atrapalha a compreensão de como a língua se forma.
+@134 f portugues/interpretacao-de-texto
+x: O texto apresenta Alencar como alguém que "acabou inventando o Brasil" com romances nativistas e indianistas. Digitalizar sua obra ajuda a preservar a memória da língua e a identidade nacional.
+@135 f portugues/funcoes-generos-e-variacao
+x: O relato tem "passeá", "brincá", reticências marcando pausas, hesitações ("a::...") e risos: é linguagem informal, típica da fala, entrecortada por pausas.

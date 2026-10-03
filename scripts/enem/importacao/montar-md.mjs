@@ -72,7 +72,7 @@ function formatar(t, natureza) {
   t = t.replace(/(^|[\s\d/·⋅(])((?:c|d|k|m)?m)([23])(?![\w\d])/g, (_, a, u, n) => a + u + SUP[n]);
   t = t.replace(/\/s2(?![\w\d])/g, '/s²');
   t = t.replace(/\b(mol|K|L|s|g|kg|h|J|cm|mL|m)−(\d)(?![\d,])/g, (_, u, n) => u + '⁻' + SUP[n]);
-  t = t.replace(/([²³]) ([,.;:)])/g, '$1$2');
+  t = t.replace(/([²³]) ([,.;:)?])/g, '$1$2');
   if (!natureza) return t;
   t = t.replace(/\b[A-Z][A-Za-z0-9]*\b/g, (m) => formula(m) ?? m);
   t = t.replace(/(\([A-Z][A-Za-z]*\))(\d)/g, (_, g, n) => g + SUB[n]);
