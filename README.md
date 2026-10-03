@@ -6,8 +6,8 @@ Aplicativo de celular (Android/iOS, também roda no navegador) para estudar todo
 
 Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destrava níveis mais difíceis.
 
-- **4.461 questões** em **106 tópicos** de **20 disciplinas**
-- **548 questões oficiais do ENEM** (provas de 2018, 2019, 2020, 2022 e 2023, publicadas pelo INEP), com o gabarito
+- **4.564 questões** em **110 tópicos** de **20 disciplinas**
+- **651 questões oficiais do ENEM** (provas de 2017 a 2023, exceto 2021, publicadas pelo INEP), com o gabarito
   oficial, classificadas por assunto: elas aparecem também dentro de cada tópico (por exemplo, "Funções")
 - As questões de cálculo não repetem enunciado: cada modelo gera uma questão diferente, e a explicação
   diz qual **ferramenta** da matemática resolve o problema e por quê
@@ -43,7 +43,7 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 
 | Área | Disciplinas |
 |---|---|
-| Provas anteriores | ENEM — provas oficiais (2018 a 2023, exceto 2021: Matemática, Natureza, Humanas e Linguagens) |
+| Provas anteriores | ENEM — provas oficiais (2017 a 2023, exceto 2021: Matemática, Natureza, Humanas e Linguagens) |
 | Matemática | Matemática (17 tópicos), Matemática Financeira |
 | Ciências da Natureza | Física, Química, Biologia |
 | Ciências Humanas | História, Geografia, Filosofia, Sociologia |
@@ -62,8 +62,8 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
   - **Questões teóricas** (humanas, linguagens, biologia, concursos) foram escritas à mão em Markdown.
     As alternativas são embaralhadas de forma equilibrada, para que o gabarito não se concentre em uma
     letra.
-- **Questões oficiais do ENEM:** a pasta `conteudos/enem-oficial/` traz questões das provas de 2018,
-  2019, 2020, 2022 e 2023 publicadas pelo INEP, com o texto, a ordem das alternativas e o gabarito oficiais. Cada
+- **Questões oficiais do ENEM:** a pasta `conteudos/enem-oficial/` traz questões das provas de 2017,
+  2018, 2019, 2020, 2022 e 2023 publicadas pelo INEP, com o texto, a ordem das alternativas e o gabarito oficiais. Cada
   uma traz a fonte (dia, caderno e número da questão) e a linha `**Assunto:**`, que a coloca também
   dentro do tópico certo do conteúdo. Foram incluídas só as questões que podem ser resolvidas sem
   figuras, gráficos ou mapas (quadros com números foram escritos em texto). As explicações foram
