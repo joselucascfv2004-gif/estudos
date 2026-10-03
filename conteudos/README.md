@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**5022 questões** em **126 tópicos**.
+**5148 questões** em **130 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 1109 questões
+## ENEM — provas oficiais — 1235 questões
 
 *Provas anteriores*
 
@@ -271,3 +271,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2025 — Ciências da Natureza](enem-oficial/38-enem-2025-ciencias-da-natureza.md) | ENEM | 15 | 9 | 4 |
 | [ENEM 2025 — Linguagens](enem-oficial/39-enem-2025-linguagens.md) | ENEM | 18 | 10 | 1 |
 | [ENEM 2025 — Ciências Humanas](enem-oficial/40-enem-2025-ciencias-humanas.md) | ENEM | 25 | 12 | 4 |
+| [ENEM 2024 — Matemática](enem-oficial/41-enem-2024-matematica.md) | ENEM | 13 | 10 | 2 |
+| [ENEM 2024 — Ciências da Natureza](enem-oficial/42-enem-2024-ciencias-da-natureza.md) | ENEM | 13 | 9 | 1 |
+| [ENEM 2024 — Linguagens](enem-oficial/43-enem-2024-linguagens.md) | ENEM | 15 | 17 | 4 |
+| [ENEM 2024 — Ciências Humanas](enem-oficial/44-enem-2024-ciencias-humanas.md) | ENEM | 26 | 15 | 1 |

@@ -1,0 +1,186 @@
+## 43-enem-2024-linguagens.md | 2024 | 1 | 1º dia, caderno azul | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2024 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2024 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Imagens citadas nas questões foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
+- **Variação linguística:** regional (amazonês, maranhês), ocupacional (termos de uma profissão) e de identidade (línguas de grupos, como a da Tabatinga).
+- **Funções da linguagem:** referencial é informar; poética é chamar a atenção para a própria linguagem.
+- **Literatura:** Romantismo (Senhora: casamento e dinheiro), Realismo (Machado: ironia sobre a elite), Modernismo (Graciliano: escrever como se fala).
+- **Gêneros:** resenha avalia uma obra; crônica parte do cotidiano; reportagem informa.
+- **Educação física:** saúde mental de atletas, inclusão, mulheres nas lutas e esporte como prática cultural.
+
+@6 f portugues/funcoes-generos-e-variacao
+s: retratados em livro e em camisetas “Na linguagem => retratados em livro e em camisetas || “Na linguagem
+x: O livro registra mais de mil expressões do falar amazonense, e as camisetas usam essas expressões para "resgatar o orgulho do povo". As duas iniciativas valorizam o repertório linguístico do Amazonas.
+@7 f artes/artes-e-educacao-fisica
+s: durante a carreira esportiva Jane Karla: => durante a carreira esportiva || Jane Karla:
+x: Os pequenos textos contam como cada atleta paralímpica começou, trocou de modalidade e conquistou medalhas. O propósito é destacar a trajetória dessas atletas.
+@9 f artes/artes-e-educacao-fisica
+x: Os casos citados (como o de Naomi Osaka) mostram atletas abalados pela pressão dos grandes eventos, pela fama e pela imprensa. A causa é a pressão constante dos eventos e da mídia.
+@10 f portugues/interpretacao-de-texto
+x: O autor diz que, enquanto as redes sociais dispersam e desinformam, os podcasts permitem imersão, concentração e aprendizado. O podcast ajuda a divulgar conhecimento.
+@13 f portugues/funcoes-generos-e-variacao
+x: O texto apresenta fatos e dados sobre como a falta de absorventes afeta a saúde e os estudos das adolescentes. Informar o leitor é a função referencial.
+@14 f portugues/funcoes-generos-e-variacao
+x: O texto mostra que o jeito de falar do Maranhão é parte da identidade das pessoas e circula em podcasts e blogs. As variedades regionais fazem parte do português brasileiro.
+@15 f portugues/interpretacao-de-texto
+s: nem todos estão preparados A telemedicina => nem todos estão preparados || A telemedicina
+x: O texto destaca que o atendimento a distância supera barreiras geográficas e leva serviços médicos a quem mora em áreas remotas ou sem especialistas, os "vazios assistenciais".
+@17 f portugues/interpretacao-de-texto
+x: A influenciadora postou fotos de modelos brancas e o alcance subiu 6 000%. O número serve para comprovar que o alcance nas redes depende da cor da pele de quem aparece, ou seja, há viés racial.
+@26 f artes/artes-e-educacao-fisica
+x: O texto mostra que as mulheres ocupam cada vez mais as lutas, mas a pesquisa aponta menos participação delas na escola, porque as lutas ainda são vistas como prática masculina.
+@32 f literatura/pre-modernismo-ao-contemporaneo
+x: Apesar das dificuldades da velhice, a narradora destaca o cuidado de Marília: a manta nos ombros e o aperto forte, que ela entende como carinho. O centro do trecho é o afeto construído pela convivência.
+@34 f portugues/funcoes-generos-e-variacao
+x: Antes do aplicativo, era difícil escrever as letras e acentos das línguas indígenas no computador. O Linklado facilita esse registro escrito, democratizando a escrita das línguas dos povos originários.
+@40 f artes/artes-e-educacao-fisica
+x: Rivalidade, torcida, títulos e gritos de guerra são elementos típicos do esporte. O festival de Parintins aproxima a manifestação folclórica do mundo esportivo.
+@41 f portugues/interpretacao-de-texto
+x: A reportagem lista os sinais que indicam a doença nos homens: histórico familiar, alterações hormonais, caroços e retração da pele. É um alerta sobre os sinais da doença.
+@44 f artes/artes-e-educacao-fisica
+x: O texto diz que a inclusão de vôlei de praia, BMX e break dance acompanha o modo como os jovens se exercitam e se divertem hoje. O esporte se adapta às demandas do seu tempo.
+@45 f portugues/interpretacao-de-texto
+s: o impacto na educação das crianças Há quem diga => o impacto na educação das crianças || Há quem diga
+x: A reportagem mostra crianças compartilhando memes sem entender o que havia por trás deles e defende o letramento midiático. A crítica é à divulgação de informação manipulada nas redes.
+@8 m artes/artes-e-educacao-fisica
+x: O cavaquinho veio de Portugal, mas no Brasil ganhou outro tamanho e outros usos; o mesmo acontece com os outros instrumentos citados. Eles se adaptam a cada cultura e ganham nova identidade.
+@11 m portugues/funcoes-generos-e-variacao
+x: Mesmo em perguntas pessoais, Bechara usa um tom técnico e comenta palavras como um filólogo ("Esse 'reportado' é uma importação"). Usar os termos da própria profissão é a variedade ocupacional.
+@12 m portugues/funcoes-generos-e-variacao
+x: A língua foi estigmatizada, mas continua viva porque os moradores passaram a reconhecê-la como parte da sua identidade. O que a preserva é o sentimento de identidade linguística.
+@16 m artes/artes-e-educacao-fisica
+x: O texto cita artistas com origens diferentes (um iniciado no candomblé desde o nascimento, outro argentino naturalizado) cujas obras nascem da convivência com a cultura negra. A arte afro-brasileira une experiências pessoais e referências africanas de forma complexa.
+@18 m artes/artes-e-educacao-fisica
+x: O estudo mostra que as famílias de baixa renda foram as mais afetadas, com menos espaços seguros para se exercitar. A visão ampliada de saúde considera os fatores socioeconômicos.
+@20 m portugues/semantica-e-figuras-de-linguagem
+x: A crônica inteira gira em torno da palavra "coisa", repetida e retomada em formas como "coisinha". A repetição dessa palavra é o que dá unidade ao texto.
+@21 m artes/artes-e-educacao-fisica
+s: || TEXTO II || Diadema (etnia Kayapó). Estados do Mato Grosso e Pará. Museu de Arte Indígena, s.d. || Disponível em: www.maimuseu.com.br. Acesso em: 11 jul. 2024. =>
+s: TEXTO I || A linguagem visual => A linguagem visual
+x: O texto diz que o uso dos adornos indica prestígio, direitos e deveres, e que cada pessoa só pode usar os da sua linhagem. Os objetos estão ligados ao papel de cada indivíduo na comunidade.
+@23 m portugues/morfologia-e-sintaxe
+x: O autor elogia a série, mas faz ressalvas com palavras como "mas" ("mas os defeitos que existem aqui sempre existiram", "mas nunca souberam"). As expressões adversativas introduzem as críticas.
+@24 m literatura/pre-modernismo-ao-contemporaneo
+x: Paulo Honório critica Gondim por escrever de forma rebuscada, "pernóstica", e Gondim defende que não se escreve como se fala. O debate opõe o preciosismo da linguagem à fala do dia a dia.
+@27 m portugues/interpretacao-de-texto
+x: Ao dizer "Sinto que é mais complicado ser jovem hoje", a autora se coloca no lugar dos jovens e mostra que entende suas dificuldades. Essa é a postura de empatia.
+@29 m literatura/pre-modernismo-ao-contemporaneo
+x: O narrador percebe que o termo "filho adotivo" é aceito socialmente porque disfarça um passado que as pessoas veem como problemático. A adoção aparece ligada a visões estigmatizadas da família.
+@31 m literatura/quinhentismo-ao-simbolismo
+x: No último baile do Império, às vésperas da República, Flora se encanta com a festa e sonha com o poder da princesa. O narrador ironiza a alienação da elite, que dançava sem perceber o fim da monarquia.
+@35 m literatura/quinhentismo-ao-simbolismo
+x: Aurélia diz que "comprou" o marido, que se casou por dinheiro. O romance de Alencar critica a interferência da riqueza no amor e no casamento.
+@37 m portugues/semantica-e-figuras-de-linguagem
+s: este texto é pra você Às vezes => este texto é pra você || Às vezes
+x: A autora retoma versos de canções conhecidas, como "metamorfose ambulante" e "levanta, sacode a poeira, dá a volta por cima". Usar trechos de outras obras é a intertextualidade.
+@38 m literatura/pre-modernismo-ao-contemporaneo v
+x: As pessoas viajam e se livram dos pertences "como se pudessem chegar a algum lugar onde elas mesmas não estivessem". O deslocamento é uma tentativa de fugir de si mesmas.
+@39 m portugues/funcoes-generos-e-variacao
+x: Adoniran escrevia como o povo falava ("Arnesto", "Tiro ao Álvaro"), fugindo da norma-padrão de propósito. Chamar isso de "falar errado" é um preconceito contra quem não segue a norma.
+@42 m literatura/pre-modernismo-ao-contemporaneo v
+x: Mesmo tendo forma de carta e de receita, o texto é um poema por causa da linguagem expressiva: versos rimados, imagens ("feliz, de molho", "desmilinguindo-se de gozo") e humor.
+@19 d literatura/quinhentismo-ao-simbolismo
+x: A moça rica compara sua vida confortável à de Sancha, menina negra que trabalha sem descanso e sem pagamento. O trecho, escrito após a abolição, critica a exploração do trabalho da população negra.
+@22 d literatura/pre-modernismo-ao-contemporaneo v
+x: O rapper diz que sua palavra "vale um tiro" e que tem "muita munição": a própria palavra vira arma. A violência aparece na linguagem que fala de si mesma (metalinguagem), como forma de combate.
+@28 d literatura/pre-modernismo-ao-contemporaneo
+x: O autor conta, de forma pessoal, como conheceu Capitu e se indignou com Bentinho. No fim, explica a escolha do livro: dar voz a Capitu, que narra a história "além-túmulo".
+@30 d literatura/pre-modernismo-ao-contemporaneo
+x: Graciliano defende a arte que mostra a miséria e incomoda; Prata critica a arte que só confirma certezas e diz que a arte deve abalar o público. Os dois defendem uma arte que desestabiliza.
+
+## 44-enem-2024-ciencias-humanas.md | 2024 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2024 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2024 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Filosofia:** Aristóteles (eudaimonia e virtude como prática), Kant (imperativo categórico), Russell (o peru indutivista), Quine e Carnap (linguagem e conhecimento), Deleuze (rizoma), Fricker (injustiça epistêmica).
+- **História:** Las Casas e os indígenas, Chiquinha Gonzaga e o abolicionismo, República e modernização, Mães da Praça de Maio.
+- **Geografia:** zonas de subducção (Andes), transpiração das florestas e chuvas, fluxos no território, adaptação climática das cidades.
+- **Sociologia:** indústria cultural (Adorno e Horkheimer), globalização e identidades (Stuart Hall), espaços públicos e democracia.
+
+@47 f historia/brasil-republica
+x: O texto compara a saúde pública a um exército, com oficiais (técnicos graduados) e auxiliares abaixo deles. A mensagem é de hierarquia entre as profissões.
+@48 f geografia/biomas-e-questoes-ambientais
+x: A lama destruiu as casas e as histórias dos moradores, que tiveram de deixar tudo para trás. O desastre rompeu os laços afetivos das pessoas com o lugar onde viviam.
+@50 f historia/brasil-colonia
+x: Os colonizadores odiavam Las Casas porque as novas leis tiravam deles os indígenas escravizados; os indígenas e oprimidos o amavam como seu defensor.
+@52 f sociologia/temas-contemporaneos
+x: O movimento quer incluir todas as pessoas negras: homossexuais, transexuais, pessoas com deficiência, mulheres, sem documentos. É integrar a diversidade dentro do próprio grupo.
+@54 f filosofia/filosofia-moderna-e-contemporanea
+x: Quando o preconceito faz alguém ter menos credibilidade como falante, o seu conhecimento é desvalorizado. Essa é a injustiça epistêmica, ligada ao conhecimento e à troca de informações.
+@56 f historia/brasil-colonia
+x: O ritual de candomblé (axexê) segue regras transmitidas entre gerações para honrar o morto. Para os praticantes, mantém viva a memória coletiva do grupo.
+@57 f sociologia/temas-contemporaneos
+x: O texto diz que os espaços públicos são lugares onde os conflitos aparecem e viram debate e diálogo. Isso é essencial para a democracia.
+@59 f historia/antiguidade-e-idade-media
+x: O texto diz que as universidades são a maior realização intelectual da Idade Média: guardam a tradição e produzem conhecimento científico.
+@60 f geografia/economia-agropecuaria-industria-energia
+x: Os seringueiros criaram as reservas extrativistas a partir da própria experiência no lugar. A nova racionalidade se apoia em valores e decisões das comunidades locais.
+@63 f sociologia/sociologia-classica
+x: Para Adorno e Horkheimer, a indústria cultural faz as pessoas se sentirem livres e únicas, mas as trata como massa. É um mecanismo de controle social.
+@64 f historia/brasil-imperio
+x: Chiquinha Gonzaga lutou pelo fim da escravidão, e o outro autor escreveu um dos primeiros poemas antiescravistas. Os dois participaram do movimento abolicionista.
+@65 f sociologia/temas-contemporaneos
+x: A globalização torna as identidades mais plurais e políticas, abrindo espaço para novas formas de identificação. Isso fortalece as pautas das minorias.
+@67 f geografia/economia-agropecuaria-industria-energia
+x: A internet liga pequenos produtores da floresta a mercados maiores e a novas formas de financiamento. Isso valoriza a economia local dessas comunidades.
+@69 f historia/idade-moderna
+x: Mary Wollstonecraft critica a educação que forma as mulheres só para seduzir e pede que elas sejam respeitadas como seres racionais. Ela reivindica a valorização do papel social da mulher.
+@70 f geografia/populacao-e-urbanizacao
+x: Vias rápidas, estacionamentos, transportes, portos e ferrovias servem para que pessoas e mercadorias circulem mais depressa. O território se enche de objetos para acelerar os fluxos.
+@71 f geografia/biomas-e-questoes-ambientais
+x: O texto mostra que a pressão das conferências da ONU (organismos internacionais) e das empresas e entidades brasileiras levou o país a assumir metas maiores.
+@72 f filosofia/filosofia-moderna-e-contemporanea
+x: Como a pessoa com deficiência está em posição de vulnerabilidade, a ética deve se basear no cuidado, na proteção e na valorização de cada indivíduo.
+@74 f historia/brasil-colonia
+x: O Círio de Nazaré é uma festa religiosa e popular, um bem imaterial (feito de práticas e saberes). Por isso foi registrado como patrimônio cultural imaterial.
+@75 f historia/idade-moderna
+x: Os salões eram fechados e reuniam os filósofos com a elite; os cafés eram abertos a todos. Esses espaços separavam os pensadores em grupos, mas faziam as ideias circularem.
+@79 f geografia/geopolitica-e-globalizacao
+x: A fronteira entre "desejáveis" e "indesejáveis" deixa o refugiado inseguro e excluído. Para eliminá-la, são necessárias políticas que integrem os refugiados à economia e à sociedade.
+@81 f historia/ditadura-e-redemocratizacao
+x: A Constituição de 1988 reconheceu o direito dos quilombolas às suas terras. Os quilombos passaram a ser alvo de políticas de inserção social.
+@83 f geografia/cartografia
+x: O autor diz que os mapas sempre serviram à dominação e ao poder de uma minoria. São instrumentos para sustentar o controle do território.
+@85 f historia/seculo-xx
+x: As mães buscavam os filhos desaparecidos durante a ditadura militar argentina. O movimento mostrou ao mundo a violação dos direitos humanos.
+@87 f filosofia/filosofia-moderna-e-contemporanea
+x: O texto diz que, na democracia, o poder público pertence à coletividade dos cidadãos: "mandemos todos". É a soberania popular.
+@88 f geografia/populacao-e-urbanizacao
+x: Parques são soluções baseadas na natureza: o solo sem asfalto absorve a chuva e a vegetação diminui o calor. Ajudam contra enchentes e ondas de calor.
+@89 f geografia/geopolitica-e-globalizacao
+x: Só cinco países têm assento permanente e poder de veto no Conselho de Segurança. Isso mostra que o poder entre os países é desigual: assimetria política.
+@46 m geografia/geografia-fisica
+s: || Terremoto de magnitude 5,9 atinge Valparaíso, no Chile. || Disponível em: => || > Terremoto de magnitude 5,9 atinge Valparaíso, no Chile. Disponível em:
+s: || Tremor de terra de magnitude 4,8 é registrado no interior do Amazonas. Disponível em: => || > Tremor de terra de magnitude 4,8 é registrado no interior do Amazonas. Disponível em:
+s: || Moradores do interior de SP relatam tremores de terra. || Disponível em: => || > Moradores do interior de SP relatam tremores de terra. Disponível em:
+x: Valparaíso fica perto do encontro da placa de Nazca com a Sul-Americana (zona de subducção), onde os terremotos são fortes. O Amazonas sente reflexos dessa mesma placa, mais longe, e o interior de São Paulo fica no meio da placa. A distância das zonas de subducção explica as diferenças.
+@49 m historia/brasil-republica
+x: Na virada do século, a luz elétrica, o telefone e o bonde elétrico eram vistos como sinais de progresso. A recém-proclamada República usou essa modernização como símbolo do seu projeto de nação.
+@51 m historia/idade-moderna
+x: O texto diz que a aristocracia francesa abandonou a valsa no século XVI "por sua estreita relação com a cultura plebeia". Ela foi rejeitada por ter origem popular.
+@55 m filosofia/filosofia-antiga-e-medieval
+x: O texto separa a alma (que escapa, dura, é luminosa) do corpo (que apodrece). Essa separação entre alma e corpo é o pensamento dualista, dicotômico.
+@58 m filosofia/filosofia-antiga-e-medieval
+x: Para Aristóteles, a felicidade é uma atividade: tirar de si o melhor ao longo da vida, praticando as virtudes. As ações virtuosas vêm do aperfeiçoamento das condutas.
+@61 m filosofia/filosofia-moderna-e-contemporanea
+x: A personagem sabe que não vai envelhecer e sente falta do futuro, das coisas que não verá de novo. Ela reflete sobre a finitude humana, a consciência de que a vida acaba.
+@66 m historia/seculo-xx
+x: A pílula chegou junto com a preocupação com o crescimento da população e com a modernização. Isso aumentou o debate público sobre o planejamento familiar.
+@68 m geografia/biomas-e-questoes-ambientais
+x: As árvores lançam muita água na atmosfera pela transpiração, que vira chuva. Com o desmatamento, há menos umidade e diminuem as chuvas convectivas na região.
+@73 m literatura/pre-modernismo-ao-contemporaneo, artes/artes-e-educacao-fisica
+x: Como os clichês demoravam a chegar, os artesãos passaram a fazer as capas dos cordéis em xilogravura. Isso renovou a estética das publicações, a aparência dos folhetos.
+@76 m filosofia/filosofia-moderna-e-contemporanea
+x: O rizoma não tem centro nem hierarquia e conecta qualquer ponto a qualquer outro. Na cultura atual, isso se parece com a pluralidade de interações, como nas redes.
+@78 m filosofia/filosofia-moderna-e-contemporanea
+x: "Trate os outros como gostaria de ser tratado" se aproxima do imperativo categórico de Kant: agir de modo que a regra da sua ação possa valer para todos.
+@80 m sociologia/temas-contemporaneos
+x: Nos dois países, as novelas brasileiras foram muito vistas e passaram a influenciar comportamentos e até o comércio. A aproximação é cultural.
+@82 m filosofia/filosofia-moderna-e-contemporanea
+x: O peru observa muitos casos particulares (comida às 9 h) e conclui uma regra geral. É o raciocínio indutivo, que Russell critica: no Natal, o peru é morto.
+@84 m historia/brasil-imperio
+x: O regatão levava mercadorias de barco a comunidades isoladas e fazia comércio com indígenas e ribeirinhos. Assim criava laços e redes de convivência no interior da Amazônia.
+@90 m sociologia/sociologia-classica
+x: O capitalismo precisa da iniciativa e da inteligência dos trabalhadores, mas ao mesmo tempo tenta transformá-los em peças de máquina. Essa contradição está ligada à alienação produzida pela organização do trabalho.
+@62 d filosofia/filosofia-moderna-e-contemporanea
+x: Carnap defende que só enunciados com conteúdo factual têm sentido; Quine critica justamente essa divisão e o reducionismo à experiência. Eles divergem sobre o valor de conhecimento da linguagem.

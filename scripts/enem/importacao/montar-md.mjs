@@ -74,9 +74,11 @@ function formatar(t, natureza) {
   t = t.replace(/\b(mol|K|L|s|g|kg|h|J|cm|mL|m)−(\d)(?![\d,])/g, (_, u, n) => u + '⁻' + SUP[n]);
   if (!natureza) return t;
   t = t.replace(/\b[A-Z][A-Za-z0-9]*\b/g, (m) => formula(m) ?? m);
+  t = t.replace(/(\([A-Z][A-Za-z]*\))(\d)/g, (_, g, n) => g + SUB[n]);
   // cargas: Al3+ (aq), S2− (aq), H+ (aq), e−
   t = t.replace(/([A-Za-z₀-₉)])(\d?)([+−])(?=[\s),.;]|$)/g, (_, a, n, sinal) => a + (n ? SUP[n] : '') + SUP[sinal]);
-  return t;
+  // o PDF deixa um espaço depois de índices: "Ca(OH)₂ ," → "Ca(OH)₂,"
+  return t.replace(/([₀-₉⁰-⁹⁺⁻]) ([,.;)])/g, '$1$2');
 }
 
 for (const a of arquivos) {
