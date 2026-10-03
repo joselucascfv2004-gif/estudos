@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4123 questões** em **94 tópicos**.
+**4236 questões** em **98 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 210 questões
+## ENEM — provas oficiais — 323 questões
 
 *Provas anteriores*
 
@@ -239,3 +239,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2022 — Ciências da Natureza](enem-oficial/06-enem-2022-ciencias-da-natureza.md) | ENEM | 9 | 16 | 4 |
 | [ENEM 2022 — Ciências Humanas](enem-oficial/07-enem-2022-ciencias-humanas.md) | ENEM | 10 | 17 | 3 |
 | [ENEM 2022 — Linguagens](enem-oficial/08-enem-2022-linguagens.md) | ENEM | 8 | 15 | 3 |
+| [ENEM 2020 — Matemática](enem-oficial/09-enem-2020-matematica.md) | ENEM | 5 | 12 | 2 |
+| [ENEM 2020 — Ciências da Natureza](enem-oficial/10-enem-2020-ciencias-da-natureza.md) | ENEM | 13 | 10 | 4 |
+| [ENEM 2020 — Ciências Humanas](enem-oficial/11-enem-2020-ciencias-humanas.md) | ENEM | 8 | 26 | 3 |
+| [ENEM 2020 — Linguagens](enem-oficial/12-enem-2020-linguagens.md) | ENEM | 9 | 13 | 8 |
