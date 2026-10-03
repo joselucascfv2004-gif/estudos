@@ -415,7 +415,32 @@ function priorizar(p: Progresso, qs: Questao[], quantidade: number): Questao[] {
     else resto.push(q);
   }
   resto.sort((a, b) => (p.questoes[a.id].ultima < p.questoes[b.id].ultima ? -1 : 1));
-  return [...embaralhar(nunca), ...embaralhar(erradas), ...resto].slice(0, quantidade);
+  return semModeloRepetido([...embaralhar(nunca), ...embaralhar(erradas), ...resto], quantidade);
+}
+
+/**
+ * Escolhe `quantidade` questões na ordem de prioridade, evitando duas do mesmo modelo de enunciado
+ * na mesma lição (só repete modelo se não houver outra opção).
+ */
+export function semModeloRepetido(qs: Questao[], quantidade: number): Questao[] {
+  const escolhidas: Questao[] = [];
+  const modelos = new Set<string>();
+  const adiadas: Questao[] = [];
+  for (const q of qs) {
+    if (escolhidas.length >= quantidade) break;
+    const chave = q.m ? `${q.id.split('#')[0]}~${q.m}` : null;
+    if (chave && modelos.has(chave)) {
+      adiadas.push(q);
+      continue;
+    }
+    if (chave) modelos.add(chave);
+    escolhidas.push(q);
+  }
+  for (const q of adiadas) {
+    if (escolhidas.length >= quantidade) break;
+    escolhidas.push(q);
+  }
+  return escolhidas;
 }
 
 export function montarLicaoTopico(p: Progresso, topicoId: string, nivel: Nivel): Questao[] {

@@ -1,7 +1,7 @@
 ---
 titulo: Equações, inequações e sistemas
 provas: ENEM, Militares, Concursos
-descricao: Equações do 1º e 2º grau, sistemas lineares, inequações e problemas.
+descricao: Equações do 1º e 2º grau, sistemas lineares, inequações, módulo e problemas com texto.
 fonte: Questão inédita gerada por computador (gabarito calculado)
 ---
 
@@ -9,7 +9,7 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 # Equações, inequações e sistemas
 
-Equações do 1º e 2º grau, sistemas lineares, inequações e problemas.
+Equações do 1º e 2º grau, sistemas lineares, inequações, módulo e problemas com texto.
 
 ## Resumo
 
@@ -24,7 +24,106 @@ Equações do 1º e 2º grau, sistemas lineares, inequações e problemas.
 ## Fácil
 
 ### 1
-Qual é a solução da equação 9x − 3 = −12?
+<!-- modelo: f12 -->
+O plano A de telefonia cobra R$ 40,00 por mês mais R$ 0,40 por minuto; o plano B não tem mensalidade e cobra R$ 0,90 por minuto. Para quantos minutos de ligação por mês os dois planos custam o mesmo?
+
+- A) 100 min
+- B) 80 min
+- C) 160 min
+- D) 44 min
+- E) 40 min
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: igualar as expressões. Escreva o custo de cada plano em função dos minutos e iguale. 40 + 0,4x = 0,9x ⇒ 0,5x = 40 ⇒ x = 80 min. Acima disso, o plano A fica mais barato.
+
+### 2
+<!-- modelo: f11 -->
+Em uma balança de pratos equilibrada, de um lado há 5 caixas iguais e um peso de 3 kg; do outro, 2 caixas e um peso de 9 kg. Quanto pesa cada caixa?
+
+- A) 6 kg
+- B) 3 kg
+- C) 1,2 kg
+- D) 1,71 kg
+- E) 2 kg
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: balança = equação. Tirar a mesma coisa dos dois pratos mantém o equilíbrio. Tire as caixas que aparecem dos dois lados e os pesos repetidos. 5x + 3 = 2x + 9 ⇒ 3x = 6 ⇒ x = 2 kg.
+
+### 3
+<!-- modelo: f10 -->
+A equação x² − 12x = 0 tem duas raízes. Uma delas é zero. Qual é a outra?
+
+- A) 6
+- B) 144
+- C) 10
+- D) 11
+- E) 12
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: colocar em evidência. Sem termo independente, coloque x em evidência: um produto é zero quando um dos fatores é zero. x(x − 12) = 0 ⇒ x = 0 ou x = 12.
+
+### 4
+<!-- modelo: f9 -->
+Qual é a solução positiva da equação 2x² − 32 = 0?
+
+- A) 2
+- B) 16
+- C) 12
+- D) 8
+- E) 4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: equação do 2º grau incompleta. Sem o termo em x, basta isolar x² e tirar a raiz quadrada (que tem duas respostas, + e −). 2x² = 32 ⇒ x² = 16 ⇒ x = ±4. A positiva é 4.
+
+### 5
+<!-- modelo: f15 -->
+Resolva o sistema { y = 2x ; x + y = 30 } e dê o valor de y.
+
+- A) 21
+- B) 20
+- C) 15
+- D) 12
+- E) 10
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: substituição. Se a primeira equação já diz quanto vale y, troque y por isso na segunda. x + 2x = 30 ⇒ 3x = 30 ⇒ x = 10; y = 2 × 10 = 20.
+
+### 6
+<!-- modelo: f5 -->
+Pedro comprou 6 cadernos iguais e 6 canetas de R$ 5,00 cada, gastando R$ 162,00 no total. Qual é o preço de cada caderno?
+
+- A) R$ 26,17
+- B) R$ 21,00
+- C) R$ 132,00
+- D) R$ 22,00
+- E) R$ 27,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: equação do 1º grau. Separe o que já se sabe (as canetas) e deixe o desconhecido (o caderno) sozinho. 6x + 6 × 5 = 162 ⇒ 6x = 132 ⇒ x = R$ 22,00.
+
+### 7
+<!-- modelo: f13 -->
+A soma de três números pares consecutivos é 120. Qual é o menor deles?
+
+- A) 38
+- B) 42
+- C) 36
+- D) 39
+- E) 40
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: incógnita bem escolhida. Pares consecutivos andam de 2 em 2: x, x + 2 e x + 4. x + (x + 2) + (x + 4) = 120 ⇒ 3x = 114 ⇒ x = 38.
+
+### 8
+<!-- modelo: f1 -->
+Resolva a equação 9x − 3 = −12.
 
 - A) 9
 - B) −1
@@ -34,775 +133,596 @@ Qual é a solução da equação 9x − 3 = −12?
 
 **Resposta:** B
 
-**Explicação:** 9x = −12 + 3 = −9 ⇒ x = −1.
+**Explicação:** Ferramenta: operação inversa. Para isolar x, desfaça as operações na ordem contrária, fazendo o mesmo dos dois lados da igualdade. 9x = −12 + 3 = −9 ⇒ x = −1.
 
-### 2
-A soma de um número com o seu dobro é 39. Que número é esse?
+### 9
+<!-- modelo: f7 -->
+Resolva: x/2 + x/5 = 14.
 
-- A) 19,5
-- B) 37
-- C) 26
-- D) 13
-- E) 15
+- A) 28
+- B) 10
+- C) 20
+- D) 70
+- E) 7
 
-**Resposta:** D
+**Resposta:** C
 
-**Explicação:** x + 2x = 39 ⇒ 3x = 39 ⇒ x = 13.
+**Explicação:** Ferramenta: MMC para eliminar denominadores. Multiplique tudo pelo MMC dos denominadores (10) para trabalhar só com números inteiros. x(1/2 + 1/5) = 14 ⇒ x × 7/10 = 14 ⇒ x = 20.
 
-### 3
-A soma de dois números é 36 e a diferença entre eles é 14. Qual é o maior número?
+### 10
+<!-- modelo: f5 -->
+Natália comprou 3 cadernos iguais e 2 canetas de R$ 4,00 cada, gastando R$ 50,00 no total. Qual é o preço de cada caderno?
 
-- A) 25
-- B) 11
-- C) 18
-- D) 14
-- E) 36
+- A) R$ 42,00
+- B) R$ 18,00
+- C) R$ 15,33
+- D) R$ 16,67
+- E) R$ 14,00
 
-**Resposta:** A
+**Resposta:** E
 
-**Explicação:** Somando as equações x + y = 36 e x − y = 14: 2x = 50 ⇒ x = 25 (e y = 11).
+**Explicação:** Ferramenta: equação do 1º grau. Separe o que já se sabe (as canetas) e deixe o desconhecido (o caderno) sozinho. 3x + 2 × 4 = 50 ⇒ 3x = 42 ⇒ x = R$ 14,00.
 
-### 4
-Um pai tem hoje o triplo da idade do filho, e a soma das duas idades é 52 anos. Qual é a idade do filho?
+### 11
+<!-- modelo: f1 -->
+Resolva a equação 3x + 2 = 26.
 
-- A) 39 anos
-- B) 13 anos
-- C) 16 anos
-- D) 26 anos
-- E) 17,33 anos
+- A) 10
+- B) 8
+- C) 16
+- D) 9,33
+- E) 24
 
 **Resposta:** B
 
-**Explicação:** Se o filho tem x anos, o pai tem 3x: x + 3x = 52 ⇒ 4x = 52 ⇒ x = 13.
-
-### 5
-Beatriz comprou 5 cadernos iguais e 6 canetas de R$ 6,00 cada, gastando R$ 81,00 no total. Qual o preço de cada caderno?
-
-- A) R$ 45,00
-- B) R$ 11,00
-- C) R$ 9,00
-- D) R$ 16,20
-- E) R$ 15,00
-
-**Resposta:** C
-
-**Explicação:** 5x + 6 × 6 = 81 ⇒ 5x = 45 ⇒ x = R$ 9,00.
-
-### 6
-Qual é a solução da equação 8x − 6 = 26?
-
-- A) 8
-- B) 32
-- C) 4
-- D) 6
-- E) 2,5
-
-**Resposta:** C
-
-**Explicação:** 8x = 26 + 6 = 32 ⇒ x = 4.
-
-### 7
-A soma de um número com o seu quádruplo é 150. Que número é esse?
-
-- A) 30
-- B) 37,5
-- C) 34
-- D) 120
-- E) 146
-
-**Resposta:** A
-
-**Explicação:** x + 4x = 150 ⇒ 5x = 150 ⇒ x = 30.
-
-### 8
-A soma de dois números é 31 e a diferença entre eles é 27. Qual é o maior número?
-
-- A) 2
-- B) 27
-- C) 31
-- D) 15,5
-- E) 29
-
-**Resposta:** E
-
-**Explicação:** Somando as equações x + y = 31 e x − y = 27: 2x = 58 ⇒ x = 29 (e y = 2).
-
-### 9
-Um pai tem hoje o quádruplo da idade do filho, e a soma das duas idades é 30 anos. Qual é a idade do filho?
-
-- A) 10 anos
-- B) 7,5 anos
-- C) 24 anos
-- D) 12 anos
-- E) 6 anos
-
-**Resposta:** E
-
-**Explicação:** Se o filho tem x anos, o pai tem 4x: x + 4x = 30 ⇒ 5x = 30 ⇒ x = 6.
-
-### 10
-Pedro comprou 3 cadernos iguais e 5 canetas de R$ 6,00 cada, gastando R$ 39,00 no total. Qual o preço de cada caderno?
-
-- A) R$ 9,00
-- B) R$ 11,00
-- C) R$ 3,00
-- D) R$ 13,00
-- E) R$ 1,00
-
-**Resposta:** C
-
-**Explicação:** 3x + 5 × 6 = 39 ⇒ 3x = 9 ⇒ x = R$ 3,00.
-
-### 11
-Qual é a solução da equação 2x − 12 = 6?
-
-- A) 8
-- B) 11
-- C) 18
-- D) 7
-- E) 9
-
-**Resposta:** E
-
-**Explicação:** 2x = 6 + 12 = 18 ⇒ x = 9.
+**Explicação:** Ferramenta: operação inversa. Para isolar x, desfaça as operações na ordem contrária, fazendo o mesmo dos dois lados da igualdade. 3x = 26 − 2 = 24 ⇒ x = 8.
 
 ### 12
-A soma de um número com o seu quádruplo é 95. Que número é esse?
+<!-- modelo: f6 -->
+Qual é o valor de x em 4(x − 3) + 1 = 3x − 1?
 
-- A) 91
-- B) 76
-- C) 23
-- D) 23,75
-- E) 19
+- A) 1
+- B) 12
+- C) 8
+- D) 11
+- E) 10
 
 **Resposta:** E
 
-**Explicação:** x + 4x = 95 ⇒ 5x = 95 ⇒ x = 19.
+**Explicação:** Ferramenta: propriedade distributiva. Primeiro "abra" o parêntese multiplicando; depois junte os x de um lado e os números do outro. 4x − 12 + 1 = 3x − 1 ⇒ x = 10 ⇒ x = 10.
 
 ### 13
-A soma de dois números é 24 e a diferença entre eles é 8. Qual é o maior número?
+<!-- modelo: f3 -->
+Em uma votação entre dois projetos, foram 73 votos ao todo, e o projeto vencedor teve 3 votos a mais que o outro. Quantos votos teve o vencedor?
 
-- A) 8
-- B) 26
-- C) 16
-- D) 12
-- E) 24
+- A) 35
+- B) 73
+- C) 36,5
+- D) 38
+- E) 3
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: sistema por adição. Com soma e diferença, somar as duas equações elimina uma das letras. x + y = 73 e x − y = 3. Somando: 2x = 76 ⇒ x = 38.
+
+### 14
+<!-- modelo: f2 -->
+A soma de um número com o seu dobro é 102. Que número é esse?
+
+- A) 100
+- B) 68
+- C) 34
+- D) 51
+- E) 36
 
 **Resposta:** C
 
-**Explicação:** Somando as equações x + y = 24 e x − y = 8: 2x = 32 ⇒ x = 16 (e y = 8).
-
-### 14
-Um pai tem hoje o quíntuplo da idade do filho, e a soma das duas idades é 66 anos. Qual é a idade do filho?
-
-- A) 22 anos
-- B) 16 anos
-- C) 55 anos
-- D) 11 anos
-- E) 13,2 anos
-
-**Resposta:** D
-
-**Explicação:** Se o filho tem x anos, o pai tem 5x: x + 5x = 66 ⇒ 6x = 66 ⇒ x = 11.
+**Explicação:** Ferramenta: tradução para equação. "Um número" vira x; "o seu dobro" vira 2x. x + 2x = 102 ⇒ 3x = 102 ⇒ x = 34.
 
 ### 15
-Otávio comprou 5 cadernos iguais e 3 canetas de R$ 6,00 cada, gastando R$ 53,00 no total. Qual o preço de cada caderno?
+<!-- modelo: f4 -->
+Uma mãe tem hoje o triplo da idade da filha, e a soma das duas idades é 28 anos. Qual é a idade da filha?
 
-- A) R$ 9,40
-- B) R$ 35,00
-- C) R$ 13,00
-- D) R$ 10,60
-- E) R$ 7,00
+- A) 10 anos
+- B) 21 anos
+- C) 14 anos
+- D) 9,33 anos
+- E) 7 anos
 
 **Resposta:** E
 
-**Explicação:** 5x + 3 × 6 = 53 ⇒ 5x = 35 ⇒ x = R$ 7,00.
+**Explicação:** Ferramenta: tradução para equação. Filha: x; mãe: 3x. x + 3x = 28 ⇒ 4x = 28 ⇒ x = 7.
 
 ### 16
-Qual é a solução da equação 6x − 20 = 46?
+<!-- modelo: f14 -->
+Qual dos números abaixo é raiz (solução) da equação x² − x − 2 = 0?
 
-- A) 11
-- B) 4,33
-- C) 9
-- D) 66
-- E) 13
+- A) 6
+- B) 2
+- C) 12
+- D) 3
+- E) 1
 
-**Resposta:** A
+**Resposta:** B
 
-**Explicação:** 6x = 46 + 20 = 66 ⇒ x = 11.
+**Explicação:** Ferramenta: substituir e conferir. Um número é raiz quando, colocado no lugar de x, deixa a expressão igual a zero. Teste as alternativas. 2² − 2 − 2 = 0. As raízes são 2 e −1.
 
 ### 17
-A soma de um número com o seu quádruplo é 170. Que número é esse?
+<!-- modelo: f8 -->
+Em uma cidade, a corrida de táxi custa R$ 4,50 de bandeirada mais R$ 3,50 por quilômetro rodado. Uma corrida saiu por R$ 43,00. Quantos quilômetros foram percorridos?
 
-- A) 42,5
-- B) 38
-- C) 136
-- D) 34
-- E) 166
-
-**Resposta:** D
-
-**Explicação:** x + 4x = 170 ⇒ 5x = 170 ⇒ x = 34.
-
-### 18
-A soma de dois números é 48 e a diferença entre eles é 18. Qual é o maior número?
-
-- A) 33
-- B) 24
-- C) 18
-- D) 48
-- E) 15
-
-**Resposta:** A
-
-**Explicação:** Somando as equações x + y = 48 e x − y = 18: 2x = 66 ⇒ x = 33 (e y = 15).
-
-### 19
-Pedro comprou 5 cadernos iguais e 3 canetas de R$ 5,00 cada, gastando R$ 75,00 no total. Qual o preço de cada caderno?
-
-- A) R$ 14,00
-- B) R$ 15,00
-- C) R$ 17,00
-- D) R$ 12,00
-- E) R$ 60,00
-
-**Resposta:** D
-
-**Explicação:** 5x + 3 × 5 = 75 ⇒ 5x = 60 ⇒ x = R$ 12,00.
-
-### 20
-Qual é a solução da equação 3x − 18 = −24?
-
-- A) 0
-- B) −14
-- C) −6
-- D) 2
-- E) −2
+- A) 13 km
+- B) 13,57 km
+- C) 5 km
+- D) 12,29 km
+- E) 11 km
 
 **Resposta:** E
 
-**Explicação:** 3x = −24 + 18 = −6 ⇒ x = −2.
+**Explicação:** Ferramenta: equação do 1º grau. O valor total é a parte fixa mais a parte que depende dos quilômetros. 4,5 + 3,5x = 43 ⇒ 3,5x = 38,5 ⇒ x = 11 km.
 
 ## Médio
 
 ### 1
-Qual é a maior raiz da equação x² + 3x = 0?
+<!-- modelo: m6 -->
+Sem resolver a equação 2x² + 3x − 9 = 0, o que se pode afirmar sobre suas raízes?
 
-- A) 1
-- B) 3
-- C) 0
-- D) −3
-- E) 2
-
-**Resposta:** C
-
-**Explicação:** Por soma e produto: as raízes somam −3 e multiplicam 0. São −3 e 0; a maior é 0.
-
-### 2
-Em uma sessão de cinema, o ingresso inteiro custava R$ 50,00 e a meia-entrada, R$ 25,00. Entraram 155 pessoas e foram arrecadados R$ 4.450,00. Quantas pessoas pagaram meia-entrada?
-
-- A) 77,5
-- B) 23
-- C) 132
-- D) 142
-- E) 89
-
-**Resposta:** C
-
-**Explicação:** x inteiras e y meias: x + y = 155 e 50x + 25y = 4450. Multiplicando a 1ª por 50 e subtraindo: 25y = 3300 ⇒ y = 132.
-
-### 3
-Qual é o menor número inteiro que satisfaz a inequação 6x − 1 > 18?
-
-- A) 2
-- B) 3
-- C) 4
-- D) 5
-- E) 6
-
-**Resposta:** C
-
-**Explicação:** 6x > 18 + 1 = 19 ⇒ x > 3,17. O menor inteiro maior que 3,17 é 4.
-
-### 4
-Em um sítio há galinhas e coelhos, num total de 13 cabeças e 40 pés. Quantos coelhos há no sítio?
-
-- A) 10
-- B) 6
-- C) 9
-- D) 4
-- E) 7
+- A) nenhuma raiz real
+- B) exatamente três raízes reais
+- C) duas raízes reais iguais (uma raiz dupla)
+- D) infinitas raízes reais
+- E) duas raízes reais diferentes
 
 **Resposta:** E
 
-**Explicação:** g + c = 13 e 2g + 4c = 40. Multiplicando a 1ª por 2 e subtraindo: 2c = 14 ⇒ c = 7.
+**Explicação:** Ferramenta: discriminante (Δ). O Δ = b² − 4ac decide: positivo → duas raízes; zero → uma (dupla); negativo → nenhuma raiz real. Δ = 9 + 72 = 81.
 
-### 5
-Resolvendo o sistema { x + y = 9 ; 2x − 4y = −6 }, qual é o valor de x · y?
+### 2
+<!-- modelo: m7 -->
+Resolva a equação (x + 1)/2 − (x − 2)/3 = 4,5.
 
-- A) 9
-- B) 19
-- C) 30
-- D) 25
+- A) 40
+- B) 27
+- C) 17
+- D) 24
 - E) 20
 
 **Resposta:** E
 
-**Explicação:** Da 1ª: y = 9 − x. Substituindo: 2x − 4(9 − x) = −6 ⇒ 6x = 30 ⇒ x = 5, y = 4. Produto: 20.
+**Explicação:** Ferramenta: MMC dos denominadores. Multiplique os dois lados por 6 (MMC de 2 e 3). Cuidado com o sinal de menos antes da fração: ele troca o sinal dos dois termos. 3(x + 1) − 2(x − 2) = 27 ⇒ 3x + 3 − 2x + 4 = 27 ⇒ x = 20.
 
-### 6
-Qual é a maior raiz da equação x² − 7x − 8 = 0?
+### 3
+<!-- modelo: m4 -->
+Em um sítio há galinhas e coelhos, num total de 35 cabeças e 128 pés. Quantos coelhos há no sítio?
 
-- A) 11
-- B) 18
-- C) 7
-- D) 1
-- E) 8
-
-**Resposta:** E
-
-**Explicação:** Por soma e produto: as raízes somam 7 e multiplicam −8. São −1 e 8; a maior é 8.
-
-### 7
-Em uma sessão de cinema, o ingresso inteiro custava R$ 40,00 e a meia-entrada, R$ 20,00. Entraram 223 pessoas e foram arrecadados R$ 6.340,00. Quantas pessoas pagaram meia-entrada?
-
-- A) 111,5
-- B) 159
-- C) 94
-- D) 139
-- E) 129
-
-**Resposta:** E
-
-**Explicação:** x inteiras e y meias: x + y = 223 e 40x + 20y = 6340. Multiplicando a 1ª por 40 e subtraindo: 20y = 2580 ⇒ y = 129.
-
-### 8
-Qual é o menor número inteiro que satisfaz a inequação 4x − 12 > 29?
-
-- A) 4
-- B) 22
-- C) 12
-- D) 11
-- E) 10
-
-**Resposta:** D
-
-**Explicação:** 4x > 29 + 12 = 41 ⇒ x > 10,25. O menor inteiro maior que 10,25 é 11.
-
-### 9
-Em um sítio há galinhas e coelhos, num total de 41 cabeças e 124 pés. Quantos coelhos há no sítio?
-
-- A) 21
-- B) 42
+- A) 6
+- B) 29
 - C) 31
-- D) 20
-- E) 23
-
-**Resposta:** A
-
-**Explicação:** g + c = 41 e 2g + 4c = 124. Multiplicando a 1ª por 2 e subtraindo: 2c = 42 ⇒ c = 21.
-
-### 10
-Resolvendo o sistema { x + y = 11 ; 5x − 4y = 1 }, qual é o valor de x · y?
-
-- A) 35
-- B) 11
-- C) 25
-- D) 1
-- E) 30
-
-**Resposta:** E
-
-**Explicação:** Da 1ª: y = 11 − x. Substituindo: 5x − 4(11 − x) = 1 ⇒ 9x = 45 ⇒ x = 5, y = 6. Produto: 30.
-
-### 11
-Qual é a maior raiz da equação x² − 8x + 7 = 0?
-
-- A) 7
-- B) 21
-- C) 1
-- D) 8
-- E) 9
-
-**Resposta:** A
-
-**Explicação:** Por soma e produto: as raízes somam 8 e multiplicam 7. São 1 e 7; a maior é 7.
-
-### 12
-Em uma sessão de cinema, o ingresso inteiro custava R$ 40,00 e a meia-entrada, R$ 20,00. Entraram 178 pessoas e foram arrecadados R$ 4.480,00. Quantas pessoas pagaram meia-entrada?
-
-- A) 89
-- B) 46
-- C) 112
-- D) 132
-- E) 142
-
-**Resposta:** D
-
-**Explicação:** x inteiras e y meias: x + y = 178 e 40x + 20y = 4480. Multiplicando a 1ª por 40 e subtraindo: 20y = 2640 ⇒ y = 132.
-
-### 13
-Qual é o menor número inteiro que satisfaz a inequação 3x + 15 > 11?
-
-- A) −1
-- B) 1
-- C) 8
-- D) 0
-- E) −2
-
-**Resposta:** A
-
-**Explicação:** 3x > 11 − 15 = −4 ⇒ x > −1,33. O menor inteiro maior que −1,33 é −1.
-
-### 14
-Em um sítio há galinhas e coelhos, num total de 27 cabeças e 76 pés. Quantos coelhos há no sítio?
-
-- A) 19
-- B) 13
-- C) 11
-- D) 14
-- E) 16
-
-**Resposta:** C
-
-**Explicação:** g + c = 27 e 2g + 4c = 76. Multiplicando a 1ª por 2 e subtraindo: 2c = 22 ⇒ c = 11.
-
-### 15
-Resolvendo o sistema { x + y = 9 ; 3x − y = −1 }, qual é o valor de x · y?
-
-- A) 9
-- B) 21
-- C) 16
-- D) 14
-- E) 4
-
-**Resposta:** D
-
-**Explicação:** Da 1ª: y = 9 − x. Substituindo: 3x − 1(9 − x) = −1 ⇒ 4x = 8 ⇒ x = 2, y = 7. Produto: 14.
-
-### 16
-Qual é a maior raiz da equação x² + 3x − 4 = 0?
-
-- A) 11
-- B) 1
-- C) 3
-- D) 4
-- E) 2
+- D) 18
+- E) 32
 
 **Resposta:** B
 
-**Explicação:** Por soma e produto: as raízes somam −3 e multiplicam −4. São −4 e 1; a maior é 1.
+**Explicação:** Ferramenta: sistema (ou o truque dos pés). Se todos fossem galinhas, haveria 2 pés por cabeça. Cada pé que sobra a mais vem dos coelhos (2 pés extras cada). 35 × 2 = 70 pés; sobram 58; 58 ÷ 2 = 29 coelhos.
 
-### 17
-Em uma sessão de cinema, o ingresso inteiro custava R$ 40,00 e a meia-entrada, R$ 20,00. Entraram 172 pessoas e foram arrecadados R$ 4.300,00. Quantas pessoas pagaram meia-entrada?
+### 4
+<!-- modelo: m6 -->
+Sem resolver a equação x² − 8x + 16 = 0, o que se pode afirmar sobre suas raízes?
 
-- A) 108
-- B) 139
-- C) 43
-- D) 86
-- E) 129
+- A) duas raízes reais diferentes
+- B) infinitas raízes reais
+- C) nenhuma raiz real
+- D) exatamente três raízes reais
+- E) duas raízes reais iguais (uma raiz dupla)
 
 **Resposta:** E
 
-**Explicação:** x inteiras e y meias: x + y = 172 e 40x + 20y = 4300. Multiplicando a 1ª por 40 e subtraindo: 20y = 2580 ⇒ y = 129.
+**Explicação:** Ferramenta: discriminante (Δ). O Δ = b² − 4ac decide: positivo → duas raízes; zero → uma (dupla); negativo → nenhuma raiz real. Δ = 64 − 64 = 0.
 
-### 18
-Qual é o menor número inteiro que satisfaz a inequação 6x + 7 > −2?
+### 5
+<!-- modelo: m11 -->
+Em uma loja, um lápis e uma borracha custam juntos R$ 6,00; uma borracha e um apontador, R$ 11,00; um lápis e um apontador, R$ 13,00. Quanto custa um apontador?
 
-- A) −1
-- B) 1
-- C) −3
-- D) 0
-- E) −2
+- A) R$ 7,50
+- B) R$ 15,00
+- C) R$ 2,00
+- D) R$ 4,00
+- E) R$ 9,00
 
-**Resposta:** A
+**Resposta:** E
 
-**Explicação:** 6x > −2 − 7 = −9 ⇒ x > −1,5. O menor inteiro maior que −1,5 é −1.
+**Explicação:** Ferramenta: somar todas as equações. Somando as três, cada item aparece duas vezes. Metade dessa soma é o preço dos três juntos. 2(x + y + z) = 30 ⇒ x + y + z = 15. Item procurado: 15 − 6 = 9.
 
-### 19
-Em um sítio há galinhas e coelhos, num total de 53 cabeças e 166 pés. Quantos coelhos há no sítio?
+### 6
+<!-- modelo: m3 -->
+Qual é o menor número inteiro que satisfaz a inequação 5x + 1 > −1?
 
-- A) 41,5
-- B) 27
-- C) 23
-- D) 30
-- E) 32
+- A) 2
+- B) −1
+- C) 0
+- D) 1
+- E) 3
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: inequação do 1º grau. Resolve-se como equação; o sinal ">" significa que o limite NÃO entra. 5x > −2 ⇒ x > −0,4. O menor inteiro maior que −0,4 é 0.
+
+### 7
+<!-- modelo: m5 -->
+Resolvendo o sistema { x + y = 12 ; 3x − 2y = −9 }, qual é o valor de x · y?
+
+- A) 30
+- B) 12
+- C) 27
+- D) 81
+- E) 9
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: substituição. Isole uma letra na equação mais simples e substitua na outra. y = 12 − x ⇒ 3x − 2(12 − x) = −9 ⇒ 5x = 15 ⇒ x = 3, y = 9; x · y = 27.
+
+### 8
+<!-- modelo: m14 -->
+Qual equação do 2º grau tem raízes −5 e 6?
+
+- A) x² + x + 30 = 0
+- B) x² + 30x + 1 = 0
+- C) x² + x − 30 = 0
+- D) x² − x − 30 = 0
+- E) x² − x + 30 = 0
 
 **Resposta:** D
 
-**Explicação:** g + c = 53 e 2g + 4c = 166. Multiplicando a 1ª por 2 e subtraindo: 2c = 60 ⇒ c = 30.
+**Explicação:** Ferramenta: soma e produto ao contrário. Uma equação com raízes r₁ e r₂ é x² − (r₁ + r₂)x + r₁·r₂ = 0. Soma 1, produto −30: x² − x − 30 = 0.
 
-### 20
-Resolvendo o sistema { x + y = 9 ; 2x − y = 3 }, qual é o valor de x · y?
+### 9
+<!-- modelo: m12 -->
+Qual é o valor de x na equação 30/x + 4 = 10?
 
-- A) 20
-- B) 24
-- C) 9
-- D) 3
-- E) 16
+- A) 3
+- B) 6
+- C) 7,5
+- D) 5
+- E) 30
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: operação inversa. Isole a fração primeiro; depois "inverta" a divisão. Lembre que x não pode ser zero. 30/x = 6 ⇒ x = 30 ÷ 6 = 5.
+
+### 10
+<!-- modelo: m2 -->
+Em uma sessão de cinema, o ingresso inteiro custava R$ 50,00 e a meia-entrada, R$ 25,00. Entraram 213 pessoas e foram arrecadados R$ 7.650,00. Quantas pessoas pagaram meia-entrada?
+
+- A) 107
+- B) 153
+- C) 93
+- D) 120
+- E) 130
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: sistema de equações. Duas informações (número de pessoas e dinheiro) viram duas equações. x + y = 213 e 50x + 25y = 7650. Multiplicando a 1ª por 50 e subtraindo: 25y = 3000 ⇒ y = 120.
+
+### 11
+<!-- modelo: m2 -->
+Em uma sessão de cinema, o ingresso inteiro custava R$ 20,00 e a meia-entrada, R$ 10,00. Entraram 145 pessoas e foram arrecadados R$ 2.390,00. Quantas pessoas pagaram meia-entrada?
+
+- A) 120
+- B) 73
+- C) 61
+- D) 51
+- E) 94
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: sistema de equações. Duas informações (número de pessoas e dinheiro) viram duas equações. x + y = 145 e 20x + 10y = 2390. Multiplicando a 1ª por 20 e subtraindo: 10y = 510 ⇒ y = 51.
+
+### 12
+<!-- modelo: m9 -->
+Quantos números inteiros satisfazem −8 < 3x + 3 ≤ 9?
+
+- A) 5
+- B) 7
+- C) 17
+- D) 6
+- E) 8
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: inequação dupla. Faça a mesma operação nas três partes ao mesmo tempo. −11 < 3x ≤ 6 ⇒ −3,67 < x ≤ 2. Inteiros: −3, −2, −1, 0, 1, 2 (6).
+
+### 13
+<!-- modelo: m13 -->
+Uma pequena fábrica de bolos tem custo fixo mensal de R$ 6.000,00 e gasta R$ 15,00 para produzir cada bolo, que é vendido por R$ 20,00. Quantos bolos precisa vender por mês para não ter prejuízo nem lucro?
+
+- A) 1.200
+- B) 2.400
+- C) 171
+- D) 300
+- E) 400
 
 **Resposta:** A
 
-**Explicação:** Da 1ª: y = 9 − x. Substituindo: 2x − 1(9 − x) = 3 ⇒ 3x = 12 ⇒ x = 4, y = 5. Produto: 20.
+**Explicação:** Ferramenta: receita = custo. O ponto de equilíbrio é onde o que entra (receita) é igual ao que sai (custo total). 20x = 6000 + 15x ⇒ 5x = 6000 ⇒ x = 1200 bolos.
+
+### 14
+<!-- modelo: m1 -->
+Qual é a maior raiz da equação x² − x − 30 = 0?
+
+- A) 7
+- B) 1
+- C) 5
+- D) 8
+- E) 6
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: soma e produto. Em x² − Sx + P = 0, procure dois números que somam S e multiplicam P. É mais rápido que Bhaskara. Somam 1 e multiplicam −30: −5 e 6. A maior é 6.
+
+### 15
+<!-- modelo: m4 -->
+Em um sítio há galinhas e coelhos, num total de 39 cabeças e 138 pés. Quantos coelhos há no sítio?
+
+- A) 32
+- B) 35
+- C) 30
+- D) 20
+- E) 9
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: sistema (ou o truque dos pés). Se todos fossem galinhas, haveria 2 pés por cabeça. Cada pé que sobra a mais vem dos coelhos (2 pés extras cada). 39 × 2 = 78 pés; sobram 60; 60 ÷ 2 = 30 coelhos.
+
+### 16
+<!-- modelo: m10 -->
+Paula tem 4 anos a mais que Sofia, e o produto das idades dos dois é 32. Qual é a idade de Paula?
+
+- A) 9 anos
+- B) 4 anos
+- C) 16 anos
+- D) 8 anos
+- E) 7 anos
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: equação do 2º grau. Idade de Sofia: x; de Paula: x + 4. x(x + 4) = 32 ⇒ x² + 4x − 32 = 0 ⇒ x = 4. Paula: 8 anos.
+
+### 17
+<!-- modelo: m8 -->
+Um terreno retangular tem comprimento 3 m maior que a largura e área de 40 m². Qual é a largura do terreno?
+
+- A) 4 m
+- B) 6 m
+- C) 13,33 m
+- D) 5 m
+- E) 8 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: equação do 2º grau. Largura x, comprimento x + 3. Área = x(x + 3). x² + 3x − 40 = 0 ⇒ raízes 5 e −8. Medida não é negativa: x = 5 m.
 
 ## Difícil
 
 ### 1
-A soma das raízes reais positivas da equação x⁴ − 41x² + 400 = 0 é:
+<!-- modelo: d6 -->
+Sem calcular as raízes, determine x₁² + x₂², sendo x₁ e x₂ as raízes de x² − 1 = 0.
 
-- A) 0
-- B) 41
-- C) 9
-- D) 20
-- E) 42
+- A) 12
+- B) 5
+- C) 1
+- D) 2
+- E) 0
 
-**Resposta:** C
+**Resposta:** D
 
-**Explicação:** Fazendo y = x²: y² − 41y + 400 = 0 ⇒ y = 16 ou y = 25. Então x = ±4 ou x = ±5. Raízes positivas: 4 + 5 = 9.
+**Explicação:** Ferramenta: produto notável. (x₁ + x₂)² = x₁² + 2x₁x₂ + x₂². Logo, x₁² + x₂² = S² − 2P. S = 0, P = −1: 0 + 2 = 2.
 
 ### 2
-Um terreno retangular tem perímetro de 68 m e área de 285 m². Qual é a medida do maior lado?
+<!-- modelo: d13 -->
+Qual é o conjunto solução, nos números reais, da inequação (x − 2)/(x + 4) ≥ 0?
 
-- A) 15 m
-- B) 4 m
-- C) 17 m
-- D) 19 m
-- E) 34 m
+- A) x ≥ 2
+- B) −4 < x ≤ 2
+- C) x ≤ −4 ou x ≥ 2
+- D) −4 ≤ x ≤ 2
+- E) x < −4 ou x ≥ 2
 
-**Resposta:** D
+**Resposta:** E
 
-**Explicação:** x + y = 34 e x · y = 285. Os lados são raízes de t² − 34t + 285 = 0: t = 15 ou t = 19. Maior lado: 19 m.
+**Explicação:** Ferramenta: quadro de sinais. Um quociente é positivo quando numerador e denominador têm o mesmo sinal. O denominador nunca pode ser zero, por isso −4 fica de fora. Numerador ≥ 0 para x ≥ 2; denominador > 0 para x > −4. Mesmo sinal: x < −4 ou x ≥ 2.
 
 ### 3
-Para qual valor de m a equação x² − 6x + m = 0 possui duas raízes reais e iguais?
+<!-- modelo: d8 -->
+Qual é a solução da equação √(x + 28) = x − 2?
 
-- A) 4,5
-- B) 11
-- C) 9
-- D) 3
-- E) 36
+- A) x = −3
+- B) x = 10
+- C) não tem solução real
+- D) x = 8
+- E) x = 8 ou x = −3
 
-**Resposta:** C
+**Resposta:** D
 
-**Explicação:** Raízes iguais ⇔ Δ = 0: 36 − 4m = 0 ⇒ m = 9.
+**Explicação:** Ferramenta: elevar ao quadrado e conferir. Ao elevar os dois lados ao quadrado podem surgir raízes "falsas". Sempre teste no enunciado original (a raiz quadrada não pode dar negativo). x + 28 = (x − 2)² ⇒ x² − 5x − 24 = 0 ⇒ x = 8 ou x = −3. Com x = −3, o lado direito fica −5 < 0: não serve.
 
 ### 4
-Sendo x₁ e x₂ as raízes de 2x² − 12x + 10 = 0, qual é o valor de 1/x₁ + 1/x₂?
-
-- A) −6/5
-- B) 6/5
-- C) 5/6
-- D) 5
-- E) 6
-
-**Resposta:** B
-
-**Explicação:** 1/x₁ + 1/x₂ = (x₁ + x₂)/(x₁x₂) = (12/2) ÷ (10/2) = 6/5.
-
-### 5
-Um grupo de amigos ia dividir igualmente uma conta de R$ 180,00. Como mais 3 pessoas entraram no grupo, cada um pagou R$ 5,00 a menos. Quantas pessoas havia inicialmente?
-
-- A) 18
-- B) 12
-- C) 9
-- D) 36
-- E) 8
-
-**Resposta:** C
-
-**Explicação:** Seja x o número inicial: 180/x − 180/(x + 3) = 5. Testando/resolvendo a equação do 2º grau, x = 9 (cada um pagaria R$ 20,00, e com 12 pessoas, R$ 15,00).
-
-### 6
-A soma das raízes reais positivas da equação x⁴ − 52x² + 576 = 0 é:
-
-- A) 0
-- B) 10
-- C) 53
-- D) 52
-- E) 24
-
-**Resposta:** B
-
-**Explicação:** Fazendo y = x²: y² − 52y + 576 = 0 ⇒ y = 16 ou y = 36. Então x = ±4 ou x = ±6. Raízes positivas: 4 + 6 = 10.
-
-### 7
-Um terreno retangular tem perímetro de 56 m e área de 195 m². Qual é a medida do maior lado?
-
-- A) 14 m
-- B) 28 m
-- C) 15 m
-- D) 2 m
-- E) 13 m
-
-**Resposta:** C
-
-**Explicação:** x + y = 28 e x · y = 195. Os lados são raízes de t² − 28t + 195 = 0: t = 13 ou t = 15. Maior lado: 15 m.
-
-### 8
-Para qual valor de m a equação x² + 6x + m = 0 possui duas raízes reais e iguais?
-
-- A) 11
-- B) 36
-- C) 4,5
-- D) 3
-- E) 9
-
-**Resposta:** E
-
-**Explicação:** Raízes iguais ⇔ Δ = 0: 36 − 4m = 0 ⇒ m = 9.
-
-### 9
-Sendo x₁ e x₂ as raízes de 3x² − 18x + 24 = 0, qual é o valor de 1/x₁ + 1/x₂?
-
-- A) −3/4
-- B) 6
-- C) 4/3
-- D) 3/4
-- E) 8
-
-**Resposta:** D
-
-**Explicação:** 1/x₁ + 1/x₂ = (x₁ + x₂)/(x₁x₂) = (18/3) ÷ (24/3) = 3/4.
-
-### 10
-Um grupo de amigos ia dividir igualmente uma conta de R$ 480,00. Como mais 4 pessoas entraram no grupo, cada um pagou R$ 20,00 a menos. Quantas pessoas havia inicialmente?
-
-- A) 24
-- B) 7
-- C) 8
-- D) 12
-- E) 16
-
-**Resposta:** C
-
-**Explicação:** Seja x o número inicial: 480/x − 480/(x + 4) = 20. Testando/resolvendo a equação do 2º grau, x = 8 (cada um pagaria R$ 60,00, e com 12 pessoas, R$ 40,00).
-
-### 11
-Um terreno retangular tem perímetro de 14 m e área de 12 m². Qual é a medida do maior lado?
-
-- A) 4 m
-- B) 3,5 m
-- C) 1 m
-- D) 3 m
-- E) 7 m
-
-**Resposta:** A
-
-**Explicação:** x + y = 7 e x · y = 12. Os lados são raízes de t² − 7t + 12 = 0: t = 3 ou t = 4. Maior lado: 4 m.
-
-### 12
-Para qual valor de m a equação x² + 10x + m = 0 possui duas raízes reais e iguais?
-
-- A) 12,5
-- B) 5
-- C) 28
-- D) 100
-- E) 25
-
-**Resposta:** E
-
-**Explicação:** Raízes iguais ⇔ Δ = 0: 100 − 4m = 0 ⇒ m = 25.
-
-### 13
-Sendo x₁ e x₂ as raízes de x² − 7x + 12 = 0, qual é o valor de 1/x₁ + 1/x₂?
-
-- A) 12/7
-- B) −7/12
-- C) 7
-- D) 12
-- E) 7/12
-
-**Resposta:** E
-
-**Explicação:** 1/x₁ + 1/x₂ = (x₁ + x₂)/(x₁x₂) = (7/1) ÷ (12/1) = 7/12.
-
-### 14
-Um grupo de amigos ia dividir igualmente uma conta de R$ 480,00. Como mais 2 pessoas entraram no grupo, cada um pagou R$ 12,00 a menos. Quantas pessoas havia inicialmente?
-
-- A) 10
-- B) 16
-- C) 8
-- D) 40
-- E) 7
-
-**Resposta:** C
-
-**Explicação:** Seja x o número inicial: 480/x − 480/(x + 2) = 12. Testando/resolvendo a equação do 2º grau, x = 8 (cada um pagaria R$ 60,00, e com 10 pessoas, R$ 48,00).
-
-### 15
-A soma das raízes reais positivas da equação x⁴ − 13x² + 36 = 0 é:
-
-- A) 0
-- B) 6
-- C) 5
-- D) 13
-- E) 14
-
-**Resposta:** C
-
-**Explicação:** Fazendo y = x²: y² − 13y + 36 = 0 ⇒ y = 4 ou y = 9. Então x = ±2 ou x = ±3. Raízes positivas: 2 + 3 = 5.
-
-### 16
-Um terreno retangular tem perímetro de 62 m e área de 228 m². Qual é a medida do maior lado?
-
-- A) 31 m
-- B) 12 m
-- C) 7 m
-- D) 19 m
-- E) 15,5 m
-
-**Resposta:** D
-
-**Explicação:** x + y = 31 e x · y = 228. Os lados são raízes de t² − 31t + 228 = 0: t = 12 ou t = 19. Maior lado: 19 m.
-
-### 17
-Para qual valor de m a equação x² − 12x + m = 0 possui duas raízes reais e iguais?
+<!-- modelo: d9 -->
+Quantos números inteiros satisfazem a inequação x² − 10x + 21 ≤ 0?
 
 - A) 6
-- B) 144
-- C) 18
-- D) 37
-- E) 36
+- B) 5
+- C) 3
+- D) 2
+- E) 4
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: estudo do sinal da parábola. Com a > 0, a parábola fica abaixo do eixo (≤ 0) ENTRE as raízes, incluindo-as. Raízes 3 e 7; solução 3 ≤ x ≤ 7: 5 inteiros.
+
+### 5
+<!-- modelo: d2 -->
+Um terreno retangular tem perímetro de 20 m e área de 24 m². Qual é a medida do maior lado?
+
+- A) 10 m
+- B) 5 m
+- C) 2 m
+- D) 4 m
+- E) 6 m
 
 **Resposta:** E
 
-**Explicação:** Raízes iguais ⇔ Δ = 0: 144 − 4m = 0 ⇒ m = 36.
+**Explicação:** Ferramenta: soma e produto. Os lados somam metade do perímetro e multiplicam a área: eles são as raízes de t² − St + P = 0. t² − 10t + 24 = 0 ⇒ t = 4 ou 6. Maior lado: 6 m.
 
-### 18
-Sendo x₁ e x₂ as raízes de 3x² − 21x + 30 = 0, qual é o valor de 1/x₁ + 1/x₂?
+### 6
+<!-- modelo: d11 -->
+A soma das soluções da equação |2x − 5| = 10 é:
 
-- A) −7/10
-- B) 10/7
-- C) 7/10
-- D) 7
+- A) 10
+- B) 3
+- C) 5
+- D) 0
+- E) 7,5
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: módulo = distância. O módulo vale c quando o que está dentro vale +c ou −c. São duas equações. 2x − 5 = 10 ⇒ x = 7,5; 2x − 5 = −10 ⇒ x = −2,5. Soma: 5.
+
+### 7
+<!-- modelo: d12 -->
+Um número de dois algarismos tem soma dos algarismos igual a 9. Trocando a posição dos algarismos, o número aumenta 63. Qual é o número original?
+
+- A) 27
+- B) 72
+- C) 28
+- D) 81
+- E) 18
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: valor posicional. Um número com dezena d e unidade u vale 10d + u. Invertido, vale 10u + d. d + u = 9 e (10u + d) − (10d + u) = 9(u − d) = 63 ⇒ u − d = 7. Logo d = 1, u = 8: 18.
+
+### 8
+<!-- modelo: d7 -->
+Para que valor de k o sistema { 2x + 3y = 3 ; 6x + ky = 12 } NÃO tem solução?
+
+- A) 12
+- B) 3
+- C) 10
+- D) 9
+- E) 6
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: retas paralelas. Um sistema 2×2 não tem solução quando as retas são paralelas: os coeficientes de x e y são proporcionais, mas os termos independentes não. 6/2 = k/3 ⇒ k = 9; e 12 ≠ 3 × 3 = 9, então não há solução.
+
+### 9
+<!-- modelo: d5 -->
+Um grupo de amigos ia dividir igualmente uma conta de R$ 210,00. Como mais 3 pessoas entraram no grupo, cada um pagou R$ 9,00 a menos. Quantas pessoas havia inicialmente?
+
+- A) 6
+- B) 12
+- C) 7
+- D) 14
 - E) 10
 
 **Resposta:** C
 
-**Explicação:** 1/x₁ + 1/x₂ = (x₁ + x₂)/(x₁x₂) = (21/3) ÷ (30/3) = 7/10.
+**Explicação:** Ferramenta: equação do 2º grau com frações. Cota antiga − cota nova = diferença dada. 210/x − 210/(x + 3) = 9 ⇒ x = 7 (cada um pagaria R$ 30,00; com 10 pessoas, R$ 21,00).
 
-### 19
-Um grupo de amigos ia dividir igualmente uma conta de R$ 720,00. Como mais 4 pessoas entraram no grupo, cada um pagou R$ 15,00 a menos. Quantas pessoas havia inicialmente?
+### 10
+<!-- modelo: d3 -->
+Para qual valor de m a equação x² + 4x + m = 0 possui duas raízes reais e iguais?
 
-- A) 16
-- B) 11
-- C) 12
-- D) 24
-- E) 48
+- A) 2
+- B) 6
+- C) 16
+- D) 4
+- E) 14
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: discriminante igual a zero. Raízes iguais acontecem exatamente quando Δ = 0. Δ = 16 − 4m = 0 ⇒ m = 4.
+
+### 11
+<!-- modelo: d6 -->
+Sem calcular as raízes, determine x₁² + x₂², sendo x₁ e x₂ as raízes de x² − 9x + 18 = 0.
+
+- A) 324
+- B) 117
+- C) 81
+- D) 45
+- E) 63
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: produto notável. (x₁ + x₂)² = x₁² + 2x₁x₂ + x₂². Logo, x₁² + x₂² = S² − 2P. S = 9, P = 18: 81 − 36 = 45.
+
+### 12
+<!-- modelo: d4 -->
+Sendo x₁ e x₂ as raízes de 2x² − 10x + 8 = 0, qual é o valor de 1/x₁ + 1/x₂?
+
+- A) 5
+- B) 4/5
+- C) 4
+- D) −5/4
+- E) 5/4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: soma e produto sem achar as raízes. Some as frações: 1/x₁ + 1/x₂ = (x₁ + x₂)/(x₁ · x₂). Soma = −b/a e produto = c/a. (10/2) ÷ (8/2) = 5/4.
+
+### 13
+<!-- modelo: d10 -->
+Um barco leva 1 h para subir um trecho de 6 km de um rio (contra a correnteza) e 0,5 h para descer o mesmo trecho (a favor). Qual é a velocidade da correnteza?
+
+- A) 4 km/h
+- B) 6 km/h
+- C) 3 km/h
+- D) 9 km/h
+- E) 1 km/h
 
 **Resposta:** C
 
-**Explicação:** Seja x o número inicial: 720/x − 720/(x + 4) = 15. Testando/resolvendo a equação do 2º grau, x = 12 (cada um pagaria R$ 60,00, e com 16 pessoas, R$ 45,00).
+**Explicação:** Ferramenta: sistema de equações. Subindo, a correnteza atrapalha (v − c); descendo, ajuda (v + c). v − c = 6/1 = 6; v + c = 6/0,5 = 12. Subtraindo: 2c = 6 ⇒ c = 3 km/h.
 
-### 20
-A soma das raízes reais positivas da equação x⁴ − 29x² + 100 = 0 é:
+### 14
+<!-- modelo: d1 -->
+A soma das raízes reais positivas da equação x⁴ − 41x² + 400 = 0 é:
 
-- A) 0
-- B) 10
-- C) 7
-- D) 30
-- E) 29
+- A) 20
+- B) 42
+- C) 9
+- D) 41
+- E) 0
 
 **Resposta:** C
 
-**Explicação:** Fazendo y = x²: y² − 29y + 100 = 0 ⇒ y = 4 ou y = 25. Então x = ±2 ou x = ±5. Raízes positivas: 2 + 5 = 7.
+**Explicação:** Ferramenta: troca de variável. Equação biquadrada vira do 2º grau fazendo y = x². y² − 41y + 400 = 0 ⇒ y = 16 ou 25 ⇒ x = ±4 ou ±5. Positivas: 4 + 5 = 9.
+
+### 15
+<!-- modelo: d9 -->
+Quantos números inteiros satisfazem a inequação x² + 4x + 3 ≤ 0?
+
+- A) 1
+- B) 4
+- C) 3
+- D) 2
+- E) 0
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: estudo do sinal da parábola. Com a > 0, a parábola fica abaixo do eixo (≤ 0) ENTRE as raízes, incluindo-as. Raízes −3 e −1; solução −3 ≤ x ≤ −1: 3 inteiros.
+
+### 16
+<!-- modelo: d2 -->
+Um terreno retangular tem perímetro de 38 m e área de 90 m². Qual é a medida do maior lado?
+
+- A) 9 m
+- B) 9,5 m
+- C) 1 m
+- D) 10 m
+- E) 19 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: soma e produto. Os lados somam metade do perímetro e multiplicam a área: eles são as raízes de t² − St + P = 0. t² − 19t + 90 = 0 ⇒ t = 9 ou 10. Maior lado: 10 m.

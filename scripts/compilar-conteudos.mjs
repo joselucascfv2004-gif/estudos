@@ -96,6 +96,10 @@ function lerTopico(arquivo) {
       return;
     }
     if (!atual) return;
+    if ((m = linha.match(/^<!--\s*modelo:\s*(\S+)\s*-->$/))) {
+      atual.modelo = m[1];
+      return;
+    }
     if ((m = linha.match(/^-\s+([A-E])\)\s+(.+)$/))) {
       const esperado = String.fromCharCode(65 + atual.alternativas.length);
       if (m[1] !== esperado) erro(arquivo, n, `alternativa ${m[1]} fora de ordem (esperado ${esperado})`);
@@ -197,6 +201,7 @@ function main() {
         const n = ++contador[q.nivel];
         const item = { id: `${id}#${'fmd'[q.nivel]}${n}`, n: q.nivel, e: q.enunciado, a: q.alternativas, c: q.correta, x: q.explicacao };
         if (q.fonte) item.f = q.fonte;
+        if (q.modelo) item.m = q.modelo;
         return item;
       });
       total += qs.length;

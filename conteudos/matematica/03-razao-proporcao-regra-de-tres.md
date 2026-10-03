@@ -1,7 +1,7 @@
 ---
 titulo: Razão, proporção e regra de três
 provas: ENEM, Militares, Concursos
-descricao: Regra de três simples e composta, divisão proporcional, misturas e problemas de vazão.
+descricao: Regra de três simples e composta, divisão proporcional, escalas, misturas e problemas de vazão.
 fonte: Questão inédita gerada por computador (gabarito calculado)
 ---
 
@@ -9,7 +9,7 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 # Razão, proporção e regra de três
 
-Regra de três simples e composta, divisão proporcional, misturas e problemas de vazão.
+Regra de três simples e composta, divisão proporcional, escalas, misturas e problemas de vazão.
 
 ## Resumo
 
@@ -23,7 +23,106 @@ Regra de três simples e composta, divisão proporcional, misturas e problemas d
 ## Fácil
 
 ### 1
-Uma receita usa 5 ovos para fazer 2 bolos. Quantos ovos são necessários para fazer 12 bolos?
+<!-- modelo: f4 -->
+Em uma sala há 6 meninos e 18 meninas. A razão entre o número de meninos e o número total de alunos é:
+
+- A) 3
+- B) 1/3
+- C) 4
+- D) 3/4
+- E) 1/4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: razão. Razão é uma divisão na ordem pedida: primeiro o que vem antes do "e", depois o que vem depois. Total = 24. Meninos/total = 6/24 = 1/4.
+
+### 2
+<!-- modelo: f9 -->
+Um concurso teve 600 candidatos inscritos para 20 vagas. A relação candidato/vaga desse concurso é de:
+
+- A) 30 candidatos por vaga
+- B) 35 candidatos por vaga
+- C) 300 candidatos por vaga
+- D) 6 candidatos por vaga
+- E) 0,033 candidato por vaga
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: razão. Relação candidato/vaga = número de candidatos ÷ número de vagas. 600 ÷ 20 = 30.
+
+### 3
+<!-- modelo: f3 -->
+Dois irmãos dividiram R$ 720,00 na razão 3 : 5. Quanto recebeu o irmão que ficou com a maior parte?
+
+- A) R$ 450,00
+- B) R$ 270,00
+- C) R$ 144,00
+- D) R$ 500,00
+- E) R$ 360,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: divisão em partes. Razão 3 : 5 quer dizer que o total foi cortado em 8 partes iguais. Cada parte: R$ 720,00 ÷ 8 = R$ 90,00. Maior: 5 × R$ 90,00 = R$ 450,00.
+
+### 4
+<!-- modelo: f13 -->
+Em uma loja, o preço de fios elétricos é proporcional ao comprimento: 8 m custam R$ 96,00; 5 m custam R$ 60,00; 2 m custam R$ 24,00. Quanto custam 15 m desse fio?
+
+- A) R$ 27,00
+- B) R$ 1.440,00
+- C) R$ 90,00
+- D) R$ 192,00
+- E) R$ 180,00
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: constante de proporcionalidade. Em grandezas diretamente proporcionais, o preço ÷ comprimento é sempre o mesmo número. R$ 96,00 ÷ 8 = R$ 12,00 por metro; 15 × R$ 12,00 = R$ 180,00.
+
+### 5
+<!-- modelo: f8 -->
+Uma impressora imprime 40 páginas em 2 minutos. Mantendo esse ritmo, quanto tempo leva para imprimir um relatório de 90 páginas?
+
+- A) 180 min
+- B) 9 min
+- C) 6 min 30 s
+- D) 2 min 30 s
+- E) 4 min 30 s
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: regra de três direta. Mais páginas levam mais tempo, na mesma proporção. 40 páginas → 2 min; 90 páginas → 90 × 2 ÷ 40 = 4,5 min.
+
+### 6
+<!-- modelo: f12 -->
+Uma receita indica 500 g de macarrão para servir 5 pessoas. Quantos gramas são necessários para servir 18 pessoas no almoço de domingo?
+
+- A) 900 g
+- B) 630 g
+- C) 9.000 g
+- D) 1.800 g
+- E) 138,89 g
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: taxa unitária. Descubra quanto vai por pessoa e multiplique pelo novo número de pessoas. 500 ÷ 5 = 100 g por pessoa; × 18 = 1.800 g.
+
+### 7
+<!-- modelo: f2 -->
+10 pedreiros constroem um muro em 12 dias. Mantendo o mesmo ritmo de trabalho, em quantos dias 3 pedreiros construiriam o mesmo muro?
+
+- A) 3,6
+- B) 43
+- C) 24
+- D) 19
+- E) 40
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: regra de três inversa. Mais pedreiros terminam em menos dias: o produto (pedreiros × dias) é o "tamanho" da obra e não muda. 10 × 12 = 3 × x ⇒ x = 40 dias.
+
+### 8
+<!-- modelo: f1 -->
+Uma confeiteira usa 5 ovos para fazer 2 bolos. Mantendo a mesma receita, quantos ovos ela precisa para fazer 12 bolos?
 
 - A) 60
 - B) 32
@@ -33,9 +132,80 @@ Uma receita usa 5 ovos para fazer 2 bolos. Quantos ovos são necessários para f
 
 **Resposta:** C
 
-**Explicação:** Grandezas diretamente proporcionais: 5/2 = x/12 ⇒ x = 5 × 12 ÷ 2 = 30.
+**Explicação:** Ferramenta: regra de três direta. Mais bolos pedem mais ovos, na mesma proporção. 5/2 = x/12 ⇒ x = 5 × 12 ÷ 2 = 30.
 
-### 2
+### 9
+<!-- modelo: f7 -->
+Para obter um tom de verde, um pintor mistura latas de tinta azul e amarela na proporção de 2 para 5. Se ele usar 10 latas de azul, quantas latas de amarela deve usar?
+
+- A) 4
+- B) 26
+- C) 5
+- D) 13
+- E) 25
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: proporção. A razão azul : amarela deve continuar 2 : 5. O azul foi multiplicado por 5; o amarelo também deve ser. 10 ÷ 2 = 5; 5 × 5 = 25 latas.
+
+### 10
+<!-- modelo: f14 -->
+Um abrigo tem ração suficiente para alimentar 12 cães durante 24 dias. Se chegarem mais 6 cães, e cada cão continuar comendo a mesma quantidade, a ração vai durar quantos dias?
+
+- A) 36
+- B) 30
+- C) 18
+- D) 16
+- E) 14
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: regra de três inversa. A quantidade total de ração é fixa: cães × dias não muda. Mais cães, menos dias. 12 × 24 = 288 "refeições"; ÷ 18 cães = 16 dias.
+
+### 11
+<!-- modelo: f10 -->
+Para uma viagem, Gabriela trocou R$ 1.560,00 por dólares, com o dólar cotado a R$ 5,20. Quantos dólares recebeu (sem contar taxas)?
+
+- A) US$ 300
+- B) US$ 330
+- C) US$ 8.112
+- D) US$ 156
+- E) US$ 280
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: regra de três direta. Cada dólar custa R$ 5,20. Quantas vezes R$ 5,20 cabe em R$ 1.560,00? Divida. 1.560 ÷ 5,2 = 300 dólares.
+
+### 12
+<!-- modelo: f11 -->
+Viajando a 80 km/h, um motorista faz certo trajeto em 3 horas. Se fosse a 120 km/h, quanto tempo levaria no mesmo trajeto?
+
+- A) 1 h 30 min
+- B) 4 h 30 min
+- C) 2 h 30 min
+- D) 2 h 20 min
+- E) 2 h
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: regra de três inversa. Mais velocidade, menos tempo: o produto velocidade × tempo é a distância, que não muda. 80 × 3 = 240 km; 240 ÷ 120 = 2 h = 2 h.
+
+### 13
+<!-- modelo: f5 -->
+Um ônibus percorre 120 km em 2 horas, com velocidade constante. Quantos quilômetros percorrerá em 7 horas, mantendo essa velocidade?
+
+- A) 840 km
+- B) 127 km
+- C) 480 km
+- D) 17,14 km
+- E) 420 km
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: taxa unitária. Descubra quanto ele anda em 1 hora (velocidade) e multiplique pelo novo tempo. 120 ÷ 2 = 60 km/h; 60 × 7 = 420 km.
+
+### 14
+<!-- modelo: f2 -->
 12 pedreiros constroem um muro em 15 dias. Mantendo o mesmo ritmo de trabalho, em quantos dias 20 pedreiros construiriam o mesmo muro?
 
 - A) 7
@@ -46,762 +216,512 @@ Uma receita usa 5 ovos para fazer 2 bolos. Quantos ovos são necessários para f
 
 **Resposta:** E
 
-**Explicação:** Mais pedreiros, menos dias: grandezas inversamente proporcionais. 12 × 15 = 20 × x ⇒ x = 9 dias.
+**Explicação:** Ferramenta: regra de três inversa. Mais pedreiros terminam em menos dias: o produto (pedreiros × dias) é o "tamanho" da obra e não muda. 12 × 15 = 20 × x ⇒ x = 9 dias.
 
-### 3
-Dois irmãos dividiram R$ 630,00 na razão 3 : 6. Quanto recebeu o irmão que ficou com a maior parte?
+### 15
+<!-- modelo: f6 -->
+Um arquiteto faz a maquete de um prédio na escala 1 : 50. Se o prédio terá 12 m de altura, qual será a altura da maquete?
 
-- A) R$ 210,00
-- B) R$ 470,00
-- C) R$ 105,00
-- D) R$ 315,00
-- E) R$ 420,00
-
-**Resposta:** E
-
-**Explicação:** O total foi dividido em 3 + 6 = 9 partes de R$ 70,00. A maior parte vale 6 × R$ 70,00 = R$ 420,00.
-
-### 4
-Em uma sala há 25 meninos e 26 meninas. A razão entre o número de meninos e o número total de alunos é:
-
-- A) 26/51
-- B) 26/25
-- C) 25/51
-- D) 25/26
-- E) 51/25
-
-**Resposta:** C
-
-**Explicação:** Total = 51. Razão meninos/total = 25/51.
-
-### 5
-Um carro percorre 240 km em 4 horas, com velocidade constante. Quantos quilômetros ele percorrerá em 2,5 horas, mantendo essa velocidade?
-
-- A) 242,5 km
-- B) 96 km
-- C) 210 km
-- D) 600 km
-- E) 150 km
-
-**Resposta:** E
-
-**Explicação:** A velocidade é 240 ÷ 4 = 60 km/h. Em 2,5 h: 60 × 2,5 = 150 km.
-
-### 6
-Uma receita usa 4 ovos para fazer 3 bolos. Quantos ovos são necessários para fazer 12 bolos?
-
-- A) 13
-- B) 16
-- C) 48
-- D) 9
-- E) 18
+- A) 600 cm
+- B) 24 cm
+- C) 0,24 cm
+- D) 240 cm
+- E) 2,4 cm
 
 **Resposta:** B
 
-**Explicação:** Grandezas diretamente proporcionais: 4/3 = x/12 ⇒ x = 4 × 12 ÷ 3 = 16.
-
-### 7
-6 pedreiros constroem um muro em 10 dias. Mantendo o mesmo ritmo de trabalho, em quantos dias 15 pedreiros construiriam o mesmo muro?
-
-- A) 7
-- B) 25
-- C) 20
-- D) 1
-- E) 4
-
-**Resposta:** E
-
-**Explicação:** Mais pedreiros, menos dias: grandezas inversamente proporcionais. 6 × 10 = 15 × x ⇒ x = 4 dias.
-
-### 8
-Dois irmãos dividiram R$ 1.190,00 na razão 1 : 6. Quanto recebeu o irmão que ficou com a maior parte?
-
-- A) R$ 595,00
-- B) R$ 1.070,00
-- C) R$ 198,33
-- D) R$ 1.020,00
-- E) R$ 170,00
-
-**Resposta:** D
-
-**Explicação:** O total foi dividido em 1 + 6 = 7 partes de R$ 170,00. A maior parte vale 6 × R$ 170,00 = R$ 1.020,00.
-
-### 9
-Em uma sala há 18 meninos e 22 meninas. A razão entre o número de meninos e o número total de alunos é:
-
-- A) 11/9
-- B) 20/9
-- C) 11/20
-- D) 9/11
-- E) 9/20
-
-**Resposta:** E
-
-**Explicação:** Total = 40. Razão meninos/total = 18/40 = 9/20.
-
-### 10
-Um carro percorre 240 km em 4 horas, com velocidade constante. Quantos quilômetros ele percorrerá em 7 horas, mantendo essa velocidade?
-
-- A) 420 km
-- B) 34,29 km
-- C) 480 km
-- D) 247 km
-- E) 1.680 km
-
-**Resposta:** A
-
-**Explicação:** A velocidade é 240 ÷ 4 = 60 km/h. Em 7 h: 60 × 7 = 420 km.
-
-### 11
-Uma receita usa 4 ovos para fazer 3 bolos. Quantos ovos são necessários para fazer 9 bolos?
-
-- A) 36
-- B) 6,75
-- C) 10
-- D) 14
-- E) 12
-
-**Resposta:** E
-
-**Explicação:** Grandezas diretamente proporcionais: 4/3 = x/9 ⇒ x = 4 × 9 ÷ 3 = 12.
-
-### 12
-12 pedreiros constroem um muro em 12 dias. Mantendo o mesmo ritmo de trabalho, em quantos dias 8 pedreiros construiriam o mesmo muro?
-
-- A) 8
-- B) 21
-- C) 24
-- D) 18
-- E) 16
-
-**Resposta:** D
-
-**Explicação:** Mais pedreiros, menos dias: grandezas inversamente proporcionais. 12 × 12 = 8 × x ⇒ x = 18 dias.
-
-### 13
-Dois irmãos dividiram R$ 3.330,00 na razão 2 : 7. Quanto recebeu o irmão que ficou com a maior parte?
-
-- A) R$ 475,71
-- B) R$ 740,00
-- C) R$ 2.640,00
-- D) R$ 1.665,00
-- E) R$ 2.590,00
-
-**Resposta:** E
-
-**Explicação:** O total foi dividido em 2 + 7 = 9 partes de R$ 370,00. A maior parte vale 7 × R$ 370,00 = R$ 2.590,00.
-
-### 14
-Em uma sala há 12 meninos e 7 meninas. A razão entre o número de meninos e o número total de alunos é:
-
-- A) 7/19
-- B) 19/12
-- C) 12/19
-- D) 7/12
-- E) 12/7
-
-**Resposta:** C
-
-**Explicação:** Total = 19. Razão meninos/total = 12/19.
-
-### 15
-Um carro percorre 550 km em 5 horas, com velocidade constante. Quantos quilômetros ele percorrerá em 1,5 horas, mantendo essa velocidade?
-
-- A) 825 km
-- B) 366,67 km
-- C) 275 km
-- D) 165 km
-- E) 551,5 km
-
-**Resposta:** D
-
-**Explicação:** A velocidade é 550 ÷ 5 = 110 km/h. Em 1,5 h: 110 × 1,5 = 165 km.
+**Explicação:** Ferramenta: escala. Escala 1 : 50: cada 1 cm da maquete vale 50 cm reais. Passe tudo para a mesma unidade antes. 12 m = 1200 cm; 1200 ÷ 50 = 24 cm.
 
 ### 16
-Uma receita usa 2 ovos para fazer 4 bolos. Quantos ovos são necessários para fazer 10 bolos?
+<!-- modelo: f14 -->
+Um abrigo tem ração suficiente para alimentar 10 cães durante 24 dias. Se chegarem mais 6 cães, e cada cão continuar comendo a mesma quantidade, a ração vai durar quantos dias?
 
-- A) 7
-- B) 8
-- C) 5
-- D) 3
-- E) 20
+- A) 30
+- B) 18
+- C) 15
+- D) 38,4
+- E) 13
 
 **Resposta:** C
 
-**Explicação:** Grandezas diretamente proporcionais: 2/4 = x/10 ⇒ x = 2 × 10 ÷ 4 = 5.
+**Explicação:** Ferramenta: regra de três inversa. A quantidade total de ração é fixa: cães × dias não muda. Mais cães, menos dias. 10 × 24 = 240 "refeições"; ÷ 16 cães = 15 dias.
 
 ### 17
-10 pedreiros constroem um muro em 15 dias. Mantendo o mesmo ritmo de trabalho, em quantos dias 3 pedreiros construiriam o mesmo muro?
+<!-- modelo: f3 -->
+Dois irmãos dividiram R$ 3.850,00 na razão 4 : 7. Quanto recebeu o irmão que ficou com a maior parte?
 
-- A) 53
-- B) 22
-- C) 50
-- D) 30
-- E) 4,5
-
-**Resposta:** C
-
-**Explicação:** Mais pedreiros, menos dias: grandezas inversamente proporcionais. 10 × 15 = 3 × x ⇒ x = 50 dias.
-
-### 18
-Dois irmãos dividiram R$ 800,00 na razão 2 : 6. Quanto recebeu o irmão que ficou com a maior parte?
-
-- A) R$ 133,33
-- B) R$ 200,00
-- C) R$ 600,00
-- D) R$ 650,00
-- E) R$ 400,00
+- A) R$ 550,00
+- B) R$ 1.400,00
+- C) R$ 2.450,00
+- D) R$ 2.500,00
+- E) R$ 1.925,00
 
 **Resposta:** C
 
-**Explicação:** O total foi dividido em 2 + 6 = 8 partes de R$ 100,00. A maior parte vale 6 × R$ 100,00 = R$ 600,00.
-
-### 19
-Em uma sala há 12 meninos e 29 meninas. A razão entre o número de meninos e o número total de alunos é:
-
-- A) 29/41
-- B) 41/12
-- C) 12/29
-- D) 29/12
-- E) 12/41
-
-**Resposta:** E
-
-**Explicação:** Total = 41. Razão meninos/total = 12/41.
-
-### 20
-Um carro percorre 400 km em 5 horas, com velocidade constante. Quantos quilômetros ele percorrerá em 2,5 horas, mantendo essa velocidade?
-
-- A) 1.000 km
-- B) 160 km
-- C) 402,5 km
-- D) 280 km
-- E) 200 km
-
-**Resposta:** E
-
-**Explicação:** A velocidade é 400 ÷ 5 = 80 km/h. Em 2,5 h: 80 × 2,5 = 200 km.
+**Explicação:** Ferramenta: divisão em partes. Razão 4 : 7 quer dizer que o total foi cortado em 11 partes iguais. Cada parte: R$ 3.850,00 ÷ 11 = R$ 350,00. Maior: 7 × R$ 350,00 = R$ 2.450,00.
 
 ## Médio
 
 ### 1
-8 máquinas, trabalhando 6 horas por dia, produzem 1.800 peças em 6 dias. Quantos dias serão necessários para 4 máquinas iguais, trabalhando 6 horas por dia, produzirem 3.600 peças?
+<!-- modelo: m6 -->
+Bruno, Carla e Isabela trabalharam 3, 4 e 5 dias, respectivamente, em um serviço que rendeu R$ 15.000,00. O valor será dividido proporcionalmente aos dias trabalhados. Quanto recebe Isabela?
 
-- A) 6
-- B) 25
-- C) 24
-- D) 12
-- E) 34
+- A) R$ 3.750,00
+- B) R$ 7.500,00
+- C) R$ 5.000,00
+- D) R$ 9.375,00
+- E) R$ 6.250,00
 
-**Resposta:** C
+**Resposta:** E
 
-**Explicação:** Dias são inversamente proporcionais a máquinas e horas/dia e diretamente proporcionais às peças: x = 6 × (8/4) × (6/6) × (3.600/1.800) = 24.
+**Explicação:** Ferramenta: divisão proporcional. Some os pesos (3 + 4 + 5 = 12) para saber em quantas partes o total é dividido. Cada dia vale R$ 15.000,00 ÷ 12 = R$ 1.250,00. Isabela: 5 × R$ 1.250,00 = R$ 6.250,00.
 
 ### 2
-Um prêmio de R$ 14.400,00 será dividido entre dois funcionários em partes inversamente proporcionais ao número de faltas de cada um: 3 e 6 faltas. Quanto receberá quem faltou menos?
+<!-- modelo: m14 -->
+Em uma festa, a razão entre homens e mulheres era 5 : 7. Depois que chegaram 10 homens (e nenhuma mulher), a razão passou a ser 1 : 1. Quantas pessoas havia na festa antes da chegada desses homens?
 
-- A) R$ 7.200,00
-- B) R$ 9.700,00
-- C) R$ 9.599,00
-- D) R$ 9.600,00
-- E) R$ 4.800,00
+- A) 25
+- B) 180
+- C) 70
+- D) 60
+- E) 35
 
 **Resposta:** D
 
-**Explicação:** Partes proporcionais a 1/3 e 1/6, ou seja, a 6 e 3. Quem faltou 3 vezes recebe 6/9 de R$ 14.400,00 = R$ 9.600,00.
+**Explicação:** Ferramenta: constante k. Antes: 5k homens e 7k mulheres. Com 10 homens a mais, os grupos ficam iguais. 5k + 10 = 7k ⇒ k = 5. Antes: 25 + 35 = 60 pessoas.
 
 ### 3
-Um carro faz 10 km por litro. Em uma viagem de 300 km, com gasolina a R$ 5,50 o litro, qual será o gasto com combustível?
-
-- A) R$ 55,00
-- B) R$ 330,00
-- C) R$ 54,55
-- D) R$ 192,50
-- E) R$ 165,00
-
-**Resposta:** E
-
-**Explicação:** Litros: 300 ÷ 10 = 30 L. Gasto: 30 × R$ 5,50 = R$ 165,00.
-
-### 4
-Um suco é preparado misturando concentrado e água na proporção de 3 para 5. Para preparar 4 litros de suco, quantos litros de concentrado são necessários?
-
-- A) 2,5 L
-- B) 1,5 L
-- C) 2,4 L
-- D) 0,5 L
-- E) 1,33 L
-
-**Resposta:** B
-
-**Explicação:** A cada 8 partes de suco, 3 são de concentrado: 4 × 3/8 = 1,5 L.
-
-### 5
-Dois números estão na razão 5 : 7, e a diferença entre eles é 6. Qual é o maior desses números?
-
-- A) 36
-- B) 13
-- C) 21
-- D) 15
-- E) 42
-
-**Resposta:** C
-
-**Explicação:** Sejam 5k e 7k. Então 7k − 5k = 6 ⇒ k = 3. O maior é 7 × 3 = 21.
-
-### 6
-5 máquinas, trabalhando 8 horas por dia, produzem 1.800 peças em 6 dias. Quantos dias serão necessários para 12 máquinas iguais, trabalhando 10 horas por dia, produzirem 900 peças?
-
-- A) 11
-- B) 3
-- C) 1
-- D) 9
-- E) 2
-
-**Resposta:** C
-
-**Explicação:** Dias são inversamente proporcionais a máquinas e horas/dia e diretamente proporcionais às peças: x = 6 × (5/12) × (8/10) × (900/1.800) = 1.
-
-### 7
-Um prêmio de R$ 7.000,00 será dividido entre dois funcionários em partes inversamente proporcionais ao número de faltas de cada um: 3 e 4 faltas. Quanto receberá quem faltou menos?
-
-- A) R$ 4.000,00
-- B) R$ 3.000,00
-- C) R$ 3.999,00
-- D) R$ 4.100,00
-- E) R$ 3.500,00
-
-**Resposta:** A
-
-**Explicação:** Partes proporcionais a 1/3 e 1/4, ou seja, a 4 e 3. Quem faltou 3 vezes recebe 4/7 de R$ 7.000,00 = R$ 4.000,00.
-
-### 8
-Um carro faz 10 km por litro. Em uma viagem de 480 km, com gasolina a R$ 5,50 o litro, qual será o gasto com combustível?
-
-- A) R$ 87,27
-- B) R$ 267,00
-- C) R$ 264,00
-- D) R$ 55,00
-- E) R$ 291,50
-
-**Resposta:** C
-
-**Explicação:** Litros: 480 ÷ 10 = 48 L. Gasto: 48 × R$ 5,50 = R$ 264,00.
-
-### 9
-Um suco é preparado misturando concentrado e água na proporção de 2 para 6. Para preparar 16 litros de suco, quantos litros de concentrado são necessários?
-
-- A) 4 L
-- B) 12 L
-- C) 5,33 L
-- D) 8 L
-- E) 2 L
-
-**Resposta:** A
-
-**Explicação:** A cada 8 partes de suco, 2 são de concentrado: 16 × 2/8 = 4 L.
-
-### 10
-Dois números estão na razão 2 : 5, e a diferença entre eles é 6. Qual é o maior desses números?
-
-- A) 30
-- B) 11
-- C) 10
-- D) 14
-- E) 4
-
-**Resposta:** C
-
-**Explicação:** Sejam 2k e 5k. Então 5k − 2k = 6 ⇒ k = 2. O maior é 5 × 2 = 10.
-
-### 11
-5 máquinas, trabalhando 6 horas por dia, produzem 600 peças em 12 dias. Quantos dias serão necessários para 3 máquinas iguais, trabalhando 6 horas por dia, produzirem 2.400 peças?
-
-- A) 81
-- B) 48
-- C) 29
-- D) 120
-- E) 80
-
-**Resposta:** E
-
-**Explicação:** Dias são inversamente proporcionais a máquinas e horas/dia e diretamente proporcionais às peças: x = 12 × (5/3) × (6/6) × (2.400/600) = 80.
-
-### 12
-Um prêmio de R$ 12.600,00 será dividido entre dois funcionários em partes inversamente proporcionais ao número de faltas de cada um: 3 e 6 faltas. Quanto receberá quem faltou menos?
-
-- A) R$ 8.500,00
-- B) R$ 8.400,00
-- C) R$ 8.410,00
-- D) R$ 6.300,00
-- E) R$ 4.200,00
-
-**Resposta:** B
-
-**Explicação:** Partes proporcionais a 1/3 e 1/6, ou seja, a 6 e 3. Quem faltou 3 vezes recebe 6/9 de R$ 12.600,00 = R$ 8.400,00.
-
-### 13
-Um carro faz 12 km por litro. Em uma viagem de 420 km, com gasolina a R$ 6,00 o litro, qual será o gasto com combustível?
-
-- A) R$ 72,00
-- B) R$ 252,00
-- C) R$ 210,00
-- D) R$ 240,00
-- E) R$ 70,00
-
-**Resposta:** C
-
-**Explicação:** Litros: 420 ÷ 12 = 35 L. Gasto: 35 × R$ 6,00 = R$ 210,00.
-
-### 14
-Um suco é preparado misturando concentrado e água na proporção de 1 para 5. Para preparar 12 litros de suco, quantos litros de concentrado são necessários?
-
-- A) 2 L
-- B) 2,4 L
-- C) 10 L
-- D) 12 L
-- E) 4 L
-
-**Resposta:** A
-
-**Explicação:** A cada 6 partes de suco, 1 são de concentrado: 12 × 1/6 = 2 L.
-
-### 15
-8 máquinas, trabalhando 8 horas por dia, produzem 600 peças em 10 dias. Quantos dias serão necessários para 4 máquinas iguais, trabalhando 10 horas por dia, produzirem 900 peças?
-
-- A) 24
-- B) 15
-- C) 30
-- D) 9
-- E) 25
-
-**Resposta:** A
-
-**Explicação:** Dias são inversamente proporcionais a máquinas e horas/dia e diretamente proporcionais às peças: x = 10 × (8/4) × (8/10) × (900/600) = 24.
-
-### 16
-Um prêmio de R$ 7.200,00 será dividido entre dois funcionários em partes inversamente proporcionais ao número de faltas de cada um: 2 e 6 faltas. Quanto receberá quem faltou menos?
-
-- A) R$ 5.500,00
-- B) R$ 1.800,00
-- C) R$ 5.402,00
-- D) R$ 3.600,00
-- E) R$ 5.400,00
-
-**Resposta:** E
-
-**Explicação:** Partes proporcionais a 1/2 e 1/6, ou seja, a 6 e 2. Quem faltou 2 vezes recebe 6/8 de R$ 7.200,00 = R$ 5.400,00.
-
-### 17
-Um carro faz 15 km por litro. Em uma viagem de 600 km, com gasolina a R$ 5,80 o litro, qual será o gasto com combustível?
-
-- A) R$ 232,00
-- B) R$ 87,00
-- C) R$ 261,00
-- D) R$ 103,45
-- E) R$ 348,00
-
-**Resposta:** A
-
-**Explicação:** Litros: 600 ÷ 15 = 40 L. Gasto: 40 × R$ 5,80 = R$ 232,00.
-
-### 18
-Um suco é preparado misturando concentrado e água na proporção de 1 para 4. Para preparar 7,5 litros de suco, quantos litros de concentrado são necessários?
-
-- A) 1,5 L
-- B) 1,88 L
-- C) 7,5 L
-- D) 0,5 L
-- E) 6 L
-
-**Resposta:** A
-
-**Explicação:** A cada 5 partes de suco, 1 são de concentrado: 7,5 × 1/5 = 1,5 L.
-
-### 19
-Dois números estão na razão 3 : 8, e a diferença entre eles é 30. Qual é o maior desses números?
-
-- A) 240
-- B) 66
-- C) 48
-- D) 38
-- E) 18
-
-**Resposta:** C
-
-**Explicação:** Sejam 3k e 8k. Então 8k − 3k = 30 ⇒ k = 6. O maior é 8 × 6 = 48.
-
-### 20
-5 máquinas, trabalhando 8 horas por dia, produzem 1.200 peças em 12 dias. Quantos dias serão necessários para 12 máquinas iguais, trabalhando 6 horas por dia, produzirem 3.600 peças?
-
-- A) 20
-- B) 65
-- C) 21
-- D) 15
-- E) 36
-
-**Resposta:** A
-
-**Explicação:** Dias são inversamente proporcionais a máquinas e horas/dia e diretamente proporcionais às peças: x = 12 × (5/12) × (8/6) × (3.600/1.200) = 20.
-
-## Difícil
-
-### 1
-Uma torneira sozinha enche um tanque em 4 horas, e outra, sozinha, o enche em 6 horas. Abertas juntas, em quanto tempo enchem o tanque?
-
-- A) 10 h
-- B) 2 h
-- C) 2 h 54 min
-- D) 2 h 24 min
+<!-- modelo: m10 -->
+Uma bomba d'água encheu 1/3 de uma piscina em 3 horas. Mantendo a mesma vazão, quanto tempo falta para encher o restante?
+
+- A) 7 h
+- B) 3 h
+- C) 9 h
+- D) 6 h
 - E) 5 h
 
 **Resposta:** D
 
-**Explicação:** Por hora, as torneiras enchem 1/4 + 1/6 = 5/12 do tanque. O tempo é o inverso: 12/5 h = 2 h 24 min.
-
-### 2
-Dois sócios abriram uma empresa. O primeiro investiu R$ 30.000,00 durante 12 meses, e o segundo, R$ 20.000,00 durante 3 meses. O lucro de R$ 8.400,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
-
-- A) R$ 6.720,00
-- B) R$ 7.200,00
-- C) R$ 4.200,00
-- D) R$ 1.200,00
-- E) R$ 5.040,00
-
-**Resposta:** B
-
-**Explicação:** Pesos: 30.000 × 12 = 360.000 e 20.000 × 3 = 60.000. Primeiro sócio: R$ 8.400,00 × 360.000/420.000 = R$ 7.200,00.
-
-### 3
-15 operários, trabalhando 8 horas por dia, fazem uma obra em 20 dias. Em quantos dias 8 operários, com a mesma eficiência, trabalhando 10 horas por dia, fariam a mesma obra?
-
-- A) 30
-- B) 13
-- C) 33
-- D) 60
-- E) 31
-
-**Resposta:** A
-
-**Explicação:** Dias são inversamente proporcionais a operários, horas/dia e eficiência: x = 20 × (15/8) × (8/10) × (1/1) = 30.
+**Explicação:** Ferramenta: regra de três direta. 1/3 levou 3 h; o restante é 2/3. 1/3 → 3 h; 2/3 → 3 × 2 ÷ 1 = 6 h = 6 h.
 
 ### 4
-Um avô vai dividir R$ 3.900,00 entre três netos, em partes diretamente proporcionais às idades (8, 12, 18 anos) e inversamente proporcionais ao número de faltas na escola (1, 2, 3, respectivamente). Quanto receberá o neto que ganhar mais?
+<!-- modelo: m2 -->
+Um prêmio de R$ 16.000,00 será dividido entre dois funcionários em partes inversamente proporcionais ao número de faltas de cada um: 4 e 6 faltas. Quanto receberá quem faltou menos?
 
-- A) R$ 1.300,00
-- B) R$ 1.563,00
-- C) R$ 1.560,00
-- D) R$ 1.847,37
-- E) R$ 1.170,00
+- A) R$ 6.400,00
+- B) R$ 4.800,00
+- C) R$ 9.700,00
+- D) R$ 8.000,00
+- E) R$ 9.600,00
 
-**Resposta:** C
+**Resposta:** E
 
-**Explicação:** Pesos = idade ÷ faltas: 8, 6, 6 (soma 20). A maior parte é R$ 3.900,00 × 8/20 = R$ 1.560,00.
+**Explicação:** Ferramenta: divisão inversamente proporcional. Inversamente proporcional a 4 e 6 é o mesmo que diretamente proporcional a 1/4 e 1/6, isto é, a 6 e 4. Quem faltou 4 vezes recebe 6/10 de R$ 16.000,00 = R$ 9.600,00.
 
 ### 5
-Uma torneira sozinha enche um tanque em 4 horas, e outra, sozinha, o enche em 12 horas. Abertas juntas, em quanto tempo enchem o tanque?
+<!-- modelo: m1 -->
+5 máquinas, trabalhando 8 horas por dia, produzem 1.200 peças em 5 dias. Quantos dias serão necessários para 4 máquinas iguais, trabalhando 10 horas por dia, produzirem 2.400 peças?
 
-- A) 16 h
-- B) 3 h 30 min
-- C) 6 h
-- D) 3 h
-- E) 8 h
+- A) 10
+- B) 5
+- C) 20
+- D) 11
+- E) 13
 
-**Resposta:** D
+**Resposta:** A
 
-**Explicação:** Por hora, as torneiras enchem 1/4 + 1/12 = 1/3 do tanque. O tempo é o inverso: 3 h.
+**Explicação:** Ferramenta: regra de três composta. Compare cada grandeza com "dias", uma de cada vez: mais máquinas ou mais horas → menos dias (inversa); mais peças → mais dias (direta). x = 5 × (5/4) × (8/10) × (2.400/1.200) = 10.
 
 ### 6
-Dois sócios abriram uma empresa. O primeiro investiu R$ 20.000,00 durante 6 meses, e o segundo, R$ 20.000,00 durante 9 meses. O lucro de R$ 3.000,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
+<!-- modelo: m8 -->
+Um painel retangular foi pintado com 1,5 litros de tinta. Será feito outro painel com o mesmo formato, mas com comprimento e largura 2 vezes maiores. Quantos litros de tinta serão necessários (mesma espessura de pintura)?
 
-- A) R$ 1.202,00
-- B) R$ 1.500,00
-- C) R$ 1.198,00
-- D) R$ 1.200,00
-- E) R$ 1.800,00
+- A) 3 L
+- B) 12 L
+- C) 4 L
+- D) 6 L
+- E) 3,5 L
 
 **Resposta:** D
 
-**Explicação:** Pesos: 20.000 × 6 = 120.000 e 20.000 × 9 = 180.000. Primeiro sócio: R$ 3.000,00 × 120.000/300.000 = R$ 1.200,00.
+**Explicação:** Ferramenta: razão de semelhança. Se as medidas lineares são multiplicadas por 2, a área (e a tinta) é multiplicada por 2² = 4. 1,5 × 4 = 6 L.
 
 ### 7
-12 operários, trabalhando 8 horas por dia, fazem uma obra em 15 dias. Em quantos dias 16 operários, com eficiência igual a 1/2 da dos primeiros, trabalhando 5 horas por dia, fariam a mesma obra?
+<!-- modelo: m11 -->
+O estoque de arroz de um restaurante dura 20 dias, consumindo 36 kg por dia. Se o consumo cair para 30 kg por dia, o estoque durará quantos dias?
 
-- A) 72
-- B) 36
-- C) 18
-- D) 13
-- E) 37
+- A) 26
+- B) 24
+- C) 16
+- D) 22
+- E) 16,67
 
 **Resposta:** B
 
-**Explicação:** Dias são inversamente proporcionais a operários, horas/dia e eficiência: x = 15 × (12/16) × (8/5) × (2/1) = 36.
+**Explicação:** Ferramenta: regra de três inversa. O estoque total (dias × consumo diário) é fixo. 20 × 36 = 720 kg; ÷ 30 = 24 dias.
 
 ### 8
-Um avô vai dividir R$ 3.900,00 entre três netos, em partes diretamente proporcionais às idades (10, 12, 15 anos) e inversamente proporcionais ao número de faltas na escola (2, 3, 5, respectivamente). Quanto receberá o neto que ganhar mais?
+<!-- modelo: m6 -->
+Larissa, Felipe e Júlia trabalharam 3, 4 e 5 dias, respectivamente, em um serviço que rendeu R$ 11.400,00. O valor será dividido proporcionalmente aos dias trabalhados. Quanto recebe Júlia?
 
-- A) R$ 1.635,00
-- B) R$ 1.300,00
-- C) R$ 1.581,08
-- D) R$ 975,00
-- E) R$ 1.625,00
+- A) R$ 3.800,00
+- B) R$ 5.700,00
+- C) R$ 4.760,00
+- D) R$ 4.750,00
+- E) R$ 2.850,00
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** Pesos = idade ÷ faltas: 5, 4, 3 (soma 12). A maior parte é R$ 3.900,00 × 5/12 = R$ 1.625,00.
+**Explicação:** Ferramenta: divisão proporcional. Some os pesos (3 + 4 + 5 = 12) para saber em quantas partes o total é dividido. Cada dia vale R$ 11.400,00 ÷ 12 = R$ 950,00. Júlia: 5 × R$ 950,00 = R$ 4.750,00.
 
 ### 9
-Dois sócios abriram uma empresa. O primeiro investiu R$ 20.000,00 durante 6 meses, e o segundo, R$ 40.000,00 durante 4 meses. O lucro de R$ 2.800,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
+<!-- modelo: m12 -->
+Em uma bicicleta, a coroa (engrenagem dos pedais) tem 48 dentes e a catraca (da roda) tem 24 dentes. Se a catraca deve girar 180 voltas por minuto, quantas voltas por minuto o ciclista precisa dar nos pedais?
 
-- A) R$ 1.680,00
-- B) R$ 1.400,00
-- C) R$ 933,33
-- D) R$ 1.600,00
-- E) R$ 1.200,00
-
-**Resposta:** E
-
-**Explicação:** Pesos: 20.000 × 6 = 120.000 e 40.000 × 4 = 160.000. Primeiro sócio: R$ 2.800,00 × 120.000/280.000 = R$ 1.200,00.
-
-### 10
-10 operários, trabalhando 8 horas por dia, fazem uma obra em 12 dias. Em quantos dias 8 operários, com eficiência igual a 1/2 da dos primeiros, trabalhando 10 horas por dia, fariam a mesma obra?
-
-- A) 48
-- B) 25
-- C) 24
-- D) 72
-- E) 12
-
-**Resposta:** C
-
-**Explicação:** Dias são inversamente proporcionais a operários, horas/dia e eficiência: x = 12 × (10/8) × (8/10) × (2/1) = 24.
-
-### 11
-Uma torneira sozinha enche um tanque em 10 horas, e outra, sozinha, o enche em 15 horas. Abertas juntas, em quanto tempo enchem o tanque?
-
-- A) 12 h 30 min
-- B) 25 h
-- C) 6 h 30 min
-- D) 5 h
-- E) 6 h
-
-**Resposta:** E
-
-**Explicação:** Por hora, as torneiras enchem 1/10 + 1/15 = 1/6 do tanque. O tempo é o inverso: 6 h.
-
-### 12
-Dois sócios abriram uma empresa. O primeiro investiu R$ 20.000,00 durante 12 meses, e o segundo, R$ 20.000,00 durante 6 meses. O lucro de R$ 3.600,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
-
-- A) R$ 4.800,00
-- B) R$ 1.800,00
-- C) R$ 2.400,00
-- D) R$ 2.410,00
-- E) R$ 1.200,00
-
-**Resposta:** C
-
-**Explicação:** Pesos: 20.000 × 12 = 240.000 e 20.000 × 6 = 120.000. Primeiro sócio: R$ 3.600,00 × 240.000/360.000 = R$ 2.400,00.
-
-### 13
-15 operários, trabalhando 8 horas por dia, fazem uma obra em 20 dias. Em quantos dias 16 operários, com eficiência igual a 2/3 da dos primeiros, trabalhando 5 horas por dia, fariam a mesma obra?
-
-- A) 30
-- B) 13
-- C) 45
-- D) 46
-- E) 90
-
-**Resposta:** C
-
-**Explicação:** Dias são inversamente proporcionais a operários, horas/dia e eficiência: x = 20 × (15/16) × (8/5) × (3/2) = 45.
-
-### 14
-Um avô vai dividir R$ 5.200,00 entre três netos, em partes diretamente proporcionais às idades (8, 12, 18 anos) e inversamente proporcionais ao número de faltas na escola (1, 2, 3, respectivamente). Quanto receberá o neto que ganhar mais?
-
-- A) R$ 2.080,00
-- B) R$ 1.560,00
-- C) R$ 1.733,33
-- D) R$ 2.463,16
-- E) R$ 2.078,00
+- A) 90
+- B) 135
+- C) 180
+- D) 114
+- E) 360
 
 **Resposta:** A
 
-**Explicação:** Pesos = idade ÷ faltas: 8, 6, 6 (soma 20). A maior parte é R$ 5.200,00 × 8/20 = R$ 2.080,00.
+**Explicação:** Ferramenta: engrenagens (inversa). Engrenagens ligadas por corrente "passam" o mesmo número de dentes por minuto: dentes × voltas é igual nas duas. 48 × x = 24 × 180 ⇒ x = 90 voltas por minuto.
 
-### 15
-Uma torneira sozinha enche um tanque em 3 horas, e outra, sozinha, o enche em 6 horas. Abertas juntas, em quanto tempo enchem o tanque?
+### 10
+<!-- modelo: m9 -->
+Em uma casa de câmbio, 1 dólar custa R$ 5,20 e 1 euro custa R$ 6,05. Um turista quer trocar 220 euros por dólares, passando pelo real. Quantos dólares recebe (sem taxas)?
 
-- A) 3 h
-- B) 4 h 30 min
-- C) 2 h 30 min
-- D) 9 h
-- E) 2 h
+- A) US$ 255,96
+- B) US$ 187
+- C) US$ 1.331
+- D) US$ 189,09
+- E) US$ 220
 
-**Resposta:** E
+**Resposta:** A
 
-**Explicação:** Por hora, as torneiras enchem 1/3 + 1/6 = 1/2 do tanque. O tempo é o inverso: 2 h.
+**Explicação:** Ferramenta: mudança de unidade em duas etapas. Converta euros em reais (multiplica) e depois reais em dólares (divide). 220 × R$ 6,05 = R$ 1.331,00; ÷ 5,2 = 255,96 dólares.
 
-### 16
-Dois sócios abriram uma empresa. O primeiro investiu R$ 10.000,00 durante 6 meses, e o segundo, R$ 40.000,00 durante 9 meses. O lucro de R$ 8.400,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
+### 11
+<!-- modelo: m5 -->
+Uma receita de panqueca leva 3 ovos, 3 xícaras de farinha e 1 copo de leite. Na cozinha há 12 ovos, 15 xícaras de farinha e 8 copos de leite. Quantas receitas completas dá para fazer?
 
-- A) R$ 3.360,00
-- B) R$ 1.200,00
-- C) R$ 1.680,00
-- D) R$ 4.200,00
-- E) R$ 7.200,00
+- A) 2
+- B) 8
+- C) 4
+- D) 3
+- E) 5
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: ingrediente que acaba primeiro. Calcule quantas receitas cada ingrediente permite; vale o menor número. Ovos: 4; farinha: 5; leite: 8. O ovos limita: 4 receitas.
+
+### 12
+<!-- modelo: m1 -->
+5 máquinas, trabalhando 8 horas por dia, produzem 1.800 peças em 6 dias. Quantos dias serão necessários para 4 máquinas iguais, trabalhando 10 horas por dia, produzirem 900 peças?
+
+- A) 5
+- B) 3
+- C) 4
+- D) 6
+- E) 13
 
 **Resposta:** B
 
-**Explicação:** Pesos: 10.000 × 6 = 60.000 e 40.000 × 9 = 360.000. Primeiro sócio: R$ 8.400,00 × 60.000/420.000 = R$ 1.200,00.
+**Explicação:** Ferramenta: regra de três composta. Compare cada grandeza com "dias", uma de cada vez: mais máquinas ou mais horas → menos dias (inversa); mais peças → mais dias (direta). x = 6 × (5/4) × (8/10) × (900/1.800) = 3.
+
+### 13
+<!-- modelo: m7 -->
+Na planta de uma casa, desenhada na escala 1 : 100, a sala é um retângulo de 5 cm por 2 cm. Qual é a área real da sala?
+
+- A) 5 m²
+- B) 10 m²
+- C) 20 m²
+- D) 0,1 m²
+- E) 14 m²
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: escala em medidas lineares. A escala vale para comprimentos. Converta cada lado para o tamanho real e só depois calcule a área. 5 cm → 5 m; 2 cm → 2 m; área = 10 m².
+
+### 14
+<!-- modelo: m13 -->
+Uma argamassa usa cimento e areia no traço 1 : 3 (em volume). Para preparar 3 m³ de mistura, quantos metros cúbicos de areia são necessários?
+
+- A) 2,25 m³
+- B) 4,5 m³
+- C) 0,75 m³
+- D) 9 m³
+- E) 1 m³
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: divisão em partes. O traço 1 : 3 divide a mistura em 4 partes, das quais 3 são de areia. 3 × 3/4 = 2,25 m³.
+
+### 15
+<!-- modelo: m4 -->
+As idades de dois primos estão na razão 3 : 8, e a diferença entre elas é de 25 anos. Qual é a idade do primo mais velho?
+
+- A) 200
+- B) 33
+- C) 40
+- D) 15
+- E) 55
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: constante k. Escreva as idades como 3k e 8k. A diferença é 5k. 5k = 25 ⇒ k = 5. Mais velho: 8 × 5 = 40 anos.
+
+### 16
+<!-- modelo: m3 -->
+Um suco é preparado misturando concentrado e água na proporção de 1 para 6. Para preparar 14 litros de suco, quantos litros de concentrado são necessários?
+
+- A) 12 L
+- B) 2,33 L
+- C) 4 L
+- D) 14 L
+- E) 2 L
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: parte de um todo. "1 para 6" compara concentrado com água; o suco é a soma: 7 partes. 14 × 1/7 = 2 L.
 
 ### 17
-12 operários, trabalhando 8 horas por dia, fazem uma obra em 15 dias. Em quantos dias 24 operários, 1,5 vezes mais eficientes que os primeiros, trabalhando 5 horas por dia, fariam a mesma obra?
+<!-- modelo: m14 -->
+Em uma festa, a razão entre homens e mulheres era 4 : 5. Depois que chegaram 6 homens (e nenhuma mulher), a razão passou a ser 1 : 1. Quantas pessoas havia na festa antes da chegada desses homens?
 
-- A) 9
-- B) 19
-- C) 12
-- D) 16
-- E) 8
+- A) 30
+- B) 60
+- C) 24
+- D) 54
+- E) 64
 
-**Resposta:** E
+**Resposta:** D
 
-**Explicação:** Dias são inversamente proporcionais a operários, horas/dia e eficiência: x = 15 × (12/24) × (8/5) × (2/3) = 8.
+**Explicação:** Ferramenta: constante k. Antes: 4k homens e 5k mulheres. Com 6 homens a mais, os grupos ficam iguais. 4k + 6 = 5k ⇒ k = 6. Antes: 24 + 30 = 54 pessoas.
 
-### 18
-Um avô vai dividir R$ 2.600,00 entre três netos, em partes diretamente proporcionais às idades (6, 9, 12 anos) e inversamente proporcionais ao número de faltas na escola (1, 3, 2, respectivamente). Quanto receberá o neto que ganhar mais?
+## Difícil
 
-- A) R$ 1.040,00
-- B) R$ 866,67
-- C) R$ 1.155,56
-- D) R$ 520,00
-- E) R$ 1.043,00
-
-**Resposta:** A
-
-**Explicação:** Pesos = idade ÷ faltas: 6, 3, 6 (soma 15). A maior parte é R$ 2.600,00 × 6/15 = R$ 1.040,00.
-
-### 19
-Dois sócios abriram uma empresa. O primeiro investiu R$ 10.000,00 durante 12 meses, e o segundo, R$ 15.000,00 durante 3 meses. O lucro de R$ 4.125,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
-
-- A) R$ 3.000,00
-- B) R$ 3.300,00
-- C) R$ 1.125,00
-- D) R$ 1.650,00
-- E) R$ 2.062,50
-
-**Resposta:** A
-
-**Explicação:** Pesos: 10.000 × 12 = 120.000 e 15.000 × 3 = 45.000. Primeiro sócio: R$ 4.125,00 × 120.000/165.000 = R$ 3.000,00.
-
-### 20
-20 operários, trabalhando 8 horas por dia, fazem uma obra em 20 dias. Em quantos dias 16 operários, com eficiência igual a 1/2 da dos primeiros, trabalhando 10 horas por dia, fariam a mesma obra?
+### 1
+<!-- modelo: d9 -->
+Hoje, a razão entre a idade de um pai e a do filho é 4 : 1. Daqui a 10 anos, essa razão será 5 : 2. Qual é a idade atual do filho?
 
 - A) 20
-- B) 80
-- C) 41
-- D) 38
-- E) 40
+- B) 40
+- C) 13
+- D) 10
+- E) 5
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: constante k e equação. Hoje: pai = 4k, filho = k. Daqui a 10 anos: (4k + 10) / (k + 10) = 5/2. 2(4k + 10) = 5(k + 10) ⇒ k = 10. Filho: 10 anos.
+
+### 2
+<!-- modelo: d2 -->
+Dois sócios abriram uma empresa. O primeiro investiu R$ 10.000,00 durante 8 meses, e o segundo, R$ 20.000,00 durante 4 meses. O lucro de R$ 4.000,00 será dividido proporcionalmente ao capital multiplicado pelo tempo. Quanto receberá o primeiro sócio?
+
+- A) R$ 6.000,00
+- B) R$ 2.000,00
+- C) R$ 1.333,33
+- D) R$ 4.000,00
+- E) R$ 2.666,67
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: divisão proporcional a produtos. O peso de cada sócio é capital × tempo. Pesos: 80.000 e 80.000. Primeiro: R$ 4.000,00 × 80.000/160.000 = R$ 2.000,00.
+
+### 3
+<!-- modelo: d8 -->
+Um relógio atrasa 3 minutos a cada hora. Ele foi acertado ao meio-dia. Quando forem, de verdade, 22h do mesmo dia, que horário ele vai marcar?
+
+- A) 22h30
+- B) 21h00
+- C) 21h45
+- D) 21h57
+- E) 21h30
 
 **Resposta:** E
 
-**Explicação:** Dias são inversamente proporcionais a operários, horas/dia e eficiência: x = 20 × (20/16) × (8/10) × (2/1) = 40.
+**Explicação:** Ferramenta: regra de três direta. O atraso é proporcional ao tempo passado: 3 min por hora. 10 horas × 3 min = 30 min de atraso. 22h00 − 30 min = 21h30.
+
+### 4
+<!-- modelo: d7 -->
+Um motorista vai de uma cidade a outra a 30 km/h e volta pelo mesmo caminho a 60 km/h. Qual foi a velocidade média na viagem completa (ida e volta)?
+
+- A) 45 km/h
+- B) 40 km/h
+- C) 50 km/h
+- D) 44 km/h
+- E) 30 km/h
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: velocidade média = distância total ÷ tempo total. A média simples erra: o carro passa MAIS tempo no trecho lento. Suponha uma distância (por exemplo, o MMC das velocidades) e calcule os tempos. Para d km em cada sentido: tempo = d/30 + d/60. Vm = 2d ÷ (d/30 + d/60) = 2 × 30 × 60 ÷ 90 = 40 km/h.
+
+### 5
+<!-- modelo: d10 -->
+Em uma fazenda, 4 cavalos consomem 90 kg de feno em 12 dias. Em quantos dias 8 cavalos consumirão 240 kg de feno, comendo cada um a mesma quantidade por dia?
+
+- A) 6
+- B) 32
+- C) 19
+- D) 64
+- E) 16
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: regra de três composta. Mais feno → mais dias (direta); mais cavalos → menos dias (inversa). x = 12 × (240/90) × (4/8) = 16 dias.
+
+### 6
+<!-- modelo: d5 -->
+Uma torneira enche um tanque em 6 horas, e um ralo, sozinho, esvazia o tanque cheio em 10 horas. Se o tanque está vazio e a torneira e o ralo são abertos ao mesmo tempo, em quanto tempo ele fica cheio?
+
+- A) 7 h 30 min
+- B) 4 h
+- C) 15 h
+- D) 3 h 45 min
+- E) 16 h
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: ritmos com sinais. A torneira soma e o ralo subtrai: o ritmo líquido é a diferença entre as frações por hora. 1/6 − 1/10 = 1/15 do tanque por hora → 15 h = 15 h.
+
+### 7
+<!-- modelo: d12 -->
+Em um mapa na escala 1 : 50.000, uma fazenda aparece como uma figura de 8 cm². Qual é a área real da fazenda, em hectares (1 ha = 10 000 m²)?
+
+- A) 4.000 ha
+- B) 2.000 ha
+- C) 200 ha
+- D) 40 ha
+- E) 2 ha
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: escala ao quadrado. Em áreas, a escala entra ao quadrado: 1 cm no mapa = 500 m, então 1 cm² = 250.000 m². 8 × 250.000 = 2.000.000 m² = 200 ha.
+
+### 8
+<!-- modelo: d6 -->
+Trabalhando sem ajuda, Diego pinta uma casa em 6 dias. Com a ajuda de Beatriz, os dois pintam a mesma casa em 4 dias. Em quantos dias Beatriz, sem ajuda, pintaria a casa?
+
+- A) 12
+- B) 2,4
+- C) 14
+- D) 10
+- E) 2
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: soma de ritmos. Por dia: (ritmo de um) + (ritmo do outro) = ritmo da dupla. 1/6 + 1/x = 1/4 ⇒ 1/x = 1/4 − 1/6 = 1/12 ⇒ x = 12 dias.
+
+### 9
+<!-- modelo: d1 -->
+Uma torneira sozinha enche um tanque em 5 horas, e outra, sozinha, o enche em 20 horas. Abertas juntas, em quanto tempo enchem o tanque?
+
+- A) 25 h
+- B) 4 h 30 min
+- C) 4 h
+- D) 12 h 30 min
+- E) 15 h
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: soma de ritmos. Não se somam tempos, e sim o que cada torneira faz por hora (fração do tanque). 1/5 + 1/20 = 1/4 do tanque por hora. Tempo: 4 h = 4 h.
+
+### 10
+<!-- modelo: d1 -->
+Uma torneira sozinha enche um tanque em 4 horas, e outra, sozinha, o enche em 12 horas. Abertas juntas, em quanto tempo enchem o tanque?
+
+- A) 3 h
+- B) 16 h
+- C) 2 h
+- D) 3 h 30 min
+- E) 8 h
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: soma de ritmos. Não se somam tempos, e sim o que cada torneira faz por hora (fração do tanque). 1/4 + 1/12 = 1/3 do tanque por hora. Tempo: 3 h = 3 h.
+
+### 11
+<!-- modelo: d3 -->
+10 operários, trabalhando 8 horas por dia, fazem uma obra em 12 dias. Em quantos dias 16 operários, 1,5 vezes mais eficientes que os primeiros, trabalhando 10 horas por dia, fariam a mesma obra?
+
+- A) 5
+- B) 8
+- C) 6
+- D) 24
+- E) 4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: regra de três composta. Dias são inversamente proporcionais a operários, horas por dia e eficiência. x = 12 × (10/16) × (8/10) × (2/3) = 4.
+
+### 12
+<!-- modelo: d4 -->
+Um avô vai dividir R$ 2.600,00 entre três netos, em partes diretamente proporcionais às idades (6, 9, 12 anos) e inversamente proporcionais ao número de faltas na escola (1, 3, 2, respectivamente). Quanto receberá o neto que ganhar mais?
+
+- A) R$ 866,67
+- B) R$ 520,00
+- C) R$ 1.155,56
+- D) R$ 1.040,00
+- E) R$ 2.080,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: pesos combinados. Direta: a idade multiplica o peso. Inversa: as faltas dividem o peso. Pesos (idade ÷ faltas): 6, 3, 6; soma 15. Maior parte: R$ 2.600,00 × 6/15 = R$ 1.040,00.
+
+### 13
+<!-- modelo: d6 -->
+Trabalhando sem ajuda, Gabriela pinta uma casa em 15 dias. Com a ajuda de Beatriz, os dois pintam a mesma casa em 10 dias. Em quantos dias Beatriz, sem ajuda, pintaria a casa?
+
+- A) 6
+- B) 32
+- C) 5
+- D) 25
+- E) 30
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: soma de ritmos. Por dia: (ritmo de um) + (ritmo do outro) = ritmo da dupla. 1/15 + 1/x = 1/10 ⇒ 1/x = 1/10 − 1/15 = 1/30 ⇒ x = 30 dias.
+
+### 14
+<!-- modelo: d7 -->
+Um motorista vai de uma cidade a outra a 80 km/h e volta pelo mesmo caminho a 120 km/h. Qual foi a velocidade média na viagem completa (ida e volta)?
+
+- A) 96 km/h
+- B) 105 km/h
+- C) 288 km/h
+- D) 100 km/h
+- E) 40 km/h
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: velocidade média = distância total ÷ tempo total. A média simples erra: o carro passa MAIS tempo no trecho lento. Suponha uma distância (por exemplo, o MMC das velocidades) e calcule os tempos. Para d km em cada sentido: tempo = d/80 + d/120. Vm = 2d ÷ (d/80 + d/120) = 2 × 80 × 120 ÷ 200 = 96 km/h.
+
+### 15
+<!-- modelo: d13 -->
+Três técnicos vão dividir R$ 1.350,00 de bônus em partes inversamente proporcionais ao número de erros que cometeram no ano: 3, 4 e 6 erros. Quanto recebe quem errou menos?
+
+- A) R$ 623,08
+- B) R$ 602,00
+- C) R$ 600,00
+- D) R$ 300,00
+- E) R$ 450,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: divisão inversamente proporcional. Use os inversos 1/3, 1/4, 1/6; multiplicando todos por 12 (o MMC), eles ficam proporcionais a 4, 3 e 2. Soma dos pesos: 9. Quem errou 3 vezes: R$ 1.350,00 × 4/9 = R$ 600,00.
+
+### 16
+<!-- modelo: d11 -->
+Uma cafeteria mistura um café de R$ 20,00 o quilo com outro de R$ 35,00 o quilo para obter 80 kg de um blend que custe R$ 26,00 o quilo. Quantos quilos do café mais barato deve usar?
+
+- A) 40 kg
+- B) 53 kg
+- C) 32 kg
+- D) 34 kg
+- E) 48 kg
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: média ponderada. O preço médio fica mais perto do café que entra em maior quantidade. Monte: 20x + 35(80 − x) = 26 × 80. 2800 − 15x = 2080 ⇒ x = 48 kg.

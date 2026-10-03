@@ -2,17 +2,17 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**4744 questões** em **90 tópicos**.
+**4734 questões** em **90 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## Matemática — 1020 questões
+## Matemática — 1010 questões
 
 *Matemática e suas Tecnologias*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Números e operações](matematica/01-numeros-e-operacoes.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
+| [Números e operações](matematica/01-numeros-e-operacoes.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Porcentagem](matematica/02-porcentagem.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 | [Razão, proporção e regra de três](matematica/03-razao-proporcao-regra-de-tres.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |
 | [Equações, inequações e sistemas](matematica/04-equacoes-e-sistemas.md) | ENEM, Militares, Concursos | 20 | 20 | 20 |

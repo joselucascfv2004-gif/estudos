@@ -9,13 +9,14 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 import { RESUMOS } from './geradores/resumos.mjs';
-import { criarRng, gerarNivel, hashTexto, paraMarkdown } from './geradores/util.mjs';
+import { criarRng, gerarNivel, gerarNivelUnico, hashTexto, paraMarkdown } from './geradores/util.mjs';
 
 const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PASTA_GERADORES = path.join(RAIZ, 'scripts', 'geradores');
 const POR_NIVEL = 20;
 
 const modulos = fs.readdirSync(PASTA_GERADORES).filter((f) => f.endsWith('.mjs') && f !== 'util.mjs' && f !== 'resumos.mjs').sort();
+const enunciados = new Map();
 let total = 0;
 for (const m of modulos) {
   const { default: topicos } = await import(pathToFileURL(path.join(PASTA_GERADORES, m)).href);
@@ -23,11 +24,17 @@ for (const m of modulos) {
     const rng = criarRng(hashTexto(t.disciplina + '/' + t.arquivo));
     const niveis = t.niveis.map((modelos, n) => {
       try {
-        return gerarNivel(rng, modelos, t.quantidade ?? POR_NIVEL);
+        return t.unico ? gerarNivelUnico(rng, modelos, 'fmd'[n]) : gerarNivel(rng, modelos, t.quantidade ?? POR_NIVEL);
       } catch (e) {
         throw new Error(`${t.disciplina}/${t.arquivo} nível ${n}: ${e.message}`);
       }
     });
+    // nenhum enunciado pode se repetir no tópico, nem entre níveis
+    for (const q of niveis.flat()) {
+      const chave = `${t.disciplina}/${t.arquivo}|${q.e}`;
+      if (enunciados.has(chave)) throw new Error(`${t.disciplina}/${t.arquivo}: enunciado repetido: ${q.e.slice(0, 60)}`);
+      enunciados.set(chave, true);
+    }
     const destino = path.join(RAIZ, 'conteudos', t.disciplina, t.arquivo + '.md');
     fs.mkdirSync(path.dirname(destino), { recursive: true });
     fs.writeFileSync(destino, paraMarkdown({ ...t, resumo: RESUMOS[`${t.disciplina}/${t.arquivo}`] }, niveis));

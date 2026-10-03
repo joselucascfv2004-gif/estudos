@@ -74,8 +74,20 @@ export function fatorial(n) {
 export const comb = (n, k) => (k < 0 || k > n ? 0 : fatorial(n) / (fatorial(k) * fatorial(n - k)));
 export const arranjo = (n, k) => fatorial(n) / fatorial(n - k);
 
-const NOMES = ['Ana', 'Bruno', 'Carla', 'Diego', 'Eduarda', 'Felipe', 'Gabriela', 'Henrique', 'Isabela', 'João', 'Larissa', 'Marcos', 'Natália', 'Otávio', 'Paula', 'Rafael', 'Sofia', 'Thiago', 'Vitória', 'Lucas', 'Beatriz', 'Caio', 'Júlia', 'Pedro'];
+export const NOMES = ['Ana', 'Bruno', 'Carla', 'Diego', 'Eduarda', 'Felipe', 'Gabriela', 'Henrique', 'Isabela', 'João', 'Larissa', 'Marcos', 'Natália', 'Otávio', 'Paula', 'Rafael', 'Sofia', 'Thiago', 'Vitória', 'Lucas', 'Beatriz', 'Caio', 'Júlia', 'Pedro'];
 export const nome = (rng) => rng.pick(NOMES);
+/** k nomes diferentes */
+export const nomes = (rng, k) => rng.sample(NOMES, k);
+
+/**
+ * Explicação no estilo "ferramenta + jogada": diz qual ferramenta da matemática resolve o problema
+ * e por que ela serve, e depois mostra a conta.
+ */
+export const expl = (ferramenta, jogada, conta) => `Ferramenta: ${ferramenta}. ${jogada}${conta ? ' ' + conta : ''}`;
+
+/** Superscrito para expoentes (2³, 10⁻⁴). */
+const SUPS = { '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹', '-': '⁻', '−': '⁻', n: 'ⁿ', x: 'ˣ' };
+export const sup = (n) => String(n).split('').map((c) => SUPS[c] ?? c).join('');
 
 /** Ajustes tipográficos: sinal de menos verdadeiro, coeficiente 1 omitido, "= X = X" repetido. */
 export function limpar(t) {
@@ -165,6 +177,35 @@ export function gerarNivel(rng, modelos, quantidade) {
   return saida;
 }
 
+/**
+ * Modo sem repetição: cada modelo gera UMA questão (ou `modelo.vezes` questões, com valores
+ * diferentes). Assim, um nível com 15 modelos tem 15 enunciados diferentes.
+ * Cada questão guarda o número do modelo (q.m) para a lição não juntar duas do mesmo modelo.
+ */
+export function gerarNivelUnico(rng, modelos, prefixo) {
+  const saida = [];
+  const vistos = new Set();
+  modelos.forEach((modelo, k) => {
+    const vezes = modelo.vezes ?? 1;
+    let feitas = 0;
+    for (let t = 0; feitas < vezes && t < 200; t++) {
+      let q;
+      try {
+        q = montar(rng, modelo(rng), modelo.alternativas || 5);
+      } catch (e) {
+        if (t === 199) throw new Error(`modelo ${k + 1}: ${e.message}`);
+        continue;
+      }
+      if (vistos.has(q.e)) continue;
+      vistos.add(q.e);
+      saida.push({ ...q, m: `${prefixo}${k + 1}` });
+      feitas++;
+    }
+    if (feitas < vezes) throw new Error(`modelo ${k + 1} gerou só ${feitas}/${vezes} questões diferentes`);
+  });
+  return rng.shuffle(saida);
+}
+
 const LETRAS = 'ABCDE';
 export function paraMarkdown(topico, niveis) {
   const nomes = ['Fácil', 'Médio', 'Difícil'];
@@ -187,7 +228,9 @@ export function paraMarkdown(topico, niveis) {
   niveis.forEach((qs, n) => {
     l.push(`## ${nomes[n]}`, '');
     qs.forEach((q, i) => {
-      l.push(`### ${i + 1}`, q.e, '');
+      l.push(`### ${i + 1}`);
+      if (q.m) l.push(`<!-- modelo: ${q.m} -->`);
+      l.push(q.e, '');
       q.a.forEach((a, j) => l.push(`- ${LETRAS[j]}) ${a}`));
       l.push('', `**Resposta:** ${LETRAS[q.c]}`, '', `**Explicação:** ${q.x}`, '');
     });

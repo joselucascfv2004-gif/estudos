@@ -23,6 +23,8 @@ export type Questao = {
   x: string;
   /** fonte */
   f?: string;
+  /** modelo de enunciado (questões geradas): a lição evita dois do mesmo modelo */
+  m?: string;
 };
 
 export type Topico = {

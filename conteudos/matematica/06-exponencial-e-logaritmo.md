@@ -1,7 +1,7 @@
 ---
 titulo: Função exponencial e logaritmo
 provas: ENEM, Militares, Concursos
-descricao: Equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e escalas logarítmicas.
+descricao: Potências, equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e escalas logarítmicas.
 fonte: Questão inédita gerada por computador (gabarito calculado)
 ---
 
@@ -9,7 +9,7 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 # Função exponencial e logaritmo
 
-Equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e escalas logarítmicas.
+Potências, equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e escalas logarítmicas.
 
 ## Resumo
 
@@ -24,785 +24,635 @@ Equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e 
 ## Fácil
 
 ### 1
-Qual é o valor de x na equação 2ˣ = 32?
+<!-- modelo: f4 -->
+Considerando log 2 = 0,30 e log 3 = 0,48, qual é o valor de log 8?
 
-- A) 10
-- B) 5
-- C) 6
-- D) 16
-- E) 4
-
-**Resposta:** B
-
-**Explicação:** 32 = 2⁵, então 2ˣ = 2⁵ ⇒ x = 5.
-
-### 2
-Qual é o valor de log na base 3 de 1?
-
-- A) 3
-- B) 1
-- C) 0
-- D) 2
-- E) −1
-
-**Resposta:** C
-
-**Explicação:** log_3 1 = x ⇔ 3ˣ = 1. Como 3⁰ = 1, x = 0.
-
-### 3
-Uma colônia de bactérias, inicialmente com 1.000 indivíduos, dobra de tamanho a cada hora. Quantas bactérias haverá após 5 horas?
-
-- A) 10.000
-- B) 32.002
-- C) 16.000
-- D) 32.000
-- E) 64.000
-
-**Resposta:** D
-
-**Explicação:** Em 5 horas ocorrem 5 duplicações: 1.000 × 2⁵ = 32.000.
-
-### 4
-Considerando log 2 = 0,30 e log 3 = 0,48, qual é o valor de log 5?
-
-- A) 0,70
-- B) 1,40
-- C) 0,14
-- D) 1,00
-- E) 0,52
-
-**Resposta:** A
-
-**Explicação:** 5 = 10/2. Usando log(a·b) = log a + log b, log(aⁿ) = n·log a e log(a/b) = log a − log b: log 5 = 0,70.
-
-### 5
-Qual é o valor de x na equação 2ˣ = 8?
-
-- A) 2
-- B) 6
-- C) 4
-- D) 3
-- E) 9
-
-**Resposta:** D
-
-**Explicação:** 8 = 2³, então 2ˣ = 2³ ⇒ x = 3.
-
-### 6
-Qual é o valor de log 1/10?
-
-- A) −2
-- B) −10
-- C) 0
-- D) 1
-- E) −1
-
-**Resposta:** E
-
-**Explicação:** log 1/10 = x ⇔ 10ˣ = 1/10. Como 10⁻¹ = 1/10, x = −1.
-
-### 7
-Uma colônia de bactérias, inicialmente com 100 indivíduos, dobra de tamanho a cada 2 horas. Quantas bactérias haverá após 12 horas?
-
-- A) 1.200
-- B) 6.400
-- C) 409.600
-- D) 12.800
-- E) 3.200
-
-**Resposta:** B
-
-**Explicação:** Em 12 horas ocorrem 6 duplicações: 100 × 2⁶ = 6.400.
-
-### 8
-Considerando log 2 = 0,30 e log 3 = 0,48, qual é o valor de log 24?
-
-- A) 2,76
-- B) 1,68
-- C) 0,14
-- D) 1,20
-- E) 1,38
-
-**Resposta:** E
-
-**Explicação:** 24 = 2³ · 3. Usando log(a·b) = log a + log b, log(aⁿ) = n·log a e log(a/b) = log a − log b: log 24 = 1,38.
-
-### 9
-Qual é o valor de x na equação 3ˣ = 81?
-
-- A) 8
-- B) 5
-- C) 3
-- D) 27
-- E) 4
-
-**Resposta:** E
-
-**Explicação:** 81 = 3⁴, então 3ˣ = 3⁴ ⇒ x = 4.
-
-### 10
-Qual é o valor de log na base 2 de 32?
-
-- A) 6
-- B) 3
-- C) 4
-- D) 5
-- E) 10
-
-**Resposta:** D
-
-**Explicação:** log_2 32 = x ⇔ 2ˣ = 32. Como 2⁵ = 32, x = 5.
-
-### 11
-Uma colônia de bactérias, inicialmente com 100 indivíduos, dobra de tamanho a cada hora. Quantas bactérias haverá após 6 horas?
-
-- A) 9.600
-- B) 6.400
-- C) 12.800
-- D) 1.200
-- E) 3.200
-
-**Resposta:** B
-
-**Explicação:** Em 6 horas ocorrem 6 duplicações: 100 × 2⁶ = 6.400.
-
-### 12
-Qual é o valor de x na equação 2ˣ = 64?
-
-- A) 6
-- B) 12
-- C) 7
-- D) 5
-- E) 32
-
-**Resposta:** A
-
-**Explicação:** 64 = 2⁶, então 2ˣ = 2⁶ ⇒ x = 6.
-
-### 13
-Qual é o valor de log na base 3 de 9?
-
-- A) 1
-- B) 5
-- C) 2
-- D) 3
-- E) 6
-
-**Resposta:** C
-
-**Explicação:** log_3 9 = x ⇔ 3ˣ = 9. Como 3² = 9, x = 2.
-
-### 14
-Uma colônia de bactérias, inicialmente com 500 indivíduos, dobra de tamanho a cada 3 horas. Quantas bactérias haverá após 12 horas?
-
-- A) 8.002
-- B) 4.000
-- C) 8.000
-- D) 2.048.000
-- E) 16.000
-
-**Resposta:** C
-
-**Explicação:** Em 12 horas ocorrem 4 duplicações: 500 × 2⁴ = 8.000.
-
-### 15
-Considerando log 2 = 0,30 e log 3 = 0,48, qual é o valor de log 12?
-
-- A) 2,16
-- B) 1,38
-- C) 0,14
-- D) 1,08
+- A) 1,80
+- B) 0,72
+- C) 1,20
+- D) 0,14
 - E) 0,90
 
-**Resposta:** D
+**Resposta:** E
 
-**Explicação:** 12 = 2² · 3. Usando log(a·b) = log a + log b, log(aⁿ) = n·log a e log(a/b) = log a − log b: log 12 = 1,08.
+**Explicação:** Ferramenta: propriedades do log. Decomponha o número em fatores 2, 3 e 10: produto vira soma, potência vira multiplicação, divisão vira subtração. 8 = 2³ ⇒ log 8 = 0,90.
 
-### 16
-Uma colônia de bactérias, inicialmente com 500 indivíduos, dobra de tamanho a cada 2 horas. Quantas bactérias haverá após 10 horas?
+### 2
+<!-- modelo: f1 -->
+Qual é o valor de x na equação 2ˣ = 64?
 
-- A) 512.000
-- B) 16.000
-- C) 5.000
-- D) 8.000
-- E) 32.000
+- A) 12
+- B) 6
+- C) 7
+- D) 32
+- E) 5
 
 **Resposta:** B
 
-**Explicação:** Em 10 horas ocorrem 5 duplicações: 500 × 2⁵ = 16.000.
+**Explicação:** Ferramenta: mesma base. Escreva o número do lado direito como potência da mesma base; aí basta igualar os expoentes. 64 = 2⁶ ⇒ x = 6.
 
-### 17
-Qual é o valor de x na equação 2ˣ = 16?
+### 3
+<!-- modelo: f5 -->
+Qual é o valor de 64^(2/3)?
 
-- A) 4
-- B) 7
-- C) 8
-- D) 3
-- E) 5
-
-**Resposta:** A
-
-**Explicação:** 16 = 2⁴, então 2ˣ = 2⁴ ⇒ x = 4.
-
-### 18
-Qual é o valor de log na base 2 de 2?
-
-- A) 4
-- B) 2
-- C) 1
-- D) 0
-- E) 11
-
-**Resposta:** C
-
-**Explicação:** log_2 2 = x ⇔ 2ˣ = 2. Como 2¹ = 2, x = 1.
-
-### 19
-Uma colônia de bactérias, inicialmente com 100 indivíduos, dobra de tamanho a cada 2 horas. Quantas bactérias haverá após 10 horas?
-
-- A) 1.600
-- B) 1.000
-- C) 6.400
-- D) 3.200
-- E) 102.400
+- A) 64
+- B) 42,67
+- C) 4
+- D) 16
+- E) 8
 
 **Resposta:** D
 
-**Explicação:** Em 10 horas ocorrem 5 duplicações: 100 × 2⁵ = 3.200.
+**Explicação:** Ferramenta: expoente fracionário = raiz. a^(p/q) = (raiz de índice q de a) elevada a p. Tire a raiz primeiro: os números ficam pequenos. raiz cúbica de 64 = 4; 4² = 16.
 
-### 20
-Considerando log 2 = 0,30 e log 3 = 0,48, qual é o valor de log 6?
+### 4
+<!-- modelo: f3 -->
+Uma colônia de bactérias, inicialmente com 100 indivíduos, dobra de tamanho a cada 4 horas. Quantas bactérias haverá após 24 horas?
 
-- A) 0,14
-- B) 1,56
-- C) 1,08
-- D) 0,60
+- A) 3.200
+- B) 2.400
+- C) 6.400
+- D) 1.200
+- E) 12.800
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: crescimento exponencial. Conte quantas vezes a colônia dobrou e multiplique por 2 essa quantidade de vezes. 24 ÷ 4 = 6 duplicações: 100 × 2⁶ = 6.400.
+
+### 5
+<!-- modelo: f8 -->
+Calcule log 4 + log 25.
+
+- A) 1
+- B) 2
+- C) 29
+- D) 3
+- E) 1,46
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: log do produto. log a + log b = log(a · b). Multiplicando, aparece uma potência de 10. log(4 × 25) = log 100 = 2.
+
+### 6
+<!-- modelo: f10 -->
+O organismo elimina metade de um medicamento a cada 6 horas. Um paciente tomou 400 mg. Quantos miligramas ainda restam no corpo 12 horas depois (sem nova dose)?
+
+- A) 110 mg
+- B) 50 mg
+- C) 200 mg
+- D) 100 mg
+- E) 102 mg
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: meia-vida. A cada período, multiplica-se por 1/2. Não se tira sempre a mesma quantidade! 12 h = 2 meias-vidas: 400 ÷ 2² = 100 mg.
+
+### 7
+<!-- modelo: f3 -->
+Uma colônia de bactérias, inicialmente com 200 indivíduos, dobra de tamanho a cada 3 horas. Quantas bactérias haverá após 15 horas?
+
+- A) 12.800
+- B) 3.200
+- C) 2.000
+- D) 6.400
+- E) 3.000
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: crescimento exponencial. Conte quantas vezes a colônia dobrou e multiplique por 2 essa quantidade de vezes. 15 ÷ 3 = 5 duplicações: 200 × 2⁵ = 6.400.
+
+### 8
+<!-- modelo: f5 -->
+Qual é o valor de 81^(3/4)?
+
+- A) 3
+- B) 60,75
+- C) 27
+- D) 81
+- E) 9
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: expoente fracionário = raiz. a^(p/q) = (raiz de índice q de a) elevada a p. Tire a raiz primeiro: os números ficam pequenos. raiz de índice 4 de 81 = 3; 3³ = 27.
+
+### 9
+<!-- modelo: f4 -->
+Considerando log 2 = 0,30 e log 3 = 0,48, qual é o valor de log 9?
+
+- A) 1,26
+- B) 1,92
+- C) 0,96
+- D) 0,14
 - E) 0,78
 
-**Resposta:** E
+**Resposta:** C
 
-**Explicação:** 6 = 2 · 3. Usando log(a·b) = log a + log b, log(aⁿ) = n·log a e log(a/b) = log a − log b: log 6 = 0,78.
+**Explicação:** Ferramenta: propriedades do log. Decomponha o número em fatores 2, 3 e 10: produto vira soma, potência vira multiplicação, divisão vira subtração. 9 = 3² ⇒ log 9 = 0,96.
+
+### 10
+<!-- modelo: f11 -->
+Qual é o valor de log₃ 1 + log₅ 5 + log 100?
+
+- A) 7
+- B) 3
+- C) 2
+- D) 1
+- E) 4
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: logs que todo mundo deve saber. log de 1 é 0 em qualquer base; log da própria base é 1; log 10ᵏ = k. 0 + 1 + 2 = 3.
+
+### 11
+<!-- modelo: f2 -->
+Qual é o valor de log 1/10?
+
+- A) 0
+- B) 1
+- C) −1
+- D) −2
+- E) −10
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: logaritmo é um expoente. O logaritmo de a na base b pergunta: "a que expoente devo elevar b para obter a?" 10⁻¹ = 1/10, então o logaritmo é −1.
+
+### 12
+<!-- modelo: f6 -->
+Sendo f(x) = 3ˣ, qual é o valor de f(4) − f(0) + f(−1)?
+
+- A) 239/3
+- B) 80
+- C) 81
+- D) 241/3
+- E) 83
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: substituição com expoente negativo. b⁻¹ = 1/b: expoente negativo inverte a base. 81 − 1 + 1/3 = 241/3.
+
+### 13
+<!-- modelo: f7 -->
+Qual das funções abaixo é DECRESCENTE em todo o seu domínio?
+
+- A) f(x) = (3/2)ˣ
+- B) f(x) = (1,1)ˣ
+- C) f(x) = 5ˣ
+- D) f(x) = (1/2)ˣ
+- E) f(x) = 2ˣ
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: base da exponencial. f(x) = bˣ cresce se b > 1 e decresce se 0 < b < 1 (multiplicar por algo menor que 1 diminui). Só (1/2) está entre 0 e 1.
+
+### 14
+<!-- modelo: f1 -->
+Qual é o valor de x na equação 2ˣ = 16?
+
+- A) 12
+- B) 5
+- C) 4
+- D) 8
+- E) 3
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: mesma base. Escreva o número do lado direito como potência da mesma base; aí basta igualar os expoentes. 16 = 2⁴ ⇒ x = 4.
+
+### 15
+<!-- modelo: f9 -->
+Resolva a equação 8ˣ = 16.
+
+- A) 4/3
+- B) 4
+- C) 8/3
+- D) 5/3
+- E) 3/4
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: base comum. Quando as bases são potências do mesmo número, reescreva tudo nessa base menor. 2³ˣ = 2⁴ ⇒ 3x = 4 ⇒ x = 4/3.
 
 ## Médio
 
 ### 1
-Qual é a solução da equação 3^(x + 1) = 81?
+<!-- modelo: m5 -->
+O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁵ mol/L, qual é o seu pH?
 
-- A) 4
-- B) 5
-- C) 6
+- A) 50
+- B) 9
+- C) 15
+- D) 6
+- E) 5
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: log de potência de 10. log 10ᵏ = k. O sinal de menos da fórmula deixa o pH positivo. pH = −log 10⁻⁵ = −(−5) = 5.
+
+### 2
+<!-- modelo: m10 -->
+Na escala Richter, a magnitude é M = log(A/A₀), em que A é a amplitude das ondas do terremoto. Quantas vezes a amplitude de um terremoto de magnitude 8 é maior que a de um de magnitude 5?
+
+- A) 3 vezes
+- B) 8 vezes
+- C) 1.000 vezes
+- D) 10.000 vezes
+- E) 30 vezes
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: escala logarítmica. Em escala log de base 10, cada ponto a mais multiplica a grandeza por 10. M₂ − M₁ = log(A₂/A₁) = 3 ⇒ A₂/A₁ = 10³ = 1000.
+
+### 3
+<!-- modelo: m1 -->
+Qual é a solução da equação 3^(x + 2) = 27?
+
+- A) 0
+- B) 1
+- C) 2
+- D) 5
+- E) 3
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: igualar expoentes. Com as bases iguais, os expoentes também são iguais. 27 = 3³ ⇒ x + 2 = 3 ⇒ x = 1.
+
+### 4
+<!-- modelo: m2 -->
+Se log na base 5 de x é igual a 2, então x vale:
+
+- A) 10
+- B) 32
+- C) 25
+- D) 125
+- E) 7
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: definição de logaritmo. Dizer que o log de x na base b é n é o mesmo que dizer bⁿ = x. x = 5² = 25.
+
+### 5
+<!-- modelo: m4 -->
+Uma população dobra a cada 25 anos. Em quanto tempo ela fica 16 vezes maior que a inicial?
+
+- A) 100 anos
+- B) 400 anos
+- C) 200 anos
+- D) 125 anos
+- E) 41 anos
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: potências de 2. Ficar 16 vezes maior = dobrar 4 vezes (16 = 2⁴). 4 × 25 = 100 anos.
+
+### 6
+<!-- modelo: m11 -->
+Sabendo que log a = 4 e log b = 1, qual é o valor de log(a³ · b² / 10)?
+
+- A) 14
+- B) 24
+- C) 13
+- D) 9
+- E) 23
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: propriedades do log. Potência sai multiplicando, produto vira soma, divisão vira subtração, e log 10 = 1. 3·4 + 2·1 − 1 = 13.
+
+### 7
+<!-- modelo: m6 -->
+Qual é o valor de log na base 25 de 125?
+
+- A) 5/2
+- B) 3
+- C) 2/3
+- D) 3/2
+- E) 2
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: mudança de base. Escreva base e logaritmando como potências do mesmo número primo; o log vira a razão dos expoentes. (5³/5²): log = 3/2.
+
+### 8
+<!-- modelo: m8 -->
+Para que a expressão log(x − 2) exista nos números reais, x deve satisfazer:
+
+- A) x > −2
+- B) x > 2
+- C) x ≥ 2
+- D) x < 2
+- E) x > 0
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: condição de existência. Só existe log de número positivo (o logaritmando deve ser maior que zero). x − 2 > 0 ⇒ x > 2.
+
+### 9
+<!-- modelo: m12 -->
+O gráfico de f(x) = a · bˣ passa pelos pontos (0, 4) e (1, 12). Qual é o valor de f(3)?
+
+- A) 36
+- B) 108
+- C) 27
+- D) 111
+- E) 64
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: ler os parâmetros nos pontos. f(0) = a (pois b⁰ = 1). f(1) = a · b dá o b. a = 4, b = 12/4 = 3. f(3) = 4 · 3³ = 108.
+
+### 10
+<!-- modelo: m8 -->
+Para que a expressão log(−4 − x) exista nos números reais, x deve satisfazer:
+
+- A) x > −4
+- B) x ≤ −4
+- C) x > 0
+- D) x > 4
+- E) x < −4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: condição de existência. Só existe log de número positivo (o logaritmando deve ser maior que zero). −4 − x > 0 ⇒ x < −4.
+
+### 11
+<!-- modelo: m3 -->
+Um carro de R$ 50.000,00 desvaloriza 10% ao ano em relação ao valor do ano anterior. Qual será o seu valor daqui a 2 anos?
+
+- A) R$ 40.500,00
+- B) R$ 45.000,00
+- C) R$ 40.000,00
+- D) R$ 36.450,00
+- E) R$ 500,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: decaimento exponencial. Perder 10% ao ano é multiplicar por 0,9 a cada ano: V = V₀ · 0,9ⁿ. 50.000 × 0,8100 = R$ 40.500,00.
+
+### 12
+<!-- modelo: m6 -->
+Qual é o valor de log na base 27 de 9?
+
+- A) 2/3
+- B) 2
+- C) 3/2
+- D) 4/3
+- E) 5/3
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: mudança de base. Escreva base e logaritmando como potências do mesmo número primo; o log vira a razão dos expoentes. (3²/3³): log = 2/3.
+
+### 13
+<!-- modelo: m7 -->
+Resolva a equação 2ˣ + 2^(x + 2) = 40.
+
+- A) 5
+- B) 2
+- C) 3
+- D) 4
+- E) 20
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: colocar em evidência. 2^(x + 2) = 2ˣ · 4. Junte os termos com 2ˣ. 2ˣ(1 + 4) = 40 ⇒ 2ˣ = 8 ⇒ x = 3.
+
+### 14
+<!-- modelo: m9 -->
+Uma aplicação de R$ 5.000,00 rende 20% ao mês a juros compostos. Qual é o montante após 2 meses?
+
+- A) R$ 2.000,00
+- B) R$ 7.000,00
+- C) R$ 6.000,00
+- D) R$ 7.200,00
+- E) R$ 7.450,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: função exponencial M = C(1 + i)ⁿ. A cada mês, o saldo é multiplicado pelo mesmo fator. 5.000 × 1,2² = R$ 7.200,00.
+
+### 15
+<!-- modelo: m1 -->
+Qual é a solução da equação 2^(x + 2) = 16?
+
+- A) 6
+- B) 1
+- C) 2
+- D) 5
+- E) 4
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: igualar expoentes. Com as bases iguais, os expoentes também são iguais. 16 = 2⁴ ⇒ x + 2 = 4 ⇒ x = 2.
+
+## Difícil
+
+### 1
+<!-- modelo: d2 -->
+Um isótopo radioativo tem meia-vida de 8 anos. Partindo de 320 g, quanto restará após 32 anos?
+
+- A) 40 g
+- B) 20 g
+- C) 22 g
+- D) 106,67 g
+- E) 10 g
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: meia-vida. Conte quantas meias-vidas cabem no tempo e divida por 2 essa quantidade de vezes. 32 ÷ 8 = 4: 320 ÷ 2⁴ = 20 g.
+
+### 2
+<!-- modelo: d4 -->
+O nível sonoro, em decibéis, é dado por N = 10 · log(I/I₀). Se a intensidade sonora I de uma fonte for multiplicada por 100, o nível sonoro:
+
+- A) aumenta 20 dB
+- B) aumenta 30 dB
+- C) aumenta 100 dB
+- D) aumenta 200 dB
+- E) aumenta 2 dB
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: log do produto. log(10ᵏ · x) = k + log x: multiplicar dentro do log vira somar fora. N' = 10 · [2 + log(I/I₀)] = N + 20.
+
+### 3
+<!-- modelo: d7 -->
+Qual é a soma das soluções da equação 4ˣ − 17 · 2ˣ + 16 = 0?
+
+- A) 0
+- B) 7
+- C) 4
+- D) 17
+- E) 16
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: troca de variável. Faça y = 2ˣ; então 4ˣ = y². A equação vira do 2º grau. y² − 17y + 16 = 0 ⇒ y = 1 ou 16 ⇒ x = 0 ou 4. Soma: 4.
+
+### 4
+<!-- modelo: d9 -->
+Quantos números inteiros satisfazem a inequação log₂(x − 4) < 3?
+
+- A) 12
+- B) 6
+- C) 10
+- D) 8
+- E) 7
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: inequação + domínio. Base maior que 1: a desigualdade se mantém ao passar para a forma exponencial. E o logaritmando precisa ser positivo. 0 < x − 4 < 2³ = 8 ⇒ 4 < x < 12. Inteiros: de 5 a 11, ou seja, 7.
+
+### 5
+<!-- modelo: d12 -->
+A cidade A dobra sua população (multiplica por 2) a cada 15 anos. A cidade B multiplica sua população por 8 no mesmo período de 15 anos. Quanto tempo a cidade A leva para crescer tanto quanto a cidade B cresce em 15 anos?
+
+- A) 45 anos
+- B) 60 anos
+- C) 120 anos
+- D) 47 anos
+- E) 15 anos
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: potências da mesma base. 8 = 2³: a cidade A precisa de 3 períodos. 3 × 15 = 45 anos.
+
+### 6
+<!-- modelo: d1 -->
+Qual é a solução da equação log₂(x) + log₂(x − 3) = 2?
+
+- A) 5
+- B) 3
+- C) 4
+- D) 1
+- E) 7
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: juntar os logs e conferir o domínio. Some os logs (vira log do produto), volte para a forma exponencial e descarte a raiz que deixa algum logaritmando negativo. x(x − 3) = 2² = 4 ⇒ x = 4 ou x = −1. Como x > 3, x = 4.
+
+### 7
+<!-- modelo: d5 -->
+Uma aplicação de R$ 2.000,00 rende 10% ao ano, a juros compostos. Usando log 2 ≈ 0,30 e log 1,1 ≈ 0,04, em quantos anos, aproximadamente, o montante será 8 vezes o valor aplicado?
+
+- A) 11,3 anos
+- B) 80 anos
+- C) 25,5 anos
+- D) 45 anos
+- E) 22,5 anos
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: logaritmo para achar o expoente. O tempo está no expoente; o log "traz" o expoente para baixo. 1,1ⁿ = 8 ⇒ n = log 8 / log 1,1 = 0,90/0,04 ≈ 22,5.
+
+### 8
+<!-- modelo: d11 -->
+Resolva o sistema { 2ˣ · 4ʸ = 1024 ; 3^(x − y) = 3 } e calcule x + y.
+
+- A) 1
+- B) 8
+- C) 12
+- D) 7
+- E) 10
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: igualar expoentes em cada equação. Coloque cada equação numa base só; os expoentes formam um sistema linear. x + 2y = 10 e x − y = 1 ⇒ y = 3, x = 4; x + y = 7.
+
+### 9
+<!-- modelo: d7 -->
+Qual é a soma das soluções da equação 4ˣ − 6 · 2ˣ + 8 = 0?
+
+- A) 6
+- B) 3
+- C) 5
+- D) 2
+- E) 8
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: troca de variável. Faça y = 2ˣ; então 4ˣ = y². A equação vira do 2º grau. y² − 6y + 8 = 0 ⇒ y = 2 ou 4 ⇒ x = 1 ou 2. Soma: 3.
+
+### 10
+<!-- modelo: d1 -->
+Qual é a solução da equação log₂(x) + log₂(x − 4) = 5?
+
+- A) 32
+- B) 4
+- C) 8
+- D) 18
+- E) 12
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: juntar os logs e conferir o domínio. Some os logs (vira log do produto), volte para a forma exponencial e descarte a raiz que deixa algum logaritmando negativo. x(x − 4) = 2⁵ = 32 ⇒ x = 8 ou x = −4. Como x > 4, x = 8.
+
+### 11
+<!-- modelo: d6 -->
+A meia-vida de uma substância é de 3 horas. Qual é o tempo mínimo, em múltiplos da meia-vida, para que reste menos de 1% da quantidade inicial? (Use log 2 ≈ 0,30.)
+
+- A) 3 h
+- B) 24 h
+- C) 18 h
+- D) 150 h
+- E) 21 h
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: inequação exponencial. Após n meias-vidas resta (1/2)ⁿ. Queremos (1/2)ⁿ < 0.01, isto é, 2ⁿ > 100. 2⁶ = 64 ainda não basta; 2⁷ = 128 > 100. São 7 meias-vidas = 21 h.
+
+### 12
+<!-- modelo: d10 -->
+A energia liberada por um terremoto se relaciona com a magnitude M por log E = 1,5M + 4,8. Quantas vezes, aproximadamente, a energia de um terremoto de magnitude 8 é maior que a de um de magnitude 5?
+
+- A) cerca de 31.600 vezes
+- B) cerca de 1.000 vezes
+- C) cerca de 30 vezes
+- D) cerca de 100.000 vezes
+- E) cerca de 4,5 vezes
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: diferença de logs. Subtraindo as equações, sobra log(E₂/E₁) = 1,5 × (diferença de magnitudes). log(E₂/E₁) = 1,5 × 3 = 4,5 ⇒ E₂/E₁ = 10^4,5 ≈ 31.600 (31.623 aproximadamente).
+
+### 13
+<!-- modelo: d2 -->
+Um isótopo radioativo tem meia-vida de 5 anos. Partindo de 80 g, quanto restará após 20 anos?
+
+- A) 2,5 g
+- B) 10 g
+- C) 5 g
+- D) 26,67 g
+- E) 15 g
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: meia-vida. Conte quantas meias-vidas cabem no tempo e divida por 2 essa quantidade de vezes. 20 ÷ 5 = 4: 80 ÷ 2⁴ = 5 g.
+
+### 14
+<!-- modelo: d8 -->
+Quantos números inteiros pertencem ao domínio da expressão log na base (x − 1) de (6 − x)?
+
+- A) 5
+- B) 13
+- C) 4
 - D) 2
 - E) 3
 
 **Resposta:** E
 
-**Explicação:** 81 = 3⁴. Igualando expoentes: x + 1 = 4 ⇒ x = 3.
-
-### 2
-Se log na base 2 de x é igual a 3, então x vale:
-
-- A) 8
-- B) 6
-- C) 16
-- D) 9
-- E) 5
-
-**Resposta:** A
-
-**Explicação:** log_2 x = 3 ⇔ x = 2³ = 8.
-
-### 3
-Um carro de R$ 40.000,00 desvaloriza 10% ao ano em relação ao valor do ano anterior. Qual será o seu valor daqui a 2 anos?
-
-- A) R$ 400,00
-- B) R$ 36.000,00
-- C) R$ 32.000,00
-- D) R$ 32.400,00
-- E) R$ 29.160,00
-
-**Resposta:** D
-
-**Explicação:** V(n) = 40.000 × 0,9ⁿ. Para n = 2: 40.000 × 0,8100 = R$ 32.400,00.
-
-### 4
-Uma população dobra a cada 5 anos. Em quanto tempo ela fica 4 vezes maior que a inicial?
-
-- A) 11 anos
-- B) 15 anos
-- C) 20 anos
-- D) 9 anos
-- E) 10 anos
-
-**Resposta:** E
-
-**Explicação:** 4 = 2², isto é, 2 duplicações de 5 anos cada: 10 anos.
-
-### 5
-O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁵ mol/L, qual é o seu pH?
-
-- A) 50
-- B) 5
-- C) 3
-- D) 9
-- E) 6
-
-**Resposta:** B
-
-**Explicação:** pH = −log(10⁻⁵) = −(−5) = 5.
-
-### 6
-Qual é a solução da equação 3^(x + 3) = 27?
-
-- A) 0
-- B) 6
-- C) −1
-- D) 3
-- E) 2
-
-**Resposta:** A
-
-**Explicação:** 27 = 3³. Igualando expoentes: x + 3 = 3 ⇒ x = 0.
-
-### 7
-Se log na base 5 de x é igual a 4, então x vale:
-
-- A) 1.024
-- B) 3.125
-- C) 20
-- D) 9
-- E) 625
-
-**Resposta:** E
-
-**Explicação:** log_5 x = 4 ⇔ x = 5⁴ = 625.
-
-### 8
-Uma população dobra a cada 20 anos. Em quanto tempo ela fica 32 vezes maior que a inicial?
-
-- A) 120 anos
-- B) 640 anos
-- C) 320 anos
-- D) 100 anos
-- E) 52 anos
-
-**Resposta:** D
-
-**Explicação:** 32 = 2⁵, isto é, 5 duplicações de 20 anos cada: 100 anos.
-
-### 9
-O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁶ mol/L, qual é o seu pH?
-
-- A) 6
-- B) 60
-- C) 7
-- D) 12
-- E) 8
-
-**Resposta:** A
-
-**Explicação:** pH = −log(10⁻⁶) = −(−6) = 6.
-
-### 10
-Qual é a solução da equação 2^(x + 2) = 64?
-
-- A) 8
-- B) 14
-- C) 4
-- D) 6
-- E) 3
-
-**Resposta:** C
-
-**Explicação:** 64 = 2⁶. Igualando expoentes: x + 2 = 6 ⇒ x = 4.
-
-### 11
-Se log na base 2 de x é igual a 2, então x vale:
-
-- A) 12
-- B) 4
-- C) 6
-- D) 8
-- E) 2
-
-**Resposta:** B
-
-**Explicação:** log_2 x = 2 ⇔ x = 2² = 4.
-
-### 12
-Um carro de R$ 40.000,00 desvaloriza 20% ao ano em relação ao valor do ano anterior. Qual será o seu valor daqui a 3 anos?
-
-- A) R$ 32.000,00
-- B) R$ 18.432,00
-- C) R$ 16.000,00
-- D) R$ 20.480,00
-- E) R$ 320,00
-
-**Resposta:** D
-
-**Explicação:** V(n) = 40.000 × 0,8ⁿ. Para n = 3: 40.000 × 0,5120 = R$ 20.480,00.
-
-### 13
-Uma população dobra a cada 20 anos. Em quanto tempo ela fica 16 vezes maior que a inicial?
-
-- A) 160 anos
-- B) 320 anos
-- C) 36 anos
-- D) 100 anos
-- E) 80 anos
-
-**Resposta:** E
-
-**Explicação:** 16 = 2⁴, isto é, 4 duplicações de 20 anos cada: 80 anos.
-
-### 14
-O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁹ mol/L, qual é o seu pH?
-
-- A) 5
-- B) 90
-- C) 9
-- D) 7
-- E) 10
-
-**Resposta:** C
-
-**Explicação:** pH = −log(10⁻⁹) = −(−9) = 9.
+**Explicação:** Ferramenta: condições de existência. O logaritmando deve ser positivo; a base deve ser positiva e diferente de 1. 6 − x > 0 ⇒ x < 6; x − 1 > 0 ⇒ x > 1; x − 1 ≠ 1 ⇒ x ≠ 2. Inteiros: 3, 4, 5 (3).
 
 ### 15
-Qual é a solução da equação 3^(x + 1) = 243?
-
-- A) 14
-- B) 3
-- C) 6
-- D) 4
-- E) 5
-
-**Resposta:** D
-
-**Explicação:** 243 = 3⁵. Igualando expoentes: x + 1 = 5 ⇒ x = 4.
-
-### 16
-Se log na base 3 de x é igual a 2, então x vale:
-
-- A) 5
-- B) 6
-- C) 9
-- D) 27
-- E) 8
-
-**Resposta:** C
-
-**Explicação:** log_3 x = 2 ⇔ x = 3² = 9.
-
-### 17
-O pH de uma solução é dado por pH = −log[H⁺]. Se a concentração de íons H⁺ em um líquido é 10⁻⁷ mol/L, qual é o seu pH?
-
-- A) 14
-- B) 70
-- C) 7
-- D) 6
-- E) 8
-
-**Resposta:** C
-
-**Explicação:** pH = −log(10⁻⁷) = −(−7) = 7.
-
-### 18
-Qual é a solução da equação 3^(x + 2) = 27?
-
-- A) 0
-- B) 1
-- C) 3
-- D) 5
-- E) 11
-
-**Resposta:** B
-
-**Explicação:** 27 = 3³. Igualando expoentes: x + 2 = 3 ⇒ x = 1.
-
-### 19
-Se log na base 5 de x é igual a 2, então x vale:
-
-- A) 7
-- B) 25
-- C) 10
-- D) 32
-- E) 125
-
-**Resposta:** B
-
-**Explicação:** log_5 x = 2 ⇔ x = 5² = 25.
-
-### 20
-Um carro de R$ 40.000,00 desvaloriza 20% ao ano em relação ao valor do ano anterior. Qual será o seu valor daqui a 2 anos?
-
-- A) R$ 1.600,00
-- B) R$ 23.040,00
-- C) R$ 25.600,00
-- D) R$ 24.000,00
-- E) R$ 32.000,00
-
-**Resposta:** C
-
-**Explicação:** V(n) = 40.000 × 0,8ⁿ. Para n = 2: 40.000 × 0,6400 = R$ 25.600,00.
-
-## Difícil
-
-### 1
-Qual é a solução da equação log_3(x) + log_3(x − 2) = 1?
-
-- A) 4
-- B) 9
-- C) 1
-- D) 5
-- E) 3
-
-**Resposta:** E
-
-**Explicação:** log_3[x(x − 2)] = 1 ⇒ x² − 2x = 3 ⇒ x = 3 ou x = −1. Como x > 2, x = 3.
-
-### 2
-Um isótopo radioativo tem meia-vida de 30 anos. Partindo de 80 g, quanto restará após 90 anos?
-
-- A) 13,33 g
-- B) 20 g
-- C) 10 g
-- D) 5 g
-- E) 26,67 g
-
-**Resposta:** C
-
-**Explicação:** 90 anos correspondem a 3 meias-vidas: 80 ÷ 2³ = 10 g.
-
-### 3
-Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 2ˣ = 3 é, aproximadamente:
-
-- A) 0,63
-- B) 1,60
-- C) 2,60
-- D) 0,14
-- E) 0,18
-
-**Resposta:** B
-
-**Explicação:** Aplicando log dos dois lados: x = log 3 / log 2 = 0,48/0,30 ≈ 1,60.
-
-### 4
-O nível sonoro, em decibéis, é dado por N = 10 · log(I/I₀). Se a intensidade sonora I de uma fonte for multiplicada por 10000, o nível sonoro:
-
-- A) aumenta 10.000 dB
-- B) aumenta 40 dB
-- C) aumenta 400 dB
-- D) aumenta 50 dB
-- E) aumenta 4 dB
-
-**Resposta:** B
-
-**Explicação:** N' = 10 · log(10⁴ · I/I₀) = 10 · [4 + log(I/I₀)] = N + 40. O nível aumenta 40 dB.
-
-### 5
-Uma aplicação de R$ 5.000,00 rende 20% ao ano, a juros compostos. Usando log 2 ≈ 0,30 e log 1,2 ≈ 0,08, em quantos anos, aproximadamente, o montante será 8 vezes o valor aplicado?
-
-- A) 22,5 anos
-- B) 11,3 anos
-- C) 5,6 anos
-- D) 14,3 anos
-- E) 40 anos
-
-**Resposta:** B
-
-**Explicação:** 1,2ⁿ = 8 ⇒ n · log 1,2 = log 8 ⇒ n = 0,90/0,08 ≈ 11,3 anos.
-
-### 6
-Qual é a solução da equação log_2(x) + log_2(x − 1) = 1?
-
-- A) 1
-- B) 0
-- C) 6
-- D) 3
-- E) 2
-
-**Resposta:** E
-
-**Explicação:** log_2[x(x − 1)] = 1 ⇒ x² − x = 2 ⇒ x = 2 ou x = −1. Como x > 1, x = 2.
-
-### 7
-Um isótopo radioativo tem meia-vida de 12 anos. Partindo de 320 g, quanto restará após 48 anos?
-
-- A) 20 g
-- B) 106,67 g
-- C) 40 g
-- D) 10 g
-- E) 23 g
-
-**Resposta:** A
-
-**Explicação:** 48 anos correspondem a 4 meias-vidas: 320 ÷ 2⁴ = 20 g.
-
-### 8
-Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 2ˣ = 6 é, aproximadamente:
-
-- A) 2,60
-- B) 0,48
-- C) 0,38
-- D) 0,23
-- E) 3,60
-
-**Resposta:** A
-
-**Explicação:** Aplicando log dos dois lados: x = (log 2 + log 3) / log 2 = 0,78/0,30 ≈ 2,60.
-
-### 9
-O nível sonoro, em decibéis, é dado por N = 10 · log(I/I₀). Se a intensidade sonora I de uma fonte for multiplicada por 100, o nível sonoro:
-
-- A) aumenta 100 dB
-- B) aumenta 20 dB
-- C) aumenta 200 dB
-- D) aumenta 2 dB
-- E) aumenta 30 dB
-
-**Resposta:** B
-
-**Explicação:** N' = 10 · log(10² · I/I₀) = 10 · [2 + log(I/I₀)] = N + 20. O nível aumenta 20 dB.
-
-### 10
-Uma aplicação de R$ 2.000,00 rende 25% ao ano, a juros compostos. Usando log 2 ≈ 0,30 e log 1,25 ≈ 0,10, em quantos anos, aproximadamente, o montante será 8 vezes o valor aplicado?
-
-- A) 12 anos
-- B) 18 anos
-- C) 32 anos
-- D) 9 anos
-- E) 4,5 anos
-
-**Resposta:** D
-
-**Explicação:** 1,25ⁿ = 8 ⇒ n · log 1,25 = log 8 ⇒ n = 0,90/0,10 ≈ 9,0 anos.
-
-### 11
-Um isótopo radioativo tem meia-vida de 30 anos. Partindo de 320 g, quanto restará após 120 anos?
-
-- A) 106,67 g
-- B) 40 g
-- C) 10 g
-- D) 20 g
-- E) 30 g
-
-**Resposta:** D
-
-**Explicação:** 120 anos correspondem a 4 meias-vidas: 320 ÷ 2⁴ = 20 g.
-
-### 12
+<!-- modelo: d3 -->
 Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 3ˣ = 2 é, aproximadamente:
 
 - A) 1,63
-- B) 0,63
-- C) 1,60
-- D) 1,26
+- B) 1,60
+- C) 0,69
+- D) 0,63
 - E) 0,14
 
-**Resposta:** B
-
-**Explicação:** Aplicando log dos dois lados: x = log 2 / log 3 = 0,30/0,48 ≈ 0,63.
-
-### 13
-Uma aplicação de R$ 1.000,00 rende 20% ao ano, a juros compostos. Usando log 2 ≈ 0,30 e log 1,2 ≈ 0,08, em quantos anos, aproximadamente, o montante será 4 vezes o valor aplicado?
-
-- A) 3,8 anos
-- B) 7,5 anos
-- C) 10,5 anos
-- D) 20 anos
-- E) 15 anos
-
-**Resposta:** B
-
-**Explicação:** 1,2ⁿ = 4 ⇒ n · log 1,2 = log 4 ⇒ n = 0,60/0,08 ≈ 7,5 anos.
-
-### 14
-Um isótopo radioativo tem meia-vida de 5 anos. Partindo de 160 g, quanto restará após 10 anos?
-
-- A) 53,33 g
-- B) 80 g
-- C) 42 g
-- D) 20 g
-- E) 40 g
-
-**Resposta:** E
-
-**Explicação:** 10 anos correspondem a 2 meias-vidas: 160 ÷ 2² = 40 g.
-
-### 15
-Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 5ˣ = 2 é, aproximadamente:
-
-- A) 2,33
-- B) 0,21
-- C) 0,43
-- D) 0,39
-- E) 1,43
-
-**Resposta:** C
-
-**Explicação:** Aplicando log dos dois lados: x = log 2 / (1 − log 2) = 0,30/0,70 ≈ 0,43.
-
-### 16
-Uma aplicação de R$ 1.000,00 rende 10% ao ano, a juros compostos. Usando log 2 ≈ 0,30 e log 1,1 ≈ 0,04, em quantos anos, aproximadamente, o montante será 8 vezes o valor aplicado?
-
-- A) 45 anos
-- B) 25,5 anos
-- C) 80 anos
-- D) 22,5 anos
-- E) 11,3 anos
-
 **Resposta:** D
 
-**Explicação:** 1,1ⁿ = 8 ⇒ n · log 1,1 = log 8 ⇒ n = 0,90/0,04 ≈ 22,5 anos.
-
-### 17
-Qual é a solução da equação log_2(x) + log_2(x − 3) = 2?
-
-- A) 4
-- B) 14
-- C) 1
-- D) 12
-- E) 7
-
-**Resposta:** A
-
-**Explicação:** log_2[x(x − 3)] = 2 ⇒ x² − 3x = 4 ⇒ x = 4 ou x = −1. Como x > 3, x = 4.
-
-### 18
-O nível sonoro, em decibéis, é dado por N = 10 · log(I/I₀). Se a intensidade sonora I de uma fonte for multiplicada por 100000, o nível sonoro:
-
-- A) aumenta 50 dB
-- B) aumenta 500 dB
-- C) aumenta 5 dB
-- D) aumenta 100.000 dB
-- E) aumenta 60 dB
-
-**Resposta:** A
-
-**Explicação:** N' = 10 · log(10⁵ · I/I₀) = 10 · [5 + log(I/I₀)] = N + 50. O nível aumenta 50 dB.
-
-### 19
-Qual é a solução da equação log_2(x) + log_2(x − 4) = 5?
-
-- A) 6
-- B) 8
-- C) 12
-- D) 32
-- E) 4
-
-**Resposta:** B
-
-**Explicação:** log_2[x(x − 4)] = 5 ⇒ x² − 4x = 32 ⇒ x = 8 ou x = −4. Como x > 4, x = 8.
-
-### 20
-Um isótopo radioativo tem meia-vida de 5 anos. Partindo de 160 g, quanto restará após 20 anos?
-
-- A) 20 g
-- B) 53,33 g
-- C) 9 g
-- D) 10 g
-- E) 5 g
-
-**Resposta:** D
-
-**Explicação:** 20 anos correspondem a 4 meias-vidas: 160 ÷ 2⁴ = 10 g.
+**Explicação:** Ferramenta: aplicar log dos dois lados. Quando não dá para igualar as bases, tire o log: o expoente "desce" multiplicando. x = log 2 / log 3 = 0,30/0,48 ≈ 0,63.
