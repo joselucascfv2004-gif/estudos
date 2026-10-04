@@ -121,7 +121,8 @@ for (const a of arquivos) {
       if (d.fig) {
         const f = figs.find((x) => String(x.num) === d.num);
         if (!f) { faltas.push(`${d.num} sem figura`); continue; }
-        const alts = f.alts.map((x) => (x.figs.length && !x.txt ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
+        // texto de 1–2 caracteres junto da figura é rótulo de eixo ("h", "y"), não a alternativa
+        const alts = f.alts.map((x) => (x.figs.length && x.txt.trim().length <= 2 ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
         e = { ...e, pars: parsDaFig(f, d.verso), alts };
       }
       const comFig = (t) => t.replace(/\[fig(\d+)\]/g, (_, n) => `![Figura](${imgFig(a, d.num, n)})`);

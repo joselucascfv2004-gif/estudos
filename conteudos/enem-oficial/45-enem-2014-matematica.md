@@ -962,10 +962,10 @@ Para comemorar o aniversário de uma cidade, um artista projetou uma escultura t
 
 No topo da escultura foi ligada uma torneira que verte água, para dentro dela, com vazão constante. O gráfico que expressa a altura (h) da água na escultura em função do tempo (t) decorrido é
 
-- A) h
-- B) h
-- C) h
-- D) h
+- A) ![Alternativa A](enem-2014-d2-q139-2.webp)
+- B) ![Alternativa B](enem-2014-d2-q139-3.webp)
+- C) ![Alternativa C](enem-2014-d2-q139-4.webp)
+- D) ![Alternativa D](enem-2014-d2-q139-5.webp)
 - E) ![Alternativa E](enem-2014-d2-q139-6.webp)
 
 **Resposta:** D
