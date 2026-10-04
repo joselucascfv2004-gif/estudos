@@ -222,6 +222,7 @@ x: O H⁺ participa das etapas (protona o oxigênio da ligação e depois é lib
 @110 m quimica/estequiometria fig
 x: NaOH usado: 0,10 × 0,008 = 8 × 10⁻⁴ mol. Pela equação, 2 NaOH reagem com 1 ácido: 4 × 10⁻⁴ mol × 150 g/mol = 0,06 g em 25 mL. Em 1 L: 0,06 × 40 = 2,4 g/L.
 @113 m biologia/fisiologia-humana fig
+s: controle expostos controle || à atrazina || => 
 x: O hormônio é alto nos machos controle e baixo nas fêmeas e nos machos expostos à atrazina, que ficaram "desmasculinizados". É o hormônio sexual masculino: a testosterona.
 @117 d biologia/genetica-e-biotecnologia fig
 x: Cada célula da mulher inativa ao acaso um dos X. Numa heterozigota, a proporção de células com o alelo normal ativo varia de pessoa para pessoa, e os sintomas aparecem em graus diferentes: expressividade variável.

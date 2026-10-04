@@ -87,7 +87,7 @@ Supondo que o total de pessoas pesquisadas na região metropolitana de Porto Ale
 **Assunto:** matematica/porcentagem
 
 ### 146
-|| A siderúrgica “Metal Nobre” produz diversos objetos maciços utilizando o ferro. Um tipo especial de peça feita nessa companhia tem o formato de um paralelepípedo retangular, de acordo com as dimensões indicadas na figura que segue.
+A siderúrgica “Metal Nobre” produz diversos objetos maciços utilizando o ferro. Um tipo especial de peça feita nessa companhia tem o formato de um paralelepípedo retangular, de acordo com as dimensões indicadas na figura que segue.
 
 O produto das três dimensões indicadas na peça resultaria na medida da grandeza
 
@@ -161,6 +161,27 @@ Suponha que todas as famílias de uma cidade descartem os óleos de frituras atr
 **Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 177
 
 **Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 180
+Para conseguir chegar a um número recorde de produção de ovos de Páscoa, as empresas brasileiras começam a se planejar para esse período com um ano de antecedência. O gráfico a seguir mostra o número de ovos de Páscoa produzidos no Brasil no período de 2005 a 2009.
+
+![Figura](enem-2010-d2-q180-1.webp)
+
+> Revista Veja. São Paulo: Abril, ed. 2107, nº 14, ano 42. De acordo com o gráfico, o biênio que apresentou maior produção acumulada foi
+
+- A) 2004-2005.
+- B) 2005-2006.
+- C) 2006-2007.
+- D) 2007-2008.
+- E) 2008-2009.
+
+**Resposta:** E
+
+**Explicação:** A produção cresceu todo ano: 90, 94, 99, 107 e 113 milhões. O biênio com maior soma é o dos dois últimos anos: 2008–2009, com 107 + 113 = 220 milhões.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/estatistica
 
 ## Médio
 
@@ -473,6 +494,201 @@ As figuras mostram que as proporcionalidades existentes entre resistência (R) e
 
 **Assunto:** fisica/eletricidade
 
+### 143
+![Figura](enem-2010-d2-q143-1.webp)
+
+> Disponível em: http://www.quadroademedalhas.com.br. Acesso em: 05 abr. 2010 (adaptado).
+
+Se o Brasil tivesse obtido mais 4 medalhas de ouro, 4 de prata e 10 de bronze, sem alteração no número de medalhas dos demais países mostrados no quadro, qual teria sido a classificação brasileira no quadro de medalhas das Olimpíadas de 2004?
+
+- A) 13º
+- B) 12º
+- C) 11º
+- D) 10º
+- E) 9º
+
+**Resposta:** B
+
+**Explicação:** Com mais 4 ouros, o Brasil teria 9; com mais 4 pratas, 6; com mais 10 bronzes, 13. O primeiro critério é o ouro: empata com Coreia, Grã-Bretanha, Cuba e Ucrânia (9). Pela prata, Brasil (6) fica atrás de Coreia (12), Grã-Bretanha (9) e Cuba (7), mas à frente da Ucrânia (5). Itália continua em 8º; o Brasil ficaria em 12º.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 143
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 151
+![Figura](enem-2010-d2-q151-1.webp)
+
+Com o objetivo de não desperdiçar café, a diarista deseja colocar a quantidade mínima de água na leiteira para encher os vinte copinhos pela metade. Para que isso ocorra, Dona Maria deverá
+
+- A) encher a leiteira até a metade, pois ela tem um volume 20 vezes maior que o volume do copo.
+- B) encher a leiteira toda de água, pois ela tem um volume 20 vezes maior que o volume do copo.
+- C) encher a leiteira toda de água, pois ela tem um volume 10 vezes maior que o volume do copo.
+- D) encher duas leiteiras de água, pois ela tem um volume 10 vezes maior que o volume do copo.
+- E) encher cinco leiteiras de água, pois ela tem um volume 10 vezes maior que o volume do copo.
+
+**Resposta:** A
+
+**Explicação:** Leiteira: π × 4² × 20 = 320π cm³. Copinho: π × 2² × 4 = 16π cm³; metade dele, 8π. Para 20 copinhos pela metade: 20 × 8π = 160π cm³, metade da leiteira. A leiteira tem volume 20 vezes o de um copo, então basta enchê-la até a metade.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/geometria-espacial
+
+### 166
+O gráfico mostra o número de favelas no município do Rio de Janeiro entre 1980 e 2004, considerando que a variação nesse número entre os anos considerados é linear.
+
+Favela Tem Memória. Época. Nº 621, 12 abr. 2010 (adaptado).
+
+Se o padrão na variação do período 2004/2010 se mantiver nos próximos 6 anos, e sabendo que o número de favelas em 2010 é 968, então o número de favelas em 2016 será
+
+- A) menor que 1 150.
+- B) 218 unidades maior que em 2004.
+- C) maior que 1 150 e menor que 1 200.
+- D) 177 unidades maior que em 2010.
+- E) maior que 1 200.
+
+**Resposta:** C
+
+**Explicação:** O gráfico mostra 750 favelas em 2004, e o texto diz que em 2010 eram 968: aumento de 218 em 6 anos. Mantendo essa variação nos 6 anos seguintes, em 2016 haverá 968 + 218 = 1 186 favelas, entre 1 150 e 1 200.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 166
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 167
+![Figura](enem-2010-d2-q167-1.webp)
+
+> Disponível em: http://www.suapesquisa.com. Acesso em: 23 abr. 2010 (adaptado).
+
+A partir dos dados apresentados, qual a mediana das quantidades de gols marcados pelos artilheiros das Copas do Mundo?
+
+- A) 6 gols
+- B) 6,5 gols
+- C) 7 gols
+- D) 7,3 gols
+- E) 8,5 gols
+
+**Resposta:** B
+
+**Explicação:** Foram 18 Copas (não houve em 1942 e 1946). Pelo gráfico, os gols em ordem crescente são: 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 13. Com 18 valores, a mediana é a média do 9º e do 10º: (6 + 7) ÷ 2 = 6,5 gols.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/estatistica
+
+### 168
+Em um casamento, os donos da festa serviam champanhe aos seus convidados em taças com formato de um hemisfério (Figura 1), porém um acidente na cozinha culminou na quebra de grande parte desses recipientes. Para substituir as taças quebradas, utilizou-se um outro tipo com formato de cone (Figura 2). No entanto, os noivos solicitaram que o volume de champanhe nos dois tipos de taças fosse igual.
+
+![Figura](enem-2010-d2-q168-1.webp)
+
+Considere:
+
+![Figura](enem-2010-d2-q168-2.webp)
+
+![Figura](enem-2010-d2-q168-3.webp)
+
+Sabendo que a taça com o formato de hemisfério é servida completamente cheia, a altura do volume de champanhe que deve ser colocado na outra taça, em centímetros, é de
+
+- A) 1,33.
+- B) 6,00.
+- C) 12,00.
+- D) 56,52.
+- E) 113,04.
+
+**Resposta:** B
+
+**Explicação:** Volume do hemisfério de raio 3: (1/2)(4/3)π × 27 = 18π. Cone de raio 3 e altura h: (1/3)π × 9 × h = 3πh. Igualando: 3πh = 18π, h = 6 cm.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 168
+
+**Assunto:** matematica/geometria-espacial
+
+### 171
+Marco e Paulo foram classificados em um concurso. Para classificação no concurso o candidato deveria obter média aritmética na pontuação igual ou superior a 14. Em caso de empate na média, o desempate seria em favor da pontuação mais regular. No quadro a seguir são apresentados os pontos obtidos nas provas de Matemática, Português e Conhecimentos Gerais, a média, a mediana e o desvio padrão dos dois candidatos. Dados dos candidatos no concurso
+
+![Figura](enem-2010-d2-q171-1.webp)
+
+O candidato com pontuação mais regular, portanto mais bem classificado no concurso, é
+
+- A) Marco, pois a média e a mediana são iguais.
+- B) Marco, pois obteve menor desvio padrão.
+- C) Paulo, pois obteve a maior pontuação da tabela, 19 em Português.
+- D) Paulo, pois obteve maior mediana.
+- E) Paulo, pois obteve maior desvio padrão.
+
+**Resposta:** B
+
+**Explicação:** As médias e medianas empatam (15), então decide-se pela regularidade. Desvio padrão menor significa notas mais próximas da média: Marco tem desvio 0,32 e Paulo, 4,97. Marco é o mais regular.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/estatistica
+
+### 173
+O diretor de um colégio leu numa revista que os pés das mulheres estavam aumentando. Há alguns anos, a média do tamanho dos calçados das mulheres era de 35,5 e, hoje, é de 37,0. Embora não fosse uma informação científica, ele ficou curioso e fez uma pesquisa com as funcionárias do seu colégio, obtendo o quadro a seguir:
+
+![Figura](enem-2010-d2-q173-1.webp)
+
+Escolhendo uma funcionária ao acaso e sabendo que ela tem calçado maior que 36,0, a probabilidade de ela calçar 38,0 é
+
+- A) 1/3
+- B) 1/5
+- C) 2/5
+- D) 5/7
+- E) 5/14
+
+**Resposta:** D
+
+**Explicação:** Calçados maiores que 36,0: 37,0 (3), 38,0 (10) e 39,0 (1), total 14 funcionárias. Calçam 38,0: 10. Probabilidade: 10/14 = 5/7.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/probabilidade
+
+### 175
+O quadro seguinte mostra o desempenho de um time de futebol no último campeonato. A coluna da esquerda mostra o número de gols marcados e a coluna da direita informa em quantos jogos o time marcou aquele número de gols.
+
+![Figura](enem-2010-d2-q175-1.webp)
+
+Se X, Y e Z são, respectivamente, a média, a mediana e a moda desta distribuição, então
+
+- A) X = Y < Z.
+- B) Z < X = Y.
+- C) Y < Z < X.
+- D) Z < X < Y.
+- E) Z < Y < X.
+
+**Resposta:** E
+
+**Explicação:** São 20 jogos. Média: (0·5 + 1·3 + 2·4 + 3·3 + 4·2 + 5·2 + 7·1)/20 = 45/20 = 2,25. Mediana: média do 10º e 11º valores, ambos 2, então 2. Moda: 0 (5 jogos). Assim Z = 0 < Y = 2 < X = 2,25.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 175
+
+**Assunto:** matematica/estatistica
+
+### 178
+Ronaldo é um garoto que adora brincar com números. Numa dessas brincadeiras, empilhou caixas numeradas de acordo com a sequência conforme mostrada no esquema a seguir.
+
+![Figura](enem-2010-d2-q178-21.webp)
+
+Ele percebeu que a soma dos números em cada linha tinha uma propriedade e que, por meio dessa propriedade, era possível prever a soma de qualquer linha posterior às já construídas.
+
+A partir dessa propriedade, qual será a soma da 9ª linha da sequência de caixas empilhadas por Ronaldo?
+
+- A) 9
+- B) 45
+- C) 64
+- D) 81
+- E) 285
+
+**Resposta:** D
+
+**Explicação:** As somas das linhas são 1, 4, 9, 16: os quadrados perfeitos. A linha n soma n². Na 9ª linha: 9² = 81.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 178
+
+**Assunto:** matematica/progressoes
+
 ## Difícil
 
 ### 159
@@ -560,3 +776,24 @@ Considerando que, em 2009, a produção mundial de etanol seja a mesma de 2006 e
 **Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 172
 
 **Assunto:** matematica/porcentagem
+
+### 163
+Nos processos industriais, como na indústria de cerâmica, é necessário o uso de fornos capazes de produzir elevadas temperaturas e, em muitas situações, o tempo de elevação dessa temperatura deve ser controlado, para garantir a qualidade do produto final e a economia no processo. Em uma indústria de cerâmica, o forno é programado para elevar a temperatura ao longo do tempo de acordo
+
+![Figura](enem-2010-d2-q163-1.webp)
+
+em que T é o valor da temperatura atingida pelo forno, em graus Celsius, e t é o tempo, em minutos, decorrido desde o instante em que o forno é ligado. Uma peça deve ser colocada nesse forno quando a temperatura for 48 °C e retirada quando a temperatura for 200 °C. O tempo de permanência dessa peça no forno é, em minutos, igual a
+
+- A) 100.
+- B) 108.
+- C) 128.
+- D) 130.
+- E) 150.
+
+**Resposta:** D
+
+**Explicação:** A peça entra em 48 °C: no primeiro trecho, 7t/5 + 20 = 48 dá t = 20 min. Sai em 200 °C: no segundo trecho, 2t²/125 − 16t/5 + 320 = 200, ou t² − 200t + 7 500 = 0, com t = 150 (a outra raiz, 50, é menor que 100). Tempo no forno: 150 − 20 = 130 min.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 163
+
+**Assunto:** matematica/funcoes-afim-e-quadratica

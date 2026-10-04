@@ -399,6 +399,27 @@ O exemplo mencionado permite identificar um aspecto da adoção de novas tecnolo
 
 **Assunto:** sociologia/temas-contemporaneos
 
+### 1
+![Figura](enem-2010-d1-q001-1.webp)
+
+Fonte: Incra, Estatísticas cadastrais 1998.
+
+O gráfico representa a relação entre o tamanho e a totalidade dos imóveis rurais no Brasil. Que característica da estrutura fundiária brasileira está evidenciada no gráfico apresentado?
+
+- A) A concentração de terras nas mãos de poucos.
+- B) A existência de poucas terras agricultáveis.
+- C) O domínio territorial dos minifúndios.
+- D) A primazia da agricultura familiar.
+- E) A debilidade dos plantations modernos.
+
+**Resposta:** A
+
+**Explicação:** O gráfico mostra que os imóveis com mais de 1 000 hectares, que são poucos, ocupam 53% da área, enquanto os pequenos (até 10 ha) ficam com só 1,3%. É a concentração de terras nas mãos de poucos proprietários.
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 1
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
 ## Médio
 
 ### 2
@@ -897,6 +918,52 @@ O texto, ao evocar a dimensão histórica do processo de formação da ética na
 **Explicação:** Para o autor, o sujeito é histórico-social: suas ações individuais só podem ser avaliadas dentro das relações coletivas. Por isso a ética ganha um sentido coletivo e político.
 
 **Fonte:** ENEM 2010, 1º dia, caderno azul, questão 44
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 8
+![Figura](enem-2010-d1-q008-1.webp)
+
+> TEIXEIRA, W. et. al. (Orgs.) Decifrando a Terra. São Paulo: Companhia Editora Nacional, 2009 (adaptado).
+
+O esquema mostra depósitos em que aparecem fósseis de animais do Período Jurássico. As rochas em que se encontram esses fósseis são
+
+- A) magmáticas, pois a ação de vulcões causou as maiores extinções desses animais já conhecidas ao longo da história terrestre.
+- B) sedimentares, pois os restos podem ter sido soterrados e litificados com o restante dos sedimentos.
+- C) magmáticas, pois são as rochas mais facilmente erodidas, possibilitando a formação de tocas que foram posteriormente lacradas.
+- D) sedimentares, já que cada uma das camadas encontradas na figura simboliza um evento de erosão dessa área representada.
+- E) metamórficas, pois os animais representados precisavam estar perto de locais quentes.
+
+**Resposta:** B
+
+**Explicação:** Fósseis se formam quando restos de seres vivos são cobertos por sedimentos que depois viram rocha (litificação). Por isso eles aparecem em rochas sedimentares, em camadas.
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 8
+
+**Assunto:** geografia/geografia-fisica
+
+### 45
+![Figura](enem-2010-d1-q045-1.webp)
+
+> QUINO. Toda Mafalda. São Paulo: Martins Fontes, 1991.
+
+Democracia: “regime político no qual a soberania é exercida pelo povo, pertence ao conjunto dos cidadãos.”
+
+> JAPIASSÚ, H.; MARCONDES, D. Dicionário Básico de Filosofia. Rio de Janeiro: Zahar, 2006.
+
+Uma suposta “vacina” contra o despotismo, em um contexto democrático, tem por objetivo
+
+- A) impedir a contratação de familiares para o serviço público.
+- B) reduzir a ação das instituições constitucionais.
+- C) combater a distribuição equilibrada de poder.
+- D) evitar a escolha de governantes autoritários.
+- E) restringir a atuação do Parlamento.
+
+**Resposta:** D
+
+**Explicação:** Na democracia, o poder pertence ao povo. Uma "vacina contra o despotismo" serviria para impedir que governantes autoritários fossem escolhidos e concentrassem o poder.
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 45
 
 **Assunto:** filosofia/filosofia-moderna-e-contemporanea
 

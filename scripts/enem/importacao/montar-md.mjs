@@ -122,8 +122,20 @@ for (const a of arquivos) {
         const f = figs.find((x) => String(x.num) === d.num);
         if (!f) { faltas.push(`${d.num} sem figura`); continue; }
         // texto de 1–2 caracteres junto da figura é rótulo de eixo ("h", "y"), não a alternativa
-        const alts = f.alts.map((x) => (x.figs.length && x.txt.trim().length <= 2 ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
-        e = { ...e, pars: parsDaFig(f, d.verso), alts };
+        let alts = f.alts.map((x) => (x.figs.length && x.txt.trim().length <= 2 ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
+        let fc = f;
+        if (!f.alts.length && e.alts.length === 5) {
+          // marcadores desenhados (2010): alternativas vêm do texto extraído e o corpo para antes da primeira
+          const ini = e.alts[0].replace(/\s+/g, ' ').slice(0, 20);
+          const k = f.corpo.findIndex((c) => c.t && ((ini.startsWith(c.t.trim().slice(0, 20)) && c.t.trim().length > 3) || c.t.trim() === e.alts[0].trim()));
+          if (k >= 0) fc = { ...f, corpo: f.corpo.slice(0, k) };
+          // sem as marcas desenhadas das alternativas (figuras pequenas no fim) e o rodapé "2010"
+          const corpo = fc.corpo.filter((c) => !(c.t && /^\s*20\d\d\s*$/.test(c.t)));
+          while (corpo.length && corpo[corpo.length - 1].fig && corpo[corpo.length - 1].w < 160) corpo.pop();
+          fc = { ...fc, corpo };
+          alts = e.alts;
+        }
+        e = { ...e, pars: parsDaFig(fc, d.verso), alts };
       }
       const comFig = (t) => t.replace(/\[fig(\d+)\]/g, (_, n) => `![Figura](${imgFig(a, d.num, n)})`);
       if (d.e) d.e = d.e.map(comFig);
@@ -136,7 +148,7 @@ for (const a of arquivos) {
       const base = [...(d.c || []), ...(d.e || (d.verso ? versos(e.linhasCorpo) : e.pars))];
       // as trocas valem sobre o texto inteiro (parágrafos separados por " || "), para poder unir parágrafos
       const pars = troca(base.join(' || ')).replace(/ *[\uE000-\uF8FF] */g, ' ')
-        .split(' || ').map((t) => t.replace(/ *(\bIT_\d+\b|\b(MT|LC|CH|CN) - PROVA I\b|_{10,}) */g, ' ').trim()).filter(Boolean)
+        .split(' || ').map((t) => t.replace(/^\|\|\s*/, '').replace(/ *(\bIT_\d+\b|\b(MT|LC|CH|CN) - PROVA I\b|_{10,}) */g, ' ').trim()).filter(Boolean)
         // "Acesso em: ..." e parágrafos que começam com minúscula continuam o parágrafo anterior
         .reduce((acc, t) => {
           const ant = acc[acc.length - 1];

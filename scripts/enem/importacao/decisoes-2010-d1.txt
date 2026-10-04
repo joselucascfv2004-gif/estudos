@@ -118,6 +118,12 @@ x: Os tribunais chilenos rejeitavam os pedidos de habeas corpus e deixavam os ag
 x: A empresa troca funcionários por máquinas para cortar custos. A consequência para os trabalhadores é o desemprego e a insegurança no emprego.
 @44 m filosofia/filosofia-moderna-e-contemporanea
 x: Para o autor, o sujeito é histórico-social: suas ações individuais só podem ser avaliadas dentro das relações coletivas. Por isso a ética ganha um sentido coletivo e político.
+@1 f geografia/economia-agropecuaria-industria-energia fig
+x: O gráfico mostra que os imóveis com mais de 1 000 hectares, que são poucos, ocupam 53% da área, enquanto os pequenos (até 10 ha) ficam com só 1,3%. É a concentração de terras nas mãos de poucos proprietários.
+@8 m geografia/geografia-fisica fig
+x: Fósseis se formam quando restos de seres vivos são cobertos por sedimentos que depois viram rocha (litificação). Por isso eles aparecem em rochas sedimentares, em camadas.
+@45 m filosofia/filosofia-moderna-e-contemporanea fig
+x: Na democracia, o poder pertence ao povo. Uma "vacina contra o despotismo" serviria para impedir que governantes autoritários fossem escolhidos e concentrassem o poder.
 
 ## 62-enem-2010-ciencias-da-natureza.md | 2010 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
@@ -248,3 +254,14 @@ x: Sem a luz do dia, o relógio biológico perdeu sua referência. O ritmo de so
 x: O município é pequeno e tem sol forte o ano todo. Painéis fotovoltaicos aproveitam essa energia sem poluir o rio nem alagar o vale.
 @90 f geografia/populacao-e-urbanizacao
 x: No aterro sanitário, o lixo é coberto com terra e o chorume é recolhido por drenos e tratado, sem contaminar o solo e a água como no lixão.
+@56 f geografia/economia-agropecuaria-industria-energia fig
+x: A figura mostra uma usina geotérmica: a água é bombeada até rochas quentes no subsolo, vira vapor e move as turbinas. O calor vem da circulação do magma no interior da Terra.
+@66 d biologia/citologia fig
+e: Um ambiente capaz de asfixiar todos os animais conhecidos do planeta foi colonizado por pelo menos três espécies diferentes de invertebrados marinhos. Descobertos a mais de 3 000 m de profundidade no Mediterrâneo, eles são os primeiros membros do reino animal a prosperar mesmo diante da ausência total de oxigênio. Até agora, achava-se que só bactérias pudessem ter esse estilo de vida. Não admira que os bichos pertençam a um grupo pouco conhecido, o dos loricíferos, que mal chegam a 1,0 mm. Apesar do tamanho, possuem cabeça, boca, sistema digestivo e uma carapaça. A adaptação dos bichos à vida no sufoco é tão profunda que suas células dispensaram as chamadas mitocôndrias. || > LOPES, R. J. Italianos descobrem animal que vive em água sem oxigênio. Disponível em: http://www1.folha.uol.com.br. Acesso em: 10 abr. 2010 (adaptado). || Que substâncias poderiam ter a mesma função do O₂ na respiração celular realizada pelos loricíferos?
+a: S e CH₄ | S e NO₃⁻ | H₂ e NO₃⁻ | CO₂ e CH₄ | H₂ e CO₂
+x: Na respiração celular, o O₂ é o aceptor final de elétrons, que se transforma em água. Sem oxigênio, alguns organismos fazem respiração anaeróbia, usando outros aceptores de elétrons, como o enxofre (S) e o nitrato (NO₃⁻).
+@68 m fisica/eletricidade fig
+e: A energia elétrica consumida nas residências é medida, em quilowatt-hora, por meio de um relógio medidor de consumo. Nesse relógio, da direita para esquerda, tem-se o ponteiro da unidade, da dezena, da centena e do milhar. Se um ponteiro estiver entre dois números, considera-se o último número ultrapassado pelo ponteiro. Suponha que as medidas indicadas nos esquemas seguintes tenham sido feitas em uma cidade em que o preço do quilowatt-hora fosse de R$ 0,20. || [fig2] || > FILHO, A. G.; BAROLLI, E. Instalação Elétrica. São Paulo: Scipione, 1997. || O valor a ser pago pelo consumo de energia elétrica registrado seria de
+x: Lendo cada relógio pelo último número ultrapassado (lembrando que os ponteiros vizinhos giram em sentidos opostos), a leitura atual é 2 783 kWh e a do mês passado, 2 563 kWh. O consumo foi de 220 kWh; ao preço de R$ 0,20 por kWh, o valor é 220 × 0,20 = R$ 44,00.
+@70 m fisica/eletricidade fig
+x: Na posição de maior potência (quente), em 220 V, a torneira consome 5 500 W. A resistência não muda: P = V²/R. Em 127 V, a potência fica 5 500 × (127/220)² ≈ 5 500 × 0,333 ≈ 1 830 W.

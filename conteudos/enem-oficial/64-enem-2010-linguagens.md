@@ -187,6 +187,73 @@ No Editorial, o autor defende a tese de que “as políticas sociais que procura
 
 **Assunto:** portugues/interpretacao-de-texto
 
+### 96
+![Figura](enem-2010-d2-q096-1.webp)
+
+> BESSINHA. Disponível em: http://pattindica.files.wordpress.com/2009/06/bessinha458904- jpg-image_1245119001858.jpeg (adaptado).
+
+As diferentes esferas sociais de uso da língua obrigam o falante a adaptá-la às variadas situações de comunicação. Uma das marcas linguísticas que configuram a linguagem oral informal usada entre avô e neto neste texto é
+
+- A) a opção pelo emprego da forma verbal “era” em lugar de “foi”.
+- B) a ausência de artigo antes da palavra “árvore”.
+- C) o emprego da redução “tá” em lugar da forma verbal “está”.
+- D) o uso da contração “desse” em lugar da expressão “de esse”.
+- E) a utilização do pronome “que” em início de frase exclamativa.
+
+**Resposta:** C
+
+**Explicação:** Na fala informal, é comum reduzir "está" para "tá", como o neto faz em "Tá vendo???". Essa redução é uma marca da linguagem oral informal.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 105
+![Figura](enem-2010-d2-q105-1.webp)
+
+> Disponível em: http://algarveturistico.com/wp- content/uploads/2009/04/ptm-ginastica- ritmica-01.jpg. Acesso em: 01 set. 2010.
+
+O desenvolvimento das capacidades físicas (qualidades motoras passíveis de treinamento) ajuda na tomada de decisões em relação à melhor execução do movimento. A capacidade física predominante no movimento representado na imagem é
+
+- A) a velocidade, que permite ao músculo executar uma sucessão rápida de gestos em movimentação de intensidade máxima.
+- B) a resistência, que admite a realização de movimentos durante considerável período de tempo, sem perda da qualidade da execução.
+- C) a flexibilidade, que  permite a amplitude máxima de um movimento, em uma ou mais articulações, sem causar lesões.
+- D) a agilidade, que possibilita a execução de movimentos rápidos e ligeiros com mudanças de direção.
+- E) o equilíbrio, que permite a realização dos mais variados movimentos, com o objetivo de sustentar o corpo sobre uma base.
+
+**Resposta:** C
+
+**Explicação:** A ginasta abre as pernas ao máximo, com uma perna quase na vertical encostada no espaldar. É a flexibilidade: a capacidade de alcançar a maior amplitude de movimento nas articulações sem se machucar.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 105
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 120
+![Figura](enem-2010-d2-q120-1.webp)
+
+Figura 1: Disponível em: http://www.clicrbs.com.br/blog/fotos/235151post_foto.jpg.
+
+Figura 2: Disponível em: http://esporte.hsw.uol.com.br/volei-jogos-olimpicos.htm.
+
+Figura 3: Disponível em: http://www.arel.com.br/eurocup/volei/ Acesso em: 27 abr. 2010.
+
+O voleibol é um dos esportes mais praticados na atualidade. Está presente nas competições esportivas, nos jogos escolares e na recreação. Nesse esporte, os praticantes utilizam alguns movimentos específicos como: saque, manchete, bloqueio, levantamento, toque, entre outros. Na sequência de imagens, identificam-se os movimentos de
+
+- A) sacar e colocar a bola em jogo, defender a bola e realizar a cortada como forma de ataque.
+- B) arremessar a bola, tocar para passar a bola ao levantador e bloquear como forma de ataque.
+- C) tocar e colocar a bola em jogo, cortar para defender e levantar a bola para atacar.
+- D) passar a bola e iniciar a partida, lançar a bola ao levantador e realizar a manchete para defender.
+- E) cortar como forma de ataque, passar a bola para defender e bloquear como forma de ataque.
+
+**Resposta:** A
+
+**Explicação:** Na figura 1, o jogador saca e põe a bola em jogo; na 2, defende a bola com o corpo (manchete/defesa); na 3, realiza a cortada perto da rede, como ataque.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 120
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 99
@@ -648,6 +715,98 @@ Com base nos argumentos do autor, o texto aponta para
 **Explicação:** O editorial conclui que "a única maneira de reduzir a atração exercida pelo tráfico é a repressão". Ele quer convencer o leitor de que é preciso aumentar a ação policial.
 
 **Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 126
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 110
+Texto I
+
+![Figura](enem-2010-d2-q110-1.webp)
+
+Texto II
+
+![Figura](enem-2010-d2-q110-2.webp)
+
+A capa da revista Época de 12 de outubro de 2009 traz um anúncio sobre o lançamento do livro digital no Brasil. Já o texto II traz informações referentes à abrangência de acessibilidade das tecnologias de comunicação e informação nas diferentes regiões do país. A partir da leitura dos dois textos, infere-se que o advento do livro digital no Brasil
+
+- A) possibilitará o acesso das diferentes regiões do país às informações antes restritas, uma vez que eliminará as distâncias, por meio da distribuição virtual.
+- B) criará a expectativa de viabilizar a democratização da leitura, porém, esbarra na insuficiência do acesso à internet por meio da telefonia celular, ainda deficiente no país.
+- C) fará com que os livros impressos tornem-se obsoletos, em razão da diminuição dos gastos com os produtos digitais gratuitamente distribuídos pela internet.
+- D) garantirá a democratização dos usos da tecnologia no país, levando em consideração as características de cada região no que se refere aos hábitos de leitura e acesso à informação.
+- E) impulsionará o crescimento da qualidade da leitura dos brasileiros, uma vez que as características do produto permitem que a leitura aconteça a despeito das adversidades geopolíticas.
+
+**Resposta:** B
+
+**Explicação:** A capa anuncia o livro digital (Kindle) como "o último livro que você vai comprar", mas o mapa mostra que a cobertura de celular para baixar livros falta em grande parte do país. O livro digital cria a expectativa de democratizar a leitura, mas esbarra na falta de acesso à internet.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 110
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 122
+Texto I O chamado “fumante passivo” é aquele indivíduo que não fuma, mas acaba respirando a fumaça dos cigarros fumados ao seu redor. Até hoje, discutem-se muito os efeitos do fumo passivo, mas uma coisa é certa: quem não fuma não é obrigado a respirar a fumaça dos outros. O fumo passivo é um problema de saúde pública em todos os países do mundo. Na Europa, estima-se que 79% das pessoas estão expostas à fumaça “de segunda mão”, enquanto, nos Estados Unidos, 88% dos não fumantes acabam fumando passivamente. A Sociedade do Câncer da Nova Zelândia informa que o fumo passivo é a terceira entre as principais causas de morte no país, depois do fumo ativo e do uso de álcool.
+
+> Disponível em: www.terra.com.br. Acesso em: 27 abr. 2010 (fragmento).
+
+Texto II
+
+![Figura](enem-2010-d2-q122-1.webp)
+
+> Disponível em:http://rickjaimecomics.blogspot.com. Acesso em: 27 abr.2010.
+
+Ao abordar a questão do tabagismo, os textos I e II procuram demonstrar que
+
+- A) a quantidade de cigarros consumidos por pessoa, diariamente, excede o máximo de nicotina recomendado para os indivíduos, inclusive para os não fumantes.
+- B) para garantir o prazer que o indivíduo tem ao fumar, será necessário aumentar as estatísticas de fumo passivo.
+- C) a conscientização dos fumantes passivos é uma maneira de manter a privacidade de cada indivíduo e garantir a saúde de todos.
+- D) os não fumantes precisam ser respeitados e poupados, pois estes também estão sujeitos às doenças causadas pelo tabagismo.
+- E) o fumante passivo não é obrigado a inalar as mesmas toxinas que um fumante, portanto depende dele evitar ou não a contaminação proveniente da exposição ao fumo.
+
+**Resposta:** D
+
+**Explicação:** O texto I mostra que o fumo passivo mata, e a charge mostra um não fumante incomodado com a fumaça do vizinho. Os dois textos defendem que quem não fuma precisa ser respeitado e protegido, pois também sofre com as doenças do tabagismo.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 131
+![Figura](enem-2010-d2-q131-1.webp)
+
+Segundo pesquisas recentes, é irrelevante a diferença entre sexos para se avaliar a inteligência. Com relação às tendências para áreas do conhecimento, por sexo, levando em conta a matrícula em cursos universitários brasileiros, as informações do gráfico asseguram que
+
+- A) os homens estão matriculados em menor proporção em cursos de Matemática que em Medicina por lidarem melhor com pessoas.
+- B) as mulheres estão matriculadas em maior percentual em cursos que exigem capacidade de compreensão dos seres humanos.
+- C) as mulheres estão matriculadas em percentual maior em Física que em Mineração por tenderem a trabalhar melhor com abstrações.
+- D) as homens e as mulheres estão matriculados na mesma proporção em cursos que exigem habilidades semelhantes na mesma área.
+- E) as mulheres estão matriculadas em menor número em Psicologia por sua habilidade de lidarem melhor com coisas que com sujeitos.
+
+**Resposta:** B
+
+**Explicação:** No gráfico, as mulheres são maioria em Psicologia, Humanas e Educação, cursos ligados a "compreender as pessoas", segundo o texto. Elas estão matriculadas em maior percentual em cursos que exigem lidar com seres humanos.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 131
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 133
+É muito raro que um novo modo de comunicação ou de expressão suplante completamente os anteriores. Falase menos desde que a escrita foi inventada? Claro que não. Contudo, a função da palavra viva mudou, uma parte de suas missões nas culturas puramente orais tendo sido preenchida pela escrita: transmissão dos conhecimentos e das narrativas, estabelecimento de contratos, realização dos principais atos rituais ou sociais etc. Novos estilos de conhecimento (o conhecimento “teórico”, por exemplo) e novos gêneros (o código de leis, o romance etc.) surgiram. A escrita não fez com que a palavra desaparecesse, ela complexificou e reorganizou o sistema da comunicação e da memória social. A fotografia substituiu a pintura? Não, ainda há pintores ativos. As pessoas continuam, mais do que nunca, a visitar museus, exposições e galerias, compram as obras dos artistas para pendurá-las em casa. Em contrapartida, é verdade que os pintores, os desenhistas, os gravadores, os escultores não são mais – como foram até o século XIX – os únicos produtores de imagens.
+
+> LÉVY, P. Cibercultura. São Paulo: Ed. 34, 1999 (fragmento).
+
+A substituição pura e simples do antigo pelo novo ou do natural pelo técnico tem sido motivo de preocupação de muita gente. O texto encaminha uma discussão em torno desse temor ao
+
+- A) considerar as relações entre o conhecimento teórico e o conhecimento empírico e acrescenta que novos gêneros textuais surgiram com o progresso.
+- B) observar que a língua escrita não é uma transcrição fiel da língua oral e explica que as palavras antigas devem ser utilizadas para preservar a tradição.
+- C) perguntar sobre a razão das pessoas visitarem museus, exposições etc., e reafirma que os fotógrafos são os únicos responsáveis pela produção de obras de arte.
+- D) reconhecer que as pessoas temem que o avanço dos meios de comunicação, inclusive on-line, substitua o homem e leve alguns profissionais ao esquecimento.
+- E) revelar o receio das pessoas em experimentar novos meios de comunicação, com medo de sentirem retrógradas.
+
+**Resposta:** A
+
+**Explicação:** O texto lembra que cada nova forma de comunicação (escrita, fotografia, internet) gerou medo de substituir a anterior, mas na prática elas convivem. A discussão relaciona o conhecimento teórico com o empírico e acrescenta que novos gêneros surgem com o progresso.
+
+**Fonte:** ENEM 2010, 2º dia, caderno amarelo, questão 133
 
 **Assunto:** portugues/interpretacao-de-texto
 

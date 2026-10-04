@@ -261,6 +261,27 @@ Quais procedimentos técnicos tornam o aterro sanitário mais vantajoso que o li
 
 **Assunto:** geografia/populacao-e-urbanizacao
 
+### 56
+![Figura](enem-2010-d1-q056-1.webp)
+
+> ZIEGLER, M.F. Energia Sustentável. Revista IstoÉ. 28 abr. 2010.
+
+A fonte de energia representada na figura, considerada uma das mais limpas e sustentáveis do mundo, é extraída do calor gerado
+
+- A) pela circulação do magma no subsolo.
+- B) pelas erupções constantes dos vulcões.
+- C) pelo sol que aquece as águas com radiação ultravioleta.
+- D) pela queima do carvão e combustíveis fósseis.
+- E) pelos detritos e cinzas vulcânicas.
+
+**Resposta:** A
+
+**Explicação:** A figura mostra uma usina geotérmica: a água é bombeada até rochas quentes no subsolo, vira vapor e move as turbinas. O calor vem da circulação do magma no interior da Terra.
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 56
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
 ## Médio
 
 ### 48
@@ -695,6 +716,52 @@ Em função das características observadas, conclui-se que a pessoa
 
 **Assunto:** biologia/fisiologia-humana
 
+### 68
+A energia elétrica consumida nas residências é medida, em quilowatt-hora, por meio de um relógio medidor de consumo. Nesse relógio, da direita para esquerda, tem-se o ponteiro da unidade, da dezena, da centena e do milhar. Se um ponteiro estiver entre dois números, considera-se o último número ultrapassado pelo ponteiro. Suponha que as medidas indicadas nos esquemas seguintes tenham sido feitas em uma cidade em que o preço do quilowatt-hora fosse de R$ 0,20.
+
+![Figura](enem-2010-d1-q068-2.webp)
+
+> FILHO, A. G.; BAROLLI, E. Instalação Elétrica. São Paulo: Scipione, 1997.
+
+O valor a ser pago pelo consumo de energia elétrica registrado seria de
+
+- A) R$ 41,80.
+- B) R$ 42,00.
+- C) R$ 43,00.
+- D) R$ 43,80.
+- E) R$ 44,00.
+
+**Resposta:** E
+
+**Explicação:** Lendo cada relógio pelo último número ultrapassado (lembrando que os ponteiros vizinhos giram em sentidos opostos), a leitura atual é 2 783 kWh e a do mês passado, 2 563 kWh. O consumo foi de 220 kWh; ao preço de R$ 0,20 por kWh, o valor é 220 × 0,20 = R$ 44,00.
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 68
+
+**Assunto:** fisica/eletricidade
+
+### 70
+Observe a tabela seguinte. Ela traz especificações técnicas constantes no manual de instruções fornecido pelo fabricante de uma torneira elétrica.
+
+![Figura](enem-2010-d1-q070-1.webp)
+
+> Disponível em: http://www.cardal.com.br/manualprod/Manuais/Torneira%20Suprema/
+
+Considerando que o modelo de maior potência da versão 220 V da torneira suprema foi inadvertidamente conectada a uma rede com tensão nominal de 127 V, e que o aparelho está configurado para trabalhar em sua máxima potência. Qual o valor aproximado da potência ao ligar a torneira?
+
+- A) 1.830 W
+- B) 2.800 W
+- C) 3.200 W
+- D) 4.030 W
+- E) 5.500 W
+
+**Resposta:** A
+
+**Explicação:** Na posição de maior potência (quente), em 220 V, a torneira consome 5 500 W. A resistência não muda: P = V²/R. Em 127 V, a potência fica 5 500 × (127/220)² ≈ 5 500 × 0,333 ≈ 1 830 W.
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 70
+
+**Assunto:** fisica/eletricidade
+
 ## Difícil
 
 ### 65
@@ -841,3 +908,24 @@ Dados: Constante de Faraday F = 96 500 C/mol; Massa molar em g/mol: Cu = 63,5.
 **Fonte:** ENEM 2010, 1º dia, caderno azul, questão 74
 
 **Assunto:** quimica/fisico-quimica
+
+### 66
+Um ambiente capaz de asfixiar todos os animais conhecidos do planeta foi colonizado por pelo menos três espécies diferentes de invertebrados marinhos. Descobertos a mais de 3 000 m de profundidade no Mediterrâneo, eles são os primeiros membros do reino animal a prosperar mesmo diante da ausência total de oxigênio. Até agora, achava-se que só bactérias pudessem ter esse estilo de vida. Não admira que os bichos pertençam a um grupo pouco conhecido, o dos loricíferos, que mal chegam a 1,0 mm. Apesar do tamanho, possuem cabeça, boca, sistema digestivo e uma carapaça. A adaptação dos bichos à vida no sufoco é tão profunda que suas células dispensaram as chamadas mitocôndrias.
+
+> LOPES, R. J. Italianos descobrem animal que vive em água sem oxigênio. Disponível em: http://www1.folha.uol.com.br. Acesso em: 10 abr. 2010 (adaptado).
+
+Que substâncias poderiam ter a mesma função do O₂ na respiração celular realizada pelos loricíferos?
+
+- A) S e CH₄
+- B) S e NO₃⁻
+- C) H₂ e NO₃⁻
+- D) CO₂ e CH₄
+- E) H₂ e CO₂
+
+**Resposta:** B
+
+**Explicação:** Na respiração celular, o O₂ é o aceptor final de elétrons, que se transforma em água. Sem oxigênio, alguns organismos fazem respiração anaeróbia, usando outros aceptores de elétrons, como o enxofre (S) e o nitrato (NO₃⁻).
+
+**Fonte:** ENEM 2010, 1º dia, caderno azul, questão 66
+
+**Assunto:** biologia/citologia

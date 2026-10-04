@@ -101,6 +101,36 @@ s: as pirâmides. || R || BOLT => as pirâmides. (Na figura, um bloco de pedra e
 x: Numa volta completa sem deslizar, o centro do rolo avança 2πR em relação ao chão. O topo do rolo, onde o bloco se apoia, move-se com o dobro da velocidade do centro, então o bloco avança 2 × 2πR = 4πR.
 @172 d matematica/porcentagem
 x: Em 2006: Brasil 43% de 40 = 17,2 bilhões de L; EUA 45% = 18. Em 2009 os EUA farão 9. Para Brasil + EUA = 88% de 40 = 35,2, o Brasil precisa produzir 26,2. Aumento: 9 ÷ 17,2 ≈ 52,3%.
+@143 m matematica/numeros-e-operacoes fig
+g: B
+s: das limpíadas de 2004? || O => das Olimpíadas de 2004?
+x: Com mais 4 ouros, o Brasil teria 9; com mais 4 pratas, 6; com mais 10 bronzes, 13. O primeiro critério é o ouro: empata com Coreia, Grã-Bretanha, Cuba e Ucrânia (9). Pela prata, Brasil (6) fica atrás de Coreia (12), Grã-Bretanha (9) e Cuba (7), mas à frente da Ucrânia (5). Itália continua em 8º; o Brasil ficaria em 12º.
+@151 m matematica/geometria-espacial fig
+x: Leiteira: π × 4² × 20 = 320π cm³. Copinho: π × 2² × 4 = 16π cm³; metade dele, 8π. Para 20 copinhos pela metade: 20 × 8π = 160π cm³, metade da leiteira. A leiteira tem volume 20 vezes o de um copo, então basta enchê-la até a metade.
+@163 d matematica/funcoes-afim-e-quadratica fig
+x: A peça entra em 48 °C: no primeiro trecho, 7t/5 + 20 = 48 dá t = 20 min. Sai em 200 °C: no segundo trecho, 2t²/125 − 16t/5 + 320 = 200, ou t² − 200t + 7 500 = 0, com t = 150 (a outra raiz, 50, é menor que 100). Tempo no forno: 150 − 20 = 130 min.
+@166 m matematica/funcoes-afim-e-quadratica fig
+x: O gráfico mostra 750 favelas em 2004, e o texto diz que em 2010 eram 968: aumento de 218 em 6 anos. Mantendo essa variação nos 6 anos seguintes, em 2016 haverá 968 + 218 = 1 186 favelas, entre 1 150 e 1 200.
+@167 m matematica/estatistica fig
+x: Foram 18 Copas (não houve em 1942 e 1946). Pelo gráfico, os gols em ordem crescente são: 4, 5, 5, 6, 6, 6, 6, 6, 6, 7, 7, 8, 8, 9, 9, 10, 11, 13. Com 18 valores, a mediana é a média do 9º e do 10º: (6 + 7) ÷ 2 = 6,5 gols.
+@168 m matematica/geometria-espacial fig
+x: Volume do hemisfério de raio 3: (1/2)(4/3)π × 27 = 18π. Cone de raio 3 e altura h: (1/3)π × 9 × h = 3πh. Igualando: 3πh = 18π, h = 6 cm.
+@171 m matematica/estatistica fig
+x: As médias e medianas empatam (15), então decide-se pela regularidade. Desvio padrão menor significa notas mais próximas da média: Marco tem desvio 0,32 e Paulo, 4,97. Marco é o mais regular.
+@173 m matematica/probabilidade fig
+e: O diretor de um colégio leu numa revista que os pés das mulheres estavam aumentando. Há alguns anos, a média do tamanho dos calçados das mulheres era de 35,5 e, hoje, é de 37,0. Embora não fosse uma informação científica, ele ficou curioso e fez uma pesquisa com as funcionárias do seu colégio, obtendo o quadro a seguir: || [fig1] || Escolhendo uma funcionária ao acaso e sabendo que ela tem calçado maior que 36,0, a probabilidade de ela calçar 38,0 é
+a: 1/3 | 1/5 | 2/5 | 5/7 | 5/14
+x: Calçados maiores que 36,0: 37,0 (3), 38,0 (10) e 39,0 (1), total 14 funcionárias. Calçam 38,0: 10. Probabilidade: 10/14 = 5/7.
+@175 m matematica/estatistica fig
+x: São 20 jogos. Média: (0·5 + 1·3 + 2·4 + 3·3 + 4·2 + 5·2 + 7·1)/20 = 45/20 = 2,25. Mediana: média do 10º e 11º valores, ambos 2, então 2. Moda: 0 (5 jogos). Assim Z = 0 < Y = 2 < X = 2,25.
+@178 m matematica/progressoes fig
+e: Ronaldo é um garoto que adora brincar com números. Numa dessas brincadeiras, empilhou caixas numeradas de acordo com a sequência conforme mostrada no esquema a seguir. || [fig21] || Ele percebeu que a soma dos números em cada linha tinha uma propriedade e que, por meio dessa propriedade, era possível prever a soma de qualquer linha posterior às já construídas. || A partir dessa propriedade, qual será a soma da 9ª linha da sequência de caixas empilhadas por Ronaldo?
+a: 9 | 45 | 64 | 81 | 285
+x: As somas das linhas são 1, 4, 9, 16: os quadrados perfeitos. A linha n soma n². Na 9ª linha: 9² = 81.
+@180 f matematica/estatistica fig
+e: Para conseguir chegar a um número recorde de produção de ovos de Páscoa, as empresas brasileiras começam a se planejar para esse período com um ano de antecedência. O gráfico a seguir mostra o número de ovos de Páscoa produzidos no Brasil no período de 2005 a 2009. || [fig1] || > Revista Veja. São Paulo: Abril, ed. 2107, nº 14, ano 42. || De acordo com o gráfico, o biênio que apresentou maior produção acumulada foi
+a: 2004-2005. | 2005-2006. | 2006-2007. | 2007-2008. | 2008-2009.
+x: A produção cresceu todo ano: 90, 94, 99, 107 e 113 milhões. O biênio com maior soma é o dos dois últimos anos: 2008–2009, com 107 + 113 = 220 milhões.
 
 ## 64-enem-2010-linguagens.md | 2010 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
@@ -185,3 +215,17 @@ x: O autor compara números: o tráfico paga de R$ 400 a R$ 12.000, enquanto o B
 @126 m portugues/interpretacao-de-texto
 c: c2010-125.txt
 x: O editorial conclui que "a única maneira de reduzir a atração exercida pelo tráfico é a repressão". Ele quer convencer o leitor de que é preciso aumentar a ação policial.
+@96 f portugues/funcoes-generos-e-variacao fig
+x: Na fala informal, é comum reduzir "está" para "tá", como o neto faz em "Tá vendo???". Essa redução é uma marca da linguagem oral informal.
+@105 f artes/artes-e-educacao-fisica fig
+x: A ginasta abre as pernas ao máximo, com uma perna quase na vertical encostada no espaldar. É a flexibilidade: a capacidade de alcançar a maior amplitude de movimento nas articulações sem se machucar.
+@110 m portugues/interpretacao-de-texto fig
+x: A capa anuncia o livro digital (Kindle) como "o último livro que você vai comprar", mas o mapa mostra que a cobertura de celular para baixar livros falta em grande parte do país. O livro digital cria a expectativa de democratizar a leitura, mas esbarra na falta de acesso à internet.
+@120 f artes/artes-e-educacao-fisica fig
+x: Na figura 1, o jogador saca e põe a bola em jogo; na 2, defende a bola com o corpo (manchete/defesa); na 3, realiza a cortada perto da rede, como ataque.
+@122 m portugues/interpretacao-de-texto fig
+x: O texto I mostra que o fumo passivo mata, e a charge mostra um não fumante incomodado com a fumaça do vizinho. Os dois textos defendem que quem não fuma precisa ser respeitado e protegido, pois também sofre com as doenças do tabagismo.
+@131 m portugues/interpretacao-de-texto fig
+x: No gráfico, as mulheres são maioria em Psicologia, Humanas e Educação, cursos ligados a "compreender as pessoas", segundo o texto. Elas estão matriculadas em maior percentual em cursos que exigem lidar com seres humanos.
+@133 m portugues/interpretacao-de-texto fig
+x: O texto lembra que cada nova forma de comunicação (escrita, fotografia, internet) gerou medo de substituir a anterior, mas na prática elas convivem. A discussão relaciona o conhecimento teórico com o empírico e acrescenta que novos gêneros surgem com o progresso.
