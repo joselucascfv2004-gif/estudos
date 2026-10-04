@@ -86,6 +86,44 @@ x: Fraudulentas e inconsistentes: 25% de 20% = 5%. Fraudulentas e não inconsist
 @178 d matematica/geometria-espacial
 s: R1 R3 R2 RC R4 As ligações => As ligações
 x: Água total: π × 2² × 3,30 = 13,2π m³. Os 4 canos guardam 4 × π × 0,05² × 20 = 0,2π m³. Sobra 13π m³ para os reservatórios, todos com a mesma altura h: (π × 2² + 4 × π × 1,5²)h = 13πh. Então 13πh = 13π e h = 1,00 m.
+@137 m matematica/analise-combinatoria fig
+x: Os vagões já têm posição fixa (numeração); só as cores variam. Escolhem-se as 4 posições vermelhas entre 12, C(12, 4); depois as 3 azuis entre as 8 restantes, C(8, 3); as 3 verdes entre 5, C(5, 3); e as 2 amarelas nas 2 que sobram, C(2, 2). Multiplicam-se as escolhas.
+@138 m matematica/estatistica fig
+x: Média de julho a novembro: (700 + 2 500 + 2 500 + 2 800 + 2 700) ÷ 5 = 2 240 (dezembro). A queda de novembro para dezembro foi 460. Mantendo: janeiro 1 780, fevereiro 1 320, março 860, abril 400 — menos que as 700 de julho já em abril.
+@139 m matematica/geometria-espacial fig
+x: Com o sol a pino, cada letra em pé projeta só a sua base, uma faixa estreita no chão. As letras ficam lado a lado com espaços iguais, então a sombra é uma sequência de faixas separadas por espaços iguais, com a largura de cada letra.
+@142 m matematica/funcoes-afim-e-quadratica fig
+a: 1 → 4 → 5 → 4 → 1 → 6 → 1 → 4 | 1 → 2 → 3 → 1 → 4 → 1 → 4 → 4 | 1 → 4 → 5 → 4 → 1 → 6 → 1 → 2 → 3 | 1 → 2 → 3 → 5 → 4 → 1 → 6 → 1 → 4 | 1 → 4 → 2 → 3 → 5 → 1 → 6 → 1 → 4
+x: Em cada minuto, o aumento do consumo é a potência da lâmpada acesa: 20, 15, 5, 15, 20, 10, 20, 15 W·min. Isso corresponde a sala (1), suíte (4), banho (5), suíte (4), sala (1), cozinha (6), sala (1), suíte (4).
+@147 f matematica/razao-proporcao-regra-de-tres fig
+x: Divida as calorias pelo tempo: I = 20 ÷ 10 = 2; II = 100 ÷ 15 ≈ 6,7; III = 120 ÷ 20 = 6; IV = 100 ÷ 25 = 4; V = 80 ÷ 30 ≈ 2,7 kcal/min. A maior taxa é a da atividade II.
+@148 f matematica/matrizes-e-determinantes fig
+x: Cada coluna é um dia. Somando as colunas: segunda 3 + 3 + 2 + 3 + 0 = 11; terça 10; quarta 10; quinta 10; sexta 10. O maior total é o de segunda-feira.
+@149 m matematica/razao-proporcao-regra-de-tres fig
+x: A cada volta do pedal a corrente passa o mesmo número de dentes; quanto menor a catraca, mais voltas a roda dá. O avanço é inversamente proporcional ao diâmetro: para avançar 1,5 vez mais, d = 7 ÷ 1,5 ≈ 4,7 cm.
+@150 m matematica/estatistica fig
+x: Dia 1: temperatura cerca de 5 °C (< 10) e umidade 35% (< 40%): o alerta cinza está certo. Dia 12: a temperatura é 40 °C, que não fica entre 35 °C e 40 °C, e não passa de 40 °C; não cabia alerta laranja nem vermelho. Dia 13: umidade de 40%, acima de 25%: o vermelho está errado.
+@151 m matematica/geometria-plana fig
+x: A placa é um semicírculo de diâmetro 40 sobre um retângulo 40 × 40 (60 − 20 = 40). Área de uma placa: 40 × 40 + 3,14 × 20² ÷ 2 = 1 600 + 628 = 2 228 cm². Dez placas: 22 280 cm².
+@161 m matematica/geometria-espacial fig
+x: Cada corte tira um canto do tetraedro e deixa um triângulo equilátero (4 cantos, 4 triângulos). Cada face triangular original perde os três cantos e vira um hexágono regular (4 hexágonos), pois o corte remove um terço de cada aresta.
+@163 m matematica/funcoes-afim-e-quadratica fig
+x: Até 6 m³ o valor é fixo (R$ 12): trecho horizontal. De 6 a 10 m³ sobe R$ 3 por m³ (chega a R$ 24). De 10 a 15 m³ sobe R$ 6 por m³ (chega a R$ 54): o último trecho é mais inclinado. Só o primeiro gráfico tem esse formato.
+@169 m matematica/geometria-espacial fig
+x: A laje tem 8 × 8 = 64 m² (parte da esquerda, altura 5 + 2 + 1), mais 3 × 7 = 21 m² e 3 × 5 = 15 m²: total 100 m². Volume: 100 × 0,05 = 5 m³, exatamente um caminhão de 5 m³.
+@171 m matematica/geometria-plana fig
+a: 2√22 cm. | 6√3 cm. | 12 cm. | 6√5 cm. | 12√2 cm.
+x: A folha tem 18 × 12 cm. O canto inferior esquerdo foi dobrado: o lado AD mede 12 cm e DE = 18 − 12 = 6 cm, com ângulo reto em D. Então AE² = 12² + 6² = 180, e AE = 6√5 cm.
+@174 d matematica/geometria-analitica fig
+x: O bar I fica em (5, 6). Distância até Q (3, 7) = √5 ≈ 2,2 (menor que 3); até R (6, 7) = √2 ≈ 1,4 (menor que 2); até S (5, 3) = 3 (menor que 5 e igual ao raio de P). Só no bar I todos os usuários ficam dentro dos raios.
+@175 d matematica/estatistica fig
+s: || Sexta || => ||
+x: Na próxima semana, os pastéis de cada dia serão iguais a refrigerante + caldo de cana da semana passada. O aumento total é a soma de (refrigerante + caldo − pastel) em cada dia, lida no gráfico; o resultado é 27 pastéis a mais.
+@177 m matematica/porcentagem fig
+x: A taxa de urbanização é urbana ÷ (urbana + rural). Lendo os dois gráficos, o município III tem a maior razão entre população urbana e população total.
+@180 d matematica/trigonometria fig
+s: A função h t descreve => A função h(t) = 4 + 4 sen(βt/2 − π/2), definida para t ≥ 0, descreve
+x: h = 6 quando sen(βt/2 − π/2) = 1/2. Começando em −π/2, os ângulos que dão seno 1/2 são π/6, 5π/6 e 13π/6. A terceira vez exige βt/2 − π/2 = 13π/6, ou seja, βt = 16π/3. Com t < 4: β > 4π/3 = 4 (π = 3). O menor inteiro é 5.
 
 ## 26-enem-2019-ciencias-da-natureza.md | 2019 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2019 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
@@ -164,3 +202,49 @@ s: Polpa de fruta Valor mínimo da acidez total expressa em ácido cítrico (g/1
 s: massa molar 192 g mol−1. => massa molar 192 g/mol.
 s: hidróxido de sódio 0,01 mol L−1, => hidróxido de sódio 0,01 mol/L,
 x: NaOH gasto: 0,01 × 0,024 = 2,4 × 10⁻⁴ mol. O ácido é triprótico (3 H⁺), então há 8 × 10⁻⁵ mol de ácido cítrico = 8 × 10⁻⁵ × 192 ≈ 0,0154 g em 2,2 g de polpa, ou ≈ 0,70 g em 100 g. Isso atinge o mínimo do caju (0,3) e da graviola (0,6), mas não o da acerola (0,8).
+@91 d fisica/eletricidade fig
+x: As lâmpadas (200 Ω) e a TV (50 Ω) ficam em paralelo, em série com o cabo de 10 Ω. Com 2 lâmpadas: Rp = 200/6 ≈ 33,3 Ω e a TV recebe 120 × 33,3/43,3 ≈ 92 V. Com 3 lâmpadas: Rp ≈ 28,6 Ω e a TV recebe ≈ 89 V, abaixo de 90 V. O máximo é 2.
+@94 m quimica/fisico-quimica fig
+s: redução (E ) da água => redução (E°) da água
+x: Para liberar H₂, a água precisa ser reduzida (E° = −0,83 V). A outra espécie deve se oxidar com facilidade, isto é, ter potencial de redução bem menor: o alumínio (−2,33 V). Ele reage com a água em meio básico e libera H₂ e calor.
+@97 m fisica/trabalho-energia-e-potencia fig
+s: obtendo 1 || 3 da altura => obtendo 1/3 da altura
+x: O disco desce 2/3 da altura da haste: 2/3 × 0,41 m ≈ 0,273 m. Toda a energia potencial vira energia de rotação (a translação é desprezível): E = m g h = 0,030 × 10 × 0,273 ≈ 8,2 × 10⁻² J.
+@98 d quimica/quimica-organica fig
+s: Estrutura II Na conversão => Estrutura II || Na conversão
+x: O aço inoxidável não se desgasta: participa da transformação da alicina sem ser consumido. Uma substância que favorece a reação e sai inalterada atua como catalisador.
+@101 f quimica/quimica-organica fig
+x: As três moléculas têm longas cadeias com ligações duplas alternadas com simples (cadeia conjugada). Essa conjugação faz as moléculas absorverem luz visível e terem cor.
+@103 m fisica/ondulatoria-e-optica fig
+x: Pela figura, o azul não depende do receptor de vermelho. Quem tem protanopia percebe o azul igual a uma pessoa de visão normal; nas outras cores que contêm vermelho (magenta, amarelo, branco), a percepção muda.
+@109 d fisica/eletricidade fig
+s: || z || => ||
+s: será || qBt => será
+a: qBt/(2πN) | qBt/(πN) | 2qBt/(πN) | qBt/N | 2qBt/N
+x: No movimento circular, a força magnética é a resultante centrípeta: qvB = m v²/r, então ω = qB/m e o período é T = 2πm/(qB). Em N voltas, t = N·2πm/(qB). Isolando: m = qBt/(2πN).
+@112 m biologia/citologia fig
+x: Quanto mais curtas e mais insaturadas (com "dobras") forem as caudas, menos os fosfolipídios interagem entre si e mais fluida fica a membrana. A bicamada II é a que reúne essas características.
+@114 m quimica/fisico-quimica fig
+a: H₂ (g). | O₂ (g). | H₂O (l). | OH⁻ (aq). | Zn(OH)₄²⁻ (aq).
+x: No ânodo ocorre oxidação: o zinco perde elétrons e, em meio alcalino, forma o íon Zn(OH)₄²⁻ (Zn + 4 OH⁻ → Zn(OH)₄²⁻ + 2 e⁻), como mostra o esquema.
+@115 f quimica/quimica-ambiental fig
+x: Os fármacos chegam à água pelo esgoto. Melhorar as estações de tratamento para removê-los reduz sua permanência nos rios; as outras ações espalham ou mantêm os resíduos no ambiente.
+@117 m fisica/estatica-e-hidrostatica fig
+x: No meio da fita, as duas trações sustentam o peso: 2 T sen 10° = 800 N. Então T = 800 ÷ (2 × 0,17) ≈ 2 350 N ≈ 2,4 × 10³ N, força que a fita faz em cada árvore.
+@119 m quimica/atomistica-e-tabela-periodica fig
+x: O xenônio tem 8 elétrons de valência e faz duas ligações covalentes com o flúor, recebendo mais um elétron compartilhado em cada uma. Fica com 8 + 2 = 10 elétrons na camada de valência.
+@123 m quimica/fisico-quimica fig
+s: desloca- -se => desloca-se
+s: ![Figura](enem-2019-d2-q123-2.webp) || C₆H₁₂O₆ (aq) + O₂ (g) + H₂O (l) Enzimas => Equação 1: C₆H₁₂O₆ (aq) + O₂ (g) + H₂O (l) → (enzimas) C₆H₁₂O₇ (aq) + H₂O₂ (aq)
+s: ![Figura](enem-2019-d2-q123-3.webp) => Equação 2: 2 H₂O₂ (aq) + 3 I⁻ (aq) → I₃⁻ (aq) + 2 H₂O (l) + O₂ (g)
+x: Na equação 1, a glicose é oxidada a ácido glucônico e o oxigênio é reduzido a H₂O₂. Na equação 2, o iodeto é oxidado a I₃⁻ e o H₂O₂ é reduzido. Nas duas há troca de elétrons: oxirredução.
+@124 f fisica/termologia fig
+x: Frio não "entra": o calor é que sai do ambiente mais quente. A porta fechada diminui a perda de calor da casa, e o cobertor é isolante: reduz a perda de calor do corpo, não aquece.
+@127 m quimica/quimica-organica fig
+x: Na transesterificação, o PET reage com um álcool, que troca de lugar com o etanodiol no éster. Para formar tereftalato de metila, o álcool usado (composto A) é o metanol.
+@128 m biologia/evolucao fig
+x: Com o tubo polínico, o gameta masculino chega ao óvulo sem precisar de água. Essa independência da água para a fecundação permitiu às plantas a conquista definitiva do ambiente terrestre.
+@131 f fisica/estatica-e-hidrostatica fig
+x: O papel tem poros finíssimos; as forças de adesão entre o etanol e as fibras fazem o líquido subir por eles, contra a gravidade. É a capilaridade.
+@135 d fisica/cinematica fig
+x: Com abertura de 90° e altura 1 000 m, cada foto cobre 2 × 1 000 × tg 45° = 2 000 m. Com 20% de sobreposição, o avião anda 80% disso entre fotos: 1 600 m. A 50 m/s: 1 600 ÷ 50 = 32 s.

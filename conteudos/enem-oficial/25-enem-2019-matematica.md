@@ -277,6 +277,48 @@ Chamando de X a quantidade total de funcionários da empresa, a quantia Y, em re
 
 **Assunto:** matematica/funcoes-afim-e-quadratica
 
+### 147
+Os exercícios físicos são recomendados para o bom funcionamento do organismo, pois aceleram o metabolismo e, em consequência, elevam o consumo de calorias. No gráfico, estão registrados os valores calóricos, em kcal, gastos em cinco diferentes atividades físicas, em função do tempo dedicado às atividades, contado em minuto.
+
+![Figura](enem-2019-d2-q147-1.webp)
+
+Qual dessas atividades físicas proporciona o maior consumo de quilocalorias por minuto?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** B
+
+**Explicação:** Divida as calorias pelo tempo: I = 20 ÷ 10 = 2; II = 100 ÷ 15 ≈ 6,7; III = 120 ÷ 20 = 6; IV = 100 ÷ 25 = 4; V = 80 ÷ 30 ≈ 2,7 kcal/min. A maior taxa é a da atividade II.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 147
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 148
+Um professor aplica, durante os cinco dias úteis de uma semana, testes com quatro questões de múltipla escolha a cinco alunos. Os resultados foram representados na matriz.
+
+![Figura](enem-2019-d2-q148-1.webp)
+
+Nessa matriz os elementos das linhas de 1 a 5 representam as quantidades de questões acertadas pelos alunos Ana, Bruno, Carlos, Denis e Érica, respectivamente, enquanto que as colunas de 1 a 5 indicam os dias da semana, de segunda-feira a sexta-feira, respectivamente, em que os testes foram aplicados. O teste que apresentou maior quantidade de acertos foi o aplicado na
+
+- A) segunda-feira.
+- B) terça-feira.
+- C) quarta-feira.
+- D) quinta-feira.
+- E) sexta-feira.
+
+**Resposta:** A
+
+**Explicação:** Cada coluna é um dia. Somando as colunas: segunda 3 + 3 + 2 + 3 + 0 = 11; terça 10; quarta 10; quinta 10; sexta 10. O maior total é o de segunda-feira.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 148
+
+**Assunto:** matematica/matrizes-e-determinantes
+
 ## Médio
 
 ### 140
@@ -541,6 +583,288 @@ O percentual de desconto que a construtora deverá conceder nos custos fixos é 
 
 **Assunto:** matematica/porcentagem
 
+### 137
+Uma empresa confecciona e comercializa um brinquedo formado por uma locomotiva, pintada na cor preta, mais 12 vagões de iguais formato e tamanho, numerados de 1 a 12. Dos 12 vagões, 4 são pintados na cor vermelha, 3 na cor azul, 3 na cor verde e 2 na cor amarela. O trem é montado utilizando-se uma locomotiva e 12 vagões, ordenados crescentemente segundo suas numerações, conforme ilustrado na figura.
+
+![Figura](enem-2019-d2-q137-1.webp)
+
+De acordo com as possíveis variações nas colorações dos vagões, a quantidade de trens que podem ser montados, expressa por meio de combinações, é dada por
+
+- A) ![Alternativa A](enem-2019-d2-q137-2.webp)
+- B) ![Alternativa B](enem-2019-d2-q137-3.webp)
+- C) ![Alternativa C](enem-2019-d2-q137-4.webp)
+- D) ![Alternativa D](enem-2019-d2-q137-5.webp)
+- E) ![Alternativa E](enem-2019-d2-q137-6.webp)
+
+**Resposta:** E
+
+**Explicação:** Os vagões já têm posição fixa (numeração); só as cores variam. Escolhem-se as 4 posições vermelhas entre 12, C(12, 4); depois as 3 azuis entre as 8 restantes, C(8, 3); as 3 verdes entre 5, C(5, 3); e as 2 amarelas nas 2 que sobram, C(2, 2). Multiplicam-se as escolhas.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 137
+
+**Assunto:** matematica/analise-combinatoria
+
+### 138
+O gráfico a seguir mostra a evolução mensal das vendas de certo produto de julho a novembro de 2011.
+
+![Figura](enem-2019-d2-q138-1.webp)
+
+Sabe-se que o mês de julho foi o pior momento da empresa em 2011 e que o número de unidades vendidas desse produto em dezembro de 2011 foi igual à média aritmética do número de unidades vendidas nos meses de julho a novembro do mesmo ano.
+
+O gerente de vendas disse, em uma reunião da diretoria, que, se essa redução no número de unidades vendidas de novembro para dezembro de 2011 se mantivesse constante nos meses subsequentes, as vendas só voltariam a ficar piores que julho de 2011 apenas no final de 2012. O diretor financeiro rebateu imediatamente esse argumento mostrando que, mantida a tendência, isso aconteceria já em
+
+- A) janeiro.
+- B) fevereiro.
+- C) março.
+- D) abril.
+- E) maio.
+
+**Resposta:** D
+
+**Explicação:** Média de julho a novembro: (700 + 2 500 + 2 500 + 2 800 + 2 700) ÷ 5 = 2 240 (dezembro). A queda de novembro para dezembro foi 460. Mantendo: janeiro 1 780, fevereiro 1 320, março 860, abril 400 — menos que as 700 de julho já em abril.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 138
+
+**Assunto:** matematica/estatistica
+
+### 139
+Um grupo de países criou uma instituição responsável por organizar o Programa Internacional de Nivelamento de Estudos (PINE) com o objetivo de melhorar os índices mundiais de educação. Em sua sede foi construída uma escultura suspensa, com a logomarca oficial do programa, em três dimensões, que é formada por suas iniciais, conforme mostrada na figura.
+
+![Figura](enem-2019-d2-q139-1.webp)
+
+Essa escultura está suspensa por cabos de aço, de maneira que o espaçamento entre letras adjacentes é o mesmo, todas têm igual espessura e ficam dispostas em posição ortogonal ao solo, como ilustrado a seguir.
+
+![Figura](enem-2019-d2-q139-2.webp)
+
+Ao meio-dia, com o sol a pino, as letras que formam essa escultura projetam ortogonalmente suas sombras sobre o solo. A sombra projetada no solo é
+
+- A) ![Alternativa A](enem-2019-d2-q139-3.webp)
+- B) ![Alternativa B](enem-2019-d2-q139-4.webp)
+- C) ![Alternativa C](enem-2019-d2-q139-5.webp)
+- D) ![Alternativa D](enem-2019-d2-q139-6.webp)
+- E) ![Alternativa E](enem-2019-d2-q139-7.webp)
+
+**Resposta:** E
+
+**Explicação:** Com o sol a pino, cada letra em pé projeta só a sua base, uma faixa estreita no chão. As letras ficam lado a lado com espaços iguais, então a sombra é uma sequência de faixas separadas por espaços iguais, com a largura de cada letra.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/geometria-espacial
+
+### 142
+Nos seis cômodos de uma casa há sensores de presença posicionados de forma que a luz de cada cômodo acende assim que uma pessoa nele adentra, e apaga assim que a pessoa se retira desse cômodo. Suponha que o acendimento e o desligamento sejam instantâneos.
+
+O morador dessa casa visitou alguns desses cômodos, ficando exatamente um minuto em cada um deles. O gráfico descreve o consumo acumulado de energia, em watt × minuto, em função do tempo t, em minuto, das lâmpadas de LED dessa casa, enquanto a figura apresenta a planta baixa da casa, na qual os cômodos estão numerados de 1 a 6, com as potências das respectivas lâmpadas indicadas.
+
+![Figura](enem-2019-d2-q142-1.webp)
+
+A sequência de deslocamentos pelos cômodos, conforme o consumo de energia apresentado no gráfico, é
+
+- A) 1 → 4 → 5 → 4 → 1 → 6 → 1 → 4
+- B) 1 → 2 → 3 → 1 → 4 → 1 → 4 → 4
+- C) 1 → 4 → 5 → 4 → 1 → 6 → 1 → 2 → 3
+- D) 1 → 2 → 3 → 5 → 4 → 1 → 6 → 1 → 4
+- E) 1 → 4 → 2 → 3 → 5 → 1 → 6 → 1 → 4
+
+**Resposta:** A
+
+**Explicação:** Em cada minuto, o aumento do consumo é a potência da lâmpada acesa: 20, 15, 5, 15, 20, 10, 20, 15 W·min. Isso corresponde a sala (1), suíte (4), banho (5), suíte (4), sala (1), cozinha (6), sala (1), suíte (4).
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 142
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 149
+Um ciclista quer montar um sistema de marchas usando dois discos dentados na parte traseira de sua bicicleta, chamados catracas. A coroa é o disco dentado que é movimentado pelos pedais da bicicleta, sendo que a corrente transmite esse movimento às catracas, que ficam posicionadas na roda traseira da bicicleta. As diferentes marchas ficam definidas pelos diferentes diâmetros das catracas, que são medidos conforme indicação na figura.
+
+![Figura](enem-2019-d2-q149-1.webp)
+
+O ciclista já dispõe de uma catraca com 7 cm de diâmetro e pretende incluir uma segunda catraca, de modo que, à medida em que a corrente passe por ela, a bicicleta avance 50% a mais do que avançaria se a corrente passasse pela primeira catraca, a cada volta completa dos pedais. O valor mais próximo da medida do diâmetro da segunda catraca, em centímetro e com uma casa decimal, é
+
+- A) 2,3.
+- B) 3,5.
+- C) 4,7.
+- D) 5,3.
+- E) 10,5.
+
+**Resposta:** C
+
+**Explicação:** A cada volta do pedal a corrente passa o mesmo número de dentes; quanto menor a catraca, mais voltas a roda dá. O avanço é inversamente proporcional ao diâmetro: para avançar 1,5 vez mais, d = 7 ÷ 1,5 ≈ 4,7 cm.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 150
+O serviço de meteorologia de uma cidade emite relatórios diários com a previsão do tempo. De posse dessas informações, a prefeitura emite três tipos de alertas para a população:
+
+• Alerta cinza: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será inferior a 10 °C, e a umidade relativa do ar for inferior a 40%;
+
+• Alerta laranja: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura deve variar entre 35 °C e 40 °C, e a umidade relativa do ar deve ficar abaixo de 30%;
+
+• Alerta vermelho: deverá ser emitido sempre que a previsão do tempo estimar que a temperatura será superior a 40 °C, e a umidade relativa do ar for inferior a 25%.
+
+Um resumo da previsão do tempo nessa cidade, para um período de 15 dias, foi apresentado no gráfico.
+
+![Figura](enem-2019-d2-q150-1.webp)
+
+Decorridos os 15 dias de validade desse relatório, um funcionário percebeu que, no período a que se refere o gráfico, foram emitidos os seguintes alertas:
+
+• Dia 1: alerta cinza;
+
+• Dia 12: alerta laranja;
+
+• Dia 13: alerta vermelho.
+
+Em qual(is) desses dias o(s) aviso(s) foi(ram) emitido(s) corretamente?
+
+- A) 1
+- B) 12
+- C) 1 e 12
+- D) 1 e 13
+- E) 1, 12 e 13
+
+**Resposta:** A
+
+**Explicação:** Dia 1: temperatura cerca de 5 °C (< 10) e umidade 35% (< 40%): o alerta cinza está certo. Dia 12: a temperatura é 40 °C, que não fica entre 35 °C e 40 °C, e não passa de 40 °C; não cabia alerta laranja nem vermelho. Dia 13: umidade de 40%, acima de 25%: o vermelho está errado.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 150
+
+**Assunto:** matematica/estatistica
+
+### 151
+Uma administração municipal encomendou a pintura de dez placas de sinalização para colocar em seu pátio de estacionamento.
+
+O profissional contratado para o serviço inicial pintará o fundo de dez placas e cobrará um valor de acordo com a área total dessas placas. O formato de cada placa é um círculo de diâmetro d = 40 cm, que tangencia lados de um retângulo, sendo que o comprimento total da placa é h = 60 cm, conforme ilustrado na figura. Use 3,14 como aproximação para π.
+
+![Figura](enem-2019-d2-q151-1.webp)
+
+Qual é a soma das medidas das áreas, em centímetros quadrados, das dez placas?
+
+- A) 16 628
+- B) 22 280
+- C) 28 560
+- D) 41 120
+- E) 66 240
+
+**Resposta:** B
+
+**Explicação:** A placa é um semicírculo de diâmetro 40 sobre um retângulo 40 × 40 (60 − 20 = 40). Área de uma placa: 40 × 40 + 3,14 × 20² ÷ 2 = 1 600 + 628 = 2 228 cm². Dez placas: 22 280 cm².
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/geometria-plana
+
+### 161
+As luminárias para um laboratório de matemática serão fabricadas em forma de sólidos geométricos. Uma delas terá a forma de um tetraedro truncado. Esse sólido é gerado a partir de secções paralelas a cada uma das faces de um tetraedro regular. Para essa luminária, as secções serão feitas de maneira que, em cada corte, um terço das arestas seccionadas serão removidas. Uma dessas secções está indicada na figura.
+
+![Figura](enem-2019-d2-q161-1.webp)
+
+Essa luminária terá por faces
+
+- A) 4 hexágonos regulares e 4 triângulos equiláteros.
+- B) 2 hexágonos regulares e 4 triângulos equiláteros.
+- C) 4 quadriláteros e 4 triângulos isósceles.
+- D) 3 quadriláteros e 4 triângulos isósceles.
+- E) 3 hexágonos regulares e 4 triângulos equiláteros.
+
+**Resposta:** A
+
+**Explicação:** Cada corte tira um canto do tetraedro e deixa um triângulo equilátero (4 cantos, 4 triângulos). Cada face triangular original perde os três cantos e vira um hexágono regular (4 hexágonos), pois o corte remove um terço de cada aresta.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 161
+
+**Assunto:** matematica/geometria-espacial
+
+### 163
+Uma empresa presta serviço de abastecimento de água em uma cidade. O valor mensal a pagar por esse serviço é determinado pela aplicação de tarifas, por faixas de consumo de água, sendo obtido pela adição dos valores correspondentes a cada faixa.
+
+• Faixa 1: para consumo de até 6 m³, valor fixo de R$ 12,00;
+
+• Faixa 2: para consumo superior a 6 m³ e até 10 m³, tarifa de R$ 3,00 por metro cúbico ao que exceder a 6 m³;
+
+• Faixa 3: para consumo superior a 10 m³, tarifa de R$ 6,00 por metro cúbico ao que exceder a 10 m³.
+
+Sabe-se que nessa cidade o consumo máximo de água por residência é de 15 m³ por mês. O gráfico que melhor descreve o valor P, em real, a ser pago por mês, em função do volume V de água consumido, em metro cúbico, é
+
+- A) ![Alternativa A](enem-2019-d2-q163-1.webp)
+- B) ![Alternativa D](enem-2019-d2-q163-2.webp)
+- C) ![Alternativa B](enem-2019-d2-q163-3.webp)
+- D) ![Alternativa E](enem-2019-d2-q163-4.webp)
+- E) ![Alternativa C](enem-2019-d2-q163-5.webp)
+
+**Resposta:** A
+
+**Explicação:** Até 6 m³ o valor é fixo (R$ 12): trecho horizontal. De 6 a 10 m³ sobe R$ 3 por m³ (chega a R$ 24). De 10 a 15 m³ sobe R$ 6 por m³ (chega a R$ 54): o último trecho é mais inclinado. Só o primeiro gráfico tem esse formato.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 163
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 169
+Um mestre de obras deseja fazer uma laje com espessura de 5 cm utilizando concreto usinado, conforme as dimensões do projeto dadas na figura. O concreto para fazer a laje será fornecido por uma usina que utiliza caminhões com capacidades máximas de 2 m³, 5 m³ e 10 m³ de concreto.
+
+![Figura](enem-2019-d2-q169-1.webp)
+
+Qual a menor quantidade de caminhões, utilizando suas capacidades máximas, que o mestre de obras deverá pedir à usina de concreto para fazer a laje?
+
+- A) Dez caminhões com capacidade máxima de 10 m³.
+- B) Cinco caminhões com capacidade máxima de 10 m³.
+- C) Um caminhão com capacidade máxima de 5 m³.
+- D) Dez caminhões com capacidade máxima de 2 m³.
+- E) Um caminhão com capacidade máxima de 2 m³.
+
+**Resposta:** C
+
+**Explicação:** A laje tem 8 × 8 = 64 m² (parte da esquerda, altura 5 + 2 + 1), mais 3 × 7 = 21 m² e 3 × 5 = 15 m²: total 100 m². Volume: 100 × 0,05 = 5 m³, exatamente um caminhão de 5 m³.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 169
+
+**Assunto:** matematica/geometria-espacial
+
+### 171
+Construir figuras de diversos tipos, apenas dobrando e cortando papel, sem cola e sem tesoura, é a arte do origami (ori = dobrar; kami = papel), que tem um significado altamente simbólico no Japão. A base do origami é o conhecimento do mundo por base do tato. Uma jovem resolveu construir um cisne usando a técnica do origami, utilizando uma folha de papel de 18 cm por 12 cm. Assim, começou por dobrar a folha conforme a figura.
+
+![Figura](enem-2019-d2-q171-1.webp)
+
+Após essa primeira dobradura, a medida do segmento AE é
+
+- A) 2√22 cm.
+- B) 6√3 cm.
+- C) 12 cm.
+- D) 6√5 cm.
+- E) 12√2 cm.
+
+**Resposta:** D
+
+**Explicação:** A folha tem 18 × 12 cm. O canto inferior esquerdo foi dobrado: o lado AD mede 12 cm e DE = 18 − 12 = 6 cm, com ângulo reto em D. Então AE² = 12² + 6² = 180, e AE = 6√5 cm.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/geometria-plana
+
+### 177
+A taxa de urbanização de um município é dada pela razão entre a população urbana e a população total do município (isto é, a soma das populações rural e urbana). Os gráficos apresentam, respectivamente, a população urbana e a população rural de cinco municípios (I, II, III, IV, V) de uma mesma região estadual. Em reunião entre o governo do estado e os prefeitos desses municípios, ficou acordado que o município com maior taxa de urbanização receberá um investimento extra em infraestrutura.
+
+![Figura](enem-2019-d2-q177-1.webp)
+
+Segundo o acordo, qual município receberá o investimento extra?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** C
+
+**Explicação:** A taxa de urbanização é urbana ÷ (urbana + rural). Lendo os dois gráficos, o município III tem a maior razão entre população urbana e população total.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 177
+
+**Assunto:** matematica/porcentagem
+
 ## Difícil
 
 ### 145
@@ -618,3 +942,70 @@ A medida, em metro, das alturas das colunas de água nos reservatórios auxiliar
 **Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 178
 
 **Assunto:** matematica/geometria-espacial
+
+### 174
+Um aplicativo de relacionamentos funciona da seguinte forma: o usuário cria um perfil com foto e informações pessoais, indica as características dos usuários com quem deseja estabelecer contato e determina um raio de abrangência a partir da sua localização. O aplicativo identifica as pessoas que se encaixam no perfil desejado e que estão a uma distância do usuário menor ou igual ao raio de abrangência. Caso dois usuários tenham perfis compatíveis e estejam numa região de abrangência comum a ambos, o aplicativo promove o contato entre os usuários, o que é chamado de match.
+
+O usuário P define um raio de abrangência com medida de 3 km e busca ampliar a possibilidade de obter um match se deslocando para a região central da cidade, que concentra um maior número de usuários. O gráfico ilustra alguns bares que o usuário P costuma frequentar para ativar o aplicativo, indicados por I, II, III, IV e V. Sabe-se que os usuários Q, R e S, cujas posições estão descritas pelo gráfico, são compatíveis com o usuário P, e que estes definiram raios de abrangência respectivamente iguais a 3 km, 2 km e 5 km.
+
+![Figura](enem-2019-d2-q174-1.webp)
+
+Com base no gráfico e nas afirmações anteriores, em qual bar o usuário P teria a possibilidade de um match com os usuários Q, R e S, simultaneamente?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** A
+
+**Explicação:** O bar I fica em (5, 6). Distância até Q (3, 7) = √5 ≈ 2,2 (menor que 3); até R (6, 7) = √2 ≈ 1,4 (menor que 2); até S (5, 3) = 3 (menor que 5 e igual ao raio de P). Só no bar I todos os usuários ficam dentro dos raios.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 174
+
+**Assunto:** matematica/geometria-analitica
+
+### 175
+Um comerciante, que vende somente pastel, refrigerante em lata e caldo de cana em copos, fez um levantamento das vendas realizadas durante a semana. O resultado desse levantamento está apresentado no gráfico.
+
+![Figura](enem-2019-d2-q175-1.webp)
+
+Ele estima que venderá, em cada dia da próxima semana, uma quantidade de refrigerante em lata igual à soma das quantidades de refrigerante em lata e caldo de cana em copos vendidas no respectivo dia da última semana. Quanto aos pastéis, estima vender, a cada dia da próxima semana, uma quantidade igual à quantidade de refrigerante em lata que prevê vender em tal dia. Já para o número de caldo de cana em copos, estima que as vendas diárias serão iguais às da última semana. Segundo essas estimativas, a quantidade a mais de pastéis que esse comerciante deve vender na próxima semana é
+
+- A) 20.
+- B) 27.
+- C) 44.
+- D) 55.
+- E) 71.
+
+**Resposta:** B
+
+**Explicação:** Na próxima semana, os pastéis de cada dia serão iguais a refrigerante + caldo de cana da semana passada. O aumento total é a soma de (refrigerante + caldo − pastel) em cada dia, lida no gráfico; o resultado é 27 pastéis a mais.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 175
+
+**Assunto:** matematica/estatistica
+
+### 180
+Um grupo de engenheiros está projetando um motor cujo esquema de deslocamento vertical do pistão dentro da câmara de combustão está representado na figura.
+
+![Figura](enem-2019-d2-q180-1.webp)
+
+A função h(t) = 4 + 4 sen(βt/2 − π/2), definida para t ≥ 0, descreve como varia a altura h, medida em centímetro, da parte superior do pistão dentro da câmara de combustão, em função do tempo t, medido em segundo. Nas figuras estão indicadas as alturas do pistão em dois instantes distintos.
+
+O valor do parâmetro β, que é dado por um número inteiro positivo, está relacionado com a velocidade de deslocamento do pistão. Para que o motor tenha uma boa potência, é necessário e suficiente que, em menos de 4 segundos após o início do funcionamento (instante t = 0), a altura da base do pistão alcance por três vezes o valor de 6 cm. Para os cálculos, utilize 3 como aproximação para π. O menor valor inteiro a ser atribuído ao parâmetro β , de forma que o motor a ser construído tenha boa potência, é
+
+- A) 1.
+- B) 2.
+- C) 4.
+- D) 5.
+- E) 8.
+
+**Resposta:** D
+
+**Explicação:** h = 6 quando sen(βt/2 − π/2) = 1/2. Começando em −π/2, os ângulos que dão seno 1/2 são π/6, 5π/6 e 13π/6. A terceira vez exige βt/2 − π/2 = 13π/6, ou seja, βt = 16π/3. Com t < 4: β > 4π/3 = 4 (π = 3). O menor inteiro é 5.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/trigonometria

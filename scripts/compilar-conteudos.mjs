@@ -12,6 +12,23 @@ const RAIZ = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const PASTA_CONTEUDOS = path.join(RAIZ, 'conteudos');
 const SAIDA_BANCO = path.join(RAIZ, 'app', 'src', 'data', 'banco.json');
 const SAIDA_INDICE = path.join(PASTA_CONTEUDOS, 'README.md');
+const PASTA_IMAGENS = path.join(RAIZ, 'app', 'assets', 'questoes');
+const SAIDA_IMAGENS = path.join(RAIZ, 'app', 'src', 'data', 'imagens.ts');
+const IMAGEM = /!\[([^\]]*)\]\(([^)\s]+)\)/g;
+
+// largura e altura de um arquivo WebP (VP8, VP8L ou VP8X) ou PNG
+function tamanhoImagem(arq) {
+  const b = fs.readFileSync(arq);
+  if (b.toString('ascii', 1, 4) === 'PNG') return [b.readUInt32BE(16), b.readUInt32BE(20)];
+  const tipo = b.toString('ascii', 12, 16);
+  if (tipo === 'VP8 ') return [b.readUInt16LE(26) & 0x3fff, b.readUInt16LE(28) & 0x3fff];
+  if (tipo === 'VP8L') {
+    const v = b.readUInt32LE(21);
+    return [(v & 0x3fff) + 1, ((v >> 14) & 0x3fff) + 1];
+  }
+  if (tipo === 'VP8X') return [1 + b.readUIntLE(24, 3), 1 + b.readUIntLE(27, 3)];
+  throw new Error('formato de imagem desconhecido: ' + arq);
+}
 
 const NIVEIS = { 'fácil': 0, 'facil': 0, 'médio': 1, 'medio': 1, 'difícil': 2, 'dificil': 2 };
 const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'];
@@ -243,6 +260,20 @@ function main() {
     (t.oficiais ||= []).push(v.id);
   }
 
+  // imagens citadas nas questões ( ![descrição](arquivo) ) — precisam existir em app/assets/questoes
+  const imagens = new Map();
+  for (const [topico, qs] of Object.entries(questoes)) {
+    for (const q of qs) {
+      for (const texto of [q.e, ...q.a]) {
+        for (const [, , nome] of texto.matchAll(IMAGEM)) {
+          const arq = path.join(PASTA_IMAGENS, nome);
+          if (!fs.existsSync(arq)) erros.push(`${topico}: imagem não encontrada: app/assets/questoes/${nome}`);
+          else if (!imagens.has(nome)) imagens.set(nome, tamanhoImagem(arq));
+        }
+      }
+    }
+  }
+
   if (erros.length) {
     console.error(`\n${erros.length} problema(s) encontrado(s):\n`);
     for (const e of erros.slice(0, 200)) console.error('  ' + e);
@@ -251,6 +282,17 @@ function main() {
 
   fs.mkdirSync(path.dirname(SAIDA_BANCO), { recursive: true });
   fs.writeFileSync(SAIDA_BANCO, JSON.stringify({ versao: 1, disciplinas, questoes }));
+  const nomes = [...imagens.keys()].sort();
+  fs.writeFileSync(SAIDA_IMAGENS, [
+    '// Gerado por scripts/compilar-conteudos.mjs — não edite à mão.',
+    '// Imagens das questões (figuras recortadas das provas oficiais), com largura e altura em pixels.',
+    'export const IMAGENS: Record<string, { fonte: number; w: number; h: number }> = {',
+    ...nomes.map((n) => `  '${n}': { fonte: require('../../assets/questoes/${n}'), w: ${imagens.get(n)[0]}, h: ${imagens.get(n)[1]} },`),
+    '};',
+    '',
+  ].join('\n'));
+  // apaga imagens que nenhuma questão usa
+  if (fs.existsSync(PASTA_IMAGENS)) for (const f of fs.readdirSync(PASTA_IMAGENS)) if (!imagens.has(f)) fs.unlinkSync(path.join(PASTA_IMAGENS, f));
 
   // Índice legível no GitHub
   const linhas = [

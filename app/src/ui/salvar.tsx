@@ -9,6 +9,7 @@ import { useProgresso } from '../estado/ProgressoContext';
 import { Botao, Chip } from './componentes';
 import { ComIcone } from './Icone';
 import { criarEstilos, useCores } from './tema';
+import { semImagens } from './Imagens';
 
 /** Botões "Salvar" (estrela), "Anotar" e "Achei um erro" de uma questão. */
 export function AcoesQuestao({ id, claro }: { id: string; claro?: boolean }) {
@@ -105,7 +106,7 @@ function ModalErro({ id, visivel, fechar }: { id: string; visivel: boolean; fech
   const topico = info ? getTopico(info.topicoId)?.topico.titulo : '';
 
   async function enviar() {
-    const corpo = `Achei um erro numa questão do app Estudos.\n\nQuestão: ${id}${topico ? ` (${topico})` : ''}\nProblema: ${motivo}\n${texto.trim() ? `Detalhes: ${texto.trim()}\n` : ''}${info?.questao.f ? `Fonte: ${info.questao.f}\n` : ''}\nEnunciado: ${info?.questao.e.slice(0, 300) ?? ''}`;
+    const corpo = `Achei um erro numa questão do app Estudos.\n\nQuestão: ${id}${topico ? ` (${topico})` : ''}\nProblema: ${motivo}\n${texto.trim() ? `Detalhes: ${texto.trim()}\n` : ''}${info?.questao.f ? `Fonte: ${info.questao.f}\n` : ''}\nEnunciado: ${semImagens(info?.questao.e ?? '').slice(0, 300) ?? ''}`;
     try {
       if (EMAIL_ERROS) {
         await Linking.openURL(`mailto:${EMAIL_ERROS}?subject=${encodeURIComponent(`Erro na questão ${id}`)}&body=${encodeURIComponent(corpo)}`);

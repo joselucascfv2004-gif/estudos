@@ -9,6 +9,7 @@ import { Botao, Cabecalho, Cartao } from '../ui/componentes';
 import { AcoesQuestao } from '../ui/salvar';
 import { ComIcone, Icone } from '../ui/Icone';
 import { criarEstilos, useCores } from '../ui/tema';
+import { TextoAlternativa, TextoQuestao, temImagem } from '../ui/Imagens';
 
 const LETRAS = 'ABCDE';
 
@@ -54,16 +55,17 @@ export default function Salvas() {
                     <ComIcone icone={t?.disciplina.icone ?? 'book-outline'} cor={t?.disciplina.cor} tamanho={16} estilo={{ gap: 6 }} estiloTexto={s.topico}>
                       {t?.topico.titulo}
                     </ComIcone>
-                    <Text style={s.enunciado} numberOfLines={expandida ? undefined : 4}>
-                      {q.e}
-                    </Text>
+                    <TextoQuestao texto={q.e} estilo={s.enunciado} linhas={expandida ? undefined : 4} />
                     {expandida ? (
                       <View style={{ gap: 6, marginTop: 8 }}>
                         {q.a.map((alt, i) => (
-                          <Text key={i} style={[s.alt, i === q.c && s.altCerta]}>
-                            {LETRAS[i]}) {alt}
-                            {i === q.c ? '  (correta)' : ''}
-                          </Text>
+                          <View key={i} style={{ gap: 4 }}>
+                            <Text style={[s.alt, i === q.c && s.altCerta]}>
+                              {LETRAS[i]}) {temImagem(alt) ? '' : alt}
+                              {i === q.c ? '  (correta)' : ''}
+                            </Text>
+                            {temImagem(alt) && <TextoAlternativa texto={alt} estilo={s.alt} />}
+                          </View>
                         ))}
                         <Text style={s.explicacao}>{q.x}</Text>
                       </View>

@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**5944 questões** em **154 tópicos**.
+**5979 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2031 questões
+## ENEM — provas oficiais — 2066 questões
 
 *Provas anteriores*
 
@@ -255,8 +255,8 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2020 — Ciências da Natureza](enem-oficial/22-enem-2020-ciencias-da-natureza.md) | ENEM | 13 | 10 | 4 |
 | [ENEM 2020 — Ciências Humanas](enem-oficial/23-enem-2020-ciencias-humanas.md) | ENEM | 8 | 26 | 3 |
 | [ENEM 2020 — Linguagens](enem-oficial/24-enem-2020-linguagens.md) | ENEM | 9 | 13 | 8 |
-| [ENEM 2019 — Matemática](enem-oficial/25-enem-2019-matematica.md) | ENEM | 12 | 12 | 4 |
-| [ENEM 2019 — Ciências da Natureza](enem-oficial/26-enem-2019-ciencias-da-natureza.md) | ENEM | 11 | 13 | 3 |
+| [ENEM 2019 — Matemática](enem-oficial/25-enem-2019-matematica.md) | ENEM | 14 | 24 | 7 |
+| [ENEM 2019 — Ciências da Natureza](enem-oficial/26-enem-2019-ciencias-da-natureza.md) | ENEM | 15 | 23 | 7 |
 | [ENEM 2019 — Ciências Humanas](enem-oficial/27-enem-2019-ciencias-humanas.md) | ENEM | 13 | 19 | 6 |
 | [ENEM 2019 — Linguagens](enem-oficial/28-enem-2019-linguagens.md) | ENEM | 9 | 10 | 6 |
 | [ENEM 2018 — Matemática](enem-oficial/29-enem-2018-matematica.md) | ENEM | 10 | 8 | 6 |

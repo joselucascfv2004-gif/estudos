@@ -25,6 +25,7 @@ import { Barra, Botao } from '../ui/componentes';
 import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
+import { TextoAlternativa, TextoQuestao } from '../ui/Imagens';
 
 const ELOGIOS = ['Muito bem!', 'Excelente!', 'Mandou bem!', 'Isso aí!', 'Perfeito!', 'Arrasou!'];
 const LETRAS = 'ABCDE';
@@ -182,7 +183,7 @@ export default function Licao() {
             {modo === 'topico' ? titulo : (topico?.titulo ?? titulo)}
           </Text>
         </View>
-        <Text style={s.enunciado}>{q.e}</Text>
+        <TextoQuestao texto={q.e} estilo={s.enunciado} />
         <View style={{ gap: 10, marginTop: 8 }}>
           {item.ordem.map((orig, i) => {
             const marcada = escolha === i;
@@ -203,7 +204,7 @@ export default function Licao() {
                 <View style={[s.letra, { borderColor: corLetra }]}>
                   <Text style={[s.letraTexto, { color: corLetra }]}>{LETRAS[i]}</Text>
                 </View>
-                <Text style={s.altTexto}>{q.a[orig]}</Text>
+                <TextoAlternativa texto={q.a[orig]} estilo={s.altTexto} />
               </Pressable>
             );
           })}

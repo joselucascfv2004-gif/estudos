@@ -21,8 +21,9 @@ for (const l of linhas) {
     continue;
   }
   if ((m = l.match(/^@(\d+) ([fmd]) (.+)$/))) {
-    const verso = / v$/.test(m[3]);
-    q = { num: m[1], nivel: m[2], assunto: m[3].replace(/ v$/, '').trim(), x: '', e: null, a: null, s: [], verso };
+    const fig = / fig\b/.test(m[3]);
+    const verso = / v\b/.test(m[3]);
+    q = { num: m[1], nivel: m[2], assunto: m[3].replace(/ (v|fig)\b/g, '').trim(), x: '', e: null, a: null, s: [], verso, fig };
     arq.qs.push(q);
     continue;
   }
@@ -83,8 +84,28 @@ function formatar(t, natureza) {
   return t.replace(/([₀-₉⁰-⁹⁺⁻]) ([,.;)])/g, '$1$2');
 }
 
+// questões com figura: texto e recortes vêm de ../fig/ANO_Dn_fig.json (gerado por figuras.py)
+const ASSETS = '/home/user/estudos/app/assets/questoes/';
+const FIGDIR = new URL('../fig/', import.meta.url).pathname;
+function parsDaFig(q) {
+  const pars = [];
+  let cur = '', prev = null, xItem = 0;
+  const fecha = () => { if (cur) pars.push(cur); cur = ''; };
+  for (const c of q.corpo) {
+    if (c.fig) { fecha(); pars.push(`![Figura](${c.fig})`); prev = null; continue; }
+    const continuaItem = cur.startsWith('•') && !c.t.startsWith('•') && c.x > xItem + 4;
+    const novo = !cur || (c.x >= 8 && !continuaItem) || (cur.startsWith('•') && c.x < 5) || (prev && Math.abs(prev.sz - c.sz) > 0.5) || (ehFonte(c.t) && !(prev && ehFonte(prev.t))) || /^TEXTO [IVX]+$/.test(c.t) || (prev && /^TEXTO [IVX]+$/.test(prev.t));
+    if (novo) { fecha(); cur = c.t; if (c.t.startsWith('•')) xItem = c.x; } else cur = /[a-zà-ú]-$/.test(cur) && /^[a-zà-ú]/.test(c.t) ? cur.slice(0, -1) + c.t : cur + ' ' + c.t;
+    prev = c;
+  }
+  fecha();
+  return pars;
+}
+const imgFig = (a, num, n) => `enem-${a.ano}-d${a.dia}-q${String(num).padStart(3, '0')}-${n}.webp`;
 for (const a of arquivos) {
   const { qs: ext } = JSON.parse(fs.readFileSync(`${a.ano}_D${a.dia}.json`, 'utf8'));
+  const figPath = `${FIGDIR}${a.ano}_D${a.dia}_fig.json`;
+  const figs = fs.existsSync(figPath) ? JSON.parse(fs.readFileSync(figPath, 'utf8')).filter((q) => !q.rep) : [];
   const desc = (a.cab.find((l) => l.startsWith('descricao:')) || '').slice(10).trim();
   const resumo = a.cab.filter((l) => l.startsWith('- '));
   const intro = (a.cab.find((l) => l.startsWith('intro:')) || '').slice(6).trim();
@@ -93,8 +114,17 @@ for (const a of arquivos) {
   for (const [nv, nome] of [['f', 'Fácil'], ['m', 'Médio'], ['d', 'Difícil']]) {
     out.push(`## ${nome}`, '');
     for (const d of a.qs.filter((x) => x.nivel === nv)) {
-      const e = ext.find((x) => x.num === d.num);
+      let e = ext.find((x) => x.num === d.num);
       if (!e) { faltas.push(d.num); continue; }
+      if (d.fig) {
+        const f = figs.find((x) => String(x.num) === d.num);
+        if (!f) { faltas.push(`${d.num} sem figura`); continue; }
+        const alts = f.alts.map((x) => (x.figs.length && !x.txt ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
+        e = { ...e, pars: parsDaFig(f), alts };
+      }
+      const comFig = (t) => t.replace(/\[fig(\d+)\]/g, (_, n) => `![Figura](${imgFig(a, d.num, n)})`);
+      if (d.e) d.e = d.e.map(comFig);
+      if (d.a) d.a = d.a.map((t) => t.replace(/^\[fig(\d+)\]$/, (_, n) => `![Alternativa](${imgFig(a, d.num, n)})`));
       if (d.g) e.gab = d.g;
       if (!/^[A-E]$/.test(e.gab || '')) faltas.push(`${d.num} (gabarito ${e.gab})`);
       if (!d.x) faltas.push(`${d.num} sem explicação`);
@@ -122,6 +152,13 @@ for (const a of arquivos) {
       out.push('', `**Resposta:** ${e.gab}`, '', `**Explicação:** ${d.x}`, '', `**Fonte:** ENEM ${a.ano}, ${a.caderno}, questão ${d.num}`, '', `**Assunto:** ${d.assunto}`, '');
     }
   }
-  fs.writeFileSync(DEST + a.nome, out.join('\n').replace(/\n{3,}/g, '\n\n'));
+  const texto = out.join('\n').replace(/\n{3,}/g, '\n\n');
+  for (const [, nome] of texto.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)) {
+    const orig = `${FIGDIR}img${a.ano}/${nome}`;
+    if (!fs.existsSync(orig)) { faltas.push(`imagem ${nome} não existe`); continue; }
+    fs.mkdirSync(ASSETS, { recursive: true });
+    fs.copyFileSync(orig, ASSETS + nome);
+  }
+  fs.writeFileSync(DEST + a.nome, texto);
   console.log(`${a.nome}: ${a.qs.length} questões${faltas.length ? ' — PROBLEMAS: ' + faltas.join(', ') : ''}`);
 }

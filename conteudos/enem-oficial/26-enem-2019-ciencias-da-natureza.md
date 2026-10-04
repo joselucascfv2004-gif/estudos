@@ -239,6 +239,96 @@ O sal foi absorvido pelas batatas por
 
 **Assunto:** quimica/solucoes, biologia/citologia
 
+### 101
+A utilização de corantes na indústria de alimentos é bastante difundida e a escolha por corantes naturais vem sendo mais explorada por diversas razões. A seguir são mostradas três estruturas de corantes naturais.
+
+![Figura](enem-2019-d2-q101-1.webp)
+
+![Figura](enem-2019-d2-q101-2.webp)
+
+![Figura](enem-2019-d2-q101-3.webp)
+
+> HAMERSKI, L.; REZENDE, M. J. C.; SILVA, B. V. Usando as cores da natureza para atender aos desejos do consumidor: substâncias naturais como corantes na indústria alimentícia. Revista Virtual de Química, n. 3, 2013.
+
+A propriedade comum às estruturas que confere cor a esses compostos é a presença de
+
+- A) cadeia conjugada.
+- B) cadeia ramificada.
+- C) átomos de carbonos terciários.
+- D) ligações duplas de configuração cis.
+- E) átomos de carbonos de hibridação sp³.
+
+**Resposta:** A
+
+**Explicação:** As três moléculas têm longas cadeias com ligações duplas alternadas com simples (cadeia conjugada). Essa conjugação faz as moléculas absorverem luz visível e terem cor.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 101
+
+**Assunto:** quimica/quimica-organica
+
+### 115
+Algumas toneladas de medicamentos para uso humano e veterinário são produzidas por ano. Os fármacos são desenvolvidos para serem estáveis, mantendo suas propriedades químicas de forma a atender a um propósito terapêutico. Após o consumo de fármacos, parte de sua dosagem é excretada de forma inalterada, persistindo no meio ambiente. Em todo o mundo, antibióticos, hormônios, anestésicos, anti-inflamatórios, entre outros, são detectados em concentrações preocupantes no esgoto doméstico, em águas superficiais e de subsolo. Dessa forma, a ocorrência de fármacos residuais no meio ambiente pode apresentar efeitos adversos em organismos aquáticos e terrestres.
+
+> BILA, D. M.; DEZOTTI, M. Fármacos no meio ambiente. Química Nova, v. 26, n. 4, ago. 2003 (adaptado).
+
+Qual ação minimiza a permanência desses contaminantes nos recursos hídricos?
+
+- A) Utilização de esterco como fertilizante na agricultura.
+- B) Ampliação das redes de coleta de esgoto na zona urbana.
+- C) Descarte dos medicamentos fora do prazo de validade em lixões.
+- D) Desenvolvimento de novos processos nas estações de tratamento de efluentes.
+- E) Reúso dos lodos provenientes das estações de tratamento de esgoto na agricultura.
+
+**Resposta:** D
+
+**Explicação:** Os fármacos chegam à água pelo esgoto. Melhorar as estações de tratamento para removê-los reduz sua permanência nos rios; as outras ações espalham ou mantêm os resíduos no ambiente.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 115
+
+**Assunto:** quimica/quimica-ambiental
+
+### 124
+Em 1962, um jingle (vinheta musical) criado por Heitor Carillo fez tanto sucesso que extrapolou as fronteiras do rádio e chegou à televisão ilustrado por um desenho animado. Nele, uma pessoa respondia ao fantasma que batia em sua porta, personificando o “frio”, que não o deixaria entrar, pois não abriria a porta e compraria lãs e cobertores para aquecer sua casa. Apesar de memorável, tal comercial televisivo continha incorreções a respeito de conceitos físicos relativos à calorimetria.
+
+> DUARTE, M. Jingle é a alma do negócio: livro revela os bastidores das músicas de propagandas. Disponível em: https://guiadoscuriosos.uol.com.br. Acesso em: 24 abr. 2019 (adaptado).
+
+Para solucionar essas incorreções, deve-se associar à porta e aos cobertores, respectivamente, as funções de:
+
+- A) Aquecer a casa e os corpos.
+- B) Evitar a entrada do frio na casa e nos corpos.
+- C) Minimizar a perda de calor pela casa e pelos corpos.
+- D) Diminuir a entrada do frio na casa e aquecer os corpos.
+- E) Aquecer a casa e reduzir a perda de calor pelos corpos.
+
+**Resposta:** C
+
+**Explicação:** Frio não "entra": o calor é que sai do ambiente mais quente. A porta fechada diminui a perda de calor da casa, e o cobertor é isolante: reduz a perda de calor do corpo, não aquece.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** fisica/termologia
+
+### 131
+Um experimento simples, que pode ser realizado com materiais encontrados em casa, é realizado da seguinte forma: adiciona-se um volume de etanol em um copo de vidro e, em seguida, uma folha de papel. Com o passar do tempo, observa-se um comportamento peculiar: o etanol se desloca sobre a superfície do papel, superando a gravidade que o atrai no sentido oposto, como mostra a imagem. Para parte dos estudantes, isso ocorre por causa da absorção do líquido pelo papel.
+
+![Figura](enem-2019-d2-q131-1.webp)
+
+Do ponto de vista científico, o que explica o movimento do líquido é a
+
+- A) evaporação do líquido.
+- B) diferença de densidades.
+- C) reação química com o papel.
+- D) capilaridade nos poros do papel.
+- E) resistência ao escoamento do líquido.
+
+**Resposta:** D
+
+**Explicação:** O papel tem poros finíssimos; as forças de adesão entre o etanol e as fibras fazem o líquido subir por eles, contra a gravidade. É a capilaridade.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 131
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
 ## Médio
 
 ### 92
@@ -510,6 +600,240 @@ O texto contesta que concepção acerca do comportamento da luz?
 
 **Assunto:** fisica/ondulatoria-e-optica
 
+### 94
+Para realizar o desentupimento de tubulações de esgotos residenciais, é utilizada uma mistura sólida comercial que contém hidróxido de sódio (NaOH) e outra espécie química pulverizada. Quando é adicionada água a essa mistura, ocorre uma reação que libera gás hidrogênio e energia na forma de calor, aumentando a eficiência do processo de desentupimento. Considere os potenciais padrão de redução (E°) da água e de outras espécies em meio básico, expressos no quadro.
+
+![Figura](enem-2019-d2-q094-1.webp)
+
+Qual é a outra espécie que está presente na composição da mistura sólida comercial para aumentar sua eficiência?
+
+- A) Al
+- B) Co
+- C) Cu(OH)₂
+- D) Fe(OH)₂
+- E) Pb
+
+**Resposta:** A
+
+**Explicação:** Para liberar H₂, a água precisa ser reduzida (E° = −0,83 V). A outra espécie deve se oxidar com facilidade, isto é, ter potencial de redução bem menor: o alumínio (−2,33 V). Ele reage com a água em meio básico e libera H₂ e calor.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 94
+
+**Assunto:** quimica/fisico-quimica
+
+### 97
+Numa feira de ciências, um estudante utilizará o disco de Maxwell (ioiô) para demonstrar o princípio da conservação da energia. A apresentação consistirá em duas etapas:
+
+Etapa 1 - a explicação de que, à medida que o disco desce, parte de sua energia potencial gravitacional é transformada em energia cinética de translação e energia cinética de rotação;
+
+Etapa 2 - o cálculo da energia cinética de rotação do disco no ponto mais baixo de sua trajetória, supondo o sistema conservativo.
+
+Ao preparar a segunda etapa, ele considera a aceleração da gravidade igual a 10 m s⁻² e a velocidade linear do centro de massa do disco desprezível em comparação com a velocidade angular. Em seguida, mede a altura do topo do disco em relação ao chão no ponto mais baixo de sua trajetória, obtendo 1/3 da altura da haste do brinquedo.
+
+As especificações de tamanho do brinquedo, isto é, de comprimento (C), largura (L) e altura (A), assim como da massa de seu disco de metal, foram encontradas pelo estudante no recorte de manual ilustrado a seguir.
+
+![Figura](enem-2019-d2-q097-1.webp)
+
+O resultado do cálculo da etapa 2, em joule, é:
+
+- A) 4,10 × 10⁻²
+- B) 8,20 × 10⁻²
+- C) 1,23 × 10⁻¹
+- D) 8,20 × 10⁴
+- E) 1,23 × 10⁵
+
+**Resposta:** B
+
+**Explicação:** O disco desce 2/3 da altura da haste: 2/3 × 0,41 m ≈ 0,273 m. Toda a energia potencial vira energia de rotação (a translação é desprezível): E = m g h = 0,030 × 10 × 0,273 ≈ 8,2 × 10⁻² J.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** fisica/trabalho-energia-e-potencia
+
+### 103
+Os olhos humanos normalmente têm três tipos de cones responsáveis pela percepção das cores: um tipo para tons vermelhos, um para tons azuis e outro para tons verdes. As diversas cores que enxergamos são o resultado da percepção das cores básicas, como indica a figura.
+
+![Figura](enem-2019-d2-q103-1.webp)
+
+A protanopia é um tipo de daltonismo em que há diminuição ou ausência de receptores da cor vermelha. Considere um teste com dois voluntários: uma pessoa com visão normal e outra com caso severo de protanopia. Nesse teste, eles devem escrever a cor dos cartões que lhes são mostrados. São utilizadas as cores indicadas na figura. Para qual cartão os dois voluntários identificarão a mesma cor?
+
+- A) Vermelho.
+- B) Magenta.
+- C) Amarelo.
+- D) Branco.
+- E) Azul.
+
+**Resposta:** E
+
+**Explicação:** Pela figura, o azul não depende do receptor de vermelho. Quem tem protanopia percebe o azul igual a uma pessoa de visão normal; nas outras cores que contêm vermelho (magenta, amarelo, branco), a percepção muda.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 103
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 112
+A fluidez da membrana celular é caracterizada pela capacidade de movimento das moléculas componentes dessa estrutura. Os seres vivos mantêm essa propriedade de duas formas: controlando a temperatura e/ou alterando a composição lipídica da membrana. Neste último aspecto, o tamanho e o grau de insaturação das caudas hidrocarbônicas dos fosfolipídios, conforme representados na figura, influenciam significativamente a fluidez. Isso porque quanto maior for a magnitude das interações entre os fosfolipídios, menor será a fluidez da membrana.
+
+Representação simplificada da estrutura
+
+![Figura](enem-2019-d2-q112-1.webp)
+
+Assim, existem bicamadas lipídicas com diferentes composições de fosfolipídios, como as mostradas de I a V.
+
+![Figura](enem-2019-d2-q112-2.webp)
+
+Qual das bicamadas lipídicas apresentadas possui maior fluidez?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** B
+
+**Explicação:** Quanto mais curtas e mais insaturadas (com "dobras") forem as caudas, menos os fosfolipídios interagem entre si e mais fluida fica a membrana. A bicamada II é a que reúne essas características.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 112
+
+**Assunto:** biologia/citologia
+
+### 114
+Grupos de pesquisa em todo o mundo vêm buscando soluções inovadoras, visando a produção de dispositivos para a geração de energia elétrica. Dentre eles, pode-se destacar as baterias de zinco-ar, que combinam o oxigênio atmosférico e o metal zinco em um eletrólito aquoso de caráter alcalino. O esquema de funcionamento da bateria zinco-ar está apresentado na figura.
+
+![Figura](enem-2019-d2-q114-1.webp)
+
+> LI, Y.; DAI, H. Recent Advances in Zinc–Air Batteries. Chemical Society Reviews, v. 43, n. 15, 2014 (adaptado).
+
+No funcionamento da bateria, a espécie química formada no ânodo é
+
+- A) H₂ (g).
+- B) O₂ (g).
+- C) H₂O (l).
+- D) OH⁻ (aq).
+- E) Zn(OH)₄²⁻ (aq).
+
+**Resposta:** E
+
+**Explicação:** No ânodo ocorre oxidação: o zinco perde elétrons e, em meio alcalino, forma o íon Zn(OH)₄²⁻ (Zn + 4 OH⁻ → Zn(OH)₄²⁻ + 2 e⁻), como mostra o esquema.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 114
+
+**Assunto:** quimica/fisico-quimica
+
+### 117
+Slackline é um esporte no qual o atleta deve se equilibrar e executar manobras estando sobre uma fita esticada. Para a prática do esporte, as duas extremidades da fita são fixadas de forma que ela fique a alguns centímetros do solo. Quando uma atleta de massa igual a 80 kg está exatamente no meio da fita, essa se desloca verticalmente, formando um ângulo de 10° com a horizontal, como esquematizado na figura. Sabe-se que a aceleração da gravidade é igual a 10 m s⁻², cos(10°) = 0,98 e sen(10°) = 0,17.
+
+![Figura](enem-2019-d2-q117-1.webp)
+
+Qual é a força que a fita exerce em cada uma das árvores por causa da presença da atleta?
+
+- A) 4,0 × 10² N
+- B) 4,1 × 10² N
+- C) 8,0 × 10² N
+- D) 2,4 × 10³ N
+- E) 4,7 × 10³ N
+
+**Resposta:** D
+
+**Explicação:** No meio da fita, as duas trações sustentam o peso: 2 T sen 10° = 800 N. Então T = 800 ÷ (2 × 0,17) ≈ 2 350 N ≈ 2,4 × 10³ N, força que a fita faz em cada árvore.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 117
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 119
+Por terem camada de valência completa, alta energia de ionização e afinidade eletrônica praticamente nula, considerou-se por muito tempo que os gases nobres não formariam compostos químicos. Porém, em 1962, foi realizada com sucesso a reação entre o xenônio (camada de valência 5s²5p⁶) e o hexafluoreto de platina e, desde então, mais compostos novos de gases nobres vêm sendo sintetizados. Tais compostos demonstram que não se pode aceitar acriticamente a regra do octeto, na qual se considera que, numa ligação química, os átomos tendem a adquirir estabilidade assumindo a configuração eletrônica de gás nobre. Dentre os compostos conhecidos, um dos mais estáveis é o difluoreto de xenônio, no qual dois átomos do halogênio flúor (camada de valência 2s²2p⁵) se ligam covalentemente ao átomo de gás nobre para ficarem com oito elétrons de valência. Ao se escrever a fórmula de Lewis do composto de xenônio citado, quantos elétrons na camada de valência haverá no átomo do gás nobre?
+
+- A) 6
+- B) 8
+- C) 10
+- D) 12
+- E) 14
+
+**Resposta:** C
+
+**Explicação:** O xenônio tem 8 elétrons de valência e faz duas ligações covalentes com o flúor, recebendo mais um elétron compartilhado em cada uma. Fica com 8 + 2 = 10 elétrons na camada de valência.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 119
+
+**Assunto:** quimica/atomistica-e-tabela-periodica
+
+### 123
+Estudos mostram o desenvolvimento de biochips utilizados para auxiliar o diagnóstico de diabetes melito, doença evidenciada pelo excesso de glicose no organismo. O teste é simples e consiste em duas reações sequenciais na superfície do biochip, entre a amostra de soro sanguíneo do paciente, enzimas específicas e reagente (iodeto de potássio, KI), conforme mostrado na imagem.
+
+![Figura](enem-2019-d2-q123-1.webp)
+
+Após a adição de soro sanguíneo, o fluxo desloca-se espontaneamente da esquerda para a direita (ii) promovendo reações sequenciais, conforme as equações 1 e 2. Na primeira, há conversão de glicose do sangue em ácido glucônico, gerando peróxido de hidrogênio:
+
+Equação 1: C₆H₁₂O₆ (aq) + O₂ (g) + H₂O (l) → (enzimas) C₆H₁₂O₇ (aq) + H₂O₂ (aq)
+
+Na segunda, o peróxido de hidrogênio reage com íons iodeto gerando o íon tri-iodeto, água e oxigênio.
+
+Equação 2: 2 H₂O₂ (aq) + 3 I⁻ (aq) → I₃⁻ (aq) + 2 H₂O (l) + O₂ (g)
+
+> GARCIA, P. T. et al. A Handheld Stamping Process to Fabricate Microfluidic Paper-Based Analytical Devices with Chemically Modified Surface for Clinical Assays. RSC Advances, v. 4, 13 ago. 2014 (adaptado).
+
+O tipo de reação que ocorre na superfície do biochip, nas duas reações do processo, é
+
+- A) análise.
+- B) síntese.
+- C) oxirredução.
+- D) complexação.
+- E) ácido-base.
+
+**Resposta:** C
+
+**Explicação:** Na equação 1, a glicose é oxidada a ácido glucônico e o oxigênio é reduzido a H₂O₂. Na equação 2, o iodeto é oxidado a I₃⁻ e o H₂O₂ é reduzido. Nas duas há troca de elétrons: oxirredução.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** quimica/fisico-quimica
+
+### 127
+Uma das técnicas de reciclagem química do polímero PET [poli(tereftalato de etileno)] gera o tereftalato de metila e o etanodiol, conforme o esquema de reação, e ocorre por meio de uma reação de transesterificação.
+
+![Figura](enem-2019-d2-q127-1.webp)
+
+O composto A, representado no esquema de reação, é o
+
+- A) metano.
+- B) metanol.
+- C) éter metílico.
+- D) ácido etanoico.
+- E) anidrido etanoico.
+
+**Resposta:** B
+
+**Explicação:** Na transesterificação, o PET reage com um álcool, que troca de lugar com o etanodiol no éster. Para formar tereftalato de metila, o álcool usado (composto A) é o metanol.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 127
+
+**Assunto:** quimica/quimica-organica
+
+### 128
+Durante sua evolução, as plantas apresentaram grande diversidade de características, as quais permitiram sua sobrevivência em diferentes ambientes. Na imagem, cinco dessas características estão indicadas por números.
+
+![Figura](enem-2019-d2-q128-1.webp)
+
+> CAMPBELL, N. et al. Biologia. São Paulo: Artmed, 2010 (adaptado).
+
+A aquisição evolutiva que permitiu a conquista definitiva do ambiente terrestre pelas plantas está indicada pelo número
+
+- A) 1.
+- B) 2.
+- C) 3.
+- D) 4.
+- E) 5.
+
+**Resposta:** C
+
+**Explicação:** Com o tubo polínico, o gameta masculino chega ao óvulo sem precisar de água. Essa independência da água para a fecundação permitiu às plantas a conquista definitiva do ambiente terrestre.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 128
+
+**Assunto:** biologia/evolucao
+
 ## Difícil
 
 ### 125
@@ -576,3 +900,97 @@ Entre as listadas, a amostra analisada pode ser de qual polpa de fruta?
 **Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 133
 
 **Assunto:** quimica/solucoes
+
+### 91
+Uma casa tem um cabo elétrico mal dimensionado, de resistência igual a 10 Ω, que a conecta à rede elétrica de 120 V. Nessa casa, cinco lâmpadas, de resistência igual a 200 Ω, estão conectadas ao mesmo circuito que uma televisão de resistência igual a 50 Ω, conforme ilustrado no esquema. A televisão funciona apenas com tensão entre 90 V e 130 V.
+
+![Figura](enem-2019-d2-q091-1.webp)
+
+O número máximo de lâmpadas que podem ser ligadas sem que a televisão pare de funcionar é:
+
+- A) 1.
+- B) 2.
+- C) 3.
+- D) 4.
+- E) 5.
+
+**Resposta:** B
+
+**Explicação:** As lâmpadas (200 Ω) e a TV (50 Ω) ficam em paralelo, em série com o cabo de 10 Ω. Com 2 lâmpadas: Rp = 200/6 ≈ 33,3 Ω e a TV recebe 120 × 33,3/43,3 ≈ 92 V. Com 3 lâmpadas: Rp ≈ 28,6 Ω e a TV recebe ≈ 89 V, abaixo de 90 V. O máximo é 2.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 91
+
+**Assunto:** fisica/eletricidade
+
+### 98
+O odor que permanece nas mãos após o contato com alho pode ser eliminado pela utilização de um “sabonete de aço inoxidável”, constituído de aço inox (74%), cromo e níquel. A principal vantagem desse “sabonete” é que ele não se desgasta com o uso. Considere que a principal substância responsável pelo odor de alho é a alicina (estrutura I) e que, para que o odor seja eliminado, ela seja transformada na estrutura II.
+
+![Figura](enem-2019-d2-q098-1.webp)
+
+CH₂ ═ CH — CH₂ — S — S — CH₂ — CH ═ CH₂
+
+Estrutura II
+
+Na conversão de I em II, o “sabonete” atuará como um
+
+- A) ácido.
+- B) redutor.
+- C) eletrólito.
+- D) tensoativo.
+- E) catalisador.
+
+**Resposta:** E
+
+**Explicação:** O aço inoxidável não se desgasta: participa da transformação da alicina sem ser consumido. Uma substância que favorece a reação e sai inalterada atua como catalisador.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 98
+
+**Assunto:** quimica/quimica-organica
+
+### 109
+O espectrômetro de massa de tempo de voo é um dispositivo utilizado para medir a massa de íons. Nele, um íon de carga elétrica q é lançado em uma região de campo magnético constante B, descrevendo uma trajetória helicoidal, conforme a figura. Essa trajetória é formada pela composição de um movimento circular uniforme no plano yz e uma translação ao longo do eixo x. A vantagem desse dispositivo é que a velocidade angular do movimento helicoidal do íon é independente de sua velocidade inicial. O dispositivo então mede o tempo t de voo para N voltas do íon. Logo, com base nos valores q, B, N e t, pode-se determinar a massa do íon.
+
+![Figura](enem-2019-d2-q109-1.webp)
+
+A massa do íon medida por esse dispositivo será
+
+- A) qBt/(2πN)
+- B) qBt/(πN)
+- C) 2qBt/(πN)
+- D) qBt/N
+- E) 2qBt/N
+
+**Resposta:** A
+
+**Explicação:** No movimento circular, a força magnética é a resultante centrípeta: qvB = m v²/r, então ω = qB/m e o período é T = 2πm/(qB). Em N voltas, t = N·2πm/(qB). Isolando: m = qBt/(2πN).
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** fisica/eletricidade
+
+### 135
+A agricultura de precisão reúne técnicas agrícolas que consideram particularidades locais do solo ou lavoura a fim de otimizar o uso de recursos. Uma das formas de adquirir informações sobre essas particularidades é a fotografia aérea de baixa altitude realizada por um veículo aéreo não tripulado (vant). Na fase de aquisição é importante determinar o nível de sobreposição entre as fotografias. A figura ilustra como uma sequência de imagens é coletada por um vant e como são formadas as sobreposições frontais.
+
+![Figura](enem-2019-d2-q135-1.webp)
+
+O operador do vant recebe uma encomenda na qual as imagens devem ter uma sobreposição frontal de 20% em um terreno plano. Para realizar a aquisição das imagens, seleciona uma altitude H fixa de voo de 1 000 m, a uma velocidade constante de 50 m s⁻¹. A abertura da câmera fotográfica do vant é de 90°. Considere tg(45°) = 1.
+
+Natural Resources Canada. Concepts of Aerial Photography.
+
+> Disponível em: www.nrcan.gc.ca. Acesso em: 26 abr. 2019 (adaptado).
+
+Com que intervalo de tempo o operador deve adquirir duas imagens consecutivas?
+
+- A) 40 segundos.
+- B) 32 segundos.
+- C) 28 segundos.
+- D) 16 segundos.
+- E) 8 segundos.
+
+**Resposta:** B
+
+**Explicação:** Com abertura de 90° e altura 1 000 m, cada foto cobre 2 × 1 000 × tg 45° = 2 000 m. Com 20% de sobreposição, o avião anda 80% disso entre fotos: 1 600 m. A 50 m/s: 1 600 ÷ 50 = 32 s.
+
+**Fonte:** ENEM 2019, 2º dia, caderno amarelo, questão 135
+
+**Assunto:** fisica/cinematica

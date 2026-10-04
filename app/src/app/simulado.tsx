@@ -12,6 +12,7 @@ import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
 import { getProva } from '../data/provas';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
+import { TextoAlternativa, TextoQuestao, temImagem } from '../ui/Imagens';
 
 const LETRAS = 'ABCDE';
 const TAMANHOS = [10, 20, 30, 45];
@@ -233,7 +234,7 @@ function TelaProva({ prova, terminar }: { prova: Prova; terminar: (r: Resultado)
             {getTopico(getQuestao(item.q.id)?.topicoId ?? '')?.topico.titulo}
           </Text>
         </View>
-        <Text style={s.enunciado}>{item.q.e}</Text>
+        <TextoQuestao texto={item.q.e} estilo={s.enunciado} />
         <View style={{ gap: 10, marginTop: 8 }}>
           {item.ordem.map((orig, i) => {
             const marcada = respostas[pos] === orig;
@@ -247,7 +248,7 @@ function TelaProva({ prova, terminar }: { prova: Prova; terminar: (r: Resultado)
                 <View style={[s.letra, { borderColor: marcada ? c.azulEscuro : c.textoSuave }]}>
                   <Text style={[s.letraTexto, { color: marcada ? c.azulEscuro : c.textoSuave }]}>{LETRAS[i]}</Text>
                 </View>
-                <Text style={s.altTexto}>{item.q.a[orig]}</Text>
+                <TextoAlternativa texto={item.q.a[orig]} estilo={s.altTexto} />
               </Pressable>
             );
           })}
@@ -381,16 +382,17 @@ function TelaResultado({ r }: { r: Resultado }) {
                   Questão {i + 1}
                   {marcada == null ? ' · em branco' : ''}
                 </ComIcone>
-                <Text style={s.enunciadoPequeno} numberOfLines={aberto ? undefined : 3}>
-                  {it.q.e}
-                </Text>
+                <TextoQuestao texto={it.q.e} estilo={s.enunciadoPequeno} linhas={aberto ? undefined : 3} />
                 {aberto && (
                   <View style={{ gap: 6, marginTop: 8 }}>
                     {it.q.a.map((alt, j) => (
-                      <Text key={j} style={[s.altCorrecao, j === it.q.c && { color: c.verdeEscuro, fontWeight: '800' }, j === marcada && j !== it.q.c && { color: c.vermelhoEscuro }]}>
-                        {LETRAS[j]}) {alt}
-                        {j === it.q.c ? '  (correta)' : j === marcada ? '  (sua resposta)' : ''}
-                      </Text>
+                      <View key={j} style={{ gap: 4 }}>
+                        <Text style={[s.altCorrecao, j === it.q.c && { color: c.verdeEscuro, fontWeight: '800' }, j === marcada && j !== it.q.c && { color: c.vermelhoEscuro }]}>
+                          {LETRAS[j]}) {temImagem(alt) ? '' : alt}
+                          {j === it.q.c ? '  (correta)' : j === marcada ? '  (sua resposta)' : ''}
+                        </Text>
+                        {temImagem(alt) && <TextoAlternativa texto={alt} estilo={s.altCorrecao} />}
+                      </View>
                     ))}
                     <Text style={s.explicacao}>{it.q.x}</Text>
                   </View>
