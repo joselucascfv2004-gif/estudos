@@ -210,6 +210,79 @@ Chico Science foi fundamental para a renovação da música pernambucana, fato q
 
 **Assunto:** artes/artes-e-educacao-fisica
 
+### 7
+TEXTO I
+
+![Figura](enem-2022-d1-q007-1.webp)
+
+> Disponível em: https://amigodobicho.wordpress.com. Acesso em: 10 dez. 2017.
+
+TEXTO II
+
+Nas ruas, na cidade e no parque
+
+Ninguém nunca prendeu o Delegado. O vaivém de rua em rua e sua longa vida são relembrados e recontados. Exemplo de sobrevivência, liderança, inteligência canina, desde pequenininho seu focinho negro e seus olhos delineados desenharam um mapa mental olfativo-visual de Lavras. Corria de quem precisava correr e se aproximava de quem não lhe faria mal, distinguia este daquele. Assim, tornou-se um cão comunitário. Nunca se soube por que escolheu a rua, talvez lhe tenham feito mal dentro de quatro paredes. Idoso, teve câncer e desapareceu. O querido foi procurado pela cidade inteira por duas protetoras, mas nunca encontrado.
+
+> COSTA, A. R. N. Viver o amor aos cães: Parque Francisco de Assis. Carmo do Cachoeira: Irdin, 2014 (adaptado).
+
+Os dois textos abordam a temática de animais de rua, porém, em relação ao Texto I, o Texto II
+
+- A) problematiza a necessidade de adoção de animais sem lar.
+- B) valida a troca afetiva entre os pets adotados e seus donos.
+- C) reforça a importância da campanha de adoção de animais.
+- D) exalta a natureza amigável de cães e de gatos.
+- E) promove a campanha de adoção de animais.
+
+**Resposta:** A
+
+**Explicação:** O Texto I é um cartaz que convida a adotar cães e gatos. O Texto II conta a vida de um cão de rua que nunca foi adotado, levando a pensar sobre os animais sem lar.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 7
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 9
+![Figura](enem-2022-d1-q009-1.webp)
+
+> Disponível em: www.portaldapropaganda.com.br. Acesso em: 29 out. 2013 (adaptado).
+
+Para convencer o público-alvo sobre a necessidade de um trânsito mais seguro, essa peça publicitária apela para o(a)
+
+- A) sentimento de culpa provocado no condutor causador de acidentes.
+- B) dano psicológico causado nas vítimas da violência nas estradas.
+- C) importância do monitoramento do trânsito pelas autoridades competentes.
+- D) necessidade de punição a motoristas alcoolizados envolvidos em acidentes.
+- E) sofrimento decorrente da perda de entes queridos em acidentes automobilísticos.
+
+**Resposta:** A
+
+**Explicação:** A imagem do rosto escondido nas mãos ("Arrependimento") e a frase "Causar um acidente é algo que você leva pro resto da vida" apelam para a culpa de quem causa acidentes.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 9
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 34
+Criado há cerca de 20 anos na Califórnia, o mountainboard é um esporte de aventura que utiliza uma espécie de skate off-road para realizar manobras similares às das modalidades de snowboard, surf e do próprio skate. A atividade chegou ao Brasil em 1997 e hoje possui centenas de praticantes, um circuito nacional respeitável e mais de uma dezena de pistas espalhadas pelo país. Segundo consta na história oficial, o mountainboard foi criado por praticantes de snowboard que sentiam falta de praticar o esporte nos períodos sem neve. Para isso, eles desenvolveram um equipamento bem simples: uma prancha semelhante ao modelo utilizado na neve (menor e um pouco menos flexível), com dois eixos bem resistentes, alças para encaixar os pés e quatro pneus com câmaras de ar para regular a velocidade que pode ser alcançada em diferentes condições. Com essa configuração, o esporte se mostrou possível em diversos tipos de terreno: grama, terra, pedras, asfalto e areia. Além desses pisos, também é possível procurar pelas próprias trilhas para treinar as manobras.
+
+> Disponível em: www.webventure.com.br. Acesso em: 19 jun. 2019.
+
+A história da prática do mountainboard representa uma das principais marcas das atividades de aventura, caracterizada pela
+
+- A) competitividade entre seus praticantes.
+- B) atividade com padrões técnicos definidos.
+- C) modalidade com regras predeterminadas.
+- D) criatividade para adaptações a novos espaços.
+- E) necessidade de espaços definidos para a sua realização.
+
+**Resposta:** D
+
+**Explicação:** O mountainboard nasceu da adaptação do skate para terrenos de terra e montanha. As práticas de aventura se caracterizam pela criatividade para ocupar novos espaços.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 34
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 6
@@ -611,6 +684,331 @@ A partir da intimação recebida pelo filho de 9 anos, a autora faz uma reflexã
 **Fonte:** ENEM 2022, 1º dia, caderno azul, questão 42
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 8
+É ruivo? Tem olhos azuis? É homem ou mulher? Usa chapéu? Quem jogou Cara a Cara na infância sabe de cor o roteiro de perguntas para adivinhar quem é o personagem misterioso do seu oponente.
+
+Agora, o jogo está prestes a ganhar uma nova versão. A designer polonesa Zuzia Kozerska-Girard está desenvolvendo uma variação do Guess Who? (nome do Cara a Cara em inglês), em que as personalidades do tabuleiro são, na verdade, mulheres notáveis da história e da atualidade, como a artista Frida Kahlo, a ativista Malala Yousafzai, a astronauta Valentina Tereshkova e a aviadora Amelia Earhart. O Who’s She? (“Quem é ela?”, em português) traz, no total, 28 mulheres que representam diversas profissões, nacionalidades e idades.
+
+A ideia é que, em vez de perguntar sobre a aparência das personagens, as questões sejam direcionadas aos feitos delas: ganhou algum Nobel, fez alguma descoberta? Para cada personagem há um cartão com fatos divertidos e interessantes sobre sua vida. Uma campanha entrou no ar com o objetivo de arrecadar dinheiro para desenvolver o Who’s She?. A meta inicial era reunir 17 mil dólares. Oito dias antes de a campanha acabar, o projeto já angariou quase 350 mil dólares.
+
+A chegada do jogo à casa do comprador varia de acordo com a quantia doada — quanto mais você doou, mais rápido vai poder jogar.
+
+> Disponível em: www.super.abril.com.br. Acesso em: 4 dez. 2018 (adaptado).
+
+Ao divulgar a adaptação do jogo para questões relativas a ações e habilidades de mulheres notáveis, o texto busca
+
+- A) contribuir para a formação cidadã dos jogadores.
+- B) refutar modelos estereotipados de beleza e elegância.
+- C) estimular a competitividade entre potenciais compradores.
+- D) exemplificar estratégias de arrecadação financeira pela internet.
+- E) desenvolver conhecimentos lúdicos específicos dos tempos atuais.
+
+**Resposta:** A
+
+**Explicação:** O jogo troca perguntas sobre aparência por perguntas sobre conquistas de mulheres notáveis. A ideia é educar os jogadores para valorizar essas histórias: formação cidadã.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 8
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 12
+Papos
+
+— Me disseram...
+
+— Disseram-me.
+
+— Hein?
+
+— O correto é “disseram-me”. Não “me disseram”.
+
+— Eu falo como quero. E te digo mais... Ou é “digo-te”?
+
+— O quê?
+
+— Digo-te que você...
+
+— O “te” e o “você” não combinam.
+
+— Lhe digo?
+
+— Também não. O que você ia me dizer?
+
+— Que você está sendo grosseiro, pedante e chato. [...]
+
+— Dispenso as suas correções. Vê se esquece-me.
+
+Falo como bem entender. Mais uma correção e eu...
+
+— O quê?
+
+— O mato.
+
+— Que mato?
+
+— Mato-o. Mato-lhe. Mato você. Matar-lhe-ei-te.
+
+Ouviu bem? Pois esqueça-o e para-te. Pronome no lugar certo é elitismo!
+
+— Se você prefere falar errado...
+
+— Falo como todo mundo fala. O importante é me entenderem. Ou entenderem-me?
+
+> VERISSIMO, L. F. Comédias para se ler na escola. Rio de Janeiro: Objetiva, 2001 (adaptado).
+
+Nesse texto, o uso da norma-padrão defendido por um dos personagens torna-se inadequado em razão do(a)
+
+- A) falta de compreensão causada pelo choque entre gerações.
+- B) contexto de comunicação em que a conversa se dá.
+- C) grau de polidez distinto entre os interlocutores.
+- D) diferença de escolaridade entre os falantes.
+- E) nível social dos participantes da situação.
+
+**Resposta:** B
+
+**Explicação:** Numa conversa informal entre amigos, exigir colocação pronominal "correta" soa pedante. A norma-padrão fica inadequada por causa do contexto da comunicação.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 12
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 15
+![Figura](enem-2022-d1-q015-1.webp)
+
+> Disponível em: www.facebook.com/senadofederal. Acesso em: 9 dez. 2017.
+
+Considerando-se a função social dos posts, essa imagem evidencia a apropriação de outro gênero com o objetivo de
+
+- A) promover o uso adequado de campanhas publicitárias do governo.
+- B) divulgar o projeto sobre transparência da administração pública.
+- C) responsabilizar o cidadão pelo controle dos gastos públicos.
+- D) delegar a gestão de projetos de lei ao contribuinte.
+- E) assegurar a fiscalização dos gastos públicos.
+
+**Resposta:** B
+
+**Explicação:** O post imita um outdoor ("Quanto custou?") para divulgar um projeto que obriga o órgão público a informar o gasto com propaganda. Divulga um projeto sobre transparência.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 15
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 16
+Ela era linda. Gostava de dançar, fazia teatro em São Paulo e sonhava ser atriz em Hollywood. Tinha 13 anos quando ganhou uma câmera de vídeo — e uma irmã. As duas se tornaram suas companheiras de experimentações. Adolescente, Elena vivia a criar filminhos e se empenhava em dirigir a pequena Petra nas cenas que inventava. Era exigente com a irmã. E acreditava no potencial da menina para satisfazer seus arroubos de diretora precoce. Por cinco anos, integrou algumas das melhores companhias paulistanas de teatro e participou de preleções para filmes e trabalhos na TV. Nunca foi chamada. No início de 1990, Elena tinha 20 anos quando se mudou para Nova York para cursar artes cênicas e batalhar uma chance no mercado americano. Deslocada, ansiosa, frustrada após alguns testes de elenco malsucedidos, decepcionada com a ausência de reconhecimento e vitimada por uma depressão que se agravava com a falta de perspectivas, Elena pôs fim à vida no segundo semestre. Petra tinha 7 anos. Vinte anos depois, é ela, a irmã caçula, que volta a Nova York para percorrer os últimos passos da irmã, vasculhar seus arquivos e transformar suas memórias em imagem e poesia.
+
+Elena é um filme sobre a irmã que parte e sobre a irmã que fica. É um filme sobre a busca, a perda, a saudade, mas também sobre o encontro, o legado, a memória. Um filme sobre a Elena de Petra e sobre a Petra de Elena, sobre o que ficou de uma na outra e, essencialmente, um filme sobre a delicadeza.
+
+> VANUCHI, C. Época, 19 out. 2012 (adaptado).
+
+O texto é exemplar de um gênero discursivo que cumpre a função social de
+
+- A) narrar, por meio de imagem e poesia, cenas da vida das irmãs Petra e Elena.
+- B) descrever, por meio das memórias de Petra, a separação de duas irmãs.
+- C) sintetizar, por meio das principais cenas do filme, a história de Elena.
+- D) lançar, por meio da história de vida do autor, um filme autobiográfico.
+- E) avaliar, por meio de análise crítica, o filme em referência.
+
+**Resposta:** E
+
+**Explicação:** O texto apresenta o filme Elena, comenta sua linguagem e sua força e o recomenda: é uma resenha crítica, que avalia a obra.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 16
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 21
+A escrava
+
+— Admira-me —, disse uma senhora de sentimentos sinceramente abolicionistas —; faz-me até pasmar como se possa sentir, e expressar sentimentos escravocratas, no presente século, no século dezenove! A moral religiosa e a moral cívica aí se erguem, e falam bem alto esmagando a hidra que envenena a família no mais sagrado santuário seu, e desmoraliza, e avilta a nação inteira! Levantai os olhos ao Gólgota, ou percorrei-os em torno da sociedade, e dizei-me:
+
+— Para que se deu em sacrifício o Homem Deus, que ali exalou seu derradeiro alento? Ah! Então não é verdade que seu sangue era o resgate do homem! É então uma mentira abominável ter esse sangue comprado a liberdade!? E depois, olhai a sociedade... Não vedes o abutre que a corrói constantemente!… Não sentis a desmoralização que a enerva, o cancro que a destrói?
+
+Por qualquer modo que encaremos a escravidão, ela é, e será sempre um grande mal. Dela a decadência do comércio; porque o comércio e a lavoura caminham de mãos dadas, e o escravo não pode fazer florescer a lavoura; porque o seu trabalho é forçado.
+
+> REIS, M. F. Úrsula e outras obras. Brasília: Câmara dos Deputados, 2018.
+
+Inscrito na estética romântica da literatura brasileira, o conto descortina aspectos da realidade nacional no século XIX ao
+
+- A) revelar a imposição de crenças religiosas a pessoas escravizadas.
+- B) apontar a hipocrisia do discurso conservador na defesa da escravidão.
+- C) sugerir práticas de violência física e moral em nome do progresso material.
+- D) relacionar o declínio da produção agrícola e comercial a questões raciais.
+- E) ironizar o comportamento dos proprietários de terra na exploração do trabalho.
+
+**Resposta:** B
+
+**Explicação:** A personagem abolicionista mostra que os escravocratas se dizem cristãos mas defendem a escravidão. O conto aponta a hipocrisia desse discurso conservador.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 21
+
+**Assunto:** literatura/quinhentismo-ao-simbolismo
+
+### 24
+O complexo de falar difícil
+
+O que importa realmente é que o(a) detentor(a) do notável saber jurídico saiba quando e como deve fazer uso desse português versão 2.0, até porque não tem necessidade de alguém entrar numa padaria de manhã com aquela cara de sono falando o seguinte: “Por obséquio, Vossa Senhoria teria a hipotética possibilidade de estabelecer com minha pessoa uma relação de compra e venda, mediante as imposições dos códigos Civil e do Consumidor, para que seja possível a obtenção de 10 pãezinhos em temperatura estável para que a relação pecuniária no valor de R$ 5,00 seja plenamente legítima e capaz de saciar minha fome matinal?”.
+
+O problema é que temos uma cultura de valorizar quem demonstra ser inteligente ao invés de valorizar quem é. Pela nossa lógica, todo mundo que fala difícil tende a ser mais inteligente do que quem valoriza o simples, e 99,9% das pessoas que estivessem na padaria iriam ficar boquiabertas se alguém fizesse uso das palavras que eu disse acima em plenas 7 da manhã em vez de dizer: “Bom dia! O senhor poderia me vender cinco reais de pão francês?”.
+
+Agora entramos na parte interessante: o que realmente é falar difícil? Simplesmente fazer uso de palavras que a maioria não faz ideia do que seja é um ato de falar difícil? Eu penso que não, mas é assim que muita gente age. Falar difícil é fazer uso do simples, mas com coerência e coesão, deixar tudo amarradinho gramaticalmente falando. Falar difícil pode fazer alguém parecer inteligente, mas não por muito tempo. É claro que em alguns momentos não temos como fugir do português rebuscado, do juridiquês propriamente dito, como no caso de documentos jurídicos, entre outros.
+
+> ARAÚJO, H. Disponível em: www.diariojurista.com. Acesso em: 20 nov. 2021 (adaptado).
+
+Nesse artigo de opinião, ao fazer uso de uma fala rebuscada no exemplo da compra do pão, o autor evidencia a importância de(a)
+
+- A) se ter um notável saber jurídico.
+- B) valorização da inteligência do falante.
+- C) falar difícil para demonstrar inteligência.
+- D) coesão e da coerência em documentos jurídicos.
+- E) adequação da linguagem à situação de comunicação.
+
+**Resposta:** E
+
+**Explicação:** Ao mostrar como seria estranho comprar pão usando palavras difíceis, o autor defende que a linguagem deve se adequar à situação de comunicação.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 24
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 27
+![Figura](enem-2022-d1-q027-1.webp)
+
+> Disponível em: https://viva-porto.pt. Acesso em: 24 nov. 2021 (adaptado).
+
+A articulação entre os elementos verbais e os não verbais do texto tem como propósito desencadear a
+
+- A) identificação de distinções entre mulheres e homens.
+- B) revisão de representações estereotipadas de gênero.
+- C) adoção de medidas preventivas de combate ao sexismo.
+- D) ratificação de comportamentos femininos e masculinos.
+- E) retomada de opiniões a respeito da diversidade dos papéis sociais.
+
+**Resposta:** B
+
+**Explicação:** As frases "Mulher ao volante, perigo constante" e "Os homens não choram" aparecem riscadas e corrigidas. O texto quer rever estereótipos de gênero.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 27
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 35
+Ser cronista
+
+Sei que não sou, mas tenho meditado ligeiramente no assunto.
+
+Crônica é um relato? É uma conversa? É um resumo de um estado de espírito? Não sei, pois antes de começar a escrever para o Jornal do Brasil, eu só tinha escrito romances e contos.
+
+E também sem perceber, à medida que escrevia para aqui, ia me tornando pessoal demais, correndo o risco de em breve publicar minha vida passada e presente, o que não pretendo. Outra coisa notei: basta eu saber que estou escrevendo para o jornal, isto é, para algo aberto facilmente por todo o mundo, e não para um livro, que só é aberto por quem realmente quer, para que, sem mesmo sentir, o modo de escrever se transforme. Não é que me desagrade mudar, pelo contrário. Mas queria que fossem mudanças mais profundas e interiores que não viessem a se refletir no escrever. Mas mudar só porque isso é uma coluna ou uma crônica? Ser mais leve só porque o leitor assim o quer? Divertir? Fazer passar uns minutos de leitura? E outra coisa: nos meus livros quero profundamente a comunicação profunda comigo e com o leitor. Aqui no jornal apenas falo com o leitor e agrada-me que ele fique agradado. Vou dizer a verdade: não estou contente.
+
+> LISPECTOR, C. In: A descoberta do mundo. Rio de Janeiro: Rocco, 1999.
+
+No texto, ao refletir sobre a atividade de cronista, a autora questiona características do gênero crônica, como
+
+- A) relação distanciada entre os interlocutores.
+- B) articulação de vários núcleos narrativos.
+- C) brevidade no tratamento da temática.
+- D) descrição minuciosa dos personagens.
+- E) público leitor exclusivo.
+
+**Resposta:** C
+
+**Explicação:** Clarice diz que, sem perceber, vinha se tornando "pessoal demais" e pergunta o que é uma crônica, questionando, entre outras coisas, se o gênero precisa ser breve e leve no tratamento do tema.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 35
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 38
+TEXTO I
+
+![Figura](enem-2022-d1-q038-1.webp)
+
+> EL GRECO. Laocoonte. Óleo sobre tela, 1,37cm x 1,72cm. National Gallery of Art, Washington, Estados Unidos, circa 1610-1614.
+
+> Disponível em: https://images.nga.gov. Acesso em: 28 jun. 2019 (adaptado).
+
+TEXTO II
+
+Essa impressionante obra apresenta o sacerdote Laocoonte sendo punido pelos deuses por tentar alertar os troianos da ameaça do Cavalo de Troia, que escondia um grupo de soldados gregos. Enviadas pelos deuses, serpentes marinhas são vistas matando Laocoonte e seus dois filhos como forma de punição.
+
+> KAY, A. In: FARTHING, S. (Org.). Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).
+
+Produzida no início do século XVII, a obra maneirista distingue-se pela
+
+- A) representação da nudez masculina.
+- B) distorção ao representar a figura humana.
+- C) evocação de um fato da cultura clássica grega.
+- D) presença do tema da morte como punição da família.
+- E) utilização da perspectiva para integrar os diferentes planos.
+
+**Resposta:** B
+
+**Explicação:** O Maneirismo distorce e alonga as figuras humanas, em posições contorcidas, como os corpos de Laocoonte e dos filhos na tela de El Greco.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 38
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 39
+TEXTO I
+
+![Figura](enem-2022-d1-q039-1.webp)
+
+> JUDD, D. Sem título. 1969.
+
+> Disponível em: https://dasartes.com.br. Acesso em: 16 jun. 2022.
+
+TEXTO II
+
+Embora não fosse um grupo ou um movimento organizado, o Minimalismo foi um dos muitos rótulos (incluindo estruturas primárias, objetos unitários, arte ABC e Cool Art) aplicados pelos críticos para descrever estruturas aparentemente simples que alguns artistas estavam criando. Quando a arte minimalista começou a surgir, muitos críticos e um público opinativo julgaram-na fria, anônima e imperdoável. Os materiais industriais pré-fabricados frequentemente usados não pareciam “arte”.
+
+> DEMPSEY, A. Estilos, escolas e movimentos. São Paulo: Cosac & Naify, 2003 (adaptado).
+
+De acordo com os textos I e II, compreende-se que a obra minimalista é uma
+
+- A) representação da simplicidade pelo artista.
+- B) exploração da técnica da escultura cubista.
+- C) valorização do cotidiano por meio da geometria.
+- D) utilização da complexidade dos elementos formais.
+- E) combinação de formas sintéticas no espaço utilizado.
+
+**Resposta:** E
+
+**Explicação:** A obra de Judd são caixas iguais empilhadas: formas simples, industriais e repetidas, dispostas no espaço. O Minimalismo combina formas sintéticas no espaço.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 39
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 44
+TEXTO I
+
+![Figura](enem-2022-d1-q044-1.webp)
+
+> SILVEIRA, R. In absentia, 1983. Instalação, 17ª Bienal de São Paulo. Disponível em: www.bienal.org.br. Acesso em: 1 set. 2016 (adaptado).
+
+TEXTO II
+
+O termo ready-made foi criado por Marcel Duchamp (1887-1968) para designar um tipo de objeto, por ele inventado, que consiste em um ou mais artigos de uso cotidiano, produzidos em massa, selecionados sem critérios estéticos e expostos como obras de arte em espaços especializados (museus e galerias). Seu primeiro ready-made, de 1912, é uma roda de bicicleta montada sobre um banquinho (Roda de bicicleta). Ao transformar qualquer objeto em obra de arte, o artista realiza uma crítica radical ao sistema da arte.
+
+> Disponível em: www.bienal.org.br. Acesso em: 1 set. 2016 (adaptado).
+
+A instalação In absentia propõe um diálogo com o ready-made Roda de bicicleta, demonstrando que
+
+- A) as formas de criticar obras do passado se repetem.
+- B) a recorrência de temas marca a arte do final do século XX.
+- C) as criações desmistificam os valores estéticos estabelecidos.
+- D) o distanciamento temporal permite a transformação dos referenciais estéticos.
+- E) o objeto ausente sugere a degradação da forma superando o modelo artístico.
+
+**Resposta:** C
+
+**Explicação:** Duchamp transformou objetos comuns em arte. In absentia mostra só a "sombra" da roda de bicicleta, sem o objeto: as criações questionam os valores estéticos estabelecidos.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 44
+
+**Assunto:** artes/artes-e-educacao-fisica
 
 ## Difícil
 

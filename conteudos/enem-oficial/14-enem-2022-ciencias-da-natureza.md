@@ -195,6 +195,29 @@ Durante a observação desse corte, foi possível identificar o(a)
 
 **Assunto:** biologia/citologia
 
+### 96
+Em 2002, um mecânico da cidade mineira de Uberaba (MG) teve uma ideia para economizar o consumo de energia elétrica e iluminar a própria casa num dia de sol. Para isso, ele utilizou garrafas plásticas PET com água e cloro, conforme ilustram as figuras. Cada garrafa foi fixada ao telhado de sua casa em um buraco com diâmetro igual ao da garrafa, muito maior que o comprimento de onda da luz. Nos últimos dois anos, sua ideia já alcançou diversas partes do mundo e deve atingir a marca de 1 milhão de casas utilizando a “luz engarrafada”.
+
+![Figura](enem-2022-d2-q096-1.webp)
+
+> ZOBEL, G. Brasileiro inventor de “luz engarrafada” tem ideia espalhada pelo mundo. Disponível em: www.bbc.com. Acesso em: 23 jun. 2022 (adaptado).
+
+Que fenômeno óptico explica o funcionamento da “luz engarrafada”?
+
+- A) Difração.
+- B) Absorção.
+- C) Polarização.
+- D) Reflexão.
+- E) Refração.
+
+**Resposta:** E
+
+**Explicação:** A luz do Sol entra na garrafa com água e muda de direção ao passar do ar para a água e da água para o ar, espalhando-se pelo cômodo. Esse desvio é a refração.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** fisica/ondulatoria-e-optica
+
 ## Médio
 
 ### 92
@@ -543,6 +566,271 @@ Qual dos antimicrobianos deve ser utilizado para curar uma infecção causada po
 
 **Assunto:** biologia/citologia, biologia/seres-vivos
 
+### 99
+A fim de classificar as melhores rotas em um aplicativo de trânsito, um pesquisador propõe um modelo com base em circuitos elétricos. Nesse modelo, a corrente representa o número de carros que passam por um ponto da pista no intervalo de 1 s. A diferença de potencial (d.d.p.) corresponde à quantidade de energia por carro necessária para o deslocamento de 1 m. De forma análoga à lei de Ohm, cada via é classificada pela sua resistência, sendo a de maior resistência a mais congestionada. O aplicativo mostra as rotas em ordem crescente, ou seja, da rota de menor para a de maior resistência.
+
+Como teste para o sistema, são utilizadas três possíveis vias para uma viagem de A até B, com os valores de d.d.p. e corrente conforme a tabela.
+
+![Figura](enem-2022-d2-q099-1.webp)
+
+Nesse teste, a ordenação das rotas indicadas pelo aplicativo será:
+
+- A) 1, 2, 3.
+- B) 1, 3, 2.
+- C) 2, 1, 3.
+- D) 3, 1, 2.
+- E) 3, 2, 1.
+
+**Resposta:** A
+
+**Explicação:** Pela "lei de Ohm" do modelo, R = d.d.p. ÷ corrente: rota 1 = 510 ÷ 4 = 127,5; rota 2 = 608 ÷ 4 = 152; rota 3 = 575 ÷ 3 ≈ 191,7. Da menor para a maior resistência: 1, 2, 3.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 99
+
+**Assunto:** fisica/eletricidade
+
+### 100
+O esquema representa o ciclo do nitrogênio:
+
+![Figura](enem-2022-d2-q100-1.webp)
+
+A chuva ácida interfere no ciclo do nitrogênio, principalmente, por proporcionar uma diminuição do pH do solo e da atmosfera, alterando a concentração dos compostos presentes nesse ciclo.
+
+> Disponível em: http://scienceprojectideasforkids.com. Acesso em: 6 ago. 2012 (adaptado).
+
+Em um solo de menor pH, será favorecida a formação de:
+
+- A) N₂
+- B) NH₃
+- C) NH₄ +
+- D) NO₂ −
+- E) NO₃ −
+
+**Resposta:** C
+
+**Explicação:** Em solo ácido (mais H⁺), a amônia (NH₃) recebe H⁺ e vira o íon amônio (NH₄⁺). Por isso a formação de amônio é favorecida.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 100
+
+**Assunto:** quimica/quimica-ambiental
+
+### 106
+O etanol é um combustível produzido a partir da fermentação da sacarose presente no caldo de cana- -de-açúcar. Um dos fatores que afeta a produção desse álcool é o grau de deterioração da sacarose, que se inicia após o corte, por causa da ação de microrganismos. Foram analisadas cinco amostras de diferentes tipos de cana-de- -açúcar e cada uma recebeu um código de identificação. No quadro são apresentados os dados de concentração de sacarose e de microrganismos presentes nessas amostras.
+
+![Figura](enem-2022-d2-q106-1.webp)
+
+Pretende-se escolher o tipo de cana-de-açúcar que conterá o maior teor de sacarose 10 horas após o corte e que, consequentemente, produzirá a maior quantidade de etanol por fermentação. Considere que existe uma redução de aproximadamente 50% da concentração de sacarose nesse tempo, para cada 1,0 mg L⁻¹ de microrganismos presentes na cana-de-açúcar.
+
+> Disponível em: www.inovacao.unicamp.br. Acesso em: 11 ago. 2012 (adaptado).
+
+Qual tipo de cana-de-açúcar deve ser escolhido?
+
+- A) RB72
+- B) RB84
+- C) RB92
+- D) SP79
+- E) SP80
+
+**Resposta:** C
+
+**Explicação:** Após 10 h, a sacarose cai cerca de 50% para cada 1 mg/L de microrganismos: RB72: 13 × 0,65 ≈ 8,5; RB84: 18 × 0,60 = 10,8; RB92: 16 × 0,70 = 11,2; SP79: 14 × 0,75 = 10,5; SP80: 17 × 0,55 ≈ 9,4 g/L. A RB92 fica com mais sacarose.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** biologia/seres-vivos
+
+### 109
+A biomassa celulósica pode ser utilizada para a produção de etanol de segunda geração. Entretanto, é necessário que os polissacarídeos sejam convertidos em mono e dissacarídeos, processo que pode ser conduzido em meio ácido, conforme mostra o esquema:
+
+![Figura](enem-2022-d2-q109-1.webp)
+
+> OGEDA, T. L.; PETRI, D. F. S. [...] Química Nova, n. 7, 2010 (adaptado).
+
+Nessa conversão de polissacarídeos, a função do íon H⁺ é
+
+- A) dissolver os reagentes.
+- B) deslocar o equilíbrio químico.
+- C) aumentar a velocidade da reação.
+- D) mudar a constante de equilíbrio da reação.
+- E) formar ligações de hidrogênio com o polissacarídeo.
+
+**Resposta:** C
+
+**Explicação:** O H⁺ participa das etapas (protona o oxigênio da ligação e depois é liberado no final), sem ser consumido. Ele atua como catalisador, aumentando a velocidade da reação.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** quimica/fisico-quimica
+
+### 110
+O ácido tartárico é o principal ácido do vinho e está diretamente relacionado com sua qualidade. Na avaliação de um vinho branco em produção, uma analista neutralizou uma alíquota de 25,0 mL do vinho com NaOH a 0,10 mol L⁻¹, consumindo um volume igual a 8,0 mL dessa base. A reação para esse processo de titulação é representada pela equação química:
+
+![Figura](enem-2022-d2-q110-1.webp)
+
+A concentração de ácido tartárico no vinho analisado é mais próxima de:
+
+- A) 1,8 g L⁻¹
+- B) 2,4 g L⁻¹
+- C) 3,6 g L⁻¹
+- D) 4,8 g L⁻¹
+- E) 9,6 g L⁻¹
+
+**Resposta:** B
+
+**Explicação:** NaOH usado: 0,10 × 0,008 = 8 × 10⁻⁴ mol. Pela equação, 2 NaOH reagem com 1 ácido: 4 × 10⁻⁴ mol × 150 g/mol = 0,06 g em 25 mL. Em 1 L: 0,06 × 40 = 2,4 g/L.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 110
+
+**Assunto:** quimica/estequiometria
+
+### 113
+Em 2002, foi publicado um artigo científico que relacionava alterações na produção de hormônios sexuais de sapos machos expostos à atrazina, um herbicida, com o desenvolvimento anômalo de seus caracteres sexuais primários e secundários. Entre os animais sujeitos à contaminação, observaram-se casos de hermafroditismo e desmasculinização da laringe. O estudo em questão comparou a concentração de um hormônio específico no sangue de machos expostos ao agrotóxico com a de outros machos e fêmeas que não o foram (controles). Os resultados podem ser vistos na figura.
+
+![Figura](enem-2022-d2-q113-1.webp) controle expostos controle à atrazina
+
+> HAYES, T. B. et al. Hermaphroditic, Demasculinized Frogs After Exposure to the Herbicide Atrazine at Low Ecologically Relevant Doses. Proceedings of the National Academy of Sciences, n. 8, 2002 (adaptado).
+
+Com base nas informações do texto, qual é o hormônio cujas concentrações estão representadas na figura?
+
+- A) Estrogênio.
+- B) Feromônio.
+- C) Testosterona.
+- D) Somatotrofina.
+- E) Hormônio folículo estimulante.
+
+**Resposta:** C
+
+**Explicação:** O hormônio é alto nos machos controle e baixo nas fêmeas e nos machos expostos à atrazina, que ficaram "desmasculinizados". É o hormônio sexual masculino: a testosterona.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 113
+
+**Assunto:** biologia/fisiologia-humana
+
+### 118
+O físico Hans C. Oersted observou que um fio transportando corrente elétrica produz um campo magnético. A presença do campo magnético foi verificada ao aproximar uma bússola de um fio conduzindo corrente elétrica. A figura ilustra um fio percorrido por uma corrente elétrica i, constante e com sentido para cima. Os pontos A, B e C estão num plano transversal e equidistantes do fio. Em cada ponto foi colocada uma bússola.
+
+![Figura](enem-2022-d2-q118-1.webp)
+
+![Figura](enem-2022-d2-q118-2.webp)
+
+Considerando apenas o campo magnético por causa da corrente i, as respectivas configurações das bússolas nos pontos A, B e C serão
+
+- A) ![Alternativa A](enem-2022-d2-q118-4.webp)
+- B) ![Alternativa B](enem-2022-d2-q118-5.webp)
+- C) ![Alternativa C](enem-2022-d2-q118-7.webp)
+- D) ![Alternativa D](enem-2022-d2-q118-3.webp)
+- E) ![Alternativa E](enem-2022-d2-q118-6.webp)
+
+**Resposta:** D
+
+**Explicação:** As linhas do campo magnético de um fio são círculos ao redor dele, no sentido dado pela regra da mão direita (corrente para cima: anti-horário visto de cima). Cada bússola se alinha tangente a esse círculo.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 118
+
+**Assunto:** fisica/eletricidade
+
+### 119
+O quadro mostra valores de corrente elétrica e seus efeitos sobre o corpo humano.
+
+![Figura](enem-2022-d2-q119-1.webp)
+
+A corrente elétrica que percorrerá o corpo de um indivíduo depende da tensão aplicada e da resistência elétrica média do corpo humano. Esse último fator está intimamente relacionado com a umidade da pele, que seca apresenta resistência elétrica da ordem de 500 kΩ, mas, se molhada, pode chegar a apenas 1 kΩ.
+
+Apesar de incomum, é possível sofrer um acidente utilizando baterias de 12 V. Considere que um indivíduo com a pele molhada sofreu uma parada respiratória ao tocar simultaneamente nos pontos A e B de uma associação de duas dessas baterias.
+
+> DURAN, J. E. R. Biofísica: fundamentos e aplicações. São Paulo: Pearson Prentice Hall, 2003 (adaptado).
+
+Qual associação de baterias foi responsável pelo acidente?
+
+- A) ![Alternativa](enem-2022-d2-q119-2.webp)
+- B) ![Alternativa](enem-2022-d2-q119-3.webp)
+- C) ![Alternativa](enem-2022-d2-q119-4.webp)
+- D) ![Alternativa](enem-2022-d2-q119-5.webp)
+- E) ![Alternativa](enem-2022-d2-q119-6.webp)
+
+**Resposta:** A
+
+**Explicação:** Com a pele molhada (1 kΩ), a parada respiratória exige 20 a 100 mA, ou seja, 20 a 100 V. Duas baterias de 12 V em série (+ ligado ao −) somam 24 V: 24 V ÷ 1 000 Ω = 24 mA. É a associação em série da primeira alternativa.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 119
+
+**Assunto:** fisica/eletricidade
+
+### 122
+A figura ilustra esquematicamente um processo de remediação de solos contaminados com tricloroeteno (TCE), um agente desengraxante. Em razão de vazamentos de tanques de estocagem ou de manejo inapropriado de resíduos industriais, ele se encontra presente em águas subterrâneas, nas quais forma uma fase líquida densa não aquosa (DNAPL) que se deposita no fundo do aquífero. Essa tecnologia de descontaminação emprega o íon persulfato (S₂O₈ ²⁻), que é convertido no radical •SO₄ ⁻ por minerais que contêm Fe(III). O esquema representa de forma simplificada o mecanismo de ação química sobre o TCE e a formação dos produtos de degradação.
+
+![Figura](enem-2022-d2-q122-1.webp)
+
+> BERTAGI, L. T.; BASÍLIO, A. O.; PERALTA-ZAMORA, P. Aplicações ambientais de persulfato: remediação de águas subterrâneas e solos contaminados. Química Nova, n. 9, 2021 (adaptado).
+
+Esse procedimento de remediação de águas subterrâneas baseia-se em reações de
+
+- A) oxirredução.
+- B) substituição.
+- C) precipitação.
+- D) desidratação.
+- E) neutralização.
+
+**Resposta:** A
+
+**Explicação:** O persulfato, ativado por Fe(III), forma radicais que oxidam o tricloroeteno até CO₂, água e cloreto. É uma reação de oxirredução.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** quimica/fisico-quimica
+
+### 127
+A nanotecnologia é responsável pelo aprimoramento de diversos materiais, incluindo os que são impactados com a presença de poluentes e da umidade na atmosfera, causadores de corrosão. O processo de corrosão é espontâneo e provoca a deterioração de metais como o ferro, que, em presença de oxigênio e água, sofre oxidação, conforme ilustra a equação química:
+
+4 Fe (s) + 2 H₂O (l) + 3 O₂ (g) → 2 Fe₂O₃⋅H₂O (s)
+
+Uma forma de garantir a durabilidade da estrutura metálica e a sua resistência à umidade consiste na deposição de filmes finos nanocerâmicos à base de zircônia (ZrO₂) e alumina (Al₂O₃) sobre a superfície do objeto que se deseja proteger.
+
+> CLEMENTE, G. A. B. F. et al. O uso de materiais híbridos ou nanocompósitos como revestimentos anticorrosivos do aço. Química Nova, n. 9, 2021 (adaptado).
+
+Essa nanotecnologia aplicada na proteção contra a corrosão se baseia no(a)
+
+- A) proteção catódica, que utiliza um metal fortemente redutor.
+- B) uso de metais de sacrifício, que se oxidam no lugar do ferro.
+- C) passivação do ferro, que fica revestido pelo seu próprio óxido.
+- D) efeito de barreira, que impede o contato com o agente oxidante.
+- E) galvanização, que usa outros metais de menor potencial de redução.
+
+**Resposta:** D
+
+**Explicação:** O filme nanocerâmico cobre o metal e impede que água e oxigênio cheguem ao ferro. A proteção é por efeito de barreira.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 127
+
+**Assunto:** quimica/fisico-quimica
+
+### 132
+O eixo de rotação da Terra apresenta uma inclinação em relação ao plano de sua órbita em torno do Sol, interferindo na duração do dia e da noite ao longo do ano.
+
+![Figura](enem-2022-d2-q132-1.webp)
+
+Uma pessoa instala em sua residência uma placa fotovoltaica, que transforma energia solar em elétrica. Ela monitora a energia total produzida por essa placa em 4 dias do ano, ensolarados e sem nuvens, e lança os resultados no gráfico. Energia
+
+![Figura](enem-2022-d2-q132-2.webp)
+
+> Disponível em: www.fisica.ufpr.br. Acesso em: 27 maio 2022 (adaptado).
+
+Próximo a que região se situa a residência onde as placas foram instaladas?
+
+- A) Trópico de Capricórnio.
+- B) Trópico de Câncer.
+- C) Polo Norte.
+- D) Polo Sul.
+- E) Equador.
+
+**Resposta:** A
+
+**Explicação:** A placa produz mais energia em janeiro e outubro e menos em julho: há grande variação ao longo do ano, com mais Sol no verão do Hemisfério Sul. Isso ocorre perto do Trópico de Capricórnio.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 132
+
+**Assunto:** geografia/cartografia
+
 ## Difícil
 
 ### 105
@@ -630,3 +918,101 @@ Com esse equívoco, qual é a intensidade de corrente que passa pela lâmpada ao
 **Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 133
 
 **Assunto:** fisica/eletricidade
+
+### 93
+A penicilamina é um medicamento de uso oral utilizado no tratamento de várias doenças. Esse composto é excretado na urina, cujo pH se situa entre 5 e 7. A penicilamina, cuja fórmula estrutural plana está apresentada, possui três grupos funcionais que podem ser ionizados:
+
+• carboxila: —COOH, cujo pKa é igual a 1,8;
+
+• amino: —NH₂, que pode ser convertido em amínio (—NH₃ ⁺, cujo pKa é igual a 7,9);
+
+• tiol: —SH, cujo pKa é igual a 10,5.
+
+Sabe-se que pKa = −log Ka.
+
+![Figura](enem-2022-d2-q093-1.webp)
+
+Qual estrutura derivada da penicilamina é predominantemente encontrada na urina?
+
+- A) ![Alternativa A](enem-2022-d2-q093-2.webp)
+- B) ![Alternativa B](enem-2022-d2-q093-3.webp)
+- C) ![Alternativa C](enem-2022-d2-q093-4.webp)
+- D) ![Alternativa D](enem-2022-d2-q093-5.webp)
+- E) ![Alternativa E](enem-2022-d2-q093-6.webp)
+
+**Resposta:** C
+
+**Explicação:** Na urina (pH 5 a 7): a carboxila (pKa 1,8) está desprotonada, como COO⁻; o grupo amino (pKa 7,9) está protonado, como NH₃⁺; o tiol (pKa 10,5) continua como SH. A estrutura com HS, COO⁻ e NH₃⁺ é a predominante.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 93
+
+**Assunto:** quimica/fisico-quimica
+
+### 95
+O sinal sonoro oriundo da queda de um grande bloco de gelo de uma geleira é detectado por dois dispositivos situados em um barco, sendo que o detector A está imerso em água e o B, na proa da embarcação. Sabe-se
+
+![Figura](enem-2022-d2-q095-1.webp)
+
+Os gráficos indicam, em tempo real, o sinal sonoro detectado pelos dois dispositivos, os quais foram ligados simultaneamente em um instante anterior à queda do bloco de gelo. Ao comparar pontos correspondentes desse sinal em cada dispositivo, é possível obter informações sobre a onda sonora.
+
+![Figura](enem-2022-d2-q095-2.webp)
+
+A distância L, em metro, entre o barco e a geleira é mais próxima de
+
+- A) 339 000.
+- B) 78 900.
+- C) 14 400.
+- D) 5 240.
+- E) 100.
+
+**Resposta:** D
+
+**Explicação:** O som chega antes pela água. Pelos gráficos, a diferença entre as chegadas é de cerca de 12 s. L/340 − L/1 540 = 12, então L × (1 540 − 340)/(340 × 1 540) = 12 e L ≈ 5 240 m.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 95
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 108
+Tribologia é o estudo da interação entre duas superfícies em contato, como desgaste e atrito, sendo de extrema importância na avaliação de diferentes produtos e de bens de consumo em geral. Para testar a conformidade de uma muleta, realiza-se um ensaio tribológico, pressionando-a verticalmente contra o piso com uma força F, conforme ilustra a imagem, em que CM representa o centro de massa da muleta.
+
+![Figura](enem-2022-d2-q108-1.webp)
+
+Mantendo-se a força F paralela à muleta, varia-se lentamente o ângulo entre a muleta e a vertical, até o máximo ângulo imediatamente anterior ao de escorregamento, denominado ângulo crítico. Esse ângulo também pode ser calculado a partir da identificação dos pontos de aplicação, da direção e do sentido das forças peso (P), normal (N) e de atrito estático (fe).
+
+O esquema que representa corretamente todas as forças que atuam sobre a muleta quando ela atinge o ângulo crítico é:
+
+- A) ![Alternativa A](enem-2022-d2-q108-2.webp)
+- B) ![Alternativa B](enem-2022-d2-q108-3.webp)
+- C) ![Alternativa C](enem-2022-d2-q108-4.webp)
+- D) ![Alternativa D](enem-2022-d2-q108-5.webp)
+- E) ![Alternativa E](enem-2022-d2-q108-6.webp)
+
+**Resposta:** E
+
+**Explicação:** O peso P atua no centro de massa, para baixo. No ponto de apoio atuam a normal N (vertical, para cima) e o atrito estático, horizontal e contrário à tendência de escorregar. A força F segue ao longo da muleta. Só a última alternativa mostra todas assim.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 108
+
+**Assunto:** fisica/dinamica
+
+### 117
+Na figura está representado o mosaicismo em função da inativação aleatória de um dos cromossomos X, que ocorre em todas as mulheres sem alterações patológicas.
+
+![Figura](enem-2022-d2-q117-1.webp)
+
+Entre mulheres heterozigotas para doenças determinadas por genes recessivos ligados ao sexo, essa inativação tem como consequência a ocorrência de
+
+- A) pleiotropia.
+- B) mutação gênica.
+- C) interação gênica.
+- D) penetrância incompleta.
+- E) expressividade variável.
+
+**Resposta:** E
+
+**Explicação:** Cada célula da mulher inativa ao acaso um dos X. Numa heterozigota, a proporção de células com o alelo normal ativo varia de pessoa para pessoa, e os sintomas aparecem em graus diferentes: expressividade variável.
+
+**Fonte:** ENEM 2022, 2º dia, caderno amarelo, questão 117
+
+**Assunto:** biologia/genetica-e-biotecnologia

@@ -250,6 +250,35 @@ As sociedades mencionadas deixaram como legado uma diversidade de
 
 **Assunto:** historia/idade-moderna
 
+### 56
+TEXTO I
+
+![Figura](enem-2022-d1-q056-1.webp)
+
+> CAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 21 nov. 2021 (adaptado).
+
+TEXTO II
+
+É como se os problemas fossem criados pela pandemia quando, em verdade, isso só demonstra o quanto eles sofrem uma tentativa de serem naturalizados. Eles estavam lá, empurrados para debaixo de vários tapetes. Diversos levantamentos realizados indicam que parcela significativa dos estudantes não têm acesso à internet em suas casas, não têm computadores; têm celulares, mas com pacotes baratos que não permitem assistir a todas as aulas. E, caso tenham celulares e dados, pergunta-se: É possível elaborar um texto no celular? É possível interagir na aula remota pelo celular?
+
+> ASSIS, A. E. S. Q. Educação e pandemia. Educação em Revista, n. 37, 2021 (adaptado).
+
+A crítica contida no texto e na figura evidencia o seguinte aspecto da sociedade contemporânea:
+
+- A) Exclusão social.
+- B) Expansão digital.
+- C) Manifestação cultural.
+- D) Organização espacial.
+- E) Valorização intelectual.
+
+**Resposta:** A
+
+**Explicação:** A charge mostra um aluno subindo no telhado para achar sinal de wi-fi, e o texto lembra que muitos estudantes não têm internet nem computador. A crítica é à exclusão social, escancarada pela pandemia.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 56
+
+**Assunto:** sociologia/temas-contemporaneos
+
 ## Médio
 
 ### 46
@@ -616,6 +645,312 @@ Uma característica de práticas tradicionais como a exemplificada no texto é a
 **Fonte:** ENEM 2022, 1º dia, caderno azul, questão 90
 
 **Assunto:** sociologia/temas-contemporaneos
+
+### 49
+![Figura](enem-2022-d1-q049-1.webp)
+
+> PAZ, A. D. Disponível em: www.ct.ufpb.br. Acesso em: 15 out. 2021 (adaptado).
+
+A intensificação da ocupação urbana demonstrada afeta de forma imediata o(a)
+
+- A) nível altimétrico.
+- B) ciclo hidrológico.
+- C) padrão climático.
+- D) tectônica de placas.
+- E) estrutura das rochas.
+
+**Resposta:** B
+
+**Explicação:** Quanto mais o solo é impermeabilizado, menos água se infiltra e evapora e mais água escoa pela superfície (de 10% para 55%). A urbanização altera imediatamente o ciclo hidrológico.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 49
+
+**Assunto:** geografia/geografia-fisica
+
+### 53
+O número cada vez maior de mulheres letradas e interessadas pela literatura e pelas novelas, muitas divulgadas em capítulos, seções, classificadas comumente como folhetim, alçou a um gênero de ficção corrente já em 1840, fazendo parte do florescimento da literatura nacional brasileira, instigando a formação e a ampliação de um público leitor feminino, ávido por novidades, pelo apelo dos folhetins e “narrativas modernas” que encenavam “os dramas e os conflitos de uma mulher em processo de transformação patriarcal e provinciana que, progressivamente, começava a se abrir para modernizar seus costumes”. No Segundo Reinado, as mulheres foram se tornando público determinante na construção da literatura e da imprensa nacional. E não apenas público, porquanto crescerá o número de escritoras que colaboram para isso e emergirá uma imprensa feminina, editada, escrita e dirigida por e para mulheres.
+
+> ABRANTES, A. Do álbum de família à vitrine impressa: trajetos de retratos (PB, 1920), Revista Temas em Educação, n. 24, 2015 (adaptado).
+
+O registro das atividades descritas associa a inserção da figura feminina nos espaços de leitura e escrita do Segundo Reinado ao(à)
+
+- A) surgimento de novas práticas culturais.
+- B) contestação de antigos hábitos masculinos.
+- C) valorização de recentes publicações juvenis.
+- D) circulação de variados manuais pedagógicos.
+- E) aparecimento de diversas editoras comerciais.
+
+**Resposta:** A
+
+**Explicação:** Mulheres letradas passaram a ler romances e folhetins e a frequentar espaços de leitura e escrita. Essa inserção foi associada ao surgimento de novas práticas culturais no Segundo Reinado.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 53
+
+**Assunto:** historia/brasil-imperio
+
+### 60
+Um experimento denominado FunFit foi desenvolvido com o objetivo de fazer com que os membros de uma comunidade local se tornassem mais ativos fisicamente. Todos os participantes do estudo foram vinculados a dois outros membros da comunidade que receberiam pequenos incentivos em dinheiro para serem estimulados a aumentar a sua atividade física, que era medida por acelerômetros nos celulares fornecidos pelo estado. Assim, se a pessoa andasse mais do que o habitual, seus conhecidos receberiam o dinheiro. Os resultados foram assombrosos: o esquema mostrou-se de quatro a oito vezes mais eficaz do que o método de oferecer incentivos individuais.
+
+> MOROZOV, E. Big Tech: a ascensão dos dados e a morte da política. São Paulo: Ubu, 2018 (adaptado).
+
+Contrariando a visão prevalente sobre o impacto tecnológico nas relações humanas, o texto revela que os celulares podem desempenhar uma função
+
+- A) recreativa, promovendo o lazer em redes integradas.
+- B) social, estimulando a reciprocidade por meios digitais.
+- C) laboral, convertendo o desenvolvedor em usuário final.
+- D) comercial, direcionando a escolha por produtos industrializados.
+- E) cognitiva, favorecendo a aprendizagem pelas ferramentas virtuais.
+
+**Resposta:** B
+
+**Explicação:** No experimento, os celulares fizeram as pessoas trocarem incentivos e se ajudarem a ser mais ativas. Ao contrário da ideia de que a tecnologia isola, os aparelhos estimularam a reciprocidade.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 60
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 64
+As forças tectônicas dentro da litosfera, controladas pelo calor interno das profundezas, geram terremotos, erupções e soerguimento de montanhas. As forças meteorológicas dentro da atmosfera e da hidrosfera, controladas pelo calor do Sol, produzem tempestades, inundações, geleiras e outros agentes de erosão.
+
+> PRESS, F. et al. Para entender a Terra. Porto Alegre: Bookman, 2006 (adaptado).
+
+A interação dinâmica entre as forças naturais citadas favorece a ocupação do espaço geográfico, na medida em que provoca a formação de
+
+- A) solos vulcânicos.
+- B) dorsais oceânicas.
+- C) relevos escarpados.
+- D) superfícies lateríticas.
+- E) dobramentos modernos.
+
+**Resposta:** A
+
+**Explicação:** Forças internas (vulcanismo) e externas (intemperismo) atuam juntas: a lava se decompõe e forma solos muito férteis, que atraem a ocupação humana. São os solos vulcânicos.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 64
+
+**Assunto:** geografia/geografia-fisica
+
+### 65
+![Figura](enem-2022-d1-q065-1.webp)
+
+- A) cultura do cancelamento.
+- B) prática do feminicídio.
+- C) postura negacionista.
+- D) ação involuntária.
+- E) defesa da honra.
+
+**Resposta:** B
+
+**Explicação:** A ilustração mostra o ciclo da violência doméstica: tensão, agressão e "lua de mel" se repetem e se agravam até a morte. O ápice desse ciclo é o feminicídio.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 65
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 68
+TEXTO I
+
+A Marinha identifica, na voz de Thomas Barnett, uma ampla região potencialmente insubmissa ou simplesmente irredutível às normas gerais de funcionamento promovidas pelos Estados Unidos e sancionadas pelo Fundo Monetário Internacional, pela Organização Mundial do Comércio e pelo Banco Mundial. E não necessariamente por sua consciência rebelde, mas sim, em muitos casos, pela insubstancialidade de suas instituições estatais.
+
+TEXTO II
+
+![Figura](enem-2022-d1-q068-1.webp)
+
+> CECEÑA, A. E. Hegemonias e emancipações no século XXI. Buenos Aires: Clacso, 2005.
+
+As preocupações do governo estadunidense expressas no texto e no mapa evidenciam uma estratégia para
+
+- A) compartilhamento de inovações tecnológicas.
+- B) promoção de independência financeira.
+- C) incremento de intercâmbios culturais.
+- D) ampliação de influência econômica.
+- E) preservação de recursos naturais.
+
+**Resposta:** D
+
+**Explicação:** O texto e o mapa apontam regiões ricas em petróleo, gás e biodiversidade "insubmissas" às normas dos Estados Unidos e dos organismos que eles controlam. A estratégia é ampliar a influência econômica sobre elas.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 68
+
+**Assunto:** geografia/geopolitica-e-globalizacao
+
+### 70
+TEXTO I
+
+Interseccionalidade: intercruzamento de desigualdades que gera padrões complexos de discriminação.
+
+TEXTO II
+
+![Figura](enem-2022-d1-q070-1.webp)
+
+> Disponível em: www.agenciadenoticias.ibge.gov.br. Acesso em: 2 dez. 2018.
+
+Considerando o conceito apresentado no Texto I e os dados apresentados no Texto II, no Brasil, são fatores que intensificam o fenômeno da discriminação:
+
+- A) Raça e gênero.
+- B) Etnia e habitação.
+- C) Idade e nupcialidade.
+- D) Profissão e sexualidade.
+- E) Escolaridade e fecundidade.
+
+**Resposta:** A
+
+**Explicação:** O gráfico mostra que a pobreza é maior entre mulheres sem cônjuge com filhos e, entre elas, ainda maior entre as pretas ou pardas (64,4%). Raça e gênero se cruzam e intensificam a discriminação.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 70
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 73
+A história do Primeiro de Maio de 1890 — na França e na Europa, o primeiro de todos os Primeiros de Maio — é, sob vários aspectos, exemplar. Resultante de um ato político deliberado, essa manifestação ilustra o lado voluntário da construção de uma classe — a classe operária — à qual os socialistas tentam dar uma unidade política e cultural através daquela pedagogia da festa cujo princípio, eficácia e limites há muito tempo tinham sido experimentados pela Revolução Francesa.
+
+> PERROT, M. Os excluídos da história: operários, mulheres e prisioneiros. Rio de Janeiro: Paz e Terra, 1988.
+
+Com base no texto, a fixação dessa data comemorativa tinha por objetivo
+
+- A) valorizar um sentimento burguês.
+- B) afirmar uma identidade coletiva.
+- C) edificar uma memória nacional.
+- D) criar uma comunidade cívica.
+- E) definir uma tradição popular.
+
+**Resposta:** B
+
+**Explicação:** O Primeiro de Maio foi criado por um ato político dos trabalhadores para afirmar sua força e sua unidade. A data buscava afirmar uma identidade coletiva dos operários.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 73
+
+**Assunto:** historia/revolucoes-e-seculo-xix
+
+### 74
+![Figura](enem-2022-d1-q074-1.webp)
+
+Uma característica regional que justifica o maior potencial anual médio para o aproveitamento da energia solar é a reduzida
+
+- A) declividade do relevo.
+- B) extensão longitudinal.
+- C) nebulosidade atmosférica.
+- D) irregularidade pluviométrica.
+- E) influência da continentalidade.
+
+**Resposta:** C
+
+**Explicação:** O mapa mostra a maior radiação solar no interior do Nordeste, onde chove pouco e há poucas nuvens. A baixa nebulosidade deixa passar mais luz do Sol.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 74
+
+**Assunto:** geografia/geografia-fisica
+
+### 78
+Possível trajeto do voo MH370 da Malaysia Airlines
+
+![Figura](enem-2022-d1-q078-1.webp)
+
+Considerando-se que a distância entre o local onde os destroços do avião foram avistados e a cidade de Perth é de 2 cm, a escala aproximada dessa representação cartográfica é:
+
+- A) 1 : 12 500.
+- B) 1 : 125 000.
+- C) 1 : 1 250 000.
+- D) 1 : 12 500 000.
+- E) 1 : 125 000 000.
+
+**Resposta:** E
+
+**Explicação:** 2 500 km = 250 000 000 cm. Se 2 cm no mapa representam isso, 1 cm representa 125 000 000 cm. A escala é 1 : 125 000 000.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 78
+
+**Assunto:** geografia/cartografia
+
+### 79
+Hoje sou um ser inanimado, mas já tive vida pulsante em seivas vegetais, fui um ser vivo; é bem verdade que do reino vegetal, mas isso não me tirou a percepção de vida vivida como tamborete. Guardo apreço pelos meus criadores, as mãos que me fizeram, me venderam, e pelas mulheres que me usaram para suas vendas e de tantas outras maneiras. Essas pessoas, sim, tiveram suas subjetividades, singularidades e pluralidades, que estão incorporadas a mim. É preciso considerar que a nossa história, de móveis de museus, está para além da mera vinculação aos estilos e à patrimonialização que recebemos como bem material vinculado ao patrimônio imaterial. A nossa história está ligada aos dons individuais das pessoas e suas práticas sociais. Alguns indivíduos consagravam-se por terem determinados requisitos, tais como o conhecimento de modelos clássicos ou destreza nos desenhos.
+
+> FREITAS, J. M.; OLIVEIRA, L. R. Memórias de um tamborete de baiana: as muitas vozes em um objeto de museu. Revista Brasileira de Pesquisa (Auto)Biográfica, n. 14, maio-ago. 2020 (adaptado).
+
+Ao descrever-se como patrimônio museológico, o objeto abordado no texto associa a sua história às
+
+- A) habilidades artísticas e culturais dos sujeitos.
+- B) vocações religiosas e pedagógicas dos mestres.
+- C) naturezas antropológica e etnográfica dos expositores.
+- D) preservações arquitetônica e visual dos conservatórios.
+- E) competências econômica e financeira dos comerciantes.
+
+**Resposta:** A
+
+**Explicação:** O tamborete "conta" que foi usado por baianas e guardou suas histórias e saberes. Ao virar peça de museu, sua história se liga às habilidades artísticas e culturais das pessoas que o usaram.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 79
+
+**Assunto:** historia/seculo-xx
+
+### 82
+![Figura](enem-2022-d1-q082-1.webp)
+
+O mapa espacializa um recurso natural com alto potencial para ocorrência de:
+
+- A) Abalos sísmicos periódicos.
+- B) Jazidas de minerais metálicos.
+- C) Reservas de combustíveis fósseis.
+- D) Aquíferos sedimentares profundos.
+- E) Estruturas geológicas metamórficas.
+
+**Resposta:** B
+
+**Explicação:** O mapa mostra áreas de rochas ígneas (magmáticas) na Amazônia, como na Serra dos Carajás. Essas rochas costumam guardar jazidas de minerais metálicos, como ferro e ouro.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 82
+
+**Assunto:** geografia/geografia-fisica
+
+### 84
+TEXTO I
+
+Uma filosofia da percepção que queira reaprender a ver o mundo restituirá à pintura e às artes em geral seu lugar verdadeiro.
+
+> MERLEAU-PONTY, M. Conversas: 1948. São Paulo: Martins Fontes, 2004.
+
+TEXTO II
+
+Os grandes autores de cinema nos pareceram confrontáveis não apenas com pintores, arquitetos, músicos, mas também com pensadores. Eles pensam com imagens, em vez de conceitos.
+
+> DELEUZE, G. Cinema 1: a imagem-movimento. São Paulo: Brasiliense, 1983 (adaptado).
+
+De que modo os textos sustentam a existência de um saber ancorado na sensibilidade?
+
+- A) Admitindo o belo como fenômeno transcendental.
+- B) Reafirmando a vivência estética como juízo de gosto.
+- C) Considerando o olhar como experiência de conhecimento.
+- D) Apontando as formas de expressão como auxiliares da razão.
+- E) Estabelecendo a inteligência como implicação das representações.
+
+**Resposta:** C
+
+**Explicação:** Merleau-Ponty fala em reaprender a ver o mundo pela pintura, e Deleuze diz que os cineastas "pensam com imagens". Os dois veem o olhar sensível como forma de conhecer.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 84
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 87
+Macrocefalia urbana pode ser entendida como a massiva concentração das atividades econômicas em algumas metrópoles que propicia o desencadeamento de processos descompassados: redirecionamento e convergência de fluxos migratórios, déficit no número de empregos, ocupação desordenada de determinadas regiões da cidade e estigmatização de estratos sociais, que comprometem substancialmente a segurança pública urbana.
+
+> SANTOS, M. O espaço dividido: os dois circuitos da economia urbana dos países subdesenvolvidos. São Paulo: Edusp, 2004.
+
+O processo de concentração espacial apresentado foi estimulado por qual fator geográfico?
+
+- A) Limitação da área ocupada.
+- B) Êxodo da população do campo.
+- C) Ampliação do risco habitacional.
+- D) Deficiência do transporte alternativo.
+- E) Crescimento da taxa de fecundidade.
+
+**Resposta:** B
+
+**Explicação:** A concentração de pessoas e atividades em poucas metrópoles foi alimentada pelo êxodo rural: a população do campo migrou em massa para as grandes cidades.
+
+**Fonte:** ENEM 2022, 1º dia, caderno azul, questão 87
+
+**Assunto:** geografia/populacao-e-urbanizacao
 
 ## Difícil
 

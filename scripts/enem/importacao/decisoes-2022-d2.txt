@@ -66,6 +66,59 @@ x: Dobrar o diâmetro multiplica o volume por 2³ = 8. Cada docinho novo gasta a
 x: Sejam M e m as voltas maior e menor: 3M + 2m = 1 800 e 2M + m = 1 100. Da segunda, m = 1 100 − 2M; substituindo: 3M + 2 200 − 4M = 1 800, então M = 400 m e m = 300 m. Para 5 000 m com o maior número de voltas, use o máximo de voltas menores: 14 × 300 = 4 200 e sobram 800 = 2 × 400. Total: 14 + 2 = 16 voltas.
 @161 d matematica/numeros-e-operacoes
 x: Cada equipe faz 3 jogos na fase de grupos, e entre dois jogos há pelo menos 3 dias de descanso, então os jogos de uma mesma equipe ficam a cada 4 dias: dias 1, 5 e 9 para os grupos, 13 nas oitavas, 17 nas quartas, 21 nas semifinais e 25 na final. São no mínimo 25 dias.
+@139 m matematica/funcoes-afim-e-quadratica fig
+x: No gráfico, cada ultrapassagem é um cruzamento de curvas. O carro que chegou por último é o que alcança os 100 m mais tarde; a curva dele fica sempre abaixo das outras, sem cruzá-las por cima. Ele não fez nenhuma ultrapassagem.
+@141 m matematica/geometria-plana fig
+x: Seguindo o caminho a partir de P (indo para cima), anote em cada cruzamento se o carro vira à direita (D), segue em frente (F) ou vira à esquerda (E). A sequência correta é DFEFDDEEFFD.
+@142 m matematica/geometria-espacial fig
+x: V = área da base × profundidade. II: 2h × A/2 = V. III: 2h × π(r/2)² = V/2. IV: (h/2) × 2A = V. V: (h/2) × π(2r)² = 2V. O modelo V tem o dobro da capacidade.
+@143 m matematica/razao-proporcao-regra-de-tres fig
+x: Rentabilidade = aluguel ÷ valor do imóvel (em mil): 2005: 630/90 = 7; 2007: 960/120 = 8; 2009: 1 350/270 = 5; 2011: 1 800/450 = 4; 2013: 3 240/540 = 6. A maior foi em 2007.
+@145 d matematica/geometria-analitica fig
+x: O menor caminho A → rodovia → B usa a reflexão: reflete-se B(50, 20) em B'(50, −20). A reta de A(20, 40) a B' corta o eixo x em y = 0: 40 − 2(x − 20) = 0, x = 40. É o ponto IV.
+@148 m matematica/geometria-espacial fig
+x: Com a mesma altura, o volume do cone é proporcional ao quadrado do raio. Volume 19% menor = 0,81 do original, então o raio fica √0,81 = 0,9 vez: 4 × 0,9 = 3,6 cm.
+@150 d matematica/analise-combinatoria fig
+s: comprar || desses => comprar 2 || desses
+a: 9 × 6!/(6 − 2)! | 9 × 6!/((6 − 2)! 2!) | 9 × 4!/((4 − 2)! 2!) | 9 × 2!/((2 − 2)! 2!) | 9 × (8!/((8 − 2)! 2!) − 1)
+x: Em cada andar há 8 apartamentos; só os de final 7 e 8 não têm nenhum quarto com sol de manhã. Pares do mesmo andar: C(8, 2) = 8!/(6! 2!) = 28; tirando o par (7, 8), sobram 27. Nos 9 andares: 9 × (8!/(6! 2!) − 1).
+@151 d matematica/funcoes-afim-e-quadratica fig
+x: V = T² − 4 = 0 quando T = 2 ou T = −2. No gráfico, a temperatura passa por 2 °C uma vez ao cair, toca −2 °C três vezes e volta a passar por 2 °C ao subir: 5 vezes.
+@152 d matematica/probabilidade fig
+s: sempre 1 || 2 . Qual => sempre 1/2. Qual
+a: 35/64 | 40/64 | 42/64 | 44/64 | 52/64
+x: Depois de vencer o 1º jogo, o time precisa de mais 3 vitórias antes de o outro fazer 4, nos jogos restantes (até 6). Equivale a ganhar pelo menos 3 de 6 jogos: [C(6,3) + C(6,4) + C(6,5) + C(6,6)]/64 = (20 + 15 + 6 + 1)/64 = 42/64.
+@153 m matematica/estatistica fig
+x: Lucros (só nos meses em que a receita supera a despesa): jan 3, mar 1, mai 5, jun 3, jul 2, set 4, nov 1, dez 4. Ordenados: 1, 1, 2, 3, 3, 4, 4, 5. A mediana é (3 + 3)/2 = 3,0.
+@154 m matematica/razao-proporcao-regra-de-tres fig
+x: O pacote básico tem 2 000 gemas para 100 000 moedas, ou seja, 50 moedas por gema. Na leitura adotada pelo gabarito oficial, o pacote especial tem 6 000 gemas a mais que as 2 000 do básico: 8 000 gemas. Mantendo a proporção: 8 000 × 50 = 400 000 moedas. (Comparando com dois pacotes básicos, como sugere o texto, seriam 10 000 gemas e 500 000 moedas, valor que não aparece entre as alternativas.)
+@156 d matematica/porcentagem fig
+x: Na 1ª divulgação: A = 3 000 × 0,1 × 0,03 = 9 compradores; B = 1 000 × 0,3 × 0,02 = 6; total 15. Com mais R$ 300 em cada rede, o público cresce na proporção do investimento: A ganha 3 vezes o resultado de R$ 100 (27 compradores) e B ganha 1,5 vez o de R$ 200 (9 compradores), total 36. Aumento em relação à 1ª divulgação: Q = (36 − 15)/15 = 1,4 = 140%, que fica entre 100% e 150%: bom.
+@157 m matematica/analise-combinatoria fig
+x: Modelos e motores: 7 × 2 = 14. Opcionais: cada um pode entrar ou não, 2³ = 8 combinações. Sem as cores: 14 × 8 = 112. Para passar de 1 000: 112 × c > 1 000, c > 8,9. São necessárias 9 cores.
+@158 m matematica/geometria-espacial fig
+x: Os três quadrados escuros ficam no canto comum de três faces vizinhas. Na planificação, esses cantos precisam se encontrar no mesmo vértice quando o cubo é montado; só a quarta alternativa respeita isso.
+@162 d matematica/probabilidade fig
+a: 1/46 + 1/45 | 1/46 + 2/(46 × 45) | 1/46 + 8/(46 × 45) | 1/46 + 43/(46 × 45) | 1/46 + 49/(46 × 45)
+x: Pedro ganha com o 12 (linha) ou com 11 e 19 (diagonal) ou com 05 e 45 (coluna). Na 5ª rodada, sai o 12 com chance 1/46. Se sair 11, 19, 05 ou 45 (4 casos), na 6ª ele ganha com 2 números; se sair outro (41 casos), só com o 12. Total: 1/46 + (4 × 2 + 41)/(46 × 45) = 1/46 + 49/(46 × 45).
+@163 d matematica/geometria-plana fig
+x: O papel foi dobrado em quatro camadas ao redor do centro O. O corte em arco, centrado em R (perto de O), se repete nas quatro dobras. Ao desdobrar, aparece um buraco central formado por quatro arcos iguais, como na terceira alternativa.
+@165 d matematica/geometria-espacial fig
+x: Visto de cima (plano α paralelo ao Equador), o Equador aparece como um círculo e os meridianos como segmentos que vão do centro (polo) até a borda. As trajetórias combinam trechos desses arcos, como na última alternativa.
+@171 m matematica/razao-proporcao-regra-de-tres fig
+x: Com L = 12 m: a primeira fileira está a 0,6 × 12 = 7,2 m da tela, e a última pode ficar a até 2,9 × 12 = 34,8 m. As fileiras estão a 1 m umas das outras: de 7,2 a 34,2 m cabem 28 fileiras.
+@174 d matematica/funcoes-afim-e-quadratica fig
+e: Em jogos de voleibol, um saque é invalidado se a bola atingir o teto do ginásio onde ocorre o jogo. Um jogador de uma equipe tem um saque que atinge uma grande altura. Seu recorde foi quando a batida do saque se iniciou a uma altura de 1,5 m do piso da quadra, e a trajetória da bola foi descrita pela parábola y = −x²/6 + 7x/3 + 12, em que y representa a altura da bola em relação ao eixo x (das abscissas) que está localizado a 1,5 m do piso da quadra, como representado na figura. Suponha que em todas as partidas algum saque desse jogador atinja a mesma altura do seu recorde. || [fig2] || A equipe desse jogador participou de um torneio de voleibol no qual jogou cinco partidas, cada uma delas em um ginásio diferente. As alturas dos tetos desses ginásios, em relação aos pisos das quadras, são: || • ginásio I: 17 m; // • ginásio II: 18 m; // • ginásio III: 19 m; // • ginásio IV: 21 m; // • ginásio V: 40 m. || O saque desse atleta foi invalidado
+x: O vértice da parábola está em x = (7/3) ÷ (2/6) = 7, e y = −49/6 + 49/3 + 12 ≈ 20,17 m acima do eixo. Somando 1,5 m: a bola chega a ≈ 21,7 m do piso. Bate no teto dos ginásios I, II, III e IV.
+@177 m matematica/progressoes fig
+e: Um atleta iniciou seu treinamento visando as competições de fim de ano. Seu treinamento consiste em cinco tipos diferentes de treinos: treino T₁, treino T₂, treino T₃, treino T₄ e treino T₅. A sequência dos treinamentos deve seguir esta ordem: || Dia 1º a 13º: T₁, R, R, T₂, R, R, T₃, R, T₄, R, R, T₅, R || A letra R significa repouso. Após completar a sequência de treinamentos, o atleta começa novamente a sequência a partir do treino T₁ e segue a ordem descrita. Após 24 semanas completas de treinamento, se dará o início das competições. || A sequência de treinamentos que o atleta realizará na 24ª semana de treinos é
+x: A sequência se repete a cada 13 dias. A 24ª semana vai do dia 162 ao 168. Como 161 = 12 × 13 + 5, o dia 162 corresponde ao 6º dia do ciclo. Do 6º ao 12º: R, T₃, R, T₄, R, R, T₅.
+@178 m matematica/geometria-espacial fig
+x: Projetando o trajeto (centros de faces e pontos médios de arestas) sobre a base e visto da posição do observador, os segmentos formam o desenho da primeira alternativa.
+@179 m matematica/grandezas-medidas-escalas fig
+x: Na planta, a varanda em L tem 16 × 5 + 4 × (18,4 − 5) = 80 + 53,6 = 133,6 cm². Na escala 1 : 50, cada cm² vale 50² = 2 500 cm²: 133,6 × 2 500 = 334 000 cm² = 33,4 m².
+@180 m matematica/funcoes-afim-e-quadratica fig
+x: Adulto: 18 000 no dia 10, 15 000 no dia 20, segue para 12 000 no dia 30. Infantil: 8 000, 7 000 e 6 000. Total: 26 000 + 22 000 + 18 000 = 66 000. Faltam 77 000 − 66 000 = 11 000.
 
 ## 14-enem-2022-ciencias-da-natureza.md | 2022 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
@@ -149,3 +202,37 @@ e: Um pai faz um balanço utilizando dois segmentos paralelos e iguais da mesma 
 x: Soltando de 90°, a energia dá v² = 2gL no ponto mais baixo. Ali, T − mg = mv²/L = 2mg, então T = 3mg = 3 × 24 × 10 = 720 N, dividida entre as duas cordas: 360 N em cada. Com 25% de folga: 360 × 1,25 = 450 N.
 @133 d fisica/eletricidade
 x: Com uma pilha invertida, a f.e.m. total é 1,5 + 1,5 − 1,5 = 1,5 V. As três resistências internas continuam em série: 3 × 0,5 = 1,5 Ω. A lâmpada tem R = U²/P = 4,5² ÷ 4,5 = 4,5 Ω. Corrente: i = 1,5 ÷ (4,5 + 1,5) = 0,25 A.
+@93 d quimica/fisico-quimica fig
+x: Na urina (pH 5 a 7): a carboxila (pKa 1,8) está desprotonada, como COO⁻; o grupo amino (pKa 7,9) está protonado, como NH₃⁺; o tiol (pKa 10,5) continua como SH. A estrutura com HS, COO⁻ e NH₃⁺ é a predominante.
+@95 d fisica/ondulatoria-e-optica fig
+x: O som chega antes pela água. Pelos gráficos, a diferença entre as chegadas é de cerca de 12 s. L/340 − L/1 540 = 12, então L × (1 540 − 340)/(340 × 1 540) = 12 e L ≈ 5 240 m.
+@96 f fisica/ondulatoria-e-optica fig
+x: A luz do Sol entra na garrafa com água e muda de direção ao passar do ar para a água e da água para o ar, espalhando-se pelo cômodo. Esse desvio é a refração.
+@99 m fisica/eletricidade fig
+x: Pela "lei de Ohm" do modelo, R = d.d.p. ÷ corrente: rota 1 = 510 ÷ 4 = 127,5; rota 2 = 608 ÷ 4 = 152; rota 3 = 575 ÷ 3 ≈ 191,7. Da menor para a maior resistência: 1, 2, 3.
+@100 m quimica/quimica-ambiental fig
+x: Em solo ácido (mais H⁺), a amônia (NH₃) recebe H⁺ e vira o íon amônio (NH₄⁺). Por isso a formação de amônio é favorecida.
+@106 m biologia/seres-vivos fig
+x: Após 10 h, a sacarose cai cerca de 50% para cada 1 mg/L de microrganismos: RB72: 13 × 0,65 ≈ 8,5; RB84: 18 × 0,60 = 10,8; RB92: 16 × 0,70 = 11,2; SP79: 14 × 0,75 = 10,5; SP80: 17 × 0,55 ≈ 9,4 g/L. A RB92 fica com mais sacarose.
+@108 d fisica/dinamica fig
+e: Tribologia é o estudo da interação entre duas superfícies em contato, como desgaste e atrito, sendo de extrema importância na avaliação de diferentes produtos e de bens de consumo em geral. Para testar a conformidade de uma muleta, realiza-se um ensaio tribológico, pressionando-a verticalmente contra o piso com uma força F, conforme ilustra a imagem, em que CM representa o centro de massa da muleta. || [fig1] || Mantendo-se a força F paralela à muleta, varia-se lentamente o ângulo entre a muleta e a vertical, até o máximo ângulo imediatamente anterior ao de escorregamento, denominado ângulo crítico. Esse ângulo também pode ser calculado a partir da identificação dos pontos de aplicação, da direção e do sentido das forças peso (P), normal (N) e de atrito estático (fe). || O esquema que representa corretamente todas as forças que atuam sobre a muleta quando ela atinge o ângulo crítico é:
+x: O peso P atua no centro de massa, para baixo. No ponto de apoio atuam a normal N (vertical, para cima) e o atrito estático, horizontal e contrário à tendência de escorregar. A força F segue ao longo da muleta. Só a última alternativa mostra todas assim.
+@109 m quimica/fisico-quimica fig
+x: O H⁺ participa das etapas (protona o oxigênio da ligação e depois é liberado no final), sem ser consumido. Ele atua como catalisador, aumentando a velocidade da reação.
+@110 m quimica/estequiometria fig
+x: NaOH usado: 0,10 × 0,008 = 8 × 10⁻⁴ mol. Pela equação, 2 NaOH reagem com 1 ácido: 4 × 10⁻⁴ mol × 150 g/mol = 0,06 g em 25 mL. Em 1 L: 0,06 × 40 = 2,4 g/L.
+@113 m biologia/fisiologia-humana fig
+x: O hormônio é alto nos machos controle e baixo nas fêmeas e nos machos expostos à atrazina, que ficaram "desmasculinizados". É o hormônio sexual masculino: a testosterona.
+@117 d biologia/genetica-e-biotecnologia fig
+x: Cada célula da mulher inativa ao acaso um dos X. Numa heterozigota, a proporção de células com o alelo normal ativo varia de pessoa para pessoa, e os sintomas aparecem em graus diferentes: expressividade variável.
+@118 m fisica/eletricidade fig
+x: As linhas do campo magnético de um fio são círculos ao redor dele, no sentido dado pela regra da mão direita (corrente para cima: anti-horário visto de cima). Cada bússola se alinha tangente a esse círculo.
+@119 m fisica/eletricidade fig
+a: [fig2] | [fig3] | [fig4] | [fig5] | [fig6]
+x: Com a pele molhada (1 kΩ), a parada respiratória exige 20 a 100 mA, ou seja, 20 a 100 V. Duas baterias de 12 V em série (+ ligado ao −) somam 24 V: 24 V ÷ 1 000 Ω = 24 mA. É a associação em série da primeira alternativa.
+@122 m quimica/fisico-quimica fig
+x: O persulfato, ativado por Fe(III), forma radicais que oxidam o tricloroeteno até CO₂, água e cloreto. É uma reação de oxirredução.
+@127 m quimica/fisico-quimica fig
+x: O filme nanocerâmico cobre o metal e impede que água e oxigênio cheguem ao ferro. A proteção é por efeito de barreira.
+@132 m geografia/cartografia fig
+x: A placa produz mais energia em janeiro e outubro e menos em julho: há grande variação ao longo do ano, com mais Sol no verão do Hemisfério Sul. Isso ocorre perto do Trópico de Capricórnio.

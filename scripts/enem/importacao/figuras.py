@@ -13,6 +13,8 @@ SAIDA = opts.get('saida', f'img{ANO}')
 DPI = int(opts.get('dpi', '170'))
 os.makedirs(SAIDA, exist_ok=True)
 doc = pymupdf.open(PDF)
+# questões em que as figuras do enunciado devem virar uma só (ajuste manual): linhas "ANO DIA NUM"
+JUNTAR = set(tuple(l.split()) for l in open('juntar.txt') if l.strip()) if os.path.exists('juntar.txt') else set()
 DEBUG = 'debug' in opts
 
 CAB = re.compile(r'^\s*QUEST[ÃA]O\s*0*(\d{1,3})\s*$', re.I)
@@ -56,6 +58,10 @@ def linhas_da_pagina(p):
             t = re.sub(r'(f[il]) (?=[a-záéíóúâêôãõç])', r'\1', t)  # ligaduras fi/fl separadas no PDF
             out.append({'gira': abs(l['dir'][1]) > 0.3, 't': re.sub(r'\s+', ' ', t).strip(), 'bb': list(l['bbox']), 'sz': round(max(spans, key=lambda s: len(s['text']))['size'], 1),
                         'font': spans[0]['font'], 'f0': spans[0]['font'], 'spans': [(s['font'], s['text']) for s in spans]})
+    # marcador de alternativa repetido numa linha à parte (provas de 2022+)
+    letra = lambda l: l['t'].strip() if len(l['t'].strip()) == 1 else None
+    out = [l for l in out if not (letra(l) in list('ABCDE') and any(m is not l and m['t'].startswith(l['t'].strip()) and len(m['t']) > 2
+           and abs(m['bb'][0] - l['bb'][0]) < 3 and abs(m['bb'][1] - l['bb'][1]) < 5 for m in out))]
     # linhas justificadas às vezes vêm em pedaços: junta pedaços com palavras na mesma altura
     out.sort(key=lambda l: (round(l['bb'][1]), l['bb'][0]))
     res = []
@@ -343,12 +349,34 @@ def processa(i):
                 m['l']['t'] = m['l']['t'][:1]
     itens = [it for it in itens if it['tipo'] != 'x'] + novos
     itens.sort(key=lambda it: (it['k'], round(it['y']), it['x']))
+    if (ANO, DIA, str(c['n'])) in JUNTAR:
+        marc1 = [it for it in itens if it['tipo'] == 'alt']
+        lim = (marc1[0]['k'], marc1[0]['y']) if marc1 else (99, 1e9)
+        for k in set(it['k'] for it in itens):
+            fs = [it for it in itens if it['tipo'] == 'fig' and it['k'] == k and not it.get('dono') and (it['k'], it['y']) < lim]
+            if len(fs) < 2:
+                continue
+            bb = fs[0]['bb']
+            for f in fs[1:]:
+                bb = une(bb, f['bb'])
+                f['tipo'] = 'x'
+            fs[0]['bb'] = bb
+            fs[0]['y'] = bb[1]
+            for it in itens:
+                if it['tipo'] == 't' and it['k'] == k:
+                    b = it['l']['bb']
+                    if bb[0] - 2 <= (b[0] + b[2]) / 2 <= bb[2] + 2 and bb[1] - 2 <= (b[1] + b[3]) / 2 <= bb[3] + 2:
+                        it['tipo'] = 'x'
+        itens = [it for it in itens if it['tipo'] != 'x']
     # recortes
     figs = []
     for it in itens:
         if it['tipo'] != 'fig':
             continue
         bb = it['bb']
+        if bb[2] - bb[0] < 4 or bb[3] - bb[1] < 4:
+            it['tipo'] = 'x'
+            continue
         r = pymupdf.Rect(bb[0] - 3, bb[1] - 2, bb[2] + 3, bb[3] + 2)
         nome = f'enem-{ANO}-d{DIA}-q{c["n"]:03d}-{len(figs) + 1}.webp'
         pix = doc[it['p']].get_pixmap(clip=r, dpi=DPI)
@@ -379,6 +407,7 @@ def processa(i):
             if cand:
                 m = min(cand, key=lambda m: abs(m['l']['bb'][1] - it['bb'][1]) + 0.3 * (it['bb'][0] - m['l']['bb'][0]))
                 it['dono'] = m['l']['spans'][0][1].strip()
+    itens = [it for it in itens if it['tipo'] != 'x']
     alts, cur, corpo = [], None, []
     for it in itens:
         if it['tipo'] == 'fig' and it.get('dono'):
@@ -406,14 +435,28 @@ def processa(i):
     os.makedirs(f'prev{ANO}', exist_ok=True)
     partes = []
     for sg in segs:
+        if sg['y1'] - sg['y0'] < 4:
+            continue
         pix = doc[sg['p']].get_pixmap(clip=pymupdf.Rect(sg['x0'], sg['y0'] - 18 if sg is segs[0] else sg['y0'], sg['x1'], sg['y1']), dpi=int(opts.get('dpiprev', '85')))
         partes.append(Image.open(io.BytesIO(pix.tobytes('png'))).convert('L'))
+    if not partes:
+        partes = [Image.new('L', (10, 10), 255)]
     Wp = max(p_.width for p_ in partes)
     prev = Image.new('L', (Wp, sum(p_.height for p_ in partes)), 255)
     yy = 0
     for p_ in partes:
         prev.paste(p_, (0, yy)); yy += p_.height
     prev.save(f'prev{ANO}/d{DIA}-q{c["n"]:03d}.png')
+    # mesma letra repetida (marcador duplicado): junta numa alternativa só
+    unic = []
+    for a in alts:
+        if unic and unic[-1]['letra'] == a['letra'] or any(u['letra'] == a['letra'] for u in unic):
+            u = next(u for u in unic if u['letra'] == a['letra'])
+            u['txt'] = (u['txt'] + ' ' + a['txt']).strip()
+            u['figs'] += [f for f in a['figs'] if f not in u['figs']]
+        else:
+            unic.append(a)
+    alts = sorted(unic, key=lambda a: a['letra'])
     return {'num': c['n'], 'pag': c['p'] + 1, 'segs': segs, 'corpo': corpo, 'alts': alts, 'figs': figs}
 
 

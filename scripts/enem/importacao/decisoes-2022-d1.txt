@@ -73,6 +73,36 @@ x: O Texto I mostra Juazeiro se tornando lugar de romaria, um espaço sagrado. O
 x: O texto diz que, no início da Idade Média, ajudar os famintos era parte da gestão pública. Nas monarquias cristãs, o rei tinha o dever de cuidar do povo; por isso a resposta à fome cabia à realeza.
 @66 d historia/brasil-imperio
 x: Cayru defendia um currículo menor para as meninas por achá-las incapazes; Santo Amaro defendia o mesmo ensino para todos. De um lado, a dominação sobre as mulheres; do outro, a igualdade humana.
+@49 m geografia/geografia-fisica fig
+x: Quanto mais o solo é impermeabilizado, menos água se infiltra e evapora e mais água escoa pela superfície (de 10% para 55%). A urbanização altera imediatamente o ciclo hidrológico.
+@53 m historia/brasil-imperio fig
+x: Mulheres letradas passaram a ler romances e folhetins e a frequentar espaços de leitura e escrita. Essa inserção foi associada ao surgimento de novas práticas culturais no Segundo Reinado.
+@56 f sociologia/temas-contemporaneos fig
+x: A charge mostra um aluno subindo no telhado para achar sinal de wi-fi, e o texto lembra que muitos estudantes não têm internet nem computador. A crítica é à exclusão social, escancarada pela pandemia.
+@60 m sociologia/temas-contemporaneos fig
+x: No experimento, os celulares fizeram as pessoas trocarem incentivos e se ajudarem a ser mais ativas. Ao contrário da ideia de que a tecnologia isola, os aparelhos estimularam a reciprocidade.
+@64 m geografia/geografia-fisica fig
+x: Forças internas (vulcanismo) e externas (intemperismo) atuam juntas: a lava se decompõe e forma solos muito férteis, que atraem a ocupação humana. São os solos vulcânicos.
+@65 m sociologia/temas-contemporaneos fig
+x: A ilustração mostra o ciclo da violência doméstica: tensão, agressão e "lua de mel" se repetem e se agravam até a morte. O ápice desse ciclo é o feminicídio.
+@68 m geografia/geopolitica-e-globalizacao fig
+x: O texto e o mapa apontam regiões ricas em petróleo, gás e biodiversidade "insubmissas" às normas dos Estados Unidos e dos organismos que eles controlam. A estratégia é ampliar a influência econômica sobre elas.
+@70 m sociologia/temas-contemporaneos fig
+x: O gráfico mostra que a pobreza é maior entre mulheres sem cônjuge com filhos e, entre elas, ainda maior entre as pretas ou pardas (64,4%). Raça e gênero se cruzam e intensificam a discriminação.
+@73 m historia/revolucoes-e-seculo-xix fig
+x: O Primeiro de Maio foi criado por um ato político dos trabalhadores para afirmar sua força e sua unidade. A data buscava afirmar uma identidade coletiva dos operários.
+@74 m geografia/geografia-fisica fig
+x: O mapa mostra a maior radiação solar no interior do Nordeste, onde chove pouco e há poucas nuvens. A baixa nebulosidade deixa passar mais luz do Sol.
+@78 m geografia/cartografia fig
+x: 2 500 km = 250 000 000 cm. Se 2 cm no mapa representam isso, 1 cm representa 125 000 000 cm. A escala é 1 : 125 000 000.
+@79 m historia/seculo-xx fig
+x: O tamborete "conta" que foi usado por baianas e guardou suas histórias e saberes. Ao virar peça de museu, sua história se liga às habilidades artísticas e culturais das pessoas que o usaram.
+@82 m geografia/geografia-fisica fig
+x: O mapa mostra áreas de rochas ígneas (magmáticas) na Amazônia, como na Serra dos Carajás. Essas rochas costumam guardar jazidas de minerais metálicos, como ferro e ouro.
+@84 m filosofia/filosofia-moderna-e-contemporanea fig
+x: Merleau-Ponty fala em reaprender a ver o mundo pela pintura, e Deleuze diz que os cineastas "pensam com imagens". Os dois veem o olhar sensível como forma de conhecer.
+@87 m geografia/populacao-e-urbanizacao fig
+x: A concentração de pessoas e atividades em poucas metrópoles foi alimentada pelo êxodo rural: a população do campo migrou em massa para as grandes cidades.
 
 ## 16-enem-2022-linguagens.md | 2022 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2022 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
@@ -148,3 +178,33 @@ x: O olhar verde de Maria Santa "dizia logo a sua origem": misérias, aventureir
 x: Bárbara é "leve e breve", de chinelinha, mas tem olhos "lúcidos e agudos" que "entravam pela gente abaixo". A ironia está na mistura de singeleza e astúcia da vidente.
 @43 d literatura/pre-modernismo-ao-contemporaneo
 x: O narrador conta a infância sofrida de Vanda comparando-a a Dickens, a uma "vilã de folhetim" e a uma "gata-borralheira". A violência vira uma história contada de forma anedótica.
+@7 f portugues/interpretacao-de-texto fig
+x: O Texto I é um cartaz que convida a adotar cães e gatos. O Texto II conta a vida de um cão de rua que nunca foi adotado, levando a pensar sobre os animais sem lar.
+@8 m portugues/interpretacao-de-texto fig
+x: O jogo troca perguntas sobre aparência por perguntas sobre conquistas de mulheres notáveis. A ideia é educar os jogadores para valorizar essas histórias: formação cidadã.
+@9 f portugues/funcoes-generos-e-variacao fig
+x: A imagem do rosto escondido nas mãos ("Arrependimento") e a frase "Causar um acidente é algo que você leva pro resto da vida" apelam para a culpa de quem causa acidentes.
+@12 m portugues/funcoes-generos-e-variacao fig
+x: Numa conversa informal entre amigos, exigir colocação pronominal "correta" soa pedante. A norma-padrão fica inadequada por causa do contexto da comunicação.
+@15 m portugues/funcoes-generos-e-variacao fig
+x: O post imita um outdoor ("Quanto custou?") para divulgar um projeto que obriga o órgão público a informar o gasto com propaganda. Divulga um projeto sobre transparência.
+@16 m portugues/funcoes-generos-e-variacao fig
+x: O texto apresenta o filme Elena, comenta sua linguagem e sua força e o recomenda: é uma resenha crítica, que avalia a obra.
+@21 m literatura/quinhentismo-ao-simbolismo fig
+x: A personagem abolicionista mostra que os escravocratas se dizem cristãos mas defendem a escravidão. O conto aponta a hipocrisia desse discurso conservador.
+@24 m portugues/funcoes-generos-e-variacao fig
+x: Ao mostrar como seria estranho comprar pão usando palavras difíceis, o autor defende que a linguagem deve se adequar à situação de comunicação.
+@27 m portugues/funcoes-generos-e-variacao fig
+x: As frases "Mulher ao volante, perigo constante" e "Os homens não choram" aparecem riscadas e corrigidas. O texto quer rever estereótipos de gênero.
+@34 f artes/artes-e-educacao-fisica fig
+x: O mountainboard nasceu da adaptação do skate para terrenos de terra e montanha. As práticas de aventura se caracterizam pela criatividade para ocupar novos espaços.
+@35 m literatura/pre-modernismo-ao-contemporaneo fig
+x: Clarice diz que, sem perceber, vinha se tornando "pessoal demais" e pergunta o que é uma crônica, questionando, entre outras coisas, se o gênero precisa ser breve e leve no tratamento do tema.
+@38 m artes/artes-e-educacao-fisica fig
+s: ![Figura](enem-2022-d1-q038-1.webp) => TEXTO I || ![Figura](enem-2022-d1-q038-1.webp)
+x: O Maneirismo distorce e alonga as figuras humanas, em posições contorcidas, como os corpos de Laocoonte e dos filhos na tela de El Greco.
+@39 m artes/artes-e-educacao-fisica fig
+x: A obra de Judd são caixas iguais empilhadas: formas simples, industriais e repetidas, dispostas no espaço. O Minimalismo combina formas sintéticas no espaço.
+@44 m artes/artes-e-educacao-fisica fig
+s: ![Figura](enem-2022-d1-q044-1.webp) => TEXTO I || ![Figura](enem-2022-d1-q044-1.webp)
+x: Duchamp transformou objetos comuns em arte. In absentia mostra só a "sombra" da roda de bicicleta, sem o objeto: as criações questionam os valores estéticos estabelecidos.
