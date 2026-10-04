@@ -1,0 +1,250 @@
+## 63-enem-2010-ciencias-humanas.md | 2010 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2010 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2010, Ciências Humanas ocupou as questões 1 a 45 do 1º dia, e Ciências da Natureza, as questões 46 a 90. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Geografia agrária e urbana:** modernização do campo e migração de trabalhadores, lixões e saúde pública, erosão e enchentes, minérios de Carajás, Belo Monte.
+- **História do Brasil:** tupi-guaranis, tropeiros, vinda da família real (1808), Período Regencial, Guerra do Paraguai, Acre, Contestado, Tiradentes como herói da República, Era Vargas, golpe de 1964.
+- **História geral:** Revolução Industrial e cidades operárias, artesanato × maquinofatura, incas, Revolução Francesa (Robespierre), ditadura chilena.
+- **Filosofia e sociologia:** Maquiavel, Foucault e a lei, ética e política, internet e democracia, novas tecnologias e emprego.
+
+@2 m geografia/economia-agropecuaria-industria-energia
+x: A técnica (adubos, corretivos, máquinas) chegou ao campo. Com ela, solos antes pouco férteis, como os do cerrado, passaram a ser aproveitados para a agricultura moderna.
+@3 f geografia/economia-agropecuaria-industria-energia
+s: 2001(adaptado). O texto retrata => 2001 (adaptado). || O texto retrata
+s: Ribeiro, H. S. O migrante => > Ribeiro, H. S. O migrante
+x: A mecanização do campo dispensou muitos trabalhadores, que migraram para as cidades e hoje viajam longas distâncias atrás de serviço temporário mal pago. É um impacto social da modernização da agricultura.
+@4 f geografia/biomas-e-questoes-ambientais
+s: 2008. || São Paulo, Instituto => 2008. São Paulo: Instituto
+x: No lixão, o lixo fica a céu aberto: atrai ratos, moscas e baratas, que transmitem doenças, e o chorume contamina o solo e as águas.
+@6 m geografia/geografia-fisica
+x: A erosão nas encostas leva terra para os rios, que ficam assoreados (mais rasos). Com menos espaço para a água, os rios transbordam com mais facilidade e as enchentes aumentam nas baixadas.
+@7 f geografia/cartografia
+s: segurando a bolinha e a estranha nota. => segurando a bolinha e a estranha nota. (Imagem: um menino segurando a bolinha.)
+x: A coordenada geográfica é formada pela latitude e pela longitude, linhas imaginárias (paralelos e meridianos) que permitem localizar qualquer ponto da superfície da Terra.
+@9 f geografia/geopolitica-e-globalizacao
+x: O termo BRIC foi criado para indicar países emergentes com grande potencial de crescimento econômico nas décadas seguintes.
+@10 f historia/revolucoes-e-seculo-xix
+x: O texto mostra que a busca do lucro escravizava o trabalhador. As cidades industriais cresceram com favelas, sujeira e fumaça: péssimas condições de moradia, saúde e higiene para os operários.
+@11 f historia/idade-moderna
+g: B
+s: matériasprimas => matérias-primas
+x: No artesanato, o artesão fazia o produto inteiro com as próprias mãos e ferramentas simples, sem máquinas e sem produção em série.
+@12 m historia/brasil-republica
+x: Ferrovia, serraria e colonização destruíram os ervais e tiraram as terras de posseiros e caboclos. A economia tradicional que sustentava essa população foi desorganizada, o que gerou a Guerra do Contestado (1912–1916).
+@13 m historia/brasil-republica
+x: Os seringueiros brasileiros ocuparam o Acre, que pertencia à Bolívia. Essa ocupação levou ao conflito e, depois, ao Tratado de Petrópolis (1903), pelo qual o Brasil comprou a região.
+@14 f geografia/economia-agropecuaria-industria-energia
+s: transportes.gov.br.Acesso => transportes.gov.br. Acesso
+x: A Estrada de Ferro Carajás leva até o porto de São Luís o minério de ferro da Serra dos Carajás (PA), uma das maiores reservas de minerais metálicos do mundo.
+@15 f geografia/economia-agropecuaria-industria-energia
+x: A usina gera muita energia, necessária ao crescimento do país, mas inunda terras de índios e agricultores e afeta a floresta. O desafio é equilibrar desenvolvimento e conservação ambiental.
+@16 m historia/antiguidade-e-idade-media
+x: A sociedade inca era rigidamente dividida em camadas, com imperador e nobreza hereditária no topo. Quem nascia camponês não conseguia mudar de camada social.
+@17 m geografia/economia-agropecuaria-industria-energia
+x: O agronegócio avança sobre o cerrado e o Norte, cercando e degradando terras indígenas. Isso gera tensão com as leis que protegem os índios e o meio ambiente.
+@18 m historia/brasil-colonia
+s: destacava-se a organização em aldeias politicamente => destacava-se
+a: a organização em aldeias politicamente independentes, dirigidas por um chefe, eleito pelos indivíduos mais velhos da tribo. | a ritualização da guerra entre as tribos e o caráter semissedentário de sua organização social. | a conquista de terras mediante operações militares, o que permitiu seu domínio sobre vasto território. | o caráter pastoril de sua economia, que prescindia da agricultura para investir na criação de animais. | o desprezo pelos rituais antropofágicos praticados em outras sociedades indígenas.
+x: Os tupi-guaranis faziam guerras rituais entre grupos (com a antropofagia ritual) e eram semissedentários: plantavam roças e mudavam a aldeia de lugar quando o solo se esgotava.
+@19 f historia/brasil-colonia
+s: Disponível em:http => Disponível em: http
+x: O texto explica que "tropa" era o grupo de homens que transportava gado e mercadorias. O feijão tropeiro nasceu da comida preparada nessas viagens comerciais.
+@20 f historia/antiguidade-e-idade-media v
+x: Brecht pergunta quem de fato construiu Tebas, a Babilônia e a Muralha da China. Os livros guardam os nomes dos reis, mas quem ergueu os monumentos foram os trabalhadores, esquecidos pela memória oficial.
+@21 f historia/brasil-republica
+x: Ruínas são vestígios materiais do passado, estudados pela arqueologia e que fazem parte da paisagem. Por isso foram protegidas como conjunto arqueológico e paisagístico.
+@22 d historia/brasil-imperio
+g: D
+x: Um autor culpa a Inglaterra pela guerra; o outro diz que essa teoria não tem provas. Os dois textos mostram como é difícil construir uma explicação convincente para as causas da Guerra do Paraguai.
+@23 m historia/brasil-imperio
+s: Ano1, n o 3 => Ano 1, n.º 3
+x: Luiz Gama enfrentou enormes barreiras por ser negro numa sociedade escravista e usou o Direito, como advogado, para lutar pela liberdade de escravizados.
+@24 m historia/brasil-colonia
+s: (adaptado). O projeto => (adaptado). || O projeto
+s: Alvará de liberdade para => > Alvará de liberdade para
+s: Brasil.Vol. => Brasil. Vol.
+s: D.João => D. João
+x: Portugal dependia da Inglaterra, que em 1810 recebeu tarifas muito baixas para vender aqui. Os produtos ingleses dominavam o mercado, e as manufaturas brasileiras não conseguiam competir.
+@25 m historia/brasil-colonia
+x: Com D. João no Brasil, Portugal ocupou a região da Cisplatina (atual Uruguai), no rio da Prata, em resposta à aliança da Espanha com a França de Napoleão.
+@26 m historia/brasil-republica
+s: I – Ei-lo => II – Ei-lo
+s: cívicoreligioso => cívico-religioso
+x: A República foi proclamada sem participação popular. Para ganhar apoio e legitimidade, transformou Tiradentes, figura querida e comparada a Cristo, em herói nacional.
+@27 m historia/brasil-republica
+s: 1850-1890. || Rio de Janeiro: Secretaria Municipal de Cultura, 1994 (adaptado). O artigo => 1850-1890. Rio de Janeiro: Secretaria Municipal de Cultura, 1994 (adaptado). || O artigo
+x: A capoeira, prática cultural de origem afro-brasileira, virou crime em 1890. A lei mostra a perseguição a grupos ligados ao passado da escravidão, mesmo depois da abolição.
+@28 m historia/revolucoes-e-seculo-xix
+x: Robespierre liderava os jacobinos, ligados à pequena e média burguesia e aos sans-culottes (camadas populares), que queriam justiça social e participação política.
+@29 m filosofia/filosofia-moderna-e-contemporanea
+x: Nos dois momentos descritos, quem realmente decide é um pequeno grupo: primeiro afastando o povo, depois pedindo que ele decida sem entender. O poder de decisão fica com uma minoria.
+@30 m filosofia/filosofia-moderna-e-contemporanea
+s: 2009. No século XVI => 2009. || No século XVI
+s: Maquiavel, N. O Príncipe => > Maquiavel, N. O Príncipe
+x: Para Maquiavel, o príncipe pode usar a dureza (até ser visto como cruel) quando isso for conveniente para manter a ordem. A moral do governante se ajusta ao objetivo de conservar o poder.
+@31 m historia/brasil-imperio
+x: O Período Regencial teve muitas revoltas e disputas políticas (convulsão). Ao mesmo tempo, o café crescia (nova realidade econômica) e exigia manter a escravidão (velha realidade social).
+@32 f historia/brasil-republica
+x: Na Era Vargas foram criadas muitas leis trabalhistas (salário mínimo, férias, jornada de 8 horas, carteira de trabalho), que atendiam a antigas reivindicações dos operários.
+@33 m historia/ditadura-e-redemocratizacao
+e: Não é difícil entender o que ocorreu no Brasil nos anos imediatamente anteriores ao golpe militar de 1964. A diminuição da oferta de empregos e a desvalorização dos salários, provocadas pela inflação, levaram a uma intensa mobilização política popular, marcada por sucessivas ondas grevistas de várias categorias profissionais, o que aprofundou as tensões sociais. Dessa vez, as classes trabalhadoras se recusaram a pagar o pato pelas “sobras” do modelo econômico juscelinista. || > MENDONÇA, S. R. A Industrialização Brasileira. São Paulo: Moderna, 2002 (adaptado). || Segundo o texto, os conflitos sociais ocorridos no início dos anos 1960 decorreram principalmente
+a: da manipulação política empreendida pelo governo João Goulart. | das contradições econômicas do modelo desenvolvimentista. | do poder político adquirido pelos sindicatos populistas. | da desmobilização das classes dominantes frente ao avanço das greves. | da recusa dos sindicatos em aceitar mudanças na legislação trabalhista.
+x: O texto diz que a inflação, o desemprego e a perda salarial, "sobras" do modelo de JK, provocaram greves e tensões. Foram as contradições econômicas do desenvolvimentismo.
+@34 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Foucault, a lei nasce das batalhas e conquistas, ou seja, das relações de poder. Sua função é organizar essas relações de poder dentro da sociedade e entre os Estados.
+@35 f historia/ditadura-e-redemocratizacao
+e: Opinião || Podem me prender // Podem me bater // Podem até deixar-me sem comer // Que eu não mudo de opinião. || Aqui do morro eu não saio não // Aqui do morro eu não saio não. || Se não tem água // Eu furo um poço // Se não tem carne // Eu compro um osso e ponho na sopa // E deixa andar, deixa andar... || Falem de mim // Quem quiser falar // Aqui eu não pago aluguel // Se eu morrer amanhã seu doutor, // Estou pertinho do céu || > Zé Ketti. Opinião. Disponível em: http://www.mpbnet.com.br. Acesso em: 28 abr. 2010. || Essa música fez parte de um importante espetáculo teatral que estreou no ano de 1964, no Rio de Janeiro. O papel exercido pela Música Popular Brasileira (MPB) nesse contexto, evidenciado pela letra de música citada, foi o de
+x: O show "Opinião" (1964) foi uma resposta artística ao golpe militar. A letra fala da resistência do povo do morro e denuncia a situação social e política do país.
+@36 f historia/ditadura-e-redemocratizacao
+x: A imprensa na TV ajudou a democracia ao mostrar casos de corrupção, como no governo Collor, que levaram a investigações e ao impeachment.
+@37 f sociologia/temas-contemporaneos
+x: A internet permite votar, opinar e se informar por meios eletrônicos, ampliando a participação política e a circulação de informações.
+@38 m historia/revolucoes-e-seculo-xix
+x: Os luddistas quebravam máquinas porque elas tiravam empregos e destruíam modos de vida tradicionais. Era um protesto contra a degradação do trabalho, das tradições e da natureza.
+@39 m filosofia/filosofia-moderna-e-contemporanea
+s: (adaptado). O Século XX => (adaptado). || O Século XX
+s: CORDI et al. => > CORDI et al.
+x: O texto vê a ética como algo coletivo, que torna cada um responsável por todos. Assim, ela garante a cidadania, pois leva as pessoas a pensar e agir segundo valores coletivos.
+@40 m historia/revolucoes-e-seculo-xix
+s: 1982. A análise => 1982. || A análise
+x: O poema pergunta por que o trabalhador produz roupas e alimentos para os patrões e vive na miséria. A riqueza não fica com quem a produz.
+@41 m sociologia/temas-contemporaneos
+x: Desde a época colonial, a homossexualidade era tratada como pecado "que não pode ser dito". Essa herança de tabu e intolerância ajuda a explicar a violência atual.
+@42 f historia/seculo-xx
+g: E
+s: Guzmán Tapia As cortes => Guzmán Tapia || As cortes
+x: Os tribunais chilenos rejeitavam os pedidos de habeas corpus e deixavam os agentes do Estado impunes. O Judiciário ficou subordinado aos interesses da ditadura.
+@43 f sociologia/temas-contemporaneos
+x: A empresa troca funcionários por máquinas para cortar custos. A consequência para os trabalhadores é o desemprego e a insegurança no emprego.
+@44 m filosofia/filosofia-moderna-e-contemporanea
+x: Para o autor, o sujeito é histórico-social: suas ações individuais só podem ser avaliadas dentro das relações coletivas. Por isso a ética ganha um sentido coletivo e político.
+
+## 64-enem-2010-ciencias-da-natureza.md | 2010 | 1 | 1º dia, caderno azul | Ciências da Natureza
+auto: sim
+descricao: Questões oficiais de Biologia, Física e Química do ENEM 2010 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2010, Ciências da Natureza ocupou as questões 46 a 90 do 1º dia. Os números indicam a posição de cada questão na prova. Quadros e equações químicas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Biologia:** vacina × soro × antibiótico, ciclos biogeoquímicos, eutrofização, Lamarck (uso e desuso), ritmo circadiano, mosquito transgênico, biomas brasileiros.
+- **Física:** reflexão na ionosfera, potência (P = U · i), ebulição e pressão, empuxo, blindagem eletrostática (gaiola de Faraday), calor × temperatura.
+- **Química:** reações endotérmicas, combustão do octano, estequiometria (DBO, PbCO₃), eletrólise (Q = i · t), concentração em mol/L, calor de combustão por litro.
+- **Meio ambiente:** ilhas de calor, aterro sanitário, fósforo e reciclagem, energia solar fotovoltaica.
+
+@46 f biologia/saude-e-doencas
+x: Vacina previne (estimula o corpo a produzir defesas, como contra a febre amarela). Soro trata na hora com anticorpos prontos (picada de cobra). Antibiótico combate bactérias (a leptospirose é causada por uma bactéria).
+@47 f fisica/ondulatoria-e-optica
+x: A ionosfera funciona como um espelho para as ondas de rádio: elas batem nela e voltam para a Terra, contornando a curvatura do planeta. Isso é reflexão.
+@48 m fisica/eletricidade
+e: Todo carro possui uma caixa de fusíveis, que são utilizados para proteção dos circuitos elétricos. Os fusíveis são constituídos de um material de baixo ponto de fusão, como o estanho, por exemplo, e se fundem quando percorridos por uma corrente elétrica igual ou maior do que aquela que são capazes de suportar. O quadro a seguir mostra uma série de fusíveis e os valores de corrente por eles suportados. || Quadro — Fusível: corrente elétrica (A): Azul 1,5; Amarelo 2,5; Laranja 5,0; Preto 7,5; Vermelho 10,0. || Um farol usa uma lâmpada de gás halogênio de 55 W de potência que opera com 36 V. Os dois faróis são ligados separadamente, com um fusível para cada um, mas, após um mau funcionamento, o motorista passou a conectá-los em paralelo, usando apenas um fusível. Dessa forma, admitindo-se que a fiação suporte a carga dos dois faróis, o menor valor de fusível adequado para proteção desse novo circuito é o
+x: Os dois faróis juntos consomem 110 W. A corrente é i = P ÷ U = 110 ÷ 36 ≈ 3,06 A. O menor fusível que suporta mais que isso é o de 5,0 A (laranja).
+@49 f biologia/saude-e-doencas
+x: As bactérias da boca transformam o açúcar em ácidos que corroem o dente. Muito açúcar e escovação ruim favorecem a proliferação delas e a cárie.
+@50 m fisica/termologia
+x: Se temperatura medisse "quantidade de calor", a água que recebe calor do fogo sempre esquentaria mais. Mas durante a fervura ela recebe calor e a temperatura fica constante (o calor é usado na mudança de estado).
+@51 m biologia/ecologia
+g: D
+e: O texto “O voo das folhas” traz uma visão dos índios Ticunas para um fenômeno usualmente observado na natureza: || O voo das folhas || Com o vento // as folhas se movimentam. // E quando caem no chão // ficam paradas em silêncio. // Assim se forma o ngaura. // O ngaura cobre o chão da floresta, // enriquece a terra // e alimenta as árvores. // As folhas velhas morrem // para ajudar o crescimento das folhas novas. // Dentro do ngaura vivem aranhas, formigas, // escorpiões, centopeias, minhocas, // cogumelos e vários tipos de outros seres // muito pequenos. // As folhas também caem nos lagos, // nos igarapés e igapós. || > A natureza segundo os Ticunas/Livro das Árvores. Organização Geral dos Professores Bilíngues Ticunas, 2000. || Na visão dos índios Ticunas, a descrição sobre o ngaura permite classificá-lo como um produto diretamente relacionado ao ciclo
+x: O ngaura é a camada de folhas mortas (serapilheira). Fungos e pequenos seres a decompõem, devolvendo ao solo e ao ar a matéria orgânica, rica em carbono, que alimenta as árvores. Por isso está ligado ao ciclo do carbono.
+@52 m fisica/termologia
+x: Eficiência aqui é conseguir o aquecimento fornecendo a maior quantidade de energia no menor tempo, ou seja, ter maior potência útil.
+@53 f biologia/ecologia
+s: íon de fosfato ( ) => íon de fosfato (PO₄³⁻)
+x: Reciclar dejetos animais e restos de plantas como adubo devolve o fósforo ao solo, sem depender só das minas, que estão se esgotando.
+@54 m fisica/ondulatoria-e-optica
+g: E
+s: destacada pela seta. => destacada pela seta. (Imagem: foto de Júpiter sem a faixa escura do hemisfério sul.)
+x: As faixas que vemos são nuvens que refletem a luz do Sol. Se a densidade das nuvens daquela região muda, a quantidade de luz refletida muda, e a faixa escura pode "sumir" da imagem.
+@55 f quimica/solucoes
+g: C
+s: canade-açúcar => cana-de-açúcar
+x: O eletroímã retira os metais (separação magnética); a moenda tira o caldo da cana (extração); e o caldo passa por filtros (filtração). Queimar o bagaço não é uma separação de materiais.
+@57 m biologia/ecologia
+e: O despejo de dejetos de esgotos domésticos e industriais vem causando sérios problemas aos rios brasileiros. Esses poluentes são ricos em substâncias que contribuem para a eutrofização de ecossistemas, que é um enriquecimento da água por nutrientes, o que provoca um grande crescimento bacteriano e, por fim, pode promover escassez de oxigênio. || Uma maneira de evitar a diminuição da concentração de oxigênio no ambiente é:
+a: Aquecer as águas dos rios para aumentar a velocidade de decomposição dos dejetos. | Retirar do esgoto os materiais ricos em nutrientes para diminuir a sua concentração nos rios. | Adicionar bactérias anaeróbicas às águas dos rios para que elas sobrevivam mesmo sem o oxigênio. | Substituir produtos não degradáveis por biodegradáveis para que as bactérias possam utilizar os nutrientes. | Aumentar a solubilidade dos dejetos no esgoto para que os nutrientes fiquem mais acessíveis às bactérias.
+x: A falta de oxigênio vem do excesso de nutrientes, que faz as bactérias se multiplicarem e consumirem o oxigênio. Tirando os nutrientes do esgoto (tratamento), esse crescimento não acontece.
+@58 m fisica/termologia
+s: 100 o C => 100 °C
+s: do êmbolo. Considerando => do êmbolo. || Considerando
+x: Ao puxar o êmbolo, a pressão dentro da seringa cai. Com pressão menor, a água ferve a uma temperatura mais baixa, por isso volta a ferver.
+@59 f geografia/populacao-e-urbanizacao
+s: como o CO 2 , o principal => como o CO₂, o principal
+x: Com mais calor nas cidades, as pessoas e as indústrias usam mais ar-condicionado e refrigeração, o que aumenta o consumo de energia elétrica.
+@60 m biologia/fisiologia-humana
+s: H.L.;TSCHIEDEL => H. L.; TSCHIEDEL
+x: Na osmose, a água vai do meio menos concentrado para o mais concentrado. Se o solo fica mais salgado que as raízes, a planta não consegue absorver água, mesmo com o solo úmido: é a seca fisiológica.
+@61 f biologia/ecologia
+s: afetando também a atividade pesqueira. => afetando também a atividade pesqueira. (Imagem: ave coberta de óleo.)
+x: O óleo afetou algas, peixes, aves, árvores do mangue e até a pesca. Isso mostra que os seres vivos dependem uns dos outros e do ambiente em que vivem.
+@62 f biologia/fisiologia-humana
+s: FIGURA 1 FIGURA 2 Com base => Com base
+x: O papel dobrado absorveu mais água porque tem mais superfície em contato com ela. As microvilosidades fazem o mesmo no intestino: aumentam a superfície de absorção.
+@63 m quimica/fisico-quimica
+g: A
+e: O crescimento da produção de energia elétrica ao longo do tempo tem influenciado decisivamente o progresso da humanidade, mas também tem criado uma séria preocupação: o prejuízo ao meio ambiente. Nos próximos anos, uma nova tecnologia de geração de energia elétrica deverá ganhar espaço: as células a combustível hidrogênio/oxigênio. || > VILLULLAS, H. M.; TICIANELLI, E. A.; GONZÁLEZ, E. R. Química Nova na Escola. N.º 15, maio 2002. || (Imagem: esquema de uma célula a combustível em que entram hidrogênio e oxigênio e sai água.) || Com base no texto e na figura, a produção de energia elétrica por meio da célula a combustível hidrogênio/oxigênio diferencia-se dos processos convencionais porque
+a: transforma energia química em energia elétrica, sem causar danos ao meio ambiente, porque o principal subproduto formado é a água. | converte a energia química contida nas moléculas dos componentes em energia térmica, sem que ocorra a produção de gases poluentes nocivos ao meio ambiente. | transforma energia química em energia elétrica, porém emite gases poluentes da mesma forma que a produção de energia a partir dos combustíveis fósseis. | converte energia elétrica proveniente dos combustíveis fósseis em energia química, retendo os gases poluentes produzidos no processo sem alterar a qualidade do meio ambiente. | converte a energia potencial acumulada nas moléculas de água contidas no sistema em energia química, sem que ocorra a produção de gases poluentes nocivos ao meio ambiente.
+x: Na célula a combustível, hidrogênio e oxigênio reagem e geram corrente elétrica diretamente (energia química → elétrica). O produto é água, que não polui.
+@64 f biologia/evolucao
+x: Lamarck explicava a evolução pelo uso e desuso: um órgão pouco usado (como os olhos no escuro) atrofiaria, e a mudança passaria aos filhos. A ideia de seleção natural é de Darwin.
+@65 d quimica/fisico-quimica
+e: As misturas efervescentes, em pó ou em comprimidos, são comuns para a administração de vitamina C ou de medicamentos para azia. Essa forma farmacêutica sólida foi desenvolvida para facilitar o transporte, aumentar a estabilidade de substâncias e, quando em solução, acelerar a absorção do fármaco pelo organismo. || As matérias-primas que atuam na efervescência são, em geral, o ácido tartárico ou o ácido cítrico que reagem com um sal de caráter básico, como o bicarbonato de sódio (NaHCO₃), quando em contato com a água. A partir do contato da mistura efervescente com a água, ocorre uma série de reações químicas simultâneas: liberação de íons, formação de ácido e liberação do gás carbônico — gerando a efervescência. As equações a seguir representam as etapas da reação da mistura efervescente na água, em que foram omitidos os estados de agregação dos reagentes, e H₃A representa o ácido cítrico. || I- NaHCO₃ → Na⁺ + HCO₃⁻ // II- H₂CO₃ ⇌ H₂O + CO₂ // III- HCO₃⁻ + H⁺ ⇌ H₂CO₃ // IV- H₃A ⇌ 3 H⁺ + A³⁻ || A ionização, a dissociação iônica, a formação do ácido e a liberação do gás ocorrem, respectivamente, nas seguintes etapas:
+x: Ionização: o ácido cítrico (molecular) libera H⁺ na água (IV). Dissociação iônica: o sal NaHCO₃ separa seus íons (I). Formação do ácido: HCO₃⁻ + H⁺ formam H₂CO₃ (III). Liberação do gás: o H₂CO₃ se decompõe em H₂O e CO₂ (II). A ordem é IV, I, III e II.
+@67 m quimica/fisico-quimica
+s: Considerando a reação: CH 4(g) + H 2 O (v) + calor => Considerando a reação: CH₄ (g) + H₂O (v) + calor ⇌
+s: CO (g) + 3 H 2(g) e analisando => CO (g) + 3 H₂ (g) e analisando
+x: A reação direta absorve calor (endotérmica): guarda a energia do Sol. Ela forma CO e H₂, que são combustíveis e podem ser queimados depois, liberando essa energia.
+@69 d quimica/calculos-fisico-quimicos
+e: No que tange à tecnologia de combustíveis alternativos, muitos especialistas em energia acreditam que os alcoóis vão crescer em importância em um futuro próximo. Realmente, alcoóis como metanol e etanol têm encontrado alguns nichos para uso doméstico como combustíveis há muitas décadas e, recentemente, vêm obtendo uma aceitação cada vez maior como aditivos, ou mesmo como substitutos para gasolina em veículos. Algumas das propriedades físicas desses combustíveis são mostradas no quadro seguinte. || Quadro — Álcool: densidade a 25 °C (g/mL); calor de combustão (kJ/mol): // Metanol (CH₃OH): 0,79; −726,0 // Etanol (CH₃CH₂OH): 0,79; −1 367,0 || > BAIRD, C. Química Ambiental. São Paulo: Artmed, 1995 (adaptado). || Dados: Massas molares em g/mol: H = 1,0; C = 12,0; O = 16,0. || Considere que, em pequenos volumes, o custo de produção de ambos os alcoóis seja o mesmo. Dessa forma, do ponto de vista econômico, é mais vantajoso utilizar
+x: Um litro de cada álcool tem 790 g. Etanol (46 g/mol): 790 ÷ 46 ≈ 17,2 mol × 1 367 kJ ≈ 23 500 kJ ≈ 23,5 MJ. Metanol (32 g/mol): 790 ÷ 32 ≈ 24,7 mol × 726 kJ ≈ 17,9 MJ. O etanol libera mais energia por litro.
+@71 d biologia/seres-vivos
+g: E
+s: Moreira Jr.,v.04, n.04 => Moreira Jr., v. 04, n. 04
+s: matériaprima => matéria-prima
+x: Bactérias se reproduzem muito rápido por divisão binária, gerando descendentes idênticos. E têm metabolismo variado: algumas vivem com oxigênio, outras sem. Por isso se instalam na córnea mesmo quando ela fica com pouco oxigênio.
+@72 d quimica/estequiometria
+e: Todos os organismos necessitam de água e grande parte deles vive em rios, lagos e oceanos. Os processos biológicos, como respiração e fotossíntese, exercem profunda influência na química das águas naturais em todo o planeta. O oxigênio é ator dominante na química e na bioquímica da hidrosfera. Devido a sua baixa solubilidade em água (9,0 mg/L a 20 °C) a disponibilidade de oxigênio nos ecossistemas aquáticos estabelece o limite entre a vida aeróbica e anaeróbica. Nesse contexto, um parâmetro chamado Demanda Bioquímica de Oxigênio (DBO) foi definido para medir a quantidade de matéria orgânica presente em um sistema hídrico. A DBO corresponde à massa de O₂ em miligramas necessária para realizar a oxidação total do carbono orgânico em um litro de água. || > BAIRD, C. Química Ambiental. Ed. Bookman, 2005 (adaptado). || Dados: Massas molares em g/mol: C = 12; H = 1; O = 16. || Suponha que 10 mg de açúcar (fórmula mínima CH₂O e massa molar igual a 30 g/mol) são dissolvidos em um litro de água; em quanto a DBO será aumentada?
+a: 0,4 mg de O₂/litro | 1,7 mg de O₂/litro | 2,7 mg de O₂/litro | 9,4 mg de O₂/litro | 10,7 mg de O₂/litro
+x: A oxidação é CH₂O + O₂ → CO₂ + H₂O (1 mol de O₂ para cada 30 g de açúcar). 10 mg ÷ 30 = 0,333 mmol de açúcar, que gastam 0,333 mmol de O₂ × 32 ≈ 10,7 mg de O₂ por litro.
+@73 d quimica/estequiometria
+e: A composição média de uma bateria automotiva esgotada é de aproximadamente 32% Pb, 3% PbO, 17% PbO₂ e 36% PbSO₄. A média de massa da pasta residual de uma bateria usada é de 6 kg, onde 19% é PbO₂, 60% PbSO₄ e 21% Pb. Entre todos os compostos de chumbo presentes na pasta, o que mais preocupa é o sulfato de chumbo (II), pois nos processos pirometalúrgicos, em que os compostos de chumbo (placas das baterias) são fundidos, há a conversão de sulfato em dióxido de enxofre, gás muito poluente. || Para reduzir o problema das emissões de SO₂ (g), a indústria pode utilizar uma planta mista, ou seja, utilizar o processo hidrometalúrgico, para a dessulfuração antes da fusão do composto de chumbo. Nesse caso, a redução de sulfato presente no PbSO₄ é feita via lixiviação com solução de carbonato de sódio (Na₂CO₃) 1 M a 45 °C, em que se obtém o carbonato de chumbo (II) com rendimento de 91%. Após esse processo, o material segue para a fundição para obter o chumbo metálico. || PbSO₄ + Na₂CO₃ → PbCO₃ + Na₂SO₄ || Dados: Massas molares em g/mol: Pb = 207; S = 32; Na = 23; O = 16; C = 12. || > ARAÚJO, R. V. V.; TRINDADE, R. B. E.; SOARES, P. S. M. Reciclagem de chumbo de bateria automotiva: estudo de caso. Disponível em: http://www.iqsc.usp.br. Acesso em: 17 abr. 2010 (adaptado). || Segundo as condições do processo apresentado para a obtenção de carbonato de chumbo (II) por meio da lixiviação por carbonato de sódio e considerando uma massa de pasta residual de uma bateria de 6 kg, qual quantidade aproximada, em quilogramas, de PbCO₃ é obtida?
+x: A pasta tem 60% de PbSO₄: 0,6 × 6 = 3,6 kg. PbSO₄ = 303 g/mol e PbCO₃ = 267 g/mol, então 3,6 × 267 ÷ 303 ≈ 3,17 kg. Com rendimento de 91%: 3,17 × 0,91 ≈ 2,9 kg.
+@74 d quimica/fisico-quimica
+g: D
+s: (CuSO 4 ) => (CuSO₄)
+s: de aproximadamente Dados: => de aproximadamente || Dados:
+x: Carga: Q = i × t = 10 × 3 × 3 600 = 108 000 C. Cada Cu²⁺ precisa de 2 elétrons: 2 × 96 500 = 193 000 C depositam 63,5 g. Então 108 000 ÷ 193 000 × 63,5 ≈ 35,5 g.
+@75 m biologia/ecologia
+e: Dois pesquisadores percorreram os trajetos marcados no mapa. A tarefa deles foi analisar os ecossistemas e, encontrando problemas, relatar e propor medidas de recuperação. A seguir, são reproduzidos trechos aleatórios extraídos dos relatórios desses dois pesquisadores. || (Imagem: mapa do Brasil com os trajetos dos dois pesquisadores.) || Trechos aleatórios extraídos do relatório do pesquisador P1: || I. “Por causa da diminuição drástica das espécies vegetais deste ecossistema, como os pinheiros, a gralha azul também está em processo de extinção”. || II. “As árvores de troncos tortuosos e cascas grossas que predominam nesse ecossistema estão sendo utilizadas em carvoarias”. || Trechos aleatórios extraídos do relatório do pesquisador P2: || III. “Das palmeiras que predominam nesta região podem ser extraídas substâncias importantes para a economia regional”. || IV. “Apesar da aridez desta região, em que encontramos muitas plantas espinhosas, não se pode desprezar a sua biodiversidade.” || > Ecossistemas brasileiros: mapa da distribuição dos ecossistemas. Disponível em: http://educacao.uol.com.br/ciencias/ult1686u52.jhtm. Acesso em: 20 abr. 2010 (adaptado). || Os trechos I, II, III e IV referem-se, pela ordem, aos seguintes ecossistemas:
+x: Pinheiros e gralha-azul: Mata de Araucárias. Árvores tortuosas de casca grossa: Cerrado. Palmeiras (babaçu, carnaúba): Zona dos Cocais. Aridez e plantas espinhosas: Caatinga.
+@76 m biologia/genetica-e-biotecnologia
+x: Os machos modificados passam o gene dominante aos filhos. As filhas nascem sem conseguir voar, não picam nem se reproduzem direito. Assim a população do vetor e a transmissão da dengue diminuem.
+@77 m quimica/ligacoes-e-funcoes-inorganicas
+s: || monofluoracetato de sódio. || => || (Imagem: fórmula estrutural do monofluoracetato de sódio.) ||
+x: Ácido + base → sal + água. O ácido monofluoracético reage com o hidróxido de sódio (neutralização), formando o sal monofluoracetato de sódio e água.
+@78 m fisica/eletricidade
+x: Uma caixa de metal fechada funciona como uma gaiola de Faraday: bloqueia as ondas eletromagnéticas do celular (blindagem eletrostática). A madeira deixa as ondas passarem.
+@79 m quimica/estequiometria
+s: Revista Aquecimento Global. => > Revista Aquecimento Global.
+s: Cultura Ltda. Um dos => Cultura Ltda. || Um dos
+s: (C 8 H 18 ) => (C₈H₁₈)
+s: sob a forma de O 2 . => sob a forma de O₂.
+x: A combustão completa é C₈H₁₈ + 12,5 O₂ → 8 CO₂ + 9 H₂O. Para cada octano, são 12,5 de oxigênio, 8 de gás carbônico e 9 de água.
+@81 m fisica/estatica-e-hidrostatica
+x: Na água, a escultura recebe o empuxo, força para cima igual ao peso da água deslocada (proporcional ao volume do objeto). Somado à força dos trabalhadores, pode superar o peso.
+@83 f quimica/solucoes
+s: várias outras substâncias. A figura a seguir ilustra essa citação. => várias outras substâncias.
+a: 0,02 | 0,2 | 2 | 200 | 2000
+x: Mols de sacarose: 3,42 ÷ 342 = 0,01 mol. Volume: 50 mL = 0,05 L. Concentração: 0,01 ÷ 0,05 = 0,2 mol/L.
+@85 m quimica/quimica-ambiental
+s: Scientific American. Brasil. Ano 7 => > Scientific American. Brasil. Ano 7
+s: (adaptado). Essa afirmação => (adaptado). || Essa afirmação
+x: O cálcio deixa o solo menos ácido (eleva o pH). Com pH mais alto, o alumínio fica menos disponível e menos tóxico, o que permitiu a entrada de plantas invasoras que não toleravam o alumínio.
+@87 m biologia/ecologia
+g: E
+e: De 15% a 20% da área de um canavial precisa ser renovada anualmente. Entre o período de corte e o de plantação de novas canas, os produtores estão optando por plantar leguminosas, pois elas fixam nitrogênio no solo, um adubo natural para a cana. Essa opção de rotação é agronomicamente favorável, de forma que municípios canavieiros são hoje grandes produtores de soja, amendoim e feijão. || > As encruzilhadas da fome. Planeta. São Paulo, ano 36, n.º 430, jul. 2008 (adaptado). || A rotação de culturas citada no texto pode beneficiar economicamente os produtores de cana porque
+a: a decomposição da cobertura morta dessas culturas resulta em economia na aquisição de adubos industrializados. | o plantio de cana-de-açúcar propicia um solo mais adequado para o cultivo posterior da soja, do amendoim e do feijão. | as leguminosas absorvem do solo elementos químicos diferentes dos absorvidos pela cana, restabelecendo o equilíbrio do solo. | a queima dos restos vegetais do cultivo da cana-de-açúcar transforma-se em cinzas, sendo reincorporadas ao solo, o que gera economia na aquisição de adubo. | a soja, o amendoim e o feijão, além de possibilitarem a incorporação ao solo de determinadas moléculas disponíveis na atmosfera, são grãos comercializados no mercado produtivo.
+x: As leguminosas trazem dois ganhos: fixam no solo o nitrogênio do ar (adubo natural para a cana) e ainda produzem grãos que podem ser vendidos.
+@88 m biologia/fisiologia-humana
+g: D
+x: Sem a luz do dia, o relógio biológico perdeu sua referência. O ritmo de sono mudou e a pessoa perdeu a noção dos dias: o ritmo circadiano depende das pistas de claro e escuro.
+@89 f fisica/trabalho-energia-e-potencia
+x: O município é pequeno e tem sol forte o ano todo. Painéis fotovoltaicos aproveitam essa energia sem poluir o rio nem alagar o vale.
+@90 f geografia/populacao-e-urbanizacao
+x: No aterro sanitário, o lixo é coberto com terra e o chorume é recolhido por drenos e tratado, sem contaminar o solo e a água como no lixão.

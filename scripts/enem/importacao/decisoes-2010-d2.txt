@@ -1,0 +1,187 @@
+## 61-enem-2010-matematica.md | 2010 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2010 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, gráficos simples, frações e expoentes foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Razão e escala:** coloque as duas medidas na mesma unidade antes de comparar (2,1 cm : 42 m = 1 : 2 000).
+- **Porcentagem:** "40% curados, e os outros divididos em dois grupos" — calcule cada parte sobre o total.
+- **Geometria espacial:** volume do cubo (a³), do cilindro (π r² h) e da pirâmide (área da base × altura ÷ 3); peças ocas = volume externo − volume interno.
+- **Trigonometria:** tg 60° = √3 ≈ 1,73 ajuda a achar alturas.
+- **Contagem:** permutações de 5 cidades (5! = 120) e trajetos simétricos contados uma vez só.
+- **Funções:** valores máximo e mínimo de expressões com cosseno (cos varia de −1 a 1).
+
+@138 f matematica/grandezas-medidas-escalas
+x: 42 m = 4 200 cm. A razão é 2,1 : 4 200 = 1 : 2 000.
+@139 f matematica/geometria-espacial
+x: O volume do paralelepípedo é 3 × 18 × 4 = 216 cm³. O cubo de mesmo volume tem aresta ∛216 = 6 cm.
+@145 f matematica/porcentagem
+s: IT_072145 Taxas de desemprego nas regiões metropolitanas março/2010 São Paulo 13,1 Salvador 19,9 Recife 19,3 Porto Alegre 9,8 Belo Horizonte 10,2 Distrito Federal 14,7 => Gráfico — Taxas de desemprego nas regiões metropolitanas, março/2010 (%): São Paulo 13,1; Salvador 19,9; Recife 19,3; Porto Alegre 9,8; Belo Horizonte 10,2; Distrito Federal 14,7.
+s: a partir de MT - PROVA I dados colhidos => a partir de dados colhidos
+x: Em Porto Alegre a taxa é 9,8%: 0,098 × 250 000 = 24 500 desempregados.
+@146 f matematica/grandezas-medidas-escalas
+s: Um tipo especial de peça feita ________________________________________________________________________________ nessa companhia => Um tipo especial de peça feita nessa companhia
+s: MT - PROVA I || => ||
+x: Multiplicar comprimento × largura × altura de um paralelepípedo dá o seu volume.
+@154 f matematica/porcentagem
+x: O lucro passou de 132 000 para 145 000: aumento de 13 000 ÷ 132 000 ≈ 9,8%. Fica entre 5% e 10%: desempenho bom.
+@176 f matematica/razao-proporcao-regra-de-tres
+s: _____________________________________________________________________ A disparidade => A disparidade
+s: (adaptado). Seguindo => (adaptado). || Seguindo
+s: Revista Veja. Ano 41 => > Revista Veja. Ano 41
+x: Em Netuno cabem 58 Terras, e em Júpiter cabem 23 Netunos: 23 × 58 = 1 334 Terras.
+@177 f matematica/razao-proporcao-regra-de-tres
+s: ____________________________________________________________________ Um dos grandes problemas da poluição dos mananciais (rios, córregos e outros) ocorre 45 pelo hábito => Um dos grandes problemas da poluição dos mananciais (rios, córregos e outros) ocorre pelo hábito
+s: (ed. 208) (adaptado). Suponha => (ed. 208) (adaptado). || Suponha
+s: Manual de etiqueta. => > Manual de etiqueta.
+a: 10⁻² | 10³ | 10⁴ | 10⁶ | 10⁹
+x: Cada 10 L de óleo contaminam 10⁷ L de água. 1 000 L de óleo são 100 vezes 10 L: 100 × 10⁷ = 10⁹ litros de água por semana.
+@140 m matematica/estatistica
+s: Ranking do Desmatamento em km² 9º Amapá 8º Tocantins 136 7º Roraima 326 6º Acre 549 5º Maranhão 766 797 4º Amazonas 3º Rondônia 3463 2º Pará 7293 1º Mato Grosso 10416 => Gráfico — Ranking do desmatamento em km²: 9º Amapá 4; 8º Tocantins 136; 7º Roraima 326; 6º Acre 549; 5º Maranhão 766; 4º Amazonas 797; 3º Rondônia 3 463; 2º Pará 7 293; 1º Mato Grosso 10 416.
+a: 100 km² e 900 km². | 1 000 km² e 2 700 km². | 2 800 km² e 3 200 km². | 3 300 km² e 4 000 km². | 4 100 km² e 5 800 km².
+x: O total de 2004 é 4 + 136 + 326 + 549 + 766 + 797 + 3 463 + 7 293 + 10 416 = 23 750 km². Com 10,5% a mais: 23 750 × 1,105 ≈ 26 244 km². A média por estado: 26 244 ÷ 9 ≈ 2 916 km², entre 2 800 e 3 200.
+@141 m matematica/porcentagem
+s: Estudantes que possuem telefone móvel celular com idade de 10 anos ou mais Porcentagem (%) || Possuíam Norte Sudeste Sul Nordeste Centro- este Não Possuíam Regiões brasileiras Fonte: IBGE.Disponível em: http://www.ibge.gov.br. Acesso em: 28 abr. 2010 (adaptado). Supondo-se => Gráfico — Estudantes de 10 anos ou mais que possuem telefone celular (região: % que possuíam; % que não possuíam): Norte: 37; 63. Nordeste: 36; 64. Sudeste: 56; 44. Sul: 62; 38. Centro-Oeste: 58; 42. || > Fonte: IBGE. Disponível em: http://www.ibge.gov.br. Acesso em: 28 abr. 2010 (adaptado). || Supondo-se
+x: No Sudeste, 56% dos estudantes possuíam celular: 0,56 × 14 900 = 8 344.
+@148 m matematica/estatistica
+s: MT - PROVA I _________________________________________________ O gráfico => O gráfico
+s: IT_072301 Almanaque Abril 2008. Editora Abril. => (No gráfico, os valores estão em bilhões de dólares, e o ano de 2003, marcado como "início da guerra no Iraque", aparece com 417,4.) || > Almanaque Abril 2008. Editora Abril.
+x: O gráfico está em bilhões de dólares: 417,4 bilhões = 417,4 × 1 000 000 000 = U$ 417.400.000.000,00.
+@149 m matematica/funcoes-afim-e-quadratica
+s: A estrutura de formação das figuras está representada a seguir. => A estrutura de formação das figuras está representada a seguir: a figura I é 1 quadrado; a figura II, 2 quadrados lado a lado; a figura III, 3 quadrados lado a lado.
+x: Um quadrado usa 4 canudos; cada novo quadrado colado ao lado aproveita um canudo e acrescenta 3. Com 1, 2 e 3 quadrados: 4, 7 e 10 canudos. Logo C = 3Q + 1.
+@150 m matematica/geometria-plana
+s: O valor da segunda encomenda será o dobro do valor da primeira encomenda, porque a altura e a largura dos quadros dobraram. || maior do que o valor da primeira encomenda, mas não o dobro. || a metade do valor da primeira encomenda, porque a altura e a largura dos quadros dobraram. || menor do que o valor da primeira encomenda, mas => O valor da segunda encomenda será
+a: o dobro do valor da primeira encomenda, porque a altura e a largura dos quadros dobraram. | maior do que o valor da primeira encomenda, mas não o dobro. | a metade do valor da primeira encomenda, porque a altura e a largura dos quadros dobraram. | menor do que o valor da primeira encomenda, mas não a metade. | igual ao valor da primeira encomenda, porque o custo de entrega será o mesmo.
+x: 1ª encomenda: cada quadro tem 0,125 m² de tela (R$ 2,50) e 1,5 m de moldura (R$ 22,50): 8 × 25 + 10 = R$ 210. 2ª: cada quadro tem 0,5 m² (R$ 10) e 3 m de moldura (R$ 45): 8 × 55 + 10 = R$ 450. É maior que a primeira, mas não é exatamente o dobro (a tela cresce 4 vezes, a moldura 2 vezes e a entrega não muda).
+@155 m matematica/equacoes-e-sistemas
+x: Os 500 folhetos do 2º tipo custam 500 × (0,65 + 0,60 + 0,20) = R$ 725. Sobram R$ 275 para o 1º tipo: 275 ÷ 0,65 ≈ 423 folhetos. Selos de R$ 0,65: 500 + 423 = 923.
+@157 m matematica/geometria-espacial
+x: O concreto forma um cilindro de raio 1,2 m menos o de raio 1 m, com 4 m de altura: 3,1 × (1,44 − 1) × 4 = 3,1 × 0,44 × 4 ≈ 5,456 m³. Custo: 5,456 × 10 ≈ R$ 54,56.
+@158 m matematica/geometria-espacial
+s: A essa medida denomina-se “rodo” da árvore. O quadro a seguir => A essa medida denomina-se “rodo” da árvore. || O quadro a seguir
+s: O volume da tora em m 3 é dado por V = rodo 2 × altura × 0,06 O rodo => Quadro: o volume da tora em m³ é dado por V = rodo² × altura × 0,06. O rodo
+s: conforme indicado na figura. => (veja a figura da prova).
+x: Espécie I: 3² × 12 × 0,06 = 6,48 m³ por tora; 3 toras = 19,44 m³ × 0,77 ≈ 14,97 t. Espécie II: 4² × 10 × 0,06 = 9,6 m³; 2 toras = 19,2 m³ × 0,78 ≈ 14,98 t. Total ≈ 29,9 toneladas.
+@160 m matematica/trigonometria
+s: alinhada com a primeira, e no mesmo sentido, conforme se vê na figura, e o avistou => alinhada com a primeira, e no mesmo sentido, e o avistou
+x: A primeira pessoa está a 1,8 km do ponto abaixo do balão e o vê a 60°: h = 1,8 × tg 60° = 1,8 × 1,73 ≈ 3,1 km. (Pela segunda: 5,5 × tg 30° ≈ 5,5 × 0,58 ≈ 3,2 km, o que confirma.)
+@164 m matematica/geometria-plana
+s: seja tangente às suas faces laterais, conforme mostra a figura. => seja tangente às suas faces laterais.
+x: A base é um triângulo retângulo (6² + 8² = 10²). O círculo tangente aos três lados é o inscrito, de raio r = (cateto + cateto − hipotenusa) ÷ 2 = (6 + 8 − 10) ÷ 2 = 2 cm. (Ou: área 24 = r × semiperímetro 12.)
+@169 m matematica/equacoes-e-sistemas
+s: O Salto Triplo é uma modalidade do atletismo em que o atleta IT_070310 dá => O Salto Triplo é uma modalidade do atletismo em que o atleta dá
+x: Se o 1º salto é x, o 2º é x − 1,2 e o 3º é x − 1,2 − 1,5 = x − 2,7. Total: 3x − 3,9 = 17,4, então 3x = 21,3 e x = 7,1 m, entre 7 e 8 m.
+@170 m matematica/porcentagem
+x: 60% não foram curados e foram divididos em dois grupos de 30%. Curados: 35% de 30% = 10,5% e 45% de 30% = 13,5%. Total: 24% dos pacientes iniciais.
+@174 m matematica/analise-combinatoria
+e: João mora na cidade A e precisa visitar cinco clientes, localizados em cidades diferentes da sua. Cada trajeto possível pode ser representado por uma sequência de 7 letras. Por exemplo, o trajeto ABCDEFA, informa que ele sairá da cidade A, visitando as cidades B, C, D, E e F nesta ordem, voltando para a cidade A. Além disso, o número indicado entre as letras informa o custo do deslocamento entre as cidades. A figura mostra o custo de deslocamento entre cada uma das cidades. || Como João quer economizar, ele precisa determinar qual o trajeto de menor custo para visitar os cinco clientes. Examinando a figura, percebe que precisa considerar somente parte das sequências, pois os trajetos ABCDEFA e AFEDCBA têm o mesmo custo. Ele gasta 1min30s para examinar uma sequência e descartar sua simétrica, conforme apresentado. || O tempo mínimo necessário para João verificar todas as sequências possíveis no problema é de
+x: As 5 cidades podem ser visitadas em 5! = 120 ordens. Cada trajeto e o seu inverso têm o mesmo custo, então basta examinar 60. Tempo: 60 × 1,5 min = 90 min.
+@179 m matematica/geometria-espacial
+s: O volume de madeira utilizado na confecção desse objeto foi de 12 cm 3 . || 64 cm 3 . || MT - PROVA I => O volume de madeira utilizado na confecção desse objeto foi de
+s: seguindo o modelo ilustrado a seguir. => seguindo o modelo da figura da prova.
+a: 12 cm³. | 64 cm³. | 96 cm³. | 1 216 cm³. | 1 728 cm³.
+x: Volume do cubo externo: 12³ = 1 728 cm³. O cubo interno, vazio, tem 8³ = 512 cm³. Madeira: 1 728 − 512 = 1 216 cm³.
+@144 m fisica/eletricidade
+s: dada a mesma se c ção => dada a mesma secção
+s: da se c ção transversal (A) , => da secção transversal (A),
+s: Considerando os resistores como fios, pode-se exemplificar o estudo das grandezas que influem na resistência elétrica utilizando as figuras seguintes. => Considerando os resistores como fios, pode-se exemplificar o estudo das grandezas que influem na resistência elétrica utilizando as figuras seguintes (não reproduzidas aqui).
+x: A resistência de um fio é R = ρ · ℓ/A. Fio mais comprido, mais resistência (direta). Fio mais grosso, menos resistência (inversa). Para manter a mesma R, se o fio fica mais comprido ele precisa ser mais grosso (direta).
+@159 d matematica/razao-proporcao-regra-de-tres
+s: O Recíproco do Índice Ponderal (RIP), I de acordo com o MT - PROVA _____________________________________________________________________ modelo alométrico => O Recíproco do Índice Ponderal (RIP), de acordo com o modelo alométrico
+s: As fórmulas que determinam esses índices são: || massa ( kg ) || altura ( cm ) || IMC = RIP = [ altura ( m ) ] 2 massa ( kg ) => As fórmulas que determinam esses índices são: || IMC = massa (kg) ÷ [altura (m)]² e RIP = altura (cm) ÷ ∛massa (kg)
+a: 0,4 cm/kg^(1/3). | 2,5 cm/kg^(1/3). | 8 cm/kg^(1/3). | 20 cm/kg^(1/3). | 40 cm/kg^(1/3).
+x: IMC 25 = 64 ÷ h², então h² = 2,56 e h = 1,6 m = 160 cm. RIP = 160 ÷ ∛64 = 160 ÷ 4 = 40 cm/kg^(1/3).
+@161 d matematica/trigonometria
+s: t minutos após ter atingido sua órbita, MT está a r quilômetros de distância - PROVA I do centro da Terra. => t minutos após ter atingido sua órbita, está a r quilômetros de distância do centro da Terra.
+s: dado por 5 865 r(t) = 1 + 0,15 => dado por r(t) = 5 865 ÷ [1 + 0,15 ·
+s: cos(0,06t) => cos(0,06t)]
+x: r é máximo quando o denominador é mínimo (cos = −1): 5 865 ÷ 0,85 = 6 900 km (apogeu). r é mínimo com cos = 1: 5 865 ÷ 1,15 = 5 100 km (perigeu). S = 6 900 + 5 100 = 12 000 km.
+@165 d matematica/geometria-plana
+s: MT - PROVA I || IT_07 A ideia => A ideia
+s: as pirâmides. || R || BOLT => as pirâmides. (Na figura, um bloco de pedra está apoiado sobre rolos cilíndricos, que rolam sobre o chão.) || BOLT
+x: Numa volta completa sem deslizar, o centro do rolo avança 2πR em relação ao chão. O topo do rolo, onde o bloco se apoia, move-se com o dobro da velocidade do centro, então o bloco avança 2 × 2πR = 4πR.
+@172 d matematica/porcentagem
+x: Em 2006: Brasil 43% de 40 = 17,2 bilhões de L; EUA 45% = 18. Em 2009 os EUA farão 9. Para Brasil + EUA = 88% de 40 = 35,2, o Brasil precisa produzir 26,2. Aumento: 9 ÷ 17,2 ≈ 52,3%.
+
+## 62-enem-2010-linguagens.md | 2010 | 2 | 2º dia, caderno amarelo | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2010 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Gêneros e funções:** horóscopo aconselha, notícia informa ação/finalidade/resultado, biografia narra de forma objetiva; função referencial = informação.
+- **Coesão:** "mas" pode opor ou acrescentar; "mesmo" indica concessão; neologismo = palavra nova ("corasamborim").
+- **Variação:** linguagem culta em carta ao presidente; língua técnica em revista para professores.
+- **Literatura:** Álvares de Azevedo, Monteiro Lobato, Machado de Assis, Jorge Amado e Dalton Trevisan, João do Rio e Lima Barreto.
+- **Artes:** Impressionismo (pinceladas de cores puras), Dalí e o surrealismo, Anita Malfatti e o Modernismo, dança folclórica.
+
+@97 f portugues/funcoes-generos-e-variacao
+x: O texto apresenta conceitos (biosfera, ecossistema) de forma objetiva, sem opinião nem apelo ao leitor. É a função referencial.
+@98 f portugues/funcoes-generos-e-variacao
+s: 2010 IT_070599 || Câncer => Câncer
+x: É um horóscopo: dá conselhos ao leitor sobre autoestima, saúde, família e amor.
+@100 f portugues/funcoes-generos-e-variacao
+s: Revista Época. N° 424, 03 jul. 2006. Ao circularem => Revista Época. N° 424, 03 jul. 2006. || Ao circularem
+s: Campanha publicitária de loja => > Campanha publicitária de loja
+x: A propaganda brinca com "memória" (a do computador e a do leitor) para fazer o leitor lembrar das 12 parcelas sem juros e comprar. O objetivo é levar ao consumo.
+@103 f portugues/interpretacao-de-texto
+x: O texto explica o que é o transtorno, como se manifesta e quantas pessoas atinge, sem narrar casos nem dar conselhos. A finalidade é expor o assunto de modo geral.
+@112 f portugues/funcoes-generos-e-variacao
+x: A notícia diz o que foi feito (o Ibama incinerou redes), por quê (preservar os peixes na reprodução) e o resultado (15 t de peixes apreendidos e doados).
+@117 f portugues/interpretacao-de-texto
+x: O texto diz que, como qualquer pessoa pode editar e reeditar a Wikipédia, não podemos confiar integralmente no que lemos.
+@99 m portugues/funcoes-generos-e-variacao
+x: O texto usa termos técnicos da área de linguagem, como "dicotômicas", "código" e "modalidades da língua", próprios de um texto para professores.
+@101 m portugues/semantica-e-figuras-de-linguagem
+x: A autora diz que "realizou uma consulta paranormal com o pai da psicanálise", mas depois descobre que o teste dá o mesmo resultado para qualquer resposta. A frase é irônica.
+@104 m portugues/morfologia-e-sintaxe
+x: "Ela é difícil de ser encontrada, mas fácil de ser identificada": o "mas" mostra oposição. As outras frases acrescentam características à gentileza. O texto mostra oposição e acrescenta ideias.
+@106 m artes/artes-e-educacao-fisica
+s: ______________________________ 017 O folclore => O folclore
+x: O balé é uma dança de origem europeia, erudita, feita por profissionais em espetáculos. Não é uma dança folclórica brasileira, como o bumba-meu-boi, a quadrilha, o congado e o carnaval.
+@107 m portugues/semantica-e-figuras-de-linguagem v
+x: "Corasamborim" junta coração, samba e tamborim numa palavra nova, criada com recursos da própria língua: é um neologismo.
+@108 m artes/artes-e-educacao-fisica
+s: MONET,C. Mulher com sombrinha. 1875, 100x81cm. || In: BECKETT => (Quadro: Mulher com sombrinha, de Claude Monet, 1875.) || > MONET, C. Mulher com sombrinha. 1875. In: BECKETT
+s: 1997. Em busca => 1997. || Em busca
+x: Os impressionistas pintavam ao ar livre, com pinceladas rápidas e cores puras colocadas lado a lado na tela, que se misturam no olhar de quem vê, para captar a luz do momento.
+@109 m portugues/funcoes-generos-e-variacao
+s: São muitos os sites que oferecem ________________________________________________________________________________ a opção de bate-papo 021 que deseja “entrar”, na internet, basta escolher a sala identificar - se e iniciar a conversa. => São muitos os sites que oferecem a opção de bate-papo na internet; basta escolher a sala que deseja “entrar”, identificar-se e iniciar a conversa.
+x: No chat, cada participante usa um "nick", um apelido. Assim, a conversa acontece em tempo real sem que as pessoas precisem mostrar sua identidade verdadeira.
+@113 m portugues/funcoes-generos-e-variacao
+x: O texto apresenta a vida de Machado de Assis (nascimento, pais, infância, estudos) em ordem, como uma narração, com linguagem objetiva. É uma biografia.
+@118 m literatura/pre-modernismo-ao-contemporaneo
+x: Os meninos de Jorge Amado dormem num trapiche, ao vento e à chuva; os bêbados de Trevisan vivem sob um ingazeiro, comendo sobras do mercado. Nos dois, o lugar onde vivem marca a exclusão social.
+@119 m literatura/quinhentismo-ao-simbolismo v
+x: O eu lírico, abandonado pela amada, se sente morrer, não consegue dormir e só pede esperança. É a melancolia que paralisa e impede qualquer reação diante da perda, marca do ultrarromantismo.
+@123 m artes/artes-e-educacao-fisica
+s: Esse método era IT_071400 constituído => Esse método era constituído
+x: Dalí, inspirado em Freud, pintava imagens de sonho (oníricas), misturando sonho e realidade, consciente e inconsciente, como os relógios moles.
+@124 m portugues/funcoes-generos-e-variacao
+x: O texto relata a colisão, mas usa expressões como "era questão de tempo" e "montanha de lixo espacial" e aponta os riscos. Ele argumenta para formar a opinião do leitor sobre o problema.
+@127 m portugues/funcoes-generos-e-variacao
+x: O autor escreve ao presidente com vocabulário formal ("clarividente atenção de Vossa Excelência", "conjurada uma calamidade"), adequado ao interlocutor e à situação: linguagem culta.
+@128 m literatura/pre-modernismo-ao-contemporaneo
+x: Dona Inácia é chamada de "virtuosa", mas é cruel com a menina e não aceita "essa indecência de negro igual". A contradição está na resistência dela em aceitar a liberdade dos negros, depois da abolição.
+@130 m portugues/morfologia-e-sintaxe
+x: "Mesmo com mais posse de bola, o time [...] tinha grande dificuldade": era de esperar que, com a bola, fosse mais fácil. "Mesmo" introduz uma concessão.
+@132 m artes/artes-e-educacao-fisica
+x: Anita Malfatti e os modernistas romperam com as regras acadêmicas europeias, usando cores fortes, liberdade de formas e temas brasileiros.
+@134 m literatura/pre-modernismo-ao-contemporaneo
+s: Texto I || Eu amo a rua. => Texto I || Eu amo a rua.
+x: João do Rio diz que o amor à rua nos une e nos torna irmãos: sentido de comunidade. Na rua, a personagem de Lima Barreto se exibe "como uma duquesa", sob os olhares dos outros: exibição pessoal.
+@135 m portugues/funcoes-generos-e-variacao
+s: N°14. O inventor => N°14. || O inventor
+s: BERCITTO, D. Revista => > BERCITTO, D. Revista
+x: No dicionário, o leitor não lê de forma linear: vai direto ao verbete que quer e salta de uma palavra para outra. É uma forma de hipertexto impresso.
+@114 d portugues/interpretacao-de-texto
+x: Os sociólogos e historiadores disseram que os comportamentos da Inquisição não poderiam ter durado até hoje. O autor contesta essa opinião, dizendo que vê resquícios deles no Brasil.
+@115 d portugues/funcoes-generos-e-variacao
+x: Mesmo sem falantes do egípcio antigo, sua escrita foi decifrada; e o tupi deixou marcas no português. Elementos de uma língua permanecem mesmo quando não há mais falantes dela.
+@116 d literatura/pre-modernismo-ao-contemporaneo
+x: No primeiro "mas" (o fogão dava estouros, mas o vento lembrava...), há oposição. No segundo ("não outras, mas essas apenas"), há retificação, uma ênfase. O conectivo tem funções diferentes.
+@129 d literatura/quinhentismo-ao-simbolismo
+x: Rubião, que era pobre e enriqueceu, passa a valorizar a prata, o luxo e os criados brancos para impressionar. O trecho mostra o triunfo da aparência sobre a essência, tema universal de Machado.
+@125 f portugues/interpretacao-de-texto
+s: Texto para as questões 125 e 126 A carreira do crime Estudo => A carreira do crime || Estudo
+x: O autor compara números: o tráfico paga de R$ 400 a R$ 12.000, enquanto o Bolsa-Escola paga R$ 15 por aluno. São números que comparam o que o governo e o crime oferecem.
+@126 m portugues/interpretacao-de-texto
+c: c2010-125.txt
+x: O editorial conclui que "a única maneira de reduzir a atração exercida pelo tráfico é a repressão". Ele quer convencer o leitor de que é preciso aumentar a ação policial.

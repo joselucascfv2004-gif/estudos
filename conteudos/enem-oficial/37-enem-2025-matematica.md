@@ -96,7 +96,7 @@ Um visitante chegou à empresa às 10 horas da manhã para se reunir com o funci
 **Assunto:** matematica/numeros-e-operacoes
 
 ### 166
-O dono de uma sorveteria armazena sorvete em potes de 20 000 cm³ . Ele serve o sorvete em taças, em porções de 250 mL. A quantidade de taças que ele consegue servir a partir de um pote cheio de sorvete é
+O dono de uma sorveteria armazena sorvete em potes de 20 000 cm³. Ele serve o sorvete em taças, em porções de 250 mL. A quantidade de taças que ele consegue servir a partir de um pote cheio de sorvete é
 
 - A) 5.
 - B) 8.

@@ -444,7 +444,7 @@ Para que se alcance o lucro esperado, o gasto médio por pessoa com bebidas e pe
 **Assunto:** matematica/porcentagem
 
 ### 174
-O arquiteto Renzo Piano exibiu a maquete da nova sede do Museu Whitney de Arte Americana, um prédio assimétrico que tem um vão aberto para a galeria principal, cuja medida da área é 1672 m² .
+O arquiteto Renzo Piano exibiu a maquete da nova sede do Museu Whitney de Arte Americana, um prédio assimétrico que tem um vão aberto para a galeria principal, cuja medida da área é 1672 m².
 
 Considere que a escala da maquete exibida é 1 : 200. Época, n. 682, jun. 2011 (adaptado).
 

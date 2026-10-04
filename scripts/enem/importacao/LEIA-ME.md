@@ -12,3 +12,17 @@ Os PDFs não ficam no repositório: baixe-os do site do INEP (provas e gabaritos
 4. `node montar-md.mjs decisoes-ANO-dN.txt` grava os arquivos `.md` em `conteudos/enem-oficial/`.
 
 Textos usados por várias questões ficam em arquivos `cANO-NN.txt` (gerados com `compart.mjs`).
+
+## ENEM 2010
+
+O PDF da prova de 2010 desenha as letras das alternativas como imagens, e o gabarito só existe como
+marcas verdes no caderno `2010_GBPV_D1.pdf` / `D2.pdf`.
+
+- `circulos.mjs` acha os círculos das alternativas e as marcas verdes nas páginas desenhadas em imagem;
+  `gab.mjs` monta um gabarito provisório a partir delas.
+- `extrair2010.mjs` usa a posição das linhas (`pdftotext -bbox-layout`) e os círculos para separar
+  enunciado e alternativas.
+- O gabarito provisório erra cerca de 1 em cada 10 questões. Por isso, cada questão incluída foi
+  resolvida e, havendo dúvida, conferida na página do gabarito oficial; a linha `g: LETRA` nas decisões
+  registra a letra conferida.
+- Em 2010, o 1º dia teve Ciências Humanas (1–45) e Ciências da Natureza (46–90).

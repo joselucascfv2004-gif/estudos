@@ -31,6 +31,7 @@ for (const l of linhas) {
   if (l.startsWith('x: ')) q.x = l.slice(3).trim();
   else if (l.startsWith('e: ')) q.e = l.slice(3).split(' || ');
   else if (l.startsWith('s: ')) q.s.push(/ =>\s*$/.test(l) ? [l.slice(3).replace(/ =>\s*$/, ''), ''] : l.slice(3).split(' => '))
+  else if (l.startsWith('g: ')) q.g = l.slice(3).trim();
   else if (l.startsWith('a: ')) q.a = l.slice(3).split(' | ').map((s) => s.trim());
   else if (l.startsWith('c: ')) q.c = fs.readFileSync(l.slice(3).trim(), 'utf8').trim().split(/\n\s*\n/).map((p) => p.trim());
   else if (l.trim() && q.x) q.x += ' ' + l.trim();
@@ -94,13 +95,14 @@ for (const a of arquivos) {
     for (const d of a.qs.filter((x) => x.nivel === nv)) {
       const e = ext.find((x) => x.num === d.num);
       if (!e) { faltas.push(d.num); continue; }
+      if (d.g) e.gab = d.g;
       if (!/^[A-E]$/.test(e.gab || '')) faltas.push(`${d.num} (gabarito ${e.gab})`);
       if (!d.x) faltas.push(`${d.num} sem explicação`);
       const troca = (t) => d.s.reduce((acc, [de, para]) => acc.split(de).join(para), t);
       const base = [...(d.c || []), ...(d.e || (d.verso ? versos(e.linhasCorpo) : e.pars))];
       // as trocas valem sobre o texto inteiro (parágrafos separados por " || "), para poder unir parágrafos
-      const pars = troca(base.join(' || '))
-        .split(' || ').map((t) => t.trim()).filter(Boolean)
+      const pars = troca(base.join(' || ')).replace(/ *[\uE000-\uF8FF] */g, ' ')
+        .split(' || ').map((t) => t.replace(/ *(\bIT_\d+\b|\b(MT|LC|CH|CN) - PROVA I\b|_{10,}) */g, ' ').trim()).filter(Boolean)
         // "Acesso em: ..." e parágrafos que começam com minúscula continuam o parágrafo anterior
         .reduce((acc, t) => {
           const ant = acc[acc.length - 1];
