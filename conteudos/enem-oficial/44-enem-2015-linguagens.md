@@ -248,6 +248,27 @@ O texto integra um guia de modelos e técnicas de elaboração de textos e cumpr
 
 **Assunto:** portugues/funcoes-generos-e-variacao
 
+### 102
+Riscar o chão para sair pulando é uma brincadeira que vem dos tempos do Império Romano. A amarelinha original tinha mais de cem metros e era usada como treinamento militar. As crianças romanas, então, fizeram imitações reduzidas do campo utilizado pelos soldados e acrescentaram numeração nos quadrados que deveriam ser pulados. Hoje as amarelinhas variam nos formatos geométricos e na quantidade de casas. As palavras “céu” e “inferno” podem ser escritas no começo e no final do desenho, que é marcado no chão com giz, tinta ou graveto.
+
+> Disponível em: www.biblioteca.ajes.edu.br. Acesso em: 20 maio 2015 (adaptado).
+
+Com base em fatos históricos, o texto retrata o processo de adaptação pelo qual passou um tipo de brincadeira. Nesse sentido, conclui-se que as brincadeiras comportam o(a)
+
+- A) caráter competitivo que se assemelha às suas origens.
+- B) delimitação de regras que se perpetuam com o tempo.
+- C) definição antecipada do número de grupos participantes.
+- D) objetivo de aperfeiçoamento físico daqueles que a praticam.
+- E) possibilidade de reinvenção no contexto em que é realizada.
+
+**Resposta:** E
+
+**Explicação:** O texto mostra que a amarelinha começou como treino de soldados romanos, com mais de cem metros, e foi mudando até virar brincadeira de criança riscada no chão. As brincadeiras podem ser reinventadas conforme o lugar e a época em que são praticadas.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 102
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 103
@@ -599,6 +620,236 @@ O trecho da canção de Toquinho e Vinícius de Moraes apresenta marcas do gêne
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
 
+### 97
+Primeiro surgiu o homem nu de cabeça baixa. Deus veio num raio. Então apareceram os bichos que comiam os homens. E se fez o fogo, as especiarias, a roupa, a espada e o dever. Em seguida se criou a filosofia, que explicava como não fazer o que não devia ser feito. Então surgiram os números racionais e a História, organizando os eventos sem sentido. A fome desde sempre, das coisas e das pessoas. Foram inventados o calmante e o estimulante. E alguém apagou a luz. E cada um se vira como pode, arrancando as cascas das feridas que alcança.
+
+> BONASSI, F. 15 cenas do descobrimento de Brasis. In: MORICONI, Í. (Org.). Os cem melhores contos do século. Rio de Janeiro: Objetiva, 2001.
+
+A narrativa enxuta e dinâmica de Fernando Bonassi configura um painel evolutivo da história da humanidade. Nele, a projeção do olhar contemporâneo manifesta uma percepção que
+
+- A) recorre à tradição bíblica como fonte de inspiração para a humanidade.
+- B) desconstrói o discurso da filosofia a fim de questionar o conceito de dever.
+- C) resgata a metodologia da história para denunciar as atitudes irracionais.
+- D) transita entre o humor e a ironia para celebrar o caos da vida cotidiana.
+- E) satiriza a matemática e a medicina para desmistificar o saber científico.
+
+**Resposta:** D
+
+**Explicação:** Em frases curtas, o conto resume a história do mundo e do Brasil numa sequência rápida e caótica, com tiradas engraçadas e irônicas. O olhar contemporâneo passa pelo humor e pela ironia para mostrar (e celebrar) o caos da vida.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 98
+![Figura](enem-2015-d2-q098-1.webp)
+
+Dia do Músico, do Professor, da Secretária, do Veterinário... Muitas são as datas comemoradas ao longo do ano e elas, ao darem visibilidade a segmentos específicos da sociedade, oportunizam uma reflexão sobre a responsabilidade social desses segmentos. Nesse contexto, está inserida a propaganda da Associação Brasileira de Imprensa (ABI), em que se combinam elementos verbais e não verbais para se abordar a estreita relação entre imprensa, cidadania, informação e opinião. Sobre essa relação, depreende-se do texto da ABI que,
+
+- A) para a imprensa exercer seu papel social, ela deve transformar opinião em informação.
+- B) para a imprensa democratizar a opinião, ela deve selecionar a informação.
+- C) para o cidadão expressar sua opinião, ele deve democratizar a informação.
+- D) para a imprensa gerar informação, ela deve fundamentar-se em opinião.
+- E) para o cidadão formar sua opinião, ele deve ter acesso à informação.
+
+**Resposta:** E
+
+**Explicação:** A imagem mostra um homem gritando e a frase "Se a informação não chega, a opinião não sai!". A mensagem da ABI é que o cidadão só consegue formar sua opinião se tiver acesso à informação.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 98
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 101
+![Figura](enem-2015-d2-q101-1.webp)
+
+> Disponível em: www.behance.net. Acesso em: 21 fev. 2013 (adaptado).
+
+A rapidez é destacada como uma das qualidades do serviço anunciado, funcionando como estratégia de persuasão em relação ao consumidor do mercado gráfico. O recurso da linguagem verbal que contribui para esse destaque é o emprego
+
+- A) do termo “fácil” no início do anúncio, com foco no processo.
+- B) de adjetivos que valorizam a nitidez da impressão.
+- C) das formas verbais no futuro e no pretérito, em sequência.
+- D) da expressão intensificadora “menos do que” associada à qualidade.
+- E) da locução “do mundo” associada a “melhor”, que quantifica a ação.
+
+**Resposta:** C
+
+**Explicação:** "Cópia rápida fácil. Vai ser bom, não foi?" usa o futuro ("vai ser") e logo em seguida o pretérito ("foi"): a impressão fica pronta tão rápido que o serviço já aconteceu. A sequência de tempos verbais é que destaca a rapidez.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 101
+
+**Assunto:** portugues/morfologia-e-sintaxe
+
+### 105
+Rede social pode prever desempenho profissional, diz pesquisa
+
+Pense duas vezes antes de postar qualquer item em seu perfil nas redes sociais. O conselho, repetido à exaustão por consultores de carreira por aí, acaba de ganhar um status, digamos, mais científico. De acordo com resultados da pesquisa, uma rápida análise do perfil nas redes sociais pode prever o desempenho profissional do candidato a uma oportunidade de emprego. Para chegar a essa conclusão, uma equipe de pesquisadores da Northern Illinois University, University of Evansville e Auburn University pediu a um professor universitário e dois alunos para analisarem perfis de um grupo de universitários.
+
+Após checar fotos, postagens, número de amigos e interesses por 10 minutos, o trio considerou itens como consciência, afabilidade, extroversão, estabilidade emocional e receptividade. Seis meses depois, as impressões do grupo foram comparadas com a análise de desempenho feita pelos chefes dos jovens que tiveram seus perfis analisados. Os pesquisadores encontraram uma forte correlação entre as características descritas a partir dos dados da rede e o comportamento dos universitários no ambiente de trabalho.
+
+> Disponível em: http://exame.abril.com.br. Acesso em: 29 fev. 2012 (adaptado).
+
+As redes sociais são espaços de comunicação e interação on-line que possibilitam o conhecimento de aspectos da privacidade de seus usuários. Segundo o texto, no mundo do trabalho, esse conhecimento permite
+
+- A) identificar a capacidade física atribuída ao candidato.
+- B) certificar a competência profissional do candidato.
+- C) controlar o comportamento virtual e real do candidato.
+- D) avaliar informações pessoais e comportamentais sobre o candidato.
+- E) aferir a capacidade intelectual do candidato na resolução de problemas.
+
+**Resposta:** D
+
+**Explicação:** A pesquisa mostrou que, olhando por poucos minutos as fotos, postagens e interesses de alguém nas redes sociais, é possível prever traços de personalidade e desempenho no trabalho. As redes permitem avaliar informações pessoais e de comportamento do candidato.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 105
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 109
+![Figura](enem-2015-d2-q109-1.webp)
+
+> Disponível em: http://farm5.static.flickr.com. Acesso em: 26 out. 2011 (adaptado).
+
+Nas peças publicitárias, vários recursos verbais e não verbais são usados com o objetivo de atingir o públicoalvo, influenciando seu comportamento. Considerando as informações verbais e não verbais trazidas no texto a respeito da hepatite, verifica-se que
+
+- A) o tom lúdico é empregado como recurso de consolidação do pacto de confiança entre o médico e a população.
+- B) a figura do profissional da saúde é legitimada, evocando-se o discurso autorizado como estratégia argumentativa.
+- C) o uso de construções coloquiais e específicas da oralidade são recursos de argumentação que simulam o discurso do médico.
+- D) a empresa anunciada deixa de se autopromover ao mostrar preocupação social e assumir a responsabilidade pelas informações.
+- E) o discurso evidencia uma cena de ensinamento didático, projetado com subjetividade no trecho sobre as maneiras de prevenção.
+
+**Resposta:** B
+
+**Explicação:** O cartaz traz a imagem de uma médica, de jaleco e estetoscópio, ao lado das recomendações de prevenção. A figura da profissional de saúde dá autoridade ao que está escrito: é o discurso autorizado usado como argumento.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 114
+![Figura](enem-2015-d2-q114-1.webp)
+
+> MAGRITTE, R. A reprodução proibida. Óleo sobre tela, 81,3 x 65 cm. Museum Boijmans Van Buningen, Holanda,1937.
+
+O Surrealismo configurou-se como uma das vanguardas artísticas europeias do início do século XX. René Magritte, pintor belga, apresenta elementos dessa vanguarda em suas produções. Um traço do Surrealismo presente nessa pintura é o(a)
+
+- A) justaposição de elementos díspares, observada na imagem do homem no espelho.
+- B) crítica ao passadismo, exposta na dupla imagem do homem olhando sempre para frente.
+- C) construção de perspectiva, apresentada na sobreposição de planos visuais.
+- D) processo de automatismo, indicado na repetição da imagem do homem.
+- E) procedimento de colagem, identificado no reflexo do livro no espelho.
+
+**Resposta:** A
+
+**Explicação:** No quadro, o espelho deveria mostrar o rosto do homem, mas mostra as costas dele, enquanto o livro na prateleira aparece refletido normalmente. Juntar elementos que não combinam, criando uma imagem impossível, é um traço típico do Surrealismo.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 114
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 116
+![Figura](enem-2015-d2-q116-1.webp)
+
+As formas plásticas nas produções africanas conduziram artistas modernos do início do século XX, como Pablo Picasso, a algumas proposições artísticas denominadas vanguardas. A máscara remete à
+
+- A) preservação da proporção.
+- B) idealização do movimento.
+- C) estruturação assimétrica.
+- D) sintetização das formas.
+- E) valorização estética.
+
+**Resposta:** D
+
+**Explicação:** A máscara africana reduz o rosto a formas geométricas simples e expressivas, sem buscar copiar a realidade. Essa síntese das formas inspirou o Cubismo de Picasso.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 116
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 119
+TEXTO I
+
+Um ato de criatividade pode contudo gerar um modelo produtivo. Foi o que ocorreu com a palavra sambódromo, criativamente formada com a terminação -(ó)dromo (= corrida), que figura em hipódromo, autódromo, cartódromo, formas que designam itens culturais da alta burguesia. Não demoraram a circular, a partir de então, formas populares como rangódromo, beijódromo, camelódromo.
+
+> AZEREDO, J. C. Gramática Houaiss da língua portuguesa. São Paulo: Publifolha, 2008.
+
+TEXTO II
+
+Existe coisa mais descabida do que chamar de sambódromo uma passarela para desfile de escolas de samba? Em grego, -dromo quer dizer “ação de correr, lugar de corrida”, daí as palavras autódromo e hipódromo. É certo que, às vezes, durante o desfile, a escola se atrasa e é obrigada a correr para não perder pontos, mas não se desloca com a velocidade de um cavalo ou de um carro de Fórmula 1.
+
+> GULLAR, F. Disponível em: www1.folha.uol.com.br. Acesso em: 3 ago. 2012.
+
+Há nas línguas mecanismos geradores de palavras. Embora o Texto II apresente um julgamento de valor sobre a formação da palavra sambódromo, o processo de formação dessa palavra reflete
+
+- A) o dinamismo da língua na criação de novas palavras.
+- B) uma nova realidade limitando o aparecimento de novas palavras.
+- C) a apropriação inadequada de mecanismos de criação de palavras por leigos.
+- D) o reconhecimento da impropriedade semântica dos neologismos.
+- E) a restrição na produção de novas palavras com o radical grego.
+
+**Resposta:** A
+
+**Explicação:** A palavra "sambódromo" foi criada juntando "samba" com o elemento "-dromo", e depois serviu de modelo para outras (como "camelódromo"). Mesmo com a crítica de Gullar, isso mostra o dinamismo da língua, que sempre cria palavras novas.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 119
+
+**Assunto:** portugues/morfologia-e-sintaxe
+
+### 134
+Tudo era harmonioso, sólido, verdadeiro. No princípio. As mulheres, principalmente as mortas do álbum, eram maravilhosas. Os homens, mais maravilhosos ainda, ah, difícil encontrar família mais perfeita. A nossa família, dizia a bela voz de contralto da minha avó. Na nossa família, frisava, lançando em redor olhares complacentes, lamentando os que não faziam parte do nosso clã. [...]
+
+Quando Margarida resolveu contar os podres todos que sabia naquela noite negra da rebelião, fiquei furiosa. [...]
+
+É mentira, é mentira!, gritei tapando os ouvidos. Mas Margarida seguia em frente: tio Maximiliano se casou com a inglesa de cachos só por causa do dinheiro, não passava de um pilantra, a loirinha feiosa era riquíssima. Tia Consuelo? Ora, tia Consuelo chorava porque sentia falta de homem, ela queria homem e não Deus, ou o convento ou o sanatório. O dote era tão bom que o convento abriu-lhe as portas com loucura e tudo. “E tem mais coisas ainda, minha queridinha”, anunciou Margarida fazendo um agrado no meu queixo. Reagi com violência: uma agregada, uma cria e, ainda por cima, mestiça. Como ousava desmoralizar meus heróis?
+
+> TELLES, L. F. A estrutura da bolha de sabão. Rio de Janeiro: Rocco, 1999.
+
+Representante da ficção contemporânea, a prosa de Lygia Fagundes Telles configura e desconstrói modelos sociais. No trecho, a percepção do núcleo familiar descortina um(a)
+
+- A) convivência frágil ligando pessoas financeiramente dependentes.
+- B) tensa hierarquia familiar equilibrada graças à presença da matriarca.
+- C) pacto de atitudes e valores mantidos à custa de ocultações e hipocrisias.
+- D) tradicional conflito de gerações protagonizado pela narradora e seus tios.
+- E) velada discriminação racial refletida na procura de casamentos com europeus.
+
+**Resposta:** C
+
+**Explicação:** No álbum de família, todos pareciam maravilhosos, mas Margarida revela os "podres": casamentos por interesse e segredos. A família harmoniosa era mantida escondendo verdades, à custa de hipocrisia.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 134
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 135
+TEXTO I
+
+![Figura](enem-2015-d2-q135-1.webp)
+
+> FREUD, L. Francis Wyndham. Óleo sobre tela, 64 x 52 cm. Coleção pessoal, 1993.
+
+TEXTO II
+
+Lucian Freud é, como ele próprio gosta de relembrar às pessoas, um biólogo. Mais propriamente, tem querido registrar verdades muito específicas sobre como é tomar posse deste determinado corpo nesta situação particular, neste específico espaço de tempo.
+
+> SMEE, S. Freud. Köln: Taschen, 2010.
+
+Considerando a intencionalidade do artista, mencionada no Texto II, e a ruptura da arte no século XX com o parâmetro acadêmico, a obra apresentada trata do(a)
+
+- A) exaltação da figura masculina.
+- B) descrição precisa e idealizada da forma.
+- C) arranjo simétrico e proporcional dos elementos.
+- D) representação do padrão do belo contemporâneo.
+- E) fidelidade à forma realista isenta do ideal de perfeição.
+
+**Resposta:** E
+
+**Explicação:** Freud pinta o rosto com rugas, flacidez e marcas, como um biólogo que registra o corpo como ele é. A obra é fiel à forma real, sem embelezar nem buscar um ideal de perfeição.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 135
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Difícil
 
 ### 111
@@ -759,3 +1010,24 @@ Situado na vigência do Regime Militar que governou o Brasil, na década de 1970
 **Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 133
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 110
+![Figura](enem-2015-d2-q110-1.webp)
+
+> ÁVILA, A. Discurso da difamação do poeta. São Paulo: Summus, 1978.
+
+O contexto histórico e literário do período barrocoárcade fundamenta o poema Casa dos Contos, de 1975. A restauração de elementos daquele contexto por uma poética contemporânea revela que
+
+- A) a disposição visual do poema reflete sua dimensão plástica, que prevalece sobre a observação da realidade social.
+- B) a reflexão do eu lírico privilegia a memória e resgata, em fragmentos, fatos e personalidades da Inconfidência Mineira.
+- C) a palavra “esconso” (escondido) demonstra o desencanto do poeta com a utopia e sua opção por uma linguagem erudita.
+- D) o eu lírico pretende revitalizar os contrastes barrocos, gerando uma continuidade de procedimentos estéticos e literários.
+- E) o eu lírico recria, em seu momento histórico, numa linguagem de ruptura, o ambiente de opressão vivido pelos inconfidentes.
+
+**Resposta:** E
+
+**Explicação:** O poema, de 1975 (durante a ditadura), corta as palavras e evoca a Casa dos Contos de Ouro Preto, onde inconfidentes foram presos. Com uma linguagem de ruptura, o eu lírico recria o ambiente de opressão vivido pelos inconfidentes, aproximando os dois momentos históricos.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 110
+
+**Assunto:** literatura/quinhentismo-ao-simbolismo

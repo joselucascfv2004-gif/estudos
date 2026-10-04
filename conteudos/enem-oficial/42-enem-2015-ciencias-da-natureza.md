@@ -236,6 +236,46 @@ O uso desse látex em água infestada por hospedeiros intermediários tem potenc
 
 **Assunto:** biologia/saude-e-doencas
 
+### 66
+A cariotipagem é um método que analisa células de um indivíduo para determinar seu padrão cromossômico. Essa técnica consiste na montagem fotográfica, em sequência, dos pares de cromossomos e permite identificar um indivíduo normal (46, XX ou 46, XY) ou com alguma alteração cromossômica. A investigação do cariótipo de uma criança do sexo masculino com alterações morfológicas e comprometimento cognitivo verificou que ela apresentava fórmula cariotípica 47, XY, +18. A alteração cromossômica da criança pode ser classificada como
+
+- A) estrutural, do tipo deleção.
+- B) numérica, do tipo euploidia.
+- C) numérica, do tipo poliploidia.
+- D) estrutural, do tipo duplicação.
+- E) numérica, do tipo aneuploidia.
+
+**Resposta:** E
+
+**Explicação:** A fórmula 47, XY, +18 indica um cromossomo 18 a mais (trissomia do 18, síndrome de Edwards). Ganho ou perda de cromossomos isolados é uma alteração numérica do tipo aneuploidia.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 66
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 85
+Entre os anos de 1028 e 1038, Alhazen (Ibn al-Haytham; 965-1040 d.C.) escreveu sua principal obra, o Livro da Óptica, que, com base em experimentos, explicava o funcionamento da visão e outros aspectos da ótica, por exemplo, o funcionamento da câmara escura. O livro foi traduzido e incorporado aos conhecimentos científicos ocidentais pelos europeus. Na figura, retirada dessa obra, é representada a imagem invertida de edificações em um tecido utilizado como anteparo.
+
+![Figura](enem-2015-d1-q085-1.webp)
+
+> ZEWAIL, A. H. Micrographia of the twenty-first century: from camera obscura to 4D microscopy. Philosophical Transactions of the Royal Society A, v. 368, 2010 (adaptado).
+
+Se fizermos uma analogia entre a ilustração e o olho humano, o tecido corresponde ao(à)
+
+- A) íris.
+- B) retina.
+- C) pupila.
+- D) córnea.
+- E) cristalino.
+
+**Resposta:** B
+
+**Explicação:** Na câmara escura, a luz passa por um orifício e forma uma imagem invertida no tecido do fundo. No olho, a luz entra pela pupila e forma uma imagem invertida na retina, que faz o papel desse anteparo.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 85
+
+**Assunto:** biologia/fisiologia-humana
+
 ## Médio
 
 ### 46
@@ -531,6 +571,226 @@ A característica desses compostos, responsável pelo processo descrito no texto
 
 **Assunto:** quimica/quimica-organica, biologia/ecologia
 
+### 48
+Muitos estudos de síntese e endereçamento de proteínas utilizam aminoácidos marcados radioativamente para acompanhar as proteínas, desde fases iniciais de sua produção até seu destino final. Esses ensaios foram muito empregados para estudo e caracterização de células secretoras. Após esses ensaios de radioatividade, qual gráfico representa a evolução temporal da produção de proteínas e sua localização em uma célula secretora?
+
+- A) ![Alternativa A](enem-2015-d1-q048-1.webp)
+- B) ![Alternativa B](enem-2015-d1-q048-2.webp)
+- C) ![Alternativa C](enem-2015-d1-q048-3.webp)
+- D) ![Alternativa D](enem-2015-d1-q048-4.webp)
+- E) ![Alternativa E](enem-2015-d1-q048-5.webp)
+
+**Resposta:** C
+
+**Explicação:** As proteínas de secreção são feitas no retículo endoplasmático rugoso, passam pelo complexo golgiense e saem em vesículas de secreção. Por isso, a radioatividade aparece primeiro no retículo (5 min), depois no Golgi (10 min) e, por fim, nas vesículas (15 min).
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 48
+
+**Assunto:** biologia/citologia
+
+### 49
+Um carro solar é um veículo que utiliza apenas a energia solar para a sua locomoção. Tipicamente, o carro contém um painel fotovoltaico que converte a energia do Sol em energia elétrica que, por sua vez, alimenta um motor elétrico. A imagem mostra o carro solar Tokai Challenger, desenvolvido na Universidade de Tokai, no Japão, e que venceu o World Solar Challenge de 2009, uma corrida internacional de carros solares, tendo atingido uma velocidade média acima de 100 km/h.
+
+![Figura](enem-2015-d1-q049-1.webp)
+
+> Disponível em: www.physics.hku.hk. Acesso em: 3 jun. 2015.
+
+Considere uma região plana onde a insolação (energia solar por unidade de tempo e de área que chega à superfície da Terra) seja de 1 000 W/m², que o carro solar possua massa de 200 kg e seja construído de forma que o painel fotovoltaico em seu topo tenha uma área de 9,0 m² e rendimento de 30%. Desprezando as forças de resistência do ar, o tempo que esse carro solar levaria, a partir do repouso, para atingir a velocidade de 108 km/h é um valor mais próximo de
+
+- A) 1,0 s.
+- B) 4,0 s.
+- C) 10 s.
+- D) 33 s.
+- E) 300 s.
+
+**Resposta:** D
+
+**Explicação:** A potência útil é 1 000 W/m² × 9 m² × 0,30 = 2 700 W. Para chegar a 108 km/h (30 m/s), o carro precisa de energia cinética ½ × 200 × 30² = 90 000 J. Tempo: 90 000 ÷ 2 700 ≈ 33 s.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 49
+
+**Assunto:** fisica/trabalho-energia-e-potencia
+
+### 59
+Uma forma de organização de um sistema biológico é a presença de sinais diversos utilizados pelos indivíduos para se comunicarem. No caso das abelhas da espécie Apis mellifera, os sinais utilizados podem ser feromônios. Para saírem e voltarem de suas colmeias, usam um feromônio que indica a trilha percorrida por elas (Composto A). Quando pressentem o perigo, expelem um feromônio de alarme (Composto B), que serve de sinal para um combate coletivo. O que diferencia cada um desses sinais utilizados pelas abelhas são as estruturas e funções orgânicas dos feromônios.
+
+![Figura](enem-2015-d1-q059-1.webp)
+
+Composto A
+
+![Figura](enem-2015-d1-q059-2.webp)
+
+> QUADROS, A. L. Os feromônios e o ensino de química. Química Nova na Escola, n. 7, maio 1998 (adaptado).
+
+As funções orgânicas que caracterizam os feromônios de trilha e de alarme são, respectivamente,
+
+- A) álcool e éster.
+- B) aldeído e cetona.
+- C) éter e hidrocarboneto.
+- D) enol e ácido carboxílico.
+- E) ácido carboxílico e amida.
+
+**Resposta:** A
+
+**Explicação:** O composto A tem o grupo –OH ligado a um carbono saturado (CH₂OH): é um álcool. O composto B tem o grupo CH₃COO– ligado a uma cadeia de carbonos: é um éster (acetato).
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 59
+
+**Assunto:** quimica/quimica-organica
+
+### 60
+O permanganato de potássio (KMnO₄) é um agente oxidante forte muito empregado tanto em nível laboratorial quanto industrial. Na oxidação de alcenos de cadeia normal, como o 1-fenil-1-propeno, ilustrado na figura, o KMnO₄ é utilizado para a produção de ácidos carboxílicos.
+
+![Figura](enem-2015-d1-q060-1.webp)
+
+Os produtos obtidos na oxidação do alceno representado, em solução aquosa de KMnO₄, são:
+
+- A) Ácido benzoico e ácido etanoico.
+- B) Ácido benzoico e ácido propanoico.
+- C) Ácido etanoico e ácido 2-feniletanoico.
+- D) Ácido 2-feniletanoico e ácido metanoico.
+- E) Ácido 2-feniletanoico e ácido propanoico.
+
+**Resposta:** A
+
+**Explicação:** O permanganato quebra a ligação dupla do 1-fenil-1-propeno (C₆H₅–CH=CH–CH₃). Cada carbono da dupla, ligado a um H, vira um grupo –COOH: do lado do anel forma-se o ácido benzoico e do outro, com dois carbonos, o ácido etanoico (acético).
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 60
+
+**Assunto:** quimica/quimica-organica
+
+### 68
+Um estudante, precisando instalar um computador, um monitor e uma lâmpada em seu quarto, verificou que precisaria fazer a instalação de duas tomadas e um interruptor na rede elétrica. Decidiu esboçar com antecedência o esquema elétrico.
+
+“O circuito deve ser tal que as tomadas e a lâmpada devem estar submetidas à tensão nominal da rede elétrica e a lâmpada deve poder ser ligada ou desligada por um interruptor sem afetar os outros dispositivos” — pensou.
+
+Símbolos adotados: lâmpada (círculo com um X), tomada (figura com três furos) e interruptor (traço inclinado).
+
+Qual dos circuitos esboçados atende às exigências?
+
+- A) ![Alternativa A](enem-2015-d1-q068-2.webp)
+- B) ![Alternativa B](enem-2015-d1-q068-3.webp)
+- C) ![Alternativa C](enem-2015-d1-q068-4.webp)
+- D) ![Alternativa D](enem-2015-d1-q068-5.webp)
+- E) ![Alternativa E](enem-2015-d1-q068-6.webp)
+
+**Resposta:** E
+
+**Explicação:** Para que todos recebam a tensão da rede, lâmpada e tomadas devem estar em paralelo. O interruptor deve ficar em série só com a lâmpada, para ligá-la e desligá-la sem cortar a energia das tomadas. A última montagem é a que faz isso.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 68
+
+**Assunto:** fisica/eletricidade
+
+### 69
+Normalmente, as células do organismo humano realizam a respiração aeróbica, na qual o consumo de uma molécula de glicose gera 38 moléculas de ATP. Contudo, em condições anaeróbicas, o consumo de uma molécula de glicose pelas células é capaz de gerar apenas duas moléculas de ATP.
+
+![Figura](enem-2015-d1-q069-1.webp)
+
+Qual curva representa o perfil de consumo de glicose, para manutenção da homeostase de uma célula que inicialmente está em uma condição anaeróbica e é submetida a um aumento gradual da concentração de oxigênio?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** E
+
+**Explicação:** Sem oxigênio, a célula ganha só 2 ATP por glicose e precisa consumir muita glicose. À medida que o oxigênio aumenta, ela passa a respirar (38 ATP por glicose) e precisa de cada vez menos glicose. A curva que diminui com o aumento do oxigênio é a 5.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 69
+
+**Assunto:** biologia/citologia
+
+### 82
+Em um experimento, um professor levou para a sala de aula um saco de arroz, um pedaço de madeira triangular e uma barra de ferro cilíndrica e homogênea. Ele propôs que fizessem a medição da massa da barra utilizando esses objetos. Para isso, os alunos fizeram marcações na barra, dividindo-a em oito partes iguais, e em seguida apoiaram-na sobre a base triangular, com o saco de arroz pendurado em uma de suas extremidades, até atingir a situação de equilíbrio.
+
+![Figura](enem-2015-d1-q082-1.webp)
+
+Nessa situação, qual foi a massa da barra obtida pelos alunos?
+
+- A) 3,00 kg
+- B) 3,75 kg
+- C) 5,00 kg
+- D) 6,00 kg
+- E) 15,00 kg
+
+**Resposta:** E
+
+**Explicação:** A barra tem 8 partes iguais, e o apoio está na 3ª marca a partir do arroz. O arroz (5 kg) está a 3 partes do apoio. O peso da barra fica no meio dela (4ª marca), a 1 parte do apoio. Equilíbrio: 5 × 3 = M × 1, então M = 15 kg.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 82
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 84
+O aproveitamento de resíduos florestais vem se tornando cada dia mais atrativo, pois eles são uma fonte renovável de energia. A figura representa a queima de um bio-óleo extraído do resíduo de madeira, sendo ∆H₁ a variação de entalpia devido à queima de 1 g desse bio-óleo, resultando em gás carbônico e água líquida, e ∆H₂ a variação de entalpia envolvida na conversão de 1 g de água no estado gasoso para o estado líquido.
+
+![Figura](enem-2015-d1-q084-1.webp)
+
+A variação de entalpia, em kJ, para a queima de 5 g desse bio-óleo resultando em CO₂ (gasoso) e H₂O (gasoso) é:
+
+- A) −106.
+- B) −94,0.
+- C) −82,0.
+- D) −21,2.
+- E) −16,4.
+
+**Resposta:** C
+
+**Explicação:** Queimar 1 g formando água líquida libera 18,8 kJ, mas 2,4 kJ desse total vêm da condensação da água. Formando água gasosa: −18,8 + 2,4 = −16,4 kJ/g. Para 5 g: 5 × (−16,4) = −82,0 kJ.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 84
+
+**Assunto:** quimica/fisico-quimica
+
+### 88
+Para obter a posição de um telefone celular, a polícia baseia-se em informações do tempo de resposta do aparelho em relação às torres de celular da região de onde se originou a ligação. Em uma região, um aparelho está na área de cobertura de cinco torres, conforme o esquema.
+
+![Figura](enem-2015-d1-q088-1.webp)
+
+Considerando que as torres e o celular são puntiformes e que estão sobre um mesmo plano, qual o número mínimo de torres necessárias para se localizar a posição do telefone celular que originou a ligação?
+
+- A) Uma.
+- B) Duas.
+- C) Três.
+- D) Quatro.
+- E) Cinco.
+
+**Resposta:** C
+
+**Explicação:** Com uma torre, sabe-se só a distância: o celular pode estar em qualquer ponto de um círculo. Com duas, os círculos se cortam em até dois pontos. A terceira torre decide qual dos dois é o certo: são necessárias três.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 88
+
+**Assunto:** matematica/geometria-plana
+
+### 90
+A química verde permite o desenvolvimento tecnológico com danos reduzidos ao meio ambiente, e encontrar rotas limpas tem sido um grande desafio. Considere duas rotas diferentes utilizadas para a obtenção de ácido adípico, um insumo muito importante para a indústria têxtil e de plastificantes.
+
+Rota tradicional (marrom)
+
+![Figura](enem-2015-d1-q090-1.webp)
+
+> LENARDÃO, E. J. et al. Green chemistry – os 12 princípios da química verde e sua inserção nas atividades de ensino e pesquisa. Química Nova, n. 1, 2003 (adaptado).
+
+Que fator contribui positivamente para que a segunda rota de síntese seja verde em comparação à primeira?
+
+- A) Etapa única na síntese.
+- B) Obtenção do produto puro.
+- C) Ausência de reagentes oxidantes.
+- D) Ausência de elementos metálicos no processo.
+- E) Gasto de energia nulo na separação do produto.
+
+**Resposta:** A
+
+**Explicação:** A rota tradicional tem várias etapas, usa catalisadores metálicos e ácido nítrico, e libera CO₂ e N₂O (gases poluentes). A rota verde vai do cicloexeno ao ácido adípico em uma única etapa, gerando só água como subproduto.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 90
+
+**Assunto:** quimica/quimica-ambiental
+
 ## Difícil
 
 ### 55
@@ -641,3 +901,74 @@ A equação química que representa a reação de formação da mancha avermelha
 **Fonte:** ENEM 2015, 1º dia, caderno azul, questão 81
 
 **Assunto:** quimica/fisico-quimica
+
+### 50
+A radiação ultravioleta (UV) é dividida, de acordo com três faixas de frequência, em UV-A, UV-B e UV-C, conforme a figura.
+
+![Figura](enem-2015-d1-q050-1.webp)
+
+Para selecionar um filtro solar que apresente absorção máxima na faixa UV-B, uma pessoa analisou os espectros de absorção da radiação UV de cinco filtros solares:
+
+![Figura](enem-2015-d1-q050-2.webp)
+
+Considere: velocidade da luz = 3,0×10⁸ m/s e 1 nm = 1,0×10⁻⁹ m. O filtro solar que a pessoa deve selecionar é o
+
+- A) V.
+- B) IV.
+- C) III.
+- D) II.
+- E) I.
+
+**Resposta:** B
+
+**Explicação:** Pela figura, UV-B vai de 9,34 × 10¹⁴ Hz a 1,03 × 10¹⁵ Hz. Com λ = c/f: 3 × 10⁸ ÷ 9,34 × 10¹⁴ ≈ 321 nm e 3 × 10⁸ ÷ 1,03 × 10¹⁵ ≈ 291 nm. O filtro com absorção máxima entre 291 e 321 nm é o IV.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 50
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 53
+Certos tipos de superfícies na natureza podem refletir luz de forma a gerar um efeito de arco-íris. Essa característica é conhecida como iridescência e ocorre por causa do fenômeno da interferência de película fina. A figura ilustra o esquema de uma fina camada iridescente de óleo sobre uma poça d’água. Parte do feixe de luz branca incidente 1 reflete na interface ar/óleo e sofre inversão de fase equivale a uma mudança de meio comprimento de onda. A parte refratada do feixe 3 incide na interface óleo/água e sofre reflexão sem inversão de fase 4 . O observador indicado enxergará aquela região do filme com coloração equivalente à do comprimento de onda que sofre interferência completamente construtiva entre os raios 2 e 5 , mas essa condição só é possível para uma espessura mínima da película. Considere que o caminho percorrido em 3 e 4 corresponde ao dobro da espessura E da película de óleo.
+
+![Figura](enem-2015-d1-q053-1.webp)
+
+> Disponível em: http://2011.igem.org. Acesso em: 18 nov. 2014 (adaptado).
+
+Expressa em termos do comprimento de onda (λ), a espessura mínima é igual a
+
+- A) λ/4
+- B) λ/2
+- C) 3λ/4
+- D) λ
+- E) 2λ
+
+**Resposta:** A
+
+**Explicação:** O raio 2 sofre inversão de fase (meio comprimento de onda) e o raio 5 não. Para que 2 e 5 se reforcem, o caminho extra dentro da película (2E) precisa compensar essa meia onda: 2E = λ/2, logo a espessura mínima é E = λ/4.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 53
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 77
+Hidrocarbonetos podem ser obtidos em laboratório por descarboxilação oxidativa anódica, processo conhecido como eletrossíntese de Kolbe. Essa reação é utilizada na síntese de hidrocarbonetos diversos, a partir de óleos vegetais, os quais podem ser empregados como fontes alternativas de energia, em substituição aos hidrocarbonetos fósseis. O esquema ilustra simplificadamente esse processo.
+
+![Figura](enem-2015-d1-q077-1.webp)
+
+> AZEVEDO, D. C.; GOULART, M. O. F. Estereosseletividade em reações eletródicas. Química Nova, n. 2, 1997 (adaptado).
+
+Com base nesse processo, o hidrocarboneto produzido na eletrólise do ácido 3,3-dimetil-butanoico é o
+
+- A) 2,2,7,7-tetrametil-octano.
+- B) 3,3,4,4-tetrametil-hexano.
+- C) 2,2,5,5-tetrametil-hexano.
+- D) 3,3,6,6-tetrametil-octano.
+- E) 2,2,4,4-tetrametil-hexano.
+
+**Resposta:** C
+
+**Explicação:** Na eletrólise de Kolbe, cada ácido perde o grupo –COOH (sai como CO₂) e os dois restos se unem. O ácido 3,3-dimetilbutanoico, (CH₃)₃C–CH₂–COOH, deixa o grupo (CH₃)₃C–CH₂–. Unindo dois: (CH₃)₃C–CH₂–CH₂–C(CH₃)₃, o 2,2,5,5-tetrametil-hexano.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 77
+
+**Assunto:** quimica/quimica-organica

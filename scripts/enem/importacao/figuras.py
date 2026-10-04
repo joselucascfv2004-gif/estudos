@@ -329,7 +329,7 @@ def processa(i):
                         g[1] = max(g[1], bb[3] - 0.2 * h)
                     elif cy > g[3]:
                         g[3] = min(g[3], bb[1] + 0.2 * h)
-        grupos = [g for g in grupos if g[3] - g[1] > 10 and g[2] - g[0] > 10]
+        grupos = [g for g in grupos if (g[3] - g[1] > 10 and g[2] - g[0] > 10) or (g[3] - g[1] > 6 and g[2] - g[0] > 30)]
         for j, l in enumerate(ls):
             if j in usados:
                 continue

@@ -69,6 +69,36 @@ x: O Texto II mostra que, antes de 1888, muitos negros já eram livres e nem se 
 x: Deslizamentos acontecem quando a água da chuva encharca o solo, que fica pesado e perde a firmeza na encosta. Onde há boa drenagem, a água escoa sem saturar o terreno, e os movimentos de massa ficam menos prováveis.
 @32 d geografia/biomas-e-questoes-ambientais
 x: As veredas são áreas úmidas, com buritis, onde o lençol de água aflora. Elas acumulam a água que se infiltra nas chapadas e a liberam aos poucos para os rios, funcionando como uma "caixa-d'água" que represa a água.
+@1 m geografia/biomas-e-questoes-ambientais fig
+x: A área destacada como problema ambiental fica sobretudo na Caatinga, no Semiárido nordestino, com chuvas escassas e irregulares. O uso intenso do solo (desmatamento, pecuária, agricultura) nessa região leva à desertificação.
+@4 f geografia/economia-agropecuaria-industria-energia fig
+x: O médico estranha que a mulher "tente matar" o marido com pimentão, alface, tomate, morango e uva, alimentos conhecidos pela grande quantidade de agrotóxicos. A charge critica o uso excessivo de agrotóxicos nas plantações brasileiras.
+@10 m historia/brasil-republica fig
+x: O governo paulista comprou obras que exaltavam os bandeirantes como heróis que ampliaram o território do Brasil. Assim, construía uma memória que punha São Paulo no centro da história e da política do país.
+@11 m historia/antiguidade-e-idade-media fig
+x: Cada imagem do calendário mostra o trabalho do campo típico de um mês: plantar, colher, podar, fazer vinho, matar o porco. O tempo é marcado pelo ritmo da natureza e das estações, organizado pelo trabalho agrícola.
+@15 m geografia/cartografia fig
+x: O projeto ensina povos tradicionais a fazer seus próprios mapas, com GPS e técnicas modernas. Com isso, eles representam seus territórios, seus modos de vida e suas reivindicações: a cartografia ajuda a valorizar identidades coletivas.
+@16 m filosofia/filosofia-moderna-e-contemporanea fig
+x: Para Hume (empirista), a mente só combina materiais que vêm dos sentidos e da experiência: um "cavalo virtuoso" junta a ideia de cavalo com a de virtude, ambas já conhecidas. Todas as ideias têm origem nas sensações (impressões).
+@19 m historia/ditadura-e-redemocratizacao fig
+x: A charge ironiza a dívida externa: "entraram no país três bilhões de dólares", mas o pagamento começa daqui a dez anos. Durante o regime militar, o crescimento econômico (o "milagre") foi financiado com empréstimos estrangeiros, o que gerou uma dívida enorme.
+@27 m geografia/geografia-fisica fig
+x: No diagrama, o intemperismo "muito fraco" aparece com pouca chuva (menos de cerca de 600 mm por ano), mesmo com temperatura alta. No mapa, a região 1 fica no interior do Nordeste, área de clima semiárido.
+@28 m historia/antiguidade-e-idade-media fig
+x: Na pólis, o poder vem da palavra, do debate público. A ágora era a praça onde os cidadãos se reuniam para discutir e decidir as questões da cidade: o lugar da deliberação coletiva.
+@31 m geografia/geografia-fisica fig
+x: A figura mostra buracos arredondados (marmitas) no leito de rocha de um rio. Eles se formam quando a correnteza faz girar seixos e areia em redemoinhos, que vão desgastando a rocha.
+@34 m filosofia/filosofia-antiga-e-medieval fig
+x: Nietzsche diz que a frase de Tales ("a água é a origem de todas as coisas") importa porque busca a origem das coisas sem mito e fábula e porque afirma que "tudo é um". A filosofia nasce da busca racional por uma causa primeira de tudo.
+@36 m historia/brasil-imperio fig
+x: Pedro II assumiu o trono com 14 anos, antecipado pelo Golpe da Maioridade (1840). Uma década depois, os retratos mostram um homem barbado, de uniforme e em pose solene: a imagem de um imperador adulto, que governa segundo as leis (a Constituição).
+@38 m geografia/geopolitica-e-globalizacao fig
+x: O carro é financiado, projetado, montado e divulgado em vários países diferentes. Essa produção espalhada pelo mundo só é possível com empresas organizadas em rede e com tecnologias de informação e comunicação que ligam tudo isso.
+@39 d sociologia/temas-contemporaneos fig
+x: O texto critica uma sociedade em que "aparecer é mais do que ser": selfies, redes sociais e a busca de ser visto e falado. Isso mostra uma prática voltada para a própria imagem, uma identidade que se constrói olhando para si mesma (autorreferente).
+@43 m sociologia/sociologia-classica fig
+x: Para Mannheim, a pessoa fala o idioma do seu grupo e pensa à maneira do seu grupo: as palavras e os significados disponíveis definem como ela enxerga o mundo. O conhecimento da realidade é condicionado pela sociedade.
 
 ## 42-enem-2015-ciencias-da-natureza.md | 2015 | 1 | 1º dia, caderno azul | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2015 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
@@ -156,3 +186,36 @@ s: Semirreação de redução E° (V) || Ca2+ + 2 e− → Ca −2,87 Fe3+ + 3 e
 s: cobre(II), CuSO4 , => cobre(II), CuSO₄,
 a: Ca²⁺ (aq) + 2 Cu⁺ (aq) → Ca (s) + 2 Cu²⁺ (aq). | Ca²⁺ (aq) + 2 Fe²⁺ (aq) → Ca (s) + 2 Fe³⁺ (aq). | Cu²⁺ (aq) + 2 Fe²⁺ (aq) → Cu (s) + 2 Fe³⁺ (aq). | 3 Ca²⁺ (aq) + 2 Fe (s) → 3 Ca (s) + 2 Fe³⁺ (aq). | 3 Cu²⁺ (aq) + 2 Fe (s) → 3 Cu (s) + 2 Fe³⁺ (aq).
 x: A mancha avermelhada é cobre metálico depositado na faca. O Cu²⁺ (E° = +0,34 V) tem maior tendência a se reduzir que o Fe³⁺/Fe (−0,04 V), então o ferro da faca se oxida a Fe³⁺ e o Cu²⁺ vira Cu: 3 Cu²⁺ + 2 Fe → 3 Cu + 2 Fe³⁺.
+@48 m biologia/citologia fig
+x: As proteínas de secreção são feitas no retículo endoplasmático rugoso, passam pelo complexo golgiense e saem em vesículas de secreção. Por isso, a radioatividade aparece primeiro no retículo (5 min), depois no Golgi (10 min) e, por fim, nas vesículas (15 min).
+@49 m fisica/trabalho-energia-e-potencia fig
+x: A potência útil é 1 000 W/m² × 9 m² × 0,30 = 2 700 W. Para chegar a 108 km/h (30 m/s), o carro precisa de energia cinética ½ × 200 × 30² = 90 000 J. Tempo: 90 000 ÷ 2 700 ≈ 33 s.
+@50 d fisica/ondulatoria-e-optica fig
+x: Pela figura, UV-B vai de 9,34 × 10¹⁴ Hz a 1,03 × 10¹⁵ Hz. Com λ = c/f: 3 × 10⁸ ÷ 9,34 × 10¹⁴ ≈ 321 nm e 3 × 10⁸ ÷ 1,03 × 10¹⁵ ≈ 291 nm. O filtro com absorção máxima entre 291 e 321 nm é o IV.
+@53 d fisica/ondulatoria-e-optica fig
+s: igual a || λ => igual a
+a: λ/4 | λ/2 | 3λ/4 | λ | 2λ
+x: O raio 2 sofre inversão de fase (meio comprimento de onda) e o raio 5 não. Para que 2 e 5 se reforcem, o caminho extra dentro da película (2E) precisa compensar essa meia onda: 2E = λ/2, logo a espessura mínima é E = λ/4.
+@59 m quimica/quimica-organica fig
+x: O composto A tem o grupo –OH ligado a um carbono saturado (CH₂OH): é um álcool. O composto B tem o grupo CH₃COO– ligado a uma cadeia de carbonos: é um éster (acetato).
+@60 m quimica/quimica-organica fig
+x: O permanganato quebra a ligação dupla do 1-fenil-1-propeno (C₆H₅–CH=CH–CH₃). Cada carbono da dupla, ligado a um H, vira um grupo –COOH: do lado do anel forma-se o ácido benzoico e do outro, com dois carbonos, o ácido etanoico (acético).
+@66 f biologia/genetica-e-biotecnologia fig
+x: A fórmula 47, XY, +18 indica um cromossomo 18 a mais (trissomia do 18, síndrome de Edwards). Ganho ou perda de cromossomos isolados é uma alteração numérica do tipo aneuploidia.
+@68 m fisica/eletricidade fig
+e: Um estudante, precisando instalar um computador, um monitor e uma lâmpada em seu quarto, verificou que precisaria fazer a instalação de duas tomadas e um interruptor na rede elétrica. Decidiu esboçar com antecedência o esquema elétrico. || “O circuito deve ser tal que as tomadas e a lâmpada devem estar submetidas à tensão nominal da rede elétrica e a lâmpada deve poder ser ligada ou desligada por um interruptor sem afetar os outros dispositivos” — pensou. || Símbolos adotados: lâmpada (círculo com um X), tomada (figura com três furos) e interruptor (traço inclinado). || Qual dos circuitos esboçados atende às exigências?
+x: Para que todos recebam a tensão da rede, lâmpada e tomadas devem estar em paralelo. O interruptor deve ficar em série só com a lâmpada, para ligá-la e desligá-la sem cortar a energia das tomadas. A última montagem é a que faz isso.
+@69 m biologia/citologia fig
+x: Sem oxigênio, a célula ganha só 2 ATP por glicose e precisa consumir muita glicose. À medida que o oxigênio aumenta, ela passa a respirar (38 ATP por glicose) e precisa de cada vez menos glicose. A curva que diminui com o aumento do oxigênio é a 5.
+@77 d quimica/quimica-organica fig
+x: Na eletrólise de Kolbe, cada ácido perde o grupo –COOH (sai como CO₂) e os dois restos se unem. O ácido 3,3-dimetilbutanoico, (CH₃)₃C–CH₂–COOH, deixa o grupo (CH₃)₃C–CH₂–. Unindo dois: (CH₃)₃C–CH₂–CH₂–C(CH₃)₃, o 2,2,5,5-tetrametil-hexano.
+@82 m fisica/estatica-e-hidrostatica fig
+x: A barra tem 8 partes iguais, e o apoio está na 3ª marca a partir do arroz. O arroz (5 kg) está a 3 partes do apoio. O peso da barra fica no meio dela (4ª marca), a 1 parte do apoio. Equilíbrio: 5 × 3 = M × 1, então M = 15 kg.
+@84 m quimica/fisico-quimica fig
+x: Queimar 1 g formando água líquida libera 18,8 kJ, mas 2,4 kJ desse total vêm da condensação da água. Formando água gasosa: −18,8 + 2,4 = −16,4 kJ/g. Para 5 g: 5 × (−16,4) = −82,0 kJ.
+@85 f biologia/fisiologia-humana fig
+x: Na câmara escura, a luz passa por um orifício e forma uma imagem invertida no tecido do fundo. No olho, a luz entra pela pupila e forma uma imagem invertida na retina, que faz o papel desse anteparo.
+@88 m matematica/geometria-plana fig
+x: Com uma torre, sabe-se só a distância: o celular pode estar em qualquer ponto de um círculo. Com duas, os círculos se cortam em até dois pontos. A terceira torre decide qual dos dois é o certo: são necessárias três.
+@90 m quimica/quimica-ambiental fig
+x: A rota tradicional tem várias etapas, usa catalisadores metálicos e ácido nítrico, e libera CO₂ e N₂O (gases poluentes). A rota verde vai do cicloexeno ao ácido adípico em uma única etapa, gerando só água como subproduto.

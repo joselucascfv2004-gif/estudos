@@ -185,6 +185,71 @@ Qual é a probabilidade de a senha sorteada ser um número de 1 a 20?
 
 **Assunto:** matematica/probabilidade
 
+### 144
+Um pesquisador, ao explorar uma floresta, fotografou uma caneta de 16,8 cm de comprimento ao lado de uma pegada. O comprimento da caneta (c), a largura (L) e o comprimento (C) da pegada, na fotografia, estão indicados no esquema.
+
+![Figura](enem-2015-d2-q144-1.webp)
+
+A largura e o comprimento reais da pegada, em centímetros, são, respectivamente, iguais a
+
+- A) 4,9 e 7,6.
+- B) 8,6 e 9,8.
+- C) 14,2 e 15,4.
+- D) 26,4 e 40,8.
+- E) 27,5 e 42,5.
+
+**Resposta:** D
+
+**Explicação:** Na foto, a caneta mede 1,4 cm, mas de verdade tem 16,8 cm: a escala é 16,8 ÷ 1,4 = 12. Pegada real: largura 2,2 × 12 = 26,4 cm e comprimento 3,4 × 12 = 40,8 cm.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 147
+A insulina é utilizada no tratamento de pacientes com diabetes para o controle glicêmico. Para facilitar sua aplicação, foi desenvolvida uma “caneta” na qual pode ser inserido um refil contendo 3 mL de insulina, como mostra a imagem.
+
+![Figura](enem-2015-d2-q147-1.webp)
+
+Para controle das aplicações, definiu-se a unidade de insulina como 0,01 mL. Antes de cada aplicação, é necessário descartar 2 unidades de insulina, de forma a retirar possíveis bolhas de ar.
+
+A um paciente foram prescritas duas aplicações diárias: 10 unidades de insulina pela manhã e 10 à noite. Qual o número máximo de aplicações por refil que o paciente poderá utilizar com a dosagem prescrita?
+
+- A) 25
+- B) 15
+- C) 13
+- D) 12
+- E) 8
+
+**Resposta:** A
+
+**Explicação:** O refil tem 3 mL = 300 unidades. Cada aplicação gasta 10 unidades mais 2 descartadas: 12. Número de aplicações: 300 ÷ 12 = 25.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 147
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 178
+Uma pesquisa de mercado foi realizada entre os consumidores das classes sociais A, B, C e D que costumam participar de promoções tipo sorteio ou concurso. Os dados comparativos, expressos no gráfico, revelam a participação desses consumidores em cinco categorias: via Correios (juntando embalagens ou recortando códigos de barra), via internet (cadastrando-se no site da empresa/marca promotora), via mídias sociais (redes sociais), via SMS (mensagem por celular) ou via rádio/TV.
+
+![Figura](enem-2015-d2-q178-1.webp)
+
+Uma empresa vai lançar uma promoção utilizando apenas uma categoria nas classes A e B (A/B) e uma categoria nas classes C e D (C/D). De acordo com o resultado da pesquisa, para atingir o maior número de consumidores das classes A/B e C/D, a empresa deve realizar a promoção, respectivamente, via
+
+- A) Correios e SMS.
+- B) internet e Correios.
+- C) internet e internet.
+- D) internet e mídias sociais.
+- E) rádio/TV e rádio/TV.
+
+**Resposta:** B
+
+**Explicação:** Nas classes A/B, a maior participação é pela internet (40%). Nas classes C/D, é pelos Correios (33%). A empresa deve usar a internet e os Correios.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 178
+
+**Assunto:** matematica/estatistica
+
 ## Médio
 
 ### 136
@@ -412,6 +477,305 @@ O volume máximo, em cm³, da mistura sabor morango que deverá ser colocado na 
 
 **Assunto:** matematica/geometria-espacial, matematica/porcentagem
 
+### 137
+A figura representa a vista superior de uma bola de futebol americano, cuja forma é um elipsoide obtido pela rotação de uma elipse em torno do eixo das abscissas. Os valores a e b são, respectivamente, a metade do seu comprimento horizontal e a metade do seu comprimento vertical. Para essa bola, a diferença entre os comprimentos horizontal e vertical é igual à metade do comprimento vertical.
+
+![Figura](enem-2015-d2-q137-1.webp)
+
+Considere que o volume aproximado dessa bola é dado por V = 4ab². O volume dessa bola, em função apenas de b, é dado por
+
+- A) 8b³
+- B) 6b³
+- C) 5b³
+- D) 4b³
+- E) 2b³
+
+**Resposta:** B
+
+**Explicação:** O comprimento horizontal é 2a e o vertical é 2b. A diferença entre eles é metade do vertical: 2a − 2b = b, então a = 1,5b. Volume: V = 4 · 1,5b · b² = 6b³.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 137
+
+**Assunto:** matematica/geometria-espacial
+
+### 138
+Após realizar uma pesquisa de mercado, uma operadora de telefonia celular ofereceu aos clientes que utilizavam até 500 ligações ao mês o seguinte plano mensal: um valor fixo de R$ 12,00 para os clientes que fazem até 100 ligações ao mês. Caso o cliente faça mais de 100 ligações, será cobrado um valor adicional de R$ 0,10 por ligação, a partir da 101ª até a 300ª; e caso realize entre 300 e 500 ligações, será cobrado um valor fixo mensal de R$ 32,00. Com base nos elementos apresentados, o gráfico que melhor representa a relação entre o valor mensal pago nesse plano e o número de ligações feitas é:
+
+- A) ![Alternativa A](enem-2015-d2-q138-1.webp)
+- B) ![Alternativa B](enem-2015-d2-q138-2.webp)
+- C) ![Alternativa C](enem-2015-d2-q138-3.webp)
+- D) ![Alternativa D](enem-2015-d2-q138-4.webp)
+- E) ![Alternativa E](enem-2015-d2-q138-5.webp)
+
+**Resposta:** B
+
+**Explicação:** Até 100 ligações, o valor é fixo: R$ 12,00 (trecho horizontal). De 101 a 300, cada ligação a mais custa R$ 0,10: em 300 ligações, 12 + 200 × 0,10 = R$ 32,00 (trecho subindo em linha reta). De 300 a 500, o valor é fixo de R$ 32,00 (horizontal de novo).
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 138
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 139
+Um investidor inicia um dia com x ações de uma empresa. No decorrer desse dia, ele efetua apenas dois tipos de operações, comprar ou vender ações. Para realizar essas operações, ele segue estes critérios:
+
+I. vende metade das ações que possui, assim que seu valor fica acima do valor ideal (Vi);
+
+II. compra a mesma quantidade de ações que possui, assim que seu valor fica abaixo do valor mínimo (Vm);
+
+III. vende todas as ações que possui, quando seu valor fica acima do valor ótimo (Vo).
+
+O gráfico apresenta o período de operações e a variação do valor de cada ação, em reais, no decorrer daquele dia e a indicação dos valores ideal, mínimo e ótimo.
+
+![Figura](enem-2015-d2-q139-1.webp)
+
+Quantas operações o investidor fez naquele dia?
+
+- A) 3
+- B) 4
+- C) 5
+- D) 6
+- E) 7
+
+**Resposta:** B
+
+**Explicação:** Seguindo o gráfico: o valor passa acima de Vi (vende metade: 1ª operação), depois cai abaixo de Vm (compra: 2ª), sobe de novo acima de Vi (vende metade: 3ª) e logo acima de Vo (vende tudo: 4ª). Sem ações, ele não faz mais nada: 4 operações.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 141
+Atualmente existem diversas locadoras de veículos, permitindo uma concorrência saudável para o mercado, fazendo com que os preços se tornem acessíveis.
+
+Nas locadoras P e Q, o valor da diária de seus carros depende da distância percorrida, conforme o gráfico.
+
+![Figura](enem-2015-d2-q141-1.webp)
+
+> Disponível em: www.sempretops.com. Acesso em: 7 ago. 2012.
+
+O valor pago na locadora Q é menor ou igual àquele pago na locadora P para distâncias, em quilômetros, presentes em qual(is) intervalo(s)?
+
+- A) De 20 a 100.
+- B) De 80 a 130.
+- C) De 100 a 160.
+- D) De 0 a 20 e de 100 a 160.
+- E) De 40 a 80 e de 130 a 160.
+
+**Resposta:** D
+
+**Explicação:** Q é mais barata ou igual a P quando sua curva está abaixo ou encontra a de P. Pelo gráfico, isso acontece de 0 a 20 km (antes do primeiro cruzamento) e de 100 a 160 km (depois do segundo).
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 141
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 143
+Uma carga de 100 contêineres, idênticos ao modelo apresentado na Figura 1, deverá ser descarregada no porto de uma cidade. Para isso, uma área retangular de 10 m por 32 m foi cedida para o empilhamento desses contêineres (Figura 2).
+
+![Figura](enem-2015-d2-q143-1.webp)
+
+Figura 1
+
+![Figura](enem-2015-d2-q143-2.webp)
+
+Figura 2
+
+De acordo com as normas desse porto, os contêineres deverão ser empilhados de forma a não sobrarem espaços nem ultrapassarem a área delimitada. Após o empilhamento total da carga e atendendo à norma do porto, a altura mínima a ser atingida por essa pilha de contêineres é
+
+- A) 12,5 m.
+- B) 17,5 m.
+- C) 25,0 m.
+- D) 22,5 m.
+- E) 32,5 m.
+
+**Resposta:** A
+
+**Explicação:** Cada contêiner ocupa 6,4 × 2,5 = 16 m² no chão. A área de 10 × 32 = 320 m² comporta 20 contêineres por camada, sem sobrar espaço. Para 100 contêineres são 5 camadas: 5 × 2,5 = 12,5 m.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 143
+
+**Assunto:** matematica/geometria-espacial
+
+### 150
+O polímero de PET (Politereftalato de Etileno) é um dos plásticos mais reciclados em todo o mundo devido à sua extensa gama de aplicações, entre elas, fibras têxteis, tapetes, embalagens, filmes e cordas. Os gráficos mostram o destino do PET reciclado no Brasil, sendo que, no ano de 2010, o total de PET reciclado foi de 282 kton (quilotoneladas).
+
+![Figura](enem-2015-d2-q150-1.webp)
+
+> Disponível em: www.abipet.org.br. Acesso em: 12 jul. 2012 (adaptado).
+
+De acordo com os gráficos, a quantidade de embalagens PET recicladas destinadas à produção de tecidos e malhas, em kton, é mais aproximada de
+
+- A) 16,0.
+- B) 22,9.
+- C) 32,0.
+- D) 84,6.
+- E) 106,6.
+
+**Resposta:** C
+
+**Explicação:** Têxteis são 37,8% de 282 kton e, dentro deles, tecidos e malhas são 30%: 282 × 0,378 × 0,30 ≈ 32,0 kton.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 150
+
+**Assunto:** matematica/porcentagem
+
+### 151
+Uma empresa de telefonia celular possui duas antenas que serão substituídas por uma nova, mais potente. As áreas de cobertura das antenas que serão substituídas são círculos de raio 2 km, cujas circunferências se tangenciam no ponto O, como mostra a figura.
+
+![Figura](enem-2015-d2-q151-1.webp)
+
+O ponto O indica a posição da nova antena, e sua região de cobertura será um círculo cuja circunferência tangenciará externamente as circunferências das áreas de cobertura menores. Com a instalação da nova antena, a medida da área de cobertura, em quilômetros quadrados, foi ampliada em
+
+- A) 8π.
+- B) 12π.
+- C) 16π.
+- D) 32π.
+- E) 64π.
+
+**Resposta:** A
+
+**Explicação:** Os dois círculos de raio 2 km se tocam em O. A nova antena em O cobre um círculo que toca os dois por fora: raio 4 km, área 16π. As antigas cobriam 2 × 4π = 8π. A área aumentou 16π − 8π = 8π km².
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/geometria-plana
+
+### 161
+O Esquema I mostra a configuração de uma quadra de basquete. Os trapézios em cinza, chamados de garrafões, correspondem a áreas restritivas.
+
+![Figura](enem-2015-d2-q161-1.webp)
+
+Visando atender as orientações do Comitê Central da Federação Internacional de Basquete (Fiba) em 2010, que unificou as marcações das diversas ligas, foi prevista uma modificação nos garrafões das quadras, que passariam a ser retângulos, como mostra o Esquema II.
+
+![Figura](enem-2015-d2-q161-2.webp)
+
+Após executadas as modificações previstas, houve uma alteração na área ocupada por cada garrafão, que corresponde a um(a)
+
+- A) aumento de 5 800 cm².
+- B) aumento de 75 400 cm².
+- C) aumento de 214 600 cm².
+- D) diminuição de 63 800 cm².
+- E) diminuição de 272 600 cm².
+
+**Resposta:** A
+
+**Explicação:** Antes, o garrafão era um trapézio de bases 600 e 360 cm e altura 580 cm: (600 + 360) ÷ 2 × 580 = 278 400 cm². Depois, um retângulo de 490 × 580 = 284 200 cm². Aumento: 5 800 cm².
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 161
+
+**Assunto:** matematica/geometria-plana
+
+### 164
+Para uma alimentação saudável, recomenda-se ingerir, em relação ao total de calorias diárias, 60% de carboidratos, 10% de proteínas e 30% de gorduras. Uma nutricionista, para melhorar a visualização dessas porcentagens, quer dispor esses dados em um polígono. Ela pode fazer isso em um triângulo equilátero, um losango, um pentágono regular, um hexágono regular ou um octógono regular, desde que o polígono seja dividido em regiões cujas áreas sejam proporcionais às porcentagens mencionadas. Ela desenhou as seguintes figuras:
+
+![Figura](enem-2015-d2-q164-1.webp)
+
+Entre esses polígonos, o único que satisfaz as condições necessárias para representar a ingestão correta de diferentes tipos de alimentos é o
+
+- A) triângulo.
+- B) losango.
+- C) pentágono.
+- D) hexágono.
+- E) octógono.
+
+**Resposta:** C
+
+**Explicação:** Dividindo o pentágono regular a partir do centro, cada triângulo vale 20%. Carboidratos ocupam 3 triângulos (60%), gorduras 1 triângulo e meio (30%) e proteínas meio triângulo (10%). É o único polígono em que as divisões batem com as porcentagens.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 164
+
+**Assunto:** matematica/geometria-plana
+
+### 168
+Devido ao aumento do fluxo de passageiros, uma empresa de transporte coletivo urbano está fazendo estudos para a implantação de um novo ponto de parada em uma determinada rota. A figura mostra o percurso, indicado pelas setas, realizado por um ônibus nessa rota e a localização de dois de seus atuais pontos de parada, representados por P e Q.
+
+![Figura](enem-2015-d2-q168-1.webp)
+
+Os estudos indicam que o novo ponto T deverá ser instalado, nesse percurso, entre as paradas já existentes P e Q, de modo que as distâncias percorridas pelo ônibus entre os pontos P e T e entre os pontos T e Q sejam iguais. De acordo com os dados, as coordenadas do novo ponto de parada são
+
+- A) (290 ; 20).
+- B) (410 ; 0).
+- C) (410 ; 20).
+- D) (440 ; 0).
+- E) (440 ; 20).
+
+**Resposta:** E
+
+**Explicação:** O ônibus vai de P (30; 20) pela Rua A até x = 550 (520 m) e sobe pela Rua B até Q (550; 320), mais 300 m: total 820 m. O ponto T fica na metade, a 410 m de P, ainda na Rua A: x = 30 + 410 = 440. T = (440; 20).
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 168
+
+**Assunto:** matematica/geometria-analitica
+
+### 170
+Uma família composta por sete pessoas adultas, após decidir o itinerário de sua viagem, consultou o site de uma empresa aérea e constatou que o voo para a data escolhida estava quase lotado. Na figura, disponibilizada pelo site, as poltronas ocupadas estão marcadas com X e as únicas poltronas disponíveis são as mostradas em branco.
+
+![Figura](enem-2015-d2-q170-1.webp)
+
+> Disponível em: www.gebh.net. Acesso em: 30 out. 2013 (adaptado).
+
+O número de formas distintas de se acomodar a família nesse voo é calculado por
+
+- A) 9!/2!
+- B) 9!/(7! × 2!)
+- C) 7!
+- D) 5!/2! × 4!
+- E) 5!/4! × 4!/3!
+
+**Resposta:** A
+
+**Explicação:** Há 9 poltronas livres para 7 pessoas diferentes, e a ordem importa (cada pessoa num lugar). É um arranjo de 9 elementos tomados 7 a 7: 9!/(9 − 7)! = 9!/2!.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 170
+
+**Assunto:** matematica/analise-combinatoria
+
+### 171
+O proprietário de um parque aquático deseja construir uma piscina em suas dependências. A figura representa a vista superior dessa piscina, que é formada por três setores circulares idênticos, com ângulo central igual a 60°. O raio R deve ser um número natural.
+
+![Figura](enem-2015-d2-q171-1.webp)
+
+O parque aquático já conta com uma piscina em formato retangular com dimensões 50 m x 24 m.
+
+O proprietário quer que a área ocupada pela nova piscina seja menor que a ocupada pela piscina já existente.
+
+Considere 3,0 como aproximação para π. O maior valor possível para R, em metros, deverá ser
+
+- A) 16.
+- B) 28.
+- C) 29.
+- D) 31.
+- E) 49.
+
+**Resposta:** B
+
+**Explicação:** São 3 setores de 60°, ou seja, meio círculo de raio R: área = π·R²/2 = 1,5R². Deve ser menor que 50 × 24 = 1 200 m²: R² < 800, R < 28,3. O maior natural é 28.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/geometria-plana
+
+### 177
+No contexto da matemática recreativa, utilizando diversos materiais didáticos para motivar seus alunos, uma professora organizou um jogo com um tipo de baralho modificado. No início do jogo, vira-se uma carta do baralho na mesa e cada jogador recebe em mãos nove cartas. Deseja-se formar pares de cartas, sendo a primeira carta a da mesa e a segunda, uma carta na mão do jogador, que tenha um valor equivalente àquele descrito na carta da mesa. O objetivo do jogo é verificar qual jogador consegue o maior número de pares. Iniciado o jogo, a carta virada na mesa e as cartas da mão de um jogador são como no esquema:
+
+![Figura](enem-2015-d2-q177-1.webp)
+
+Segundo as regras do jogo, quantas cartas da mão desse jogador podem formar um par com a carta da mesa?
+
+- A) 9
+- B) 7
+- C) 5
+- D) 4
+- E) 3
+
+**Resposta:** E
+
+**Explicação:** A carta da mesa vale 6/8 = 0,75. Na mão, valem 0,75: a carta 75%, a carta 0,75 e a figura com 3 das 4 partes pintadas. As demais (3,4; 34%; 4,3; 7,5; 4/3; 6,8) têm outros valores: 3 pares.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 177
+
+**Assunto:** matematica/numeros-e-operacoes
+
 ## Difícil
 
 ### 154
@@ -551,3 +915,89 @@ Na safra, o mês de produção máxima desse produto é
 **Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 176
 
 **Assunto:** matematica/trigonometria
+
+### 142
+Numa cidade, cinco escolas de samba (I, II, III, IV e V) participaram do desfile de Carnaval. Quatro quesitos são julgados, cada um por dois jurados, que podem atribuir somente uma dentre as notas 6, 7, 8, 9 ou 10. A campeã será a escola que obtiver maior pontuação na soma de todas as notas emitidas. Em caso de empate, a campeã será a que alcançar a maior soma das notas atribuídas pelos jurados no quesito Enredo e Harmonia. A tabela mostra as notas do desfile desse ano no momento em que faltava somente a divulgação das notas do jurado B no quesito Bateria.
+
+![Figura](enem-2015-d2-q142-1.webp)
+
+Quantas configurações distintas das notas a serem atribuídas pelo jurado B no quesito Bateria tornariam campeã a Escola II?
+
+- A) 21
+- B) 90
+- C) 750
+- D) 1 250
+- E) 3 125
+
+**Resposta:** C
+
+**Explicação:** Com as notas já dadas, I, III e V não alcançam a II. A disputa é com a IV (68 contra 66). No empate, a II vence pelo quesito Enredo e Harmonia (20 contra 19). Então a nota da II deve ser pelo menos 2 maior que a da IV: (8, 6), (9, 6), (9, 7), (10, 6), (10, 7), (10, 8), 6 combinações. As outras três escolas podem receber qualquer uma das 5 notas: 6 × 5³ = 750.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 142
+
+**Assunto:** matematica/analise-combinatoria
+
+### 145
+Uma indústria produz malhas de proteção solar para serem aplicadas em vidros, de modo a diminuir a passagem de luz, a partir de fitas plásticas entrelaçadas perpendicularmente. Nas direções vertical e horizontal, são aplicadas fitas de 1 milímetro de largura, tal que a distância entre elas é de (d − 1) milímetros, conforme a figura. O material utilizado não permite a passagem da luz, ou seja, somente o raio de luz que atingir as lacunas deixadas pelo entrelaçamento consegue transpor essa proteção.
+
+A taxa de cobertura do vidro é o percentual da área da região coberta pelas fitas da malha, que são colocadas paralelamente às bordas do vidro.
+
+![Figura](enem-2015-d2-q145-1.webp)
+
+Essa indústria recebeu a encomenda de uma malha de proteção solar para ser aplicada em um vidro retangular de 5 m de largura por 9 m de comprimento. A medida de d, em milímetros, para que a taxa de cobertura da malha seja de 75% é
+
+- A) 2
+- B) 1
+- C) 11/3
+- D) 4/3
+- E) 2/3
+
+**Resposta:** A
+
+**Explicação:** A malha se repete em quadradinhos de lado d (fita de 1 mm mais vão de d − 1). A luz passa só pelo vão, de área (d − 1)². Para cobrir 75%, o vão é 25%: (d − 1)²/d² = 1/4, então (d − 1)/d = 1/2 e d = 2 mm.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/geometria-plana
+
+### 148
+Uma família fez uma festa de aniversário e enfeitou o local da festa com bandeirinhas de papel. Essas bandeirinhas foram feitas da seguinte maneira: inicialmente, recortaram as folhas de papel em forma de quadrado, como mostra a Figura 1. Em seguida, dobraram as folhas quadradas ao meio sobrepondo os lados BC e AD, de modo que C e D coincidam, e o mesmo ocorra com A e B, conforme ilustrado na Figura 2. Marcaram os pontos médios O e N, dos lados FG e AF, respectivamente, e o ponto M do lado AD, de modo que AM seja igual a um quarto de AD. A seguir, fizeram cortes sobre as linhas pontilhadas ao longo da folha dobrada.
+
+![Figura](enem-2015-d2-q148-1.webp)
+
+Após os cortes, a folha é aberta e a bandeirinha está pronta. A figura que representa a forma da bandeirinha pronta é
+
+- A) ![Alternativa A](enem-2015-d2-q148-2.webp)
+- B) ![Alternativa B](enem-2015-d2-q148-3.webp)
+- C) ![Alternativa C](enem-2015-d2-q148-4.webp)
+- D) ![Alternativa D](enem-2015-d2-q148-5.webp)
+- E) ![Alternativa E](enem-2015-d2-q148-6.webp)
+
+**Resposta:** E
+
+**Explicação:** A folha foi dobrada ao meio (FG é a dobra). O corte de M (a um quarto da altura, na borda) até N (meio da base dobrada) tira o canto de baixo; o corte de N até O (no meio da dobra) tira um triângulo junto à dobra. Ao abrir, os cortes se repetem dos dois lados: os cantos de baixo ficam chanfrados e, no meio, aparece um V fundo que sobe até a metade da altura, como na última figura.
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 148
+
+**Assunto:** matematica/geometria-plana
+
+### 165
+Um engenheiro projetou um automóvel cujos vidros das portas dianteiras foram desenhados de forma que suas bordas superiores fossem representadas pela curva de equação y = log (x), conforme a figura.
+
+![Figura](enem-2015-d2-q165-1.webp)
+
+A forma do vidro foi concebida de modo que o eixo x sempre divida ao meio a altura h do vidro e a base do vidro seja paralela ao eixo x. Obedecendo a essas condições, o engenheiro determinou uma expressão que fornece a altura h do vidro em função da medida n de sua base, em metros. A expressão algébrica que determina a altura do vidro é
+
+- A) log((n + √(n² + 4))/2) − log((n − √(n² + 4))/2)
+- B) log(1 + n/2) − log(1 − n/2)
+- C) log(1 + n/2) + log(1 − n/2)
+- D) log((n + √(n² + 4))/2)
+- E) 2 log((n + √(n² + 4))/2)
+
+**Resposta:** E
+
+**Explicação:** Seja b o x da borda direita. Como o eixo x divide a altura ao meio, log b = h/2 e o x da borda esquerda é 1/b (log = −h/2). A base mede n = b − 1/b, ou seja, b² − nb − 1 = 0 e b = (n + √(n² + 4))/2. Então h = 2 log b = 2 log((n + √(n² + 4))/2).
+
+**Fonte:** ENEM 2015, 2º dia, caderno amarelo, questão 165
+
+**Assunto:** matematica/exponencial-e-logaritmo

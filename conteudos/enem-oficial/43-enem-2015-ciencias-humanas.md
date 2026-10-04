@@ -229,6 +229,27 @@ O tipo de atentado descrito no texto tem como consequência para as populações
 
 **Assunto:** geografia/geopolitica-e-globalizacao
 
+### 4
+![Figura](enem-2015-d1-q004-1.webp)
+
+> AMARILDO. Disponível em: www.amarildo.com.br. Acesso em: 3 mar. 2013.
+
+Na charge há uma crítica ao processo produtivo agrícola brasileiro relacionada ao
+
+- A) elevado preço das mercadorias no comércio.
+- B) aumento da demanda por produtos naturais.
+- C) crescimento da produção de alimentos.
+- D) hábito de adquirir derivados industriais.
+- E) uso de agrotóxicos nas plantações.
+
+**Resposta:** E
+
+**Explicação:** O médico estranha que a mulher "tente matar" o marido com pimentão, alface, tomate, morango e uva, alimentos conhecidos pela grande quantidade de agrotóxicos. A charge critica o uso excessivo de agrotóxicos nas plantações brasileiras.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 4
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
 ## Médio
 
 ### 3
@@ -604,6 +625,281 @@ Considerando as atuais concepções políticas sobre a questão ambiental, a din
 
 **Assunto:** geografia/biomas-e-questoes-ambientais
 
+### 1
+![Figura](enem-2015-d1-q001-1.webp)
+
+> BRASIL. Ministério do Meio Ambiente/IBGE. Biomas. 2004 (adaptado).
+
+No mapa estão representados os biomas brasileiros que, em função de suas características físicas e do modo de ocupação do território, apresentam problemas ambientais distintos. Nesse sentido, o problema ambiental destacado no mapa indica
+
+- A) desertificação das áreas afetadas.
+- B) poluição dos rios temporários.
+- C) queimadas dos remanescentes vegetais.
+- D) desmatamento das matas ciliares.
+- E) contaminação das águas subterrâneas.
+
+**Resposta:** A
+
+**Explicação:** A área destacada como problema ambiental fica sobretudo na Caatinga, no Semiárido nordestino, com chuvas escassas e irregulares. O uso intenso do solo (desmatamento, pecuária, agricultura) nessa região leva à desertificação.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 1
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 10
+Iniciou-se em 1903 a introdução de obras de arte com representações de bandeirantes no acervo do Museu Paulista, mediante a aquisição de uma tela que homenageava o sertanista que comandara a destruição do Quilombo de Palmares. Essa aquisição, viabilizada por verba estadual, foi simultânea à emergência de uma interpretação histórica que apontava o fenômeno do sertanismo paulista como o elo decisivo entre a trajetória territorial do Brasil e de São Paulo, concepção essa que se consolidaria entre os historiadores ligados ao Instituto Histórico e Geográfico de São Paulo ao longo das três primeiras décadas do século XX.
+
+> MARINS, P. C. G. Nas matas com pose de reis: a representação de bandeirantes e a tradição da retratística monárquica europeia. Revista do LEB, n. 44, fev. 2007.
+
+A prática governamental descrita no texto, com a escolha dos temas das obras, tinha como propósito a construção de uma memória que
+
+- A) afirmava a centralidade de um estado na política do país.
+- B) resgatava a importância da resistência escrava na história brasileira.
+- C) evidenciava a importância da produção artística no contexto regional.
+- D) valorizava a saga histórica do povo na afirmação de uma memória social.
+- E) destacava a presença do indígena no desbravamento do território colonial.
+
+**Resposta:** A
+
+**Explicação:** O governo paulista comprou obras que exaltavam os bandeirantes como heróis que ampliaram o território do Brasil. Assim, construía uma memória que punha São Paulo no centro da história e da política do país.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 10
+
+**Assunto:** historia/brasil-republica
+
+### 11
+![Figura](enem-2015-d1-q011-1.webp)
+
+> Disponível em: www.ac-grenoble.fr. Acesso em: 10 maio 2012.
+
+Os calendários são fontes históricas importantes, na medida em que expressam a concepção de tempo das sociedades. Essas imagens compõem um calendário medieval (1460-1475) e cada uma delas representa um mês, de janeiro a dezembro. Com base na análise do calendário, apreende-se uma concepção de tempo
+
+- A) cíclica, marcada pelo mito arcaico do eterno retorno.
+- B) humanista, identificada pelo controle das horas de atividade por parte do trabalhador.
+- C) escatológica, associada a uma visão religiosa sobre o trabalho.
+- D) natural, expressa pelo trabalho realizado de acordo com as estações do ano.
+- E) romântica, definida por uma visão bucólica da sociedade.
+
+**Resposta:** D
+
+**Explicação:** Cada imagem do calendário mostra o trabalho do campo típico de um mês: plantar, colher, podar, fazer vinho, matar o porco. O tempo é marcado pelo ritmo da natureza e das estações, organizado pelo trabalho agrícola.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 11
+
+**Assunto:** historia/antiguidade-e-idade-media
+
+### 15
+O Projeto Nova Cartografia Social da Amazônia ensina indígenas, quilombolas e outros grupos tradicionais a empregar o GPS e técnicas modernas de georreferenciamento para produzir mapas artesanais, mas bastante precisos, de suas próprias terras.
+
+> LOPES, R. J. O novo mapa da floresta. Folha de S. Paulo, 7 maio 2011 (adaptado).
+
+A existência de um projeto como o apresentado no texto indica a importância da cartografia como elemento promotor da
+
+- A) expansão da fronteira agrícola.
+- B) remoção de populações nativas.
+- C) superação da condição de pobreza.
+- D) valorização de identidades coletivas.
+- E) implantação de modernos projetos agroindustriais.
+
+**Resposta:** D
+
+**Explicação:** O projeto ensina povos tradicionais a fazer seus próprios mapas, com GPS e técnicas modernas. Com isso, eles representam seus territórios, seus modos de vida e suas reivindicações: a cartografia ajuda a valorizar identidades coletivas.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 15
+
+**Assunto:** geografia/cartografia
+
+### 16
+Todo o poder criativo da mente se reduz a nada mais do que a faculdade de compor, transpor, aumentar ou diminuir os materiais que nos fornecem os sentidos e a experiência. Quando pensamos em uma montanha de ouro, não fazemos mais do que juntar duas ideias consistentes, ouro e montanha, que já conhecíamos. Podemos conceber um cavalo virtuoso, porque somos capazes de conceber a virtude a partir de nossos próprios sentimentos, e podemos unir a isso a figura e a forma de um cavalo, animal que nos é familiar.
+
+> HUME, D. Investigação sobre o entendimento humano. São Paulo: Abril Cultural, 1995.
+
+Hume estabelece um vínculo entre pensamento e impressão ao considerar que
+
+- A) os conteúdos das ideias no intelecto têm origem na sensação.
+- B) o espírito é capaz de classificar os dados da percepção sensível.
+- C) as ideias fracas resultam de experiências sensoriais determinadas pelo acaso.
+- D) os sentimentos ordenam como os pensamentos devem ser processados na memória.
+- E) as ideias têm como fonte específica o sentimento cujos dados são colhidos na empiria.
+
+**Resposta:** A
+
+**Explicação:** Para Hume (empirista), a mente só combina materiais que vêm dos sentidos e da experiência: um "cavalo virtuoso" junta a ideia de cavalo com a de virtude, ambas já conhecidas. Todas as ideias têm origem nas sensações (impressões).
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 16
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 19
+![Figura](enem-2015-d1-q019-1.webp)
+
+ZIRALDO. 20 anos de prontidão. In: LEMOS, R. (Org.). Uma história do Brasil através da caricatura (1840-2001). Rio de Janeiro: Letras & Expressões, 2001.
+
+No período de 1964 a 1985, a estratégia do Regime Militar abordada na charge foi caracterizada pela
+
+- A) priorização da segurança nacional.
+- B) captação de financiamentos estrangeiros.
+- C) execução de cortes nos gastos públicos.
+- D) nacionalização de empresas multinacionais.
+- E) promoção de políticas de distribuição de renda.
+
+**Resposta:** B
+
+**Explicação:** A charge ironiza a dívida externa: "entraram no país três bilhões de dólares", mas o pagamento começa daqui a dez anos. Durante o regime militar, o crescimento econômico (o "milagre") foi financiado com empréstimos estrangeiros, o que gerou uma dívida enorme.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 19
+
+**Assunto:** historia/ditadura-e-redemocratizacao
+
+### 27
+![Figura](enem-2015-d1-q027-1.webp)
+
+![Figura](enem-2015-d1-q027-2.webp)
+
+> FONTES, M. P. F. Intemperismo de rochas e minerais. In: KER, J. C. et al. (Org.). Pedologia: fundamentos. Viçosa (MG): SBCS, 2012 (adaptado).
+
+De acordo com as figuras, a intensidade de intemperismo de grau muito fraco é característica de qual tipo climático?
+
+- A) Tropical.
+- B) Litorâneo.
+- C) Equatorial.
+- D) Semiárido.
+- E) Subtropical.
+
+**Resposta:** D
+
+**Explicação:** No diagrama, o intemperismo "muito fraco" aparece com pouca chuva (menos de cerca de 600 mm por ano), mesmo com temperatura alta. No mapa, a região 1 fica no interior do Nordeste, área de clima semiárido.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 27
+
+**Assunto:** geografia/geografia-fisica
+
+### 28
+O que implica o sistema da pólis é uma extraordinária preeminência da palavra sobre todos os outros instrumentos do poder. A palavra constitui o debate contraditório, a discussão, a argumentação e a polêmica. Torna-se a regra do jogo intelectual, assim como do jogo político.
+
+> VERNANT, J. P. As origens do pensamento grego. Rio de Janeiro: Bertrand, 1992 (adaptado).
+
+Na configuração política da democracia grega, em especial a ateniense, a ágora tinha por função
+
+- A) agregar os cidadãos em torno de reis que governavam em prol da cidade.
+- B) permitir aos homens livres o acesso às decisões do Estado expostas por seus magistrados.
+- C) constituir o lugar onde o corpo de cidadãos se reunia para deliberar sobre as questões da comunidade.
+- D) reunir os exércitos para decidir em assembleias fechadas os rumos a serem tomados em caso de guerra.
+- E) congregar a comunidade para eleger representantes com direito a pronunciar-se em assembleias.
+
+**Resposta:** C
+
+**Explicação:** Na pólis, o poder vem da palavra, do debate público. A ágora era a praça onde os cidadãos se reuniam para discutir e decidir as questões da cidade: o lugar da deliberação coletiva.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 28
+
+**Assunto:** historia/antiguidade-e-idade-media
+
+### 31
+![Figura](enem-2015-d1-q031-1.webp)
+
+> SUERTEGARAY, D. M. A. (Org.).Terra: feições ilustradas. Porto Alegre: EdUFRGS, 2003 (adaptado).
+
+A imagem representa o resultado da erosão que ocorre em rochas nos leitos dos rios, que decorre do processo natural de
+
+- A) fraturamento geológico, derivado da força dos agentes internos.
+- B) solapamento de camadas de argilas, transportadas pela correnteza.
+- C) movimento circular de seixos e areias, arrastados por águas turbilhonares.
+- D) decomposição das camadas sedimentares, resultante da alteração química.
+- E) assoreamento no fundo do rio, proporcionado pela chegada de material sedimentar.
+
+**Resposta:** C
+
+**Explicação:** A figura mostra buracos arredondados (marmitas) no leito de rocha de um rio. Eles se formam quando a correnteza faz girar seixos e areia em redemoinhos, que vão desgastando a rocha.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 31
+
+**Assunto:** geografia/geografia-fisica
+
+### 34
+A filosofia grega parece começar com uma ideia absurda, com a proposição: a água é a origem e a matriz de todas as coisas. Será mesmo necessário deter-nos nela e levá-la a sério? Sim, e por três razões: em primeiro lugar, porque essa proposição enuncia algo sobre a origem das coisas; em segundo lugar, porque o faz sem imagem e fabulação; e enfim, em terceiro lugar, porque nela, embora apenas em estado de crisálida, está contido o pensamento: Tudo é um.
+
+> NIETZSCHE, F. Crítica moderna. In: Os pré-socráticos. São Paulo: Nova Cultural, 1999.
+
+O que, de acordo com Nietzsche, caracteriza o surgimento da filosofia entre os gregos?
+
+- A) O impulso para transformar, mediante justificativas, os elementos sensíveis em verdades racionais.
+- B) O desejo de explicar, usando metáforas, a origem dos seres e das coisas.
+- C) A necessidade de buscar, de forma racional, a causa primeira das coisas existentes.
+- D) A ambição de expor, de maneira metódica, as diferenças entre as coisas.
+- E) A tentativa de justificar, a partir de elementos empíricos, o que existe no real.
+
+**Resposta:** C
+
+**Explicação:** Nietzsche diz que a frase de Tales ("a água é a origem de todas as coisas") importa porque busca a origem das coisas sem mito e fábula e porque afirma que "tudo é um". A filosofia nasce da busca racional por uma causa primeira de tudo.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 34
+
+**Assunto:** filosofia/filosofia-antiga-e-medieval
+
+### 36
+![Figura](enem-2015-d1-q036-1.webp)
+
+> SCHWARCZ, L. M. As barbas do imperador: D. Pedro II, um monarca nos trópicos. São Paulo: Cia. das Letras, 1998 (adaptado).
+
+Essas imagens de D. Pedro II foram feitas no início dos anos de 1850, pouco mais de uma década após o Golpe da Maioridade. Considerando o contexto histórico em que foram produzidas e os elementos simbólicos destacados, essas imagens representavam um
+
+- A) jovem imaturo que agiria de forma irresponsável.
+- B) imperador adulto que governaria segundo as leis.
+- C) líder guerreiro que comandaria as vitórias militares.
+- D) soberano religioso que acataria a autoridade papal.
+- E) monarca absolutista que exerceria seu autoritarismo.
+
+**Resposta:** B
+
+**Explicação:** Pedro II assumiu o trono com 14 anos, antecipado pelo Golpe da Maioridade (1840). Uma década depois, os retratos mostram um homem barbado, de uniforme e em pose solene: a imagem de um imperador adulto, que governa segundo as leis (a Constituição).
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 36
+
+**Assunto:** historia/brasil-imperio
+
+### 38
+Um carro esportivo é financiado pelo Japão, projetado na Itália e montado em Indiana, México e França, usando os mais avançados componentes eletrônicos, que foram inventados em Nova Jérsei e fabricados na Coreia. A campanha publicitária é desenvolvida na Inglaterra, filmada no Canadá, a edição e as cópias, feitas em Nova York para serem veiculadas no mundo todo. Teias globais disfarçam-se com o uniforme nacional que lhes for mais conveniente.
+
+> REICH, R. O trabalho das nações: preparando-nos para o capitalismo no século XXI. São Paulo: Educator, 1994 (adaptado).
+
+A viabilidade do processo de produção ilustrado pelo texto pressupõe o uso de
+
+- A) linhas de montagem e formação de estoques.
+- B) empresas burocráticas e mão de obra barata.
+- C) controle estatal e infraestrutura consolidada.
+- D) organização em rede e tecnologia de informação.
+- E) gestão centralizada e protecionismo econômico.
+
+**Resposta:** D
+
+**Explicação:** O carro é financiado, projetado, montado e divulgado em vários países diferentes. Essa produção espalhada pelo mundo só é possível com empresas organizadas em rede e com tecnologias de informação e comunicação que ligam tudo isso.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 38
+
+**Assunto:** geografia/geopolitica-e-globalizacao
+
+### 43
+Só num sentido muito restrito, o indivíduo cria com seus próprios recursos o modo de falar e de pensar que lhe são atribuídos. Fala o idioma de seu grupo; pensa à maneira de seu grupo. Encontra a sua disposição apenas determinadas palavras e significados. Estas não só determinam, em grau considerável, as vias de acesso mental ao mundo circundante, mas também mostram, ao mesmo tempo, sob que ângulo e em que contexto de atividade os objetos foram até agora perceptíveis ao grupo ou ao indivíduo.
+
+> MANNHEIM, K. Ideologia e utopia. Porto Alegre: Globo, 1950 (adaptado).
+
+Ilustrando uma proposição básica da sociologia do conhecimento, o argumento de Karl Mannheim defende que o(a)
+
+- A) conhecimento sobre a realidade é condicionado socialmente.
+- B) submissão ao grupo manipula o conhecimento do mundo.
+- C) divergência é um privilégio de indivíduos excepcionais.
+- D) educação formal determina o conhecimento do idioma.
+- E) domínio das línguas universaliza o conhecimento.
+
+**Resposta:** A
+
+**Explicação:** Para Mannheim, a pessoa fala o idioma do seu grupo e pensa à maneira do seu grupo: as palavras e os significados disponíveis definem como ela enxerga o mundo. O conhecimento da realidade é condicionado pela sociedade.
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 43
+
+**Assunto:** sociologia/sociologia-classica
+
 ## Difícil
 
 ### 23
@@ -676,3 +972,24 @@ As veredas têm um papel fundamental no equilíbrio hidrológico dos cursos de �
 **Fonte:** ENEM 2015, 1º dia, caderno azul, questão 32
 
 **Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 39
+Na sociedade contemporânea, onde as relações sociais tendem a reger-se por imagens midiáticas, a imagem de um indivíduo, principalmente na indústria do espetáculo, pode agregar valor econômico na medida de seu incremento técnico: amplitude do espelhamento e da atenção pública. Aparecer é então mais do que ser; o sujeito é famoso porque é falado. Nesse âmbito, a lógica circulatória do mercado, ao mesmo tempo que acena democraticamente para as massas com supostos “ganhos distributivos” (a informação ilimitada, a quebra das supostas hierarquias culturais), afeta a velha cultura disseminada na esfera pública. A participação nas redes sociais, a obsessão dos selfies, tanto falar e ser falado quanto ser visto são índices do desejo de “espelhamento”.
+
+> SODRÉ, M. Disponível em: http://alias.estadao.com.br. Acesso em: 9 fev. 2015 (adaptado).
+
+A crítica contida no texto sobre a sociedade contemporânea enfatiza
+
+- A) a prática identitária autorreferente.
+- B) a dinâmica política democratizante.
+- C) a produção instantânea de notícias.
+- D) os processos difusores de informações.
+- E) os mecanismos de convergência tecnológica.
+
+**Resposta:** A
+
+**Explicação:** O texto critica uma sociedade em que "aparecer é mais do que ser": selfies, redes sociais e a busca de ser visto e falado. Isso mostra uma prática voltada para a própria imagem, uma identidade que se constrói olhando para si mesma (autorreferente).
+
+**Fonte:** ENEM 2015, 1º dia, caderno azul, questão 39
+
+**Assunto:** sociologia/temas-contemporaneos

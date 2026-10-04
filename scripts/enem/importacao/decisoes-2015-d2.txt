@@ -74,6 +74,51 @@ x: Água na lata: um terço da altura, 400 mm, com raio 300 mm: V = 3 × 300² �
 @176 d matematica/trigonometria
 s: pela função P(x) = 8 + 5cos (px - p ) || , onde x => pela função P(x) = 8 + 5cos((πx − π)/6), onde x
 x: Na safra, a produção é máxima e o preço é mínimo. O mínimo de P ocorre quando o cosseno vale −1, ou seja, (πx − π)/6 = π. Então πx − π = 6π e x = 7: julho.
+@137 m matematica/geometria-espacial fig
+x: O comprimento horizontal é 2a e o vertical é 2b. A diferença entre eles é metade do vertical: 2a − 2b = b, então a = 1,5b. Volume: V = 4 · 1,5b · b² = 6b³.
+@138 m matematica/funcoes-afim-e-quadratica fig
+x: Até 100 ligações, o valor é fixo: R$ 12,00 (trecho horizontal). De 101 a 300, cada ligação a mais custa R$ 0,10: em 300 ligações, 12 + 200 × 0,10 = R$ 32,00 (trecho subindo em linha reta). De 300 a 500, o valor é fixo de R$ 32,00 (horizontal de novo).
+@139 m matematica/funcoes-afim-e-quadratica fig
+x: Seguindo o gráfico: o valor passa acima de Vi (vende metade: 1ª operação), depois cai abaixo de Vm (compra: 2ª), sobe de novo acima de Vi (vende metade: 3ª) e logo acima de Vo (vende tudo: 4ª). Sem ações, ele não faz mais nada: 4 operações.
+@141 m matematica/funcoes-afim-e-quadratica fig
+x: Q é mais barata ou igual a P quando sua curva está abaixo ou encontra a de P. Pelo gráfico, isso acontece de 0 a 20 km (antes do primeiro cruzamento) e de 100 a 160 km (depois do segundo).
+@142 d matematica/analise-combinatoria fig
+x: Com as notas já dadas, I, III e V não alcançam a II. A disputa é com a IV (68 contra 66). No empate, a II vence pelo quesito Enredo e Harmonia (20 contra 19). Então a nota da II deve ser pelo menos 2 maior que a da IV: (8, 6), (9, 6), (9, 7), (10, 6), (10, 7), (10, 8), 6 combinações. As outras três escolas podem receber qualquer uma das 5 notas: 6 × 5³ = 750.
+@143 m matematica/geometria-espacial fig
+x: Cada contêiner ocupa 6,4 × 2,5 = 16 m² no chão. A área de 10 × 32 = 320 m² comporta 20 contêineres por camada, sem sobrar espaço. Para 100 contêineres são 5 camadas: 5 × 2,5 = 12,5 m.
+@144 f matematica/razao-proporcao-regra-de-tres fig
+x: Na foto, a caneta mede 1,4 cm, mas de verdade tem 16,8 cm: a escala é 16,8 ÷ 1,4 = 12. Pegada real: largura 2,2 × 12 = 26,4 cm e comprimento 3,4 × 12 = 40,8 cm.
+@145 d matematica/geometria-plana fig
+a: 2 | 1 | 11/3 | 4/3 | 2/3
+x: A malha se repete em quadradinhos de lado d (fita de 1 mm mais vão de d − 1). A luz passa só pelo vão, de área (d − 1)². Para cobrir 75%, o vão é 25%: (d − 1)²/d² = 1/4, então (d − 1)/d = 1/2 e d = 2 mm.
+@147 f matematica/numeros-e-operacoes fig
+x: O refil tem 3 mL = 300 unidades. Cada aplicação gasta 10 unidades mais 2 descartadas: 12. Número de aplicações: 300 ÷ 12 = 25.
+@148 d matematica/geometria-plana fig
+x: A folha foi dobrada ao meio (FG é a dobra). O corte de M (a um quarto da altura, na borda) até N (meio da base dobrada) tira o canto de baixo; o corte de N até O (no meio da dobra) tira um triângulo junto à dobra. Ao abrir, os cortes se repetem dos dois lados: os cantos de baixo ficam chanfrados e, no meio, aparece um V fundo que sobe até a metade da altura, como na última figura.
+@150 m matematica/porcentagem fig
+x: Têxteis são 37,8% de 282 kton e, dentro deles, tecidos e malhas são 30%: 282 × 0,378 × 0,30 ≈ 32,0 kton.
+@151 m matematica/geometria-plana fig
+x: Os dois círculos de raio 2 km se tocam em O. A nova antena em O cobre um círculo que toca os dois por fora: raio 4 km, área 16π. As antigas cobriam 2 × 4π = 8π. A área aumentou 16π − 8π = 8π km².
+@161 m matematica/geometria-plana fig
+x: Antes, o garrafão era um trapézio de bases 600 e 360 cm e altura 580 cm: (600 + 360) ÷ 2 × 580 = 278 400 cm². Depois, um retângulo de 490 × 580 = 284 200 cm². Aumento: 5 800 cm².
+@164 m matematica/geometria-plana fig
+x: Dividindo o pentágono regular a partir do centro, cada triângulo vale 20%. Carboidratos ocupam 3 triângulos (60%), gorduras 1 triângulo e meio (30%) e proteínas meio triângulo (10%). É o único polígono em que as divisões batem com as porcentagens.
+@165 d matematica/exponencial-e-logaritmo fig
+s: altura do vidro é || n − √n² + 4 ) => altura do vidro é
+a: log((n + √(n² + 4))/2) − log((n − √(n² + 4))/2) | log(1 + n/2) − log(1 − n/2) | log(1 + n/2) + log(1 − n/2) | log((n + √(n² + 4))/2) | 2 log((n + √(n² + 4))/2)
+x: Seja b o x da borda direita. Como o eixo x divide a altura ao meio, log b = h/2 e o x da borda esquerda é 1/b (log = −h/2). A base mede n = b − 1/b, ou seja, b² − nb − 1 = 0 e b = (n + √(n² + 4))/2. Então h = 2 log b = 2 log((n + √(n² + 4))/2).
+@168 m matematica/geometria-analitica fig
+x: O ônibus vai de P (30; 20) pela Rua A até x = 550 (520 m) e sobe pela Rua B até Q (550; 320), mais 300 m: total 820 m. O ponto T fica na metade, a 410 m de P, ainda na Rua A: x = 30 + 410 = 440. T = (440; 20).
+@170 m matematica/analise-combinatoria fig
+s: calculado por || 9! => calculado por
+a: 9!/2! | 9!/(7! × 2!) | 7! | 5!/2! × 4! | 5!/4! × 4!/3!
+x: Há 9 poltronas livres para 7 pessoas diferentes, e a ordem importa (cada pessoa num lugar). É um arranjo de 9 elementos tomados 7 a 7: 9!/(9 − 7)! = 9!/2!.
+@171 m matematica/geometria-plana fig
+x: São 3 setores de 60°, ou seja, meio círculo de raio R: área = π·R²/2 = 1,5R². Deve ser menor que 50 × 24 = 1 200 m²: R² < 800, R < 28,3. O maior natural é 28.
+@177 m matematica/numeros-e-operacoes fig
+x: A carta da mesa vale 6/8 = 0,75. Na mão, valem 0,75: a carta 75%, a carta 0,75 e a figura com 3 das 4 partes pintadas. As demais (3,4; 34%; 4,3; 7,5; 4/3; 6,8) têm outros valores: 3 pares.
+@178 f matematica/estatistica fig
+x: Nas classes A/B, a maior participação é pela internet (40%). Nas classes C/D, é pelos Correios (33%). A empresa deve usar a internet e os Correios.
 
 ## 44-enem-2015-linguagens.md | 2015 | 2 | 2º dia, caderno amarelo | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2015 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
@@ -152,3 +197,27 @@ x: "Por trás de encrencas" é informal; "causadora de problemas" diz a mesma co
 x: O eu lírico diz que "morremos" e nos renovamos todos os dias no amor, na tristeza, na dúvida e no desejo, e que, ao perder o medo de morrer, "serás eterno". A capacidade de sentir é o que eleva e transforma o ser humano: uma sublimação espiritual.
 @133 d literatura/pre-modernismo-ao-contemporaneo v
 x: O "corpo no cavalete" torturado deixa um sangue que se decompõe nas cores da bandeira (verde, amarelo, azul, branco), terminando com "o negro o negro". A bandeira, símbolo nacional, aparece manchada pela violência e pelo medo da ditadura.
+@97 m literatura/pre-modernismo-ao-contemporaneo fig
+x: Em frases curtas, o conto resume a história do mundo e do Brasil numa sequência rápida e caótica, com tiradas engraçadas e irônicas. O olhar contemporâneo passa pelo humor e pela ironia para mostrar (e celebrar) o caos da vida.
+@98 m portugues/interpretacao-de-texto fig
+x: A imagem mostra um homem gritando e a frase "Se a informação não chega, a opinião não sai!". A mensagem da ABI é que o cidadão só consegue formar sua opinião se tiver acesso à informação.
+@101 m portugues/morfologia-e-sintaxe fig
+x: "Cópia rápida fácil. Vai ser bom, não foi?" usa o futuro ("vai ser") e logo em seguida o pretérito ("foi"): a impressão fica pronta tão rápido que o serviço já aconteceu. A sequência de tempos verbais é que destaca a rapidez.
+@102 f artes/artes-e-educacao-fisica fig
+x: O texto mostra que a amarelinha começou como treino de soldados romanos, com mais de cem metros, e foi mudando até virar brincadeira de criança riscada no chão. As brincadeiras podem ser reinventadas conforme o lugar e a época em que são praticadas.
+@105 m portugues/interpretacao-de-texto fig
+x: A pesquisa mostrou que, olhando por poucos minutos as fotos, postagens e interesses de alguém nas redes sociais, é possível prever traços de personalidade e desempenho no trabalho. As redes permitem avaliar informações pessoais e de comportamento do candidato.
+@109 m portugues/funcoes-generos-e-variacao fig
+x: O cartaz traz a imagem de uma médica, de jaleco e estetoscópio, ao lado das recomendações de prevenção. A figura da profissional de saúde dá autoridade ao que está escrito: é o discurso autorizado usado como argumento.
+@110 d literatura/quinhentismo-ao-simbolismo fig
+x: O poema, de 1975 (durante a ditadura), corta as palavras e evoca a Casa dos Contos de Ouro Preto, onde inconfidentes foram presos. Com uma linguagem de ruptura, o eu lírico recria o ambiente de opressão vivido pelos inconfidentes, aproximando os dois momentos históricos.
+@114 m artes/artes-e-educacao-fisica fig
+x: No quadro, o espelho deveria mostrar o rosto do homem, mas mostra as costas dele, enquanto o livro na prateleira aparece refletido normalmente. Juntar elementos que não combinam, criando uma imagem impossível, é um traço típico do Surrealismo.
+@116 m artes/artes-e-educacao-fisica fig
+x: A máscara africana reduz o rosto a formas geométricas simples e expressivas, sem buscar copiar a realidade. Essa síntese das formas inspirou o Cubismo de Picasso.
+@119 m portugues/morfologia-e-sintaxe fig
+x: A palavra "sambódromo" foi criada juntando "samba" com o elemento "-dromo", e depois serviu de modelo para outras (como "camelódromo"). Mesmo com a crítica de Gullar, isso mostra o dinamismo da língua, que sempre cria palavras novas.
+@134 m literatura/pre-modernismo-ao-contemporaneo fig
+x: No álbum de família, todos pareciam maravilhosos, mas Margarida revela os "podres": casamentos por interesse e segredos. A família harmoniosa era mantida escondendo verdades, à custa de hipocrisia.
+@135 m artes/artes-e-educacao-fisica fig
+x: Freud pinta o rosto com rugas, flacidez e marcas, como um biólogo que registra o corpo como ele é. A obra é fiel à forma real, sem embelezar nem buscar um ideal de perfeição.
