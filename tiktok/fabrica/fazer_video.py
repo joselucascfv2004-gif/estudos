@@ -42,7 +42,7 @@ FUNDOS_USADOS = RAIZ / "fundos" / "usados.json"
 
 LARGURA, ALTURA, QUADROS = 1080, 1920, 30
 VELOCIDADE = 2.0  # narração e fundo acelerados (2x)
-TRECHO_MAXIMO = 30.0  # segundos de cada vídeo de fundo usados no máximo (15 s na tela, em 2x)
+TRECHO_MAXIMO = 40.0  # segundos de cada vídeo de fundo usados no máximo (20 s na tela, em 2x)
 DURACAO_MINIMA, DURACAO_MAXIMA = 61, 180  # o TikTok só paga por vídeos com mais de 1 minuto
 
 # Fonte da legenda: nome -> (tamanho, espaçamento). Os arquivos ficam em fabrica/fontes/.
