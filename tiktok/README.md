@@ -59,7 +59,7 @@ Tudo com ferramentas **gratuitas**:
 | Legendas | Tempo de cada palavra que a própria voz informa (ou **Whisper**) | Palavras grandes no meio da tela |
 | Montagem | **FFmpeg** | Corta um trecho aleatório do fundo do tamanho da narração |
 | Onde roda | Aqui na nuvem ou no **GitHub Actions** (grátis) | Os vídeos ficam fora do GitHub (são pesados) |
-| Entrega | Google Drive | Você baixa no celular e posta |
+| Entrega | Aqui no chat do Claude | Você salva os vídeos no celular e posta (o conector do Drive não aceita arquivos de vídeo grandes) |
 
 ### Por que a postagem não é 100% automática (por enquanto)
 
@@ -103,12 +103,23 @@ Tudo com ferramentas **gratuitas**:
 - **Formato fixo:** título na tela nos 2 primeiros segundos ("Descobri o segredo do meu pai no
   casamento da minha irmã…"), legenda grande, final com gancho para a parte 2.
 
-### Fase 3 — Montar a fábrica (eu faço)
+### Fase 3 — Montar a fábrica ✅ pronta
 
-1. Programa que lê um roteiro de `roteiros/` e gera a narração.
-2. Legendas animadas sincronizadas com a voz.
-3. Montagem do vídeo vertical com o fundo de `fundos/`.
-4. Gerar vários vídeos de uma vez e enviar para uma pasta do seu Google Drive.
+Decisões do dono do canal:
+
+- Temas: **traição, relacionamentos, brigas de família e de trabalho**, sempre polêmicos.
+- Vozes: alternar **feminina e masculina** entre as histórias.
+- **Toda história em duas partes**, para o público ir ao perfil procurar a Parte 2.
+- Fundo: **slime na maioria dos vídeos**, também tinta e outros vídeos satisfatórios (grátis, do
+  Pexels). Depois, gameplay de Minecraft gravado por você. Vamos comparar qual fundo dá mais
+  visualização (cada vídeo guarda o fundo usado em `info.json`).
+
+Como funciona: veja `fabrica/README.md`. Os roteiros ficam em `roteiros/` (formato em
+`roteiros/README.md`).
+
+**Para mandar a gravação do seu jogo:** grave a tela do jogo (por exemplo com o OBS, grátis), suba o
+arquivo no Google Drive, toque em **Compartilhar → Qualquer pessoa com o link** e mande o link aqui
+no chat. Eu corto a gravação em vários fundos.
 
 ### Fase 4 — Postar com regularidade
 

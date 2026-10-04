@@ -1,0 +1,16 @@
+{
+  "_sobre": "Vídeos de fundo grátis. 'pexels' = número do vídeo em pexels.com/video/<número>. Licença Pexels: uso grátis, inclusive comercial, sem precisar dar crédito. Para adicionar um vídeo, coloque o número na categoria certa e rode baixar_fundos.py.",
+  "slime": {
+    "pexels": [6150669, 5871327, 6150668, 6150661, 5871330, 5871329, 5875724]
+  },
+  "tinta": {
+    "pexels": [6957793, 6109095, 7216717, 6109114, 6474076, 7216716, 6473929, 6109128, 8738478]
+  },
+  "satisfatorio": {
+    "pexels": [30335428, 16456768, 16029652, 16561467, 5871940, 8746938, 36504176]
+  },
+  "minecraft": {
+    "_sobre": "Gravações do próprio dono do canal. Coloque os arquivos em saida/fundos/minecraft/.",
+    "pexels": []
+  }
+}
