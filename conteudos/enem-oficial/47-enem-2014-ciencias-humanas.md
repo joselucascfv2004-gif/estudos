@@ -226,6 +226,27 @@ Os exemplos mencionados no texto evidenciam um uso dos meios de comunicação id
 
 **Assunto:** historia/seculo-xx
 
+### 1
+![Figura](enem-2014-d1-q001-1.webp)
+
+Fon-Fon!, ano IV, n. 36, 3 set. 1910. Disponível em: objdigital.bn.br. Acesso em: 4 abr. 2014.
+
+A charge, datada de 1910, ao retratar a implantação da rede telefônica no Brasil, indica que esta
+
+- A) permitiria aos índios se apropriarem da telefonia móvel.
+- B) ampliaria o contato entre a diversidade de povos indígenas.
+- C) faria a comunicação sem ruídos entre grupos sociais distintos.
+- D) restringiria a sua área de atendimento aos estados do norte do país.
+- E) possibilitaria a integração das diferentes regiões do território nacional.
+
+**Resposta:** E
+
+**Explicação:** A charge mostra um indígena com o corpo esticado de norte a sul (do Amazonas ao Rio Grande), falando ao telefone de uma ponta à outra. A ideia é que a rede telefônica ligaria regiões distantes, integrando o território nacional.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 1
+
+**Assunto:** historia/brasil-republica
+
 ## Médio
 
 ### 3
@@ -655,6 +676,291 @@ Os fatos apresentados se relacionam ao processo de independência da América po
 **Explicação:** Com a corte no Rio de Janeiro, o Brasil passou a ser a sede do governo, com ministérios, tribunais e abertura dos portos. A colônia deixou de depender de Lisboa, o que enfraqueceu o domínio metropolitano e preparou a independência.
 
 **Fonte:** ENEM 2014, 1º dia, caderno azul, questão 43
+
+**Assunto:** historia/brasil-imperio
+
+### 5
+![Figura](enem-2014-d1-q005-1.webp)
+
+> NEVES, E. Engraxate. Disponível em: www.grafar.blogspot.com. Acesso em: 15 fev. 2013.
+
+Considerando-se a dinâmica entre tecnologia e organização do trabalho, a representação contida no cartum é caracterizada pelo pessimismo em relação à
+
+- A) ideia de progresso.
+- B) concentração do capital.
+- C) noção de sustentabilidade.
+- D) organização dos sindicatos.
+- E) obsolescência dos equipamentos.
+
+**Resposta:** A
+
+**Explicação:** O cartum mostra um robô engraxando os sapatos de um homem e máquinas fazendo o trabalho, com um "Não há vagas" ao fundo. A tecnologia aparece tirando empregos: é uma visão pessimista da ideia de progresso.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 5
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 9
+TEXTO I
+
+![Figura](enem-2014-d1-q009-1.webp)
+
+> Disponível em: http://twistedsifter.com. Acesso em: 5 nov. 2013 (adaptado).
+
+TEXTO II
+
+A Índia deu um passo alto no setor de teleatendimento para países mais desenvolvidos, como os Estados Unidos e as nações europeias. Atualmente mais de 245 mil indianos realizam ligações para todas as partes do mundo a fim de oferecer cartões de créditos ou telefones celulares ou cobrar contas em atraso.
+
+> Disponível em: www.conectacallcenter.com.br. Acesso em: 12 nov. 2013 (adaptado).
+
+Ao relacionar os textos, a explicação para o processo de territorialização descrito está no(a)
+
+- A) aceitação das diferenças culturais.
+- B) adequação da posição geográfica.
+- C) incremento do ensino superior.
+- D) qualidade da rede logística.
+- E) custo da mão de obra local.
+
+**Resposta:** E
+
+**Explicação:** A Índia tem uma população enorme e salários baixos para os padrões dos países ricos. Empresas dos Estados Unidos e da Europa levam para lá o teleatendimento por causa do baixo custo da mão de obra local.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 9
+
+**Assunto:** geografia/geopolitica-e-globalizacao
+
+### 10
+O jovem espanhol Daniel se sente perdido. Seu diploma de desenhista industrial e seu alto conhecimento de inglês devem ajudá-lo a tomar um rumo. Mas a taxa de desemprego, que supera 52% entre os que têm menos de 25 anos, o desnorteia. Ele está convencido de que seu futuro profissional não está na Espanha, como o de, pelo menos, 120 mil conterrâneos que emigraram nos últimos dois anos. O irmão dele, que é engenheiro-agrônomo, conseguiu emprego no Chile. Atualmente, Daniel participa de uma “oficina de procura de emprego” em países como Brasil, Alemanha e China. A oficina é oferecida por uma universidade espanhola.
+
+> GUILAYN, P. Na Espanha, universidade ensina a emigrar. O Globo, 17 fev. 2013 (adaptado).
+
+A situação ilustra uma crise econômica que implica
+
+- A) valorização do trabalho fabril.
+- B) expansão dos recursos tecnológicos.
+- C) exportação de mão de obra qualificada.
+- D) diversificação dos mercados produtivos.
+- E) intensificação dos intercâmbios estudantis.
+
+**Resposta:** C
+
+**Explicação:** Com desemprego acima de 52% entre os jovens, profissionais qualificados como Daniel e seu irmão (desenhista industrial e engenheiro-agrônomo) vão trabalhar em outros países. A crise espanhola leva à exportação de mão de obra qualificada.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 10
+
+**Assunto:** geografia/geopolitica-e-globalizacao
+
+### 16
+Queijo de Minas vira patrimônio cultural brasileiro
+
+O modo artesanal da fabricação do queijo em Minas Gerais foi registrado nesta quinta-feira (15) como patrimônio cultural imaterial brasileiro pelo Conselho Consultivo do Instituto do Patrimônio Histórico e Artístico Nacional (Iphan). O veredicto foi dado em reunião do conselho realizada no Museu de Artes e Ofícios, em Belo Horizonte. O presidente do Iphan e do conselho ressaltou que a técnica de fabricação artesanal do queijo está “inserida na cultura do que é ser mineiro”.
+
+Folha de S. Paulo, 15 maio 2008.
+
+Entre os bens que compõem o patrimônio nacional, o que pertence à mesma categoria citada no texto está representado em:
+
+- A) ![Alternativa A](enem-2014-d1-q016-1.webp)
+- B) ![Alternativa B](enem-2014-d1-q016-3.webp)
+- C) ![Alternativa C](enem-2014-d1-q016-5.webp)
+- D) ![Alternativa D](enem-2014-d1-q016-2.webp)
+- E) ![Alternativa E](enem-2014-d1-q016-4.webp)
+
+**Resposta:** C
+
+**Explicação:** O modo de fazer queijo em Minas foi registrado como patrimônio imaterial: um saber, uma técnica tradicional. Da mesma categoria é o ofício das paneleiras de Goiabeiras, a técnica de fazer panelas de barro. Os outros exemplos são bens materiais (prédios, cidades, obras, paisagens).
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 16
+
+**Assunto:** historia/brasil-republica
+
+### 17
+![Figura](enem-2014-d1-q017-1.webp)
+
+> PAIVA, M. Disponível em: www.redes.unb.br. Acesso em: 25 maio 2014.
+
+A discussão levantada na charge, publicada logo após a promulgação da Constituição de 1988, faz referência ao seguinte conjunto de direitos:
+
+- A) Civis, como o direito à vida, à liberdade de expressão e à propriedade.
+- B) Sociais, como direito à educação, ao trabalho e à proteção à maternidade e à infância.
+- C) Difusos, como direito à paz, ao desenvolvimento sustentável e ao meio ambiente saudável.
+- D) Coletivos, como direito à organização sindical, à participação partidária e à expressão religiosa.
+- E) Políticos, como o direito de votar e ser votado, à soberania popular e à participação democrática.
+
+**Resposta:** B
+
+**Explicação:** O personagem lê que "todo brasileiro tem direito à moradia" e à alimentação e à saúde, mas vive na rua. Moradia, alimentação, saúde, educação e trabalho são direitos sociais garantidos pela Constituição de 1988.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 17
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 25
+![Figura](enem-2014-d1-q025-1.webp)
+
+> SANZIO, R. Detalhe do afresco A Escola de Atenas. Disponível em: http://fil.cfh.ufsc.br. Acesso em: 20 mar. 2013.
+
+No centro da imagem, o filósofo Platão é retratado apontando para o alto. Esse gesto significa que o conhecimento se encontra em uma instância na qual o homem descobre a
+
+- A) suspensão do juízo como reveladora da verdade.
+- B) realidade inteligível por meio do método dialético.
+- C) salvação da condição mortal pelo poder de Deus.
+- D) essência das coisas sensíveis no intelecto divino.
+- E) ordem intrínseca ao mundo por meio da sensibilidade.
+
+**Resposta:** B
+
+**Explicação:** Na pintura de Rafael, Platão aponta para cima, para o mundo das ideias, enquanto Aristóteles aponta para a terra. Para Platão, o conhecimento verdadeiro está no mundo inteligível, alcançado pela razão por meio do método dialético.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 25
+
+**Assunto:** filosofia/filosofia-antiga-e-medieval
+
+### 26
+![Figura](enem-2014-d1-q026-1.webp)
+
+Nota: O saldo considera apenas as pessoas que se deslocavam para o trabalho e retornavam aos seus municípios diariamente.
+
+> BRASIL. IBGE. Atlas do censo demográfico 2010 (adaptado).
+
+O fluxo migratório representado está associado ao processo de
+
+- A) fuga de áreas degradadas.
+- B) inversão da hierarquia urbana.
+- C) busca por amenidades ambientais.
+- D) conurbação entre municípios contíguos.
+- E) desconcentração dos investimentos produtivos.
+
+**Resposta:** D
+
+**Explicação:** O mapa mostra pessoas indo e voltando todos os dias entre Belo Horizonte e cidades vizinhas (Contagem, Betim, Ribeirão das Neves). Esse movimento diário acontece porque as cidades cresceram e se juntaram, formando uma mancha urbana contínua: a conurbação.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 26
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 29
+A filosofia encontra-se escrita neste grande livro que continuamente se abre perante nossos olhos (isto é, o universo), que não se pode compreender antes de entender a língua e conhecer os caracteres com os quais está escrito. Ele está escrito em língua matemática, os caracteres são triângulos, circunferências e outras figuras geométricas, sem cujos meios é impossível entender humanamente as palavras; sem eles, vagamos perdidos dentro de um obscuro labirinto.
+
+> GALILEI, G. O ensaiador. Os pensadores. São Paulo: Abril Cultural, 1978.
+
+No contexto da Revolução Científica do século XVII, assumir a posição de Galileu significava defender a
+
+- A) continuidade do vínculo entre ciência e fé dominante na Idade Média.
+- B) necessidade de o estudo linguístico ser acompanhado do exame matemático.
+- C) oposição da nova física quantitativa aos pressupostos da filosofia escolástica.
+- D) importância da independência da investigação científica pretendida pela Igreja.
+- E) inadequação da matemática para elaborar uma explicação racional da natureza.
+
+**Resposta:** C
+
+**Explicação:** Para Galileu, o "livro da natureza" está escrito em linguagem matemática (triângulos, círculos). Isso se opunha à física de Aristóteles ensinada pela escolástica, que explicava a natureza por qualidades, sem medir. Era a defesa de uma nova física quantitativa.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 29
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 34
+![Figura](enem-2014-d1-q034-1.webp)
+
+> Disponível em: www.banktrack.org. Acesso em: 7 maio 2013 (adaptado).
+
+A imagem indica pontos com ativo uso de tecnologia, correspondentes a que processo de intervenção no espaço?
+
+- A) Expansão das áreas agricultáveis, com uso intensivo de maquinário e insumos agrícolas.
+- B) Recuperação de águas eutrofizadas em decorrência da contaminação por esgoto doméstico.
+- C) Ampliação da capacidade de geração de energia, com alteração do ecossistema local.
+- D) Impermeabilização do solo pela construção civil nas áreas de expansão urbana.
+- E) Criação recente de grandes parques industriais de mediano potencial poluidor.
+
+**Resposta:** C
+
+**Explicação:** Os pontos ficam onde há grandes usinas de energia sendo construídas com financiamento, como as hidrelétricas da Amazônia (Jirau e Santo Antônio, em Rondônia, e Belo Monte, no Pará) e a usina nuclear de Angra, no Rio de Janeiro. São obras que ampliam a geração de energia, mas alteram o ecossistema local.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 34
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 36
+![Figura](enem-2014-d1-q036-1.webp)
+
+> Disponível em: www.telescopionaescola.pro.br. Acesso em: 3 abr. 2014 (adaptado).
+
+A partir da análise da imagem, o aparecimento da Dorsal Mesoatlântica está associada ao(à)
+
+- A) separação da Pangeia a partir do período Permiano.
+- B) deslocamento de fraturas no período Triássico.
+- C) afastamento da Europa no período Jurássico.
+- D) formação do Atlântico Sul no período Cretáceo.
+- E) constituição de orogêneses no período Quaternário.
+
+**Resposta:** D
+
+**Explicação:** A Dorsal Mesoatlântica é a cadeia de montanhas submarinas no meio do Atlântico, onde as placas se afastam. Ela surgiu quando a América do Sul e a África se separaram, abrindo o Atlântico Sul, o que os mapas mostram no Cretáceo.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 36
+
+**Assunto:** geografia/geografia-fisica
+
+### 37
+![Figura](enem-2014-d1-q037-1.webp)
+
+> Disponível em: www.ipea.gov.br. Acesso em: 2 ago. 2013.
+
+Na imagem, é ressaltado, em tom mais escuro, um grupo de países que na atualidade possuem características político-econômicas comuns, no sentido de
+
+- A) adotarem o liberalismo político na dinâmica dos seus setores públicos.
+- B) constituírem modelos de ações decisórias vinculadas à social-democracia.
+- C) instituírem fóruns de discussão sobre intercâmbio multilateral de economias emergentes.
+- D) promoverem a integração representativa dos diversos povos integrantes de seus territórios.
+- E) apresentarem uma frente de desalinhamento político aos polos dominantes do sistema-mundo.
+
+**Resposta:** C
+
+**Explicação:** Os países em destaque são Brasil, Rússia, Índia, China e África do Sul: os BRICS, economias emergentes que se reúnem para discutir a economia, o comércio e a cooperação entre si.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 37
+
+**Assunto:** geografia/geopolitica-e-globalizacao
+
+### 38
+![Figura](enem-2014-d1-q038-1.webp)
+
+> Disponível em: http://sys2.sbgf.org.br. Acesso em: 13 maio 2013 (adaptado).
+
+A preservação da sustentabilidade do recurso natural exposto pressupõe
+
+- A) impedir a perfuração de poços.
+- B) coibir o uso pelo setor residencial.
+- C) substituir as leis ambientais vigentes.
+- D) reduzir o contingente populacional na área.
+- E) introduzir a gestão participativa entre os municípios.
+
+**Resposta:** E
+
+**Explicação:** O Aquífero Alter do Chão guarda um enorme volume de água subterrânea sob vários estados. Como ele não respeita limites de municípios, preservá-lo exige que os municípios façam uma gestão compartilhada e participativa.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 38
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 45
+![Figura](enem-2014-d1-q045-1.webp)
+
+> AGOSTINI. A vida fluminense, ano 3, n. 128, 11 jun. 1870. In: LEMOS, R. (Org.). Uma história do Brasil através da caricatura (1840-2001). Rio de Janeiro: Letras & Expressões, 2001 (adaptado).
+
+Na charge, identifica-se uma contradição no retorno de parte dos “Voluntários da Pátria” que lutaram na Guerra do Paraguai (1864-1870), evidenciada na
+
+- A) negação da cidadania aos familiares cativos.
+- B) concessão de alforrias aos militares escravos.
+- C) perseguição dos escravistas aos soldados negros.
+- D) punição dos feitores aos recrutados compulsoriamente.
+- E) suspensão das indenizações aos proprietários prejudicados.
+
+**Resposta:** A
+
+**Explicação:** O soldado negro lutou pelo Brasil na Guerra do Paraguai e voltou como herói, mas encontrou a mãe amarrada a um tronco, ainda escravizada. A contradição é ele ser "libertador" no Paraguai enquanto sua família continuava sem liberdade nem cidadania.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 45
 
 **Assunto:** historia/brasil-imperio
 

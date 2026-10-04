@@ -80,6 +80,41 @@ a: 1/8 | 7/8 | 8/7 | 8/9 | 9/8
 x: O custo depende do volume (altura × largura × espessura). A espessura não muda e a altura passa a ser 9/8 da anterior. Para o volume não mudar, a largura deve ser multiplicada por 8/9.
 @176 d matematica/numeros-e-operacoes
 x: O voo dura 6 h: saindo de A às 15h, chega às 21h no horário de A, que são 18h em B. Então B está 3 horas atrás de A. Para chegar a A às 13h, deve sair às 7h (horário de A), ou seja, 4h no horário de B.
+@136 m matematica/grandezas-medidas-escalas fig
+x: Tirando as margens, a região disponível mede 42 − 6 = 36 cm por 30 − 6 = 24 cm. A gravura tem 800 cm × 600 cm. Na largura caberia a escala 800 ÷ 36 ≈ 1 : 22,2; na altura, 600 ÷ 24 = 1 : 25. Para caber nos dois sentidos, vale a maior redução: 1 : 25.
+@137 m matematica/geometria-espacial fig
+a: πd | 2πd | 4πd | 5πd | 10πd
+x: A folha é quadrada e dá 5 voltas completas em torno do cilindro de diâmetro d. Cada volta mede o comprimento da circunferência, πd. O lado da folha é 5πd.
+@139 d matematica/funcoes-afim-e-quadratica fig
+s: decorrido é || h => decorrido é
+x: A água começa a encher o tronco de cone de baixo, que é largo no fundo e se estreita para cima: a altura sobe devagar e depois cada vez mais rápido. No cilindro, sobe em ritmo constante (reta). No tronco de cima, que se alarga, sobe cada vez mais devagar. O gráfico é: curva acelerando, reta e curva desacelerando.
+@140 m matematica/geometria-espacial fig
+x: A superfície lateral de um cone, aberta, é um setor circular. Revestir só da base até a metade da altura significa tirar a parte de cima (o setor menor perto do vértice). Sobra uma faixa de setor circular, com dois arcos: a forma da última alternativa.
+@141 m matematica/porcentagem fig
+x: A taxa total de dezembro de 2012 é igual à de dezembro de 2011: 9,0%. O desemprego oculto é metade do de junho de 2012 (2,2%): 1,1%. O aberto é 9,0 − 1,1 = 7,9%.
+@145 m matematica/geometria-espacial fig
+x: Pela planificação, a coluna de 90 cm é formada por duas faces de 24 cm e pela altura da caixa: 24 + h + 24 = 90, então h = 42 cm. As dimensões são x, 24 e 42. Pela regra da Anac: x + 24 + 42 ≤ 115, ou seja, x ≤ 49 cm.
+@146 m matematica/geometria-espacial fig
+x: Os lados da base aumentam 25% (multiplicam por 1,25), então a área da base fica 1,25² = 1,5625 vezes maior. Para o volume não mudar, a altura deve ser dividida por 1,5625: fica 0,64 da original, uma redução de 36%.
+@148 d matematica/porcentagem fig
+x: Em 2013, a folha de R$ 400 000 se dividia assim: fundamental 12,5% (R$ 50 000 para 50 pessoas, R$ 1 000 cada), médio 75% (R$ 300 000 para 150, R$ 2 000 cada) e superior 12,5% (R$ 50 000 para 10, R$ 5 000 cada). Em 2014: 70 × 1 000 + 180 × 2 000 + 20 × 5 000 = R$ 530 000. Para manter o lucro, a receita deve subir R$ 130 000.
+@154 m matematica/geometria-espacial fig
+x: Vista de cima, a escada caracol é circular: a mão desliza pelo corrimão girando em torno do eixo central. A projeção do caminho de A até D é um arco de circunferência (sem a parte da escada que não é percorrida), como na terceira figura.
+@157 m matematica/funcoes-afim-e-quadratica fig
+x: Com R$ 30,00, vemos em que tempo cada reta chega a 30. B custa R$ 50 fixo (não serve). D já começa perto de 30 (poucos minutos); A e E chegam a 30 com cerca de 20 minutos. A reta C, que começa mais baixa e sobe devagar, só chega a 30 por volta de 30 minutos: é o plano com mais tempo de chamada.
+@166 m matematica/geometria-plana fig
+x: Um lado tem 6 palitos, e os outros dois somam 17 − 6 = 11. Pela desigualdade triangular, a diferença entre eles deve ser menor que 6: (3, 8), (4, 7) e (5, 6). Os pares (1, 10) e (2, 9) não formam triângulo. São 3 triângulos.
+@167 m matematica/geometria-analitica fig
+a: f(x) = −√(2 − x²) | f(x) = √(2 − x²) | f(x) = x² − 2 | f(x) = −√(4 − x²) | f(x) = √(4 − x²)
+x: O assento descreve parte de uma circunferência de raio 2 m com centro na origem (topo do suporte): x² + y² = 4. Como fica abaixo do topo, y é negativo: f(x) = −√(4 − x²).
+@171 m matematica/geometria-espacial fig
+x: O topo tem 6 m e, como a cada metro de altura o topo tem 0,5 m a mais que o fundo, o fundo tem 6 − 2 × 0,5 = 5 m. Área do trapézio: (6 + 5) ÷ 2 × 2 = 11 m². Volume: 11 × 20 = 220 m³. Com 2 m³ por tonelada: 110 toneladas.
+@172 m matematica/estatistica fig
+x: Somando as duas espécies em cada dia: segunda 350 + 1 250 = 1 600; terça 800 + 1 100 = 1 900; quarta 1 450 + 300 = 1 750; quinta 650 + 850 = 1 500; sexta 300 + 1 400 = 1 700; sábado 290 + 1 000 = 1 290; domingo 0 + 1 350 = 1 350. O máximo é na terça-feira.
+@173 m matematica/geometria-espacial fig
+x: Se a aresta de cima é a, a de baixo é 2a: volumes a³ e 8a³. Metade do cubo de baixo (4a³) levou 8 minutos, ou seja, a³ a cada 2 minutos. Falta encher 4a³ + a³ = 5a³: 10 minutos.
+@177 f matematica/numeros-e-operacoes fig
+x: Na Figura 2, há 3 nós nos milhares, nenhum nas centenas, 6 nas dezenas e 4 nas unidades. O número é 3 064.
 
 ## 48-enem-2014-linguagens.md | 2014 | 2 | 2º dia, caderno amarelo | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2014 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
@@ -153,3 +188,25 @@ x: O soneto usa a história bíblica da libertação dos hebreus do Faraó para 
 x: Bandeira transforma em poesia coisas banais da rua: balõezinhos, macaquinhos de brinquedo, a fala dos camelôs. O lirismo vem de reunir esses elementos comuns e mostrar neles "uma lição de infância".
 @127 d literatura/quinhentismo-ao-simbolismo
 x: Brás Cubas defende o cunhado dizendo que ele mandava escravizados ao calabouço por hábito do contrabando, como "efeito de relações sociais". Justificar a tortura como algo natural é a ironia que denuncia a crueldade da elite escravista.
+@96 m portugues/interpretacao-de-texto fig
+x: A notícia mostra que as doações aumentaram e que alguns estados zeraram a fila da córnea, mas só para esse transplante e só em alguns estados. O cartaz continua pedindo doações de órgãos em geral. Os textos se completam: um informa o avanço, o outro incentiva novas doações.
+@99 m portugues/interpretacao-de-texto fig
+x: A manchete promete a primeira foto do robô no solo de Marte, e a imagem mostra o robô tirando uma foto de si mesmo, como uma selfie. A charge critica a mania de fazer e divulgar autorretratos.
+@101 m portugues/funcoes-generos-e-variacao fig
+x: Para uma criança vítima de abuso, a hora de dormir vira um pesadelo real: a metáfora mostra o tamanho do sofrimento que esse crime causa. Assim, a peça dá a dimensão do abuso e reforça a necessidade de denunciar ("Ligue 100").
+@106 m artes/artes-e-educacao-fisica fig
+x: A charge recria Guernica com o trânsito do feriado de Carnaval e a frase "o trânsito no feriadão é sempre um quadro dramático". A expressão "quadro dramático" tem dois sentidos: lembra a pintura de Picasso (um quadro) e descreve a situação grave das estradas.
+@107 m literatura/pre-modernismo-ao-contemporaneo v fig
+x: Cada estrofe apresenta uma atitude de aceitação ("morder o fruto amargo e não cuspir") e, depois do "mas", vem a atitude mais importante: avisar os outros. O "mas" introduz o argumento mais forte, a tarefa de denunciar e preparar a mudança.
+@109 m literatura/quinhentismo-ao-simbolismo fig
+x: Os cordelistas mantêm de propósito a impressão manual e a xilogravura, mesmo com a gráfica informatizada: isso "faz parte da filosofia do trabalho". Manter essas técnicas ajuda a preservar a identidade dessa tradição popular.
+@111 m artes/artes-e-educacao-fisica fig
+x: Os "Bichos" de Lygia Clark são placas de metal ligadas por dobradiças que o público pode manipular e mudar de forma. A obra só se completa com a participação do espectador, aproximando arte e vida.
+@121 m portugues/interpretacao-de-texto fig
+x: O texto diz que a nova TV permite "assistir ao que você quiser, quando quiser", em qualquer tela. As novas tecnologias vão atender aos desejos individuais de cada espectador, com recursos de ponta.
+@123 m portugues/interpretacao-de-texto fig
+x: Para mostrar que o gosto musical mudou, o texto apresenta dados: o sertanejo agrada a mais da metade do país, seguido pela MPB e pelo pagode, e funk e gospel crescem nas classes C, D e E. A argumentação se apoia nos resultados de uma pesquisa.
+@124 m portugues/funcoes-generos-e-variacao fig
+x: O anúncio faz perguntas ao leitor ("Você já foi chamado de nerd?", "Está entre os melhores alunos?") que vão desenhando o perfil desejado. Quem se identifica com as respostas percebe que a vaga é para ele: as perguntas criam interação com o leitor.
+@131 f portugues/interpretacao-de-texto fig
+x: A imagem mostra uma mão segurando um megafone na posição em que se seguraria uma arma. A associação entre a arma e o megafone transmite a ideia de trocar a violência pela palavra ("Paz só se consegue com Voz").

@@ -202,6 +202,29 @@ O poder terapêutico dessas células baseia-se em sua capacidade de
 
 **Assunto:** biologia/genetica-e-biotecnologia
 
+### 69
+Em um laboratório de genética experimental, observou-se que determinada bactéria continha um gene que conferia resistência a pragas específicas de plantas. Em vista disso, os pesquisadores procederam de acordo com a figura.
+
+![Figura](enem-2014-d1-q069-1.webp)
+
+> Disponível em: http://ciencia.hsw.uol.com.br. Acesso em: 22 nov. 2013 (adaptado).
+
+Do ponto de vista biotecnológico, como a planta representada na figura é classificada?
+
+- A) Clone.
+- B) Híbrida.
+- C) Mutante.
+- D) Adaptada.
+- E) Transgênica.
+
+**Resposta:** E
+
+**Explicação:** A planta recebeu um gene de outra espécie (da bactéria) por engenharia genética. Um organismo com gene de outra espécie é transgênico.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 69
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
 ## Médio
 
 ### 46
@@ -465,6 +488,384 @@ A eficiência do uso do vinagre nesse caso se explica pela
 
 **Assunto:** quimica/ligacoes-e-funcoes-inorganicas
 
+### 48
+A liberação dos gases clorofluorcarbonos (CFCs) na atmosfera pode provocar depleção de ozônio (O₃) na estratosfera. O ozônio estratosférico é responsável por absorver parte da radiação ultravioleta emitida pelo Sol, a qual é nociva aos seres vivos. Esse processo, na camada de ozônio, é ilustrado simplificadamente na figura.
+
+![Figura](enem-2014-d1-q048-1.webp)
+
+Quimicamente, a destruição do ozônio na atmosfera por gases CFCs é decorrência da
+
+- A) clivagem da molécula de ozônio pelos CFCs para produzir espécies radicalares.
+- B) produção de oxigênio molecular a partir de ozônio, catalisada por átomos de cloro.
+- C) oxidação do monóxido de cloro por átomos de oxigênio para produzir átomos de cloro.
+- D) reação direta entre os CFCs e o ozônio para produzir oxigênio molecular e monóxido de cloro.
+- E) reação de substituição de um dos átomos de oxigênio na molécula de ozônio por átomos de cloro.
+
+**Resposta:** B
+
+**Explicação:** A luz quebra o CFC e solta átomos de cloro. Cada cloro reage com o ozônio (O₃) formando oxigênio (O₂) e monóxido de cloro (ClO); depois o ClO reage e libera o cloro de novo, que destrói outra molécula. É uma reação em cadeia entre os produtos do CFC e o ozônio.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 48
+
+**Assunto:** quimica/quimica-ambiental
+
+### 50
+É comum aos fotógrafos tirar fotos coloridas em ambientes iluminados por lâmpadas fluorescentes, que contêm uma forte composição de luz verde. A consequência desse fato na fotografia é que todos os objetos claros, principalmente os brancos, aparecerão esverdeados. Para equilibrar as cores, deve-se usar um filtro adequado para diminuir a intensidade da luz verde que chega aos sensores da câmera fotográfica. Na escolha desse filtro, utiliza-se o conhecimento da composição das cores-luz primárias: vermelho, verde e azul; e das cores-luz secundárias: amarelo = vermelho + verde, ciano = verde + azul e magenta = vermelho + azul.
+
+> Disponível em: http://nautilus.fis.uc.pt. Acesso em: 20 maio 2014 (adaptado).
+
+Na situação descrita, qual deve ser o filtro utilizado para que a fotografia apresente as cores naturais dos objetos?
+
+- A) Ciano.
+- B) Verde.
+- C) Amarelo.
+- D) Magenta.
+- E) Vermelho.
+
+**Resposta:** D
+
+**Explicação:** Para reduzir o excesso de verde, o filtro deve deixar passar vermelho e azul e bloquear o verde. Vermelho + azul = magenta: o filtro magenta absorve justamente a luz verde.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 50
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 54
+O biodiesel não é classificado como uma substância pura, mas como uma mistura de ésteres derivados dos ácidos graxos presentes em sua matéria-prima. As propriedades do biodiesel variam com a composição do óleo vegetal ou gordura animal que lhe deu origem, por exemplo, o teor de ésteres saturados é responsável pela maior estabilidade do biodiesel frente à oxidação, o que resulta em aumento da vida útil do biocombustível. O quadro ilustra o teor médio de ácidos graxos de algumas fontes oleaginosas.
+
+![Figura](enem-2014-d1-q054-1.webp)
+
+> MA, F.; HANNA, M. A. Biodiesel Production: a review. Bioresource Technology, Londres, v. 70, n. 1, jan. 1999 (adaptado).
+
+Qual das fontes oleaginosas apresentadas produziria um biodiesel de maior resistência à oxidação?
+
+- A) Milho.
+- B) Palma.
+- C) Canola.
+- D) Algodão.
+- E) Amendoim.
+
+**Resposta:** B
+
+**Explicação:** A estabilidade frente à oxidação vem dos ácidos graxos saturados (C14:0, C16:0, C18:0, sem ligações duplas). Somando os saturados: palma = 1,0 + 42,8 + 4,5 = 48,3%, o maior teor da tabela.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 54
+
+**Assunto:** quimica/quimica-organica
+
+### 55
+Uma pessoa, lendo o manual de uma ducha que acabou de adquirir para a sua casa, observa o gráfico, que relaciona a vazão na ducha com a pressão, medida em metros de coluna de água (mca).
+
+![Figura](enem-2014-d1-q055-1.webp)
+
+Nessa casa residem quatro pessoas. Cada uma delas toma um banho por dia, com duração média de 8 minutos, permanecendo o registro aberto com vazão máxima durante esse tempo. A ducha é instalada em um ponto seis metros abaixo do nível da lâmina de água, que se mantém constante dentro do reservatório. Ao final de 30 dias, esses banhos consumirão um volume de água, em litros, igual a
+
+- A) 69 120.
+- B) 17 280.
+- C) 11 520.
+- D) 8 640.
+- E) 2 880.
+
+**Resposta:** C
+
+**Explicação:** A ducha está 6 m abaixo do nível da água: 6 mca, que no gráfico dão vazão de 12 L/min. Cada banho: 8 min × 12 = 96 L. Em 30 dias, 4 pessoas: 4 × 30 × 96 = 11 520 L.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 55
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 57
+Um sistema de iluminação foi construído com um circuito de três lâmpadas iguais conectadas a um gerador (G) de tensão constante. Esse gerador possui uma chave que pode ser ligada nas posições A ou B.
+
+![Figura](enem-2014-d1-q057-1.webp)
+
+Considerando o funcionamento do circuito dado, a lâmpada 1 brilhará mais quando a chave estiver na posição
+
+- A) B, pois a corrente será maior nesse caso.
+- B) B, pois a potência total será maior nesse caso.
+- C) A, pois a resistência equivalente será menor nesse caso.
+- D) B, pois o gerador fornecerá uma maior tensão nesse caso.
+- E) A, pois a potência dissipada pelo gerador será menor nesse caso.
+
+**Resposta:** C
+
+**Explicação:** Com a chave em A, as lâmpadas 1 e 3 ficam em paralelo ligadas direto ao gerador, e a lâmpada 2 fica sem corrente: resistência equivalente R/2, e cada lâmpada recebe toda a tensão. Com a chave em B, a lâmpada 2 entra em série com as outras: a resistência total aumenta (1,5R) e a lâmpada 1 recebe menos tensão. Em A ela brilha mais.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 57
+
+**Assunto:** fisica/eletricidade
+
+### 63
+A aplicação excessiva de fertilizantes nitrogenados na agricultura pode acarretar alterações no solo e na água pelo acúmulo de compostos nitrogenados, principalmente a forma mais oxidada, favorecendo a proliferação de algas e plantas aquáticas e alterando o ciclo do nitrogênio, representado no esquema. A espécie nitrogenada mais oxidada tem sua quantidade controlada por ação de microrganismos que promovem a reação de redução dessa espécie, no processo denominado desnitrificação.
+
+![Figura](enem-2014-d1-q063-1.webp)
+
+O processo citado está representado na etapa
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** E
+
+**Explicação:** A forma mais oxidada do nitrogênio na figura é o nitrato (NO₃⁻). Na desnitrificação, bactérias reduzem o nitrato a gás nitrogênio (N₂), que volta para a atmosfera. É a etapa V.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 63
+
+**Assunto:** biologia/ecologia
+
+### 64
+O pêndulo de Newton pode ser constituído por cinco pêndulos idênticos suspensos em um mesmo suporte. Em um dado instante, as esferas de três pêndulos são deslocadas para a esquerda e liberadas, deslocando-se para a direita e colidindo elasticamente com as outras duas esferas, que inicialmente estavam paradas.
+
+![Figura](enem-2014-d1-q064-1.webp)
+
+O movimento dos pêndulos após a primeira colisão está representado em:
+
+- A) ![Alternativa A](enem-2014-d1-q064-2.webp)
+- B) ![Alternativa B](enem-2014-d1-q064-3.webp)
+- C) ![Alternativa C](enem-2014-d1-q064-4.webp)
+- D) ![Alternativa D](enem-2014-d1-q064-5.webp)
+- E) ![Alternativa E](enem-2014-d1-q064-6.webp)
+
+**Resposta:** C
+
+**Explicação:** Na colisão elástica entre esferas iguais, a quantidade de movimento e a energia passam adiante: como três esferas chegam batendo, três esferas saem do outro lado com a mesma velocidade, e as duas da esquerda ficam paradas.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 64
+
+**Assunto:** fisica/dinamica
+
+### 65
+A forma das moléculas, como representadas no papel, nem sempre é planar. Em um determinado fármaco, a molécula contendo um grupo não planar é biologicamente ativa, enquanto moléculas contendo substituintes planares são inativas. O grupo responsável pela bioatividade desse fármaco é
+
+- A) ![Alternativa A](enem-2014-d1-q065-1.webp)
+- B) ![Alternativa B](enem-2014-d1-q065-2.webp)
+- C) ![Alternativa C](enem-2014-d1-q065-3.webp)
+- D) ![Alternativa D](enem-2014-d1-q065-4.webp)
+- E) ![Alternativa E](enem-2014-d1-q065-5.webp)
+
+**Resposta:** A
+
+**Explicação:** Entre os grupos, o cicloexano é o único que não é plano: seus carbonos são todos saturados (sp³), com ângulos de cerca de 109°, e o anel se dobra. Os outros (anéis aromáticos, com dupla e o grupo aldeído) têm carbonos sp², planos.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 65
+
+**Assunto:** quimica/quimica-organica
+
+### 67
+Para entender os movimentos dos corpos, Galileu discutiu o movimento de uma esfera de metal em dois planos inclinados sem atritos e com a possibilidade de se alterarem os ângulos de inclinação, conforme mostra a figura. Na descrição do experimento, quando a esfera de metal é abandonada para descer um plano inclinado de um determinado nível, ela sempre atinge, no plano ascendente, no máximo, um nível igual àquele em que foi abandonada.
+
+![Figura](enem-2014-d1-q067-1.webp)
+
+Se o ângulo de inclinação do plano de subida for reduzido a zero, a esfera
+
+- A) manterá sua velocidade constante, pois o impulso resultante sobre ela será nulo.
+- B) manterá sua velocidade constante, pois o impulso da descida continuará a empurrá-la.
+- C) diminuirá gradativamente a sua velocidade, pois não haverá mais impulso para empurrá-la.
+- D) diminuirá gradativamente a sua velocidade, pois o impulso resultante será contrário ao seu movimento.
+- E) aumentará gradativamente a sua velocidade, pois não haverá nenhum impulso contrário ao seu movimento.
+
+**Resposta:** A
+
+**Explicação:** Galileu concluiu que a esfera sempre tenta voltar ao nível de onde saiu. Se o plano de subida ficar horizontal, ela nunca alcança esse nível e, sem atrito, segue para sempre com velocidade constante, pois não há força resultante sobre ela (inércia).
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 67
+
+**Assunto:** fisica/dinamica
+
+### 71
+Parte do gás carbônico da atmosfera é absorvida pela água do mar. O esquema representa reações que ocorrem naturalmente, em equilíbrio, no sistema ambiental marinho. O excesso de dióxido de carbono na atmosfera pode afetar os recifes de corais.
+
+![Figura](enem-2014-d1-q071-1.webp)
+
+> Disponível em: http://news.bbc.co.uk. Acesso em: 20 maio 2014 (adaptado).
+
+O resultado desse processo nos corais é o(a)
+
+- A) seu branqueamento, levando à sua morte e extinção.
+- B) excesso de fixação de cálcio, provocando calcificação indesejável.
+- C) menor incorporação de carbono, afetando seu metabolismo energético.
+- D) estímulo da atividade enzimática, evitando a descalcificação dos esqueletos.
+- E) dano à estrutura dos esqueletos calcários, diminuindo o tamanho das populações.
+
+**Resposta:** E
+
+**Explicação:** O CO₂ dissolvido forma ácido carbônico, que libera íons H⁺ e deixa o mar mais ácido. Esses íons consomem o carbonato (CO₃²⁻) que os corais usam para construir seus esqueletos de calcário, que se enfraquecem, prejudicando as populações.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 71
+
+**Assunto:** quimica/quimica-ambiental
+
+### 72
+O funcionamento dos geradores de usinas elétricas baseia-se no fenômeno da indução eletromagnética, descoberto por Michael Faraday no século XIX. Pode-se observar esse fenômeno ao se movimentar um ímã e uma espira em sentidos opostos com módulo da velocidade igual a v, induzindo uma corrente elétrica de intensidade i, como ilustrado na figura.
+
+![Figura](enem-2014-d1-q072-1.webp)
+
+A fim de se obter uma corrente com o mesmo sentido da apresentada na figura, utilizando os mesmos materiais, outra possibilidade é mover a espira para a
+
+- A) esquerda e o ímã para a direita com polaridade invertida.
+- B) direita e o ímã para a esquerda com polaridade invertida.
+- C) esquerda e o ímã para a esquerda com mesma polaridade.
+- D) direita e manter o ímã em repouso com polaridade invertida.
+- E) esquerda e manter o ímã em repouso com mesma polaridade.
+
+**Resposta:** A
+
+**Explicação:** Na figura, ímã e espira se afastam, com o polo norte voltado para a bobina: o fluxo de "norte" diminui. Para ter a mesma corrente com os materiais trocados de lado, basta aproximar ímã e espira com o polo invertido (sul voltado para a bobina): o efeito no fluxo é equivalente e o sentido da corrente se mantém.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 72
+
+**Assunto:** fisica/eletricidade
+
+### 74
+![Figura](enem-2014-d1-q074-1.webp)
+
+No heredograma, os símbolos preenchidos representam pessoas portadoras de um tipo raro de doença genética. Os homens são representados pelos quadrados e as mulheres, pelos círculos. Qual é o padrão de herança observado para essa doença?
+
+- A) Dominante autossômico, pois a doença aparece em ambos os sexos.
+- B) Recessivo ligado ao sexo, pois não ocorre a transmissão do pai para os filhos.
+- C) Recessivo ligado ao Y, pois a doença é transmitida dos pais heterozigotos para os filhos.
+- D) Dominante ligado ao sexo, pois todas as filhas de homens afetados também apresentam a doença.
+- E) Codominante autossômico, pois a doença é herdada pelos filhos de ambos os sexos, tanto do pai quanto da mãe.
+
+**Resposta:** D
+
+**Explicação:** A doença aparece em todas as gerações, em homens e mulheres, e todo afetado tem pelo menos um dos pais afetado. Isso indica herança autossômica dominante.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 74
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 77
+O estudo de compostos orgânicos permite aos analistas definir propriedades físicas e químicas responsáveis pelas características de cada substância descoberta. Um laboratório investiga moléculas quirais cuja cadeia carbônica seja insaturada, heterogênea e ramificada. A fórmula que se enquadra nas características da molécula investigada é
+
+- A) CH₃–(CH)₂–CH(OH)–CO–NH–CH₃.
+- B) CH₃–(CH)₂–CH(CH₃)–CO–NH–CH₃.
+- C) CH₃–(CH)₂–CH(CH₃)–CO–NH₂.
+- D) CH₃–CH₂–CH(CH₃)–CO–NH–CH₃.
+- E) C₆H₅–CH₂–CO–NH–CH₃.
+
+**Resposta:** B
+
+**Explicação:** A cadeia precisa ser insaturada (com ligação dupla, (CH)₂), heterogênea (nitrogênio entre carbonos: –CO–NH–CH₃) e ramificada (CH(CH₃)), além de ter carbono quiral. Na segunda fórmula, o carbono do CH(CH₃) está ligado a H, CH₃, CH=CH–CH₃ e CO–NH–CH₃: quatro grupos diferentes.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 77
+
+**Assunto:** quimica/quimica-organica
+
+### 80
+O principal processo industrial utilizado na produção de fenol é a oxidação do cumeno (isopropilbenzeno). A equação mostra que esse processo envolve a formação do hidroperóxido de cumila, que em seguida é decomposto em fenol e acetona, ambos usados na indústria química como precursores de moléculas mais complexas. Após o processo de síntese, esses dois insumos devem ser separados para comercialização individual.
+
+![Figura](enem-2014-d1-q080-1.webp)
+
+Considerando as características físico-químicas dos dois insumos formados, o método utilizado para a separação da mistura, em escala industrial, é a
+
+- A) filtração.
+- B) ventilação.
+- C) decantação.
+- D) evaporação.
+- E) destilação fracionada.
+
+**Resposta:** E
+
+**Explicação:** Fenol e acetona são líquidos miscíveis com temperaturas de ebulição bem diferentes (cerca de 182 °C e 56 °C). Para separá-los em escala industrial, usa-se a destilação fracionada.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 80
+
+**Assunto:** quimica/solucoes
+
+### 81
+Os parasitoides (misto de parasitas e predadores) são insetos diminutos que têm hábitos muito peculiares: suas larvas podem se desenvolver dentro do corpo de outros organismos, como mostra a figura. A forma adulta se alimenta de pólen e açúcares. Em geral, cada parasitoide ataca hospedeiros de determinada espécie e, por isso, esses organismos vêm sendo amplamente usados para o controle biológico de pragas agrícolas.
+
+![Figura](enem-2014-d1-q081-1.webp)
+
+> SANTO, M. M. E.; FARIA, M. L. Parasitoides: insetos benéficos e cruéis. Ciência Hoje, v. 49, n. 291, abr. 2012 (adaptado).
+
+A forma larval do parasitoide assume qual papel nessa cadeia alimentar?
+
+- A) Consumidor primário, pois ataca diretamente uma espécie herbívora.
+- B) Consumidor secundário, pois se alimenta diretamente dos tecidos da lagarta.
+- C) Organismo heterótrofo de primeira ordem, pois se alimenta de pólen na fase adulta.
+- D) Organismo heterótrofo de segunda ordem, pois apresenta o maior nível energético na cadeia.
+- E) Decompositor, pois se alimenta de tecidos do interior do corpo da lagarta e a leva à morte.
+
+**Resposta:** B
+
+**Explicação:** A lagarta come plantas (consumidor primário). A larva do parasitoide se alimenta dos tecidos da lagarta: é consumidor secundário.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 81
+
+**Assunto:** biologia/ecologia
+
+### 82
+Um professor utiliza essa história em quadrinhos para discutir com os estudantes o movimento de satélites. Nesse sentido, pede a eles que analisem o movimento do coelhinho, considerando o módulo da velocidade constante.
+
+![Figura](enem-2014-d1-q082-1.webp)
+
+> SOUSA, M. Cebolinha, n. 240, jun. 2006.
+
+Desprezando a existência de forças dissipativas, o vetor aceleração tangencial do coelhinho, no terceiro quadrinho, é
+
+- A) nulo.
+- B) paralelo à sua velocidade linear e no mesmo sentido.
+- C) paralelo à sua velocidade linear e no sentido oposto.
+- D) perpendicular à sua velocidade linear e dirigido para o centro da Terra.
+- E) perpendicular à sua velocidade linear e dirigido para fora da superfície da Terra.
+
+**Resposta:** A
+
+**Explicação:** O coelhinho dá voltas ao redor da Terra como um satélite, com velocidade de módulo constante. Se o módulo da velocidade não muda, a aceleração tangencial é nula (só existe a aceleração centrípeta, para o centro da Terra).
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 82
+
+**Assunto:** fisica/cinematica
+
+### 85
+Imunobiológicos: diferentes formas de produção, diferentes aplicações
+
+![Figura](enem-2014-d1-q085-1.webp)
+
+Embora sejam produzidos e utilizados em situações distintas, os imunobiológicos I e II atuam de forma semelhante nos humanos e equinos, pois
+
+- A) conferem imunidade passiva.
+- B) transferem células de defesa.
+- C) suprimem a resposta imunológica.
+- D) estimulam a produção de anticorpos.
+- E) desencadeiam a produção de antígenos.
+
+**Resposta:** D
+
+**Explicação:** O imunobiológico I é uma vacina aplicada no ser humano; o II é aplicado no cavalo para produzir soro. Nos dois casos, o organismo recebe antígenos e é estimulado a produzir anticorpos (no cavalo, eles depois são retirados para fazer o soro III).
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 85
+
+**Assunto:** biologia/saude-e-doencas
+
+### 90
+As lentes fotocromáticas escurecem quando expostas à luz solar por causa de reações químicas reversíveis entre uma espécie incolor e outra colorida. Diversas reações podem ser utilizadas, e a escolha do melhor reagente para esse fim se baseia em três principais aspectos: (i) o quanto escurece a lente; (ii) o tempo de escurecimento quando exposta à luz solar; e (iii) o tempo de esmaecimento em ambiente sem forte luz solar. A transmitância indica a razão entre a quantidade de luz que atravessa o meio e a quantidade de luz que incide sobre ele.
+
+Durante um teste de controle para o desenvolvimento de novas lentes fotocromáticas, foram analisadas cinco amostras, que utilizam reagentes químicos diferentes. No quadro, são apresentados os resultados.
+
+![Figura](enem-2014-d1-q090-1.webp)
+
+Considerando os três aspectos, qual é a melhor amostra de lente fotocromática para se utilizar em óculos?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** C
+
+**Explicação:** A melhor lente escurece rápido, clareia rápido quando sai do sol e deixa passar pouca luz quando escura. A amostra 3 escurece em 20 s, clareia em 30 s e tem a menor transmitância (50%). A 5 clareia rápido, mas quase não escurece (95%).
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 90
+
+**Assunto:** quimica/fisico-quimica
+
 ## Difícil
 
 ### 59
@@ -545,3 +946,26 @@ Considerando um rendimento de 90% no processo, a massa de gesso obtida, em grama
 **Fonte:** ENEM 2014, 1º dia, caderno azul, questão 88
 
 **Assunto:** quimica/estequiometria
+
+### 62
+Um sistema de pistão contendo um gás é mostrado na figura. Sobre a extremidade superior do êmbolo, que pode movimentar-se livremente sem atrito, encontra-se um objeto. Através de uma chapa de aquecimento é possível fornecer calor ao gás e, com auxílio de um manômetro, medir sua pressão. A partir de diferentes valores de calor fornecido, considerando o sistema como hermético, o objeto elevou-se em valores Δh, como mostrado no gráfico. Foram estudadas, separadamente, quantidades equimolares de dois diferentes gases, denominados M e V.
+
+![Figura](enem-2014-d1-q062-1.webp)
+
+![Figura](enem-2014-d1-q062-2.webp)
+
+A diferença no comportamento dos gases no experimento decorre do fato de o gás M, em relação ao V, apresentar
+
+- A) maior pressão de vapor.
+- B) menor massa molecular.
+- C) maior compressibilidade.
+- D) menor energia de ativação.
+- E) menor capacidade calorífica.
+
+**Resposta:** E
+
+**Explicação:** Os dois gases têm a mesma quantidade (mesmo número de mols) e ficam à mesma pressão (o êmbolo e o objeto não mudam). O volume cresce com a temperatura. Para o mesmo calor, M sobe mais (maior Δh), ou seja, esquentou mais: M tem menor capacidade calorífica.
+
+**Fonte:** ENEM 2014, 1º dia, caderno azul, questão 62
+
+**Assunto:** fisica/termologia

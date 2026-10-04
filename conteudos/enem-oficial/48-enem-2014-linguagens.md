@@ -217,6 +217,27 @@ No romance Grande sertão: veredas, o protagonista Riobaldo narra sua trajetóri
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
 
+### 131
+![Figura](enem-2014-d2-q131-1.webp)
+
+> Disponível em: www.portaldapropaganda.com.br. Acesso em: 28 jul. 2013.
+
+Essa propaganda defende a transformação social e a diminuição da violência por meio da palavra. Isso se evidencia pela
+
+- A) predominância de tons claros na composição da peça publicitária.
+- B) associação entre uma arma de fogo e um megafone.
+- C) grafia com inicial maiúscula da palavra “voz” no slogan.
+- D) imagem de uma mão segurando um megafone.
+- E) representação gráfica da propagação do som.
+
+**Resposta:** B
+
+**Explicação:** A imagem mostra uma mão segurando um megafone na posição em que se seguraria uma arma. A associação entre a arma e o megafone transmite a ideia de trocar a violência pela palavra ("Paz só se consegue com Voz").
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 131
+
+**Assunto:** portugues/interpretacao-de-texto
+
 ## Médio
 
 ### 97
@@ -611,6 +632,245 @@ Os falantes, nos textos que produzem, sejam orais ou escritos, posicionam-se fre
 **Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 135
 
 **Assunto:** portugues/interpretacao-de-texto
+
+### 96
+TEXTO I
+
+Seis estados zeram fila de espera para transplante da córnea
+
+Seis estados brasileiros aproveitaram o aumento no número de doadores e de transplantes feitos no primeiro semestre de 2012 no país e entraram para uma lista privilegiada: a de não ter mais pacientes esperando por uma córnea.
+
+Até julho desse ano, Acre, Distrito Federal, Espírito Santo, Paraná, Rio Grande do Norte e São Paulo eliminaram a lista de espera no transplante de córneas, de acordo com balanço divulgado pelo Ministério da Saúde, no Dia Nacional de Doação de Órgãos e Tecidos. Em 2011, só São Paulo e Rio Grande do Norte conseguiram zerar essa fila.
+
+TEXTO II
+
+![Figura](enem-2014-d2-q096-1.webp)
+
+> Disponível em: http://noticias.uol.com.br. Acesso em: 11 ago. 2013 (adaptado).
+
+A notícia e o cartaz abordam a questão da doação de órgãos. Ao relacionar os dois textos, observa-se que o cartaz é
+
+- A) contraditório, pois a notícia informa que o país superou a necessidade de doação de órgãos.
+- B) complementar, pois a notícia diz que a doação de órgãos cresceu e o cartaz solicita doações.
+- C) redundante, pois a notícia e o cartaz têm a intenção de influenciar as pessoas a doarem seus órgãos.
+- D) indispensável, pois a notícia fica incompleta sem o cartaz, que apela para a sensibilidade das pessoas.
+- E) discordante, pois ambos os textos apresentam posições distintas sobre a necessidade de doação de órgãos.
+
+**Resposta:** B
+
+**Explicação:** A notícia mostra que as doações aumentaram e que alguns estados zeraram a fila da córnea, mas só para esse transplante e só em alguns estados. O cartaz continua pedindo doações de órgãos em geral. Os textos se completam: um informa o avanço, o outro incentiva novas doações.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 99
+![Figura](enem-2014-d2-q099-1.webp)
+
+> WILL. Disponível em: www.willtirando.com.br. Acesso em: 7 nov. 2013.
+
+Opportunity é o nome de um veículo explorador que aterrissou em Marte com a missão de enviar informações à Terra. A charge apresenta uma crítica ao(à)
+
+- A) gasto exagerado com o envio de robôs a outros planetas.
+- B) exploração indiscriminada de outros planetas.
+- C) circulação digital excessiva de autorretratos.
+- D) vulgarização das descobertas espaciais.
+- E) mecanização das atividades humanas.
+
+**Resposta:** C
+
+**Explicação:** A manchete promete a primeira foto do robô no solo de Marte, e a imagem mostra o robô tirando uma foto de si mesmo, como uma selfie. A charge critica a mania de fazer e divulgar autorretratos.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 99
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 101
+![Figura](enem-2014-d2-q101-1.webp)
+
+> Disponível em: www.portaldapropaganda.com.br. Acesso em: 29 out. 2013 (adaptado).
+
+Os meios de comunicação podem contribuir para a resolução de problemas sociais, entre os quais o da violência sexual infantil. Nesse sentido, a propaganda usa a metáfora do pesadelo para
+
+- A) informar crianças vítimas de abuso sexual sobre os perigos dessa prática, contribuindo para erradicá-la.
+- B) denunciar ocorrências de abuso sexual contra meninas, com o objetivo de colocar criminosos na cadeia.
+- C) dar a devida dimensão do que é o abuso sexual para uma criança, enfatizando a importância da denúncia.
+- D) destacar que a violência sexual infantil predomina durante a noite, o que requer maior cuidado dos responsáveis nesse período.
+- E) chamar a atenção para o fato de o abuso infantil ocorrer durante o sono, sendo confundido por algumas crianças com um pesadelo.
+
+**Resposta:** C
+
+**Explicação:** Para uma criança vítima de abuso, a hora de dormir vira um pesadelo real: a metáfora mostra o tamanho do sofrimento que esse crime causa. Assim, a peça dá a dimensão do abuso e reforça a necessidade de denunciar ("Ligue 100").
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 101
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 106
+![Figura](enem-2014-d2-q106-1.webp)
+
+Na criação do texto, o chargista Iotti usa criativamente um intertexto: os traços reconstroem uma cena de Guernica, painel de Pablo Picasso que retrata os horrores e a destruição provocados pelo bombardeio a uma pequena cidade da Espanha. Na charge, publicada no período de carnaval, recebe destaque a figura do carro, elemento introduzido por Iotti no intertexto. Além dessa figura, a linguagem verbal contribui para estabelecer um diálogo entre a obra de Picasso e a charge, ao explorar
+
+- A) uma referência ao contexto, “trânsito no feriadão”, esclarecendo-se o referente tanto do texto de Iotti quanto da obra de Picasso.
+- B) uma referência ao tempo presente, com o emprego da forma verbal “é”, evidenciando-se a atualidade do tema abordado tanto pelo pintor espanhol quanto pelo chargista brasileiro.
+- C) um termo pejorativo, “trânsito”, reforçando-se a imagem negativa de mundo caótico presente tanto em Guernica quanto na charge.
+- D) uma referência temporal, “sempre”, referindo-se à permanência de tragédias retratadas tanto em Guernica quanto na charge.
+- E) uma expressão polissêmica, “quadro dramático”, remetendo-se tanto à obra pictórica quanto ao contexto do trânsito brasileiro.
+
+**Resposta:** E
+
+**Explicação:** A charge recria Guernica com o trânsito do feriado de Carnaval e a frase "o trânsito no feriadão é sempre um quadro dramático". A expressão "quadro dramático" tem dois sentidos: lembra a pintura de Picasso (um quadro) e descreve a situação grave das estradas.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 107
+Tarefa
+Morder o fruto amargo e não cuspir
+Mas avisar aos outros quanto é amargo
+Cumprir o trato injusto e não falhar
+Mas avisar aos outros quanto é injusto
+Sofrer o esquema falso e não ceder
+Mas avisar aos outros quanto é falso
+Dizer também que são coisas mutáveis...
+E quando em muitos a não pulsar
+— do amargo e injusto e falso por mudar —
+então confiar à gente exausta o plano
+de um mundo novo e muito mais humano.
+
+> CAMPOS, G. Tarefa. Rio de Janeiro: Civilização Brasileira, 1981.
+
+Na organização do poema, os empregos da conjunção “mas” articulam, para além de sua função sintática,
+
+- A) a ligação entre verbos semanticamente semelhantes.
+- B) a oposição entre ações aparentemente inconciliáveis.
+- C) a introdução do argumento mais forte de uma sequência.
+- D) o reforço da causa apresentada no enunciado introdutório.
+- E) a intensidade dos problemas sociais presentes no mundo.
+
+**Resposta:** C
+
+**Explicação:** Cada estrofe apresenta uma atitude de aceitação ("morder o fruto amargo e não cuspir") e, depois do "mas", vem a atitude mais importante: avisar os outros. O "mas" introduz o argumento mais forte, a tarefa de denunciar e preparar a mudança.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 107
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 109
+Cordel resiste à tecnologia gráfica
+
+O Cariri mantém uma das mais ricas tradições da cultura popular. É a literatura de cordel, que atravessa os séculos sem ser destruída pela avalanche de modernidade que invade o sertão lírico e telúrico. Na contramão do progresso, que informatizou a indústria gráfica, a Lira Nordestina, de Juazeiro do Norte, e a Academia dos Cordelistas do Crato conservam, em suas oficinas, velhas máquinas para impressão dos seus cordéis.
+
+A chapa para impressão do cordel é feita à mão, letra por letra, um trabalho artesanal que dura cerca de uma hora para confecção de uma página. Em seguida, a chapa é levada para a impressora, também manual, para imprimir. A manutenção desse sistema antigo de impressão faz parte da filosofia do trabalho. A outra etapa é a confecção da xilogravura para a capa do cordel.
+
+As xilogravuras são ilustrações populares obtidas por gravuras talhadas em madeira. A origem da xilogravura nordestina até hoje é ignorada. Acredita-se que os missionários portugueses tenham ensinado sua técnica aos índios, como uma atividade extra-catequese, partindo do princípio religioso que defende a necessidade de ocupar as mãos para que a mente não fique livre, sujeita aos maus pensamentos, ao pecado. A xilogravura antecedeu ao clichê, placa fotomecanicamente gravada em relevo sobre metal, usualmente zinco, que era utilizada nos jornais impressos em rotoplanas.
+
+> VICELMO, A. Disponível em: www.onordeste.com. Acesso em: 24 fev. 2013 (adaptado).
+
+A estratégia gráfica constituída pela união entre as técnicas da impressão manual e da confecção da xilogravura na produção de folhetos de cordel
+
+- A) realça a importância da xilogravura sobre o clichê.
+- B) oportuniza a renovação dessa arte na modernidade.
+- C) demonstra a utilidade desses textos para a catequese.
+- D) revela a necessidade da busca das origens dessa literatura.
+- E) auxilia na manutenção da essência identitária dessa tradição popular.
+
+**Resposta:** E
+
+**Explicação:** Os cordelistas mantêm de propósito a impressão manual e a xilogravura, mesmo com a gráfica informatizada: isso "faz parte da filosofia do trabalho". Manter essas técnicas ajuda a preservar a identidade dessa tradição popular.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** literatura/quinhentismo-ao-simbolismo
+
+### 111
+![Figura](enem-2014-d2-q111-1.webp)
+
+> CLARK, L. Bicho de bolso. Placas de metal, 1966.
+
+O objeto escultórico produzido por Lygia Clark, representante do Neoconcretismo, exemplifica o início de uma vertente importante na arte contemporânea, que amplia as funções da arte. Tendo como referência a obra Bicho de bolso, identifica-se essa vertente pelo(a)
+
+- A) participação efetiva do espectador na obra, o que determina a proximidade entre arte e vida.
+- B) percepção do uso de objetos cotidianos para a confecção da obra de arte, aproximando arte e realidade.
+- C) reconhecimento do uso de técnicas artesanais na arte, o que determina a consolidação de valores culturais.
+- D) reflexão sobre a captação artística de imagens com meios óticos, revelando o desenvolvimento de uma linguagem própria.
+- E) entendimento sobre o uso de métodos de produção em série para a confecção da obra de arte, o que atualiza as linguagens artísticas.
+
+**Resposta:** A
+
+**Explicação:** Os "Bichos" de Lygia Clark são placas de metal ligadas por dobradiças que o público pode manipular e mudar de forma. A obra só se completa com a participação do espectador, aproximando arte e vida.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 111
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 121
+![Figura](enem-2014-d2-q121-1.webp)
+
+> Disponível em: http://info.abril.com.br. Acesso em: 9 maio 2013 (adaptado).
+
+O texto introduz uma reportagem a respeito do futuro da televisão, destacando que as tecnologias a ela incorporadas serão responsáveis por
+
+- A) estimular a substituição dos antigos aparelhos de TV.
+- B) contemplar os desejos individuais com recursos de ponta.
+- C) transformar a televisão no principal meio de acesso às redes sociais.
+- D) renovar técnicas de apresentação de programas e de captação de imagens.
+- E) minimizar a importância dessa ferramenta como meio de comunicação de massa.
+
+**Resposta:** B
+
+**Explicação:** O texto diz que a nova TV permite "assistir ao que você quiser, quando quiser", em qualquer tela. As novas tecnologias vão atender aos desejos individuais de cada espectador, com recursos de ponta.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 121
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 123
+O Brasil é sertanejo
+
+Que tipo de música simboliza o Brasil? Eis uma questão discutida há muito tempo, que desperta opiniões extremadas. Há fundamentalistas que desejam impor ao público um tipo de som nascido das raízes socioculturais do país. O samba. Outros, igualmente nacionalistas, desprezam tudo aquilo que não tem estilo. Sonham com o império da MPB de Chico Buarque e Caetano Veloso. Um terceiro grupo, formado por gente mais jovem, escuta e cultiva apenas a música internacional, em todas as vertentes. E mais ou menos ignora o resto.
+
+A realidade dos hábitos musicais do brasileiro agora está claro, nada tem a ver com esses estereótipos. O gênero que encanta mais da metade do país é o sertanejo, seguido de longe pela MPB e pelo pagode. Outros gêneros em ascensão, sobretudo entre as classes C, D e E, são o funk e o religioso, em especial o gospel. Rock e música eletrônica são músicas de minoria.
+
+É o que demonstra uma pesquisa pioneira feita entre agosto de 2012 e agosto de 2013 pelo Instituto Brasileiro de Opinião Pública e Estatística (Ibope). A pesquisa Tribos musicais — o comportamento dos ouvintes de rádio sob uma nova ótica faz um retrato do ouvinte brasileiro e traz algumas novidades. Para quem pensava que a MPB e o samba ainda resistiam como baluartes da nacionalidade, uma má notícia: os dois gêneros foram superados em popularidade. O Brasil moderno não tem mais o perfil sonoro dos anos 1970, que muitos gostariam que se eternizasse. A cara musical do país agora é outra.
+
+> GIRON, L. A. Época, n. 805, out. 2013 (fragmento).
+
+O texto objetiva convencer o leitor de que a configuração da preferência musical dos brasileiros não é mais a mesma da dos anos 1970. A estratégia de argumentação para comprovar essa posição baseia-se no(a)
+
+- A) apresentação dos resultados de uma pesquisa que retrata o quadro atual da preferência popular relativa à música brasileira.
+- B) caracterização das opiniões relativas a determinados gêneros, considerados os mais representativos da brasilidade, como meros estereótipos.
+- C) uso de estrangeirismos, como rock, funk e gospel, para compor um estilo próximo ao leitor, em sintonia com o ataque aos nacionalistas.
+- D) ironia com relação ao apego a opiniões superadas, tomadas como expressão de conservadorismo e anacronismo, com o uso das designações “império” e “baluarte”.
+- E) contraposição a impressões fundadas em elitismo e preconceito, com a alusão a artistas de renome para melhor demonstrar a consolidação da mudança do gosto musical popular.
+
+**Resposta:** A
+
+**Explicação:** Para mostrar que o gosto musical mudou, o texto apresenta dados: o sertanejo agrada a mais da metade do país, seguido pela MPB e pelo pagode, e funk e gospel crescem nas classes C, D e E. A argumentação se apoia nos resultados de uma pesquisa.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 124
+![Figura](enem-2014-d2-q124-1.webp)
+
+Para atingir o objetivo de recrutar talentos, esse texto publicitário
+
+- A) afirma, com a frase “Queremos seu talento exatamente como ele é”, que qualquer pessoa com talento pode fazer parte da equipe.
+- B) apresenta como estratégia a formação de um perfil por meio de perguntas direcionadas, o que dinamiza a interação texto-leitor.
+- C) utiliza a descrição da empresa como argumento principal, pois atinge diretamente os interessados em informática.
+- D) usa estereótipo negativo de uma figura conhecida, o nerd, pessoa introspectiva e que gosta de informática.
+- E) recorre a imagens tecnológicas ligadas em rede, para simbolizar como a tecnologia é interligada.
+
+**Resposta:** B
+
+**Explicação:** O anúncio faz perguntas ao leitor ("Você já foi chamado de nerd?", "Está entre os melhores alunos?") que vão desenhando o perfil desejado. Quem se identifica com as respostas percebe que a vaga é para ele: as perguntas criam interação com o leitor.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** portugues/funcoes-generos-e-variacao
 
 ## Difícil
 

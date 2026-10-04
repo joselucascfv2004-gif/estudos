@@ -72,6 +72,34 @@ x: Com a corte no Rio de Janeiro, o Brasil passou a ser a sede do governo, com m
 x: O Texto I justifica o golpe de 1964 como necessário ao Estado ("intervenção imprescindível"), destacando avanços econômicos. O Texto II diz que nada compensa a perda das liberdades: defende a soberania popular contra soluções autoritárias.
 @44 d historia/brasil-imperio
 x: Tavares Bastos defende que as províncias e municípios tenham leis próprias, adaptadas às suas circunstâncias: "administrar-se-ia de perto, governar-se-ia de longe". É a defesa do federalismo, contra a centralização do Império.
+@1 f historia/brasil-republica fig
+x: A charge mostra um indígena com o corpo esticado de norte a sul (do Amazonas ao Rio Grande), falando ao telefone de uma ponta à outra. A ideia é que a rede telefônica ligaria regiões distantes, integrando o território nacional.
+@5 m sociologia/temas-contemporaneos fig
+x: O cartum mostra um robô engraxando os sapatos de um homem e máquinas fazendo o trabalho, com um "Não há vagas" ao fundo. A tecnologia aparece tirando empregos: é uma visão pessimista da ideia de progresso.
+@9 m geografia/geopolitica-e-globalizacao fig
+x: A Índia tem uma população enorme e salários baixos para os padrões dos países ricos. Empresas dos Estados Unidos e da Europa levam para lá o teleatendimento por causa do baixo custo da mão de obra local.
+@10 m geografia/geopolitica-e-globalizacao fig
+x: Com desemprego acima de 52% entre os jovens, profissionais qualificados como Daniel e seu irmão (desenhista industrial e engenheiro-agrônomo) vão trabalhar em outros países. A crise espanhola leva à exportação de mão de obra qualificada.
+@16 m historia/brasil-republica fig
+x: O modo de fazer queijo em Minas foi registrado como patrimônio imaterial: um saber, uma técnica tradicional. Da mesma categoria é o ofício das paneleiras de Goiabeiras, a técnica de fazer panelas de barro. Os outros exemplos são bens materiais (prédios, cidades, obras, paisagens).
+@17 m sociologia/temas-contemporaneos fig
+x: O personagem lê que "todo brasileiro tem direito à moradia" e à alimentação e à saúde, mas vive na rua. Moradia, alimentação, saúde, educação e trabalho são direitos sociais garantidos pela Constituição de 1988.
+@25 m filosofia/filosofia-antiga-e-medieval fig
+x: Na pintura de Rafael, Platão aponta para cima, para o mundo das ideias, enquanto Aristóteles aponta para a terra. Para Platão, o conhecimento verdadeiro está no mundo inteligível, alcançado pela razão por meio do método dialético.
+@26 m geografia/populacao-e-urbanizacao fig
+x: O mapa mostra pessoas indo e voltando todos os dias entre Belo Horizonte e cidades vizinhas (Contagem, Betim, Ribeirão das Neves). Esse movimento diário acontece porque as cidades cresceram e se juntaram, formando uma mancha urbana contínua: a conurbação.
+@29 m filosofia/filosofia-moderna-e-contemporanea fig
+x: Para Galileu, o "livro da natureza" está escrito em linguagem matemática (triângulos, círculos). Isso se opunha à física de Aristóteles ensinada pela escolástica, que explicava a natureza por qualidades, sem medir. Era a defesa de uma nova física quantitativa.
+@34 m geografia/economia-agropecuaria-industria-energia fig
+x: Os pontos ficam onde há grandes usinas de energia sendo construídas com financiamento, como as hidrelétricas da Amazônia (Jirau e Santo Antônio, em Rondônia, e Belo Monte, no Pará) e a usina nuclear de Angra, no Rio de Janeiro. São obras que ampliam a geração de energia, mas alteram o ecossistema local.
+@36 m geografia/geografia-fisica fig
+x: A Dorsal Mesoatlântica é a cadeia de montanhas submarinas no meio do Atlântico, onde as placas se afastam. Ela surgiu quando a América do Sul e a África se separaram, abrindo o Atlântico Sul, o que os mapas mostram no Cretáceo.
+@37 m geografia/geopolitica-e-globalizacao fig
+x: Os países em destaque são Brasil, Rússia, Índia, China e África do Sul: os BRICS, economias emergentes que se reúnem para discutir a economia, o comércio e a cooperação entre si.
+@38 m geografia/biomas-e-questoes-ambientais fig
+x: O Aquífero Alter do Chão guarda um enorme volume de água subterrânea sob vários estados. Como ele não respeita limites de municípios, preservá-lo exige que os municípios façam uma gestão compartilhada e participativa.
+@45 m historia/brasil-imperio fig
+x: O soldado negro lutou pelo Brasil na Guerra do Paraguai e voltou como herói, mas encontrou a mãe amarrada a um tronco, ainda escravizada. A contradição é ele ser "libertador" no Paraguai enquanto sua família continuava sem liberdade nem cidadania.
 
 ## 46-enem-2014-ciencias-da-natureza.md | 2014 | 1 | 1º dia, caderno azul | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2014 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
@@ -142,3 +170,43 @@ x: Solo: limite 30 mg/kg; em 500 g, até 15 mg = 1,5 × 10⁻² g. O solo II (2,
 s: CaCO3 (s) + SO2 (g) → CaSO3 (s) + CO2 (g) (1) => CaCO₃ (s) + SO₂ (g) → CaSO₃ (s) + CO₂ (g)   (1)
 s: 2 CaSO3 (s) + O2 (g) → 2 CaSO4 (s) (2) => 2 CaSO₃ (s) + O₂ (g) → 2 CaSO₄ (s)   (2)
 x: Pelas equações, 1 mol de SO₂ retido dá 1 mol de CaSO₃, que vira 1 mol de CaSO₄ (gesso). Massa molar do CaSO₄: 40 + 32 + 4 × 16 = 136 g/mol. Com rendimento de 90%: 0,9 × 136 ≈ 122 g.
+@48 m quimica/quimica-ambiental fig
+x: A luz quebra o CFC e solta átomos de cloro. Cada cloro reage com o ozônio (O₃) formando oxigênio (O₂) e monóxido de cloro (ClO); depois o ClO reage e libera o cloro de novo, que destrói outra molécula. É uma reação em cadeia entre os produtos do CFC e o ozônio.
+@50 m fisica/ondulatoria-e-optica fig
+x: Para reduzir o excesso de verde, o filtro deve deixar passar vermelho e azul e bloquear o verde. Vermelho + azul = magenta: o filtro magenta absorve justamente a luz verde.
+@54 m quimica/quimica-organica fig
+x: A estabilidade frente à oxidação vem dos ácidos graxos saturados (C14:0, C16:0, C18:0, sem ligações duplas). Somando os saturados: palma = 1,0 + 42,8 + 4,5 = 48,3%, o maior teor da tabela.
+@55 m fisica/estatica-e-hidrostatica fig
+x: A ducha está 6 m abaixo do nível da água: 6 mca, que no gráfico dão vazão de 12 L/min. Cada banho: 8 min × 12 = 96 L. Em 30 dias, 4 pessoas: 4 × 30 × 96 = 11 520 L.
+@57 m fisica/eletricidade fig
+x: Com a chave em A, as lâmpadas 1 e 3 ficam em paralelo ligadas direto ao gerador, e a lâmpada 2 fica sem corrente: resistência equivalente R/2, e cada lâmpada recebe toda a tensão. Com a chave em B, a lâmpada 2 entra em série com as outras: a resistência total aumenta (1,5R) e a lâmpada 1 recebe menos tensão. Em A ela brilha mais.
+@62 d fisica/termologia fig
+x: Os dois gases têm a mesma quantidade (mesmo número de mols) e ficam à mesma pressão (o êmbolo e o objeto não mudam). O volume cresce com a temperatura. Para o mesmo calor, M sobe mais (maior Δh), ou seja, esquentou mais: M tem menor capacidade calorífica.
+@63 m biologia/ecologia fig
+x: A forma mais oxidada do nitrogênio na figura é o nitrato (NO₃⁻). Na desnitrificação, bactérias reduzem o nitrato a gás nitrogênio (N₂), que volta para a atmosfera. É a etapa V.
+@64 m fisica/dinamica fig
+x: Na colisão elástica entre esferas iguais, a quantidade de movimento e a energia passam adiante: como três esferas chegam batendo, três esferas saem do outro lado com a mesma velocidade, e as duas da esquerda ficam paradas.
+@65 m quimica/quimica-organica fig
+x: Entre os grupos, o cicloexano é o único que não é plano: seus carbonos são todos saturados (sp³), com ângulos de cerca de 109°, e o anel se dobra. Os outros (anéis aromáticos, com dupla e o grupo aldeído) têm carbonos sp², planos.
+@67 m fisica/dinamica fig
+x: Galileu concluiu que a esfera sempre tenta voltar ao nível de onde saiu. Se o plano de subida ficar horizontal, ela nunca alcança esse nível e, sem atrito, segue para sempre com velocidade constante, pois não há força resultante sobre ela (inércia).
+@69 f biologia/genetica-e-biotecnologia fig
+x: A planta recebeu um gene de outra espécie (da bactéria) por engenharia genética. Um organismo com gene de outra espécie é transgênico.
+@71 m quimica/quimica-ambiental fig
+x: O CO₂ dissolvido forma ácido carbônico, que libera íons H⁺ e deixa o mar mais ácido. Esses íons consomem o carbonato (CO₃²⁻) que os corais usam para construir seus esqueletos de calcário, que se enfraquecem, prejudicando as populações.
+@72 m fisica/eletricidade fig
+x: Na figura, ímã e espira se afastam, com o polo norte voltado para a bobina: o fluxo de "norte" diminui. Para ter a mesma corrente com os materiais trocados de lado, basta aproximar ímã e espira com o polo invertido (sul voltado para a bobina): o efeito no fluxo é equivalente e o sentido da corrente se mantém.
+@74 m biologia/genetica-e-biotecnologia fig
+x: A doença aparece em todas as gerações, em homens e mulheres, e todo afetado tem pelo menos um dos pais afetado. Isso indica herança autossômica dominante.
+@77 m quimica/quimica-organica fig
+x: A cadeia precisa ser insaturada (com ligação dupla, (CH)₂), heterogênea (nitrogênio entre carbonos: –CO–NH–CH₃) e ramificada (CH(CH₃)), além de ter carbono quiral. Na segunda fórmula, o carbono do CH(CH₃) está ligado a H, CH₃, CH=CH–CH₃ e CO–NH–CH₃: quatro grupos diferentes.
+@80 m quimica/solucoes fig
+x: Fenol e acetona são líquidos miscíveis com temperaturas de ebulição bem diferentes (cerca de 182 °C e 56 °C). Para separá-los em escala industrial, usa-se a destilação fracionada.
+@81 m biologia/ecologia fig
+x: A lagarta come plantas (consumidor primário). A larva do parasitoide se alimenta dos tecidos da lagarta: é consumidor secundário.
+@82 m fisica/cinematica fig
+x: O coelhinho dá voltas ao redor da Terra como um satélite, com velocidade de módulo constante. Se o módulo da velocidade não muda, a aceleração tangencial é nula (só existe a aceleração centrípeta, para o centro da Terra).
+@85 m biologia/saude-e-doencas fig
+x: O imunobiológico I é uma vacina aplicada no ser humano; o II é aplicado no cavalo para produzir soro. Nos dois casos, o organismo recebe antígenos e é estimulado a produzir anticorpos (no cavalo, eles depois são retirados para fazer o soro III).
+@90 m quimica/fisico-quimica fig
+x: A melhor lente escurece rápido, clareia rápido quando sai do sol e deixa passar pouca luz quando escura. A amostra 3 escurece em 20 s, clareia em 30 s e tem a menor transmitância (50%). A 5 clareia rápido, mas quase não escurece (95%).

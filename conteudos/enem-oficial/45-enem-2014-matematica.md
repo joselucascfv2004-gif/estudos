@@ -218,6 +218,29 @@ Que tipo de recipiente o secretário de saúde deve comprar?
 
 **Assunto:** matematica/numeros-e-operacoes
 
+### 177
+Os incas desenvolveram uma maneira de registrar quantidades e representar números utilizando um sistema de numeração decimal posicional: um conjunto de cordas com nós denominado quipus. O quipus era feito de uma corda matriz, ou principal (mais grossa que as demais), na qual eram penduradas outras cordas, mais finas, de diferentes tamanhos e cores (cordas pendentes). De acordo com a sua posição, os nós significavam unidades, dezenas, centenas e milhares. Na Figura 1, o quipus representa o número decimal 2 453. Para representar o “zero” em qualquer posição, não se coloca nenhum nó.
+
+![Figura](enem-2014-d2-q177-1.webp)
+
+> Disponível em: www.culturaperuana.com.br. Acesso em: 13 dez. 2012.
+
+O número da representação do quipus da Figura 2, em base decimal, é
+
+- A) 364.
+- B) 463.
+- C) 3 064.
+- D) 3 640.
+- E) 4 603.
+
+**Resposta:** C
+
+**Explicação:** Na Figura 2, há 3 nós nos milhares, nenhum nas centenas, 6 nas dezenas e 4 nas unidades. O número é 3 064.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 177
+
+**Assunto:** matematica/numeros-e-operacoes
+
 ## Médio
 
 ### 142
@@ -498,6 +521,293 @@ Os vidros para veículos produzidos por certo fabricante têm transparências en
 
 **Assunto:** matematica/porcentagem
 
+### 136
+A Figura 1 representa uma gravura retangular com 8 m de comprimento e 6 m de altura.
+
+![Figura](enem-2014-d2-q136-1.webp)
+
+Figura 2
+
+A reprodução da gravura deve ocupar o máximo possível da região disponível, mantendo-se as proporções da Figura 1.
+
+> PRADO, A. C. Superinteressante, ed. 301, fev. 2012 (adaptado).
+
+A escala da gravura reproduzida na folha de papel é
+
+- A) 1 : 3.
+- B) 1 : 4.
+- C) 1 : 20.
+- D) 1 : 25.
+- E) 1 : 32.
+
+**Resposta:** D
+
+**Explicação:** Tirando as margens, a região disponível mede 42 − 6 = 36 cm por 30 − 6 = 24 cm. A gravura tem 800 cm × 600 cm. Na largura caberia a escala 800 ÷ 36 ≈ 1 : 22,2; na altura, 600 ÷ 24 = 1 : 25. Para caber nos dois sentidos, vale a maior redução: 1 : 25.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 136
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
+### 137
+Uma empresa que organiza eventos de formatura confecciona canudos de diplomas a partir de folhas de papel quadradas. Para que todos os canudos fiquem idênticos, cada folha é enrolada em torno de um cilindro de madeira de diâmetro d em centímetros, sem folga, dando-se 5 voltas completas em torno de tal cilindro. Ao final, amarra-se um cordão no meio do diploma, bem ajustado, para que não ocorra o desenrolamento, como ilustrado na figura.
+
+![Figura](enem-2014-d2-q137-1.webp)
+
+Em seguida, retira-se o cilindro de madeira do meio do papel enrolado, finalizando a confecção do diploma. Considere que a espessura da folha de papel original seja desprezível. Qual é a medida, em centímetros, do lado da folha de papel usado na confecção do diploma?
+
+- A) πd
+- B) 2πd
+- C) 4πd
+- D) 5πd
+- E) 10πd
+
+**Resposta:** D
+
+**Explicação:** A folha é quadrada e dá 5 voltas completas em torno do cilindro de diâmetro d. Cada volta mede o comprimento da circunferência, πd. O lado da folha é 5πd.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 137
+
+**Assunto:** matematica/geometria-espacial
+
+### 140
+Um sinalizador de trânsito tem o formato de um cone circular reto. O sinalizador precisa ser revestido externamente com adesivo fluorescente, desde sua base (base do cone) até a metade de sua altura, para sinalização noturna. O responsável pela colocação do adesivo precisa fazer o corte do material de maneira que a forma do adesivo corresponda exatamente à parte da superfície lateral a ser revestida. Qual deverá ser a forma do adesivo?
+
+- A) ![Alternativa A](enem-2014-d2-q140-1.webp)
+- B) ![Alternativa B](enem-2014-d2-q140-2.webp)
+- C) ![Alternativa C](enem-2014-d2-q140-3.webp)
+- D) ![Alternativa D](enem-2014-d2-q140-4.webp)
+- E) ![Alternativa E](enem-2014-d2-q140-5.webp)
+
+**Resposta:** E
+
+**Explicação:** A superfície lateral de um cone, aberta, é um setor circular. Revestir só da base até a metade da altura significa tirar a parte de cima (o setor menor perto do vértice). Sobra uma faixa de setor circular, com dois arcos: a forma da última alternativa.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 140
+
+**Assunto:** matematica/geometria-espacial
+
+### 141
+O gráfico apresenta as taxas de desemprego durante o ano de 2011 e o primeiro semestre de 2012 na região metropolitana de São Paulo. A taxa de desemprego total é a soma das taxas de desemprego aberto e oculto.
+
+![Figura](enem-2014-d2-q141-1.webp)
+
+Suponha que a taxa de desemprego oculto do mês de dezembro de 2012 tenha sido a metade da mesma taxa em junho de 2012 e que a taxa de desemprego total em dezembro de 2012 seja igual a essa taxa em dezembro de 2011.
+
+> Disponível em: www.dieese.org.br. Acesso em: 1 ago. 2012 (fragmento).
+
+Nesse caso, a taxa de desemprego aberto de dezembro de 2012 teria sido, em termos percentuais, de
+
+- A) 1,1.
+- B) 3,5.
+- C) 4,5.
+- D) 6,8.
+- E) 7,9.
+
+**Resposta:** E
+
+**Explicação:** A taxa total de dezembro de 2012 é igual à de dezembro de 2011: 9,0%. O desemprego oculto é metade do de junho de 2012 (2,2%): 1,1%. O aberto é 9,0 − 1,1 = 7,9%.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 141
+
+**Assunto:** matematica/porcentagem
+
+### 145
+Conforme regulamento da Agência Nacional de Aviação Civil (Anac), o passageiro que embarcar em voo doméstico poderá transportar bagagem de mão, contudo a soma das dimensões da bagagem (altura + comprimento + largura) não pode ser superior a 115 cm.
+
+A figura mostra a planificação de uma caixa que tem a forma de um paralelepípedo retângulo.
+
+![Figura](enem-2014-d2-q145-1.webp)
+
+O maior valor possível para x, em centímetros, para que a caixa permaneça dentro dos padrões permitidos pela Anac é
+
+- A) 25.
+- B) 33.
+- C) 42.
+- D) 45.
+- E) 49.
+
+**Resposta:** E
+
+**Explicação:** Pela planificação, a coluna de 90 cm é formada por duas faces de 24 cm e pela altura da caixa: 24 + h + 24 = 90, então h = 42 cm. As dimensões são x, 24 e 42. Pela regra da Anac: x + 24 + 42 ≤ 115, ou seja, x ≤ 49 cm.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/geometria-espacial
+
+### 146
+Uma lata de tinta, com a forma de um paralelepípedo retangular reto, tem as dimensões, em centímetros, mostradas na figura.
+
+![Figura](enem-2014-d2-q146-1.webp)
+
+Será produzida uma nova lata, com os mesmos formato e volume, de tal modo que as dimensões de sua base sejam 25% maiores que as da lata atual. Para obter a altura da nova lata, a altura da lata atual deve ser reduzida em
+
+- A) 14,4%
+- B) 20,0%
+- C) 32,0%
+- D) 36,0%
+- E) 64,0%
+
+**Resposta:** D
+
+**Explicação:** Os lados da base aumentam 25% (multiplicam por 1,25), então a área da base fica 1,25² = 1,5625 vezes maior. Para o volume não mudar, a altura deve ser dividida por 1,5625: fica 0,64 da original, uma redução de 36%.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 146
+
+**Assunto:** matematica/geometria-espacial
+
+### 154
+O acesso entre os dois andares de uma casa é feito através de uma escada circular (escada caracol), representada na figura. Os cinco pontos A, B, C, D, E sobre o corrimão estão igualmente espaçados, e os pontos P, A e E estão em uma mesma reta. Nessa escada, uma pessoa caminha deslizando a mão sobre o corrimão do ponto A até o ponto D.
+
+![Figura](enem-2014-d2-q154-1.webp)
+
+A figura que melhor representa a projeção ortogonal, sobre o piso da casa (plano), do caminho percorrido pela mão dessa pessoa é:
+
+- A) ![Alternativa A](enem-2014-d2-q154-2.webp)
+- B) ![Alternativa B](enem-2014-d2-q154-3.webp)
+- C) ![Alternativa C](enem-2014-d2-q154-4.webp)
+- D) ![Alternativa D](enem-2014-d2-q154-5.webp)
+- E) ![Alternativa E](enem-2014-d2-q154-6.webp)
+
+**Resposta:** C
+
+**Explicação:** Vista de cima, a escada caracol é circular: a mão desliza pelo corrimão girando em torno do eixo central. A projeção do caminho de A até D é um arco de circunferência (sem a parte da escada que não é percorrida), como na terceira figura.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 154
+
+**Assunto:** matematica/geometria-espacial
+
+### 157
+No Brasil há várias operadoras e planos de telefonia celular.
+
+Uma pessoa recebeu 5 propostas (A, B, C, D e E) de planos telefônicos. O valor mensal de cada plano está em função do tempo mensal das chamadas, conforme o gráfico.
+
+![Figura](enem-2014-d2-q157-1.webp)
+
+Essa pessoa pretende gastar exatamente R$ 30,00 por mês com telefone. Dos planos telefônicos apresentados, qual é o mais vantajoso, em tempo de chamada, para o gasto previsto para essa pessoa?
+
+- A) A
+- B) B
+- C) C
+- D) D
+- E) E
+
+**Resposta:** C
+
+**Explicação:** Com R$ 30,00, vemos em que tempo cada reta chega a 30. B custa R$ 50 fixo (não serve). D já começa perto de 30 (poucos minutos); A e E chegam a 30 com cerca de 20 minutos. A reta C, que começa mais baixa e sobe devagar, só chega a 30 por volta de 30 minutos: é o plano com mais tempo de chamada.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 157
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 166
+Uma criança deseja criar triângulos utilizando palitos de fósforo de mesmo comprimento. Cada triângulo será construído com exatamente 17 palitos e pelo menos um dos lados do triângulo deve ter o comprimento de exatamente 6 palitos. A figura ilustra um triângulo construído com essas características.
+
+![Figura](enem-2014-d2-q166-1.webp)
+
+A quantidade máxima de triângulos não congruentes dois a dois que podem ser construídos é
+
+- A) 3.
+- B) 5.
+- C) 6.
+- D) 8.
+- E) 10.
+
+**Resposta:** A
+
+**Explicação:** Um lado tem 6 palitos, e os outros dois somam 17 − 6 = 11. Pela desigualdade triangular, a diferença entre eles deve ser menor que 6: (3, 8), (4, 7) e (5, 6). Os pares (1, 10) e (2, 9) não formam triângulo. São 3 triângulos.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 166
+
+**Assunto:** matematica/geometria-plana
+
+### 167
+A figura mostra uma criança brincando em um balanço no parque. A corda que prende o assento do balanço ao topo do suporte mede 2 metros. A criança toma cuidado para não sofrer um acidente, então se balança de modo que a corda não chegue a alcançar a posição horizontal.
+
+![Figura](enem-2014-d2-q167-1.webp)
+
+Na figura, considere o plano cartesiano que contém a trajetória do assento do balanço, no qual a origem está localizada no topo do suporte do balanço, o eixo X é paralelo ao chão do parque, e o eixo Y tem orientação positiva para cima. A curva determinada pela trajetória do assento do balanço é parte do gráfico da função
+
+- A) f(x) = −√(2 − x²)
+- B) f(x) = √(2 − x²)
+- C) f(x) = x² − 2
+- D) f(x) = −√(4 − x²)
+- E) f(x) = √(4 − x²)
+
+**Resposta:** D
+
+**Explicação:** O assento descreve parte de uma circunferência de raio 2 m com centro na origem (topo do suporte): x² + y² = 4. Como fica abaixo do topo, y é negativo: f(x) = −√(4 − x²).
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/geometria-analitica
+
+### 171
+Na alimentação de gado de corte, o processo de cortar a forragem, colocá-la no solo, compactá-la e protegê-la com uma vedação denomina-se silagem. Os silos mais comuns são os horizontais, cuja forma é a de um prisma reto trapezoidal, conforme mostrado na figura.
+
+![Figura](enem-2014-d2-q171-1.webp)
+
+Considere um silo de 2 m de altura, 6 m de largura de topo e 20 m de comprimento. Para cada metro de altura do silo, a largura do topo tem 0,5 m a mais do que a largura do fundo. Após a silagem, 1 tonelada de forragem ocupa 2 m³ desse tipo de silo.
+
+> EMBRAPA. Gado de corte. Disponível em: www.cnpgc.embrapa.br. Acesso em: 1 ago. 2012 (adaptado).
+
+Após a silagem, a quantidade máxima de forragem que cabe no silo, em toneladas, é
+
+- A) 110.
+- B) 125.
+- C) 130.
+- D) 220.
+- E) 260.
+
+**Resposta:** A
+
+**Explicação:** O topo tem 6 m e, como a cada metro de altura o topo tem 0,5 m a mais que o fundo, o fundo tem 6 − 2 × 0,5 = 5 m. Área do trapézio: (6 + 5) ÷ 2 × 2 = 11 m². Volume: 11 × 20 = 220 m³. Com 2 m³ por tonelada: 110 toneladas.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/geometria-espacial
+
+### 172
+Um cientista trabalha com as espécies I e II de bactérias em um ambiente de cultura. Inicialmente, existem 350 bactérias da espécie I e 1 250 bactérias da espécie II. O gráfico representa as quantidades de bactérias de cada espécie, em função do dia, durante uma semana.
+
+![Figura](enem-2014-d2-q172-1.webp)
+
+Em que dia dessa semana a quantidade total de bactérias nesse ambiente de cultura foi máxima?
+
+- A) Terça-feira.
+- B) Quarta-feira.
+- C) Quinta-feira.
+- D) Sexta-feira.
+- E) Domingo.
+
+**Resposta:** A
+
+**Explicação:** Somando as duas espécies em cada dia: segunda 350 + 1 250 = 1 600; terça 800 + 1 100 = 1 900; quarta 1 450 + 300 = 1 750; quinta 650 + 850 = 1 500; sexta 300 + 1 400 = 1 700; sábado 290 + 1 000 = 1 290; domingo 0 + 1 350 = 1 350. O máximo é na terça-feira.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 172
+
+**Assunto:** matematica/estatistica
+
+### 173
+Um fazendeiro tem um depósito para armazenar leite formado por duas partes cúbicas que se comunicam, como indicado na figura. A aresta da parte cúbica de baixo tem medida igual ao dobro da medida da aresta da parte cúbica de cima. A torneira utilizada para encher o depósito tem vazão constante e levou 8 minutos para encher metade da parte de baixo.
+
+![Figura](enem-2014-d2-q173-1.webp)
+
+Quantos minutos essa torneira levará para encher completamente o restante do depósito?
+
+- A) 8
+- B) 10
+- C) 16
+- D) 18
+- E) 24
+
+**Resposta:** B
+
+**Explicação:** Se a aresta de cima é a, a de baixo é 2a: volumes a³ e 8a³. Metade do cubo de baixo (4a³) levou 8 minutos, ou seja, a³ a cada 2 minutos. Falta encher 4a³ + a³ = 5a³: 10 minutos.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/geometria-espacial
+
 ## Difícil
 
 ### 151
@@ -644,3 +954,49 @@ Para que o executivo chegue à cidade A no horário correto e admitindo que não
 **Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 176
 
 **Assunto:** matematica/numeros-e-operacoes
+
+### 139
+Para comemorar o aniversário de uma cidade, um artista projetou uma escultura transparente e oca, cujo formato foi inspirado em uma ampulheta. Ela é formada por três partes de mesma altura: duas são troncos de cone iguais e a outra é um cilindro. A figura é a vista frontal dessa escultura.
+
+![Figura](enem-2014-d2-q139-1.webp)
+
+No topo da escultura foi ligada uma torneira que verte água, para dentro dela, com vazão constante. O gráfico que expressa a altura (h) da água na escultura em função do tempo (t) decorrido é
+
+- A) h
+- B) h
+- C) h
+- D) h
+- E) ![Alternativa E](enem-2014-d2-q139-6.webp)
+
+**Resposta:** D
+
+**Explicação:** A água começa a encher o tronco de cone de baixo, que é largo no fundo e se estreita para cima: a altura sobe devagar e depois cada vez mais rápido. No cilindro, sobe em ritmo constante (reta). No tronco de cima, que se alarga, sobe cada vez mais devagar. O gráfico é: curva acelerando, reta e curva desacelerando.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 148
+Uma empresa de alimentos oferece três valores diferentes de remuneração a seus funcionários, de acordo com o grau de instrução necessário para cada cargo. No ano de 2013, a empresa teve uma receita de 10 milhões de reais por mês e um gasto mensal com a folha salarial de R$ 400 000,00, distribuídos de acordo com o Gráfico 1. No ano seguinte, a empresa ampliará o número de funcionários, mantendo o mesmo valor salarial para cada categoria. Os demais custos da empresa permanecerão constantes de 2013 para 2014. O número de funcionários em 2013 e 2014, por grau de instrução, está no Gráfico 2.
+
+![Figura](enem-2014-d2-q148-1.webp)
+
+Número de funcionários por grau de instrução
+
+![Figura](enem-2014-d2-q148-2.webp)
+
+Qual deve ser o aumento na receita da empresa para que o lucro mensal em 2014 seja o mesmo de 2013?
+
+- A) R$ 114 285,00
+- B) R$ 130 000,00
+- C) R$ 160 000,00
+- D) R$ 210 000,00
+- E) R$ 213 333,00
+
+**Resposta:** B
+
+**Explicação:** Em 2013, a folha de R$ 400 000 se dividia assim: fundamental 12,5% (R$ 50 000 para 50 pessoas, R$ 1 000 cada), médio 75% (R$ 300 000 para 150, R$ 2 000 cada) e superior 12,5% (R$ 50 000 para 10, R$ 5 000 cada). Em 2014: 70 × 1 000 + 180 × 2 000 + 20 × 5 000 = R$ 530 000. Para manter o lucro, a receita deve subir R$ 130 000.
+
+**Fonte:** ENEM 2014, 2º dia, caderno amarelo, questão 148
+
+**Assunto:** matematica/porcentagem
