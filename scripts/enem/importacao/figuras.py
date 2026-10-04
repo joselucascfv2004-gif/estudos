@@ -14,9 +14,12 @@ DPI = int(opts.get('dpi', '170'))
 os.makedirs(SAIDA, exist_ok=True)
 doc = pymupdf.open(PDF)
 # questões em que as figuras do enunciado devem virar uma só (ajuste manual): linhas "ANO DIA NUM"
-JUNTAR = set(tuple(l.split()) for l in open('juntar.txt') if l.strip()) if os.path.exists('juntar.txt') else set()
+# juntar.txt: "ANO DIA NUM" une as figuras do enunciado; com "+" no fim, também puxa rótulos curtos ao lado da figura
+#   com "alts", une as figuras da área das alternativas e depois recorta uma faixa por alternativa
+JUNTAR = {tuple(l.split()[:3]): set(l.split()[3:]) for l in open('juntar.txt') if l.strip()} if os.path.exists('juntar.txt') else {}
 DEBUG = 'debug' in opts
 
+FIM_TXT = re.compile(r'^\s*(INSTRU[ÇC][ÕO]ES PARA A REDA[ÇC][ÃA]O|PROPOSTA DE REDA[ÇC][ÃA]O|TEXTOS MOTIVADORES)\b', re.I)
 CAB = re.compile(r'^\s*QUEST[ÃA]O\s*0*(\d{1,3})\s*$', re.I)
 
 
@@ -170,6 +173,8 @@ def segmentos(i):
         else:
             x0, x1 = (15, MEIO(pg) - 2) if col == 0 else (MEIO(pg) + 2, pg['W'] - 15)
         corte = [sp[1] for sp in pg['sep'] if y + 10 < sp[1] < fim and sp[0] >= x0 - 8 and sp[2] <= x1 + 8]
+        # proposta de redação e títulos de área encerram a questão
+        corte += [l['bb'][1] for l in pg['ls'] if y - 2 < l['bb'][1] < fim and l['bb'][0] >= x0 - 8 and l['bb'][2] <= x1 + 8 and FIM_TXT.match(l['t'])]
         if corte:
             segs.append({'p': p, 'x0': x0, 'x1': x1, 'y0': y, 'y1': min(corte) - 2, 'larga': larga})
             break
@@ -234,6 +239,10 @@ def processa(i):
                 if mudou:
                     break
         larg_col = s['x1'] - s['x0']
+        # traços que passam da coluna (linhas tracejadas recortadas no PDF) não puxam a coluna vizinha
+        if not s['larga']:
+            for g in grupos:
+                g[0], g[2] = max(g[0], s['x0'] - 6), min(g[2], s['x1'])
         grupos = [g for g in grupos if max(g[2] - g[0], g[3] - g[1]) > 12 and min(g[2] - g[0], g[3] - g[1]) > 2.5]
 
         margem = min([l['bb'][0] for l in ls if abs(l['sz'] - corpo_sz) <= 0.6] or [s['x0']])
@@ -280,7 +289,8 @@ def processa(i):
                     bb = l['bb']
                     cx, cy = (bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2
                     inside = g[0] - 2 <= cx <= g[2] + 2 and g[1] - 2 <= cy <= g[3] + 2
-                    if inside and not eh_marcador(l) or (perto(g, bb, 9) and not eh_corpo(l)):
+                    larga_txt = eh_corpo(l) and ((bb[2] - bb[0]) > 0.55 * larg_col or (bb[0] - margem < 20 and len(l['t']) > 12))
+                    if inside and not eh_marcador(l) and not larga_txt or (perto(g, bb, 9) and not eh_corpo(l)):
                         g[:] = une(g, bb)
                         usados.add(j)
                         mudou = True
@@ -316,6 +326,14 @@ def processa(i):
     itens.sort(key=lambda it: (it['k'], round(it['y']), it['x']))
     # figura única que reúne várias alternativas (empilhadas ou em grade): uma célula por alternativa
     marc0 = [it for it in itens if it['tipo'] == 'alt']
+    if 'alts' in JUNTAR.get((ANO, DIA, str(c['n'])), set()) and marc0:
+        for k in set(m['k'] for m in marc0):
+            y0 = min(m['l']['bb'][1] for m in marc0 if m['k'] == k) - 6
+            fs = [it for it in itens if it['tipo'] == 'fig' and it['k'] == k and it['bb'][3] > y0]
+            for f in fs[1:]:
+                fs[0]['bb'] = une(fs[0]['bb'], f['bb'])
+                f['tipo'] = 'x'
+        itens = [it for it in itens if it['tipo'] != 'x']
     novos = []
     for it in itens:
         if it['tipo'] != 'fig':
@@ -349,17 +367,28 @@ def processa(i):
                 m['l']['t'] = m['l']['t'][:1]
     itens = [it for it in itens if it['tipo'] != 'x'] + novos
     itens.sort(key=lambda it: (it['k'], round(it['y']), it['x']))
-    if (ANO, DIA, str(c['n'])) in JUNTAR:
+    if (ANO, DIA, str(c['n'])) in JUNTAR and JUNTAR[(ANO, DIA, str(c['n']))] - {'+', 'alts'} == set() and JUNTAR[(ANO, DIA, str(c['n']))] != {'alts'}:
         marc1 = [it for it in itens if it['tipo'] == 'alt']
         lim = (marc1[0]['k'], marc1[0]['y']) if marc1 else (99, 1e9)
         for k in set(it['k'] for it in itens):
             fs = [it for it in itens if it['tipo'] == 'fig' and it['k'] == k and not it.get('dono') and (it['k'], it['y']) < lim]
-            if len(fs) < 2:
+            rot = '+' in JUNTAR[(ANO, DIA, str(c['n']))]
+            if len(fs) < (1 if rot else 2):
                 continue
             bb = fs[0]['bb']
             for f in fs[1:]:
                 bb = une(bb, f['bb'])
                 f['tipo'] = 'x'
+            mudou = rot
+            while mudou:
+                mudou = False
+                for it in itens:
+                    if it['tipo'] == 't' and it['k'] == k and (not it['corpo'] or len(it['l']['t']) < 25) and not EHFONTE.match(it['l']['t']):
+                        b = it['l']['bb']
+                        if b[3] > bb[1] - 4 and b[1] < bb[3] + 4 and b[0] < bb[2] + 30 and b[2] > bb[0] - 30:
+                            bb = une(bb, b)
+                            it['tipo'] = 'x'
+                            mudou = True
             fs[0]['bb'] = bb
             fs[0]['y'] = bb[1]
             for it in itens:

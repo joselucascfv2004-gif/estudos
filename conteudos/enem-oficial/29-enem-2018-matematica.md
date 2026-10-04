@@ -242,6 +242,100 @@ A ordem das distâncias percorridas pelas equipes Alpha, Beta e Gama é
 
 **Assunto:** fisica/cinematica
 
+### 144
+Em um aeroporto, os passageiros devem submeter suas bagagens a uma das cinco máquinas de raio-X disponíveis ao adentrarem a sala de embarque. Num dado instante, o tempo gasto por essas máquinas para escanear a bagagem de cada passageiro e o número de pessoas presentes em cada fila estão apresentados em um painel, como mostrado na figura.
+
+![Figura](enem-2018-d2-q144-1.webp)
+
+Um passageiro, ao chegar à sala de embarque desse aeroporto no instante indicado, visando esperar o menor tempo possível, deverá se dirigir à máquina
+
+- A) 1.
+- B) 2.
+- C) 3.
+- D) 4.
+- E) 5.
+
+**Resposta:** B
+
+**Explicação:** O tempo de espera é o tempo por passageiro vezes o número de pessoas na fila: 35 × 5 = 175 s; 25 × 6 = 150 s; 22 × 7 = 154 s; 40 × 4 = 160 s; 20 × 8 = 160 s. O menor é o da máquina 2.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 144
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 155
+O remo de assento deslizante é um esporte que faz uso de um barco e dois remos do mesmo tamanho.
+
+A figura mostra uma das posições de uma técnica chamada afastamento.
+
+![Figura](enem-2018-d2-q155-1.webp)
+
+> Disponível em: www.remobrasil.com. Acesso em: 6 dez. 2017 (adaptado).
+
+Nessa posição, os dois remos se encontram no ponto A e suas outras extremidades estão indicadas pelos pontos B e C. Esses três pontos formam um triângulo ABC cujo ângulo BÂC tem medida de 170°. O tipo de triângulo com vértices nos pontos A, B e C, no momento em que o remador está nessa posição, é
+
+- A) retângulo escaleno.
+- B) acutângulo escaleno.
+- C) acutângulo isósceles.
+- D) obtusângulo escaleno.
+- E) obtusângulo isósceles.
+
+**Resposta:** E
+
+**Explicação:** Os remos têm o mesmo tamanho, então AB = AC: o triângulo é isósceles. O ângulo em A mede 170°, maior que 90°: é obtusângulo.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 155
+
+**Assunto:** matematica/geometria-plana
+
+### 157
+Um mapa é a representação reduzida e simplificada de uma localidade. Essa redução, que é feita com o uso de uma escala, mantém a proporção do espaço representado em relação ao espaço real.
+
+Certo mapa tem escala 1 : 58 000 000.
+
+![Figura](enem-2018-d2-q157-1.webp)
+
+> Disponível em: http://oblogdedaynabrigth.blogspot.com.br. Acesso em: 9 ago. 2012.
+
+Considere que, nesse mapa, o segmento de reta que liga o navio à marca do tesouro meça 7,6 cm. A medida real, em quilômetro, desse segmento de reta é
+
+- A) 4 408.
+- B) 7 632.
+- C) 44 080.
+- D) 76 316.
+- E) 440 800.
+
+**Resposta:** A
+
+**Explicação:** Na escala 1 : 58 000 000, cada 1 cm do mapa vale 58 000 000 cm = 580 km. Então 7,6 cm valem 7,6 × 580 = 4 408 km.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 157
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
+### 168
+A raiva é uma doença viral e infecciosa, transmitida por mamíferos. A campanha nacional de vacinação antirrábica tem o objetivo de controlar a circulação do vírus da raiva canina e felina, prevenindo a raiva humana. O gráfico mostra a cobertura (porcentagem de vacinados) da campanha, em cães, nos anos de 2013, 2015 e 2017, no município de Belo Horizonte, em Minas Gerais. Os valores das coberturas dos anos de 2014 e 2016 não estão informados no gráfico e deseja-se estimá-los. Para tal, levou-se em consideração que a variação na cobertura de vacinação da campanha antirrábica, nos períodos de 2013 a 2015 e de 2015 a 2017, deu-se de forma linear.
+
+![Figura](enem-2018-d2-q168-1.webp)
+
+> Disponível em: http://pni.datasus.gov.br. Acesso em: 5 nov. 2017.
+
+Qual teria sido a cobertura dessa campanha no ano de 2014?
+
+- A) 62,3%
+- B) 63,0%
+- C) 63,5%
+- D) 64,0%
+- E) 65,5%
+
+**Resposta:** B
+
+**Explicação:** De 2013 a 2015 a cobertura caiu de 67% para 59%: 8 pontos em 2 anos, 4 por ano (variação linear). Em 2014: 67 − 4 = 63%.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 168
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
 ## Médio
 
 ### 143
@@ -414,6 +508,258 @@ Nessas condições, o tamanho adequado da fonte será
 
 **Assunto:** matematica/geometria-plana
 
+### 142
+De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional F que a Terra exerce sobre um satélite em órbita circular é proporcional à massa m do satélite e inversamente proporcional ao quadrado do raio r da órbita, ou seja, F = km/r².
+
+No plano cartesiano, três satélites, A, B e C, estão representados, cada um, por um ponto (m ; r) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra.
+
+![Figura](enem-2018-d2-q142-1.webp)
+
+Com base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades FA, FB e FC da força gravitacional que a Terra exerce sobre os satélites A, B e C, respectivamente.
+
+As intensidades FA, FB e FC expressas no gráfico satisfazem a relação
+
+- A) FC = FA < FB
+- B) FA = FB < FC
+- C) FA < FB < FC
+- D) FA < FC < FB
+- E) FC < FA < FB
+
+**Resposta:** E
+
+**Explicação:** A e B têm o mesmo raio, mas B tem mais massa: FB > FA. A e C têm a mesma massa, mas C está mais longe: FC < FA. Logo, FC < FA < FB.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 142
+
+**Assunto:** fisica/dinamica
+
+### 149
+A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se x centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de x%, como no exemplo da figura:
+
+![Figura](enem-2018-d2-q149-1.webp)
+
+Inclinação = 20%
+
+A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento.
+
+![Figura](enem-2018-d2-q149-2.webp)
+
+Depois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de 20%.
+
+Se a rampa projetada tiver inclinação superior a 20%, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa.
+
+Para atender às normas técnicas do município, o nível da garagem deverá ser
+
+- A) elevado em 40 cm.
+- B) elevado em 50 cm.
+- C) mantido no mesmo nível.
+- D) rebaixado em 40 cm.
+- E) rebaixado em 50 cm.
+
+**Resposta:** A
+
+**Explicação:** A rampa projetada sobe 200 cm em 8 m: 25 cm por metro, inclinação de 25%. Com 20%, em 8 m ela pode subir no máximo 8 × 20 = 160 cm. A garagem precisa ficar 1,60 m abaixo da rua, e não 2 m: deve ser elevada em 40 cm.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 149
+
+**Assunto:** matematica/porcentagem
+
+### 152
+Para criar um logotipo, um profissional da área de design gráfico deseja construí-lo utilizando o conjunto de pontos do plano na forma de um triângulo, exatamente como mostra a imagem.
+
+![Figura](enem-2018-d2-q152-1.webp)
+
+Para construir tal imagem utilizando uma ferramenta gráfica, será necessário escrever algebricamente o conjunto que representa os pontos desse gráfico. Esse conjunto é dado pelos pares ordenados (x ; y) ∈ × , tais que
+
+- A) 0 ≤ x ≤ y ≤ 10
+- B) 0 ≤ y ≤ x ≤ 10
+- C) 0 ≤ x ≤ 10, 0 ≤ y ≤ 10
+- D) 0 ≤ x + y ≤ 10
+- E) 0 ≤ x + y ≤ 20
+
+**Resposta:** B
+
+**Explicação:** Os pontos ficam entre o eixo x e a reta y = x, com x indo de 0 a 10. Ou seja, a altura y nunca passa de x: 0 ≤ y ≤ x ≤ 10.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 152
+
+**Assunto:** matematica/geometria-analitica
+
+### 153
+A figura mostra uma praça circular que contém um chafariz em seu centro e, em seu entorno, um passeio. Os círculos que definem a praça e o chafariz são concêntricos.
+
+![Figura](enem-2018-d2-q153-1.webp)
+
+O passeio terá seu piso revestido com ladrilhos. Sem condições de calcular os raios, pois o chafariz está cheio, um engenheiro fez a seguinte medição: esticou uma trena tangente ao chafariz, medindo a distância entre dois pontos A e B, conforme a figura. Com isso, obteve a medida do segmento de reta AB: 16 m.
+
+![Figura](enem-2018-d2-q153-2.webp)
+
+Dispondo apenas dessa medida, o engenheiro calculou corretamente a medida da área do passeio, em metro quadrado. A medida encontrada pelo engenheiro foi
+
+- A) 4π
+- B) 8π
+- C) 48π
+- D) 64π
+- E) 192π
+
+**Resposta:** D
+
+**Explicação:** A área do passeio é π(R² − r²). A trena AB é tangente ao chafariz, então o raio menor encontra AB no ponto médio, formando ângulo reto. Pelo teorema de Pitágoras: R² = r² + 8², logo R² − r² = 64. Área = 64π m².
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 153
+
+**Assunto:** matematica/geometria-plana
+
+### 159
+Minecraft é um jogo virtual que pode auxiliar no desenvolvimento de conhecimentos relacionados a espaço e forma. É possível criar casas, edifícios, monumentos e até naves espaciais, tudo em escala real, através do empilhamento de cubinhos.
+
+Um jogador deseja construir um cubo com dimensões 4 × 4 × 4. Ele já empilhou alguns dos cubinhos necessários, conforme a figura.
+
+![Figura](enem-2018-d2-q159-1.webp)
+
+![Figura](enem-2018-d2-q159-2.webp)
+
+Os cubinhos que ainda faltam empilhar para finalizar a construção do cubo, juntos, formam uma peça única, capaz de completar a tarefa. O formato da peça capaz de completar o cubo 4 × 4 × 4 é
+
+- A) ![Alternativa A](enem-2018-d2-q159-3.webp)
+- B) ![Alternativa B](enem-2018-d2-q159-5.webp)
+- C) ![Alternativa C](enem-2018-d2-q159-7.webp)
+- D) ![Alternativa D](enem-2018-d2-q159-4.webp)
+- E) ![Alternativa E](enem-2018-d2-q159-6.webp)
+
+**Resposta:** A
+
+**Explicação:** Comparando o que já foi empilhado com o cubo 4 × 4 × 4 completo, os espaços vazios formam uma peça em forma de L em degraus. Encaixando cada alternativa nesses vazios, só a primeira completa o cubo sem sobrar nem faltar cubinho.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 159
+
+**Assunto:** matematica/geometria-espacial
+
+### 160
+De acordo com um relatório recente da Agência Internacional de Energia (AIE), o mercado de veículos elétricos atingiu um novo marco em 2016, quando foram vendidos mais de 750 mil automóveis da categoria. Com isso, o total de carros elétricos vendidos no mundo alcançou a marca de 2 milhões de unidades desde que os primeiros modelos começaram a ser comercializados em 2011.
+
+No Brasil, a expansão das vendas também se verifica. A marca A, por exemplo, expandiu suas vendas no ano de 2016, superando em 360 unidades as vendas de 2015, conforme representado no gráfico.
+
+![Figura](enem-2018-d2-q160-1.webp)
+
+> Disponível em: www.tecmundo.com.br. Acesso em: 5 dez. 2017.
+
+A média anual do número de carros vendidos pela marca A, nos anos representados no gráfico, foi de
+
+- A) 192.
+- B) 240.
+- C) 252.
+- D) 320.
+- E) 420.
+
+**Resposta:** D
+
+**Explicação:** 2016 tem 5 carrinhos e 2015 tem 2: a diferença de 3 carrinhos vale 360 unidades, então cada carrinho vale 120. Vendas: 2014 = 120, 2015 = 240, 2016 = 600. Média: 960 ÷ 3 = 320.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 160
+
+**Assunto:** matematica/estatistica
+
+### 169
+Uma empresa de comunicação tem a tarefa de elaborar um material publicitário de um estaleiro para divulgar um novo navio, equipado com um guindaste de 15 m de altura e uma esteira de 90 m de comprimento. No desenho desse navio, a representação do guindaste deve ter sua altura entre 0,5 cm e 1 cm, enquanto a esteira deve apresentar comprimento superior a 4 cm. Todo o desenho deverá ser feito em uma escala 1 : X. Os valores possíveis para X são, apenas,
+
+- A) X > 1 500.
+- B) X < 3 000.
+- C) 1 500 < X < 2 250.
+- D) 1 500 < X < 3 000.
+- E) 2 250 < X < 3 000.
+
+**Resposta:** C
+
+**Explicação:** Guindaste: 1 500 cm ÷ X deve ficar entre 0,5 e 1 cm, então X fica entre 1 500 e 3 000. Esteira: 9 000 cm ÷ X > 4, então X < 2 250. Juntando: 1 500 < X < 2 250.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 169
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
+### 170
+Em 2014 foi inaugurada a maior roda-gigante do mundo, a High Roller, situada em Las Vegas. A figura representa um esboço dessa roda-gigante, no qual o ponto A representa uma de suas cadeiras:
+
+![Figura](enem-2018-d2-q170-1.webp)
+
+> Disponível em: http://en.wikipedia.org. Acesso em: 22 abr. 2014 (adaptado).
+
+A partir da posição indicada, em que o segmento OA se encontra paralelo ao plano do solo, rotaciona-se a High Roller no sentido anti-horário, em torno do ponto O. Sejam t o ângulo determinado pelo segmento OA em relação à sua posição inicial, e f a função que descreve a altura do ponto A, em relação ao solo, em função de t.
+
+Após duas voltas completas, f tem o seguinte gráfico:
+
+![Figura](enem-2018-d2-q170-2.webp)
+
+A expressão da função altura é dada por
+
+- A) f(t) = 80 sen(t) + 88
+- B) f(t) = 80 cos(t) + 88
+- C) f(t) = 88 cos(t) + 168
+- D) f(t) = 168 sen(t) + 88 cos(t)
+- E) f(t) = 88 sen(t) + 168 cos(t)
+
+**Resposta:** A
+
+**Explicação:** Em t = 0 a cadeira está na altura do centro, 88 m, e sobe primeiro: começa como um seno. O máximo é 168 m, então o raio é 168 − 88 = 80 m. f(t) = 80 sen(t) + 88 (em t = π/2, dá 168).
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 170
+
+**Assunto:** matematica/trigonometria
+
+### 171
+A rosa dos ventos é uma figura que representa oito sentidos, que dividem o círculo em partes iguais.
+
+![Figura](enem-2018-d2-q171-1.webp)
+
+Uma câmera de vigilância está fixada no teto de um shopping e sua lente pode ser direcionada remotamente, através de um controlador, para qualquer sentido. A lente da câmera está apontada inicialmente no sentido Oeste e o seu controlador efetua três mudanças consecutivas, a saber:
+
+• 1ª mudança: 135º no sentido anti-horário;
+
+• 2ª mudança: 60º no sentido horário;
+
+• 3ª mudança: 45º no sentido anti-horário.
+
+Após a 3ª mudança, ele é orientado a reposicionar a câmera, com a menor amplitude possível, no sentido Noroeste (NO) devido a um movimento suspeito de um cliente. Qual mudança de sentido o controlador deve efetuar para reposicionar a câmera?
+
+- A) 75º no sentido horário.
+- B) 105º no sentido anti-horário.
+- C) 120º no sentido anti-horário.
+- D) 135º no sentido anti-horário.
+- E) 165º no sentido horário.
+
+**Resposta:** E
+
+**Explicação:** Medindo os ângulos no sentido horário a partir do Norte: o Oeste é 270°. Anti-horário 135°: 135° (Sudeste). Horário 60°: 195°. Anti-horário 45°: 150°. O Noroeste é 315°: de 150° até 315° são 165° no sentido horário (pelo outro lado seriam 195°).
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 171
+
+**Assunto:** matematica/geometria-plana
+
+### 172
+Na teoria das eleições, o Método de Borda sugere que, em vez de escolher um candidato, cada juiz deve criar um ranking de sua preferência para os concorrentes (isto é, criar uma lista com a ordem de classificação dos concorrentes). A este ranking é associada uma pontuação: um ponto para o último colocado no ranking, dois pontos para o penúltimo, três para o antepenúltimo, e assim sucessivamente. Ao final, soma-se a pontuação atribuída a cada concorrente por cada um dos juízes.
+
+Em uma escola houve um concurso de poesia no qual cinco alunos concorreram a um prêmio, sendo julgados por 25 juízes. Para a escolha da poesia vencedora foi utilizado o Método de Borda. Nos quadros, estão apresentados os rankings dos juízes e a frequência de cada ranking.
+
+![Figura](enem-2018-d2-q172-1.webp)
+
+![Figura](enem-2018-d2-q172-2.webp)
+
+A poesia vencedora foi a de
+
+- A) Edu.
+- B) Dani.
+- C) Caio.
+- D) Bia.
+- E) Ana.
+
+**Resposta:** E
+
+**Explicação:** Pontos: 5 para o 1º lugar, 4 para o 2º, ..., 1 para o 5º, multiplicados pelo número de juízes de cada ranking (4, 9, 7, 5). Ana: 5·4 + 2·9 + 4·7 + 4·5 = 86. Dani: 2·4 + 5·9 + 1·7 + 3·5 = 75. Caio: 74. Bia e Edu: 70. Vence Ana.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 172
+
+**Assunto:** matematica/estatistica
+
 ## Difícil
 
 ### 137
@@ -549,3 +895,131 @@ Quantos alunos compraram somente um bilhete?
 **Fonte:** ENEM 2018, 2º dia, caderno azul, questão 178
 
 **Assunto:** matematica/equacoes-e-sistemas
+
+### 139
+Sobre um sistema cartesiano considera-se uma malha formada por circunferências de raios com medidas dadas por números naturais e por 12 semirretas com extremidades na origem, separadas por ângulos de π/6 rad, conforme a figura.
+
+![Figura](enem-2018-d2-q139-1.webp)
+
+Suponha que os objetos se desloquem apenas pelas semirretas e pelas circunferências dessa malha, não podendo passar pela origem (0 ; 0).
+
+Considere o valor de π com aproximação de, pelo menos, uma casa decimal.
+
+Para realizar o percurso mais curto possível ao longo da malha, do ponto B até o ponto A, um objeto deve percorrer uma distância igual a
+
+- A) 2 · π · 1/3 + 8
+- B) 2 · π · 2/3 + 6
+- C) 2 · π · 3/3 + 4
+- D) 2 · π · 4/3 + 2
+- E) 2 · π · 5/3 + 2
+
+**Resposta:** A
+
+**Explicação:** B está na circunferência de raio 4 e A na de raio 6; as semirretas deles formam 120° (2π/3). Indo pela semirreta até a circunferência de raio k, andando o arco e voltando por outra semirreta: (4 − k) + 2πk/3 + (6 − k) = 10 + k(2π/3 − 2) ≈ 10 + 0,09k. Quanto menor k, melhor; como não pode passar pela origem, k = 1: 2π/3 + 8 ≈ 10,1.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 139
+
+**Assunto:** matematica/geometria-plana
+
+### 154
+Um designer de jogos planeja um jogo que faz uso de um tabuleiro de dimensão n × n, com n ≥ 2, no qual cada jogador, na sua vez, coloca uma peça sobre uma das casas vazias do tabuleiro. Quando uma peça é posicionada, a região formada pelas casas que estão na mesma linha ou coluna dessa peça é chamada de zona de combate dessa peça. Na figura está ilustrada a zona de combate de uma peça colocada em uma das casas de um tabuleiro de dimensão 8 × 8.
+
+![Figura](enem-2018-d2-q154-1.webp)
+
+O tabuleiro deve ser dimensionado de forma que a probabilidade de se posicionar a segunda peça aleatoriamente, seguindo a regra do jogo, e esta ficar sobre a zona de combate da primeira, seja inferior a 1/5.
+
+A dimensão mínima que o designer deve adotar para esse tabuleiro é
+
+- A) 4 × 4.
+- B) 6 × 6.
+- C) 9 × 9.
+- D) 10 × 10.
+- E) 11 × 11
+
+**Resposta:** D
+
+**Explicação:** A zona de combate tem 2(n − 1) casas (o resto da linha e da coluna). A segunda peça pode ir para n² − 1 casas vazias. P = 2(n − 1)/(n² − 1) = 2/(n + 1). Queremos 2/(n + 1) < 1/5, ou seja, n + 1 > 10, n > 9. O menor tabuleiro é 10 × 10.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 154
+
+**Assunto:** matematica/probabilidade
+
+### 156
+Um rapaz estuda em uma escola que fica longe de sua casa, e por isso precisa utilizar o transporte público. Como é muito observador, todos os dias ele anota a hora exata (sem considerar os segundos) em que o ônibus passa pelo ponto de espera. Também notou que nunca consegue chegar ao ponto de ônibus antes de 6 h 15 min da manhã. Analisando os dados coletados durante o mês de fevereiro, o qual teve 21 dias letivos, ele concluiu que 6 h 21 min foi o que mais se repetiu, e que a mediana do conjunto de dados é 6 h 22 min. A probabilidade de que, em algum dos dias letivos de fevereiro, esse rapaz tenha apanhado o ônibus antes de 6 h 21 min da manhã é, no máximo,
+
+- A) 4/21
+- B) 5/21
+- C) 6/21
+- D) 7/21
+- E) 8/21
+
+**Resposta:** D
+
+**Explicação:** São 21 horários; a mediana (11º valor) é 6 h 22 min, então pelo menos 11 dias foram às 6 h 22 min ou depois, sobrando no máximo 10 dias até 6 h 21 min. Se 6 h 21 min aparece k vezes (a moda), cada horário entre 6 h 15 min e 6 h 20 min aparece no máximo k − 1 vezes. Com k = 3, sobram 7 dias antes de 6 h 21 min (por exemplo, 6 h 15, 6 h 16 e 6 h 17 duas vezes cada e 6 h 18 uma vez). Com k = 2, seriam só 6. Máximo: 7/21.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 156
+
+**Assunto:** matematica/probabilidade
+
+### 173
+Os guindastes são fundamentais em canteiros de obras, no manejo de materiais pesados como vigas de aço. A figura ilustra uma sequência de estágios em que um guindaste iça uma viga de aço que se encontra inicialmente no solo.
+
+![Figura](enem-2018-d2-q173-1.webp)
+
+Na figura, o ponto O representa a projeção ortogonal do cabo de aço sobre o plano do chão e este se mantém na vertical durante todo o movimento de içamento da viga, que se inicia no tempo t = 0 (estágio 1) e finaliza no tempo tf (estágio 3). Uma das extremidades da viga é içada verticalmente a partir do ponto O, enquanto que a outra extremidade desliza sobre o solo em direção ao ponto O. Considere que o cabo de aço utilizado pelo guindaste para içar a viga fique sempre na posição vertical. Na figura, o ponto M representa o ponto médio do segmento que representa a viga. O gráfico que descreve a distância do ponto M ao ponto O, em função do tempo, entre t = 0 e tf, é
+
+- A) ![Alternativa A](enem-2018-d2-q173-2.webp)
+- B) ![Alternativa B](enem-2018-d2-q173-4.webp)
+- C) ![Alternativa C](enem-2018-d2-q173-6.webp)
+- D) ![Alternativa D](enem-2018-d2-q173-3.webp)
+- E) ![Alternativa E](enem-2018-d2-q173-5.webp)
+
+**Resposta:** A
+
+**Explicação:** Uma ponta da viga desliza no chão e a outra sobe pela vertical do ponto O. A viga é a hipotenusa de um triângulo retângulo com vértice em O, e a mediana relativa à hipotenusa vale metade dela. Assim, a distância de M a O é sempre metade do comprimento da viga: o gráfico é constante.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 173
+
+**Assunto:** matematica/geometria-plana
+
+### 179
+Um quebra-cabeça consiste em recobrir um quadrado com triângulos retângulos isósceles, como ilustra a figura.
+
+![Figura](enem-2018-d2-q179-1.webp)
+
+Uma artesã confecciona um quebra-cabeça como o descrito, de tal modo que a menor das peças é um triângulo retângulo isósceles cujos catetos medem 2 cm. O quebra-cabeça, quando montado, resultará em um quadrado cuja medida do lado, em centímetro, é
+
+- A) 14
+- B) 12
+- C) 7√2
+- D) 6 + 4√2
+- E) 6 + 2√2
+
+**Resposta:** A
+
+**Explicação:** Na figura, cada triângulo tem o cateto igual à hipotenusa do triângulo menor seguinte. Do menor para o maior: catetos 2, 2√2, 4, 4√2 e 8. O lado direito do quadrado é formado pelos catetos de 8, 4 e 2: 8 + 4 + 2 = 14 cm.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 179
+
+**Assunto:** matematica/geometria-plana
+
+### 180
+Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a borda inferior. O raio da base do cilindro mede 6/π cm, e ao enrolar a faixa obtém-se uma linha em formato de hélice, como na figura.
+
+![Figura](enem-2018-d2-q180-1.webp)
+
+O valor da medida da altura do cilindro, em centímetro, é
+
+- A) 36√3
+- B) 24√3
+- C) 4√3
+- D) 36
+- E) 72
+
+**Resposta:** B
+
+**Explicação:** A circunferência da base mede 2π × 6/π = 12 cm. A hélice dá 6 voltas, então a faixa tem 6 × 12 = 72 cm de comprimento. A diagonal forma 30° com essa base: altura = 72 × tg 30° = 72 × √3/3 = 24√3 cm.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 180
+
+**Assunto:** matematica/trigonometria

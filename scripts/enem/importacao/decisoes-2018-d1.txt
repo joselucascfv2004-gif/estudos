@@ -88,6 +88,26 @@ x: A crosta laterítica (canga) se forma quando a chuva lava o solo e leva embor
 x: Agostinho discute a pergunta "o que Deus fazia antes de criar o mundo?". Para ele, o tempo foi criado junto com o mundo, e a eternidade de Deus está fora do tempo. A questão mostra até onde vai a compreensão humana diante de algo que a ultrapassa.
 @89 d filosofia/filosofia-moderna-e-contemporanea
 x: Os seringueiros, pela experiência de quem caça na floresta, sabiam que as áreas de refúgio garantiam a caça. A ciência só chegou a esse modelo dez anos depois. O texto mostra o conhecimento empírico das populações tradicionais forçando a revisão do modelo científico.
+@50 f historia/seculo-xx fig
+x: Em 1955, Rosa Parks se recusou a ceder seu lugar a um branco num ônibus de Montgomery (EUA), onde a lei separava os assentos por cor. A prisão dela deu início a um boicote aos ônibus liderado por Martin Luther King, marco do movimento pelos direitos civis dos negros. Por isso o ônibus virou peça de museu.
+@56 m geografia/cartografia fig
+x: Na anamorfose, o tamanho de cada país é desenhado de acordo com um dado (população, PIB etc.), e não com sua área real. O mapa das Américas em que os países aparecem como blocos de tamanhos alterados (Estados Unidos e Brasil enormes, outros pequenos) é o exemplo dessa técnica. As outras figuras são blocos-diagrama, curvas de nível, perfil e mapa de rua.
+@63 m geografia/geografia-fisica fig
+x: Ciclones tropicais nascem sobre oceanos quentes, onde o ar aquecido sobe e forma centros de baixa pressão muito intensa. É a grande diferença de pressão entre o centro do ciclone e o entorno que gera os ventos fortíssimos. Sem essa diferença acentuada de pressão, o fenômeno não se forma.
+@67 f geografia/geografia-fisica fig
+x: Na área urbanizada, a vazão do rio sobe rápido e chega a um pico maior logo depois da chuva; na área não urbanizada, sobe devagar e com pico menor. O asfalto e o concreto impermeabilizam o solo: a água não infiltra e escorre direto para os rios, ampliando o escoamento superficial (e as enchentes).
+@72 f geografia/biomas-e-questoes-ambientais fig
+x: A pesquisa mostra que os povos indígenas domesticaram e espalharam plantas na Amazônia há mais de 8 000 anos. Isso desmonta a ideia de uma floresta "intocada", sem ação humana (antrópica): parte da composição atual da mata é resultado do manejo feito por esses povos.
+@74 f historia/brasil-republica fig
+x: A cartilha mostra crianças felizes ao lado de Getúlio Vargas, apresentado como amigo e protetor. No Estado Novo (1937–1945), o governo usava a propaganda (inclusive nas escolas) para construir o culto à figura do líder e conquistar apoio político pelo carisma.
+@82 m geografia/geografia-fisica fig
+e: TEXTO I || Há mais de duas décadas, os cientistas e ambientalistas têm alertado para o fato de a água doce ser um recurso escasso em nosso planeta. Desde o começo de 2014, o Sudeste do Brasil adquiriu uma clara percepção dessa realidade em função da seca. || TEXTO II || Dinâmicas atmosféricas no Brasil || Elementos relevantes ao transporte de umidade na América do Sul a leste dos Andes pelos Jatos de Baixos Níveis (JBN), Frentes Frias (FF) e transporte de umidade do Atlântico Sul, assim como a presença da Zona de Convergência do Atlântico Sul (ZCAS), para um verão normal e para o verão seco de 2014. “A” representa o centro da anomalia de alta pressão atmosférica. || [fig1] || > MARENGO, J. A. et al. A seca e a crise hídrica de 2014-2015 em São Paulo. Revista USP, n. 106, 2015 (adaptado). || De acordo com as informações apresentadas, a seca de 2014, no Sudeste, teve como causa natural o(a)
+x: No verão de 2014, um centro de alta pressão ("A") ficou parado sobre o Sudeste. Essa área de alta pressão é um anticiclone: o ar desce e se espalha, bloqueando as frentes frias e a umidade vinda da Amazônia (a ZCAS não se formou). Sem umidade, quase não choveu.
+@87 m sociologia/temas-contemporaneos fig
+x: O anúncio diz que a mulher "seria adorável se não fosse doentia" e vende um tônico para a "saúde da mulher". Reforça a ideia da mulher como frágil fisicamente e preocupada em agradar, em ser aceita e admirada.
+@88 m geografia/economia-agropecuaria-industria-energia fig
+e: Participação percentual do extrativismo vegetal e da silvicultura no valor da produção primária florestal — Brasil — 1996-2014 || [fig1] || > IBGE. Produção da extração vegetal e da silvicultura. Rio de Janeiro: IBGE, 2014 (adaptado). || Considerando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de
+x: Extrativismo é tirar produtos da mata nativa; silvicultura é plantar florestas (como eucalipto e pinus) para corte. O gráfico mostra a silvicultura crescendo e o extrativismo caindo: as indústrias passaram a usar cada vez mais madeira de reflorestamento.
 
 ## 32-enem-2018-linguagens.md | 2018 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2018 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
@@ -156,3 +176,36 @@ x: O eu lírico se vê com os olhos de quem o discrimina: ele é "o policial que
 x: O texto, em forma de diário, repete "é preciso" como quem tenta se agarrar à vida: não beber, não morrer "por enquanto", sobreviver. A repetição obsessiva e as frases curtas transmitem a angústia de alguém que pressente o próprio fim.
 @30 d literatura/pre-modernismo-ao-contemporaneo v
 x: A voz do poema diz que começou a existir com "quinhentos milhões e quinhentos mil anos", nasceu velha, virou criança e voltou a ser velha. A lógica do tempo é desmontada: a expressão poética de Stela do Patrocínio rompe com a razão comum e com as referências de tempo.
+@7 f portugues/funcoes-generos-e-variacao fig
+x: A campanha usa frases do jeito que as pessoas falam no dia a dia: "tá difícil largar", "ir se acostumando". São marcas da oralidade, que aproximam a mensagem do público.
+@11 m artes/artes-e-educacao-fisica fig
+x: Na body art, o próprio corpo do artista é a obra: ele é usado como meio de expressão. A fotografia mostra o corpo como suporte da criação artística, e o texto confirma que essa arte põe o corpo em evidência e o submete a experimentações.
+@13 m artes/artes-e-educacao-fisica fig
+x: O cartaz culpa o indivíduo que "não tem tempo" para se exercitar. O segundo texto mostra que a falta de tempo vem das condições de vida (trabalho, transporte lotado, tarefas da casa). É uma visão ampliada, que considera os fatores sociais que dificultam a atividade física.
+@16 d literatura/pre-modernismo-ao-contemporaneo fig
+x: A paisagem é seca, sem vida, e a mulher também é descrita como árida, magra, quase de pedra, sozinha. Mulher e terra se misturam (amalgamam) no mesmo processo de secura e de solidão; no fim, até a sombra dela se enlaça com a da árvore.
+@19 m portugues/interpretacao-de-texto fig
+x: A tirinha critica pessoas que mudam de opinião conforme quem paga ("me pagou X, textão eu cobro Y", "o preço da opinião na internet"). A crítica é à venda de opiniões, isto é, à comercialização de pontos de vista.
+@22 m portugues/funcoes-generos-e-variacao fig
+x: A fachada traz o nome "supermercado" em várias línguas (português, espanhol, inglês, chinês, árabe), pensando nos diferentes povos que circulam na fronteira. É uma escolha planejada do uso das línguas no espaço da cidade.
+@24 d portugues/funcoes-generos-e-variacao fig
+s: do racismo Resumo: => do racismo || Resumo:
+x: A função referencial busca informar de modo objetivo, sem marcas de quem escreve. No resumo, isso aparece na impessoalidade: "Este artigo tem por finalidade", "Evidencia-se" não trazem "eu" nem "nós" e põem o foco nas informações.
+@25 m literatura/pre-modernismo-ao-contemporaneo fig
+x: A adaptação usa recursos visuais: contraste forte de preto e branco, traços expressivos, onomatopeia ("PAM!") e enquadramentos de impacto. Esses recursos das artes visuais reforçam a dramaticidade da cena narrada por Guimarães Rosa.
+@28 f portugues/interpretacao-de-texto fig
+x: O desenho mostra uma garrafa PET vazia virando outros objetos e materiais (tecido, por exemplo). A imagem convence mostrando que o lixo separado pode ser reaproveitado.
+@29 m artes/artes-e-educacao-fisica fig
+x: O fotograma é feito sem câmera, pondo objetos sobre papel fotográfico. A imagem de Man Ray não mostra uma figura nítida: as formas aparecem sobrepostas, em pedaços e com contornos borrados, resultado de uma composição experimental.
+@32 f artes/artes-e-educacao-fisica fig
+x: Assim como a ópera junta música, teatro, cenário e figurino, os shows do grupo combinam música, circo (a artista no aro), iluminação e encenação. A originalidade está na integração de várias linguagens artísticas.
+@34 m artes/artes-e-educacao-fisica fig
+x: A urna marajoara tinha uma função: era usada em rituais funerários. A obra de Norma Grimberg é feita da mesma matéria (cerâmica), mas serve apenas para ser vista e pensada como arte, sem uso prático.
+@36 f literatura/pre-modernismo-ao-contemporaneo v fig
+x: Para o eu lírico, o rio era "um vidro mole", "uma cobra de vidro": uma imagem criada pela sua imaginação. Quando alguém lhe dá o nome técnico "enseada", essa imagem pessoal se perde. O nome empobrece a percepção subjetiva.
+@39 f portugues/interpretacao-de-texto fig
+x: As reações vão de "curti" a "grr": alguns rótulos são claros e úteis, outros escondem informações (traços de glúten) ou estão errados. Ou seja, os rótulos variam muito na forma de apresentar o que importa ao celíaco.
+@41 f portugues/funcoes-generos-e-variacao fig
+x: As três mulheres tapam os olhos, a boca e os ouvidos, representando o silêncio diante da violência. Os verbos no imperativo ("rompa o silêncio", "denuncie", "ligue") pedem o contrário do que a imagem mostra. É a associação entre os verbos e a imagem das três mulheres que convence.
+@45 m artes/artes-e-educacao-fisica fig
+x: O GPS serve para orientar trajetos, e a bicicleta serve para se locomover. Stephen Lund usa os dois para desenhar figuras no mapa da cidade. A inovação está em tirar essas tecnologias de suas funções habituais e transformá-las em ferramentas de arte.

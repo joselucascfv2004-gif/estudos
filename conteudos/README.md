@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6129 questões** em **154 tópicos**.
+**6196 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2216 questões
+## ENEM — provas oficiais — 2283 questões
 
 *Provas anteriores*
 
@@ -259,10 +259,10 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2019 — Ciências da Natureza](enem-oficial/26-enem-2019-ciencias-da-natureza.md) | ENEM | 15 | 23 | 7 |
 | [ENEM 2019 — Ciências Humanas](enem-oficial/27-enem-2019-ciencias-humanas.md) | ENEM | 15 | 23 | 6 |
 | [ENEM 2019 — Linguagens](enem-oficial/28-enem-2019-linguagens.md) | ENEM | 14 | 21 | 6 |
-| [ENEM 2018 — Matemática](enem-oficial/29-enem-2018-matematica.md) | ENEM | 10 | 8 | 6 |
-| [ENEM 2018 — Ciências da Natureza](enem-oficial/30-enem-2018-ciencias-da-natureza.md) | ENEM | 11 | 11 | 1 |
-| [ENEM 2018 — Ciências Humanas](enem-oficial/31-enem-2018-ciencias-humanas.md) | ENEM | 12 | 20 | 4 |
-| [ENEM 2018 — Linguagens](enem-oficial/32-enem-2018-linguagens.md) | ENEM | 8 | 13 | 3 |
+| [ENEM 2018 — Matemática](enem-oficial/29-enem-2018-matematica.md) | ENEM | 14 | 18 | 12 |
+| [ENEM 2018 — Ciências da Natureza](enem-oficial/30-enem-2018-ciencias-da-natureza.md) | ENEM | 13 | 24 | 8 |
+| [ENEM 2018 — Ciências Humanas](enem-oficial/31-enem-2018-ciencias-humanas.md) | ENEM | 16 | 25 | 4 |
+| [ENEM 2018 — Linguagens](enem-oficial/32-enem-2018-linguagens.md) | ENEM | 14 | 21 | 5 |
 | [ENEM 2017 — Matemática](enem-oficial/33-enem-2017-matematica.md) | ENEM | 7 | 10 | 8 |
 | [ENEM 2017 — Ciências da Natureza](enem-oficial/34-enem-2017-ciencias-da-natureza.md) | ENEM | 9 | 8 | 6 |
 | [ENEM 2017 — Ciências Humanas](enem-oficial/35-enem-2017-ciencias-humanas.md) | ENEM | 10 | 16 | 5 |

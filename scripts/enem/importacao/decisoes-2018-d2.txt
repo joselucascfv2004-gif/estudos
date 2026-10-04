@@ -81,6 +81,59 @@ x: Densidade em 1986: 100 000 ÷ 0,25 = 4 × 10⁵ por cm². Depois de k dobras:
 x: Chame de p o valor de cada parcela. O total é o mesmo: Np = (N + 5)(p − 200) = (N − 4)(p + 232). Da primeira igualdade: 5p − 200N − 1 000 = 0, ou p = 40N + 200. Da segunda: −4p + 232N − 928 = 0, ou p = 58N − 232. Igualando: 40N + 200 = 58N − 232, então 18N = 432 e N = 24.
 @178 d matematica/equacoes-e-sistemas
 x: Seja u quem comprou 1 bilhete e t quem comprou 3. Bilhetes: u + 90 + 3t. Alunos do colégio: 80 + u + 45 + t. Como os bilhetes excedem os alunos em 33: u + 90 + 3t = u + t + 158, então t = 34 e foram u + 192 bilhetes. Como u é 20% dos bilhetes: u = 0,2(u + 192), 0,8u = 38,4 e u = 48.
+@139 d matematica/geometria-plana fig
+e: Sobre um sistema cartesiano considera-se uma malha formada por circunferências de raios com medidas dadas por números naturais e por 12 semirretas com extremidades na origem, separadas por ângulos de π/6 rad, conforme a figura. || [fig1] || Suponha que os objetos se desloquem apenas pelas semirretas e pelas circunferências dessa malha, não podendo passar pela origem (0 ; 0). || Considere o valor de π com aproximação de, pelo menos, uma casa decimal. || Para realizar o percurso mais curto possível ao longo da malha, do ponto B até o ponto A, um objeto deve percorrer uma distância igual a
+a: 2 · π · 1/3 + 8 | 2 · π · 2/3 + 6 | 2 · π · 3/3 + 4 | 2 · π · 4/3 + 2 | 2 · π · 5/3 + 2
+x: B está na circunferência de raio 4 e A na de raio 6; as semirretas deles formam 120° (2π/3). Indo pela semirreta até a circunferência de raio k, andando o arco e voltando por outra semirreta: (4 − k) + 2πk/3 + (6 − k) = 10 + k(2π/3 − 2) ≈ 10 + 0,09k. Quanto menor k, melhor; como não pode passar pela origem, k = 1: 2π/3 + 8 ≈ 10,1.
+@142 m fisica/dinamica fig
+e: De acordo com a Lei Universal da Gravitação, proposta por Isaac Newton, a intensidade da força gravitacional F que a Terra exerce sobre um satélite em órbita circular é proporcional à massa m do satélite e inversamente proporcional ao quadrado do raio r da órbita, ou seja, F = km/r². || No plano cartesiano, três satélites, A, B e C, estão representados, cada um, por um ponto (m ; r) cujas coordenadas são, respectivamente, a massa do satélite e o raio da sua órbita em torno da Terra. || [fig1] || Com base nas posições relativas dos pontos no gráfico, deseja-se comparar as intensidades FA, FB e FC da força gravitacional que a Terra exerce sobre os satélites A, B e C, respectivamente. || As intensidades FA, FB e FC expressas no gráfico satisfazem a relação
+x: A e B têm o mesmo raio, mas B tem mais massa: FB > FA. A e C têm a mesma massa, mas C está mais longe: FC < FA. Logo, FC < FA < FB.
+@144 f matematica/numeros-e-operacoes fig
+x: O tempo de espera é o tempo por passageiro vezes o número de pessoas na fila: 35 × 5 = 175 s; 25 × 6 = 150 s; 22 × 7 = 154 s; 40 × 4 = 160 s; 20 × 8 = 160 s. O menor é o da máquina 2.
+@149 m matematica/porcentagem fig
+e: A inclinação de uma rampa é calculada da seguinte maneira: para cada metro medido na horizontal, mede-se x centímetros na vertical. Diz-se, nesse caso, que a rampa tem inclinação de x%, como no exemplo da figura: || [fig1] || Inclinação = 20% || A figura apresenta um projeto de uma rampa de acesso a uma garagem residencial cuja base, situada 2 metros abaixo do nível da rua, tem 8 metros de comprimento. || [fig2] || Depois de projetada a rampa, o responsável pela obra foi informado de que as normas técnicas do município onde ela está localizada exigem que a inclinação máxima de uma rampa de acesso a uma garagem residencial seja de 20%. || Se a rampa projetada tiver inclinação superior a 20%, o nível da garagem deverá ser alterado para diminuir o percentual de inclinação, mantendo o comprimento da base da rampa. || Para atender às normas técnicas do município, o nível da garagem deverá ser
+x: A rampa projetada sobe 200 cm em 8 m: 25 cm por metro, inclinação de 25%. Com 20%, em 8 m ela pode subir no máximo 8 × 20 = 160 cm. A garagem precisa ficar 1,60 m abaixo da rua, e não 2 m: deve ser elevada em 40 cm.
+@152 m matematica/geometria-analitica fig
+x: Os pontos ficam entre o eixo x e a reta y = x, com x indo de 0 a 10. Ou seja, a altura y nunca passa de x: 0 ≤ y ≤ x ≤ 10.
+@153 m matematica/geometria-plana fig
+x: A área do passeio é π(R² − r²). A trena AB é tangente ao chafariz, então o raio menor encontra AB no ponto médio, formando ângulo reto. Pelo teorema de Pitágoras: R² = r² + 8², logo R² − r² = 64. Área = 64π m².
+@154 d matematica/probabilidade fig
+s: inferior a 1 || 5 A dimensão => inferior a 1/5. || A dimensão
+x: A zona de combate tem 2(n − 1) casas (o resto da linha e da coluna). A segunda peça pode ir para n² − 1 casas vazias. P = 2(n − 1)/(n² − 1) = 2/(n + 1). Queremos 2/(n + 1) < 1/5, ou seja, n + 1 > 10, n > 9. O menor tabuleiro é 10 × 10.
+@155 f matematica/geometria-plana fig
+x: Os remos têm o mesmo tamanho, então AB = AC: o triângulo é isósceles. O ângulo em A mede 170°, maior que 90°: é obtusângulo.
+@156 d matematica/probabilidade fig
+a: 4/21 | 5/21 | 6/21 | 7/21 | 8/21
+x: São 21 horários; a mediana (11º valor) é 6 h 22 min, então pelo menos 11 dias foram às 6 h 22 min ou depois, sobrando no máximo 10 dias até 6 h 21 min. Se 6 h 21 min aparece k vezes (a moda), cada horário entre 6 h 15 min e 6 h 20 min aparece no máximo k − 1 vezes. Com k = 3, sobram 7 dias antes de 6 h 21 min (por exemplo, 6 h 15, 6 h 16 e 6 h 17 duas vezes cada e 6 h 18 uma vez). Com k = 2, seriam só 6. Máximo: 7/21.
+@157 f matematica/grandezas-medidas-escalas fig
+x: Na escala 1 : 58 000 000, cada 1 cm do mapa vale 58 000 000 cm = 580 km. Então 7,6 cm valem 7,6 × 580 = 4 408 km.
+@159 m matematica/geometria-espacial fig
+x: Comparando o que já foi empilhado com o cubo 4 × 4 × 4 completo, os espaços vazios formam uma peça em forma de L em degraus. Encaixando cada alternativa nesses vazios, só a primeira completa o cubo sem sobrar nem faltar cubinho.
+@160 m matematica/estatistica fig
+x: 2016 tem 5 carrinhos e 2015 tem 2: a diferença de 3 carrinhos vale 360 unidades, então cada carrinho vale 120. Vendas: 2014 = 120, 2015 = 240, 2016 = 600. Média: 960 ÷ 3 = 320.
+@168 f matematica/funcoes-afim-e-quadratica fig
+x: De 2013 a 2015 a cobertura caiu de 67% para 59%: 8 pontos em 2 anos, 4 por ano (variação linear). Em 2014: 67 − 4 = 63%.
+@169 m matematica/grandezas-medidas-escalas fig
+x: Guindaste: 1 500 cm ÷ X deve ficar entre 0,5 e 1 cm, então X fica entre 1 500 e 3 000. Esteira: 9 000 cm ÷ X > 4, então X < 2 250. Juntando: 1 500 < X < 2 250.
+@170 m matematica/trigonometria fig
+a: f(t) = 80 sen(t) + 88 | f(t) = 80 cos(t) + 88 | f(t) = 88 cos(t) + 168 | f(t) = 168 sen(t) + 88 cos(t) | f(t) = 88 sen(t) + 168 cos(t)
+x: Em t = 0 a cadeira está na altura do centro, 88 m, e sobe primeiro: começa como um seno. O máximo é 168 m, então o raio é 168 − 88 = 80 m. f(t) = 80 sen(t) + 88 (em t = π/2, dá 168).
+@171 m matematica/geometria-plana fig
+s: 1a mudança => 1ª mudança
+s: 2a mudança => 2ª mudança
+s: 3a mudança => 3ª mudança
+x: Medindo os ângulos no sentido horário a partir do Norte: o Oeste é 270°. Anti-horário 135°: 135° (Sudeste). Horário 60°: 195°. Anti-horário 45°: 150°. O Noroeste é 315°: de 150° até 315° são 165° no sentido horário (pelo outro lado seriam 195°).
+@172 m matematica/estatistica fig
+x: Pontos: 5 para o 1º lugar, 4 para o 2º, ..., 1 para o 5º, multiplicados pelo número de juízes de cada ranking (4, 9, 7, 5). Ana: 5·4 + 2·9 + 4·7 + 4·5 = 86. Dani: 2·4 + 5·9 + 1·7 + 3·5 = 75. Caio: 74. Bia e Edu: 70. Vence Ana.
+@173 d matematica/geometria-plana fig
+x: Uma ponta da viga desliza no chão e a outra sobe pela vertical do ponto O. A viga é a hipotenusa de um triângulo retângulo com vértice em O, e a mediana relativa à hipotenusa vale metade dela. Assim, a distância de M a O é sempre metade do comprimento da viga: o gráfico é constante.
+@179 d matematica/geometria-plana fig
+a: 14 | 12 | 7√2 | 6 + 4√2 | 6 + 2√2
+x: Na figura, cada triângulo tem o cateto igual à hipotenusa do triângulo menor seguinte. Do menor para o maior: catetos 2, 2√2, 4, 4√2 e 8. O lado direito do quadrado é formado pelos catetos de 8, 4 e 2: 8 + 4 + 2 = 14 cm.
+@180 d matematica/trigonometria fig
+e: Para decorar um cilindro circular reto será usada uma faixa retangular de papel transparente, na qual está desenhada em negrito uma diagonal que forma 30° com a borda inferior. O raio da base do cilindro mede 6/π cm, e ao enrolar a faixa obtém-se uma linha em formato de hélice, como na figura. || [fig1] || O valor da medida da altura do cilindro, em centímetro, é
+a: 36√3 | 24√3 | 4√3 | 36 | 72
+x: A circunferência da base mede 2π × 6/π = 12 cm. A hélice dá 6 voltas, então a faixa tem 6 × 12 = 72 cm de comprimento. A diagonal forma 30° com essa base: altura = 72 × tg 30° = 72 × √3/3 = 24√3 cm.
 
 ## 30-enem-2018-ciencias-da-natureza.md | 2018 | 2 | 2º dia, caderno azul | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
@@ -145,3 +198,52 @@ s: (NH3 ) => (NH₃)
 x: Haber diz que, com a era industrial, os produtos do solo passaram a ser levados para lugares distantes, onde são consumidos, e o nitrogênio não volta à terra de onde saiu. Isso descreve a ida das pessoas do campo para as cidades, onde o alimento é consumido. O esgotamento do salitre é apresentado como consequência futura, não como causa do desequilíbrio.
 @122 d fisica/estatica-e-hidrostatica, fisica/cinematica
 x: Rodas maiores levantam o carro: o centro de massa sobe e o veículo fica mais instável (tomba com mais facilidade nas curvas). Além disso, o velocímetro conta as voltas da roda supondo o tamanho original; com roda maior, cada volta percorre mais chão, então o carro anda mais rápido do que o velocímetro indica.
+@91 d quimica/quimica-organica fig
+x: A luz de 365 nm transforma as ligações N=N do polímero da forma trans (esticada) na forma cis (dobrada), e a luz de 420 nm faz o caminho inverso. Como a forma cis é mais compacta, o polímero encolhe e puxa a lâmina. É uma isomerização geométrica (cis-trans) das ligações N=N.
+@93 m quimica/fisico-quimica fig
+s: E (Fe²⁺|Fe) => E° (Fe²⁺|Fe)
+s: E (H⁺|H₂) => E° (H⁺|H₂)
+s: E (Cu²⁺|Cu) => E° (Cu²⁺|Cu)
+x: O ferro tem o menor potencial de redução (−0,44 V): ele se oxida e é o ânodo (por isso aparece corroído). O cátodo, onde ocorre a redução, é o metal de maior potencial, o cobre (+0,34 V). Na superfície do tubo de cobre, os íons H⁺ do ácido recebem os elétrons.
+@95 d quimica/solucoes fig
+x: Como os íons ocupam os espaços entre as moléculas, o volume continua 2 L (2 000 cm³). Densidades: A = 2 100 g ÷ 2 000 cm³ = 1,05 g/cm³; B = 2 200 ÷ 2 000 = 1,10 g/cm³. A água pura tem 1,00 g/cm³. Quanto mais densa a solução, mais o densímetro sobe: em A ele fica uma divisão (0,05) acima da posição na água pura e em B, duas divisões acima.
+@99 f quimica/ligacoes-e-funcoes-inorganicas fig
+x: O número 268 indica gás tóxico e corrosivo. Entre as opções, a amônia (NH₃) é um gás tóxico e corrosivo (o código ONU 1005 é o da amônia anidra). Eteno e propano são inflamáveis; nitrogênio e gás carbônico não são corrosivos.
+@102 m quimica/fisico-quimica fig
+x: O texto diz que a reação "seria catalisada" pelo cloreto. Catalisador é a substância que acelera a reação sem ser consumida, porque abre um caminho com menor energia de ativação.
+@104 m fisica/estatica-e-hidrostatica fig
+x: Na pinça, os dedos (força potente) apertam no meio, entre o apoio (a ponta presa) e o objeto pegado na outra ponta (resistência). O braço da potente é menor que o da resistente, então a força potente precisa ser maior. Nos outros objetos, a força é aplicada longe do apoio e é menor que a resistente.
+@106 d biologia/evolucao fig
+x: Especiação é quando populações deixam de cruzar entre si com sucesso. Nos pares Itirapina–Peti e Alcobaça–Marambaia, as setas pontilhadas mostram polinizações inviáveis nos dois sentidos: há isolamento reprodutivo, sinal de que estão se tornando espécies diferentes.
+@108 m fisica/eletricidade fig
+x: R = V ÷ i = (10i + i²) ÷ i = 10 + i. É uma reta que começa em 10 Ω (corrente perto de zero) e sobe 1 Ω para cada ampère: em 7 A, R = 17 Ω.
+@109 d quimica/quimica-organica fig
+x: Na hidroxilamina, quem ataca o anidrido é sobretudo o nitrogênio (o produto A é 10⁵ vezes favorecido). Depois do ataque, o N precisa perder um H para formar o produto. Na molécula 4, o nitrogênio tem três grupos ligados (nenhum H) e o oxigênio também está ligado a um grupo metila: ela fica impedida e não tem H para perder, por isso é a menos reativa.
+@112 m fisica/eletricidade fig
+x: Com o toque em A, o ponto entre os dois resistores da esquerda passa a ser ligado a A. Os dois resistores de cima (4 kΩ cada) ficam em paralelo: 2 kΩ. Em seguida vem o resistor de baixo à esquerda (4 kΩ); o de baixo à direita fica sem corrente, pois B está aberto. Total: 2 + 4 = 6 kΩ.
+@114 m quimica/estequiometria fig
+x: A massa molar da glicose é 6 × 12 + 12 × 1 + 6 × 16 = 180 g/mol. Assim, 1 g libera 2 800 ÷ 180 ≈ 15,6 kJ. Só 40% vão para os músculos: 0,4 × 15,6 ≈ 6,2 kJ.
+@116 m quimica/fisico-quimica fig
+s: I₃ ⁻ => I₃⁻
+x: Na reação 2, o corante perde um elétron e fica oxidado (S⁺). Na reação 3, o iodeto devolve um elétron ao corante, que volta à forma S e pode absorver luz de novo. Sem essa etapa, o corante se esgotaria.
+@117 m biologia/citologia fig
+x: Células com alta síntese de RNA e proteínas têm muitas mitocôndrias (energia), muito retículo endoplasmático rugoso (fabrica proteínas), cromatina mais aberta (eucromatina) e nucléolo grande (produz RNA ribossômico). A linhagem IV reúne essas características.
+@118 m fisica/termologia fig
+x: Como a curva não é simétrica, a cada temperatura mais alta o ponto médio da oscilação (os círculos cheios) fica mais à direita: a distância média entre os átomos aumenta. Esse aumento das distâncias com o aquecimento é a dilatação térmica.
+@120 m fisica/ondulatoria-e-optica fig
+s: alto- -falante => alto-falante
+x: Com os fios invertidos, o cone do alto-falante D se move para dentro quando o de E se move para fora: os dois emitem ondas iguais, mas em oposição de fase. Nos pontos à mesma distância dos dois, as ondas se cancelam (interferência destrutiva) e o som fica mais fraco.
+@125 d fisica/ondulatoria-e-optica fig
+x: Como o índice de refração cresce com a frequência, a luz azul é a mais desviada pelo prisma e a vermelha, a menos. Saindo pela face B, o azul desce mais inclinado e bate no espelho mais perto do prisma; ao refletir, sobe também mais inclinado e chega mais alto no filme. O vermelho faz o contrário. De baixo para cima: vermelho, verde e azul.
+@126 m quimica/quimica-ambiental fig
+x: O texto procura um tensoativo aniônico (com grupo sulfonato, SO₃⁻) cuja parte apolar tem muitas ramificações, que dificultam a degradação pelas bactérias. A estrutura com cadeia cheia de ramificações ligada a um anel com SO₃⁻ Na⁺ é a desse detergente persistente.
+@127 d biologia/genetica-e-biotecnologia fig
+x: No loco A, a semente S1 tem os alelos 1 e 2; a mãe M tem 1 e 3, então o alelo 2 veio do pólen. No loco B, S1 tem só o alelo 3, que veio da mãe e também do pai. A única doadora com o alelo 2 no loco A e o alelo 3 no loco B é a DP5.
+@128 d fisica/dinamica fig
+x: No carro A, a ventoinha empurra o ar contra a vela curva, que o devolve para trás: o ar sai, no fim, para a esquerda e o carro anda para a direita. Mas parte do impulso se perde no choque com a vela, então o efeito é pequeno. No carro B, a ventoinha joga o ar diretamente para trás e o carro anda mais rápido: 0 < VA < VB.
+@129 m biologia/fisiologia-humana fig
+x: Sem o pigmento "verde", só o "vermelho" responde a essas luzes. Pelo gráfico, ele é ativado cerca de 75% tanto em 530 nm quanto em 600 nm. Com a mesma ativação, o cérebro recebe o mesmo sinal e a pessoa não consegue distinguir as duas cores.
+@130 f quimica/ligacoes-e-funcoes-inorganicas fig
+x: No grafeno, cada carbono se liga a três outros no mesmo plano, com ângulos de 120°, formando hexágonos. Três ligações em um plano correspondem à hibridação sp² e à geometria trigonal planar.
+@131 m fisica/trabalho-energia-e-potencia fig
+x: A energia da mola vira energia cinética: k·x²/2 = m·v²/2, então v = x·√(k/m). Com a mesma mola, a velocidade é proporcional à deformação: para quadruplicar v, basta quadruplicar x. (Trocando a mola, seria preciso k 16 vezes maior.)

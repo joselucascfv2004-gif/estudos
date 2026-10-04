@@ -212,6 +212,138 @@ No contexto apresentado, a relação entre a prática do futebol e as mulheres �
 
 **Assunto:** artes/artes-e-educacao-fisica
 
+### 7
+![Figura](enem-2018-d1-q007-1.webp)
+
+> Disponível em: www.facebook.com/minsaude. Acesso em: 14 fev. 2018 (adaptado).
+
+A utilização de determinadas variedades linguísticas em campanhas educativas tem a função de atingir o público-alvo de forma mais direta e eficaz. No caso desse texto, identifica-se essa estratégia pelo(a)
+
+- A) discurso formal da língua portuguesa.
+- B) registro padrão próprio da língua escrita.
+- C) seleção lexical restrita à esfera da medicina.
+- D) fidelidade ao jargão da linguagem publicitária.
+- E) uso de marcas linguísticas típicas da oralidade.
+
+**Resposta:** E
+
+**Explicação:** A campanha usa frases do jeito que as pessoas falam no dia a dia: "tá difícil largar", "ir se acostumando". São marcas da oralidade, que aproximam a mensagem do público.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 7
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 28
+![Figura](enem-2018-d1-q028-1.webp)
+
+> Disponível em: www.separeolixo.gov.br. Acesso em: 4 dez. 2017 (adaptado).
+
+Nessa campanha, a principal estratégia para convencer o leitor a fazer a reciclagem do lixo é a utilização da linguagem não verbal como argumento para
+
+- A) reaproveitamento de material.
+- B) facilidade na separação do lixo.
+- C) melhoria da condição do catador.
+- D) preservação de recursos naturais.
+- E) geração de renda para o trabalhador.
+
+**Resposta:** A
+
+**Explicação:** O desenho mostra uma garrafa PET vazia virando outros objetos e materiais (tecido, por exemplo). A imagem convence mostrando que o lixo separado pode ser reaproveitado.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 28
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 32
+![Figura](enem-2018-d1-q032-1.webp)
+
+O grupo O Teatro Mágico apresenta composições autorais que têm referências estéticas do rock, do pop e da música folclórica brasileira. A originalidade dos seus shows tem relação com a ópera europeia do século XIX a partir da
+
+- A) disposição cênica dos artistas no espaço teatral.
+- B) integração de diversas linguagens artísticas.
+- C) sobreposição entre música e texto literário.
+- D) manutenção de um diálogo com o público.
+- E) adoção de um enredo como fio condutor.
+
+**Resposta:** B
+
+**Explicação:** Assim como a ópera junta música, teatro, cenário e figurino, os shows do grupo combinam música, circo (a artista no aro), iluminação e encenação. A originalidade está na integração de várias linguagens artísticas.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 32
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 36
+O rio que fazia uma volta atrás de nossa casa era a
+imagem de um vidro mole que fazia uma volta atrás
+de casa.
+Passou um homem e disse: Essa volta que o
+rio faz por trás de sua casa se chama enseada.
+Não era mais a imagem de uma cobra de vidro que
+fazia uma volta atrás de casa.
+Era uma enseada.
+Acho que o nome empobreceu a imagem.
+
+> BARROS, M. O livro das ignorãças. Rio de Janeiro: Best Seller, 2008.
+
+O sujeito poético questiona o uso do vocábulo “enseada” porque a
+
+- A) terminologia mencionada é incorreta.
+- B) nomeação minimiza a percepção subjetiva.
+- C) palavra é aplicada a outro espaço geográfico.
+- D) designação atribuída ao termo é desconhecida.
+- E) definição modifica o significado do termo no dicionário.
+
+**Resposta:** B
+
+**Explicação:** Para o eu lírico, o rio era "um vidro mole", "uma cobra de vidro": uma imagem criada pela sua imaginação. Quando alguém lhe dá o nome técnico "enseada", essa imagem pessoal se perde. O nome empobrece a percepção subjetiva.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 36
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 39
+![Figura](enem-2018-d1-q039-1.webp)
+
+> Disponível em: www.facebook.com/omeusegredinho. Acesso em: 9 dez. 2017 (adaptado).
+
+Essa imagem ilustra a reação dos celíacos (pessoas sensíveis ao glúten) ao ler rótulos de alimentos sem glúten. Essas reações indicam que, em geral, os rótulos desses produtos
+
+- A) trazem informações explícitas sobre a presença do glúten.
+- B) oferecem várias opções de sabor para esses consumidores.
+- C) classificam o produto como adequado para o consumidor celíaco.
+- D) influenciam o consumo de alimentos especiais para esses consumidores.
+- E) variam na forma de apresentação de informações relevantes para esse público.
+
+**Resposta:** E
+
+**Explicação:** As reações vão de "curti" a "grr": alguns rótulos são claros e úteis, outros escondem informações (traços de glúten) ou estão errados. Ou seja, os rótulos variam muito na forma de apresentar o que importa ao celíaco.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 39
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 41
+![Figura](enem-2018-d1-q041-1.webp)
+
+> Disponível em: www.sul21.com.br. Acesso em: 1 dez. 2017 (adaptado).
+
+Nesse texto, busca-se convencer o leitor a mudar seu comportamento por meio da associação de verbos no modo imperativo à
+
+- A) indicação de diversos canais de atendimento.
+- B) divulgação do Centro de Defesa da Mulher.
+- C) informação sobre a duração da campanha.
+- D) apresentação dos diversos apoiadores.
+- E) utilização da imagem das três mulheres.
+
+**Resposta:** E
+
+**Explicação:** As três mulheres tapam os olhos, a boca e os ouvidos, representando o silêncio diante da violência. Os verbos no imperativo ("rompa o silêncio", "denuncie", "ligue") pedem o contrário do que a imagem mostra. É a associação entre os verbos e a imagem das três mulheres que convence.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 41
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ## Médio
 
 ### 8
@@ -558,6 +690,210 @@ Segundo o texto, a ferramenta Farejador de Plágio alcança seu objetivo por mei
 
 **Assunto:** portugues/interpretacao-de-texto
 
+### 11
+![Figura](enem-2018-d1-q011-1.webp)
+
+> ALMEIDA, H. Dentro de mim, 2000. Fotografia p/b. 132 cm x 88 cm. Faculdade de Belas-Artes da Universidade de Lisboa.
+
+TEXTO II
+
+A body art põe o corpo tão em evidência e o submete a experimentações tão variadas, que sua influência estende-se aos dias de hoje. Se na arte atual as possibilidades de investigação do corpo parecem ilimitadas – pode-se escolher entre representar, apresentar, ou ainda apenas evocar o corpo – isso ocorre graças ao legado dos artistas pioneiros.
+
+> SILVA, P. R. Corpo na arte, body art, body modification: fronteiras. II Encontro de História da Arte: IFCH-Unicamp, 2006 (adaptado).
+
+Nos textos, a concepção de body art está relacionada à intenção de
+
+- A) estabelecer limites entre o corpo e a composição.
+- B) fazer do corpo um suporte privilegiado de expressão.
+- C) discutir políticas e ideologias sobre o corpo como arte.
+- D) compreender a autonomia do corpo no contexto da obra.
+- E) destacar o corpo do artista em contato com o expectador.
+
+**Resposta:** B
+
+**Explicação:** Na body art, o próprio corpo do artista é a obra: ele é usado como meio de expressão. A fotografia mostra o corpo como suporte da criação artística, e o texto confirma que essa arte põe o corpo em evidência e o submete a experimentações.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 11
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 13
+TEXTO I
+
+![Figura](enem-2018-d1-q013-1.webp)
+
+> Disponível em: http://revistaiiqb.usac.edu.gt. Acesso em: 25 abr. 2018 (adaptado).
+
+TEXTO II
+
+Imaginemos um cidadão, residente na periferia de um grande centro urbano, que diariamente acorda às 5h para trabalhar, enfrenta em média 2 horas de transporte público, em geral lotado, para chegar às 8h ao trabalho. Termina o expediente às 17h e chega em casa às 19h para, aí sim, cuidar dos afazeres domésticos, dos filhos etc. Como dizer a essa pessoa que ela deve praticar exercícios, pois é importante para sua saúde? Como ela irá entender a mensagem da importância do exercício físico? A probabilidade de essa pessoa praticar exercícios regularmente é significativamente menor que a de pessoas da classe média/alta que vivem outra realidade. Nesse caso, a abordagem individual do problema tende a fazer com que a pessoa se sinta impotente em não conseguir praticar exercícios e, consequentemente, culpada pelo fato de ser ou estar sedentária.
+
+> FERREIRA, M. S. Aptidão física e saúde na educação física escolar: ampliando o enfoque. RBCE, n. 2, jan. 2001 (adaptado).
+
+O segundo texto, que propõe uma reflexão sobre o primeiro acerca do impacto de mudanças no estilo de vida na saúde, apresenta uma visão
+
+- A) medicalizada, que relaciona a prática de exercícios físicos por qualquer indivíduo à promoção da saúde.
+- B) ampliada, que considera aspectos sociais intervenientes na prática de exercícios no cotidiano.
+- C) crítica, que associa a interferência das tarefas da casa ao sedentarismo do indivíduo.
+- D) focalizada, que atribui ao indivíduo a responsabilidade pela prevenção de doenças.
+- E) geracional, que preconiza a representação do culto à jovialidade.
+
+**Resposta:** B
+
+**Explicação:** O cartaz culpa o indivíduo que "não tem tempo" para se exercitar. O segundo texto mostra que a falta de tempo vem das condições de vida (trabalho, transporte lotado, tarefas da casa). É uma visão ampliada, que considera os fatores sociais que dificultam a atividade física.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 13
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 19
+![Figura](enem-2018-d1-q019-1.webp)
+
+> BRANCO, A. Disponível em: www.oesquema.com.br. Acesso em: 30 jun. 2015 (adaptado).
+
+A internet proporcionou o surgimento de novos paradigmas sociais e impulsionou a modificação de outros já estabelecidos nas esferas da comunicação e da informação. A principal consequência criticada na tirinha sobre esse processo é a
+
+- A) criação de memes.
+- B) ampliação da blogosfera.
+- C) supremacia das ideias cibernéticas.
+- D) comercialização de pontos de vista.
+- E) banalização do comércio eletrônico.
+
+**Resposta:** D
+
+**Explicação:** A tirinha critica pessoas que mudam de opinião conforme quem paga ("me pagou X, textão eu cobro Y", "o preço da opinião na internet"). A crítica é à venda de opiniões, isto é, à comercialização de pontos de vista.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 19
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 22
+![Figura](enem-2018-d1-q022-1.webp)
+
+> SILVA, I.; SANTOS, M. E. P.; JUNG, N. M. Domínios de Lingu@gem, n. 4, out.-dez. 2016 (adaptado).
+
+A fotografia exibe a fachada de um supermercado em Foz do Iguaçu, cuja localização transfronteiriça é marcada tanto pelo limite com Argentina e Paraguai quanto pela presença de outros povos. Essa fachada revela o(a)
+
+- A) apagamento da identidade linguística.
+- B) planejamento linguístico no espaço urbano.
+- C) presença marcante da tradição oral na cidade.
+- D) disputa de comunidades linguísticas diferentes.
+- E) poluição visual promovida pelo multilinguismo.
+
+**Resposta:** B
+
+**Explicação:** A fachada traz o nome "supermercado" em várias línguas (português, espanhol, inglês, chinês, árabe), pensando nos diferentes povos que circulam na fronteira. É uma escolha planejada do uso das línguas no espaço da cidade.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 22
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 25
+![Figura](enem-2018-d1-q025-1.webp)
+
+A imagem integra uma adaptação em quadrinhos da obra Grande sertão: veredas, de Guimarães Rosa. Na representação gráfica, a inter-relação de diferentes linguagens caracteriza-se por
+
+- A) romper com a linearidade das ações da narrativa literária.
+- B) ilustrar de modo fidedigno passagens representativas da história.
+- C) articular a tensão do romance à desproporcionalidade das formas.
+- D) potencializar a dramaticidade do episódio com recursos das artes visuais.
+- E) desconstruir a diagramação do texto literário pelo desequilíbrio da composição.
+
+**Resposta:** D
+
+**Explicação:** A adaptação usa recursos visuais: contraste forte de preto e branco, traços expressivos, onomatopeia ("PAM!") e enquadramentos de impacto. Esses recursos das artes visuais reforçam a dramaticidade da cena narrada por Guimarães Rosa.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 25
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 29
+TEXTO I
+
+Também chamados impressões ou imagens fotogramáticas [...], os fotogramas são, numa definição genérica, imagens realizadas sem a utilização da câmera fotográfica, por contato direto de um objeto ou material com uma superfície fotossensível exposta a uma fonte de luz. Essa técnica, que nasceu junto com a fotografia e serviu de modelo a muitas discussões sobre a ontologia da imagem fotográfica, foi profundamente transformada pelos artistas da vanguarda, nas primeiras décadas do século XX. Representou mesmo, ao lado das colagens, fotomontagens e outros procedimentos técnicos, a incorporação definitiva da fotografia à arte moderna e seu distanciamento da representação figurativa.
+
+> COLUCCI, M. B. Impressões fotogramáticas e vanguardas: as experiências de Man Ray. Studium, n. 2, 2000.
+
+TEXTO II
+
+![Figura](enem-2018-d1-q029-1.webp)
+
+> RAY, M. Rayograph, 1922. 23,9 x 29,9 cm. MOMA, Nova York. Disponível em: www.moma.org. Acesso em: 18 abr. 2018 (adaptado).
+
+No fotograma de Man Ray, o “distanciamento da representação figurativa” a que se refere o Texto I manifesta-se na
+
+- A) ressignificação do jogo de luz e sombra, nos moldes surrealistas.
+- B) imposição do acaso sobre a técnica, como crítica à arte realista.
+- C) composição experimental, fragmentada e de contornos difusos.
+- D) abstração radical, voltada para a própria linguagem fotográfica.
+- E) imitação de formas humanas, com base em diferentes objetos.
+
+**Resposta:** C
+
+**Explicação:** O fotograma é feito sem câmera, pondo objetos sobre papel fotográfico. A imagem de Man Ray não mostra uma figura nítida: as formas aparecem sobrepostas, em pedaços e com contornos borrados, resultado de uma composição experimental.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 29
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 34
+TEXTO I
+
+![Figura](enem-2018-d1-q034-1.webp)
+
+> GRIMBERG, N. Estrutura vertical dupla. Disponível em: www.normagrimberg.com.br. Acesso em: 13 dez. 2017.
+
+TEXTO II
+
+![Figura](enem-2018-d1-q034-2.webp)
+
+> Disponível em: www.museunacional.ufrj.br. Acesso em: 11 dez. 2017.
+
+As duas imagens são produções que têm a cerâmica como matéria-prima. A obra Estrutura vertical dupla se distingue da urna funerária marajoara ao
+
+- A) evidenciar a simetria na disposição das peças.
+- B) materializar a técnica sem função utilitária.
+- C) abandonar a regularidade na composição.
+- D) anular possibilidades de leituras afetivas.
+- E) integrar o suporte em sua constituição.
+
+**Resposta:** B
+
+**Explicação:** A urna marajoara tinha uma função: era usada em rituais funerários. A obra de Norma Grimberg é feita da mesma matéria (cerâmica), mas serve apenas para ser vista e pensada como arte, sem uso prático.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 34
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 45
+TEXTO I
+
+![Figura](enem-2018-d1-q045-1.webp)
+
+> BRACCO, A; LOSCHI, M. Quando rotas se tornam arte. Retratos: a revista do IBGE. Rio de Janeiro, n. 3, set. 2017 (adaptado).
+
+TEXTO II
+
+Stephen Lund, artista canadense, morador em Victoria, capital da Colúmbia Britânica (Canadá), transformou-se em fenômeno mundial produzindo obras de arte virtuais pedalando sua bike. Seguindo rotas traçadas com o auxílio de um dispositivo de GPS, ele calcula ter percorrido mais de 10 mil quilômetros.
+
+> Disponível em: www.booooooom.com. Acesso em: 9 dez. 2017 (adaptado).
+
+Os textos destacam a inovação artística proposta por Stephen Lund a partir do(a)
+
+- A) deslocamento das tecnologias de suas funções habituais.
+- B) perspectiva de funcionamento do dispositivo de GPS.
+- C) ato de guiar sua bicicleta pelas ruas da cidade.
+- D) análise dos problemas de mobilidade urbana.
+- E) foco na promoção cultural da sua cidade.
+
+**Resposta:** A
+
+**Explicação:** O GPS serve para orientar trajetos, e a bicicleta serve para se locomover. Stephen Lund usa os dois para desenhar figuras no mapa da cidade. A inovação está em tirar essas tecnologias de suas funções habituais e transformá-las em ferramentas de arte.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 45
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Difícil
 
 ### 10
@@ -655,3 +991,51 @@ Nesse poema de Stela do Patrocínio, a singularidade da expressão lírica manif
 **Fonte:** ENEM 2018, 1º dia, caderno azul, questão 30
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 16
+Somente uns tufos secos de capim empedrados crescem na silenciosa baixada que se perde de vista. Somente uma árvore, grande e esgalhada mas com pouquíssimas folhas, abre-se em farrapos de sombra. Único ser nas cercanias, a mulher é magra, ossuda, seu rosto está lanhado de vento. Não se vê o cabelo, coberto por um pano desidratado. Mas seus olhos, a boca, a pele – tudo é de uma aridez sufocante. Ela está de pé. A seu lado está uma pedra. O sol explode.
+
+Ela estava de pé no fim do mundo. Como se andasse para aquela baixada largando para trás suas noções de si mesma. Não tem retratos na memória. Desapossada e despojada, não se abate em autoacusações e remorsos. Vive.
+
+Sua sombra somente é que lhe faz companhia. Sua sombra, que se derrama em traços grossos na areia, é que adoça como um gesto a claridade esquelética. A mulher esvaziada emudece, se dessangra, se cristaliza, se mineraliza. Já é quase de pedra como a pedra a seu lado. Mas os traços de sua sombra caminham e, tornando-se mais longos e finos, esticam-se para os farrapos de sombra da ossatura da árvore, com os quais se enlaçam.
+
+> FRÓES, L. Vertigens: obra reunida. Rio de Janeiro: Rocco, 1998.
+
+Na apresentação da paisagem e da personagem, o narrador estabelece uma correlação de sentidos em que esses elementos se entrelaçam. Nesse processo, a condição humana configura-se
+
+- A) amalgamada pelo processo comum de desertificação e de solidão.
+- B) fortalecida pela adversidade extensiva à terra e aos seres vivos.
+- C) redimensionada pela intensidade da luz e da exuberância local.
+- D) imersa num drama existencial de identidade e de origem.
+- E) imobilizada pela escassez e pela opressão do ambiente.
+
+**Resposta:** A
+
+**Explicação:** A paisagem é seca, sem vida, e a mulher também é descrita como árida, magra, quase de pedra, sozinha. Mulher e terra se misturam (amalgamam) no mesmo processo de secura e de solidão; no fim, até a sombra dela se enlaça com a da árvore.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 16
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 24
+A imagem da negra e do negro em produtos de beleza e a estética do racismo
+
+Resumo: Este artigo tem por finalidade discutir a representação da população negra, especialmente da mulher negra, em imagens de produtos de beleza presentes em comércios do nordeste goiano. Evidencia-se que a presença de estereótipos negativos nessas imagens dissemina um imaginário racista apresentado sob a forma de uma estética racista que camufla a exclusão e normaliza a inferiorização sofrida pelos(as) negros(as) na sociedade brasileira. A análise do material imagético aponta a desvalorização estética do negro, especialmente da mulher negra, e a idealização da beleza e do branqueamento a serem alcançados por meio do uso dos produtos apresentados. O discurso midiático-publicitário dos produtos de beleza rememora e legitima a prática de uma ética racista construída e atuante no cotidiano. Frente a essa discussão, sugere-se que o trabalho antirracismo, feito nos diversos espaços sociais, considere o uso de estratégias para uma “descolonização estética” que empodere os sujeitos negros por meio de sua valorização estética e protagonismo na construção de uma ética da diversidade. Palavras-chave: Estética, racismo, mídia, educação, diversidade.
+
+> SANT’ANA, J. A imagem da negra e do negro em produtos de beleza e a estética do racismo. Dossiê: trabalho e educação básica. Margens Interdisciplinar. Versão digital. Abaetetuba, n.16, jun. 2017 (adaptado).
+
+O cumprimento da função referencial da linguagem é uma marca característica do gênero resumo de artigo acadêmico. Na estrutura desse texto, essa função é estabelecida pela
+
+- A) impessoalidade, na organização da objetividade das informações, como em “Este artigo tem por finalidade” e “Evidencia-se”.
+- B) seleção lexical, no desenvolvimento sequencial do texto, como em “imaginário racista” e “estética do negro”.
+- C) metaforização, relativa à construção dos sentidos figurados, como nas expressões “descolonização estética” e “discurso midiático-publicitário”.
+- D) nominalização, produzida por meio de processos derivacionais na formação de palavras, como “inferiorização” e “desvalorização”.
+- E) adjetivação, organizada para criar uma terminologia antirracista, como em “ética da diversidade” e “descolonização estética”.
+
+**Resposta:** A
+
+**Explicação:** A função referencial busca informar de modo objetivo, sem marcas de quem escreve. No resumo, isso aparece na impessoalidade: "Este artigo tem por finalidade", "Evidencia-se" não trazem "eu" nem "nós" e põem o foco nas informações.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 24
+
+**Assunto:** portugues/funcoes-generos-e-variacao

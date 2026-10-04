@@ -238,6 +238,56 @@ O que ocorre nesse processo?
 
 **Assunto:** quimica/quimica-organica
 
+### 99
+A identificação de riscos de produtos perigosos para o transporte rodoviário é obrigatória e realizada por meio da sinalização composta por um painel de segurança, de cor alaranjada, e um rótulo de risco. As informações inseridas no painel de segurança e no rótulo de risco, conforme determina a legislação, permitem que se identifique o produto transportado e os perigos a ele associados.
+
+A sinalização mostrada identifica uma substância que está sendo transportada em um caminhão.
+
+![Figura](enem-2018-d2-q099-1.webp)
+
+Os três algarismos da parte superior do painel indicam o “Número de risco”. O número 268 indica tratar-se de um gás (2), tóxico (6) e corrosivo (8). Os quatro dígitos da parte inferior correspondem ao “Número ONU”, que identifica o produto transportado.
+
+> BRASIL. Resolução n. 420, de 12/02/2004, da Agência Nacional de Transportes Terrestres (ANTT)/Ministério dos Transportes (adaptado).
+
+> ABNT. NBR 7500: identificação para o transporte terrestre, manuseio, movimentação e armazenamento de produtos. Rio de Janeiro, 2004 (adaptado).
+
+Considerando a identificação apresentada no caminhão, o código 1005 corresponde à substância
+
+- A) eteno (C₂H₄).
+- B) nitrogênio (N₂).
+- C) amônia (NH₃).
+- D) propano (C₃H₈).
+- E) dióxido de carbono (CO₂).
+
+**Resposta:** C
+
+**Explicação:** O número 268 indica gás tóxico e corrosivo. Entre as opções, a amônia (NH₃) é um gás tóxico e corrosivo (o código ONU 1005 é o da amônia anidra). Eteno e propano são inflamáveis; nitrogênio e gás carbônico não são corrosivos.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 99
+
+**Assunto:** quimica/ligacoes-e-funcoes-inorganicas
+
+### 130
+O grafeno é uma forma alotrópica do carbono constituído por uma folha planar (arranjo bidimensional) de átomos de carbono compactados e com a espessura de apenas um átomo. Sua estrutura é hexagonal, conforme a figura.
+
+![Figura](enem-2018-d2-q130-1.webp)
+
+Nesse arranjo, os átomos de carbono possuem hibridação
+
+- A) sp de geometria linear.
+- B) sp² de geometria trigonal planar.
+- C) sp³ alternados com carbonos com hibridação sp de geometria linear.
+- D) sp³d de geometria planar.
+- E) sp³d² com geometria hexagonal planar.
+
+**Resposta:** B
+
+**Explicação:** No grafeno, cada carbono se liga a três outros no mesmo plano, com ângulos de 120°, formando hexágonos. Três ligações em um plano correspondem à hibridação sp² e à geometria trigonal planar.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 130
+
+**Assunto:** quimica/ligacoes-e-funcoes-inorganicas
+
 ## Médio
 
 ### 92
@@ -473,6 +523,289 @@ De acordo com os argumentos de Haber, qual fenômeno teria provocado o desequil�
 
 **Assunto:** quimica/quimica-ambiental
 
+### 93
+Em 1938 o arqueólogo alemão Wilhelm König, diretor do Museu Nacional do Iraque, encontrou um objeto estranho na coleção da instituição, que poderia ter sido usado como uma pilha, similar às utilizadas em nossos dias. A suposta pilha, datada de cerca de 200 a.C., é constituída de um pequeno vaso de barro (argila) no qual foram instalados um tubo de cobre, uma barra de ferro (aparentemente corroída por ácido) e uma tampa de betume (asfalto), conforme ilustrado. Considere os potenciais-padrão de redução: E° (Fe²⁺|Fe) = −0,44 V; E° (H⁺|H₂) = 0,00 V; e E° (Cu²⁺|Cu) = +0,34 V.
+
+![Figura](enem-2018-d2-q093-1.webp)
+
+As pilhas de Bagdá e a acupuntura. Disponível em: http://jornalggn.com.br. Acesso em: 14 dez. 2014 (adaptado).
+
+Nessa suposta pilha, qual dos componentes atuaria como cátodo?
+
+- A) A tampa de betume.
+- B) O vestígio de ácido.
+- C) A barra de ferro.
+- D) O tubo de cobre.
+- E) O vaso de barro.
+
+**Resposta:** D
+
+**Explicação:** O ferro tem o menor potencial de redução (−0,44 V): ele se oxida e é o ânodo (por isso aparece corroído). O cátodo, onde ocorre a redução, é o metal de maior potencial, o cobre (+0,34 V). Na superfície do tubo de cobre, os íons H⁺ do ácido recebem os elétrons.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 93
+
+**Assunto:** quimica/fisico-quimica
+
+### 102
+O sulfeto de mercúrio(II) foi usado como pigmento vermelho para pinturas de quadros e murais. Esse pigmento, conhecido como vermilion, escurece com o passar dos anos, fenômeno cuja origem é alvo de pesquisas. Aventou-se a hipótese de que o vermilion seja decomposto sob a ação da luz, produzindo uma fina camada de mercúrio metálico na superfície. Essa reação seria catalisada por íon cloreto presente na umidade do ar.
+
+> WOGAN, T. Mercury's Dark Influence on Art. Disponível em: www.chemistryworld.com. Acesso em: 26 abr. 2018 (adaptado).
+
+Segundo a hipótese proposta, o íon cloreto atua na decomposição fotoquímica do vermilion
+
+- A) reagindo como agente oxidante.
+- B) deslocando o equilíbrio químico.
+- C) diminuindo a energia de ativação.
+- D) precipitando cloreto de mercúrio.
+- E) absorvendo a energia da luz visível.
+
+**Resposta:** C
+
+**Explicação:** O texto diz que a reação "seria catalisada" pelo cloreto. Catalisador é a substância que acelera a reação sem ser consumida, porque abre um caminho com menor energia de ativação.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 102
+
+**Assunto:** quimica/fisico-quimica
+
+### 104
+As pessoas que utilizam objetos cujo princípio de funcionamento é o mesmo do das alavancas aplicam uma força, chamada de força potente, em um dado ponto da barra, para superar ou equilibrar uma segunda força, chamada de resistente, em outro ponto da barra. Por causa das diferentes distâncias entre os pontos de aplicação das forças, potente e resistente, os seus efeitos também são diferentes. A figura mostra alguns exemplos desses objetos.
+
+![Figura](enem-2018-d2-q104-1.webp)
+
+Em qual dos objetos a força potente é maior que a força resistente?
+
+- A) Pinça.
+- B) Alicate.
+- C) Quebra-nozes.
+- D) Carrinho de mão.
+- E) Abridor de garrafa.
+
+**Resposta:** A
+
+**Explicação:** Na pinça, os dedos (força potente) apertam no meio, entre o apoio (a ponta presa) e o objeto pegado na outra ponta (resistência). O braço da potente é menor que o da resistente, então a força potente precisa ser maior. Nos outros objetos, a força é aplicada longe do apoio e é menor que a resistente.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 104
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 108
+Ao pesquisar um resistor feito de um novo tipo de material, um cientista observou o comportamento mostrado no gráfico tensão versus corrente.
+
+![Figura](enem-2018-d2-q108-1.webp)
+
+Após a análise do gráfico, ele concluiu que a tensão em função da corrente é dada pela equação V = 10 i + i². O gráfico da resistência elétrica (R) do resistor em função da corrente (i) é
+
+- A) ![Alternativa A](enem-2018-d2-q108-2.webp)
+- B) ![Alternativa B](enem-2018-d2-q108-3.webp)
+- C) ![Alternativa C](enem-2018-d2-q108-4.webp)
+- D) ![Alternativa D](enem-2018-d2-q108-5.webp)
+- E) ![Alternativa E](enem-2018-d2-q108-6.webp)
+
+**Resposta:** D
+
+**Explicação:** R = V ÷ i = (10i + i²) ÷ i = 10 + i. É uma reta que começa em 10 Ω (corrente perto de zero) e sobe 1 Ω para cada ampère: em 7 A, R = 17 Ω.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 108
+
+**Assunto:** fisica/eletricidade
+
+### 112
+Muitos smartphones e tablets não precisam mais de teclas, uma vez que todos os comandos podem ser dados ao se pressionar a própria tela. Inicialmente essa tecnologia foi proporcionada por meio das telas resistivas, formadas basicamente por duas camadas de material condutor transparente que não se encostam até que alguém as pressione, modificando a resistência total do circuito de acordo com o ponto onde ocorre o toque. A imagem é uma simplificação do circuito formado pelas placas, em que A e B representam pontos onde o circuito pode ser fechado por meio do toque.
+
+![Figura](enem-2018-d2-q112-1.webp)
+
+Qual é a resistência equivalente no circuito provocada por um toque que fecha o circuito no ponto A?
+
+- A) 1,3 kΩ
+- B) 4,0 kΩ
+- C) 6,0 kΩ
+- D) 6,7 kΩ
+- E) 12,0 kΩ
+
+**Resposta:** C
+
+**Explicação:** Com o toque em A, o ponto entre os dois resistores da esquerda passa a ser ligado a A. Os dois resistores de cima (4 kΩ cada) ficam em paralelo: 2 kΩ. Em seguida vem o resistor de baixo à esquerda (4 kΩ); o de baixo à direita fica sem corrente, pois B está aberto. Total: 2 + 4 = 6 kΩ.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 112
+
+**Assunto:** fisica/eletricidade
+
+### 114
+Por meio de reações químicas que envolvem carboidratos, lipídeos e proteínas, nossas células obtêm energia e produzem gás carbônico e água. A oxidação da glicose no organismo humano libera energia, conforme ilustra a equação química, sendo que aproximadamente 40% dela é disponibilizada para atividade muscular. C₆H₁₂O₆ (s) + 6 O₂ (g) → 6 CO₂ (g) + 6 H₂O (l) ∆cH = −2 800 kJ
+
+Considere as massas molares (em g mol⁻¹): H = 1; C = 12; O = 16.
+
+> LIMA, L. M.; FRAGA, C. A. M.; BARREIRO, E. J. Química na saúde. São Paulo: Sociedade Brasileira de Química, 2010 (adaptado).
+
+Na oxidação de 1,0 grama de glicose, a energia obtida para atividade muscular, em quilojoule, é mais próxima de
+
+- A) 6,2.
+- B) 15,6.
+- C) 70,0.
+- D) 622,2.
+- E) 1 120,0.
+
+**Resposta:** A
+
+**Explicação:** A massa molar da glicose é 6 × 12 + 12 × 1 + 6 × 16 = 180 g/mol. Assim, 1 g libera 2 800 ÷ 180 ≈ 15,6 kJ. Só 40% vão para os músculos: 0,4 × 15,6 ≈ 6,2 kJ.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 114
+
+**Assunto:** quimica/estequiometria
+
+### 116
+Células solares à base de TiO₂ sensibilizadas por corantes (S) são promissoras e poderão vir a substituir as células de silício. Nessas células, o corante adsorvido sobre o TiO₂ é responsável por absorver a energia luminosa (hν), e o corante excitado (S*) é capaz de transferir elétrons para o TiO₂. Um esquema dessa célula e os processos envolvidos estão ilustrados na figura. A conversão de energia solar em elétrica ocorre por meio da sequência de reações apresentadas.
+
+![Figura](enem-2018-d2-q116-1.webp)
+
+> LONGO, C.; DE PAOLI, M.-A. Dye-Sensitized Solar Cells: A Successful Combination of Materials. Journal of the Brazilian Chemical Society, n. 6, 2003 (adaptado).
+
+A reação 3 é fundamental para o contínuo funcionamento da célula solar, pois
+
+- A) reduz íons I⁻ a I₃⁻.
+- B) regenera o corante.
+- C) garante que a reação 4 ocorra.
+- D) promove a oxidação do corante.
+- E) transfere elétrons para o eletrodo de TiO₂.
+
+**Resposta:** B
+
+**Explicação:** Na reação 2, o corante perde um elétron e fica oxidado (S⁺). Na reação 3, o iodeto devolve um elétron ao corante, que volta à forma S e pode absorver luz de novo. Sem essa etapa, o corante se esgotaria.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 116
+
+**Assunto:** quimica/fisico-quimica
+
+### 117
+O nível metabólico de uma célula pode ser determinado pela taxa de síntese de RNAs e proteínas, processos dependentes de energia. Essa diferença na taxa de síntese de biomoléculas é refletida na abundância e características morfológicas dos componentes celulares. Em uma empresa de produção de hormônios proteicos a partir do cultivo de células animais, um pesquisador deseja selecionar uma linhagem com o metabolismo de síntese mais elevado, dentre as cinco esquematizadas na figura.
+
+![Figura](enem-2018-d2-q117-1.webp)
+
+Qual linhagem deve ser escolhida pelo pesquisador?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** D
+
+**Explicação:** Células com alta síntese de RNA e proteínas têm muitas mitocôndrias (energia), muito retículo endoplasmático rugoso (fabrica proteínas), cromatina mais aberta (eucromatina) e nucléolo grande (produz RNA ribossômico). A linhagem IV reúne essas características.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 117
+
+**Assunto:** biologia/citologia
+
+### 118
+Alguns materiais sólidos são compostos por átomos que interagem entre si formando ligações que podem ser covalentes, iônicas ou metálicas. A figura apresenta a energia potencial de ligação em função da distância interatômica em um sólido cristalino. Analisando essa figura, observa-se que, na temperatura de zero kelvin, a distância de equilíbrio da ligação entre os átomos (R₀) corresponde ao valor mínimo de energia potencial. Acima dessa temperatura, a energia térmica fornecida aos átomos aumenta sua energia cinética e faz com que eles oscilem em torno de uma posição de equilíbrio média (círculos cheios), que é diferente para cada temperatura. A distância de ligação pode variar sobre toda a extensão das linhas horizontais, identificadas com o valor da temperatura, de T₁ a T₄ (temperaturas crescentes).
+
+![Figura](enem-2018-d2-q118-1.webp)
+
+O deslocamento observado na distância média revela o fenômeno da
+
+- A) ionização.
+- B) dilatação.
+- C) dissociação.
+- D) quebra de ligações covalentes.
+- E) formação de ligações metálicas.
+
+**Resposta:** B
+
+**Explicação:** Como a curva não é simétrica, a cada temperatura mais alta o ponto médio da oscilação (os círculos cheios) fica mais à direita: a distância média entre os átomos aumenta. Esse aumento das distâncias com o aquecimento é a dilatação térmica.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 118
+
+**Assunto:** fisica/termologia
+
+### 120
+Nos manuais de instalação de equipamentos de som há o alerta aos usuários para que observem a correta polaridade dos fios ao realizarem as conexões das caixas de som. As figuras ilustram o esquema de conexão das caixas de som de um equipamento de som mono, no qual os alto-falantes emitem as mesmas ondas. No primeiro caso, a ligação obedece às especificações do fabricante e no segundo mostra uma ligação na qual a polaridade está invertida.
+
+![Figura](enem-2018-d2-q120-1.webp)
+
+![Figura](enem-2018-d2-q120-2.webp)
+
+O que ocorre com os alto-falantes E e D se forem conectados de acordo com o segundo esquema?
+
+- A) O alto-falante E funciona normalmente e o D entra em curto-circuito e não emite som.
+- B) O alto-falante E emite ondas sonoras com frequências ligeiramente diferentes do alto-falante D provocando o fenômeno de batimento.
+- C) O alto-falante E emite ondas sonoras com frequências e fases diferentes do alto-falante D provocando o fenômeno conhecido como ruído.
+- D) O alto-falante E emite ondas sonoras que apresentam um lapso de tempo em relação às emitidas pelo alto-falante D provocando o fenômeno de reverberação.
+- E) O alto-falante E emite ondas sonoras em oposição de fase às emitidas pelo alto-falante D provocando o fenômeno de interferência destrutiva nos pontos equidistantes aos alto-falantes.
+
+**Resposta:** E
+
+**Explicação:** Com os fios invertidos, o cone do alto-falante D se move para dentro quando o de E se move para fora: os dois emitem ondas iguais, mas em oposição de fase. Nos pontos à mesma distância dos dois, as ondas se cancelam (interferência destrutiva) e o som fica mais fraco.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 120
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 126
+Tensoativos são compostos orgânicos que possuem comportamento anfifílico, isto é, possuem duas regiões, uma hidrofóbica e outra hidrofílica. O principal tensoativo aniônico sintético surgiu na década de 1940 e teve grande aceitação no mercado de detergentes em razão do melhor desempenho comparado ao do sabão. No entanto, o uso desse produto provocou grandes problemas ambientais, dentre eles a resistência à degradação biológica, por causa dos diversos carbonos terciários na cadeia que compõe a porção hidrofóbica desse tensoativo aniônico. As ramificações na cadeia dificultam sua degradação, levando à persistência no meio ambiente por longos períodos. Isso levou a sua substituição na maioria dos países por tensoativos biodegradáveis, ou seja, com cadeias alquílicas lineares.
+
+> PENTEADO, J. C. P.; EL SEOUD, O. A.; CARVALHO, L. R. F. [...]: uma abordagem ambiental e analítica. Química Nova, n. 5, 2006 (adaptado).
+
+Qual a fórmula estrutural do tensoativo persistente no ambiente mencionado no texto?
+
+- A) ![Alternativa A](enem-2018-d2-q126-1.webp)
+- B) ![Alternativa B](enem-2018-d2-q126-3.webp)
+- C) ![Alternativa C](enem-2018-d2-q126-5.webp)
+- D) ![Alternativa D](enem-2018-d2-q126-2.webp)
+- E) ![Alternativa E](enem-2018-d2-q126-4.webp)
+
+**Resposta:** B
+
+**Explicação:** O texto procura um tensoativo aniônico (com grupo sulfonato, SO₃⁻) cuja parte apolar tem muitas ramificações, que dificultam a degradação pelas bactérias. A estrutura com cadeia cheia de ramificações ligada a um anel com SO₃⁻ Na⁺ é a desse detergente persistente.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 126
+
+**Assunto:** quimica/quimica-ambiental
+
+### 129
+Muitos primatas, incluindo nós humanos, possuem visão tricromática: têm três pigmentos visuais na retina sensíveis à luz de uma determinada faixa de comprimentos de onda. Informalmente, embora os pigmentos em si não possuam cor, estes são conhecidos como pigmentos “azul”, “verde” e “vermelho” e estão associados à cor que causa grande excitação (ativação). A sensação que temos ao observar um objeto colorido decorre da ativação relativa dos três pigmentos. Ou seja, se estimulássemos a retina com uma luz na faixa de 530 nm (retângulo I no gráfico), não excitaríamos o pigmento “azul”, o pigmento “verde” seria ativado ao máximo e o “vermelho” seria ativado em aproximadamente 75%, e isso nos daria a sensação de ver uma cor amarelada. Já uma luz na faixa de comprimento de onda de 600 nm (retângulo II) estimularia o pigmento “verde” um pouco e o “vermelho” em cerca de 75%, e isso nos daria a sensação de ver laranja-avermelhado. No entanto, há características genéticas presentes em alguns indivíduos, conhecidas coletivamente como Daltonismo, em que um ou mais pigmentos não funcionam perfeitamente.
+
+![Figura](enem-2018-d2-q129-1.webp)
+
+> Disponível em: www.comprehensivephysiology.com. Acesso em: 3 ago. 2012 (adaptado).
+
+Caso estimulássemos a retina de um indivíduo com essa característica, que não possuísse o pigmento conhecido como “verde”, com as luzes de 530 nm e 600 nm na mesma intensidade luminosa, esse indivíduo seria incapaz de
+
+- A) identificar o comprimento de onda do amarelo, uma vez que não possui o pigmento “verde”.
+- B) ver o estímulo de comprimento de onda laranja, pois não haveria estimulação de um pigmento visual.
+- C) detectar ambos os comprimentos de onda, uma vez que a estimulação dos pigmentos estaria prejudicada.
+- D) visualizar o estímulo do comprimento de onda roxo, já que este se encontra na outra ponta do espectro.
+- E) distinguir os dois comprimentos de onda, pois ambos estimulam o pigmento “vermelho” na mesma intensidade.
+
+**Resposta:** E
+
+**Explicação:** Sem o pigmento "verde", só o "vermelho" responde a essas luzes. Pelo gráfico, ele é ativado cerca de 75% tanto em 530 nm quanto em 600 nm. Com a mesma ativação, o cérebro recebe o mesmo sinal e a pessoa não consegue distinguir as duas cores.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 129
+
+**Assunto:** biologia/fisiologia-humana
+
+### 131
+Um projetista deseja construir um brinquedo que lance um pequeno cubo ao longo de um trilho horizontal, e o dispositivo precisa oferecer a opção de mudar a velocidade de lançamento. Para isso, ele utiliza uma mola e um trilho onde o atrito pode ser desprezado, conforme a figura.
+
+![Figura](enem-2018-d2-q131-1.webp)
+
+Para que a velocidade de lançamento do cubo seja aumentada quatro vezes, o projetista deve
+
+- A) manter a mesma mola e aumentar duas vezes a sua deformação.
+- B) manter a mesma mola e aumentar quatro vezes a sua deformação.
+- C) manter a mesma mola e aumentar dezesseis vezes a sua deformação.
+- D) trocar a mola por outra de constante elástica duas vezes maior e manter a deformação.
+- E) trocar a mola por outra de constante elástica quatro vezes maior e manter a deformação.
+
+**Resposta:** B
+
+**Explicação:** A energia da mola vira energia cinética: k·x²/2 = m·v²/2, então v = x·√(k/m). Com a mesma mola, a velocidade é proporcional à deformação: para quadruplicar v, basta quadruplicar x. (Trocando a mola, seria preciso k 16 vezes maior.)
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 131
+
+**Assunto:** fisica/trabalho-energia-e-potencia
+
 ## Difícil
 
 ### 122
@@ -493,3 +826,168 @@ Duas consequências provocadas por essa troca de aro são:
 **Fonte:** ENEM 2018, 2º dia, caderno azul, questão 122
 
 **Assunto:** fisica/estatica-e-hidrostatica, fisica/cinematica
+
+### 91
+Pesquisas demonstram que nanodispositivos baseados em movimentos de dimensões atômicas, induzidos por luz, poderão ter aplicações em tecnologias futuras, substituindo micromotores, sem a necessidade de componentes mecânicos. Exemplo de movimento molecular induzido pela luz pode ser observado pela flexão de uma lâmina delgada de silício, ligado a um polímero de azobenzeno e a um material suporte, em dois comprimentos de onda, conforme ilustrado na figura. Com a aplicação de luz ocorrem reações reversíveis da cadeia do polímero, que promovem o movimento observado.
+
+![Figura](enem-2018-d2-q091-1.webp)
+
+> TOMA, H. E. A nanotecnologia das moléculas. Química Nova na Escola, n. 21, maio 2005 (adaptado).
+
+O fenômeno de movimento molecular, promovido pela incidência de luz, decorre do(a)
+
+- A) movimento vibracional dos átomos, que leva ao encurtamento e à relaxação das ligações.
+- B) isomerização das ligações N=N, sendo a forma cis do polímero mais compacta que a trans.
+- C) tautomerização das unidades monoméricas do polímero, que leva a um composto mais compacto.
+- D) ressonância entre os elétrons π do grupo azo e os do anel aromático que encurta as ligações duplas.
+- E) variação conformacional das ligações N=N, que resulta em estruturas com diferentes áreas de superfície.
+
+**Resposta:** B
+
+**Explicação:** A luz de 365 nm transforma as ligações N=N do polímero da forma trans (esticada) na forma cis (dobrada), e a luz de 420 nm faz o caminho inverso. Como a forma cis é mais compacta, o polímero encolhe e puxa a lâmina. É uma isomerização geométrica (cis-trans) das ligações N=N.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 91
+
+**Assunto:** quimica/quimica-organica
+
+### 95
+Usando um densímetro cuja menor divisão da escala, isto é, a diferença entre duas marcações consecutivas, é de 5,0 × 10⁻² g cm⁻³, um estudante realizou um teste de densidade: colocou este instrumento na água pura e observou que ele atingiu o repouso na posição mostrada.
+
+![Figura](enem-2018-d2-q095-1.webp)
+
+Em dois outros recipientes A e B contendo 2 litros de água pura, em cada um, ele adicionou 100 g e 200 g de NaCl, respectivamente.
+
+Quando o cloreto de sódio é adicionado à água pura ocorre sua dissociação formando os íons Na⁺ e Cl⁻. Considere que esses íons ocupam os espaços intermoleculares na solução. Nestes recipientes, a posição de equilíbrio do densímetro está representada em:
+
+- A) ![Alternativa A](enem-2018-d2-q095-2.webp)
+- B) ![Alternativa B](enem-2018-d2-q095-3.webp)
+- C) ![Alternativa C](enem-2018-d2-q095-4.webp)
+- D) ![Alternativa D](enem-2018-d2-q095-5.webp)
+- E) ![Alternativa E](enem-2018-d2-q095-6.webp)
+
+**Resposta:** D
+
+**Explicação:** Como os íons ocupam os espaços entre as moléculas, o volume continua 2 L (2 000 cm³). Densidades: A = 2 100 g ÷ 2 000 cm³ = 1,05 g/cm³; B = 2 200 ÷ 2 000 = 1,10 g/cm³. A água pura tem 1,00 g/cm³. Quanto mais densa a solução, mais o densímetro sobe: em A ele fica uma divisão (0,05) acima da posição na água pura e em B, duas divisões acima.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 95
+
+**Assunto:** quimica/solucoes
+
+### 106
+O processo de formação de novas espécies é lento e repleto de nuances e estágios intermediários, havendo uma diminuição da viabilidade entre cruzamentos. Assim, plantas originalmente de uma mesma espécie que não cruzam mais entre si podem ser consideradas como uma espécie se diferenciando. Um pesquisador realizou cruzamentos entre nove populações — denominadas de acordo com a localização onde são encontradas — de uma espécie de orquídea (Epidendrum denticulatum). No diagrama estão os resultados dos cruzamentos entre as populações. Considere que o doador fornece o pólen para o receptor.
+
+![Figura](enem-2018-d2-q106-1.webp)
+
+> FIORAVANTI, C. Os primeiros passos de novas espécies: plantas e animais se diferenciam por meio de mecanismos surpreendentes. Pesquisa Fapesp, out. 2013 (adaptado).
+
+Em populações de quais localidades se observa um processo de especiação evidente?
+
+- A) Bertioga e Marambaia; Alcobaça e Olivença.
+- B) Itirapina e Itapeva; Marambaia e Massambaba.
+- C) Itirapina e Marambaia; Alcobaça e Itirapina.
+- D) Itirapina e Peti; Alcobaça e Marambaia.
+- E) Itirapina e Olivença; Marambaia e Peti.
+
+**Resposta:** D
+
+**Explicação:** Especiação é quando populações deixam de cruzar entre si com sucesso. Nos pares Itirapina–Peti e Alcobaça–Marambaia, as setas pontilhadas mostram polinizações inviáveis nos dois sentidos: há isolamento reprodutivo, sinal de que estão se tornando espécies diferentes.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 106
+
+**Assunto:** biologia/evolucao
+
+### 109
+A hidroxilamina (NH₂OH) é extremamente reativa em reações de substituição nucleofílica, justificando sua utilização em diversos processos. A reação de substituição nucleofílica entre o anidrido acético e a hidroxilamina está representada.
+
+![Figura](enem-2018-d2-q109-1.webp)
+
+O produto A é favorecido em relação ao B, por um fator de 10⁵. Em um estudo de possível substituição do uso de hidroxilamina, foram testadas as móleculas numeradas de 1 a 5.
+
+![Figura](enem-2018-d2-q109-2.webp)
+
+Dentre as moléculas testadas, qual delas apresentou menor reatividade?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** D
+
+**Explicação:** Na hidroxilamina, quem ataca o anidrido é sobretudo o nitrogênio (o produto A é 10⁵ vezes favorecido). Depois do ataque, o N precisa perder um H para formar o produto. Na molécula 4, o nitrogênio tem três grupos ligados (nenhum H) e o oxigênio também está ligado a um grupo metila: ela fica impedida e não tem H para perder, por isso é a menos reativa.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 109
+
+**Assunto:** quimica/quimica-organica
+
+### 125
+A figura representa um prisma óptico, constituído de um material transparente, cujo índice de refração é crescente com a frequência da luz que sobre ele incide. Um feixe luminoso, composto por luzes vermelha, azul e verde, incide na face A, emerge na face B e, após ser refletido por um espelho, incide num filme para fotografia colorida, revelando três pontos.
+
+![Figura](enem-2018-d2-q125-1.webp)
+
+![Figura](enem-2018-d2-q125-2.webp)
+
+Observando os pontos luminosos revelados no filme, de baixo para cima, constatam-se as seguintes cores:
+
+- A) Vermelha, verde, azul.
+- B) Verde, vermelha, azul.
+- C) Azul, verde, vermelha.
+- D) Verde, azul, vermelha.
+- E) Azul, vermelha, verde.
+
+**Resposta:** A
+
+**Explicação:** Como o índice de refração cresce com a frequência, a luz azul é a mais desviada pelo prisma e a vermelha, a menos. Saindo pela face B, o azul desce mais inclinado e bate no espelho mais perto do prisma; ao refletir, sobe também mais inclinado e chega mais alto no filme. O vermelho faz o contrário. De baixo para cima: vermelho, verde e azul.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 125
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 127
+Considere, em um fragmento ambiental, uma árvore matriz com frutos (M) e outras cinco que produziram flores e são apenas doadoras de pólen (DP1, DP2, DP3, DP4 e DP5). Foi excluída a capacidade de autopolinização das árvores. Os genótipos da matriz, da semente (S1) e das prováveis fontes de pólen foram obtidos pela análise de dois locos (loco A e loco B) de marcadores de DNA, conforme a figura.
+
+![Figura](enem-2018-d2-q127-1.webp)
+
+![Figura](enem-2018-d2-q127-2.webp)
+
+> COLLEVATTI, R. G.; TELLES, M. P.; SOARES, T. N. Dispersão do pólen entre pequizeiros: uma atividade para a genética do ensino superior. Genética na Escola, n. 1, 2013 (adaptado).
+
+A progênie S1 recebeu o pólen de qual doadora?
+
+- A) DP1
+- B) DP2
+- C) DP3
+- D) DP4
+- E) DP5
+
+**Resposta:** E
+
+**Explicação:** No loco A, a semente S1 tem os alelos 1 e 2; a mãe M tem 1 e 3, então o alelo 2 veio do pólen. No loco B, S1 tem só o alelo 3, que veio da mãe e também do pai. A única doadora com o alelo 2 no loco A e o alelo 3 no loco B é a DP5.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 127
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 128
+Em desenhos animados é comum vermos a personagem tentando impulsionar um barco soprando ar contra a vela para compensar a falta de vento. Algumas vezes usam o próprio fôlego, foles ou ventiladores. Estudantes de um laboratório didático resolveram investigar essa possibilidade. Para isso, usaram dois pequenos carros de plástico, A e B, instalaram sobre estes pequenas ventoinhas e fixaram verticalmente uma cartolina de curvatura parabólica para desempenhar uma função análoga à vela de um barco. No carro B inverteu-se o sentido da ventoinha e manteve-se a vela, a fim de manter as características físicas do barco, massa e formato da cartolina. As figuras representam os carros produzidos. A montagem do carro A busca simular a situação dos desenhos animados, pois a ventoinha está direcionada para a vela.
+
+![Figura](enem-2018-d2-q128-1.webp)
+
+![Figura](enem-2018-d2-q128-2.webp)
+
+Com os carros orientados de acordo com as figuras, os estudantes ligaram as ventoinhas, aguardaram o fluxo de ar ficar permanente e determinaram os módulos das velocidades médias dos carros A (VA) e B (VB) para o mesmo intervalo de tempo. A respeito das intensidades das velocidades médias e do sentido de movimento do carro A, os estudantes observaram que:
+
+- A) VA = 0; VB > 0; o carro A não se move.
+- B) 0 < VA < VB; o carro A se move para a direita.
+- C) 0 < VA < VB; o carro A se move para a esquerda.
+- D) 0 < VB < VA; o carro A se move para a direita.
+- E) 0 < VB < VA; o carro A se move para a esquerda.
+
+**Resposta:** B
+
+**Explicação:** No carro A, a ventoinha empurra o ar contra a vela curva, que o devolve para trás: o ar sai, no fim, para a esquerda e o carro anda para a direita. Mas parte do impulso se perde no choque com a vela, então o efeito é pequeno. No carro B, a ventoinha joga o ar diretamente para trás e o carro anda mais rápido: 0 < VA < VB.
+
+**Fonte:** ENEM 2018, 2º dia, caderno azul, questão 128
+
+**Assunto:** fisica/dinamica

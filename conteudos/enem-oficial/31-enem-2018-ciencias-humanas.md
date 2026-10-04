@@ -280,6 +280,94 @@ Que tipo de intervenção do poder público no espaço rural é capaz de reduzir
 
 **Assunto:** geografia/economia-agropecuaria-industria-energia
 
+### 50
+![Figura](enem-2018-d1-q050-1.webp)
+
+> Disponível em: www.thehenryford.org. Acesso em: 3 maio 2018.
+
+![Figura](enem-2018-d1-q050-2.webp)
+
+> Disponível em: www.abc.net.au. Acesso em: 3 maio 2018.
+
+Esse ônibus relaciona-se ao ato praticado, em 1955, por Rosa Parks, apresentada em fotografia ao lado de Martin Luther King. O veículo alcançou o estatuto de obra museológica por simbolizar o(a)
+
+- A) impacto do medo da corrida armamentista.
+- B) democratização do acesso à escola pública.
+- C) preconceito de gênero no transporte coletivo.
+- D) deflagração do movimento por igualdade civil.
+- E) eclosão da rebeldia no comportamento juvenil.
+
+**Resposta:** D
+
+**Explicação:** Em 1955, Rosa Parks se recusou a ceder seu lugar a um branco num ônibus de Montgomery (EUA), onde a lei separava os assentos por cor. A prisão dela deu início a um boicote aos ônibus liderado por Martin Luther King, marco do movimento pelos direitos civis dos negros. Por isso o ônibus virou peça de museu.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 50
+
+**Assunto:** historia/seculo-xx
+
+### 67
+![Figura](enem-2018-d1-q067-1.webp)
+
+> Disponível em: www.biologiasur.org. Acesso em: 4 jul. 2015 (adaptado).
+
+A dinâmica hidrológica expressa no gráfico demonstra que o processo de urbanização promove a
+
+- A) redução do volume dos rios.
+- B) expansão do lençol freático.
+- C) diminuição do índice de chuvas.
+- D) retração do nível dos reservatórios.
+- E) ampliação do escoamento superficial.
+
+**Resposta:** E
+
+**Explicação:** Na área urbanizada, a vazão do rio sobe rápido e chega a um pico maior logo depois da chuva; na área não urbanizada, sobe devagar e com pico menor. O asfalto e o concreto impermeabilizam o solo: a água não infiltra e escorre direto para os rios, ampliando o escoamento superficial (e as enchentes).
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 67
+
+**Assunto:** geografia/geografia-fisica
+
+### 72
+Uma pesquisa realizada por Carolina Levis, especialista em ecologia do Instituto Nacional de Pesquisas da Amazônia, e publicada na revista Science, demonstra que as espécies vegetais domesticadas pelas civilizações pré-colombianas são as mais dominantes. “A domesticação de plantas na floresta começou há mais de 8 000 anos. Primeiro eram selecionadas as plantas com características que poderiam ser úteis ao homem e em um segundo momento era feita a propagação dessas espécies. Começaram a cultivá-las em pátios e jardins, por meio de um processo quase intuitivo de seleção”.
+
+> OLIVEIRA, J. Indígenas foram os primeiros a alterar o ecossistema da Amazônia. Disponível em: https://brasil.elpais.com. Acesso em: 11 dez. 2017 (adaptado).
+
+O texto apresenta um novo olhar sobre a configuração da Floresta Amazônica por romper com a ideia de
+
+- A) primazia de saberes locais.
+- B) ausência de ação antrópica.
+- C) insuficiência de recursos naturais.
+- D) necessidade de manejo ambiental.
+- E) predominância de práticas agropecuárias.
+
+**Resposta:** B
+
+**Explicação:** A pesquisa mostra que os povos indígenas domesticaram e espalharam plantas na Amazônia há mais de 8 000 anos. Isso desmonta a ideia de uma floresta "intocada", sem ação humana (antrópica): parte da composição atual da mata é resultado do manejo feito por esses povos.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 72
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 74
+![Figura](enem-2018-d1-q074-1.webp)
+
+> Disponível em: http://cpdoc.fgv.br. Acesso em: 6 dez. 2017.
+
+Essa imagem foi impressa em cartilha escolar durante a vigência do Estado Novo com o intuito de
+
+- A) destacar a sabedoria inata do líder governamental.
+- B) atender a necessidade familiar de obediência infantil.
+- C) promover o desenvolvimento consistente das atitudes solidárias.
+- D) conquistar a aprovação política por meio do apelo carismático.
+- E) estimular o interesse acadêmico por meio de exercícios intelectuais.
+
+**Resposta:** D
+
+**Explicação:** A cartilha mostra crianças felizes ao lado de Getúlio Vargas, apresentado como amigo e protetor. No Estado Novo (1937–1945), o governo usava a propaganda (inclusive nas escolas) para construir o culto à figura do líder e conquistar apoio político pelo carisma.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 74
+
+**Assunto:** historia/brasil-republica
+
 ## Médio
 
 ### 46
@@ -739,6 +827,121 @@ As metáforas utilizadas no texto referem-se a uma concepção de democracia fun
 **Fonte:** ENEM 2018, 1º dia, caderno azul, questão 90
 
 **Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 56
+Anamorfose é a transformação cartográfica espacial em que a forma dos objetos é distorcida, de forma a realçar o tema. A área das unidades espaciais às quais o tema se refere é alterada de forma proporcional ao respectivo valor.
+
+> GASPAR, A. J. Dicionário de ciências cartográficas. Lisboa: Lidel, 2004.
+
+A técnica descrita foi aplicada na seguinte forma de representação do espaço:
+
+- A) ![Alternativa A](enem-2018-d1-q056-1.webp)
+- B) ![Alternativa B](enem-2018-d1-q056-2.webp)
+- C) ![Alternativa C](enem-2018-d1-q056-3.webp)
+- D) ![Alternativa D](enem-2018-d1-q056-4.webp)
+- E) ![Alternativa E](enem-2018-d1-q056-5.webp)
+
+**Resposta:** C
+
+**Explicação:** Na anamorfose, o tamanho de cada país é desenhado de acordo com um dado (população, PIB etc.), e não com sua área real. O mapa das Américas em que os países aparecem como blocos de tamanhos alterados (Estados Unidos e Brasil enormes, outros pequenos) é o exemplo dessa técnica. As outras figuras são blocos-diagrama, curvas de nível, perfil e mapa de rua.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 56
+
+**Assunto:** geografia/cartografia
+
+### 63
+![Figura](enem-2018-d1-q063-1.webp)
+
+> Disponível em: http://globalwarmingart.com. Acesso em: 12 jul. 2015 (adaptado).
+
+Qual característica do meio físico é condição necessária para a distribuição espacial do fenômeno representado?
+
+- A) Cobertura vegetal com porte arbóreo.
+- B) Barreiras orográficas com altitudes elevadas.
+- C) Pressão atmosférica com diferença acentuada.
+- D) Superfície continental com refletividade intensa.
+- E) Correntes marinhas com direções convergentes.
+
+**Resposta:** C
+
+**Explicação:** Ciclones tropicais nascem sobre oceanos quentes, onde o ar aquecido sobe e forma centros de baixa pressão muito intensa. É a grande diferença de pressão entre o centro do ciclone e o entorno que gera os ventos fortíssimos. Sem essa diferença acentuada de pressão, o fenômeno não se forma.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 63
+
+**Assunto:** geografia/geografia-fisica
+
+### 82
+TEXTO I
+
+Há mais de duas décadas, os cientistas e ambientalistas têm alertado para o fato de a água doce ser um recurso escasso em nosso planeta. Desde o começo de 2014, o Sudeste do Brasil adquiriu uma clara percepção dessa realidade em função da seca.
+
+TEXTO II
+
+Dinâmicas atmosféricas no Brasil
+
+Elementos relevantes ao transporte de umidade na América do Sul a leste dos Andes pelos Jatos de Baixos Níveis (JBN), Frentes Frias (FF) e transporte de umidade do Atlântico Sul, assim como a presença da Zona de Convergência do Atlântico Sul (ZCAS), para um verão normal e para o verão seco de 2014. “A” representa o centro da anomalia de alta pressão atmosférica.
+
+![Figura](enem-2018-d1-q082-1.webp)
+
+> MARENGO, J. A. et al. A seca e a crise hídrica de 2014-2015 em São Paulo. Revista USP, n. 106, 2015 (adaptado).
+
+De acordo com as informações apresentadas, a seca de 2014, no Sudeste, teve como causa natural o(a)
+
+- A) constituição de frentes quentes barrando as chuvas convectivas.
+- B) formação de anticiclone impedindo a entrada de umidade.
+- C) presença de nebulosidade na região de cordilheira.
+- D) avanço de massas polares para o continente.
+- E) baixa pressão atmosférica no litoral.
+
+**Resposta:** B
+
+**Explicação:** No verão de 2014, um centro de alta pressão ("A") ficou parado sobre o Sudeste. Essa área de alta pressão é um anticiclone: o ar desce e se espalha, bloqueando as frentes frias e a umidade vinda da Amazônia (a ZCAS não se formou). Sem umidade, quase não choveu.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 82
+
+**Assunto:** geografia/geografia-fisica
+
+### 87
+![Figura](enem-2018-d1-q087-1.webp)
+
+O anúncio publicitário da década de 1940 reforça os seguintes estereótipos atribuídos historicamente a uma suposta natureza feminina:
+
+- A) Pudor inato e instinto maternal.
+- B) Fragilidade física e necessidade de aceitação.
+- C) Isolamento social e procura de autoconhecimento.
+- D) Dependência econômica e desejo de ostentação.
+- E) Mentalidade fútil e conduta hedonista.
+
+**Resposta:** B
+
+**Explicação:** O anúncio diz que a mulher "seria adorável se não fosse doentia" e vende um tônico para a "saúde da mulher". Reforça a ideia da mulher como frágil fisicamente e preocupada em agradar, em ser aceita e admirada.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 87
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 88
+Participação percentual do extrativismo vegetal e da silvicultura no valor da produção primária florestal — Brasil — 1996-2014
+
+![Figura](enem-2018-d1-q088-1.webp)
+
+> IBGE. Produção da extração vegetal e da silvicultura. Rio de Janeiro: IBGE, 2014 (adaptado).
+
+Considerando as diferenças entre extrativismo vegetal e silvicultura, a variação das curvas do gráfico foi influenciada pela tendência de
+
+- A) conservação do bioma nativo.
+- B) estagnação do setor primário.
+- C) utilização de madeira de reflorestamento.
+- D) redução da produção de móveis.
+- E) retração da indústria alimentícia.
+
+**Resposta:** C
+
+**Explicação:** Extrativismo é tirar produtos da mata nativa; silvicultura é plantar florestas (como eucalipto e pinus) para corte. O gráfico mostra a silvicultura crescendo e o extrativismo caindo: as indústrias passaram a usar cada vez mais madeira de reflorestamento.
+
+**Fonte:** ENEM 2018, 1º dia, caderno azul, questão 88
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
 
 ## Difícil
 
