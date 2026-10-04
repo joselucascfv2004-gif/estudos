@@ -17,4 +17,4 @@ for l in open('aparar.txt'):
         f = 'img$ANO/' + p[1]; im = Image.open(f); im.crop((0, 0, im.width, int(p[2]))).save(f, 'WEBP', quality=72); print('aparado', p[1])
 "
 # altfaixas.txt: "ANO DIA NUM" recorta as alternativas como faixas da página (figuras -11 a -15)
-[ -f altfaixas.txt ] && grep "^$ANO $DIA " altfaixas.txt | while read a d n; do python3 altfaixas.py $a $d $n >/dev/null; done
+[ -f altfaixas.txt ] && grep "^$ANO $DIA " altfaixas.txt | while read a d n m f; do python3 altfaixas.py $a $d $n $m $f >/dev/null; done

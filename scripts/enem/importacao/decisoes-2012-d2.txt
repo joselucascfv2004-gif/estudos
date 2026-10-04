@@ -121,6 +121,7 @@ x: Comprando e vendendo o mesmo volume, o melhor negócio é o que multiplica ma
 @159 m matematica/estatistica fig
 x: O nível é muito bom quando a linha contínua (resolvidas) fica acima da tracejada (recebidas). Isso acontece na terça (cerca de 26 contra 20) e na quarta (9 contra 5).
 @166 m matematica/geometria-espacial fig
+a: [fig11] | [fig12] | [fig13] | [fig14] | [fig15]
 x: O motoqueiro percorre uma circunferência que passa por A e B, num plano vertical (que contém AB). A projeção de uma circunferência vertical no plano do chão é um segmento de reta.
 @175 m matematica/estatistica fig
 x: Em ordem, os 10 valores são: 181 419; 181 796; 204 804; 209 425; 212 952; 246 875; 266 415; 298 041; 299 415; 305 068. A mediana é a média do 5º e do 6º: (212 952 + 246 875) ÷ 2 = 229 913,5. A parte inteira é 229 913.

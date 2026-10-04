@@ -815,11 +815,11 @@ Na Figura 2, o ponto A está no plano do chão onde está colocado o globo da mo
 
 A imagem do trajeto feito pelo motoqueiro no plano do chão é melhor representada por
 
-- A) ![Alternativa A](enem-2012-d2-q166-2.webp)
-- B) ![Alternativa B](enem-2012-d2-q166-4.webp)
-- C) ![Alternativa C](enem-2012-d2-q166-5.webp)
-- D) ![Alternativa D](enem-2012-d2-q166-3.webp)
-- E) 
+- A) ![Alternativa](enem-2012-d2-q166-11.webp)
+- B) ![Alternativa](enem-2012-d2-q166-12.webp)
+- C) ![Alternativa](enem-2012-d2-q166-13.webp)
+- D) ![Alternativa](enem-2012-d2-q166-14.webp)
+- E) ![Alternativa](enem-2012-d2-q166-15.webp)
 
 **Resposta:** E
 

@@ -455,7 +455,7 @@ def processa(i):
         if it['tipo'] == 'fig' and it.get('dono'):
             continue
         if it['tipo'] == 'alt':
-            cur = {'letra': it['l']['spans'][0][1].strip(), 'txt': re.sub(r'^[A-E]\s*', '', it['l']['t']).strip(), 'y': it['y'], 'k': it['k'], 'figs': []}
+            cur = {'letra': it['l']['spans'][0][1].strip(), 'txt': re.sub(r'^[A-E]\s*', '', it['l']['t']).strip(), 'y': it['y'], 'x': it['x'], 'k': it['k'], 'figs': []}
             alts.append(cur)
         elif cur is not None and len(alts) <= 5:
             if it['tipo'] == 'fig':
