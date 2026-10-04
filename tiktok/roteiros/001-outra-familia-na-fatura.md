@@ -3,10 +3,26 @@ tema: traicao
 voz: francisca
 fundo: slime
 
-## Parte 1
+Faltavam vinte e três dias pro meu casamento quando eu descobri que o Diego tinha outra família. E eu descobri do jeito mais idiota possível: pela fatura do cartão.
 
-Faltavam três semanas pro meu casamento quando eu descobri que o meu noivo tinha outra família. E eu descobri do jeito mais idiota possível: pela fatura do cartão. A gente tinha juntado as contas pra pagar a festa, então era eu que cuidava de tudo. Bufê, vestido, fotógrafo. Até que um mês apareceu uma compra numa loja de roupa infantil. Quatrocentos e oitenta reais. A gente não tem filho. Perguntei pra ele, e ele nem piscou: disse que era presente pro afilhado de um amigo do trabalho. Tudo bem. Só que no mês seguinte apareceu de novo. E depois uma farmácia numa cidade a duas horas daqui, num sábado em que ele tinha me dito que estava de plantão. Eu não sou de mexer no celular dos outros. Nunca fui. Mas naquela noite, enquanto ele tomava banho, eu peguei o celular dele. A senha era a data do nosso noivado. Tinha uma conversa salva com o nome Oficina do Beto. Só que o Beto mandava áudio com voz de mulher. E foto. Foto de um menino de uns quatro anos, de uniforme de escola, com a legenda: o papai vem no domingo? Eu fiquei sentada na cama com aquele celular na mão, ouvindo o chuveiro ligado. E aí eu tomei a decisão mais fria da minha vida. Não falei nada. Coloquei o celular de volta, deitei e dei boa noite. Porque eu queria ver aquela mulher de perto.
+A gente estava junto fazia cinco anos. Ele era técnico de manutenção, vivia de plantão, e eu nunca desconfiei de nada. Pra pagar a festa, a gente juntou tudo numa conta só, e quem cuidava das planilhas era eu.
 
-## Parte 2
+Em março, apareceu na fatura uma compra numa loja de roupa infantil. Quatrocentos e oitenta reais. A gente não tem filho. Quando eu perguntei, ele nem tirou o olho da televisão: "Ah, é o presente do afilhado do Marcão, lá do trabalho."
 
-Se você não viu a parte um: três semanas antes do meu casamento, eu descobri que o meu noivo tinha um filho de quatro anos com outra mulher. E fingi que não sabia de nada. No domingo, ele disse que ia ajudar o pai numa mudança. Eu peguei o carro da minha irmã e fui atrás. Duas horas de estrada. Ele parou numa casa amarela, de portão baixo, e o menino saiu correndo, gritando papai. A mulher veio logo atrás. Bonita, cansada, de chinelo. E com uma aliança no dedo. Eu esperei ele ir embora e toquei a campainha. Achei que ia gritar com ela. Mas quando ela abriu a porta e eu disse quem eu era, ela ficou branca. Ela não sabia que eu existia. Pra ela, ele trabalhava embarcado e só voltava de quinze em quinze dias. Eles eram casados no papel fazia seis anos. Seis. A gente ficou duas horas sentada na cozinha dela, comparando datas, viagens e mentiras. E foi ali que a gente teve a ideia. No dia do meu casamento, ele chegou no altar sorrindo. A igreja cheia, a família dele toda na primeira fila. Quando o padre perguntou se alguém tinha algo contra aquela união, quem levantou não fui eu. Foi ela. Com o menino no colo e a certidão de casamento na mão. Eu só tirei o véu, devolvi a aliança e saí pela porta da frente. Ele perdeu as duas famílias no mesmo dia. Hoje eu e ela somos amigas. E você, teria feito igual, ou teria falado tudo na hora?
+Só que em abril apareceu de novo. E depois, uma farmácia numa cidadezinha a duas horas daqui. Num sábado. O mesmo sábado em que ele tinha me mandado foto do capacete, dizendo que estava preso no plantão.
+
+Naquela noite, enquanto ele tomava banho, eu peguei o celular dele. A senha era a data do nosso noivado. Tinha uma conversa salva com o nome Oficina do Beto. Só que o Beto mandava áudio com voz de mulher. E foto. Foto de um menino de uns quatro anos, banguela, de uniforme azul. Embaixo, a mensagem: "O Theo perguntou se o papai vem no domingo."
+
+Eu fiquei sentada na beirada da cama, com as mãos geladas, ouvindo o chuveiro. Coloquei o celular de volta exatamente onde estava. E quando ele saiu do banho, eu sorri e dei boa noite.
+
+No domingo, ele disse que ia ajudar o pai numa mudança. Eu peguei o carro da minha irmã e fui atrás. Ele parou na frente de uma casa amarela, com um balanço velho no quintal. O menino saiu correndo e pulou no colo dele. Atrás veio uma mulher de chinelo, cabelo preso… e uma aliança no dedo.
+
+Esperei ele ir embora e toquei a campainha. Ela se chamava Patrícia. Quando eu disse quem eu era, ela segurou no batente da porta pra não cair. Pra ela, o Diego trabalhava embarcado e voltava de quinze em quinze dias. Eles eram casados no papel fazia seis anos.
+
+A gente passou a tarde na cozinha dela, comparando datas, viagens e mentiras. E foi ali que a gente decidiu o que fazer.
+
+No dia do casamento, o Diego chegou no altar sorrindo. A igreja cheia. A mãe dele chorando na primeira fila. Quando o padre perguntou se alguém tinha algo contra aquela união, quem levantou não fui eu. Foi a Patrícia. Com o Theo no colo e a certidão de casamento na mão.
+
+Eu tirei o véu, coloquei a aliança na mão dele e saí pela porta da frente, com a igreja inteira em silêncio. Ele perdeu as duas famílias no mesmo dia.
+
+E você? Teria feito igual, ou teria contado tudo na hora?

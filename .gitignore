@@ -3,3 +3,4 @@ node_modules/
 
 # Vídeos e áudios gerados para o TikTok (arquivos grandes, não vão para o GitHub)
 tiktok/saida/
+__pycache__/
