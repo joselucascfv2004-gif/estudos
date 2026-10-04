@@ -293,6 +293,50 @@ O texto demonstra que o problema alimentar apresentado tem uma dimensão políti
 
 **Assunto:** geografia/economia-agropecuaria-industria-energia
 
+### 77
+![Figura](enem-2019-d1-q077-1.webp)
+
+Fala-se aqui de uma arte criada nas ruas e para as ruas, marcadas antes de tudo pela vida cotidiana, seus conflitos e suas possibilidades, que poderiam envolver técnicas, agentes e temas que não fossem encontrados nas instituições mais tradicionais e formais.
+
+> VALVERDE, R. R. H. F. Os limites da inversão: a heterotopia do Beco do Batman. Boletim Goiano de Geografia (Online). Goiânia, v. 37, n. 2, maio/ago. 2017 (adaptado).
+
+A manifestação artística expressa na imagem e apresentada no texto integra um movimento contemporâneo de
+
+- A) regulação das relações sociais.
+- B) apropriação dos espaços públicos.
+- C) padronização das culturas urbanas.
+- D) valorização dos formalismos estéticos.
+- E) revitalização dos patrimônios históricos.
+
+**Resposta:** B
+
+**Explicação:** O grafite e as intervenções artísticas nas ruas transformam muros e becos em espaços de expressão. É um movimento de apropriação dos espaços públicos pela população.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 77
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 88
+O bônus demográfico é caracterizado pelo período em que, por causa da redução do número de filhos por mulher, a estrutura populacional fica favorável ao crescimento econômico. Isso acontece porque há proporcionalmente menos crianças na população, e o percentual de idosos ainda não é alto.
+
+> GOIS, A. O Globo, 5 abr. 2015 (adaptado).
+
+A ação estatal que contribui para o aproveitamento do bônus demográfico é o estímulo à
+
+- A) atração de imigrantes.
+- B) elevação da carga tributária.
+- C) qualificação da mão de obra.
+- D) admissão de exilados políticos.
+- E) concessão de aposentadorias.
+
+**Resposta:** C
+
+**Explicação:** No bônus demográfico, há muita gente em idade de trabalhar. Para aproveitar essa fase, o Estado deve qualificar a mão de obra, aumentando a produtividade dessas pessoas.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 88
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
 ## Médio
 
 ### 46
@@ -740,6 +784,92 @@ A tática adotada pela Inglaterra do século XVI, conforme citada no texto, foi 
 **Fonte:** ENEM 2019, 1º dia, caderno azul, questão 86
 
 **Assunto:** historia/idade-moderna
+
+### 47
+![Figura](enem-2019-d1-q047-1.webp)
+
+> Disponível em: www.ibge.gov.br. Acesso em: 11 dez. 2018 (adaptado).
+
+A geração de imagens por meio da tecnologia ilustrada depende da variação do(a):
+
+- A) Albedo dos corpos físicos.
+- B) Profundidade do lençol freático.
+- C) Campo de magnetismo terrestre.
+- D) Qualidade dos recursos minerais.
+- E) Movimento de translação planetária.
+
+**Resposta:** A
+
+**Explicação:** O satélite capta a energia solar refletida pelas superfícies (floresta, rio, pastagem, rodovia). Cada superfície reflete uma fração diferente da luz — o albedo —, e é essa diferença que forma a imagem.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 47
+
+**Assunto:** geografia/cartografia
+
+### 57
+Regiões áridas e semiáridas do mundo
+
+![Figura](enem-2019-d1-q057-1.webp)
+
+> SALGADO-LABOURIAL, M. L. História ecológica da Terra. São Paulo: Edgard Blucher, 1994 (adaptado).
+
+No Hemisfério Sul, a sequência latitudinal dos desertos representada na imagem sofre uma interrupção no Brasil devido à seguinte razão:
+
+- A) Existência de superfícies de intensa refletividade.
+- B) Preponderância de altas pressões atmosféricas.
+- C) Influência de umidade das áreas florestais.
+- D) Predomínio de correntes marinhas frias.
+- E) Ausência de massas de ar continentais.
+
+**Resposta:** C
+
+**Explicação:** Na faixa dos trópicos ficam os grandes desertos, mas no Brasil essa faixa é interrompida porque a umidade vinda da Amazônia (os "rios voadores") e da Mata Atlântica traz chuva para o interior.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 57
+
+**Assunto:** geografia/geografia-fisica
+
+### 59
+![Figura](enem-2019-d1-q059-1.webp)
+
+> Disponível em: https://hypescience.com. Acesso em: 1 dez. 2018 (adaptado).
+
+A divisão política do mundo como apresentada na imagem seria possível caso o planeta fosse marcado pela estabilidade do(a)
+
+- A) ciclo hidrológico.
+- B) processo erosivo.
+- C) estrutura geológica.
+- D) índice pluviométrico.
+- E) pressão atmosférica.
+
+**Resposta:** C
+
+**Explicação:** O mapa mostra os países atuais sobre a Pangeia, o supercontinente antigo. Essa divisão só seria possível se os continentes não se movessem, isto é, se a estrutura geológica (as placas tectônicas) fosse estável.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 59
+
+**Assunto:** geografia/geografia-fisica
+
+### 85
+![Figura](enem-2019-d1-q085-1.webp)
+
+> TOLENTINO, A. B. Patrimônio cultural e discursos museológicos. Midas, n. 6, 2016.
+
+Produzida no Chile, no final da década de 1970, a imagem expressa um conflito entre culturas e sua presença em museus decorrente da
+
+- A) valorização do mercado das obras de arte.
+- B) definição dos critérios de criação de acervos.
+- C) ampliação da rede de instituições de memória.
+- D) burocratização do acesso dos espaços expositivos.
+- E) fragmentação dos territórios das comunidades representadas.
+
+**Resposta:** B
+
+**Explicação:** O muro diz que "nossa cultura não cabe nos seus museus": as culturas indígenas e populares não eram representadas, porque os museus escolhiam o que guardar segundo critérios de uma elite. O conflito está na definição dos critérios dos acervos.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 85
+
+**Assunto:** historia/seculo-xx
 
 ## Difícil
 

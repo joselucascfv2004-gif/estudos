@@ -87,7 +87,7 @@ function formatar(t, natureza) {
 // questões com figura: texto e recortes vêm de ../fig/ANO_Dn_fig.json (gerado por figuras.py)
 const ASSETS = '/home/user/estudos/app/assets/questoes/';
 const FIGDIR = new URL('../fig/', import.meta.url).pathname;
-function parsDaFig(q) {
+function parsDaFig(q, verso) {
   const pars = [];
   let cur = '', prev = null, xItem = 0;
   const fecha = () => { if (cur) pars.push(cur); cur = ''; };
@@ -95,6 +95,7 @@ function parsDaFig(q) {
     if (c.fig) { fecha(); pars.push(`![Figura](${c.fig})`); prev = null; continue; }
     const continuaItem = cur.startsWith('•') && !c.t.startsWith('•') && c.x > xItem + 4;
     const novo = !cur || (c.x >= 8 && !continuaItem) || (cur.startsWith('•') && c.x < 5) || (prev && Math.abs(prev.sz - c.sz) > 0.5) || (ehFonte(c.t) && !(prev && ehFonte(prev.t))) || /^TEXTO [IVX]+$/.test(c.t) || (prev && /^TEXTO [IVX]+$/.test(prev.t));
+    if (verso && cur && prev && Math.abs(prev.sz - c.sz) <= 0.5 && !ehFonte(c.t) && !ehFonte(prev.t) && !/^TEXTO [IVX]+$/.test(c.t) && !/^TEXTO [IVX]+$/.test(prev.t)) { cur += ' // ' + c.t; prev = c; continue; }
     if (novo) { fecha(); cur = c.t; if (c.t.startsWith('•')) xItem = c.x; } else cur = /[a-zà-ú]-$/.test(cur) && /^[a-zà-ú]/.test(c.t) ? cur.slice(0, -1) + c.t : cur + ' ' + c.t;
     prev = c;
   }
@@ -120,7 +121,7 @@ for (const a of arquivos) {
         const f = figs.find((x) => String(x.num) === d.num);
         if (!f) { faltas.push(`${d.num} sem figura`); continue; }
         const alts = f.alts.map((x) => (x.figs.length && !x.txt ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
-        e = { ...e, pars: parsDaFig(f), alts };
+        e = { ...e, pars: parsDaFig(f, d.verso), alts };
       }
       const comFig = (t) => t.replace(/\[fig(\d+)\]/g, (_, n) => `![Figura](${imgFig(a, d.num, n)})`);
       if (d.e) d.e = d.e.map(comFig);

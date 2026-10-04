@@ -238,6 +238,113 @@ Nesses versos, há uma exaltação ao sertão do Cariri em uma ambientação lin
 
 **Assunto:** portugues/funcoes-generos-e-variacao
 
+### 6
+![Figura](enem-2019-d1-q006-1.webp)
+
+- A) propagar a imagem positiva do Ministério Público.
+- B) conscientizar a população que direitos implicam deveres.
+- C) coibir violações de direitos humanos nos meios de comunicação.
+- D) divulgar políticas sociais que combatem a intolerância e o preconceito.
+- E) instruir as pessoas sobre a forma correta de expressão nas redes sociais.
+
+**Resposta:** B
+
+**Explicação:** O cartaz lembra que a liberdade de expressão vem com responsabilidade e pede às pessoas que denunciem abusos. A campanha quer conscientizar de que direitos implicam deveres.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 6
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 17
+![Figura](enem-2019-d1-q017-1.webp)
+
+> Disponível em: http://epoca.globo.com. Acesso em: 20 mar. 2014.
+
+De acordo com esse infográfico, as redes sociais estimulam diferentes comportamentos dos usuários que revelam
+
+- A) exposição exagerada dos indivíduos.
+- B) comicidade ingênua dos usuários.
+- C) engajamento social das pessoas.
+- D) disfarce do sujeito por meio de avatares.
+- E) autocrítica dos internautas.
+
+**Resposta:** A
+
+**Explicação:** O infográfico mostra tipos de usuários que expõem viagens, festas, comida, a aparência e os filhos. Em comum, todos revelam a exposição exagerada da própria vida nas redes.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 17
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 19
+Expostos na web desde a gravidez
+
+Mais da metade das mães e um terço dos pais ouvidos em uma pesquisa sobre compartilhamento paterno em mídias sociais discutem nas redes sociais sobre a educação dos filhos. Muitos são pais e mães de primeira viagem, frutos da geração Y (que nasceu junto com a internet) e usam esses canais para saberem que não estão sozinhos na empreitada de educar uma criança. Há, contudo, um risco no modo como as pessoas estão compartilhando essas experiências. É a chamada exposição parental exagerada, alertam os pesquisadores.
+
+De acordo com os especialistas no assunto, se você compartilha uma foto ou vídeo do seu filho pequeno fazendo algo ridículo, por achar engraçadinho, quando a criança tiver seus 11, 12 anos, pode se sentir constrangida. A autoconsciência vem com a idade.
+
+A exibição da privacidade dos filhos começa a assumir uma característica de linha do tempo e eles não participaram da aprovação ou recusa quanto à veiculação desses conteúdos. Assim, quando a criança cresce, sua privacidade pode já estar violada.
+
+> OTONI, A. C. O Globo, 31 mar. 2015 (adaptado).
+
+Sobre o compartilhamento parental excessivo em mídias sociais, o texto destaca como impacto o(a)
+
+- A) interferência das novas tecnologias na comunicação entre pais e filhos.
+- B) desatenção dos pais em relação ao comportamento dos filhos na internet.
+- C) distanciamento na relação entre pais e filhos provocado pelo uso das redes sociais.
+- D) fortalecimento das redes de relações decorrente da troca de experiências entre as famílias.
+- E) desrespeito à intimidade das crianças cujas imagens têm sido divulgadas nas redes sociais.
+
+**Resposta:** E
+
+**Explicação:** O texto diz que fotos e vídeos dos filhos são publicados sem que eles possam aprovar ou recusar, e que, quando crescem, a privacidade deles já foi violada.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 19
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 35
+No Brasil, a disseminação de uma expectativa de corpo com base na estética da magreza é bastante grande e apresenta uma enorme repercussão, especialmente, se considerada do ponto de vista da realização pessoal. Em pesquisa feita na cidade de São Paulo, aparecem os percentuais de 90% entre as mulheres pesquisadas que se dizem preocupadas com seu peso corporal, sendo que 95% se sentem insatisfeitas com “seu próprio corpo”.
+
+> SILVA, A. M. Corpo, ciência e mercado: reflexões acerca da gestação de um novo arquétipo da felicidade. Campinas: Autores Associados; Florianópolis: UFSC, 2001.
+
+A preocupação excessiva com o “peso” corporal pode provocar o desenvolvimento de distúrbios associados diretamente à imagem do corpo, tais como
+
+- A) anorexia e bulimia.
+- B) ortorexia e vigorexia.
+- C) ansiedade e depressão.
+- D) sobrepeso e fobia social.
+- E) sedentarismo e obesidade.
+
+**Resposta:** A
+
+**Explicação:** A preocupação excessiva com a magreza pode levar a transtornos alimentares ligados à imagem do corpo, como a anorexia (recusa de comer) e a bulimia (comer e provocar o vômito).
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 35
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 43
+![Figura](enem-2019-d1-q043-1.webp)
+
+> Disponível em: www.tecmundo.com.br. Acesso em: 10 dez. 2018 (adaptado).
+
+O texto tem o formato de uma carta de jogo e apresenta dados a respeito de Marcelo Gleiser, premiado pesquisador brasileiro da atualidade. Essa apresentação subverte um gênero textual ao
+
+- A) vincular áreas distintas do conhecimento.
+- B) evidenciar a formação acadêmica do pesquisador.
+- C) relacionar o universo lúdico a informações biográficas.
+- D) especificar as contribuições mais conhecidas do pesquisador.
+- E) destacar o nome do pesquisador e sua imagem no início do texto.
+
+**Resposta:** C
+
+**Explicação:** O texto usa o formato de uma carta de "Super Trunfo" (um jogo) para apresentar a área, as obras, o nascimento e a formação de Marcelo Gleiser. Une o universo lúdico a informações biográficas.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 43
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ## Médio
 
 ### 7
@@ -523,6 +630,300 @@ Como estratégia de progressão do texto, o autor simula uma interlocução com 
 **Fonte:** ENEM 2019, 1º dia, caderno azul, questão 42
 
 **Assunto:** portugues/semantica-e-figuras-de-linguagem
+
+### 9
+Mídias: aliadas ou inimigas da educação física escolar?
+
+No caso do esporte, a mediação efetuada pela câmera de TV construiu uma nova modalidade de consumo: o esporte telespetáculo, realidade textual relativamente autônoma face à prática “real” do esporte, construída pela codificação e mediação dos eventos esportivos efetuados pelo enquadramento, edição das imagens e comentários, interpretando para o espectador o que ele está vendo. Esse fenômeno tende a valorizar a forma em relação ao conteúdo, e para tal faz uso privilegiado da linguagem audiovisual com ênfase na imagem cujas possibilidades são levadas cada vez mais adiante, em decorrência dos avanços tecnológicos. Por outro lado, a narração esportiva propõe uma concepção hegemônica de esporte: esporte é esforço máximo, busca da vitória, dinheiro... O preço que se paga por sua espetacularização é a fragmentação do fenômeno esportivo. A experiência global do ser-atleta é modificada: a sociabilização no confronto e a ludicidade não são vivências privilegiadas no enfoque das mídias, mas as eventuais manifestações de violência, em partidas de futebol, por exemplo, são exibidas e reexibidas em todo o mundo.
+
+> BETTI, M. Motriz, n. 2, jul.-dez. 2001 (adaptado).
+
+A reflexão trazida pelo texto, que aborda o esporte telespetáculo, está fundamentada na
+
+- A) distorção da experiência do ser-atleta para os espectadores.
+- B) interpretação dos espectadores sobre o conteúdo transmitido.
+- C) utilização de equipamentos audiovisuais de última geração.
+- D) valorização de uma visão ampliada do esporte.
+- E) equiparação entre a forma e o conteúdo.
+
+**Resposta:** A
+
+**Explicação:** O texto diz que a TV transforma o esporte em espetáculo: valoriza a forma, o lucro e a vitória, e a experiência do atleta (sociabilização, ludicidade) fica de fora. O espectador recebe uma versão distorcida da experiência de ser atleta.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 9
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 10
+![Figura](enem-2019-d1-q010-1.webp)
+
+> Disponível em: www.essl.pt. Acesso em: 9 maio 2019 (adaptado).
+
+Essa campanha se destaca pela maneira como utiliza a linguagem para conscientizar a sociedade da necessidade de se acabar com o bullying. Tal estratégia está centrada no(a)
+
+- A) chamamento de diferentes atores sociais pelo uso recorrente de estruturas injuntivas.
+- B) variedade linguística caracterizadora do português europeu.
+- C) restrição a um grupo específico de vítimas ao apresentar marcas gráficas de identificação de gênero como “o(a)”.
+- D) combinação do significado de palavras escritas em línguas inglesa e portuguesa.
+- E) enunciado de cunho esperançoso “passe à história” no título do cartaz.
+
+**Resposta:** A
+
+**Explicação:** O cartaz usa verbos no imperativo ("Fica calmo", "Ajuda-o", "Tenta convencê-lo") dirigidos à vítima, a quem conhece uma vítima e ao agressor. Chama diferentes atores sociais com estruturas injuntivas.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 10
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 12
+TEXTO I
+
+A promessa da felicidade
+
+![Figura](enem-2019-d1-q012-1.webp)
+
+> JU LOYOLA. The promise of happiness. LOYOLA, J. Disponível em: http://ladyscomics.com.br. Acesso em: 8 dez. 2018 (adaptado).
+
+TEXTO II
+
+Quadrinista surda faz sucesso na CCXP com narrativas silenciosas
+
+A área de artistas independentes da Comic Con Experience (CCXP) deste ano é a maior da história do evento geek, são mais de 450 quadrinistas e ilustradores no Artistsꞌ Alley.
+
+E a diversidade vai além do estilo das HQ. Em uma das mesas na fila F, senta a quadrinista com deficiência auditiva Ju Loyola, com suas histórias que classifica como “narrativas silenciosas”. São histórias que podem ser compreendidas por crianças e adultos, e pessoas de qualquer nacionalidade, pelo simples motivo de não terem uma única palavra.
+
+A artista não escreve roteiros convencionais para suas obras. Sua experiência de ter que entender a comunicação pelo que vê faz com que ela se identifique muito mais com o que observa do que com o que as pessoas dizem.
+
+E basta folhear suas obras que fica claro que elas não são histórias em quadrinhos que perderam as palavras, mas sim que ganharam uma nova perspectiva.
+
+> Disponível em: https://catracalivre.com.br. Acesso em: 8 dez. 2018 (adaptado).
+
+O Texto I exemplifica a obra de uma artista surda, que promove uma experiência de leitura inovadora, divulgada no Texto II. Independentemente de seus objetivos, ambos os textos
+
+- A) incentivam a produção de roteiros compostos por imagens.
+- B) colaboram para a valorização de enredos românticos.
+- C) revelam o sucesso de um evento de cartunistas.
+- D) contribuem com o processo de acessibilidade.
+- E) questionam o padrão tradicional das HQ.
+
+**Resposta:** D
+
+**Explicação:** As "narrativas silenciosas" de Ju Loyola podem ser lidas por qualquer pessoa, de qualquer idade e língua, e a reportagem divulga esse trabalho. Os dois textos contribuem para a acessibilidade.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 12
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 14
+A viagem
+Que coisas devo levar
+nesta viagem em que partes?
+As cartas de navegação só servem
+a quem fica.
+Com que mapas desvendar
+um continente
+que falta?
+Estrangeira do teu corpo
+tão comum
+quantas línguas aprender
+para calar-me?
+Também quem fica
+procura
+um oriente.
+Também
+a quem fica
+cabe uma paisagem nova
+e a travessia insone do desconhecido
+e a alegria difícil da descoberta.
+O que levas do que fica,
+o que, do que levas, retiro?
+
+> MARQUES, A. M. In: SANT’ANNA, A. (Org.). Rua Aribau. Porto Alegre: Tag, 2018.
+
+A viagem e a ausência remetem a um repertório poético tradicional. No poema, a voz lírica dialoga com essa tradição, repercutindo a
+
+- A) saudade como experiência de apatia.
+- B) presença da fragmentação da identidade.
+- C) negação do desejo como expressão de culpa.
+- D) persistência da memória na valorização do passado.
+- E) revelação de rumos projetada pela vivência da solidão.
+
+**Resposta:** E
+
+**Explicação:** O poema inverte a tradição: em vez de falar só de quem parte, mostra que quem fica também "procura um oriente" e encontra "uma paisagem nova". A solidão abre novos rumos para a voz lírica.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 14
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 15
+O Instituto de Arte de Chicago disponibilizou para visualização on-line, compartilhamento ou download (sob licença Creative Commons), 44 mil imagens de obras de arte em altíssima resolução, além de livros, estudos e pesquisas sobre a história da arte.
+
+Para o historiador da arte, Bendor Grosvenor, o sucesso das coleções on-line de acesso aberto, além de democratizar a arte, vem ajudando a formar um novo público museológico. Grosvenor acredita que quanto mais pessoas forem expostas à arte on-line, mais visitas pessoais acontecerão aos museus.
+
+A coleção está disponível em seis categorias: paisagens urbanas, impressionismo, essenciais, arte africana, moda e animais. Também é possível pesquisar pelo nome da obra, estilo, autor ou período. Para navegar pela imagem em alta definição, basta clicar sobre ela e utilizar a ferramenta de zoom. Para fazer o download, disponível para obras de domínio público, é preciso utilizar a seta localizada do lado inferior direito da imagem.
+
+> Disponível em: www.revistabula.com. Acesso em: 5 dez. 2018 (adaptado).
+
+A função da linguagem que predomina nesse texto se caracteriza por
+
+- A) evidenciar a subjetividade da reportagem com base na fala do historiador de arte.
+- B) convencer o leitor a fazer o acesso on-line, levando-o a conhecer as obras de arte.
+- C) informar sobre o acesso às imagens por meio da descrição do modo como acessá-las.
+- D) estabelecer interlocução com o leitor, orientando-o a fazer o download das obras de arte.
+- E) enaltecer a arte, buscando popularizá-la por meio da possibilidade de visualização on-line.
+
+**Resposta:** C
+
+**Explicação:** O texto informa como o acervo está organizado e explica o passo a passo para ver e baixar as imagens. Predomina a função referencial, centrada na informação.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 15
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 23
+![Figura](enem-2019-d1-q023-1.webp)
+
+> Disponível em: www.acnur.org. Acesso em: 11 dez. 2018.
+
+Nesse cartaz, o uso da imagem do calçado aliada ao texto verbal tem o objetivo de
+
+- A) criticar as difíceis condições de vida dos refugiados.
+- B) revelar a longa trajetória percorrida pelos refugiados.
+- C) incentivar a campanha de doações para os refugiados.
+- D) denunciar a situação de carência vivida pelos refugiados.
+- E) simbolizar a necessidade de adesão à causa dos refugiados.
+
+**Resposta:** E
+
+**Explicação:** O par de tênis gastos e a frase "Vamos calçar os sapatos dos refugiados" convidam o leitor a se colocar no lugar deles. O cartaz simboliza a necessidade de aderir à causa dos refugiados.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 23
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 27
+Educação para a saúde mediante programas de educação física escolar
+
+A educação para a saúde deverá ser alcançada mediante interação de ações que possam envolver o próprio homem mediante suas atitudes frente às exigências ambientais representadas pelos hábitos alimentares, estado de estresse, opções de lazer, atividade física, agressões climáticas etc. Dessa forma, parece evidente que o estado de ser saudável não é algo estático. Pelo contrário, torna-se necessário adquiri-lo e construí-lo de forma individualizada constantemente ao longo de toda a vida, apontando para o fato de que saúde é educável e, portanto, deve ser tratada não apenas com base em referenciais de natureza biológica e higienista, mas sobretudo em um contexto didático-pedagógico.
+
+> GUEDES, D. P. Motriz, n. 1, 1999.
+
+A educação para a saúde pressupõe a adoção de comportamentos com base na interação de fatores relacionados à
+
+- A) adesão a programas de lazer.
+- B) opção por dietas balanceadas.
+- C) constituição de hábitos saudáveis.
+- D) evasão de ambientes estressores.
+- E) realização de atividades físicas regulares.
+
+**Resposta:** C
+
+**Explicação:** O texto diz que a saúde depende da interação de vários fatores (alimentação, lazer, atividade física, estresse) e que precisa ser construída ao longo da vida. Trata-se de constituir hábitos saudáveis.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 27
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 31
+![Figura](enem-2019-d1-q031-1.webp)
+
+> PICASSO, P. Cabeça de touro. Bronze, 33,5 cm x 43,5 cm x 19 cm. Musée Picasso, Paris. França, 1945.
+
+> JANSON, H. W. Iniciação à história da arte. São Paulo: Martins Fontes, 1988.
+
+Na obra Cabeça de touro, o material descartado torna-se objeto de arte por meio da
+
+- A) reciclagem da matéria-prima original.
+- B) complexidade da combinação de formas abstratas.
+- C) perenidade dos elementos que constituem a escultura.
+- D) mudança da funcionalidade pela integração dos objetos.
+- E) fragmentação da imagem no uso de elementos diversificados.
+
+**Resposta:** D
+
+**Explicação:** Picasso juntou um selim e um guidão de bicicleta para formar a cabeça de um touro. Os objetos perdem sua função original e, combinados, ganham nova função como escultura.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 31
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 36
+TEXTO I
+
+![Figura](enem-2019-d1-q036-1.webp)
+
+> CHIPP, H. Teorias da arte moderna. São Paulo: Martins Fontes, 1988.
+
+TEXTO II
+
+![Figura](enem-2019-d1-q036-2.webp)
+
+> MUNIZ, V. Action Photo (segundo Hans Namuth em Pictures in Chocolate). Impressão fotográfica, 152,4 cm x 121,92 cm, The Museum of Modern Art, Nova Iorque, 1977.
+
+> NEVES, A. História da arte 4. Vitória: Ufes – Nead, 2011.
+
+Utilizando chocolate derretido como matéria-prima, essa obra de Vick Muniz reproduz a célebre fotografia do processo de criação de Jackson Pollock. A originalidade dessa releitura reside na
+
+- A) apropriação parodística das técnicas e materiais utilizados.
+- B) reflexão acerca dos sistemas de circulação da arte.
+- C) simplificação dos traços da composição pictórica.
+- D) contraposição de linguagens artísticas distintas.
+- E) crítica ao advento do abstracionismo.
+
+**Resposta:** A
+
+**Explicação:** Vik Muniz recria com chocolate a foto de Pollock pintando com tinta escorrida. Ele imita, com humor, a técnica de gotejamento e muda o material: é uma apropriação parodística.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 36
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 38
+“O computador, dando prioridade à busca pela própria felicidade, parou de trabalhar para os humanos”. É assim que termina o conto O dia em que um computador escreveu um conto, escrito por uma inteligência artificial com a ajuda de cientistas humanos.
+
+Os cientistas selecionaram palavras e frases que seriam usadas na narrativa, e definiram um roteiro geral da história, que serviria como guia para a inteligência artificial. A partir daí, o computador criou o texto combinando as frases e seguindo as diretrizes que os cientistas impuseram. Os juízes não sabem quais textos são escritos por humanos e quais são feitos por computadores, o que mostra que o conto estava bem escrito. O dia só não passou para as próximas etapas porque, de acordo com os juízes, os personagens não foram muito bem descritos, embora o texto estivesse estruturalmente impecável.
+
+A ideia dos cientistas é continuar desenvolvendo a criatividade da IA para que ela se pareça cada vez mais com a humana. Simular esse tipo de resposta é difícil, porque o computador precisa ter, primeiro, um banco de dados vasto vinculado a uma programação específica para cada tipo de projeto — escrita, pintura, música, desenho e por aí vai.
+
+> D’ANGELO, H. Disponível em: https://super.abril.com.br. Acesso em: 5 dez. 2018.
+
+O êxito e as limitações da tecnologia utilizada na composição do conto evidenciam a
+
+- A) indistinção entre personagens produzidos por máquinas e seres humanos.
+- B) necessidade de reformulação da base de dados elaborada por cientistas.
+- C) autonomia de programas computacionais no desenvolvimento ficcional.
+- D) diferença entre a estrutura e a criatividade da linguagem humana.
+- E) qualidade artística de textos produzidos por computadores.
+
+**Resposta:** D
+
+**Explicação:** O computador escreveu um texto bem estruturado, mas não passou adiante porque os personagens não foram bem descritos. A máquina reproduz a estrutura, mas ainda não tem a criatividade da linguagem humana.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 38
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 70
+Em nenhuma outra época o corpo magro adquiriu um sentido de corpo ideal e esteve tão em evidência como nos dias atuais: esse corpo, nu ou vestido, exposto em diversas revistas femininas e masculinas, está na moda: é capa de revistas, matérias de jornais, manchetes publicitárias, e se transformou em sonho de consumo para milhares de pessoas. Partindo dessa concepção, o gordo passa a ter um corpo visivelmente sem comedimento, sem saúde, um corpo estigmatizado pelo desvio, o desvio pelo excesso. Entretanto, como afirma a escritora Marylin Wann, é perfeitamente possível ser gordo e saudável. Frequentemente os gordos adoecem não por causa da gordura, mas sim pelo estresse, pela opressão a que são submetidos.
+
+> VASCONCELOS, N. A.; SUDO, I.; SUDO, N. Um peso na alma: o corpo gordo e a mídia. Revista Mal-Estar e Subjetividade, n. 1, mar. 2004 (adaptado).
+
+No texto, o tratamento predominante na mídia sobre a relação entre saúde e corpo recebe a seguinte crítica:
+
+- A) Difusão das estéticas antigas.
+- B) Exaltação das crendices populares.
+- C) Propagação das conclusões científicas.
+- D) Reiteração dos discursos hegemônicos.
+- E) Contestação dos estereótipos consolidados.
+
+**Resposta:** E
+
+**Explicação:** O texto critica a ideia de que o gordo é sempre doente, lembrando que é possível ser gordo e saudável. Contesta os estereótipos consolidados pela mídia.
+
+**Fonte:** ENEM 2019, 1º dia, caderno azul, questão 70
+
+**Assunto:** artes/artes-e-educacao-fisica
 
 ## Difícil
 

@@ -71,12 +71,23 @@ def linhas_da_pagina(p):
     return [l for l in res if not ruido.match(l['t'])]
 
 
+def une(a, b):
+    return [min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3])]
+
+
+def perto(a, b, d):
+    return not (a[2] + d < b[0] or b[2] + d < a[0] or a[3] + d < b[1] or b[3] + d < a[1])
+
+
 PAG = []
 for pno, p in enumerate(doc):
     W, H = p.rect.width, p.rect.height
     ls = linhas_da_pagina(p)
     dr = []
+    sep = []  # linhas pontilhadas que fecham cada questão
     for d in p.get_drawings():
+        if d['rect'].height < 2 and d['rect'].width > 150 and str(d.get('dashes', '')).startswith('[ 0 '):
+            sep.append([d['rect'].x0, d['rect'].y0, d['rect'].x1, d['rect'].y1])
         r = d['rect']
         if r.width > 0.8 * W or (r.height > 0.6 * H and r.width < 4):
             continue  # réguas da página e divisória das colunas
@@ -90,6 +101,9 @@ for pno, p in enumerate(doc):
         if branco(d.get('fill')) and (d.get('color') is None or branco(d.get('color'))):
             continue  # caixas brancas de fundo
         dr.append([r.x0, r.y0, r.x1, r.y1])
+    barras = [l['bb'] for l in ls if re.match(r'^\*[A-Z0-9]+\*$', l['t'])]
+    dr = [g for g in dr if not any(perto(g, b, 14) for b in barras)]
+    ls = [l for l in ls if not re.match(r'^\*[A-Z0-9]+\*$', l['t'])]
     ims = []
     for info in p.get_image_info():
         r = pymupdf.Rect(info['bbox'])
@@ -98,9 +112,14 @@ for pno, p in enumerate(doc):
         ims.append([r.x0, r.y0, r.x1, r.y1])
     # régua de cima e de baixo (área útil)
     hs = [d['rect'] for d in p.get_drawings() if d['rect'].width > 0.8 * W and d['rect'].height < 3]
-    topo = min([r.y1 for r in hs if r.y1 < H * 0.2], default=60)
-    base = max([r.y0 for r in hs if r.y0 > H * 0.8], default=H - 40)
-    PAG.append({'W': W, 'H': H, 'ls': ls, 'dr': dr, 'im': ims, 'topo': topo + 1, 'base': base - 1})
+    topo = max([r.y1 for r in hs if 20 < r.y1 < H * 0.2], default=60)
+    base = min([r.y0 for r in hs if H * 0.8 < r.y0 < H - 20], default=H - 40)
+    # rodapé: texto "Caderno"/"Página"/código de barras perto do fim da página
+    rod = [l['bb'][1] for l in ls if l['bb'][1] > H * 0.8 and re.search(r'Caderno \d|Página \d|^\*[A-Z0-9]+\*$|\d+º dia', l['t'])]
+    if rod:
+        base = min(base, min(rod) - 2)
+    ls = [l for l in ls if l['bb'][1] < base]
+    PAG.append({'W': W, 'H': H, 'ls': ls, 'sep': [x for x in sep if H * 0.12 < x[1] < base - 3], 'dr': dr, 'im': ims, 'topo': topo + 1, 'base': base - 1})
 
 MEIO = lambda pg: pg['W'] / 2
 
@@ -124,7 +143,8 @@ def pagina_larga(pg, y0, y1):
     # página (ou trecho) de uma coluna só: linhas de texto que atravessam o meio
     m = MEIO(pg)
     n = sum(1 for l in pg['ls'] if l['bb'][1] >= y0 and l['bb'][3] <= y1 and l['bb'][0] < m - 40 and l['bb'][2] > m + 40)
-    return n >= 2
+    g = sum(1 for r in pg['im'] + pg['dr'] if r[1] >= y0 - 2 and r[3] <= y1 + 2 and r[0] < m - 40 and r[2] > m + 40)
+    return n >= 1 or g >= 1
 
 
 def segmentos(i):
@@ -142,6 +162,10 @@ def segmentos(i):
             x0, x1 = 15, pg['W'] - 15
         else:
             x0, x1 = (15, MEIO(pg) - 2) if col == 0 else (MEIO(pg) + 2, pg['W'] - 15)
+        corte = [sp[1] for sp in pg['sep'] if y + 10 < sp[1] < fim and sp[0] >= x0 - 8 and sp[2] <= x1 + 8]
+        if corte:
+            segs.append({'p': p, 'x0': x0, 'x1': x1, 'y0': y, 'y1': min(corte) - 2, 'larga': larga})
+            break
         segs.append({'p': p, 'x0': x0, 'x1': x1, 'y0': y, 'y1': fim, 'larga': larga})
         if not prox or (prox['p'] == p and (prox['c'] == col or larga)):
             break
@@ -160,14 +184,6 @@ def segmentos(i):
 def dentro(bb, s, folga=0):
     cx, cy = (bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2
     return s['x0'] - folga <= cx <= s['x1'] + folga and s['y0'] - folga <= cy <= s['y1'] + folga
-
-
-def une(a, b):
-    return [min(a[0], b[0]), min(a[1], b[1]), max(a[2], b[2]), max(a[3], b[3])]
-
-
-def perto(a, b, d):
-    return not (a[2] + d < b[0] or b[2] + d < a[0] or a[3] + d < b[1] or b[3] + d < a[1])
 
 
 EHFONTE = re.compile(r'^([A-ZÀ-Ú][A-ZÀ-Ú\'’. -]+, [A-ZÀ-Ú]|Disponível em|Acesso em|[A-ZÀ-Ú]{2,}(?: [A-ZÀ-Ú]{2,})*[.;] [A-ZÀ-Ú])')

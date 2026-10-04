@@ -87,6 +87,18 @@ x: Foucault nega um sujeito universal: o sujeito se forma por práticas de sujei
 x: Arendt mostra como os campos de concentração faziam o extermínio parecer "solução perfeitamente normal". A crítica é à naturalização da segregação humana, base dos projetos totalitários.
 @78 d filosofia/filosofia-moderna-e-contemporanea
 x: Kant admira o céu lá fora e a lei moral dentro de si (a norma é interior; o mundo é fenômeno externo). O poema inverte: a lei fica "cobrindo-me" (fora) e o céu estrelado fica "dentro de mim".
+@47 m geografia/cartografia fig
+x: O satélite capta a energia solar refletida pelas superfícies (floresta, rio, pastagem, rodovia). Cada superfície reflete uma fração diferente da luz — o albedo —, e é essa diferença que forma a imagem.
+@57 m geografia/geografia-fisica fig
+x: Na faixa dos trópicos ficam os grandes desertos, mas no Brasil essa faixa é interrompida porque a umidade vinda da Amazônia (os "rios voadores") e da Mata Atlântica traz chuva para o interior.
+@59 m geografia/geografia-fisica fig
+x: O mapa mostra os países atuais sobre a Pangeia, o supercontinente antigo. Essa divisão só seria possível se os continentes não se movessem, isto é, se a estrutura geológica (as placas tectônicas) fosse estável.
+@77 f geografia/populacao-e-urbanizacao fig
+x: O grafite e as intervenções artísticas nas ruas transformam muros e becos em espaços de expressão. É um movimento de apropriação dos espaços públicos pela população.
+@85 m historia/seculo-xx fig
+x: O muro diz que "nossa cultura não cabe nos seus museus": as culturas indígenas e populares não eram representadas, porque os museus escolhiam o que guardar segundo critérios de uma elite. O conflito está na definição dos critérios dos acervos.
+@88 f geografia/populacao-e-urbanizacao fig
+x: No bônus demográfico, há muita gente em idade de trabalhar. Para aproveitar essa fase, o Estado deve qualificar a mão de obra, aumentando a produtividade dessas pessoas.
 
 ## 28-enem-2019-linguagens.md | 2019 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2019 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
@@ -150,3 +162,36 @@ x: A prosa de Raul Pompeia é cheia de imagens visuais (nevoeiros, negrumes, gel
 x: O eu lírico lista o que restou do amor ("esse desassossego", "corpo morrendo") e o que foi sonhado ("navios, muralhas de marfim"). Repetir "tudo isso te devo" mostra amadurecimento com ironia e desapego.
 @44 d portugues/morfologia-e-sintaxe v
 x: O poema usa a 2ª pessoa (tomas, deixas, levas, teu, tua) para a operária e a 3ª pessoa para o filho e o patrão ("ele pede"). A norma-padrão dos verbos e pronomes ajuda a distinguir de quem se fala.
+@6 f portugues/funcoes-generos-e-variacao fig
+x: O cartaz lembra que a liberdade de expressão vem com responsabilidade e pede às pessoas que denunciem abusos. A campanha quer conscientizar de que direitos implicam deveres.
+@9 m artes/artes-e-educacao-fisica fig
+x: O texto diz que a TV transforma o esporte em espetáculo: valoriza a forma, o lucro e a vitória, e a experiência do atleta (sociabilização, ludicidade) fica de fora. O espectador recebe uma versão distorcida da experiência de ser atleta.
+@10 m portugues/funcoes-generos-e-variacao fig
+x: O cartaz usa verbos no imperativo ("Fica calmo", "Ajuda-o", "Tenta convencê-lo") dirigidos à vítima, a quem conhece uma vítima e ao agressor. Chama diferentes atores sociais com estruturas injuntivas.
+@12 m portugues/interpretacao-de-texto fig
+s: Quadrinista surda faz sucesso na CCXP || com narrativas silenciosas => Quadrinista surda faz sucesso na CCXP com narrativas silenciosas
+x: As "narrativas silenciosas" de Ju Loyola podem ser lidas por qualquer pessoa, de qualquer idade e língua, e a reportagem divulga esse trabalho. Os dois textos contribuem para a acessibilidade.
+@14 m literatura/pre-modernismo-ao-contemporaneo fig v
+x: O poema inverte a tradição: em vez de falar só de quem parte, mostra que quem fica também "procura um oriente" e encontra "uma paisagem nova". A solidão abre novos rumos para a voz lírica.
+@15 m portugues/funcoes-generos-e-variacao fig
+x: O texto informa como o acervo está organizado e explica o passo a passo para ver e baixar as imagens. Predomina a função referencial, centrada na informação.
+@17 f portugues/interpretacao-de-texto fig
+x: O infográfico mostra tipos de usuários que expõem viagens, festas, comida, a aparência e os filhos. Em comum, todos revelam a exposição exagerada da própria vida nas redes.
+@19 f portugues/interpretacao-de-texto fig
+x: O texto diz que fotos e vídeos dos filhos são publicados sem que eles possam aprovar ou recusar, e que, quando crescem, a privacidade deles já foi violada.
+@23 m portugues/funcoes-generos-e-variacao fig
+x: O par de tênis gastos e a frase "Vamos calçar os sapatos dos refugiados" convidam o leitor a se colocar no lugar deles. O cartaz simboliza a necessidade de aderir à causa dos refugiados.
+@27 m artes/artes-e-educacao-fisica fig
+x: O texto diz que a saúde depende da interação de vários fatores (alimentação, lazer, atividade física, estresse) e que precisa ser construída ao longo da vida. Trata-se de constituir hábitos saudáveis.
+@31 m artes/artes-e-educacao-fisica fig
+x: Picasso juntou um selim e um guidão de bicicleta para formar a cabeça de um touro. Os objetos perdem sua função original e, combinados, ganham nova função como escultura.
+@35 f artes/artes-e-educacao-fisica fig
+x: A preocupação excessiva com a magreza pode levar a transtornos alimentares ligados à imagem do corpo, como a anorexia (recusa de comer) e a bulimia (comer e provocar o vômito).
+@36 m artes/artes-e-educacao-fisica fig
+x: Vik Muniz recria com chocolate a foto de Pollock pintando com tinta escorrida. Ele imita, com humor, a técnica de gotejamento e muda o material: é uma apropriação parodística.
+@38 m portugues/interpretacao-de-texto fig
+x: O computador escreveu um texto bem estruturado, mas não passou adiante porque os personagens não foram bem descritos. A máquina reproduz a estrutura, mas ainda não tem a criatividade da linguagem humana.
+@43 f portugues/funcoes-generos-e-variacao fig
+x: O texto usa o formato de uma carta de "Super Trunfo" (um jogo) para apresentar a área, as obras, o nascimento e a formação de Marcelo Gleiser. Une o universo lúdico a informações biográficas.
+@70 m artes/artes-e-educacao-fisica fig
+x: O texto critica a ideia de que o gordo é sempre doente, lembrando que é possível ser gordo e saudável. Contesta os estereótipos consolidados pela mídia.

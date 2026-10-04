@@ -1,6 +1,20 @@
 // Gerado por scripts/compilar-conteudos.mjs — não edite à mão.
 // Imagens das questões (figuras recortadas das provas oficiais), com largura e altura em pixels.
 export const IMAGENS: Record<string, { fonte: number; w: number; h: number }> = {
+  'enem-2019-d1-q006-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q006-1.webp'), w: 596, h: 865 },
+  'enem-2019-d1-q010-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q010-1.webp'), w: 703, h: 667 },
+  'enem-2019-d1-q012-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q012-1.webp'), w: 596, h: 1002 },
+  'enem-2019-d1-q017-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q017-1.webp'), w: 739, h: 688 },
+  'enem-2019-d1-q023-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q023-1.webp'), w: 595, h: 405 },
+  'enem-2019-d1-q031-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q031-1.webp'), w: 535, h: 404 },
+  'enem-2019-d1-q036-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q036-1.webp'), w: 462, h: 469 },
+  'enem-2019-d1-q036-2.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q036-2.webp'), w: 388, h: 475 },
+  'enem-2019-d1-q043-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q043-1.webp'), w: 535, h: 748 },
+  'enem-2019-d1-q047-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q047-1.webp'), w: 600, h: 270 },
+  'enem-2019-d1-q057-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q057-1.webp'), w: 587, h: 295 },
+  'enem-2019-d1-q059-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q059-1.webp'), w: 679, h: 675 },
+  'enem-2019-d1-q077-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q077-1.webp'), w: 596, h: 446 },
+  'enem-2019-d1-q085-1.webp': { fonte: require('../../assets/questoes/enem-2019-d1-q085-1.webp'), w: 596, h: 480 },
   'enem-2019-d2-q091-1.webp': { fonte: require('../../assets/questoes/enem-2019-d2-q091-1.webp'), w: 595, h: 239 },
   'enem-2019-d2-q094-1.webp': { fonte: require('../../assets/questoes/enem-2019-d2-q094-1.webp'), w: 597, h: 433 },
   'enem-2019-d2-q097-1.webp': { fonte: require('../../assets/questoes/enem-2019-d2-q097-1.webp'), w: 541, h: 570 },
