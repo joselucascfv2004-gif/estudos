@@ -6,8 +6,8 @@ Uma história completa por arquivo, com nome `NNN-titulo-curto.md` (por exemplo
 ```markdown
 # Título (não aparece no vídeo; vai no texto da postagem)
 tema: traicao        (traicao, relacionamento, familia ou trabalho: escolhe as hashtags)
-voz: francisca       (francisca, thalita, antonio, ava ou andrew)
-fundo: slime         (slime, tinta, satisfatorio ou minecraft)
+voz: thalita         (thalita = narradora mulher, antonio = narrador homem)
+fundo: lavagem       (lavagem = padrão; também slime, tinta, satisfatorio ou minecraft)
 
 Primeiro parágrafo da história...
 

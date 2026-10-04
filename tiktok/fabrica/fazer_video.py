@@ -43,7 +43,7 @@ FONTES = {
     "Luckiest Guy": (110, 2),
     "Bangers": (150, 3),
 }
-FONTE_LEGENDA = "Montserrat Black"
+FONTE_LEGENDA = "Poppins ExtraBold"  # opção 2, escolhida pelo dono do canal
 
 HASHTAGS = {
     "traicao": "#traicao #relacionamento #namoro #casamento",
@@ -80,8 +80,8 @@ def ler_roteiro(arquivo: Path) -> Roteiro:
     texto = "\n".join(corpo).strip()
     if not titulo or not texto:
         raise ValueError(f"{arquivo.name}: falta o título (# ...) ou o texto da história")
-    return Roteiro(arquivo, titulo, campos.get("tema", ""), campos.get("voz", "feminina"),
-                   campos.get("fundo", "slime"), texto)
+    return Roteiro(arquivo, titulo, campos.get("tema", ""), campos.get("voz", "thalita"),
+                   campos.get("fundo", "lavagem"), texto)
 
 
 def duracao(arquivo: Path) -> float:
@@ -206,6 +206,9 @@ ANTES DE PUBLICAR:
 
 
 async def fazer(roteiro: Roteiro, refazer: bool) -> None:
+    if roteiro.voz not in voz.VOZES:
+        raise ValueError(f"{roteiro.arquivo.name}: voz '{roteiro.voz}' não existe. "
+                         f"Use uma destas: {', '.join(voz.VOZES)}")
     pasta = PASTA_VIDEOS / roteiro.arquivo.stem
     if (pasta / "video.mp4").exists() and not refazer:
         print(f"{roteiro.arquivo.name}: já feito, pulando.")

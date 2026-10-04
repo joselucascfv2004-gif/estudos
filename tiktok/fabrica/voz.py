@@ -28,13 +28,11 @@ import edge_tts.communicate
 if os.environ.get("SSL_CERT_FILE"):
     edge_tts.communicate._SSL_CTX = ssl.create_default_context(cafile=os.environ["SSL_CERT_FILE"])
 
+# As duas vozes escolhidas pelo dono do canal
 VOZES = {
-    "francisca": "pt-BR-FranciscaNeural",
     "thalita": "pt-BR-ThalitaMultilingualNeural",
     "antonio": "pt-BR-AntonioNeural",
-    "ava": "en-US-AvaMultilingualNeural",
-    "andrew": "en-US-AndrewMultilingualNeural",
-    "feminina": "pt-BR-FranciscaNeural",
+    "feminina": "pt-BR-ThalitaMultilingualNeural",
     "masculina": "pt-BR-AntonioNeural",
 }
 
@@ -110,7 +108,7 @@ def dividir(texto: str, velocidade_base: int) -> list[Trecho]:
 async def _falar(trecho: Trecho, voz: str, arquivo: Path) -> list[Palavra]:
     sinal = lambda n: f"+{n}" if n >= 0 else str(n)
     comunicador = edge_tts.Communicate(
-        trecho.texto, VOZES.get(voz, voz), rate=f"{sinal(trecho.velocidade)}%",
+        trecho.texto, VOZES[voz], rate=f"{sinal(trecho.velocidade)}%",
         pitch=f"{sinal(trecho.tom)}Hz", volume=f"{sinal(trecho.volume)}%",
         boundary="WordBoundary")
     palavras = []

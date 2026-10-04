@@ -1,13 +1,80 @@
 {
   "_sobre": "Vídeos de fundo grátis. 'pexels' = número do vídeo em pexels.com/video/<número>. Licença Pexels: uso grátis, inclusive comercial, sem precisar dar crédito. Para adicionar um vídeo, coloque o número na categoria certa e rode baixar_fundos.py.",
+  "lavagem": {
+    "_sobre": "Fundo principal: lavagem de carro (espuma, alta pressão, rodas, detalhamento).",
+    "pexels": [
+      34720830,
+      34195597,
+      6873167,
+      35246028,
+      6873338,
+      6873332,
+      6872072,
+      6873328,
+      6873327,
+      6872477,
+      32010538,
+      32010541,
+      32010546,
+      6873165,
+      32010530,
+      6873496,
+      10785269,
+      4863265,
+      6873499,
+      6872080,
+      6873511,
+      32010552,
+      32010535,
+      32010542,
+      32010536,
+      32010555,
+      32010532,
+      32010534,
+      32010544,
+      32010551,
+      36476451,
+      32010526,
+      32010550,
+      6873163,
+      6872465,
+      32010543
+    ]
+  },
   "slime": {
-    "pexels": [6150669, 5871327, 6150668, 6150661, 5871330, 5871329, 5875724]
+    "pexels": [
+      6150669,
+      5871327,
+      6150668,
+      6150661,
+      5871330,
+      5871329,
+      5875724
+    ]
   },
   "tinta": {
-    "pexels": [6957793, 6109095, 7216717, 6109114, 6474076, 7216716, 6473929, 6109128, 8738478]
+    "pexels": [
+      6957793,
+      6109095,
+      7216717,
+      6109114,
+      6474076,
+      7216716,
+      6473929,
+      6109128,
+      8738478
+    ]
   },
   "satisfatorio": {
-    "pexels": [30335428, 16456768, 16029652, 16561467, 5871940, 8746938, 36504176]
+    "pexels": [
+      30335428,
+      16456768,
+      16029652,
+      16561467,
+      5871940,
+      8746938,
+      36504176
+    ]
   },
   "minecraft": {
     "_sobre": "Gravações do próprio dono do canal. Coloque os arquivos em saida/fundos/minecraft/.",
