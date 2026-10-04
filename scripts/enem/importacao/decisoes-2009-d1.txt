@@ -1,4 +1,4 @@
-## 59-enem-2009-ciencias-da-natureza.md | 2009 | 1 | 1º dia, caderno azul | Ciências da Natureza
+## 66-enem-2009-ciencias-da-natureza.md | 2009 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2009 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2009, Ciências da Natureza ocupou as questões 1 a 45 do 1º dia. Fórmulas, quadros e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
@@ -97,7 +97,7 @@ x: Calor por mol de CO₂: metano (1 CO₂) 890 kJ; butano (4 CO₂) 2 878 ÷ 4 
 @44 d quimica/solucoes
 x: A mistura tinha 20% de 800 kg = 160 kg de etanol. O álcool hidratado levou 96% de 100 kg = 96 kg. Sobraram 160 − 96 = 64 kg de etanol em 800 − 100 = 700 kg de resíduo: 64 ÷ 700 ≈ 9,1%.
 
-## 60-enem-2009-ciencias-humanas.md | 2009 | 1 | 1º dia, caderno azul | Ciências Humanas
+## 67-enem-2009-ciencias-humanas.md | 2009 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
 descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2009 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2009, Ciências Humanas ocupou as questões 46 a 90 do 1º dia. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.

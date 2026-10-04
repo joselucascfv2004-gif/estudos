@@ -1,4 +1,4 @@
-## 21-enem-2017-matematica.md | 2017 | 2 | 2º dia, caderno amarelo | Matemática
+## 33-enem-2017-matematica.md | 2017 | 2 | 2º dia, caderno amarelo | Matemática
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2017 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2017 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Princípio multiplicativo:** se cada posição tem n opções independentes, multiplique as opções de todas as posições.
@@ -85,7 +85,7 @@ x: Um sinal verde (2/3) e nove vermelhos ((1/3)⁹) em uma ordem dá 2/3¹⁰. O
 s: Aoanalisarumcasoespecífico,ocientistaobteveosdados: Pressão mínima 78 Pressão máxima 120 Número de batimentos cardíacos por minuto 90 A função => Ao analisar um caso específico, o cientista obteve os dados: || Quadro: pressão mínima: 78; pressão máxima: 120; número de batimentos cardíacos por minuto: 90. || A função
 x: O cosseno vai de −1 a 1. A = média entre máximo e mínimo = (120 + 78) ÷ 2 = 99; B = metade da diferença = (120 − 78) ÷ 2 = 21. Com 90 batimentos por minuto, cada batimento (período) dura 60 ÷ 90 = 2/3 s. Período = 2π ÷ k, então k = 2π ÷ (2/3) = 3π.
 
-## 22-enem-2017-ciencias-da-natureza.md | 2017 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+## 34-enem-2017-ciencias-da-natureza.md | 2017 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2017 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2017 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Química:** teste de chama (elétrons excitados emitem luz), lei de Hess, estequiometria com rendimento, meia-vida, forças intermoleculares e acidez (pKa).

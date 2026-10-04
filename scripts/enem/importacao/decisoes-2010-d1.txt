@@ -119,7 +119,7 @@ x: A empresa troca funcionários por máquinas para cortar custos. A consequênc
 @44 m filosofia/filosofia-moderna-e-contemporanea
 x: Para o autor, o sujeito é histórico-social: suas ações individuais só podem ser avaliadas dentro das relações coletivas. Por isso a ética ganha um sentido coletivo e político.
 
-## 64-enem-2010-ciencias-da-natureza.md | 2010 | 1 | 1º dia, caderno azul | Ciências da Natureza
+## 62-enem-2010-ciencias-da-natureza.md | 2010 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
 descricao: Questões oficiais de Biologia, Física e Química do ENEM 2010 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2010, Ciências da Natureza ocupou as questões 46 a 90 do 1º dia. Os números indicam a posição de cada questão na prova. Quadros e equações químicas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.

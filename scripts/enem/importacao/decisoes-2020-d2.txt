@@ -1,4 +1,4 @@
-## 09-enem-2020-matematica.md | 2020 | 2 | 2º dia, caderno amarelo | Matemática
+## 21-enem-2020-matematica.md | 2020 | 2 | 2º dia, caderno amarelo | Matemática
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto e, quando uma figura só trazia medidas, elas foram escritas no enunciado. As explicações foram escritas para este aplicativo.
 - **Custo total = parte fixa + parte variável:** em compras com frete, some preço × quantidade com frete × distância antes de comparar.
@@ -66,7 +66,7 @@ x: Aplique log dos dois lados de f = A/r^B: log f = log A − log r^B = log A �
 @172 d matematica/estatistica
 x: Média atual 1,93 × 15 = 28,95 m; meta 1,99 × 15 = 29,85 m (precisa crescer 0,90 m). Saem 1,78 + 1,82 + 1,84 + 1,86 = 7,30 m e entra 2,02 m. Os três novos devem somar pelo menos 29,85 − (28,95 − 7,30 + 2,02) = 6,18 m, ou seja, média de 6,18 ÷ 3 = 2,06 m.
 
-## 10-enem-2020-ciencias-da-natureza.md | 2020 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+## 22-enem-2020-ciencias-da-natureza.md | 2020 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e equações químicas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Física do dia a dia:** panela de pressão, fones com cancelamento de ruído (interferência), gaiola de Faraday (carro em tempestade), geradores (lei de Faraday) e geladeiras.

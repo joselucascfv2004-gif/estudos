@@ -1,4 +1,4 @@
-## 17-enem-2018-matematica.md | 2018 | 2 | 2º dia, caderno azul | Matemática
+## 29-enem-2018-matematica.md | 2018 | 2 | 2º dia, caderno azul | Matemática
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (2º dia, caderno 7, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, matrizes e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Média ponderada:** multiplique cada valor pelo seu peso (ou pela quantidade de vezes que aparece) e divida pelo total.
@@ -82,7 +82,7 @@ x: Chame de p o valor de cada parcela. O total é o mesmo: Np = (N + 5)(p − 20
 @178 d matematica/equacoes-e-sistemas
 x: Seja u quem comprou 1 bilhete e t quem comprou 3. Bilhetes: u + 90 + 3t. Alunos do colégio: 80 + u + 45 + t. Como os bilhetes excedem os alunos em 33: u + 90 + 3t = u + t + 158, então t = 34 e foram u + 192 bilhetes. Como u é 20% dos bilhetes: u = 0,2(u + 192), 0,8u = 38,4 e u = 48.
 
-## 18-enem-2018-ciencias-da-natureza.md | 2018 | 2 | 2º dia, caderno azul | Ciências da Natureza
+## 30-enem-2018-ciencias-da-natureza.md | 2018 | 2 | 2º dia, caderno azul | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (2º dia, caderno 7, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Hormônios da glicose:** a insulina guarda (glicose vira glicogênio); o glucagon libera (glicogênio vira glicose).

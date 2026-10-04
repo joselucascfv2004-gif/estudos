@@ -1,4 +1,4 @@
-## 57-enem-2009-matematica.md | 2009 | 2 | 2º dia, caderno amarelo | Matemática
+## 65-enem-2009-matematica.md | 2009 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2009 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações e expoentes foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
@@ -91,7 +91,7 @@ x: ICad é a média de TC e TA. Multiplicando por 2: 1,2 = NV/NF + NA/NV e, dobr
 @177 d matematica/porcentagem
 x: Cheque especial: 12 × 150 = R$ 1 800, ou R$ 1 500 à vista. Cartão: 5 × 80 = R$ 400, ou R$ 300 à vista. Emprestar de José custa 25% a mais. Opções: renegociar = 2 250; emprestar para as duas = 1 800 × 1,25 = 2 250; pagar tudo em parcelas = 2 200; emprestar só para o cheque = 1 875 + 400 = 2 275; emprestar só para o cartão = 375 + 1 800 = 2 175. A menor é a última.
 
-## 58-enem-2009-linguagens.md | 2009 | 2 | 2º dia, caderno amarelo | Linguagens
+## 68-enem-2009-linguagens.md | 2009 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2009 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.

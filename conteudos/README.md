@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**5795 questões** em **150 tópicos**.
+**5944 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,73 +225,77 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 1882 questões
+## ENEM — provas oficiais — 2031 questões
 
 *Provas anteriores*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [ENEM 2023 — Matemática](enem-oficial/01-enem-2023-matematica.md) | ENEM | 6 | 8 | 5 |
-| [ENEM 2023 — Ciências da Natureza](enem-oficial/02-enem-2023-ciencias-da-natureza.md) | ENEM | 9 | 13 | 6 |
-| [ENEM 2023 — Ciências Humanas](enem-oficial/03-enem-2023-ciencias-humanas.md) | ENEM | 8 | 14 | 8 |
-| [ENEM 2023 — Linguagens](enem-oficial/04-enem-2023-linguagens.md) | ENEM | 9 | 10 | 8 |
-| [ENEM 2022 — Matemática](enem-oficial/05-enem-2022-matematica.md) | ENEM | 8 | 10 | 3 |
-| [ENEM 2022 — Ciências da Natureza](enem-oficial/06-enem-2022-ciencias-da-natureza.md) | ENEM | 9 | 16 | 4 |
-| [ENEM 2022 — Ciências Humanas](enem-oficial/07-enem-2022-ciencias-humanas.md) | ENEM | 10 | 17 | 3 |
-| [ENEM 2022 — Linguagens](enem-oficial/08-enem-2022-linguagens.md) | ENEM | 8 | 15 | 3 |
-| [ENEM 2020 — Matemática](enem-oficial/09-enem-2020-matematica.md) | ENEM | 5 | 12 | 2 |
-| [ENEM 2020 — Ciências da Natureza](enem-oficial/10-enem-2020-ciencias-da-natureza.md) | ENEM | 13 | 10 | 4 |
-| [ENEM 2020 — Ciências Humanas](enem-oficial/11-enem-2020-ciencias-humanas.md) | ENEM | 8 | 26 | 3 |
-| [ENEM 2020 — Linguagens](enem-oficial/12-enem-2020-linguagens.md) | ENEM | 9 | 13 | 8 |
-| [ENEM 2019 — Matemática](enem-oficial/13-enem-2019-matematica.md) | ENEM | 12 | 12 | 4 |
-| [ENEM 2019 — Ciências da Natureza](enem-oficial/14-enem-2019-ciencias-da-natureza.md) | ENEM | 11 | 13 | 3 |
-| [ENEM 2019 — Ciências Humanas](enem-oficial/15-enem-2019-ciencias-humanas.md) | ENEM | 13 | 19 | 6 |
-| [ENEM 2019 — Linguagens](enem-oficial/16-enem-2019-linguagens.md) | ENEM | 9 | 10 | 6 |
-| [ENEM 2018 — Matemática](enem-oficial/17-enem-2018-matematica.md) | ENEM | 10 | 8 | 6 |
-| [ENEM 2018 — Ciências da Natureza](enem-oficial/18-enem-2018-ciencias-da-natureza.md) | ENEM | 11 | 11 | 1 |
-| [ENEM 2018 — Ciências Humanas](enem-oficial/19-enem-2018-ciencias-humanas.md) | ENEM | 12 | 20 | 4 |
-| [ENEM 2018 — Linguagens](enem-oficial/20-enem-2018-linguagens.md) | ENEM | 8 | 13 | 3 |
-| [ENEM 2017 — Matemática](enem-oficial/21-enem-2017-matematica.md) | ENEM | 7 | 10 | 8 |
-| [ENEM 2017 — Ciências da Natureza](enem-oficial/22-enem-2017-ciencias-da-natureza.md) | ENEM | 9 | 8 | 6 |
-| [ENEM 2017 — Ciências Humanas](enem-oficial/23-enem-2017-ciencias-humanas.md) | ENEM | 10 | 16 | 5 |
-| [ENEM 2017 — Linguagens](enem-oficial/24-enem-2017-linguagens.md) | ENEM | 9 | 10 | 5 |
-| [ENEM 2016 — Matemática](enem-oficial/25-enem-2016-matematica.md) | ENEM | 7 | 8 | 7 |
-| [ENEM 2016 — Linguagens](enem-oficial/26-enem-2016-linguagens.md) | ENEM | 10 | 13 | 5 |
-| [ENEM 2016 — Ciências Humanas](enem-oficial/27-enem-2016-ciencias-humanas.md) | ENEM | 11 | 19 | 5 |
-| [ENEM 2016 — Ciências da Natureza](enem-oficial/28-enem-2016-ciencias-da-natureza.md) | ENEM | 8 | 13 | 5 |
-| [ENEM 2015 — Matemática](enem-oficial/29-enem-2015-matematica.md) | ENEM | 8 | 11 | 6 |
-| [ENEM 2015 — Linguagens](enem-oficial/30-enem-2015-linguagens.md) | ENEM | 9 | 13 | 5 |
-| [ENEM 2015 — Ciências Humanas](enem-oficial/31-enem-2015-ciencias-humanas.md) | ENEM | 10 | 17 | 3 |
-| [ENEM 2015 — Ciências da Natureza](enem-oficial/32-enem-2015-ciencias-da-natureza.md) | ENEM | 11 | 14 | 5 |
-| [ENEM 2014 — Matemática](enem-oficial/33-enem-2014-matematica.md) | ENEM | 9 | 12 | 7 |
-| [ENEM 2014 — Linguagens](enem-oficial/34-enem-2014-linguagens.md) | ENEM | 9 | 15 | 5 |
-| [ENEM 2014 — Ciências Humanas](enem-oficial/35-enem-2014-ciencias-humanas.md) | ENEM | 9 | 20 | 2 |
-| [ENEM 2014 — Ciências da Natureza](enem-oficial/36-enem-2014-ciencias-da-natureza.md) | ENEM | 9 | 13 | 3 |
-| [ENEM 2025 — Matemática](enem-oficial/37-enem-2025-matematica.md) | ENEM | 12 | 9 | 3 |
-| [ENEM 2025 — Ciências da Natureza](enem-oficial/38-enem-2025-ciencias-da-natureza.md) | ENEM | 15 | 9 | 4 |
-| [ENEM 2025 — Linguagens](enem-oficial/39-enem-2025-linguagens.md) | ENEM | 18 | 10 | 1 |
-| [ENEM 2025 — Ciências Humanas](enem-oficial/40-enem-2025-ciencias-humanas.md) | ENEM | 25 | 12 | 4 |
-| [ENEM 2024 — Matemática](enem-oficial/41-enem-2024-matematica.md) | ENEM | 13 | 10 | 2 |
-| [ENEM 2024 — Ciências da Natureza](enem-oficial/42-enem-2024-ciencias-da-natureza.md) | ENEM | 13 | 9 | 1 |
-| [ENEM 2024 — Linguagens](enem-oficial/43-enem-2024-linguagens.md) | ENEM | 15 | 17 | 4 |
-| [ENEM 2024 — Ciências Humanas](enem-oficial/44-enem-2024-ciencias-humanas.md) | ENEM | 26 | 15 | 1 |
-| [ENEM 2013 — Matemática](enem-oficial/45-enem-2013-matematica.md) | ENEM | 10 | 11 | 4 |
-| [ENEM 2013 — Linguagens](enem-oficial/46-enem-2013-linguagens.md) | ENEM | 11 | 11 | 4 |
-| [ENEM 2013 — Ciências Humanas](enem-oficial/47-enem-2013-ciencias-humanas.md) | ENEM | 13 | 14 | 9 |
-| [ENEM 2013 — Ciências da Natureza](enem-oficial/48-enem-2013-ciencias-da-natureza.md) | ENEM | 12 | 14 | 5 |
-| [ENEM 2012 — Matemática](enem-oficial/49-enem-2012-matematica.md) | ENEM | 13 | 14 | 5 |
-| [ENEM 2012 — Linguagens](enem-oficial/50-enem-2012-linguagens.md) | ENEM | 8 | 14 | 8 |
-| [ENEM 2012 — Ciências Humanas](enem-oficial/51-enem-2012-ciencias-humanas.md) | ENEM | 10 | 20 | 7 |
-| [ENEM 2012 — Ciências da Natureza](enem-oficial/52-enem-2012-ciencias-da-natureza.md) | ENEM | 15 | 16 | 3 |
-| [ENEM 2011 — Matemática](enem-oficial/53-enem-2011-matematica.md) | ENEM | 15 | 11 | 4 |
-| [ENEM 2011 — Linguagens](enem-oficial/54-enem-2011-linguagens.md) | ENEM | 10 | 13 | 5 |
-| [ENEM 2011 — Ciências Humanas](enem-oficial/55-enem-2011-ciencias-humanas.md) | ENEM | 15 | 19 | 5 |
-| [ENEM 2011 — Ciências da Natureza](enem-oficial/56-enem-2011-ciencias-da-natureza.md) | ENEM | 11 | 22 | 7 |
-| [ENEM 2009 — Matemática](enem-oficial/57-enem-2009-matematica.md) | ENEM | 6 | 16 | 7 |
-| [ENEM 2009 — Linguagens](enem-oficial/58-enem-2009-linguagens.md) | ENEM | 7 | 10 | 5 |
-| [ENEM 2009 — Ciências da Natureza](enem-oficial/59-enem-2009-ciencias-da-natureza.md) | ENEM | 8 | 17 | 11 |
-| [ENEM 2009 — Ciências Humanas](enem-oficial/60-enem-2009-ciencias-humanas.md) | ENEM | 10 | 24 | 4 |
+| [ENEM 2025 — Matemática](enem-oficial/01-enem-2025-matematica.md) | ENEM | 12 | 9 | 3 |
+| [ENEM 2025 — Ciências da Natureza](enem-oficial/02-enem-2025-ciencias-da-natureza.md) | ENEM | 15 | 9 | 4 |
+| [ENEM 2025 — Ciências Humanas](enem-oficial/03-enem-2025-ciencias-humanas.md) | ENEM | 25 | 12 | 4 |
+| [ENEM 2025 — Linguagens](enem-oficial/04-enem-2025-linguagens.md) | ENEM | 18 | 10 | 1 |
+| [ENEM 2024 — Matemática](enem-oficial/05-enem-2024-matematica.md) | ENEM | 13 | 10 | 2 |
+| [ENEM 2024 — Ciências da Natureza](enem-oficial/06-enem-2024-ciencias-da-natureza.md) | ENEM | 13 | 9 | 1 |
+| [ENEM 2024 — Ciências Humanas](enem-oficial/07-enem-2024-ciencias-humanas.md) | ENEM | 26 | 15 | 1 |
+| [ENEM 2024 — Linguagens](enem-oficial/08-enem-2024-linguagens.md) | ENEM | 15 | 17 | 4 |
+| [ENEM 2023 — Matemática](enem-oficial/09-enem-2023-matematica.md) | ENEM | 6 | 8 | 5 |
+| [ENEM 2023 — Ciências da Natureza](enem-oficial/10-enem-2023-ciencias-da-natureza.md) | ENEM | 9 | 13 | 6 |
+| [ENEM 2023 — Ciências Humanas](enem-oficial/11-enem-2023-ciencias-humanas.md) | ENEM | 8 | 14 | 8 |
+| [ENEM 2023 — Linguagens](enem-oficial/12-enem-2023-linguagens.md) | ENEM | 9 | 10 | 8 |
+| [ENEM 2022 — Matemática](enem-oficial/13-enem-2022-matematica.md) | ENEM | 8 | 10 | 3 |
+| [ENEM 2022 — Ciências da Natureza](enem-oficial/14-enem-2022-ciencias-da-natureza.md) | ENEM | 9 | 16 | 4 |
+| [ENEM 2022 — Ciências Humanas](enem-oficial/15-enem-2022-ciencias-humanas.md) | ENEM | 10 | 17 | 3 |
+| [ENEM 2022 — Linguagens](enem-oficial/16-enem-2022-linguagens.md) | ENEM | 8 | 15 | 3 |
+| [ENEM 2021 — Matemática](enem-oficial/17-enem-2021-matematica.md) | ENEM | 9 | 20 | 5 |
+| [ENEM 2021 — Ciências da Natureza](enem-oficial/18-enem-2021-ciencias-da-natureza.md) | ENEM | 12 | 22 | 3 |
+| [ENEM 2021 — Ciências Humanas](enem-oficial/19-enem-2021-ciencias-humanas.md) | ENEM | 14 | 22 | 9 |
+| [ENEM 2021 — Linguagens](enem-oficial/20-enem-2021-linguagens.md) | ENEM | 8 | 22 | 3 |
+| [ENEM 2020 — Matemática](enem-oficial/21-enem-2020-matematica.md) | ENEM | 5 | 12 | 2 |
+| [ENEM 2020 — Ciências da Natureza](enem-oficial/22-enem-2020-ciencias-da-natureza.md) | ENEM | 13 | 10 | 4 |
+| [ENEM 2020 — Ciências Humanas](enem-oficial/23-enem-2020-ciencias-humanas.md) | ENEM | 8 | 26 | 3 |
+| [ENEM 2020 — Linguagens](enem-oficial/24-enem-2020-linguagens.md) | ENEM | 9 | 13 | 8 |
+| [ENEM 2019 — Matemática](enem-oficial/25-enem-2019-matematica.md) | ENEM | 12 | 12 | 4 |
+| [ENEM 2019 — Ciências da Natureza](enem-oficial/26-enem-2019-ciencias-da-natureza.md) | ENEM | 11 | 13 | 3 |
+| [ENEM 2019 — Ciências Humanas](enem-oficial/27-enem-2019-ciencias-humanas.md) | ENEM | 13 | 19 | 6 |
+| [ENEM 2019 — Linguagens](enem-oficial/28-enem-2019-linguagens.md) | ENEM | 9 | 10 | 6 |
+| [ENEM 2018 — Matemática](enem-oficial/29-enem-2018-matematica.md) | ENEM | 10 | 8 | 6 |
+| [ENEM 2018 — Ciências da Natureza](enem-oficial/30-enem-2018-ciencias-da-natureza.md) | ENEM | 11 | 11 | 1 |
+| [ENEM 2018 — Ciências Humanas](enem-oficial/31-enem-2018-ciencias-humanas.md) | ENEM | 12 | 20 | 4 |
+| [ENEM 2018 — Linguagens](enem-oficial/32-enem-2018-linguagens.md) | ENEM | 8 | 13 | 3 |
+| [ENEM 2017 — Matemática](enem-oficial/33-enem-2017-matematica.md) | ENEM | 7 | 10 | 8 |
+| [ENEM 2017 — Ciências da Natureza](enem-oficial/34-enem-2017-ciencias-da-natureza.md) | ENEM | 9 | 8 | 6 |
+| [ENEM 2017 — Ciências Humanas](enem-oficial/35-enem-2017-ciencias-humanas.md) | ENEM | 10 | 16 | 5 |
+| [ENEM 2017 — Linguagens](enem-oficial/36-enem-2017-linguagens.md) | ENEM | 9 | 10 | 5 |
+| [ENEM 2016 — Matemática](enem-oficial/37-enem-2016-matematica.md) | ENEM | 7 | 8 | 7 |
+| [ENEM 2016 — Ciências da Natureza](enem-oficial/38-enem-2016-ciencias-da-natureza.md) | ENEM | 8 | 13 | 5 |
+| [ENEM 2016 — Ciências Humanas](enem-oficial/39-enem-2016-ciencias-humanas.md) | ENEM | 11 | 19 | 5 |
+| [ENEM 2016 — Linguagens](enem-oficial/40-enem-2016-linguagens.md) | ENEM | 10 | 13 | 5 |
+| [ENEM 2015 — Matemática](enem-oficial/41-enem-2015-matematica.md) | ENEM | 8 | 11 | 6 |
+| [ENEM 2015 — Ciências da Natureza](enem-oficial/42-enem-2015-ciencias-da-natureza.md) | ENEM | 11 | 14 | 5 |
+| [ENEM 2015 — Ciências Humanas](enem-oficial/43-enem-2015-ciencias-humanas.md) | ENEM | 10 | 17 | 3 |
+| [ENEM 2015 — Linguagens](enem-oficial/44-enem-2015-linguagens.md) | ENEM | 9 | 13 | 5 |
+| [ENEM 2014 — Matemática](enem-oficial/45-enem-2014-matematica.md) | ENEM | 9 | 12 | 7 |
+| [ENEM 2014 — Ciências da Natureza](enem-oficial/46-enem-2014-ciencias-da-natureza.md) | ENEM | 9 | 13 | 3 |
+| [ENEM 2014 — Ciências Humanas](enem-oficial/47-enem-2014-ciencias-humanas.md) | ENEM | 9 | 20 | 2 |
+| [ENEM 2014 — Linguagens](enem-oficial/48-enem-2014-linguagens.md) | ENEM | 9 | 15 | 5 |
+| [ENEM 2013 — Matemática](enem-oficial/49-enem-2013-matematica.md) | ENEM | 10 | 11 | 4 |
+| [ENEM 2013 — Ciências da Natureza](enem-oficial/50-enem-2013-ciencias-da-natureza.md) | ENEM | 12 | 14 | 5 |
+| [ENEM 2013 — Ciências Humanas](enem-oficial/51-enem-2013-ciencias-humanas.md) | ENEM | 13 | 14 | 9 |
+| [ENEM 2013 — Linguagens](enem-oficial/52-enem-2013-linguagens.md) | ENEM | 11 | 11 | 4 |
+| [ENEM 2012 — Matemática](enem-oficial/53-enem-2012-matematica.md) | ENEM | 13 | 14 | 5 |
+| [ENEM 2012 — Ciências da Natureza](enem-oficial/54-enem-2012-ciencias-da-natureza.md) | ENEM | 15 | 16 | 3 |
+| [ENEM 2012 — Ciências Humanas](enem-oficial/55-enem-2012-ciencias-humanas.md) | ENEM | 10 | 20 | 7 |
+| [ENEM 2012 — Linguagens](enem-oficial/56-enem-2012-linguagens.md) | ENEM | 8 | 14 | 8 |
+| [ENEM 2011 — Matemática](enem-oficial/57-enem-2011-matematica.md) | ENEM | 15 | 11 | 4 |
+| [ENEM 2011 — Ciências da Natureza](enem-oficial/58-enem-2011-ciencias-da-natureza.md) | ENEM | 11 | 22 | 7 |
+| [ENEM 2011 — Ciências Humanas](enem-oficial/59-enem-2011-ciencias-humanas.md) | ENEM | 15 | 19 | 5 |
+| [ENEM 2011 — Linguagens](enem-oficial/60-enem-2011-linguagens.md) | ENEM | 10 | 13 | 5 |
 | [ENEM 2010 — Matemática](enem-oficial/61-enem-2010-matematica.md) | ENEM | 7 | 15 | 4 |
-| [ENEM 2010 — Linguagens](enem-oficial/62-enem-2010-linguagens.md) | ENEM | 7 | 19 | 4 |
+| [ENEM 2010 — Ciências da Natureza](enem-oficial/62-enem-2010-ciencias-da-natureza.md) | ENEM | 12 | 19 | 6 |
 | [ENEM 2010 — Ciências Humanas](enem-oficial/63-enem-2010-ciencias-humanas.md) | ENEM | 17 | 23 | 1 |
-| [ENEM 2010 — Ciências da Natureza](enem-oficial/64-enem-2010-ciencias-da-natureza.md) | ENEM | 12 | 19 | 6 |
+| [ENEM 2010 — Linguagens](enem-oficial/64-enem-2010-linguagens.md) | ENEM | 7 | 19 | 4 |
+| [ENEM 2009 — Matemática](enem-oficial/65-enem-2009-matematica.md) | ENEM | 6 | 16 | 7 |
+| [ENEM 2009 — Ciências da Natureza](enem-oficial/66-enem-2009-ciencias-da-natureza.md) | ENEM | 8 | 17 | 11 |
+| [ENEM 2009 — Ciências Humanas](enem-oficial/67-enem-2009-ciencias-humanas.md) | ENEM | 10 | 24 | 4 |
+| [ENEM 2009 — Linguagens](enem-oficial/68-enem-2009-linguagens.md) | ENEM | 7 | 10 | 5 |

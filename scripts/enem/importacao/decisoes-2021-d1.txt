@@ -1,0 +1,193 @@
+## 20-enem-2021-linguagens.md | 2021 | 1 | 1º dia, caderno azul | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2021 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2021 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Variação linguística:** expressões populares e ditados como patrimônio, "tu" × "você" pelo Brasil, purismo gramatical (Lima Barreto) e marcas informais no samba.
+- **Gêneros e argumentação:** notícia alarmante, resenha com opinião implícita, artigo de opinião, crônica com função emotiva, citações como estratégia.
+- **Literatura:** Machado de Assis (Um homem célebre, O alienista, Singular ocorrência), Guimarães Rosa, Hilda Hilst, Maura Lopes Cançado, Sosígenes Costa.
+- **Música, artes e corpo:** canções de Chico Buarque, Gonzaguinha e Nelson Sargento, dança na internet, skate, lazer infantil e corpo feminino.
+
+@6 f portugues/funcoes-generos-e-variacao
+x: O texto fica alarmante porque repete hipóteses assustadoras: "se tivesse sido capturado", "se caísse no continente", "se desabasse no oceano". São formulações hipotéticas sobre o que poderia ter acontecido.
+@7 f portugues/funcoes-generos-e-variacao
+x: O poeta zomba do literato que trocou "pega" por "captura" e oferece ao dicionarista expressões do povo, como "estar na draga". Ele valoriza as variedades populares da língua.
+@8 m portugues/interpretacao-de-texto
+x: Ser o único finalista de fora do eixo Estados Unidos-Europa realça a façanha: uma história do interior do Nordeste conseguiu um prêmio internacional importante.
+@9 m portugues/funcoes-generos-e-variacao
+s: A volta do marido pródigo — Bom dia => A volta do marido pródigo || — Bom dia
+x: Os personagens usam ditados populares, como "Quem não tem brio engorda" e "P'ra uns, as vacas morrem… p'ra outros até boi pega a parir". Eles guardam a sabedoria e a memória coletiva do povo.
+@10 m portugues/funcoes-generos-e-variacao
+s: retrata horror do holocausto Centenas => retrata horror do holocausto || Centenas
+s: dos votantes. Carta Capital, n. 873, 22 out. 2015. => dos votantes. || > Carta Capital, n. 873, 22 out. 2015.
+x: Dizer que premiar o filme "não deixaria de ser um passo à frente" é uma opinião do autor, apresentada de forma indireta. Os outros trechos apenas informam fatos sobre o filme.
+@11 m literatura/pre-modernismo-ao-contemporaneo v
+x: A canção dá voz a um escravizado que implora para não ser castigado ("me pôr no tronco", "meus olhos vai furar"). Vocabulário e situação lembram a violência física e simbólica da escravidão.
+@14 m artes/artes-e-educacao-fisica
+s: no fundo do mar || TAYLOR => no fundo do mar || (Imagem: esculturas submersas de pessoas numa balsa.) || TAYLOR
+s: Instalação. || Museu Atlântico, Lanzarote, Canárias, 2016 (detalhe). A balsa => Instalação. Museu Atlântico, Lanzarote, Canárias, 2016 (detalhe). || A balsa
+x: Além de mostrar a obra, a reportagem diz que a imagem "dispensa qualquer palavra. Exatamente o papel da arte": a arte guarda na memória tragédias, como a dos refugiados, para que não se repitam.
+@15 m literatura/quinhentismo-ao-simbolismo
+x: Pestana quer compor música erudita, mas só lhe saem polcas dançantes. O conflito mostra a tensão entre o erudito e o popular na formação da música brasileira.
+@16 m portugues/interpretacao-de-texto
+x: A letra de "Sinal fechado" mostra dois amigos que se encontram com pressa e não conseguem conversar. É um exemplo concreto da pressa que o artigo critica.
+@17 m portugues/interpretacao-de-texto
+x: O texto diz que Paulo César Lima, chamado de "jogador-problema", ousou dizer a palavra "racismo" e denunciá-lo. Essa atitude contestadora enfraqueceu o mito da democracia racial.
+@19 f artes/artes-e-educacao-fisica
+x: As crianças brincam menos, sozinhas, dentro de casa e com aparelhos eletrônicos. Isso significa que se movimentam menos: a vivência corporal ficou menos ativa.
+@20 m artes/artes-e-educacao-fisica
+x: O projeto junta corpo, dança, computação gráfica e internet. É uma arte multimodal, que mistura linguagens para ampliar as formas de expressão.
+@21 m portugues/interpretacao-de-texto
+x: O Texto I diz que os estoques de água doce são repostos indefinidamente pelo ciclo da água. O Texto II diz que os aquíferos não conseguem recuperar seu nível. A divergência está em ser possível ou não manter os estoques.
+@22 f portugues/funcoes-generos-e-variacao
+x: Usar "tu" ou "você" muda conforme a região e a época. Essa convivência de formas é um exemplo da diversidade (variação) da língua.
+@23 f artes/artes-e-educacao-fisica
+x: O dançarino uniu o balé clássico ao popping da street dance, estilo da periferia. A criação ganhou com o encontro de realidades culturais diferentes.
+@24 m literatura/pre-modernismo-ao-contemporaneo
+x: O texto mostra um preso espancado sem motivo, que só obedece para sobreviver. A narrativa revela a violência de um sistema em que os direitos não valem: um estado de exceção.
+@25 m literatura/pre-modernismo-ao-contemporaneo
+x: O delegado ameaça o estrangeiro, mas se intimida quando a mulher cita parentes militares, e termina perguntando "Da ativa, minha senhora?". A virada cômica dá ao texto um tom de anedota.
+@26 m portugues/morfologia-e-sintaxe
+x: "O Pedro mencionado" retoma "O gigante do Brasil", citado no verso do hino. As duas expressões se referem à mesma pessoa, Dom Pedro II.
+@28 m portugues/interpretacao-de-texto
+s: dos últimos anos. || Esse fato => dos últimos anos. Esse fato
+x: O Facebook mudou o design para deixar de ser o "espaço da treta", ou seja, para se adaptar ao modo como as pessoas usam a rede. As tecnologias assimilam o comportamento dos usuários.
+@29 f portugues/interpretacao-de-texto
+x: O autor defende ver vários lados de uma notícia e "ter um pé atrás". Ele quer que o leitor tenha uma postura crítica diante das informações.
+@30 m portugues/funcoes-generos-e-variacao
+x: Pelino corrige todo mundo, até em conversas informais, exigindo "garanto" em vez de "asseguro". Ele ignora que a linguagem muda conforme a situação de comunicação.
+@31 f artes/artes-e-educacao-fisica
+x: Pranchas melhores, mais lugares para andar e mais pessoas começando permitiram que muita gente praticasse o skate: ele se democratizou.
+@32 m portugues/funcoes-generos-e-variacao
+x: O cronista fala das próprias lembranças e sensações ("cheiro gostoso", "Acho que piorei de estojo e de vida"). Predomina a função emotiva, centrada no enunciador.
+@35 m literatura/quinhentismo-ao-simbolismo
+s: Singular ocorrência — Há ocorrências => Singular ocorrência || — Há ocorrências
+x: Os homens tentam definir a mulher pelo homem: viúva, casada, solteira. A identidade e o lugar social dela dependem da relação com um homem.
+@36 m artes/artes-e-educacao-fisica
+s: TEXTO I || HAZOUMÉ => TEXTO I || (Imagem: máscara feita com um galão de plástico e tecido.) || HAZOUMÉ
+x: O artista usa galões de plástico jogados fora como máscaras. O objeto descartado ganha nova função e passa a ter valor artístico.
+@37 m literatura/pre-modernismo-ao-contemporaneo v
+x: A canção manda o povo sorrir, rezar pelo patrão e "baixar a cabeça", em plena ditadura. É uma ironia: critica quem aceita tudo de forma conformista.
+@38 d literatura/pre-modernismo-ao-contemporaneo v
+x: O eu lírico pede ao amado que o chame de volta e lembra marés, peixes e pés molhados. O desejo de reencontro e de plenitude ("revestida de luz") é construído pela memória.
+@39 f portugues/funcoes-generos-e-variacao v
+x: "Falação" (conversa demais) e "pros bailes" (contração de "para os") são marcas da fala informal do dia a dia.
+@40 d literatura/pre-modernismo-ao-contemporaneo
+x: O narrador descreve com ternura e poesia a mulher internada ("Eu amo-a"), mesmo no ambiente de exclusão do hospital. A percepção nasce da imersão lírica nesse espaço de segregação.
+@41 d literatura/pre-modernismo-ao-contemporaneo v
+x: O pavão vermelho representa a alegria que chegou e ficou: depois dele, "os meus outros pavões foram-se embora". O eu lírico mostra ter alcançado a plena realização.
+@42 m artes/artes-e-educacao-fisica
+s: LICHTENSTEIN => (Imagem: pintura de uma moça de maiô segurando uma bola na praia.) || LICHTENSTEIN
+x: A sociedade ensina às mulheres como se mover, se vestir e se comportar para corresponder a um ideal de corpo. A erotização vem dessa educação do gesto e do comportamento.
+@44 m literatura/quinhentismo-ao-simbolismo
+x: O homem da matraca anunciava qualquer coisa que lhe pagassem, e o povo acreditava, mesmo quando era falso. O narrador ironiza a difusão de informações não confiáveis.
+@45 m portugues/interpretacao-de-texto
+x: O texto lembra o centenário de Abel Ferreira e chama o choro de "riquíssima manifestação da genuína alma brasileira". A autora quer destacar o valor histórico e estético do gênero.
+
+## 19-enem-2021-ciencias-humanas.md | 2021 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2021 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2021 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Trabalho e economia:** trabalho que invade a vida privada, novas tecnologias e precarização, enclaves industriais, desigualdade e herança (Piketty), divisão internacional do trabalho.
+- **Geografia:** segurança hídrica, uvas adaptadas ao clima, mineração na Amazônia, Porto Maravilha, Estatuto da Cidade, ciclo sedimentar, sombra no solstício.
+- **História:** tráfico negreiro e pressão inglesa, ciganos no Brasil colonial, jesuítas e medicina, São Francisco, Revolução Inglesa, Estado Novo, suicídio de Vargas, Manifesto dos Pioneiros, escravos "tigres".
+- **Filosofia e sociologia:** Sócrates, Descartes, Nietzsche, Marcuse, Engels, Deleuze, ascetismo medieval, minorias e refugiados.
+
+@46 f sociologia/temas-contemporaneos
+s: 4 dez. 2018. O texto indica => 4 dez. 2018. || O texto indica
+s: A simples vontade de checar => > A simples vontade de checar
+x: Com o celular, o trabalho continua depois do expediente, até no jantar com a família. A pessoa passa a ter mais atividades além da jornada normal.
+@47 d sociologia/temas-contemporaneos
+x: As democracias liberais justificam a desigualdade pelo mérito (quem se esforça ganha mais). Se a riqueza herdada cresce mais que a renda do trabalho, a ideia de mérito perde força.
+@48 m geografia/economia-agropecuaria-industria-energia
+x: O melhoramento cria uvas adaptadas a climas e regiões específicos, como os trópicos e a Serra Gaúcha. As técnicas ajustam o cultivo às condições ambientais de cada lugar.
+@49 m historia/seculo-xx
+x: A Carta de Veneza defende preservar os monumentos intactos. O Texto II diz que o tombamento, ao congelar o monumento, pode levar ao abandono. Divergem sobre as políticas de conservação do patrimônio.
+@50 m geografia/geopolitica-e-globalizacao
+x: Países ricos produzem o lixo eletrônico e o mandam para países pobres, como Gana, onde jovens o desmontam sem proteção. Isso reflete a divisão internacional do trabalho.
+@51 m geografia/biomas-e-questoes-ambientais
+x: A proposta é ter preços justos e autorizações adaptadas tanto à indústria e à grande irrigação quanto à pequena agricultura. Busca uma distribuição justa (equitativa) da água.
+@52 d historia/brasil-imperio
+x: Mesmo depois da Lei Eusébio de Queirós (1850), a Inglaterra não quis revogar o Bill Aberdeen, com medo de que o Brasil voltasse a traficar escravos. O interesse britânico era manter a proibição desse comércio.
+@53 f sociologia/temas-contemporaneos
+x: O texto fala da oração da avó para a chuva durar mais e dos pratos emborcados no terreiro. São práticas místicas que fazem parte do patrimônio cultural da região.
+@54 m sociologia/temas-contemporaneos
+x: O texto liga as novas tecnologias à terceirização, à precarização e à flexibilização. A crítica é a fragilização das relações de trabalho.
+@55 m sociologia/temas-contemporaneos
+x: O refugiado deixa sua cultura de origem (desenraizamento) e fica numa situação jurídica provisória, sem os direitos de cidadão de nenhum dos países (insegurança legal).
+@56 m historia/revolucoes-e-seculo-xix
+x: As mulheres só coletavam plantas como esposas, acompanhando os maridos, e não com projetos próprios. A ciência repetia a hierarquia da sociedade, que punha a mulher em posição inferior.
+@57 m filosofia/filosofia-moderna-e-contemporanea
+x: Para Marcuse, as pessoas "se reconhecem em suas mercadorias": o consumo cria identificação pessoal com objetos, e os desejos sociais parecem individuais.
+@58 f geografia/populacao-e-urbanizacao
+x: Prédios novos, guindastes e obras mudam a cidade todos os dias, e com ela o modo de viver. É a alteração da paisagem geográfica urbana.
+@59 f geografia/geografia-fisica
+x: O sertanejo prevê chuva ou seca observando a lua, as nuvens e outros sinais da natureza ao longo do tempo. É um saber construído pela experiência e pela percepção.
+@60 f sociologia/temas-contemporaneos v
+x: A canção compara o povo a gado: marcado, obediente e ainda assim "feliz". Ela critica a passividade social.
+@61 m geografia/populacao-e-urbanizacao
+x: O Porto Maravilha tenta transformar o Rio em polo de turismo e negócios, como Barcelona e Buenos Aires. É a busca por competir na economia global.
+@62 m geografia/economia-agropecuaria-industria-energia
+x: A indústria brasileira ficou atrasada em microeletrônica e alta tecnologia. Assim, o país depende de tecnologia de fora e fica subordinado aos fluxos globais.
+@63 f geografia/biomas-e-questoes-ambientais
+x: A mineração muda o território de forma brusca e desfaz as relações sociais de comunidades tradicionais. Há rompimento dos vínculos locais.
+@64 d filosofia/filosofia-moderna-e-contemporanea
+x: Para Deleuze e Guattari, maioria não é número, mas um padrão de dominação. Minoria é quem fica fora desse padrão imposto, em relações de poder arbitrárias.
+@65 m sociologia/sociologia-classica
+x: Engels diz aos operários que os interesses da classe média (burguesia) são opostos aos deles. É a base do conceito de luta de classes.
+@66 f sociologia/temas-contemporaneos
+x: Os presos são em sua maioria jovens, negros, pobres e com pouco estudo. Reduzir o encarceramento exige políticas de inclusão social, como educação e emprego.
+@67 m historia/antiguidade-e-idade-media
+x: Depois dos incêndios, as cidades eram reconstruídas e aproveitavam para mudar seu traçado e seus costumes. Houve reconfiguração dos espaços e da vida comunitária.
+@68 f sociologia/temas-contemporaneos
+x: Com a hashtag e o sobrenome Guarani-Kaiowá nas redes, pessoas de fora da comunidade passaram a apoiar a causa indígena.
+@69 m historia/brasil-republica
+x: IBGE e conselhos de geografia e estatística serviam para conhecer o território e as diferenças regionais. Era um projeto de conhecimento científico do país para governá-lo.
+@70 f geografia/biomas-e-questoes-ambientais
+x: Os Xavante sabiam como cada semente germina. Esse saber, unido ao dos cientistas, recuperou uma área do Cerrado: mostra a importância do saber tradicional para o ambiente.
+@71 f geografia/geografia-fisica
+x: Rochas são desgastadas, os fragmentos são transportados e depositados, e formam novas rochas. Esse processo é o ciclo sedimentar.
+@72 f geografia/populacao-e-urbanizacao
+x: O texto pede mecanismos de participação das camadas menos favorecidas no planejamento urbano. Associações de bairro dão voz organizada aos moradores.
+@73 m historia/brasil-republica
+x: Após o suicídio de Vargas, houve grande comoção popular: multidões foram às ruas e atacaram jornais e sedes de opositores. O "estampido" não trouxe silêncio, mas reação do povo.
+@74 m historia/brasil-colonia
+x: A Coroa proibiu os ciganos de usar e ensinar sua língua para que ela desaparecesse. Era uma tentativa de suprimir formas diferentes de viver e se relacionar.
+@75 m historia/brasil-colonia
+x: Os jesuítas juntaram a medicina europeia com os remédios indígenas e aprenderam na prática diária. É uma mistura de saberes vindos da experiência.
+@76 d historia/antiguidade-e-idade-media
+x: São Francisco pregava a pobreza e usava a língua do povo. Movimentos heréticos da época também criticavam a riqueza da Igreja e as desigualdades sociais.
+@77 d historia/brasil-imperio
+x: Um historiador diz que a formação em uma única universidade (Coimbra) uniu a elite brasileira. O outro diz que as universidades da América espanhola tiveram pouco peso nos regionalismos. Divergem sobre o papel das instituições de ensino.
+@78 m historia/idade-moderna
+x: O Texto I vê a revolução como luta do Parlamento pela liberdade. O Texto II mostra camponeses, tecelões e religiosos com reivindicações diferentes: pluralidade de demandas sociais.
+@79 d geografia/economia-agropecuaria-industria-energia
+x: Um enclave quase não se relaciona com o lugar onde está. Uma forma disso é trazer trabalhadores qualificados de fora em vez de contratar a população local.
+@80 d sociologia/temas-contemporaneos
+x: O autor diz que, em sociedades em transição, as decisões são adiadas e alternam inércia e convulsão. As instituições modernas se formam com descompassos.
+@81 m historia/brasil-republica
+s: Educação Nova — 1932 A Educação Nova => Educação Nova — 1932 || A Educação Nova
+a: ensino técnico e mercado de trabalho. | acesso à escola e valorização do mérito. | ampliação de vagas e formação de gestores. | disponibilidade de financiamento e pesquisa avançada. | remuneração de professores e extinção do analfabetismo.
+x: O manifesto defende escola aberta a todos os grupos sociais e uma "hierarquia das capacidades". Une acesso à educação e mérito, contra os privilégios de nascimento da oligarquia.
+@82 f filosofia/filosofia-antiga-e-medieval
+x: Sócrates faz perguntas para que Mênon examine o que pensa saber sobre a virtude. Esse diálogo de perguntas e respostas é o método dialético.
+@83 m historia/antiguidade-e-idade-media
+x: As tampas de panela traziam mensagens sobre como ter um bom casamento. Serviam para ensinar costumes sociais.
+@84 f sociologia/temas-contemporaneos
+x: O torém era feito por parentes e conhecidos, que se reuniam na época do caju. O ritual reforça os laços e a união do grupo.
+@85 m historia/brasil-imperio
+s: contra quem o ac outar. 15 - 13 Escravo fugido. Jornal => contra quem o acoutar. || > Escravo fugido. Jornal
+s: (adaptado). No anúncio => (adaptado). || No anúncio
+x: O escravo fugido se dizia livre (forro) e trabalhava como camarada numa fazenda. Ele resistia criando relações de trabalho como se fosse livre.
+@86 m filosofia/filosofia-moderna-e-contemporanea
+x: Na árvore, raízes, tronco e galhos formam um só ser. Descartes quer mostrar que todo o conhecimento é uma unidade, com a metafísica como base.
+@87 d filosofia/filosofia-moderna-e-contemporanea
+a: combate as práticas sociais de cunho afetivo. | impede o avanço científico no contexto moderno. | associa os cultos pagãos à sacralização da natureza. | condena os modelos filosóficos da Antiguidade Clássica. | consagra a realização humana ao campo transcendental.
+x: Amar o destino ("amor fati") é aceitar esta vida como ela é. Nietzsche critica o cristianismo por colocar a realização humana em outro mundo, depois da morte.
+@88 f historia/antiguidade-e-idade-media
+x: O texto manda castigar e dominar a carne para submetê-la ao espírito. O ascetismo medieval desvaloriza o corpo e seus desejos.
+@89 d geografia/cartografia
+e: Movimento de translação da Terra || (Figura: a Terra em quatro posições ao redor do Sol, com o equinócio de 21 de março, o solstício de 21 de junho, o equinócio de 23 de setembro e o solstício de 21 de dezembro.) || > Disponível em: www.cdcc.usp.br. Acesso em: 27 jul. 2010 (adaptado). || Considerando as informações apresentadas, o prédio do Congresso Nacional, em Brasília, no dia 21 de junho, às 12 horas, projetará sua sombra para a direção
+x: Em 21 de junho, o Sol do meio-dia fica a pino no Trópico de Câncer, no Hemisfério Norte. Brasília fica no Hemisfério Sul, então o Sol aparece ao norte e a sombra aponta para o sul.
+@90 m historia/brasil-imperio
+s: TEXTO I || EIGENHEER => TEXTO I || (Imagem: gravura de escravos carregando barris de lixo e dejetos pelas ruas.) || EIGENHEER
+x: O serviço mais sujo e humilhante ficava com o escravo de menor valor. Essa prática repetia e reforçava as hierarquias sociais.

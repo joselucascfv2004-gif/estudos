@@ -1,4 +1,4 @@
-## 47-enem-2013-ciencias-humanas.md | 2013 | 1 | 1º dia, caderno azul | Ciências Humanas
+## 51-enem-2013-ciencias-humanas.md | 2013 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
 descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2013 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2013, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. Gráficos foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
@@ -88,7 +88,7 @@ x: Nabuco rejeita revoltas de escravizados e guerra civil: a abolição deve ser
 @45 f sociologia/temas-contemporaneos
 x: O autor mostra que os gays passaram a ter direitos que antes lhes eram negados, como trabalhar no governo e ocupar cargos políticos. Isso dependeu da ampliação da noção de cidadania.
 
-## 48-enem-2013-ciencias-da-natureza.md | 2013 | 1 | 1º dia, caderno azul | Ciências da Natureza
+## 50-enem-2013-ciencias-da-natureza.md | 2013 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2013 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, expoentes e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.

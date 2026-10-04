@@ -1,4 +1,4 @@
-## 37-enem-2025-matematica.md | 2025 | 2 | 2º dia, caderno amarelo | Matemática
+## 01-enem-2025-matematica.md | 2025 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2025 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e frações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
@@ -66,7 +66,7 @@ x: O produto −(t + 1)(t − 19) = (t + 1)(19 − t) é uma parábola com máxi
 @179 d matematica/analise-combinatoria
 x: O mais velho recebe a bicicleta ou o celular (2 escolhas) e mais 2 dos 6 presentes comuns: 2 × C(6,2) = 2 × 15 = 30. Dos 5 presentes que sobram, o mais novo escolhe 3: C(5,3) = 10, e o do meio fica com os 2 restantes. Total: 30 × 10 = 300.
 
-## 38-enem-2025-ciencias-da-natureza.md | 2025 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+## 02-enem-2025-ciencias-da-natureza.md | 2025 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 auto: sim
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2025 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.

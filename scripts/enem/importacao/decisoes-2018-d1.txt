@@ -1,4 +1,4 @@
-## 19-enem-2018-ciencias-humanas.md | 2018 | 1 | 1º dia, caderno azul | Ciências Humanas
+## 31-enem-2018-ciencias-humanas.md | 2018 | 1 | 1º dia, caderno azul | Ciências Humanas
 descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2018 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Filosofia:** Epicuro (temperança), Agostinho (eternidade e limites da razão), Tomás de Aquino (razão a serviço da fé), Hobbes × Rousseau (estado de natureza), Merleau-Ponty, Debord (sociedade do espetáculo).
@@ -89,7 +89,7 @@ x: Agostinho discute a pergunta "o que Deus fazia antes de criar o mundo?". Para
 @89 d filosofia/filosofia-moderna-e-contemporanea
 x: Os seringueiros, pela experiência de quem caça na floresta, sabiam que as áreas de refúgio garantiam a caça. A ciência só chegou a esse modelo dez anos depois. O texto mostra o conhecimento empírico das populações tradicionais forçando a revisão do modelo científico.
 
-## 20-enem-2018-linguagens.md | 2018 | 1 | 1º dia, caderno azul | Linguagens
+## 32-enem-2018-linguagens.md | 2018 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2018 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Funções da linguagem:** a referencial informa com linguagem objetiva (denotativa); a emotiva mostra os sentimentos de quem fala.

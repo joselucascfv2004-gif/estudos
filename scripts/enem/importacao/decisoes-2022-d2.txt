@@ -1,4 +1,4 @@
-## 05-enem-2022-matematica.md | 2022 | 2 | 2º dia, caderno amarelo | Matemática
+## 13-enem-2022-matematica.md | 2022 | 2 | 2º dia, caderno amarelo | Matemática
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e gráficos com valores foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Média ponderada:** quando grupos têm tamanhos diferentes, multiplique cada valor pela quantidade do grupo antes de dividir pelo total.
@@ -67,7 +67,7 @@ x: Sejam M e m as voltas maior e menor: 3M + 2m = 1 800 e 2M + m = 1 100. Da seg
 @161 d matematica/numeros-e-operacoes
 x: Cada equipe faz 3 jogos na fase de grupos, e entre dois jogos há pelo menos 3 dias de descanso, então os jogos de uma mesma equipe ficam a cada 4 dias: dias 1, 5 e 9 para os grupos, 13 nas oitavas, 17 nas quartas, 21 nas semifinais e 25 na final. São no mínimo 25 dias.
 
-## 06-enem-2022-ciencias-da-natureza.md | 2022 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+## 14-enem-2022-ciencias-da-natureza.md | 2022 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto, e estruturas químicas desenhadas foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
 - **Biologia aparece muito ligada à saúde:** imunidade (antígenos, vacinas), doenças transmitidas por vetores, metabolismo energético e biotecnologia.

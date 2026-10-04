@@ -26,3 +26,16 @@ marcas verdes no caderno `2010_GBPV_D1.pdf` / `D2.pdf`.
   resolvida e, havendo dúvida, conferida na página do gabarito oficial; a linha `g: LETRA` nas decisões
   registra a letra conferida.
 - Em 2010, o 1º dia teve Ciências Humanas (1–45) e Ciências da Natureza (46–90).
+
+## ENEM 2021
+
+No PDF de 2021, a fonte Arial usa nomes de glifo como `/g70` e a tabela `ToUnicode` está incompleta,
+por isso o texto extraído sai embaralhado. Os números desses nomes são as posições dos glifos no Arial,
+que seguem a ordem padrão Macintosh (sem `nonbreakingspace` e sem `apple`).
+
+1. `python3 consertar-fonte-2021.py` (precisa de `pip install pymupdf`) grava cópias dos PDFs com a
+   tabela corrigida: `2021_PV_fix_D1_CD1.pdf` e `2021_PV_fix_D2_CD5.pdf`. A correção foi conferida
+   comparando o texto com um OCR das páginas.
+2. `PDF=2021_PV_fix_D1_CD1.pdf node extrair2.mjs 2021 1` (e o mesmo para o dia 2) gera os `.json`.
+3. Fórmulas matemáticas desenhadas com outras fontes (Cambria Math, Symbol) aparecem como `⟨gNNN⟩`;
+   essas questões foram reescritas à mão nas decisões (`e:` e `a:`), conferindo a página da prova.

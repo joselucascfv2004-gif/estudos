@@ -1,4 +1,4 @@
-## 51-enem-2012-ciencias-humanas.md | 2012 | 1 | 1º dia, caderno azul | Ciências Humanas
+## 55-enem-2012-ciencias-humanas.md | 2012 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
 descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2012 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2012, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
@@ -102,7 +102,7 @@ s: (adaptado). O viajante => (adaptado). || O viajante
 s: Barbinais, Le Gentil. => > Barbinais, Le Gentil.
 x: O francês estranha ver padres, frades, mulheres, cavalheiros e escravos dançando juntos numa igreja. As festas religiosas coloniais misturavam todos num sentido comunitário de devoção.
 
-## 52-enem-2012-ciencias-da-natureza.md | 2012 | 1 | 1º dia, caderno azul | Ciências da Natureza
+## 54-enem-2012-ciencias-da-natureza.md | 2012 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2012 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, quadros e gráficos simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.

@@ -1,4 +1,4 @@
-## 29-enem-2015-matematica.md | 2015 | 2 | 2º dia, caderno amarelo | Matemática
+## 41-enem-2015-matematica.md | 2015 | 2 | 2º dia, caderno amarelo | Matemática
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2015 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Função quadrática:** o máximo (ou mínimo) fica no vértice, em x = −b ÷ 2a.
@@ -75,7 +75,7 @@ x: Água na lata: um terço da altura, 400 mm, com raio 300 mm: V = 3 × 300² �
 s: pela função P(x) = 8 + 5cos (px - p ) || , onde x => pela função P(x) = 8 + 5cos((πx − π)/6), onde x
 x: Na safra, a produção é máxima e o preço é mínimo. O mínimo de P ocorre quando o cosseno vale −1, ou seja, (πx − π)/6 = π. Então πx − π = 6π e x = 7: julho.
 
-## 30-enem-2015-linguagens.md | 2015 | 2 | 2º dia, caderno amarelo | Linguagens
+## 44-enem-2015-linguagens.md | 2015 | 2 | 2º dia, caderno amarelo | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2015 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (2º dia, caderno 5, amarelo), publicada pelo INEP. Em 2015, Linguagens foi aplicada no 2º dia, junto com Matemática. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Funções da linguagem:** conativa (fala com o leitor, dá ordens), referencial (informa), emotiva (mostra sentimentos).

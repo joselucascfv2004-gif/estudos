@@ -1,4 +1,4 @@
-## 07-enem-2022-ciencias-humanas.md | 2022 | 1 | 1º dia, caderno azul | Ciências Humanas
+## 15-enem-2022-ciencias-humanas.md | 2022 | 1 | 1º dia, caderno azul | Ciências Humanas
 descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2022 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **O texto-base manda:** em Humanas, a alternativa certa costuma repetir, com outras palavras, a ideia central do texto.
@@ -74,7 +74,7 @@ x: O texto diz que, no início da Idade Média, ajudar os famintos era parte da 
 @66 d historia/brasil-imperio
 x: Cayru defendia um currículo menor para as meninas por achá-las incapazes; Santo Amaro defendia o mesmo ensino para todos. De um lado, a dominação sobre as mulheres; do outro, a igualdade humana.
 
-## 08-enem-2022-linguagens.md | 2022 | 1 | 1º dia, caderno azul | Linguagens
+## 16-enem-2022-linguagens.md | 2022 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2022 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Leitura em primeiro lugar:** identifique o gênero (notícia, crônica, poema, campanha), a finalidade e o público do texto.

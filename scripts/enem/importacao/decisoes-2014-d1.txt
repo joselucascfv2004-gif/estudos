@@ -1,4 +1,4 @@
-## 35-enem-2014-ciencias-humanas.md | 2014 | 1 | 1º dia, caderno azul | Ciências Humanas
+## 47-enem-2014-ciencias-humanas.md | 2014 | 1 | 1º dia, caderno azul | Ciências Humanas
 descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2014 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2014, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Filosofia:** Epicuro (prazer moderado), Descartes (dúvida que leva à certeza), Habermas (consenso pela comunicação), Grécia (isonomia e cidadania como participação) e bioética.
@@ -73,7 +73,7 @@ x: O Texto I justifica o golpe de 1964 como necessário ao Estado ("intervençã
 @44 d historia/brasil-imperio
 x: Tavares Bastos defende que as províncias e municípios tenham leis próprias, adaptadas às suas circunstâncias: "administrar-se-ia de perto, governar-se-ia de longe". É a defesa do federalismo, contra a centralização do Império.
 
-## 36-enem-2014-ciencias-da-natureza.md | 2014 | 1 | 1º dia, caderno azul | Ciências da Natureza
+## 46-enem-2014-ciencias-da-natureza.md | 2014 | 1 | 1º dia, caderno azul | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2014 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2014, Ciências da Natureza foi aplicada no 1º dia, junto com Ciências Humanas. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Química:** pH e neutralização, sabão (parte polar e apolar), enantiômeros, carvão ativado, pilhas (o metal com menor E° se oxida), estequiometria com rendimento.

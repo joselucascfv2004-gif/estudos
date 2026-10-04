@@ -1,4 +1,4 @@
-## 53-enem-2011-matematica.md | 2011 | 2 | 2º dia, caderno amarelo | Matemática
+## 57-enem-2011-matematica.md | 2011 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2011 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações, expoentes e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
@@ -91,7 +91,7 @@ x: Os números usam os algarismos 1, 3, 5, 7 e 9, sem repetir (120 números). An
 a: S = k · b · d | S = b · d² | S = k · b · d² | S = k · b/d² | S = k · d²/b
 x: Diretamente proporcional à largura b e ao quadrado da altura d, com constante k: S = k · b · d².
 
-## 54-enem-2011-linguagens.md | 2011 | 2 | 2º dia, caderno amarelo | Linguagens
+## 60-enem-2011-linguagens.md | 2011 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2011 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.

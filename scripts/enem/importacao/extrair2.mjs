@@ -2,7 +2,7 @@
 import fs from 'node:fs';
 import { execFileSync } from 'node:child_process';
 const [ano, dia] = process.argv.slice(2);
-const pdf = `${ano}_PV_impresso_${dia === '1' ? 'D1_CD1' : 'D2_CD5'}.pdf`;
+const pdf = process.env.PDF || `${ano}_PV_impresso_${dia === '1' ? 'D1_CD1' : 'D2_CD5'}.pdf`;
 const gbTxt = fs.readFileSync(`${ano}_GB_${dia === '1' ? 'D1_CD1' : 'D2_CD5'}.txt`, 'utf8');
 const gab = {};
 for (const l of gbTxt.split('\n')) {

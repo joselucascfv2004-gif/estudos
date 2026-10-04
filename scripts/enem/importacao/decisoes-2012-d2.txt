@@ -1,4 +1,4 @@
-## 49-enem-2012-matematica.md | 2012 | 2 | 2º dia, caderno amarelo | Matemática
+## 53-enem-2012-matematica.md | 2012 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2012 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações, expoentes e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
@@ -101,7 +101,7 @@ e: Um aluno registrou as notas bimestrais de algumas de suas disciplinas numa ta
 a: uma matriz linha com os elementos 1/2, 1/2, 1/2, 1/2. | uma matriz linha com os elementos 1/4, 1/4, 1/4, 1/4. | uma matriz coluna com os elementos 1, 1, 1, 1. | uma matriz coluna com os elementos 1/2, 1/2, 1/2, 1/2. | uma matriz coluna com os elementos 1/4, 1/4, 1/4, 1/4.
 x: A matriz das notas é 4 × 4, com cada linha sendo uma disciplina. Para obter a média de cada linha, multiplicamos a matriz (à direita) por uma matriz coluna 4 × 1 com todos os elementos iguais a 1/4: cada nota é somada com peso 1/4, resultando em uma coluna com as 4 médias.
 
-## 50-enem-2012-linguagens.md | 2012 | 2 | 2º dia, caderno amarelo | Linguagens
+## 56-enem-2012-linguagens.md | 2012 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2012 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2012 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.

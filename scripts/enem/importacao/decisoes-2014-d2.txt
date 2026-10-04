@@ -1,4 +1,4 @@
-## 33-enem-2014-matematica.md | 2014 | 2 | 2º dia, caderno amarelo | Matemática
+## 45-enem-2014-matematica.md | 2014 | 2 | 2º dia, caderno amarelo | Matemática
 descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2014 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Porcentagem:** "o restante" é 100% menos a parte já usada; variações repetidas se multiplicam.
@@ -81,7 +81,7 @@ x: O custo depende do volume (altura × largura × espessura). A espessura não 
 @176 d matematica/numeros-e-operacoes
 x: O voo dura 6 h: saindo de A às 15h, chega às 21h no horário de A, que são 18h em B. Então B está 3 horas atrás de A. Para chegar a A às 13h, deve sair às 7h (horário de A), ou seja, 4h no horário de B.
 
-## 34-enem-2014-linguagens.md | 2014 | 2 | 2º dia, caderno amarelo | Linguagens
+## 48-enem-2014-linguagens.md | 2014 | 2 | 2º dia, caderno amarelo | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2014 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2014 (2º dia, caderno 5, amarelo), publicada pelo INEP. Em 2014, Linguagens foi aplicada no 2º dia, junto com Matemática. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Variação linguística:** a língua muda com o tempo (palavras que envelhecem), a região ("pr'esses cabras") e a situação; falar bem é adequar a linguagem ao contexto.
