@@ -1,7 +1,7 @@
 # Descobri que meu colega ganhava o dobro do meu salário fazendo a metade
 tema: trabalho
 voz: antonio
-fundo: lavagem
+fundo: satisfatorio
 
 Eu descobri que o meu colega ganhava o dobro do meu salário por causa de um papel esquecido na impressora.
 

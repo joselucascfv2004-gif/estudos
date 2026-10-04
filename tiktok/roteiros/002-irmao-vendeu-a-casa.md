@@ -1,7 +1,7 @@
 # Meu irmão vendeu a casa da nossa mãe enquanto ela estava no hospital
 tema: familia
 voz: antonio
-fundo: lavagem
+fundo: satisfatorio
 
 No ano passado, a minha mãe ficou vinte dias internada com pneumonia. E foi nesses vinte dias que o meu irmão mais velho, o Márcio, vendeu a casa dela. A casa onde a gente cresceu.
 

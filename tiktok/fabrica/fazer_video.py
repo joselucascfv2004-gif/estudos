@@ -1,12 +1,16 @@
 """Transforma um roteiro de roteiros/ em um vídeo pronto para o TikTok.
 
-Cada roteiro é uma história completa (2 a 3 minutos). A fábrica narra o texto com voz de IA
-(frase por frase, com pausas e mudança de tom, ver voz.py), cria a legenda palavra por palavra,
-monta o fundo com trechos de vídeos da categoria escolhida e junta tudo num MP4 vertical 1080x1920.
-Na tela aparece só a legenda.
+Cada roteiro é uma história completa. A fábrica:
+1. narra o texto com voz de IA (frase por frase, com pausas e mudança de tom, ver voz.py);
+2. acelera a narração e o fundo (VELOCIDADE, hoje 2x, escolha do dono do canal);
+3. mostra no começo uma capa com a frase chamativa (ver capa.py) enquanto ela é narrada;
+4. cria a legenda palavra por palavra;
+5. monta o fundo com vídeos satisfatórios que NUNCA foram usados em outro vídeo
+   (o registro fica em fundos/usados.json).
 
 Saída em saida/videos/<roteiro>/: video.mp4, postagem.txt (texto para colar no TikTok) e info.json.
-Roteiros que já têm vídeo são pulados (use --refazer para gerar de novo).
+Roteiros que já têm vídeo são pulados (use --refazer para gerar de novo; ao refazer, o vídeo
+reaproveita os próprios fundos e só pega fundos novos se precisar de mais).
 
 Uso (dentro da pasta tiktok/):
     python3 fabrica/fazer_video.py                      # todos os roteiros que ainda não têm vídeo
@@ -25,6 +29,7 @@ from dataclasses import dataclass
 from pathlib import Path
 
 import voz
+from capa import desenhar_capa
 from voz import Palavra
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -32,9 +37,13 @@ PASTA_ROTEIROS = RAIZ / "roteiros"
 PASTA_FUNDOS = RAIZ / "saida" / "fundos"
 PASTA_VIDEOS = RAIZ / "saida" / "videos"
 PASTA_FONTES = Path(__file__).resolve().parent / "fontes"
+FONTES_DE_FUNDO = RAIZ / "fundos" / "fontes.json"
+FUNDOS_USADOS = RAIZ / "fundos" / "usados.json"
 
 LARGURA, ALTURA, QUADROS = 1080, 1920, 30
-DURACAO_MINIMA, DURACAO_MAXIMA = 120, 180  # histórias de 2 a 3 minutos
+VELOCIDADE = 2.0  # narração e fundo acelerados (2x)
+TRECHO_MAXIMO = 30.0  # segundos de cada vídeo de fundo usados no máximo (15 s na tela, em 2x)
+DURACAO_MINIMA, DURACAO_MAXIMA = 61, 180  # o TikTok só paga por vídeos com mais de 1 minuto
 
 # Fonte da legenda: nome -> (tamanho, espaçamento). Os arquivos ficam em fabrica/fontes/.
 FONTES = {
@@ -51,7 +60,7 @@ HASHTAGS = {
     "familia": "#familia #brigadefamilia #heranca #irmaos",
     "trabalho": "#trabalho #chefe #emprego #clt",
 }
-HASHTAGS_FIXAS = "#historias #relatos #storytime #ficcao"
+HASHTAGS_FIXAS = "#historias #relatos #storytime #ficcao #satisfatorio"
 
 # Cores no formato das legendas (&HAABBGGRR)
 BRANCO, PRETO, AMARELO = "&H00FFFFFF", "&H00000000", "&H0000E5FF"
@@ -64,7 +73,12 @@ class Roteiro:
     tema: str
     voz: str
     fundo: str
+    capa: str
     texto: str
+
+
+def primeira_frase(texto: str) -> str:
+    return re.match(r"\s*([^.!?…]+[.!?…]*)", texto).group(1).strip()
 
 
 def ler_roteiro(arquivo: Path) -> Roteiro:
@@ -81,7 +95,8 @@ def ler_roteiro(arquivo: Path) -> Roteiro:
     if not titulo or not texto:
         raise ValueError(f"{arquivo.name}: falta o título (# ...) ou o texto da história")
     return Roteiro(arquivo, titulo, campos.get("tema", ""), campos.get("voz", "thalita"),
-                   campos.get("fundo", "lavagem"), texto)
+                   campos.get("fundo", "satisfatorio"), campos.get("capa", primeira_frase(texto)),
+                   texto)
 
 
 def duracao(arquivo: Path) -> float:
@@ -102,7 +117,7 @@ def agrupar(palavras: list[Palavra]) -> list[list[Palavra]]:
     for n, palavra in enumerate(palavras):
         atual.append(palavra)
         letras = sum(len(p.texto) for p in atual)
-        pausa = n + 1 < len(palavras) and palavras[n + 1].inicio - palavra.fim > 0.3
+        pausa = n + 1 < len(palavras) and palavras[n + 1].inicio - palavra.fim > 0.15
         if len(atual) == 3 or letras >= 14 or palavra.texto[-1] in ".?!,;:…" or pausa:
             grupos.append(atual)
             atual = []
@@ -120,7 +135,7 @@ def criar_legendas(palavras: list[Palavra], total: float, arquivo: Path) -> None
     grupos = agrupar(palavras)
     for g, grupo in enumerate(grupos):
         proximo = grupos[g + 1][0].inicio if g + 1 < len(grupos) else total
-        fim_grupo = min(proximo, grupo[-1].fim + 0.35)
+        fim_grupo = min(proximo, grupo[-1].fim + 0.2)
         for i, palavra in enumerate(grupo):
             inicio = palavra.inicio
             fim = grupo[i + 1].inicio if i + 1 < len(grupo) else fim_grupo
@@ -129,7 +144,7 @@ def criar_legendas(palavras: list[Palavra], total: float, arquivo: Path) -> None
             texto = " ".join(
                 (f"{{\\c{AMARELO}}}{limpar(p.texto)}{{\\c{BRANCO}}}" if p is palavra
                  else limpar(p.texto)) for p in grupo)
-            efeito = "{\\fscx85\\fscy85\\t(0,90,\\fscx100\\fscy100)}" if i == 0 else ""
+            efeito = "{\\fscx85\\fscy85\\t(0,60,\\fscx100\\fscy100)}" if i == 0 else ""
             eventos.append(f"Dialogue: 1,{tempo_ass(inicio)},{tempo_ass(fim)},Legenda,,0,0,0,,"
                            f"{efeito}{texto}")
 
@@ -150,39 +165,73 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     arquivo.write_text(cabecalho + "\n".join(eventos) + "\n", encoding="utf-8")
 
 
-def escolher_trechos(fundo: str, total: float, semente: str) -> list[tuple[Path, float, float]]:
-    """Sorteia trechos de 7 a 13 segundos dos vídeos da categoria até cobrir o vídeo todo."""
-    clipes = sorted(c for c in (PASTA_FUNDOS / fundo).glob("*.mp4")
-                    if not c.name.endswith((".bruto.mp4", ".parcial.mp4")))
-    if not clipes:
-        raise FileNotFoundError(f"Sem vídeos de fundo em {PASTA_FUNDOS / fundo}. "
-                                "Rode antes: python3 fabrica/baixar_fundos.py")
-    sorteio = random.Random(semente)
-    duracoes = {c: duracao(c) for c in clipes}
-    trechos, coberto, fila = [], 0.0, []
-    while coberto < total:
-        if not fila:
-            fila = clipes[:]
-            sorteio.shuffle(fila)
-        clipe = fila.pop()
-        tamanho = min(duracoes[clipe], sorteio.uniform(7, 13), total - coberto + 0.5)
-        inicio = sorteio.uniform(0, max(0.0, duracoes[clipe] - tamanho))
-        trechos.append((clipe, inicio, tamanho))
-        coberto += tamanho
+def categorias_do_fundo(fundo: str) -> list[str]:
+    """'satisfatorio' é um grupo de categorias (ver _grupos em fundos/fontes.json)."""
+    grupos = json.loads(FONTES_DE_FUNDO.read_text(encoding="utf-8")).get("_grupos", {})
+    return grupos.get(fundo, [c.strip() for c in fundo.split(",")])
+
+
+def ler_usados() -> dict[str, str]:
+    if FUNDOS_USADOS.exists():
+        return json.loads(FUNDOS_USADOS.read_text(encoding="utf-8"))
+    return {}
+
+
+def escolher_trechos(fundo: str, total: float, dono: str) -> list[tuple[Path, float, float]]:
+    """Escolhe vídeos de fundo nunca usados em outros vídeos até cobrir a duração (na tela)."""
+    usados = ler_usados()
+    clipes = []
+    for categoria in categorias_do_fundo(fundo):
+        for clipe in sorted((PASTA_FUNDOS / categoria).glob("*.mp4")):
+            chave = f"{categoria}/{clipe.stem}"
+            if clipe.name.endswith((".bruto.mp4", ".parcial.mp4")):
+                continue
+            if usados.get(chave, dono) == dono:
+                clipes.append((chave, clipe))
+    sorteio = random.Random(dono)
+    sorteio.shuffle(clipes)
+    # Os fundos que este mesmo vídeo já usava vêm primeiro, para não gastar fundos novos à toa
+    clipes.sort(key=lambda c: usados.get(c[0]) != dono)
+    trechos, coberto = [], 0.0
+    for chave, clipe in clipes:
+        if coberto >= total:
+            break
+        fonte = min(duracao(clipe), TRECHO_MAXIMO)  # segundos do vídeo original
+        inicio = sorteio.uniform(0, max(0.0, duracao(clipe) - fonte))
+        trechos.append((clipe, inicio, fonte))
+        coberto += fonte / VELOCIDADE
+    if coberto < total:
+        raise RuntimeError(
+            f"Faltam vídeos de fundo inéditos em '{fundo}' (cobertos {coberto:.0f} de {total:.0f} s). "
+            "Adicione vídeos em fundos/fontes.json e rode fabrica/baixar_fundos.py.")
     return trechos
 
 
-def montar_video(audio: Path, legendas: Path, trechos, total: float, saida: Path) -> None:
+def registrar_usados(trechos, dono: str) -> None:
+    usados = {k: v for k, v in ler_usados().items() if v != dono}
+    for clipe, _, _ in trechos:
+        usados[f"{clipe.parent.name}/{clipe.stem}"] = dono
+    FUNDOS_USADOS.write_text(json.dumps(dict(sorted(usados.items())), ensure_ascii=False,
+                                        indent=2) + "\n", encoding="utf-8")
+
+
+def montar_video(audio: Path, legendas: Path, capa: Path, fim_capa: float, trechos, total: float,
+                 saida: Path) -> None:
     entradas = []
     for clipe, inicio, tamanho in trechos:
         entradas += ["-ss", f"{inicio:.2f}", "-t", f"{tamanho:.2f}", "-i", str(clipe)]
     n = len(trechos)
-    cortes = "".join(f"[{i}:v]setpts=PTS-STARTPTS,fps={QUADROS},setsar=1[v{i}];" for i in range(n))
+    entradas += ["-loop", "1", "-t", f"{fim_capa:.2f}", "-i", str(capa), "-i", str(audio)]
+    cortes = "".join(
+        f"[{i}:v]setpts=(PTS-STARTPTS)/{VELOCIDADE},fps={QUADROS},setsar=1[v{i}];"
+        for i in range(n))
     juncao = "".join(f"[v{i}]" for i in range(n)) + f"concat=n={n}:v=1:a=0[fundo];"
-    legenda = f"[fundo]ass='{legendas}':fontsdir='{PASTA_FONTES}',format=yuv420p[video]"
+    capa_filtro = (f"[{n}:v]format=rgba,fade=out:st={max(0, fim_capa - 0.2):.2f}:d=0.2:alpha=1[capa];"
+                   f"[fundo][capa]overlay=eof_action=pass[comcapa];")
+    legenda = f"[comcapa]ass='{legendas}':fontsdir='{PASTA_FONTES}',format=yuv420p[video]"
     subprocess.run(
-        ["ffmpeg", "-y", "-loglevel", "error", *entradas, "-i", str(audio),
-         "-filter_complex", cortes + juncao + legenda + f";[{n}:a]apad[audio]",
+        ["ffmpeg", "-y", "-loglevel", "error", *entradas,
+         "-filter_complex", cortes + juncao + capa_filtro + legenda + f";[{n + 1}:a]apad[audio]",
          "-map", "[video]", "-map", "[audio]", "-t", f"{total:.2f}",
          "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "1100k",
          "-bufsize", "2200k", "-r", str(QUADROS),  # menos de 30 MB num vídeo de 3 minutos
@@ -209,28 +258,46 @@ async def fazer(roteiro: Roteiro, refazer: bool) -> None:
     if roteiro.voz not in voz.VOZES:
         raise ValueError(f"{roteiro.arquivo.name}: voz '{roteiro.voz}' não existe. "
                          f"Use uma destas: {', '.join(voz.VOZES)}")
-    pasta = PASTA_VIDEOS / roteiro.arquivo.stem
+    dono = roteiro.arquivo.stem
+    pasta = PASTA_VIDEOS / dono
     if (pasta / "video.mp4").exists() and not refazer:
         print(f"{roteiro.arquivo.name}: já feito, pulando.")
         return
     pasta.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as temporaria:
-        audio, legendas = Path(temporaria) / "voz.mp3", Path(temporaria) / "legenda.ass"
-        palavras = await voz.narrar(roteiro.texto, roteiro.voz, audio)
-        total = duracao(audio) + 0.8
-        criar_legendas(palavras, total, legendas)
-        trechos = escolher_trechos(roteiro.fundo, total, roteiro.arquivo.stem)
-        montar_video(audio, legendas, trechos, total, pasta / "video.mp4")
+        temp = Path(temporaria)
+        normal, audio = temp / "voz-normal.mp3", temp / "voz.mp3"
+        palavras = await voz.narrar(roteiro.texto, roteiro.voz, normal)
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(normal),
+                        "-filter:a", f"atempo={VELOCIDADE}", "-b:a", "128k", str(audio)],
+                       check=True)
+        palavras = [Palavra(p.texto, p.inicio / VELOCIDADE, p.fim / VELOCIDADE) for p in palavras]
+        total = duracao(audio) + 0.5
+
+        # Capa: fica na tela enquanto a primeira frase é narrada; a legenda começa depois dela
+        fim_frase = next((p for p in palavras if p.texto.endswith((".", "!", "?", "…"))),
+                         palavras[min(len(palavras) - 1, 15)])
+        fim_capa = max(2.5, fim_frase.fim + 0.25)
+        capa = temp / "capa.png"
+        desenhar_capa(roteiro.capa, capa)
+        legendas = temp / "legenda.ass"
+        criar_legendas([p for p in palavras if p.inicio >= fim_capa - 0.25], total, legendas)
+
+        trechos = escolher_trechos(roteiro.fundo, total, dono)
+        montar_video(audio, legendas, capa, fim_capa, trechos, total, pasta / "video.mp4")
+        registrar_usados(trechos, dono)
     aviso = ""
     if total < DURACAO_MINIMA:
-        aviso = "  ⚠️ MENOS DE 2 MINUTOS: aumente a história"
+        aviso = "  ⚠️ MENOS DE 1 MINUTO: o TikTok não paga, aumente a história"
     elif total > DURACAO_MAXIMA:
         aviso = "  ⚠️ MAIS DE 3 MINUTOS: encurte a história"
-    print(f"{roteiro.arquivo.name}: vídeo pronto ({total:.0f} s){aviso}", flush=True)
+    print(f"{roteiro.arquivo.name}: vídeo pronto ({total:.0f} s, {len(trechos)} fundos){aviso}",
+          flush=True)
     (pasta / "postagem.txt").write_text(texto_postagem(roteiro, total), encoding="utf-8")
     (pasta / "info.json").write_text(json.dumps(
         {"titulo": roteiro.titulo, "tema": roteiro.tema, "voz": roteiro.voz,
-         "fundo": roteiro.fundo, "fonte": FONTE_LEGENDA, "duracao": round(total, 1)},
+         "fundo": roteiro.fundo, "fundos_usados": [f"{c.parent.name}/{c.stem}" for c, _, _ in trechos],
+         "velocidade": VELOCIDADE, "fonte": FONTE_LEGENDA, "duracao": round(total, 1)},
         ensure_ascii=False, indent=2), encoding="utf-8")
 
 

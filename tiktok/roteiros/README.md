@@ -7,7 +7,8 @@ Uma história completa por arquivo, com nome `NNN-titulo-curto.md` (por exemplo
 # Título (não aparece no vídeo; vai no texto da postagem)
 tema: traicao        (traicao, relacionamento, familia ou trabalho: escolhe as hashtags)
 voz: thalita         (thalita = narradora mulher, antonio = narrador homem)
-fundo: lavagem       (lavagem = padrão; também slime, tinta, satisfatorio ou minecraft)
+fundo: satisfatorio  (mistura de vídeos satisfatórios; ver fundos/fontes.json)
+capa: ...            (opcional: frase da capa; se faltar, usa a primeira frase da história)
 
 Primeiro parágrafo da história...
 
@@ -16,10 +17,10 @@ Segundo parágrafo... Ela disse: "Fala do personagem entre aspas."
 
 ## Regras
 
-- **História completa** em um vídeo de **2 a 3 minutos**: cerca de **420 a 560 palavras**.
+- **História completa**: cerca de **420 a 560 palavras** (com a narração em 2x, dá 1min15 a 1min30).
 - **Muitos detalhes**: nomes dos personagens (fictícios), lugares, objetos, roupas, o que a pessoa
   sentiu. Detalhe concreto prende mais do que frase genérica.
-- A primeira frase já entrega o conflito ("Faltavam vinte e três dias pro meu casamento quando eu
+- A primeira frase vira a **capa** do vídeo e já entrega o conflito ("Faltavam vinte e três dias pro meu casamento quando eu
   descobri que o Diego tinha outra família."). O final resolve a história e termina com uma pergunta
   para o público comentar.
 - Separe a história em parágrafos curtos: cada troca de parágrafo vira uma pausa na narração.

@@ -23,16 +23,25 @@ Canal de TikTok com histórias curtas narradas por voz de IA, com legenda grande
   acompanha quem narra: narradora mulher → `thalita`, narrador homem → `antonio`. Alterne entre as
   histórias.
 - **Legenda: fonte Poppins ExtraBold** (opção 2), até 3 palavras por vez, palavra falada em amarelo.
-- **Duração: 2 a 3 minutos** por vídeo (cerca de 420 a 560 palavras). A fábrica avisa se passar disso.
-- **Na tela, só a legenda.** Sem título, sem caixas de texto e sem avisos sobre o vídeo.
+- **Tudo em 2x.** Narração e fundo acelerados (escolha do dono do canal, `VELOCIDADE` em
+  `fabrica/fazer_video.py`). Com 2x, uma história de 420 a 560 palavras dá cerca de 1min15 a 1min30.
+  O vídeo precisa passar de 1 minuto (a fábrica avisa).
+- **Capa no início.** Um cartão branco com a frase chamativa (a primeira frase da história, ou o campo
+  `capa:` do roteiro) aparece enquanto ela é narrada. Fora a capa, na tela só a legenda.
 - **Narração com emoção.** As falas dos personagens vão entre aspas (“...”), para a voz mudar de tom.
   Frases curtas de impacto ("Era a minha irmã.") ganham pausa sozinhas.
-- **Fundo: lavagem de carro** (`fundo: lavagem`) na maioria dos vídeos; slime, tinta, satisfatórios e
-  Minecraft ficam como alternativas. Use só vídeos de bancos gratuitos que permitem uso comercial
-  (Pexels, Pixabay) ou gravados pelo próprio dono do canal. **Não baixe vídeos do TikTok nem de outros
-  criadores**, mesmo os marcados como "sem direitos autorais": isso viola os termos do TikTok, pode
-  gerar denúncia de direitos autorais e faz o vídeo ser marcado como "não original" (sem pagamento).
-  Registre cada vídeo em `fundos/fontes.json`.
+- **Fundo: vídeos realmente satisfatórios** (`fundo: satisfatorio`): limpeza com jato de alta
+  pressão, cerâmica no torno, madeira no torno, máquinas CNC e laser, tinta escorrendo e cortes em
+  close. O dono do canal **reprovou** vídeos comuns de lavagem de carro: antes de adicionar um fundo,
+  confira um quadro dele e só use se prender o olho.
+- **Nunca repita um fundo entre vídeos.** Cada vídeo de fundo é usado em um único vídeo; o registro
+  fica em `fundos/usados.json` (vai para o GitHub). Quando acabarem os fundos inéditos, a fábrica para
+  e avisa: procure e baixe mais.
+- **Fundos só de bancos gratuitos** que permitem uso comercial (Pexels, Pixabay) ou gravados pelo
+  próprio dono do canal. **Não baixe vídeos do TikTok nem de outros criadores**, mesmo os marcados como
+  "sem direitos autorais": isso viola os termos do TikTok, pode gerar denúncia de direitos autorais e
+  faz o vídeo ser marcado como "não original" (sem pagamento). Registre cada vídeo em
+  `fundos/fontes.json`.
 - **Ferramentas gratuitas.** Voz, legendas e montagem com ferramentas grátis (edge-tts ou Piper,
   Whisper, FFmpeg). Não proponha serviços pagos sem o dono pedir.
 

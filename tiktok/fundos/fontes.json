@@ -1,44 +1,115 @@
 {
   "_sobre": "Vídeos de fundo grátis. 'pexels' = número do vídeo em pexels.com/video/<número>. Licença Pexels: uso grátis, inclusive comercial, sem precisar dar crédito. Para adicionar um vídeo, coloque o número na categoria certa e rode baixar_fundos.py.",
-  "lavagem": {
-    "_sobre": "Fundo principal: lavagem de carro (espuma, alta pressão, rodas, detalhamento).",
+  "_grupos": {
+    "satisfatorio": [
+      "limpeza",
+      "ceramica",
+      "madeira",
+      "maquinas",
+      "arte",
+      "cortes"
+    ]
+  },
+  "limpeza": {
+    "_sobre": "Limpeza com jato de alta pressão (chão, calçada, parede, pneu) e espuma.",
     "pexels": [
-      34720830,
-      34195597,
-      6873167,
-      35246028,
-      6873338,
-      6873332,
-      6872072,
-      6873328,
-      6873327,
-      6872477,
-      32010538,
-      32010541,
-      32010546,
-      6873165,
-      32010530,
-      6873496,
-      10785269,
-      4863265,
-      6873499,
-      6872080,
-      6873511,
-      32010552,
-      32010535,
-      32010542,
-      32010536,
-      32010555,
-      32010532,
-      32010534,
-      32010544,
-      32010551,
-      36476451,
-      32010526,
-      32010550,
-      6873163,
-      6872465,
-      32010543
+      6160411,
+      6160418,
+      6160412,
+      6160408,
+      6160409,
+      6160415,
+      6160419,
+      4451962,
+      8242982,
+      9245565,
+      32621171,
+      37175111,
+      38142611,
+      35548150,
+      32010548
+    ]
+  },
+  "ceramica": {
+    "_sobre": "Cerâmica no torno de oleiro.",
+    "pexels": [
+      35487051,
+      9363590,
+      34746859,
+      11761089,
+      9363591,
+      29205440,
+      29056658,
+      32309680,
+      12902440,
+      14066615,
+      14066613,
+      37314721,
+      34434263,
+      9733033,
+      34112062,
+      35487052
+    ]
+  },
+  "madeira": {
+    "_sobre": "Madeira no torno, entalhe.",
+    "pexels": [
+      19713004,
+      11903829,
+      34812250,
+      19713005,
+      19713026,
+      19713006,
+      18976937,
+      35687470,
+      4341415,
+      5217312,
+      5215222,
+      5215226
+    ]
+  },
+  "maquinas": {
+    "_sobre": "Máquinas CNC, corte a laser, torno de metal.",
+    "pexels": [
+      9244501,
+      31751327,
+      9033891,
+      18883365,
+      31751330,
+      30455960,
+      18883366,
+      7480059,
+      5998850,
+      15780166,
+      19791092,
+      36591394,
+      30456101,
+      31801781,
+      30907183
+    ]
+  },
+  "arte": {
+    "_sobre": "Tinta escorrendo, marmorização, resina.",
+    "pexels": [
+      6957782,
+      5908185,
+      5799463,
+      34296548,
+      7253492,
+      34296543,
+      8347743
+    ]
+  },
+  "cortes": {
+    "_sobre": "Cortes em close (frutas, legumes).",
+    "pexels": [
+      13152673,
+      8801878,
+      6666669,
+      6535270,
+      37489525,
+      6666445,
+      13152674
     ]
   },
   "slime": {
@@ -63,17 +134,6 @@
       6473929,
       6109128,
       8738478
-    ]
-  },
-  "satisfatorio": {
-    "pexels": [
-      30335428,
-      16456768,
-      16029652,
-      16561467,
-      5871940,
-      8746938,
-      36504176
     ]
   },
   "minecraft": {

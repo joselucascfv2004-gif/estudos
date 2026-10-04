@@ -1,7 +1,7 @@
 # Minha mãe falsificou um teste de DNA para acabar com o meu casamento
 tema: relacionamento
 voz: antonio
-fundo: lavagem
+fundo: satisfatorio
 
 A minha mãe nunca gostou da minha esposa. E eu só descobri até onde ela era capaz de ir quando ela colocou um envelope de laboratório na minha frente.
 

@@ -1,7 +1,7 @@
 # Descobri que meu noivo tinha outra família pela fatura do cartão
 tema: traicao
 voz: thalita
-fundo: lavagem
+fundo: satisfatorio
 
 Faltavam vinte e três dias pro meu casamento quando eu descobri que o Diego tinha outra família. E eu descobri do jeito mais idiota possível: pela fatura do cartão.
 

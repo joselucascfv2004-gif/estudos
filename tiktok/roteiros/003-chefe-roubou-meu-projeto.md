@@ -1,7 +1,7 @@
 # Minha chefe apresentou meu projeto como se fosse dela na frente do dono da empresa
 tema: trabalho
 voz: thalita
-fundo: lavagem
+fundo: satisfatorio
 
 Eu passei três meses montando um projeto que ia economizar quase um milhão de reais por ano pra empresa onde eu trabalho. E a minha chefe apresentou como se fosse dela. Na frente da empresa inteira.
 

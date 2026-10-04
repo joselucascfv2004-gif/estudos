@@ -1,7 +1,7 @@
 # Achei um teste de gravidez positivo no lixo do meu banheiro e não era meu
 tema: traicao
 voz: thalita
-fundo: lavagem
+fundo: satisfatorio
 
 Eu achei um teste de gravidez positivo no lixo do meu banheiro. E ele não era meu.
 
