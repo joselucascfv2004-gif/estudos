@@ -79,6 +79,26 @@ x: Com a compra de créditos de carbono, um país rico pode continuar poluindo s
 x: No texto, as pessoas sentem que "tudo é oco, tudo é igual, tudo passou", o trabalho foi inútil e as fontes secaram. Nietzsche descreve a perda de sentido dos valores tradicionais: o niilismo como decadência da cultura.
 @40 d geografia/economia-agropecuaria-industria-energia
 x: O texto mostra que a tecnologia (como o just in time) aumenta a produtividade, mas o trabalho continua precário e mal pago (o vendedor ambulante). As mudanças na estrutura produtiva causadas pela tecnologia afetam o emprego e a renda.
+@7 m sociologia/temas-contemporaneos fig
+x: O anúncio de 1968 dizia que as mulheres do futuro iriam à Lua para limpá-la, como se o papel delas fosse sempre o trabalho doméstico. Em 2016, mesmo com metade da nova equipe da Nasa formada por mulheres, houve comentários machistas. As duas situações mostram a permanência de estereótipos de gênero.
+@11 m historia/brasil-colonia fig
+x: A imagem mostra o trabalho manual de um artesão (a fabricação de uma viola de cocho, registrada pelo Iphan). O texto fala da ampliação da ideia de patrimônio cultural para além de prédios e monumentos: saberes e modos de fazer de grupos sociais, os conhecimentos tradicionais (patrimônio imaterial).
+@17 m geografia/cartografia fig
+x: O logotipo da ONU mostra o mundo visto de cima do Polo Norte, com os continentes ao redor do centro. É uma projeção azimutal (plana), em que o globo é projetado sobre um plano tangente a um ponto, como na primeira figura.
+@22 m historia/seculo-xx fig
+x: Marjane Satrapi lembra que, depois da Revolução Islâmica de 1979 no Irã, o véu passou a ser obrigatório nas escolas e meninos e meninas foram separados. A memória dela liga uma mudança política a mudanças nos costumes do dia a dia.
+@26 m historia/brasil-colonia fig
+x: A Igreja usava santos negros, como São Benedito, para aproximar os africanos escravizados e seus descendentes do catolicismo: o santo seria um exemplo de obediência a Deus. Era um esforço para cristianizar a população afro-brasileira (que depois deu novos sentidos a esses santos nas irmandades).
+@33 m historia/seculo-xx fig
+x: A "lei do passe" obrigava os negros a carregar um documento para circular fora das áreas destinadas a eles. Na foto, militares fiscalizam esse passe: o Estado controlava e restringia o movimento da população negra pelo território.
+@36 m geografia/geografia-fisica fig
+x: As usinas se concentram no Oriente Médio e no norte da África (Arábia Saudita, Emirados Árabes, Kuwait), regiões de clima desértico, com pouca água doce. A dessalinização é a solução para a escassez de água potável.
+@38 m historia/brasil-republica fig
+x: O anúncio do Simca Chambord junto aos prédios modernos de Brasília exalta a industrialização e a nova capital dos anos JK. Mas não mostra que esse crescimento se concentrou no Sudeste e aumentou a desigualdade entre as regiões do país.
+@43 m historia/brasil-republica fig
+x: A página mostra parisienses bebendo café, anunciado como "café do Brazil", o melhor de todos. No início do século XX, o Brasil era o grande exportador de café do mundo: seu papel na economia mundial era o de fornecedor de produtos agrícolas.
+@45 m geografia/populacao-e-urbanizacao fig
+x: A taxa de fecundidade caiu muito em todos os países do gráfico. Com menos nascimentos, a população envelhece e, com o tempo, há menos jovens entrando no mercado de trabalho: diminui a oferta de mão de obra.
 
 ## 38-enem-2016-ciencias-da-natureza.md | 2016 | 1 | 1º dia, caderno azul | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2016 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
@@ -152,3 +172,44 @@ e: Após seu desgaste completo, os pneus podem ser queimados para a geração de
 x: Os gases da chuva ácida (como o SO₂, do enxofre da borracha vulcanizada) são ácidos, então precisam de uma base para serem neutralizados. Fenol e hidrogenosulfato liberam H₃O⁺ (são ácidos). Entre as bases (liberam OH⁻), a mais forte tem a maior constante: o hidrogenofosfato (2,8 × 10⁻²).
 @88 d fisica/eletricidade
 x: O campo magnético alternado troca de sentido muitas vezes por segundo, e as nanopartículas magnéticas giram tentando se alinhar a ele. Esse movimento gera atrito com o meio, e a energia vira calor, que aquece as células do tumor.
+@48 f biologia/ecologia fig
+x: No biodigestor, as fezes são decompostas por microrganismos sem oxigênio e produzem biogás (metano). Esse gás alimenta o poste de luz do parque. A inovação é aproveitar a queima do metano para gerar energia.
+@49 m fisica/ondulatoria-e-optica fig
+x: Pelo efeito Doppler, enquanto a ambulância se aproxima, o observador ouve uma frequência maior que fA (constante, pois a velocidade é constante). Quando ela passa, a frequência cai e fica menor que fA. O gráfico começa acima de fA e termina abaixo dele.
+@52 m quimica/quimica-organica fig
+x: O bombicol tem ligações duplas entre carbonos com grupos diferentes em cada lado, o que permite isomeria geométrica (cis-trans). O feromônio usado no tomate (Scrobipalpuloides absoluta) também tem ligações duplas desse tipo na cadeia.
+@53 f biologia/citologia fig
+x: A levedura não consegue fermentar o amido diretamente. A hidrólise quebra o amido do milho em açúcares simples (como a glicose), que a levedura transforma em etanol e gás carbônico.
+@55 m fisica/ondulatoria-e-optica fig
+x: Nas frequências baixas (até cerca de 250 Hz, a faixa dos graves), a curva medida a 3 mm fica bem acima da medida a 60 mm. Nas frequências mais altas, as curvas praticamente coincidem. Afastar o microfone diminui a intensidade dos graves.
+@59 d fisica/eletricidade fig
+e: Por apresentar significativa resistividade elétrica, o grafite pode ser utilizado para simular resistores elétricos em circuitos desenhados no papel, com o uso de lápis e lapiseiras. Dependendo da espessura e do comprimento das linhas desenhadas, é possível determinar a resistência elétrica de cada traçado produzido. No esquema foram utilizados três tipos de lápis diferentes (2H, HB e 6B) para efetuar três traçados distintos. || [fig1] || Munido dessas informações, um estudante pegou uma folha de papel e fez o desenho de um sorvete de casquinha utilizando-se desses traçados. Os valores encontrados nesse experimento, para as resistências elétricas (R), medidas com o auxílio de um ohmímetro ligado nas extremidades das resistências, são mostrados na figura. Verificou-se que os resistores obedeciam à Lei de Ohm. || [fig2] || Na sequência, conectou o ohmímetro nos terminais A e B do desenho e, em seguida, conectou-o nos terminais B e C, anotando as leituras RAB e RBC, respectivamente. || Ao estabelecer a razão RAB/RBC, qual resultado o estudante obteve?
+a: 1 | 4/7 | 10/27 | 14/81 | 4/81
+x: Entre A e B ficam em paralelo: 5 kΩ, 20 kΩ e o caminho pela casquinha (10 + 10 = 20 kΩ). 5 ∥ 20 ∥ 20 = 5 ∥ 10 = 10/3 kΩ. Entre B e C: 10 kΩ em paralelo com 10 kΩ + (5 ∥ 20 = 4 kΩ) = 14 kΩ, ou seja, 10 ∥ 14 = 140/24 = 35/6 kΩ. Razão: (10/3) ÷ (35/6) = 4/7.
+@63 m fisica/cinematica fig
+x: Durante o tempo de reação, a velocidade não muda (trecho horizontal). Depois, na freada com desaceleração constante, v² = v₀² − 2ad: a velocidade cai cada vez mais rápido com a distância, numa curva voltada para baixo, até zero.
+@66 m fisica/cinematica fig
+x: Nas engrenagens em contato, frequência × dentes é igual. A (24 dentes, 18 RPM) gira B (72): 18 × 24 ÷ 72 = 6 RPM. C está no mesmo eixo de B: 6 RPM. C (36) gira D (108): 6 × 36 ÷ 108 = 2 RPM. O ponteiro está em D: 2 RPM.
+@72 f quimica/solucoes fig
+x: O vapor de água passa pelas folhas e arrasta os óleos essenciais (aromas), que vão junto com ele para a sauna. É a extração por arraste a vapor.
+@74 m fisica/eletricidade fig
+x: As três lâmpadas idênticas estão em paralelo com a bateria e recebem a mesma corrente i. Pelos pontos A e E passa a corrente total (3i), então IA = IE. Os pontos C e D ficam nos fios de uma lâmpada só cada um, então IC = ID = i.
+@75 f biologia/seres-vivos fig
+x: A seiva sobe pelo xilema puxada pela transpiração das folhas: a água que evapora pelos estômatos "puxa" a coluna de água, que se mantém unida pela coesão entre as moléculas. Esse mecanismo funciona mesmo com a copa virada para baixo.
+@76 m quimica/quimica-organica fig
+x: O metóxido (CH₃O⁻) substitui o bromo do brometo de metila (CH₃Br): CH₃Br + CH₃O⁻ → CH₃–O–CH₃ + Br⁻. O produto, com um oxigênio entre dois carbonos, é um éter (o metoximetano).
+@77 m fisica/dinamica fig
+x: Antes do choque, o carrinho 1 vai de 15 para 30 cm em 1 s: 15 cm/s. Depois, juntos, vão de 75 para 90 cm em 3 s: 5 cm/s. Conservação da quantidade de movimento: 150 × 15 = (150 + m) × 5, então 150 + m = 450 e m = 300 g.
+@79 m biologia/saude-e-doencas fig
+x: A vacina age estimulando o sistema imunológico a produzir anticorpos (imunoglobulinas). Entre os mecanismos dos probióticos, o de número 4 é o estímulo à produção de imunoglobulinas.
+@81 m quimica/quimica-organica fig
+x: A testosterona tem um grupo OH, que é polar e faz ligação de hidrogênio com a água. Trocando o OH por H (composto 1) ou por CH₃ (composto 2), a molécula fica mais apolar e mais afim a ambientes apolares: os dois são mais lipofílicos que a testosterona.
+@82 d fisica/dinamica fig
+e: Uma invenção que significou um grande avanço tecnológico na Antiguidade, a polia composta ou a associação de polias, é atribuída a Arquimedes (287 a.C. a 212 a.C.). O aparato consiste em associar uma série de polias móveis a uma polia fixa. A figura exemplifica um arranjo possível para esse aparato. É relatado que Arquimedes teria demonstrado para o rei Hierão um outro arranjo desse aparato, movendo sozinho, sobre a areia da praia, um navio repleto de passageiros e cargas, algo que seria impossível sem a participação de muitos homens. Suponha que a massa do navio era de 3 000 kg, que o coeficiente de atrito estático entre o navio e a areia era de 0,8 e que Arquimedes tenha puxado o navio com uma força F, paralela à direção do movimento e de módulo igual a 400 N. Considere os fios e as polias ideais, a aceleração da gravidade igual a 10 m/s² e que a superfície da praia é perfeitamente horizontal. || [fig1] || > Disponível em: www.histedbr.fae.unicamp.br. Acesso em: 28 fev. 2013 (adaptado). || O número mínimo de polias móveis usadas, nessa situação, por Arquimedes foi
+x: O atrito máximo é 0,8 × 3 000 × 10 = 24 000 N. Cada polia móvel dobra a força: com n polias, a força no navio é 400 × 2ⁿ. Precisamos de 400 × 2ⁿ ≥ 24 000, ou 2ⁿ ≥ 60. Com 5 polias (32) não basta; com 6 (64), sim.
+@85 m quimica/quimica-organica fig
+x: Na superfície da água, as moléculas do tensoativo se organizam com a parte iônica (polar, a "cabeça") mergulhada na água e a cadeia apolar (a "cauda") voltada para fora, para o ar. A figura que mostra essa camada na superfície, com as caudas para cima, é a correta.
+@86 m fisica/ondulatoria-e-optica fig
+x: A manteiga derrete onde a onda estacionária tem amplitude máxima (os ventres), onde há mais energia. Nos nós (II e IV), a amplitude é zero. Os ventres são I, III e V; dois consecutivos são I e III.
+@89 f quimica/fisico-quimica fig
+x: Taxa média de aquecimento é a variação de temperatura dividida pelo tempo. O n-hexano praticamente não esquenta (curva quase horizontal), porque é apolar e não tem dipolo para interagir com as micro-ondas. Sua fórmula é CH₃CH₂CH₂CH₂CH₂CH₃.

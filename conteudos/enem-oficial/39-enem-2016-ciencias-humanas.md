@@ -685,6 +685,258 @@ A questão cultural indicada no texto ressalta o seguinte aspecto socioeconômic
 
 **Assunto:** geografia/economia-agropecuaria-industria-energia
 
+### 7
+TEXTO I
+
+![Figura](enem-2016-d1-q007-1.webp)
+
+Tradução: “As mulheres do futuro farão da Lua um lugar mais limpo para se viver”.
+
+> Disponível em: www.propagandashistoricas.com.br. Acesso em: 16 out. 2015.
+
+TEXTO II
+
+Metade da nova equipe da Nasa é composta por mulheres
+
+Até hoje, cerca de 350 astronautas americanos já estiveram no espaço, enquanto as mulheres não chegam a ser um terço desse número. Após o anúncio da turma composta 50% por mulheres, alguns internautas escreveram comentários machistas e desrespeitosos sobre a escolha nas redes sociais.
+
+> Disponível em: https://catracalivre.com.br. Acesso em: 10 mar. 2016.
+
+A comparação entre o anúncio publicitário de 1968 e a repercussão da notícia de 2016 mostra a
+
+- A) elitização da carreira científica.
+- B) qualificação da atividade doméstica.
+- C) ambição de indústrias patrocinadoras.
+- D) manutenção de estereótipos de gênero.
+- E) equiparação de papéis nas relações familiares.
+
+**Resposta:** D
+
+**Explicação:** O anúncio de 1968 dizia que as mulheres do futuro iriam à Lua para limpá-la, como se o papel delas fosse sempre o trabalho doméstico. Em 2016, mesmo com metade da nova equipe da Nasa formada por mulheres, houve comentários machistas. As duas situações mostram a permanência de estereótipos de gênero.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 7
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 11
+TEXTO I
+
+![Figura](enem-2016-d1-q011-1.webp)
+
+> Disponível em: http://portal.iphan.gov.br. Acesso em: 6 abr. 2016.
+
+TEXTO II
+
+A eleição dos novos bens, ou melhor, de novas formas de se conceber a condição do patrimônio cultural nacional, também permite que diferentes grupos sociais, utilizando as leis do Estado e o apoio de especialistas, revejam as imagens e alegorias do seu passado, do que querem guardar e definir como próprio e identitário.
+
+> ABREU, M.; SOIHET, R.; GONTIJO, R. (Org.). Cultura política e leituras do passado: historiografia e ensino de história. Rio de Janeiro: Civilização Brasileira, 2007.
+
+O texto chama a atenção para a importância da proteção de bens que, como aquele apresentado na imagem, se identificam como:
+
+- A) Artefatos sagrados.
+- B) Heranças materiais.
+- C) Objetos arqueológicos.
+- D) Peças comercializáveis.
+- E) Conhecimentos tradicionais.
+
+**Resposta:** E
+
+**Explicação:** A imagem mostra o trabalho manual de um artesão (a fabricação de uma viola de cocho, registrada pelo Iphan). O texto fala da ampliação da ideia de patrimônio cultural para além de prédios e monumentos: saberes e modos de fazer de grupos sociais, os conhecimentos tradicionais (patrimônio imaterial).
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 11
+
+**Assunto:** historia/brasil-colonia
+
+### 17
+![Figura](enem-2016-d1-q017-1.webp)
+
+> Disponível em: www.unric.org. Acesso em: 9 ago. 2013.
+
+A ONU faz referência a uma projeção cartográfica em seu logotipo. A figura que ilustra o modelo dessa projeção é:
+
+- A) ![Alternativa A](enem-2016-d1-q017-2.webp)
+- B) ![Alternativa B](enem-2016-d1-q017-3.webp)
+- C) ![Alternativa C](enem-2016-d1-q017-4.webp)
+- D) ![Alternativa D](enem-2016-d1-q017-5.webp)
+- E) ![Alternativa E](enem-2016-d1-q017-6.webp)
+
+**Resposta:** A
+
+**Explicação:** O logotipo da ONU mostra o mundo visto de cima do Polo Norte, com os continentes ao redor do centro. É uma projeção azimutal (plana), em que o globo é projetado sobre um plano tangente a um ponto, como na primeira figura.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 17
+
+**Assunto:** geografia/cartografia
+
+### 22
+![Figura](enem-2016-d1-q022-1.webp)
+
+> SATRAPI, M. Persépolis. São Paulo: Cia. das Letras, 2007 (adaptado).
+
+A memória recuperada pela autora apresenta a relação entre
+
+- A) conflito trabalhista e engajamento sindical.
+- B) organização familiar e proteção à infância.
+- C) centralização econômica e pregação religiosa.
+- D) estrutura educacional e desigualdade de renda.
+- E) transformação política e modificação de costumes.
+
+**Resposta:** E
+
+**Explicação:** Marjane Satrapi lembra que, depois da Revolução Islâmica de 1979 no Irã, o véu passou a ser obrigatório nas escolas e meninos e meninas foram separados. A memória dela liga uma mudança política a mudanças nos costumes do dia a dia.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 22
+
+**Assunto:** historia/seculo-xx
+
+### 26
+TEXTO I
+
+![Figura](enem-2016-d1-q026-1.webp)
+
+Imagem de São Benedito. Disponível em: http://acervo.bndigital.bn.br. Acesso em: 6 jan. 2016 (adaptado).
+
+TEXTO II
+
+Os santos tornaram-se grandes aliados da Igreja para atrair novos devotos, pois eram obedientes a Deus e ao poder clerical. Contando e estimulando o conhecimento sobre a vida dos santos, a Igreja transmitia aos fiéis os ensinamentos que julgava corretos e que deviam ser imitados por escravos que, em geral, traziam outras crenças de suas terras de origem, muito diferentes das que preconizava a fé católica.
+
+> OLIVEIRA, A. J. Negra devoção. Revista de História da Biblioteca Nacional, n. 20, maio 2007 (adaptado).
+
+Posteriormente ressignificados no interior de certas irmandades e no contato com outra matriz religiosa, o ícone e a prática mencionada no texto estiveram desde o século XVII relacionados a um esforço da Igreja Católica para
+
+- A) reduzir o poder das confrarias.
+- B) cristianizar a população afro-brasileira.
+- C) espoliar recursos materiais dos cativos.
+- D) recrutar libertos para seu corpo eclesiástico.
+- E) atender a demanda popular por padroeiros locais.
+
+**Resposta:** B
+
+**Explicação:** A Igreja usava santos negros, como São Benedito, para aproximar os africanos escravizados e seus descendentes do catolicismo: o santo seria um exemplo de obediência a Deus. Era um esforço para cristianizar a população afro-brasileira (que depois deu novos sentidos a esses santos nas irmandades).
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 26
+
+**Assunto:** historia/brasil-colonia
+
+### 33
+![Figura](enem-2016-d1-q033-1.webp)
+
+> Disponível em: www.imageforum-diffusion.afp.com. Acesso em: 6 jan. 2016.
+
+O regime do Apartheid adotado de 1948 a 1994 na África do Sul fundamentava-se em ações estatais de segregacionismo racial. Na imagem, fuzileiros navais fazem valer a “lei do passe” que regulamentava o(a)
+
+- A) concentração fundiária, impedindo os negros de tomar posse legítima do uso da terra.
+- B) boicote econômico, proibindo os negros de consumir produtos ingleses sem resistência armada.
+- C) sincretismo religioso, vetando os ritos sagrados dos negros nas cerimônias oficiais do Estado.
+- D) controle sobre a movimentação, desautorizando os negros a transitar em determinadas áreas das cidades.
+- E) exclusão do mercado de trabalho, negando à população negra o acesso aos bens de consumo.
+
+**Resposta:** D
+
+**Explicação:** A "lei do passe" obrigava os negros a carregar um documento para circular fora das áreas destinadas a eles. Na foto, militares fiscalizam esse passe: o Estado controlava e restringia o movimento da população negra pelo território.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 33
+
+**Assunto:** historia/seculo-xx
+
+### 36
+Dessalinização das águas
+
+Capacidade total de dessalinização das águas salobras ou salinas (por país em metros cúbicos por dia)
+
+![Figura](enem-2016-d1-q036-1.webp)
+
+> EUA. Relatório da Academia Nacional de Ciências, 2008 (adaptado).
+
+Conforme a análise do documento cartográfico, a área de concentração das usinas de dessalinização é explicada pelo(a)
+
+- A) pioneirismo tecnológico.
+- B) condição hidropedológica.
+- C) escassez de água potável.
+- D) efeito das mudanças climáticas.
+- E) busca da sustentabilidade ambiental.
+
+**Resposta:** C
+
+**Explicação:** As usinas se concentram no Oriente Médio e no norte da África (Arábia Saudita, Emirados Árabes, Kuwait), regiões de clima desértico, com pouca água doce. A dessalinização é a solução para a escassez de água potável.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 36
+
+**Assunto:** geografia/geografia-fisica
+
+### 38
+![Figura](enem-2016-d1-q038-1.webp)
+
+Acesso em: 28 fev. 2012 (adaptado).
+
+No anúncio, há referências a algumas das transformações ocorridas no Brasil nos anos 1950 e 1960. No entanto, tais referências omitem transformações que impactaram segmentos da população, como a
+
+- A) exaltação da tradição colonial.
+- B) redução da influência estrangeira.
+- C) ampliação da imigração internacional.
+- D) intensificação da desigualdade regional.
+- E) desconcentração da produção industrial.
+
+**Resposta:** D
+
+**Explicação:** O anúncio do Simca Chambord junto aos prédios modernos de Brasília exalta a industrialização e a nova capital dos anos JK. Mas não mostra que esse crescimento se concentrou no Sudeste e aumentou a desigualdade entre as regiões do país.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 38
+
+**Assunto:** historia/brasil-republica
+
+### 43
+![Figura](enem-2016-d1-q043-1.webp)
+
+Uma scena franco-brazileira: “franco” — pelo local e os personagens, o local que é Paris e os personagens que são pessôas do povo da grande capital; “brazileira” pelo que ahi se está bebendo: café do Brazil. O Lettreiro diz a verdade apregoando que esse é o melhor de todos os cafés. (Essa página foi desenhada especialmente para
+
+A Illustração Brazileira pelo Sr. Tofani, desenhista do
+
+Je Sais Tout.)
+
+A Illustração Brazileira, n. 2, 15 jun. 1909 (adaptado).
+
+A página do periódico do início do século XX documenta um importante elemento da cultura francesa, que é revelador do papel do Brasil na economia mundial, indicado no seguinte aspecto:
+
+- A) Prestador de serviços gerais.
+- B) Exportador de bens industriais.
+- C) Importador de padrões estéticos.
+- D) Fornecedor de produtos agrícolas.
+- E) Formador de padrões de consumo.
+
+**Resposta:** D
+
+**Explicação:** A página mostra parisienses bebendo café, anunciado como "café do Brazil", o melhor de todos. No início do século XX, o Brasil era o grande exportador de café do mundo: seu papel na economia mundial era o de fornecedor de produtos agrícolas.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 43
+
+**Assunto:** historia/brasil-republica
+
+### 45
+O número de filhos por casal diminui rapidamente. Para a maioria dos economistas, isso representa um alerta para o futuro.
+
+Taxa de fecundidade total
+
+![Figura](enem-2016-d1-q045-1.webp)
+
+> Disponível em: http://epoca.globo.com. Acesso em: 20 out. 2015 (adaptado).
+
+Uma consequência socioeconômica para os países que vivenciam o fenômeno demográfico ilustrado é a diminuição da
+
+- A) oferta de mão de obra nacional.
+- B) média de expectativa de vida.
+- C) disponibilidade de serviços de saúde.
+- D) despesa de natureza previdenciária.
+- E) imigração de trabalhadores qualificados. TECNOLOGIAS
+
+**Resposta:** A
+
+**Explicação:** A taxa de fecundidade caiu muito em todos os países do gráfico. Com menos nascimentos, a população envelhece e, com o tempo, há menos jovens entrando no mercado de trabalho: diminui a oferta de mão de obra.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 45
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
 ## Difícil
 
 ### 15

@@ -24,10 +24,10 @@ Em sua formulação, o spray de pimenta contém porcentagens variadas de oleorre
 
 Como funciona o gás de pimenta. Disponível em: http://pessoas.hsw.uol.com.br. Acesso em: 1 mar. 2012 (adaptado).
 
-Quando uma pessoa é atingida com o spray de pimenta nos olhos ou na pele, a lavagem da região atingida com água é ineﬁcaz porque a
+Quando uma pessoa é atingida com o spray de pimenta nos olhos ou na pele, a lavagem da região atingida com água é ineficaz porque a
 
-- A) reação entre etanol e água libera calor, intensiﬁcando o ardor.
-- B) solubilidade do princípio ativo em água é muito baixa, diﬁcultando a sua remoção.
+- A) reação entre etanol e água libera calor, intensificando o ardor.
+- B) solubilidade do princípio ativo em água é muito baixa, dificultando a sua remoção.
 - C) permeabilidade da água na pele é muito alta, não permitindo a remoção do princípio ativo.
 - D) solubilização do óleo em água causa um maior espalhamento além das áreas atingidas.
 - E) ardência faz evaporar rapidamente a água, não permitindo que haja contato entre o óleo e o solvente.
@@ -172,6 +172,119 @@ Um exemplo de tal processo é o(a)
 **Fonte:** ENEM 2016, 1º dia, caderno azul, questão 90
 
 **Assunto:** biologia/genetica-e-biotecnologia, biologia/evolucao
+
+### 48
+A coleta das fezes dos animais domésticos em sacolas plásticas e o seu descarte em lixeiras convencionais podem criar condições de degradação que geram produtos prejudiciais ao meio ambiente (Figura 1).
+
+![Figura](enem-2016-d1-q048-1.webp)
+
+A Figura 2 ilustra o Projeto Park Spark, desenvolvido em Cambridge, MA (EUA), em que as fezes dos animais domésticos são recolhidas em sacolas biodegradáveis e jogadas em um biodigestor instalado em parques públicos; e os produtos são utilizados em equipamentos no próprio parque.
+
+![Figura](enem-2016-d1-q048-2.webp)
+
+Uma inovação desse projeto é possibilitar o(a)
+
+- A) queima de gás metano.
+- B) armazenamento de gás carbônico.
+- C) decomposição aeróbica das fezes.
+- D) uso mais eficiente de combustíveis fósseis.
+- E) fixação de carbono em moléculas orgânicas.
+
+**Resposta:** A
+
+**Explicação:** No biodigestor, as fezes são decompostas por microrganismos sem oxigênio e produzem biogás (metano). Esse gás alimenta o poste de luz do parque. A inovação é aproveitar a queima do metano para gerar energia.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 48
+
+**Assunto:** biologia/ecologia
+
+### 53
+O esquema representa, de maneira simplificada, o processo de produção de etanol utilizando milho como matéria-prima.
+
+![Figura](enem-2016-d1-q053-1.webp)
+
+A etapa de hidrólise na produção de etanol a partir do milho é fundamental para que
+
+- A) a glicose seja convertida em sacarose.
+- B) as enzimas dessa planta sejam ativadas.
+- C) a maceração favoreça a solubilização em água.
+- D) o amido seja transformado em substratos utilizáveis pela levedura.
+- E) os grãos com diferentes composições químicas sejam padronizados.
+
+**Resposta:** D
+
+**Explicação:** A levedura não consegue fermentar o amido diretamente. A hidrólise quebra o amido do milho em açúcares simples (como a glicose), que a levedura transforma em etanol e gás carbônico.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 53
+
+**Assunto:** biologia/citologia
+
+### 72
+Uma pessoa é responsável pela manutenção de uma sauna úmida. Todos os dias cumpre o mesmo ritual: colhe folhas de capim-cidreira e algumas folhas de eucalipto. Em seguida, coloca as folhas na saída do vapor da sauna, aromatizando-a, conforme representado na figura.
+
+![Figura](enem-2016-d1-q072-1.webp)
+
+Qual processo de separação é responsável pela aromatização promovida?
+
+- A) Filtração simples.
+- B) Destilação simples.
+- C) Extração por arraste.
+- D) Sublimação fracionada.
+- E) Decantação sólido-líquido.
+
+**Resposta:** C
+
+**Explicação:** O vapor de água passa pelas folhas e arrasta os óleos essenciais (aromas), que vão junto com ele para a sauna. É a extração por arraste a vapor.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 72
+
+**Assunto:** quimica/solucoes
+
+### 75
+A figura ilustra o movimento da seiva xilêmica em uma planta.
+
+![Figura](enem-2016-d1-q075-1.webp)
+
+> CORREIA, S. Teoria da tensão-coesão-adesão. Revista de Ciência Elementar, n. 1, 2014 (adaptado).
+
+Mesmo que essa planta viesse a sofrer ação contínua do vento e sua copa crescesse voltada para baixo, essa seiva continuaria naturalmente seu percurso. O que garante o transporte dessa seiva é a
+
+- A) gutação.
+- B) gravidade.
+- C) respiração.
+- D) fotossíntese.
+- E) transpiração.
+
+**Resposta:** E
+
+**Explicação:** A seiva sobe pelo xilema puxada pela transpiração das folhas: a água que evapora pelos estômatos "puxa" a coluna de água, que se mantém unida pela coesão entre as moléculas. Esse mecanismo funciona mesmo com a copa virada para baixo.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 75
+
+**Assunto:** biologia/seres-vivos
+
+### 89
+O aquecimento de um material por irradiação com micro-ondas ocorre por causa da interação da onda eletromagnética com o dipolo elétrico da molécula. Um importante atributo do aquecimento por micro-ondas é a absorção direta da energia pelo material a ser aquecido. Assim, esse aquecimento é seletivo e dependerá, principalmente, da constante dielétrica e da frequência de relaxação do material. O gráfico mostra a taxa de aquecimento de cinco solventes sob irradiação de micro-ondas.
+
+![Figura](enem-2016-d1-q089-1.webp)
+
+> BARBOZA, A. C. R. N. et al. Aquecimento em forno de micro-ondas. Desenvolvimento de alguns conceitos fundamentais. Química Nova, n. 6, 2001 (adaptado).
+
+No gráfico, qual solvente apresenta taxa média de aquecimento mais próxima de zero, no intervalo de 0 s a 40 s?
+
+- A) H₂O
+- B) CH₃OH
+- C) CH₃CH₂OH
+- D) CH₃CH₂CH₂OH
+- E) CH₃CH₂CH₂CH₂CH₂CH₃
+
+**Resposta:** E
+
+**Explicação:** Taxa média de aquecimento é a variação de temperatura dividida pelo tempo. O n-hexano praticamente não esquenta (curva quase horizontal), porque é apolar e não tem dipolo para interagir com as micro-ondas. Sua fórmula é CH₃CH₂CH₂CH₂CH₂CH₃.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 89
+
+**Assunto:** quimica/fisico-quimica
 
 ## Médio
 
@@ -444,6 +557,270 @@ O aluno que responder corretamente ao questionamento do professor dirá que o de
 
 **Assunto:** fisica/termologia
 
+### 49
+Uma ambulância A em movimento retílineo e uniforme aproxima-se de um observador O, em repouso. A sirene emite um som de frequência constante fA. O desenho ilustra as frentes de onda do som emitido pela ambulância. O observador possui um detector que consegue registrar, no esboço de um gráfico, a frequência da onda sonora detectada em função do tempo fO(t), antes e depois da passagem da ambulância por ele.
+
+![Figura](enem-2016-d1-q049-1.webp)
+
+Qual esboço gráfico representa a frequência fO(t) detectada pelo observador?
+
+- A) ![Alternativa A](enem-2016-d1-q049-3.webp)
+- B) ![Alternativa B](enem-2016-d1-q049-4.webp)
+- C) ![Alternativa C](enem-2016-d1-q049-6.webp)
+- D) ![Alternativa D](enem-2016-d1-q049-2.webp)
+- E) ![Alternativa E](enem-2016-d1-q049-5.webp)
+
+**Resposta:** D
+
+**Explicação:** Pelo efeito Doppler, enquanto a ambulância se aproxima, o observador ouve uma frequência maior que fA (constante, pois a velocidade é constante). Quando ela passa, a frequência cai e fica menor que fA. O gráfico começa acima de fA e termina abaixo dele.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 49
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 52
+Os feromônios são substâncias utilizadas na comunicação entre indivíduos de uma espécie. O primeiro feromônio isolado de um inseto foi o bombicol, substância produzida pela mariposa do bicho-da-seda.
+
+![Figura](enem-2016-d1-q052-1.webp)
+
+O uso de feromônios em ações de controle de insetos-praga está de acordo com o modelo preconizado para a agricultura do futuro. São agentes altamente específicos e seus compostos químicos podem ser empregados em determinados cultivos, conforme ilustrado no quadro.
+
+![Figura](enem-2016-d1-q052-2.webp)
+
+> FERREIRA, J. T. B.; ZARBIN, P. H. G. Amor ao primeiro odor: a comunicação química entre os insetos. Química Nova na Escola, n. 7, maio 1998 (adaptado).
+
+Considerando essas estruturas químicas, o tipo de estereoisomeria apresentada pelo bombicol é também apresentada pelo feromônio utilizado no controle do inseto
+
+- A) Sitophilus spp.
+- B) Migdolus fryanus.
+- C) Anthonomus rubi.
+- D) Grapholita molesta.
+- E) Scrobipalpuloides absoluta.
+
+**Resposta:** E
+
+**Explicação:** O bombicol tem ligações duplas entre carbonos com grupos diferentes em cada lado, o que permite isomeria geométrica (cis-trans). O feromônio usado no tomate (Scrobipalpuloides absoluta) também tem ligações duplas desse tipo na cadeia.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 52
+
+**Assunto:** quimica/quimica-organica
+
+### 55
+A Figura 1 apresenta o gráfico da intensidade, em decibéis (dB), da onda sonora emitida por um alto-falante, que está em repouso, e medida por um microfone em função da frequência da onda para diferentes distâncias: 3 mm, 25 mm, 51 mm e 60 mm. A Figura 2 apresenta um diagrama com a indicação das diversas faixas do espectro de frequência sonora para o modelo de alto-falante utilizado neste experimento.
+
+![Figura](enem-2016-d1-q055-1.webp)
+
+> Disponível em: www.batera.com.br. Acesso em: 8 fev. 2015.
+
+![Figura](enem-2016-d1-q055-2.webp)
+
+> Disponível em: www.somsc.com.br. Acesso em: 2 abr. 2015.
+
+Relacionando as informações presentes nas figuras 1 e 2, como a intensidade sonora percebida é afetada pelo aumento da distância do microfone ao alto-falante?
+
+- A) Aumenta na faixa das frequências médias.
+- B) Diminui na faixa das frequências agudas.
+- C) Diminui na faixa das frequências graves.
+- D) Aumenta na faixa das frequências médias altas.
+- E) Aumenta na faixa das frequências médias baixas.
+
+**Resposta:** C
+
+**Explicação:** Nas frequências baixas (até cerca de 250 Hz, a faixa dos graves), a curva medida a 3 mm fica bem acima da medida a 60 mm. Nas frequências mais altas, as curvas praticamente coincidem. Afastar o microfone diminui a intensidade dos graves.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 55
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 63
+Dois veículos que trafegam com velocidade constante em uma estrada, na mesma direção e sentido, devem manter entre si uma distância mínima. Isso porque o movimento de um veículo, até que ele pare totalmente, ocorre em duas etapas, a partir do momento em que o motorista detecta um problema que exige uma freada brusca. A primeira etapa é associada à distância que o veículo percorre entre o intervalo de tempo da detecção do problema e o acionamento dos freios. Já a segunda se relaciona com a distância que o automóvel percorre enquanto os freios agem com desaceleração constante. Considerando a situação descrita, qual esboço gráfico representa a velocidade do automóvel em relação à distância percorrida até parar totalmente?
+
+- A) ![Alternativa A](enem-2016-d1-q063-1.webp)
+- B) ![Alternativa B](enem-2016-d1-q063-2.webp)
+- C) ![Alternativa C](enem-2016-d1-q063-3.webp)
+- D) ![Alternativa D](enem-2016-d1-q063-4.webp)
+- E) ![Alternativa E](enem-2016-d1-q063-5.webp)
+
+**Resposta:** D
+
+**Explicação:** Durante o tempo de reação, a velocidade não muda (trecho horizontal). Depois, na freada com desaceleração constante, v² = v₀² − 2ad: a velocidade cai cada vez mais rápido com a distância, numa curva voltada para baixo, até zero.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 63
+
+**Assunto:** fisica/cinematica
+
+### 66
+A invenção e o acoplamento entre engrenagens revolucionaram a ciência na época e propiciaram a invenção de várias tecnologias, como os relógios. Ao construir um pequeno cronômetro, um relojoeiro usa o sistema de engrenagens mostrado. De acordo com a figura, um motor é ligado ao eixo e movimenta as engrenagens fazendo o ponteiro girar. A frequência do motor é de 18 RPM, e o número de dentes das engrenagens está apresentado no quadro.
+
+![Figura](enem-2016-d1-q066-1.webp)
+
+A frequência de giro do ponteiro, em RPM, é
+
+- A) 1.
+- B) 2.
+- C) 4.
+- D) 81.
+- E) 162.
+
+**Resposta:** B
+
+**Explicação:** Nas engrenagens em contato, frequência × dentes é igual. A (24 dentes, 18 RPM) gira B (72): 18 × 24 ÷ 72 = 6 RPM. C está no mesmo eixo de B: 6 RPM. C (36) gira D (108): 6 × 36 ÷ 108 = 2 RPM. O ponteiro está em D: 2 RPM.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 66
+
+**Assunto:** fisica/cinematica
+
+### 74
+Três lâmpadas idênticas foram ligadas no circuito esquematizado. A bateria apresenta resistência interna desprezível, e os fios possuem resistência nula. Um técnico fez uma análise do circuito para prever a corrente elétrica nos pontos: A, B, C, D e E; e rotulou essas correntes de IA, IB, IC, ID e IE, respectivamente.
+
+![Figura](enem-2016-d1-q074-1.webp)
+
+O técnico concluiu que as correntes que apresentam o mesmo valor são
+
+- A) IA = IE e IC = ID.
+- B) IA = IB = IE e IC = ID.
+- C) IA = IB, apenas.
+- D) IA = IB = IE, apenas.
+- E) IC = IB, apenas.
+
+**Resposta:** A
+
+**Explicação:** As três lâmpadas idênticas estão em paralelo com a bateria e recebem a mesma corrente i. Pelos pontos A e E passa a corrente total (3i), então IA = IE. Os pontos C e D ficam nos fios de uma lâmpada só cada um, então IC = ID = i.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 74
+
+**Assunto:** fisica/eletricidade
+
+### 76
+Nucleófilos (Nu⁻) são bases de Lewis que reagem com haletos de alquila, por meio de uma reação chamada substituição nucleofílica (SN), como mostrado no esquema:
+
+R–X + Nu⁻ → R–Nu + X⁻
+
+(R = grupo alquila e X = halogênio) A reação de SN entre metóxido de sódio (Nu⁻ = CH₃O⁻) e brometo de metila fornece um composto orgânico pertencente à função
+
+- A) éter.
+- B) éster.
+- C) álcool.
+- D) haleto.
+- E) hidrocarboneto.
+
+**Resposta:** A
+
+**Explicação:** O metóxido (CH₃O⁻) substitui o bromo do brometo de metila (CH₃Br): CH₃Br + CH₃O⁻ → CH₃–O–CH₃ + Br⁻. O produto, com um oxigênio entre dois carbonos, é um éter (o metoximetano).
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 76
+
+**Assunto:** quimica/quimica-organica
+
+### 77
+O trilho de ar é um dispositivo utilizado em laboratórios de física para analisar movimentos em que corpos de prova (carrinhos) podem se mover com atrito desprezível. A figura ilustra um trilho horizontal com dois carrinhos (1 e 2) em que se realiza um experimento para obter a massa do carrinho 2. No instante em que o carrinho 1, de massa 150,0 g, passa a se mover com velocidade escalar constante, o carrinho 2 está em repouso. No momento em que o carrinho 1 se choca com o carrinho 2, ambos passam a se movimentar juntos com velocidade escalar constante. Os sensores eletrônicos distribuídos ao longo do trilho determinam as posições e registram os instantes associados à passagem de cada carrinho, gerando os dados do quadro.
+
+![Figura](enem-2016-d1-q077-1.webp)
+
+![Figura](enem-2016-d1-q077-2.webp)
+
+Com base nos dados experimentais, o valor da massa do carrinho 2 é igual a
+
+- A) 50,0 g.
+- B) 250,0 g.
+- C) 300,0 g.
+- D) 450,0 g.
+- E) 600,0 g.
+
+**Resposta:** C
+
+**Explicação:** Antes do choque, o carrinho 1 vai de 15 para 30 cm em 1 s: 15 cm/s. Depois, juntos, vão de 75 para 90 cm em 3 s: 5 cm/s. Conservação da quantidade de movimento: 150 × 15 = (150 + m) × 5, então 150 + m = 450 e m = 300 g.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 77
+
+**Assunto:** fisica/dinamica
+
+### 79
+Vários métodos são empregados para prevenção de infecções por microrganismos. Dois desses métodos utilizam microrganismos vivos e são eles: as vacinas atenuadas, constituídas por patógenos avirulentos, e os probióticos que contêm bactérias benéficas. Na figura são apresentados cinco diferentes mecanismos de exclusão de patógenos pela ação dos probióticos no intestino de um animal.
+
+![Figura](enem-2016-d1-q079-1.webp)
+
+Qual mecanismo de ação desses probióticos promove um efeito similar ao da vacina?
+
+- A) 5
+- B) 4
+- C) 3
+- D) 2
+- E) 1
+
+**Resposta:** B
+
+**Explicação:** A vacina age estimulando o sistema imunológico a produzir anticorpos (imunoglobulinas). Entre os mecanismos dos probióticos, o de número 4 é o estímulo à produção de imunoglobulinas.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 79
+
+**Assunto:** biologia/saude-e-doencas
+
+### 81
+A lipofilia é um dos fatores fundamentais para o planejamento de um fármaco. Ela mede o grau de afinidade que a substância tem com ambientes apolares, podendo ser avaliada por seu coeficiente de partição.
+
+![Figura](enem-2016-d1-q081-1.webp)
+
+> NOGUEIRA, L. J.; MONTANARI, C. A.; DONNICI, C. L. Histórico da evolução da química medicinal e a importância da lipofilia: de Hipócrates e Galeno a Paracelsus e as contribuições de Overton e de Hansch. Revista Virtual de Química, n. 3, 2009 (adaptado).
+
+Em relação ao coeficiente de partição da testosterona, as lipofilias dos compostos 1 e 2 são, respectivamente,
+
+- A) menor e menor que a lipofilia da testosterona.
+- B) menor e maior que a lipofilia da testosterona.
+- C) maior e menor que a lipofilia da testosterona.
+- D) maior e maior que a lipofilia da testosterona.
+- E) menor e igual à lipofilia da testosterona.
+
+**Resposta:** D
+
+**Explicação:** A testosterona tem um grupo OH, que é polar e faz ligação de hidrogênio com a água. Trocando o OH por H (composto 1) ou por CH₃ (composto 2), a molécula fica mais apolar e mais afim a ambientes apolares: os dois são mais lipofílicos que a testosterona.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 81
+
+**Assunto:** quimica/quimica-organica
+
+### 85
+Os tensoativos são compostos capazes de interagir com substâncias polares e apolares. A parte iônica dos tensoativos interage com substâncias polares, e a parte lipofílica interage com as apolares. A estrutura orgânica de um tensoativo pode ser representada por:
+
+![Figura](enem-2016-d1-q085-1.webp)
+
+Ao adicionar um tensoativo sobre a água, suas moléculas formam um arranjo ordenado. Esse arranjo é representado esquematicamente por:
+
+- A) ![Alternativa A](enem-2016-d1-q085-2.webp)
+- B) ![Alternativa B](enem-2016-d1-q085-3.webp)
+- C) ![Alternativa C](enem-2016-d1-q085-4.webp)
+- D) ![Alternativa D](enem-2016-d1-q085-5.webp)
+- E) ![Alternativa E](enem-2016-d1-q085-6.webp)
+
+**Resposta:** C
+
+**Explicação:** Na superfície da água, as moléculas do tensoativo se organizam com a parte iônica (polar, a "cabeça") mergulhada na água e a cadeia apolar (a "cauda") voltada para fora, para o ar. A figura que mostra essa camada na superfície, com as caudas para cima, é a correta.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 85
+
+**Assunto:** quimica/quimica-organica
+
+### 86
+Um experimento para comprovar a natureza ondulatória da radiação de micro-ondas foi realizado da seguinte forma: anotou-se a frequência de operação de um forno de micro-ondas e, em seguida, retirou-se sua plataforma giratória. No seu lugar, colocou-se uma travessa refratária com uma camada grossa de manteiga. Depois disso, o forno foi ligado por alguns segundos. Ao se retirar a travessa refratária do forno, observou-se que havia três pontos de manteiga derretida alinhados sobre toda a travessa. Parte da onda estacionária gerada no interior do forno é ilustrada na figura.
+
+![Figura](enem-2016-d1-q086-1.webp)
+
+De acordo com a figura, que posições correspondem a dois pontos consecutivos da manteiga derretida?
+
+- A) I e III
+- B) I e V
+- C) II e III
+- D) II e IV
+- E) II e V
+
+**Resposta:** A
+
+**Explicação:** A manteiga derrete onde a onda estacionária tem amplitude máxima (os ventres), onde há mais energia. Nos nós (II e IV), a amplitude é zero. Os ventres são I, III e V; dois consecutivos são I e III.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 86
+
+**Assunto:** fisica/ondulatoria-e-optica
+
 ## Difícil
 
 ### 50
@@ -569,3 +946,53 @@ A elevação de temperatura descrita ocorre porque
 **Fonte:** ENEM 2016, 1º dia, caderno azul, questão 88
 
 **Assunto:** fisica/eletricidade
+
+### 59
+Por apresentar significativa resistividade elétrica, o grafite pode ser utilizado para simular resistores elétricos em circuitos desenhados no papel, com o uso de lápis e lapiseiras. Dependendo da espessura e do comprimento das linhas desenhadas, é possível determinar a resistência elétrica de cada traçado produzido. No esquema foram utilizados três tipos de lápis diferentes (2H, HB e 6B) para efetuar três traçados distintos.
+
+![Figura](enem-2016-d1-q059-1.webp)
+
+Munido dessas informações, um estudante pegou uma folha de papel e fez o desenho de um sorvete de casquinha utilizando-se desses traçados. Os valores encontrados nesse experimento, para as resistências elétricas (R), medidas com o auxílio de um ohmímetro ligado nas extremidades das resistências, são mostrados na figura. Verificou-se que os resistores obedeciam à Lei de Ohm.
+
+![Figura](enem-2016-d1-q059-2.webp)
+
+Na sequência, conectou o ohmímetro nos terminais A e B do desenho e, em seguida, conectou-o nos terminais B e C, anotando as leituras RAB e RBC, respectivamente.
+
+Ao estabelecer a razão RAB/RBC, qual resultado o estudante obteve?
+
+- A) 1
+- B) 4/7
+- C) 10/27
+- D) 14/81
+- E) 4/81
+
+**Resposta:** B
+
+**Explicação:** Entre A e B ficam em paralelo: 5 kΩ, 20 kΩ e o caminho pela casquinha (10 + 10 = 20 kΩ). 5 ∥ 20 ∥ 20 = 5 ∥ 10 = 10/3 kΩ. Entre B e C: 10 kΩ em paralelo com 10 kΩ + (5 ∥ 20 = 4 kΩ) = 14 kΩ, ou seja, 10 ∥ 14 = 140/24 = 35/6 kΩ. Razão: (10/3) ÷ (35/6) = 4/7.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 59
+
+**Assunto:** fisica/eletricidade
+
+### 82
+Uma invenção que significou um grande avanço tecnológico na Antiguidade, a polia composta ou a associação de polias, é atribuída a Arquimedes (287 a.C. a 212 a.C.). O aparato consiste em associar uma série de polias móveis a uma polia fixa. A figura exemplifica um arranjo possível para esse aparato. É relatado que Arquimedes teria demonstrado para o rei Hierão um outro arranjo desse aparato, movendo sozinho, sobre a areia da praia, um navio repleto de passageiros e cargas, algo que seria impossível sem a participação de muitos homens. Suponha que a massa do navio era de 3 000 kg, que o coeficiente de atrito estático entre o navio e a areia era de 0,8 e que Arquimedes tenha puxado o navio com uma força F, paralela à direção do movimento e de módulo igual a 400 N. Considere os fios e as polias ideais, a aceleração da gravidade igual a 10 m/s² e que a superfície da praia é perfeitamente horizontal.
+
+![Figura](enem-2016-d1-q082-1.webp)
+
+> Disponível em: www.histedbr.fae.unicamp.br. Acesso em: 28 fev. 2013 (adaptado).
+
+O número mínimo de polias móveis usadas, nessa situação, por Arquimedes foi
+
+- A) 3.
+- B) 6.
+- C) 7.
+- D) 8.
+- E) 10.
+
+**Resposta:** B
+
+**Explicação:** O atrito máximo é 0,8 × 3 000 × 10 = 24 000 N. Cada polia móvel dobra a força: com n polias, a força no navio é 400 × 2ⁿ. Precisamos de 400 × 2ⁿ ≥ 24 000, ou 2ⁿ ≥ 60. Com 5 polias (32) não basta; com 6 (64), sim.
+
+**Fonte:** ENEM 2016, 1º dia, caderno azul, questão 82
+
+**Assunto:** fisica/dinamica

@@ -107,6 +107,8 @@ for pno, p in enumerate(doc):
             continue  # divisória das colunas em pedaços
         if r.width < 1.6 and r.height < 1.6:
             continue  # pontinhos de linhas pontilhadas
+        if d.get('fill') is not None and 15 < r.width < 36 and 40 < r.height < 130 and (r.x0 > W - 55 or r.x1 < 55):
+            continue  # abas escuras na margem da página (2016)
         branco = lambda c: c is not None and min(c) > 0.97
         if branco(d.get('fill')) and (d.get('color') is None or branco(d.get('color'))):
             continue  # caixas brancas de fundo

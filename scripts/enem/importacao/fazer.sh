@@ -7,3 +7,12 @@ const fs=require('fs');const inc=new Set();for(const l of fs.readFileSync('decis
 const j=JSON.parse(fs.readFileSync('${ANO}_D$DIA.json'));const s=new Set();const out=[];for(const q of j.qs){if(s.has(q.num))continue;s.add(q.num);if(!inc.has(+q.num)&&!/anul/i.test(q.gab||''))out.push(q.num)}console.log(out.join(' '))")
 echo "fora: $NUMS"
 python3 figuras.py $PDF $ANO $DIA $NUMS 2>&1 | grep -v "Deprecat\|getdata" | tr '\n' ';'; echo
+# aparar.txt: "ANO arquivo.webp ALTURA" corta a imagem nessa altura (tira texto que entrou no recorte)
+[ -f aparar.txt ] && python3 -c "
+import sys
+from PIL import Image
+for l in open('aparar.txt'):
+    p = l.split()
+    if len(p) == 3 and p[0] == '$ANO':
+        f = 'img$ANO/' + p[1]; im = Image.open(f); im.crop((0, 0, im.width, int(p[2]))).save(f, 'WEBP', quality=72); print('aparado', p[1])
+"

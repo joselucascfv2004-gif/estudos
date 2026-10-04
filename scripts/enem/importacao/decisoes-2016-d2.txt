@@ -73,6 +73,57 @@ s: pode ser calculada por M = log (E ) || 3 E0 , sendo => pode ser calculada por
 s: e E0 uma constante => e E₀ uma constante
 a: E1 = E2 + 2 | E1 = 10² · E2 | E1 = 10³ · E2 | E1 = 10^(9/7) · E2 | E1 = (9/7) · E2
 x: Subtraia as magnitudes: 9 − 7 = (2/3) · [log(E1/E₀) − log(E2/E₀)] = (2/3) · log(E1/E2). Então log(E1/E2) = 3 e E1 = 10³ · E2. Dois pontos na escala Richter são mil vezes mais energia.
+@136 m matematica/funcoes-afim-e-quadratica fig
+x: Pelo gráfico, a parábola de A atinge a altura máxima de 16 m em t = 4 s. A reta de B passa pela origem com coeficiente angular 2 (2 m por segundo). Para chegar a 16 m em 4 s, o coeficiente precisa ser 16 ÷ 4 = 4: deve aumentar 2 unidades.
+@138 m matematica/porcentagem fig
+x: Aos 4 anos e 4 meses, a curva p50 marca cerca de 105 cm. O aumento foi de 105 − 85 = 20 cm sobre 85 cm: 20 ÷ 85 ≈ 0,235 = 23,5%.
+@139 m matematica/estatistica fig
+x: De janeiro para fevereiro de 2013, a chuva passa de cerca de 148 mm para 132 mm (variação menor que 50 mm), as mínimas ficam acima de 15 °C (cerca de 21 °C) e a máxima sobe um pouco (de cerca de 27,5 °C para 29 °C). Nos outros pares de meses, alguma condição falha: chuva variando muito, mínima abaixo de 15 °C ou máxima caindo.
+@140 m matematica/funcoes-afim-e-quadratica fig
+x: Na 1ª hora, só uma bomba: de 6 000 L para 5 000 L, ou seja, 1 000 L/h. Nas 2 horas seguintes, as duas juntas esvaziam 5 000 L: 2 500 L/h. A segunda bomba tem vazão de 2 500 − 1 000 = 1 500 L/h.
+@142 m matematica/porcentagem fig
+x: A altura do pneu é largura × (de/100), com o mesmo aro 15. 175/65: 113,75 mm; 175/75: 131,25 mm; 175/80: 140 mm; 185/60: 111 mm; 205/55: 112,75 mm. A menor altura é a do 185/60R15.
+@143 m matematica/funcoes-afim-e-quadratica fig
+x: O nível cai em linha reta de 30% (mês 1) para 10% (mês 6): 20 pontos em 5 meses, 4% por mês. Depois do mês 6, faltam 10% para zerar: 10 ÷ 4 = 2,5 meses.
+@146 d matematica/geometria-espacial fig
+x: Cada compartimento tem 20 m × 10 m × 10 m = 2 000 m³. As placas têm só 7 m de altura: acima delas os compartimentos se comunicam. Com o furo em C, ele se esvazia todo (2 000 m³), e de A e B escoa só o petróleo acima das placas: 2 × 20 × 10 × 3 = 1 200 m³. Total: 3 200 m³ = 3,2 × 10³ m³.
+@147 d matematica/probabilidade fig
+x: Na entrada há 2 caminhos. Pelo de cima: na bifurcação seguinte ele escolhe entre ir para III ou subir (1/2); no alto, escolhe entre I, V e IV (1/3). Chance: 1/2 × 1/2 × 1/3 = 1/12. Pelo de baixo: escolhe entre II e seguir (1/2); depois, entre III e IV (1/2). Chance: 1/2 × 1/2 × 1/2 = 1/8. Total: 1/12 + 1/8 = 2/24 + 3/24 = 5/24.
+@151 f matematica/porcentagem fig
+x: As capitais do Nordeste passaram de 1 270 729 para 10 162 346 habitantes: cerca de 8 vezes. Multiplicar por 8 é um aumento de 700%.
+@154 d matematica/geometria-analitica fig
+s: pode ser calculado || A pela razão , em que A e B são as medidas das || A + B áreas indicadas no gráfico. => pode ser calculado pela razão A/(A + B), em que A e B são as medidas das áreas indicadas no gráfico.
+x: A + B é metade do quadrado: 100 × 100 ÷ 2 = 5 000. Para Gini 0,3, A = 1 500 e B = 3 500. Se o ponto P é (90, y), a área B vale 90·y/2 + 10·(y + 100)/2 = 50y + 500. Então 50y + 500 = 3 500 e y = 60: os 90% de menor salário ficam com 60% da massa salarial, e os 10% mais bem pagos, com 40%.
+@158 m matematica/numeros-e-operacoes fig
+x: Contando as argolas de cada haste e lendo o adesivo embaixo: U = 1, CM = 4, D = 7, M = 0, C = 1 e DM = 6. Na ordem usual (CM, DM, M, C, D, U), o número é 4 6 0 1 7 1, ou seja, 460 171.
+@159 d matematica/geometria-plana fig
+s: √3 , respectivamente => √3, respectivamente
+x: Nenhuma peça pode passar pelo furo circular: o quadrado passa se o diâmetro for ao menos a diagonal 4√2 ≈ 5,6 cm; o retângulo, se for ao menos sua diagonal 5 cm; o triângulo precisa de 8 cm. Logo, d < 5 cm. E a peça circular não pode caber nos outros furos: caberia no quadrado ou no triângulo se d ≤ 4 cm. Então 4 < d < 5: só a serra de 4,7 cm.
+@160 m matematica/funcoes-afim-e-quadratica fig
+x: Em 24 horas, as curvas de A e B se cruzam acima do nível mínimo de A 2 vezes. Como o padrão se repete todo dia, em uma semana são 2 × 7 = 14 vezes.
+@163 m matematica/funcoes-afim-e-quadratica fig
+x: A vazão de enchimento é a da torneira menos a do ralo. Entre 5 e 10 minutos, a torneira está em 20 L/min e o ralo em 5 L/min: 15 L/min, constante. Nos outros intervalos, uma das vazões está mudando ou a diferença não é positiva.
+@165 m matematica/geometria-analitica fig
+x: Mãe: rua 6 com E; pai: rua 2 com E; escola: rua 4 com A. Para ficar à mesma distância (andando pelas ruas) da mãe e do pai, o imóvel deve estar na rua 4. Na rua 4, a distância até a mãe é 2 + (quarteirões até E) e até a escola, os quarteirões até A. Na rua D: até a mãe 2 + 1 = 3, até a escola 3. Imóvel: rua 4 com a rua D.
+@166 m matematica/equacoes-e-sistemas fig
+x: A figura B pode ser dividida em dois triângulos retângulos: um de catetos 15 e 15 (área 112,5) e outro de catetos 21 e 3 (área 31,5): total 144 m². O terreno A tem x(x + 7) = 144, então x = 9. Medidas: 9 m e 16 m.
+@169 m matematica/razao-proporcao-regra-de-tres fig
+x: O ponteiro está na marca de 3/4 do tanque: 37,5 L, que permitem 37,5 × 15 = 562,5 km. O posto mais distante que dá para alcançar sem ficar sem combustível é o de 500 km (o de 570 km já está fora do alcance).
+@171 d matematica/geometria-plana fig
+s: aproximação para p e => aproximação para π e
+s: √2 . => √2.
+x: O segmento de F a B mede √(2² + 2²) = 2√2 ≈ 2,8 km = 2 800 m: 2 800 h. A semicircunferência tem diâmetro 2√2, raio √2, e comprimento π·√2 ≈ 3 × 1,4 = 4,2 km = 4 200 m: 4 200 × 0,6 = 2 520 h. O menor tempo é 2 520 h.
+@172 d matematica/geometria-espacial fig
+x: Olhando de cima (plano paralelo ao Equador), o trecho de A até B, sobre um paralelo, aparece como um arco de circunferência. O trecho de B até C, sobre um meridiano rumo ao polo, aparece como um pequeno segmento em direção ao centro. A figura com um arco seguido de um segmento curto é a última.
+@175 m matematica/geometria-espacial fig
+s: aproximação para p. => aproximação para π.
+x: Cilindro: 3 × 3² × 12 = 324 m³. Cone: 3 × 3² × 3 ÷ 3 = 27 m³. Total: 351 m³. Com 20 m³ por viagem: 351 ÷ 20 = 17,55, então são necessárias 18 viagens.
+@176 f matematica/grandezas-medidas-escalas fig
+x: Na escala 1 : 8, o desenho tem 220 ÷ 8 = 27,5 cm, 120 ÷ 8 = 15 cm e 50 ÷ 8 = 6,25 cm. Reduzindo 20% (multiplicando por 0,8): 22 cm, 12 cm e 5 cm.
+@177 f matematica/grandezas-medidas-escalas fig
+x: 443 pés × 12 = 5 316 polegadas. 5 316 × 2,54 cm ≈ 13 503 cm ≈ 135 m.
+@178 m matematica/geometria-espacial fig
+x: A cadeira se fecha juntando as laterais: as pernas que formavam um X se dobram e ficam na vertical, paralelas, presas pela barra de baixo. Vista de lado, aparecem o encosto, o assento e as pernas retas e paralelas, como na terceira alternativa.
 
 ## 40-enem-2016-linguagens.md | 2016 | 2 | 2º dia, caderno amarelo | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2016 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
@@ -155,3 +206,28 @@ x: Dona Maria Rita é descrita como uma velha que recebeu "o beijo gelado" da fi
 x: Cada geração bateu na seguinte achando que era normal; só depois se descobriu que estava errado. O eu lírico sente a angústia de ter errado dos dois lados, mas reconhece que todos eram "inocentes": agiam conforme o senso comum de cada época, com suas imperfeições.
 @134 d literatura/pre-modernismo-ao-contemporaneo
 x: O poema imita uma lição de escola, com definições secas de gêneros líricos (elegia, nênia, epitáfio). Esse tom explicativo e contido, sem a emoção que se espera do lirismo, é justamente a forma peculiar que a poeta encontrou para fazer poesia.
+@97 m portugues/interpretacao-de-texto fig
+e: [fig1] || Nessa campanha publicitária, para estimular a economia de água, o leitor é incitado a
+x: A campanha mostra a "água invisível" gasta para produzir carne, pão, ovos e algodão, e pede: "economizar bens de consumo e evitar o desperdício também é poupar água". O leitor é chamado a consumir de forma consciente.
+@100 m portugues/interpretacao-de-texto fig
+x: O texto mostra que os hoaxes usam falsos sorteios, frases de efeito e mensagens alarmantes, e pede para "ficar atento". A estratégia sugerida é observar com cuidado a linguagem das mensagens antes de clicar ou repassar.
+@101 m artes/artes-e-educacao-fisica fig
+x: O mosaico imita uma colcha de retalhos, objeto comum das casas brasileiras, e fica numa estação de metrô, por onde as pessoas passam todos os dias. A obra leva o público a apreciar a beleza do cotidiano.
+@108 d literatura/pre-modernismo-ao-contemporaneo v fig
+x: O poeta descreve a escrita como um corte: "corto as palavras rentes / com tesoura de jardim / cega e bruta / com facão de mato". Escrever é eliminar, suprimir palavras com esforço, e a marca desse corte fica no que sobrou.
+@117 m portugues/funcoes-generos-e-variacao fig
+x: O texto fala da obra "Madeira de ponta a ponta": diz como ela foi feita (olhar jornalístico, estatísticas, reportagem) e o que revela (fraudes e boas práticas). É uma apresentação do livro, com informações e comentários sobre ele.
+@118 m portugues/interpretacao-de-texto fig
+x: A imagem mostra motoristas olhando o celular enquanto uma criança atravessa, e a frase diz: "se você não percebeu a criança aqui, imagine no trânsito". A campanha quer mudar o comportamento dos motoristas quanto ao uso do celular ao volante.
+@119 d literatura/pre-modernismo-ao-contemporaneo fig
+x: A pérola nasce de uma "contaminação" dentro da ostra, que vai secretando nácar aos poucos. O texto compara isso à arte, "transformação da dor": a criação literária é um trabalho lento, progressivo, em que o escritor transforma o que o fere e conhece a si mesmo.
+@122 m portugues/funcoes-generos-e-variacao v fig
+x: O poema tem versos e rimas, mas é organizado como uma receita, com verbos de instrução ("Tome-se", "Deita-se", "se reforce") e ingredientes. Ele mistura os gêneros ao trazer procedimentos prescritivos (instruções) para dentro do poema.
+@123 f artes/artes-e-educacao-fisica fig
+x: A foto mostra os atores se apresentando ao ar livre, com o público em volta. O teatro de rua acontece em praças e ruas, sem precisar de um prédio de teatro.
+@124 m portugues/funcoes-generos-e-variacao fig
+x: O autor diz que estuda as piadas e que elas poderiam substituir entrevistas e pesquisas para conhecer o machismo e o racismo. A piada é valorizada como um material de pesquisa, um objeto de investigação.
+@129 m artes/artes-e-educacao-fisica fig
+x: No século XX, guerras e catástrofes abalaram a confiança no ser humano, e a psicanálise mostrou um "eu" dividido, com um inconsciente. A arte e a literatura passaram a representar o rosto deformado e fragmentado, como nos autorretratos de Francis Bacon e no texto de Duras.
+@135 m portugues/funcoes-generos-e-variacao fig
+x: A repetição lembra, com saudade, um tempo em que as pessoas confiavam umas nas outras, se visitavam e namoravam com calma. O objetivo é sensibilizar o leitor para essas relações num tempo mais tranquilo ("houve um tempo em que havia tempo").

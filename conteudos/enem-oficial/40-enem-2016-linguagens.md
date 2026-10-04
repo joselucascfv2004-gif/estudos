@@ -299,6 +299,27 @@ O texto descreve a mudança ocorrida na nomeação do inseto, por questões de t
 
 **Assunto:** portugues/semantica-e-figuras-de-linguagem
 
+### 123
+![Figura](enem-2016-d2-q123-1.webp)
+
+> GUTO MUNIZ. Disponível em: www.focoincena.com.br. Acesso em: 30 maio 2016.
+
+A principal razão pela qual se infere que o espetáculo retratado na fotografia é uma manifestação do teatro de rua é o fato de
+
+- A) dispensar o edifício teatral para a sua realização.
+- B) utilizar figurinos com adereços cômicos.
+- C) empregar elementos circenses na atuação.
+- D) excluir o uso de cenário na ambientação.
+- E) negar o uso de iluminação artificial.
+
+**Resposta:** A
+
+**Explicação:** A foto mostra os atores se apresentando ao ar livre, com o público em volta. O teatro de rua acontece em praças e ruas, sem precisar de um prédio de teatro.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 98
@@ -631,6 +652,235 @@ Os sinais de pontuação são elementos com importantes funções para a progres
 
 **Assunto:** portugues/pontuacao-ortografia-acentuacao
 
+### 97
+![Figura](enem-2016-d2-q097-1.webp)
+
+Nessa campanha publicitária, para estimular a economia de água, o leitor é incitado a
+
+- A) adotar práticas de consumo consciente.
+- B) alterar hábitos de higienização pessoal e residencial.
+- C) contrapor-se a formas indiretas de exportação de água.
+- D) optar por vestuário produzido com matéria-prima reciclável.
+- E) conscientizar produtores rurais sobre os custos de produção.
+
+**Resposta:** A
+
+**Explicação:** A campanha mostra a "água invisível" gasta para produzir carne, pão, ovos e algodão, e pede: "economizar bens de consumo e evitar o desperdício também é poupar água". O leitor é chamado a consumir de forma consciente.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 100
+O hoax, como é chamado qualquer boato ou farsa na internet, pode espalhar vírus entre os seus contatos. Falsos sorteios de celulares ou frases que Clarice Lispector nunca disse são exemplos de hoax. Trata-se de boatos recebidos por e-mail ou compartilhados em redes sociais. Em geral, são mensagens dramáticas ou alarmantes que acompanham imagens chocantes, falam de crianças doentes ou avisam sobre falsos vírus. O objetivo de quem cria esse tipo de mensagem pode ser apenas se divertir com a brincadeira (de mau gosto), prejudicar a imagem de uma empresa ou espalhar uma ideologia política.
+
+Se o hoax for do tipo phishing (derivado de fishing, pescaria, em inglês) o problema pode ser mais grave: o usuário que clicar pode ter seus dados pessoais ou bancários roubados por golpistas. Por isso é tão importante ficar atento.
+
+> VIMERCATE, N. Disponível em: www.techtudo.com.br. Acesso em: 1 maio 2013 (adaptado).
+
+Ao discorrer sobre os hoaxes, o texto sugere ao leitor, como estratégia para evitar essa ameaça,
+
+- A) recusar convites de jogos e brincadeiras feitos pela internet.
+- B) analisar a linguagem utilizada nas mensagens recebidas.
+- C) classificar os contatos presentes em suas redes sociais.
+- D) utilizar programas que identifiquem falsos vírus.
+- E) desprezar mensagens que causem comoção.
+
+**Resposta:** B
+
+**Explicação:** O texto mostra que os hoaxes usam falsos sorteios, frases de efeito e mensagens alarmantes, e pede para "ficar atento". A estratégia sugerida é observar com cuidado a linguagem das mensagens antes de clicar ou repassar.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 100
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 101
+![Figura](enem-2016-d2-q101-1.webp)
+
+> TOZZI, C. Colcha de retalhos. Mosaico figurativo. Estação de Metrô Sé. Disponível em: www.arteforadomuseu.com.br. Acesso em: 8 mar. 2013.
+
+Colcha de retalhos representa a essência do mural e convida o público a
+
+- A) apreciar a estética do cotidiano.
+- B) interagir com os elementos da composição.
+- C) refletir sobre elementos do inconsciente do artista.
+- D) reconhecer a estética clássica das formas.
+- E) contemplar a obra por meio da movimentação física.
+
+**Resposta:** A
+
+**Explicação:** O mosaico imita uma colcha de retalhos, objeto comum das casas brasileiras, e fica numa estação de metrô, por onde as pessoas passam todos os dias. A obra leva o público a apreciar a beleza do cotidiano.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 101
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 117
+Centro das atenções em um planeta cada vez mais interconectado, a Floresta Amazônica expõe inúmeros dilemas. Um dos mais candentes diz respeito à madeira e sua exploração econômica, uma saga que envolve os muitos desafios para a conservação dos recursos naturais às gerações futuras.
+
+Com o olhar jornalístico, crítico e ao mesmo tempo didático, adentramos a Amazônia em busca de histórias e sutilezas que os dados nem sempre revelam. Lapidamos estatísticas e estudos científicos para construir uma síntese útil a quem direciona esforços para conservar a floresta, seja no setor público, seja no setor privado, seja na sociedade civil.
+
+Guiada como uma reportagem, rica em informações ilustradas, a obra Madeira de ponta a ponta revela a diversidade de fraudes na cadeia de produção, transporte e comercialização da madeira, bem como as iniciativas de boas práticas que se disseminam e trazem esperança rumo a um modelo de convivência entre desenvolvimento e manutenção da floresta.
+
+> VILLELA, M.; SPINK, P. In: ADEODATO, S. et al. Madeira de ponta a ponta: o caminho desde a floresta até o consumo. São Paulo: FGV RAE, 2011 (adaptado).
+
+A fim de alcançar seus objetivos comunicativos, os autores escreveram esse texto para
+
+- A) apresentar informações e comentários sobre o livro.
+- B) noticiar as descobertas científicas oriundas da pesquisa.
+- C) defender as práticas sustentáveis de manejo da madeira.
+- D) ensinar formas de combate à exploração ilegal de madeira.
+- E) demonstrar a importância de parcerias para a realização da pesquisa.
+
+**Resposta:** A
+
+**Explicação:** O texto fala da obra "Madeira de ponta a ponta": diz como ela foi feita (olhar jornalístico, estatísticas, reportagem) e o que revela (fraudes e boas práticas). É uma apresentação do livro, com informações e comentários sobre ele.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 117
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 118
+![Figura](enem-2016-d2-q118-1.webp)
+
+> Disponível em: www.paradapelavida.com.br. Acesso em: 15 nov. 2014.
+
+Nesse texto, a combinação de elementos verbais e não verbais configura-se como estratégia argumentativa para
+
+- A) manifestar a preocupação do governo com a segurança dos pedestres.
+- B) associar a utilização do celular às ocorrências de atropelamento de crianças.
+- C) orientar pedestres e motoristas quanto à utilização responsável do telefone móvel.
+- D) influenciar o comportamento de motoristas em relação ao uso de celular no trânsito.
+- E) alertar a população para os riscos da falta de atenção no trânsito das grandes cidades.
+
+**Resposta:** D
+
+**Explicação:** A imagem mostra motoristas olhando o celular enquanto uma criança atravessa, e a frase diz: "se você não percebeu a criança aqui, imagine no trânsito". A campanha quer mudar o comportamento dos motoristas quanto ao uso do celular ao volante.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 118
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 122
+Receita
+Tome-se um poeta não cansado,
+Uma nuvem de sonho e uma flor,
+Três gotas de tristeza, um tom dourado,
+Uma veia sangrando de pavor.
+Quando a massa já ferve e se retorce
+Deita-se a luz dum corpo de mulher,
+Duma pitada de morte se reforce,
+Que um amor de poeta assim requer.
+
+> SARAMAGO, J. Os poemas possíveis. Alfragide: Caminho, 1997.
+
+Os gêneros textuais caracterizam-se por serem relativamente estáveis e podem reconfigurar-se em função do propósito comunicativo. Esse texto constitui uma mescla de gêneros, pois
+
+- A) introduz procedimentos prescritivos na composição do poema.
+- B) explicita as etapas essenciais à preparação de uma receita.
+- C) explora elementos temáticos presentes em uma receita.
+- D) apresenta organização estrutural típica de um poema.
+- E) utiliza linguagem figurada na construção do poema.
+
+**Resposta:** A
+
+**Explicação:** O poema tem versos e rimas, mas é organizado como uma receita, com verbos de instrução ("Tome-se", "Deita-se", "se reforce") e ingredientes. Ele mistura os gêneros ao trazer procedimentos prescritivos (instruções) para dentro do poema.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 124
+O humor e a língua
+
+Há algum tempo, venho estudando as piadas, com ênfase em sua constituição linguística. Por isso, embora a afirmação a seguir possa parecer surpreendente, creio que posso garantir que se trata de uma verdade quase banal: as piadas fornecem simultaneamente um dos melhores retratos dos valores e problemas de uma sociedade, por um lado, e uma coleção de fatos e dados impressionantes para quem quer saber o que é e como funciona uma língua, por outro. Se se quiser descobrir os problemas com os quais uma sociedade se debate, uma coleção de piadas fornecerá excelente pista: sexualidade, etnia/raça e outras diferenças, instituições (igreja, escola, casamento, política), morte, tudo isso está sempre presente nas piadas que circulam anonimamente e que são ouvidas e contadas por todo mundo em todo o mundo. Os antropólogos ainda não prestaram a devida atenção a esse material, que poderia substituir com vantagem muitas entrevistas e pesquisas participantes. Saberemos mais a quantas andam o machismo e o racismo, por exemplo, se pesquisarmos uma coleção de piadas do que qualquer outro corpus.
+
+> POSSENTI, S. Ciência Hoje, n. 176, out. 2001 (adaptado).
+
+A piada é um gênero textual que figura entre os mais recorrentes na cultura brasileira, sobretudo na tradição oral. Nessa reflexão, a piada é enfatizada por
+
+- A) sua função humorística.
+- B) sua ocorrência universal.
+- C) sua diversidade temática.
+- D) seu papel como veículo de preconceitos.
+- E) seu potencial como objeto de investigação.
+
+**Resposta:** E
+
+**Explicação:** O autor diz que estuda as piadas e que elas poderiam substituir entrevistas e pesquisas para conhecer o machismo e o racismo. A piada é valorizada como um material de pesquisa, um objeto de investigação.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 129
+TEXTO I
+
+![Figura](enem-2016-d2-q129-1.webp)
+
+> BACON, F. Três estudos para um autorretrato. Óleo sobre tela, 37,5 x 31,8 cm (cada), 1974.
+
+> Disponível em: www.metmuseum.org. Acesso em: 30 maio 2016.
+
+TEXTO II
+
+Tenho um rosto lacerado por rugas secas e profundas, sulcos na pele. Não é um rosto desfeito, como acontece com pessoas de traços delicados, o contorno é o mesmo mas a matéria foi destruída. Tenho um rosto destruído.
+
+> DURAS, M. O amante. Rio de Janeiro: Nova Fronteira, 1985.
+
+Na imagem e no texto do romance de Marguerite Duras, os dois autorretratos apontam para o modo de representação da subjetividade moderna. Na pintura e na literatura modernas, o rosto humano deforma-se, destrói-se ou fragmenta-se em razão
+
+- A) da adesão à estética do grotesco, herdada do romantismo europeu, que trouxe novas possibilidades de representação.
+- B) das catástrofes que assolaram o século XX e da descoberta de uma realidade psíquica pela psicanálise.
+- C) da opção em demonstrarem oposição aos limites estéticos da revolução permanente trazida pela arte moderna.
+- D) do posicionamento do artista do século XX contra a negação do passado, que se torna prática dominante na sociedade burguesa.
+- E) da intenção de garantir uma forma de criar obras de arte independentes da matéria presente em sua história pessoal.
+
+**Resposta:** B
+
+**Explicação:** No século XX, guerras e catástrofes abalaram a confiança no ser humano, e a psicanálise mostrou um "eu" dividido, com um inconsciente. A arte e a literatura passaram a representar o rosto deformado e fragmentado, como nos autorretratos de Francis Bacon e no texto de Duras.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 129
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 135
+Você pode não acreditar
+
+Você pode não acreditar: mas houve um tempo em que os leiteiros deixavam as garrafinhas de leite do lado de fora das casas, seja ao pé da porta, seja na janela.
+
+A gente ia de uniforme azul e branco para o grupo, de manhãzinha, passava pelas casas e não ocorria que alguém pudesse roubar aquilo.
+
+Você pode não acreditar: mas houve um tempo em que os padeiros deixavam o pão na soleira da porta ou na janela que dava para a rua. A gente passava e via aquilo como uma coisa normal.
+
+Você pode não acreditar: mas houve um tempo em que você saía à noite para namorar e voltava andando pelas ruas da cidade, caminhando displicentemente, sentindo cheiro de jasmim e de alecrim, sem olhar para trás, sem temer as sombras.
+
+Você pode não acreditar: houve um tempo em que as pessoas se visitavam airosamente. Chegavam no meio da tarde ou à noite, contavam casos, tomavam café, falavam da saúde, tricotavam sobre a vida alheia e voltavam de bonde às suas casas.
+
+Você pode não acreditar: mas houve um tempo em que o namorado primeiro ficava andando com a moça numa rua perto da casa dela, depois passava a namorar no portão, depois tinha ingresso na sala da família. Era sinal de que já estava praticamente noivo e seguro.
+
+Houve um tempo em que havia tempo.
+
+Houve um tempo.
+
+> SANT’ANNA, A. R. Estado de Minas, 5 maio 2013 (fragmento).
+
+Nessa crônica, a repetição do trecho “Você pode não acreditar: mas houve um tempo em que...” configura-se como uma estratégia argumentativa que visa
+
+- A) surpreender o leitor com a descrição do que as pessoas faziam durante o seu tempo livre antigamente.
+- B) sensibilizar o leitor sobre o modo como as pessoas se relacionavam entre si num tempo mais aprazível.
+- C) advertir o leitor mais jovem sobre o mau uso que se faz do tempo nos dias atuais.
+- D) incentivar o leitor a organizar melhor o seu tempo sem deixar de ser nostálgico.
+- E) convencer o leitor sobre a veracidade de fatos relativos à vida no passado.
+
+**Resposta:** B
+
+**Explicação:** A repetição lembra, com saudade, um tempo em que as pessoas confiavam umas nas outras, se visitavam e namoravam com calma. O objetivo é sensibilizar o leitor para essas relações num tempo mais tranquilo ("houve um tempo em que havia tempo").
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 135
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ## Difícil
 
 ### 104
@@ -802,5 +1052,72 @@ No poema de Ana Cristina Cesar, a relação entre as definições apresentadas e
 **Explicação:** O poema imita uma lição de escola, com definições secas de gêneros líricos (elegia, nênia, epitáfio). Esse tom explicativo e contido, sem a emoção que se espera do lirismo, é justamente a forma peculiar que a poeta encontrou para fazer poesia.
 
 **Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 134
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 108
+Sem acessórios nem som
+Escrever só para me livrar
+de escrever.
+Escrever sem ver, com riscos
+sentindo falta dos acompanhamentos
+com as mesmas lesmas
+e figuras sem força de expressão.
+Mas tudo desafina:
+o pensamento pesa
+tanto quanto o corpo
+enquanto corto os conectivos
+corto as palavras rentes
+com tesoura de jardim
+cega e bruta
+com facão de mato.
+Mas a marca deste corte
+tem que ficar
+nas palavras que sobraram.
+Qualquer coisa do que desapareceu
+continuou nas margens, nos talos
+no atalho aberto a talhe de foice
+no caminho de rato.
+
+> FREITAS FILHO, A. Máquina de escrever: poesia reunida e revista. Rio de Janeiro: Nova Fronteira, 2003.
+
+Nesse texto, a reflexão sobre o processo criativo aponta para uma concepção de atividade poética que põe em evidência o(a)
+
+- A) angustiante necessidade de produção, presente em “Escrever só para me livrar/ de escrever”.
+- B) imprevisível percurso da composição, presente em “no atalho aberto a talhe de foice/ no caminho de rato”.
+- C) agressivo trabalho de supressão, presente em “corto as palavras rentes/ com tesoura de jardim/ cega e bruta”.
+- D) inevitável frustração diante do poema, presente em “Mas tudo desafina:/ o pensamento pesa/ tanto quanto o corpo”.
+- E) conflituosa relação com a inspiração, presente em “sentindo falta dos acompanhamentos/ e figuras sem força de expressão”.
+
+**Resposta:** C
+
+**Explicação:** O poeta descreve a escrita como um corte: "corto as palavras rentes / com tesoura de jardim / cega e bruta / com facão de mato". Escrever é eliminar, suprimir palavras com esforço, e a marca desse corte fica no que sobrou.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 108
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 119
+Pérolas absolutas
+
+Há, no seio de uma ostra, um movimento — ainda que imperceptível. Qualquer coisa imiscuiu-se pela fissura, uma partícula qualquer, diminuta e invisível. Venceu as paredes lacradas, que se fecham como a boca que tem medo de deixar escapar um segredo. Venceu. E agora penetra o núcleo da ostra, contaminando-lhe a própria substância. A ostra reage, imediatamente. E começa a secretar o nácar. É um mecanismo de defesa, uma tentativa de purificação contra a partícula invasora. Com uma paciência de fundo de mar, a ostra profanada continua seu trabalho incansável, secretando por anos a fio o nácar que aos poucos se vai solidificando. É dessa solidificação que nascem as pérolas.
+
+As pérolas são, assim, o resultado de uma contaminação. A arte por vezes também. A arte é quase sempre a transformação da dor. [...] Escrever é preciso. É preciso continuar secretando o nácar, formar a pérola que talvez seja imperfeita, que talvez jamais seja encontrada e viva para sempre encerrada no fundo do mar. Talvez estas, as pérolas esquecidas, jamais achadas, as pérolas intocadas e por isso absolutas em si mesmas, guardem em si uma parcela faiscante da eternidade.
+
+> SEIXAS, H. Uma ilha chamada livro. Rio de Janeiro: Record, 2009 (fragmento).
+
+Considerando os aspectos estéticos e semânticos presentes no texto, a imagem da pérola configura uma percepção que
+
+- A) reforça o valor do sofrimento e do esquecimento para o processo criativo.
+- B) ilustra o conflito entre a procura do novo e a rejeição ao elemento exótico.
+- C) concebe a criação literária como trabalho progressivo e de autoconhecimento.
+- D) expressa a ideia de atividade poética como experiência anônima e involuntária.
+- E) destaca o efeito introspectivo gerado pelo contato com o inusitado e com o desconhecido.
+
+**Resposta:** C
+
+**Explicação:** A pérola nasce de uma "contaminação" dentro da ostra, que vai secretando nácar aos poucos. O texto compara isso à arte, "transformação da dor": a criação literária é um trabalho lento, progressivo, em que o escritor transforma o que o fere e conhece a si mesmo.
+
+**Fonte:** ENEM 2016, 2º dia, caderno amarelo, questão 119
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo

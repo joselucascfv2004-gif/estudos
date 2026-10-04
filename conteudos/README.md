@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6268 questões** em **154 tópicos**.
+**6332 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2355 questões
+## ENEM — provas oficiais — 2419 questões
 
 *Provas anteriores*
 
@@ -267,10 +267,10 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2017 — Ciências da Natureza](enem-oficial/34-enem-2017-ciencias-da-natureza.md) | ENEM | 13 | 22 | 10 |
 | [ENEM 2017 — Ciências Humanas](enem-oficial/35-enem-2017-ciencias-humanas.md) | ENEM | 12 | 26 | 7 |
 | [ENEM 2017 — Linguagens](enem-oficial/36-enem-2017-linguagens.md) | ENEM | 12 | 22 | 6 |
-| [ENEM 2016 — Matemática](enem-oficial/37-enem-2016-matematica.md) | ENEM | 7 | 8 | 7 |
-| [ENEM 2016 — Ciências da Natureza](enem-oficial/38-enem-2016-ciencias-da-natureza.md) | ENEM | 8 | 13 | 5 |
-| [ENEM 2016 — Ciências Humanas](enem-oficial/39-enem-2016-ciencias-humanas.md) | ENEM | 11 | 19 | 5 |
-| [ENEM 2016 — Linguagens](enem-oficial/40-enem-2016-linguagens.md) | ENEM | 10 | 13 | 5 |
+| [ENEM 2016 — Matemática](enem-oficial/37-enem-2016-matematica.md) | ENEM | 10 | 22 | 13 |
+| [ENEM 2016 — Ciências da Natureza](enem-oficial/38-enem-2016-ciencias-da-natureza.md) | ENEM | 13 | 25 | 7 |
+| [ENEM 2016 — Ciências Humanas](enem-oficial/39-enem-2016-ciencias-humanas.md) | ENEM | 11 | 29 | 5 |
+| [ENEM 2016 — Linguagens](enem-oficial/40-enem-2016-linguagens.md) | ENEM | 11 | 22 | 7 |
 | [ENEM 2015 — Matemática](enem-oficial/41-enem-2015-matematica.md) | ENEM | 8 | 11 | 6 |
 | [ENEM 2015 — Ciências da Natureza](enem-oficial/42-enem-2015-ciencias-da-natureza.md) | ENEM | 11 | 14 | 5 |
 | [ENEM 2015 — Ciências Humanas](enem-oficial/43-enem-2015-ciencias-humanas.md) | ENEM | 10 | 17 | 3 |
