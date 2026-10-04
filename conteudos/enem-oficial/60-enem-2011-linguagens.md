@@ -252,6 +252,29 @@ O Twitter se presta a diversas finalidades, entre elas, à comunicação concisa
 
 **Assunto:** portugues/funcoes-generos-e-variacao
 
+### 134
+Imagem para as questões 133 e 134
+
+![Figura](enem-2011-d2-q134-21.webp)
+
+> Disponível em: http://www.worldinfo.info. Acesso em: 27 abr. 2010.
+
+O homem evoluiu. Independentemente de teoria, essa evolução ocorreu de várias formas. No que concerne à evolução digital, o homem percorreu longo trajeto da pedra lascada ao mundo virtual. Tal fato culminou em um problema físico habitual, ilustrado na imagem, que propicia uma piora na qualidade de vida do usuário, uma vez que
+
+- A) a evolução ocorreu e com ela evoluíram as dores de cabeça, o estresse e a falta de atenção à família.
+- B) a vida sem o computador tornou-se quase inviável, mas se tem diminuído problemas de visão cansada.
+- C) a utilização demasiada do computador tem proporcionado o surgimento de cientistas que apresentam lesão por esforço repetitivo.
+- D) o homem criou o computador, que evoluiu, e hoje opera várias ações antes feitas pelas pessoas, tornando-as sedentárias ou obesas.
+- E) o uso contínuo do computador de forma inadequada tem ocasionado má postura corporal.
+
+**Resposta:** E
+
+**Explicação:** Na última figura, o homem aparece todo curvado na frente do computador. O uso contínuo e inadequado do computador provoca má postura, com dores na coluna.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 134
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 96
@@ -628,6 +651,251 @@ O uso das novas tecnologias de informação e comunicação fez surgir uma séri
 **Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 128
 
 **Assunto:** portugues/funcoes-generos-e-variacao
+
+### 97
+![Figura](enem-2011-d2-q097-1.webp)
+
+> COSTA, C. Superinteressante. Fev. 2011 (adaptado).
+
+Os amigos são um dos principais indicadores de bem-estar na vida social das pessoas. Da mesma forma que em outras áreas, a internet também inovou as maneiras de vivenciar a amizade. Da leitura do infográfico, depreendem-se dois tipos de amizade virtual, a simétrica e a assimétrica, ambas com seus prós e contras. Enquanto a primeira se baseia na relação de reciprocidade, a segunda
+
+- A) reduz o número de amigos virtuais, ao limitar o acesso à rede.
+- B) parte do anonimato obrigatório para se difundir.
+- C) reforça a configuração de laços mais profundos de amizade.
+- D) facilita a interação entre pessoas em virtude de interesses comuns.
+- E) tem a responsabilidade de promover a proximidade física.
+
+**Resposta:** D
+
+**Explicação:** Na amizade simétrica, os dois lados se aceitam como amigos; na assimétrica, qualquer um pode seguir o outro sem pedir permissão, como no Twitter. O infográfico diz que isso torna "muito mais fácil a formação de laços e comunidades": a amizade assimétrica facilita a interação por interesses comuns.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 102
+![Figura](enem-2011-d2-q102-1.webp)
+
+> Disponível em: www.ccsp.com.br. Acesso em: 26 jul. 2010 (adaptado).
+
+O anúncio publicitário está intimamente ligado ao ideário de consumo quando sua função é vender um produto. No texto apresentado, utilizam-se elementos linguísticos e extralinguísticos para divulgar a atração “Noites do Terror”, de um parque de diversões. O entendimento da propaganda requer do leitor
+
+- A) a identificação com o público-alvo a que se destina o anúncio.
+- B) a avaliação da imagem como uma sátira às atrações de terror.
+- C) a atenção para a imagem da parte do corpo humano selecionada aleatoriamente.
+- D) o reconhecimento do intertexto entre a publicidade e um dito popular.
+- E) a percepção do sentido literal da expressão “noites do terror”, equivalente à expressão “noites de terror”.
+
+**Resposta:** D
+
+**Explicação:** O anúncio do parque mostra pés de defunto com etiqueta e a frase "Quem é morto sempre aparece", que modifica o ditado popular "quem é vivo sempre aparece". Para entender a propaganda, o leitor precisa reconhecer esse intertexto.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 102
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 104
+![Figura](enem-2011-d2-q104-1.webp)
+
+Brasília 50 anos. Veja. Nº 2 138, nov. 2009.
+
+Utilizadas desde a Antiguidade, as colunas, elementos verticais de sustentação, foram sofrendo modificações e incorporando novos materiais com ampliação de possibilidades. Ainda que as clássicas colunas gregas sejam retomadas, notáveis inovações são percebidas, por exemplo, nas obras de Oscar Niemeyer, arquiteto brasileiro nascido no Rio de Janeiro em 1907. No desenho de Niemeyer, das colunas do Palácio da Alvorada, observa-se
+
+- A) a presença de um capitel muito simples, reforçando a sustentação.
+- B) o traçado simples de amplas linhas curvas opostas, resultando em formas marcantes.
+- C) a disposição simétrica das curvas, conferindo saliência e distorção à base.
+- D) a oposição de curvas em concreto, configurando certo peso e rebuscamento.
+- E) o excesso de linhas curvas, levando a um exagero na ornamentação.
+
+**Resposta:** B
+
+**Explicação:** O desenho de Niemeyer mostra as colunas do Palácio da Alvorada com poucas linhas curvas, opostas umas às outras. A frase "foram elas que o mundo inteiro copiou" destaca a força dessas formas simples e marcantes.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 104
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 110
+![Figura](enem-2011-d2-q110-1.webp)
+
+> Disponível em: http://www.fumdham.org.br. Acesso em: 27 jul. 2010.
+
+![Figura](enem-2011-d2-q110-2.webp)
+
+> Disponível em: http://www.diaadia.pr.gov.br. Acesso em: 27 jul. 2010.
+
+O grafite contemporâneo, considerado em alguns momentos como uma arte marginal, tem sido comparado às pinturas murais de várias épocas e às escritas pré-históricas. Observando as imagens apresentadas, é possível reconhecer elementos comuns entre os tipos de pinturas murais, tais como
+
+- A) a preferência por tintas naturais, em razão de seu efeito estético.
+- B) a inovação na técnica de pintura, rompendo com modelos estabelecidos.
+- C) o registro do pensamento e das crenças das sociedades em várias épocas.
+- D) a repetição dos temas e a restrição de uso pelas classes dominantes.
+- E) o uso exclusivista da arte para atender aos interesses da elite.
+
+**Resposta:** C
+
+**Explicação:** As pinturas da Serra da Capivara e o grafite urbano têm em comum o registro, em paredes, do pensamento e das crenças de quem vivia naquele tempo. As duas formas de arte mostram como cada sociedade se via.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 110
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 111
+![Figura](enem-2011-d2-q111-1.webp)
+
+> LEIRNER, N. Tronco com cadeira (detalhe), 1964.
+
+> Disponível em: http://www.itaucultural.org.br. Acesso em: 27 jul. 2010.
+
+Nessa estranha dignidade e nesse abandono, o objeto foi exaltado de maneira ilimitada e ganhou um significado que se pode considerar mágico. Daí sua “vida inquietante e absurda”. Tornou-se ídolo e, ao mesmo tempo, objeto de zombaria. Sua realidade intrínseca foi anulada.
+
+> JAFFÉ, A. O simbolismo nas artes plásticas. In: JUNG, C.G. (org.). O homem e os seus símbolos. Rio de Janeiro: Nova Fronteira, 2008.
+
+A relação observada entre a imagem e o texto apresentados permite o entendimento da intenção de um artista contemporâneo. Neste caso, a obra apresenta características
+
+- A) funcionais e de sofisticação decorativa.
+- B) futuristas e do abstrato geométrico.
+- C) construtivistas e de estruturas modulares.
+- D) abstracionistas e de releitura do objeto.
+- E) figurativas e de representação do cotidiano.
+
+**Resposta:** D
+
+**Explicação:** Nelson Leirner une um tronco de árvore a uma cadeira, um objeto comum, e o transforma em arte. Como diz o texto, o objeto ganha um significado "mágico": é a releitura do objeto, típica de artistas abstracionistas e conceituais.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 111
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 114
+![Figura](enem-2011-d2-q114-1.webp)
+
+> PICASSO, P. Guernica. Óleo sobre tela. 349 X 777 cm. Museu Reina Sofia, Espanha, 1937.
+
+> Disponível em: http://www.fddreis.files.wordpress.com. Acesso em: 26 jul. 2010.
+
+O pintor espanhol Pablo Picasso (1881-1973), um dos mais valorizados no mundo artístico, tanto em termos financeiros quanto históricos, criou a obra Guernica em protesto ao ataque aéreo à pequena cidade basca de mesmo nome. A obra, feita para integrar o Salão Internacional de Artes Plásticas de Paris, percorreu toda a Europa, chegando aos EUA e instalando-se no MoMA, de onde sairia apenas em 1981. Essa obra cubista apresenta elementos plásticos identificados pelo
+
+- A) painel ideográfico, monocromático, que enfoca várias dimensões de um evento, renunciando à realidade, colocando-se em plano frontal ao espectador.
+- B) horror da guerra de forma fotográfica, com o uso da perspectiva clássica, envolvendo o espectador nesse exemplo brutal de crueldade do ser humano.
+- C) uso das formas geométricas no mesmo plano, sem emoção e expressão, despreocupado com o volume, a perspectiva e a sensação escultórica.
+- D) esfacelamento dos objetos abordados na mesma narrativa, minimizando a dor humana a serviço da objetividade, observada pelo uso do claro-escuro.
+- E) uso de vários ícones que representam personagens fragmentados bidimensionalmente, de forma fotográ- fica livre de sentimentalismo.
+
+**Resposta:** A
+
+**Explicação:** Guernica mostra o bombardeio de uma cidade com figuras deformadas, em preto, branco e cinza, sem cores, como um grande painel. As cenas aparecem em vários planos ao mesmo tempo, sem a perspectiva tradicional: é um painel ideográfico e monocromático que mostra o horror do evento.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 114
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 122
+Texto para as questões 122 e 123
+
+![Figura](enem-2011-d2-q122-21.webp)
+
+Considerando a autoria e a seleção lexical desse texto, bem como os argumentos nele mobilizados, constata-se que o objetivo do autor do texto é
+
+- A) informar os consumidores em geral sobre a atuação do Conar.
+- B) conscientizar publicitários do compromisso ético ao elaborar suas peças publicitárias.
+- C) alertar chefes de família, para que eles fiscalizem o conteúdo das propagandas veiculadas pela mídia.
+- D) chamar a atenção de empresários e anunciantes em geral para suas responsabilidades ao contratarem publicitários sem ética.
+- E) chamar a atenção de empresas para os efeitos nocivos que elas podem causar à sociedade, se compactuarem com propagandas enganosas.
+
+**Resposta:** A
+
+**Explicação:** O anúncio é do próprio Conar, publicado em revista para o público em geral. Ele explica o que o órgão faz (zelar pela ética na publicidade) e informa que qualquer pessoa enganada pode reclamar. O objetivo é informar os consumidores sobre a atuação do Conar.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 123
+Texto para as questões 122 e 123
+
+![Figura](enem-2011-d2-q123-21.webp)
+
+O recurso gráfico utilizado no anúncio publicitário ― de destacar a potencial supressão de trecho do texto ― reforça a eficácia pretendida, revelada na estratégia de
+
+- A) ressaltar a informação no título, em detrimento do restante do conteúdo associado.
+- B) incluir o leitor por meio do uso da 1ª pessoa do plural no discurso.
+- C) contar a história da criação do órgão como argumento de autoridade.
+- D) subverter o fazer publicitário pelo uso de sua metalinguagem.
+- E) impressionar o leitor pelo jogo de palavras no texto.
+
+**Resposta:** D
+
+**Explicação:** O título risca a frase "E ele é 100% eficiente nesta missão": o próprio anúncio corta um exagero, que é justamente o que o Conar combate. A propaganda usa os recursos da publicidade para falar da própria publicidade (metalinguagem), subvertendo o jeito comum de anunciar.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 124
+![Figura](enem-2011-d2-q124-1.webp)
+
+> Disponível em: http://www.ccsp.com.br. Acesso em: 27 jul. 2010 (adaptado).
+
+O texto é uma propaganda de um adoçante que tem o seguinte mote: “Mude sua embalagem”. A estratégia que o autor utiliza para o convencimento do leitor baseia-se no emprego de recursos expressivos, verbais e não verbais, com vistas a
+
+- A) ridicularizar a forma física do possível cliente do produto anunciado, aconselhando-o a uma busca de mudanças estéticas.
+- B) enfatizar a tendência da sociedade contemporânea de buscar hábitos alimentares saudáveis, reforçando tal postura.
+- C) criticar o consumo excessivo de produtos industrializados por parte da população, propondo a redução desse consumo.
+- D) associar o vocábulo “açúcar” à imagem do corpo fora de forma, sugerindo a substituição desse produto pelo adoçante.
+- E) relacionar a imagem do saco de açúcar a um corpo humano que não desenvolve atividades físicas, incentivando a prática esportiva.
+
+**Resposta:** D
+
+**Explicação:** O saco de açúcar tem a forma de uma barriga e a frase "Mude sua embalagem". A propaganda do adoçante associa o açúcar ao corpo fora de forma e sugere trocá-lo pelo produto.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 132
+![Figura](enem-2011-d2-q132-1.webp)
+
+> VERÍSSIMO, L. F. As cobras em: Se Deus existe que eu seja atingido por um raio.
+
+O humor da tira decorre da reação de uma das cobras com relação ao uso de pronome pessoal reto, em vez de pronome oblíquo. De acordo com a norma padrão da língua, esse uso é inadequado, pois
+
+- A) contraria o uso previsto para o registro oral da língua.
+- B) contraria a marcação das funções sintáticas de sujeito e objeto.
+- C) gera inadequação na concordância com o verbo.
+- D) gera ambiguidade na leitura do texto.
+- E) apresenta dupla marcação de sujeito. Disponível em: http://www.wordinfo.info. Acesso em: 27 abr. 2010.
+
+**Resposta:** B
+
+**Explicação:** As cobras dizem "Vamos massacrá-los" e "Vamos arrasar eles": a segunda frase usa o pronome reto "eles" no lugar do oblíquo ("arrasá-los"). Pela norma padrão, o pronome reto é sujeito e o oblíquo é complemento; usar "eles" como objeto contraria essa marcação das funções sintáticas.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 132
+
+**Assunto:** portugues/morfologia-e-sintaxe
+
+### 133
+Imagem para as questões 133 e 134
+
+![Figura](enem-2011-d2-q133-21.webp)
+
+> Disponível em: http://www.worldinfo.info. Acesso em: 27 abr. 2010.
+
+O argumento presente na charge consiste em uma metáfora relativa à teoria evolucionista e ao desenvolvimento tecnológico. Considerando o contexto apresentado, verifica-se que o impacto tecnológico pode ocasionar
+
+- A) o surgimento de um homem dependente de um novo modelo tecnológico.
+- B) a mudança do homem em razão dos novos inventos que destroem sua realidade.
+- C) a problemática social de grande exclusão digital a partir da interferência da máquina.
+- D) a invenção de equipamentos que dificultam o trabalho do homem, em sua esfera social.
+- E) o retrocesso do desenvolvimento do homem em face da criação de ferramentas como lança, máquina e computador.
+
+**Resposta:** A
+
+**Explicação:** A charge imita a sequência da evolução humana, mas termina com o homem curvado diante do computador. A crítica é que a tecnologia criou um homem dependente desse novo modelo tecnológico.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 133
+
+**Assunto:** sociologia/temas-contemporaneos
 
 ## Difícil
 

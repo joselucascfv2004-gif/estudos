@@ -334,6 +334,121 @@ Considerando-se as funções FT(q) = 5q e CT(q) = 2q + 12 como faturamento e cus
 
 **Assunto:** matematica/funcoes-afim-e-quadratica
 
+### 140
+A figura seguinte mostra um modelo de sombrinha muito usado em países orientais.
+
+![Figura](enem-2011-d2-q140-1.webp)
+
+> Disponível em: http://mdmat.psico.ufrgs.br. Acesso em: 1 maio 2010.
+
+Esta figura é uma representação de uma superfície de revolução chamada de
+
+- A) pirâmide.
+- B) semiesfera.
+- C) cilindro.
+- D) tronco de cone.
+- E) cone.
+
+**Resposta:** E
+
+**Explicação:** A sombrinha é formada por segmentos que saem do mesmo ponto (a ponta) e giram em volta do cabo. Girando um segmento em torno de um eixo que passa por sua ponta, obtém-se um cone.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 140
+
+**Assunto:** matematica/geometria-espacial
+
+### 165
+O gráfico mostra a velocidade de conexão à internet utilizada em domicílios no Brasil. Esses dados são resultado da mais recente pesquisa, de 2009, realizada pelo Comitê Gestor da Internet (CGI).
+
+![Figura](enem-2011-d2-q165-1.webp)
+
+> Disponível em: http://agencia.ipea.gov.br. Acesso em: 28 abr. 2010 (adaptado).
+
+Escolhendo-se, aleatoriamente, um domicílio pesquisado, qual a chance de haver banda larga de conexão de pelo menos 1 Mbps neste domicílio?
+
+- A) 0,45
+- B) 0,42
+- C) 0,30
+- D) 0,22
+- E) 0,15
+
+**Resposta:** D
+
+**Explicação:** Velocidade de pelo menos 1 Mbps: de 1 a 2 Mbps (15%), de 2 a 4 (5%), de 4 a 8 (1%) e acima de 8 (1%). Total: 22%, ou 0,22.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 165
+
+**Assunto:** matematica/porcentagem
+
+### 166
+Todo o país passa pela primeira fase de campanha de vacinação contra a gripe suína (H1N1). Segundo um médico infectologista do Instituto Emílio Ribas, de São Paulo, a imunização “deve mudar”, no país, a história da epidemia. Com a vacina, de acordo com ele, o Brasil tem a chance de barrar uma tendência do crescimento da doença, que já matou 17 mil no mundo. A tabela apresenta dados específicos de um único posto de vacinação.
+
+Campanha de vacinação contra a gripe suína
+
+![Figura](enem-2011-d2-q166-1.webp)
+
+> Disponível em: http://img.terra.com.br. Acesso em: 26 abr. 2010 (adaptado).
+
+Escolhendo-se aleatoriamente uma pessoa atendida nesse posto de vacinação, a probabilidade de ela ser portadora de doença crônica é
+
+- A) 8%.
+- B) 9%.
+- C) 11%.
+- D) 12%.
+- E) 22%.
+
+**Resposta:** C
+
+**Explicação:** No total foram vacinadas 42 + 22 + 56 + 30 + 50 = 200 pessoas, das quais 22 eram portadoras de doenças crônicas. A probabilidade é 22/200 = 11%.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 166
+
+**Assunto:** matematica/probabilidade
+
+### 172
+Uma enquete, realizada em março de 2010, perguntava aos internautas se eles acreditavam que as atividades humanas provocam o aquecimento global. Eram três as alternativas possíveis e 279 internautas responderam à enquete, como mostra o gráfico.
+
+![Figura](enem-2011-d2-q172-1.webp)
+
+Analisando os dados do gráfico, quantos internautas responderam “NÃO” à enquete?
+
+- A) Menos de 23.
+- B) Mais de 23 e menos de 25.
+- C) Mais de 50 e menos de 75.
+- D) Mais de 100 e menos de 190.
+- E) Mais de 200.
+
+**Resposta:** C
+
+**Explicação:** Responderam "não" 25% de 279 internautas: 279 × 0,25 = 69,75, ou seja, cerca de 70 pessoas: mais de 50 e menos de 75.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 172
+
+**Assunto:** matematica/porcentagem
+
+### 176
+O termo agronegócio não se refere apenas à agricultura e à pecuária, pois as atividades ligadas a essa produção incluem fornecedores de equipamentos, serviços para a zona rural, industrialização e comercialização dos produtos.
+
+O gráfico seguinte mostra a participação percentual do agronegócio no PIB brasileiro:
+
+![Figura](enem-2011-d2-q176-1.webp)
+
+Esse gráfico foi usado em uma palestra na qual o orador ressaltou uma queda da participação do agronegócio no PIB brasileiro e a posterior recuperação dessa participação, em termos percentuais. Segundo o gráfico, o período de queda ocorreu entre os anos de
+
+- A) 1998 e 2001.
+- B) 2001 e 2003.
+- C) 2003 e 2006.
+- D) 2003 e 2007.
+- E) 2003 e 2008.
+
+**Resposta:** C
+
+**Explicação:** A participação do agronegócio caiu de 28,28% em 2003 até 23,92% em 2006 e voltou a subir depois. O período de queda foi entre 2003 e 2006.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 176
+
+**Assunto:** matematica/estatistica
+
 ## Médio
 
 ### 145
@@ -583,6 +698,203 @@ Para escolher o investimento com a maior rentabilidade anual, essa pessoa dever�
 
 **Assunto:** matematica/porcentagem
 
+### 137
+O medidor de energia elétrica de uma residência, conhecido por “relógio de luz”, é constituído de quatro pequenos relógios, cujos sentidos de rotação estão indicados conforme a figura:
+
+![Figura](enem-2011-d2-q137-1.webp)
+
+> Disponível em: http://www.enersul.com.br. Acesso em: 26 abr. 2010.
+
+A medida é expressa em kWh. O número obtido na leitura é composto por 4 algarismos. Cada posição do número é formada pelo último algarismo ultrapassado pelo ponteiro. O número obtido pela leitura em kWh, na imagem, é
+
+- A) 2 614.
+- B) 3 624.
+- C) 2 715.
+- D) 3 725.
+- E) 4 162.
+
+**Resposta:** A
+
+**Explicação:** Em cada relógio, vale o último número que o ponteiro já passou, seguindo o sentido de rotação indicado. Milhar: entre 2 e 3, vale 2; centena: 6; dezena: 1; unidade: 4. A leitura é 2 614 kWh.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 137
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 144
+Uma indústria fabrica brindes promocionais em forma de pirâmide. A pirâmide é obtida a partir de quatro cortes em um sólido que tem a forma de um cubo. No esquema, estão indicados o sólido original (cubo) e a pirâmide obtida a partir dele.
+
+![Figura](enem-2011-d2-q144-1.webp)
+
+![Figura](enem-2011-d2-q144-2.webp)
+
+Os pontos A, B, C, D e O do cubo e da pirâmide são os mesmos. O ponto O é central na face superior do cubo. Os quatro cortes saem de O em direção às arestas
+
+> AD , BC , AB e CD , nessa ordem. Após os cortes, são descartados quatro sólidos. Os formatos dos sólidos descartados são
+
+- A) todos iguais.
+- B) todos diferentes.
+- C) três iguais e um diferente.
+- D) apenas dois iguais.
+- E) iguais dois a dois.
+
+**Resposta:** E
+
+**Explicação:** Os cortes saem de O, no centro da face de cima, até as arestas da base. Os sólidos removidos pelos cortes nas arestas opostas AD e BC são iguais entre si, e os das arestas AB e CD também, mas os dois pares têm formas diferentes (o cubo é cortado de um jeito na frente e atrás e de outro nos lados). Ficam iguais dois a dois.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/geometria-espacial
+
+### 151
+As frutas que antes se compravam por dúzias, hoje em dia, podem ser compradas por quilogramas, existindo também a variação dos preços de acordo com a época de produção. Considere que, independente da época ou variação de preço, certa fruta custa R$ 1,75 o quilograma. Dos gráficos a seguir, o que representa o preço m pago em reais pela compra de n quilogramas desse produto é
+
+![Figura](enem-2011-d2-q151-1.webp)
+
+- A) ![Alternativa](enem-2011-d2-q151-11.webp)
+- B) ![Alternativa](enem-2011-d2-q151-12.webp)
+- C) ![Alternativa](enem-2011-d2-q151-13.webp)
+- D) ![Alternativa](enem-2011-d2-q151-14.webp)
+- E) ![Alternativa](enem-2011-d2-q151-15.webp)
+
+**Resposta:** E
+
+**Explicação:** O preço é proporcional à quantidade: m = 1,75 · n. É uma reta que passa pela origem (0 kg custa R$ 0) e pelo ponto (1; 1,75).
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 154
+![Figura](enem-2011-d2-q154-1.webp)
+
+> Disponível em: http://www.diaadia.pr.gov.br. Acesso em: 28 abr. 2010.
+
+O polígono que dá forma a essa calçada é invariante por rotações, em torno de seu centro, de
+
+- A) 45°.
+- B) 60°.
+- C) 90°.
+- D) 120°.
+- E) 180°.
+
+**Resposta:** D
+
+**Explicação:** Os blocos da calçada são hexágonos que se repetem em três direções. Girando cada peça em torno do centro, ela volta à mesma posição a cada 120°.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 154
+
+**Assunto:** matematica/geometria-plana
+
+### 156
+A tabela compara o consumo mensal, em kWh, dos consumidores residenciais e dos de baixa renda, antes e depois da redução da tarifa de energia no estado de Pernambuco.
+
+![Figura](enem-2011-d2-q156-1.webp)
+
+Considere dois consumidores: um que é de baixa renda e gastou 100 kWh e outro do tipo residencial que gastou 185 kWh. A diferença entre o gasto desses consumidores com 1 kWh, depois da redução da tarifa de energia, mais aproximada, é de
+
+- A) R$ 0,27.
+- B) R$ 0,29.
+- C) R$ 0,32.
+- D) R$ 0,34.
+- E) R$ 0,61.
+
+**Resposta:** B
+
+**Explicação:** Depois da redução, o consumidor de baixa renda pagou R$ 16,73 por 100 kWh: R$ 0,1673 por kWh. O residencial pagou R$ 85,56 por 185 kWh: cerca de R$ 0,4625 por kWh. A diferença é de aproximadamente R$ 0,29.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 156
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 159
+Rafael mora no Centro de uma cidade e decidiu se mudar, por recomendações médicas, para uma das regiões: Rural, Comercial, Residencial Urbano ou Residencial Suburbano. A principal recomendação médica foi com as temperaturas das “ilhas de calor” da região, que deveriam ser inferiores a 31°C. Tais temperaturas são apresentadas no gráfico:
+
+![Figura](enem-2011-d2-q159-1.webp)
+
+Escolhendo, aleatoriamente, uma das outras regiões para morar, a probabilidade de ele escolher uma região que seja adequada às recomendações médicas é
+
+- A) 1/5
+- B) 1/4
+- C) 2/5
+- D) 3/5
+- E) 3/4
+
+**Resposta:** E
+
+**Explicação:** Rafael mora no Centro, então sobram 4 regiões: Rural, Comercial, Residencial Urbano e Residencial Suburbano. Pelo gráfico, 3 delas têm temperatura abaixo de 31 °C. A probabilidade é 3/4.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 159
+
+**Assunto:** matematica/probabilidade
+
+### 169
+A figura apresenta informações biométricas de um homem (Duílio) e de uma mulher (Sandra) que estão buscando alcançar seu peso ideal a partir das atividades físicas (corrida). Para se verificar a escala de obesidade, foi desenvolvida a fórmula que permite verificar o Índice de Massa Corporal (IMC). Esta fórmula é apresentada como IMC = m/h², onde m é a massa em quilogramas e h é altura em metros.
+
+![Figura](enem-2011-d2-q169-1.webp)
+
+No quadro é apresentada a Escala de Índice de Massa Corporal com as respectivas categorias relacionadas aos pesos.
+
+![Figura](enem-2011-d2-q169-2.webp)
+
+A partir dos dados biométricos de Duílio e Sandra e da Escala de IMC, o valor IMC e a categoria em que cada uma das pessoas se posiciona na Escala são
+
+- A) Duílio tem o IMC 26,7 e Sandra tem o IMC 26,6, estando ambos na categoria de sobrepeso.
+- B) Duílio tem o IMC 27,3 e Sandra tem o IMC 29,1, estando ambos na categoria de sobrepeso.
+- C) Duílio tem o IMC 27,3 e Sandra tem o IMC 26,6, estando ambos na categoria de sobrepeso.
+- D) Duílio tem o IMC 25,6, estando na categoria de sobrepeso, e Sandra tem o IMC 24,7, estando na categoria de peso normal.
+- E) Duílio tem o IMC 25,1, estando na categoria de sobrepeso, e Sandra tem o IMC 22,6, estando na categoria de peso normal.
+
+**Resposta:** B
+
+**Explicação:** Duílio: 96,4 ÷ 1,88² ≈ 96,4 ÷ 3,53 ≈ 27,3. Sandra: 84 ÷ 1,70² = 84 ÷ 2,89 ≈ 29,1. Os dois ficam entre 25 e 29,9: sobrepeso.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 169
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 175
+Um técnico em refrigeração precisa revisar todos os pontos de saída de ar de um escritório com várias salas.
+
+Na imagem apresentada, cada ponto indicado por uma letra é a saída do ar, e os segmentos são as tubulações.
+
+![Figura](enem-2011-d2-q175-1.webp)
+
+Iniciando a revisão pelo ponto K e terminando em F, sem passar mais de uma vez por cada ponto, o caminho será passando pelos pontos
+
+- A) K, I e F.
+- B) K, J, I, G, L e F.
+- C) K, L, G, I, J, H e F.
+- D) K, J, H, I, G, L e F.
+- E) K, L, G, I, H, J e F.
+
+**Resposta:** C
+
+**Explicação:** Saindo de K e terminando em F, sem repetir pontos e seguindo os segmentos da figura, o caminho que passa por todos os pontos é K, L, G, I, J, H e F.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 175
+
+**Assunto:** matematica/analise-combinatoria
+
+### 180
+Uma empresa de telefonia fixa oferece dois planos aos seus clientes: no plano K, o cliente paga R$ 29,90 por 200 minutos mensais e R$ 0,20 por cada minuto excedente; no plano Z, paga R$ 49,90 por 300 minutos mensais e R$ 0,10 por cada minuto excedente. O gráfico que representa o valor pago, em reais, nos dois planos em função dos minutos utilizados é:
+
+![Figura](enem-2011-d2-q180-1.webp)
+
+- A) Gráfico A.
+- B) Gráfico B.
+- C) Gráfico C.
+- D) Gráfico D.
+- E) Gráfico E.
+
+**Resposta:** D
+
+**Explicação:** K: R$ 29,90 fixo até 200 minutos, depois sobe R$ 0,20 por minuto. Z: R$ 49,90 fixo até 300 minutos, depois sobe R$ 0,10. Em 300 minutos, K custa 29,90 + 100 × 0,20 = R$ 49,90, igual a Z; depois, K sobe mais rápido. O gráfico D mostra K começando em 29,90, subindo a partir de 200 e cruzando Z em 300.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
 ## Difícil
 
 ### 139
@@ -672,3 +984,24 @@ Considerando-se S como a resistência, a representação algébrica que exprime 
 **Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 177
 
 **Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 158
+Para determinar a distância de um barco até a praia, um navegante utilizou o seguinte procedimento: a partir de um ponto A, mediu o ângulo visual α fazendo mira em um ponto fixo P da praia. Mantendo o barco no mesmo sentido, ele seguiu até um ponto B de modo que fosse possível ver o mesmo ponto P da praia, no entanto sob um ângulo visual 2α. A figura ilustra essa situação:
+
+![Figura](enem-2011-d2-q158-1.webp)
+
+Suponha que o navegante tenha medido o ângulo α = 30° e, ao chegar ao ponto B, verificou que o barco havia percorrido a distância AB = 2 000 m. Com base nesses dados e mantendo a mesma trajetória, a menor distância do barco até o ponto fixo P será
+
+- A) 1 000 m.
+- B) 1 000√3 m.
+- C) 2 000·√3/3 m.
+- D) 2 000 m.
+- E) 2 000√3 m.
+
+**Resposta:** B
+
+**Explicação:** O ângulo externo em B (2α = 60°) é a soma dos internos A (30°) e P, então o ângulo em P também é 30°: o triângulo ABP é isósceles e BP = AB = 2 000 m. A menor distância de P à trajetória é a altura: BP · sen 60° = 2 000 · √3/2 = 1 000√3 m.
+
+**Fonte:** ENEM 2011, 2º dia, caderno amarelo, questão 158
+
+**Assunto:** matematica/trigonometria

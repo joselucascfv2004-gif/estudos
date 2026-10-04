@@ -745,6 +745,111 @@ A mobilidade populacional da segunda metade do século XX teve um papel importan
 
 **Assunto:** geografia/geopolitica-e-globalizacao
 
+### 25
+![Figura](enem-2011-d1-q025-1.webp)
+
+> GOMES, A. et al. A República no Brasil. Rio de Janeiro: Nova Fronteira, 2002.
+
+A análise da tabela permite identificar um intervalo de tempo no qual uma alteração na proporção de eleitores inscritos resultou de uma luta histórica de setores da sociedade brasileira. O intervalo de tempo e a conquista estão associados, respectivamente, em
+
+- A) 1940-1950 – direito de voto para os ex-escravos.
+- B) 1950-1960 – fim do voto secreto.
+- C) 1960-1970 – direito de voto para as mulheres.
+- D) 1970-1980 – fim do voto obrigatório.
+- E) 1980-1996 – direito de voto para os analfabetos.
+
+**Resposta:** E
+
+**Explicação:** Entre 1980 e 1996, a proporção de eleitores subiu de cerca de 50% para mais de 60% da população. Nesse período, com a redemocratização, a Emenda Constitucional de 1985 (confirmada pela Constituição de 1988) deu aos analfabetos o direito de votar, uma luta antiga de setores da sociedade.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 25
+
+**Assunto:** historia/brasil-republica
+
+### 29
+![Figura](enem-2011-d1-q029-1.webp)
+
+> ALENCASTRO, L. F. (org). História da vida privada no Brasil.
+
+Que aspecto histórico da escravidão no Brasil do séc. XIX pode ser identificado a partir da análise do vestuário do casal retratado acima?
+
+- A) O uso de trajes simples indica a rápida incorporação dos ex-escravos ao mundo do trabalho urbano.
+- B) A presença de acessórios como chapéu e sombrinha aponta para a manutenção de elementos culturais de origem africana.
+- C) O uso de sapatos é um importante elemento de diferenciação social entre negros libertos ou em melhores condições na ordem escravocrata.
+- D) A utilização do paletó e do vestido demonstra a tentativa de assimilação de um estilo europeu como forma de distinção em relação aos brasileiros.
+- E) A adoção de roupas próprias para o trabalho doméstico tinha como finalidade demarcar as fronteiras da exclusão social naquele contexto.
+
+**Resposta:** C
+
+**Explicação:** Na foto de 1879, o casal negro usa sapatos, roupas elegantes, chapéu e sombrinha. Como escravizados andavam descalços, os sapatos eram sinal de liberdade e de distinção social entre negros libertos ou em melhor condição.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 29
+
+**Assunto:** historia/brasil-imperio
+
+### 36
+![Figura](enem-2011-d1-q036-1.webp)
+
+> SMITH, D. Atlas da Situação Mundial. São Paulo: Cia. Editora Nacional, 2007 (adaptado).
+
+Uma explicação de caráter histórico para o percentual da religião com maior número de adeptos declarados no Brasil foi a existência, no passado colonial e monárquico, da
+
+- A) incapacidade do cristianismo de incorporar aspectos de outras religiões.
+- B) incorporação da ideia de liberdade religiosa na esfera pública.
+- C) permissão para o funcionamento de igrejas não cristãs.
+- D) relação de integração entre Estado e Igreja.
+- E) influência das religiões de origem africana.
+
+**Resposta:** D
+
+**Explicação:** Os católicos são 73,8% dos brasileiros. Isso vem do passado colonial e imperial, quando o catolicismo era a religião oficial: havia ligação entre o Estado e a Igreja (padroado).
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 36
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 44
+![Figura](enem-2011-d1-q044-1.webp)
+
+> SILVA, E. S. O. Circuito espacial de produção e comercialização da produção familiar de tomate no município de São José de Ubá (RJ). In: RIBEIRO, M. A.; MARAFON, G. J. (orgs.). A metrópole e o interior fluminense: simetrias e assimetrias geográficas. Rio de Janeiro: Gramma, 2009 (adaptado).
+
+O organograma apresenta os diversos atores que integram uma cadeia agroindustrial e a intensa relação entre os setores primário, secundário e terciário. Nesse sentido, a disposição dos atores na cadeia agroindustrial demonstra
+
+- A) a autonomia do setor primário.
+- B) a importância do setor financeiro.
+- C) o distanciamento entre campo e cidade.
+- D) a subordinação da indústria à agricultura.
+- E) a horizontalidade das relações produtivas.
+
+**Resposta:** B
+
+**Explicação:** No organograma, os bancos e financiamentos ficam no topo e se ligam a todos os outros atores (produção de insumos, comercialização, agricultor). Isso mostra a importância do setor financeiro na cadeia agroindustrial.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 44
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 64
+![Figura](enem-2011-d1-q064-1.webp)
+
+> Disponível em: www.anvisa.gov.br.
+
+O mapa mostra a área de ocorrência da malária no mundo. Considerando-se sua distribuição na América do Sul, a malária pode ser classificada como
+
+- A) endemia, pois se concentra em uma área geográfica restrita desse continente.
+- B) peste, já que ocorre nas regiões mais quentes do continente.
+- C) epidemia, já que ocorre na maior parte do continente.
+- D) surto, pois apresenta ocorrência em áreas pequenas.
+- E) pandemia, pois ocorre em todo o continente.
+
+**Resposta:** A
+
+**Explicação:** Na América do Sul, a malária aparece só em uma área restrita, a região amazônica. Doença que se mantém em uma área geográfica delimitada é chamada de endemia.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 64
+
+**Assunto:** biologia/saude-e-doencas
+
 ## Difícil
 
 ### 22
@@ -863,3 +968,47 @@ Nos anos 1960 eram comuns as disputas pelo significado de termos usados no debat
 **Fonte:** ENEM 2011, 1º dia, caderno azul, questão 41
 
 **Assunto:** historia/ditadura-e-redemocratizacao
+
+### 6
+![Figura](enem-2011-d1-q006-1.webp)
+
+> TEIXEIRA, W. et al. Decifrando a Terra. São Paulo: Nacional, 2009 (adaptado).
+
+O gráfico relaciona diversas variáveis ao processo de formação de solos. A interpretação dos dados mostra que a água é um dos importantes fatores de pedogênese, pois nas áreas
+
+- A) de clima temperado ocorrem alta pluviosidade e grande profundidade de solos.
+- B) tropicais ocorre menor pluviosidade, o que se relaciona com a menor profundidade das rochas inalteradas.
+- C) de latitudes em torno de 30° ocorrem as maiores profundidades de solo, visto que há maior umidade.
+- D) tropicais a profundidade do solo é menor, o que evidencia menor intemperismo químico da água sobre as rochas.
+- E) de menor latitude ocorrem as maiores precipitações, assim como a maior profundidade dos solos.
+
+**Resposta:** E
+
+**Explicação:** No gráfico, sob a floresta tropical (perto do Equador, baixa latitude), há muita chuva e temperatura alta, e a rocha alterada (o solo) chega à maior profundidade. Nas regiões de menor latitude, ocorrem as maiores precipitações e os solos mais profundos.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 6
+
+**Assunto:** geografia/geografia-fisica
+
+### 14
+![Figura](enem-2011-d1-q014-1.webp)
+
+O espaço mundial sob a “nova des-ordem” é um emaranhado de zonas, redes e “aglomerados”, espaços hegemônicos e contra-hegemônicos que se cruzam de forma complexa na face da Terra. Fica clara, de saída, a polêmica que envolve uma nova regionalização mundial. Como regionalizar um espaço tão heterogêneo e, em parte, fluido, como é o espaço mundial contemporâneo?
+
+> HAESBAERT, R.; PORTO-GONÇALVES, C.W. A nova des-ordem mundial. São Paulo: UNESP, 2006.
+
+O mapa procura representar a lógica espacial do mundo contemporâneo pós-União Soviética, no contexto de avanço da globalização e do neoliberalismo, quando a divisão entre países socialistas e capitalistas se desfez e as categorias de “primeiro” e “terceiro” mundo perderam sua validade explicativa. Considerando esse objetivo interpretativo, tal distribuição espacial aponta para
+
+- A) a estagnação dos Estados com forte identidade cultural.
+- B) o alcance da racionalidade anticapitalista.
+- C) a influência das grandes potências econômicas.
+- D) a dissolução de blocos políticos regionais.
+- E) o alargamento da força econômica dos países islâmicos.
+
+**Resposta:** C
+
+**Explicação:** O mapa destaca "potências mundiais", "oligopólio" e áreas de influência de redes mundiais, com círculos de poder ao redor dos EUA, da Europa e do Japão. A nova regionalização mostra o mundo organizado pela influência das grandes potências econômicas.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 14
+
+**Assunto:** geografia/geopolitica-e-globalizacao

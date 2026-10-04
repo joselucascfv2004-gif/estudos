@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6553 questões** em **154 tópicos**.
+**6591 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2640 questões
+## ENEM — provas oficiais — 2678 questões
 
 *Provas anteriores*
 
@@ -287,10 +287,10 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2012 — Ciências da Natureza](enem-oficial/54-enem-2012-ciencias-da-natureza.md) | ENEM | 16 | 24 | 5 |
 | [ENEM 2012 — Ciências Humanas](enem-oficial/55-enem-2012-ciencias-humanas.md) | ENEM | 11 | 27 | 7 |
 | [ENEM 2012 — Linguagens](enem-oficial/56-enem-2012-linguagens.md) | ENEM | 9 | 23 | 8 |
-| [ENEM 2011 — Matemática](enem-oficial/57-enem-2011-matematica.md) | ENEM | 15 | 11 | 4 |
-| [ENEM 2011 — Ciências da Natureza](enem-oficial/58-enem-2011-ciencias-da-natureza.md) | ENEM | 11 | 22 | 7 |
-| [ENEM 2011 — Ciências Humanas](enem-oficial/59-enem-2011-ciencias-humanas.md) | ENEM | 15 | 19 | 5 |
-| [ENEM 2011 — Linguagens](enem-oficial/60-enem-2011-linguagens.md) | ENEM | 10 | 13 | 5 |
+| [ENEM 2011 — Matemática](enem-oficial/57-enem-2011-matematica.md) | ENEM | 20 | 20 | 5 |
+| [ENEM 2011 — Ciências da Natureza](enem-oficial/58-enem-2011-ciencias-da-natureza.md) | ENEM | 11 | 26 | 7 |
+| [ENEM 2011 — Ciências Humanas](enem-oficial/59-enem-2011-ciencias-humanas.md) | ENEM | 15 | 24 | 7 |
+| [ENEM 2011 — Linguagens](enem-oficial/60-enem-2011-linguagens.md) | ENEM | 11 | 24 | 5 |
 | [ENEM 2010 — Matemática](enem-oficial/61-enem-2010-matematica.md) | ENEM | 7 | 15 | 4 |
 | [ENEM 2010 — Ciências da Natureza](enem-oficial/62-enem-2010-ciencias-da-natureza.md) | ENEM | 12 | 19 | 6 |
 | [ENEM 2010 — Ciências Humanas](enem-oficial/63-enem-2010-ciencias-humanas.md) | ENEM | 17 | 23 | 1 |

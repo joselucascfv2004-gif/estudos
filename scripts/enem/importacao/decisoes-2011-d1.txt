@@ -98,6 +98,22 @@ s: Charge capa da revista “O Malho”, de 1904. Disponível em: http://1.bp.bl
 x: Na reforma do Rio de Janeiro, cortiços foram derrubados e a vacinação contra a varíola foi imposta à força, sem explicação à população. A revolta mostra a insatisfação com uma modernização autoritária.
 @45 m geografia/geopolitica-e-globalizacao
 x: As pessoas migram, sobretudo, em busca de trabalho. Os países desenvolvidos, por sua vez, têm criado cada vez mais barreiras contra a entrada de imigrantes.
+@6 d geografia/geografia-fisica fig
+x: No gráfico, sob a floresta tropical (perto do Equador, baixa latitude), há muita chuva e temperatura alta, e a rocha alterada (o solo) chega à maior profundidade. Nas regiões de menor latitude, ocorrem as maiores precipitações e os solos mais profundos.
+@14 d geografia/geopolitica-e-globalizacao fig
+s: espacial aponta para || a estagnação dos Estados com forte identidade cultural. => espacial aponta para
+a: a estagnação dos Estados com forte identidade cultural. | o alcance da racionalidade anticapitalista. | a influência das grandes potências econômicas. | a dissolução de blocos políticos regionais. | o alargamento da força econômica dos países islâmicos.
+x: O mapa destaca "potências mundiais", "oligopólio" e áreas de influência de redes mundiais, com círculos de poder ao redor dos EUA, da Europa e do Japão. A nova regionalização mostra o mundo organizado pela influência das grandes potências econômicas.
+@25 m historia/brasil-republica fig
+x: Entre 1980 e 1996, a proporção de eleitores subiu de cerca de 50% para mais de 60% da população. Nesse período, com a redemocratização, a Emenda Constitucional de 1985 (confirmada pela Constituição de 1988) deu aos analfabetos o direito de votar, uma luta antiga de setores da sociedade.
+@29 m historia/brasil-imperio fig
+x: Na foto de 1879, o casal negro usa sapatos, roupas elegantes, chapéu e sombrinha. Como escravizados andavam descalços, os sapatos eram sinal de liberdade e de distinção social entre negros libertos ou em melhor condição.
+@36 m sociologia/temas-contemporaneos fig
+x: Os católicos são 73,8% dos brasileiros. Isso vem do passado colonial e imperial, quando o catolicismo era a religião oficial: havia ligação entre o Estado e a Igreja (padroado).
+@44 m geografia/economia-agropecuaria-industria-energia fig
+x: No organograma, os bancos e financiamentos ficam no topo e se ligam a todos os outros atores (produção de insumos, comercialização, agricultor). Isso mostra a importância do setor financeiro na cadeia agroindustrial.
+@64 m biologia/saude-e-doencas fig
+x: Na América do Sul, a malária aparece só em uma área restrita, a região amazônica. Doença que se mantém em uma área geográfica delimitada é chamada de endemia.
 
 ## 58-enem-2011-ciencias-da-natureza.md | 2011 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
@@ -219,3 +235,11 @@ x: As algas absorvem os resíduos nitrogenados dos animais como nutrientes e, na
 x: As larvas do Aedes aegypti se desenvolvem em água parada. Eliminar recipientes que acumulam água impede a reprodução do mosquito.
 @90 f biologia/ecologia
 x: Na digestão, os bois (ruminantes) produzem metano, um gás que retém muito calor. Com rebanhos enormes, essa emissão contribui bastante para o aquecimento global.
+@63 m quimica/fisico-quimica fig
+x: Na Figura 1, a absorção máxima ocorre perto de 500 nm, faixa do verde. Na roda de cores, a cor oposta ao verde é o vermelho: essa é a cor que vemos na substância.
+@67 m fisica/ondulatoria-e-optica fig
+x: Para diferenciar bem os alvos, a faixa ideal é aquela em que as curvas ficam mais afastadas umas das outras. Entre 0,8 e 0,9 µm, grama, concreto, solo, asfalto e água têm refletâncias bem diferentes.
+@70 m fisica/eletricidade fig
+x: A lâmpada acende quando um terminal dela toca um polo da pilha e o outro terminal se liga ao outro polo pelo fio, fechando o circuito. Isso acontece nas montagens 1, 3 e 7.
+@86 m fisica/trabalho-energia-e-potencia fig
+x: O atleta corre (energia cinética, etapa I) e, ao apoiar a vara, essa energia vira energia elástica e, depois, energia potencial gravitacional no alto (etapa III). A altura máxima ocorre quando toda a energia cinética vira potencial gravitacional.

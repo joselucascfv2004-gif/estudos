@@ -749,6 +749,100 @@ O poema acima sugere a existência de relações de afinidade ente os animais ci
 
 **Assunto:** biologia/seres-vivos
 
+### 63
+Para que uma substância seja colorida ela deve absorver luz na região do visível. Quando uma amostra absorve luz visível, a cor que percebemos é a soma das cores restantes que são refletidas ou transmitidas pelo objeto. A Figura 1 mostra o espectro de absorção para uma substância e é possível observar que há um comprimento de onda em que a intensidade de absorção é máxima. Um observador pode prever a cor dessa substância pelo uso da roda de cores (Figura 2): o comprimento de onda correspondente à cor do objeto é encontrado no lado oposto ao comprimento de onda da absorção máxima.
+
+Figura 1
+
+![Figura](enem-2011-d1-q063-1.webp)
+
+![Figura](enem-2011-d1-q063-2.webp)
+
+Brown, T. Química a Ciência Central. 2005 (adaptado).
+
+Qual a cor da substância que deu origem ao espectro da Figura 1?
+
+- A) Azul.
+- B) Verde.
+- C) Violeta.
+- D) Laranja.
+- E) Vermelho.
+
+**Resposta:** E
+
+**Explicação:** Na Figura 1, a absorção máxima ocorre perto de 500 nm, faixa do verde. Na roda de cores, a cor oposta ao verde é o vermelho: essa é a cor que vemos na substância.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 63
+
+**Assunto:** quimica/fisico-quimica
+
+### 67
+O processo de interpretação de imagens capturadas por sensores instalados a bordo de satélites que imageiam determinadas faixas ou bandas do espectro de radiação eletromagnética (REM) baseia-se na interação dessa radiação com os objetos presentes sobre a superfície terrestre. Uma das formas de avaliar essa interação é por meio da quantidade de energia refletida pelos objetos. A relação entre a refletância de um dado objeto e o comprimento de onda da REM é conhecida como curva de comportamento espectral ou assinatura espectral do objeto, como mostrado na figura, para objetos comuns na superfície terrestre.
+
+![Figura](enem-2011-d1-q067-1.webp)
+
+> D’ARCO, E. Radiometria e Comportamento Espectral de Alvos. INPE. Disponível em: http://www.agro.unitau.br. Acesso em: 3 maio 2009.
+
+De acordo com as curvas de assinatura espectral apresentadas na figura, para que se obtenha a melhor discriminação dos alvos mostrados, convém selecionar a banda correspondente a que comprimento de onda em micrômetros (µm)?
+
+- A) 0,4 a 0,5.
+- B) 0,5 a 0,6.
+- C) 0,6 a 0,7.
+- D) 0,7 a 0,8.
+- E) 0,8 a 0,9.
+
+**Resposta:** E
+
+**Explicação:** Para diferenciar bem os alvos, a faixa ideal é aquela em que as curvas ficam mais afastadas umas das outras. Entre 0,8 e 0,9 µm, grama, concreto, solo, asfalto e água têm refletâncias bem diferentes.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 67
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 70
+Um curioso estudante, empolgado com a aula de circuito elétrico que assistiu na escola, resolve desmontar sua lanterna. Utilizando-se da lâmpada e da pilha, retiradas do equipamento, e de um fio com as extremidades descascadas, faz as seguintes ligações com a intenção de acender a lâmpada:
+
+![Figura](enem-2011-d1-q070-1.webp)
+
+> GONÇALVES FILHO, A.; BAROLLI, E. Instalação Elétrica: investigando e aprendendo. São Paulo: Scipione, 1997 (adaptado).
+
+Tendo por base os esquemas mostrados, em quais casos a lâmpada acendeu?
+
+- A) (1), (3), (6)
+- B) (3), (4), (5)
+- C) (1), (3), (5)
+- D) (1), (3), (7)
+- E) (1), (2), (5)
+
+**Resposta:** D
+
+**Explicação:** A lâmpada acende quando um terminal dela toca um polo da pilha e o outro terminal se liga ao outro polo pelo fio, fechando o circuito. Isso acontece nas montagens 1, 3 e 7.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 70
+
+**Assunto:** fisica/eletricidade
+
+### 86
+Uma das modalidades presentes nas olimpíadas é o salto com vara. As etapas de um dos saltos de um atleta estão representadas na figura:
+
+![Figura](enem-2011-d1-q086-1.webp)
+
+Desprezando-se as forças dissipativas (resistência do ar e atrito), para que o salto atinja a maior altura possível, ou seja, o máximo de energia seja conservada, é necessário que
+
+- A) a energia cinética, representada na etapa I, seja totalmente convertida em energia potencial elástica representada na etapa IV.
+- B) a energia cinética, representada na etapa II, seja totalmente convertida em energia potencial gravitacional, representada na etapa IV.
+- C) a energia cinética, representada na etapa I, seja totalmente convertida em energia potencial gravitacional, representada na etapa III.
+- D) a energia potencial gravitacional, representada na etapa II, seja totalmente convertida em energia potencial elástica, representada na etapa IV.
+- E) a energia potencial gravitacional, representada na etapa I, seja totalmente convertida em energia potencial elástica, representada na etapa III.
+
+**Resposta:** C
+
+**Explicação:** O atleta corre (energia cinética, etapa I) e, ao apoiar a vara, essa energia vira energia elástica e, depois, energia potencial gravitacional no alto (etapa III). A altura máxima ocorre quando toda a energia cinética vira potencial gravitacional.
+
+**Fonte:** ENEM 2011, 1º dia, caderno azul, questão 86
+
+**Assunto:** fisica/trabalho-energia-e-potencia
+
 ## Difícil
 
 ### 46

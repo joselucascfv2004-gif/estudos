@@ -90,6 +90,42 @@ x: Os números usam os algarismos 1, 3, 5, 7 e 9, sem repetir (120 números). An
 @177 d matematica/razao-proporcao-regra-de-tres
 a: S = k · b · d | S = b · d² | S = k · b · d² | S = k · b/d² | S = k · d²/b
 x: Diretamente proporcional à largura b e ao quadrado da altura d, com constante k: S = k · b · d².
+@137 m matematica/numeros-e-operacoes fig
+x: Em cada relógio, vale o último número que o ponteiro já passou, seguindo o sentido de rotação indicado. Milhar: entre 2 e 3, vale 2; centena: 6; dezena: 1; unidade: 4. A leitura é 2 614 kWh.
+@140 f matematica/geometria-espacial fig
+x: A sombrinha é formada por segmentos que saem do mesmo ponto (a ponta) e giram em volta do cabo. Girando um segmento em torno de um eixo que passa por sua ponta, obtém-se um cone.
+@144 m matematica/geometria-espacial fig
+x: Os cortes saem de O, no centro da face de cima, até as arestas da base. Os sólidos removidos pelos cortes nas arestas opostas AD e BC são iguais entre si, e os das arestas AB e CD também, mas os dois pares têm formas diferentes (o cubo é cortado de um jeito na frente e atrás e de outro nos lados). Ficam iguais dois a dois.
+@151 m matematica/funcoes-afim-e-quadratica fig
+a: [fig11] | [fig12] | [fig13] | [fig14] | [fig15]
+x: O preço é proporcional à quantidade: m = 1,75 · n. É uma reta que passa pela origem (0 kg custa R$ 0) e pelo ponto (1; 1,75).
+@154 m matematica/geometria-plana fig
+x: Os blocos da calçada são hexágonos que se repetem em três direções. Girando cada peça em torno do centro, ela volta à mesma posição a cada 120°.
+@156 m matematica/razao-proporcao-regra-de-tres fig
+x: Depois da redução, o consumidor de baixa renda pagou R$ 16,73 por 100 kWh: R$ 0,1673 por kWh. O residencial pagou R$ 85,56 por 185 kWh: cerca de R$ 0,4625 por kWh. A diferença é de aproximadamente R$ 0,29.
+@158 d matematica/trigonometria fig
+e: Para determinar a distância de um barco até a praia, um navegante utilizou o seguinte procedimento: a partir de um ponto A, mediu o ângulo visual α fazendo mira em um ponto fixo P da praia. Mantendo o barco no mesmo sentido, ele seguiu até um ponto B de modo que fosse possível ver o mesmo ponto P da praia, no entanto sob um ângulo visual 2α. A figura ilustra essa situação: || [fig1] || Suponha que o navegante tenha medido o ângulo α = 30° e, ao chegar ao ponto B, verificou que o barco havia percorrido a distância AB = 2 000 m. Com base nesses dados e mantendo a mesma trajetória, a menor distância do barco até o ponto fixo P será
+a: 1 000 m. | 1 000√3 m. | 2 000·√3/3 m. | 2 000 m. | 2 000√3 m.
+x: O ângulo externo em B (2α = 60°) é a soma dos internos A (30°) e P, então o ângulo em P também é 30°: o triângulo ABP é isósceles e BP = AB = 2 000 m. A menor distância de P à trajetória é a altura: BP · sen 60° = 2 000 · √3/2 = 1 000√3 m.
+@159 m matematica/probabilidade fig
+a: 1/5 | 1/4 | 2/5 | 3/5 | 3/4
+x: Rafael mora no Centro, então sobram 4 regiões: Rural, Comercial, Residencial Urbano e Residencial Suburbano. Pelo gráfico, 3 delas têm temperatura abaixo de 31 °C. A probabilidade é 3/4.
+@165 f matematica/porcentagem fig
+x: Velocidade de pelo menos 1 Mbps: de 1 a 2 Mbps (15%), de 2 a 4 (5%), de 4 a 8 (1%) e acima de 8 (1%). Total: 22%, ou 0,22.
+@166 f matematica/probabilidade fig
+x: No total foram vacinadas 42 + 22 + 56 + 30 + 50 = 200 pessoas, das quais 22 eram portadoras de doenças crônicas. A probabilidade é 22/200 = 11%.
+@169 m matematica/razao-proporcao-regra-de-tres fig
+x: Duílio: 96,4 ÷ 1,88² ≈ 96,4 ÷ 3,53 ≈ 27,3. Sandra: 84 ÷ 1,70² = 84 ÷ 2,89 ≈ 29,1. Os dois ficam entre 25 e 29,9: sobrepeso.
+@172 f matematica/porcentagem fig
+x: Responderam "não" 25% de 279 internautas: 279 × 0,25 = 69,75, ou seja, cerca de 70 pessoas: mais de 50 e menos de 75.
+@175 m matematica/analise-combinatoria fig
+x: Saindo de K e terminando em F, sem repetir pontos e seguindo os segmentos da figura, o caminho que passa por todos os pontos é K, L, G, I, J, H e F.
+@176 f matematica/estatistica fig
+x: A participação do agronegócio caiu de 28,28% em 2003 até 23,92% em 2006 e voltou a subir depois. O período de queda foi entre 2003 e 2006.
+@180 m matematica/funcoes-afim-e-quadratica fig
+s: minutos utilizados é => minutos utilizados é:
+a: Gráfico A. | Gráfico B. | Gráfico C. | Gráfico D. | Gráfico E.
+x: K: R$ 29,90 fixo até 200 minutos, depois sobe R$ 0,20 por minuto. Z: R$ 49,90 fixo até 300 minutos, depois sobe R$ 0,10. Em 300 minutos, K custa 29,90 + 100 × 0,20 = R$ 49,90, igual a Z; depois, K sobe mais rápido. O gráfico D mostra K começando em 29,90, subindo a partir de 200 e cruzando Z em 300.
 
 ## 60-enem-2011-linguagens.md | 2011 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
@@ -171,3 +207,31 @@ x: Aipim, macaxeira e mandioca são nomes regionais da mesma planta. É um caso 
 x: O texto fala de usos que "configuram uma norma nacional distinta da do português europeu". Há formas próprias do Brasil que caracterizam uma norma brasileira.
 @135 f portugues/funcoes-generos-e-variacao
 x: O Twitter obriga a dizer muito em 140 caracteres. Isso estimula frases claras e objetivas, o que melhora a comunicação.
+@97 m portugues/interpretacao-de-texto fig
+x: Na amizade simétrica, os dois lados se aceitam como amigos; na assimétrica, qualquer um pode seguir o outro sem pedir permissão, como no Twitter. O infográfico diz que isso torna "muito mais fácil a formação de laços e comunidades": a amizade assimétrica facilita a interação por interesses comuns.
+@102 m portugues/funcoes-generos-e-variacao fig
+x: O anúncio do parque mostra pés de defunto com etiqueta e a frase "Quem é morto sempre aparece", que modifica o ditado popular "quem é vivo sempre aparece". Para entender a propaganda, o leitor precisa reconhecer esse intertexto.
+@104 m artes/artes-e-educacao-fisica fig
+x: O desenho de Niemeyer mostra as colunas do Palácio da Alvorada com poucas linhas curvas, opostas umas às outras. A frase "foram elas que o mundo inteiro copiou" destaca a força dessas formas simples e marcantes.
+@110 m artes/artes-e-educacao-fisica fig
+x: As pinturas da Serra da Capivara e o grafite urbano têm em comum o registro, em paredes, do pensamento e das crenças de quem vivia naquele tempo. As duas formas de arte mostram como cada sociedade se via.
+@111 m artes/artes-e-educacao-fisica fig
+x: Nelson Leirner une um tronco de árvore a uma cadeira, um objeto comum, e o transforma em arte. Como diz o texto, o objeto ganha um significado "mágico": é a releitura do objeto, típica de artistas abstracionistas e conceituais.
+@114 m artes/artes-e-educacao-fisica fig
+x: Guernica mostra o bombardeio de uma cidade com figuras deformadas, em preto, branco e cinza, sem cores, como um grande painel. As cenas aparecem em vários planos ao mesmo tempo, sem a perspectiva tradicional: é um painel ideográfico e monocromático que mostra o horror do evento.
+@122 m portugues/funcoes-generos-e-variacao fig
+e: Texto para as questões 122 e 123 || [fig21] || Considerando a autoria e a seleção lexical desse texto, bem como os argumentos nele mobilizados, constata-se que o objetivo do autor do texto é
+x: O anúncio é do próprio Conar, publicado em revista para o público em geral. Ele explica o que o órgão faz (zelar pela ética na publicidade) e informa que qualquer pessoa enganada pode reclamar. O objetivo é informar os consumidores sobre a atuação do Conar.
+@123 m portugues/funcoes-generos-e-variacao fig
+e: Texto para as questões 122 e 123 || [fig21] || O recurso gráfico utilizado no anúncio publicitário ― de destacar a potencial supressão de trecho do texto ― reforça a eficácia pretendida, revelada na estratégia de
+x: O título risca a frase "E ele é 100% eficiente nesta missão": o próprio anúncio corta um exagero, que é justamente o que o Conar combate. A propaganda usa os recursos da publicidade para falar da própria publicidade (metalinguagem), subvertendo o jeito comum de anunciar.
+@124 m portugues/interpretacao-de-texto fig
+x: O saco de açúcar tem a forma de uma barriga e a frase "Mude sua embalagem". A propaganda do adoçante associa o açúcar ao corpo fora de forma e sugere trocá-lo pelo produto.
+@132 m portugues/morfologia-e-sintaxe fig
+x: As cobras dizem "Vamos massacrá-los" e "Vamos arrasar eles": a segunda frase usa o pronome reto "eles" no lugar do oblíquo ("arrasá-los"). Pela norma padrão, o pronome reto é sujeito e o oblíquo é complemento; usar "eles" como objeto contraria essa marcação das funções sintáticas.
+@133 m sociologia/temas-contemporaneos fig
+e: Imagem para as questões 133 e 134 || [fig21] || > Disponível em: http://www.worldinfo.info. Acesso em: 27 abr. 2010. || O argumento presente na charge consiste em uma metáfora relativa à teoria evolucionista e ao desenvolvimento tecnológico. Considerando o contexto apresentado, verifica-se que o impacto tecnológico pode ocasionar
+x: A charge imita a sequência da evolução humana, mas termina com o homem curvado diante do computador. A crítica é que a tecnologia criou um homem dependente desse novo modelo tecnológico.
+@134 f artes/artes-e-educacao-fisica fig
+e: Imagem para as questões 133 e 134 || [fig21] || > Disponível em: http://www.worldinfo.info. Acesso em: 27 abr. 2010. || O homem evoluiu. Independentemente de teoria, essa evolução ocorreu de várias formas. No que concerne à evolução digital, o homem percorreu longo trajeto da pedra lascada ao mundo virtual. Tal fato culminou em um problema físico habitual, ilustrado na imagem, que propicia uma piora na qualidade de vida do usuário, uma vez que
+x: Na última figura, o homem aparece todo curvado na frente do computador. O uso contínuo e inadequado do computador provoca má postura, com dores na coluna.
