@@ -78,6 +78,56 @@ x: O vértice está em xᵥ = −b/2a = 6 ÷ 3 = 2. Como ele fica sobre o eixo x
 s: M(t) = A · (2,7)kt , onde => M(t) = A · (2,7)^(kt), onde
 s: log10 2. => log₁₀ 2.
 x: Pela meia-vida, (2,7)^(30k) = 1/2. Queremos (2,7)^(kt) = 1/10. Dividindo os logaritmos: kt/(30k) = log(1/10)/log(1/2) = (−1)/(−0,3) ≈ 3,33. Então t = 30 × 3,33 = 100 anos.
+@138 m fisica/dinamica fig
+e: A Lei da Gravitação Universal, de Isaac Newton, estabelece a intensidade da força de atração entre duas massas. Ela é representada pela expressão: || F = G·m₁m₂/d² || onde m₁ e m₂ correspondem às massas dos corpos, d à distância entre eles, G à constante universal da gravitação e F à força que um corpo exerce sobre o outro. || O esquema representa as trajetórias circulares de cinco satélites, de mesma massa, orbitando a Terra. || [fig1] || Qual gráfico expressa as intensidades das forças que a Terra exerce sobre cada satélite em função do tempo?
+x: Em órbita circular, a distância de cada satélite à Terra não muda, então a força sobre cada um é constante no tempo (linhas horizontais). Como a força diminui com o quadrado da distância, o satélite mais próximo (E) sofre a maior força e o mais distante (A), a menor.
+@139 f matematica/porcentagem fig
+x: O maior crescimento é o de Guarulhos (60,52%) e o menor, o da capital São Paulo (3,57%). A diferença é 60,52 − 3,57 = 56,95.
+@140 f matematica/razao-proporcao-regra-de-tres fig
+a: 17/70 | 17/53 | 53/70 | 53/17 | 70/17
+x: O setor tem 7 fileiras de 10 cadeiras: 70 no total. Contando as escuras (reservadas), são 17. A razão é 17/70.
+@141 m matematica/probabilidade fig
+a: 1/20 | 3/242 | 5/22 | 6/25 | 7/15
+x: Produto A: 10 + 30 + 60 = 100 compradores, 30 em fevereiro: 30/100. Produto B: 20 + 20 + 80 = 120, 20 em fevereiro: 20/120 = 1/6. Os sorteios são independentes: 3/10 × 1/6 = 1/20.
+@142 m matematica/geometria-analitica fig
+x: A circunferência x² + y² = 9 tem centro na origem e raio 3. A parábola y = −x² − 1 (de −1 a 1) é uma "boca" curvada para baixo, abaixo da origem. Os quadrados III e IV ficam em cima, à esquerda e à direita (os "olhos"), e V é o ponto no centro. A figura com raio 3 e boca triste é a última.
+@149 m matematica/funcoes-afim-e-quadratica fig
+x: Pelo gráfico, carta de 100 g custa R$ 1,70; de 200 g, R$ 2,65; de 350 g, R$ 4,00. Total: 2 × 1,70 + 3 × 2,65 + 4,00 = 3,40 + 7,95 + 4,00 = R$ 15,35.
+@150 m matematica/estatistica fig
+x: Em ordem: A (R$ 200) são 25% (50 hotéis), B (R$ 300) outros 25% (50), C (R$ 400) 40% (80) e D (R$ 600) 10%. A mediana é a média do 100º e do 101º valores: o 100º é R$ 300 e o 101º é R$ 400. Mediana: R$ 350.
+@156 m matematica/trigonometria fig
+x: A torre é inclinada 15°: o topo se desloca horizontalmente 114 × tg 15° ≈ 114 × 0,26 ≈ 29,64 m, que, pela figura, corresponde ao lado da base quadrada. Área: 29,64² ≈ 878 m², maior que 700 m².
+@157 m matematica/estatistica fig
+x: Notas: A 18 e 16; B 17 e 13; C 14 e 1; D 19 e 14; E 16 e 12. Soma 140 em 10 notas: média 14. Tirando a maior (19) e a menor (1): 120 em 8 notas, média 15. A nova média é 1 ponto maior.
+@160 m matematica/geometria-plana fig
+x: Simetria em relação a um ponto é uma rotação de 180° em torno dele. A figura original fica acima e à esquerda de O; a nova fica abaixo e à direita, de cabeça para baixo, com o triângulo escuro também girado. É a última figura.
+@161 d matematica/analise-combinatoria fig
+x: Contando todas as pinturas com vértices vizinhos de cores diferentes: se A e C têm a mesma cor (3 modos), B e D escolhem entre as outras 2 (2 × 2): 12; se A e C têm cores diferentes (3 × 2 = 6), B e D ficam com a terceira cor: 6. São 18 pinturas. Mas a joia pode ser virada ou girada: só as 6 pinturas com A = C e B = D já são iguais a si mesmas pelo giro de meia-volta; as demais aparecem duas vezes. Fazendo a conta das simetrias do losango, restam 12 joias diferentes.
+@167 m matematica/grandezas-medidas-escalas fig
+x: De 1 : 25 000 000 para 1 : 4 000 000, os comprimentos ficam 25/4 = 6,25 vezes maiores. A área aumenta pelo quadrado: 6,25² ≈ 39. O número está entre 30 e 40.
+@168 m matematica/geometria-analitica fig
+x: A (30; 20) e B (70; 20) estão na mesma altura, então o ponto equidistante deles tem x = 50. Para ficar à mesma distância de A e de C (60; 50): 20² + (y − 20)² = 10² + (y − 50)², que dá 60y = 1 800, y = 30. A torre fica em (50; 30).
+@169 f matematica/geometria-espacial fig
+x: A forma tem a parede de fora inclinada (um tronco de cone largo) e o furo central também em forma de tronco de cone, mais estreito. São dois troncos de cone.
+@170 m matematica/estatistica fig
+a: Finlândia. | Holanda. | Israel. | México. | Rússia.
+x: Os países abaixo da média (linha horizontal) são Rússia, Portugal, Itália, Israel e México. Entre eles, o que está mais à direita no eixo das horas de estudo é Israel.
+@171 d matematica/geometria-plana fig
+e: Um restaurante utiliza, para servir bebidas, bandejas com bases quadradas. Todos os copos desse restaurante têm o formato representado na figura: || [fig1] || Considere que AC = (7/5)·BD e que l é a medida de um dos lados da base da bandeja. || Qual deve ser o menor valor da razão l/BD para que uma bandeja tenha capacidade de portar exatamente quatro copos de uma só vez?
+a: 2 | 14/5 | 4 | 24/5 | 28/5
+x: AC é o raio da boca do copo e BD, o raio da base. Em 2 × 2, as bocas não podem se bater: os centros vizinhos ficam a 2 · AC = 14/5 · BD. A base de cada copo precisa caber na bandeja: soma-se um raio de base de cada lado. l = 14/5 · BD + 2 · BD = 24/5 · BD, então l/BD = 24/5.
+@172 m matematica/razao-proporcao-regra-de-tres fig
+e: O dono de um sítio pretende colocar uma haste de sustentação para melhor firmar dois postes de comprimentos iguais a 6 m e 4 m. A figura representa a situação real na qual os postes são descritos pelos segmentos AC e BD e a haste é representada pelo segmento EF, todos perpendiculares ao solo, que é indicado pelo segmento de reta AB. Os segmentos AD e BC representam cabos de aço que serão instalados. || [fig1] || Qual deve ser o valor do comprimento da haste EF?
+a: 1 m | 2 m | 2,4 m | 3 m | 2√6 m
+x: Por semelhança de triângulos, a haste no cruzamento dos cabos mede (a · b)/(a + b), em que a e b são as alturas dos postes: (6 × 4)/(6 + 4) = 24/10 = 2,4 m.
+@173 m matematica/geometria-espacial fig
+s: em movimento, é: || A || B => em movimento, é:
+a: [fig11] | [fig12] | [fig13] | [fig14] | [fig15]
+x: Os pontos A e B giram em arcos em torno do pivô, num plano vertical. Vistos de cima, esses arcos viram segmentos na direção da tábua: cada ponto vai de sua posição mais próxima do pivô (tábua inclinada) até a mais distante (tábua na horizontal). A projeção são dois segmentos retos, um de cada lado.
+@178 m matematica/geometria-plana fig
+x: Os centros dos três canos formam um triângulo equilátero de lado 60 cm. A distância de cada centro ao centro do cano grande é 60/√3 = 20√3 ≈ 34 cm. Somando o raio de um cano (30) e a folga (10): R ≈ 34 + 30 + 10 = 74 cm.
+@180 m matematica/grandezas-medidas-escalas fig
+x: Contando os lados de quadradinho do trajeto, ele mede 16 cm. Na escala 1 : 25 000, 1 cm vale 250 m: 16 × 250 = 4 000 m = 4 km. Ida e volta: 8 km por dia; em 5 dias, 40 km.
 
 ## 52-enem-2013-linguagens.md | 2013 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
@@ -142,3 +192,31 @@ x: O poema diz que as gerações futuras tentarão "apagar a tua cor", mas não 
 x: Escrever "dois pontos" por extenso cumpre o papel do sinal: anuncia os exemplos que vêm depois (o político que mente, a publicidade que joga baixo). Ajuda a encadear as ideias.
 @122 d literatura/quinhentismo-ao-simbolismo
 x: O relógio, que antes lembrava a Brás Cubas a morte se aproximando, agora marca "os minutos ganhados" depois do beijo. O tempo concreto desfaz a idealização romântica e mostra o interesse prático do narrador.
+@96 m portugues/interpretacao-de-texto fig
+x: A redação escolar de 1911 descreve a bandeira com orgulho ("a mais bonita de todas") e explica o sentido de cada cor e símbolo. Lida hoje, ela mostra como a escola transmitia os valores patrióticos daquela época.
+@97 m literatura/quinhentismo-ao-simbolismo fig
+x: A carta de Caminha é um documento de quem chegou: descreve os indígenas com o olhar do colonizador, como pessoas "bem-dispostas" e fáceis de lidar. Na tela de Portinari, os nativos aparecem em primeiro plano, inquietos, observando a chegada dos navios.
+@102 f artes/artes-e-educacao-fisica fig
+x: A ilustração mostra um menino puxando um vagão de trem com uma corda, enquanto outro brinca com um trenzinho. A imagem não explica nem propõe soluções: ela provoca a reflexão sobre o trabalho infantil pelo contraste entre as duas crianças.
+@104 m portugues/funcoes-generos-e-variacao fig
+x: O autor usa verbos na 1ª pessoa do plural ("somos livres", "controlamos", "somos controlados"), incluindo a si mesmo e o leitor no mesmo grupo. Assim, o leitor é envolvido como participante da ideia defendida: ele manipula as tecnologias e também é manipulado por elas.
+@107 m portugues/interpretacao-de-texto fig
+x: Todas as figuras repetem "bé, bé" como ovelhas iguais, menos uma, diferente, que vira a cabeça e fala outra coisa. A figura destacada representa quem reage ao pensamento coletivo imposto, sem seguir o rebanho.
+@116 m portugues/interpretacao-de-texto fig
+x: O cartaz mostra a Terra como uma gota que derrete e brinca com o verbo "derreter" conjugado em pessoas diferentes ("eu derreto, tu derretes, você derrete"). A pergunta final mostra que o futuro do planeta depende da atitude de cada pessoa diante dos problemas ambientais.
+@119 m portugues/morfologia-e-sintaxe fig
+x: Mafalda começa dizendo que a preguiça é "a mãe de todos os vícios", mas, com o "mas", conclui que "mãe é mãe" e precisa ser respeitada, e por isso fica deitada. A oração adversativa quebra a expectativa e cria o humor.
+@120 m portugues/interpretacao-de-texto fig
+x: A frase "Não há movimento" lembra o filósofo Parmênides, que negava o movimento, e a imagem mostra um engarrafamento enorme de carros e caminhões parados. A charge ironiza a dificuldade de se locomover no trânsito das cidades.
+@125 m portugues/funcoes-generos-e-variacao fig
+x: Os quadrinhos mostram contradições: alguém se diz "sou alto, loiro e sincero" sem preconceitos, outro diz "pra que ler, tem tudo na Wikipédia" e outro se declara corajoso só pela mensagem de celular. A tirinha critica o uso da tecnologia por meio da ironia.
+@127 m artes/artes-e-educacao-fisica fig
+x: Paulo Nazareth expôs uma Kombi com bananas numa feira de arte dos EUA, segurando uma placa com a frase "não me esqueçam quando eu for um nome importante". A obra mistura identidade (latino-americana), território e códigos de linguagem do mercado de arte.
+@128 m portugues/funcoes-generos-e-variacao fig
+x: Os quadrinhos tentam definir o que é um livro: papel costurado, palavras dispostas em frases, histórias e sonhos escritos. Quando a linguagem fala de si mesma (aqui, o livro reflete sobre o próprio livro), predomina a função metalinguística.
+@129 m literatura/pre-modernismo-ao-contemporaneo fig
+x: As anotações à mão ao redor do poema explicam o contexto: "País do futebol", "números como versos" (placares), "Cette = ? Não! Clube francês". São indicações que ajudam a ler o poema relacionando-o a fatos históricos e culturais.
+@130 m portugues/interpretacao-de-texto fig
+x: A imagem mostra uma cabeça cheia de peças e engrenagens com os olhos vendados. A venda é usada em sentido figurado: denuncia que os usuários não veem as informações escondidas pelos sites de busca e pelas redes sociais.
+@132 m portugues/interpretacao-de-texto fig
+x: Os gráficos mostram o aumento dos casamentos entre pessoas acima de 60 anos (44%, contra 28% na população) e da presença delas no mercado de trabalho (de 31% para 38%). A combinação de texto e gráficos resume as duas tendências.

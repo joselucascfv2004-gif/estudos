@@ -548,6 +548,216 @@ Qual a razão entre a massa de água quente e a massa de água fria na mistura p
 
 **Assunto:** fisica/termologia
 
+### 55
+A pílula anticoncepcional é um dos métodos contraceptivos de maior segurança, sendo constituída basicamente de dois hormônios sintéticos semelhantes aos hormônios produzidos pelo organismo feminino, o estrogênio (E) e a progesterona (P). Em um experimento médico, foi analisado o sangue de uma mulher que ingeriu ininterruptamente um comprimido desse medicamento por dia durante seis meses. Qual gráfico representa a concentração sanguínea desses hormônios durante o período do experimento?
+
+- A) ![Alternativa A](enem-2013-d1-q055-1.webp)
+- B) ![Alternativa B](enem-2013-d1-q055-2.webp)
+- C) ![Alternativa C](enem-2013-d1-q055-3.webp)
+- D) ![Alternativa D](enem-2013-d1-q055-4.webp)
+- E) ![Alternativa E](enem-2013-d1-q055-5.webp)
+
+**Resposta:** A
+
+**Explicação:** A pílula é tomada todo dia e mantém os níveis de estrogênio e progesterona sintéticos sempre no mesmo patamar. Esses níveis constantes impedem as variações do ciclo e a ovulação. O gráfico mostra as duas concentrações constantes.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 55
+
+**Assunto:** biologia/fisiologia-humana
+
+### 56
+A imagem representa uma ilustração retirada do livro De Motu Cordis, de autoria do médico inglês Willian Harvey, que fez importantes contribuições para o entendimento do processo de circulação do sangue no corpo humano. No experimento ilustrado, Harvey, após aplicar um torniquete (A) no braço de um voluntário e esperar alguns vasos incharem, pressionava-os em um ponto (H). Mantendo o ponto pressionado, deslocava o conteúdo de sangue em direção ao cotovelo, percebendo que um trecho do vaso sanguíneo permanecia vazio após esse processo (H-O).
+
+![Figura](enem-2013-d1-q056-1.webp)
+
+> Disponível em: www.answers.com. Acesso em: 18 dez. 2012 (adaptado).
+
+A demonstração de Harvey permite estabelecer a relação entre circulação sanguínea e
+
+- A) pressão arterial.
+- B) válvulas venosas.
+- C) circulação linfática.
+- D) contração cardíaca.
+- E) transporte de gases.
+
+**Resposta:** B
+
+**Explicação:** Harvey pressionou a veia e empurrou o sangue em direção ao cotovelo: o trecho ficou vazio porque o sangue não voltava. Isso mostra que o sangue nas veias corre só em direção ao coração, graças às válvulas venosas.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 56
+
+**Assunto:** biologia/fisiologia-humana
+
+### 57
+Para realizar um experimento com uma garrafa PET cheia d´água, perfurou-se a lateral da garrafa em três posições a diferentes alturas. Com a garrafa tampada, a água não vazou por nenhum dos orifícios, e, com a garrafa destampada, observou-se o escoamento da água conforme ilustrado na figura.
+
+![Figura](enem-2013-d1-q057-1.webp)
+
+Como a pressão atmosférica interfere no escoamento da água, nas situações com a garrafa tampada e destampada, respectivamente?
+
+- A) Impede a saída de água, por ser maior que a pressão interna; não muda a velocidade de escoamento, que só depende da pressão da coluna de água.
+- B) Impede a saída de água, por ser maior que a pressão interna; altera a velocidade de escoamento, que é proporcional à pressão atmosférica na altura do furo.
+- C) Impede a entrada de ar, por ser menor que a pressão interna; altera a velocidade de escoamento, que é proporcional à pressão atmosférica na altura do furo.
+- D) Impede a saída de água, por ser maior que a pressão interna; regula a velocidade de escoamento, que só depende da pressão atmosférica.
+- E) Impede a entrada de ar, por ser menor que a pressão interna; não muda a velocidade de escoamento, que só depende da pressão da coluna de água.
+
+**Resposta:** A
+
+**Explicação:** Com a garrafa tampada, a pressão do ar fora é maior que a pressão dentro (o ar não entra), e a água não sai. Destampada, o ar atua por cima e a velocidade de saída depende só da altura da coluna de água acima de cada furo.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 57
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 66
+Para serrar ossos e carnes congeladas, um açougueiro utiliza uma serra de fita que possui três polias e um motor. O equipamento pode ser montado de duas formas diferentes, P e Q. Por questão de segurança, é necessário que a serra possua menor velocidade linear.
+
+![Figura](enem-2013-d1-q066-1.webp)
+
+Por qual montagem o açougueiro deve optar e qual a justificativa desta opção?
+
+- A) Q, pois as polias 1 e 3 giram com velocidades lineares iguais em pontos periféricos e a que tiver maior raio terá menor frequência.
+- B) Q, pois as polias 1 e 3 giram com frequências iguais e a que tiver maior raio terá menor velocidade linear em um ponto periférico.
+- C) P, pois as polias 2 e 3 giram com frequências diferentes e a que tiver maior raio terá menor velocidade linear em um ponto periférico.
+- D) P, pois as polias 1 e 2 giram com diferentes velocidades lineares em pontos periféricos e a que tiver menor raio terá maior frequência.
+- E) Q, pois as polias 2 e 3 giram com diferentes velocidades lineares em pontos periféricos e a que tiver maior raio terá menor frequência.
+
+**Resposta:** A
+
+**Explicação:** Polias ligadas pela correia têm a mesma velocidade linear na borda. Na montagem Q, a serra fica na polia 3, maior: com a mesma velocidade na borda, a polia de maior raio gira com menor frequência. Assim a serra se move mais devagar, o que é mais seguro.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 66
+
+**Assunto:** fisica/cinematica
+
+### 68
+O glifosato (C₃H₈NO₅P) é um herbicida pertencente ao grupo químico das glicinas, classificado como não seletivo. Esse composto possui os grupos funcionais carboxilato, amino e fosfonato. A degradação do glifosato no solo é muito rápida e realizada por grande variedade de microrganismos, que usam o produto como fonte de energia e fósforo. Os produtos da degradação são o ácido aminometilfosfônico (AMPA) e o N-metilglicina (sarcosina):
+
+![Figura](enem-2013-d1-q068-1.webp)
+
+![Figura](enem-2013-d1-q068-2.webp)
+
+> AMARANTE JR., O. P. et al. Química Nova, São Paulo, v. 25, n. 3, 2002 (adaptado).
+
+A partir do texto e dos produtos de degradação apresentados, a estrutura química que representa o glifosato é:
+
+- A) ![Alternativa A](enem-2013-d1-q068-3.webp)
+- B) ![Alternativa B](enem-2013-d1-q068-4.webp)
+- C) ![Alternativa C](enem-2013-d1-q068-5.webp)
+- D) ![Alternativa D](enem-2013-d1-q068-6.webp)
+- E) ![Alternativa E](enem-2013-d1-q068-7.webp)
+
+**Resposta:** B
+
+**Explicação:** A degradação do glifosato forma sarcosina (CH₃–NH–CH₂–COOH) e AMPA (H₂N–CH₂–PO₃H₂). Juntando as duas partes, o glifosato tem um grupo carboxílico ligado ao CH₂–NH–CH₂ e um grupo fosfonato: HOOC–CH₂–NH–CH₂–PO₃H₂.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 68
+
+**Assunto:** quimica/quimica-organica
+
+### 70
+Cinco casais alegavam ser os pais de um bebê. A confirmação da paternidade foi obtida pelo exame de DNA. O resultado do teste está esquematizado na figura, em que cada casal apresenta um padrão com duas bandas de DNA (faixas, uma para o suposto pai e outra para a suposta mãe), comparadas à do bebê.
+
+![Figura](enem-2013-d1-q070-1.webp)
+
+Que casal pode ser considerado como pais biológicos do bebê?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** C
+
+**Explicação:** Cada banda de DNA do bebê precisa ter vindo do pai ou da mãe. Comparando as faixas, só no casal 3 todas as bandas do bebê aparecem no suposto pai ou na suposta mãe.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 70
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 73
+Uma indústria está escolhendo uma linhagem de microalgas que otimize a secreção de polímeros comestíveis, os quais são obtidos do meio de cultura de crescimento. Na figura podem ser observadas as proporções de algumas organelas presentes no citoplasma de cada linhagem.
+
+![Figura](enem-2013-d1-q073-1.webp)
+
+Qual é a melhor linhagem para se conseguir maior rendimento de polímeros secretados no meio de cultura?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** A
+
+**Explicação:** Os polímeros secretados são processados e liberados pelo complexo golgiense, responsável pela secreção celular. A linhagem I tem a maior proporção de complexo golgiense (50%).
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 73
+
+**Assunto:** biologia/citologia
+
+### 82
+Em um piano, o Dó central e a próxima nota Dó (Dó maior) apresentam sons parecidos, mas não idênticos. É possível utilizar programas computacionais para expressar o formato dessas ondas sonoras em cada uma das situações como apresentado nas figuras, em que estão indicados intervalos de tempo idênticos (T).
+
+![Figura](enem-2013-d1-q082-1.webp)
+
+A razão entre as frequências do Dó central e do Dó maior é de:
+
+- A) 1/2
+- B) 2
+- C) 1
+- D) 1/4
+- E) 4
+
+**Resposta:** A
+
+**Explicação:** No mesmo intervalo T, a onda do Dó maior tem o dobro de ciclos que a do Dó central: sua frequência é o dobro (uma oitava acima). A razão entre a frequência do Dó central e a do Dó maior é 1/2.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 82
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 87
+Em um dia sem vento, ao saltar de um avião, um paraquedista cai verticalmente até atingir a velocidade limite. No instante em que o paraquedas é aberto (instante TA), ocorre a diminuição de sua velocidade de queda. Algum tempo após a abertura do paraquedas, ele passa a ter velocidade de queda constante, que possibilita sua aterrissagem em segurança. Que gráfico representa a força resultante sobre o paraquedista, durante o seu movimento de queda?
+
+- A) ![Alternativa A](enem-2013-d1-q087-1.webp)
+- B) ![Alternativa B](enem-2013-d1-q087-3.webp)
+- C) ![Alternativa C](enem-2013-d1-q087-5.webp)
+- D) ![Alternativa D](enem-2013-d1-q087-2.webp)
+- E) ![Alternativa E](enem-2013-d1-q087-4.webp)
+
+**Resposta:** B
+
+**Explicação:** No início, a força resultante para baixo diminui à medida que a resistência do ar cresce, até zerar na velocidade limite. Quando o paraquedas abre, a resistência do ar fica muito maior que o peso: a resultante passa a apontar para cima (negativa) e vai diminuindo até zerar de novo na nova velocidade constante.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 87
+
+**Assunto:** fisica/dinamica
+
+### 90
+As moléculas de nanoputians lembram figuras humanas e foram criadas para estimular o interesse de jovens na compreensão da linguagem expressa em fórmulas estruturais, muito usadas em química orgânica. Um exemplo é o NanoKid, representado na figura:
+
+![Figura](enem-2013-d1-q090-1.webp)
+
+> CHANTEAU, S. H.; TOUR, J. M. The Journal of Organic Chemistry, v. 68, n. 23, 2003 (adaptado).
+
+Em que parte do corpo do NanoKid existe carbono quaternário?
+
+- A) Mãos.
+- B) Cabeça.
+- C) Tórax.
+- D) Abdômen.
+- E) Pés.
+
+**Resposta:** A
+
+**Explicação:** Carbono quaternário é o que está ligado a quatro outros carbonos. Nas "mãos" do NanoKid há grupos terc-butila, C(CH₃)₃, cujo carbono central se liga a três metilas e ao carbono da tripla ligação.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 90
+
+**Assunto:** quimica/quimica-organica
+
 ## Difícil
 
 ### 64
@@ -658,3 +868,89 @@ A maior eficiência dessas fraldas descartáveis, em relação às de pano, deve
 **Fonte:** ENEM 2013, 1º dia, caderno azul, questão 86
 
 **Assunto:** quimica/quimica-organica
+
+### 46
+Músculos artificiais são dispositivos feitos com plásticos inteligentes que respondem a uma corrente elétrica com um movimento mecânico. A oxidação e redução de um polímero condutor criam cargas positivas e/ou negativas no material, que são compensadas com a inserção ou expulsão de cátions ou ânions. Por exemplo, na figura os filmes escuros são de polipirrol e o filme branco é de um eletrólito polimérico contendo um sal inorgânico. Quando o polipirrol sofre oxidação, há a inserção de ânions para compensar a carga positiva no polímero e o filme se expande. Na outra face do dispositivo o filme de polipirrol sofre redução, expulsando ânions, e o filme se contrai. Pela montagem, em sanduíche, o sistema todo se movimenta de forma harmônica, conforme mostrado na figura.
+
+![Figura](enem-2013-d1-q046-1.webp)
+
+> DE PAOLI, M. A. Cadernos Temáticos de Química Nova na Escola, São Paulo, maio 2001 (adaptado).
+
+A camada central de eletrólito polimérico é importante porque
+
+- A) absorve a irradiação de partículas carregadas, emitidas pelo aquecimento elétrico dos filmes de polipirrol.
+- B) permite a difusão dos íons promovida pela aplicação de diferença de potencial, fechando o circuito elétrico.
+- C) mantém um gradiente térmico no material para promover a dilatação/contração térmica de cada filme de polipirrol.
+- D) permite a condução de elétrons livres, promovida pela aplicação de diferença de potencial, gerando corrente elétrica.
+- E) promove a polarização das moléculas poliméricas, o que resulta no movimento gerado pela aplicação de diferença de potencial.
+
+**Resposta:** B
+
+**Explicação:** Os dois filmes de polipirrol funcionam como eletrodos e a camada do meio é um eletrólito (com íons). Ao aplicar a diferença de potencial, os íons (ânions) passam de um filme para o outro através do eletrólito, fechando o circuito elétrico. Isso faz um filme inchar e o outro encolher.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 46
+
+**Assunto:** quimica/fisico-quimica
+
+### 58
+O citral, substância de odor fortemente cítrico, é obtido a partir de algumas plantas como o capim-limão, cujo óleo essencial possui aproximadamente 80%, em massa, da substância. Uma de suas aplicações é na fabricação de produtos que atraem abelhas, especialmente do gênero Apis, pois seu cheiro é semelhante a um dos feromônios liberados por elas. Sua fórmula molecular é C₁₀H₁₆O, com uma cadeia alifática de oito carbonos, duas insaturações, nos carbonos 2 e 6; e dois grupos substituintes metila, nos carbonos 3 e 7. O citral possui dois isômeros geométricos, sendo o trans o que mais contribui para o forte odor. Para que se consiga atrair um maior número de abelhas para uma determinada região, a molécula que deve estar presente em alta concentração no produto a ser utilizado é:
+
+- A) ![Alternativa A](enem-2013-d1-q058-1.webp)
+- B) ![Alternativa B](enem-2013-d1-q058-2.webp)
+- C) ![Alternativa C](enem-2013-d1-q058-3.webp)
+- D) ![Alternativa D](enem-2013-d1-q058-4.webp)
+- E) ![Alternativa E](enem-2013-d1-q058-5.webp)
+
+**Resposta:** A
+
+**Explicação:** A forma que mais atrai as abelhas é o isômero trans. Na estrutura correta, a cadeia de oito carbonos tem duplas ligações nos carbonos 2 e 6, metilas nos carbonos 3 e 7, o grupo aldeído na ponta, e os grupos da dupla perto do aldeído ficam em lados opostos (trans), como na primeira estrutura.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 58
+
+**Assunto:** quimica/quimica-organica
+
+### 72
+Um eletricista analisa o diagrama de uma instalação elétrica residencial para planejar medições de tensão e corrente em uma cozinha. Nesse ambiente existem uma geladeira (G), uma tomada (T) e uma lâmpada (L), conforme a figura. O eletricista deseja medir a tensão elétrica aplicada à geladeira, a corrente total e a corrente na lâmpada. Para isso, ele dispõe de um voltímetro (V) e dois amperímetros (A).
+
+![Figura](enem-2013-d1-q072-1.webp)
+
+![Figura](enem-2013-d1-q072-2.webp)
+
+![Figura](enem-2013-d1-q072-3.webp)
+
+Para realizar essas medidas, o esquema da ligação desses instrumentos está representado em:
+
+- A) ![Alternativa A](enem-2013-d1-q072-4.webp)
+- B) ![Alternativa B](enem-2013-d1-q072-7.webp)
+- C) ![Alternativa C](enem-2013-d1-q072-8.webp)
+- D) ![Alternativa D](enem-2013-d1-q072-5.webp)
+- E) ![Alternativa E](enem-2013-d1-q072-6.webp)
+
+**Resposta:** E
+
+**Explicação:** O voltímetro deve ficar em paralelo com a geladeira (para medir sua tensão). O amperímetro da corrente total fica em série no fio principal, antes das derivações. O outro amperímetro fica em série só com a lâmpada. A última montagem faz exatamente isso.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 72
+
+**Assunto:** fisica/eletricidade
+
+### 83
+Medir temperatura é fundamental em muitas aplicações, e apresentar a leitura em mostradores digitais é bastante prático. O seu funcionamento é baseado na correspondência entre valores de temperatura e de diferença de potencial elétrico. Por exemplo, podemos usar o circuito elétrico apresentado, no qual o elemento sensor de temperatura ocupa um dos braços do circuito (Rs) e a dependência da resistência com a temperatura é conhecida.
+
+![Figura](enem-2013-d1-q083-1.webp)
+
+Para um valor de temperatura em que RS = 100 Ω, a leitura apresentada pelo voltímetro será de
+
+- A) + 6,2 V.
+- B) + 1,7 V.
+- C) + 0,3 V.
+- D) – 0,3 V.
+- E) – 6,2 V.
+
+**Resposta:** D
+
+**Explicação:** Do lado esquerdo, o ponto entre 470 Ω e Rs = 100 Ω fica em 10 × 100/570 ≈ 1,75 V. Do lado direito, entre 470 Ω e 120 Ω, em 10 × 120/590 ≈ 2,03 V. O voltímetro mede 1,75 − 2,03 ≈ −0,3 V.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 83
+
+**Assunto:** fisica/eletricidade

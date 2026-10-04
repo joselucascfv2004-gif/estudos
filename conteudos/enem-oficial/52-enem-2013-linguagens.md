@@ -291,6 +291,29 @@ As escolhas linguísticas feitas pelo autor conferem ao texto
 
 **Assunto:** portugues/funcoes-generos-e-variacao
 
+### 102
+![Figura](enem-2013-d2-q102-1.webp)
+
+> KUCZYNSKIEGO, P. Ilustração, 2008.
+
+> Disponível em: http://capu.pl. Acesso em: 3 ago. 2012.
+
+O artista gráfico polonês Pawla Kuczynskiego nasceu em 1976 e recebeu diversos prêmios por suas ilustrações. Nessa obra, ao abordar o trabalho infantil, Kuczynskiego usa sua arte para
+
+- A) difundir a origem de marcantes diferenças sociais.
+- B) estabelecer uma postura proativa da sociedade.
+- C) provocar a reflexão sobre essa realidade.
+- D) propor alternativas para solucionar esse problema.
+- E) retratar como a questão é enfrentada em vários países do mundo.
+
+**Resposta:** C
+
+**Explicação:** A ilustração mostra um menino puxando um vagão de trem com uma corda, enquanto outro brinca com um trenzinho. A imagem não explica nem propõe soluções: ela provoca a reflexão sobre o trabalho infantil pelo contraste entre as duas crianças.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 102
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 110
@@ -571,6 +594,299 @@ Para cumprir sua função social, o Estatuto da criança e do adolescente aprese
 **Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 134
 
 **Assunto:** portugues/funcoes-generos-e-variacao
+
+### 96
+![Figura](enem-2013-d2-q096-1.webp)
+
+> GRUPO ESCOLAR DE PALMEIRAS. Redações de Maria Anna de Biase e J. B. Pereira sobre a Bandeira Nacional. Palmeiras (SP), 18 nov. 1911.
+
+Acervo APESP. Coleção DAESP. C10279.
+
+> Disponível em: www.arquivoestado.sp.gov.br. Acesso em: 15 maio 2013.
+
+O documento foi retirado de uma exposição on-line de manuscritos do estado de São Paulo do início do século XX. Quanto à relevância social para o leitor da atualidade, o texto
+
+- A) funciona como veículo de transmissão de valores patrióticos próprios do período em que foi escrito.
+- B) cumpre uma função instrucional de ensinar regras de comportamento em eventos cívicos.
+- C) deixa subentendida a ideia de que o brasileiro preserva as riquezas naturais do país.
+- D) argumenta em favor da construção de uma nação com igualdade de dire tos. i
+- E) apresenta uma metodologia de ensino restrita a uma determinada época.
+
+**Resposta:** A
+
+**Explicação:** A redação escolar de 1911 descreve a bandeira com orgulho ("a mais bonita de todas") e explica o sentido de cada cor e símbolo. Lida hoje, ela mostra como a escola transmitia os valores patrióticos daquela época.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 97
+TEXTO I
+
+Andaram na praia, quando saímos, oito ou dez deles; e daí a pouco começaram a vir mais. E parece-me que viriam, este dia, à praia, quatrocentos ou quatrocentos e cinquenta. Alguns deles traziam arcos e flechas, que todos trocaram por carapuças ou por qualquer coisa que lhes davam. [...] Andavam todos tão bem-dispostos, tão bem feitos e galantes com suas tinturas que muito agradavam.
+
+> CASTRO, S. A carta de Pero Vaz de Caminha. Porto Alegre: L&PM, 1996 (fragmento).
+
+TEXTO II
+
+![Figura](enem-2013-d2-q097-1.webp)
+
+> PORTINARI, C. O descobrimento do Brasil. 1956. Óleo sobre tela, 199 x 169 cm Disponível em: www.portinari.org.br. Acesso em: 12 jun. 2013.
+
+Pertencentes ao patrimônio cultural brasileiro, a carta de Pero Vaz de Caminha e a obra de Portinari retratam a chegada dos portugueses ao Brasil. Da leitura dos textos, constata-se que
+
+- A) a carta de Pero Vaz de Caminha representa uma das primeiras manifestações artísticas dos portugueses em terras brasileiras e preocupa-se apenas com a estética literária.
+- B) a tela de Portinari retrata indígenas nus com corpos pintados, cuja grande significação é a afirmação da arte acadêmica brasileira e a contestação de uma linguagem moderna.
+- C) a carta, como testemunho histórico-político, mostra o olhar do colonizador sobre a gente da terra, e a pintura destaca, em primeiro plano, a inquietação dos nativos.
+- D) as duas produções, embora usem linguagens diferentes — verbal e não verbal —, cumprem a mesma função social e artística.
+- E) a pintura e a carta de Caminha são manifestações de grupos étnicos diferentes, produzidas em um mesmo momento histórico, retratando a colonização.
+
+**Resposta:** C
+
+**Explicação:** A carta de Caminha é um documento de quem chegou: descreve os indígenas com o olhar do colonizador, como pessoas "bem-dispostas" e fáceis de lidar. Na tela de Portinari, os nativos aparecem em primeiro plano, inquietos, observando a chegada dos navios.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** literatura/quinhentismo-ao-simbolismo
+
+### 104
+Novas tecnologias
+
+Atualmente, prevalece na mídia um discurso de exaltação das novas tecnologias, principalmente aquelas ligadas às atividades de telecomunicações. Expressões frequentes como “o futuro já chegou”, “maravilhas tecnológicas” e “conexão total com o mundo” “fetichizam” novos produtos, transformando-os em objetos do desejo, de consumo obrigatório. Por esse motivo carregamos hoje nos bolsos, bolsas e mochilas o “futuro” tão festejado.
+
+Todavia, não podemos reduzir-nos a meras vítimas de um aparelho midiático perverso, ou de um aparelho capitalista controlador. Há perversão, certamente, e controle, sem sombra de dúvida. Entretanto, desenvolvemos uma relação simbiótica de dependência mútua com os veículos de comunicação, que se estreita a cada imagem compartilhada e a cada dossiê pessoal transformado em objeto público de entretenimento.
+
+Não mais como aqueles acorrentados na caverna de Platão, somos livres para nos aprisionar, por espontânea vontade, a esta relação sadomasoquista com as estruturas midiáticas, na qual tanto controlamos quanto somos controlados.
+
+> SAMPAIO, A. S. A microfísica do espetáculo. Disponível em: http://observatoriodaimprensa.com.br. Acesso em: 1 mar. 2013 (adaptado).
+
+Ao escrever um artigo de opinião, o produtor precisa criar uma base de orientação linguística que permita alcançar os leitores e convencê-los com relação ao ponto de vista defendido. Diante disso, nesse texto, a escolha das formas verbais em destaque objetiva
+
+- A) criar relação de subordinação entre leitor e autor, já que ambos usam as novas tecnologias.
+- B) enfatizar a probabilidade de que toda população brasileira esteja aprisionada às novas tecnologias.
+- C) indicar, de forma clara, o ponto de vista de que hoje as pessoas são controladas pelas novas tecnologias.
+- D) tornar o leitor copartícipe do ponto de vista de que ele manipula as novas tecnologias e por elas é manipulado.
+- E) demonstrar ao leitor sua parcela de responsabilidade por deixar que as novas tecnologias controlem as pessoas.
+
+**Resposta:** D
+
+**Explicação:** O autor usa verbos na 1ª pessoa do plural ("somos livres", "controlamos", "somos controlados"), incluindo a si mesmo e o leitor no mesmo grupo. Assim, o leitor é envolvido como participante da ideia defendida: ele manipula as tecnologias e também é manipulado por elas.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 104
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 107
+![Figura](enem-2013-d2-q107-1.webp)
+
+> CAULOS. Disponível em: www.caulos.com. Acesso em: 24 set. 2011.
+
+O cartum faz uma crítica social. A figura destacada está em oposição às outras e representa a
+
+- A) opressão das minorias sociais.
+- B) carência de recursos tecnológicos.
+- C) falta de liberdade de expressão.
+- D) defesa da qualificação profissional.
+- E) reação ao controle do pensamento coletivo.
+
+**Resposta:** E
+
+**Explicação:** Todas as figuras repetem "bé, bé" como ovelhas iguais, menos uma, diferente, que vira a cabeça e fala outra coisa. A figura destacada representa quem reage ao pensamento coletivo imposto, sem seguir o rebanho.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 107
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 116
+![Figura](enem-2013-d2-q116-1.webp)
+
+> Disponível em: http://orion-oblog.blogspot.com.br. Acesso em: 6 jun. 2012 (adaptado).
+
+O cartaz aborda a questão do aquecimento global. A relação entre os recursos verbais e não verbais nessa propaganda revela que
+
+- A) o discurso ambientalista propõe formas radicais de resolver os problemas climáticos.
+- B) a preservação da vida na Terra depende de ações de dessalinização da água marinha.
+- C) a acomodação da topografia terrestre desencadeia o natural degelo das calotas polares.
+- D) o descongelamento das calotas polares diminui a quantidade de água doce potável do mundo.
+- E) a agressão ao planeta é dependente da posição assumida pelo homem frente aos problemas ambientais.
+
+**Resposta:** E
+
+**Explicação:** O cartaz mostra a Terra como uma gota que derrete e brinca com o verbo "derreter" conjugado em pessoas diferentes ("eu derreto, tu derretes, você derrete"). A pergunta final mostra que o futuro do planeta depende da atitude de cada pessoa diante dos problemas ambientais.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 116
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 119
+![Figura](enem-2013-d2-q119-1.webp)
+
+> Disponível em: http://clubedamafalda.blogspot.com.br. Acesso em: 21 set. 2011.
+
+Nessa charge, o recurso morfossintático que colabora para o efeito de humor está indicado pelo(a)
+
+- A) emprego de uma oração adversativa, que orienta a quebra da expectativa ao final.
+- B) uso de conjunção aditiva, que cria uma relação de causa e efeito entre as ações.
+- C) retomada do substantivo "mãe", que desfaz a ambiguidade dos sentidos a ele atribuídos.
+- D) utilização da forma pronominal "la", que reflete um tratamento formal do filho em relação à "mãe".
+- E) repetição da forma verbal "é", que reforça a relação de adição existente entre as orações.
+
+**Resposta:** A
+
+**Explicação:** Mafalda começa dizendo que a preguiça é "a mãe de todos os vícios", mas, com o "mas", conclui que "mãe é mãe" e precisa ser respeitada, e por isso fica deitada. A oração adversativa quebra a expectativa e cria o humor.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 119
+
+**Assunto:** portugues/morfologia-e-sintaxe
+
+### 120
+![Figura](enem-2013-d2-q120-1.webp)
+
+> Disponível em: www.filosofia.com.br. Acesso em: 30 abr. 2010.
+
+Pelas características da linguagem visual e pelas escolhas vocabulares, pode-se entender que o texto possibilita a reflexão sobre uma problemática contemporânea ao
+
+- A) criticar o transporte rodoviário brasileiro, em razão da grande quantidade de caminhões nas estradas.
+- B) ironizar a dificuldade de locomoção no trânsito urbano, devida ao grande fluxo de veículos.
+- C) expor a questão do movimento como um problema existente desde tempos antigos, conforme frase citada.
+- D) restringir os problemas de tráfego a veículos particulares, defendendo, como solução, o transporte público.
+- E) propor a ampliação de vias nas estradas, detalhando o espaço exíguo ocupado pelos veículos nas ruas.
+
+**Resposta:** B
+
+**Explicação:** A frase "Não há movimento" lembra o filósofo Parmênides, que negava o movimento, e a imagem mostra um engarrafamento enorme de carros e caminhões parados. A charge ironiza a dificuldade de se locomover no trânsito das cidades.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 120
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 125
+![Figura](enem-2013-d2-q125-1.webp)
+
+> CURY, C. Disponível em: http://tirasnacionais.blogspot.com. Acesso em: 13 nov. 2011.
+
+A tirinha denota a postura assumida por seu produtor frente ao uso social da tecnologia para fins de interação e de informação. Tal posicionamento é expresso, de forma argumentativa, por meio de uma atitude
+
+- A) crítica, expressa pelas ironias.
+- B) resignada, expressa pelas enumerações.
+- C) indignada, expressa pelos discursos diretos.
+- D) agressiva, expressa pela contra-argumentação.
+- E) alienada, expressa pela negação da realidade.
+
+**Resposta:** A
+
+**Explicação:** Os quadrinhos mostram contradições: alguém se diz "sou alto, loiro e sincero" sem preconceitos, outro diz "pra que ler, tem tudo na Wikipédia" e outro se declara corajoso só pela mensagem de celular. A tirinha critica o uso da tecnologia por meio da ironia.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 125
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 127
+![Figura](enem-2013-d2-q127-1.webp)
+
+> NAZARETH, P. Mercado de Artes / Mercado de Bananas. Miami Art Basel, EUA, 2011.
+
+> Disponível em: www.40forever.com.br. Acesso em: 31 jul. 2012.
+
+A contemporaneidade identificada na performance / instalação do artista mineiro Paulo Nazareth reside principalmente na forma como ele
+
+- A) resgata conhecidas referências do modernismo mineiro.
+- B) utiliza técnicas e suportes tradicionais na construção das formas.
+- C) articula questões de identidade, território e códigos de linguagens.
+- D) imita o papel das celebridades no mundo contemporâneo.
+- E) camufla o aspecto plástico e a composição visual de sua montagem.
+
+**Resposta:** C
+
+**Explicação:** Paulo Nazareth expôs uma Kombi com bananas numa feira de arte dos EUA, segurando uma placa com a frase "não me esqueçam quando eu for um nome importante". A obra mistura identidade (latino-americana), território e códigos de linguagem do mercado de arte.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 127
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 128
+![Figura](enem-2013-d2-q128-1.webp)
+
+> XAVIER, C. Disponível em: www.releituras.com. Acesso em: 24 abr. 2010. estabelecer comunicação determinam, em uma situação de interlocução, o predomínio de uma ou de outra função de linguagem. Nesse texto, predomina a função que se caracteriza por
+
+- A) tentar persuadir o leitor acerca da necessidade de se tomarem certas medidas para a elaboração de um livro.
+- B) enfatizar a percepção subjetiva do autor, que projeta para sua obra seus sonhos e histórias.
+- C) apontar para o estabelecimento de interlocução de modo superficial e automático, entre o leitor e o livro.
+- D) fazer um exercício de reflexão a respeito dos princípios que estruturam a forma e o conteúdo de um livro.
+- E) retratar as etapas do processo de produção de um livro, as quais antecedem o contato entre leitor e obra.
+
+**Resposta:** D
+
+**Explicação:** Os quadrinhos tentam definir o que é um livro: papel costurado, palavras dispostas em frases, histórias e sonhos escritos. Quando a linguagem fala de si mesma (aqui, o livro reflete sobre o próprio livro), predomina a função metalinguística.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 128
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 129
+![Figura](enem-2013-d2-q129-1.webp)
+
+> MUSEU DA LÍNGUA PORTUGUESA. Oswald de Andrade: o culpado de tudo. 27 set. 2011 a 29 jan. 2012. São Paulo: Prol Gráfica, 2012.
+
+O poema de Oswald de Andrade remonta à ideia de que a brasilidade está relacionada ao futebol. Quanto à questão da identidade nacional, as anotações em torno dos versos constituem
+
+- A) direcionamentos possíveis para uma leitura crítica de dados histórico-culturais.
+- B) forma clássica da construção poética brasileira.
+- C) rejeição à ideia do Brasil como o país do futebol.
+- D) intervenções de um leitor estrangeiro no exercício de leitura poética.
+- E) lembretes de palavras tipicamente brasileiras substitutivas das originais.
+
+**Resposta:** A
+
+**Explicação:** As anotações à mão ao redor do poema explicam o contexto: "País do futebol", "números como versos" (placares), "Cette = ? Não! Clube francês". São indicações que ajudam a ler o poema relacionando-o a fatos históricos e culturais.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 129
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 130
+O que a internet esconde de você
+
+Sites de busca manipulam resultados. Redes sociais decidem quem vai ser seu amigo — e descartam as pessoas sem avisar. E, para cada site que você pode acessar, há 400 outros invisíveis. Prepare-se para
+
+![Figura](enem-2013-d2-q130-1.webp)
+
+> GRAVATÁ, A. Superinteressante, São Paulo, ed. 297, nov. 2011 (adaptado).
+
+Analisando-se as informações verbais e a imagem associada a uma cabeça humana, compreende-se que a venda
+
+- A) representa a amplitude de informações que compõem a internet, às quais temos acesso em redes sociais e sites de busca.
+- B) faz uma denúncia quanto às informações que são omitidas dos usuários da rede, sendo empregada no sentido conotativo.
+- C) diz respeito a um buraco negro digital, onde estão escondidas as informações buscadas pelo usuário nos sites que acessa.
+- D) está associada a um conjunto de restrições sociais presentes na vida daqueles que estão sempre conectados à internet.
+- E) remete às bases de dados da web, protegidas por senhas ou assinaturas e às quais o navegador não tem acesso.
+
+**Resposta:** B
+
+**Explicação:** A imagem mostra uma cabeça cheia de peças e engrenagens com os olhos vendados. A venda é usada em sentido figurado: denuncia que os usuários não veem as informações escondidas pelos sites de busca e pelas redes sociais.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 130
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 132
+![Figura](enem-2013-d2-q132-1.webp)
+
+Os gráficos expõem dados estatísticos por meio de linguagem verbal e não verbal. No texto, o uso desse recurso
+
+- A) exemplifica o aumento da expectativa de vida da população.
+- B) explica o crescimento da confiança na instituição do casamento.
+- C) mostra que a população brasileira aumentou nos últimos cinco anos.
+- D) indica que as taxas de casamento e emprego cresceram na mesma proporção.
+- E) sintetiza o crescente número de casamentos e de ocupação no mercado de trabalho.
+
+**Resposta:** E
+
+**Explicação:** Os gráficos mostram o aumento dos casamentos entre pessoas acima de 60 anos (44%, contra 28% na população) e da presença delas no mercado de trabalho (de 31% para 38%). A combinação de texto e gráficos resume as duas tendências.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 132
+
+**Assunto:** portugues/interpretacao-de-texto
 
 ## Difícil
 

@@ -87,6 +87,25 @@ x: A energia eólica vem do vento, uma fonte renovável. Novos parques eólicos 
 x: Nabuco rejeita revoltas de escravizados e guerra civil: a abolição deve ser conquistada no Parlamento. É a defesa da via legal, por meio de leis.
 @45 f sociologia/temas-contemporaneos
 x: O autor mostra que os gays passaram a ter direitos que antes lhes eram negados, como trabalhar no governo e ocupar cargos políticos. Isso dependeu da ampliação da noção de cidadania.
+@1 m geografia/populacao-e-urbanizacao fig
+e: Mapa 1: Distribuição espacial atual da população brasileira. Mapa 2: Conflitos em terras indígenas. || [fig1] || > THÉRY, H. As boas-novas sobre a população brasileira. Conhecimento Prático Geográfico, n. 41, jan. 2012 (adaptado). SIMIELLI, M. E. Geoatlas. São Paulo: Ática, 2009 (adaptado). || Os mapas representam distintos padrões de distribuição de processos socioespaciais. Nesse sentido, a menor incidência de disputas territoriais envolvendo povos indígenas se explica pela
+x: Os conflitos em terras indígenas se concentram no Norte e no Centro-Oeste, onde avança a fronteira agrícola. No litoral e no Sudeste há poucos conflitos porque essas áreas foram urbanizadas e ocupadas há muito tempo: as terras indígenas ali já foram tomadas no passado.
+@13 m historia/brasil-republica fig
+x: A charge de 1934 mostra uma mulher ameaçando o marido com o "partido Mulherista". Ela critica a participação das mulheres na política: o voto feminino tinha sido conquistado em 1932 e as mulheres passavam a ter participação eleitoral.
+@17 m geografia/economia-agropecuaria-industria-energia fig
+x: No modelo 1 (fordista), a fábrica produz em massa e guarda os produtos em estoque, o que pode gerar superprodução. No modelo 2 (toyotista, just in time), produz-se conforme o pedido do cliente, sem estoques. A diferença está na necessidade de armazenar a produção.
+@20 m historia/ditadura-e-redemocratizacao fig
+x: O jornal publicou no Dia de Finados a lista dos partidos extintos pelo AI-2 (1965). A ditadura acabou com os partidos e criou só dois: Arena (governo) e MDB (oposição consentida). Foi a adoção de um bipartidarismo controlado pelo regime.
+@25 f sociologia/temas-contemporaneos fig
+x: O personagem pergunta se o outro está no Orkut, MSN, Twitter, Facebook, e ouve que ele está em todos; no fim, comenta que raramente o vê "no mundo real". A charge critica o fato de as redes virtuais substituírem o convívio pessoal.
+@28 f geografia/biomas-e-questoes-ambientais fig
+x: A foto mostra cultivo em terraços (degraus) na encosta do morro. Os degraus diminuem a velocidade da água da chuva que escorre pelo solo, controlando a erosão laminar.
+@33 m historia/brasil-imperio fig
+x: O quadro mostra D. Pedro I a cavalo, cercado pelo povo que o aclama: ele aparece como líder popular. A foto de D. Pedro II, sentado, de barba branca, serena, transmite a ideia de um governo estável e duradouro.
+@39 m historia/brasil-republica fig
+x: JK diz ao Jeca que agora ele tem carro, estrada e gasolina brasileiros, e o Jeca responde pedindo "um prato de feijão brasileiro". A charge mostra que o crescimento econômico do governo JK não chegou aos mais pobres e ampliou as desigualdades.
+@42 m geografia/biomas-e-questoes-ambientais fig
+x: Depois da Revolução Industrial, a queima de carvão e petróleo passou a lançar mais dióxido de enxofre e óxidos de nitrogênio no ar. Eles formam ácidos na água da chuva (chuva ácida), que danifica as folhas e reduz a vegetação.
 
 ## 50-enem-2013-ciencias-da-natureza.md | 2013 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
@@ -169,3 +188,32 @@ x: O poliacrilato tem cargas (COO⁻ e Na⁺), que atraem fortemente os polos da
 x: O DNA mitocondrial é herdado só da mãe. O rapaz recebeu o DNA mitocondrial da mãe, que o recebeu da avó materna. Pai, avô materno e filhos não servem: os filhos herdam o DNA mitocondrial da mãe deles.
 @89 m fisica/termologia
 x: O calor cedido pela água quente é igual ao recebido pela fria: m(quente) × (70 − 30) = m(fria) × (30 − 25). Então m(quente)/m(fria) = 5/40 = 0,125.
+@46 d quimica/fisico-quimica fig
+x: Os dois filmes de polipirrol funcionam como eletrodos e a camada do meio é um eletrólito (com íons). Ao aplicar a diferença de potencial, os íons (ânions) passam de um filme para o outro através do eletrólito, fechando o circuito elétrico. Isso faz um filme inchar e o outro encolher.
+@55 m biologia/fisiologia-humana fig
+x: A pílula é tomada todo dia e mantém os níveis de estrogênio e progesterona sintéticos sempre no mesmo patamar. Esses níveis constantes impedem as variações do ciclo e a ovulação. O gráfico mostra as duas concentrações constantes.
+@56 m biologia/fisiologia-humana fig
+x: Harvey pressionou a veia e empurrou o sangue em direção ao cotovelo: o trecho ficou vazio porque o sangue não voltava. Isso mostra que o sangue nas veias corre só em direção ao coração, graças às válvulas venosas.
+@57 m fisica/estatica-e-hidrostatica fig
+x: Com a garrafa tampada, a pressão do ar fora é maior que a pressão dentro (o ar não entra), e a água não sai. Destampada, o ar atua por cima e a velocidade de saída depende só da altura da coluna de água acima de cada furo.
+@58 d quimica/quimica-organica fig
+x: A forma que mais atrai as abelhas é o isômero trans. Na estrutura correta, a cadeia de oito carbonos tem duplas ligações nos carbonos 2 e 6, metilas nos carbonos 3 e 7, o grupo aldeído na ponta, e os grupos da dupla perto do aldeído ficam em lados opostos (trans), como na primeira estrutura.
+@66 m fisica/cinematica fig
+x: Polias ligadas pela correia têm a mesma velocidade linear na borda. Na montagem Q, a serra fica na polia 3, maior: com a mesma velocidade na borda, a polia de maior raio gira com menor frequência. Assim a serra se move mais devagar, o que é mais seguro.
+@68 m quimica/quimica-organica fig
+x: A degradação do glifosato forma sarcosina (CH₃–NH–CH₂–COOH) e AMPA (H₂N–CH₂–PO₃H₂). Juntando as duas partes, o glifosato tem um grupo carboxílico ligado ao CH₂–NH–CH₂ e um grupo fosfonato: HOOC–CH₂–NH–CH₂–PO₃H₂.
+@70 m biologia/genetica-e-biotecnologia fig
+x: Cada banda de DNA do bebê precisa ter vindo do pai ou da mãe. Comparando as faixas, só no casal 3 todas as bandas do bebê aparecem no suposto pai ou na suposta mãe.
+@72 d fisica/eletricidade fig
+x: O voltímetro deve ficar em paralelo com a geladeira (para medir sua tensão). O amperímetro da corrente total fica em série no fio principal, antes das derivações. O outro amperímetro fica em série só com a lâmpada. A última montagem faz exatamente isso.
+@73 m biologia/citologia fig
+x: Os polímeros secretados são processados e liberados pelo complexo golgiense, responsável pela secreção celular. A linhagem I tem a maior proporção de complexo golgiense (50%).
+@82 m fisica/ondulatoria-e-optica fig
+a: 1/2 | 2 | 1 | 1/4 | 4
+x: No mesmo intervalo T, a onda do Dó maior tem o dobro de ciclos que a do Dó central: sua frequência é o dobro (uma oitava acima). A razão entre a frequência do Dó central e a do Dó maior é 1/2.
+@83 d fisica/eletricidade fig
+x: Do lado esquerdo, o ponto entre 470 Ω e Rs = 100 Ω fica em 10 × 100/570 ≈ 1,75 V. Do lado direito, entre 470 Ω e 120 Ω, em 10 × 120/590 ≈ 2,03 V. O voltímetro mede 1,75 − 2,03 ≈ −0,3 V.
+@87 m fisica/dinamica fig
+x: No início, a força resultante para baixo diminui à medida que a resistência do ar cresce, até zerar na velocidade limite. Quando o paraquedas abre, a resistência do ar fica muito maior que o peso: a resultante passa a apontar para cima (negativa) e vai diminuindo até zerar de novo na nova velocidade constante.
+@90 m quimica/quimica-organica fig
+x: Carbono quaternário é o que está ligado a quatro outros carbonos. Nas "mãos" do NanoKid há grupos terc-butila, C(CH₃)₃, cujo carbono central se liga a três metilas e ao carbono da tripla ligação.

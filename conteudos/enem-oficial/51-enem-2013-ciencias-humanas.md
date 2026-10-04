@@ -319,6 +319,48 @@ A dimensão política da transformação sugerida no texto teve como condição 
 
 **Assunto:** sociologia/temas-contemporaneos
 
+### 25
+![Figura](enem-2013-d1-q025-1.webp)
+
+> Disponível em: http://tv-video-edc.blogspot.com. Acesso em: 30 maio 2010.
+
+A charge revela uma crítica aos meios de comunicação, em especial à internet, porque
+
+- A) questiona a integração das pessoas nas redes virtuais de relacionamento.
+- B) considera as relações sociais como menos importantes que as virtuais.
+- C) enaltece a pretensão do homem de estar em todos os lugares ao mesmo tempo.
+- D) descreve com precisão as sociedades humanas no mundo globalizado.
+- E) concebe a rede de computadores como o espaço mais eficaz para a construção de relações sociais.
+
+**Resposta:** A
+
+**Explicação:** O personagem pergunta se o outro está no Orkut, MSN, Twitter, Facebook, e ouve que ele está em todos; no fim, comenta que raramente o vê "no mundo real". A charge critica o fato de as redes virtuais substituírem o convívio pessoal.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 25
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 28
+![Figura](enem-2013-d1-q028-1.webp)
+
+> Disponível em: http://BP.blogspot.com. Acesso em: 24 ago. 2011.
+
+Na imagem, visualiza-se um método de cultivo e as transformações provocadas no espaço geográfico. O objetivo imediato da técnica agrícola utilizada é
+
+- A) controlar a erosão laminar.
+- B) preservar as nascentes fluviais.
+- C) diminuir a contaminação química.
+- D) incentivar a produção transgênica.
+- E) implantar a mecanização intensiva.
+
+**Resposta:** A
+
+**Explicação:** A foto mostra cultivo em terraços (degraus) na encosta do morro. Os degraus diminuem a velocidade da água da chuva que escorre pelo solo, controlando a erosão laminar.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 28
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
 ## Médio
 
 ### 5
@@ -628,6 +670,161 @@ No texto, Joaquim Nabuco defende um projeto político sobre como deveria ocorrer
 **Fonte:** ENEM 2013, 1º dia, caderno azul, questão 44
 
 **Assunto:** historia/brasil-imperio
+
+### 1
+Mapa 1: Distribuição espacial atual da população brasileira. Mapa 2: Conflitos em terras indígenas.
+
+![Figura](enem-2013-d1-q001-1.webp)
+
+> THÉRY, H. As boas-novas sobre a população brasileira. Conhecimento Prático Geográfico, n. 41, jan. 2012 (adaptado). SIMIELLI, M. E. Geoatlas. São Paulo: Ática, 2009 (adaptado).
+
+Os mapas representam distintos padrões de distribuição de processos socioespaciais. Nesse sentido, a menor incidência de disputas territoriais envolvendo povos indígenas se explica pela
+
+- A) fertilização natural dos solos.
+- B) expansão da fronteira agrícola.
+- C) intensificação da migração de retorno.
+- D) homologação de reservas extrativistas.
+- E) concentração histórica da urbanização.
+
+**Resposta:** E
+
+**Explicação:** Os conflitos em terras indígenas se concentram no Norte e no Centro-Oeste, onde avança a fronteira agrícola. No litoral e no Sudeste há poucos conflitos porque essas áreas foram urbanizadas e ocupadas há muito tempo: as terras indígenas ali já foram tomadas no passado.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 1
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 13
+![Figura](enem-2013-d1-q013-1.webp)
+
+> PEDERNEIRAS, R. Revista da Semana, ano 35, n. 40, 15 set. 1934. In: LEMOS, R. (Org.). Na imagem, da década de 1930, há uma crítica à conquista de um direito pelas mulheres, relacionado com a
+
+- A) redivisão do trabalho doméstico.
+- B) liberdade de orientação sexual.
+- C) garantia da equiparação salarial.
+- D) aprovação do direito ao divórcio.
+- E) obtenção da participação eleitoral.
+
+**Resposta:** E
+
+**Explicação:** A charge de 1934 mostra uma mulher ameaçando o marido com o "partido Mulherista". Ela critica a participação das mulheres na política: o voto feminino tinha sido conquistado em 1932 e as mulheres passavam a ter participação eleitoral.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 13
+
+**Assunto:** historia/brasil-republica
+
+### 17
+![Figura](enem-2013-d1-q017-1.webp)
+
+> Disponível em: http://ensino.univates.br. Acesso em: 11 maio 2013 (adaptado).
+
+Na imagem, estão representados dois modelos de produção. A possibilidade de uma crise de superprodução é distinta entre eles em função do seguinte fator:
+
+- A) Origem da matéria-prima.
+- B) Qualificação da mão de obra.
+- C) Velocidade de processamento.
+- D) Necessidade de armazenamento.
+- E) Amplitude do mercado consumidor.
+
+**Resposta:** D
+
+**Explicação:** No modelo 1 (fordista), a fábrica produz em massa e guarda os produtos em estoque, o que pode gerar superprodução. No modelo 2 (toyotista, just in time), produz-se conforme o pedido do cliente, sem estoques. A diferença está na necessidade de armazenar a produção.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 17
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 20
+PSD - PTB - UDN PSP - PDC - MTR PTN - PST - PSB PRP - PR - PL - PRT
+
+Finados
+
+> FORTUNA. Correio da Manhã, ano 65, n. 22 264, 2 nov. 1965.
+
+A imagem foi publicada no jornal Correio da Manhã, no dia de Finados de 1965. Sua relação com os direitos políticos existentes no período revela a
+
+- A) extinção dos partidos nanicos.
+- B) retomada dos partidos estaduais.
+- C) adoção do bipartidarismo regulado.
+- D) superação do fisiologismo tradicional.
+- E) valorização da representação parlamentar.
+
+**Resposta:** C
+
+**Explicação:** O jornal publicou no Dia de Finados a lista dos partidos extintos pelo AI-2 (1965). A ditadura acabou com os partidos e criou só dois: Arena (governo) e MDB (oposição consentida). Foi a adoção de um bipartidarismo controlado pelo regime.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 20
+
+**Assunto:** historia/ditadura-e-redemocratizacao
+
+### 33
+![Figura](enem-2013-d1-q033-1.webp)
+
+> MOREAUX, F. R. Proclamação da Independência. Disponível em: www.tvbrasil.org.br. Acesso em: 14 jun. 2010.
+
+![Figura](enem-2013-d1-q033-2.webp)
+
+> FERREZ, M. D. Pedro II. SCHWARCZ, L. M. As barbas do imperador: D. Pedro II, um monarca nos trópicos. São Paulo: Cia. das Letras, 1998.
+
+As imagens, que retratam D. Pedro I e D. Pedro II, procuram transmitir determinadas representações políticas acerca dos dois monarcas e seus contextos de atuação. A ideia que cada imagem evoca é, respectivamente:
+
+- A) Habilidade militar — riqueza pessoal.
+- B) Liderança popular — estabilidade política.
+- C) Instabilidade econômica — herança europeia.
+- D) Isolamento político — centralização do poder.
+- E) Nacionalismo exacerbado — inovação administrativa.
+
+**Resposta:** B
+
+**Explicação:** O quadro mostra D. Pedro I a cavalo, cercado pelo povo que o aclama: ele aparece como líder popular. A foto de D. Pedro II, sentado, de barba branca, serena, transmite a ideia de um governo estável e duradouro.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 33
+
+**Assunto:** historia/brasil-imperio
+
+### 39
+![Figura](enem-2013-d1-q039-1.webp)
+
+JK — Você agora tem automóvel brasileiro, para correr em estradas pavimentadas com asfalto brasileiro, com gazolina brasileira. Que mais quer? JECA — Um prato de feijão brasileiro, seu doutô!
+
+> THÉO. In: LEMOS, R. (Org.). Uma história do Brasil através da caricatura (1840-2001). Rio de Janeiro: Bom Texto; Letras & Expressões, 2001.
+
+A charge ironiza a política desenvolvimentista do governo Juscelino Kubitschek, ao
+
+- A) evidenciar que o incremento da malha viária diminuiu as desigualdades regionais do país.
+- B) destacar que a modernização das indústrias dinamizou a produção de alimentos para o mercado interno.
+- C) enfatizar que o crescimento econômico implicou aumento das contradições socioespaciais.
+- D) ressaltar que o investimento no setor de bens duráveis incrementou os salários de trabalhadores.
+- E) mostrar que a ocupação de regiões interioranas abriu frentes de trabalho para a população local.
+
+**Resposta:** C
+
+**Explicação:** JK diz ao Jeca que agora ele tem carro, estrada e gasolina brasileiros, e o Jeca responde pedindo "um prato de feijão brasileiro". A charge mostra que o crescimento econômico do governo JK não chegou aos mais pobres e ampliou as desigualdades.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 39
+
+**Assunto:** historia/brasil-republica
+
+### 42
+![Figura](enem-2013-d1-q042-1.webp)
+
+> Disponível em: http://blig.ig.com.br. Acesso em: 23 ago. 2011 (adaptado).
+
+No esquema, o problema atmosférico relacionado ao ciclo da água acentuou-se após as revoluções industriais. Uma consequência direta desse problema está na
+
+- A) redução da flora.
+- B) elevação das marés.
+- C) erosão das encostas.
+- D) laterização dos solos.
+- E) fragmentação das rochas.
+
+**Resposta:** A
+
+**Explicação:** Depois da Revolução Industrial, a queima de carvão e petróleo passou a lançar mais dióxido de enxofre e óxidos de nitrogênio no ar. Eles formam ácidos na água da chuva (chuva ácida), que danifica as folhas e reduz a vegetação.
+
+**Fonte:** ENEM 2013, 1º dia, caderno azul, questão 42
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
 
 ## Difícil
 

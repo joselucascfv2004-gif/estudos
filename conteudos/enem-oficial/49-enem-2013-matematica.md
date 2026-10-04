@@ -227,6 +227,69 @@ A quantidade mínima de rolos que deve ser comprada para cercar esse terreno é
 
 **Assunto:** matematica/geometria-plana
 
+### 139
+A cidade de Guarulhos (SP) tem o 8º PIB municipal do Brasil, além do maior aeroporto da América do Sul. Em proporção, possui a economia que mais cresce em indústrias, conforme mostra o gráfico.
+
+![Figura](enem-2013-d2-q139-1.webp)
+
+Analisando os dados percentuais do gráfico, qual a diferença entre o maior e o menor centro em crescimento no polo das indústrias?
+
+- A) 75,28
+- B) 64,09
+- C) 56,95
+- D) 45,76
+- E) 30,07
+
+**Resposta:** C
+
+**Explicação:** O maior crescimento é o de Guarulhos (60,52%) e o menor, o da capital São Paulo (3,57%). A diferença é 60,52 − 3,57 = 56,95.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/porcentagem
+
+### 140
+Em um certo teatro, as poltronas são divididas em setores. A figura apresenta a vista do setor 3 desse teatro, no qual as cadeiras escuras estão reservadas e as claras não foram vendidas.
+
+![Figura](enem-2013-d2-q140-1.webp)
+
+A razão que representa a quantidade de cadeiras reservadas do setor 3 em relação ao total de cadeiras desse mesmo setor é
+
+- A) 17/70
+- B) 17/53
+- C) 53/70
+- D) 53/17
+- E) 70/17
+
+**Resposta:** A
+
+**Explicação:** O setor tem 7 fileiras de 10 cadeiras: 70 no total. Contando as escuras (reservadas), são 17. A razão é 17/70.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 140
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 169
+Uma cozinheira, especialista em fazer bolos, utiliza uma forma no formato representado na figura:
+
+![Figura](enem-2013-d2-q169-1.webp)
+
+Nela identifica-se a representação de duas figuras geométricas tridimensionais. Essas figuras são
+
+- A) um tronco de cone e um cilindro.
+- B) um cone e um cilindro.
+- C) um tronco de pirâmide e um cilindro.
+- D) dois troncos de cone.
+- E) dois cilindros.
+
+**Resposta:** D
+
+**Explicação:** A forma tem a parede de fora inclinada (um tronco de cone largo) e o furo central também em forma de tronco de cone, mais estreito. São dois troncos de cone.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 169
+
+**Assunto:** matematica/geometria-espacial
+
 ## Médio
 
 ### 137
@@ -456,6 +519,341 @@ Após a análise dos dados, o produtor avaliou que a vaca mais eficiente é a
 
 **Assunto:** matematica/razao-proporcao-regra-de-tres
 
+### 138
+A Lei da Gravitação Universal, de Isaac Newton, estabelece a intensidade da força de atração entre duas massas. Ela é representada pela expressão:
+
+F = G·m₁m₂/d² onde m₁ e m₂ correspondem às massas dos corpos, d à distância entre eles, G à constante universal da gravitação e F à força que um corpo exerce sobre o outro.
+
+O esquema representa as trajetórias circulares de cinco satélites, de mesma massa, orbitando a Terra.
+
+![Figura](enem-2013-d2-q138-1.webp)
+
+Qual gráfico expressa as intensidades das forças que a Terra exerce sobre cada satélite em função do tempo?
+
+- A) ![Alternativa A](enem-2013-d2-q138-2.webp)
+- B) ![Alternativa B](enem-2013-d2-q138-4.webp)
+- C) ![Alternativa C](enem-2013-d2-q138-6.webp)
+- D) ![Alternativa D](enem-2013-d2-q138-3.webp)
+- E) ![Alternativa E](enem-2013-d2-q138-5.webp)
+
+**Resposta:** B
+
+**Explicação:** Em órbita circular, a distância de cada satélite à Terra não muda, então a força sobre cada um é constante no tempo (linhas horizontais). Como a força diminui com o quadrado da distância, o satélite mais próximo (E) sofre a maior força e o mais distante (A), a menor.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 138
+
+**Assunto:** fisica/dinamica
+
+### 141
+Uma loja acompanhou o número de compradores de dois produtos, A e B, durante os meses de janeiro, fevereiro e março de 2012. Com isso, obteve este gráfico:
+
+![Figura](enem-2013-d2-q141-1.webp)
+
+A loja sorteará um brinde entre os compradores do produto A e outro brinde entre os compradores do produto B. Qual a probabilidade de que os dois sorteados tenham feito suas compras em fevereiro de 2012?
+
+- A) 1/20
+- B) 3/242
+- C) 5/22
+- D) 6/25
+- E) 7/15
+
+**Resposta:** A
+
+**Explicação:** Produto A: 10 + 30 + 60 = 100 compradores, 30 em fevereiro: 30/100. Produto B: 20 + 20 + 80 = 120, 20 em fevereiro: 20/120 = 1/6. Os sorteios são independentes: 3/10 × 1/6 = 1/20.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 141
+
+**Assunto:** matematica/probabilidade
+
+### 142
+Durante uma aula de Matemática, o professor sugere aos alunos que seja fixado um sistema de coordenadas cartesianas (x, y) e representa na lousa a descrição de cinco conjuntos algébricos, I, II, III, IV e V, como se segue:
+
+I — é a circunferência de equação x² + y²= 9;
+
+II — é a parábola de equação y = − x² − 1, com x variando de −1 a 1;
+
+III — é o quadrado formado pelos vértices (−2, 1), (−1, 1), (−1, 2) e (−2, 2);
+
+IV — é o quadrado formado pelos vértices (1, 1), (2, 1), (2, 2) e (1, 2);
+
+V — é o ponto (0, 0).
+
+A seguir, o professor representa corretamente os cinco conjuntos sobre uma mesma malha quadriculada, composta de quadrados com lados medindo uma unidade de comprimento, cada, obtendo uma figura. Qual destas figuras foi desenhada pelo professor?
+
+- A) ![Alternativa A](enem-2013-d2-q142-1.webp)
+- B) ![Alternativa B](enem-2013-d2-q142-3.webp)
+- C) ![Alternativa C](enem-2013-d2-q142-5.webp)
+- D) ![Alternativa D](enem-2013-d2-q142-2.webp)
+- E) ![Alternativa E](enem-2013-d2-q142-4.webp)
+
+**Resposta:** E
+
+**Explicação:** A circunferência x² + y² = 9 tem centro na origem e raio 3. A parábola y = −x² − 1 (de −1 a 1) é uma "boca" curvada para baixo, abaixo da origem. Os quadrados III e IV ficam em cima, à esquerda e à direita (os "olhos"), e V é o ponto no centro. A figura com raio 3 e boca triste é a última.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 142
+
+**Assunto:** matematica/geometria-analitica
+
+### 149
+Deseja-se postar cartas não comerciais, sendo duas de 100 g, três de 200 g e uma de 350 g. O gráfico mostra o custo para enviar uma carta não comercial pelos Correios:
+
+![Figura](enem-2013-d2-q149-1.webp)
+
+> Disponível em: www.correios.com.br. Acesso em: 2 ago. 2012 (adaptado).
+
+O valor total gasto, em reais, para postar essas cartas é de
+
+- A) 8,35.
+- B) 12,50.
+- C) 14,40.
+- D) 15,35.
+- E) 18,05.
+
+**Resposta:** D
+
+**Explicação:** Pelo gráfico, carta de 100 g custa R$ 1,70; de 200 g, R$ 2,65; de 350 g, R$ 4,00. Total: 2 × 1,70 + 3 × 2,65 + 4,00 = 3,40 + 7,95 + 4,00 = R$ 15,35.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 150
+Foi realizado um levantamento nos 200 hotéis de uma cidade, no qual foram anotados os valores, em reais, das diárias para um quarto padrão de casal e a quantidade de hotéis para cada valor da diária. Os valores das diárias foram: A = R$ 200,00; B = R$ 300,00; C = R$ 400,00 e D = R$ 600,00. No gráfico, as áreas representam as quantidades de hotéis pesquisados, em porcentagem, para cada valor da diária.
+
+![Figura](enem-2013-d2-q150-1.webp)
+
+O valor mediano da diária, em reais, para o quarto padrão de casal nessa cidade, é
+
+- A) 300,00.
+- B) 345,00.
+- C) 350,00.
+- D) 375,00.
+- E) 400,00.
+
+**Resposta:** C
+
+**Explicação:** Em ordem: A (R$ 200) são 25% (50 hotéis), B (R$ 300) outros 25% (50), C (R$ 400) 40% (80) e D (R$ 600) 10%. A mediana é a média do 100º e do 101º valores: o 100º é R$ 300 e o 101º é R$ 400. Mediana: R$ 350.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 150
+
+**Assunto:** matematica/estatistica
+
+### 156
+As torres Puerta de Europa são duas torres inclinadas uma contra a outra, construídas numa avenida de Madri, na Espanha. A inclinação das torres é de 15° com a vertical e elas têm, cada uma, uma altura de 114 m (a altura é indicada na figura como o segmento AB). Estas torres são um bom exemplo de um prisma oblíquo de base quadrada e uma delas pode ser observada na imagem.
+
+![Figura](enem-2013-d2-q156-1.webp)
+
+> Disponível em: www.flickr.com. Acesso em: 27 mar. 2012.
+
+Utilizando 0,26 como valor aproximado para a tangente de 15° e duas casas decimais nas operações, descobre-se que a área da base desse prédio ocupa na avenida um espaço
+
+- A) menor que 100 m².
+- B) entre 100 m² e 300 m².
+- C) entre 300 m² e 500 m².
+- D) entre 500 m² e 700 m².
+- E) maior que 700 m².
+
+**Resposta:** E
+
+**Explicação:** A torre é inclinada 15°: o topo se desloca horizontalmente 114 × tg 15° ≈ 114 × 0,26 ≈ 29,64 m, que, pela figura, corresponde ao lado da base quadrada. Área: 29,64² ≈ 878 m², maior que 700 m².
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 156
+
+**Assunto:** matematica/trigonometria
+
+### 157
+As notas de um professor que participou de um processo seletivo, em que a banca avaliadora era composta por cinco membros, são apresentadas no gráfico. Sabe-se que cada membro da banca atribuiu duas notas ao professor, uma relativa aos conhecimentos específicos da área de atuação e outra, aos conhecimentos pedagógicos, e que a média final do professor foi dada pela média aritmética de todas as notas atribuídas pela banca avaliadora.
+
+![Figura](enem-2013-d2-q157-1.webp)
+
+resolveu descartar a maior e a menor notas atribuídas ao professor. A nova média, em relação à média anterior, é
+
+- A) 0,25 ponto maior.
+- B) 1,00 ponto maior.
+- C) 1,00 ponto menor.
+- D) 1,25 ponto maior.
+- E) 2,00 pontos menor.
+
+**Resposta:** B
+
+**Explicação:** Notas: A 18 e 16; B 17 e 13; C 14 e 1; D 19 e 14; E 16 e 12. Soma 140 em 10 notas: média 14. Tirando a maior (19) e a menor (1): 120 em 8 notas, média 15. A nova média é 1 ponto maior.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 157
+
+**Assunto:** matematica/estatistica
+
+### 160
+Um programa de edição de imagens possibilita transformar figuras em outras mais complexas. Deseja-se construir uma nova figura a partir da original. A nova figura deve apresentar simetria em relação ao ponto O.
+
+![Figura](enem-2013-d2-q160-1.webp)
+
+A imagem que representa a nova figura é:
+
+- A) ![Alternativa A](enem-2013-d2-q160-2.webp)
+- B) ![Alternativa B](enem-2013-d2-q160-3.webp)
+- C) ![Alternativa C](enem-2013-d2-q160-4.webp)
+- D) ![Alternativa D](enem-2013-d2-q160-5.webp)
+- E) ![Alternativa E](enem-2013-d2-q160-6.webp)
+
+**Resposta:** E
+
+**Explicação:** Simetria em relação a um ponto é uma rotação de 180° em torno dele. A figura original fica acima e à esquerda de O; a nova fica abaixo e à direita, de cabeça para baixo, com o triângulo escuro também girado. É a última figura.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 160
+
+**Assunto:** matematica/geometria-plana
+
+### 167
+A figura apresenta dois mapas, em que o estado do Rio de Janeiro é visto em diferentes escalas.
+
+![Figura](enem-2013-d2-q167-1.webp)
+
+Há interesse em estimar o número de vezes que foi ampliada a área correspondente a esse estado no mapa do Brasil. Esse número é
+
+- A) menor que 10.
+- B) maior que 10 e menor que 20.
+- C) maior que 20 e menor que 30.
+- D) maior que 30 e menor que 40.
+- E) maior que 40.
+
+**Resposta:** D
+
+**Explicação:** De 1 : 25 000 000 para 1 : 4 000 000, os comprimentos ficam 25/4 = 6,25 vezes maiores. A área aumenta pelo quadrado: 6,25² ≈ 39. O número está entre 30 e 40.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
+### 168
+Nos últimos anos, a televisão tem passado por uma verdadeira revolução, em termos de qualidade de imagem, som e interatividade com o telespectador. Essa transformação se deve à conversão do sinal analógico para o sinal digital. Entretanto, muitas cidades ainda não contam com essa nova tecnologia. Buscando levar esses benefícios a três cidades, uma emissora de televisão pretende construir uma nova torre de transmissão, que envie sinal às antenas A, B e C, já existentes nessas cidades. As localizações das antenas estão representadas no plano cartesiano:
+
+![Figura](enem-2013-d2-q168-1.webp)
+
+A torre deve estar situada em um local equidistante das três antenas. O local adequado para a construção dessa torre corresponde ao ponto de coordenadas
+
+- A) (65 ; 35).
+- B) (53 ; 30).
+- C) (45 ; 35).
+- D) (50 ; 20).
+- E) (50 ; 30).
+
+**Resposta:** E
+
+**Explicação:** A (30; 20) e B (70; 20) estão na mesma altura, então o ponto equidistante deles tem x = 50. Para ficar à mesma distância de A e de C (60; 50): 20² + (y − 20)² = 10² + (y − 50)², que dá 60y = 1 800, y = 30. A torre fica em (50; 30).
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 168
+
+**Assunto:** matematica/geometria-analitica
+
+### 170
+Uma falsa relação
+
+O cruzamento da quantidade de horas estudadas com o desempenho no Programa Internacional de Avaliação de Estudantes (Pisa) mostra que mais tempo na escola não é garantia de nota acima da média.
+
+![Figura](enem-2013-d2-q170-1.webp)
+
+Dos países com notas abaixo da média nesse exame, aquele que apresenta maior quantidade de horas de estudo é
+
+- A) Finlândia.
+- B) Holanda.
+- C) Israel.
+- D) México.
+- E) Rússia.
+
+**Resposta:** C
+
+**Explicação:** Os países abaixo da média (linha horizontal) são Rússia, Portugal, Itália, Israel e México. Entre eles, o que está mais à direita no eixo das horas de estudo é Israel.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 170
+
+**Assunto:** matematica/estatistica
+
+### 172
+O dono de um sítio pretende colocar uma haste de sustentação para melhor firmar dois postes de comprimentos iguais a 6 m e 4 m. A figura representa a situação real na qual os postes são descritos pelos segmentos AC e BD e a haste é representada pelo segmento EF, todos perpendiculares ao solo, que é indicado pelo segmento de reta AB. Os segmentos AD e BC representam cabos de aço que serão instalados.
+
+![Figura](enem-2013-d2-q172-1.webp)
+
+Qual deve ser o valor do comprimento da haste EF?
+
+- A) 1 m
+- B) 2 m
+- C) 2,4 m
+- D) 3 m
+- E) 2√6 m
+
+**Resposta:** C
+
+**Explicação:** Por semelhança de triângulos, a haste no cruzamento dos cabos mede (a · b)/(a + b), em que a e b são as alturas dos postes: (6 × 4)/(6 + 4) = 24/10 = 2,4 m.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 172
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 173
+Gangorra é um brinquedo que consiste de uma tábua longa e estreita equilibrada e fixada no seu ponto central (pivô). Nesse brinquedo, duas pessoas sentam-se nas extremidades e, alternadamente, impulsionam-se para cima, fazendo descer a extremidade oposta, realizando, assim, o movimento da gangorra.
+
+Considere a gangorra representada na figura, em que os pontos A e B são equidistantes do pivô:
+
+![Figura](enem-2013-d2-q173-1.webp)
+
+A projeção ortogonal da trajetória dos pontos A e B, sobre o plano do chão da gangorra, quando esta se encontra em movimento, é:
+
+- A) ![Alternativa](enem-2013-d2-q173-11.webp)
+- B) ![Alternativa](enem-2013-d2-q173-12.webp)
+- C) ![Alternativa](enem-2013-d2-q173-13.webp)
+- D) ![Alternativa](enem-2013-d2-q173-14.webp)
+- E) ![Alternativa](enem-2013-d2-q173-15.webp)
+
+**Resposta:** B
+
+**Explicação:** Os pontos A e B giram em arcos em torno do pivô, num plano vertical. Vistos de cima, esses arcos viram segmentos na direção da tábua: cada ponto vai de sua posição mais próxima do pivô (tábua inclinada) até a mais distante (tábua na horizontal). A projeção são dois segmentos retos, um de cada lado.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/geometria-espacial
+
+### 178
+Em um sistema de dutos, três canos iguais, de raio externo 30 cm, são soldados entre si e colocados dentro de um cano de raio maior, de medida R. Para posteriormente ter fácil manutenção, é necessário haver uma distância de 10 cm entre os canos soldados e o cano de raio maior. Essa distância é garantida por um espaçador de metal, conforme a figura:
+
+![Figura](enem-2013-d2-q178-1.webp)
+
+Utilize 1,7 como aproximação para 3. O valor de R, em centímetros, é igual a
+
+- A) 64,0.
+- B) 65,5.
+- C) 74,0.
+- D) 81,0.
+- E) 91,0.
+
+**Resposta:** C
+
+**Explicação:** Os centros dos três canos formam um triângulo equilátero de lado 60 cm. A distância de cada centro ao centro do cano grande é 60/√3 = 20√3 ≈ 34 cm. Somando o raio de um cano (30) e a folga (10): R ≈ 34 + 30 + 10 = 74 cm.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 178
+
+**Assunto:** matematica/geometria-plana
+
+### 180
+A Secretaria de Saúde de um município avalia um programa que disponibiliza, para cada aluno de uma escola municipal, uma bicicleta, que deve ser usada no trajeto de ida e volta, entre sua casa e a escola. Na fase de implantação do programa, o aluno que morava mais distante da escola realizou sempre o mesmo trajeto, representado na figura, na escala 1 : 25 000, por um período de cinco dias.
+
+![Figura](enem-2013-d2-q180-1.webp)
+
+Quantos quilômetros esse aluno percorreu na fase de implantação do programa?
+
+- A) 4
+- B) 8
+- C) 16
+- D) 20
+- E) 40
+
+**Resposta:** E
+
+**Explicação:** Contando os lados de quadradinho do trajeto, ele mede 16 cm. Na escala 1 : 25 000, 1 cm vale 250 m: 16 × 250 = 4 000 m = 4 km. Ida e volta: 8 km por dia; em 5 dias, 40 km.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
 ## Difícil
 
 ### 175
@@ -551,3 +949,51 @@ Qual o tempo necessário, em anos, para que uma quantidade de massa do césio-13
 **Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 162
 
 **Assunto:** matematica/exponencial-e-logaritmo
+
+### 161
+Um artesão de joias tem à sua disposição pedras brasileiras de três cores: vermelhas, azuis e verdes.
+
+Ele pretende produzir joias constituídas por uma liga metálica, a partir de um molde no formato de um losango não quadrado com pedras nos seus vértices, de modo que dois vértices consecutivos tenham sempre pedras de cores diferentes.
+
+A figura ilustra uma joia, produzida por esse artesão, cujos vértices A, B, C e D correspondem às posições ocupadas pelas pedras.
+
+![Figura](enem-2013-d2-q161-1.webp)
+
+Com base nas informações fornecidas, quantas joias diferentes, nesse formato, o artesão poderá obter?
+
+- A) 6
+- B) 12
+- C) 18
+- D) 24
+- E) 36
+
+**Resposta:** B
+
+**Explicação:** Contando todas as pinturas com vértices vizinhos de cores diferentes: se A e C têm a mesma cor (3 modos), B e D escolhem entre as outras 2 (2 × 2): 12; se A e C têm cores diferentes (3 × 2 = 6), B e D ficam com a terceira cor: 6. São 18 pinturas. Mas a joia pode ser virada ou girada: só as 6 pinturas com A = C e B = D já são iguais a si mesmas pelo giro de meia-volta; as demais aparecem duas vezes. Fazendo a conta das simetrias do losango, restam 12 joias diferentes.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 161
+
+**Assunto:** matematica/analise-combinatoria
+
+### 171
+Um restaurante utiliza, para servir bebidas, bandejas com bases quadradas. Todos os copos desse restaurante têm o formato representado na figura:
+
+![Figura](enem-2013-d2-q171-1.webp)
+
+Considere que AC = (7/5)·BD e que l é a medida de um dos lados da base da bandeja.
+
+Qual deve ser o menor valor da razão l/BD para que uma bandeja tenha capacidade de portar exatamente quatro copos de uma só vez?
+
+- A) 2
+- B) 14/5
+- C) 4
+- D) 24/5
+- E) 28/5
+
+**Resposta:** D
+
+**Explicação:** AC é o raio da boca do copo e BD, o raio da base. Em 2 × 2, as bocas não podem se bater: os centros vizinhos ficam a 2 · AC = 14/5 · BD. A base de cada copo precisa caber na bandeja: soma-se um raio de base de cada lado. l = 14/5 · BD + 2 · BD = 24/5 · BD, então l/BD = 24/5.
+
+**Fonte:** ENEM 2013, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/geometria-plana
