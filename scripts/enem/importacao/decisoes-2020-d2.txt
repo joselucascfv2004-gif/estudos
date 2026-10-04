@@ -65,6 +65,65 @@ a: Y = log(A) − B·X | Y = log(A)/(X + log(B)) | Y = log(A)/B − X | Y = log(
 x: Aplique log dos dois lados de f = A/r^B: log f = log A − log r^B = log A − B·log r. Trocando log f por Y e log r por X: Y = log A − BX, uma reta.
 @172 d matematica/estatistica
 x: Média atual 1,93 × 15 = 28,95 m; meta 1,99 × 15 = 29,85 m (precisa crescer 0,90 m). Saem 1,78 + 1,82 + 1,84 + 1,86 = 7,30 m e entra 2,02 m. Os três novos devem somar pelo menos 29,85 − (28,95 − 7,30 + 2,02) = 6,18 m, ou seja, média de 6,18 ÷ 3 = 2,06 m.
+@136 m matematica/funcoes-afim-e-quadratica fig
+x: Lucro = receita − custo. No início o custo supera a receita (lucro negativo), depois a receita fica bem acima do custo e, no fim, volta a se aproximar dele. Só o gráfico da primeira alternativa tem esse formato.
+@137 m matematica/geometria-espacial fig
+x: Cada projeção ortogonal deve mostrar a "sombra" do sólido no plano: a do chão, a da parede do fundo e a da parede lateral. Comparando com o sólido de quatro cubos, só a última alternativa tem as três projeções corretas.
+@138 m matematica/razao-proporcao-regra-de-tres fig
+s: || Figura 1 || Figura 2 || => ||
+x: A base da caixa mede 8 cm × 10 cm, e o troféu precisa ficar a pelo menos 1 cm das paredes: a base da miniatura pode ter no máximo 6 cm (8 − 2). A escala é 6/50 = 0,12, e a altura fica 100 × 0,12 = 12 cm. Somando os 2 cm até a tampa: 14 cm.
+@142 m matematica/analise-combinatoria fig
+x: De A até B são 4 passos para a direita e 3 para cima: C(7, 3) = 35 caminhos. Os que passam por C: de A até C (2 e 2) há C(4, 2) = 6 caminhos, e de C até B (2 e 1) há C(3, 1) = 3; são 6 × 3 = 18. Sem passar por C: 35 − 18 = 17.
+@144 d matematica/razao-proporcao-regra-de-tres fig
+x: A moto gasta 5 L a cada 100 km. Até Estrela (420 km) usa 21 L e chega com 1 L; enche o tanque (22 L). Depois roda 80 + 200 + 80 = 360 km (18 L) e volta a Estrela com 4 L. Para os 420 km de volta precisa de 21 L: deve colocar 21 − 4 = 17 L.
+@145 m matematica/geometria-espacial fig
+s: comprimento c || 2 e largura 2L. => comprimento c/2 e largura 2L.
+x: O volume aumenta 15% e depois 10%: 1,15 × 1,10 = 1,265. As bases têm a mesma área (c·L e (c/2)·2L), então a altura em T2 é 1,265 vez a altura que saiu de T1: y = 1,265x.
+@147 f matematica/numeros-e-operacoes fig
+a: 1,0 × 10⁻¹ | 1,0 × 10⁻³ | 1,0 × 10⁻⁴ | 1,0 × 10⁻⁶ | 1,0 × 10⁻⁷
+x: 1 micrômetro = 10⁻⁶ m. Então 100 micrômetros = 10² × 10⁻⁶ = 10⁻⁴ m.
+@148 m matematica/razao-proporcao-regra-de-tres fig
+x: A bandeira tem 20 M de comprimento e 14 M de largura. No tecido de 180 cm × 150 cm: 20 M ≤ 180 dá M ≤ 9, e 14 M ≤ 150 dá M ≤ 10,7. Então M = 9 cm. O círculo tem raio 3,5 M = 31,5 cm e diâmetro 63 cm, que é o lado do quadrado azul.
+@149 f matematica/razao-proporcao-regra-de-tres fig
+a: 16/42 | 16/26 | 26/42 | 42/26 | 42/16
+x: Contando na imagem, há 42 assentos, dos quais 16 estão vendidos (os mais escuros). A razão vendidos/total é 16/42.
+@151 f matematica/razao-proporcao-regra-de-tres fig
+x: Eficiência = peças ÷ horas: dia 1 = 800 ÷ 4 = 200; dia 2 = 1 000 ÷ 8 = 125; dia 3 = 1 100 ÷ 5 = 220; dia 4 = 1 800 ÷ 9 = 200; dia 5 = 1 400 ÷ 10 = 140. O maior valor é o do dia 3.
+@154 d matematica/geometria-plana fig
+s: || Legenda: 30 m || => ||
+x: Trechos de 30 m de largura: MN (100 m, andando, 4/m²) = 12 000; NO (300 m, parados, 6/m²) = 54 000; OP (200 m, movimentando-se, 5/m²) = 30 000; QR (100 m, andando) = 12 000. Total 108 000; descontando 4 carros de som (4 000), restam 104 000 pessoas.
+@155 m matematica/porcentagem fig
+x: Trabalham os que "somente trabalham" (45,2%) e os que "trabalham e estudam" (13,6%): 58,8%. Então 0,588 × 363 000 = 213 444 jovens.
+@158 f matematica/geometria-espacial fig
+x: O tronco de pirâmide de base quadrada tem duas bases quadradas (uma maior e uma menor) e quatro faces laterais que são trapézios isósceles.
+@159 m matematica/geometria-espacial fig
+x: Na planta do telhado de três águas, a água escorre perpendicularmente a cada beiral, em três sentidos, e as linhas de encontro das águas partem dos cantos. A segunda alternativa representa esse escoamento.
+@163 m matematica/probabilidade fig
+a: 1/12 | 7/12 | 1/8 | 5/6 | 1/4
+x: Pela ordem de idade, os seis primeiros têm de 89 a 82 anos. Depois vêm quatro idosos de 75 anos (Heloísa, Marisa, Pedro e João), sorteados entre si para as posições 7 a 10. A chance de João ser o sétimo é 1/4.
+@166 m matematica/progressoes fig
+a: (1/2)¹⁰⁰ | (1/2)⁹⁹ | (1/2)⁹⁷ | (1/2)⁻⁹⁸ | (1/2)⁻⁹⁹
+x: Os lados formam a progressão geométrica 1, 1/2, 1/4, ... O n-ésimo quadrado tem lado (1/2)ⁿ⁻¹. O centésimo tem lado (1/2)⁹⁹.
+@167 m matematica/porcentagem fig
+x: A arrecadação é proporcional a preço × porcentagem vendida: I = 200 × 13 = 2 600; II = 170 × 10 = 1 700; III = 150 × 16 = 2 400; IV = 100 × 29 = 2 900; V = 80 × 32 = 2 560. A maior é a do perfume IV.
+@169 d matematica/geometria-plana fig
+x: Para cada casa, confira os afastamentos (4 m da rua e 1 m das divisas) e se a área fica entre 40% e 50% do lote de 200 m², isto é, entre 80 e 100 m². Só a casa 5 cumpre todas as regras.
+@170 m matematica/analise-combinatoria fig
+a: 9! | 4! 5! | 2 × 4! 5! | 9!/2 | 4! 5!/2
+x: "I AM POTTER" tem 4 vogais (I, A, O, E) e 5 consoantes (M, P, T, T, R). Intercaladas, a palavra começa e termina com consoante: C V C V C V C V C. Há 5! ordens das consoantes (divididas por 2, pois o T se repete) e 4! das vogais: 4! 5!/2.
+@171 f matematica/estatistica fig
+x: Conte, no gráfico, as horas em que a curva fica acima da linha de 55 decibéis. Somando os intervalos ao longo do dia, são 13 horas.
+@173 m matematica/funcoes-afim-e-quadratica fig
+x: Com vazão constante, a altura sobe devagar onde a garrafa é larga e rápido onde ela afina. A garrafa é larga e reta embaixo (subida constante) e se estreita no ombro (subida cada vez mais rápida) até o nível de envasamento.
+@177 m matematica/razao-proporcao-regra-de-tres fig
+a: 1/2 | 1/3 | 1/9 | 2/3 | 4/3
+x: O capital tem 4 + 6 + 6 = 16 partes; para igualar, cada sócio deve ficar com 16/3. Joaquim e José precisam ceder 6 − 16/3 = 2/3 de parte cada. Em relação ao capital de cada um (6 partes), isso é (2/3) ÷ 6 = 1/9.
+@178 m matematica/geometria-plana fig
+x: Entre quatro octógonos regulares sobra um quadrado. Nas bordas do painel, entre dois octógonos, sobra um triângulo retângulo isósceles. São necessários os formatos 1 e 3.
+@179 m matematica/geometria-espacial fig
+x: As 20 mangueiras somam 100 m, então cada uma tem 5 m: é a geratriz do cone. Com altura 3 m: r² = 5² − 3² = 16, r = 4 m.
+@180 d matematica/trigonometria fig
+x: Ao meio-dia, a luz passa pelo vão inteiro (30 cm). Com o sol a 30° da vertical, a viga projeta uma sombra horizontal de h · tg 30°. Para passar metade da luz, essa sombra deve ser 15 cm: h = 15 ÷ tg 30° = 15√3 ≈ 26 cm.
 
 ## 22-enem-2020-ciencias-da-natureza.md | 2020 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
@@ -148,3 +207,38 @@ s: uma massa Mtorre e exerça na fundação sobre a qual foi erguida uma pressã
 s: (Ptorre )/(Pmodelo ) ? => P(torre)/P(modelo)?
 a: 10⁰ | 10¹ | 10² | 10⁴ | 10⁶
 x: Pressão = peso ÷ área. Reduzindo as medidas 100 vezes, o volume (e a massa) fica 100³ vezes menor e a área da base, 100² vezes menor. A pressão fica 100³/100² = 100 vezes menor. Razão: 10².
+@96 m fisica/eletricidade fig
+x: Os quatro resistores iguais dividem os 12 V em 3 V cada. Entre B e E há três resistores: 9 V. A resistência do aparelho (10 kΩ) é muito maior que a do trecho, então a tensão quase não muda, e a corrente é 9 ÷ 10 000 = 0,9 mA.
+@102 m biologia/saude-e-doencas fig
+x: O melhor remédio reduz muito as células tumorais (colunas escuras) e quase não afeta as normais (colunas claras). O II reduz bem o tumor e mantém as células normais perto do controle.
+@104 m quimica/quimica-ambiental fig
+x: O CO₂ se dissolve na água e forma ácido carbônico, que libera H⁺. Com mais CO₂, a água fica mais ácida: o pH (potencial hidrogeniônico) diminui, o que afeta os organismos aquáticos.
+@106 m fisica/eletricidade fig
+x: O amperímetro mede corrente e deve ficar em série com o circuito, entre a bateria e o restante. A carga de 60 Ah some em 5 dias (120 h): a corrente de fuga é 60 ÷ 120 = 0,5 A.
+@107 m quimica/quimica-organica fig
+x: O componente do óleo de rosas tem cadeia aberta, com duas ligações duplas (poli-insaturada) e o grupo OH no carbono da ponta (hidroxila terminal). Só a estrutura 1 reúne tudo isso.
+@108 m fisica/cinematica fig
+x: Ao sair da mesa, a bolinha mantém a velocidade horizontal e passa a cair acelerada pela gravidade. A trajetória é uma parábola, que começa na borda da mesa.
+@113 m quimica/solucoes fig
+x: Cada moeda desloca um volume de água igual ao seu volume. Pelas provetas: A ≈ 2 mL, B ≈ 3 mL, C ≈ 2 mL, D ≈ 4 mL. Densidades: A = 26 ÷ 2 = 13; B = 27 ÷ 3 = 9; C = 10 ÷ 2 = 5; D = 36 ÷ 4 = 9 g/cm³. Só B e D têm a densidade do cobre.
+@115 m biologia/ecologia fig
+x: Onde chega o esgoto há muita matéria orgânica: a DBO é alta e o oxigênio dissolvido é baixo. No ponto 1, a DBO é a maior (cerca de 12 mg/L), indicando o despejo.
+@116 d quimica/estequiometria fig
+x: Por quilômetro, o carro a etanol emite 2,6 mol de CO₂ e o elétrico 0,45 mol: diferença de 2,15 mol. Em 1 000 km: 2 150 mol de CO₂. Pela equação, 1 mol de etanol gera 2 mol de CO₂: 1 075 mol de etanol × 46 g ≈ 49 kg, perto de 50 kg.
+@117 m biologia/ecologia fig
+x: As bactérias aeróbias se juntam onde há mais oxigênio, isto é, onde a alga faz mais fotossíntese. Na figura, a maior concentração está na faixa do vermelho.
+@122 d fisica/cinematica fig
+x: O carro acelera a 1 m/s² até 20 m/s (72 km/h) em 20 s, percorrendo 200 m. Depois anda a 20 m/s. Ele está a 100 m de A após 400 m: 20 s + 200 ÷ 20 = 30 s. Para B (900 m) e C (1 400 m), mais 25 s cada: 55 s e 80 s.
+@123 m quimica/quimica-organica fig
+x: O PVC tem cloro na cadeia. Na queima, forma-se um gás diatômico heteronuclear que deixa a solução ácida e libera CO₂ com carbonato de sódio: é o cloreto de hidrogênio, HCl.
+@124 m biologia/evolucao fig
+x: Em D1, as duas populações se encontram novamente, mas continuam separadas: já não conseguem se reproduzir entre si (isolamento reprodutivo), ou seja, formaram espécies diferentes.
+@125 f fisica/eletricidade fig
+x: Ao se esfregarem, a calça e o pelo do gato trocam elétrons: um fica com excesso e o outro com falta. É a eletrização por atrito, causada pelo movimento de elétrons.
+@131 m fisica/ondulatoria-e-optica fig
+x: Herschel descobriu que além do vermelho há uma radiação invisível que aquece muito: o infravermelho. O recipiente A fica nessa faixa, após o vermelho, e esquenta mais.
+@132 m quimica/quimica-ambiental fig
+a: A + B + C → D (a reação ocorre a altas pressões). | A + B → C + D (a reação é fortemente endotérmica). | A + 3B → C (a reação ocorre com uso de solvente orgânico). | 3A + 2B → 2C → 3D + 2E (a reação ocorrre sob pressão atmosférica). | A + ½B → C (a reação ocorre com o uso de um catalisador contendo um metal não tóxico).
+x: A Química Verde quer todo o reagente virando produto (sem coprodutos), menos energia e nada de solventes ou metais tóxicos. A + ½B → C forma um só produto e usa catalisador não tóxico.
+@134 m fisica/estatica-e-hidrostatica fig
+x: O bolsão está a 50 m de profundidade. A pressão a mais é ρ g h = 1 000 × 10 × 50 = 500 000 Pa = 500 kPa. No gráfico, 500 kPa corresponde a 60 minutos de descompressão.

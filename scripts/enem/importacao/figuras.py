@@ -53,7 +53,8 @@ def linhas_da_pagina(p):
             if not spans:
                 continue
             t = junta_spans(l['spans']).replace('\t', ' ')
-            out.append({'t': re.sub(r'\s+', ' ', t).strip(), 'bb': list(l['bbox']), 'sz': round(max(spans, key=lambda s: len(s['text']))['size'], 1),
+            t = re.sub(r'(f[il]) (?=[a-záéíóúâêôãõç])', r'\1', t)  # ligaduras fi/fl separadas no PDF
+            out.append({'gira': abs(l['dir'][1]) > 0.3, 't': re.sub(r'\s+', ' ', t).strip(), 'bb': list(l['bbox']), 'sz': round(max(spans, key=lambda s: len(s['text']))['size'], 1),
                         'font': spans[0]['font'], 'f0': spans[0]['font'], 'spans': [(s['font'], s['text']) for s in spans]})
     # linhas justificadas às vezes vêm em pedaços: junta pedaços com palavras na mesma altura
     out.sort(key=lambda l: (round(l['bb'][1]), l['bb'][0]))
@@ -232,6 +233,8 @@ def processa(i):
         margem = min([l['bb'][0] for l in ls if abs(l['sz'] - corpo_sz) <= 0.6] or [s['x0']])
 
         def eh_corpo(l):
+            if l.get('gira'):
+                return False
             mesmo = abs(l['sz'] - corpo_sz) <= 0.6
             return (mesmo and ((l['bb'][2] - l['bb'][0]) > 0.55 * larg_col or l['bb'][0] - margem < 20)) or eh_marcador(l) or EHFONTE.match(l['t'])
         soltos = [l for l in ls if not eh_corpo(l) and not CAB.match(l['t'])]
@@ -313,7 +316,7 @@ def processa(i):
             continue
         g = it['bb']
         dentro_m = [m for m in marc0 if m['k'] == it['k'] and g[1] - 4 <= (m['l']['bb'][1] + m['l']['bb'][3]) / 2 <= g[3] + 4
-                    and m['l']['bb'][2] >= g[0] - 25 and m['l']['bb'][0] <= g[2] - 20]
+                    and m['l']['bb'][2] >= g[0] - 45 and m['l']['bb'][0] <= g[2] - 20]
         if DEBUG: print('FIG', [round(v) for v in g], [(m['l']['t'][:1], [round(v) for v in m['l']['bb']]) for m in marc0])
         if len(dentro_m) < 2:
             continue

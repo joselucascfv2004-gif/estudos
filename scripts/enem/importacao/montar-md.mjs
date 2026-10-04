@@ -100,7 +100,8 @@ function parsDaFig(q, verso) {
     prev = c;
   }
   fecha();
-  return pars;
+  // restos de frações e expoentes das alternativas ("100", "1")
+  return pars.filter((p) => !/^[\d\s.,−+-]{1,6}$/.test(p));
 }
 const imgFig = (a, num, n) => `enem-${a.ano}-d${a.dia}-q${String(num).padStart(3, '0')}-${n}.webp`;
 for (const a of arquivos) {

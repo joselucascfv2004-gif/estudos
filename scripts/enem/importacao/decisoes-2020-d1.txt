@@ -86,6 +86,22 @@ x: Tocqueville diz que as leis de sucessão (herança) dividiam as propriedades 
 @85 d historia/brasil-colonia
 s: político- -territorial => político-territorial
 x: Para o Correio Braziliense, a revolta mostrava um descontentamento geral; para a Gazeta, era só uma "mancha". As duas leituras revelam disputas entre grupos regionais sobre como o território e o poder deveriam se organizar (Pernambuco contra o centro no Rio de Janeiro).
+@50 f geografia/populacao-e-urbanizacao fig
+x: As metrópoles se expandiram por áreas de ocupação contínua, ou seja, a cidade cresceu para as bordas, com o crescimento das áreas periféricas.
+@51 m geografia/economia-agropecuaria-industria-energia fig
+x: O calendário circular mostra o pastoreio, o plantio, a limpa e as colheitas de feijão, milho e algodão distribuídos pelos meses. O trabalho segue o ritmo das chuvas e da seca: adequação ao tempo da natureza.
+@54 f historia/antiguidade-e-idade-media fig
+x: O texto diz que a arte rupestre transmitia mensagens pedagógicas e que os antepassados explicavam sua visão de mundo pelas pinturas. A arte servia para transmitir os saberes acumulados.
+@65 m geografia/economia-agropecuaria-industria-energia fig
+x: O mapa mostra rodovias ligando o Centro-Oeste aos portos, e o texto fala dos fluxos do agronegócio. As estradas foram abertas para escoar a produção agrícola.
+@67 m geografia/geografia-fisica fig
+x: O Vale da Grande Fenda, na África Oriental, é uma área em que a crosta está se rompendo e se afastando (rifteamento), com vulcões ao longo da fenda.
+@68 m historia/seculo-xx fig
+x: A nova biografia histórica estuda pessoas comuns ou célebres como reveladoras de sua época. Isso dá acesso ao cotidiano das comunidades, e não só à história dos grandes nomes.
+@75 m historia/brasil-colonia fig
+x: O texto diz que os mapas europeus apagaram o conhecimento dos ameríndios e ajudaram a "inventar" a América do ponto de vista europeu. A cartografia afirmava a dominação.
+@88 f geografia/biomas-e-questoes-ambientais fig
+x: A foto e o texto mostram o Tietê "morto" no trecho da Grande São Paulo: o rio recebe grande quantidade de esgoto doméstico e industrial, que consome o oxigênio da água.
 
 ## 24-enem-2020-linguagens.md | 2020 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2020 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
@@ -159,3 +175,23 @@ a: “Que linda a ‘antiga, muy nobre, sempre leal e invicta’ cidade do Porto
 x: A expressão "antiga, muy nobre, sempre leal e invicta" é o título histórico da cidade do Porto, uma voz externa que fala da identidade do povo. O autor a cita para seduzir o leitor.
 @45 d literatura/pre-modernismo-ao-contemporaneo
 x: O narrador recusa a Curitiba de cartão-postal ("a outra para inglês ver") e escolhe a cidade dos becos, do realejo parado, da "província, cárcere, lar". Ele desconstrói a imagem habitual da cidade.
+@7 m portugues/funcoes-generos-e-variacao fig
+x: Na norma-padrão seria "A que horas ela volta?". Na fala, a preposição "a" costuma cair: "Que horas ela volta?". O título reproduz esse apagamento da preposição.
+@14 m artes/artes-e-educacao-fisica fig
+x: O grupo usava materiais incomuns — bezerro em formol, esterco, sangue, carcaças — para provocar o público. O debate vem desse arsenal de materiais e formas pouco convencionais.
+@18 d literatura/pre-modernismo-ao-contemporaneo fig v
+x: O "retrato" é austero (muro, vértebras, sombra), mas revela "poços com seu lodo de ira e de tensão", "solitude" e "medo". Sob a dureza aparente aparecem o vazio e a angústia.
+@22 f portugues/funcoes-generos-e-variacao fig
+x: O anúncio "Respeita as torcedoras!" lista atitudes aceitáveis e inaceitáveis e indica o Disque 180 para denunciar. Promove a conscientização contra a violência de gênero no esporte.
+@25 m artes/artes-e-educacao-fisica fig
+x: Kosuth mostra a cadeira real, uma foto e a definição do dicionário. A obra discute que a arte (e a foto, e a palavra) não é a coisa em si, mas uma representação dela.
+@26 f portugues/interpretacao-de-texto fig
+x: A imagem mostra uma pessoa com a cabeça envolvida por várias telas: a realidade virtual leva a experimentar mentalmente outros lugares e realidades sem sair do lugar.
+@30 m portugues/funcoes-generos-e-variacao fig
+x: A mulher aparece com lenço cobrindo o rosto, como quem vai para a batalha, e o texto diz que "a rua é um campo de batalha". A imagem é uma metáfora de que as mulheres precisam se defender do assédio.
+@33 f portugues/funcoes-generos-e-variacao fig
+x: Cartazes em postes normalmente anunciam serviços. No projeto, o lambe-lambe leva poemas às ruas: a poesia circula por um suporte não convencional.
+@37 m artes/artes-e-educacao-fisica fig
+x: O "conceito ampliado" de saúde mostra que ela depende de condições sociais, econômicas, culturais e ambientais (trabalho, moradia, educação, saneamento). É consequência da forma de organização da sociedade.
+@44 f portugues/funcoes-generos-e-variacao fig
+x: A foto mostra uma família feliz com filhos adotados aos 9, 13 e 15 anos, e o texto diz que "não existe idade" para encontrar uma família. A campanha valoriza a adoção tardia.

@@ -227,6 +227,98 @@ O texto permite o desnudamento da sociedade ao relacionar as tecnologias de info
 
 **Assunto:** portugues/interpretacao-de-texto
 
+### 22
+![Figura](enem-2020-d1-q022-1.webp)
+
+> Disponível em: www.facebook.com/ministeriodoesporte. Acesso em: 7 dez. 2017.
+
+Esse anúncio publicitário propõe soluções para um problema social recorrente, ao
+
+- A) promover ações de conscientização para reduzir a violência de gênero em eventos esportivos.
+- B) estimular o compartilhamento de políticas públicas sobre a igualdade de gênero no esporte.
+- C) divulgar para a população as novas regras complementares para as torcidas de futebol.
+- D) informar ao público masculino as consequências de condutas ofensivas.
+- E) regulamentar normas de boa convivência nos estádios.
+
+**Resposta:** A
+
+**Explicação:** O anúncio "Respeita as torcedoras!" lista atitudes aceitáveis e inaceitáveis e indica o Disque 180 para denunciar. Promove a conscientização contra a violência de gênero no esporte.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 22
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 26
+![Figura](enem-2020-d1-q026-1.webp)
+
+> Disponível em: www.iotforall.com. Acesso em: 22 jun. 2018.
+
+A realidade virtual é uma tecnologia de informação que, conforme sugere a imagem, tem como uma de suas principais funções
+
+- A) promover a manipulação eficiente de conhecimentos e informações de difícil compreensão no mundo físico.
+- B) conduzir escolhas profissionais da área de ciência da computação, oferecendo um leque de opções de atuação.
+- C) transferir conhecimento da inteligência artificial para as áreas tradicionais, como as das ciências exatas e naturais.
+- D) levar o ser humano a experimentar mentalmente outras realidades, para as quais é transportado sem sair de seu próprio lugar.
+- E) delimitar tecnologias exclusivas de jogos virtuais, a fim de oferecer maior emoção ao jogador por meio de outras realidades.
+
+**Resposta:** D
+
+**Explicação:** A imagem mostra uma pessoa com a cabeça envolvida por várias telas: a realidade virtual leva a experimentar mentalmente outros lugares e realidades sem sair do lugar.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 26
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 33
+TEXTO I
+
+Poesia em cartaz
+
+O caminho habitual para o trabalho, aquele em que a gente já nem repara direito, pode ficar mais belo com um poema. O projeto #UmLambePorDia nasceu desta intenção: trazer mais cor e alegria para a cidade por meio de cartazes coloridos ao estilo lambe-lambe. Quem teve a ideia foi o escritor Leonardo Beltrão, em Belo Horizonte. “Em meio a olhares cada vez mais viciados, acabamos nos esquecendo da beleza envolvida em cada esquina e no próprio poder transformador da palavra”. Assim, a cada dia um cartaz é colocado por aí, para nos lembrar de reparar na cidade, na vida que corre ao redor e também em nós mesmos.
+
+TEXTO II
+
+![Figura](enem-2020-d1-q033-1.webp)
+
+> Disponível em: www.vidasimples.uol.com.br. Acesso em: 6 dez. 2017 (adaptado).
+
+Considerando-se a função que os cartazes colados em postes normalmente exercem nas ruas das cidades grandes, esse texto evidencia a
+
+- A) disseminação da arte poética em um veículo não convencional.
+- B) manutenção da expectativa das pessoas ao andarem pelas ruas.
+- C) necessidade de exposição de poemas pequenos em diferentes suportes.
+- D) característica corriqueira do suporte lambe-lambe, muito comum nas ruas.
+- E) exposição da beleza escondida das esquinas da cidade de Belo Horizonte.
+
+**Resposta:** A
+
+**Explicação:** Cartazes em postes normalmente anunciam serviços. No projeto, o lambe-lambe leva poemas às ruas: a poesia circula por um suporte não convencional.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 33
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 44
+![Figura](enem-2020-d1-q044-1.webp)
+
+> Disponível em: www.acontecendoaqui.com.br. Acesso em: 15 jun. 2018.
+
+Nessa campanha publicitária, a imagem da família e o texto verbal unem-se para reforçar a ideia de que
+
+- A) a família que adota é mais feliz.
+- B) a adoção tardia é muito positiva.
+- C) as famílias preferem adotar bebês.
+- D) a adoção de adolescentes é mais simples.
+- E) os filhos adotivos são companheiros dos pais.
+
+**Resposta:** B
+
+**Explicação:** A foto mostra uma família feliz com filhos adotados aos 9, 13 e 15 anos, e o texto diz que "não existe idade" para encontrar uma família. A campanha valoriza a adoção tardia.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 44
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ## Médio
 
 ### 8
@@ -559,6 +651,125 @@ Nessa petição da pitoresca personagem do romance de Lima Barreto, o uso da nor
 
 **Assunto:** portugues/funcoes-generos-e-variacao, literatura/pre-modernismo-ao-contemporaneo
 
+### 7
+![Figura](enem-2020-d1-q007-1.webp)
+
+> Disponível em: www.globofilmes.globo.com. Acesso em: 13 dez. 2017 (adaptado).
+
+A frase, título do filme, reproduz uma variedade linguística recorrente na fala de muitos brasileiros. Essa estrutura caracteriza-se pelo(a)
+
+- A) uso de uma marcação temporal.
+- B) imprecisão do referente de pessoa.
+- C) organização interrogativa da frase.
+- D) utilização de um verbo de ação.
+- E) apagamento de uma preposição.
+
+**Resposta:** E
+
+**Explicação:** Na norma-padrão seria "A que horas ela volta?". Na fala, a preposição "a" costuma cair: "Que horas ela volta?". O título reproduz esse apagamento da preposição.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 7
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 14
+TEXTO I
+
+![Figura](enem-2020-d1-q014-1.webp)
+
+> HIRST, D. Mother and Child. Bezerro dividido em duas partes: 1029 x 1689 x 625mm, 1993 (detalhe). Vidro, aço pintado, silicone, acrílico, monofilamento, aço inoxidável, bezerro e solução de formaldeído.
+
+TEXTO II
+
+O grupo Jovens Artistas Britânicos (YABs), que surgiu no final da década de 1980, possui obras diversificadas que incluem fotografias, instalações, pinturas e carcaças desmembradas. O trabalho desses artistas chamou a atenção no final do período da recessão, por utilizar materiais incomuns, como esterco de elefantes, sangue e legumes, o que expressava os detritos da vida e uma atmosfera de niilismo, temperada por um humor mordaz.
+
+> Disponível em: http://damienhirst.com. Acesso em: 15 jul. 2015.
+
+> FARTHING, S. Tudo sobre arte. Rio de Janeiro: Sextante, 2011 (adaptado).
+
+A provocação desse grupo gera um debate em torno da obra de arte pelo(a)
+
+- A) recusa a crenças, convicções, valores morais, estéticos e políticos na história moderna.
+- B) frutífero arsenal de materiais e formas que se relacionam com os objetos construídos.
+- C) economia e problemas financeiros gerados pela recessão que tiveram grande impacto no mercado.
+- D) influência desse grupo junto aos estilos pós-modernos que surgiram nos anos 1990.
+- E) interesse em produtos indesejáveis que revela uma consciência sustentável no mercado.
+
+**Resposta:** B
+
+**Explicação:** O grupo usava materiais incomuns — bezerro em formol, esterco, sangue, carcaças — para provocar o público. O debate vem desse arsenal de materiais e formas pouco convencionais.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 14
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 25
+![Figura](enem-2020-d1-q025-1.webp)
+
+> KOSUTH, J. One and Three Chairs. Museu Reina Sofia, Espanha, 1965.
+
+> Disponível em: www.museoreinasofia.es. Acesso em: 4 jun. 2018 (adaptado).
+
+A obra de Joseph Kosuth data de 1965 e se constitui por uma fotografia de cadeira, uma cadeira exposta e um quadro com o verbete “Cadeira”. Trata-se de um exemplo de arte conceitual que revela o paradoxo entre verdade e imitação, já que a arte
+
+- A) não é a realidade, mas uma representação dela.
+- B) fundamenta-se na repetição, construindo variações.
+- C) não se define, pois depende da interpretação do fruidor.
+- D) resiste ao tempo, beneficiada por múltiplas formas de registro.
+- E) redesenha a verdade, aproximando-se das definições lexicais.
+
+**Resposta:** A
+
+**Explicação:** Kosuth mostra a cadeira real, uma foto e a definição do dicionário. A obra discute que a arte (e a foto, e a palavra) não é a coisa em si, mas uma representação dela.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 25
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 30
+![Figura](enem-2020-d1-q030-1.webp)
+
+> Disponível em: www.bhaz.com.br. Acesso em: 14 jun. 2018.
+
+Essa campanha de conscientização sobre o assédio sofrido pelas mulheres nas ruas constrói-se pela combinação da linguagem verbal e não verbal. A imagem da mulher com o nariz e a boca cobertos por um lenço é a representação não verbal do(a)
+
+- A) silêncio imposto às mulheres, que não podem denunciar o assédio sofrido.
+- B) metáfora de que as mulheres precisam defender-se do assédio masculino.
+- C) constrangimento pelo qual passam as mulheres e sua tentativa de esconderem-se.
+- D) necessidade que as mulheres têm de passarem despercebidas para evitar o assédio.
+- E) incapacidade de as mulheres protegerem-se da agressão verbal dos assediadores.
+
+**Resposta:** B
+
+**Explicação:** A mulher aparece com lenço cobrindo o rosto, como quem vai para a batalha, e o texto diz que "a rua é um campo de batalha". A imagem é uma metáfora de que as mulheres precisam se defender do assédio.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 30
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 37
+O conceito de saúde formulado na histórica VIII Conferência Nacional de Saúde, no ano de 1986, ficou conhecido como um “conceito ampliado” de saúde, conforme ilustrado na figura. Esse conceito foi fruto de intensa mobilização em diversos países da América Latina nas décadas de 1970 e 1980, como resposta à crise dos sistemas públicos de saúde.
+
+![Figura](enem-2020-d1-q037-1.webp)
+
+> BATISTELLA, C. Abordagens contemporâneas do conceito de saúde. Disponível em: www.dihs.ensp.fiocruz.br. Acesso em: 23 set. 2020.
+
+Com base no conceito apresentado no texto, a saúde é consequência direta do(a)
+
+- A) adoção de um estilo de vida ativo por parte dos indivíduos.
+- B) disponibilidade de emprego no mercado de trabalho.
+- C) condição habitacional presente nas cidades.
+- D) acesso ao sistema educacional.
+- E) forma de organização social.
+
+**Resposta:** E
+
+**Explicação:** O "conceito ampliado" de saúde mostra que ela depende de condições sociais, econômicas, culturais e ambientais (trabalho, moradia, educação, saneamento). É consequência da forma de organização da sociedade.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 37
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Difícil
 
 ### 12
@@ -785,5 +996,50 @@ A tematização de Curitiba é frequente na obra de Dalton Trevisan. No fragment
 **Explicação:** O narrador recusa a Curitiba de cartão-postal ("a outra para inglês ver") e escolhe a cidade dos becos, do realejo parado, da "província, cárcere, lar". Ele desconstrói a imagem habitual da cidade.
 
 **Fonte:** ENEM 2020, 1º dia, caderno azul, questão 45
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 18
+Retrato de homem
+A paisagem estrita
+ao apuro do muro
+feito vértebra a vértebra
+e escuro.
+A geração dos pelos
+sobre a casca e os rostos
+em seus diques de sombra
+repostos.
+Os poços com seu lodo
+de ira e de tensão:
+entre cimento e fronte
+— um vão.
+As setas se atiram
+às margens de ninguém,
+ilesas a si mesmas
+retêm.
+Compassos de evasão
+entre falange e rua
+sondando a solitude
+nua.
+E na armadura de coisa
+salobra, um só segredo:
+a polpa toda é fruição
+de medo.
+
+> ARAÚJO, L. C. Cantochão. Belo Horizonte: Imprensa Publicações — Governo do Estado de Minas Gerais, 1967.
+
+No poema, a descrição lírica do objeto representado é orientada por um olhar que
+
+- A) desvela sentimentos de vazio e angústia sob a aparente austeridade.
+- B) expressa desilusão ante a possibilidade de superação do sofrimento.
+- C) contrapõe a fragilidade emocional ao uso desmedido da força física.
+- D) associa a incomunicabilidade emocional às determinações culturais.
+- E) privilegia imagens relacionadas à exposição do dinamismo urbano.
+
+**Resposta:** A
+
+**Explicação:** O "retrato" é austero (muro, vértebras, sombra), mas revela "poços com seu lodo de ira e de tensão", "solitude" e "medo". Sob a dureza aparente aparecem o vazio e a angústia.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 18
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo

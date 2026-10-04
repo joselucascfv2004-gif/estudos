@@ -271,6 +271,27 @@ Uma medida que auxilia na conservação da biodiversidade nas ilhas mencionadas 
 
 **Assunto:** biologia/ecologia
 
+### 125
+![Figura](enem-2020-d2-q125-1.webp)
+
+> DAVIS, J. Disponível em: http://garfield.com. Acesso em: 10 fev. 2015.
+
+Por qual motivo ocorre a eletrização ilustrada na tirinha?
+
+- A) Troca de átomos entre a calça e os pelos do gato.
+- B) Diminuição do número de prótons nos pelos do gato.
+- C) Criação de novas partículas eletrizadas nos pelos do gato.
+- D) Movimentação de elétrons entre a calça e os pelos do gato.
+- E) Repulsão entre partículas elétricas da calça e dos pelos do gato.
+
+**Resposta:** D
+
+**Explicação:** Ao se esfregarem, a calça e o pelo do gato trocam elétrons: um fica com excesso e o outro com falta. É a eletrização por atrito, causada pelo movimento de elétrons.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 125
+
+**Assunto:** fisica/eletricidade
+
 ## Médio
 
 ### 95
@@ -477,6 +498,296 @@ Nessa situação, o aumento do módulo da diferença de potencial obtida nos ter
 
 **Assunto:** fisica/eletricidade
 
+### 96
+Um estudante tem uma fonte de tensão com corrente contínua que opera em tensão fixa de 12 V. Como precisa alimentar equipamentos que operam em tensões menores, ele emprega quatro resistores de 100 Ω para construir um divisor de tensão. Obtém-se este divisor associando os resistores, como exibido na figura. Os aparelhos podem ser ligados entre os pontos A, B, C, D e E, dependendo da tensão especificada.
+
+![Figura](enem-2020-d2-q096-1.webp)
+
+Ele tem um equipamento que opera em 9,0 V com uma resistência interna de 10 kΩ. Entre quais pontos do divisor de tensão esse equipamento deve ser ligado para funcionar corretamente e qual será o valor da intensidade da corrente nele estabelecida?
+
+- A) Entre A e C; 30 mA.
+- B) Entre B e E; 30 mA.
+- C) Entre A e D; 1,2 mA.
+- D) Entre B e E; 0,9 mA.
+- E) Entre A e E; 0,9 mA.
+
+**Resposta:** D
+
+**Explicação:** Os quatro resistores iguais dividem os 12 V em 3 V cada. Entre B e E há três resistores: 9 V. A resistência do aparelho (10 kΩ) é muito maior que a do trecho, então a tensão quase não muda, e a corrente é 9 ÷ 10 000 = 0,9 mA.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** fisica/eletricidade
+
+### 102
+Em uma pesquisa estão sendo testados cinco quimioterápicos quanto à sua capacidade antitumoral. No entanto, para o tratamento de pacientes, sabe-se que é necessário verificar também o quanto cada composto agride células normais. Para o experimento, partiu-se de cultivos de células tumorais (colunas escuras na figura) e células normais (colunas claras) com o mesmo número de células iniciais. Dois grupos-controle não receberam quimioterápicos: controle de células tumorais (CT) e de células normais (CN). As colunas I, II, III, IV e V correspondem aos grupos tratados com os cinco compostos. O número de células viáveis após os tratamentos está representado pelas colunas.
+
+![Figura](enem-2020-d2-q102-1.webp)
+
+Qual quimioterápico deve ser escolhido para tratamento desse tipo de tumor?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** B
+
+**Explicação:** O melhor remédio reduz muito as células tumorais (colunas escuras) e quase não afeta as normais (colunas claras). O II reduz bem o tumor e mantém as células normais perto do controle.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 102
+
+**Assunto:** biologia/saude-e-doencas
+
+### 104
+O dióxido de carbono passa para o estado sólido (gelo seco) a −78 °C e retorna ao estado gasoso à temperatura ambiente. O gás é facilmente solubilizado em água, capaz de absorver radiação infravermelha da superfície da terra e não conduz eletricidade. Ele é utilizado como matéria-prima para a fotossíntese até o limite de saturação. Após a fixação pelos organismos autotróficos, o gás retorna ao meio ambiente pela respiração aeróbica, fermentação, decomposição ou por resíduos industriais, queima de combustíveis fósseis e queimadas. Apesar da sua importância ecológica, seu excesso causa perturbações no equilíbrio ambiental. Considerando as propriedades descritas, o aumento atmosférico da substância afetará os organismos aquáticos em razão da
+
+- A) redução do potencial hidrogeniônico da água.
+- B) restrição da aerobiose pelo excesso de poluentes.
+- C) diminuição da emissão de oxigênio pelos autótrofos.
+- D) limitação de transferência de energia entre os seres vivos.
+- E) retração dos oceanos pelo congelamento do gás nos polos.
+
+**Resposta:** A
+
+**Explicação:** O CO₂ se dissolve na água e forma ácido carbônico, que libera H⁺. Com mais CO₂, a água fica mais ácida: o pH (potencial hidrogeniônico) diminui, o que afeta os organismos aquáticos.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 104
+
+**Assunto:** quimica/quimica-ambiental
+
+### 106
+Uma pessoa percebe que a bateria de seu veículo fica descarregada após cinco dias sem uso. No início desse período, a bateria funcionava normalmente e estava com o total de sua carga nominal, de 60 Ah. Pensando na possibilidade de haver uma corrente de fuga, que se estabelece mesmo com os dispositivos elétricos do veículo desligados, ele associa um amperímetro digital ao circuito do veículo. Qual dos esquemas indica a maneira com que o amperímetro deve ser ligado e a leitura por ele realizada?
+
+- A) ![Alternativa A](enem-2020-d2-q106-1.webp)
+- B) ![Alternativa D](enem-2020-d2-q106-2.webp)
+- C) ![Alternativa B](enem-2020-d2-q106-3.webp)
+- D) ![Alternativa E](enem-2020-d2-q106-4.webp)
+- E) ![Alternativa C](enem-2020-d2-q106-5.webp)
+
+**Resposta:** B
+
+**Explicação:** O amperímetro mede corrente e deve ficar em série com o circuito, entre a bateria e o restante. A carga de 60 Ah some em 5 dias (120 h): a corrente de fuga é 60 ÷ 120 = 0,5 A.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** fisica/eletricidade
+
+### 107
+Um microempresário do ramo de cosméticos utiliza óleos essenciais e quer produzir um creme com fragrância de rosas. O principal componente do óleo de rosas tem cadeia poli-insaturada e hidroxila em carbono terminal. O catálogo dos óleos essenciais apresenta, para escolha da essência, estas estruturas químicas:
+
+![Figura](enem-2020-d2-q107-1.webp)
+
+Qual substância o empresário deverá utilizar?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** A
+
+**Explicação:** O componente do óleo de rosas tem cadeia aberta, com duas ligações duplas (poli-insaturada) e o grupo OH no carbono da ponta (hidroxila terminal). Só a estrutura 1 reúne tudo isso.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 107
+
+**Assunto:** quimica/quimica-organica
+
+### 108
+Nos desenhos animados, com frequência se vê um personagem correndo na direção de um abismo, mas, ao invés de cair, ele continua andando no vazio e só quando percebe que não há nada sob seus pés é que ele para de andar e cai verticalmente. No entanto, para observar uma trajetória de queda num experimento real, pode-se lançar uma bolinha, com velocidade constante (V₀), sobre a superfície de uma mesa e verificar o seu movimento de queda até o chão. Qual figura melhor representa a trajetória de queda da bolinha?
+
+- A) ![Alternativa A](enem-2020-d2-q108-1.webp)
+- B) ![Alternativa B](enem-2020-d2-q108-2.webp)
+- C) ![Alternativa C](enem-2020-d2-q108-3.webp)
+- D) ![Alternativa D](enem-2020-d2-q108-4.webp)
+- E) ![Alternativa E](enem-2020-d2-q108-5.webp)
+
+**Resposta:** D
+
+**Explicação:** Ao sair da mesa, a bolinha mantém a velocidade horizontal e passa a cair acelerada pela gravidade. A trajetória é uma parábola, que começa na borda da mesa.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 108
+
+**Assunto:** fisica/cinematica
+
+### 113
+As moedas despertam o interesse de colecionadores, numismatas e investidores há bastante tempo. Uma moeda de 100% cobre, circulante no período do Brasil Colônia, pode ser bastante valiosa. O elevado valor gera a necessidade de realização de testes que validem a procedência da moeda, bem como a veracidade de sua composição. Sabendo que a densidade do cobre metálico é próxima de 9 g cm⁻³, um investidor negocia a aquisição de um lote de quatro moedas A, B, C e D fabricadas supostamente de 100% cobre e massas 26 g, 27 g, 10 g e 36 g, respectivamente. Com o objetivo de testar a densidade das moedas, foi realizado um procedimento em que elas foram sequencialmente inseridas em uma proveta contendo 5 mL de água, conforme esquematizado.
+
+![Figura](enem-2020-d2-q113-1.webp)
+
+Com base nos dados obtidos, o investidor adquiriu as moedas
+
+- A) A e B.
+- B) A e C.
+- C) B e C.
+- D) B e D.
+- E) C e D.
+
+**Resposta:** D
+
+**Explicação:** Cada moeda desloca um volume de água igual ao seu volume. Pelas provetas: A ≈ 2 mL, B ≈ 3 mL, C ≈ 2 mL, D ≈ 4 mL. Densidades: A = 26 ÷ 2 = 13; B = 27 ÷ 3 = 9; C = 10 ÷ 2 = 5; D = 36 ÷ 4 = 9 g/cm³. Só B e D têm a densidade do cobre.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 113
+
+**Assunto:** quimica/solucoes
+
+### 115
+Pesquisadores coletaram amostras de água de um rio em pontos diferentes, distantes alguns quilômetros um do outro. Ao longo do rio, há locais de águas limpas, como também locais que recebem descarga de esgoto de área urbana, e locais onde há decomposição ativa com ausência de peixes. Os pesquisadores analisaram dois parâmetros: oxigênio dissolvido (OD) e demanda bioquímica de oxigênio (DBO) em cada ponto de coleta de água, obtendo o gráfico:
+
+![Figura](enem-2020-d2-q115-1.webp)
+
+O OD é proveniente da atmosfera e da fotossíntese que ocorre no curso-d’água e sua concentração é função das variáveis físicas, químicas e bioquímicas locais. A DBO é a quantidade de oxigênio consumido por microrganismos em condições aeróbicas para degradar uma determinada quantidade de matéria orgânica, durante um período de tempo, numa temperatura de incubação específica.
+
+> Disponível em: www.programaaguaazul.rn.gov.br. Acesso em: 16 ago. 2014 (adaptado).
+
+Qual ponto de amostragem da água do rio está mais próximo ao local em que o rio recebe despejo de esgoto?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** A
+
+**Explicação:** Onde chega o esgoto há muita matéria orgânica: a DBO é alta e o oxigênio dissolvido é baixo. No ponto 1, a DBO é a maior (cerca de 12 mg/L), indicando o despejo.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 115
+
+**Assunto:** biologia/ecologia
+
+### 117
+Em uma aula sobre metabolismo energético, foi apresentado um experimento clássico realizado por Engelmann. Um recipiente contendo bactérias aeróbias e uma alga verde filamentosa foi submetido à iluminação de uma fonte de luz, representada pelo microespectro. Após a explicação, um aluno esquematizou na lousa o resultado do referido experimento.
+
+![Figura](enem-2020-d2-q117-1.webp)
+
+Considerando a figura, a faixa do microespectro em que a alga possui maior taxa de realização fotossintética é a do:
+
+- A) Anil.
+- B) Verde.
+- C) Violeta.
+- D) Amarelo.
+- E) Vermelho.
+
+**Resposta:** E
+
+**Explicação:** As bactérias aeróbias se juntam onde há mais oxigênio, isto é, onde a alga faz mais fotossíntese. Na figura, a maior concentração está na faixa do vermelho.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 117
+
+**Assunto:** biologia/ecologia
+
+### 123
+Nos dias atuais, o amplo uso de objetos de plástico gera bastante lixo, que muitas vezes é eliminado pela população por meio da queima. Esse procedimento é prejudicial ao meio ambiente por lançar substâncias poluentes. Para constatar esse problema, um estudante analisou a decomposição térmica do policloreto de vinila (PVC), um tipo de plástico, cuja estrutura é representada na figura.
+
+![Figura](enem-2020-d2-q123-1.webp)
+
+Para realizar esse experimento, o estudante colocou uma amostra de filme de PVC em um tubo de ensaio e o aqueceu, promovendo a decomposição térmica. Houve a liberação majoritária de um gás diatômico heteronuclear que foi recolhido em um recipiente acoplado ao tubo de ensaio. Esse gás, quando borbulhado em solução alcalina diluída contendo indicador ácido-base, alterou a cor da solução. Além disso, em contato com uma solução aquosa de carbonato de sódio (Na₂CO₃), liberou gás carbônico. Qual foi o gás liberado majoritariamente na decomposição térmica desse tipo de plástico?
+
+- A) H₂
+- B) Cl₂
+- C) CO
+- D) CO₂
+- E) HCl
+
+**Resposta:** E
+
+**Explicação:** O PVC tem cloro na cadeia. Na queima, forma-se um gás diatômico heteronuclear que deixa a solução ácida e libera CO₂ com carbonato de sódio: é o cloreto de hidrogênio, HCl.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** quimica/quimica-organica
+
+### 124
+Uma população (momento A) sofre isolamento em duas subpopulações (momento B) por um fator de isolamento (I). Passado um tempo, essas subpopulações apresentam características fenotípicas e genotípicas que as distinguem (momento C), representadas na figura pelas tonalidades de cor. O posterior desaparecimento do fator de isolamento I pode levar, no momento D, às situações D1 e D2.
+
+![Figura](enem-2020-d2-q124-1.webp)
+
+A representação indica que, no momento D, na situação
+
+- A) D1 ocorre um novo fator de isolamento geográfico.
+- B) D1 existe uma única população distribuída em gradiente.
+- C) D1 ocorrem duas populações separadas por isolamento reprodutivo.
+- D) D2 coexistem duas populações com características fenotípicas distintas.
+- E) D2 foram preservadas as mesmas características fenotípicas da população original A.
+
+**Resposta:** C
+
+**Explicação:** Em D1, as duas populações se encontram novamente, mas continuam separadas: já não conseguem se reproduzir entre si (isolamento reprodutivo), ou seja, formaram espécies diferentes.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** biologia/evolucao
+
+### 131
+Herschel, em 1880, começou a escrever sobre a condensação da luz solar no foco de uma lente e queria verificar de que maneira os raios coloridos contribuem para o aquecimento. Para isso, ele projetou sobre um anteparo o espectro solar obtido com um prisma, colocou termômetros nas diversas faixas de cores e verificou nos dados obtidos que um dos termômetros iluminados indicou um aumento de temperatura maior para uma determinada faixa de frequências.
+
+> SAYURI, M.; GASPAR, M. B. Infravermelho na sala de aula. Disponível em: www.cienciamao.usp.br. Acesso em: 15 ago. 2016 (adaptado).
+
+Para verificar a hipótese de Herschel, um estudante montou o dispositivo apresentado na figura. Nesse aparato, cinco recipientes contendo água, à mesma temperatura inicial, e separados por um material isolante térmico e refletor são posicionados lado a lado (A, B, C, D e E) no interior de uma caixa de material isolante térmico e opaco. A luz solar, ao entrar na caixa, atravessa o prisma e incide sobre os recipientes. O estudante aguarda até que ocorra o aumento da temperatura e a afere em cada recipiente.
+
+![Figura](enem-2020-d2-q131-1.webp)
+
+Em qual dos recipientes a água terá maior temperatura ao final do experimento?
+
+- A) A
+- B) B
+- C) C
+- D) D
+- E) E
+
+**Resposta:** A
+
+**Explicação:** Herschel descobriu que além do vermelho há uma radiação invisível que aquece muito: o infravermelho. O recipiente A fica nessa faixa, após o vermelho, e esquenta mais.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 131
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 132
+A Química Verde é um ramo da química que prega o desenvolvimento de processos eficientes, que transformem a maior parte do reagente em produto, de forma mais rápida e seletiva, que utilizem poucos reagentes, que produzam somente o produto desejado, evitando a formação de coprodutos, e que utilizem solventes não agressivos ao meio ambiente. Assim, as indústrias contornariam problemas relacionados à poluição ambiental e ao desperdício de água e energia. O perfil de um processo que segue todos os princípios desse ramo da química pode ser representado por:
+
+- A) A + B + C → D (a reação ocorre a altas pressões).
+- B) A + B → C + D (a reação é fortemente endotérmica).
+- C) A + 3B → C (a reação ocorre com uso de solvente orgânico).
+- D) 3A + 2B → 2C → 3D + 2E (a reação ocorrre sob pressão atmosférica).
+- E) A + ½B → C (a reação ocorre com o uso de um catalisador contendo um metal não tóxico).
+
+**Resposta:** E
+
+**Explicação:** A Química Verde quer todo o reagente virando produto (sem coprodutos), menos energia e nada de solventes ou metais tóxicos. A + ½B → C forma um só produto e usa catalisador não tóxico.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 132
+
+**Assunto:** quimica/quimica-ambiental
+
+### 134
+Um mergulhador fica preso ao explorar uma caverna no oceano. Dentro da caverna formou-se um bolsão de ar, como mostrado na figura, onde o mergulhador se abrigou.
+
+![Figura](enem-2020-d2-q134-1.webp)
+
+Durante o resgate, para evitar danos a seu organismo, foi necessário que o mergulhador passasse por um processo de descompressão antes de retornar à superfície para que seu corpo ficasse novamente sob pressão atmosférica. O gráfico mostra a relação entre os tempos de descompressão recomendados para indivíduos nessa situação e a variação de pressão.
+
+![Figura](enem-2020-d2-q134-2.webp)
+
+Considere que a aceleração da gravidade seja igual a 10 m s⁻² e que a densidade da água seja de ρ = 1 000 kg m⁻³. Em minutos, qual é o tempo de descompressão a que o mergulhador deverá ser submetido?
+
+- A) 100
+- B) 80
+- C) 60
+- D) 40
+- E) 20
+
+**Resposta:** C
+
+**Explicação:** O bolsão está a 50 m de profundidade. A pressão a mais é ρ g h = 1 000 × 10 × 50 = 500 000 Pa = 500 kPa. No gráfico, 500 kPa corresponde a 60 minutos de descompressão.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 134
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
 ## Difícil
 
 ### 109
@@ -558,3 +869,49 @@ Como a pressão exercida pela torre se compara com a pressão exercida pelo prot
 **Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 135
 
 **Assunto:** fisica/estatica-e-hidrostatica
+
+### 116
+O crescimento da frota de veículos em circulação no mundo tem levado à busca e desenvolvimento de tecnologias que permitam minimizar emissões de poluentes atmosféricos. O uso de veículos elétricos é uma das propostas mais propagandeadas por serem de emissão zero. Podemos comparar a emissão de carbono na forma de CO₂ (massa molar igual a 44 g mol⁻¹) para os dois tipos de carros (a combustão e elétrico). Considere que os veículos tradicionais a combustão, movidos a etanol (massa molar igual a 46 g mol⁻¹), emitem uma média de 2,6 mol de CO₂ por quilômetro rodado, e os elétricos emitem o equivalente a 0,45 mol de CO₂ por quilômetro rodado (considerando as emissões na geração e transmissão da eletricidade). A reação de combustão do etanol pode ser representada pela equação química:
+
+C₂H₅OH (l) + 3 O₂ (g) → 2 CO₂ (g) + 3 H₂O (g)
+
+Foram analisadas as emissões de CO₂ envolvidas em dois veículos, um movido a etanol e outro elétrico, em um mesmo trajeto de 1 000 km.
+
+> CHIARADIA, C. A. Estudo da viabilidade da implantação de frotas de veículos elétricos e híbridos elétricos no atual cenário econômico, político, energético e ambiental brasileiro. Guaratinguetá: Unesp, 2015 (adaptado).
+
+A quantidade equivalente de etanol economizada, em quilograma, com o uso do veículo elétrico nesse trajeto, é mais próxima de
+
+- A) 50.
+- B) 60.
+- C) 95.
+- D) 99.
+- E) 120.
+
+**Resposta:** A
+
+**Explicação:** Por quilômetro, o carro a etanol emite 2,6 mol de CO₂ e o elétrico 0,45 mol: diferença de 2,15 mol. Em 1 000 km: 2 150 mol de CO₂. Pela equação, 1 mol de etanol gera 2 mol de CO₂: 1 075 mol de etanol × 46 g ≈ 49 kg, perto de 50 kg.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 116
+
+**Assunto:** quimica/estequiometria
+
+### 122
+Você foi contratado para sincronizar os quatro semáforos de uma avenida, indicados pelas letras O, A, B e C, conforme a figura.
+
+![Figura](enem-2020-d2-q122-1.webp)
+
+Os semáforos estão separados por uma distância de 500 m. Segundo os dados estatísticos da companhia controladora de trânsito, um veículo, que está inicialmente parado no semáforo O, tipicamente parte com aceleração constante de 1 m s⁻² até atingir a velocidade de 72 km h⁻¹ e, a partir daí, prossegue com velocidade constante. Você deve ajustar os semáforos A, B e C de modo que eles mudem para a cor verde quando o veículo estiver a 100 m de cruzá-los, para que ele não tenha que reduzir a velocidade em nenhum momento. Considerando essas condições, aproximadamente quanto tempo depois da abertura do semáforo O os semáforos A, B e C devem abrir, respectivamente?
+
+- A) 20 s, 45 s e 70 s.
+- B) 25 s, 50 s e 75 s.
+- C) 28 s, 42 s e 53 s.
+- D) 30 s, 55 s e 80 s.
+- E) 35 s, 60 s e 85 s.
+
+**Resposta:** D
+
+**Explicação:** O carro acelera a 1 m/s² até 20 m/s (72 km/h) em 20 s, percorrendo 200 m. Depois anda a 20 m/s. Ele está a 100 m de A após 400 m: 20 s + 200 ÷ 20 = 30 s. Para B (900 m) e C (1 400 m), mais 25 s cada: 55 s e 80 s.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** fisica/cinematica

@@ -202,6 +202,77 @@ No contexto das distintas formas de apropriação da terra, o poema de Cora Cora
 
 **Assunto:** geografia/economia-agropecuaria-industria-energia
 
+### 50
+A expansão das cidades e a formação das aglomerações urbanas no Brasil foram marcadas pela produção industrial e pela consolidação das metrópoles como locais de seu desenvolvimento. Na segunda metade do século XX, as metrópoles brasileiras estenderam-se por áreas de ocupação contínua, configurando densas regiões urbanizadas.
+
+> MOURA, R. Arranjos urbano-regionais no Brasil: especificidades e reprodução de padrões. Disponível em: www.ub.edu. Acesso em: 11 fev. 2015.
+
+O resultado do processo geográfico descrito foi o(a)
+
+- A) valorização da escala local.
+- B) crescimento das áreas periféricas.
+- C) densificação do transporte ferroviário.
+- D) predomínio do planejamento estadual.
+- E) inibição de consórcios intermunicipais.
+
+**Resposta:** B
+
+**Explicação:** As metrópoles se expandiram por áreas de ocupação contínua, ou seja, a cidade cresceu para as bordas, com o crescimento das áreas periféricas.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 50
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 54
+A arte pré-histórica africana foi incontestavelmente um veículo de mensagens pedagógicas e sociais. Os San, que constituem hoje o povo mais próximo da realidade das representações rupestres, afirmam que seus antepassados lhes explicaram sua visão do mundo a partir desse gigantesco livro de imagens que são as galerias. A educação dos povos que desconhecem a escrita está baseada sobretudo na imagem e no som, no audiovisual.
+
+> KI-ZERBO, J. A arte pré-histórica africana. In: KI-ZERBO, J. (Org.) História geral da África, I: metodologia e pré-história da África. Brasília: Unesco, 2010.
+
+De acordo com o texto, a arte mencionada é importante para os povos que a cultivam por colaborar para o(a)
+
+- A) transmissão dos saberes acumulados.
+- B) expansão da propriedade individual.
+- C) ruptura da disciplina hierárquica.
+- D) surgimento dos laços familiares.
+- E) rejeição de práticas exógenas.
+
+**Resposta:** A
+
+**Explicação:** O texto diz que a arte rupestre transmitia mensagens pedagógicas e que os antepassados explicavam sua visão de mundo pelas pinturas. A arte servia para transmitir os saberes acumulados.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 54
+
+**Assunto:** historia/antiguidade-e-idade-media
+
+### 88
+TEXTO I
+
+![Figura](enem-2020-d1-q088-1.webp)
+
+Rio Tietê, São Paulo (SP). Foto: Delfim Martins/Pulsar.
+
+TEXTO II
+
+O Rio Tietê está morto. Ao menos uma parte dele: 137 quilômetros, para ser mais preciso. Uma pesquisa da Fundação SOS Mata Atlântica mostra que, em 2016, o trecho do rio com qualidade de água classificada como ruim ou péssima começa em Itaquaquecetuba, passa por toda a Região Metropolitana de São Paulo e chega até Cabreúva, já no interior de São Paulo. Nesse trecho, a água não tem oxigênio suficiente para abrigar vida.
+
+> Disponível em: http://epoca.globo.com. Acesso em: 7 dez. 2017 (adaptado).
+
+Considerando a análise dos textos, a condição atual desse rio tem como origem a
+
+- A) valorização do sítio urbano.
+- B) extinção da vegetação nativa.
+- C) recepção de densa carga de dejetos.
+- D) captação desordenada do regime pluvial.
+- E) expansão do uso de defensivos químicos.
+
+**Resposta:** C
+
+**Explicação:** A foto e o texto mostram o Tietê "morto" no trecho da Grande São Paulo: o rio recebe grande quantidade de esgoto doméstico e industrial, que consome o oxigênio da água.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 88
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
 ## Médio
 
 ### 46
@@ -770,6 +841,115 @@ Sobre a tragédia de Mariana, os textos apresentam divergência quanto ao(à)
 **Fonte:** ENEM 2020, 1º dia, caderno azul, questão 90
 
 **Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 51
+Zona de pastoreio e cultura do algodão e cereais do agreste (1963)
+
+![Figura](enem-2020-d1-q051-1.webp)
+
+> ANDRADE, M. C. A terra e o homem no Nordeste. São Paulo: Brasiliense, 1963.
+
+A dinâmica produtiva apresentada na imagem tem como estratégia central a
+
+- A) separação pelo tipo de solo.
+- B) exportação da colheita sazonal.
+- C) priorização da tecnologia moderna.
+- D) adequação pelo tempo da natureza.
+- E) intensificação da atividade pecuária.
+
+**Resposta:** D
+
+**Explicação:** O calendário circular mostra o pastoreio, o plantio, a limpa e as colheitas de feijão, milho e algodão distribuídos pelos meses. O trabalho segue o ritmo das chuvas e da seca: adequação ao tempo da natureza.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 51
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 65
+![Figura](enem-2020-d1-q065-1.webp)
+
+O conjunto representado pelo agronegócio demanda condições específicas que passam a ser exigidas dos territórios. Como há uma elevação da formação de fluxos, materiais e imateriais, a crescente articulação com as escalas que vão do local ao global terminam por pressionar o Estado a agir visando uma instalação no território de fixos diversos, bem como de uma regulação específica.
+
+> LIMA, R. C.; PENNA, N. A. A logística de transportes do agronegócio em Mato Grosso (Brasil). Confins, n. 26, fev. 2016.
+
+O mapa e o texto se complementam indicando que a expansão das rodovias se deu como resposta ao(à)
+
+- A) alteração da matriz econômica.
+- B) substituição do modal hidroviário.
+- C) retração do contingente demográfico.
+- D) projeção do escoamento produtivo.
+- E) estagnação de lavouras policultoras.
+
+**Resposta:** D
+
+**Explicação:** O mapa mostra rodovias ligando o Centro-Oeste aos portos, e o texto fala dos fluxos do agronegócio. As estradas foram abertas para escoar a produção agrícola.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 65
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 67
+![Figura](enem-2020-d1-q067-1.webp)
+
+> Disponível em: https://noticias.uol.com.br. Acesso em: 13 jun. 2018 (adaptado).
+
+Os aspectos físicos apresentados originam-se da atuação da força natural de
+
+- A) colisão de placas tectônicas.
+- B) rifteamento da crosta terrestre.
+- C) subducção da plataforma oceânica.
+- D) formação de cadeias montanhosas.
+- E) metamorfismo de bordas continentais.
+
+**Resposta:** B
+
+**Explicação:** O Vale da Grande Fenda, na África Oriental, é uma área em que a crosta está se rompendo e se afastando (rifteamento), com vulcões ao longo da fenda.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 67
+
+**Assunto:** geografia/geografia-fisica
+
+### 68
+A reabilitação da biografia histórica integrou as aquisições da história social e cultural, oferecendo aos diferentes atores históricos uma importância diferenciada, distinta, individual. Mas não se tratava mais de fazer, simplesmente, a história dos grandes nomes, em formato hagiográfico — quase uma vida de santo —, sem problemas, nem máculas. Mas de examinar os atores (ou o ator) célebres ou não, como testemunhas, como reflexos, como reveladores de uma época.
+
+> DEL PRIORE, M. Biografia: quando o indivíduo encontra a história. Topoi, n. 19, jul.-dez. 2009.
+
+De acordo com o texto, novos estudos têm valorizado a história do indivíduo por se constituir como possibilidade de
+
+- A) adesão ao método positivista.
+- B) expressão do papel das elites.
+- C) resgate das narrativas heroicas.
+- D) acesso ao cotidiano das comunidades.
+- E) interpretação das manifestações do divino.
+
+**Resposta:** D
+
+**Explicação:** A nova biografia histórica estuda pessoas comuns ou célebres como reveladoras de sua época. Isso dá acesso ao cotidiano das comunidades, e não só à história dos grandes nomes.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 68
+
+**Assunto:** historia/seculo-xx
+
+### 75
+Afirmar que a cartografia da época moderna integrou o processo de invenção da América por parte dos europeus significa que os conhecimentos dos ameríndios sobre o território foram ignorados pela cartografia europeia ou que eles foram privados de sua representação territorial e da autoridade que seus conhecimentos tinham sobre o espaço.
+
+> OLIVEIRA, T. K. Desconstruindo mapas, revelando espacializações: reflexões sobre o uso da cartografia em estudos sobre o Brasil colonial. Revista Brasileira de História, n. 68, 2014 (adaptado).
+
+Na análise contida no texto, a representação cartográfica da América foi marcada por
+
+- A) asserção da cultura dos nativos.
+- B) avanço dos estudos do ambiente.
+- C) afirmação das formas de dominação.
+- D) exatidão da demarcação das regiões.
+- E) aprimoramento do conceito de fronteira.
+
+**Resposta:** C
+
+**Explicação:** O texto diz que os mapas europeus apagaram o conhecimento dos ameríndios e ajudaram a "inventar" a América do ponto de vista europeu. A cartografia afirmava a dominação.
+
+**Fonte:** ENEM 2020, 1º dia, caderno azul, questão 75
+
+**Assunto:** historia/brasil-colonia
 
 ## Difícil
 

@@ -134,6 +134,111 @@ Dessas pessoas que foram submetidas à coleta de sangue, o número das que possu
 
 **Assunto:** raciocinio-logico/conjuntos
 
+### 147
+Pesquisadores da Universidade de Tecnologia de Viena, na Áustria, produziram miniaturas de objetos em impressoras 3D de alta precisão. Ao serem ativadas, tais impressoras lançam feixes de laser sobre um tipo de resina, esculpindo o objeto desejado. O produto final da impressão é uma escultura microscópica de três dimensões, como visto na imagem ampliada.
+
+![Figura](enem-2020-d2-q147-1.webp)
+
+A escultura apresentada é uma miniatura de um carro de Fórmula 1, com 100 micrômetros de comprimento. Um micrômetro é a milionésima parte de um metro. Usando notação científica, qual é a representação do comprimento dessa miniatura, em metro?
+
+- A) 1,0 × 10⁻¹
+- B) 1,0 × 10⁻³
+- C) 1,0 × 10⁻⁴
+- D) 1,0 × 10⁻⁶
+- E) 1,0 × 10⁻⁷
+
+**Resposta:** C
+
+**Explicação:** 1 micrômetro = 10⁻⁶ m. Então 100 micrômetros = 10² × 10⁻⁶ = 10⁻⁴ m.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 147
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 149
+Uma empresa de ônibus utiliza um sistema de vendas de passagens que fornece a imagem de todos os assentos do ônibus, diferenciando os assentos já vendidos, por uma cor mais escura, dos assentos ainda disponíveis. A empresa monitora, permanentemente, o número de assentos já vendidos e compara-o com o número total de assentos do ônibus para avaliar a necessidade de alocação de veículos extras.
+
+Na imagem tem-se a informação dos assentos já vendidos e dos ainda disponíveis em um determinado instante.
+
+![Figura](enem-2020-d2-q149-1.webp)
+
+A razão entre o número de assentos já vendidos e o total de assentos desse ônibus, no instante considerado na imagem, é
+
+- A) 16/42
+- B) 16/26
+- C) 26/42
+- D) 42/26
+- E) 42/16
+
+**Resposta:** A
+
+**Explicação:** Contando na imagem, há 42 assentos, dos quais 16 estão vendidos (os mais escuros). A razão vendidos/total é 16/42.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 151
+Os gráficos representam a produção de peças em uma indústria e as horas trabalhadas dos funcionários no período de cinco dias. Em cada dia, o gerente de produção aplica uma metodologia diferente de trabalho. Seu objetivo é avaliar a metodologia mais eficiente para utilizá-la como modelo nos próximos períodos. Sabe-se que, neste caso, quanto maior for a razão entre o número de peças produzidas e o número de horas trabalhadas, maior será a eficiência da metodologia.
+
+![Figura](enem-2020-d2-q151-1.webp)
+
+Em qual dia foi aplicada a metodologia mais eficiente?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** C
+
+**Explicação:** Eficiência = peças ÷ horas: dia 1 = 800 ÷ 4 = 200; dia 2 = 1 000 ÷ 8 = 125; dia 3 = 1 100 ÷ 5 = 220; dia 4 = 1 800 ÷ 9 = 200; dia 5 = 1 400 ÷ 10 = 140. O maior valor é o do dia 3.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 158
+Uma das Sete Maravilhas do Mundo Moderno é o Templo de Kukulkán, localizado na cidade de Chichén Itzá, no México. Geometricamente, esse templo pode ser representado por um tronco reto de pirâmide de base quadrada. As quantidades de cada tipo de figura plana que formam esse tronco de pirâmide são
+
+- A) 2 quadrados e 4 retângulos.
+- B) 1 retângulo e 4 triângulos isósceles.
+- C) 2 quadrados e 4 trapézios isósceles.
+- D) 1 quadrado, 3 retângulos e 2 trapézios retângulos.
+- E) 2 retângulos, 2 quadrados e 2 trapézios retângulos.
+
+**Resposta:** C
+
+**Explicação:** O tronco de pirâmide de base quadrada tem duas bases quadradas (uma maior e uma menor) e quatro faces laterais que são trapézios isósceles.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 158
+
+**Assunto:** matematica/geometria-espacial
+
+### 171
+A exposição a barulhos excessivos, como os que percebemos em geral em trânsitos intensos, casas noturnas e espetáculos musicais, podem provocar insônia, estresse, infarto, perda de audição, entre outras enfermidades. De acordo com a Organização Mundial da Saúde, todo e qualquer som que ultrapasse os 55 decibéis (unidade de intensidade do som) já pode ser considerado nocivo para a saúde. O gráfico foi elaborado a partir da medição do ruído produzido, durante um dia, em um canteiro de obras.
+
+![Figura](enem-2020-d2-q171-1.webp)
+
+> Disponível em: www.revistaencontro.com.br. Acesso em: 12 ago. 2020 (adaptado).
+
+Nesse dia, durante quantas horas o ruído esteve acima de 55 decibéis?
+
+- A) 5
+- B) 8
+- C) 10
+- D) 11
+- E) 13
+
+**Resposta:** E
+
+**Explicação:** Conte, no gráfico, as horas em que a curva fica acima da linha de 55 decibéis. Somando os intervalos ao longo do dia, são 13 horas.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/estatistica
+
 ## Médio
 
 ### 140
@@ -394,6 +499,368 @@ Nesse caso, o mais amplo intervalo numérico ao qual a profundidade da pisada (b
 
 **Assunto:** matematica/equacoes-e-sistemas
 
+### 136
+Um administrador resolve estudar o lucro de sua empresa e, para isso, traça o gráfico da receita e do custo de produção de seus itens, em real, em função da quantidade de itens produzidos.
+
+![Figura](enem-2020-d2-q136-1.webp)
+
+O lucro é determinado pela diferença: Receita – Custo. O gráfico que representa o lucro dessa empresa, em função da quantidade de itens produzidos, é
+
+- A) ![Alternativa A](enem-2020-d2-q136-2.webp)
+- B) ![Alternativa D](enem-2020-d2-q136-3.webp)
+- C) ![Alternativa B](enem-2020-d2-q136-4.webp)
+- D) ![Alternativa E](enem-2020-d2-q136-5.webp)
+- E) ![Alternativa C](enem-2020-d2-q136-6.webp)
+
+**Resposta:** A
+
+**Explicação:** Lucro = receita − custo. No início o custo supera a receita (lucro negativo), depois a receita fica bem acima do custo e, no fim, volta a se aproximar dele. Só o gráfico da primeira alternativa tem esse formato.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 136
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 137
+Em um jogo desenvolvido para uso no computador, objetos tridimensionais vão descendo do alto da tela até alcançarem o plano da base. O usuário pode mover ou girar cada objeto durante sua descida para posicioná-lo convenientemente no plano horizontal. Um desses objetos é formado pela justaposição de quatro cubos idênticos, formando assim um sólido rígido, como ilustrado na figura.
+
+![Figura](enem-2020-d2-q137-1.webp)
+
+Para facilitar a movimentação do objeto pelo usuário, o programa projeta ortogonalmente esse sólido em três planos quadriculados perpendiculares entre si, durante sua descida. A figura que apresenta uma possível posição desse sólido, com suas respectivas projeções ortogonais sobre os três planos citados, durante sua descida é
+
+- A) ![Alternativa A](enem-2020-d2-q137-2.webp)
+- B) ![Alternativa D](enem-2020-d2-q137-3.webp)
+- C) ![Alternativa B](enem-2020-d2-q137-4.webp)
+- D) ![Alternativa E](enem-2020-d2-q137-5.webp)
+- E) ![Alternativa C](enem-2020-d2-q137-6.webp)
+
+**Resposta:** E
+
+**Explicação:** Cada projeção ortogonal deve mostrar a "sombra" do sólido no plano: a do chão, a da parede do fundo e a da parede lateral. Comparando com o sólido de quatro cubos, só a última alternativa tem as três projeções corretas.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 137
+
+**Assunto:** matematica/geometria-espacial
+
+### 138
+Um clube deseja produzir miniaturas em escala do troféu que ganhou no último campeonato. O troféu está representado na Figura 1 e é composto por uma base em formato de um paralelepípedo reto-retângulo de madeira, sobre a qual estão fixadas três hastes verticais que sustentam uma esfera de 30 cm de diâmetro, que fica centralizada sobre a base de madeira. O troféu tem 100 cm de altura, incluída sua base.
+
+![Figura](enem-2020-d2-q138-1.webp)
+
+![Figura](enem-2020-d2-q138-2.webp)
+
+A miniatura desse troféu deverá ser instalada no interior de uma caixa de vidro, em formato de paralelepípedo reto-retângulo, cujas dimensões internas de sua base estão indicadas na Figura 2, de modo que a base do troféu seja colada na base da caixa e distante das paredes laterais da caixa de vidro em pelo menos 1 cm. Deve ainda haver uma distância de exatos 2 cm entre o topo da esfera e a tampa dessa caixa de vidro. Nessas condições deseja-se fazer a maior miniatura possível. A medida da altura, em centímetro, dessa caixa de vidro deverá ser igual a
+
+- A) 12.
+- B) 14.
+- C) 16.
+- D) 18.
+- E) 20.
+
+**Resposta:** B
+
+**Explicação:** A base da caixa mede 8 cm × 10 cm, e o troféu precisa ficar a pelo menos 1 cm das paredes: a base da miniatura pode ter no máximo 6 cm (8 − 2). A escala é 6/50 = 0,12, e a altura fica 100 × 0,12 = 12 cm. Somando os 2 cm até a tampa: 14 cm.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 138
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 142
+Três amigos, André, Bernardo e Carlos, moram em um condomínio fechado de uma cidade. O quadriculado representa a localização das ruas paralelas e perpendiculares, delimitando quadras de mesmo tamanho nesse condomínio, em que nos pontos A, B e C estão localizadas as casas de André, Bernardo e Carlos, respectivamente.
+
+![Figura](enem-2020-d2-q142-1.webp)
+
+André deseja deslocar-se da sua casa até a casa de Bernardo, sem passar pela casa de Carlos, seguindo ao longo das ruas do condomínio, fazendo sempre deslocamentos para a direita ( → ) ou para cima ( ↑ ), segundo o esquema da figura. O número de diferentes caminhos que André poderá utilizar para realizar o deslocamento nas condições propostas é
+
+- A) 4.
+- B) 14.
+- C) 17.
+- D) 35.
+- E) 48.
+
+**Resposta:** C
+
+**Explicação:** De A até B são 4 passos para a direita e 3 para cima: C(7, 3) = 35 caminhos. Os que passam por C: de A até C (2 e 2) há C(4, 2) = 6 caminhos, e de C até B (2 e 1) há C(3, 1) = 3; são 6 × 3 = 18. Sem passar por C: 35 − 18 = 17.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 142
+
+**Assunto:** matematica/analise-combinatoria
+
+### 145
+Um processo de aeração, que consiste na introdução de ar num líquido, acontece do seguinte modo: uma bomba B retira o líquido de um tanque T1 e o faz passar pelo aerador A1, que aumenta o volume do líquido em 15%, e em seguida pelo aerador A2, ganhando novo aumento de volume de 10%. Ao final, ele fica armazenado num tanque T2, de acordo com a figura.
+
+![Figura](enem-2020-d2-q145-1.webp)
+
+Os tanques T1 e T2 são prismas retos de bases retangulares, sendo que a base de T1 tem comprimento c e largura L, e a base de T2 tem comprimento c/2 e largura 2L.
+
+Para finalizar o processo de aeração sem derramamento do líquido em T2, o responsável deve saber a relação entre a altura da coluna de líquido que já saiu de T1, denotada por X, e a altura da coluna de líquido que chegou a T2, denotada por y.
+
+> Disponível em: www.dec.ufcg.edu.br. Acesso em: 21 abr. 2015.
+
+A equação que relaciona as medidas das alturas y e x é dada por
+
+- A) y = 1,265x
+- B) y = 1,250x
+- C) y = 1,150x
+- D) y = 1,125x
+- E) y = x
+
+**Resposta:** A
+
+**Explicação:** O volume aumenta 15% e depois 10%: 1,15 × 1,10 = 1,265. As bases têm a mesma área (c·L e (c/2)·2L), então a altura em T2 é 1,265 vez a altura que saiu de T1: y = 1,265x.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/geometria-espacial
+
+### 148
+A fabricação da Bandeira Nacional deve obedecer ao descrito na Lei n. 5.700, de 1º de setembro de 1971, que trata dos Símbolos Nacionais. No artigo que se refere às dimensões da Bandeira, observa-se:
+
+“Para cálculos das dimensões, será tomada por base a largura, dividindo-a em 14 (quatorze) partes iguais, sendo que cada uma das partes será considerada uma medida ou módulo (M). Os demais requisitos dimensionais seguem o critério abaixo:
+
+I.
+
+Comprimento será de vinte módulos (20 M);
+
+> II. A distância dos vértices do losango amarelo ao quadro externo será de um módulo e sete décimos (1,7 M); III. O raio do círculo azul no meio do losango amarelo será de três módulos e meio (3,5 M).” BRASIL. Lei n. 5.700, de 1º de setembro de 1971.Disponível em: www.planalto.gov.br. Acesso em: 15 set. 2015.
+
+A figura indica as cores da bandeira do Brasil e localiza o quadro externo a que se refere a Lei n. 5.700.
+
+![Figura](enem-2020-d2-q148-1.webp)
+
+Um torcedor, preparando-se para a Copa do Mundo e dispondo de cortes de tecidos verde (180 cm x 150 cm) e amarelo (o quanto baste), deseja confeccionar a maior Bandeira Nacional possível a partir das medidas do tecido verde. Qual a medida, em centímetro, do lado do menor quadrado de tecido azul que deverá ser comprado para confecção do círculo da bandeira desejada?
+
+- A) 27
+- B) 32
+- C) 53
+- D) 63
+- E) 90
+
+**Resposta:** D
+
+**Explicação:** A bandeira tem 20 M de comprimento e 14 M de largura. No tecido de 180 cm × 150 cm: 20 M ≤ 180 dá M ≤ 9, e 14 M ≤ 150 dá M ≤ 10,7. Então M = 9 cm. O círculo tem raio 3,5 M = 31,5 cm e diâmetro 63 cm, que é o lado do quadrado azul.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 148
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 155
+A Pesquisa Nacional por Amostra de Domicílios (Pnad) é uma pesquisa feita anualmente pelo IBGE, exceto nos anos em que há Censo. Em um ano, foram entrevistados 363 mil jovens para fazer um levantamento sobre suas atividades profissionais e/ou acadêmicas. Os resultados da pesquisa estão indicados no gráfico.
+
+![Figura](enem-2020-d2-q155-1.webp)
+
+> Disponível em: http://noticias.uol.com.br. Acesso em: 20 ago. 2014.
+
+De acordo com as informações dadas, o número de jovens entrevistados que trabalha é
+
+- A) 114 708.
+- B) 164 076.
+- C) 213 444.
+- D) 284 592.
+- E) 291 582.
+
+**Resposta:** C
+
+**Explicação:** Trabalham os que "somente trabalham" (45,2%) e os que "trabalham e estudam" (13,6%): 58,8%. Então 0,588 × 363 000 = 213 444 jovens.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 155
+
+**Assunto:** matematica/porcentagem
+
+### 159
+A Figura 1 apresenta uma casa e a planta do seu telhado, em que as setas indicam o sentido do escoamento da água de chuva. Um pedreiro precisa fazer a planta do escoamento da água de chuva de um telhado que tem três caídas de água, como apresentado na Figura 2.
+
+![Figura](enem-2020-d2-q159-1.webp)
+
+![Figura](enem-2020-d2-q159-2.webp)
+
+A figura que representa a planta do telhado da Figura 2 com o escoamento da água de chuva que o pedreiro precisa fazer é
+
+- A) ![Alternativa A](enem-2020-d2-q159-3.webp)
+- B) ![Alternativa D](enem-2020-d2-q159-4.webp)
+- C) ![Alternativa B](enem-2020-d2-q159-5.webp)
+- D) ![Alternativa E](enem-2020-d2-q159-6.webp)
+- E) ![Alternativa C](enem-2020-d2-q159-7.webp)
+
+**Resposta:** B
+
+**Explicação:** Na planta do telhado de três águas, a água escorre perpendicularmente a cada beiral, em três sentidos, e as linhas de encontro das águas partem dos cantos. A segunda alternativa representa esse escoamento.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 159
+
+**Assunto:** matematica/geometria-espacial
+
+### 163
+O Estatuto do Idoso, no Brasil, prevê certos direitos às pessoas com idade avançada, concedendo a estas, entre outros benefícios, a restituição de imposto de renda antes dos demais contribuintes. A tabela informa os nomes e as idades de 12 idosos que aguardam suas restituições de imposto de renda. Considere que, entre os idosos, a restituição seja concedida em ordem decrescente de idade e que, em subgrupos de pessoas com a mesma idade, a ordem seja decidida por sorteio.
+
+![Figura](enem-2020-d2-q163-1.webp)
+
+Nessas condições, a probabilidade de João ser a sétima pessoa do grupo a receber sua restituição é igual a
+
+- A) 1/12
+- B) 7/12
+- C) 1/8
+- D) 5/6
+- E) 1/4
+
+**Resposta:** E
+
+**Explicação:** Pela ordem de idade, os seis primeiros têm de 89 a 82 anos. Depois vêm quatro idosos de 75 anos (Heloísa, Marisa, Pedro e João), sorteados entre si para as posições 7 a 10. A chance de João ser o sétimo é 1/4.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 163
+
+**Assunto:** matematica/probabilidade
+
+### 166
+O artista gráfico holandês Maurits Cornelius Escher criou belíssimas obras nas quais as imagens se repetiam, com diferentes tamanhos, induzindo ao raciocínio de repetição infinita das imagens. Inspirado por ele, um artista fez um rascunho de uma obra na qual propunha a ideia de construção de uma sequência de infinitos quadrados, cada vez menores, uns sob os outros, conforme indicado na figura.
+
+![Figura](enem-2020-d2-q166-1.webp)
+
+O quadrado PRST, com lado de medida 1, é o ponto de partida. O segundo quadrado é construído sob ele tomando-se o ponto médio da base do quadrado anterior e criando-se um novo quadrado, cujo lado corresponde à metade dessa base. Essa sequência de construção se repete recursivamente. Qual é a medida do lado do centésimo quadrado construído de acordo com esse padrão?
+
+- A) (1/2)¹⁰⁰
+- B) (1/2)⁹⁹
+- C) (1/2)⁹⁷
+- D) (1/2)⁻⁹⁸
+- E) (1/2)⁻⁹⁹
+
+**Resposta:** B
+
+**Explicação:** Os lados formam a progressão geométrica 1, 1/2, 1/4, ... O n-ésimo quadrado tem lado (1/2)ⁿ⁻¹. O centésimo tem lado (1/2)⁹⁹.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 166
+
+**Assunto:** matematica/progressoes
+
+### 167
+O gerente de uma loja de cosméticos colocou à venda cinco diferentes tipos de perfume, tendo em estoque na loja as mesmas quantidades de cada um deles. O setor de controle de estoque encaminhou ao gerente registros gráficos descrevendo os preços unitários de cada perfume, em real, e a quantidade vendida de cada um deles, em percentual, ocorrida no mês de novembro.
+
+![Figura](enem-2020-d2-q167-1.webp)
+
+![Figura](enem-2020-d2-q167-2.webp)
+
+Dados a chegada do final de ano e o aumento das vendas, a gerência pretende aumentar a quantidade estocada do perfume do tipo que gerou a maior arrecadação em espécie, em real, no mês de novembro. Nessas condições, qual o tipo de perfume que deverá ter maior reposição no estoque?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** D
+
+**Explicação:** A arrecadação é proporcional a preço × porcentagem vendida: I = 200 × 13 = 2 600; II = 170 × 10 = 1 700; III = 150 × 16 = 2 400; IV = 100 × 29 = 2 900; V = 80 × 32 = 2 560. A maior é a do perfume IV.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/porcentagem
+
+### 170
+Nos livros Harry Potter, um anagrama do nome do personagem “TOM MARVOLO RIDDLE” gerou a frase “I AM LORD VOLDEMORT”.
+
+Suponha que Harry quisesse formar todos os anagramas da frase “I AM POTTER”, de tal forma que as vogais e consoantes aparecessem sempre intercaladas, e sem considerar o espaçamento entre as letras. Nessas condições, o número de anagramas formados é dado por
+
+- A) 9!
+- B) 4! 5!
+- C) 2 × 4! 5!
+- D) 9!/2
+- E) 4! 5!/2
+
+**Resposta:** E
+
+**Explicação:** "I AM POTTER" tem 4 vogais (I, A, O, E) e 5 consoantes (M, P, T, T, R). Intercaladas, a palavra começa e termina com consoante: C V C V C V C V C. Há 5! ordens das consoantes (divididas por 2, pois o T se repete) e 4! das vogais: 4! 5!/2.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 170
+
+**Assunto:** matematica/analise-combinatoria
+
+### 173
+O consumo de espumantes no Brasil tem aumentado nos últimos anos. Uma das etapas do seu processo de produção consiste no envasamento da bebida em garrafas semelhantes às da imagem. Nesse processo, a vazão do líquido no interior da garrafa é constante e cessa quando atinge o nível de envasamento.
+
+![Figura](enem-2020-d2-q173-1.webp)
+
+Qual esboço de gráfico melhor representa a variação da altura do líquido em função do tempo, na garrafa indicada na imagem?
+
+- A) ![Alternativa A](enem-2020-d2-q173-2.webp)
+- B) ![Alternativa B](enem-2020-d2-q173-3.webp)
+- C) ![Alternativa C](enem-2020-d2-q173-4.webp)
+- D) ![Alternativa D](enem-2020-d2-q173-5.webp)
+- E) ![Alternativa E](enem-2020-d2-q173-6.webp)
+
+**Resposta:** B
+
+**Explicação:** Com vazão constante, a altura sobe devagar onde a garrafa é larga e rápido onde ela afina. A garrafa é larga e reta embaixo (subida constante) e se estreita no ombro (subida cada vez mais rápida) até o nível de envasamento.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 177
+Antônio, Joaquim e José são sócios de uma empresa cujo capital é dividido, entre os três, em partes proporcionais a: 4, 6 e 6, respectivamente. Com a intenção de igualar a participação dos três sócios no capital da empresa, Antônio pretende adquirir uma fração do capital de cada um dos outros dois sócios. A fração do capital de cada sócio que Antônio deverá adquirir é
+
+- A) 1/2
+- B) 1/3
+- C) 1/9
+- D) 2/3
+- E) 4/3
+
+**Resposta:** C
+
+**Explicação:** O capital tem 4 + 6 + 6 = 16 partes; para igualar, cada sócio deve ficar com 16/3. Joaquim e José precisam ceder 6 − 16/3 = 2/3 de parte cada. Em relação ao capital de cada um (6 partes), isso é (2/3) ÷ 6 = 1/9.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 177
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 178
+Azulejo designa peça de cerâmica vitrificada e/ou esmaltada usada, sobretudo, no revestimento de paredes. A origem das técnicas de fabricação de azulejos é oriental, mas sua expansão pela Europa traz consigo uma diversificação de estilos, padrões e usos, que podem ser decorativos, utilitários e arquitetônicos.
+
+> Disponível em: www.itaucultural.org.br. Acesso em: 31 jul. 2012.
+
+Azulejos no formato de octógonos regulares serão utilizados para cobrir um painel retangular conforme ilustrado na figura.
+
+![Figura](enem-2020-d2-q178-1.webp)
+
+Entre os octógonos e na borda lateral dessa área, será necessária a colocação de 15 azulejos de outros formatos para preencher os 15 espaços em branco do painel. Uma loja oferece azulejos nos seguintes formatos: 1 – Triângulo retângulo isósceles; 2 – Triângulo equilátero; 3 – Quadrado. Os azulejos necessários para o devido preenchimento das áreas em branco desse painel são os de formato
+
+- A) 1.
+- B) 3.
+- C) 1 e 2.
+- D) 1 e 3.
+- E) 2 e 3.
+
+**Resposta:** D
+
+**Explicação:** Entre quatro octógonos regulares sobra um quadrado. Nas bordas do painel, entre dois octógonos, sobra um triângulo retângulo isósceles. São necessários os formatos 1 e 3.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 178
+
+**Assunto:** matematica/geometria-plana
+
+### 179
+No período de fim de ano, o síndico de um condomínio resolveu colocar, em um poste, uma iluminação natalina em formato de cone, lembrando uma árvore de Natal, conforme as figuras 1 e 2.
+
+![Figura](enem-2020-d2-q179-1.webp)
+
+![Figura](enem-2020-d2-q179-2.webp)
+
+A árvore deverá ser feita colocando-se mangueiras de iluminação, consideradas segmentos de reta de mesmo comprimento, a partir de um ponto situado a 3 m de altura no poste até um ponto de uma circunferência de fixação, no chão, de tal forma que esta fique dividida em 20 arcos iguais. O poste está fixado no ponto C (centro da circunferência) perpendicularmente ao plano do chão.
+
+Para economizar, ele utilizará mangueiras de iluminação aproveitadas de anos anteriores, que juntas totalizaram pouco mais de 100 m de comprimento, dos quais ele decide usar exatamente 100 m e deixar o restante como reserva. Para que ele atinja seu objetivo, o raio, em metro, da circunferência deverá ser de
+
+- A) 4,00.
+- B) 4,87.
+- C) 5,00.
+- D) 5,83.
+- E) 6,26.
+
+**Resposta:** A
+
+**Explicação:** As 20 mangueiras somam 100 m, então cada uma tem 5 m: é a geratriz do cone. Com altura 3 m: r² = 5² − 3² = 16, r = 4 m.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 179
+
+**Assunto:** matematica/geometria-espacial
+
 ## Difícil
 
 ### 156
@@ -437,3 +904,101 @@ Qual deverá ser a média mínima das estaturas, em metro, que ele deverá fixar
 **Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 172
 
 **Assunto:** matematica/estatistica
+
+### 144
+Um motociclista planeja realizar uma viagem cujo destino fica a 500 km de sua casa. Sua moto consome 5 litros de gasolina para cada 100 km rodados, e o tanque da moto tem capacidade para 22 litros. Pelo mapa, observou que no trajeto da viagem o último posto disponível para reabastecimento, chamado Estrela, fica a 80 km do seu destino. Ele pretende partir com o tanque da moto cheio e planeja fazer somente duas paradas para reabastecimento, uma na ida e outra na volta, ambas no posto Estrela. No reabastecimento para a viagem de ida, deve considerar também combustível suficiente para se deslocar por 200 km no seu destino. A quantidade mínima de combustível, em litro, que esse motociclista deve reabastecer no posto Estrela na viagem de ida, que seja suficiente para fazer o segundo reabastecimento, é
+
+- A) 13.
+- B) 14.
+- C) 17.
+- D) 18.
+- E) 21.
+
+**Resposta:** C
+
+**Explicação:** A moto gasta 5 L a cada 100 km. Até Estrela (420 km) usa 21 L e chega com 1 L; enche o tanque (22 L). Depois roda 80 + 200 + 80 = 360 km (18 L) e volta a Estrela com 4 L. Para os 420 km de volta precisa de 21 L: deve colocar 21 − 4 = 17 L.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 154
+O fenômeno das manifestações populares de massa traz à discussão como estimar o número de pessoas presentes nesse tipo de evento. Uma metodologia usada é: no momento do ápice do evento, é feita uma foto aérea da via pública principal na área ocupada, bem como das vias afluentes que apresentem aglomerações de pessoas que acessam a via principal. A foto é sobreposta por um mapa virtual das vias, ambos na mesma escala, fazendo-se um esboço geométrico da situação. Em seguida, subdivide-se o espaço total em trechos, quantificando a densidade, da seguinte forma:
+
+• 4 pessoas por metro quadrado, se elas estiverem andando em uma mesma direção;
+
+• 5 pessoas por metro quadrado, se elas estiverem se movimentando sem deixar o local;
+
+• 6 pessoas por metro quadrado, se elas estiverem paradas.
+
+É feito, então, o cálculo do total de pessoas, considerando os diversos trechos, e desconta-se daí 1 000 pessoas para cada carro de som fotografado.
+
+Com essa metodologia, procederam-se aos cálculos para estimar o número de participantes na manifestação cujo esboço geométrico é dado na figura. Há três trechos na via principal: MN, NO e OP, e um trecho numa via afluente da principal: QR .
+
+![Figura](enem-2020-d2-q154-1.webp)
+
+Obs.: a figura não está em escala (considere as medidas dadas). Segundo a metodologia descrita, o número estimado de pessoas presentes a essa manifestação foi igual a
+
+- A) 110 000.
+- B) 104 000.
+- C) 93 000.
+- D) 92 000.
+- E) 87 000.
+
+**Resposta:** B
+
+**Explicação:** Trechos de 30 m de largura: MN (100 m, andando, 4/m²) = 12 000; NO (300 m, parados, 6/m²) = 54 000; OP (200 m, movimentando-se, 5/m²) = 30 000; QR (100 m, andando) = 12 000. Total 108 000; descontando 4 carros de som (4 000), restam 104 000 pessoas.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 154
+
+**Assunto:** matematica/geometria-plana
+
+### 169
+A lei municipal para a edificação de casas em lotes de uma cidade determina que sejam obedecidos os seguintes critérios:
+
+• afastamento mínimo de 4 m da rua;
+
+• afastamento mínimo de 1 m da divisa com outro lote;
+
+• área total construída da casa entre 40% e 50% da área total do lote.
+
+Um construtor submeteu para aprovação na prefeitura dessa cidade uma planta com propostas para a construção de casas em seus 5 lotes. Cada lote tem área medindo 200 m².
+
+A imagem apresenta um esquema, sem escala, no qual estão representados os lotes, as ruas e os afastamentos considerados nos projetos entre as casas e as divisas dos lotes. As medidas indicadas no esquema estão expressas em metro.
+
+![Figura](enem-2020-d2-q169-1.webp)
+
+A prefeitura aprovará apenas a planta da casa
+
+- A) 1.
+- B) 2.
+- C) 3.
+- D) 4.
+- E) 5.
+
+**Resposta:** E
+
+**Explicação:** Para cada casa, confira os afastamentos (4 m da rua e 1 m das divisas) e se a área fica entre 40% e 50% do lote de 200 m², isto é, entre 80 e 100 m². Só a casa 5 cumpre todas as regras.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 169
+
+**Assunto:** matematica/geometria-plana
+
+### 180
+![Figura](enem-2020-d2-q180-1.webp)
+
+Um arquiteto projeta um pergolado com vãos de 30 cm de distância entre suas vigas, de modo que, no solstício de verão, a trajetória do sol durante o dia seja realizada num plano perpendicular à direção das vigas, e que o sol da tarde, no momento em que seus raios fizerem 30° com a posição a pino, gere a metade da luz que passa no pergolado ao meio-dia. Para atender à proposta do projeto elaborado pelo arquiteto, as vigas do pergolado devem ser construídas de maneira que a altura, em centímetro, seja a mais próxima possível de
+
+- A) 9.
+- B) 15.
+- C) 26.
+- D) 52.
+- E) 60.
+
+**Resposta:** C
+
+**Explicação:** Ao meio-dia, a luz passa pelo vão inteiro (30 cm). Com o sol a 30° da vertical, a viga projeta uma sombra horizontal de h · tg 30°. Para passar metade da luz, essa sombra deve ser 15 cm: h = 15 ÷ tg 30° = 15√3 ≈ 26 cm.
+
+**Fonte:** ENEM 2020, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/trigonometria
