@@ -17,7 +17,7 @@ Segundo parágrafo... Ela disse: "Fala do personagem entre aspas."
 
 ## Regras
 
-- **História completa**: cerca de **420 a 560 palavras** (com a narração em 2x, dá 1min15 a 1min30).
+- **História completa**: cerca de **420 a 560 palavras** (com a narração em 1.5x, dá 1min45 a 2min).
 - **Muitos detalhes**: nomes dos personagens (fictícios), lugares, objetos, roupas, o que a pessoa
   sentiu. Detalhe concreto prende mais do que frase genérica.
 - A primeira frase vira a **capa** do vídeo e já entrega o conflito ("Faltavam vinte e três dias pro meu casamento quando eu

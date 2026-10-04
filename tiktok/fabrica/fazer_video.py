@@ -2,7 +2,7 @@
 
 Cada roteiro é uma história completa. A fábrica:
 1. narra o texto com voz de IA (frase por frase, com pausas e mudança de tom, ver voz.py);
-2. acelera a narração e o fundo (VELOCIDADE, hoje 2x, escolha do dono do canal);
+2. acelera a narração e o fundo (VELOCIDADE, hoje 1.5x, escolha do dono do canal);
 3. mostra no começo uma capa com a frase chamativa (ver capa.py) enquanto ela é narrada;
 4. cria a legenda palavra por palavra;
 5. monta o fundo com vídeos satisfatórios que NUNCA foram usados em outro vídeo
@@ -41,8 +41,8 @@ FONTES_DE_FUNDO = RAIZ / "fundos" / "fontes.json"
 FUNDOS_USADOS = RAIZ / "fundos" / "usados.json"
 
 LARGURA, ALTURA, QUADROS = 1080, 1920, 30
-VELOCIDADE = 2.0  # narração e fundo acelerados (2x)
-TRECHO_MAXIMO = 40.0  # segundos de cada vídeo de fundo usados no máximo (20 s na tela, em 2x)
+VELOCIDADE = 1.5  # narração e fundo acelerados (1.5x, escolha do dono do canal)
+TRECHO_MAXIMO = 40.0  # segundos de cada vídeo de fundo usados no máximo (27 s na tela, em 1.5x)
 DURACAO_MINIMA, DURACAO_MAXIMA = 61, 180  # o TikTok só paga por vídeos com mais de 1 minuto
 
 # Fonte da legenda: nome -> (tamanho, espaçamento). Os arquivos ficam em fabrica/fontes/.

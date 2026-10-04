@@ -23,8 +23,8 @@ Canal de TikTok com histórias curtas narradas por voz de IA, com legenda grande
   acompanha quem narra: narradora mulher → `thalita`, narrador homem → `antonio`. Alterne entre as
   histórias.
 - **Legenda: fonte Poppins ExtraBold** (opção 2), até 3 palavras por vez, palavra falada em amarelo.
-- **Tudo em 2x.** Narração e fundo acelerados (escolha do dono do canal, `VELOCIDADE` em
-  `fabrica/fazer_video.py`). Com 2x, uma história de 420 a 560 palavras dá cerca de 1min15 a 1min30.
+- **Tudo em 1.5x.** Narração e fundo acelerados (escolha do dono do canal, `VELOCIDADE` em
+  `fabrica/fazer_video.py`). Com 1.5x, uma história de 420 a 560 palavras dá cerca de 1min45 a 2min.
   O vídeo precisa passar de 1 minuto (a fábrica avisa).
 - **Capa no início.** Um cartão branco com a frase chamativa (a primeira frase da história, ou o campo
   `capa:` do roteiro) aparece enquanto ela é narrada. Fora a capa, na tela só a legenda.

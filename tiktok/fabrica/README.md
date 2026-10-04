@@ -2,7 +2,7 @@
 
 Transforma cada roteiro de `../roteiros/` em um vídeo vertical com a história completa: capa com a
 frase chamativa no início, voz de IA, legenda palavra por palavra e fundo de vídeos satisfatórios,
-tudo acelerado em 2x. Um vídeo de fundo nunca é usado em dois vídeos (registro em
+tudo acelerado em 1.5x. Um vídeo de fundo nunca é usado em dois vídeos (registro em
 `../fundos/usados.json`).
 
 Tudo é grátis: voz com [edge-tts](https://github.com/rany2/edge-tts), montagem com FFmpeg, vídeos de
@@ -18,7 +18,7 @@ python3 fabrica/fazer_video.py            # gera os vídeos dos roteiros que ain
 
 Cada roteiro vira a pasta `saida/videos/<roteiro>/` com:
 
-- `video.mp4` — o vídeo pronto (1080x1920, em 2x, mais de 1 minuto, menos de 30 MB);
+- `video.mp4` — o vídeo pronto (1080x1920, em 1.5x, mais de 1 minuto, menos de 30 MB);
 - `postagem.txt` — o texto para colar no TikTok e os lembretes;
 - `info.json` — tema, voz, fundos usados e duração (para comparar o desempenho depois).
 
