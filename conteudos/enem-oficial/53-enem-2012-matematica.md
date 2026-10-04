@@ -286,6 +286,73 @@ A representação angular da localização do vulcão com relação a sua longit
 
 **Assunto:** matematica/grandezas-medidas-escalas
 
+### 140
+O dono de uma farmácia resolveu colocar à vista do público o gráfico mostrado a seguir, que apresenta a evolução do total de vendas (em Reais) de certo medicamento ao longo do ano de 2011.
+
+![Figura](enem-2012-d2-q140-1.webp)
+
+De acordo com o gráfico, os meses em que ocorreram, respectivamente, a maior e a menor venda absolutas em 2011 foram
+
+- A) março e abril.
+- B) março e agosto.
+- C) agosto e setembro.
+- D) junho e setembro.
+- E) junho e agosto.
+
+**Resposta:** E
+
+**Explicação:** O ponto mais alto do gráfico está em junho e o mais baixo, em setembro.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 140
+
+**Assunto:** matematica/estatistica
+
+### 141
+Maria quer inovar em sua loja de embalagens e decidiu vender caixas com diferentes formatos. Nas imagens apresentadas estão as planificações dessas caixas.
+
+![Figura](enem-2012-d2-q141-1.webp)
+
+![Figura](enem-2012-d2-q141-2.webp)
+
+Quais serão os sólidos geométricos que Maria obterá a partir dessas planificações?
+
+- A) Cilindro, prisma de base pentagonal e pirâmide.
+- B) Cone, prisma de base pentagonal e pirâmide.
+- C) Cone, tronco de pirâmide e pirâmide.
+- D) Cilindro, tronco de pirâmide e prisma.
+- E) Cilindro, prisma e tronco de cone.
+
+**Resposta:** A
+
+**Explicação:** Um retângulo com dois círculos forma um cilindro; retângulos com dois pentágonos formam um prisma de base pentagonal; um triângulo com três triângulos nos lados forma uma pirâmide.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 141
+
+**Assunto:** matematica/geometria-espacial
+
+### 143
+O gráfico mostra a variação da extensão média de gelo marítimo, em milhões de quilômetros quadrados, comparando dados dos anos 1995, 1998, 2000, 2005 e 2007. Os dados correspondem aos meses de junho a setembro. O Ártico começa a recobrar o gelo quando termina o verão, em meados de setembro. O gelo do mar atua como o sistema de resfriamento da Terra, refletindo quase toda a luz solar de volta ao espaço. Águas de oceanos escuros, por sua vez, absorvem a luz solar e reforçam o aquecimento do Ártico, ocasionando derretimento crescente do gelo.
+
+![Figura](enem-2012-d2-q143-1.webp)
+
+> Disponível em: http://sustentabilidade.allianz.com.br. Acesso em: fev. 2012 (adaptado).
+
+Com base no gráfico e nas informações do texto, é possível inferir que houve maior aquecimento global em
+
+- A) 1995.
+- B) 1998.
+- C) 2000.
+- D) 2005.
+- E) 2007.
+
+**Resposta:** E
+
+**Explicação:** Quanto mais quente, menos gelo. A curva de 2007 é a mais baixa: nesse ano a extensão de gelo foi a menor, indicando maior aquecimento.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 143
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
 ## Médio
 
 ### 138
@@ -583,6 +650,207 @@ A expressão que traduz a resistência S dessa viga de madeira é
 **Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 153
 
 **Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 137
+Um biólogo mediu a altura de cinco árvores distintas e representou-as em uma mesma malha quadriculada, utilizando escalas diferentes, conforme indicações na figura a seguir.
+
+![Figura](enem-2012-d2-q137-1.webp)
+
+Qual é a árvore que apresenta a maior altura real?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** D
+
+**Explicação:** Cada árvore tem a altura do desenho (em quadradinhos) vezes a escala. I: 9 × 100 = 900; II: 9 × 50 = 450 (2 : 100 é 1 : 50); III: 6 × 150 = 900; IV: 4,5 × 300 = 1 350; V: 4,5 × 150 = 675. A mais alta é a IV.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 137
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
+### 139
+Os hidrômetros são marcadores de consumo de água em residências e estabelecimentos comerciais. Existem vários modelos de mostradores de hidrômetros, sendo que alguns deles possuem uma combinação de um mostrador e dois relógios de ponteiro. O número formado pelos quatro primeiros algarismos do mostrador fornece o consumo em m³, e os dois últimos algarismos representam, respectivamente, as centenas e dezenas de litros de água consumidos. Um dos relógios de ponteiros indica a quantidade em litros, e o outro em décimos de litros, conforme ilustrados na figura a seguir.
+
+![Figura](enem-2012-d2-q139-1.webp)
+
+> Disponível em: www.aguasdearacoiaba.com.br (adaptado).
+
+Considerando as informações indicadas na figura, o consumo total de água registrado nesse hidrômetro, em litros, é igual a
+
+- A) 3 534,85.
+- B) 3 544,20.
+- C) 3 534 850,00.
+- D) 3 534 859,35.
+- E) 3 534 850,39.
+
+**Resposta:** D
+
+**Explicação:** O mostrador indica 3 534 m³ (3 534 000 L) e mais 8 centenas e 5 dezenas de litros: 850 L. O relógio de litros marca 9 e o de décimos marca 3,5, ou seja, 0,35 L. Total: 3 534 859,35 L.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 145
+Certo vendedor tem seu salário mensal calculado da seguinte maneira: ele ganha um valor fixo de R$ 750,00, mais uma comissão de R$ 3,00 para cada produto vendido. Caso ele venda mais de 100 produtos, sua comissão passa a ser de R$ 9,00 para cada produto vendido, a partir do 101º produto vendido. Com essas informações, o gráfico que melhor representa a relação entre salário e o número de produtos vendidos é
+
+- A) ![Alternativa A](enem-2012-d2-q145-1.webp)
+- B) ![Alternativa B](enem-2012-d2-q145-2.webp)
+- C) ![Alternativa C](enem-2012-d2-q145-3.webp)
+- D) ![Alternativa D](enem-2012-d2-q145-4.webp)
+- E) ![Alternativa E](enem-2012-d2-q145-5.webp)
+
+**Resposta:** E
+
+**Explicação:** Até 100 produtos, o salário é 750 + 3x: vai de R$ 750 a R$ 1 050. A partir do 101º, cada produto vale R$ 9: com 200 produtos, 1 050 + 100 × 9 = R$ 1 950. O gráfico tem duas retas, a segunda mais inclinada, como na última alternativa.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 149
+Para decorar a fachada de um edifício, um arquiteto projetou a colocação de vitrais compostos de quadrados de lado medindo 1 m, conforme a figura a seguir.
+
+![Figura](enem-2012-d2-q149-1.webp)
+
+Nesta figura, os pontos A, B, C e D são pontos médios dos lados do quadrado e os segmentos AP e QC medem 1/4 da medida do lado do quadrado. Para confeccionar um vitral, são usados dois tipos de materiais: um para a parte sombreada da figura, que custa R$ 30,00 o m², e outro para a parte mais clara (regiões ABPDA e BCDQB), que custa R$ 50,00 o m². De acordo com esses dados, qual é o custo dos materiais usados na fabricação de um vitral?
+
+- A) R$ 22,50
+- B) R$ 35,00
+- C) R$ 40,00
+- D) R$ 42,50
+- E) R$ 45,00
+
+**Resposta:** B
+
+**Explicação:** A região clara ABPD é o triângulo ABD (área 1/4 m²) menos o triângulo PBD (área 1/8 m²): 1/8 m². As duas regiões claras somam 1/4 m² e a parte escura, 3/4 m². Custo: 0,25 × 50 + 0,75 × 30 = 12,50 + 22,50 = R$ 35,00.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/geometria-plana
+
+### 154
+João propôs um desafio a Bruno, seu colega de classe: ele iria descrever um deslocamento pela pirâmide a seguir e Bruno deveria desenhar a projeção desse deslocamento no plano da base da pirâmide.
+
+![Figura](enem-2012-d2-q154-1.webp)
+
+O deslocamento descrito por João foi: mova-se pela pirâmide, sempre em linha reta, do ponto A ao ponto E, a seguir do ponto E ao ponto M, e depois de M a C. O desenho que Bruno deve fazer é
+
+- A) ![Alternativa A](enem-2012-d2-q154-2.webp)
+- B) ![Alternativa B](enem-2012-d2-q154-5.webp)
+- C) ![Alternativa C](enem-2012-d2-q154-6.webp)
+- D) ![Alternativa D](enem-2012-d2-q154-3.webp)
+- E) ![Alternativa E](enem-2012-d2-q154-4.webp)
+
+**Resposta:** C
+
+**Explicação:** Projetando no plano da base, E cai no centro do quadrado e M fica no meio do lado BC. O caminho é: de A em diagonal até o centro, do centro em linha reta até o meio de BC e depois subindo por BC até C.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 154
+
+**Assunto:** matematica/geometria-espacial
+
+### 158
+O gráfico fornece os valores das ações da empresa XPN, no período das 10 às 17 horas, num dia em que elas oscilaram acentuadamente em curtos intervalos de tempo.
+
+![Figura](enem-2012-d2-q158-1.webp)
+
+Neste dia, cinco investidores compraram e venderam o mesmo volume de ações, porém em horários diferentes, de acordo com a seguinte tabela.
+
+![Figura](enem-2012-d2-q158-2.webp)
+
+Com relação ao capital adquirido na compra e venda das ações, qual investidor fez o melhor negócio?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** A
+
+**Explicação:** Comprando e vendendo o mesmo volume, o melhor negócio é o que multiplica mais o dinheiro. Investidor 1: compra a R$ 150 (10 h) e vende a R$ 460 (15 h), mais que triplica. Os outros: 2 de 150 para 200; 3 de 380 para 460; 4 perde (460 para 100); 5 de 100 para 200.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 158
+
+**Assunto:** matematica/porcentagem
+
+### 159
+A figura a seguir apresenta dois gráficos com informações sobre as reclamações diárias recebidas e resolvidas pelo Setor de Atendimento ao Cliente (SAC) de uma empresa, em uma dada semana. O gráfico de linha tracejada informa o número de reclamações recebidas no dia, o de linha contínua é o número de reclamações resolvidas no dia. As reclamações podem ser resolvidas no mesmo dia ou demorarem mais de um dia para serem resolvidas.
+
+![Figura](enem-2012-d2-q159-1.webp)
+
+O gerente de atendimento deseja identificar os dias da semana em que o nível de eficiência pode ser considerado muito bom, ou seja, os dias em que o número de reclamações resolvidas excede o número de reclamações recebidas.
+
+> Disponível em: http://blog.bibliotecaunix.org. Acesso em: 21 jan. 2012 (adaptado).
+
+O gerente de atendimento pôde concluir, baseado no conceito de eficiência utilizado na empresa e nas informações do gráfico, que o nível de eficiência foi muito bom na
+
+- A) segunda e na terça-feira.
+- B) terça e na quarta-feira.
+- C) terça e na quinta-feira.
+- D) quinta-feira, no sábado e no domingo.
+- E) segunda, na quinta e na sexta-feira.
+
+**Resposta:** B
+
+**Explicação:** O nível é muito bom quando a linha contínua (resolvidas) fica acima da tracejada (recebidas). Isso acontece na terça (cerca de 26 contra 20) e na quarta (9 contra 5).
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 159
+
+**Assunto:** matematica/estatistica
+
+### 166
+O globo da morte é uma atração muito usada em circos. Ele consiste em uma espécie de jaula em forma de uma superfície esférica feita de aço, onde motoqueiros andam com suas motos por dentro. A seguir, tem-se, na Figura 1, uma foto de um globo da morte e, na Figura 2, uma esfera que ilustra um globo da morte.
+
+![Figura](enem-2012-d2-q166-1.webp)
+
+Na Figura 2, o ponto A está no plano do chão onde está colocado o globo da morte e o segmento AB passa pelo centro da esfera e é perpendicular ao plano do chão. Suponha que há um foco de luz direcionado para o chão colocado no ponto B e que um motoqueiro faça um trajeto dentro da esfera, percorrendo uma circunferência que passa pelos pontos A e B.
+
+> Disponível em: www.baixaki.com.br. Acesso em: 29 fev. 2012.
+
+A imagem do trajeto feito pelo motoqueiro no plano do chão é melhor representada por
+
+- A) ![Alternativa A](enem-2012-d2-q166-2.webp)
+- B) ![Alternativa B](enem-2012-d2-q166-4.webp)
+- C) ![Alternativa C](enem-2012-d2-q166-5.webp)
+- D) ![Alternativa D](enem-2012-d2-q166-3.webp)
+- E) 
+
+**Resposta:** E
+
+**Explicação:** O motoqueiro percorre uma circunferência que passa por A e B, num plano vertical (que contém AB). A projeção de uma circunferência vertical no plano do chão é um segmento de reta.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 166
+
+**Assunto:** matematica/geometria-espacial
+
+### 175
+O gráfico apresenta o comportamento de emprego formal surgido, segundo o Caged, no período de janeiro de 2010 a outubro de 2010.
+
+![Figura](enem-2012-d2-q175-1.webp)
+
+> Disponível em: www.mte.gov.br. Acesso em: 28 fev. 2012 (adaptado).
+
+Com base no gráfico, o valor da parte inteira da mediana dos empregos formais surgidos no período é
+
+- A) 212 952.
+- B) 229 913.
+- C) 240 621.
+- D) 255 496.
+- E) 298 041.
+
+**Resposta:** B
+
+**Explicação:** Em ordem, os 10 valores são: 181 419; 181 796; 204 804; 209 425; 212 952; 246 875; 266 415; 298 041; 299 415; 305 068. A mediana é a média do 5º e do 6º: (212 952 + 246 875) ÷ 2 = 229 913,5. A parte inteira é 229 913.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 175
+
+**Assunto:** matematica/estatistica
 
 ## Difícil
 

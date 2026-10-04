@@ -100,6 +100,30 @@ x: Cada talhão tem 30 000 m² = 3 hectares. O desvio de 90 kg por talhão vale 
 e: Um aluno registrou as notas bimestrais de algumas de suas disciplinas numa tabela. Ele observou que as entradas numéricas da tabela formavam uma matriz 4x4, e que poderia calcular as médias anuais dessas disciplinas usando produto de matrizes. Todas as provas possuíam o mesmo peso, e a tabela que ele conseguiu é mostrada a seguir. || Quadro (disciplina: notas do 1º, 2º, 3º e 4º bimestres): Matemática: 5,9; 6,2; 4,5; 5,5. Português: 6,6; 7,1; 6,5; 8,4. Geografia: 8,6; 6,8; 7,8; 9,0. História: 6,2; 5,6; 5,9; 7,7. || Para obter essas médias, ele multiplicou a matriz obtida a partir da tabela por
 a: uma matriz linha com os elementos 1/2, 1/2, 1/2, 1/2. | uma matriz linha com os elementos 1/4, 1/4, 1/4, 1/4. | uma matriz coluna com os elementos 1, 1, 1, 1. | uma matriz coluna com os elementos 1/2, 1/2, 1/2, 1/2. | uma matriz coluna com os elementos 1/4, 1/4, 1/4, 1/4.
 x: A matriz das notas é 4 × 4, com cada linha sendo uma disciplina. Para obter a média de cada linha, multiplicamos a matriz (à direita) por uma matriz coluna 4 × 1 com todos os elementos iguais a 1/4: cada nota é somada com peso 1/4, resultando em uma coluna com as 4 médias.
+@137 m matematica/grandezas-medidas-escalas fig
+x: Cada árvore tem a altura do desenho (em quadradinhos) vezes a escala. I: 9 × 100 = 900; II: 9 × 50 = 450 (2 : 100 é 1 : 50); III: 6 × 150 = 900; IV: 4,5 × 300 = 1 350; V: 4,5 × 150 = 675. A mais alta é a IV.
+@139 m matematica/numeros-e-operacoes fig
+x: O mostrador indica 3 534 m³ (3 534 000 L) e mais 8 centenas e 5 dezenas de litros: 850 L. O relógio de litros marca 9 e o de décimos marca 3,5, ou seja, 0,35 L. Total: 3 534 859,35 L.
+@140 f matematica/estatistica fig
+x: O ponto mais alto do gráfico está em junho e o mais baixo, em setembro.
+@141 f matematica/geometria-espacial fig
+x: Um retângulo com dois círculos forma um cilindro; retângulos com dois pentágonos formam um prisma de base pentagonal; um triângulo com três triângulos nos lados forma uma pirâmide.
+@143 f geografia/biomas-e-questoes-ambientais fig
+x: Quanto mais quente, menos gelo. A curva de 2007 é a mais baixa: nesse ano a extensão de gelo foi a menor, indicando maior aquecimento.
+@145 m matematica/funcoes-afim-e-quadratica fig
+x: Até 100 produtos, o salário é 750 + 3x: vai de R$ 750 a R$ 1 050. A partir do 101º, cada produto vale R$ 9: com 200 produtos, 1 050 + 100 × 9 = R$ 1 950. O gráfico tem duas retas, a segunda mais inclinada, como na última alternativa.
+@149 m matematica/geometria-plana fig
+x: A região clara ABPD é o triângulo ABD (área 1/4 m²) menos o triângulo PBD (área 1/8 m²): 1/8 m². As duas regiões claras somam 1/4 m² e a parte escura, 3/4 m². Custo: 0,25 × 50 + 0,75 × 30 = 12,50 + 22,50 = R$ 35,00.
+@154 m matematica/geometria-espacial fig
+x: Projetando no plano da base, E cai no centro do quadrado e M fica no meio do lado BC. O caminho é: de A em diagonal até o centro, do centro em linha reta até o meio de BC e depois subindo por BC até C.
+@158 m matematica/porcentagem fig
+x: Comprando e vendendo o mesmo volume, o melhor negócio é o que multiplica mais o dinheiro. Investidor 1: compra a R$ 150 (10 h) e vende a R$ 460 (15 h), mais que triplica. Os outros: 2 de 150 para 200; 3 de 380 para 460; 4 perde (460 para 100); 5 de 100 para 200.
+@159 m matematica/estatistica fig
+x: O nível é muito bom quando a linha contínua (resolvidas) fica acima da tracejada (recebidas). Isso acontece na terça (cerca de 26 contra 20) e na quarta (9 contra 5).
+@166 m matematica/geometria-espacial fig
+x: O motoqueiro percorre uma circunferência que passa por A e B, num plano vertical (que contém AB). A projeção de uma circunferência vertical no plano do chão é um segmento de reta.
+@175 m matematica/estatistica fig
+x: Em ordem, os 10 valores são: 181 419; 181 796; 204 804; 209 425; 212 952; 246 875; 266 415; 298 041; 299 415; 305 068. A mediana é a média do 5º e do 6º: (212 952 + 246 875) ÷ 2 = 229 913,5. A parte inteira é 229 913.
 
 ## 56-enem-2012-linguagens.md | 2012 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
@@ -174,3 +198,23 @@ x: A autora mostra que "ter" e "haver" conviveram por séculos e que "um purismo
 x: O texto apresenta Alencar como alguém que "acabou inventando o Brasil" com romances nativistas e indianistas. Digitalizar sua obra ajuda a preservar a memória da língua e a identidade nacional.
 @135 f portugues/funcoes-generos-e-variacao
 x: O relato tem "passeá", "brincá", reticências marcando pausas, hesitações ("a::...") e risos: é linguagem informal, típica da fala, entrecortada por pausas.
+@96 m portugues/semantica-e-figuras-de-linguagem fig
+x: A charge mostra uma família inteira deitada numa rede de dormir, e a frase brinca com os sentidos de "rede social": a rede da internet e a rede de descanso em casa. O humor vem da polissemia da expressão.
+@99 m portugues/interpretacao-de-texto fig
+x: A mulher recusa os vendedores duas vezes. No terceiro quadrinho, o vendedor oferece um celular com "mais 10,00": ele faz o discurso de acordo com o que a cliente quer, até convencê-la. A estratégia é induzi-la pelos desejos dela.
+@106 m portugues/interpretacao-de-texto fig
+x: O anúncio oferece uma sacola retornável a quem gasta R$ 70,00 e fala em sustentabilidade. A publicidade quer que o leitor consuma de forma responsável e ecológica, trocando as sacolas descartáveis.
+@112 m portugues/funcoes-generos-e-variacao fig
+x: O cartaz da biblioteca da UFG usa a pintura de Dalí (os relógios derretendo) com a frase "Cumprir prazos é uma obra-prima" para pedir que os livros sejam devolvidos no prazo. Sua finalidade é educativa: orientar o comportamento dos usuários.
+@114 m literatura/quinhentismo-ao-simbolismo fig
+x: O soneto de Camões e a pintura de Rafael são do Renascimento. Os dois mostram a mulher ideal com equilíbrio e sobriedade: "serenidade", "presença moderada e graciosa" no poema; postura calma, expressão serena e roupa discreta no quadro.
+@123 m artes/artes-e-educacao-fisica fig
+x: Em Les Demoiselles d'Avignon, Picasso quebra os corpos em planos geométricos irregulares, como se fossem vistos de vários ângulos ao mesmo tempo. Essa é a marca do Cubismo.
+@124 m artes/artes-e-educacao-fisica fig
+x: Os Mutantes, ligados à Tropicália, misturavam ritmos populares brasileiros com rock, guitarras elétricas e música erudita, fazendo experiências sonoras. A tradição foi desafiada pela sonoridade experimental e pela mistura de elementos populares e eruditos.
+@131 m artes/artes-e-educacao-fisica fig
+x: Os profetas de Aleijadinho, em pedra-sabão, têm rostos e roupas com traços que lembram o povo da região, e não figuras idealizadas da Europa. A obra mostra personalidade, criando uma imagem sagrada com feições populares.
+@132 f artes/artes-e-educacao-fisica fig
+x: A figura mostra que, com o treino, os pulmões levam mais oxigênio ao sangue e o coração bombeia mais sangue a cada batida, batendo mais devagar em repouso. São a diminuição da frequência cardíaca em repouso e o aumento da oxigenação do sangue.
+@133 m portugues/interpretacao-de-texto fig
+x: A propaganda vende a revista impressa e oferece junto a versão digital para tablet e computador. Isso mostra que as novas tecnologias mudaram a forma de consumir e de oferecer revistas e livros.

@@ -241,6 +241,27 @@ A letra dessa canção reflete elementos identitários que representam a
 
 **Assunto:** geografia/populacao-e-urbanizacao
 
+### 19
+![Figura](enem-2012-d1-q019-1.webp)
+
+> Disponível em: http://primeira-serie.blogspot.com.br. Acesso em: 07 dez. 2011 (adaptado).
+
+Na imagem do início do século XX, identifica-se um modelo produtivo cuja forma de organização fabril baseava-se na
+
+- A) autonomia do produtor direto.
+- B) adoção da divisão sexual do trabalho.
+- C) exploração do trabalho repetitivo.
+- D) utilização de empregados qualificados.
+- E) incentivo à criatividade dos funcionários.
+
+**Resposta:** C
+
+**Explicação:** A foto mostra uma linha de montagem: cada trabalhador fica no mesmo lugar e repete a mesma tarefa enquanto o produto passa pela esteira. É o modelo fordista/taylorista, baseado no trabalho repetitivo.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 19
+
+**Assunto:** historia/seculo-xx
+
 ## Médio
 
 ### 4
@@ -692,6 +713,157 @@ O viajante francês, ao descrever suas impressões sobre uma festa ocorrida em S
 **Fonte:** ENEM 2012, 1º dia, caderno azul, questão 44
 
 **Assunto:** historia/brasil-colonia
+
+### 1
+![Figura](enem-2012-d1-q001-1.webp)
+
+Charge anônima. BURKE, P. A fabricação do rei. Rio de Janeiro: Zahar, 1994.
+
+Na França, o rei Luís XIV teve sua imagem fabricada por um conjunto de estratégias que visavam sedimentar uma determinada noção de soberania. Neste sentido, a charge apresentada demonstra
+
+- A) a humanidade do rei, pois retrata um homem comum, sem os adornos próprios à vestimenta real.
+- B) a unidade entre o público e o privado, pois a figura do rei com a vestimenta real representa o público e sem a vestimenta real, o privado.
+- C) o vínculo entre monarquia e povo, pois leva ao conhecimento do público a figura de um rei despretensioso e distante do poder político.
+- D) o gosto estético refinado do rei, pois evidencia a elegância dos trajes reais em relação aos de outros membros da corte.
+- E) a importância da vestimenta para a constituição simbólica do rei, pois o corpo político adornado esconde os defeitos do corpo pessoal.
+
+**Resposta:** E
+
+**Explicação:** A charge mostra Luís XIV de três formas: só as roupas e adornos reais, o homem comum (baixo, magro e careca) e o rei vestido. A soberania vinha da imagem construída: roupas, peruca e salto escondiam o homem comum e mostravam o "corpo político" do rei.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 1
+
+**Assunto:** historia/idade-moderna
+
+### 8
+![Figura](enem-2012-d1-q008-1.webp)
+
+> Disponível em: www.gandhiserve.org. Acesso em: 21 nov. 2011.
+
+O cartum, publicado em 1932, ironiza as consequências sociais das constantes prisões de Mahatma Gandhi pelas autoridades britânicas, na Índia, demonstrando
+
+- A) a ineficiência do sistema judiciário inglês no território indiano.
+- B) o apoio da população hindu à prisão de Gandhi.
+- C) o caráter violento das manifestações hindus frente à ação inglesa.
+- D) a impossibilidade de deter o movimento liderado por Gandhi.
+- E) a indiferença das autoridades britânicas frente ao apelo popular hindu.
+
+**Resposta:** D
+
+**Explicação:** O vice-rei britânico prende cada vez mais seguidores de Gandhi, mas a prisão fica lotada e a multidão continua chegando. A charge mostra que as prisões não conseguiam deter o movimento de desobediência civil liderado por Gandhi.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 8
+
+**Assunto:** historia/seculo-xx
+
+### 12
+![Figura](enem-2012-d1-q012-1.webp)
+
+> Disponível em: http://veja.abril.com.br. Acesso em: 29 jun. 2012.
+
+Elaborado pelos partidários da Revolução Constitucionalista de 1932, o cartaz apresentado pretendia mobilizar a população paulista contra o governo federal. Essa mobilização utilizou-se de uma referência histórica, associando o processo revolucionário
+
+- A) à experiência francesa, expressa no chamado à luta contra a ditadura.
+- B) aos ideais republicanos, indicados no destaque à bandeira paulista.
+- C) ao protagonismo das Forças Armadas, representadas pelo militar que empunha a bandeira.
+- D) ao bandeirantismo, símbolo paulista apresentado em primeiro plano.
+- E) ao papel figurativo de Vargas na política, enfatizado pela pequenez de sua figura no cartaz.
+
+**Resposta:** D
+
+**Explicação:** O cartaz de 1932 mostra um bandeirante, símbolo do orgulho paulista, pisando na figura de Vargas e pedindo "Abaixo a dictadura". A mobilização usou o bandeirantismo como símbolo de São Paulo contra o governo federal.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 12
+
+**Assunto:** historia/brasil-republica
+
+### 16
+![Figura](enem-2012-d1-q016-1.webp)
+
+> Disponível em: www.metmuseum.org. Acesso em: 14 set. 2011.
+
+A figura apresentada é de um mosaico, produzido por volta do ano 300 d.C., encontrado na cidade de Lod, atual Estado de Israel. Nela, encontram-se elementos que representam uma característica política dos romanos no período, indicada em:
+
+- A) Cruzadismo – conquista da terra santa.
+- B) Patriotismo – exaltação da cultura local.
+- C) Helenismo – apropriação da estética grega.
+- D) Imperialismo – selvageria dos povos dominados.
+- E) Expansionismo – diversidade dos territórios conquistados.
+
+**Resposta:** E
+
+**Explicação:** O mosaico romano, achado em Israel, mostra animais de várias regiões (elefante, leões, tigre). Os romanos exibiam a riqueza e a variedade dos territórios conquistados pelo Império.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 16
+
+**Assunto:** historia/antiguidade-e-idade-media
+
+### 22
+![Figura](enem-2012-d1-q022-1.webp)
+
+Texto do Cartaz: “Amor e não guerra”
+
+Foto de Jovens em protesto contra a Guerra do Vietnã. Disponível em: http://goldenyears66to69.blogspot.com. Acesso em: 10 out. 2011.
+
+Nos anos que se seguiram à Segunda Guerra, movimentos como o Maio de 1968 ou a campanha contra a Guerra do Vietnã culminaram no estabelecimento de diferentes formas de participação política. Seus slogans, tais como “Quando penso em revolução quero fazer amor”, se tornaram símbolos da agitação cultural nos anos 1960, cuja inovação relacionava-se
+
+- A) à contestação da crise econômica europeia, que fora provocada pela manutenção das guerras coloniais.
+- B) à organização partidária da juventude comunista, visando o estabelecimento da ditadura do proletariado.
+- C) à unificação das noções de libertação social e libertação individual, fornecendo um significado político ao uso do corpo.
+- D) à defesa do amor cristão e monogâmico, com fins à reprodução, que era tomado como solução para os conflitos sociais.
+- E) ao reconhecimento da cultura das gerações passadas, que conviveram com a emergência do rock e outras mudanças nos costumes.
+
+**Resposta:** C
+
+**Explicação:** O lema "faça amor, não faça guerra" juntava a luta contra a guerra (libertação social) com a liberdade individual, inclusive a sexual. O próprio corpo passou a ter um significado político nos movimentos jovens dos anos 1960.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 22
+
+**Assunto:** historia/seculo-xx
+
+### 24
+![Figura](enem-2012-d1-q024-1.webp)
+
+![Figura](enem-2012-d1-q024-2.webp)
+
+> BRASIL. IBGE. Censo demográfico 1991-2010. Rio de Janeiro, 2011.
+
+A interpretação e a correlação das figuras sobre a dinâmica demográfica brasileira demonstram um(a)
+
+- A) menor proporção de fecundidade na área urbana.
+- B) menor proporção de homens na área rural.
+- C) aumento da proporção de fecundidade na área rural.
+- D) queda da longevidade na área rural.
+- E) queda do número de idosos na área urbana.
+
+**Resposta:** A
+
+**Explicação:** Nas cidades, a base da pirâmide (crianças) ficou muito mais estreita de 1991 para 2010, mais até que no campo. Isso mostra que a fecundidade urbana diminuiu: nascem proporcionalmente menos crianças nas cidades.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 24
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 45
+![Figura](enem-2012-d1-q045-1.webp)
+
+> Disponível em: http://nutriteengv.blogspot.com.br. Acesso em: 28 dez. 2011.
+
+Na charge faz-se referência a uma modificação produtiva ocorrida na agricultura. Uma contradição presente no espaço rural brasileiro derivada dessa modificação produtiva está presente em:
+
+- A) Expansão das terras agricultáveis, com manutenção de desigualdades sociais.
+- B) Modernização técnica do território, com redução do nível de emprego formal.
+- C) Valorização de atividades de subsistência, com redução da produtividade da terra.
+- D) Desenvolvimento de núcleos policultores, com ampliação da concentração fundiária.
+- E) Melhora da qualidade dos produtos, com retração na exportação de produtos primários.
+
+**Resposta:** A
+
+**Explicação:** As plantas transgênicas perguntam se já não inventaram uma planta que acabe com a fome, e respondem "não tô sabendo". A charge mostra a contradição: a modernização agrícola aumentou a produção, mas a terra continua concentrada e a fome persiste, com manutenção das desigualdades.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 45
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
 
 ## Difícil
 

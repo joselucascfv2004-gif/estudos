@@ -101,6 +101,22 @@ x: A canção fala de quem vive "andando pelos sertões", guardando lembranças 
 s: (adaptado). O viajante => (adaptado). || O viajante
 s: Barbinais, Le Gentil. => > Barbinais, Le Gentil.
 x: O francês estranha ver padres, frades, mulheres, cavalheiros e escravos dançando juntos numa igreja. As festas religiosas coloniais misturavam todos num sentido comunitário de devoção.
+@1 m historia/idade-moderna fig
+x: A charge mostra Luís XIV de três formas: só as roupas e adornos reais, o homem comum (baixo, magro e careca) e o rei vestido. A soberania vinha da imagem construída: roupas, peruca e salto escondiam o homem comum e mostravam o "corpo político" do rei.
+@8 m historia/seculo-xx fig
+x: O vice-rei britânico prende cada vez mais seguidores de Gandhi, mas a prisão fica lotada e a multidão continua chegando. A charge mostra que as prisões não conseguiam deter o movimento de desobediência civil liderado por Gandhi.
+@12 m historia/brasil-republica fig
+x: O cartaz de 1932 mostra um bandeirante, símbolo do orgulho paulista, pisando na figura de Vargas e pedindo "Abaixo a dictadura". A mobilização usou o bandeirantismo como símbolo de São Paulo contra o governo federal.
+@16 m historia/antiguidade-e-idade-media fig
+x: O mosaico romano, achado em Israel, mostra animais de várias regiões (elefante, leões, tigre). Os romanos exibiam a riqueza e a variedade dos territórios conquistados pelo Império.
+@19 f historia/seculo-xx fig
+x: A foto mostra uma linha de montagem: cada trabalhador fica no mesmo lugar e repete a mesma tarefa enquanto o produto passa pela esteira. É o modelo fordista/taylorista, baseado no trabalho repetitivo.
+@22 m historia/seculo-xx fig
+x: O lema "faça amor, não faça guerra" juntava a luta contra a guerra (libertação social) com a liberdade individual, inclusive a sexual. O próprio corpo passou a ter um significado político nos movimentos jovens dos anos 1960.
+@24 m geografia/populacao-e-urbanizacao fig
+x: Nas cidades, a base da pirâmide (crianças) ficou muito mais estreita de 1991 para 2010, mais até que no campo. Isso mostra que a fecundidade urbana diminuiu: nascem proporcionalmente menos crianças nas cidades.
+@45 m geografia/economia-agropecuaria-industria-energia fig
+x: As plantas transgênicas perguntam se já não inventaram uma planta que acabe com a fome, e respondem "não tô sabendo". A charge mostra a contradição: a modernização agrícola aumentou a produção, mas a terra continua concentrada e a fome persiste, com manutenção das desigualdades.
 
 ## 54-enem-2012-ciencias-da-natureza.md | 2012 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
@@ -132,7 +148,7 @@ x: A velocidade da onda depende só do meio (a água), então continua 1,0 m/s. 
 x: No cerrado, com seca e queimadas, as gemas (pontos de crescimento) protegidas por muitos pelos resistem ao fogo e à perda de água, permitindo que a planta volte a brotar.
 @58 m quimica/quimica-organica
 s: C6 H5 CO2 CH2 CH3 , cuja estrutura está mostrada a seguir. => C₆H₅CO₂CH₂CH₃ (benzoato de etila).
-s: C O O CH2 CH3 O ácido => || O ácido
+s: C O O CH2 CH3 O ácido => O ácido
 x: O éster C₆H₅–COO–CH₂CH₃ tem a parte C₆H₅–CO–, que vem do ácido benzoico (C₆H₅COOH), e a parte –CH₂CH₃, que vem do etanol. Ácido benzoico + etanol → benzoato de etila + água.
 @59 m quimica/estequiometria
 s: Um hamburguer ecológico? => > Um hamburguer ecológico?
@@ -198,3 +214,25 @@ x: Cada fosfolipídio tem uma "cabeça" que gosta de água (hidrofílica) e "cau
 s: mais próxima de Dado: massa molar do aspartame = 294 g/mol => mais próxima de (dado: massa molar do aspartame = 294 g/mol)
 a: 1,3 × 10⁻⁴. | 9,5 × 10⁻³. | 4 × 10⁻². | 2,6. | 823.
 x: O limite é 40 mg por kg: 40 × 70 = 2 800 mg = 2,8 g por dia. Em mol: 2,8 ÷ 294 ≈ 0,0095 = 9,5 × 10⁻³ mol.
+@49 m quimica/quimica-organica fig
+x: Na piretrina há o grupo –COO– entre carbonos (éster) e um C=O dentro do anel (cetona). Na coronopilina, o anel com –O–C(=O)– é um éster cíclico (lactona) e também há uma cetona. As funções comuns são cetona e éster.
+@55 m fisica/estatica-e-hidrostatica fig
+x: A porta tende a girar e cair pelo próprio peso, puxando a dobradiça de cima para fora e empurrando a de baixo contra o portal. Para equilibrar, a dobradiça de cima puxa a porta para o portal e para cima, e a de baixo a empurra para fora e para cima. As forças ficam inclinadas como na quarta figura.
+@56 m biologia/ecologia fig
+x: As plantas (P₁) e o herbívoro (P₂) interagem: o herbívoro come as plantas. Assim, a interação I representa a herbivoria entre P₁ e P₂, e o resultado alimenta o onívoro (P₃).
+@60 m fisica/cinematica fig
+x: No primeiro terço, a velocidade aumenta (aceleração constante): a posição sobe em curva cada vez mais inclinada. No meio, velocidade constante: reta. No fim, freia: a curva fica cada vez menos inclinada até ficar horizontal (parado).
+@66 d quimica/quimica-organica fig
+x: O carbocátion (I) tem o bromo e um H no mesmo carbono e carga positiva no anel. Pelo gráfico, o produto II, menos estável, vem da adição (dibromo, sem anel aromático) e o III, mais estável, da substituição: bromobenzeno, que mantém o anel aromático. É a sequência da primeira alternativa.
+@67 m fisica/estatica-e-hidrostatica fig
+x: A pressão da água na ducha depende do desnível entre a superfície da água na caixa e o ponto onde a água sai: é a altura h3.
+@73 d fisica/eletricidade fig
+x: No circuito "three-way", a lâmpada liga e desliga por qualquer um dos dois interruptores: os dois terminais de um ficam ligados aos dois terminais do outro (os fios "paralelos"), o polo de um vai à fase e o do outro vai à lâmpada. A última montagem faz isso.
+@74 m fisica/dinamica fig
+x: A Terra gira em torno do Sol mais depressa que Marte. Quando ela "ultrapassa" Marte, quem olha da Terra vê o planeta andar para trás por um tempo em relação às estrelas, formando o laço da figura (movimento retrógrado aparente).
+@79 m quimica/quimica-organica fig
+x: Precisa de suplementação diária a vitamina hidrossolúvel, que o corpo não armazena. A estrutura III (vitamina C) tem vários grupos –OH e é bem polar, solúvel em água. As outras têm longas cadeias de carbono e são lipossolúveis.
+@80 f biologia/saude-e-doencas fig
+x: Garfield está acima do peso e decide "amarrar" as banhas em vez de emagrecer. A obesidade é fator de risco para o diabetes tipo 2.
+@85 m biologia/evolucao fig
+x: O grão de pólen leva o gameta masculino de uma planta a outra, sem depender de água. Isso permite a fecundação cruzada entre indivíduos diferentes, aumentando a diversidade genética.

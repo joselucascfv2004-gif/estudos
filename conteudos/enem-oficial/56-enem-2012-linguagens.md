@@ -200,6 +200,27 @@ Um aspecto da composição estrutural que caracteriza o relato pessoal de A.P.S.
 
 **Assunto:** portugues/funcoes-generos-e-variacao
 
+### 132
+![Figura](enem-2012-d2-q132-1.webp)
+
+> NIEMAN, D. Exercício e saúde. São Paulo: Manole, 1999 (adaptado).
+
+A partir dos efeitos fisiológicos do exercício físico no organismo, apresentados na figura, são adaptações benéficas à saúde de um indivíduo:
+
+- A) Diminuição da frequência cardíaca em repouso e aumento da oxigenação do sangue.
+- B) Diminuição da oxigenação do sangue e aumento da frequência cardíaca em repouso.
+- C) Diminuição da frequência cardíaca em repouso e aumento da gordura corporal.
+- D) Diminuição do tônus muscular e aumento do percentual de gordura corporal.
+- E) Diminuição da gordura corporal e aumento da frequência cardíaca em repouso.
+
+**Resposta:** A
+
+**Explicação:** A figura mostra que, com o treino, os pulmões levam mais oxigênio ao sangue e o coração bombeia mais sangue a cada batida, batendo mais devagar em repouso. São a diminuição da frequência cardíaca em repouso e o aumento da oxigenação do sangue.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 132
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 98
@@ -583,6 +604,197 @@ Estudos contemporâneos mostram que cada língua possui sua própria complexidad
 **Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 129
 
 **Assunto:** portugues/funcoes-generos-e-variacao
+
+### 96
+![Figura](enem-2012-d2-q096-1.webp)
+
+> Disponível em: www.ivancabral.com. Acesso em: 27 fev. 2012.
+
+O efeito de sentido da charge é provocado pela combinação de informações visuais e recursos linguísticos. No contexto da ilustração, a frase proferida recorre à
+
+- A) polissemia, ou seja, aos múltiplos sentidos da expressão “rede social” para transmitir a ideia que pretende veicular.
+- B) ironia para conferir um novo significado ao termo “outra coisa”.
+- C) homonímia para opor, a partir do advérbio de lugar, o espaço da população pobre e o espaço da população rica.
+- D) personificação para opor o mundo real pobre ao mundo virtual rico.
+- E) antonímia para comparar a rede mundial de computadores com a rede caseira de descanso da família.
+
+**Resposta:** A
+
+**Explicação:** A charge mostra uma família inteira deitada numa rede de dormir, e a frase brinca com os sentidos de "rede social": a rede da internet e a rede de descanso em casa. O humor vem da polissemia da expressão.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** portugues/semantica-e-figuras-de-linguagem
+
+### 99
+![Figura](enem-2012-d2-q099-1.webp)
+
+> LAERTE. Disponível em: http://blog.educacional.com.br. Acesso em: 8 set. 2011.
+
+Que estratégia argumentativa leva o personagem do terceiro quadrinho a persuadir sua interlocutora?
+
+- A) Prova concreta, ao expor o produto ao consumidor.
+- B) Consenso, ao sugerir que todo vendedor tem técnica.
+- C) Raciocínio lógico, ao relacionar uma fruta com um produto eletrônico.
+- D) Comparação, ao enfatizar que os produtos apresentados anteriormente são inferiores.
+- E) Indução, ao elaborar o discurso de acordo com os anseios do consumidor.
+
+**Resposta:** E
+
+**Explicação:** A mulher recusa os vendedores duas vezes. No terceiro quadrinho, o vendedor oferece um celular com "mais 10,00": ele faz o discurso de acordo com o que a cliente quer, até convencê-la. A estratégia é induzi-la pelos desejos dela.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 99
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 106
+![Figura](enem-2012-d2-q106-1.webp)
+
+> Disponível em: www.portaldapropaganda.com.br. Acesso em: 1 mar. 2012.
+
+A publicidade, de uma forma geral, alia elementos verbais e imagéticos na constituição de seus textos. Nessa peça publicitária, cujo tema é a sustentabilidade, o autor procura convencer o leitor a
+
+- A) assumir uma atitude reflexiva diante dos fenômenos naturais.
+- B) evitar o consumo excessivo de produtos reutilizáveis.
+- C) aderir à onda sustentável, evitando o consumo excessivo.
+- D) abraçar a campanha, desenvolvendo projetos sustentáveis.
+- E) consumir produtos de modo responsável e ecológico.
+
+**Resposta:** E
+
+**Explicação:** O anúncio oferece uma sacola retornável a quem gasta R$ 70,00 e fala em sustentabilidade. A publicidade quer que o leitor consuma de forma responsável e ecológica, trocando as sacolas descartáveis.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 112
+![Figura](enem-2012-d2-q112-1.webp)
+
+Considerando-se a finalidade comunicativa comum do gênero e o contexto específico do Sistema de Biblioteca da UFG, esse cartaz tem função predominantemente
+
+- A) socializadora, contribuindo para a popularização da arte.
+- B) sedutora, considerando a leitura como uma obra de arte.
+- C) estética, propiciando uma apreciação despretensiosa da obra.
+- D) educativa, orientando o comportamento de usuários de um serviço.
+- E) contemplativa, evidenciando a importância de artistas internacionais.
+
+**Resposta:** D
+
+**Explicação:** O cartaz da biblioteca da UFG usa a pintura de Dalí (os relógios derretendo) com a frase "Cumprir prazos é uma obra-prima" para pedir que os livros sejam devolvidos no prazo. Sua finalidade é educativa: orientar o comportamento dos usuários.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 112
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 114
+LXXVIII (Camões, 1525?-1580) Leda serenidade deleitosa, Que representa em terra um paraíso; Entre rubis e perlas doce riso; Debaixo de ouro e neve cor-de-rosa; Presença moderada e graciosa, Onde ensinando estão despejo e siso Que se pode por arte e por aviso, Como por natureza, ser fermosa; Fala de quem a morte e a vida pende, Rara, suave; enfim, Senhora, vossa; Repouso nela alegre e comedido: Estas as armas são com que me rende E me cativa Amor; mas não que possa Despojar-me da glória de rendido.
+
+> CAMÕES, L. Obra completa. Rio de Janeiro: Nova Aguilar, 2008.
+
+![Figura](enem-2012-d2-q114-1.webp)
+
+> SANZIO, R. (1483-1520) A mulher com o unicórnio. Roma, Galleria Borghese. Disponível em: www.arquipelagos.pt. Acesso em: 29 fev. 2012.
+
+A pintura e o poema, embora sendo produtos de duas linguagens artísticas diferentes, participaram do mesmo contexto social e cultural de produção pelo fato de ambos
+
+- A) apresentarem um retrato realista, evidenciado pelo unicórnio presente na pintura e pelos adjetivos usados no poema.
+- B) valorizarem o excesso de enfeites na apresentação pessoal e na variação de atitudes da mulher, evidenciadas pelos adjetivos do poema.
+- C) apresentarem um retrato ideal de mulher marcado pela sobriedade e o equilíbrio, evidenciados pela postura, expressão e vestimenta da moça e os adjetivos usados no poema.
+- D) desprezarem o conceito medieval da idealização da mulher como base da produção artística, evidenciado pelos adjetivos usados no poema.
+- E) apresentarem um retrato ideal de mulher marcado pela emotividade e o conflito interior, evidenciados pela expressão da moça e pelos adjetivos do poema.
+
+**Resposta:** C
+
+**Explicação:** O soneto de Camões e a pintura de Rafael são do Renascimento. Os dois mostram a mulher ideal com equilíbrio e sobriedade: "serenidade", "presença moderada e graciosa" no poema; postura calma, expressão serena e roupa discreta no quadro.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 114
+
+**Assunto:** literatura/quinhentismo-ao-simbolismo
+
+### 123
+![Figura](enem-2012-d2-q123-1.webp)
+
+> ARGAN, G. C. Arte moderna: do Iluminismo aos movimentos contemporâneos. São Paulo: Companhia das Letras, 1992.
+
+O quadro Les Demoiselles d’Avignon (1907), de Pablo Picasso, representa o rompimento com a estética clássica e a revolução da arte no início do século XX. Essa nova tendência se caracteriza pela
+
+- A) pintura de modelos em planos irregulares.
+- B) mulher como temática central da obra.
+- C) cena representada por vários modelos.
+- D) oposição entre tons claros e escuros.
+- E) nudez explorada como objeto de arte.
+
+**Resposta:** A
+
+**Explicação:** Em Les Demoiselles d'Avignon, Picasso quebra os corpos em planos geométricos irregulares, como se fossem vistos de vários ângulos ao mesmo tempo. Essa é a marca do Cubismo.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 124
+![Figura](enem-2012-d2-q124-1.webp)
+
+> Disponível em: http://mutantes.com. Acesso em: 28 fev. 2012.
+
+A capa do LP Os Mutantes, de 1968, ilustra o movimento da contracultura. O desafio à tradição nessa criação musical é caracterizado por
+
+- A) letras e melodias com características amargas e depressivas.
+- B) arranjos baseados em ritmos e melodias nordestinos.
+- C) sonoridades experimentais e confluência de elementos populares e eruditos.
+- D) temas que refletem situações domésticas ligadas à tradição popular.
+- E) ritmos contidos e reservados em oposição aos modelos estrangeiros.
+
+**Resposta:** C
+
+**Explicação:** Os Mutantes, ligados à Tropicália, misturavam ritmos populares brasileiros com rock, guitarras elétricas e música erudita, fazendo experiências sonoras. A tradição foi desafiada pela sonoridade experimental e pela mistura de elementos populares e eruditos.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 131
+![Figura](enem-2012-d2-q131-1.webp)
+
+> BARDI, P. M. Em torno da escultura no Brasil. São Paulo: Banco Sudameris Brasil, 1989.
+
+Com contornos assimétricos, riqueza de detalhes nas vestes e nas feições, a escultura barroca no Brasil tem forte influência do rococó europeu e está representada aqui por um dos profetas do pátio do Santuário do Bom Jesus de Matosinho, em Congonhas (MG), esculpido em pedra-sabão por Aleijadinho. Profundamente religiosa, sua obra revela
+
+- A) liberdade, representando a vida de mineiros à procura da salvação.
+- B) credibilidade, atendendo a encomendas dos nobres de Minas Gerais.
+- C) simplicidade, demonstrando compromisso com a contemplação do divino.
+- D) personalidade, modelando uma imagem sacra com feições populares.
+- E) singularidade, esculpindo personalidades do reinado nas obras divinas.
+
+**Resposta:** D
+
+**Explicação:** Os profetas de Aleijadinho, em pedra-sabão, têm rostos e roupas com traços que lembram o povo da região, e não figuras idealizadas da Europa. A obra mostra personalidade, criando uma imagem sagrada com feições populares.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 131
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 133
+![Figura](enem-2012-d2-q133-1.webp)
+
+> Disponível em: www.assine.abril.com.br. Acesso em: 29 fev. 2012 (adaptado).
+
+Com o advento da internet, as versões de revistas e livros também se adaptaram às novas tecnologias. A análise do texto publicitário apresentado revela que o surgimento das novas tecnologias
+
+- A) proporcionou mudanças no paradigma de consumo e oferta de revistas e livros.
+- B) incentivou a desvalorização das revistas e livros impressos.
+- C) viabilizou a aquisição de novos equipamentos digitais.
+- D) aqueceu o mercado de venda de computadores.
+- E) diminuiu os incentivos à compra de eletrônicos.
+
+**Resposta:** A
+
+**Explicação:** A propaganda vende a revista impressa e oferece junto a versão digital para tablet e computador. Isso mostra que as novas tecnologias mudaram a forma de consumir e de oferecer revistas e livros.
+
+**Fonte:** ENEM 2012, 2º dia, caderno amarelo, questão 133
+
+**Assunto:** portugues/interpretacao-de-texto
 
 ## Difícil
 

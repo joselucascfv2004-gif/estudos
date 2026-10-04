@@ -305,6 +305,27 @@ Esse arranjo característico se deve ao fato de os fosfolipídios apresentarem u
 
 **Assunto:** biologia/citologia
 
+### 80
+![Figura](enem-2012-d1-q080-1.webp)
+
+> DAVIS, J. Garfield está de dieta. Porto Alegre: L&PM, 2006.
+
+A condição física apresentada pelo personagem da tirinha é um fator de risco que pode desencadear doenças como
+
+- A) anemia.
+- B) beribéri.
+- C) diabetes.
+- D) escorbuto.
+- E) fenilcetonúria.
+
+**Resposta:** C
+
+**Explicação:** Garfield está acima do peso e decide "amarrar" as banhas em vez de emagrecer. A obesidade é fator de risco para o diabetes tipo 2.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 80
+
+**Assunto:** biologia/saude-e-doencas
+
 ## Médio
 
 ### 48
@@ -392,7 +413,7 @@ As estruturas adaptativas mais apropriadas para a sobrevivência desse grupo de 
 ### 58
 A própolis é um produto natural conhecido por suas propriedades anti-inflamatórias e cicatrizantes. Esse material contém mais de 200 compostos identificados até o momento. Dentre eles, alguns são de estrutura simples, como é o caso do C₆H₅CO₂CH₂CH₃ (benzoato de etila).
 
-|| O ácido carboxílico e o álcool capazes de produzir o éster em apreço por meio da reação de esterificação são, respectivamente,
+O ácido carboxílico e o álcool capazes de produzir o éster em apreço por meio da reação de esterificação são, respectivamente,
 
 - A) ácido benzoico e etanol.
 - B) ácido propanoico e hexanol.
@@ -637,6 +658,172 @@ Com base nas informações do texto, a quantidade máxima recomendada de asparta
 
 **Assunto:** quimica/estequiometria
 
+### 49
+A produção mundial de alimentos poderia se reduzir a 40% da atual sem a aplicação de controle sobre as pragas agrícolas. Por outro lado, o uso frequente dos agrotóxicos pode causar contaminação em solos, águas superficiais e subterrâneas, atmosfera e alimentos. Os biopesticidas, tais como a piretrina e a coronopilina, têm sido uma alternativa na diminuição dos prejuízos econômicos, sociais e ambientais gerados pelos agrotóxicos.
+
+![Figura](enem-2012-d1-q049-1.webp)
+
+![Figura](enem-2012-d1-q049-2.webp)
+
+Identifique as funções orgânicas presentes simultaneamente nas estruturas dos dois biopesticidas apresentados:
+
+- A) Éter e éster.
+- B) Cetona e éster.
+- C) Álcool e cetona.
+- D) Aldeído e cetona.
+- E) Éter e ácido carboxílico.
+
+**Resposta:** B
+
+**Explicação:** Na piretrina há o grupo –COO– entre carbonos (éster) e um C=O dentro do anel (cetona). Na coronopilina, o anel com –O–C(=O)– é um éster cíclico (lactona) e também há uma cetona. As funções comuns são cetona e éster.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 49
+
+**Assunto:** quimica/quimica-organica
+
+### 55
+O mecanismo que permite articular uma porta (de um móvel ou de acesso) é a dobradiça. Normalmente, são necessárias duas ou mais dobradiças para que a porta seja fixada no móvel ou no portal, permanecendo em equilíbrio e podendo ser articulada com facilidade. No plano, o diagrama vetorial das forças que as dobradiças exercem na porta está representado em
+
+- A) ![Alternativa A](enem-2012-d1-q055-1.webp)
+- B) ![Alternativa B](enem-2012-d1-q055-2.webp)
+- C) ![Alternativa C](enem-2012-d1-q055-3.webp)
+- D) ![Alternativa D](enem-2012-d1-q055-4.webp)
+- E) ![Alternativa E](enem-2012-d1-q055-5.webp)
+
+**Resposta:** D
+
+**Explicação:** A porta tende a girar e cair pelo próprio peso, puxando a dobradiça de cima para fora e empurrando a de baixo contra o portal. Para equilibrar, a dobradiça de cima puxa a porta para o portal e para cima, e a de baixo a empurra para fora e para cima. As forças ficam inclinadas como na quarta figura.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 55
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 56
+A figura representa um dos modelos de um sistema de interações entre seres vivos. Ela apresenta duas propriedades, P₁ e P₂, que interagem em I, para afetar uma terceira propriedade, P₃, quando o sistema é alimentado por uma fonte de energia, E. Essa figura pode simular um sistema de campo em que P₁ representa as plantas verdes; P₂ um animal herbívoro e P₃, um animal onívoro.
+
+![Figura](enem-2012-d1-q056-1.webp)
+
+> ODUM, E. P. Ecologia. Rio de Janeiro: Guanabara Koogan, 1988.
+
+A função interativa I representa a proporção de
+
+- A) herbivoria entre P₁ e P₂.
+- B) polinização entre P₁ e P₂.
+- C) P₃ utilizada na alimentação de P₁ e P₂.
+- D) P₁ ou P₂ utilizada na alimentação de P₃.
+- E) energia de P₁ e de P₂ que saem do sistema.
+
+**Resposta:** D
+
+**Explicação:** As plantas (P₁) e o herbívoro (P₂) interagem: o herbívoro come as plantas. Assim, a interação I representa a herbivoria entre P₁ e P₂, e o resultado alimenta o onívoro (P₃).
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 56
+
+**Assunto:** biologia/ecologia
+
+### 60
+Para melhorar a mobilidade urbana na rede metroviária é necessário minimizar o tempo entre estações. Para isso a administração do metrô de uma grande cidade adotou o seguinte procedimento entre duas estações: a locomotiva parte do repouso com aceleração constante por um terço do tempo de percurso, mantém a velocidade constante por outro terço e reduz sua velocidade com desaceleração constante no trecho final, até parar. Qual é o gráfico de posição (eixo vertical) em função do tempo (eixo horizontal) que representa o movimento desse trem?
+
+- A) ![Alternativa A](enem-2012-d1-q060-1.webp)
+- B) ![Alternativa B](enem-2012-d1-q060-3.webp)
+- C) ![Alternativa C](enem-2012-d1-q060-5.webp)
+- D) ![Alternativa D](enem-2012-d1-q060-2.webp)
+- E) ![Alternativa E](enem-2012-d1-q060-4.webp)
+
+**Resposta:** C
+
+**Explicação:** No primeiro terço, a velocidade aumenta (aceleração constante): a posição sobe em curva cada vez mais inclinada. No meio, velocidade constante: reta. No fim, freia: a curva fica cada vez menos inclinada até ficar horizontal (parado).
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 60
+
+**Assunto:** fisica/cinematica
+
+### 67
+O manual que acompanha uma ducha higiênica informa que a pressão mínima da água para o seu funcionamento apropriado é de 20 kPa. A figura mostra a instalação hidráulica com a caixa d’água e o cano ao qual deve ser conectada a ducha.
+
+![Figura](enem-2012-d1-q067-1.webp)
+
+O valor da pressão da água na ducha está associado à altura
+
+- A) h1.
+- B) h2.
+- C) h3.
+- D) h4.
+- E) h5.
+
+**Resposta:** C
+
+**Explicação:** A pressão da água na ducha depende do desnível entre a superfície da água na caixa e o ponto onde a água sai: é a altura h3.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 67
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 74
+A característica que permite identificar um planeta no céu é o seu movimento relativo às estrelas fixas. Se observarmos a posição de um planeta por vários dias, verificaremos que sua posição em relação às estrelas fixas se modifica regularmente. A figura destaca o movimento de Marte observado em intervalos de 10 dias, registrado da Terra.
+
+![Figura](enem-2012-d1-q074-1.webp)
+
+Qual a causa da forma da trajetória do planeta Marte registrada na figura?
+
+- A) A maior velocidade orbital da Terra faz com que, em certas épocas, ela ultrapasse Marte.
+- B) A presença de outras estrelas faz com que sua trajetória seja desviada por meio da atração gravitacional.
+- C) A órbita de Marte, em torno do Sol, possui uma forma elíptica mais acentuada que a dos demais planetas.
+- D) A atração gravitacional entre a Terra e Marte faz com que este planeta apresente uma órbita irregular em torno do Sol.
+- E) A proximidade de Marte com Júpiter, em algumas épocas do ano, faz com que a atração gravitacional de Júpiter interfira em seu movimento.
+
+**Resposta:** A
+
+**Explicação:** A Terra gira em torno do Sol mais depressa que Marte. Quando ela "ultrapassa" Marte, quem olha da Terra vê o planeta andar para trás por um tempo em relação às estrelas, formando o laço da figura (movimento retrógrado aparente).
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 74
+
+**Assunto:** fisica/dinamica
+
+### 79
+O armazenamento de certas vitaminas no organismo apresenta grande dependência de sua solubilidade. Por exemplo, vitaminas hidrossolúveis devem ser incluídas na dieta diária, enquanto vitaminas lipossolúveis são armazenadas em quantidades suficientes para evitar doenças causadas pela sua carência. A seguir são apresentadas as estuturas químicas de cinco vitaminas necessárias ao organismo.
+
+![Figura](enem-2012-d1-q079-1.webp)
+
+Dentre as vitaminas apresentadas na figura, aquela que necessita de maior suplementação diária é
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** C
+
+**Explicação:** Precisa de suplementação diária a vitamina hidrossolúvel, que o corpo não armazena. A estrutura III (vitamina C) tem vários grupos –OH e é bem polar, solúvel em água. As outras têm longas cadeias de carbono e são lipossolúveis.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 79
+
+**Assunto:** quimica/quimica-organica
+
+### 85
+A imagem representa o processo de evolução das plantas e algumas de suas estruturas. Para o sucesso desse processo, a partir de um ancestral simples, os diferentes grupos vegetais desenvolveram estruturas adaptativas que lhes permitiram sobreviver em diferentes ambientes.
+
+![Figura](enem-2012-d1-q085-1.webp)
+
+> Disponível em: http://biopibidufsj.blogspot.com. Acesso em: 29 fev. 2012 (adaptado).
+
+Qual das estruturas adaptativas apresentadas contribuiu para uma maior diversidade genética?
+
+- A) As sementes aladas, que favorecem a dispersão aérea.
+- B) Os arquegônios, que protegem o embrião multicelular.
+- C) Os grãos de pólen, que garantem a polinização cruzada.
+- D) Os frutos, que promovem uma maior eficiência reprodutiva.
+- E) Os vasos condutores, que possibilitam o transporte da seiva bruta.
+
+**Resposta:** C
+
+**Explicação:** O grão de pólen leva o gameta masculino de uma planta a outra, sem depender de água. Isso permite a fecundação cruzada entre indivíduos diferentes, aumentando a diversidade genética.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 85
+
+**Assunto:** biologia/evolucao
+
 ## Difícil
 
 ### 77
@@ -701,3 +888,51 @@ Com base no texto e na tabela, que metais poderiam entrar na composição do ane
 **Fonte:** ENEM 2012, 1º dia, caderno azul, questão 82
 
 **Assunto:** quimica/fisico-quimica
+
+### 66
+O benzeno é um hidrocarboneto aromático presente no petróleo, no carvão e em condensados de gás natural. Seus metabólitos são altamente tóxicos e se depositam na medula óssea e nos tecidos gordurosos. O limite de exposição pode causar anemia, câncer (leucemia) e distúrbios do comportamento. Em termos de reatividade química, quando um eletrófilo se liga ao benzeno, ocorre a formação de um intermediário, o carbocátion. Por fim, ocorre a adição ou substituição eletrofílica.
+
+> Disponível em: www.sindipetro.org.br. Acesso em: 1 mar. 2012 (adaptado).
+
+![Figura](enem-2012-d1-q066-1.webp)
+
+> Disponível em: www.qmc.ufsc.br. Acesso em: 1 mar. 2012 (adaptado).
+
+Com base no texto e no gráfico do progresso da reação apresentada, as estruturas químicas encontradas em I, II e III são, respectivamente:
+
+- A) ![Alternativa A](enem-2012-d1-q066-2.webp)
+- B) ![Alternativa B](enem-2012-d1-q066-3.webp)
+- C) ![Alternativa C](enem-2012-d1-q066-4.webp)
+- D) ![Alternativa D](enem-2012-d1-q066-5.webp)
+- E) ![Alternativa E](enem-2012-d1-q066-6.webp)
+
+**Resposta:** A
+
+**Explicação:** O carbocátion (I) tem o bromo e um H no mesmo carbono e carga positiva no anel. Pelo gráfico, o produto II, menos estável, vem da adição (dibromo, sem anel aromático) e o III, mais estável, da substituição: bromobenzeno, que mantém o anel aromático. É a sequência da primeira alternativa.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 66
+
+**Assunto:** quimica/quimica-organica
+
+### 73
+Para ligar ou desligar uma mesma lâmpada a partir de dois interruptores, conectam-se os interruptores para que a mudança de posição de um deles faça ligar ou desligar a lâmpada, não importando qual a posição do outro. Esta ligação é conhecida como interruptores paralelos. Este interruptor é uma chave de duas posições constituída por um polo e dois terminais, conforme mostrado nas figuras de um mesmo interruptor. Na Posição I a chave conecta o polo ao terminal superior, e na Posição II a chave o conecta ao terminal inferior.
+
+![Figura](enem-2012-d1-q073-1.webp)
+
+![Figura](enem-2012-d1-q073-2.webp)
+
+O circuito que cumpre a finalidade de funcionamento descrita no texto é:
+
+- A) ![Alternativa A](enem-2012-d1-q073-3.webp)
+- B) ![Alternativa B](enem-2012-d1-q073-4.webp)
+- C) ![Alternativa C](enem-2012-d1-q073-5.webp)
+- D) ![Alternativa D](enem-2012-d1-q073-6.webp)
+- E) ![Alternativa E](enem-2012-d1-q073-7.webp)
+
+**Resposta:** E
+
+**Explicação:** No circuito "three-way", a lâmpada liga e desliga por qualquer um dos dois interruptores: os dois terminais de um ficam ligados aos dois terminais do outro (os fios "paralelos"), o polo de um vai à fase e o do outro vai à lâmpada. A última montagem faz isso.
+
+**Fonte:** ENEM 2012, 1º dia, caderno azul, questão 73
+
+**Assunto:** fisica/eletricidade
