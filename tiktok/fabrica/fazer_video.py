@@ -229,7 +229,8 @@ def montar_video(audio: Path, legendas: Path, trechos, total: float, saida: Path
         ["ffmpeg", "-y", "-loglevel", "error", *entradas, "-i", str(audio),
          "-filter_complex", cortes + juncao + legenda + f";[{n}:a]apad[audio]",
          "-map", "[video]", "-map", "[audio]", "-t", f"{total:.2f}",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-r", str(QUADROS),
+         "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "1800k",
+         "-bufsize", "3600k", "-r", str(QUADROS),  # cerca de 20 MB por vídeo
          "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-movflags", "+faststart", str(saida)],
         check=True,
     )
