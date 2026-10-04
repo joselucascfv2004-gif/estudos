@@ -1,0 +1,158 @@
+## 57-enem-2009-matematica.md | 2009 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2009 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações e expoentes foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Proporção:** regra de três com várias grandezas (trabalhadores, horas, dias) e semelhança de triângulos na rampa.
+- **Estatística:** média e mediana (valor do meio, com os dados em ordem); taxa média de variação = variação de y ÷ variação de x.
+- **Probabilidade:** "exatamente 2 de 4" = C(4,2) · p² · (1 − p)²; risco acumulado = 1 − (chance de nada acontecer)ⁿ.
+- **Contagem:** combinação quando a ordem não importa, arranjo quando importa.
+- **Funções:** receita = preço × quantidade, que pode gerar uma função do 2º grau.
+- **Geometria espacial:** esferas em uma caixa cúbica; volume de pirâmide = área da base × altura ÷ 3.
+
+@140 f matematica/porcentagem
+x: 925 milhões de litros são 4% da mistura, então a mistura total é 925 ÷ 0,04 = 23 125 milhões de litros. Com 3%: 0,03 × 23 125 = 693,75 milhões de litros.
+@166 f matematica/analise-combinatoria
+x: No Grupo A a ordem dos 4 times não importa: é uma combinação, C(12,4). No jogo de abertura importa quem é mandante e quem é visitante: é um arranjo, A(4,2).
+@167 f matematica/estatistica
+s: Mês Cotação Ano Outubro R$ 83,00 2007 Novembro R$ 73,10 2007 Dezembro R$ 81,60 2007 Janeiro R$ 82,00 2008 Fevereiro R$ 85,30 2008 Março R$ 84,00 2008 Abril R$ 84,60 2008 De acordo => Quadro (mês/ano: cotação): Outubro/2007: R$ 83,00. Novembro/2007: R$ 73,10. Dezembro/2007: R$ 81,60. Janeiro/2008: R$ 82,00. Fevereiro/2008: R$ 85,30. Março/2008: R$ 84,00. Abril/2008: R$ 84,60. || De acordo
+x: Em ordem crescente: 73,10; 81,60; 82,00; 83,00; 84,00; 84,60; 85,30. São 7 valores, e o do meio (4º) é R$ 83,00.
+@173 f matematica/porcentagem
+x: Cada foto tem 2 milhões de pontos × 3 bytes = 6 MB. Com compressão de 95%, sobram 5%: 0,3 MB. As 150 fotos ocupam 150 × 0,3 = 45 MB. O menor dispositivo que comporta isso é o cartão de 64 MB.
+@180 f matematica/razao-proporcao-regra-de-tres
+x: A cisterna guarda 2 000 × 15 = 30 000 L, mais 10%: 33 000 L. Área do telhado = 33 000 ÷ 110 = 300 m², como 15 m × 20 m.
+@178 f matematica/geometria-espacial
+x: A pirâmide de base quadrada tem 5 faces (4 laterais e a base). Cada face cortada pelo plano gera um lado do polígono; se o plano corta as 5 faces, o polígono tem 5 lados: um pentágono.
+@137 m matematica/exponencial-e-logaritmo
+s: y = 363e0,03x , em que => y = 363 · e^(0,03x), em que
+s: considerando e0,3 = 1,35 => considerando e^0,3 = 1,35
+s: Suponha que o modelo exponencial => (O gráfico da prova mostra a população com 60 anos ou mais nos países desenvolvidos e em desenvolvimento.) || Suponha que o modelo exponencial
+x: 2030 corresponde a x = 30: y = 363 · e^0,9 = 363 · (e^0,3)³ = 363 × 1,35³ ≈ 363 × 2,46 ≈ 893 milhões, entre 870 e 910 milhões.
+@146 m matematica/probabilidade
+a: 2 × (0,2%)⁴. | 4 × (0,2%)². | 6 × (0,2%)² × (99,8%)². | 4 × (0,2%). | 6 × (0,2%) × (99,8%).
+x: Há C(4,2) = 6 maneiras de escolher quais 2 aparelhos têm defeito. Cada caso tem probabilidade (0,2%)² para os 2 defeituosos e (99,8%)² para os 2 bons: 6 × (0,2%)² × (99,8%)².
+@148 m matematica/progressoes
+s: é apresentado no gráfico a seguir, no qual => é apresentado em um gráfico, no qual
+x: Diárias do pacote: 150, 150, 150, 130, 110, 90, 90, 90. Total: 450 + 330 + 180 = R$ 960. Sete dias fora da promoção: 7 × 150 = R$ 1 050. Economia: 1 050 − 960 = R$ 90.
+@150 m matematica/estatistica
+s: Investimentos Bilaterais (em milhões de dólares) || Ano Brasil na França França no Brasil 2003 367 825 2004 357 485 2005 354 1.458 2006 539 744 2007 280 1.214 => Quadro — Investimentos bilaterais, em milhões de dólares (ano: Brasil na França; França no Brasil): 2003: 367; 825. 2004: 357; 485. 2005: 354; 1.458. 2006: 539; 744. 2007: 280; 1.214.
+x: Média do Brasil na França: (367 + 357 + 354 + 539 + 280) ÷ 5 = 1 897 ÷ 5 ≈ 379. Média da França no Brasil: (825 + 485 + 1 458 + 744 + 1 214) ÷ 5 = 4 726 ÷ 5 ≈ 945. Diferença ≈ 566 milhões de dólares, entre 500 e 600.
+@152 m matematica/equacoes-e-sistemas
+x: Seja x a cota inicial. A despesa total é 50x + 510. No acerto, cada um paga x + 7, e as 55 pessoas cobrem a despesa: 55(x + 7) = 50x + 510. Então 55x + 385 = 50x + 510, 5x = 125 e x = 25. A cota final é 25 + 7 = R$ 32,00.
+@153 m matematica/grandezas-medidas-escalas
+a: 1,5 × 10² vezes a capacidade do reservatório novo. | 1,5 × 10³ vezes a capacidade do reservatório novo. | 1,5 × 10⁶ vezes a capacidade do reservatório novo. | 1,5 × 10⁸ vezes a capacidade do reservatório novo. | 1,5 × 10⁹ vezes a capacidade do reservatório novo.
+x: 1 km³ = 10⁹ m³ = 10¹² L. O aquífero tem 30 000 km³ = 3 × 10⁴ × 10¹² = 3 × 10¹⁶ L. O reservatório tem 2 × 10⁷ L. Razão: 3 × 10¹⁶ ÷ (2 × 10⁷) = 1,5 × 10⁹.
+@154 m matematica/geometria-plana
+s: ainda deve caminhar para atingir o ponto mais alto da rampa é A 1,16 metros. D 5,6 metros. => ainda deve caminhar para atingir o ponto mais alto da rampa é
+a: 1,16 metros. | 3,0 metros. | 5,4 metros. | 5,6 metros. | 7,04 metros.
+x: A rampa forma triângulos semelhantes: 3,2 m de caminhada para 0,8 m de altura é a mesma razão (4 para 1) que vale para o topo. Para 2,2 m de altura, o comprimento é 4 × 2,2 = 8,8 m. Falta caminhar 8,8 − 3,2 = 5,6 m.
+@156 m matematica/funcoes-afim-e-quadratica
+a: V = 10.000 + 50x – x². | V = 10.000 + 50x + x². | V = 15.000 – 50x – x². | V = 15.000 + 50x – x². | V = 15.000 – 50x + x².
+x: Com x centavos de desconto, o litro custa (150 − x) centavos = (150 − x)/100 reais, e vendem-se 10 000 + 100x litros. V = (150 − x)(10 000 + 100x)/100 = (150 − x)(100 + x) = 15 000 + 50x − x².
+@157 m matematica/geometria-espacial
+s: o número máximo de esferas que podem ser transportadas em uma caixa é igual a A 4. D 24. => o número máximo de esferas que podem ser transportadas em uma caixa é igual a
+a: 4. | 8. | 16. | 24. | 32.
+x: 13 824 = 24³, então a aresta da caixa é 24 cm. Cada esfera tem 12 cm de diâmetro, e cabem 2 em cada direção: 2 × 2 × 2 = 8 esferas.
+@159 m matematica/funcoes-afim-e-quadratica
+s: número de bolas (x) nível da água (y) || 5 6,35 cm 10 6,70 cm 15 7,05 cm => Quadro (número de bolas x: nível da água y): 5: 6,35 cm. 10: 6,70 cm. 15: 7,05 cm.
+x: A cada 5 bolas o nível sobe 0,35 cm, ou seja, 0,07 cm por bola. Com 5 bolas, 6,35 = 0,07 × 5 + b, então b = 6. Logo y = 0,07x + 6.
+@160 m matematica/estatistica
+x: Em ordem, as notas da Gama são 0; 6; 6,5; 6,5; 7; 7; 8; 8; 10; 10, e a mediana é a média do 5º e 6º valores: 7. Mesmo que o aluno tirasse 10, as notas do meio seriam 7 e 8, e a mediana subiria só para 7,5, abaixo da Delta (7,6). A Gama ficaria em terceiro de qualquer jeito.
+@162 m matematica/razao-proporcao-regra-de-tres
+x: Nos 10 primeiros dias: 12 kg × 10 = 120 kg. 20 alunos × 3 h = 60 aluno-horas coletam 12 kg, ou 0,2 kg por aluno-hora. Depois, 50 alunos × 4 h = 200 aluno-horas por dia: 40 kg por dia × 20 dias = 800 kg. Total: 920 kg.
+@163 m matematica/razao-proporcao-regra-de-tres
+x: 16 voltas × 7 km = 112 km. Consumo: 75 L a cada 100 km, ou seja, 0,75 × 112 = 84 L. Massa da gasolina: 84 × 0,75 kg = 63 kg. O carro deve pesar no mínimo 605 + 63 = 668 kg.
+@168 m matematica/grandezas-medidas-escalas
+s: biomas continentais brasileiros área aproximada (km2 ) || área / total Brasil Amazônia 4.196.943 49,29% Cerrado 2.036.448 23,92% Mata Atlântica 1.110.182 13,04% Caatinga 844.453 9,92% Pampa 176.496 2,07% Pantanal 150.355 1,76% Área Total Brasil 8.514.877 => Quadro (bioma: área aproximada em km²; porcentagem do total do Brasil): Amazônia: 4.196.943; 49,29%. Cerrado: 2.036.448; 23,92%. Mata Atlântica: 1.110.182; 13,04%. Caatinga: 844.453; 9,92%. Pampa: 176.496; 2,07%. Pantanal: 150.355; 1,76%. Área total do Brasil: 8.514.877 km².
+x: Um campo tem 120 × 90 = 10 800 m² = 0,0108 km². O Pantanal tem cerca de 150 000 km²: 150 000 ÷ 0,0108 ≈ 13,9 milhões, aproximadamente 14.000.000 campos.
+@175 m matematica/numeros-e-operacoes
+x: Aquecimento: 10 min + 1 min de descanso. São 6 aparelhos × 3 séries = 18 séries de 30 s = 9 min. Entre as 18 séries há 17 descansos de 1 min = 17 min. Total: 11 + 9 + 17 = 37 min, exatamente de 10h30 a 11h07.
+@179 m matematica/probabilidade
+x: A chance de não ter efeito colateral em n doses é 0,9ⁿ. Com 4 doses: 0,9⁴ ≈ 0,656, risco de 34,4% (aceitável). Com 6 doses: 0,9⁶ ≈ 0,531, risco de 46,9% (acima de 35%). O máximo é 4 doses.
+@147 d matematica/funcoes-afim-e-quadratica
+s: Produção (em toneladas) || Emissão de dióxido de carbono (em partes por milhão – ppm) || 1,1 2,14 1,2 2,30 1,3 2,46 1,4 2,64 1,5 2,83 1,6 3,03 1,7 3,25 1,8 3,48 1,9 3,73 2,0 4,00 Cadernos do Gestar II, Matemática TP3. => Quadro (produção em toneladas: emissão de CO₂ em ppm): 1,1: 2,14. 1,2: 2,30. 1,3: 2,46. 1,4: 2,64. 1,5: 2,83. 1,6: 3,03. 1,7: 3,25. 1,8: 3,48. 1,9: 3,73. 2,0: 4,00. || > Cadernos do Gestar II, Matemática TP3.
+x: Taxa média de variação = (variação da emissão) ÷ (variação da produção) = (4,00 − 2,14) ÷ (2,0 − 1,1) = 1,86 ÷ 0,9 ≈ 2,07, entre 1,50 e 2,80.
+@158 d matematica/numeros-e-operacoes
+s: os dígitos verificadores d1 e d2 esquecidos são, respectivamente, A 0 e 9. D 9 e 1. => os dígitos verificadores d1 e d2 esquecidos são, respectivamente,
+a: 0 e 9. | 1 e 4. | 1 e 7. | 9 e 1. | 0 e 1.
+x: d1: 1·10 + 2·9 + 3·8 + 4·7 + 5·6 + 6·5 + 7·4 + 8·3 + 9·2 = 210. 210 = 11 × 19 + 1, resto 1, então d1 = 0. d2: usando 2, 3, 4, 5, 6, 7, 8, 9, 0: 2·10 + 3·9 + 4·8 + 5·7 + 6·6 + 7·5 + 8·4 + 9·3 + 0·2 = 244. 244 = 11 × 22 + 2, resto 2, então d2 = 11 − 2 = 9.
+@161 d matematica/razao-proporcao-regra-de-tres
+x: São necessários 180 ÷ 6 = 30 hectares por dia, 1,5 vez os 20 atuais. Com a mesma equipe, basta trabalhar 1,5 × 6 = 9 horas por dia. O custo diário continua 12 × 10 + 4 × 1 000 = R$ 4 120; em 6 dias, R$ 24 720, abaixo de R$ 25 000. (Mais máquinas ou trabalhadores passariam do limite de custo.)
+@170 d matematica/geometria-espacial
+s: quanto ele passará a gastar com parafina para fabricar uma vela? A 156 cm3 . D 216 cm3 . => quanto ele passará a gastar com parafina para fabricar uma vela?
+a: 156 cm³. | 189 cm³. | 192 cm³. | 216 cm³. | 540 cm³.
+x: Sem os 3 espaços de 1 cm, os 4 blocos juntos formam uma pirâmide de 16 cm de altura e base 6 cm: V = 6² × 16 ÷ 3 = 192 cm³. Cada bloco tem 4 cm de altura; a pirâmide do topo tem base 1,5 cm e altura 4 cm: 1,5² × 4 ÷ 3 = 3 cm³. Sem ela: 192 − 3 = 189 cm³.
+@171 d matematica/probabilidade
+x: Com uma aposta de 9 números, as sextas com exatamente 5 deles são C(9,5) × 51 = 126 × 51 = 6 426. Cada aposta de 6 números cobre 6 × 54 = 324 resultados de quina; 84 apostas sem quinas em comum cobrem 84 × 324 = 27 216. A razão é 27 216 ÷ 6 426 ≈ 4,2: com a aposta de 9 números a chance é cerca de 4 vezes menor.
+@176 d matematica/equacoes-e-sistemas
+s: em que , , NV NA TA NF NV TC = = NV é o número => em que TC = NV/NF e TA = NA/NV, NV é o número
+s: (adaptado). Suponha => (adaptado). || Suponha
+s: Portaria n° 148 => > Portaria n° 148
+x: ICad é a média de TC e TA. Multiplicando por 2: 1,2 = NV/NF + NA/NV e, dobrando NF, 1,0 = NV/(2NF) + NA/NV. Subtraindo: 0,2 = NV/(2NF), ou NV/NF = 0,4. Então NA/NV = 1,2 − 0,4 = 0,8. Como NA + NV = 1,8 NV = 3 600, NV = 2 000 e NF = 2 000 ÷ 0,4 = 5 000.
+@177 d matematica/porcentagem
+x: Cheque especial: 12 × 150 = R$ 1 800, ou R$ 1 500 à vista. Cartão: 5 × 80 = R$ 400, ou R$ 300 à vista. Emprestar de José custa 25% a mais. Opções: renegociar = 2 250; emprestar para as duas = 1 800 × 1,25 = 2 250; pagar tudo em parcelas = 2 200; emprestar só para o cheque = 1 875 + 400 = 2 275; emprestar só para o cartão = 375 + 1 800 = 2 175. A menor é a última.
+
+## 58-enem-2009-linguagens.md | 2009 | 2 | 2º dia, caderno amarelo | Linguagens
+auto: sim
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2009 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **Variação linguística:** a fala muda conforme a intimidade; variações socioculturais; preconceito de quem vê a língua como algo fixo.
+- **Literatura:** Simbolismo (Cruz e Sousa), romance regionalista do Nordeste, Drummond (o "eu" e Itabira), Osman Lins, Brecht.
+- **Tecnologia e linguagem:** hipertexto, exclusão digital, democratização da informação.
+- **Teatro e corpo:** gênero dramático, Teatro do Oprimido, aptidão física, dança xavante, culto ao corpo.
+
+@92 f portugues/funcoes-generos-e-variacao
+a: à adequação de sua fala à conversa com um amigo, caracterizada pela informalidade. | à iniciativa do cliente em se apresentar como funcionário do banco. | ao fato de ambos terem nascido em Uberlândia (Minas Gerais). | à intimidade forçada pelo cliente ao fornecer seu nome completo. | ao seu interesse profissional em financiar o veículo de Júlio.
+x: Ao reconhecer o colega Júlio, a gerente troca o tom formal ("O senhor é nosso cliente?") por um informal ("Julinho, é você, cara?", "Cê tá"). Ela adequou a fala à conversa com um amigo.
+@94 m artes/artes-e-educacao-fisica
+x: O balé usou máquina de escrever, sirenes, dínamos, tiros e sons de aeroplano na música, além de cenários e figurinos de Picasso. Ele refletia as inovações tecnológicas da época em todas as partes do espetáculo.
+@99 m literatura/quinhentismo-ao-simbolismo v
+x: O poema é um soneto de forma muito trabalhada (rimas, métrica, maiúsculas como "Dor" e "Mistério") e trata da alma presa que sonha com o infinito, um tema metafísico e universal, típico do Simbolismo.
+@100 m artes/artes-e-educacao-fisica
+x: O texto dramático pode nascer de muitas fontes, desde que tenha personagens, ação, ambiente e tema. Por isso contos, lendas, notícias e outros gêneros podem virar peças de teatro.
+@103 f artes/artes-e-educacao-fisica
+s: em conta. A partir desse contexto => em conta. || A partir desse contexto
+x: Aptidão física é usar o corpo de forma eficiente nas atividades do cotidiano. Quem tem boa aptidão consegue realizá-las em qualquer idade.
+@104 f portugues/funcoes-generos-e-variacao
+x: No hipertexto, cada leitor escolhe seus caminhos e pode até inserir informações novas. Assim, é o leitor que constrói a versão final do texto.
+@105 f portugues/interpretacao-de-texto
+x: O texto diz que a internet acelera as trocas entre sociedades e culturas. As novas tecnologias permitem registrar e espalhar o conhecimento de forma mais democrática e interativa.
+@110 f portugues/interpretacao-de-texto
+x: O portal oferece gratuitamente obras literárias, artísticas e científicas a todos. É um exemplo de democratização da informação.
+@111 m portugues/interpretacao-de-texto
+x: Quem não tem acesso às novas tecnologias fica sem os conhecimentos e habilidades exigidos pelo mercado. A "divisão digital" aprofunda as desigualdades sociais que já existiam.
+@112 m portugues/funcoes-generos-e-variacao v
+x: A canção foi passada de geração em geração e guarda o jeito de falar do interior ("bera", "espaia", "bataia") e uma memória histórica. Ela mostra a identidade nacional formada pela tradição oral.
+@114 f portugues/interpretacao-de-texto
+s: Vida simples. Ed. 74 => > Vida simples. Ed. 74
+x: O texto pede que o leitor procure selos de certificação, que garantem que o produto foi feito segundo princípios éticos, como respeito ao ambiente e aos povos da floresta.
+@115 m artes/artes-e-educacao-fisica
+x: Boal usa a linguagem do cidadão comum e convida o espectador a mudar a história. O teatro se torna acessível a todos e dá ao oprimido autonomia crítica para entender o mundo.
+@116 d artes/artes-e-educacao-fisica
+x: As danças xavantes vêm dos primeiros xavantes, mas o padrinho "sonha" novos cantos para todos entoarem. A tradição se mantém unindo gestos ancestrais e cantos novos.
+@119 m portugues/funcoes-generos-e-variacao
+s: Texto II Alguns leitores => Texto II || Alguns leitores
+x: O Texto I condena a "língua brasileira" e defende a gramática rígida. O Texto II explica que a gramática foi escrita propositalmente no padrão atual brasileiro, como "tenho que".
+@120 m literatura/pre-modernismo-ao-contemporaneo
+x: Os "tubarões" cuidam dos peixinhos só para devorá-los e lhes ensinam obediência e sacrifício. A fábula critica a sociedade capitalista, em que os mais fortes exploram os mais fracos.
+@121 d literatura/pre-modernismo-ao-contemporaneo
+a: o romance do Sul do Brasil se caracteriza pela temática essencialmente urbana, colocando em relevo a formação do homem por meio da mescla de características locais e dos aspectos culturais trazidos de fora pela imigração europeia. | José de Alencar, representante, sobretudo, do romance urbano, retrata a temática da urbanização das cidades brasileiras e das relações conflituosas entre as raças. | o romance do Nordeste caracteriza-se pelo acentuado realismo no uso do vocabulário, pelo temário local, expressando a vida do homem em face da natureza agreste, e assume frequentemente o ponto de vista dos menos favorecidos. | a literatura urbana brasileira, da qual um dos expoentes é Machado de Assis, põe em relevo a formação do homem brasileiro, o sincretismo religioso, as raízes africanas e indígenas que caracterizam o nosso povo. | Érico Veríssimo, Rachel de Queiroz, Simões Lopes Neto e Jorge Amado são romancistas das décadas de 30 e 40 do século XX, cuja obra retrata a problemática do homem urbano em confronto com a modernização do país promovida pelo Estado Novo.
+x: O romance regionalista do Nordeste (Graciliano Ramos, Rachel de Queiroz, José Lins do Rego) usa vocabulário realista e local, mostra o homem diante da seca e da natureza dura e dá voz aos mais pobres.
+@128 f literatura/pre-modernismo-ao-contemporaneo
+x: A pergunta "Deveria fugir ou falar com ela?" mostra a dúvida do narrador entre partir em silêncio e se despedir da avó: é o trecho que expressa a hesitação.
+@129 d portugues/funcoes-generos-e-variacao
+s: isoglossas1 da România => isoglossas* da România
+s: isoglossa – linha imaginária => > *isoglossa – linha imaginária
+x: Serafim diz que as divisões dialetais geográficas no Brasil não são tão marcadas; Teyssier concorda, mas acrescenta que as diferenças são mais socioculturais do que geográficas. Os dois veem pouca delimitação geográfica, cada um enfatizando um aspecto.
+@130 d literatura/pre-modernismo-ao-contemporaneo
+x: A autora diz que hoje o Brasil é "um país polifônico", em que cada região desenvolve sua tradição cultural, e que o país se redescobre "no bem e no mal". Há um maior reconhecimento do Brasil por ele mesmo.
+@131 m literatura/pre-modernismo-ao-contemporaneo v
+s: porosidade e // [comunicação. => porosidade e comunicação.
+s: sem mulheres e // [sem horizontes. => sem mulheres e sem horizontes.
+x: O poeta diz que é "de ferro" e triste por ter nascido em Itabira: a cidade e sua história moldaram quem ele é. O poema mostra a tensão entre o "eu" e a comunidade que o formou.
+@134 m artes/artes-e-educacao-fisica
+a: é uma religião pelo avesso, por isso outra religião; inverteram-se os sinais, a busca da felicidade eterna antes carregava em si a destruição do prazer, hoje implica o seu culto. | criou outro ópio do povo, levando as pessoas a buscarem cada vez mais grupos igualitários de integração social. | é uma tradução dos valores das sociedades subdesenvolvidas, mas em países considerados do primeiro mundo ela não consegue se manifestar porque a população tem melhor educação e senso crítico. | tem como um de seus dogmas o narcisismo, significando o “amar o próximo como se ama a si mesmo”. | existe desde a Idade Média, entretanto esse acontecimento se intensificou a partir da Revolução Industrial no século XIX e se estendeu até os nossos dias.
+x: O texto compara o culto ao corpo a uma religião. Antes, a religião prometia a felicidade eterna renunciando ao prazer; a "corpolatria" faz o contrário: cultua o prazer. É uma religião pelo avesso.
+@135 d portugues/funcoes-generos-e-variacao
+s: Texto I Acompanhando => Texto I || Acompanhando
+s: Texto II Barbarismo => Texto II || Barbarismo
+x: João de Barros considera "bárbaro" o português falado pelos povos dominados, como se só a forma de Portugal fosse correta. Ele vê a língua como algo homogêneo e invariável, que não pertence aos outros povos.

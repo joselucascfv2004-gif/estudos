@@ -1,0 +1,189 @@
+## 59-enem-2009-ciencias-da-natureza.md | 2009 | 1 | 1º dia, caderno azul | Ciências da Natureza
+auto: sim
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2009 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2009, Ciências da Natureza ocupou as questões 1 a 45 do 1º dia. Fórmulas, quadros e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
+- **Biologia:** genótipo × fenótipo, vacinas, DNA recombinante, ciclo do carbono, seleção natural, DNA mitocondrial, sensibilidade de testes, espécies pioneiras.
+- **Química:** sabões e pH, chuva ácida (ácidos fortes), eletrólise do cobre, calor por mol de CO₂, balanço de massa na destilação.
+- **Física:** movimento circular (a = v²/R), eficiência energética, efeito Joule, dilatação, ciclo da geladeira, peso em órbita, radiação e raio X.
+
+@1 f quimica/quimica-ambiental
+x: O texto aponta o desmatamento como causa do aumento de CO₂. Reduzir o desmatamento mantém a vegetação, que absorve CO₂ da atmosfera na fotossíntese.
+@4 f biologia/genetica-e-biotecnologia
+x: Os clones têm o mesmo DNA (genótipo idêntico). A falta de luz impediu a produção de clorofila, e as folhas ficaram amareladas: o fenótipo mudou por causa do ambiente.
+@6 f biologia/ecologia
+x: A queima de combustíveis fósseis libera na atmosfera, como CO₂, o carbono que estava guardado havia milhões de anos no subsolo. Isso aumenta a quantidade de carbono no ar.
+@7 f biologia/genetica-e-biotecnologia
+x: Com bactérias modificadas, a insulina é produzida em mais quantidade e mais rápido. Isso beneficia diretamente os diabéticos, que dependem do hormônio.
+@8 f biologia/ecologia
+x: A represa de uma hidrelétrica alaga grandes áreas de mata, destruindo o habitat dos animais terrestres que viviam ali.
+@11 f biologia/fisiologia-humana
+x: O sistema nervoso controla a temperatura do corpo (pelo hipotálamo). No calor, ele estimula o suor, e a evaporação da água retira calor da pele.
+@13 f biologia/ecologia
+x: A solução equilibrada é permitir as rodovias quando realmente necessárias, depois de estudos de impacto ambiental que mostrem como evitar ou compensar os danos.
+@40 f biologia/genetica-e-biotecnologia
+x: Por serem minúsculas, as nanopartículas podem atravessar poros e membranas das células, com efeitos ainda desconhecidos sobre os seres vivos e o ambiente. Por isso exigem mais estudos.
+@3 m biologia/saude-e-doencas
+x: Uma vacina estimula o sistema imunológico a produzir defesas (anticorpos e células de memória), protegendo a pessoa antes de ela ter contato com o vírus.
+@5 m fisica/dinamica
+s: Esse resultado generalizou-se para os demais planetas. A respeito => Esse resultado generalizou-se para os demais planetas. || A respeito
+x: Kepler baseou sua conclusão em observações cuidadosas de Marte durante décadas, e o resultado pôde ser testado e estendido aos outros planetas. Essa é a marca de uma teoria científica.
+@10 m biologia/ecologia
+s: é resultante da atividade fotossintética. As informações => é resultante da atividade fotossintética. || As informações
+x: A fotossíntese transforma a energia do Sol em energia química nos carboidratos, que alimentam todos os seres vivos e deram origem até aos combustíveis fósseis. Em última análise, a vida depende da energia solar.
+@12 m quimica/quimica-organica
+s: A figura a seguir representa a estrutura de uma molécula de sabão. => (A molécula de sabão tem uma longa cadeia de carbonos, apolar, e uma extremidade com carga, –COO⁻ Na⁺.)
+s: CH3(CH2)16COO– + H2O CH3(CH2)16COOH + OH– Uma vez => || CH₃(CH₂)₁₆COO⁻ + H₂O ⇌ CH₃(CH₂)₁₆COOH + OH⁻ || Uma vez
+x: O equilíbrio produz OH⁻. Em meio básico (muito OH⁻), o equilíbrio se desloca para a esquerda, mantendo o sabão na forma de ânion, que é a forma eficiente. Em meio ácido, o OH⁻ é consumido e forma-se o ácido carboxílico, pouco eficiente.
+@14 m fisica/trabalho-energia-e-potencia
+s: A figura mostra um processo com diversas etapas. => A figura mostra um processo com diversas etapas: a usina de força, as linhas de transmissão e as lâmpadas das moradias.
+x: A eficiência geral é o produto das eficiências das etapas. Melhorar as linhas de transmissão (menos perda por calor) e usar lâmpadas fluorescentes (mais luz e menos calor) aumenta a eficiência de duas etapas. Queimar mais combustível ou usar menos aparelhos não muda a eficiência.
+@15 m quimica/fisico-quimica
+s: de acordo com suas forças redutoras relativas. => de acordo com suas forças redutoras relativas. || (Na série, a força redutora cresce nesta ordem: Au, Pt, Ag, Cu, Pb, Ni, Zn.)
+x: Os metais com força redutora maior que a do cobre (Pb, Ni, Zn) se oxidam e passam para a solução. Os de força redutora menor (Au, Pt, Ag) não se oxidam e se desprendem do ânodo, sedimentando abaixo dele.
+@22 m quimica/fisico-quimica
+s: Como mostram as figuras, essa nova técnica => Essa nova técnica
+x: Pela iontoforese, o remédio entra pela pele e vai direto ao local desejado, sem passar pelo estômago e sem se espalhar pelo corpo. Isso reduz os efeitos colaterais em relação aos remédios tomados por via oral.
+@23 m quimica/quimica-ambiental
+x: Só substituir os metais tóxicos por substâncias não bioacumulativas acaba "definitivamente" com o problema. Coleta e devolução reduzem a poluição, mas dependem de todos fazerem o descarte correto.
+@26 m quimica/ligacoes-e-funcoes-inorganicas
+x: Em concentrações iguais, ácidos fortes liberam mais H⁺. Entre os citados, os fortes são o ácido sulfúrico (H₂SO₄) e o ácido nítrico (HNO₃); os outros são fracos.
+@27 m fisica/dinamica
+x: Peso é a força com que a Terra atrai o corpo. A 560 km de altura, a gravidade ainda é forte (cerca de 85% da da superfície) e é justamente ela que mantém o telescópio em órbita. A sensação de "peso pequeno" vem de tudo estar em queda livre junto.
+@32 m fisica/ondulatoria-e-optica
+s: evidenciou-se a imagem mostrada na figura abaixo. => evidenciou-se uma imagem do pescoço, com os ossos aparecendo claros.
+x: A radiação descrita é o raio X. Os ossos têm muito cálcio, que absorve mais raio X que os átomos leves dos tecidos moles (carbono, hidrogênio, oxigênio). Por isso o filme fica mais claro onde estão os ossos.
+@33 m biologia/evolucao
+x: Ratos com pelagem parecida com o solo se camuflam melhor e escapam mais dos predadores, sobrevivendo e se reproduzindo mais. É a seleção natural.
+@34 m biologia/ecologia
+s: (adaptado). Suponha que => (adaptado). || Suponha que
+s: dois a três meses. Como usar o lixo orgânico em casa? Ciência Hoje => dois a três meses. || > Como usar o lixo orgânico em casa? Ciência Hoje
+x: A compostagem é feita por microrganismos decompositores, que precisam de água. Sem umedecer o material, eles não conseguem decompor a matéria orgânica.
+@37 m fisica/ondulatoria-e-optica
+x: Sem os cones, a pessoa só usa os bastonetes, que percebem a intensidade da luz, mas não a cor. O objeto, iluminado pela luz vermelha, aparece em tom de cinza.
+@39 m fisica/termologia
+x: O calor só passa sozinho do quente para o frio. Na geladeira ele vai do interior frio para o exterior quente, o que só acontece porque o compressor gasta energia: o fluxo é não espontâneo.
+@41 m biologia/genetica-e-biotecnologia
+x: Cada célula tem centenas de mitocôndrias, cada uma com várias cópias do DNA mitocondrial, que vem da mãe. Com tantas cópias, é mais provável achar moléculas intactas, e é possível comparar com a linhagem materna.
+@42 m biologia/ecologia
+x: As partículas em suspensão turvam a água e bloqueiam a luz. Com menos luz, o fitoplâncton faz menos fotossíntese, e a produtividade primária do ambiente cai.
+@9 d biologia/evolucao
+x: Nos períodos glaciais o clima ficou mais seco, e as áreas não florestais se expandiram. As plantas adaptadas à aridez, que perdem pouca água, passaram a ocupar áreas maiores.
+@17 d fisica/cinematica
+x: v = 403 km ÷ (85/60 h) ≈ 284 km/h ≈ 79 m/s. A aceleração lateral máxima é 0,1 × 10 = 1 m/s². Como a = v²/R, R = 79² ÷ 1 ≈ 6 240 m, cerca de 6 400 m.
+@18 d fisica/eletricidade
+s: Capacidade de refrigeração kW/(BTU/h) || Potência (W) || Corrente elétrica - ciclo frio (A) || Eficiência energética COP (W/W) || Vazão de ar (m /h) || Frequência (Hz) || 3,52/(12.000) 1.193 5,8 2,95 550 60 5,42/(18.000) 1.790 8,7 2,95 800 60 5,42/(18.000) 1.790 8,7 2,95 800 60 6,45/(22.000) 2.188 10,2 2,95 960 60 6,45/(22.000) 2.188 10,2 2,95 960 60 => Quadro (capacidade de refrigeração em kW/(BTU/h); potência em W; corrente no ciclo frio em A; eficiência energética COP em W/W; vazão de ar em m³/h; frequência em Hz): 3,52/(12.000); 1.193; 5,8; 2,95; 550; 60. 5,42/(18.000); 1.790; 8,7; 2,95; 800; 60. 6,45/(22.000); 2.188; 10,2; 2,95; 960; 60.
+x: Para manter a temperatura, os aparelhos precisam retirar o calor que as pessoas produzem: isso depende da capacidade de refrigeração. A espessura dos fios depende da corrente que vai passar por eles (corrente no ciclo frio).
+@25 d biologia/saude-e-doencas
+s: O quadro mostra um exemplo hipotético de aplicação de um teste diagnóstico. condição real dos animais resultado do teste infectado não infectado total positivo 45 38 83 negativo 5 912 917 total 50 950 1.000 Manual Técnico => O quadro mostra um exemplo hipotético de aplicação de um teste diagnóstico. || Quadro (resultado do teste: animais infectados; não infectados; total): Positivo: 45; 38; 83. Negativo: 5; 912; 917. Total: 50; 950; 1.000. || > Manual Técnico
+x: Sensibilidade = positivos entre os infectados = 45/50 = 90%. Ou seja, a cada 100 infectados, o teste classifica 90 como positivos.
+@28 d biologia/ecologia
+s: Os resultados obtidos foram os seguintes: Condição de luminosidade Sombreamento Espécie Sol pleno 30% 50% 90% 1 Razoável Bom Razoável Ruim 2 Bom Razoável Ruim Ruim 3 Bom Bom Razoável Ruim 4 Bom Bom Bom Bom 5 Bom Razoável Ruim Ruim 6 Ruim Razoável Bom Bom 7 Ruim Ruim Ruim Razoável 8 Ruim Ruim Razoável Ruim 9 Ruim Razoável Bom Bom 10 Razoável Razoável Razoável Bom Para o reflorestamento => Os resultados obtidos foram os seguintes: || Quadro (espécie: sol pleno; sombreamento de 30%; 50%; 90%): 1: razoável; bom; razoável; ruim. 2: bom; razoável; ruim; ruim. 3: bom; bom; razoável; ruim. 4: bom; bom; bom; bom. 5: bom; razoável; ruim; ruim. 6: ruim; razoável; bom; bom. 7: ruim; ruim; ruim; razoável. 8: ruim; ruim; razoável; ruim. 9: ruim; razoável; bom; bom. 10: razoável; razoável; razoável; bom. || Para o reflorestamento
+x: A área está quase toda desmatada, então recebe muita luz. Para começar o reflorestamento, usam-se espécies pioneiras, que crescem bem a pleno sol, como as espécies 2, 3 e 5.
+@30 d fisica/termologia
+s: 4,19 J g-1 °C-1 , => 4,19 J/(g·°C),
+x: Calor para a água: 200 000 g × 4,19 × 35 ≈ 29,3 milhões de J. O resistor fornece P = U²/R = 110²/11 = 1 100 W. Tempo: 29,3 × 10⁶ ÷ 1 100 ≈ 26 600 s ≈ 7,4 h, gastando cerca de 7,4 L de gasolina, contra 1 L na combustão direta: cerca de 7 vezes mais.
+@31 d fisica/ondulatoria-e-optica
+x: O enunciado diz que a intensidade de transmissão e o nível de recepção são iguais nas duas tecnologias. Nesse caso, a intensidade diminui com a distância da mesma forma, e o número de antenas seria o mesmo para qualquer uma delas.
+@35 d fisica/termologia
+s: 1 cal g-1 ºC-1 = 4.200 J kg-1 ºC-1 , => 1 cal/(g·°C) = 4.200 J/(kg·°C),
+x: Para aquecer 1 000 kg de 20 °C a 100 °C: 1 000 × 4 200 × 80 = 336 milhões de J em 3 600 s, ou cerca de 93 300 W. Cada metro de refletor (6 m de largura) recebe 6 × 800 = 4 800 W. Comprimento: 93 300 ÷ 4 800 ≈ 19,4 m.
+@38 d fisica/termologia
+s: 1×10-3 ºC-1 , => 1 × 10⁻³ °C⁻¹,
+x: Aquecido de 5 °C a 35 °C, o álcool dilata ΔV = 20 000 × 10⁻³ × 30 = 600 L por dia. Esses litros "a mais" são vendidos a R$ 1,60: R$ 960 por dia. Em uma semana: 7 × 960 = R$ 6.720.
+@43 d quimica/fisico-quimica
+s: O quadro traz as entalpias-padrão de combustão a 25 ºC ( 0 H Δ ) do metano, do butano e do octano. => O quadro traz as entalpias-padrão de combustão a 25 °C (ΔH°) do metano, do butano e do octano.
+s: composto fórmula molecular massa molar (g/mol) || H Δ (kJ/mol) || metano CH4 16 - 890 butano C4H10 58 - 2.878 octano C8H18 114 - 5.471 À medida => Quadro (composto, fórmula: massa molar em g/mol; ΔH° em kJ/mol): Metano, CH4: 16; −890. Butano, C4H10: 58; −2.878. Octano, C8H18: 114; −5.471. || À medida
+x: Calor por mol de CO₂: metano (1 CO₂) 890 kJ; butano (4 CO₂) 2 878 ÷ 4 ≈ 720 kJ; octano (8 CO₂) 5 471 ÷ 8 ≈ 684 kJ. Em ordem crescente: gasolina (octano), GLP (butano) e gás natural (metano).
+@44 d quimica/solucoes
+x: A mistura tinha 20% de 800 kg = 160 kg de etanol. O álcool hidratado levou 96% de 100 kg = 96 kg. Sobraram 160 − 96 = 64 kg de etanol em 800 − 100 = 700 kg de resíduo: 64 ÷ 700 ≈ 9,1%.
+
+## 60-enem-2009-ciencias-humanas.md | 2009 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2009 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2009, Ciências Humanas ocupou as questões 46 a 90 do 1º dia. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
+- **História geral:** Egito, Versalhes, usos da Idade Média, século XX (nacionalismo, totalitarismo, Guerra Fria), 1968, Revolução Industrial.
+- **História do Brasil:** sepultamento na colônia, Inquisição, Independência e o medo do Haiti, voto feminino (1934), Estado Novo e propaganda, café e ferrovias.
+- **Geografia:** pós-Guerra Fria, cidades globais, migrações, estrutura agrária, sustentabilidade, Ártico, recursos energéticos, Pantanal.
+- **Filosofia e sociologia:** cidadania em Aristóteles, Tocqueville e a democracia americana, intérpretes do Brasil.
+
+@47 f historia/idade-moderna
+x: Versalhes foi a sede da corte de Luís XIV, centro do poder absolutista francês, e hoje é um grande patrimônio artístico e turístico.
+@50 f historia/seculo-xx
+x: As guerras mundiais e os conflitos da primeira metade do século XX tiveram entre as causas a disputa colonial, o nacionalismo exaltado e a ascensão de regimes totalitários (nazismo, fascismo).
+@52 f historia/seculo-xx
+x: A divisão da Europa entre o bloco capitalista e o socialista ficou conhecida como Cortina de Ferro, expressão popularizada por Winston Churchill em 1946.
+@54 f sociologia/temas-contemporaneos
+x: Para os Yanomami, o "sopro vital" (wixia) é o que faz a floresta viver: as plantas crescem, há folhas e água. É a capacidade da floresta de se manter por processos vitais.
+@60 f historia/brasil-republica
+x: A Constituição de 1934 fala em eleitores "de um e de outro sexo", enquanto a de 1891 falava só em "cidadãos". Na prática, a de 1891 considerava eleitores apenas os homens.
+@62 f historia/brasil-republica
+x: O programa levava ao povo a ideia de que os direitos trabalhistas eram presentes do governo. Isso fortalecia a imagem de Vargas como "pai dos pobres", protetor das massas.
+@68 f geografia/economia-agropecuaria-industria-energia
+x: Com a modernização da agricultura e da indústria, a produção cresceu e passou a consumir muito mais recursos naturais, especialmente energia.
+@76 f geografia/economia-agropecuaria-industria-energia
+x: Na América do Sul, grandes latifúndios improdutivos convivem com a falta de terra para muitos camponeses. Essa estrutura agrária antiga ajuda a explicar a fome e os conflitos no campo.
+@80 f geografia/biomas-e-questoes-ambientais
+x: Com mais tecnologia, a exploração de recursos se intensificou e aumentaram os desastres ambientais de grande porte, como vazamentos de petróleo.
+@81 f geografia/biomas-e-questoes-ambientais
+x: Desenvolvimento sustentável é atender às necessidades de hoje sem comprometer a capacidade das gerações futuras de atenderem às suas.
+@46 m historia/antiguidade-e-idade-media
+x: As pirâmides e os templos mostravam o poder do faraó, capaz de mobilizar grandes contingentes de trabalhadores, muitos deles forçados, nessas obras.
+@48 m historia/brasil-colonia
+x: No Brasil colonial, os mortos eram enterrados nas igrejas, e o lugar dependia da posição social: os mais importantes ficavam mais perto do altar. O sepultamento seguia a hierarquia social.
+@49 m historia/antiguidade-e-idade-media
+x: Hitler usou a memória do Sacro Império Romano Germânico para dar grandeza ao "III Reich". É um exemplo de como a Idade Média é reinterpretada conforme os interesses de cada época.
+@51 m historia/seculo-xx
+x: As juventudes nazista e fascistas eram sectárias, obedeciam cegamente ao líder e enfrentavam os opositores do regime com violência.
+@53 m historia/seculo-xx
+x: Os movimentos de 1968 defendiam autonomia e participação. Eles inspiraram lutas posteriores, como o pacifismo, o ambientalismo, o feminismo e a defesa das minorias.
+@55 m geografia/geopolitica-e-globalizacao
+x: Com o fim da Guerra Fria, em vez de paz, cresceram conflitos internos ligados a nacionalismos, disputas étnicas e religiosas, além de ameaças como terrorismo, tráfico e crime organizado.
+@56 m filosofia/filosofia-moderna-e-contemporanea
+x: Nos EUA, ser cidadão está ligado também ao direito de propriedade: mesmo quem tem pouco se sente cidadão pleno. A democracia fica vinculada às possibilidades econômicas de cada um.
+@57 m sociologia/sociologia-classica
+x: Para Tocqueville, os americanos valorizavam a moral porque ela garantia a harmonia doméstica, essencial ao sucesso dos negócios. A conduta moral estava ligada ao progresso econômico.
+@59 m sociologia/sociologia-classica
+x: Os três autores dizem que o Brasil só estará "formado" no futuro, quando superar suas heranças. O país aparece como uma promessa sempre adiada: "a eterna esperança".
+@61 m historia/brasil-republica
+x: Francisco Campos desqualifica eleitores, partidos e juízes e exalta Vargas, com "providencial intuição do bem e da verdade" e gênio político. Para ele, Vargas era o homem capaz de governar de modo inteligente e correto.
+@63 m historia/brasil-colonia
+x: Para a Inquisição, usar pós "diabólicos" para garantir um bom casamento era feitiçaria. O casamento deveria ser protegido apenas pelos meios e ensinamentos da Igreja.
+@65 m historia/brasil-imperio v
+s: No tempo da independência do Brasil, circulavam // nas classes populares do Recife trovas que faziam alusão // à revolta escrava do Haiti: // Marinheiros => No tempo da independência do Brasil, circulavam nas classes populares do Recife trovas que faziam alusão à revolta escrava do Haiti: || Marinheiros
+x: Os versos falam em acabar com "marinheiros" (portugueses) e "caiados" (brancos) para que só "pardos e pretos" habitassem o país. Mostram que a revolta do Haiti circulava entre os pobres e alimentava o desejo de mudança.
+@66 m geografia/geopolitica-e-globalizacao
+x: O texto diz que o Brasil "buscou autonomia decisória" e se tornou um ator responsável e previsível. A política externa mostra capacidade própria de decisão, mesmo diante das pressões internacionais.
+@67 m historia/revolucoes-e-seculo-xix
+x: O texto conta que pequenos fazendeiros-tecelões abandonaram suas propriedades para só tecer. Antes, portanto, os artesãos combinavam a tecelagem com o cultivo para sobreviver.
+@69 m literatura/pre-modernismo-ao-contemporaneo
+x: A casa dos Meneses tem cristais e pratas empoeirados, que "atestavam o esplendor esvanecido": um espaço arruinado, lembrança de um passado prestes a desaparecer, como a aristocracia rural.
+@70 m historia/brasil-imperio
+a: o percurso dos imigrantes até o interior, antes das ferrovias, era feito a pé ou em muares; no entanto, o tempo de viagem era aceitável, uma vez que o café era plantado nas proximidades da capital, São Paulo. | a expansão da malha ferroviária pelo interior de São Paulo permitiu que mão-de-obra estrangeira fosse contratada para trabalhar em cafezais de regiões cada vez mais distantes do porto de Santos. | o escoamento da produção de café se viu beneficiado pelos aportes de capital, principalmente de colonos italianos, que desejavam melhorar sua situação econômica. | os fazendeiros puderam prescindir da mão-de-obra europeia e contrataram trabalhadores brasileiros provenientes de outras regiões para trabalhar em suas plantações. | as notícias de terras acessíveis atraíram para São Paulo grande quantidade de imigrantes, que adquiriram vastas propriedades produtivas.
+x: A ferrovia reduziu a viagem de Santos ao planalto de mais de 50 horas para menos de um dia. Com os trilhos avançando pelo interior, imigrantes puderam ser levados a cafezais cada vez mais distantes do porto.
+@71 m geografia/populacao-e-urbanizacao
+x: Cidades globais, como Nova York, Londres e São Paulo, concentram sedes de empresas, bancos e serviços que comandam a economia mundial. Elas se formaram com a internacionalização da economia a partir dos anos 1970.
+@72 m sociologia/temas-contemporaneos
+x: A tecnologia leva ao campo e à cidade o contato com outras culturas, mas também exige uma "alfabetização eletrônica". O texto pede um novo modelo de educação.
+@74 m historia/antiguidade-e-idade-media
+x: Nos dois casos havia várias cidades independentes umas das outras, mas ligadas por elementos comuns: a língua e o culto em Delfos, na Grécia; estradas e centros cerimoniais, no Xingu.
+@75 m geografia/populacao-e-urbanizacao
+x: Muitos migrantes chegam ao Sudeste para trabalhos pouco qualificados. O crescimento rápido da população nas cidades, sem infraestrutura suficiente, contribui para o inchaço urbano.
+@79 m sociologia/temas-contemporaneos
+s: (adaptado). Nos lugares => (adaptado). || Nos lugares
+s: “Plano Nacional para => > “Plano Nacional para
+x: O texto diz que ONGs e a Pastoral da Terra acionam as autoridades e dão aulas sobre direitos trabalhistas. Elas encaminham denúncias e conscientizam os trabalhadores.
+@82 m geografia/geopolitica-e-globalizacao
+x: O Oriente Médio, maior região produtora de petróleo, vive guerras e instabilidade política. O Ártico seria uma área mais estável para explorar petróleo e minérios.
+@83 m geografia/economia-agropecuaria-industria-energia
+s: Posição País 1 Rússia 2 Irã 3 Catar 4 Arábia Saudita 5 Emirados Árabes Unidos 6 Estados Unidos 7 Nigéria 8 Argélia 9 Venezuela 10 Iraque Posição País 1 Arábia Saudita 2 Canadá 3 Irã 4 Iraque 5 Kuwait 6 Emirados Árabes Unidos 7 Venezuela 8 Rússia 9 Líbia 10 Nigéria => Gás natural (posição: país): 1 Rússia, 2 Irã, 3 Catar, 4 Arábia Saudita, 5 Emirados Árabes Unidos, 6 Estados Unidos, 7 Nigéria, 8 Argélia, 9 Venezuela, 10 Iraque. || Petróleo (posição: país): 1 Arábia Saudita, 2 Canadá, 3 Irã, 4 Iraque, 5 Kuwait, 6 Emirados Árabes Unidos, 7 Venezuela, 8 Rússia, 9 Líbia, 10 Nigéria.
+x: A Venezuela está entre os dez países com as maiores reservas tanto de petróleo quanto de gás natural, o que faz dela uma grande potência energética mundial.
+@88 m geografia/geografia-fisica
+x: A formação de chuvas depende da temperatura do ar, que influencia a evaporação e a condensação. As atividades humanas mudam a temperatura em escala local (ilhas de calor) e global (aquecimento), alterando o regime de chuvas.
+@58 d filosofia/filosofia-antiga-e-medieval
+x: Aristóteles diz que trabalhadores, comerciantes e agricultores não deveriam ser cidadãos, porque só quem tem lazer pode cultivar as virtudes e fazer política. A cidadania era um privilégio dos grupos superiores, numa sociedade hierarquizada.
+@64 d geografia/geopolitica-e-globalizacao
+x: O texto mostra que, apesar das diferenças, a formação dos Estados na América Latina, na África e na Ásia foi marcada pela colonização europeia. A grande divisão é entre colonizador (Europa) e colonizados.
+@89 d sociologia/temas-contemporaneos
+x: A primeira ideia diz que uma cidade, como Brasília, não poderia ser criada artificialmente, pois a vida social deve surgir de forma espontânea. A segunda lembra que toda a América foi criada pelos colonizadores, contrariando a primeira.
+@90 d geografia/biomas-e-questoes-ambientais
+x: O nível das águas do Pantanal depende dos rios que nascem no planalto. Controlar o desmatamento e a erosão nas cabeceiras protege essas nascentes e, com elas, a planície e sua biodiversidade.
