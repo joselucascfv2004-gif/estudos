@@ -276,6 +276,69 @@ A letra da canção apresenta uma realidade social quanto à distribuição dist
 
 **Assunto:** artes/artes-e-educacao-fisica
 
+### 28
+![Figura](enem-2017-d1-q028-1.webp)
+
+> Disponível em: www.agenciapatriciagalvao.org.br. Acesso em: 15 maio 2017 (adaptado).
+
+Campanhas publicitárias podem evidenciar problemas sociais. O cartaz tem como finalidade
+
+- A) alertar os homens agressores sobre as consequências de seus atos.
+- B) conscientizar a população sobre a necessidade de denunciar a violência doméstica.
+- C) instruir as mulheres sobre o que fazer em casos de agressão.
+- D) despertar nas crianças a capacidade de reconhecer atos de violência doméstica.
+- E) exigir das autoridades ações preventivas contra a violência doméstica.
+
+**Resposta:** B
+
+**Explicação:** O desenho infantil mostra que a violência contra a mulher atinge todos, inclusive as crianças, e o cartaz traz o número "Ligue 180" com "não se cale". A finalidade é conscientizar a população e estimular a denúncia.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 28
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 34
+![Figura](enem-2017-d1-q034-1.webp)
+
+Os textos publicitários são produzidos para cumprir determinadas funções comunicativas. Os objetivos desse cartaz estão voltados para a conscientização dos brasileiros sobre a necessidade de
+
+- A) as crianças frequentarem a escola regularmente.
+- B) a formação leitora começar na infância.
+- C) a alfabetização acontecer na idade certa.
+- D) a literatura ter o seu mercado consumidor ampliado.
+- E) as escolas desenvolverem campanhas a favor da leitura.
+
+**Resposta:** B
+
+**Explicação:** O cartaz diz "Leia para uma criança" e explica que o gosto pela leitura começa na infância, quando alguém lê uma história. O objetivo é conscientizar os adultos de que a formação do leitor começa cedo.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 34
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 37
+![Figura](enem-2017-d1-q037-1.webp)
+
+> ERNESTO NETO. Dengo. 2010. MAM-SP, 2010.
+
+> Disponível em: http://espacohumus.com. Acesso em: 25 abr. 2017.
+
+A instalação Dengo transformou a sala do MAM-SP em um ambiente singular, explorando como principal característica artística a
+
+- A) participação do público na interação lúdica com a obra.
+- B) distribuição de obstáculos no espaço da exposição.
+- C) representação simbólica de objetos oníricos.
+- D) interpretação subjetiva da lei da gravidade.
+- E) valorização de técnicas de artesanato.
+
+**Resposta:** A
+
+**Explicação:** A instalação Dengo, feita de redes e tecidos, pode ser tocada, percorrida e explorada pelo público: as pessoas entram e brincam dentro da obra. A principal característica é a participação lúdica do público.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 37
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Médio
 
 ### 7
@@ -562,6 +625,322 @@ A cena retrata as experiências das personagens em um país atingido por uma epi
 
 **Assunto:** portugues/pontuacao-ortografia-acentuacao, literatura/pre-modernismo-ao-contemporaneo
 
+### 8
+Mas assim que penetramos no universo da web, descobrimos que ele constitui não apenas um imenso “território” em expansão acelerada, mas que também oferece inúmeros “mapas”, filtros, seleções para ajudar o navegante a orientar-se. O melhor guia para a web é a própria web. Ainda que seja preciso ter a paciência de explorá-la. Ainda que seja preciso arriscar-se a ficar perdido, aceitar “a perda de tempo” para familiarizar-se com esta terra estranha. Talvez seja preciso ceder por um instante a seu aspecto lúdico para descobrir, no desvio de um link, os sites que mais se aproximam de nossos interesses profissionais ou de nossas paixões e que poderão, portanto, alimentar da melhor maneira possível nossa jornada pessoal.
+
+> LÉVY, P. Cibercultura. São Paulo: Editora 34, 1999.
+
+O usuário iniciante sente-se não raramente desorientado no oceano de informações e possibilidades disponíveis na rede mundial de computadores. Nesse sentido, Pierre Lévy destaca como um dos principais aspectos da internet o(a)
+
+- A) espaço aberto para a aprendizagem.
+- B) grande número de ferramentas de pesquisa.
+- C) ausência de mapas ou guias explicativos.
+- D) infinito número de páginas virtuais.
+- E) dificuldade de acesso aos sites de pesquisa.
+
+**Resposta:** A
+
+**Explicação:** Para Lévy, quem entra na web encontra um território enorme, sem guias prontos: é preciso aceitar "perder tempo", explorar e descobrir. A rede é vista como um espaço aberto em que o próprio navegante aprende a se orientar.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 8
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 11
+![Figura](enem-2017-d1-q011-1.webp)
+
+> CIPRIANI, F. Disponível em: www.snmsolutions.com.br. Acesso em: 15 maio 2013 (adaptado).
+
+O consumidor do século XXI, chamado de novo consumidor social, tende a se comportar de modo diferente do consumidor tradicional. Pela associação das características apresentadas no diagrama, infere-se que esse novo consumidor sofre influência da
+
+- A) cultura do comércio eletrônico.
+- B) busca constante pelo menor preço.
+- C) divulgação de informações pelas empresas.
+- D) necessidade recorrente de consumo.
+- E) postura comum aos consumidores tradicionais.
+
+**Resposta:** A
+
+**Explicação:** Quase todas as características do diagrama envolvem a internet: novos canais on-line, conselhos de amigos on-line, avaliações em blogs, experiência on-line. O novo consumidor é influenciado pela cultura do comércio eletrônico.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 11
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 12
+A língua tupi no Brasil
+
+Há 300 anos, morar na vila de São Paulo de Piratininga (peixe seco, em tupi) era quase sinônimo de falar língua de índio. Em cada cinco habitantes da cidade, só dois conheciam o português. Por isso, em 1698, o governador da província, Artur de Sá e Meneses, implorou a Portugal que só mandasse padres que soubessem “a língua geral dos índios”, pois “aquela gente não se explica em outro idioma”.
+
+Derivado do dialeto de São Vicente, o tupi de São Paulo se desenvolveu e se espalhou no século XVII, graças ao isolamento geográfico da cidade e à atividade pouco cristã dos mamelucos paulistas: as bandeiras, expedições ao sertão em busca de escravos índios. Muitos bandeirantes nem sequer falavam o português ou se expressavam mal. Domingos Jorge Velho, o paulista que destruiu o Quilombo dos Palmares em 1694, foi descrito pelo bispo de Pernambuco como “um bárbaro que nem falar sabe”. Em suas andanças, essa gente batizou lugares como Avanhandava (lugar onde o índio corre), Pindamonhangaba (lugar de fazer anzol) e Itu (cachoeira). E acabou inventando uma nova língua.
+
+“Os escravos dos bandeirantes vinham de mais de 100 tribos diferentes”, conta o historiador e antropólogo John Monteiro, da Universidade Estadual de Campinas. “Isso mudou o tupi paulista, que, além da influência do português, ainda recebia palavras de outros idiomas.” O resultado da mistura ficou conhecido como língua geral do sul, uma espécie de tupi facilitado.
+
+> ÂNGELO, C. Disponível em: http://super.abril.com.br. Acesso em: 8 ago. 2012 (adaptado).
+
+O texto trata de aspectos sócio-históricos da formação linguística nacional. Quanto ao papel do tupi na formação do português brasileiro, depreende-se que essa língua indígena
+
+- A) contribuiu efetivamente para o léxico, com nomes relativos aos traços característicos dos lugares designados.
+- B) originou o português falado em São Paulo no século XVII, em cuja base gramatical também está a fala de variadas etnias indígenas.
+- C) desenvolveu-se sob influência dos trabalhos de catequese dos padres portugueses, vindos de Lisboa.
+- D) misturou-se aos falares africanos, em razão das interações entre portugueses e negros nas investidas contra o Quilombo dos Palmares.
+- E) expandiu-se paralelamente ao português falado pelo colonizador, e juntos originaram a língua dos bandeirantes paulistas.
+
+**Resposta:** A
+
+**Explicação:** O texto lembra que o tupi era a língua mais falada em São Paulo e foi levado pelos bandeirantes, que batizaram lugares como Avanhandava, Pindamonhangaba e Itu. A maior contribuição do tupi ao português foi no vocabulário, sobretudo nos nomes de lugares.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 12
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 16
+TEXTO I
+
+Criatividade em publicidade: teorias e reflexões
+
+Resumo: O presente artigo aborda uma questão primordial na publicidade: a criatividade. Apesar de aclamada pelos departamentos de criação das agências, devemos ter a consciência de que nem todo anúncio é, de fato, criativo. A partir do resgate teórico, no qual os conceitos são tratados à luz da publicidade, busca-se estabelecer a compreensão dos temas. Para elucidar tais questões, é analisada uma campanha impressa da marca XXXX. As reflexões apontam que a publicidade criativa é essencialmente simples e apresenta uma releitura do cotidiano.
+
+> DEPEXE, S. D. Travessias: Pesquisas em Educação, Cultura, Linguagem e Artes, n. 2, 2008.
+
+TEXTO II
+
+![Figura](enem-2017-d1-q016-1.webp)
+
+Acesso em: 3 ago. 2012 (adaptado).
+
+Os dois textos apresentados versam sobre o tema criatividade. O Texto I é um resumo de caráter científico e o Texto II, uma homenagem promovida por um site de publicidade. De que maneira o Texto II exemplifica o conceito de criatividade em publicidade apresentado no Texto I?
+
+- A) Fazendo menção ao difícil trabalho das mães em criar seus filhos.
+- B) Promovendo uma leitura simplista do papel materno em seu trabalho de criar os filhos.
+- C) Explorando a polissemia do termo “criação”.
+- D) Recorrendo a uma estrutura linguística simples.
+- E) Utilizando recursos gráficos diversificados.
+
+**Resposta:** C
+
+**Explicação:** O resumo diz que a publicidade criativa é simples e faz uma releitura do cotidiano. O cartaz faz isso brincando com dois sentidos da palavra "criação": a criação publicitária (das agências) e a criação dos filhos (pelas mães). É a exploração da polissemia.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 16
+
+**Assunto:** portugues/semantica-e-figuras-de-linguagem
+
+### 21
+TEXTO I
+
+![Figura](enem-2017-d1-q021-1.webp)
+
+> GOELDI, O. Sem título. Bico de pena, 29,4 x 24 cm. Coleção Ary Ferreira Macedo, circa 1940.
+
+> Disponível em: https://revistacontemporartes.blogspot.com.br. Acesso em: 10 dez. 2012.
+
+TEXTO II
+
+Na sua produção, Goeldi buscou refletir seu caminho pessoal e político, sua melancolia e paixão sobre os intensos aspectos mais latentes em sua obra, como: cidades, peixes, urubus, caveiras, abandono, solidão, drama e medo.
+
+> ZULIETTI, L. F. Goeldi: da melancolia ao inevitável. Revista de Arte, Mídia e Política. Acesso em: 24 abr. 2017 (adaptado).
+
+O gravador Oswaldo Goeldi recebeu fortes influências de um movimento artístico europeu do início do século XX, que apresenta as características reveladas nos traços da obra de
+
+- A) ![Alternativa A](enem-2017-d1-q021-2.webp)
+- B) ![Alternativa B](enem-2017-d1-q021-3.webp)
+- C) ![Alternativa C](enem-2017-d1-q021-4.webp)
+- D) ![Alternativa D](enem-2017-d1-q021-5.webp)
+- E) ![Alternativa E](enem-2017-d1-q021-6.webp)
+
+**Resposta:** A
+
+**Explicação:** O desenho de Goeldi tem traços tortos e inquietos, figuras de caveira e um clima de solidão e melancolia. O Expressionismo deforma a realidade para expressar angústia e emoções intensas, como na obra de Alfred Kubin.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 21
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 24
+E aqui, antes de continuar este espetáculo, é necessário que façamos uma advertência a todos e a cada um. Neste momento, achamos fundamental que cada um tome uma posição definida. Sem que cada um tome uma posição definida, não é possível continuarmos. É fundamental que cada um tome uma posição, seja para a esquerda, seja para a direita. Admitimos mesmo que alguns tomem uma posição neutra, fiquem de braços cruzados. Mas é preciso que cada um, uma vez tomada sua posição, fique nela! Porque senão, companheiros, as cadeiras do teatro rangem muito e ninguém ouve nada.
+
+> FERNANDES, M.; RANGEL, F. Liberdade, liberdade. Porto Alegre: L&PM, 2009.
+
+A peça Liberdade, liberdade, encenada em 1964, apresenta o impasse vivido pela sociedade brasileira em face do regime vigente. Esse impasse é representado no fragmento pelo(a)
+
+- A) barulho excessivo produzido pelo ranger das cadeiras do teatro.
+- B) indicação da neutralidade como a melhor opção ideológica naquele momento.
+- C) constatação da censura em função do engajamento social do texto dramático.
+- D) correlação entre o alinhamento político e a posição corporal dos espectadores.
+- E) interrupção do espetáculo em virtude do comportamento inadequado do público.
+
+**Resposta:** D
+
+**Explicação:** Em 1964, ano do golpe militar, os atores pedem que o público "tome uma posição": à esquerda, à direita ou de braços cruzados. A posição do corpo de cada espectador representa a posição política diante do regime.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 24
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 26
+Apesar de muitas crianças e adolescentes terem a Barbie como um exemplo de beleza, um infográfico feito pelo site Rehabs.com comprovou que, caso uma mulher tivesse as medidas da boneca de plástico, ela nem estaria viva.
+
+Não é exatamente uma novidade que as proporções da boneca mais famosa do mundo são absurdas para o mundo real. Ativistas que lutam pela construção de uma autoimagem mais saudável, pesquisadores de distúrbios alimentares e pessoas que se preocupam com o impacto da indústria cultural na psique humana apontam, há anos, a influência de modelos como a Barbie na distorção do corpo feminino.
+
+Pescoço
+
+Com um pescoço duas vezes mais longo e 15 centímetros mais fino do que o de uma mulher, a Barbie seria incapaz de manter sua cabeça levantada.
+
+Cintura
+
+Com uma cintura de 40 centímetros (menor do que a sua cabeça), a Barbie da vida real só teria espaço em seu corpo para acomodar metade de um rim e alguns centímetros de intestino.
+
+Quadril
+
+O índice que mede a relação entre a cintura e o quadril da Barbie é de 0,56, o que significa que a medida da sua cintura representa 56% da circunferência de seu quadril. Esse mesmo índice, em uma mulher americana média, é de 0,8.
+
+> Disponível em: http://oglobo.globo.com. Acesso em: 2 maio 2015.
+
+Ao abordar as possíveis influências da indústria de brinquedos sobre a representação do corpo feminino, o texto analisa a
+
+- A) noção de beleza globalizada veiculada pela indústria cultural.
+- B) influência da mídia para a adoção de um estilo de vida salutar pelas mulheres.
+- C) relação entre a alimentação saudável e o padrão de corpo instituído pela boneca.
+- D) proporcionalidade entre a representação do corpo da boneca e a do corpo humano.
+- E) influência mercadológica na construção de uma autoimagem positiva do corpo feminino.
+
+**Resposta:** D
+
+**Explicação:** O texto compara as medidas da Barbie com as de uma mulher real (pescoço, cintura, quadril) e mostra que, na vida real, esse corpo seria impossível. Ele analisa a falta de proporção entre a boneca e o corpo humano.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 26
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 36
+![Figura](enem-2017-d1-q036-1.webp)
+
+> VALENTIM, R. Emblema 78. Acrílico sobre tela. 73 x 100 cm. 1978.
+
+> Disponível em: www.espacoarte.com.br. Acesso em: 2 ago. 2012.
+
+A obra de Rubem Valentim apresenta emblemas que, baseando-se em signos de religiões afro-brasileiras, se transformam em produção artística. A obra Emblema 78 relaciona-se com o Modernismo em virtude da
+
+- A) simplificação de formas da paisagem brasileira.
+- B) valorização de símbolos do processo de urbanização.
+- C) fusão de elementos da cultura brasileira com a arte europeia.
+- D) alusão aos símbolos cívicos presentes na bandeira nacional.
+- E) composição simétrica de elementos relativos à miscigenação racial.
+
+**Resposta:** C
+
+**Explicação:** Rubem Valentim usa símbolos de religiões afro-brasileiras (como o machado de Xangô) organizados em formas geométricas, cores chapadas e simetria, recursos da arte moderna europeia (abstração geométrica). Sua obra funde a cultura brasileira com a linguagem das vanguardas europeias.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 36
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 38
+Naquela manhã de céu limpo e ar leve, devido à chuva torrencial da noite anterior, saí a caminhar com o sol ainda escondido para tomar tenência dos primeiros movimentos da vida na roça. Num demorou nem um tiquinho e o cheiro intenso do café passado por Dona Linda me invadiu as narinas e fez a fome se acordar daquela rema letárgica derivada da longa noite de sono. Levei as mãos até a água que corria pela bica feita de bambu e o contato gelado foi de arrepiar. Mas fui em frente e levei as mãos em concha até o rosto. Com o impacto, recuei e me faltou o fôlego por alguns instantes, mas o despertar foi imediato. Já aceso, entrei na cozinha na buscação de derrubar a fome e me acercar do aconchego do calor do fogão à lenha. Foi quando dei reparo da figura esguia e discreta de uma senhora acompanhada de um garoto aparentando uns cinco anos de idade já aboletada na ponta da mesa em proseio íntimo com a dona da casa. Depois de um vigoroso “Bom dia!”, de um vaporoso aperto de mãos nas apresentações de praxe, fiquei sabendo que Dona Flor de Maio levava o filho Adão para tratamento das feridas que pipocavam por seu corpo, provocando pequenas pústulas de bordas avermelhadas.
+
+> GUIÃO, M. Disponível em: www.revistaecologico.com.br. Acesso em: 10 mar. 2014 (adaptado).
+
+A variedade linguística da narrativa é adequada à descrição dos fatos. Por isso, a escolha de determinadas palavras e expressões usadas no texto está a serviço da
+
+- A) localização dos eventos de fala no tempo ficcional.
+- B) composição da verossimilhança do ambiente retratado.
+- C) restrição do papel do narrador à observação das cenas relatadas.
+- D) construção mística das personagens femininas pelo autor do texto.
+- E) caracterização das preferências linguísticas da personagem masculina.
+
+**Resposta:** B
+
+**Explicação:** O texto usa palavras do falar do interior, como "tomar tenência", "rema letárgica" e "Bom dia!" vigoroso. Essas escolhas ajudam a criar um ambiente rural crível, tornando a cena verossímil.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 38
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 41
+![Figura](enem-2017-d1-q041-1.webp)
+
+Nesse cartaz publicitário de uma empresa de papel e celulose, a combinação dos elementos verbais e não verbais visa
+
+- A) justificar os prejuízos ao meio ambiente, ao vincular a empresa à difusão da cultura.
+- B) incentivar a leitura de obras literárias, ao referir-se a títulos consagrados do acervo mundial.
+- C) seduzir o consumidor, ao relacionar o anunciante às histórias clássicas da literatura universal.
+- D) promover uma reflexão sobre a preservação ambiental ao aliar o desmatamento aos clássicos da literatura.
+- E) construir uma imagem positiva do anunciante, ao associar a exploração alegadamente sustentável à produção de livros.
+
+**Resposta:** E
+
+**Explicação:** O cartaz liga uma floresta plantada (de eucaliptos) aos grandes clássicos da literatura: os livros nascem do papel que vem dessa floresta. A empresa se apresenta como produtora sustentável e amiga da cultura, construindo uma imagem positiva de si.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 41
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 43
+TEXTO I
+
+![Figura](enem-2017-d1-q043-1.webp)
+
+> SPETO. Grafite. Museu Afro Brasil, 2009.
+
+> Disponível em: www.diariosp.com.br. Acesso em: 25 set. 2015.
+
+TEXTO II
+
+Speto
+
+Paulo César Silva, mais conhecido como Speto, é um grafiteiro paulista envolvido com o skate e a música. O fortalecimento de sua arte ocorreu, em 1999, pela oportunidade de ver de perto as referências que trazia há tempos, ao passar por diversas cidades do Norte do Brasil em uma turnê com a banda O Rappa.
+
+Revista Zupi, n. 19, 2010.
+
+O grafite do artista paulista Speto, exposto no Museu Afro Brasil, revela elementos da cultura brasileira reconhecidos
+
+- A) na influência da expressão abstrata.
+- B) na representação de lendas nacionais.
+- C) na inspiração das composições musicais.
+- D) nos traços marcados pela xilogravura nordestina.
+- E) nos usos característicos de grafismos dos skates.
+
+**Resposta:** D
+
+**Explicação:** O grafite tem figuras em preto e branco, contornos grossos e temas populares, como na xilogravura da literatura de cordel. O texto confirma que Speto se inspirou nas referências do Norte e do Nordeste do Brasil.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 43
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 45
+TEXTO I
+
+![Figura](enem-2017-d1-q045-1.webp)
+
+> RAUSCHENBERG, R. Cama. Óleo e lápis em travesseiro, colcha e folha em suporte de madeira. 191,1 x 80 x 20,3 cm. Museu de Arte Moderna de Nova York, 1995. Disponível em: www.moma.org. Acesso em: 8 jun. 2017.
+
+TEXTO II
+
+No verão de 1954, o artista Robert Rauschenberg (n.1925) criou o termo combine para se referir a suas novas obras que possuíam aspectos tanto da pintura como da escultura.
+
+Em 1958, Cama foi selecionada para ser incluída em uma exposição de jovens artistas americanos e italianos no Festival dos Dois Mundos em Spoleto, na Itália. Os responsáveis pelo festival, entretanto, se recusaram a expor a obra e a removeram para um depósito.
+
+Embora o mundo da arte debatesse a inovação de se pendurar uma cama numa parede, Rauschenberg considerava sua obra “um dos quadros mais acolhedores que já pintei, mas sempre tive medo de que alguém quisesse se enfiar nela”.
+
+> DEMPSEY, A. Estilos, escolas e movimentos: guia enciclopédico da arte moderna. São Paulo: Cosac & Naify, 2003.
+
+A obra de Rauschenberg chocou o público na época em que foi feita, e recebeu forte influência de um movimento artístico que se caracterizava pela
+
+- A) dissolução das tonalidades e dos contornos, revelando uma produção rápida.
+- B) exploração insólita de elementos do cotidiano, dialogando com os ready-mades.
+- C) repetição exaustiva de elementos visuais, levando à simplificação máxima da composição.
+- D) incorporação das transformações tecnológicas, valorizando o dinamismo da vida moderna.
+- E) geometrização das formas, diluindo os detalhes sem se preocupar com a fidelidade ao real.
+
+**Resposta:** B
+
+**Explicação:** Rauschenberg pendurou na parede uma cama de verdade (travesseiro, colcha) e pintou sobre ela. Usar objetos comuns como obra de arte vem do Dadaísmo, com os ready-mades de Marcel Duchamp: a exploração inesperada de objetos do cotidiano.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 45
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Difícil
 
 ### 10
@@ -711,3 +1090,32 @@ Ao apresentar uma situação de tensão em família, o narrador destila, nesse f
 **Fonte:** ENEM 2017, 1º dia, caderno azul, questão 40
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 29
+TEXTO I
+
+Fundamentam-se as regras da Gramática Normativa nas obras dos grandes escritores, em cuja linguagem as classes ilustradas põem o seu ideal de perfeição, porque nela é que se espelha o que o uso idiomático estabilizou e consagrou.
+
+> LIMA, C. H. R. Gramática normativa da língua portuguesa. Rio de Janeiro: José Olympio, 1989.
+
+TEXTO II
+
+Gosto de dizer. Direi melhor: gosto de palavrar. As palavras são para mim corpos tocáveis, sereias visíveis, sensualidades incorporadas. Talvez porque a sensualidade real não tem para mim interesse de nenhuma espécie — nem sequer mental ou de sonho —, transmudou-se-me o desejo para aquilo que em mim cria ritmos verbais, ou os escuta de outros. Estremeço se dizem bem. Tal página de Fialho, tal página de Chateaubriand, fazem formigar toda a minha vida em todas as veias, fazem-me raivar tremulamente quieto de um prazer inatingível que estou tendo. Tal página, até, de Vieira, na sua fria perfeição de engenharia sintáctica, me faz tremer como um ramo ao vento, num delírio passivo de coisa movida.
+
+> PESSOA, F. O livro do desassossego. São Paulo: Brasiliense, 1986.
+
+A linguagem cumpre diferentes funções no processo de comunicação. A função que predomina nos textos I e II
+
+- A) destaca o “como” se elabora a mensagem, considerando-se a seleção, combinação e sonoridade do texto.
+- B) coloca o foco no “com o quê” se constrói a mensagem, sendo o código utilizado o seu próprio objeto.
+- C) focaliza o “quem” produz a mensagem, mostrando seu posicionamento e suas impressões pessoais.
+- D) orienta-se no “para quem” se dirige a mensagem, estimulando a mudança de seu comportamento.
+- E) enfatiza sobre “o quê” versa a mensagem, apresentada com palavras precisas e objetivas.
+
+**Resposta:** B
+
+**Explicação:** Os dois textos falam da própria língua: o primeiro, das regras da gramática; o segundo, do prazer de lidar com as palavras. Quando a linguagem fala do próprio código, predomina a função metalinguística.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 29
+
+**Assunto:** portugues/funcoes-generos-e-variacao

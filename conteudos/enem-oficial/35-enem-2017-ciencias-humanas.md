@@ -230,6 +230,48 @@ O fato legal evidenciado no texto acentuou o processo de
 
 **Assunto:** historia/brasil-imperio
 
+### 74
+A participação da mulher no processo de decisão política ainda é extremamente limitada em praticamente todos os países, independentemente do regime econômico e social e da estrutura institucional vigente em cada um deles. É fato público e notório, além de empiricamente comprovado, que as mulheres estão em geral sub-representadas nos órgãos do poder, pois a proporção não corresponde jamais ao peso relativo dessa parte da população.
+
+> TABAK, F. Mulheres públicas: participação política e poder. Rio de Janeiro: Letra Capital, 2002.
+
+No âmbito do Poder Legislativo brasileiro, a tentativa de reverter esse quadro de sub-representação tem envolvido a implementação, pelo Estado, de
+
+- A) leis de combate à violência doméstica.
+- B) cotas de gênero nas candidaturas partidárias.
+- C) programas de mobilização política nas escolas.
+- D) propagandas de incentivo ao voto consciente.
+- E) apoio financeiro às lideranças femininas.
+
+**Resposta:** B
+
+**Explicação:** Para aumentar o número de mulheres no Legislativo, a lei brasileira obriga os partidos a reservar uma parte mínima (30%) das candidaturas para cada sexo. São as cotas de gênero nas candidaturas.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 74
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 86
+O terremoto de 8,8 na escala Richter que atingiu a costa oeste do Chile, em fevereiro, provocou mudanças significativas no mapa da região. Segundo uma análise preliminar, toda a cidade de Concepción se deslocou pelo menos três metros para o oeste. Buenos Aires moveu-se cerca de 2,5 centímetros para oeste, enquanto Santiago, mais próxima do local do evento, deslocou-se quase 30 centímetros para o oeste-sudoeste. As cidades de Valparaíso, no Chile, e Mendoza, na Argentina, também tiveram suas posições alteradas significativamente (13,4 centímetros e 8,8 centímetros, respectivamente).
+
+Revista InfoGNSS, Curitiba, ano 6, n. 31, 2010.
+
+No texto, destaca-se um tipo de evento geológico frequente em determinadas partes da superfície terrestre. Esses eventos estão concentrados em
+
+- A) áreas vulcânicas, onde o material magmático se eleva, formando cordilheiras.
+- B) faixas costeiras, onde o assoalho oceânico recebe sedimentos, provocando tsunamis.
+- C) estreitas faixas de intensidade sísmica, no contato das placas tectônicas, próximas a dobramentos modernos.
+- D) escudos cristalinos, onde as rochas são submetidas aos processos de intemperismo, com alterações bruscas de temperatura.
+- E) áreas de bacias sedimentares antigas, localizadas no centro das placas tectônicas, em regiões conhecidas como pontos quentes.
+
+**Resposta:** C
+
+**Explicação:** Terremotos fortes como o do Chile acontecem nas bordas das placas tectônicas, onde elas se chocam. A placa de Nazca afunda sob a Sul-Americana, formando uma faixa estreita de intensa atividade sísmica, a mesma que levantou os Andes.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 86
+
+**Assunto:** geografia/geografia-fisica
+
 ## Médio
 
 ### 46
@@ -570,6 +612,216 @@ Para Aristóteles, a relação entre o sumo bem e a organização da pólis pres
 
 **Assunto:** filosofia/filosofia-antiga-e-medieval
 
+### 51
+![Figura](enem-2017-d1-q051-1.webp)
+
+> KOUTSOUKOS, S. S. M. Amas mercenárias: o discurso dos doutores em medicina e os retratos de amas – Brasil, segunda metade do século XIX. História, Ciência, Saúde-Manguinhos, 2009. Disponível em: http://dx.doi.org. Acesso em: 8 maio 2013.
+
+A fotografia, datada de 1860, é um indício da cultura escravista no Brasil, ao expressar a
+
+- A) ambiguidade do trabalho doméstico exercido pela ama de leite, desenvolvendo uma relação de proximidade e subordinação em relação aos senhores.
+- B) integração dos escravos aos valores das classes médias, cultivando a família como pilar da sociedade imperial.
+- C) melhoria das condições de vida dos escravos observada pela roupa luxuosa, associando o trabalho doméstico a privilégios para os cativos.
+- D) esfera da vida privada, centralizando a figura feminina para afirmar o trabalho da mulher na educação letrada dos infantes.
+- E) distinção étnica entre senhores e escravos, demarcando a convivência entre estratos sociais como meio para superar a mestiçagem.
+
+**Resposta:** A
+
+**Explicação:** A ama de leite, mulher escravizada, aparece sentada, bem-vestida e abraçando o menino branco que ela amamentou: há proximidade e afeto. Mas ela está ali como serviçal da família, numa relação de subordinação. A foto mostra essa ambiguidade do trabalho doméstico escravo.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 51
+
+**Assunto:** historia/brasil-imperio
+
+### 52
+A configuração do espaço urbano da região do Entorno do Distrito Federal assemelha-se às demais aglomerações urbanas e regiões metropolitanas do país, onde é facilmente identificável a constituição de um centro dinâmico e desenvolvido, onde se concentram as oportunidades de trabalho e os principais serviços, e a constituição de uma região periférica concentradora de população de baixa renda, com acesso restrito às principais atividades com capacidade de acumulação e produtividade, e aos serviços sociais e infraestrutura básica.
+
+> CAIADO, M. C. A migração intrametropolitana e o processo de estruturação do espaço urbano da Região Integrada de Desenvolvimento do Distrito Federal e Entorno. In: HOGAN, D. J. et al. (Org.). Migração e ambiente nas aglomerações urbanas. Campinas: Nepo/Unicamp, 2002.
+
+A organização interna do aglomerado urbano descrito é resultado da ocorrência do processo de
+
+- A) expansão vertical.
+- B) polarização nacional.
+- C) emancipação municipal.
+- D) segregação socioespacial.
+- E) desregulamentação comercial.
+
+**Resposta:** D
+
+**Explicação:** O texto descreve um centro com empregos e serviços e uma periferia pobre, com acesso restrito a esses recursos. Essa separação das classes sociais no espaço da cidade é a segregação socioespacial.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 52
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 57
+A diversidade de atividades relacionadas ao setor terciário reforça a tendência mais geral de desindustrialização de muitos dos países desenvolvidos sem que estes, contudo, percam o comando da economia. Essa mudança implica nova divisão internacional do trabalho, que não é mais apoiada na clara segmentação setorial das atividades econômicas.
+
+> RIO, G. A. P. A espacialidade da economia. In: CASTRO, I. E.; GOMES, P. C. C.; CORRÊA, R. L. (Org.). Olhares geográficos: modos de ver e viver o espaço. Rio de Janeiro: Bertrand Brasil, 2012 (adaptado).
+
+Nesse contexto, o fenômeno descrito tem como um de seus resultados a
+
+- A) saturação do setor secundário.
+- B) ampliação dos direitos laborais.
+- C) bipolarização do poder geopolítico.
+- D) consolidação do domínio tecnológico.
+- E) primarização das exportações globais.
+
+**Resposta:** D
+
+**Explicação:** Os países desenvolvidos transferem fábricas para outros países, mas mantêm o comando: pesquisa, finanças, marcas e serviços avançados (setor terciário). Na nova divisão internacional do trabalho, eles consolidam o domínio da tecnologia e das decisões.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 57
+
+**Assunto:** geografia/geopolitica-e-globalizacao
+
+### 59
+![Figura](enem-2017-d1-q059-1.webp)
+
+![Figura](enem-2017-d1-q059-2.webp)
+
+> Disponível em: https://pt.climate-data.org. Acesso em: 12 maio 2017 (adaptado).
+
+As temperaturas médias mensais e as taxas de pluviosidade expressas no climograma apresentam o clima típico da seguinte cidade:
+
+- A) Cidade do Cabo (África do Sul), marcado pela reduzida amplitude térmica anual.
+- B) Sydney (Austrália), caracterizado por precipitações abundantes no decorrer do ano.
+- C) Mumbai (Índia), definido pelas chuvas monçônicas torrenciais.
+- D) Barcelona (Espanha), afetado por massas de ar seco.
+- E) Moscou (Rússia), influenciado pela localização geográfica em alta latitude.
+
+**Resposta:** E
+
+**Explicação:** No climograma, a temperatura fica abaixo de 0 °C de dezembro a fevereiro e chega a cerca de 18 °C no meio do ano: verão em junho–agosto e inverno rigoroso. É clima de alta latitude no Hemisfério Norte, como o de Moscou. Cidade do Cabo e Sydney estão no Hemisfério Sul; Mumbai tem temperaturas altas o ano todo.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 59
+
+**Assunto:** geografia/geografia-fisica
+
+### 65
+A representação de Demócrito é semelhante à de Anaxágoras, na medida em que um infinitamente múltiplo é a origem; mas nele a determinação dos princípios fundamentais aparece de maneira tal que contém aquilo que para o que foi formado não é, absolutamente, o aspecto simples para si. Por exemplo, partículas de carne e de ouro seriam princípios que, através de sua concentração, formam aquilo que aparece como figura.
+
+> HEGEL, G. W. F. Crítica moderna. In: SOUZA, J. C. (Org.). Os pré-socráticos: vida e obra. São Paulo: Nova Cultural, 2000 (adaptado).
+
+O texto faz uma apresentação crítica acerca do pensamento de Demócrito, segundo o qual o “princípio constitutivo das coisas” estava representado pelo(a)
+
+- A) número, que fundamenta a criação dos deuses.
+- B) devir, que simboliza o constante movimento dos objetos.
+- C) água, que expressa a causa material da origem do universo.
+- D) imobilidade, que sustenta a existência do ser atemporal.
+- E) átomo, que explica o surgimento dos entes.
+
+**Resposta:** E
+
+**Explicação:** Para Demócrito (e Leucipo), tudo é formado por partículas indivisíveis e invisíveis, os átomos, que se movem no vazio. O "princípio constitutivo das coisas" é o átomo.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 65
+
+**Assunto:** filosofia/filosofia-antiga-e-medieval
+
+### 71
+![Figura](enem-2017-d1-q071-1.webp)
+
+Comparando os dados das hidrelétricas, uma característica territorial positiva de Belo Monte é o(a)
+
+- A) reduzido espaço relativo inundado.
+- B) acentuado desnível do relevo local.
+- C) elevado índice de urbanização regional.
+- D) presença dos grandes parques industriais.
+- E) proximidade de fronteiras internacionais estratégicas.
+
+**Resposta:** A
+
+**Explicação:** Belo Monte tem a segunda maior potência da lista (11,2 mil MW), mas alagou só 0,5 mil km². Comparada a Itaipu, Tucuruí ou Sobradinho, gera muita energia para uma área inundada pequena.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 71
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 77
+![Figura](enem-2017-d1-q077-1.webp)
+
+> SALGADO-LABOURIAU, M. L. História ecológica da Terra. São Paulo: Edgard Blucher, 1994 (adaptado).
+
+Nas imagens constam informações sobre a formação de brisas em áreas litorâneas. Esse processo é resultado de
+
+- A) uniformidade do gradiente de pressão atmosférica.
+- B) aquecimento diferencial da superfície.
+- C) quedas acentuadas de médias térmicas.
+- D) mudanças na umidade relativa do ar.
+- E) variações altimétricas acentuadas.
+
+**Resposta:** B
+
+**Explicação:** De dia, a terra esquenta mais rápido que o mar: o ar sobre a terra sobe (baixa pressão) e o vento sopra do mar para a terra (brisa marinha). À noite, a terra esfria mais rápido e o vento se inverte (brisa terrestre). Tudo vem do aquecimento diferente da terra e da água.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 77
+
+**Assunto:** geografia/geografia-fisica
+
+### 85
+Uma pessoa vê-se forçada pela necessidade a pedir dinheiro emprestado. Sabe muito bem que não poderá pagar, mas vê também que não lhe emprestarão nada se não prometer firmemente pagar em prazo determinado. Sente a tentação de fazer a promessa; mas tem ainda consciência bastante para perguntar a si mesma: não é proibido e contrário ao dever livrar-se de apuros desta maneira? Admitindo que se decida a fazê-lo, a sua máxima de ação seria: quando julgo estar em apuros de dinheiro, vou pedi-lo emprestado e prometo pagá-lo, embora saiba que tal nunca sucederá.
+
+> KANT, I. Fundamentação da metafísica dos costumes. São Paulo: Abril Cultural, 1980.
+
+De acordo com a moral kantiana, a “falsa promessa de pagamento” representada no texto
+
+- A) assegura que a ação seja aceita por todos a partir da livre discussão participativa.
+- B) garante que os efeitos das ações não destruam a possibilidade da vida futura na terra.
+- C) opõe-se ao princípio de que toda ação do homem possa valer como norma universal.
+- D) materializa-se no entendimento de que os fins da ação humana podem justificar os meios.
+- E) permite que a ação individual produza a mais ampla felicidade para as pessoas envolvidas.
+
+**Resposta:** C
+
+**Explicação:** Para Kant, só é moral a ação cuja regra (máxima) poderia virar lei universal. Se todos fizessem falsas promessas, ninguém mais acreditaria em promessa alguma. Por isso a falsa promessa se opõe ao princípio de que a ação deve poder valer como norma universal.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 85
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 89
+O comércio soube extrair um bom proveito da interatividade própria do meio tecnológico. A possibilidade de se obter um alto desenho do perfil de interesses do usuário, que deverá levar às últimas consequências o princípio da oferta como isca para o desejo consumista, foi o principal deles.
+
+> SANTAELLA, L. Culturas e artes do pós-humano: da cultura das mídias à cibercultura. São Paulo: Paulus, 2003 (adaptado).
+
+Do ponto de vista comercial, o avanço das novas tecnologias, indicado no texto, está associado à
+
+- A) atuação dos consumidores como fiscalizadores da produção.
+- B) exigência de consumidores conscientes de seus direitos.
+- C) relação direta entre fabricantes e consumidores.
+- D) individualização das mensagens publicitárias.
+- E) manutenção das preferências de consumo.
+
+**Resposta:** D
+
+**Explicação:** As novas tecnologias registram os interesses e hábitos de cada usuário. Com esse perfil, o comércio envia propagandas feitas sob medida para cada pessoa: é a individualização das mensagens publicitárias.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 89
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 90
+![Figura](enem-2017-d1-q090-1.webp)
+
+> ABRAÃO, B. Disponível em: www.brasilcult.pro.br. Disponível em: www.zuzuangel.com.br. Acesso em: 18 maio 2013. Acesso em: 18 maio 2013.
+
+Elaborada em 1969, a releitura contida na Figura 2 revela aspectos de uma trajetória e obra dedicadas à
+
+- A) valorização de uma representação tradicional da mulher.
+- B) descaracterização de referências do folclore nordestino.
+- C) fusão de elementos brasileiros à moda da Europa.
+- D) massificação do consumo de uma arte local.
+- E) criação de uma estética de resistência.
+
+**Resposta:** E
+
+**Explicação:** Zuzu Angel criou roupas inspiradas no sertão e no cangaço, como mostra a releitura das roupas de Maria Bonita. Durante a ditadura, ela usou a moda para valorizar a cultura brasileira e, depois, para denunciar a morte do filho pelo regime: uma estética de resistência.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 90
+
+**Assunto:** historia/ditadura-e-redemocratizacao
+
 ## Difícil
 
 ### 55
@@ -684,3 +936,45 @@ Em que pesem as divergências no interior do clero após a instalação da ditad
 **Fonte:** ENEM 2017, 1º dia, caderno azul, questão 83
 
 **Assunto:** historia/ditadura-e-redemocratizacao
+
+### 82
+O instituto popular, de acordo com o exame da razão, fez da figura do alferes Xavier o principal dos inconfidentes, e colocou os seus parceiros a meia ração de glória. Merecem, decerto, a nossa estima aqueles outros; eram patriotas. Mas o que se ofereceu a carregar com os pecadores de Israel, o que chorou de alegria quando viu comutada a pena de morte dos seus companheiros, pena que só ia ser executada nele, o enforcado, o esquartejado, o decapitado, esse tem de receber o prêmio na proporção do martírio, e ganhar por todos, visto que pagou por todos.
+
+> ASSIS, M. Gazeta de Notícias, n. 114, 24 abr. 1892.
+
+No processo de transição para a República, a narrativa machadiana sobre a Inconfidência Mineira associa
+
+- A) redenção cristã e cultura cívica.
+- B) veneração aos santos e radicalismo militar.
+- C) apologia aos protestantes e culto ufanista.
+- D) tradição messiânica e tendência regionalista.
+- E) representação eclesiástica e dogmatismo ideológico.
+
+**Resposta:** A
+
+**Explicação:** Machado de Assis descreve Tiradentes como quem "pagou por todos", chorou de alegria ao ser o único condenado e foi enforcado e esquartejado: a imagem de um mártir que se sacrifica pelos outros, como Cristo. Na transição para a República, esse herói redentor foi usado para criar uma cultura cívica.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 82
+
+**Assunto:** historia/brasil-republica
+
+### 87
+![Figura](enem-2017-d1-q087-1.webp)
+
+> Disponível em: http://imagens.climatempo.com.br. Acesso em: 25 ago. 2014 (adaptado).
+
+No dia em que foram colhidos os dados meteorológicos apresentados, qual fator climático foi determinante para explicar os índices de umidade relativa do ar nas regiões Nordeste e Sul?
+
+- A) Altitude, que forma barreiras naturais.
+- B) Vegetação, que afeta a incidência solar.
+- C) Massas de ar, que provocam precipitações.
+- D) Correntes marítimas, que atuam na troca de calor.
+- E) Continentalidade, que influencia na amplitude da temperatura.
+
+**Resposta:** C
+
+**Explicação:** No Sul, o mapa mostra temperaturas mínimas muito baixas (4 °C a 11 °C), sinal da chegada de uma massa de ar polar, que provoca chuva quando encontra o ar quente (frente fria). No litoral do Nordeste, massas de ar úmidas vindas do oceano trazem chuva. Por isso a umidade é alta (90–100%) nas duas regiões.
+
+**Fonte:** ENEM 2017, 1º dia, caderno azul, questão 87
+
+**Assunto:** geografia/geografia-fisica

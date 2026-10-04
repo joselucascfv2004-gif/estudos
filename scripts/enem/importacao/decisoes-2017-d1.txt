@@ -77,6 +77,34 @@ x: Com tribunais constitucionais, decisões políticas passaram a ser levadas ao
 x: Em Atenas, Sólon cancelou dívidas e fez leis para conter os grandes proprietários; em Roma, a Lei das Doze Tábuas escreveu as regras, que antes ficavam só na memória dos patrícios. Nos dois casos, leis escritas e válidas para todos reduziram o poder arbitrário dos ricos.
 @83 d historia/ditadura-e-redemocratizacao
 x: Para os bispos, a miséria rural deixava os camponeses vulneráveis ao comunismo. Combater a pobreza com desenvolvimento evitaria essa influência. Por isso, com o medo do comunismo, boa parte da Igreja apoiou o golpe de 1964.
+@51 m historia/brasil-imperio fig
+x: A ama de leite, mulher escravizada, aparece sentada, bem-vestida e abraçando o menino branco que ela amamentou: há proximidade e afeto. Mas ela está ali como serviçal da família, numa relação de subordinação. A foto mostra essa ambiguidade do trabalho doméstico escravo.
+@52 m geografia/populacao-e-urbanizacao fig
+x: O texto descreve um centro com empregos e serviços e uma periferia pobre, com acesso restrito a esses recursos. Essa separação das classes sociais no espaço da cidade é a segregação socioespacial.
+@57 m geografia/geopolitica-e-globalizacao fig
+x: Os países desenvolvidos transferem fábricas para outros países, mas mantêm o comando: pesquisa, finanças, marcas e serviços avançados (setor terciário). Na nova divisão internacional do trabalho, eles consolidam o domínio da tecnologia e das decisões.
+@59 m geografia/geografia-fisica fig
+x: No climograma, a temperatura fica abaixo de 0 °C de dezembro a fevereiro e chega a cerca de 18 °C no meio do ano: verão em junho–agosto e inverno rigoroso. É clima de alta latitude no Hemisfério Norte, como o de Moscou. Cidade do Cabo e Sydney estão no Hemisfério Sul; Mumbai tem temperaturas altas o ano todo.
+@65 m filosofia/filosofia-antiga-e-medieval fig
+x: Para Demócrito (e Leucipo), tudo é formado por partículas indivisíveis e invisíveis, os átomos, que se movem no vazio. O "princípio constitutivo das coisas" é o átomo.
+@71 m geografia/economia-agropecuaria-industria-energia fig
+x: Belo Monte tem a segunda maior potência da lista (11,2 mil MW), mas alagou só 0,5 mil km². Comparada a Itaipu, Tucuruí ou Sobradinho, gera muita energia para uma área inundada pequena.
+@74 f sociologia/temas-contemporaneos fig
+x: Para aumentar o número de mulheres no Legislativo, a lei brasileira obriga os partidos a reservar uma parte mínima (30%) das candidaturas para cada sexo. São as cotas de gênero nas candidaturas.
+@77 m geografia/geografia-fisica fig
+x: De dia, a terra esquenta mais rápido que o mar: o ar sobre a terra sobe (baixa pressão) e o vento sopra do mar para a terra (brisa marinha). À noite, a terra esfria mais rápido e o vento se inverte (brisa terrestre). Tudo vem do aquecimento diferente da terra e da água.
+@82 d historia/brasil-republica fig
+x: Machado de Assis descreve Tiradentes como quem "pagou por todos", chorou de alegria ao ser o único condenado e foi enforcado e esquartejado: a imagem de um mártir que se sacrifica pelos outros, como Cristo. Na transição para a República, esse herói redentor foi usado para criar uma cultura cívica.
+@85 m filosofia/filosofia-moderna-e-contemporanea fig
+x: Para Kant, só é moral a ação cuja regra (máxima) poderia virar lei universal. Se todos fizessem falsas promessas, ninguém mais acreditaria em promessa alguma. Por isso a falsa promessa se opõe ao princípio de que a ação deve poder valer como norma universal.
+@86 f geografia/geografia-fisica fig
+x: Terremotos fortes como o do Chile acontecem nas bordas das placas tectônicas, onde elas se chocam. A placa de Nazca afunda sob a Sul-Americana, formando uma faixa estreita de intensa atividade sísmica, a mesma que levantou os Andes.
+@87 d geografia/geografia-fisica fig
+x: No Sul, o mapa mostra temperaturas mínimas muito baixas (4 °C a 11 °C), sinal da chegada de uma massa de ar polar, que provoca chuva quando encontra o ar quente (frente fria). No litoral do Nordeste, massas de ar úmidas vindas do oceano trazem chuva. Por isso a umidade é alta (90–100%) nas duas regiões.
+@89 m sociologia/temas-contemporaneos fig
+x: As novas tecnologias registram os interesses e hábitos de cada usuário. Com esse perfil, o comércio envia propagandas feitas sob medida para cada pessoa: é a individualização das mensagens publicitárias.
+@90 m historia/ditadura-e-redemocratizacao fig
+x: Zuzu Angel criou roupas inspiradas no sertão e no cangaço, como mostra a releitura das roupas de Maria Bonita. Durante a ditadura, ela usou a moda para valorizar a cultura brasileira e, depois, para denunciar a morte do filho pelo regime: uma estética de resistência.
 
 ## 36-enem-2017-linguagens.md | 2017 | 1 | 1º dia, caderno azul | Linguagens
 descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2017 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
@@ -146,3 +174,37 @@ s: linguísticodiscursivos => linguístico-discursivos
 x: O texto fala diretamente com o leitor ("você", "largue tudo", "componha uma cara"). O trecho entre parênteses deixa claro quem é esse interlocutor (alguém "milenarmente cansado") e o puxa para dentro do texto. Explicitar o interlocutor é a estratégia de envolvimento.
 @40 d literatura/pre-modernismo-ao-contemporaneo
 x: Os irmãos do narrador não aceitam que uma índia, antes tratada como escrava, coma à mesa com eles e use os mesmos pratos: sentem "asco e repulsa". Mesmo vivendo na mesma casa, o preconceito de classe e de raça fala mais alto que a convivência.
+@8 m portugues/interpretacao-de-texto fig
+x: Para Lévy, quem entra na web encontra um território enorme, sem guias prontos: é preciso aceitar "perder tempo", explorar e descobrir. A rede é vista como um espaço aberto em que o próprio navegante aprende a se orientar.
+@11 m portugues/interpretacao-de-texto fig
+x: Quase todas as características do diagrama envolvem a internet: novos canais on-line, conselhos de amigos on-line, avaliações em blogs, experiência on-line. O novo consumidor é influenciado pela cultura do comércio eletrônico.
+@12 m portugues/funcoes-generos-e-variacao fig
+x: O texto lembra que o tupi era a língua mais falada em São Paulo e foi levado pelos bandeirantes, que batizaram lugares como Avanhandava, Pindamonhangaba e Itu. A maior contribuição do tupi ao português foi no vocabulário, sobretudo nos nomes de lugares.
+@16 m portugues/semantica-e-figuras-de-linguagem fig
+s: teorias e reflexões Resumo: => teorias e reflexões || Resumo:
+x: O resumo diz que a publicidade criativa é simples e faz uma releitura do cotidiano. O cartaz faz isso brincando com dois sentidos da palavra "criação": a criação publicitária (das agências) e a criação dos filhos (pelas mães). É a exploração da polissemia.
+@21 m artes/artes-e-educacao-fisica fig
+x: O desenho de Goeldi tem traços tortos e inquietos, figuras de caveira e um clima de solidão e melancolia. O Expressionismo deforma a realidade para expressar angústia e emoções intensas, como na obra de Alfred Kubin.
+@24 m artes/artes-e-educacao-fisica fig
+x: Em 1964, ano do golpe militar, os atores pedem que o público "tome uma posição": à esquerda, à direita ou de braços cruzados. A posição do corpo de cada espectador representa a posição política diante do regime.
+@26 m portugues/interpretacao-de-texto fig
+x: O texto compara as medidas da Barbie com as de uma mulher real (pescoço, cintura, quadril) e mostra que, na vida real, esse corpo seria impossível. Ele analisa a falta de proporção entre a boneca e o corpo humano.
+@28 f portugues/funcoes-generos-e-variacao fig
+x: O desenho infantil mostra que a violência contra a mulher atinge todos, inclusive as crianças, e o cartaz traz o número "Ligue 180" com "não se cale". A finalidade é conscientizar a população e estimular a denúncia.
+@29 d portugues/funcoes-generos-e-variacao fig
+x: Os dois textos falam da própria língua: o primeiro, das regras da gramática; o segundo, do prazer de lidar com as palavras. Quando a linguagem fala do próprio código, predomina a função metalinguística.
+@34 f portugues/interpretacao-de-texto fig
+x: O cartaz diz "Leia para uma criança" e explica que o gosto pela leitura começa na infância, quando alguém lê uma história. O objetivo é conscientizar os adultos de que a formação do leitor começa cedo.
+@36 m artes/artes-e-educacao-fisica fig
+x: Rubem Valentim usa símbolos de religiões afro-brasileiras (como o machado de Xangô) organizados em formas geométricas, cores chapadas e simetria, recursos da arte moderna europeia (abstração geométrica). Sua obra funde a cultura brasileira com a linguagem das vanguardas europeias.
+@37 f artes/artes-e-educacao-fisica fig
+x: A instalação Dengo, feita de redes e tecidos, pode ser tocada, percorrida e explorada pelo público: as pessoas entram e brincam dentro da obra. A principal característica é a participação lúdica do público.
+@38 m portugues/funcoes-generos-e-variacao fig
+x: O texto usa palavras do falar do interior, como "tomar tenência", "rema letárgica" e "Bom dia!" vigoroso. Essas escolhas ajudam a criar um ambiente rural crível, tornando a cena verossímil.
+@41 m portugues/interpretacao-de-texto fig
+x: O cartaz liga uma floresta plantada (de eucaliptos) aos grandes clássicos da literatura: os livros nascem do papel que vem dessa floresta. A empresa se apresenta como produtora sustentável e amiga da cultura, construindo uma imagem positiva de si.
+@43 m artes/artes-e-educacao-fisica fig
+x: O grafite tem figuras em preto e branco, contornos grossos e temas populares, como na xilogravura da literatura de cordel. O texto confirma que Speto se inspirou nas referências do Norte e do Nordeste do Brasil.
+@45 m artes/artes-e-educacao-fisica fig
+e: TEXTO I || [fig1] || > RAUSCHENBERG, R. Cama. Óleo e lápis em travesseiro, colcha e folha em suporte de madeira. 191,1 x 80 x 20,3 cm. Museu de Arte Moderna de Nova York, 1995. Disponível em: www.moma.org. Acesso em: 8 jun. 2017. || TEXTO II || No verão de 1954, o artista Robert Rauschenberg (n.1925) criou o termo combine para se referir a suas novas obras que possuíam aspectos tanto da pintura como da escultura. || Em 1958, Cama foi selecionada para ser incluída em uma exposição de jovens artistas americanos e italianos no Festival dos Dois Mundos em Spoleto, na Itália. Os responsáveis pelo festival, entretanto, se recusaram a expor a obra e a removeram para um depósito. || Embora o mundo da arte debatesse a inovação de se pendurar uma cama numa parede, Rauschenberg considerava sua obra “um dos quadros mais acolhedores que já pintei, mas sempre tive medo de que alguém quisesse se enfiar nela”. || > DEMPSEY, A. Estilos, escolas e movimentos: guia enciclopédico da arte moderna. São Paulo: Cosac & Naify, 2003. || A obra de Rauschenberg chocou o público na época em que foi feita, e recebeu forte influência de um movimento artístico que se caracterizava pela
+x: Rauschenberg pendurou na parede uma cama de verdade (travesseiro, colcha) e pintou sobre ela. Usar objetos comuns como obra de arte vem do Dadaísmo, com os ready-mades de Marcel Duchamp: a exploração inesperada de objetos do cotidiano.

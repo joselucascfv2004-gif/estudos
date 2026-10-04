@@ -130,7 +130,8 @@ for (const a of arquivos) {
       if (d.g) e.gab = d.g;
       if (!/^[A-E]$/.test(e.gab || '')) faltas.push(`${d.num} (gabarito ${e.gab})`);
       if (!d.x) faltas.push(`${d.num} sem explicação`);
-      const troca = (t) => d.s.reduce((acc, [de, para]) => acc.split(de).join(para), t);
+      // ligaduras partidas do PDF ("signiﬁ cativas") viram letras comuns
+      const troca = (t) => d.s.reduce((acc, [de, para]) => acc.split(de).join(para), t).replace(/ﬁ ?/g, 'fi').replace(/ﬂ ?/g, 'fl');
       const base = [...(d.c || []), ...(d.e || (d.verso ? versos(e.linhasCorpo) : e.pars))];
       // as trocas valem sobre o texto inteiro (parágrafos separados por " || "), para poder unir parágrafos
       const pars = troca(base.join(' || ')).replace(/ *[\uE000-\uF8FF] */g, ' ')
@@ -139,7 +140,7 @@ for (const a of arquivos) {
         .reduce((acc, t) => {
           const ant = acc[acc.length - 1];
           const fonteAberta = ant && (ehFonte(ant) || ant.startsWith('> ')) && !/(\(adaptado\)|\(fragmento\)|\d{4}|s\/d|s\.d)\.?$/.test(ant) && !/^TEXTO /.test(t) && t.length < 120;
-          if (acc.length && !d.verso && (/^Acesso em:/.test(t) || /^[a-zà-ú]/.test(t) || fonteAberta)) acc[acc.length - 1] += ' ' + t.replace(/^> /, '');
+          if (acc.length && !d.verso && !ant.startsWith('![') && (/^Acesso em:/.test(t) || /^[a-zà-ú]/.test(t) || fonteAberta)) acc[acc.length - 1] += ' ' + t.replace(/^> /, '');
           else acc.push(t);
           return acc;
         }, []);

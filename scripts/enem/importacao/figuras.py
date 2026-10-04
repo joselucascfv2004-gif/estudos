@@ -280,6 +280,7 @@ def processa(i):
         # rótulos: linhas de texto dentro ou encostadas nos grupos
         usados = set()
         for g in grupos:
+            g0 = list(g)
             mudou = True
             while mudou:
                 mudou = False
@@ -289,8 +290,10 @@ def processa(i):
                     bb = l['bb']
                     cx, cy = (bb[0] + bb[2]) / 2, (bb[1] + bb[3]) / 2
                     inside = g[0] - 2 <= cx <= g[2] + 2 and g[1] - 2 <= cy <= g[3] + 2
-                    larga_txt = eh_corpo(l) and ((bb[2] - bb[0]) > 0.55 * larg_col or (bb[0] - margem < 20 and len(l['t']) > 12))
-                    if inside and not eh_marcador(l) and not larga_txt or (perto(g, bb, 9) and not eh_corpo(l)):
+                    larga_txt = eh_corpo(l) and ((bb[2] - bb[0]) > 0.55 * larg_col or (bb[0] - margem < 20 and len(l['t']) > 12)) and not (g0[1] + 20 < cy < g0[3] - 20) and not (bb[0] >= g0[0] - 1 and bb[1] >= g0[1] - 1 and bb[2] <= g0[2] + 1 and bb[3] <= g0[3] + 1)
+                    # números soltos ao lado de um gráfico (valores dos eixos) também são rótulos
+                    numero = re.match(r'^[\d\s.,%−+-]{1,8}$', l['t']) and not eh_marcador(l)
+                    if inside and not eh_marcador(l) and not larga_txt or (perto(g, bb, 9) and not eh_corpo(l)) or ((numero or l.get('gira')) and perto(g, bb, 14)):
                         g[:] = une(g, bb)
                         usados.add(j)
                         mudou = True
@@ -308,14 +311,22 @@ def processa(i):
                     break
         for g in grupos:
             for j, l in enumerate(ls):
-                if j in usados or not eh_corpo(l) or eh_marcador(l):
+                if j in usados or eh_marcador(l):
                     continue
                 bb = l['bb']
                 if bb[3] > g[1] and bb[1] < g[3] and bb[2] > g[0] and bb[0] < g[2]:
-                    if (bb[1] + bb[3]) / 2 < (g[1] + g[3]) / 2:
-                        g[1] = max(g[1], bb[3] + 3)
-                    else:
-                        g[3] = min(g[3], bb[1] - 3)
+                    h = bb[3] - bb[1]
+                    cy = (bb[1] + bb[3]) / 2
+                    if eh_corpo(l):
+                        if cy < (g[1] + g[3]) / 2:
+                            g[1] = max(g[1], bb[3] + 3)
+                        else:
+                            g[3] = min(g[3], bb[1] - 3)
+                    # linha vizinha que só encosta na borda: corta a borda para não sair meia linha
+                    elif cy < g[1]:
+                        g[1] = max(g[1], bb[3] - 0.2 * h)
+                    elif cy > g[3]:
+                        g[3] = min(g[3], bb[1] + 0.2 * h)
         grupos = [g for g in grupos if g[3] - g[1] > 10 and g[2] - g[0] > 10]
         for j, l in enumerate(ls):
             if j in usados:
@@ -383,9 +394,9 @@ def processa(i):
             while mudou:
                 mudou = False
                 for it in itens:
-                    if it['tipo'] == 't' and it['k'] == k and (not it['corpo'] or len(it['l']['t']) < 25) and not EHFONTE.match(it['l']['t']):
+                    if it['tipo'] == 't' and it['k'] == k and (not it['corpo'] or len(it['l']['t']) < 25 or 'Bold' in it['l'].get('font', '')) and not EHFONTE.match(it['l']['t']):
                         b = it['l']['bb']
-                        if b[3] > bb[1] - 4 and b[1] < bb[3] + 4 and b[0] < bb[2] + 30 and b[2] > bb[0] - 30:
+                        if b[3] > bb[1] - 14 and b[1] < bb[3] + 4 and b[0] < bb[2] + 30 and b[2] > bb[0] - 30:
                             bb = une(bb, b)
                             it['tipo'] = 'x'
                             mudou = True

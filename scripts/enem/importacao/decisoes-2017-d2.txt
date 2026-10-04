@@ -84,6 +84,51 @@ x: Um sinal verde (2/3) e nove vermelhos ((1/3)⁹) em uma ordem dá 2/3¹⁰. O
 @179 d matematica/trigonometria
 s: Aoanalisarumcasoespecífico,ocientistaobteveosdados: Pressão mínima 78 Pressão máxima 120 Número de batimentos cardíacos por minuto 90 A função => Ao analisar um caso específico, o cientista obteve os dados: || Quadro: pressão mínima: 78; pressão máxima: 120; número de batimentos cardíacos por minuto: 90. || A função
 x: O cosseno vai de −1 a 1. A = média entre máximo e mínimo = (120 + 78) ÷ 2 = 99; B = metade da diferença = (120 − 78) ÷ 2 = 21. Com 90 batimentos por minuto, cada batimento (período) dura 60 ÷ 90 = 2/3 s. Período = 2π ÷ k, então k = 2π ÷ (2/3) = 3π.
+@136 f matematica/estatistica fig
+x: O veículo fica imóvel quando a velocidade é zero. No gráfico, isso acontece entre 6 e 8 minutos: 2 minutos.
+@147 m matematica/geometria-plana fig
+x: A tela ficou presa só em B e girou em torno dele. Antes, a tela ficava acima e à esquerda de B; depois do giro, ficou pendurada abaixo de B, com um lado a 45° da horizontal: girou 135° no sentido anti-horário. Para voltar, basta girar 135° no sentido horário.
+@153 m matematica/porcentagem fig
+x: Às 13 h a profundidade é h; às 15 h está 6 linhas acima (h + 6) e às 16 h, 4 linhas acima (h + 4). A queda de 2 m corresponde a 10% de h + 6, então h + 6 = 20 m. Às 16 h: 20 − 2 = 18 m.
+@154 f matematica/geometria-espacial fig
+x: A estrutura tem duas faces triangulares iguais e paralelas (frente e fundo) ligadas por três retângulos. É um prisma de base triangular, e as arestas laterais perpendiculares às bases o tornam reto.
+@155 d matematica/probabilidade fig
+x: P tem 2 minas entre 8 vizinhos: 2/8 = 0,25. Q: 1/8 = 0,125. T: 3/8; S: 4/8. Para R (longe dos números): sobram 40 − 10 = 30 minas em 256 − 4 − 32 = 220 casas, cerca de 0,136. A menor chance é a de Q.
+@156 m matematica/funcoes-afim-e-quadratica fig
+x: Primeiro, só o reservatório 1 enche e h sobe em linha reta. Quando chega ao cano de ligação, a água passa toda para o reservatório 2 e h fica parada. Quando os dois estão no mesmo nível, sobem juntos: h volta a subir, mas com metade da inclinação, pois a água se divide entre dois reservatórios.
+@157 m matematica/geometria-plana fig
+s: aproximação para || ![Figura](enem-2017-d2-q157-3.webp) => aproximação para √3.
+x: Os centros dos três canos formam um triângulo equilátero de lado 1,20 m, cuja altura é 1,20 × √3/2 ≈ 1,02 m. Altura da pilha: 0,60 + 1,02 + 0,60 = 2,22 m. Altura total: 1,30 + 2,22 = 3,52 m. Com a margem de 0,50 m, o viaduto deve ter pelo menos 4,02 m.
+@158 f matematica/geometria-plana fig
+x: Saindo de X (na Rua C) para oeste, a primeira rua à direita é a Rua 3: virando à direita, segue-se para o norte até a Rua B. Ali, virando à esquerda (oeste), logo em seguida está o ponto 1.
+@163 m matematica/trigonometria fig
+s: aproximação para O tipo => aproximação para √3. || O tipo
+x: O raio é a distância BC entre as pontas do compasso. As hastes medem 10 cm e formam 120°: pela lei dos cossenos, BC² = 100 + 100 − 2·100·cos 120° = 300, então BC = 10√3 ≈ 17 cm. Fica entre 15 e 21: material IV.
+@164 f matematica/numeros-e-operacoes fig
+x: As diferenças para 4 mm são: 4,025 → 0,025; 4,100 → 0,100; 3,970 → 0,030; 4,080 → 0,080; 3,099 → 0,901. A mais próxima é a de 4,025 mm.
+@167 d matematica/analise-combinatoria fig
+x: A logomarca tem 6 regiões, e cada região, depois da primeira, encosta em apenas uma das já pintadas. A primeira pode receber qualquer uma das 4 cores e cada uma das outras 5 tem 3 opções (não pode repetir a cor da vizinha): 4 × 3⁵ = 972.
+@168 m matematica/funcoes-afim-e-quadratica fig
+x: Os 100 m de tela cercam as quatro laterais: 2X + 2Y = 100, ou X + Y = 50. A área X·Y é máxima quando X = Y (o vértice da parábola X(50 − X) está em X = 25). Logo, X = Y = 25 m.
+@170 m matematica/estatistica fig
+x: São 14 meses. Em ordem: 6,8; 7,5; 7,6; 7,6; 7,7; 7,9; 7,9; 8,1; 8,2; 8,5; 8,5; 8,6; 8,9; 9,0. A mediana é a média do 7º e 8º valores: (7,9 + 8,1) ÷ 2 = 8,0%.
+@173 m matematica/funcoes-afim-e-quadratica fig
+x: Atenção às escalas: A usa o eixo da esquerda e B, o da direita (metade dos valores). B fica parado em 30 000 L entre 4 h e 9 h. A cai de 60 000 L e chega a 30 000 L às 8 h, ficando assim até as 9 h. Os dois têm a mesma quantidade só entre 8 h e 9 h: 1 hora.
+@174 m matematica/numeros-e-operacoes fig
+x: A máxima é lida no nível inferior do filete preto da coluna da direita, onde os números crescem de baixo para cima. Esse nível fica logo abaixo da marca de 20 °C, perto de 19 °C.
+@175 m matematica/geometria-plana fig
+s: T₁são => T₁ são
+x: As torres ficam a 50, 100 e 150 m da base e dão uma volta (2πr) em 25 h. Com π = 3: T₁ = 2·3·50 ÷ 25 = 12 m/h; T₂ = 600 ÷ 25 = 24 m/h; T₃ = 900 ÷ 25 = 36 m/h.
+@176 d matematica/funcoes-afim-e-quadratica fig
+a: 16/3 | 31/5 | 25/4 | 25/3 | 75/2
+x: Ponha o eixo de simetria em x = 0: a parábola é y = H − k·x². No chão (y = 0), a largura é 5 m, então x = 2,5; na altura 3 m, a largura é 4 m, então x = 2. Assim H = k·6,25 e 3 = H − 4k. Subtraindo: 3 = 2,25k, k = 4/3, e H = 6,25 × 4/3 = 25/3 m.
+@177 m matematica/porcentagem fig
+x: Aumentos: X de 12 para 21 (75%); Y de 30 para 51 (70%); Z de 10 para 11 (10%); W de 38 para 57 (50%); U de 40 para 56 (40%). O maior é o do site X.
+@178 m matematica/razao-proporcao-regra-de-tres fig
+x: No gráfico 1, as alturas são 70 e 30: razão B/A = 3/7. No gráfico 2, o eixo começa em 20, então as colunas medem 70 − 20 = 50 e 30 − 20 = 10: razão 1/5. Diferença: 3/7 − 1/5 = 15/35 − 7/35 = 8/35.
+@180 d matematica/geometria-espacial fig
+a: 5 − √91/2 | 10 − √91 | 1 | 4 | 5
+x: O melão tem raio 5 cm. O círculo do corte deve ter raio de pelo menos 3 cm: pelo teorema de Pitágoras, a distância do centro ao corte é no máximo √(25 − 9) = 4 cm. Para sobrar a maior parte do melão, corta-se o mais longe possível do centro: h = 5 − 4 = 1 cm.
 
 ## 34-enem-2017-ciencias-da-natureza.md | 2017 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 descricao: Questões oficiais de Física, Química e Biologia do ENEM 2017 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
@@ -153,3 +198,48 @@ s: 5,00 m/s2 . => 5,00 m/s².
 x: O desatento acelera 1 s a mais: chega a 15 m/s e percorre 14 × 1 + 0,5 × 1 × 1² = 14,5 m nesse segundo. Frenagem (v² = 2·a·d): atento: 14² ÷ 10 = 19,6 m; desatento: 15² ÷ 10 = 22,5 m, ou 2,9 m a mais. Diferença total: 14,5 + 2,9 = 17,4 m.
 @127 d fisica/eletricidade
 x: A tensão máxima do gerador é proporcional a N, B, A e f (V = N·B·A·2πf). Dobrar B, A ou f dobra V, mas a resistência do fio não muda, e a corrente de curto dobra. Dobrando o número de espiras, V dobra e o fio fica duas vezes mais comprido (resistência dobra): a corrente i = V ÷ R continua igual.
+@93 m fisica/dinamica fig
+x: A força sobre o corpo é proporcional à aceleração (F = m·a). O cinto mais seguro é o que freia o boneco com a menor aceleração máxima, espalhando a desaceleração por mais tempo. No gráfico, é o cinto 2, cujo pico não chega a 80 m/s².
+@95 m quimica/solucoes fig
+x: O óleo se dissolve no éter, então fica no extrato etéreo (fase orgânica). Na destilação desse extrato, o éter, bem volátil, sai como destilado, e o óleo, que não evapora facilmente, fica no fundo: o resíduo 4.
+@96 f quimica/quimica-organica fig
+x: O produto que tem a cadeia longa (R) ligada a O–C=O e a um grupo CH₃ é o biodiesel. O grupo –COO– entre duas cadeias de carbono caracteriza a função éster (é uma transesterificação).
+@98 m biologia/citologia fig
+x: Logo após a fusão, as proteínas de cada espécie ficam em metades separadas; 40 minutos depois, estão misturadas por toda a membrana. Isso mostra que as proteínas se movimentam livremente no plano da bicamada lipídica (modelo do mosaico fluido).
+@99 m fisica/ondulatoria-e-optica fig
+x: Para iluminar bem sem aquecer, a lâmpada deve emitir quase tudo na faixa visível e quase nada no infravermelho (que é calor). Pelo gráfico, o LED emite praticamente só no visível; tungstênio e xênon emitem muito no infravermelho.
+@101 m fisica/ondulatoria-e-optica fig
+x: O sinal pode sair com até 100 dB e precisa chegar com pelo menos 10 dB: pode perder no máximo 90 dB. A menor perda no gráfico é 1 dB/km (em 1,55 µm). Assim, a distância máxima é 90 ÷ 1 = 90 km.
+@103 m fisica/trabalho-energia-e-potencia fig
+x: Quando há vento, a eletricidade das turbinas produz hidrogênio, que fica armazenado. Sem vento, esse hidrogênio é misturado ao biogás e queimado na planta mista, que gera calor e eletricidade. Assim a cidade continua abastecida.
+@104 m quimica/fisico-quimica fig
+x: No polo positivo (ânodo) forma-se o cloro. No polo negativo (cátodo), a água é reduzida: 2 H₂O + 2 e⁻ → H₂ + 2 OH⁻. O hidróxido de sódio sai pelo dreno, e o produto secundário é o gás hidrogênio (H₂).
+@106 m quimica/estequiometria fig
+x: Cada rato (0,2 kg) comeu 100 g de ração com 3 mg/g: 300 mg de pesticida, ou 300 ÷ 0,2 = 1 500 mg/kg. Essa dose passa da DL₅₀ do diazinon (70) e do malation (1 000), então mais da metade (10 ou mais) dos 20 ratos morre nesses grupos. Na atrazina (3 100), a dose fica abaixo da DL₅₀.
+@108 m fisica/eletricidade fig
+x: Sem amônia, R = U ÷ i. Pelo gráfico, 1,0 V gera 2,0 × 10⁻⁶ A: R = 1,0 ÷ (2,0 × 10⁻⁶) = 5 × 10⁵ Ω. Com muita amônia, a resistência quadruplica: 4 × 5 × 10⁵ = 2,0 × 10⁶ Ω.
+@109 m biologia/citologia fig
+x: Os nanotubos funcionam como "antenas": absorvem comprimentos de onda que os cloroplastos não aproveitam e repassam essa energia. Ou seja, aumentam diretamente a absorção de fótons (luz).
+@111 d fisica/eletricidade fig
+x: Entre o topo e o lado direito há 60 Ω em paralelo com 30 Ω: 20 Ω. Ramo de cima: 60 + 20 = 80 Ω. No ramo de baixo, o fusível (resistência quase nula) em série com 120 Ω fica em paralelo com o 60 Ω da esquerda: 40 Ω; mais o 40 Ω da direita, 80 Ω. A tensão no trecho de 40 Ω é U/2, e a corrente no fusível é (U/2) ÷ 120. Para não passar de 0,5 A: U/240 ≤ 0,5, logo U ≤ 120 V.
+@113 d fisica/ondulatoria-e-optica fig
+x: Com os caminhos iguais, há interferência construtiva. Na figura, o trajeto ADC foi alongado em 10 cm de cada lado (40 cm contra 30 cm), ou seja, 20 cm a mais, e o som se anulou pela primeira vez: essa diferença é meio comprimento de onda. λ = 40 cm = 0,40 m e f = 320 ÷ 0,40 = 800 Hz.
+@117 d quimica/fisico-quimica fig
+x: Na montagem correta, uma pilha usa Ce⁴⁺/Ce³⁺ (grafite, cátodo) com zinco: 1,61 + 0,76 = 2,37 V. A outra usa dicromato (grafite) com níquel: 1,33 + 0,25 = 1,58 V. Ligadas em série (negativo de uma no positivo da outra), somam 3,95 V, mais que os 3,6 V do LED.
+@119 f biologia/ecologia fig
+x: O piso de concreto comum cobre todo o solo e impede que a água da chuva se infiltre. O concregrama tem espaços com grama, por onde a água entra no solo. O objetivo é evitar a impermeabilização.
+@123 m fisica/ondulatoria-e-optica fig
+x: O laser deve ser muito absorvido pela melanina dos pelos e pouco pela oxi-hemoglobina e pela água. Em 700 nm, a melanina absorve bastante, enquanto a oxi-hemoglobina está no mínimo e a água quase não absorve.
+@124 d fisica/trabalho-energia-e-potencia fig
+x: Abaixo de h = 0, a lona esticada empurra a criança: a energia elástica vira cinética, que cresce de zero (em hmín) até o máximo perto de h = 0, numa curva. Acima de h = 0, a criança está em voo livre: Ec = Emáx − m·g·h cai em linha reta até zero em hmáx.
+@128 m quimica/quimica-organica fig
+x: A ozonólise quebra a ligação dupla. O carbono da dupla ligado ao anel e a um H vira aldeído (benzaldeído); o outro carbono, ligado a dois CH₃, vira cetona (propanona).
+@131 m quimica/quimica-organica fig
+x: A fase estacionária é a água presa no papel, e a fase móvel é quase só hexano (apolar). Migra mais devagar a substância mais polar, que interage mais com a água. A capsorubina tem grupos OH e C=O; os carotenos são só hidrocarbonetos.
+@132 f biologia/genetica-e-biotecnologia fig
+x: Entre G e C há três ligações de hidrogênio; entre A e T, só duas. O segmento com menos pares G–C desnatura primeiro. Em AATTCCTA há só dois pares C–G e seis A–T.
+@134 m fisica/eletricidade fig
+a: 1/3 | 1/5 | 3/5 | 3/8 | 5/8
+x: Para a mesma vazão de água, a potência é proporcional ao aumento de temperatura (P = vazão × c × ΔT). Na vazão de 3 L/min, o superquente aquece cerca de 32 °C e o morno cerca de 12 °C: 12/32 = 3/8.
+@135 f biologia/fisiologia-humana fig
+x: Os cones são as células da retina responsáveis por distinguir as cores (há cones sensíveis ao azul, ao verde e ao vermelho). Se eles degeneram, a visão de cores fica comprometida.

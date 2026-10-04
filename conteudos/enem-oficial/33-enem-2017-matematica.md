@@ -168,6 +168,94 @@ A razão entre as distâncias percorridas às cegas por X e Y, nessa ordem, é i
 
 **Assunto:** matematica/razao-proporcao-regra-de-tres
 
+### 136
+Os congestionamentos de trânsito constituem um problema que aflige, todos os dias, milhares de motoristas brasileiros. O gráfico ilustra a situação, representando, ao longo de um intervalo definido de tempo, a variação da velocidade de um veículo durante um congestionamento.
+
+![Figura](enem-2017-d2-q136-1.webp)
+
+Quantos minutos o veículo permaneceu imóvel ao longo do intervalo de tempo total analisado?
+
+- A) 4
+- B) 3
+- C) 2
+- D) 1
+- E) 0
+
+**Resposta:** C
+
+**Explicação:** O veículo fica imóvel quando a velocidade é zero. No gráfico, isso acontece entre 6 e 8 minutos: 2 minutos.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 136
+
+**Assunto:** matematica/estatistica
+
+### 154
+Uma rede hoteleira dispõe de cabanas simples na ilha de Gotland, na Suécia, conforme Figura 1. A estrutura de sustentação de cada uma dessas cabanas está representada na Figura 2. A ideia é permitir ao hóspede uma estada livre de tecnologia, mas conectada com a natureza.
+
+![Figura](enem-2017-d2-q154-1.webp)
+
+> ROMERO, L. Tendências. Superinteressante, n. 315, fev. 2013 (adaptado).
+
+A forma geométrica da superfície cujas arestas estão representadas na Figura 2 é
+
+- A) tetraedro.
+- B) pirâmide retangular.
+- C) tronco de pirâmide retangular.
+- D) prisma quadrangular reto.
+- E) prisma triangular reto.
+
+**Resposta:** E
+
+**Explicação:** A estrutura tem duas faces triangulares iguais e paralelas (frente e fundo) ligadas por três retângulos. É um prisma de base triangular, e as arestas laterais perpendiculares às bases o tornam reto.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 154
+
+**Assunto:** matematica/geometria-espacial
+
+### 158
+Um menino acaba de se mudar para um novo bairro e deseja ir à padaria. Pediu ajuda a um amigo que lhe forneceu um mapa com pontos numerados, que representam cinco locais de interesse, entre os quais está a padaria. Além disso, o amigo passou as seguintes instruções: a partir do ponto em que você se encontra, representado pela letra X, ande para oeste, vire à direita na primeira rua que encontrar, siga em frente e vire à esquerda na próxima rua. A padaria estará logo a seguir.
+
+![Figura](enem-2017-d2-q158-1.webp)
+
+A padaria está representada pelo ponto numerado com
+
+- A) 1.
+- B) 2.
+- C) 3.
+- D) 4.
+- E) 5.
+
+**Resposta:** A
+
+**Explicação:** Saindo de X (na Rua C) para oeste, a primeira rua à direita é a Rua 3: virando à direita, segue-se para o norte até a Rua B. Ali, virando à esquerda (oeste), logo em seguida está o ponto 1.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 158
+
+**Assunto:** matematica/geometria-plana
+
+### 164
+Uma pessoa ganhou uma pulseira formada por pérolas esféricas, na qual faltava uma das pérolas. A figura indica a posição em que estaria faltando esta pérola.
+
+![Figura](enem-2017-d2-q164-1.webp)
+
+Ela levou a joia a um joalheiro que verificou que a medida do diâmetro dessas pérolas era 4 milímetros. Em seu estoque, as pérolas do mesmo tipo e formato, disponíveis para reposição, tinham diâmetros iguais a: 4,025 mm; 4,100 mm; 3,970 mm; 4,080 mm e 3,099 mm.
+
+O joalheiro então colocou na pulseira a pérola cujo diâmetro era o mais próximo do diâmetro das pérolas originais. A pérola colocada na pulseira pelo joalheiro tem diâmetro, em milímetro, igual a
+
+- A) 3,099.
+- B) 3,970.
+- C) 4,025.
+- D) 4,080.
+- E) 4,100.
+
+**Resposta:** C
+
+**Explicação:** As diferenças para 4 mm são: 4,025 → 0,025; 4,100 → 0,100; 3,970 → 0,030; 4,080 → 0,080; 3,099 → 0,901. A mais próxima é a de 4,025 mm.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 164
+
+**Assunto:** matematica/numeros-e-operacoes
+
 ## Médio
 
 ### 138
@@ -396,6 +484,300 @@ Para se obter o dobro da quantidade de energia economizada diariamente, em rela�
 
 **Assunto:** matematica/porcentagem
 
+### 147
+A imagem apresentada na figura é uma cópia em preto e branco da tela quadrada intitulada O peixe, de Marcos Pinto, que foi colocada em uma parede para exposição e fixada nos pontos A e B.
+
+Por um problema na fixação de um dos pontos, a tela se desprendeu, girando rente à parede. Após o giro, ela ficou posicionada como ilustrado na figura, formando um ângulo de 45° com a linha do horizonte.
+
+![Figura](enem-2017-d2-q147-1.webp)
+
+![Figura](enem-2017-d2-q147-2.webp)
+
+Para recolocar a tela na sua posição original, deve-se girá-la, rente à parede, no menor ângulo possível inferior a 360°. A forma de recolocar a tela na posição original, obedecendo ao que foi estabelecido, é girando-a em um ângulo de
+
+- A) 90° no sentido horário.
+- B) 135° no sentido horário.
+- C) 180° no sentido anti-horário.
+- D) 270° no sentido anti-horário.
+- E) 315° no sentido horário.
+
+**Resposta:** B
+
+**Explicação:** A tela ficou presa só em B e girou em torno dele. Antes, a tela ficava acima e à esquerda de B; depois do giro, ficou pendurada abaixo de B, com um lado a 45° da horizontal: girou 135° no sentido anti-horário. Para voltar, basta girar 135° no sentido horário.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 147
+
+**Assunto:** matematica/geometria-plana
+
+### 153
+Num dia de tempestade, a alteração na profundidade de um rio, num determinado local, foi registrada durante um período de 4 horas. Os resultados estão indicados no gráfico de linhas. Nele, a profundidade h, registrada às 13 horas, não foi anotada e, a partir de h, cada unidade sobre o eixo vertical representa um metro.
+
+![Figura](enem-2017-d2-q153-1.webp)
+
+Foi informado que entre 15 horas e 16 horas, a profundidade do rio diminuiu em 10%. Às 16 horas, qual é a profundidade do rio, em metro, no local onde foram feitos os registros?
+
+- A) 18
+- B) 20
+- C) 24
+- D) 36
+- E) 40
+
+**Resposta:** A
+
+**Explicação:** Às 13 h a profundidade é h; às 15 h está 6 linhas acima (h + 6) e às 16 h, 4 linhas acima (h + 4). A queda de 2 m corresponde a 10% de h + 6, então h + 6 = 20 m. Às 16 h: 20 − 2 = 18 m.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 153
+
+**Assunto:** matematica/porcentagem
+
+### 156
+A água para o abastecimento de um prédio é armazenada em um sistema formado por dois reservatórios idênticos, em formato de bloco retangular, ligados entre si por um cano igual ao cano de entrada, conforme ilustra a figura.
+
+![Figura](enem-2017-d2-q156-1.webp)
+
+A água entra no sistema pelo cano de entrada no Reservatório 1 a uma vazão constante e, ao atingir o nível do cano de ligação, passa a abastecer o Reservatório 2. Suponha que, inicialmente, os dois reservatórios estejam vazios. Qual dos gráficos melhor descreverá a altura h do nível da água no Reservatório 1, em função do volume V de água no sistema?
+
+- A) ![Alternativa A](enem-2017-d2-q156-2.webp)
+- B) ![Alternativa B](enem-2017-d2-q156-4.webp)
+- C) ![Alternativa C](enem-2017-d2-q156-6.webp)
+- D) ![Alternativa D](enem-2017-d2-q156-3.webp)
+- E) ![Alternativa E](enem-2017-d2-q156-5.webp)
+
+**Resposta:** D
+
+**Explicação:** Primeiro, só o reservatório 1 enche e h sobe em linha reta. Quando chega ao cano de ligação, a água passa toda para o reservatório 2 e h fica parada. Quando os dois estão no mesmo nível, sobem juntos: h volta a subir, mas com metade da inclinação, pois a água se divide entre dois reservatórios.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 156
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 157
+A manchete demonstra que o transporte de grandes cargas representa cada vez mais preocupação quando feito em vias urbanas.
+
+Caminhão entala em viaduto no Centro
+
+Um caminhão de grande porte entalou embaixo do viaduto no cruzamento das avenidas Borges de Medeiros e Loureiro da Silva no sentido Centro-Bairro, próximo à Ponte de Pedra, na capital. Esse veículo vinha de São Paulo para Porto Alegre e transportava três grandes tubos, conforme ilustrado na foto.
+
+![Figura](enem-2017-d2-q157-1.webp)
+
+> Disponível em: www.caminhoes-e-carretas.com. Acesso em: 21 maio 2012 (adaptado).
+
+Considere que o raio externo de cada cano da imagem seja 0,60 m e que eles estejam em cima de uma carroceria cuja parte superior está a 1,30 m do solo. O desenho representa a vista traseira do empilhamento dos canos.
+
+![Figura](enem-2017-d2-q157-2.webp)
+
+A margem de segurança recomendada para que um veículo passe sob um viaduto é que a altura total do veículo com a carga seja, no mínimo, 0,50 m menor do que a altura do vão do viaduto.
+
+Considere 1,7 como aproximação para √3.
+
+Qual deveria ser a altura mínima do viaduto, em metro, para que esse caminhão pudesse passar com segurança sob seu vão?
+
+- A) 2,82
+- B) 3,52
+- C) 3,70
+- D) 4,02
+- E) 4,20
+
+**Resposta:** D
+
+**Explicação:** Os centros dos três canos formam um triângulo equilátero de lado 1,20 m, cuja altura é 1,20 × √3/2 ≈ 1,02 m. Altura da pilha: 0,60 + 1,02 + 0,60 = 2,22 m. Altura total: 1,30 + 2,22 = 3,52 m. Com a margem de 0,50 m, o viaduto deve ter pelo menos 4,02 m.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 157
+
+**Assunto:** matematica/geometria-plana
+
+### 163
+Uma desenhista projetista deverá desenhar uma tampa de panela em forma circular. Para realizar esse desenho, ela dispõe, no momento, de apenas um compasso, cujo comprimento das hastes é de 10 cm, um transferidor e uma folha de papel com um plano cartesiano. Para esboçar o desenho dessa tampa, ela afastou as hastes do compasso de forma que o ângulo formado por elas fosse de 120°. A ponta seca está representada pelo ponto C, a ponta do grafite está representada pelo ponto B e a cabeça do compasso está representada pelo ponto A conforme a figura.
+
+![Figura](enem-2017-d2-q163-1.webp)
+
+Após concluir o desenho, ela o encaminha para o setor de produção. Ao receber o desenho com a indicação do raio da tampa, verificará em qual intervalo este se encontra e decidirá o tipo de material a ser utilizado na sua fabricação, de acordo com os dados.
+
+![Figura](enem-2017-d2-q163-2.webp)
+
+Considere 1,7 como aproximação para √3.
+
+O tipo de material a ser utilizado pelo setor de produção será
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** D
+
+**Explicação:** O raio é a distância BC entre as pontas do compasso. As hastes medem 10 cm e formam 120°: pela lei dos cossenos, BC² = 100 + 100 − 2·100·cos 120° = 300, então BC = 10√3 ≈ 17 cm. Fica entre 15 e 21: material IV.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 163
+
+**Assunto:** matematica/trigonometria
+
+### 168
+Viveiros de lagostas são construídos, por cooperativas locais de pescadores, em formato de prismas reto-retangulares, fixados ao solo e com telas flexíveis de mesma altura, capazes de suportar a corrosão marinha. Para cada viveiro a ser construído, a cooperativa utiliza integralmente 100 metros lineares dessa tela, que é usada apenas nas laterais.
+
+![Figura](enem-2017-d2-q168-1.webp)
+
+Quais devem ser os valores de X e de Y, em metro, para que a área da base do viveiro seja máxima?
+
+- A) 1 e 49
+- B) 1 e 99
+- C) 10 e 10
+- D) 25 e 25
+- E) 50 e 50
+
+**Resposta:** D
+
+**Explicação:** Os 100 m de tela cercam as quatro laterais: 2X + 2Y = 100, ou X + Y = 50. A área X·Y é máxima quando X = Y (o vértice da parábola X(50 − X) está em X = 25). Logo, X = Y = 25 m.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 168
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 170
+O gráfico apresenta a taxa de desemprego (em %) para o período de março de 2008 a abril de 2009, obtida com base nos dados observados nas regiões metropolitanas de Recife, Salvador, Belo Horizonte, Rio de Janeiro, São Paulo e Porto Alegre.
+
+![Figura](enem-2017-d2-q170-1.webp)
+
+> IBGE. Pesquisa mensal de emprego. Disponível em: www.ibge.gov.br. Acesso em: 30 jul. 2012 (adaptado).
+
+A mediana dessa taxa de desemprego, no período de março de 2008 a abril de 2009, foi de
+
+- A) 8,1%
+- B) 8,0%
+- C) 7,9%
+- D) 7,7%
+- E) 7,6%
+
+**Resposta:** B
+
+**Explicação:** São 14 meses. Em ordem: 6,8; 7,5; 7,6; 7,6; 7,7; 7,9; 7,9; 8,1; 8,2; 8,5; 8,5; 8,6; 8,9; 9,0. A mediana é a média do 7º e 8º valores: (7,9 + 8,1) ÷ 2 = 8,0%.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 170
+
+**Assunto:** matematica/estatistica
+
+### 173
+Dois reservatórios A e B são alimentados por bombas distintas por um período de 20 horas. A quantidade de água contida em cada reservatório nesse período pode ser visualizada na figura.
+
+![Figura](enem-2017-d2-q173-1.webp)
+
+O número de horas em que os dois reservatórios contêm a mesma quantidade de água é
+
+- A) 1.
+- B) 2.
+- C) 4.
+- D) 5.
+- E) 6.
+
+**Resposta:** A
+
+**Explicação:** Atenção às escalas: A usa o eixo da esquerda e B, o da direita (metade dos valores). B fica parado em 30 000 L entre 4 h e 9 h. A cai de 60 000 L e chega a 30 000 L às 8 h, ficando assim até as 9 h. Os dois têm a mesma quantidade só entre 8 h e 9 h: 1 hora.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 174
+Neste modelo de termômetro, os filetes na cor preta registram as temperaturas mínima e máxima do dia anterior e os filetes na cor cinza registram a temperatura ambiente atual, ou seja, no momento da leitura do termômetro.
+
+![Figura](enem-2017-d2-q174-1.webp)
+
+Por isso ele tem duas colunas. Na da esquerda, os números estão em ordem crescente, de cima para baixo, de -30 °C até 50 °C. Na coluna da direita, os números estão ordenados de forma crescente, de baixo para cima, de -30 °C até 50 °C.
+
+A leitura é feita da seguinte maneira:
+
+• a temperatura mínima é indicada pelo nível inferior do filete preto na coluna da esquerda;
+
+• a temperatura máxima é indicada pelo nível inferior do filete preto na coluna da direita;
+
+• a temperatura atual é indicada pelo nível superior dos filetes cinza nas duas colunas.
+
+> Disponível em: www.if.ufrgs.br. Acesso em: 28 ago. 2014 (adaptado).
+
+Qual é a temperatura máxima mais aproximada registrada nesse termômetro?
+
+- A) 5 °C
+- B) 7 °C
+- C) 13 °C
+- D) 15 °C
+- E) 19 °C
+
+**Resposta:** E
+
+**Explicação:** A máxima é lida no nível inferior do filete preto da coluna da direita, onde os números crescem de baixo para cima. Esse nível fica logo abaixo da marca de 20 °C, perto de 19 °C.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 174
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 175
+Pivô central é um sistema de irrigação muito usado na agricultura, em que uma área circular é projetada para receber uma estrutura suspensa. No centro dessa área, há uma tubulação vertical que transmite água através de um cano horizontal longo, apoiado em torres de sustentação, as quais giram, sobre rodas, em torno do centro do pivô, também chamado de base, conforme mostram as figuras. Cada torre move-se com velocidade constante.
+
+![Figura](enem-2017-d2-q175-1.webp)
+
+Um pivô de três torres (T₁, T₂ e T₃) será instalado em uma fazenda, sendo que as distâncias entre torres consecutivas bem como da base à torre T₁ são iguais a 50 m. O fazendeiro pretende ajustar as velocidades das torres, de tal forma que o pivô efetue uma volta completa em 25 horas. Use 3 como aproximação para π. Para atingir seu objetivo, as velocidades das torres T₁, T₂ e T₃ devem ser, em metro por hora, de
+
+- A) 12 , 24 e 36.
+- B) 6 , 12 e 18.
+- C) 2 , 4 e 6.
+- D) 300 , 1 200 e 2 700.
+- E) 600 , 2 400 e 5 400.
+
+**Resposta:** A
+
+**Explicação:** As torres ficam a 50, 100 e 150 m da base e dão uma volta (2πr) em 25 h. Com π = 3: T₁ = 2·3·50 ÷ 25 = 12 m/h; T₂ = 600 ÷ 25 = 24 m/h; T₃ = 900 ÷ 25 = 36 m/h.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 175
+
+**Assunto:** matematica/geometria-plana
+
+### 177
+Quanto tempo você fica conectado à internet? Para responder a essa pergunta foi criado um miniaplicativo de computador que roda na área de trabalho, para gerar automaticamente um gráfico de setores, mapeando o tempo que uma pessoa acessa cinco sites visitados. Em um computador, foi observado que houve um aumento significativo do tempo de acesso da sexta-feira para o sábado, nos cinco sites mais acessados. A seguir, temos os dados do miniaplicativo para esses dias.
+
+![Figura](enem-2017-d2-q177-1.webp)
+
+Analisando os gráficos do computador, a maior taxa de aumento no tempo de acesso, da sexta-feira para o sábado, foi no site
+
+- A) X.
+- B) Y.
+- C) Z.
+- D) W.
+- E) U.
+
+**Resposta:** A
+
+**Explicação:** Aumentos: X de 12 para 21 (75%); Y de 30 para 51 (70%); Z de 10 para 11 (10%); W de 38 para 57 (50%); U de 40 para 56 (40%). O maior é o do site X.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 177
+
+**Assunto:** matematica/porcentagem
+
+### 178
+O resultado de uma pesquisa eleitoral, sobre a preferência dos eleitores em relação a dois candidatos, foi representado por meio do Gráfico 1.
+
+![Figura](enem-2017-d2-q178-1.webp)
+
+Ao ser divulgado esse resultado em jornal, o Gráfico 1 foi cortado durante a diagramação, como mostra o Gráfico 2.
+
+![Figura](enem-2017-d2-q178-2.webp)
+
+Apesar de os valores apresentados estarem corretos e a largura das colunas ser a mesma, muitos leitores criticaram o formato do Gráfico 2 impresso no jornal, alegando que houve prejuízo visual para o candidato B. A diferença entre as razões da altura da coluna B pela coluna A nos gráficos 1 e 2 é
+
+- A) 0 1
+- B) 2 1
+- C) 5 2
+- D) 15 8
+- E) 35
+
+**Resposta:** E
+
+**Explicação:** No gráfico 1, as alturas são 70 e 30: razão B/A = 3/7. No gráfico 2, o eixo começa em 20, então as colunas medem 70 − 20 = 50 e 30 − 20 = 10: razão 1/5. Diferença: 3/7 − 1/5 = 15/35 − 7/35 = 8/35.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 178
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
 ## Difícil
 
 ### 137
@@ -563,3 +945,89 @@ A função P(t) obtida, por este cientista, ao analisar o caso específico foi
 **Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 179
 
 **Assunto:** matematica/trigonometria
+
+### 155
+A figura ilustra uma partida de Campo Minado, o jogo presente em praticamente todo computador pessoal. Quatro quadrados em um tabuleiro 16 × 16 foram abertos, e os números em suas faces indicam quantos dos seus 8 vizinhos contêm minas (a serem evitadas). O número 40 no canto inferior direito é o número total de minas no tabuleiro, cujas posições foram escolhidas ao acaso, de forma uniforme, antes de se abrir qualquer quadrado.
+
+![Figura](enem-2017-d2-q155-1.webp)
+
+Em sua próxima jogada, o jogador deve escolher dentre os quadrados marcados com as letras P, Q, R, S e T um para abrir, sendo que deve escolher aquele com a menor probabilidade de conter uma mina. O jogador deverá abrir o quadrado marcado com a letra
+
+- A) P.
+- B) Q.
+- C) R.
+- D) S.
+- E) T.
+
+**Resposta:** B
+
+**Explicação:** P tem 2 minas entre 8 vizinhos: 2/8 = 0,25. Q: 1/8 = 0,125. T: 3/8; S: 4/8. Para R (longe dos números): sobram 40 − 10 = 30 minas em 256 − 4 − 32 = 220 casas, cerca de 0,136. A menor chance é a de Q.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 155
+
+**Assunto:** matematica/probabilidade
+
+### 167
+O comitê organizador da Copa do Mundo 2014 criou a logomarca da Copa, composta de uma figura plana e o slogan “Juntos num só ritmo”, com mãos que se unem formando a taça Fifa. Considere que o comitê organizador resolvesse utilizar todas as cores da bandeira nacional (verde, amarelo, azul e branco) para colorir a logomarca, de forma que regiões vizinhas tenham cores diferentes.
+
+![Figura](enem-2017-d2-q167-1.webp)
+
+> Disponível em: www.pt.fifa.com. Acesso em: 19 nov. 2013 (adaptado).
+
+De quantas maneiras diferentes o comitê organizador da Copa poderia pintar a logomarca com as cores citadas?
+
+- A) 15
+- B) 30
+- C) 108
+- D) 360
+- E) 972
+
+**Resposta:** E
+
+**Explicação:** A logomarca tem 6 regiões, e cada região, depois da primeira, encosta em apenas uma das já pintadas. A primeira pode receber qualquer uma das 4 cores e cada uma das outras 5 tem 3 opções (não pode repetir a cor da vizinha): 4 × 3⁵ = 972.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/analise-combinatoria
+
+### 176
+A Igreja de São Francisco de Assis, obra arquitetônica modernista de Oscar Niemeyer, localizada na Lagoa da Pampulha, em Belo Horizonte, possui abóbadas parabólicas. A seta na Figura 1 ilustra uma das abóbadas na entrada principal da capela. A Figura 2 fornece uma vista frontal desta abóbada, com medidas hipotéticas para simplificar os cálculos.
+
+![Figura](enem-2017-d2-q176-1.webp)
+
+Qual a medida da altura H, em metro, indicada na Figura 2?
+
+- A) 16/3
+- B) 31/5
+- C) 25/4
+- D) 25/3
+- E) 75/2
+
+**Resposta:** D
+
+**Explicação:** Ponha o eixo de simetria em x = 0: a parábola é y = H − k·x². No chão (y = 0), a largura é 5 m, então x = 2,5; na altura 3 m, a largura é 4 m, então x = 2. Assim H = k·6,25 e 3 = H − 4k. Subtraindo: 3 = 2,25k, k = 4/3, e H = 6,25 × 4/3 = 25/3 m.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 176
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 180
+Para decorar uma mesa de festa infantil, um chefe de cozinha usará um melão esférico com diâmetro medindo 10 cm, o qual servirá de suporte para espetar diversos doces. Ele irá retirar uma calota esférica do melão, conforme ilustra a figura, e, para garantir a estabilidade deste suporte, dificultando que o melão role sobre a mesa, o chefe fará o corte de modo que o raio r da seção circular de corte seja de pelo menos 3 cm. Por outro lado, o chefe desejará dispor da maior área possível da região em que serão afixados os doces.
+
+![Figura](enem-2017-d2-q180-1.webp)
+
+Para atingir todos os seus objetivos, o chefe deverá cortar a calota do melão numa altura h, em centímetro, igual a
+
+- A) 5 − √91/2
+- B) 10 − √91
+- C) 1
+- D) 4
+- E) 5
+
+**Resposta:** C
+
+**Explicação:** O melão tem raio 5 cm. O círculo do corte deve ter raio de pelo menos 3 cm: pelo teorema de Pitágoras, a distância do centro ao corte é no máximo √(25 − 9) = 4 cm. Para sobrar a maior parte do melão, corta-se o mais longe possível do centro: h = 5 − 4 = 1 cm.
+
+**Fonte:** ENEM 2017, 2º dia, caderno amarelo, questão 180
+
+**Assunto:** matematica/geometria-espacial
