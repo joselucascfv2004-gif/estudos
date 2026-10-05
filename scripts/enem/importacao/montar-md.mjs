@@ -122,7 +122,7 @@ for (const a of arquivos) {
         const f = figs.find((x) => String(x.num) === d.num);
         if (!f) { faltas.push(`${d.num} sem figura`); continue; }
         // texto de 1–2 caracteres junto da figura é rótulo de eixo ("h", "y"), não a alternativa
-        let alts = f.alts.map((x) => (x.figs.length && x.txt.trim().length <= 2 ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
+        let alts = f.alts.map((x) => (x.figs.length && x.txt.replace(/(?:ENE[MN]20\d\d){3,}/g, '').trim().length <= 2 ? `![Alternativa ${x.letra}](${x.figs[0]})` : x.txt));
         let fc = f;
         if (!f.alts.length && e.alts.length === 5) {
           // marcadores desenhados (2010): alternativas vêm do texto extraído e o corpo para antes da primeira
@@ -144,7 +144,7 @@ for (const a of arquivos) {
       if (!/^[A-E]$/.test(e.gab || '')) faltas.push(`${d.num} (gabarito ${e.gab})`);
       if (!d.x) faltas.push(`${d.num} sem explicação`);
       // ligaduras partidas do PDF ("signiﬁ cativas") viram letras comuns
-      const troca = (t) => d.s.reduce((acc, [de, para]) => acc.split(de).join(para), t).replace(/ﬁ ?/g, 'fi').replace(/ﬂ ?/g, 'fl');
+      const troca = (t) => d.s.reduce((acc, [de, para]) => acc.split(de).join(para), t).replace(/ﬁ ?/g, 'fi').replace(/ﬂ ?/g, 'fl').replace(/ *(?:ENE[MN]20\d\d){3,}/g, '');
       const base = [...(d.c || []), ...(d.e || (d.verso ? versos(e.linhasCorpo) : e.pars))];
       // as trocas valem sobre o texto inteiro (parágrafos separados por " || "), para poder unir parágrafos
       const pars = troca(base.join(' || ')).replace(/ *[\uE000-\uF8FF] */g, ' ')

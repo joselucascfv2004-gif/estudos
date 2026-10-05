@@ -80,6 +80,31 @@ s: produzidas. Proposta de emenda => produzidas. || Proposta de emenda
 s: subsídio. || TRADUÇãO Torna-se => subsídio. || TRADUÇÃO || Torna-se
 s: Superinteressante, n. 322, ago. 2013 (adaptado). Nesse texto => > Superinteressante, n. 322, ago. 2013 (adaptado). || Nesse texto
 x: O "juridiquês" é tão difícil que precisa ser traduzido para a variedade padrão comum, que todos entendem. A ironia está em mostrar que a linguagem da Justiça é incompreensível para o público em geral.
+@14 f portugues/interpretacao-de-texto fig
+x: O cartaz da Bienal do Livro mostra um rapaz comum, "Fernando", que sai do evento como "Pessoa", em referência ao poeta Fernando Pessoa. Junto com o lema "Todo mundo sai melhor do que entrou", a imagem defende que a leitura transforma quem lê.
+@23 m artes/artes-e-educacao-fisica fig
+x: A obra rasga um painel de azulejos portugueses e mostra, por dentro, algo que parece carne viva. Os azulejos lembram a colonização portuguesa, e a "carne" exposta remete às violências desse processo colonial no Brasil.
+@24 f portugues/interpretacao-de-texto fig
+x: O cartaz mostra duas crianças, uma indígena e uma negra, com o futuro profissional que elas podem ter, e alerta que a maioria das crianças negras e indígenas sofre discriminação racial. A ideia é sensibilizar a sociedade de que combater o racismo abre caminho para esse futuro.
+@26 f portugues/funcoes-generos-e-variacao fig
+x: O texto mostra que o mesmo doce de milho recebe nomes diferentes em cada região: canjica, curau, pururuca, canjiquinha, cajica de milho verde. Isso evidencia a variação linguística regional.
+@31 m portugues/semantica-e-figuras-de-linguagem fig
+x: O poema joga com dois sentidos de "rede": a rede de dormir, ligada ao convívio com amigos e à natureza, e as redes sociais da internet, que nos prendem diante da tela. O contraste mostra como a tecnologia muda as relações entre as pessoas.
+@32 m portugues/funcoes-generos-e-variacao
+x: O texto diz que a página do jornal comporta várias matérias, o que limita o número de laudas e obriga o cronista a escrever de forma econômica. Esse limite físico de espaço do suporte é o aspecto técnico que molda a crônica.
+@33 f portugues/interpretacao-de-texto fig
+x: O texto pergunta "Por que falar sobre violência contra mulheres na escola?" e divulga um projeto ("Maria da Penha vai à escola"). O objetivo é envolver a escola, o setor educacional, no combate à violência de gênero.
+@34 m portugues/funcoes-generos-e-variacao fig
+x: O "(NÃO)" entre parênteses permite ler a frase de dois jeitos: "você está sozinho" e "você não está sozinho". Metade da população se sente solitária, e é justamente isso que faz a pessoa não estar sozinha. Esse jogo com a forma da frase, que abre mais de uma leitura, marca a função poética.
+@37 m portugues/interpretacao-de-texto
+x: O Texto II chama-se "Os Doze Trabalhos" e termina dizendo que o trabalhador de muitos ofícios pode ser chamado de "Hércules". Ele retoma o mito do Texto I para falar de um trabalhador comum: é um caso de intertextualidade.
+@41 m artes/artes-e-educacao-fisica fig
+s: I e ll => I e II
+x: O Texto I mostra que os bancos são objetos sagrados, ligados ao mito de criação, e que a arte de talhá-los existe há milhares de anos. O banco Kamayurá tem forma de tatu: a tradição é mantida, e a figura do animal ganha uma nova função, a de assento.
+@45 f portugues/funcoes-generos-e-variacao fig
+e: A artista Marija Tiurina criou uma série chamada Palavras intraduzíveis, com diversas ilustrações detalhadas que transmitem o sentido desses vocábulos, que nenhuma palavra única em outras línguas pode descrever. || [fig1] || > ROMANZOTI, N. 9 desenhos que ilustram palavras sem tradução para o português. Disponível em: https://hypescience.com. Acesso em: 10 jun. 2019 (adaptado). || O uso do texto verbal nesse desenho assume a função de
+a: descrever de forma técnica a ilustração. | destacar os múltiplos sentidos do verbete. | explicar o significado da expressão ilustrada. | apresentar termos equivalentes em outras línguas. | apontar para a dificuldade de compreensão do termo.
+x: O desenho ilustra a palavra árabe "Gufra", e a frase escrita ao lado diz o que ela significa: a quantidade de água que pode ser segurada com as mãos. O texto verbal explica o sentido da palavra ilustrada.
 
 ## 03-enem-2025-ciencias-humanas.md | 2025 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
@@ -177,3 +202,11 @@ x: O texto I elogia o cinema como lazer encantador. O texto II reclama dos filme
 x: Os três textos ligam o conhecimento ao trabalho e à vida em sociedade: habilidades artísticas e técnicas, a sabedoria de Moisés e a ciência certa. A ciência aparece a serviço do desenvolvimento social e do trabalho.
 @90 m historia/seculo-xx
 x: A expedição russa coletava objetos e conhecimentos de outros povos para os museus do seu país, como faziam as potências europeias. Era parte de um projeto nacionalista de caráter imperialista e colonizador.
+@47 m geografia/geografia-fisica fig
+x: A imagem mostra a fumaça das queimadas espalhada por grandes áreas, atravessando fronteiras e até o oceano entre a África e o Brasil. Quem leva os poluentes tão longe são os ventos, ou seja, a circulação das massas de ar.
+@63 m geografia/economia-agropecuaria-industria-energia fig
+x: O Brasil aparece entre os maiores produtores e exportadores do mundo de açúcar, café, soja, carnes e suco de laranja. Essa posição veio da modernização do campo, com a entrada de grandes empresas e capital agroindustrial (máquinas, sementes, tecnologia).
+@68 f geografia/populacao-e-urbanizacao fig
+x: A foto de Salvador mostra muitos prédios altos ocupando a orla e o centro da cidade. Esse crescimento da cidade "para cima" é a verticalização urbana.
+@77 m geografia/biomas-e-questoes-ambientais fig
+x: A charge mostra o carro elétrico "limpo" de um lado e, do outro, a mineração poluidora que fornece o que ele precisa. O texto completa: o carro depende de metais raros, extraídos de minas. Esses metais não são renováveis, e essa é a contradição da tecnologia "verde".

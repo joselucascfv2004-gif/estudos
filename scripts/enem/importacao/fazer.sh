@@ -21,4 +21,4 @@ for l in open('aparar.txt'):
 # dividir.txt: "ANO DIA NUM [FIG]" divide uma figura com as 5 alternativas empilhadas (figuras -11 a -15)
 [ -f dividir.txt ] && grep "^$ANO $DIA " dividir.txt | while read a d n f; do python3 dividir.py $a $d $n $f >/dev/null; done
 # recortes.txt: "ANO DIA NUM IDX PAG X0 Y0 X1 Y1" recorta um retângulo da página como figura -IDX
-[ -f recortes.txt ] && grep "^$ANO $DIA " recortes.txt | while read a d n i p x0 y0 x1 y1; do python3 recorte.py $a $d $n $i $p $x0 $y0 $x1 $y1 >/dev/null; done
+[ -f recortes.txt ] && grep "^$ANO $DIA " recortes.txt | while read a d n i p x0 y0 x1 y1 c; do python3 recorte.py $a $d $n $i $p $x0 $y0 $x1 $y1 $c >/dev/null; done

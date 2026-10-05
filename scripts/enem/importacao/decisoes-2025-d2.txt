@@ -65,6 +65,50 @@ a: 10^0,5 | 10^8 | 10^2,5/84 | 10^2,5/99 | 25 × 10⁻²
 x: O produto −(t + 1)(t − 19) = (t + 1)(19 − t) é uma parábola com máximo em t = 9, que está dentro das 10 horas: vale 10 × 10 = 100. A pressão máxima é 4·log(100K) ≤ 10, então log(100K) ≤ 2,5, ou seja, 100K ≤ 10^2,5 e K ≤ 10^0,5.
 @179 d matematica/analise-combinatoria
 x: O mais velho recebe a bicicleta ou o celular (2 escolhas) e mais 2 dos 6 presentes comuns: 2 × C(6,2) = 2 × 15 = 30. Dos 5 presentes que sobram, o mais novo escolhe 3: C(5,3) = 10, e o do meio fica com os 2 restantes. Total: 30 × 10 = 300.
+@136 m matematica/geometria-plana fig
+s: aproximação para p. => aproximação para π.
+x: A ciclovia mede 2·π·r = 2 · 3 · 1 000 = 6 000 m. Cada policial protege 200 m para cada lado, ou seja, um trecho de 400 m. O número mínimo é 6 000 ÷ 400 = 15 policiais.
+@140 f matematica/numeros-e-operacoes fig
+x: Sódio por pacote = porções × sódio por porção. Batata chips: 3 × 170 = 510 mg. Palitos: 4 × 501 = 2 004 mg. Multigrãos: 8 × 264 = 2 112 mg. Polvilho: 6 × 175 = 1 050 mg. Água e sal: 5 × 166 = 830 mg. O menor total é o da batata chips.
+@142 f matematica/funcoes-afim-e-quadratica fig
+x: O gráfico é horizontal até t₁, cai entre t₁ e t₂ e volta a ser horizontal depois de t₂. A partir do início da meditação, a frequência diminui até t₂ e depois fica constante em f₂.
+@144 d matematica/geometria-espacial fig
+x: Aproximar-se 3 unidades do plano yz diminui x em 3; afastar-se 5 do plano xz aumenta y em 5; aproximar-se 4 do plano xy diminui z em 4. Na parede yz, a projeção, que estava entre y = 1 e 2 e z = 6 e 7, passa para y entre 6 e 7 e z entre 2 e 3. Só uma alternativa mostra essa posição, com as outras projeções coerentes.
+@145 m matematica/probabilidade fig
+a: 30/90 | 36/100 | 40/100 | 40/90 | 46/90
+x: 90% dos internautas acessam redes sociais, e 60% desses são mulheres, logo 40% são homens. A probabilidade de sortear um homem que acessa redes é 0,9 × 0,4 = 0,36 = 36/100.
+@147 d matematica/funcoes-afim-e-quadratica fig
+x: Os pontos equidistantes de T e V formam a mediatriz do segmento TV. Como STUV é quadrado e o vetor de S(6; 2) a V(8; 6) é (2; 4), o vetor de S a T é (−4; 2), e T = (2; 4). TV tem inclinação (6 − 4) ÷ (8 − 2) = 1/3 e ponto médio (5; 5). A mediatriz tem inclinação −3 e passa por (5; 5): y = −3x + 20.
+@148 f matematica/estatistica fig
+x: Estoque total de cada gênero = brasileiro + estrangeiro. Ficção: 80 + 120 = 200 (demanda 160). Autoajuda: 50 + 80 = 130 (demanda cerca de 135). Romance: 40 + 105 = 145 (demanda 140). Biografia: 45 + 50 = 95 (demanda 80). Só na autoajuda o estoque é menor que a demanda.
+@149 f matematica/porcentagem fig
+x: Em 2024 houve 280 + 80 + 20 + 20 = 400 matrículas. Em 2023, o francês tinha 10% das matrículas. Mantendo esse percentual: 10% de 400 = 40.
+@150 f matematica/grandezas-medidas-escalas fig
+x: Comprimento real = medida na tela × escala. I: 9 × 100 = 900 cm. II: 5 × 300 = 1 500 cm. III: 5 × 600 = 3 000 cm. IV: 3 × 700 = 2 100 cm. V: 2 × 1 000 = 2 000 cm. O maior é o III.
+@151 m matematica/geometria-espacial fig
+x: Na planificação há o decágono central, um pentágono e, entre eles, quadrados e triângulos. Contando: a cúpula tem 15 vértices (5 do pentágono do topo e 10 do decágono), e o antiprisma pentagonal embaixo acrescenta mais 10. São 15 + 10 = 25 vértices.
+@155 m matematica/estatistica fig
+x: No gráfico de barras, contando os quadradinhos: futebol 7 + 6 + 5 = 18, vôlei 3 + 3 + 4 = 10 e basquete 1 + 3 + 4 = 8 (total 36). O futebol é metade (18 de 36), como no gráfico de setores. O basquete são 8 partes, que valem 80 alunos, então cada parte vale 10. O total é 36 × 10 = 360.
+@156 d matematica/trigonometria fig
+x: Os trechos ST e QR são iguais e paralelos (direção 90 por 2 h), então ir de T a R equivale a ir de S a Q. PS e PQ medem 4 h cada e formam um ângulo de 130° (de 340 a 110). Pela lei dos cossenos: SQ² = 16 + 16 − 32·cos 130° = 32 + 32 · 0,64 = 52,48, e SQ ≈ 7,24 h ≈ 7 h 15 min. O triângulo PSQ é isósceles, com a bissetriz em 45; SQ é perpendicular a ela e vai do noroeste para o sudeste, na direção 135.
+@158 m matematica/razao-proporcao-regra-de-tres fig
+x: Com pace de 281 s/km, os 5 km levam 5 × 281 = 1 405 s. Até o 4º km ele gastou 1 132 s, então o 5º trecho deve levar 1 405 − 1 132 = 273 s. O 4º trecho levou 288 s: 288 − 273 = 15 s a menos.
+@159 d matematica/trigonometria fig
+x: As assíntotas estão em (5 − 2π)/2 e (5 + 2π)/2, distantes 2π: esse é o período, então π/p = 2π e p = 1/2. O ponto central entre elas é T = 5/2, onde a tangente vale zero; ali D = 30, logo k = 30. A função é D = 30 + tg[½(T − 5/2)].
+@160 m matematica/geometria-plana fig
+x: Faça o caminho ao contrário, a partir de A. A casa do amigo fica no 2º quarteirão a oeste, então João andava pela rua logo acima de A, vindo da rua vertical entre a coluna de S e a coluna à direita dela. Descendo três quarteirões por essa rua, chega-se à rua acima da última fila. O quarteirão logo a leste dessa rua, cuja esquina nordeste é a casa de João, é o P.
+@163 f matematica/grandezas-medidas-escalas fig
+x: Os 20 cm do desenho viraram 30 m = 3 000 cm na obra. A escala é 20 : 3 000 = 1 : 150.
+@167 m matematica/estatistica fig
+x: Produção (t) = área × produtividade × 50 kg ÷ 1 000. 11-12: 200 × 40 × 0,05 = 400 t. 12-13: 220 × 30 × 0,05 = 330 t. 13-14 e 14-15: 250 × 45 × 0,05 = 562,5 t. 15-16: 200 × 50 × 0,05 = 500 t. É o gráfico com 400, 330, 562,5, 562,5 e 500.
+@168 m matematica/geometria-espacial fig
+s: aproximado para p. => aproximado para π.
+x: Medalha: π · 3² · 0,3 = 3,1 · 9 · 0,3 = 8,37 cm³. O quadrado tem diagonal 6 cm, então sua área é 6² ÷ 2 = 18 cm², e o prisma tem 18 · 0,3 = 5,4 cm³. O ouro por medalha é 8,37 − 5,4 = 2,97 cm³; em 100 medalhas, 297 cm³.
+@172 m matematica/razao-proporcao-regra-de-tres fig
+x: A 60 km/h, o rendimento é de cerca de 10 km/m³ com GNV e 8 km/L com gasolina. Em 120 km, gastam-se 12 m³ de GNV (12 × 2 = R$ 24) e 15 L de gasolina (15 × 3 = R$ 45). A diferença é 45 − 24 = R$ 21.
+@177 m matematica/geometria-plana fig
+s: aproximação para p e => aproximação para π e
+x: A área de um semicírculo é π·r²/2. Projeto 1: raios 6 m e 3 m, então 3 · 36 / 2 + 3 · 9 / 2 = 54 + 13,5 = 67,5 m². Projeto 2: o diâmetro é 3 + 6 + 6 + 3 = 18 m, raio 9, então 3 · 81 / 2 = 121,5 m². O projeto 1 tem a menor área.
 
 ## 02-enem-2025-ciencias-da-natureza.md | 2025 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 auto: sim
@@ -144,3 +188,38 @@ x: No escurecimento, o O₂ se reduz e a prata se oxida a Ag₂S: ddp = 1,23 −
 x: Volume de gás: n = PV/RT = (1 × 4,00)/(0,082 × 453) ≈ 0,108 mol de gases. Cada mol de NH₄HCO₃ gera 3 mol de gases: 0,036 mol. Com rendimento de 80%: 0,036 ÷ 0,8 = 0,045 mol × 79 g ≈ 3,5 g.
 @128 d fisica/cinematica
 x: Para ir 20 km a Leste, 20 km a Norte e 1 km para cima em 0,1 h, a velocidade em relação ao solo deve ser 200 km/h Leste, 200 km/h Norte e 10 km/h para cima. A velocidade em relação ao ar é essa menos a do vento: 200 − 30 = 170 km/h Leste; 200 + 20 = 220 km/h Norte; 10 + 1 = 11 km/h para cima.
+@93 f biologia/saude-e-doencas fig
+x: A vacina leva o vírus inativado (o antígeno), que não causa a doença. O sistema imune reconhece esse antígeno e passa a produzir anticorpos, proteínas que neutralizam o vírus, além de células de memória.
+@101 d fisica/ondulatoria-e-optica fig
+e: A icterícia é uma doença que acomete recém-nascidos e pode ser tratada com um método de fototerapia conhecido como banho de luz, que consiste na exposição do recém-nascido a uma fonte luminosa equipada com LEDs azuis. Para o monitoramento da dosagem dessa radiação, é utilizada a resposta óptica de um sensor constituído de materiais orgânicos que luminescem quando expostos à luz azul. Com o passar do tempo, essa radiação oxida os materiais do sensor, alterando sua coloração de vermelho-laranja para verde, o que indica o final do tratamento. || O gráfico apresenta o espectro de fotoluminescência do sensor em função do comprimento de onda da luz emitida no início do tratamento, quando o sensor, colado na fralda do bebê (Figura 1), luminesce na região do vermelho-laranja (∼600 nm). A Figura 2 apresenta a evolução da coloração do sensor, mostrando que a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul. || [fig1] || > SILVA, M. M. et al. Fabricação de sensor orgânico flexível para aplicação em terapia com luz azul. Tecnol. Metal. Mater. Miner., n. 3, jul.-set. 2011 (adaptado). || Os espectros de fotoluminescência do sensor no início e no final do tratamento estão esboçados no gráfico:
+a: [fig3] | [fig4] | [fig6] | [fig7] | [fig8]
+x: Se a frequência da luz emitida aumenta, o comprimento de onda diminui (v = λ·f, com a velocidade da luz constante). No fim do tratamento o sensor emite verde, então o pico do espectro deve se deslocar para comprimentos de onda menores que 600 nm, por volta de 550 nm.
+@102 m biologia/genetica-e-biotecnologia fig
+x: Os pais têm fenótipos diferentes (pintas e listra), e os filhos mostram os dois ao mesmo tempo: é codominância. Cruzando dois heterozigotos, a prole sai na proporção 1 : 2 : 1, ou seja, 1 com pintas, 1 com listra e 2 com pintas e listra.
+@103 m fisica/dinamica fig
+x: Enquanto a caixa desliza, o atrito é cinético e vale μ·N. Ele não depende da força que o trabalhador faz. No plano inclinado a normal e a rugosidade não mudam, então a força de atrito fica constante.
+@104 m fisica/eletricidade fig
+x: Na Figura 2 o campo elétrico aponta para cima. A força sobre o elétron, que tem carga negativa, tem sentido oposto ao do campo, ou seja, para baixo. O feixe é desviado para baixo e atinge o ponto 2 da tela.
+@106 m quimica/quimica-organica fig
+a: C₉H₁₆O | C₉H₁₇O | C₁₀H₁₆O | C₁₀H₁₆O₂ | C₁₀H₁₈O₂
+x: O borneol tem 10 carbonos e fórmula C₁₀H₁₈O. Ao virar cetona, o álcool secundário perde dois hidrogênios: um do grupo OH e outro do carbono que o carrega. A cânfora fica com C₁₀H₁₆O.
+@108 f quimica/ligacoes-e-funcoes-inorganicas fig
+x: Na notação antiga, o número que hoje fica embaixo era escrito em cima: NaNO₃ virava NaAzO³. O ácido nítrico, HNO₃, fica HAzO³, e o cloreto de cálcio, CaCl₂, fica CaCl².
+@109 f quimica/quimica-organica fig
+x: Comparando as estruturas, o ácido anacárdico perde o grupo carboxila (–COOH) e libera CO₂, formando o cardanol. A reação que retira CO₂ de um ácido carboxílico é a descarboxilação.
+@111 f quimica/quimica-ambiental fig
+x: As sobras da biodigestão são ricas em nutrientes. Se fossem jogadas em rios e lagos, provocariam o crescimento exagerado de algas e a falta de oxigênio na água, que é a eutrofização. Usá-las como fertilizante evita isso.
+@113 m fisica/eletricidade fig
+s: elétrica RC que => elétrica Rc que
+s: proteção RP || , de => proteção Rp, de
+x: A fonte dá 1,2 vez a tensão do aparelho. Um resistor em série divide a tensão. Para o aparelho ficar com a tensão certa (1,0), o resistor deve ficar com 0,2 dela. Como a corrente é a mesma nos dois, a tensão é proporcional à resistência: Rp = 0,2·Rc, em série.
+@117 m quimica/quimica-organica fig
+x: Os hormônios são pouco polares, e a solubilidade em água cresce com o número de grupos que fazem ligação de hidrogênio. O estriol tem três grupos OH, mais que os outros, e por isso é o mais solúvel.
+@118 m fisica/cinematica fig
+x: Para atravessar todo o feixe, o corpo percorre o diâmetro do feixe mais a própria espessura: 15 + 20 = 35 cm = 0,35 m. No caso mais rápido (5 m/s), o tempo é 0,35 ÷ 5 = 0,07 s = 70 ms. Um tempo de resposta maior que esse deixaria o invasor rápido passar sem ser detectado.
+@125 d fisica/eletricidade fig
+x: Cada placa tem r = (40 − 34) ÷ 7,5 = 0,8 Ω. Três placas em série dão 3 × 40 = 120 V de força eletromotriz e 3 × 0,8 = 2,4 Ω de resistência interna. Funcionando, entregam 3 × 34 = 102 V, dentro da faixa de 100 V ± 5 V. Com duas placas (68 V) não daria.
+@129 f quimica/fisico-quimica fig
+x: A enzima é um catalisador: ela diminui a energia de ativação (o pico do gráfico fica mais baixo), mas não muda a energia dos reagentes (A) nem a dos produtos (B). Só o gráfico com o pico pontilhado mais baixo e as pontas iguais mostra isso.
+@130 m fisica/termologia fig
+x: A sensibilidade é o quanto a resistência muda para cada grau, ou seja, a inclinação da reta (B). As retas mais inclinadas são a do sensor 2 (de cerca de 75 Ω para 225 Ω) e a do sensor 5 (de cerca de 65 Ω para 145 Ω).

@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6696 questões** em **154 tópicos**.
+**6746 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,16 +225,16 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2783 questões
+## ENEM — provas oficiais — 2833 questões
 
 *Provas anteriores*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [ENEM 2025 — Matemática](enem-oficial/01-enem-2025-matematica.md) | ENEM | 12 | 9 | 3 |
-| [ENEM 2025 — Ciências da Natureza](enem-oficial/02-enem-2025-ciencias-da-natureza.md) | ENEM | 15 | 9 | 4 |
-| [ENEM 2025 — Ciências Humanas](enem-oficial/03-enem-2025-ciencias-humanas.md) | ENEM | 25 | 12 | 4 |
-| [ENEM 2025 — Linguagens](enem-oficial/04-enem-2025-linguagens.md) | ENEM | 18 | 10 | 1 |
+| [ENEM 2025 — Matemática](enem-oficial/01-enem-2025-matematica.md) | ENEM | 18 | 19 | 7 |
+| [ENEM 2025 — Ciências da Natureza](enem-oficial/02-enem-2025-ciencias-da-natureza.md) | ENEM | 20 | 17 | 6 |
+| [ENEM 2025 — Ciências Humanas](enem-oficial/03-enem-2025-ciencias-humanas.md) | ENEM | 26 | 15 | 4 |
+| [ENEM 2025 — Linguagens](enem-oficial/04-enem-2025-linguagens.md) | ENEM | 23 | 16 | 1 |
 | [ENEM 2024 — Matemática](enem-oficial/05-enem-2024-matematica.md) | ENEM | 14 | 24 | 7 |
 | [ENEM 2024 — Ciências da Natureza](enem-oficial/06-enem-2024-ciencias-da-natureza.md) | ENEM | 17 | 22 | 5 |
 | [ENEM 2024 — Ciências Humanas](enem-oficial/07-enem-2024-ciencias-humanas.md) | ENEM | 27 | 17 | 1 |

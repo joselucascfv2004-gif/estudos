@@ -249,6 +249,136 @@ A probabilidade de que todos os candidatos tenham recebido de volta os envelopes
 
 **Assunto:** matematica/probabilidade
 
+### 140
+Na cantina de uma escola, há cinco alimentos vendidos em pacotes com diferentes quantidades de porções.
+
+As informações nutricionais contidas nos rótulos desses produtos estão indicadas nas imagens.
+
+![Figura](enem-2025-d2-q140-1.webp)
+
+Uma estudante opta sempre pelo alimento com a menor quantidade total de sódio por pacote. Qual desses produtos deve ser o escolhido pela estudante?
+
+- A) Batata chips.
+- B) Palitos salgados.
+- C) Biscoito multigrãos.
+- D) Biscoito de polvilho.
+- E) Biscoito de água e sal.
+
+**Resposta:** A
+
+**Explicação:** Sódio por pacote = porções × sódio por porção. Batata chips: 3 × 170 = 510 mg. Palitos: 4 × 501 = 2 004 mg. Multigrãos: 8 × 264 = 2 112 mg. Polvilho: 6 × 175 = 1 050 mg. Água e sal: 5 × 166 = 830 mg. O menor total é o da batata chips.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 140
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 142
+Pesquisas na área de neurobiologia confirmam que a prática meditativa é responsável por diminuir consideravelmente a frequência respiratória para praticantes avançados, que, após iniciarem a meditação, têm suas frequências respiratórias reduzidas até se estabilizarem em um nível mais baixo. O gráfico apresenta a relação da frequência respiratória, em incursões de respirações por minuto (rpm), em relação ao tempo, em minuto, de um praticante avançado, em que (f₁) representa a frequência no instante t₁, no qual se inicia a prática meditativa; e (f₂), a frequência no instante t₂, a partir do qual esta se estabiliza durante a meditação.
+
+![Figura](enem-2025-d2-q142-1.webp)
+
+> Disponível em: www.redepsi.com.br. Acesso em: 3 dez. 2018 (adaptado).
+
+A partir do instante t₁, em que se inicia a prática meditativa, o comportamento da frequência respiratória, em relação ao tempo,
+
+- A) mantém-se constante.
+- B) é diretamente proporcional ao tempo.
+- C) é inversamente proporcional ao tempo.
+- D) diminui até o instante t₂, a partir do qual se torna constante.
+- E) diminui de forma proporcional ao tempo, tanto entre t₁ e t₂ quanto após t₂.
+
+**Resposta:** D
+
+**Explicação:** O gráfico é horizontal até t₁, cai entre t₁ e t₂ e volta a ser horizontal depois de t₂. A partir do início da meditação, a frequência diminui até t₂ e depois fica constante em f₂.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 142
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 148
+Uma livraria comercializa livros dos seguintes gêneros literários: ficção científica, autoajuda, romance e biografia. O gráfico apresenta o estoque dos livros que essa livraria tem, por gênero literário e por nacionalidade do autor, bem como a demanda por gênero literário, obtida por meio de uma enquete feita com seus clientes habituais.
+
+![Figura](enem-2025-d2-q148-1.webp)
+
+O gerente da livraria fará a encomenda de novos exemplares somente do gênero cuja quantidade em estoque seja insuficiente para atender a demanda constatada pela enquete. O gênero de livro do qual o gerente deverá encomendar mais exemplares é
+
+- A) ficção, pois é o que apresenta maior demanda.
+- B) biografia, pois é o gênero que tem a menor demanda.
+- C) autoajuda, pois a quantidade em estoque é inferior à demanda.
+- D) biografia, pois é o gênero que tem a menor quantidade de livros em estoque.
+- E) romance, pois é o que apresenta o menor estoque de livros de autores brasileiros.
+
+**Resposta:** C
+
+**Explicação:** Estoque total de cada gênero = brasileiro + estrangeiro. Ficção: 80 + 120 = 200 (demanda 160). Autoajuda: 50 + 80 = 130 (demanda cerca de 135). Romance: 40 + 105 = 145 (demanda 140). Biografia: 45 + 50 = 95 (demanda 80). Só na autoajuda o estoque é menor que a demanda.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 148
+
+**Assunto:** matematica/estatistica
+
+### 149
+Uma escola de idiomas oferece cursos de inglês, espanhol, francês e alemão. Os gráficos apresentam a distribuição percentual das matrículas, por idioma, em 2023, e a distribuição da quantidade de matrículas, por idioma, em 2024.
+
+![Figura](enem-2025-d2-q149-1.webp)
+
+Para planejar as atividades de 2025, o gerente da escola estimou que o total de matrículas será o mesmo de 2024, e a distribuição percentual das matrículas, por idioma, será igual à registrada em 2023. Segundo essa estimativa, o número de matrículas no curso de francês para o ano de 2025 será
+
+- A) 2.
+- B) 12.
+- C) 20.
+- D) 22.
+- E) 40.
+
+**Resposta:** E
+
+**Explicação:** Em 2024 houve 280 + 80 + 20 + 20 = 400 matrículas. Em 2023, o francês tinha 10% das matrículas. Mantendo esse percentual: 10% de 400 = 40.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/porcentagem
+
+### 150
+O controle remoto de um carrinho de brinquedo vem equipado com uma tela que ajusta automaticamente a escala empregada na exibição de cada deslocamento. A tela apresenta a imagem do deslocamento, a escala utilizada na geração dessa imagem e o comprimento desse deslocamento, em centímetro, em conformidade com a escala empregada. As figuras representam a tela do controle remoto exibindo os dados de cinco deslocamentos realizados por esse carrinho.
+
+![Figura](enem-2025-d2-q150-1.webp)
+
+A opção que indica o deslocamento de maior comprimento realizado pelo carrinho de brinquedo é
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** C
+
+**Explicação:** Comprimento real = medida na tela × escala. I: 9 × 100 = 900 cm. II: 5 × 300 = 1 500 cm. III: 5 × 600 = 3 000 cm. IV: 3 × 700 = 2 100 cm. V: 2 × 1 000 = 2 000 cm. O maior é o III.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 150
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
+### 163
+Um artista, que costuma fazer desenhos com areia na praia, pediu a um banhista que fizesse um pequeno desenho, que serviria de esboço para uma grande obra de arte a ser feita na areia. Esse desenho está representado na figura.
+
+![Figura](enem-2025-d2-q163-1.webp)
+
+Após a conclusão, a obra de arte obtida manteve as mesmas proporções do desenho feito pelo banhista, sendo que as medidas indicadas na figura foram ampliadas para 30 m. Em qual escala esse desenho representa a obra de arte?
+
+- A) 1 : 1,5
+- B) 1 : 2,25
+- C) 1 : 10
+- D) 1 : 100
+- E) 1 : 150
+
+**Resposta:** E
+
+**Explicação:** Os 20 cm do desenho viraram 30 m = 3 000 cm na obra. A escala é 20 : 3 000 = 1 : 150.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 163
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
 ## Médio
 
 ### 137
@@ -428,6 +558,230 @@ A aresta da base das novas caixas deve ser, no mínimo, quantos centímetros mai
 
 **Assunto:** matematica/geometria-espacial
 
+### 136
+No entorno de uma lagoa circular, cujo raio mede 1 km, há um uma ciclovia. Devido aos frequentes roubos de bicicleta, a prefeitura planeja alocar policiais em posições estratégicas para patrulhar essa ciclovia, de forma a torná-la totalmente protegida. Um ponto da ciclovia é considerado protegido se houver pelo menos um policial a, no máximo, 200 m de distância daquele ponto, posicionado sobre a ciclovia. A figura ilustra um ponto P sobre a ciclovia, que estará protegido se houver pelo menos um policial posicionado sobre a região de cor cinza escuro.
+
+Desconsidere a largura da pista da ciclovia e utilize 3 como aproximação para π.
+
+![Figura](enem-2025-d2-q136-1.webp)
+
+Nessas condições, a quantidade mínima necessária de policiais a serem alocados ao longo dessa ciclovia para torná-la protegida é
+
+- A) 4.
+- B) 8.
+- C) 15.
+- D) 30.
+- E) 60.
+
+**Resposta:** C
+
+**Explicação:** A ciclovia mede 2·π·r = 2 · 3 · 1 000 = 6 000 m. Cada policial protege 200 m para cada lado, ou seja, um trecho de 400 m. O número mínimo é 6 000 ÷ 400 = 15 policiais.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 136
+
+**Assunto:** matematica/geometria-plana
+
+### 145
+A reportagem de uma revista abordou o uso de redes sociais pelos internautas brasileiros. Alguns dos dados apurados pela reportagem estão apresentados no infográfico.
+
+![Figura](enem-2025-d2-q145-1.webp)
+
+> Disponível em: http://revistagalileu.globo.com. Acesso em: 22 out. 2015 (adaptado).
+
+Segundo os dados do infográfico, ao se escolher aleatoriamente um internauta brasileiro no período ao qual se refere a reportagem, a probabilidade de ele ser um homem que acessa alguma rede social é
+
+- A) 30/90
+- B) 36/100
+- C) 40/100
+- D) 40/90
+- E) 46/90
+
+**Resposta:** B
+
+**Explicação:** 90% dos internautas acessam redes sociais, e 60% desses são mulheres, logo 40% são homens. A probabilidade de sortear um homem que acessa redes é 0,9 × 0,4 = 0,36 = 36/100.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/probabilidade
+
+### 151
+A cúpula pentagonal giralongada é um poliedro de Johnson, cujas faces são polígonos regulares, mas que não é um poliedro de Platão, de Arquimedes, prisma ou antiprisma.
+
+As figuras apresentam esse poliedro em duas posições e uma de suas planificações.
+
+![Figura](enem-2025-d2-q151-1.webp)
+
+Quantos vértices tem esse poliedro?
+
+- A) 21
+- B) 25
+- C) 55
+- D) 80
+- E) 110
+
+**Resposta:** B
+
+**Explicação:** Na planificação há o decágono central, um pentágono e, entre eles, quadrados e triângulos. Contando: a cúpula tem 15 vértices (5 do pentágono do topo e 10 do decágono), e o antiprisma pentagonal embaixo acrescenta mais 10. São 15 + 10 = 25 vértices.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/geometria-espacial
+
+### 155
+Em uma escola, todos os estudantes do ensino médio praticam uma das três modalidades esportivas oferecidas como atividade física, e cada um deles pratica somente uma dessas atividades. Os gráficos trazem alguns dados relativos aos quantitativos de estudantes que praticam essas modalidades esportivas nessa escola, apesar de algumas quantidades não terem sido informadas.
+
+![Figura](enem-2025-d2-q155-1.webp)
+
+Qual é a quantidade de estudantes no ensino médio dessa escola?
+
+- A) 720
+- B) 360
+- C) 320
+- D) 288
+- E) 240
+
+**Resposta:** B
+
+**Explicação:** No gráfico de barras, contando os quadradinhos: futebol 7 + 6 + 5 = 18, vôlei 3 + 3 + 4 = 10 e basquete 1 + 3 + 4 = 8 (total 36). O futebol é metade (18 de 36), como no gráfico de setores. O basquete são 8 partes, que valem 80 alunos, então cada parte vale 10. O total é 36 × 10 = 360.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 155
+
+**Assunto:** matematica/estatistica
+
+### 158
+Pace é um termo usado por um corredor para denominar o seu ritmo médio em uma corrida. Representa o tempo médio, em segundo, que esse corredor leva para percorrer 1 km.
+
+O esquema apresenta o tempo, em segundo, que um corredor levou para cruzar as marcas que definem os quatro primeiros trechos de 1 km, em uma corrida de 5 km, e o tempo gasto para percorrer cada trecho de 1 km.
+
+![Figura](enem-2025-d2-q158-1.webp)
+
+O melhor pace que esse corredor alcançou em corridas de 5 km foi 281 s/km. Para que consiga repetir nessa corrida seu melhor pace em corridas de 5 km, seu tempo, no 5º trecho, deve ser quantos segundos menor do que o que ele gastou para percorrer o 4º trecho?
+
+- A) 1
+- B) 2
+- C) 8
+- D) 9
+- E) 15
+
+**Resposta:** E
+
+**Explicação:** Com pace de 281 s/km, os 5 km levam 5 × 281 = 1 405 s. Até o 4º km ele gastou 1 132 s, então o 5º trecho deve levar 1 405 − 1 132 = 273 s. O 4º trecho levou 288 s: 288 − 273 = 15 s a menos.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 158
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 160
+Os quadrados em cinza na figura representam os quarteirões de uma parte do bairro onde moram João e seu amigo. O quadrado pequeno (A), pintado em preto e localizado no canto superior esquerdo de um quadrado maior, indica a casa do amigo de João. João também mora em uma casa de esquina, mas na extremidade nordeste de um quarteirão. Para chegar à casa de seu amigo, ao sair de casa, João deve caminhar pelo quarteirão onde mora na direção oeste, dobrar à direita, caminhar por três quarteirões na direção norte e dobrar à esquerda. A casa de seu amigo fica no segundo quarteirão a oeste.
+
+![Figura](enem-2025-d2-q160-1.webp)
+
+O quarteirão onde se encontra a casa de João é representado pelo quadrado com a letra
+
+- A) P.
+- B) Q.
+- C) R.
+- D) S.
+- E) T.
+
+**Resposta:** A
+
+**Explicação:** Faça o caminho ao contrário, a partir de A. A casa do amigo fica no 2º quarteirão a oeste, então João andava pela rua logo acima de A, vindo da rua vertical entre a coluna de S e a coluna à direita dela. Descendo três quarteirões por essa rua, chega-se à rua acima da última fila. O quarteirão logo a leste dessa rua, cuja esquina nordeste é a casa de João, é o P.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 160
+
+**Assunto:** matematica/geometria-plana
+
+### 167
+A produtividade de soja em uma área cultivada é a média da quantidade de sacas de 50 quilogramas que são produzidas por hectare. O quadro apresenta a área cultivada e a produtividade de soja em certa propriedade, ao longo de cinco safras, com períodos de um ano, de 2011 a 2016.
+
+![Figura](enem-2025-d2-q167-1.webp)
+
+O gráfico de linhas que representa a produção de soja dessa propriedade, em tonelada, nessas cinco safras é
+
+- A) ![Alternativa A](enem-2025-d2-q167-2.webp)
+- B) ![Alternativa B](enem-2025-d2-q167-4.webp)
+- C) ![Alternativa C](enem-2025-d2-q167-6.webp)
+- D) ![Alternativa D](enem-2025-d2-q167-3.webp)
+- E) ![Alternativa E](enem-2025-d2-q167-5.webp)
+
+**Resposta:** A
+
+**Explicação:** Produção (t) = área × produtividade × 50 kg ÷ 1 000. 11-12: 200 × 40 × 0,05 = 400 t. 12-13: 220 × 30 × 0,05 = 330 t. 13-14 e 14-15: 250 × 45 × 0,05 = 562,5 t. 15-16: 200 × 50 × 0,05 = 500 t. É o gráfico com 400, 330, 562,5, 562,5 e 500.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/estatistica
+
+### 168
+A figura ilustra o projeto visual para confecção de uma medalha comemorativa, com a forma de um cilindro circular reto, de diâmetro 6 cm e espessura 3 mm.
+
+![Figura](enem-2025-d2-q168-1.webp)
+
+A figura ABCD tem a forma de um quadrado e é a base de um prisma que atravessa toda a medalha. A região da medalha externa a esse prisma será cunhada em ouro. Pretende-se cunhar 100 dessas medalhas.
+
+Considere 3,1 como valor aproximado para π. Qual é o volume de ouro, em centímetro cúbico, necessário para a confecção dessas medalhas?
+
+- A) 288
+- B) 297
+- C) 567
+- D) 990
+- E) 1 134
+
+**Resposta:** B
+
+**Explicação:** Medalha: π · 3² · 0,3 = 3,1 · 9 · 0,3 = 8,37 cm³. O quadrado tem diagonal 6 cm, então sua área é 6² ÷ 2 = 18 cm², e o prisma tem 18 · 0,3 = 5,4 cm³. O ouro por medalha é 8,37 − 5,4 = 2,97 cm³; em 100 medalhas, 297 cm³.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 168
+
+**Assunto:** matematica/geometria-espacial
+
+### 172
+Uma pessoa tem um carro bicombustível, que funciona a gás natural veicular (GNV) e a gasolina. O rendimento do carro, medido em km/m³, no caso do gás, ou medido em km/L, no caso da gasolina, depende, entre outros fatores, da velocidade, em km/h, em que o carro trafega. Essa relação está em conformidade com estes gráficos.
+
+![Figura](enem-2025-d2-q172-1.webp)
+
+Durante um feriado, essa pessoa realizou uma viagem de 240 km. Para obter uma estimativa de gasto de combustível, assuma que em todo o trajeto se manteve uma velocidade constante de 60 km/h. Considere que, durante metade do caminho, foi utilizado apenas GNV e, na outra metade, apenas gasolina. O que foi pago pelo metro cúbico de GNV e pelo litro de gasolina correspondeu, respectivamente, a R$ 2,00 e a R$ 3,00. Qual foi a diferença, em real, entre os gastos totais com gasolina e com GNV?
+
+- A) 4
+- B) 8
+- C) 14
+- D) 21
+- E) 30
+
+**Resposta:** D
+
+**Explicação:** A 60 km/h, o rendimento é de cerca de 10 km/m³ com GNV e 8 km/L com gasolina. Em 120 km, gastam-se 12 m³ de GNV (12 × 2 = R$ 24) e 15 L de gasolina (15 × 3 = R$ 45). A diferença é 45 − 24 = R$ 21.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 172
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 177
+Em uma cidade, será construído um túnel que atravessa uma montanha para facilitar o trânsito de automóveis e bicicletas. Dois projetos foram elaborados e os esquemas com as vistas frontais desses projetos são apresentados na figura.
+
+![Figura](enem-2025-d2-q177-1.webp)
+
+O Projeto 1 conta com dois túneis, um exclusivo para bicicletas e o outro, para automóveis. O Projeto 2 conta com um único túnel, com espaços reservados para o trânsito exclusivo de bicicletas e automóveis. Nos dois projetos, os túneis têm o formato de semicilindro reto de mesma extensão, com vias de ida e volta para os dois tipos de veículos, separados por muretas.
+
+O projeto a ser aprovado será aquele que apresentar a menor área da seção transversal, pois implicará menor volume de material retirado da montanha.
+
+Considere 3 como aproximação para π e desconsidere as espessuras das muretas. O projeto a ser aprovado é
+
+- A) o 1, pois apresenta área de seção transversal medindo 67,5 m².
+- B) o 2, pois apresenta área de seção transversal medindo 121,5 m².
+- C) o 1, pois apresenta área de seção transversal medindo 135 m².
+- D) o 2, pois apresenta área de seção transversal medindo 243 m².
+- E) qualquer um dos dois, pois apresentam áreas de suas seções transversais com medidas iguais.
+
+**Resposta:** A
+
+**Explicação:** A área de um semicírculo é π·r²/2. Projeto 1: raios 6 m e 3 m, então 3 · 36 / 2 + 3 · 9 / 2 = 54 + 13,5 = 67,5 m². Projeto 2: o diâmetro é 3 + 6 + 6 + 3 = 18 m, raio 9, então 3 · 81 / 2 = 121,5 m². O projeto 1 tem a menor área.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 177
+
+**Assunto:** matematica/geometria-plana
+
 ## Difícil
 
 ### 169
@@ -486,3 +840,105 @@ De quantas maneiras distintas a distribuição dos presentes pode ser feita?
 **Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 179
 
 **Assunto:** matematica/analise-combinatoria
+
+### 144
+Em um jogo de computador, um cubo se encontra inicialmente posicionado conforme indicado na figura.
+
+![Figura](enem-2025-d2-q144-1.webp)
+
+Cada deslocamento efetuado por esse cubo se dá sempre em uma das direções definidas pelos três eixos coordenados. Ao se movimentar a partir da posição inicial, esse cubo se aproximou 3 unidades do plano yz, se afastou 5 unidades do plano xz e se aproximou 4 unidades do plano xy. A figura que apresenta as projeções ortogonais desse cubo sobre os três planos coordenados, após efetuar as movimentações descritas, é
+
+- A) ![Alternativa A](enem-2025-d2-q144-2.webp)
+- B) ![Alternativa B](enem-2025-d2-q144-5.webp)
+- C) ![Alternativa C](enem-2025-d2-q144-6.webp)
+- D) ![Alternativa D](enem-2025-d2-q144-3.webp)
+- E) ![Alternativa E](enem-2025-d2-q144-4.webp)
+
+**Resposta:** E
+
+**Explicação:** Aproximar-se 3 unidades do plano yz diminui x em 3; afastar-se 5 do plano xz aumenta y em 5; aproximar-se 4 do plano xy diminui z em 4. Na parede yz, a projeção, que estava entre y = 1 e 2 e z = 6 e 7, passa para y entre 6 e 7 e z entre 2 e 3. Só uma alternativa mostra essa posição, com as outras projeções coerentes.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/geometria-espacial
+
+### 147
+Em um jogo digital, há três personagens: um herói e dois vilões. A programação é feita de tal forma que o herói sempre será atacado pelo vilão que estiver mais próximo dele. Uma das maneiras de “confundir” os vilões é movimentar o herói por trajetórias que o mantenha equidistante dos vilões, gerando indefinição entre eles e, com isso, não sendo atacado.
+
+Para a programação de uma das etapas desse jogo, o programador considerou, no plano cartesiano, o quadrado STUV como a região de movimentação dos personagens, onde V e T representam as posições fixas dos vilões, e S, a posição inicial do herói, como apresentado na figura.
+
+![Figura](enem-2025-d2-q147-1.webp)
+
+Qual é a equação da trajetória em que o herói poderá se movimentar sem ser atacado?
+
+- A) y = −3x + 20
+- B) y = −3x + 16
+- C) y = −3x − 20
+- D) y = 3x + 16
+- E) y = 3x − 16
+
+**Resposta:** A
+
+**Explicação:** Os pontos equidistantes de T e V formam a mediatriz do segmento TV. Como STUV é quadrado e o vetor de S(6; 2) a V(8; 6) é (2; 4), o vetor de S a T é (−4; 2), e T = (2; 4). TV tem inclinação (6 − 4) ÷ (8 − 2) = 1/3 e ponto médio (5; 5). A mediatriz tem inclinação −3 e passa por (5; 5): y = −3x + 20.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 147
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 156
+O dono de uma embarcação deve partir do ponto P e chegar ao ponto R por meio de dois deslocamentos lineares e navegando a uma velocidade constante. Essa viagem será feita durante a noite, e como ele dispõe somente de uma bússola e de um relógio, planejou sua rota da seguinte forma:
+
+1º – partir do ponto P na direção 110 e navegar por 4 horas, alcançando um ponto Q;
+
+2º – partir do ponto Q na direção 90 e navegar por 2 horas, alcançando o ponto de destino R.
+
+No entanto, ao direcionar o barco para o primeiro deslocamento, o fez na direção 340, em vez de 110. Com isso, realizou os seguintes deslocamentos:
+
+1º – partiu do ponto P na direção 340 e navegou por 4 horas, alcançando um ponto S;
+
+2º – partiu do ponto S na direção 90 e navegou por 2 horas, alcançando o ponto T.
+
+A figura apresenta a bússola, a rota planejada e a rota executada.
+
+![Figura](enem-2025-d2-q156-1.webp)
+
+O dono da embarcação só percebeu o equívoco ao chegar ao ponto T. Com isso, agora ele precisa definir a direção e o tempo de navegação que lhe permita, partindo do ponto T, chegar ao ponto de destino R por meio de uma rota retilínea.
+
+Considere 0,64 como aproximação para cos 50°. A direção e o tempo aproximado de navegação que o dono da embarcação deve utilizar são, respectivamente,
+
+- A) 135 e 7 horas e 15 minutos.
+- B) 45 e 7 horas e 15 minutos.
+- C) 135 e 12 horas.
+- D) 135 e 6 horas.
+- E) 45 e 6 horas.
+
+**Resposta:** A
+
+**Explicação:** Os trechos ST e QR são iguais e paralelos (direção 90 por 2 h), então ir de T a R equivale a ir de S a Q. PS e PQ medem 4 h cada e formam um ângulo de 130° (de 340 a 110). Pela lei dos cossenos: SQ² = 16 + 16 − 32·cos 130° = 32 + 32 · 0,64 = 52,48, e SQ ≈ 7,24 h ≈ 7 h 15 min. O triângulo PSQ é isósceles, com a bissetriz em 45; SQ é perpendicular a ela e vai do noroeste para o sudeste, na direção 135.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 156
+
+**Assunto:** matematica/trigonometria
+
+### 159
+Um recipiente tem um formato que faz com que, ao ser enchido de água com uma vazão constante, a distância D da lâmina de água ao tampo da mesa, em centímetro, aumente em relação ao tempo T, em minuto, de acordo com uma função do tipo
+
+D = k + tg[p(T + m)], sendo os parâmetros k, p e m números reais, para T variando entre 0 e 4 minutos, conforme ilustrado na figura, na qual estão apresentadas assíntotas verticais da função tangente utilizada na definição de D.
+
+![Figura](enem-2025-d2-q159-1.webp)
+
+A expressão algébrica que representa a relação entre D e T é
+
+- A) ![Alternativa A](enem-2025-d2-q159-2.webp)
+- B) ![Alternativa B](enem-2025-d2-q159-3.webp)
+- C) ![Alternativa C](enem-2025-d2-q159-4.webp)
+- D) ![Alternativa D](enem-2025-d2-q159-5.webp)
+- E) ![Alternativa E](enem-2025-d2-q159-6.webp)
+
+**Resposta:** E
+
+**Explicação:** As assíntotas estão em (5 − 2π)/2 e (5 + 2π)/2, distantes 2π: esse é o período, então π/p = 2π e p = 1/2. O ponto central entre elas é T = 5/2, onde a tangente vale zero; ali D = 30, logo k = 30. A função é D = 30 + tg[½(T − 5/2)].
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 159
+
+**Assunto:** matematica/trigonometria

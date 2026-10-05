@@ -338,6 +338,115 @@ Estarão presentes no organismo geneticamente modificado os genes do
 
 **Assunto:** biologia/genetica-e-biotecnologia
 
+### 93
+A produção de vacinas exige uma sequência de procedimentos, além do cumprimento estrito de verificações de segurança. No esquema, estão demonstradas as etapas básicas realizadas para a fabricação de uma vacina utilizando a tecnologia tradicional e o efeito dela no organismo.
+
+![Figura](enem-2025-d2-q093-1.webp)
+
+O antígeno utilizado na vacina causa um efeito protetor contra o vírus porque
+
+- A) mata o vírus pela ligação.
+- B) aglutina o vírus por associação.
+- C) contém imunoglobulinas de defesa.
+- D) induz a produção de proteínas neutralizadoras.
+- E) mantém a quantidade de anticorpos preexistentes.
+
+**Resposta:** D
+
+**Explicação:** A vacina leva o vírus inativado (o antígeno), que não causa a doença. O sistema imune reconhece esse antígeno e passa a produzir anticorpos, proteínas que neutralizam o vírus, além de células de memória.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 93
+
+**Assunto:** biologia/saude-e-doencas
+
+### 108
+No início do século XX, as fórmulas das substâncias eram representadas de modo diferente do atual. A figura apresenta uma fotografia bem antiga (1909) que registra uma aula de química ministrada em um colégio em Santos (SP). Um olhar mais atento permite identificar como os compostos químicos eram representados.
+
+![Figura](enem-2025-d2-q108-1.webp)
+
+O nitrogênio era chamado de azoto e representado pelo símbolo Az. Vê-se na lousa a equação representativa da adição do oxigênio atômico (O) ao monóxido de nitrogênio (AzO) com a formação de dióxido de nitrogênio (AzO²). Analogamente, o nitrato de sódio era representado por NaAzO³.
+
+> Disponível em: www.novomilenio.inf.br. Acesso em: 29 ago. 2014 (adaptado).
+
+Em 1909, as representações das substâncias ácido nítrico e cloreto de cálcio, tendo por base essas informações e seguindo a mesma lógica, seriam, respectivamente:
+
+- A) HAzO³ e CaCl²
+- B) HAz³O e Ca²Cl
+- C) H³AzO⁴ e CaCl
+- D) HAz³O e KCl²
+- E) HAzO² e KCl
+
+**Resposta:** A
+
+**Explicação:** Na notação antiga, o número que hoje fica embaixo era escrito em cima: NaNO₃ virava NaAzO³. O ácido nítrico, HNO₃, fica HAzO³, e o cloreto de cálcio, CaCl₂, fica CaCl².
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 108
+
+**Assunto:** quimica/ligacoes-e-funcoes-inorganicas
+
+### 109
+O fruto do cajueiro é um aquênio repleto de um líquido escuro, quase preto, cáustico e inflamável. Esse líquido da casca da castanha do caju (LCC) representa aproximadamente 25% da massa da castanha e é um subproduto de agronegócio do caju. Quando submetido a altas temperaturas, o ácido anacárdico presente no LCC é convertido a cardanol, que recebe a denominação de LCC técnico, conforme o esquema:
+
+![Figura](enem-2025-d2-q109-1.webp)
+
+> MAZZETTO, S. E.; LOMONACO, D.; MELE, G. Óleo da castanha de caju: oportunidades e desafios no contexto do desenvolvimento e sustentabilidade industrial. Química Nova, n. 3, 2009 (adaptado).
+
+O LCC técnico é produzido por meio de uma reação orgânica do tipo
+
+- A) hidrólise.
+- B) fenilação.
+- C) esterificação.
+- D) hidrogenação.
+- E) descarboxilação.
+
+**Resposta:** E
+
+**Explicação:** Comparando as estruturas, o ácido anacárdico perde o grupo carboxila (–COOH) e libera CO₂, formando o cardanol. A reação que retira CO₂ de um ácido carboxílico é a descarboxilação.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** quimica/quimica-organica
+
+### 111
+O esquema apresenta as etapas do processo de biodigestão, uma forma de dar um destino sustentável a excrementos animais e restos de comida produzidos em áreas de criação de gado e porcos confinados.
+
+![Figura](enem-2025-d2-q111-1.webp)
+
+> Disponível em: www.engquimicasantossp.com.br. Acesso em: 11 fev. 2015 (adaptado).
+
+Dar destino sustentável às sobras, conforme apresentado na etapa 4, ajuda a evitar a
+
+- A) bioacumulação de toxinas em plantas.
+- B) eutrofização dos corpos de água.
+- C) destruição da camada de ozônio.
+- D) ocorrência de inversão térmica.
+- E) produção de chuva ácida.
+
+**Resposta:** B
+
+**Explicação:** As sobras da biodigestão são ricas em nutrientes. Se fossem jogadas em rios e lagos, provocariam o crescimento exagerado de algas e a falta de oxigênio na água, que é a eutrofização. Usá-las como fertilizante evita isso.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 111
+
+**Assunto:** quimica/quimica-ambiental
+
+### 129
+Nos processos de transformação e reciclagem de recursos naturais, as velocidades das reações químicas são estudadas pela cinética química. Uma reação A → B é realizada na presença e na ausência de uma enzima, com todas as demais condições permanecendo inalteradas. Considere que, no gráfico da variação de energia ao longo dessa reação, a linha contínua representa o avanço da reação na ausência da enzima, e a linha pontilhada, na presença da enzima. O gráfico que representa a situação descrita é:
+
+- A) ![Alternativa A](enem-2025-d2-q129-1.webp)
+- B) ![Alternativa B](enem-2025-d2-q129-2.webp)
+- C) ![Alternativa C](enem-2025-d2-q129-3.webp)
+- D) ![Alternativa D](enem-2025-d2-q129-4.webp)
+- E) ![Alternativa E](enem-2025-d2-q129-5.webp)
+
+**Resposta:** C
+
+**Explicação:** A enzima é um catalisador: ela diminui a energia de ativação (o pico do gráfico fica mais baixo), mas não muda a energia dos reagentes (A) nem a dos produtos (B). Só o gráfico com o pico pontilhado mais baixo e as pontas iguais mostra isso.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 129
+
+**Assunto:** quimica/fisico-quimica
+
 ## Médio
 
 ### 97
@@ -533,6 +642,178 @@ Considerando a ordem das tentativas, quantas atividades a estudante conseguiu re
 
 **Assunto:** fisica/eletricidade
 
+### 102
+A figura apresenta a herança genética de uma característica
+
+![Figura](enem-2025-d2-q102-1.webp)
+
+Qual alternativa representa a proporção fenotípica da prole resultante do cruzamento entre indivíduos da primeira geração?
+
+- A) ![Alternativa A](enem-2025-d2-q102-2.webp)
+- B) ![Alternativa B](enem-2025-d2-q102-3.webp)
+- C) ![Alternativa C](enem-2025-d2-q102-4.webp)
+- D) ![Alternativa D](enem-2025-d2-q102-5.webp)
+- E) ![Alternativa E](enem-2025-d2-q102-6.webp)
+
+**Resposta:** E
+
+**Explicação:** Os pais têm fenótipos diferentes (pintas e listra), e os filhos mostram os dois ao mesmo tempo: é codominância. Cruzando dois heterozigotos, a prole sai na proporção 1 : 2 : 1, ou seja, 1 com pintas, 1 com listra e 2 com pintas e listra.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 102
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 103
+Para transportar uma caixa do primeiro para o segundo piso de uma construção, um trabalhador precisará arrasta-lá sobre um plano inclinado. O trabalhador começa a arrastar a caixa no primeiro piso, exercendo sobre ela uma força de grande intensidade, paralela ao seu deslocamento. Na medida em que a caixa sobe o plano inclinado, ele decide reduzir a força sobre ela, arrastando-a lentamente até chegar ao segundo piso. Considere que a caixa permanece em movimento nos encontros dos pisos com o plano inclinado, e que a rugosidade entre as superfícies permanece a mesma durante todo o percurso. O comportamento da força de atrito entre a caixa e o chão no plano inclinado é representado em:
+
+- A) ![Alternativa A](enem-2025-d2-q103-1.webp)
+- B) ![Alternativa B](enem-2025-d2-q103-2.webp)
+- C) ![Alternativa C](enem-2025-d2-q103-3.webp)
+- D) ![Alternativa D](enem-2025-d2-q103-4.webp)
+- E) ![Alternativa E](enem-2025-d2-q103-5.webp)
+
+**Resposta:** C
+
+**Explicação:** Enquanto a caixa desliza, o atrito é cinético e vale μ·N. Ele não depende da força que o trabalhador faz. No plano inclinado a normal e a rugosidade não mudam, então a força de atrito fica constante.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 103
+
+**Assunto:** fisica/dinamica
+
+### 104
+A Figura 1 apresenta o esquema de um tubo de imagem em que um filamento, na posição A, libera elétrons por efeito termiônico. Esses elétrons formam um feixe estreito, que é acelerado por campos elétricos em direção à parte interna da tela. Nesse caminho, o feixe de elétrons passa por outro campo elétrico, na região B, atingindo, em seguida, a parte interna da tela do tubo, a qual é recoberta por um material que emite luz ao receber o impacto dos elétrons.
+
+![Figura](enem-2025-d2-q104-1.webp)
+
+Na Figura 2, a carga negativa representa o feixe de elétrons que é acelerado e, posteriormente, atinge um ponto da tela. O campo elétrico na região B apresenta a seguinte configuração:
+
+![Figura](enem-2025-d2-q104-2.webp)
+
+Nessa situação, qual ponto da tela será atingido pelo feixe de elétrons?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** B
+
+**Explicação:** Na Figura 2 o campo elétrico aponta para cima. A força sobre o elétron, que tem carga negativa, tem sentido oposto ao do campo, ou seja, para baixo. O feixe é desviado para baixo e atinge o ponto 2 da tela.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 104
+
+**Assunto:** fisica/eletricidade
+
+### 106
+Em uma aula prática de química orgânica, um professor identificou os frascos de várias substâncias apenas por suas fórmulas moleculares. Em seguida, apresentou a representação tridimensional da molécula do borneol, um álcool secundário, conforme a figura. Ele explicou que, quando oxidado, o borneol dá origem à cânfora, uma cetona usada desde a Antiguidade como incenso e no preparo de medicamentos. Finalmente, o professor solicitou que os alunos identificassem o frasco contendo a substância cânfora.
+
+![Figura](enem-2025-d2-q106-1.webp)
+
+> SANTOS, A. P. B. et al. Oxidação do borneol à cânfora com água sanitária: um experimento simples de baixo custo e limpo. Química Nova, n. 6, 2009 (adaptado).
+
+O frasco contendo cânfora apresenta a fórmula molecular:
+
+- A) C₉H₁₆O
+- B) C₉H₁₇O
+- C) C₁₀H₁₆O
+- D) C₁₀H₁₆O₂
+- E) C₁₀H₁₈O₂
+
+**Resposta:** C
+
+**Explicação:** O borneol tem 10 carbonos e fórmula C₁₀H₁₈O. Ao virar cetona, o álcool secundário perde dois hidrogênios: um do grupo OH e outro do carbono que o carrega. A cânfora fica com C₁₀H₁₆O.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** quimica/quimica-organica
+
+### 113
+Em sua maioria, os equipamentos eletrônicos domésticos demandam baixa potência elétrica em corrente contínua. Para alimentá-los, uma fonte externa ou embutida transforma a corrente alternada em corrente contínua de baixa tensão. Entretanto, cada equipamento tem suas especificidades, e muitas vezes não é possível simplesmente trocar essas fontes sem levar em conta a tensão, a corrente ou a potência elétrica de saída.
+
+Considere um equipamento de resistência elétrica Rc que funciona corretamente apenas em um dado valor de tensão. Porém, a única fonte de alimentação disponível fornece uma tensão 20% superior à tensão recomendada. Para adaptar essa fonte ao aparelho, a associação de um resistor de proteção Rp, de potência adequada, se faz necessária. A configuração adequada do circuito e o valor do resistor de proteção, em relação ao valor da resistência do equipamento, são:
+
+- A) ![Alternativa A](enem-2025-d2-q113-1.webp)
+- B) ![Alternativa B](enem-2025-d2-q113-2.webp)
+- C) ![Alternativa C](enem-2025-d2-q113-3.webp)
+- D) ![Alternativa D](enem-2025-d2-q113-4.webp)
+- E) ![Alternativa E](enem-2025-d2-q113-5.webp)
+
+**Resposta:** E
+
+**Explicação:** A fonte dá 1,2 vez a tensão do aparelho. Um resistor em série divide a tensão. Para o aparelho ficar com a tensão certa (1,0), o resistor deve ficar com 0,2 dela. Como a corrente é a mesma nos dois, a tensão é proporcional à resistência: Rp = 0,2·Rc, em série.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 113
+
+**Assunto:** fisica/eletricidade
+
+### 117
+Alguns hormônios sexuais têm ganhado notável atenção nos últimos anos por suas concentrações cada vez maiores no solo e na água em todo o mundo. O motivo da preocupação é porque, em níveis poluentes, eles têm sido associados ao câncer de mama e ao câncer de próstata, além de perturbarem a fisiologia dos peixes, podendo, ainda, afetarem o desenvolvimento reprodutivo de animais domésticos e selvagens. Assim, o descarte inadequado desses hormônios representa uma séria ameaça ao solo, plantas, recursos hídricos e humanos. De baixa polaridade, eles apresentam uma solubilidade pequena e variável em água, dependendo dos grupos presentes em suas estruturas, representando um grande risco para os ambientes aquáticos. As figuras a seguir apresentam as estruturas de alguns desses hormônios.
+
+![Figura](enem-2025-d2-q117-1.webp)
+
+> MUHAMMAD, A. et al. Environmental Impact of Estrogens on Human, Animal and Plant Life: a Critical Review. Environment International, n. 99, 2017 (adaptado).
+
+Do ponto de vista das interações químicas, qual desses hormônios apresenta maior solubilidade em ambientes aquáticos?
+
+- A) Estradiol.
+- B) Estriol.
+- C) Estrona.
+- D) Novestrol.
+- E) Noretindrona.
+
+**Resposta:** B
+
+**Explicação:** Os hormônios são pouco polares, e a solubilidade em água cresce com o número de grupos que fazem ligação de hidrogênio. O estriol tem três grupos OH, mais que os outros, e por isso é o mais solúvel.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 117
+
+**Assunto:** quimica/quimica-organica
+
+### 118
+A figura ilustra as informações contidas no manual de um sistema de alarme que utiliza transmissores e receptores de radiação eletromagnética para a detecção de movimento. O receptor é regulado pelo tempo de resposta, que corresponde ao intervalo de tempo necessário para o corpo do invasor atravessar completamente o feixe, de diâmetro d = 15 cm. Considere que a menor porção do corpo de um invasor é a sua posição de perfil, cuja espessura típica é 20 cm. São indicados cinco possíveis movimentos de um invasor e suas velocidades típicas, que devem ser observadas para a escolha do tempo de resposta.
+
+![Figura](enem-2025-d2-q118-1.webp)
+
+> Disponível em: cs.ind.br. Acesso em: 2 dez. 2021 (adaptado).
+
+Nesse sistema, o menor tempo de resposta, em milissegundo, que garante a detecção de um possível invasor é mais próximo de
+
+- A) 30 ms.
+- B) 70 ms.
+- C) 300 ms.
+- D) 400 ms.
+- E) 700 ms.
+
+**Resposta:** B
+
+**Explicação:** Para atravessar todo o feixe, o corpo percorre o diâmetro do feixe mais a própria espessura: 15 + 20 = 35 cm = 0,35 m. No caso mais rápido (5 m/s), o tempo é 0,35 ÷ 5 = 0,07 s = 70 ms. Um tempo de resposta maior que esse deixaria o invasor rápido passar sem ser detectado.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 118
+
+**Assunto:** fisica/cinematica
+
+### 130
+A resistência de um fio de platina pode ser usada para medir temperaturas entre 0 °C e 100 °C e já foi utilizada como referência para a escala internacional de temperatura. Para um sensor feito de platina, a relação entre a resistência e a temperatura pode ser descrita por uma equação do tipo R(T) = A + BT, em que T é a temperatura e A e B são constantes. O gráfico apresenta a dependência da resistência em função da temperatura para cinco diferentes sensores.
+
+![Figura](enem-2025-d2-q130-1.webp)
+
+Os sensores que apresentam maior sensibilidade são
+
+- A) 1 e 2.
+- B) 1 e 3.
+- C) 2 e 3.
+- D) 2 e 4.
+- E) 2 e 5.
+
+**Resposta:** E
+
+**Explicação:** A sensibilidade é o quanto a resistência muda para cada grau, ou seja, a inclinação da reta (B). As retas mais inclinadas são a do sensor 2 (de cerca de 75 Ω para 225 Ω) e a do sensor 5 (de cerca de 65 Ω para 145 Ω).
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 130
+
+**Assunto:** fisica/termologia
+
 ## Difícil
 
 ### 116
@@ -626,3 +907,49 @@ Durante a ação do vento, a velocidade v que o piloto deve estabelecer em rela�
 **Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 128
 
 **Assunto:** fisica/cinematica
+
+### 101
+A icterícia é uma doença que acomete recém-nascidos e pode ser tratada com um método de fototerapia conhecido como banho de luz, que consiste na exposição do recém-nascido a uma fonte luminosa equipada com LEDs azuis. Para o monitoramento da dosagem dessa radiação, é utilizada a resposta óptica de um sensor constituído de materiais orgânicos que luminescem quando expostos à luz azul. Com o passar do tempo, essa radiação oxida os materiais do sensor, alterando sua coloração de vermelho-laranja para verde, o que indica o final do tratamento.
+
+O gráfico apresenta o espectro de fotoluminescência do sensor em função do comprimento de onda da luz emitida no início do tratamento, quando o sensor, colado na fralda do bebê (Figura 1), luminesce na região do vermelho-laranja (∼600 nm). A Figura 2 apresenta a evolução da coloração do sensor, mostrando que a frequência da luz emitida por ele aumenta em função do tempo de exposição à luz azul.
+
+![Figura](enem-2025-d2-q101-1.webp)
+
+> SILVA, M. M. et al. Fabricação de sensor orgânico flexível para aplicação em terapia com luz azul. Tecnol. Metal. Mater. Miner., n. 3, jul.-set. 2011 (adaptado).
+
+Os espectros de fotoluminescência do sensor no início e no final do tratamento estão esboçados no gráfico:
+
+- A) ![Alternativa](enem-2025-d2-q101-3.webp)
+- B) ![Alternativa](enem-2025-d2-q101-4.webp)
+- C) ![Alternativa](enem-2025-d2-q101-6.webp)
+- D) ![Alternativa](enem-2025-d2-q101-7.webp)
+- E) ![Alternativa](enem-2025-d2-q101-8.webp)
+
+**Resposta:** A
+
+**Explicação:** Se a frequência da luz emitida aumenta, o comprimento de onda diminui (v = λ·f, com a velocidade da luz constante). No fim do tratamento o sensor emite verde, então o pico do espectro deve se deslocar para comprimentos de onda menores que 600 nm, por volta de 550 nm.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 101
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 125
+Em uma comunidade rural, os moradores utilizam uma bomba-d’água alimentada por 100 V de tensão contínua, podendo variar em até 5 V. Um eletrotécnico pretende instalar placas fotovoltaicas para alimentar essa bomba. As placas são idênticas e cada uma apresenta tensão de operação igual a 34 V com corrente de 7,5 A. Além disso, cada placa apresenta 40 V de tensão elétrica, quando em circuito aberto. Assim, considerando que a placa descrita é um gerador não ideal, em circuito aberto ela pode ser representada conforme a figura:
+
+![Figura](enem-2025-d2-q125-1.webp)
+
+O eletrotécnico construiu um circuito que permite à bomba-d’água operar corretamente com o menor número possível de placas conectadas. Para isso, desenhou um diagrama no qual todas essas placas são representadas como um único gerador não ideal, com a especificação das correspondentes características elétricas. O diagrama que representa o circuito construído pelo eletrotécnico é:
+
+- A) ![Alternativa A](enem-2025-d2-q125-2.webp)
+- B) ![Alternativa B](enem-2025-d2-q125-3.webp)
+- C) ![Alternativa C](enem-2025-d2-q125-4.webp)
+- D) ![Alternativa D](enem-2025-d2-q125-5.webp)
+- E) ![Alternativa E](enem-2025-d2-q125-6.webp)
+
+**Resposta:** B
+
+**Explicação:** Cada placa tem r = (40 − 34) ÷ 7,5 = 0,8 Ω. Três placas em série dão 3 × 40 = 120 V de força eletromotriz e 3 × 0,8 = 2,4 Ω de resistência interna. Funcionando, entregam 3 × 34 = 102 V, dentro da faixa de 100 V ± 5 V. Com duas placas (68 V) não daria.
+
+**Fonte:** ENEM 2025, 2º dia, caderno amarelo, questão 125
+
+**Assunto:** fisica/eletricidade

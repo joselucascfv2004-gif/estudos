@@ -469,6 +469,111 @@ Para persuadir o interlocutor sobre a importância de ler para as crianças, ess
 
 **Assunto:** portugues/interpretacao-de-texto
 
+### 14
+![Figura](enem-2025-d1-q014-1.webp)
+
+> Disponível em: www.publishnews.com.br. Acesso em: 19 set. 2024.
+
+Nesse cartaz publicitário, os recursos verbais e não verbais constroem um argumento que objetiva
+
+- A) divulgar a obra de Fernando Pessoa no Brasil.
+- B) valorizar a realização de eventos literários no país.
+- C) ressaltar o impacto da leitura na vida das pessoas.
+- D) fomentar o turismo cultural na cidade de São Paulo.
+- E) evidenciar a influência de Pessoa na literatura brasileira.
+
+**Resposta:** C
+
+**Explicação:** O cartaz da Bienal do Livro mostra um rapaz comum, "Fernando", que sai do evento como "Pessoa", em referência ao poeta Fernando Pessoa. Junto com o lema "Todo mundo sai melhor do que entrou", a imagem defende que a leitura transforma quem lê.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 14
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 24
+![Figura](enem-2025-d1-q024-1.webp)
+
+> Disponível em: www.unicef.org.br. Acesso em: 15 jan. 2024 (adaptado).
+
+Nesse cartaz, a utilização de frases que projetam a vida profissional de duas crianças tem como objetivo
+
+- A) sugerir a arrecadação de fundos para o sustento de povos originários no país.
+- B) sensibilizar a sociedade sobre os benefícios decorrentes do combate ao racismo.
+- C) indicar a importância da orientação vocacional na educação de crianças no Brasil.
+- D) chamar a atenção sobre a necessidade de ações voltadas para a educação infantil.
+- E) valorizar o trabalho de agências internacionais na luta contra a discriminação racial.
+
+**Resposta:** B
+
+**Explicação:** O cartaz mostra duas crianças, uma indígena e uma negra, com o futuro profissional que elas podem ter, e alerta que a maioria das crianças negras e indígenas sofre discriminação racial. A ideia é sensibilizar a sociedade de que combater o racismo abre caminho para esse futuro.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 24
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 26
+![Figura](enem-2025-d1-q026-1.webp)
+
+Esse texto, que apresenta um prato da culinária brasileira, evidencia
+
+- A) valor afetivo nas nomenclaturas.
+- B) variedade linguística entre regiões.
+- C) disputa regional pelo melhor prato.
+- D) modos de preparo de um mesmo alimento.
+- E) paladares diversificados entre diferentes estados.
+
+**Resposta:** B
+
+**Explicação:** O texto mostra que o mesmo doce de milho recebe nomes diferentes em cada região: canjica, curau, pururuca, canjiquinha, cajica de milho verde. Isso evidencia a variação linguística regional.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 26
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 33
+![Figura](enem-2025-d1-q033-1.webp)
+
+> Disponível em: www.tjdft.jus.br. Acesso em: 15 out. 2024 (adaptado).
+
+Esse texto trata de um problema social com o propósito de
+
+- A) divulgar campanha virtual contra casos de feminicídio.
+- B) promover engajamento do setor educacional na luta contra a violência.
+- C) comparar o impacto da violência na qualidade de vida de meninas e meninos.
+- D) ressaltar a importância da segurança dos estudantes no ambiente escolar.
+- E) dar visibilidade a estudos e pesquisas do setor de segurança.
+
+**Resposta:** B
+
+**Explicação:** O texto pergunta "Por que falar sobre violência contra mulheres na escola?" e divulga um projeto ("Maria da Penha vai à escola"). O objetivo é envolver a escola, o setor educacional, no combate à violência de gênero.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 33
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 45
+A artista Marija Tiurina criou uma série chamada Palavras intraduzíveis, com diversas ilustrações detalhadas que transmitem o sentido desses vocábulos, que nenhuma palavra única em outras línguas pode descrever.
+
+![Figura](enem-2025-d1-q045-1.webp)
+
+> ROMANZOTI, N. 9 desenhos que ilustram palavras sem tradução para o português. Disponível em: https://hypescience.com. Acesso em: 10 jun. 2019 (adaptado).
+
+O uso do texto verbal nesse desenho assume a função de
+
+- A) descrever de forma técnica a ilustração.
+- B) destacar os múltiplos sentidos do verbete.
+- C) explicar o significado da expressão ilustrada.
+- D) apresentar termos equivalentes em outras línguas.
+- E) apontar para a dificuldade de compreensão do termo.
+
+**Resposta:** C
+
+**Explicação:** O desenho ilustra a palavra árabe "Gufra", e a frase escrita ao lado diz o que ela significa: a quantidade de água que pode ser segurada com as mãos. O texto verbal explica o sentido da palavra ilustrada.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 45
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
 ## Médio
 
 ### 10
@@ -748,6 +853,164 @@ Nesse texto, contribui para a construção da ironia a tradução das passagens 
 **Fonte:** ENEM 2025, 1º dia, caderno azul, questão 42
 
 **Assunto:** portugues/funcoes-generos-e-variacao
+
+### 23
+TEXTO I
+
+Os trabalhos da exposição Adriana Varejão: suturas, fissuras, ruínas colocam em pauta o exame da história visual, das tradições iconográficas europeias e do fazer artístico ocidental. O corte, a rachadura, o talho e a fissura são elementos de narrativas recorrentes nos trabalhos da artista desde 1992. As produções recentes incluem pinturas tridimensionais de grande escala das séries Ruínas de charque e Línguas.
+
+> Disponível em: https://pinacoteca.org.br. Acesso em: 10 jan. 2025 (adaptado).
+
+TEXTO II
+
+![Figura](enem-2025-d1-q023-1.webp)
+
+> VAREJÃO, A. Azulejaria em carne viva. Óleo sobre tela, poliuretano, madeira e alumínio, 160 × 200 × 25 cm. 1999.
+
+> Disponível em: www.adrianavarejao.net. Acesso em: 10 jan. 2025.
+
+A utilização de recursos visuais como suturas, cortes e ruínas por Adriana Varejão, na obra Azulejaria em carne viva, remete à(s)
+
+- A) sobreposição da cultura brasileira à arte portuguesa.
+- B) manutenção da representação realista na arte brasileira.
+- C) violências desencadeadas pelo processo colonial brasileiro.
+- D) desigualdades nos incentivos à produção artística brasileira.
+- E) negligência na conservação do patrimônio arquitetônico luso-brasileiro.
+
+**Resposta:** C
+
+**Explicação:** A obra rasga um painel de azulejos portugueses e mostra, por dentro, algo que parece carne viva. Os azulejos lembram a colonização portuguesa, e a "carne" exposta remete às violências desse processo colonial no Brasil.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 23
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 31
+![Figura](enem-2025-d1-q031-1.webp)
+
+> MURRAY, R.; KLIGERMAN, E. Teias de afeto e poesia. Disponível em: https://roseanamurray.com. Acesso em: 5 maio 2024.
+
+Nesse texto, a autora aborda diferentes sentidos da palavra “rede” para evidenciar
+
+- A) as formas de comunicação em meios digitais.
+- B) a necessidade de atualização das mídias sociais.
+- C) os conflitos de identidade dos usuários da internet.
+- D) o impacto das tecnologias nas interações humanas.
+- E) os desejos de compartilhar vivências com os amigos.
+
+**Resposta:** D
+
+**Explicação:** O poema joga com dois sentidos de "rede": a rede de dormir, ligada ao convívio com amigos e à natureza, e as redes sociais da internet, que nos prendem diante da tela. O contraste mostra como a tecnologia muda as relações entre as pessoas.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 31
+
+**Assunto:** portugues/semantica-e-figuras-de-linguagem
+
+### 32
+Muitos pensam que narrativa curta é sinônimo de conto, perdendo de vista gêneros que, por tradição ruim, continuam à margem da nobreza. Acontece que o conto tem uma densidade específica, centrando-se na exemplaridade de um instante da condição humana, sem que essa exemplaridade se refira à valoração moral, já que uma grande mazela pode muito bem exemplificar uma das nossas faces. A crônica não tem essa característica. Conservou a marca do registro circunstancial feito por narrador-repórter que relata um fato para muitos leitores que formam um público determinado. Mas que público é esse? Sendo a crônica uma soma de jornalismo e literatura (daí a imagem do narrador-repórter), dirige-se a uma classe que tem preferência pelo jornal em que ela é publicada, o que significa uma espécie de censura ou, pelo menos, de limitação: a ideologia do veículo corresponde ao interesse dos seus consumidores, direcionadospelosproprietáriosdosperiódicose/oupeloseditores-chefes da redação. Ocorre ainda o limite de espaço, uma vez que a página comporta várias matérias, o que impõe a cada uma delas um número restrito de laudas, obrigando o redator a explorar, da maneira mais econômica possível, o pequeno espaço de que dispõe. É dessa economia que nasce sua riqueza estrutural.
+
+> SÁ, J. A crônica. São Paulo: Ática, 1987 (adaptado).
+
+De acordo com esse texto, o aspecto tecnológico que influencia a composição do gênero crônica advém da
+
+- A) conexão ideológica.
+- B) densidade temática.
+- C) ênfase no público leitor.
+- D) apresentação de uma moral.
+- E) restrição espacial do suporte.
+
+**Resposta:** E
+
+**Explicação:** O texto diz que a página do jornal comporta várias matérias, o que limita o número de laudas e obriga o cronista a escrever de forma econômica. Esse limite físico de espaço do suporte é o aspecto técnico que molda a crônica.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 32
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 34
+![Figura](enem-2025-d1-q034-1.webp)
+
+> Disponível em: https://revistagalileu.globo.com. Acesso em: 18 jun. 2024 (adaptado).
+
+Com base na relação dos elementos não verbais com a frase “VOCÊ (NÃO) ESTÁ SOZINHO”, nessa capa de revista, a função poética fica evidente, pois
+
+- A) essa frase informa sobre os riscos de um determinado comportamento social.
+- B) o conteúdo da mensagem expressa a atitude do enunciador sobre o tema.
+- C) a construção dessa frase possibilita mais de uma interpretação.
+- D) essa frase estabelece um diálogo direto com o leitor.
+- E) a linguagem utilizada volta-se para si mesma.
+
+**Resposta:** C
+
+**Explicação:** O "(NÃO)" entre parênteses permite ler a frase de dois jeitos: "você está sozinho" e "você não está sozinho". Metade da população se sente solitária, e é justamente isso que faz a pessoa não estar sozinha. Esse jogo com a forma da frase, que abre mais de uma leitura, marca a função poética.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 34
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 37
+TEXTO I
+
+Os Doze Trabalhos de Hércules Hércules é uma figura lendária da mitologia greco-romana. Ele é frequentemente retratado como um herói de força sobre-humana e coragem, filho de Zeus, o rei dos deuses, e Alcmena, uma mulher mortal. O episódio mais conhecido de Hércules é a realização dos Doze Trabalhos.
+
+Esses trabalhos são impostos a ele como uma forma de expiação pelos crimes cometidos durante um acesso de loucura, causado pela deusa Hera, esposa de Zeus. Os Doze Trabalhos são: matar o Leão de Nemeia; matar a Hidra de Lerna; capturar a corça de Cerineia; capturar o javali de Erimanto; limpar os estábulos de Áugias; matar as aves do lago Estínfalo; matar o touro de Creta; capturar os cavalos de Diomedes; roubar o cinturão de Hipólita, a rainha das Amazonas; capturar o gado de Gerião; capturar os pomos de ouro do Jardim das Hespérides; capturar o cão de Hades, Cérbero.
+
+> HERTEL, R. Mitologia. Disponível em: https://osmelhoreslivros.com.br. Acesso em: 4 jun. 2025 (adaptado).
+
+TEXTO II
+
+Os Doze Trabalhos O que lhe faltava de estudo lhe sobrava de boa vontade e inteligência. No escritório improvisado na salinha da casa, anunciava seus serviços de bombeiro hidráulico e eletricista. Nas horas vagas entregava panfletos e lavava carros. Quando a cidade fervia com alguma festa, postava-se à entrada vendendo cerveja. Se fosse algum show infantil, cocadas. Aos sábados, era pedreiro e, aos domingos, conservava um jardim de uma mansão, além de tratar da piscina e dos cachorros. Nas férias, abrigava-se na fazenda dos donos da mansão, onde trabalhava como caseiro e motorista. Seu nome: João Antonio da Silva. Mas pode chamar de Hércules.
+
+> FERREIRA, G. V. Os doze trabalhos. Disponível em: www.minicontos.com.br. Acesso em: 15 jul. 2015 (adaptado).
+
+A comparação entre os textos I e II indica que o(a)
+
+- A) intertextualidade com o mito apresentado no Texto I é um recurso presente no Texto II.
+- B) narração de fatos do Texto II sintetiza os acontecimentos retratados no Texto I.
+- C) vocabulário empregado no Texto II é ancorado em conhecimento literário.
+- D) tema do trabalho como reparação é abordado em ambos os textos.
+- E) marcação temporal no passado predomina em ambos os textos.
+
+**Resposta:** A
+
+**Explicação:** O Texto II chama-se "Os Doze Trabalhos" e termina dizendo que o trabalhador de muitos ofícios pode ser chamado de "Hércules". Ele retoma o mito do Texto I para falar de um trabalhador comum: é um caso de intertextualidade.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 37
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 41
+TEXTO I
+
+Origem, tradição e resistência
+
+Foi sentada em seu banco de quartzo que a avó do universo, moradora da Maloca do Céu, criou os homens, os animais, a terra e as águas. O banco foi entregue aos ancestrais dos atuais Tukano, que passaram a reproduzi-lo em madeira. O mito Tukano — povo do noroeste da Amazônia que ainda hoje fabrica os bancos em seu estilo tradicional — indica o lugar dos bancos entre os objetos sagrados, ao mesmo tempo parte do universo primitivo e fonte do poder de criação. A presença nos mitos de origem de alguns povos atesta a antiguidade da arte de talhar bancos: os primeiros registros do uso desses objetos entre ameríndios das terras baixas da América do Sul, do Caribe e da América Central datam de, pelo menos, 4 mil anos.
+
+> ASSIS, R.; MENDES JR., L. Bancos indígenas do Brasil. São Paulo: BEI Comunicação, 2013.
+
+TEXTO II
+
+![Figura](enem-2025-d1-q041-1.webp)
+
+> KAMAYURÁ, Y. Tatu Kamayurá 1. Madeira, 61 × 24 × 20 cm. Xingu (MT), s.d.
+
+> Disponível em: www.colecaobei.com.br. Acesso em: 15 out. 2024.
+
+Os textos I e II demonstram, na confecção dos bancos, uma íntima relação de sacralidade entre o ser humano e a natureza, perceptível por meio da
+
+- A) representação realista de animais, mostrando o domínio do homem sobre a natureza.
+- B) manutenção da herança cultural, atribuindo nova função aos elementos da fauna.
+- C) anulação dos traços que permitem reconhecer o animal representado.
+- D) presença de grafismos na forma animal representada no banco.
+- E) criação de figuras fantásticas baseadas em formas animais.
+
+**Resposta:** B
+
+**Explicação:** O Texto I mostra que os bancos são objetos sagrados, ligados ao mito de criação, e que a arte de talhá-los existe há milhares de anos. O banco Kamayurá tem forma de tatu: a tradição é mantida, e a figura do animal ganha uma nova função, a de assento.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 41
+
+**Assunto:** artes/artes-e-educacao-fisica
 
 ## Difícil
 

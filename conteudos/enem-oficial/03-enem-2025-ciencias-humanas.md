@@ -551,6 +551,27 @@ Os direitos reconhecidos no texto representam a
 
 **Assunto:** sociologia/temas-contemporaneos
 
+### 68
+![Figura](enem-2025-d1-q068-1.webp)
+
+> Disponível em: https://mundoeducacao.uol.com.br. Acesso em: 20 out. 2023.
+
+A análise dos elementos presentes na fotografia permite identificar qual característica socioespacial?
+
+- A) Estagnação da especulação imobiliária.
+- B) Conservação da arquitetura colonial.
+- C) Implantação de moradias populares.
+- D) Predomínio da atividade comercial.
+- E) Processo de verticalização urbana.
+
+**Resposta:** E
+
+**Explicação:** A foto de Salvador mostra muitos prédios altos ocupando a orla e o centro da cidade. Esse crescimento da cidade "para cima" é a verticalização urbana.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 68
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
 ## Médio
 
 ### 49
@@ -858,6 +879,75 @@ Além do significado científico, o evento mencionado conectava-se a um projeto 
 **Fonte:** ENEM 2025, 1º dia, caderno azul, questão 90
 
 **Assunto:** historia/seculo-xx
+
+### 47
+Concentração de CO₂ por queimadas entre África e Brasil em 30 de agosto de 2019
+
+![Figura](enem-2025-d1-q047-1.webp)
+
+> Disponível em: https://noticias.uol.com.br. Acesso em: 10 out. 2019 (adaptado).
+
+A dispersão espacial do problema ambiental representado na imagem de satélite é explicada pela seguinte característica geográfica:
+
+- A) Amplitude das temperaturas médias.
+- B) Homogeneidade da insolação anual.
+- C) Ocorrência de chuvas de relevo.
+- D) Circulação de massas de ar.
+- E) Ausência de frentes frias.
+
+**Resposta:** D
+
+**Explicação:** A imagem mostra a fumaça das queimadas espalhada por grandes áreas, atravessando fronteiras e até o oceano entre a África e o Brasil. Quem leva os poluentes tão longe são os ventos, ou seja, a circulação das massas de ar.
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 47
+
+**Assunto:** geografia/geografia-fisica
+
+### 63
+![Figura](enem-2025-d1-q063-1.webp)
+
+> Disponível em: www.cnabrasil.org.br. Acesso em: 15 out. 2021.
+
+Qual condição favoreceu o cenário produtivo exposto na figura?
+
+- A) Redução do poder de compra da população brasileira.
+- B) Ampliação da entrada do capital agroindustrial no campo.
+- C) Diminuição do uso de trabalho especializado na agropecuária.
+- D) Valorização da moeda nacional em relação ao dólar americano.
+- E) Inclusão de pequenas propriedades em cultivos de subsistência.
+
+**Resposta:** B
+
+**Explicação:** O Brasil aparece entre os maiores produtores e exportadores do mundo de açúcar, café, soja, carnes e suco de laranja. Essa posição veio da modernização do campo, com a entrada de grandes empresas e capital agroindustrial (máquinas, sementes, tecnologia).
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 63
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 77
+Carro elétrico, uma miragem ecológica
+
+![Figura](enem-2025-d1-q077-1.webp)
+
+A mudança para a eletromobilidade de fato promove uma alteração no consumo de recursos naturais. Hoje, amplamente dependentes do petróleo, nossos modais de transporte poderiam se tornar cada vez mais dependentes de trinta metais raros. Gálio, tântalo, cobalto, platinoides, tungstênio, metais de terras-raras: uma mina contém apenas ínfimas quantidades desses metais dotados de fabulosas propriedades eletrônicas, ópticas e magnéticas.
+
+> PITRON, G. Revolução tecnológica, transformação geopolítica. Disponível em: https://diplomatique.org.br. Acesso em: 10 dez. 2018.
+
+No que se refere ao desenvolvimento sustentável, a charge e o texto indicam uma contradição no uso da tecnologia alternativa derivada do seguinte aspecto:
+
+- A) Necessidade de fontes não renováveis.
+- B) Padronização dos modelos produtivos.
+- C) Demanda de mão de obra qualificada.
+- D) Precariedade da legislação industrial.
+- E) Utilização de materiais recicláveis.
+
+**Resposta:** A
+
+**Explicação:** A charge mostra o carro elétrico "limpo" de um lado e, do outro, a mineração poluidora que fornece o que ele precisa. O texto completa: o carro depende de metais raros, extraídos de minas. Esses metais não são renováveis, e essa é a contradição da tecnologia "verde".
+
+**Fonte:** ENEM 2025, 1º dia, caderno azul, questão 77
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
 
 ## Difícil
 
