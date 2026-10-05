@@ -2,11 +2,11 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**7190 questões** em **161 tópicos**.
+**7240 questões** em **162 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## Matemática — 1102 questões
+## Matemática — 1152 questões
 
 *Matemática e suas Tecnologias*
 
@@ -36,6 +36,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Função composta e função inversa](matematica/22-funcao-composta-e-inversa.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Binômio de Newton e triângulo de Pascal](matematica/23-binomio-de-newton.md) | Militares | 17 | 17 | 16 |
 | [Semelhança de triângulos e teorema de Tales](matematica/24-semelhanca-de-triangulos.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Circunferência e círculo](matematica/25-circunferencia-e-circulo.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## Física — 239 questões
 
