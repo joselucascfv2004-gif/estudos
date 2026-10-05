@@ -46,6 +46,7 @@ LARGURA, ALTURA, QUADROS = 1080, 1920, 30
 TAXA = voz.TAXA
 VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
 TEMPO_RESPOSTA = 5  # segundos para o público pensar
+TEMPO_CAPA = 0.5  # a capa fica meio segundo no começo (é o quadro que vira a miniatura)
 LETRAS = "ABCDE"
 HASHTAGS_QUIZ = "#enem #enem2026 #quiz #estudos #vestibular"
 # Como a voz deve ler cada letra ("E" sozinho seria lido como a palavra "e", com som de "i")
@@ -263,6 +264,10 @@ def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: 
     cena = next((c for c in cenas if c.inicio <= t < c.inicio + c.duracao), cenas[-1])
     lt = t - cena.inicio  # tempo dentro da cena
 
+    if cena.tipo == "capa":
+        colar(tela, pecas["capa"], LARGURA / 2, ALTURA / 2)
+        return tela
+
     if cena.tipo in ("abertura", "encerramento"):
         cartao = pecas["abertura" if cena.tipo == "abertura" else "encerramento"]
         cy = Y_TOPO_MARCA + cartao["fundo"].height / 2  # cartão de cima para baixo, longe dos botões
@@ -423,6 +428,59 @@ def botao(texto: str) -> Image.Image:
     return img
 
 
+def titulo_com_marcador(texto: str, tamanho: int, destaque: str) -> Image.Image:
+    """Título grande e limpo; a palavra de destaque fica no azul da logo, sobre uma faixa de
+    marca-texto amarela."""
+    letra = fonte(tamanho)
+    linhas = quebrar(texto, letra, LARGURA_CARTAO - 120)
+    subida, descida = letra.getmetrics()
+    altura_linha = int((subida + descida) * 0.98)
+    img = Image.new("RGBA", (LARGURA_CARTAO - 80, altura_linha * len(linhas) + 10), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    espaco = letra.getlength(" ")
+    for n, linha in enumerate(linhas):
+        x = (img.width - letra.getlength(linha)) / 2
+        base = n * altura_linha + subida
+        for palavra in linha.split():
+            largura = letra.getlength(palavra)
+            if palavra == destaque:
+                d.rounded_rectangle((x - 14, base - tamanho * 0.42, x + largura + 14, base + tamanho * 0.12),
+                                    14, fill=AMARELO)
+            d.text((x, base), palavra, font=letra, anchor="ls",
+                   fill=AZUL_LOGO if palavra == destaque else AZUL_NOITE)
+            x += largura + espaco
+    return img
+
+
+def desenhar_capa(quiz: dict, total: int) -> Image.Image:
+    """Capa do vídeo (primeiro quadro e capa.png): cartão no visual da logo com selo amarelo,
+    título grande com marca-texto e as letras A a E embaixo, mostrando que é um quiz."""
+    tela = Image.new("RGBA", (LARGURA, ALTURA), (0, 0, 0, 0))
+    cartao = cartao_marca([
+        (logo(150), 0, False),
+        (pilula(quiz.get("capa_selo", f"TESTE RÁPIDO  •  {total} PERGUNTAS"), 36, AMARELO), 0, False),
+        (titulo_com_marcador(quiz.get("capa_titulo", quiz["titulo_tela"]), 100,
+                             quiz.get("capa_destaque", quiz.get("destaque", ""))), 0, False),
+        (linha_texto(quiz.get("capa_sub", "Você tem 5 segundos para cada uma"), 34,
+                     cor=CINZA_AZULADO), 0, False),
+    ])
+    cy = Y_TOPO_MARCA + cartao["fundo"].height / 2
+    colar(tela, cartao["fundo"], LARGURA / 2, cy)
+    for figura, dy, _, _ in cartao["itens"]:
+        colar(tela, figura, LARGURA / 2, cy + dy)
+    # Letras A a E, como alternativas, embaixo do cartão (longe da coluna de botões)
+    d = ImageDraw.Draw(tela)
+    y = min(Y_LIMITE - 70, Y_TOPO_MARCA + cartao["fundo"].height + 110)
+    centro = (MX + LIMITE_X) / 2
+    for n, letra_alt in enumerate(LETRAS):
+        x, r = centro + (n - 2) * 150, 58
+        destaque = n == 2
+        d.ellipse((x - r, y - r + 8, x + r, y + r + 8), fill=(6, 84, 170) if not destaque else (200, 150, 0))
+        d.ellipse((x - r, y - r, x + r, y + r), fill=BRANCO if not destaque else AMARELO)
+        d.text((x, y), "?" if destaque else letra_alt, font=fonte(54), fill=AZUL_NOITE, anchor="mm")
+    return tela
+
+
 def cartao_marca(itens: list) -> dict:
     """Cartão no visual da logo: papel quadriculado azul-claro, círculos de construção, régua e
     linhas tracejadas. Devolve o fundo do cartão e os itens (figura, posição, atraso, pulsa)."""
@@ -485,11 +543,14 @@ async def fazer(arquivo: Path) -> None:
         def silencio(segundos: float) -> None:
             audio.extend([0] * int(segundos * TAXA))
 
+        silencio(TEMPO_CAPA)
+        cenas.append(Cena("capa", 0, TEMPO_CAPA))
         fala = await narrar(quiz["chamada"], nome_voz, temp, 0)
-        efeitos.append((0.05, tom(660, 0.12, 0.2)))
+        inicio = agora()
+        efeitos.append((inicio, chiado()))
         audio.extend(fala)
         silencio(0.4)
-        cenas.append(Cena("abertura", 0, agora()))
+        cenas.append(Cena("abertura", inicio, agora() - inicio))
         for p in perguntas:
             d = p.dados
             inicio = agora()
@@ -528,6 +589,7 @@ async def fazer(arquivo: Path) -> None:
         # 2) Peças fixas (desenhadas uma vez só)
         pecas = {
             "barra_topo": barra_topo(),
+            "capa": desenhar_capa(quiz, total),
             "abertura": cartao_marca([
                 (logo(150), 0.15, False),
                 (linha_texto(quiz["titulo_tela"], 80, quiz.get("destaque", "")), 0.35, False),

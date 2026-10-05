@@ -1,9 +1,29 @@
 # Instruções do projeto TikTok
 
-Canal de TikTok com histórias curtas narradas por voz de IA, com legenda grande e vídeo de fundo
-(jogos, vídeos satisfatórios). O plano completo está no `README.md` desta pasta.
+**Foco atual: vídeos de quiz** ("Você passaria no ENEM?"), que também divulgam o app Estudos.
+As **histórias narradas estão pausadas** por decisão do dono do canal: não produza histórias até ele
+pedir. As regras delas continuam abaixo para quando voltarem.
 
-## Regras do conteúdo
+## Quiz (formato atual)
+
+- Fábrica: `quiz/fazer_quiz.py`. Cada quiz é um JSON em `quiz/quizzes/` com 5 perguntas tiradas do
+  app (pasta `estudos/conteudos`), com gabarito e explicação conferidos. Use perguntas curtas, sem
+  figura. Explicações com duas frases curtas.
+- Voz: **Antonio** (só fala português). A Thalita lê termos técnicos com sotaque inglês.
+- Letras faladas: "Letra É" para a E. Use `resposta_falada` quando a alternativa tiver unidade ou
+  símbolo (por exemplo "423 kelvin").
+- Visual: identidade da logo (`marca/`): papel quadriculado azul-claro, régua, círculos de
+  construção, azul do "E", amarelo de destaque e verde da resposta certa. Textos limpos, sem
+  contorno. A abertura e o final foram aprovados como estão.
+- Área segura do celular: conteúdo entre x=110 e x=970 e entre y≈290 e y≈1470; alternativas até
+  x=860 (antes da coluna de botões). Celulares compridos cortam ~55 px de cada lado.
+- Capa: cartão com selo "TESTE RÁPIDO", título grande com marca-texto e letras A–E. Ela fica no
+  primeiro meio segundo do vídeo (vira a miniatura) e sai também como `capa.png`.
+- Sempre entregue **vídeo + capa + postagem.txt**. Qualidade máxima (`fabrica/qualidade.py`), até
+  30 MB para caber no envio pelo chat.
+- Hashtags (5): `#enem #enem2026 #quiz #estudos #vestibular`.
+
+## Histórias (pausadas): regras do conteúdo
 
 - **Histórias originais no estilo Reddit.** O dono do canal quer o clima de relato do Reddit
   ("eu errei?", conflito de família, dinheiro, sogro, casamento). Use só a **premissa comum** como
