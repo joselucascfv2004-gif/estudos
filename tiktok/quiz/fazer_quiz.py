@@ -46,6 +46,8 @@ TAXA = voz.TAXA
 VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
 TEMPO_RESPOSTA = 5  # segundos para o público pensar
 LETRAS = "ABCDE"
+# Como a voz deve ler cada letra ("E" sozinho seria lido como a palavra "e", com som de "i")
+LETRAS_FALADAS = ["A", "B", "C", "D", "É"]
 
 VERDE, VERDE_ESCURO = (88, 204, 2), (70, 160, 0)
 AZUL, AMARELO, VERMELHO = (28, 176, 246), (255, 200, 0), (255, 75, 75)
@@ -496,9 +498,9 @@ async def fazer(arquivo: Path) -> None:
             inicio = agora()
             efeitos.append((inicio, tom(880, 0.14, 0.25)))
             efeitos.append((inicio + 0.12, tom(1320, 0.35, 0.25, queda=6)))
-            certa = d["alternativas"][d["certa"]]
+            certa = d.get("resposta_falada", d["alternativas"][d["certa"]])  # ex.: "423 kelvin"
             silencio(0.2)
-            audio.extend(await narrar(f"Letra {LETRAS[d['certa']]}! {certa}. {d['explicacao']}",
+            audio.extend(await narrar(f"Letra {LETRAS_FALADAS[d['certa']]}! {certa}. {d['explicacao']}",
                                       nome_voz, temp, p.numero * 10 + 1))
             silencio(0.3)
             cenas.append(Cena("resposta", inicio, agora() - inicio, p))

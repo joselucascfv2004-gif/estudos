@@ -24,6 +24,11 @@ Canal de TikTok com histórias curtas narradas por voz de IA, com legenda grande
 - **Vozes: só Thalita (feminina) e Antonio (masculina)**, escolhidas pelo dono do canal. A voz
   acompanha quem narra: narradora mulher → `thalita`, narrador homem → `antonio`. Alterne entre as
   histórias.
+- **Cuidado com a Thalita (voz multilíngue).** Ela adivinha o idioma de cada trecho e, em trechos
+  curtos ou com termos técnicos (DNA, nomes de letras, unidades), pode ler com sotaque inglês,
+  italiano etc. O Antonio só fala português e não tem esse problema. Por isso **os quizzes usam o
+  Antonio**. Para conferir uma narração, transcreva o áudio com o Whisper grátis
+  (`pip install faster-whisper`, modelo "small") e veja se todas as palavras saíram em português.
 - **Legenda: fonte Poppins ExtraBold** (opção 2), até 3 palavras por vez, palavra falada em amarelo.
 - **Tudo em 1.5x.** Narração e fundo acelerados (escolha do dono do canal, `VELOCIDADE` em
   `fabrica/fazer_video.py`). Com 1.5x, uma história de 420 a 560 palavras dá cerca de 1min45 a 2min.

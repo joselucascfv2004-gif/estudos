@@ -4,7 +4,7 @@
   "destaque": "ENEM?",
   "subtitulo_tela": "5 perguntas  •  comenta quantas acertou",
   "chamada": "Você passaria no ENEM? Responda estas cinco perguntas e comenta quantas você acertou.",
-  "voz": "thalita",
+  "voz": "antonio",
   "origem": "Perguntas do app Estudos (estudos/conteudos), escritas para o app no estilo do ENEM.",
   "perguntas": [
     {
@@ -48,7 +48,8 @@
       ],
       "certa": 3,
       "explicacao": "Para passar de Celsius para Kelvin, é só somar 273. Então, 150 mais 273 dá 423 kelvin.",
-      "fonte": "estudos/conteudos/fisica/05-termologia.md, Fácil 1"
+      "fonte": "estudos/conteudos/fisica/05-termologia.md, Fácil 1",
+      "resposta_falada": "423 kelvin"
     },
     {
       "materia": "Geografia",
