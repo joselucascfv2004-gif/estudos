@@ -34,7 +34,7 @@ PASTA = Path(__file__).resolve().parent
 RAIZ = PASTA.parent
 sys.path.insert(0, str(RAIZ / "fabrica"))
 import voz  # noqa: E402  (a mesma narração das histórias)
-from qualidade import CODIFICACAO_MAXIMA, caber_no_limite, salvar_capa  # noqa: E402
+from qualidade import CODIFICACAO_MAXIMA, caber_no_limite  # noqa: E402
 
 FONTE = RAIZ / "fabrica" / "fontes" / "Poppins-ExtraBold.ttf"
 LOGO = RAIZ / "marca" / "logo-estudos.png"
@@ -46,7 +46,6 @@ LARGURA, ALTURA, QUADROS = 1080, 1920, 30
 TAXA = voz.TAXA
 VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
 TEMPO_RESPOSTA = 5  # segundos para o público pensar
-TEMPO_CAPA = 0.5  # a capa fica meio segundo no começo (é o quadro que vira a miniatura)
 LETRAS = "ABCDE"
 HASHTAGS_QUIZ = "#enem #enem2026 #quiz #estudos #vestibular"  # padrão, se o quiz não tiver as suas
 # O app ainda não foi lançado: o final convida a seguir o perfil e diz que o app chega em breve.
@@ -270,20 +269,13 @@ def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: 
     cena = next((c for c in cenas if c.inicio <= t < c.inicio + c.duracao), cenas[-1])
     lt = t - cena.inicio  # tempo dentro da cena
 
-    if cena.tipo == "capa":
-        colar(tela, pecas["capa"], LARGURA / 2, ALTURA / 2)
-        return tela
-
     if cena.tipo in ("abertura", "encerramento"):
         cartao = pecas["abertura" if cena.tipo == "abertura" else "encerramento"]
         cy = Y_TOPO_MARCA + cartao["fundo"].height / 2  # cartão de cima para baixo, longe dos botões
-        # A abertura já aparece pronta no primeiro quadro, que vira a capa (miniatura) do vídeo
-        abertura = cena.tipo == "abertura"
-        colar(tela, cartao["fundo"], LARGURA / 2, cy,
-              escala=1 if abertura else 0.9 + 0.1 * pulo(lt / 0.4),
-              opacidade=1 if abertura else limitar(lt / 0.2))
+        colar(tela, cartao["fundo"], LARGURA / 2, cy, escala=0.9 + 0.1 * pulo(lt / 0.4),
+              opacidade=limitar(lt / 0.2))
         for figura, dy, atraso, pulsa in cartao["itens"]:
-            progresso = 1 if abertura else (lt - atraso) / 0.35
+            progresso = (lt - atraso) / 0.35
             escala = (1 + 0.04 * math.sin(lt * 7)) if pulsa and progresso >= 1 else 1
             colar(tela, figura, LARGURA / 2, cy + dy + 40 * (1 - suave(progresso)), escala=escala,
                   opacidade=suave(progresso))
@@ -555,8 +547,6 @@ async def fazer(arquivo: Path) -> None:
         def silencio(segundos: float) -> None:
             audio.extend([0] * int(segundos * TAXA))
 
-        silencio(TEMPO_CAPA)
-        cenas.append(Cena("capa", 0, TEMPO_CAPA))
         fala = await narrar(quiz["chamada"], nome_voz, temp, 0)
         inicio = agora()
         efeitos.append((inicio, chiado()))
@@ -641,11 +631,14 @@ async def fazer(arquivo: Path) -> None:
         if ffmpeg.wait() != 0:
             raise RuntimeError("o ffmpeg falhou ao montar o vídeo")
     caber_no_limite(saida / "video.mp4")
-    salvar_capa(saida / "video.mp4", saida / "capa.png", 0.0)
+    fundo_capa = saida / "capa.png"
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1", "-i", str(fundo), "-frames:v", "1",
+                    "-vf", filtro.split("[fundo];")[0].replace("[0:v]", ""), str(fundo_capa)], check=True)
+    Image.alpha_composite(Image.open(fundo_capa).convert("RGBA"), pecas["capa"]).convert("RGB").save(fundo_capa)
 
     (saida / "postagem.txt").write_text(f"""Arquivo: video.mp4 ({int(duracao // 60)}min{int(duracao % 60):02d}s)
 
-Capa: capa.png (é o primeiro quadro do vídeo; em "Editar capa", escolha o início do vídeo).
+Capa: capa.png (adicione como capa no TikTok, em "Editar capa").
 
 Texto para colar no TikTok:
 {quiz.get('descricao', quiz['titulo'] + ' 🧠 Comenta quantas você acertou! 👇')} {'Treine com +4.900 questões no App Estudos (link no perfil).' if APP_LANCADO else 'App Estudos chegando em breve 📲'}
