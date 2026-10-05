@@ -2,11 +2,11 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6990 questões** em **157 tópicos**.
+**7040 questões** em **158 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
-## Matemática — 902 questões
+## Matemática — 952 questões
 
 *Matemática e suas Tecnologias*
 
@@ -32,6 +32,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Frações, fatoração e produtos notáveis](matematica/18-fracoes-fatoracao-e-produtos-notaveis.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Potenciação, radiciação e conversão de unidades](matematica/19-potenciacao-e-radiciacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Divisibilidade, números primos, MDC e MMC](matematica/20-divisibilidade-primos-mdc-e-mmc.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Módulo e função modular](matematica/21-modulo-e-funcao-modular.md) | Militares | 17 | 17 | 16 |
 
 ## Física — 239 questões
 

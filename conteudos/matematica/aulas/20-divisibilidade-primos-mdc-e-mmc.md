@@ -10,16 +10,14 @@ Essa conta aparece em problemas do dia a dia. Com 527 alunos e ônibus de 45 lug
 
 ### Critérios de divisibilidade: descobrir sem dividir
 
-| Divisor | Regra |
-|---|---|
-| 2 | termina em 0, 2, 4, 6 ou 8 |
-| 3 | a soma dos algarismos é múltipla de 3 |
-| 4 | os dois últimos algarismos formam um múltiplo de 4 |
-| 5 | termina em 0 ou 5 |
-| 6 | é divisível por 2 e por 3 |
-| 9 | a soma dos algarismos é múltipla de 9 |
-| 10 | termina em 0 |
-| 11 | a soma alternada dos algarismos (+ − + −...) é múltipla de 11 |
+- **Por 2:** termina em 0, 2, 4, 6 ou 8.
+- **Por 3:** a soma dos algarismos é múltipla de 3.
+- **Por 4:** os dois últimos algarismos formam um múltiplo de 4.
+- **Por 5:** termina em 0 ou 5.
+- **Por 6:** é divisível por 2 e por 3.
+- **Por 9:** a soma dos algarismos é múltipla de 9.
+- **Por 10:** termina em 0.
+- **Por 11:** a soma alternada dos algarismos (+ − + −...) é múltipla de 11.
 
 > **Exemplo resolvido.** 8 124 é divisível por 3? 8 + 1 + 2 + 4 = 15, múltiplo de 3. **Sim.**
 
