@@ -12,10 +12,10 @@ PASTA_FONTES = Path(__file__).resolve().parent / "fontes"
 FONTE = PASTA_FONTES / "Poppins-ExtraBold.ttf"
 
 LARGURA_TELA, ALTURA_TELA = 1080, 1920
-LARGURA_CARTAO = 920
+LARGURA_CARTAO = 840  # longe das bordas, que alguns celulares cortam
 MARGEM = 60  # espaço entre a borda do cartão e o texto
 CANTO = 44
-CENTRO_Y = 760  # um pouco acima do meio, longe dos botões e da legenda do TikTok
+CENTRO_Y = 680  # acima do meio, longe das abas do topo, dos botões e da legenda do TikTok
 
 
 def _quebrar(texto: str, fonte: ImageFont.FreeTypeFont, largura: int) -> list[str]:

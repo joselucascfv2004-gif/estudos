@@ -30,6 +30,7 @@ from pathlib import Path
 
 import voz
 from capa import desenhar_capa
+from qualidade import CODIFICACAO_MAXIMA, caber_no_limite, salvar_capa
 from voz import Palavra
 
 RAIZ = Path(__file__).resolve().parent.parent
@@ -54,13 +55,10 @@ FONTES = {
 }
 FONTE_LEGENDA = "Poppins ExtraBold"  # opção 2, escolhida pelo dono do canal
 
-HASHTAGS = {
-    "traicao": "#traicao #relacionamento #namoro #casamento",
-    "relacionamento": "#relacionamento #namoro #casamento #sogra",
-    "familia": "#familia #brigadefamilia #heranca #irmaos",
-    "trabalho": "#trabalho #chefe #emprego #clt",
-}
-HASHTAGS_FIXAS = "#historias #relatos #storytime #ficcao #satisfatorio"
+# 5 hashtags por vídeo: 4 do formato + 1 do tema
+HASHTAGS = {"traicao": "#traicao", "relacionamento": "#relacionamento", "familia": "#familia",
+            "trabalho": "#trabalho"}
+HASHTAGS_FIXAS = "#historias #relatos #storytime #drama"
 
 # Cores no formato das legendas (&HAABBGGRR)
 BRANCO, PRETO, AMARELO = "&H00FFFFFF", "&H00000000", "&H0000E5FF"
@@ -160,7 +158,7 @@ WrapStyle: 0
 
 [V4+ Styles]
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Legenda,{FONTE_LEGENDA},{tamanho},{BRANCO},{BRANCO},{PRETO},&H80000000,0,0,0,0,100,100,{espaco},0,1,9,4,5,120,120,0,1
+Style: Legenda,{FONTE_LEGENDA},{tamanho},{BRANCO},{BRANCO},{PRETO},&H80000000,0,0,0,0,100,100,{espaco},0,1,9,4,5,140,240,0,1
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -236,9 +234,8 @@ def montar_video(audio: Path, legendas: Path, capa: Path, fim_capa: float, trech
         ["ffmpeg", "-y", "-loglevel", "error", *entradas,
          "-filter_complex", cortes + juncao + capa_filtro + legenda + f";[{n + 1}:a]apad[audio]",
          "-map", "[video]", "-map", "[audio]", "-t", f"{total:.2f}",
-         "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "1100k",
-         "-bufsize", "2200k", "-r", str(QUADROS),  # menos de 30 MB num vídeo de 3 minutos
-         "-c:a", "aac", "-b:a", "128k", "-ar", "44100", "-movflags", "+faststart", str(saida)],
+         *CODIFICACAO_MAXIMA, "-r", str(QUADROS),
+         "-c:a", "aac", "-b:a", "160k", "-ar", "44100", "-movflags", "+faststart", str(saida)],
         check=True,
     )
 
@@ -246,6 +243,7 @@ def montar_video(audio: Path, legendas: Path, capa: Path, fim_capa: float, trech
 def texto_postagem(roteiro: Roteiro, total: float) -> str:
     tags = f"{HASHTAGS_FIXAS} {HASHTAGS.get(roteiro.tema, '')}".strip()
     return f"""Arquivo: video.mp4 ({int(total // 60)}min{int(total % 60):02d}s)
+Capa: capa.png (é o primeiro quadro do vídeo; em "Editar capa", escolha o início do vídeo).
 
 Texto para colar no TikTok:
 {roteiro.titulo} 😳 O que você faria no meu lugar? Comenta aqui 👇
@@ -253,6 +251,7 @@ Texto para colar no TikTok:
 
 ANTES DE PUBLICAR:
 - Em "Mais opções", ligue "Conteúdo gerado por IA".
+- Ainda em "Mais opções", ligue "Enviar em alta qualidade" (ou "Upload HD"), se aparecer.
 - História fictícia narrada por voz de IA. Não diga que é um caso real.
 """
 
@@ -288,6 +287,8 @@ async def fazer(roteiro: Roteiro, refazer: bool) -> None:
 
         trechos = escolher_trechos(roteiro.fundo, total, dono)
         montar_video(audio, legendas, capa, fim_capa, trechos, total, pasta / "video.mp4")
+        caber_no_limite(pasta / "video.mp4")
+        salvar_capa(pasta / "video.mp4", pasta / "capa.png", 0.3)
         registrar_usados(trechos, dono)
     aviso = ""
     if total < DURACAO_MINIMA:

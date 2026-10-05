@@ -34,6 +34,7 @@ PASTA = Path(__file__).resolve().parent
 RAIZ = PASTA.parent
 sys.path.insert(0, str(RAIZ / "fabrica"))
 import voz  # noqa: E402  (a mesma narração das histórias)
+from qualidade import CODIFICACAO_MAXIMA, caber_no_limite, salvar_capa  # noqa: E402
 
 FONTE = RAIZ / "fabrica" / "fontes" / "Poppins-ExtraBold.ttf"
 LOGO = RAIZ / "marca" / "logo-estudos.png"
@@ -46,6 +47,7 @@ TAXA = voz.TAXA
 VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
 TEMPO_RESPOSTA = 5  # segundos para o público pensar
 LETRAS = "ABCDE"
+HASHTAGS_QUIZ = "#enem #enem2026 #quiz #estudos #vestibular"
 # Como a voz deve ler cada letra ("E" sozinho seria lido como a palavra "e", com som de "i")
 LETRAS_FALADAS = ["A", "B", "C", "D", "É"]
 
@@ -55,11 +57,14 @@ BRANCO, TEXTO, AZUL_NOITE = (255, 255, 255), (30, 30, 30), (12, 22, 56)
 # Cores da logo (tiktok/marca/desenhar_logo.py)
 AZUL_LOGO, PAPEL_LOGO, GRADE_LOGO, LINHA_LOGO = (8, 112, 222), (230, 244, 253), (214, 235, 250), (142, 201, 240)
 CINZA_AZULADO = (70, 100, 140)
-LARGURA_CARTAO = 960
+LARGURA_CARTAO = 860
 
 # Área segura: os botões do TikTok ficam à direita (de y≈900 para baixo) e a legenda do post
-# ocupa a parte de baixo. As alternativas terminam em x=900 e y≈1400.
-MX, LIMITE_X = 60, 900
+# ocupa a parte de baixo. Em celulares compridos o TikTok ainda corta ~55 px de cada lado e põe as
+# abas "Seguindo / Para você" no topo (até y≈220). Por isso tudo fica entre x=110 e x=970, as
+# alternativas terminam em x=860 (antes da coluna de botões) e o conteúdo vai de y≈300 a y≈1470.
+MX, LIMITE_X = 110, 860
+Y_TOPO, Y_ETIQUETA, Y_CARTAO, Y_LIMITE, Y_TOPO_MARCA = 300, 400, 470, 1470, 290
 
 
 # ---------- utilidades de desenho ----------
@@ -215,9 +220,9 @@ class Pergunta:
         self.cartao = cartao_pergunta(p.get("texto_tela", p["pergunta"]))
         self.etiqueta = pilula(f"PERGUNTA {self.numero}/{total}  •  {p['materia'].upper()}", 36,
                                AMARELO)
-        topo_cartao = 400
+        topo_cartao = Y_CARTAO
         y = topo_cartao + self.cartao.height + 36
-        altura = int(min(112, (1400 - y - 4 * 18) / 5))
+        altura = int(min(112, (Y_LIMITE - y - 4 * 18) / 5))
         for n, texto in enumerate(p["alternativas"]):
             for estado in ("normal", "certa", "apagada"):
                 self.caixas[(n, estado)] = caixa_alternativa(LETRAS[n], texto, altura, estado)
@@ -260,21 +265,24 @@ def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: 
 
     if cena.tipo in ("abertura", "encerramento"):
         cartao = pecas["abertura" if cena.tipo == "abertura" else "encerramento"]
-        cy = 820
-        colar(tela, cartao["fundo"], LARGURA / 2, cy, escala=0.9 + 0.1 * pulo(lt / 0.4),
-              opacidade=limitar(lt / 0.2))
+        cy = Y_TOPO_MARCA + cartao["fundo"].height / 2  # cartão de cima para baixo, longe dos botões
+        # A abertura já aparece pronta no primeiro quadro, que vira a capa (miniatura) do vídeo
+        abertura = cena.tipo == "abertura"
+        colar(tela, cartao["fundo"], LARGURA / 2, cy,
+              escala=1 if abertura else 0.9 + 0.1 * pulo(lt / 0.4),
+              opacidade=1 if abertura else limitar(lt / 0.2))
         for figura, dy, atraso, pulsa in cartao["itens"]:
-            progresso = (lt - atraso) / 0.35
+            progresso = 1 if abertura else (lt - atraso) / 0.35
             escala = (1 + 0.04 * math.sin(lt * 7)) if pulsa and progresso >= 1 else 1
             colar(tela, figura, LARGURA / 2, cy + dy + 40 * (1 - suave(progresso)), escala=escala,
                   opacidade=suave(progresso))
         return tela
 
     # Barra do topo (logo do app) e bolinhas de progresso
-    colar(tela, pecas["barra_topo"], MX + pecas["barra_topo"].width / 2, 200)
+    colar(tela, pecas["barra_topo"], MX + pecas["barra_topo"].width / 2, Y_TOPO)
     p = cena.pergunta
     for i in range(total):
-        cx, cy, r = LARGURA - MX - 20 - (total - 1 - i) * 44, 200, 13
+        cx, cy, r = LARGURA - MX - 20 - (total - 1 - i) * 44, Y_TOPO, 13
         feita = i < p.numero - 1 or (i == p.numero - 1 and cena.tipo in ("resposta", "saida"))
         if feita:
             d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=AMARELO)
@@ -297,9 +305,9 @@ def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: 
         opacidade = 1 - suave(lt / cena.duracao)
 
     colar(tela, p.etiqueta, MX + p.etiqueta.width / 2 - 300 * (1 - suave(entrada / 0.3)) + deslocamento,
-          315, opacidade=opacidade * limitar(entrada / 0.2))
+          Y_ETIQUETA, opacidade=opacidade * limitar(entrada / 0.2))
     escala_cartao = 0.85 + 0.15 * pulo((entrada - 0.05) / 0.4)
-    colar(tela, p.cartao, LARGURA / 2 + deslocamento + tremida, 400 + p.cartao.height / 2,
+    colar(tela, p.cartao, LARGURA / 2 + deslocamento + tremida, Y_CARTAO + p.cartao.height / 2,
           escala=escala_cartao, opacidade=opacidade * limitar((entrada - 0.05) / 0.15))
 
     for n, cy in enumerate(p.y_alternativas):
@@ -320,7 +328,7 @@ def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: 
 
     if cena.tipo == "contagem":
         restante = TEMPO_RESPOSTA - lt
-        cx, cy, r = LARGURA - MX - 62, 315, 62
+        cx, cy, r = LARGURA - MX - 62, Y_ETIQUETA, 62
         cor = VERMELHO if restante <= 2 else AMARELO
         d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(0, 0, 0, 140))
         d.arc((cx - r, cy - r, cx + r, cy + r), -90, -90 + 360 * restante / TEMPO_RESPOSTA,
@@ -418,7 +426,7 @@ def botao(texto: str) -> Image.Image:
 def cartao_marca(itens: list) -> dict:
     """Cartão no visual da logo: papel quadriculado azul-claro, círculos de construção, régua e
     linhas tracejadas. Devolve o fundo do cartão e os itens (figura, posição, atraso, pulsa)."""
-    folga, espaco = 70, 34
+    folga, espaco = 56, 28
     altura = 2 * folga + 40 + sum(f.height for f, _, _ in itens) + espaco * (len(itens) - 1)
     largura = LARGURA_CARTAO
     t = Image.new("RGBA", (largura, altura), (0, 0, 0, 0))
@@ -521,15 +529,15 @@ async def fazer(arquivo: Path) -> None:
         pecas = {
             "barra_topo": barra_topo(),
             "abertura": cartao_marca([
-                (logo(190), 0.15, False),
-                (linha_texto(quiz["titulo_tela"], 84, quiz.get("destaque", "")), 0.35, False),
-                (linha_texto(quiz["subtitulo_tela"], 40, cor=CINZA_AZULADO), 0.6, False),
+                (logo(150), 0.15, False),
+                (linha_texto(quiz["titulo_tela"], 80, quiz.get("destaque", "")), 0.35, False),
+                (linha_texto(quiz["subtitulo_tela"], 36, cor=CINZA_AZULADO), 0.6, False),
             ]),
             "encerramento": cartao_marca([
-                (logo(170), 0.15, False),
-                (linha_texto("Quantas você acertou?", 76, "acertou?"), 0.35, False),
+                (logo(140), 0.15, False),
+                (linha_texto("Quantas você acertou?", 70, "acertou?"), 0.35, False),
                 (botao("BAIXE O APP ESTUDOS"), 0.7, True),
-                (linha_texto("+4.900 questões grátis  •  link no perfil", 36, cor=CINZA_AZULADO),
+                (linha_texto("+4.900 questões grátis  •  link no perfil", 32, cor=CINZA_AZULADO),
                  1.0, False),
             ]),
             "numeros": {str(i): texto_figura(str(i), 64) for i in range(1, TEMPO_RESPOSTA + 1)},
@@ -548,8 +556,7 @@ async def fazer(arquivo: Path) -> None:
              "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{LARGURA}x{ALTURA}", "-r", str(QUADROS),
              "-i", "-", "-f", "s16le", "-ac", "1", "-ar", str(TAXA), "-i", str(temp / "audio.raw"),
              "-filter_complex", filtro, "-map", "[video]", "-map", "2:a",
-             "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "2000k",
-             "-bufsize", "4000k", "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
+             *CODIFICACAO_MAXIMA, "-c:a", "aac", "-b:a", "160k", "-ar", "44100",
              "-t", f"{duracao:.2f}", "-movflags", "+faststart", str(saida / "video.mp4")],
             stdin=subprocess.PIPE)
         for q in range(int(duracao * QUADROS) + 1):
@@ -557,15 +564,20 @@ async def fazer(arquivo: Path) -> None:
         ffmpeg.stdin.close()
         if ffmpeg.wait() != 0:
             raise RuntimeError("o ffmpeg falhou ao montar o vídeo")
+    caber_no_limite(saida / "video.mp4")
+    salvar_capa(saida / "video.mp4", saida / "capa.png", 0.0)
 
     (saida / "postagem.txt").write_text(f"""Arquivo: video.mp4 ({int(duracao // 60)}min{int(duracao % 60):02d}s)
 
+Capa: capa.png (é o primeiro quadro do vídeo; em "Editar capa", escolha o início do vídeo).
+
 Texto para colar no TikTok:
 {quiz['titulo']} 🧠 Comenta quantas você acertou! 👇 Treine com +4.900 questões no app Estudos.
-#enem #enem2026 #quiz #vestibular #estudos #perguntaserespostas
+{HASHTAGS_QUIZ}
 
 ANTES DE PUBLICAR:
 - Em "Mais opções", ligue "Conteúdo gerado por IA" (a narração é feita por voz de IA).
+- Ainda em "Mais opções", ligue "Enviar em alta qualidade" (ou "Upload HD"), se aparecer.
 """, encoding="utf-8")
     print(f"{arquivo.name}: vídeo pronto ({duracao:.0f} s)", flush=True)
 
