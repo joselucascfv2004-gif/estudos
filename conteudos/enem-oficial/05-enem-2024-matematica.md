@@ -649,11 +649,11 @@ Uma indústria faz uma parceria com uma distribuidora de sucos para lançar no m
 
 Dentre essas duas embalagens, a de maior capacidade apresentará volume, em centímetro cúbico, igual a
 
-- A) 4 000 π
-- B) 2 000 π
-- C) 4 000 π
-- D) 1000 π 500
-- E) π
+- A) 4 000π
+- B) 2 000π
+- C) 4 000/π
+- D) 1 000/π
+- E) 500/π
 
 **Resposta:** D
 

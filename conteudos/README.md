@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6648 questões** em **154 tópicos**.
+**6696 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2735 questões
+## ENEM — provas oficiais — 2783 questões
 
 *Provas anteriores*
 
@@ -235,10 +235,10 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2025 — Ciências da Natureza](enem-oficial/02-enem-2025-ciencias-da-natureza.md) | ENEM | 15 | 9 | 4 |
 | [ENEM 2025 — Ciências Humanas](enem-oficial/03-enem-2025-ciencias-humanas.md) | ENEM | 25 | 12 | 4 |
 | [ENEM 2025 — Linguagens](enem-oficial/04-enem-2025-linguagens.md) | ENEM | 18 | 10 | 1 |
-| [ENEM 2024 — Matemática](enem-oficial/05-enem-2024-matematica.md) | ENEM | 13 | 10 | 2 |
-| [ENEM 2024 — Ciências da Natureza](enem-oficial/06-enem-2024-ciencias-da-natureza.md) | ENEM | 13 | 9 | 1 |
-| [ENEM 2024 — Ciências Humanas](enem-oficial/07-enem-2024-ciencias-humanas.md) | ENEM | 26 | 15 | 1 |
-| [ENEM 2024 — Linguagens](enem-oficial/08-enem-2024-linguagens.md) | ENEM | 15 | 17 | 4 |
+| [ENEM 2024 — Matemática](enem-oficial/05-enem-2024-matematica.md) | ENEM | 14 | 24 | 7 |
+| [ENEM 2024 — Ciências da Natureza](enem-oficial/06-enem-2024-ciencias-da-natureza.md) | ENEM | 17 | 22 | 5 |
+| [ENEM 2024 — Ciências Humanas](enem-oficial/07-enem-2024-ciencias-humanas.md) | ENEM | 27 | 17 | 1 |
+| [ENEM 2024 — Linguagens](enem-oficial/08-enem-2024-linguagens.md) | ENEM | 16 | 20 | 4 |
 | [ENEM 2023 — Matemática](enem-oficial/09-enem-2023-matematica.md) | ENEM | 6 | 8 | 5 |
 | [ENEM 2023 — Ciências da Natureza](enem-oficial/10-enem-2023-ciencias-da-natureza.md) | ENEM | 9 | 13 | 6 |
 | [ENEM 2023 — Ciências Humanas](enem-oficial/11-enem-2023-ciencias-humanas.md) | ENEM | 8 | 14 | 8 |
