@@ -1,6 +1,6 @@
 ## 65-enem-2009-matematica.md | 2009 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2009 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2009 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, frações e expoentes foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Proporção:** regra de três com várias grandezas (trabalhadores, horas, dias) e semelhança de triângulos na rampa.
 - **Estatística:** média e mediana (valor do meio, com os dados em ordem); taxa média de variação = variação de y ÷ variação de x.
@@ -124,7 +124,7 @@ x: P parte do ponto mais à esquerda da circunferência e anda um arco d, o que 
 
 ## 68-enem-2009-linguagens.md | 2009 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2009 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2009 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Variação linguística:** a fala muda conforme a intimidade; variações socioculturais; preconceito de quem vê a língua como algo fixo.
 - **Literatura:** Simbolismo (Cruz e Sousa), romance regionalista do Nordeste, Drummond (o "eu" e Itabira), Osman Lins, Brecht.

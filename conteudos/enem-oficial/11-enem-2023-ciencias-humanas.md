@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2023 — Ciências Humanas
 provas: ENEM
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2023 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2023 (1º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2023 — INEP
 ordem: original
 ---
@@ -195,6 +195,113 @@ Qual medida é capaz de minimizar as mudanças apresentadas nas simulações?
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 89
 
 **Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 50
+Superar a história da escravidão como principal marca da trajetória do negro no país tem sido uma tônica daqueles que se dedicam a pesquisar as heranças de origem afro à cultura brasileira. A esse esforço de reconstrução da própria história do país, alia-se agora a criação da plataforma digital Ancestralidades. “A história do negro no Brasil vai continuar sendo contada, e cada passo que a gente dá para trás é um passo que a gente avança”, diz Márcio Black, idealizador da plataforma, sobre o estudo de figuras ainda encobertas pela perspectiva histórica imposta pelos colonizadores da América.
+
+> FIORATI, G. Projeto joga luz sobre negros e revê perspectiva histórica. Disponível em: www1.folha.uol.com.br. Acesso em: 10 nov. 2021 (adaptado).
+
+Em relação ao conhecimento sobre a formação cultural brasileira, iniciativas como a descrita no texto favorecem o(a)
+
+- A) recuperação do tradicionalismo.
+- B) estímulo ao antropocentrismo.
+- C) reforço do etnocentrismo.
+- D) resgate do teocentrismo.
+- E) crítica ao eurocentrismo.
+
+**Resposta:** E
+
+**Explicação:** A plataforma quer contar a história do negro além da escravidão, revendo a "perspectiva histórica imposta pelos colonizadores". Isso é uma crítica ao eurocentrismo, a visão que coloca a Europa como centro e medida da história.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 50
+
+**Assunto:** historia/brasil-colonia
+
+### 53
+A Cordilheira do Himalaia tem mais de 50 milhões de anos, sendo classificada como a maior cordilheira do planeta. Originário da língua sânscrito, comum na região, seu nome quer dizer “morada da neve”. É possível encontrar nessa cordilheira as quinze maiores montanhas do mundo. Ao todo, existem mais de cem picos, que contam com altitudes bem maiores que 7 000 m. O Everest, considerado o ponto mais alto da Terra, tem nada menos que 8 848 m de altitude, e continua crescendo, aproximadamente, 0,8 mm a cada ano.
+
+> Disponível em: https://meioambiente.culturamix.com. Acesso em: 12 nov. 2021 (adaptado).
+
+Qual dinâmica natural é responsável pelo fenômeno apresentado?
+
+- A) Derrame de lava vulcânica.
+- B) Encontro de placas tectônicas.
+- C) Ação do intemperismo químico.
+- D) Sedimentação de erosão eólica.
+- E) Derretimento de geleiras glaciais.
+
+**Resposta:** B
+
+**Explicação:** O Himalaia é uma cordilheira jovem, formada pelo choque entre a placa Indiana e a placa Euroasiática. Esse choque ainda continua, por isso o Everest cresce alguns milímetros por ano.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 53
+
+**Assunto:** geografia/geografia-fisica
+
+### 64
+Txai Suruí, liderança da Juventude Indígena, profere seu discurso na abertura da COP-26
+
+“O clima está esquentando, os animais estão desaparecendo, os rios estão morrendo e nossas plantações não florescem como no passado. A Terra está falando: ela nos diz que não temos mais tempo.”
+
+> VICK, M. Quais são as conquistas do movimento indígena na COP-26. Disponível em: www.nexojornal.com.br. Acesso em: 10 nov. 2021 (adaptado).
+
+O discurso da líder indígena explicita um problema global relacionado ao(à)
+
+- A) manejo tradicional.
+- B) reciclagem residual.
+- C) consumo consciente.
+- D) exploração predatória.
+- E) reaproveitamento energético.
+
+**Resposta:** D
+
+**Explicação:** Txai Suruí fala do aquecimento, de animais desaparecendo, rios morrendo e plantações que não florescem. São consequências da exploração predatória da natureza, um problema global.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 64
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 67
+No sul da Bahia, desde o século XVIII, tem-se registros de um tipo de sistema agroflorestal. Até hoje, esse sistema é característica marcante da paisagem da região, conhecido como cabruca, que consiste no cultivo do cacau à sombra do dossel da floresta nativa. Esse sistema de cultivo do cacau (graças à tolerância da espécie à sombra) é considerado amigável para a vida silvestre, pois apresenta superioridade em termos de conservação da biodiversidade quando comparado com outras plantações tropicais (monoculturas de dendê, seringa ou café), agricultura ou pastagens.
+
+> SOLLBERG, I.; SCHIAVETTI, A.; MORAES, M. E. B. Manejo agrícola no Refúgio de Vida Silvestre de Una: agroflorestas como uma perspectiva de conservação. Revista Árvore, n. 2, 2014 (adaptado).
+
+A prática produtiva apresentada é um exemplo de
+
+- A) difusão comercial de lavouras temporárias.
+- B) utilização sustentável dos recursos naturais.
+- C) ampliação tecnológica da pecuária intensiva.
+- D) padronização alimentar dos povos tradicionais.
+- E) modernização logística de plantios convencionais.
+
+**Resposta:** B
+
+**Explicação:** Na cabruca, o cacau é plantado à sombra da floresta nativa, que é mantida em pé. Isso conserva a biodiversidade enquanto se produz: é um uso sustentável dos recursos naturais.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 67
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
+### 76
+![Figura](enem-2023-d1-q076-1.webp)
+
+> Disponível em: www.insper.edu.br. Acesso em: 27 set. 2021 (adaptado).
+
+Qual fator foi determinante para a mudança do indicador apresentado no gráfico?
+
+- A) Flexibilização legal da prática de aborto.
+- B) Envelhecimento da população brasileira.
+- C) Crescimento dos casos de gravidez precoce.
+- D) Participação feminina no mercado de trabalho.
+- E) Diminuição dos benefícios na licença-maternidade.
+
+**Resposta:** D
+
+**Explicação:** A taxa de fecundidade caiu de 6,3 para 1,5 filho por mulher entre 1960 e 2020. Um dos fatores mais importantes foi a entrada das mulheres no mercado de trabalho (junto com a urbanização e os métodos contraceptivos).
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 76
+
+**Assunto:** geografia/populacao-e-urbanizacao
 
 ## Médio
 
@@ -510,6 +617,211 @@ No contexto do acordo citado, os dois grupos econômicos europeus defendem, resp
 
 **Assunto:** geografia/geopolitica-e-globalizacao
 
+### 46
+![Figura](enem-2023-d1-q046-1.webp)
+
+> SCARELI, G. A máquina de costura e os fios da memória. Revista Brasileira de Pesquisa (Auto)Biográfica, n. 18, maio-ago. 2021.
+
+A definição de Sertão descrita no bordado associa esse recorte espacial a
+
+- A) percursos e roteiros turísticos.
+- B) trajetos e movimentos holísticos.
+- C) vivências e itinerários socioafetivos.
+- D) fronteiras e demarcações territoriais.
+- E) profissões e interesses econômicos.
+
+**Resposta:** C
+
+**Explicação:** O bordado diz que "Sertão é a avó bordando caminhos com linhas coloridas". O espaço é definido pelas lembranças, pelos afetos e pelos caminhos da vida da avó, e não por limites ou pela economia. São vivências e itinerários socioafetivos.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 46
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 48
+No Cerrado, o conhecimento local está sendo cada vez mais subordinado à lógica do agronegócio. De um lado, o capital impõe os conhecimentos biotecnológicos, como mecanismo de universalização de práticas agrícolas e de novas tecnologias, e de outro, o modelo capitalista subordina homens e mulheres à lógica do mercado. Assim, as águas, as sementes, os minerais, as terras (bens comuns) tornam-se propriedade privada. Além do mais, há outros fatores negativos, como a mecanização pesada, a “pragatização” dos seres humanos e não humanos, a violência simbólica, a superexploração, as chuvas de veneno e a violência contra a pessoa.
+
+> CALAÇA, M.; SILVA, E. B.; JESUS, J. N. Territorialização do agronegócio e subordinação do campesinato no Cerrado. Élisée, Rev. Geo. UEG, n. 1, jan.-jun. 2021 (adaptado).
+
+Os elementos descritos no texto, a respeito da territorialização da produção, demonstram que há um
+
+- A) cerco aos camponeses, inviabilizando a manutenção das condições para a vida.
+- B) descaso aos latifundiários, impactando a plantação de alimentos para a exportação.
+- C) desprezo ao assalariado, afetando o engajamento dos sindicatos para o trabalhador.
+- D) desrespeito aos governantes, comprometendo a criação de empregos para o lavrador.
+- E) assédio ao empresariado, dificultando o investimento de maquinários para a produção.
+
+**Resposta:** A
+
+**Explicação:** O texto mostra o agronegócio tomando águas, sementes e terras, que viram propriedade privada, com veneno, superexploração e violência. Isso cerca os camponeses e tira deles as condições para continuar vivendo no lugar.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 48
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 56
+![Figura](enem-2023-d1-q056-1.webp)
+
+> LAERTE. Disponível em: www.laerte.art.br. Acesso em: 23 nov. 2021 (adaptado).
+
+A charge ilustra um anseio presente na sociedade contemporânea, que se caracteriza pela
+
+- A) situação de revolta individual.
+- B) satisfação de desejos pessoais.
+- C) participação em ações decisórias.
+- D) permanência em passividade social.
+- E) conivência em interesses partidários.
+
+**Resposta:** C
+
+**Explicação:** Diante do gênio da lâmpada, a personagem recusa superpoderes (força, visão de raio X, telepatia) e escolhe "poder político". A charge mostra o desejo de participar das decisões da sociedade.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 56
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 57
+Quem se mete pelo caminho do pedido de perdão deve estar pronto a escutar uma palavra de recusa. Entrar na atmosfera do perdão é aceitar medir-se com a possibilidade sempre aberta do imperdoável. Perdão pedido não é perdão a que se tem direito [devido]. É com o preço destas reservas que a grandeza do perdão se manifesta.
+
+> RICOEUR, P. O perdão pode curar. Disponível em: www.lusosofia.net. Acesso em: 14 out. 2019.
+
+A reflexão sobre o perdão apresentada no texto encontra fundamento na(s)
+
+- A) rejeição particular amparada pelo desejo de poder.
+- B) decisão subjetiva determinada pela vontade divina.
+- C) liberdade mitigada pela predestinação do espírito.
+- D) escolhas humanas definidas pelo conhecimento empírico.
+- E) relações interpessoais mediadas pela autonomia dos indivíduos.
+
+**Resposta:** E
+
+**Explicação:** Para Ricoeur, quem pede perdão não tem direito a ele e deve aceitar uma recusa. O perdão depende da decisão livre de quem foi ofendido: é uma relação entre pessoas mediada pela autonomia de cada uma.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 57
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea
+
+### 58
+A Cavalgada de Sant’Ana é uma expressão da devoção dos vaqueiros à padroeira de Caicó (RN). Nas décadas de 1950 a 1970, esse evento, então denominado Cavalaria, era celebrado pelas pessoas que residiam na zona rural do município de Caicó. Essas pessoas usavam os animais (jegues, mulas e cavalos) como único meio de transporte, sobretudo para se dirigirem à cidade nos dias de feiras, trazendo seus produtos para comercializarem. Estando em Caicó no período da Festa de Sant’Ana, esses agricultores se organizavam em cavalgada até o pátio da Catedral de Sant’Ana para louvar a santa e receber bênção para seus animais. Por volta da década de 1970, com a chegada do automóvel à zona rural do município, essa expressão cultural foi extinta. O meio de transporte utilizando os animais passou a ser substituído por carros, sobretudo caminhonetes e caminhões, que transportavam os camponeses para a cidade em dias de feiras e festas. Desde 2002, um grupo de caicoenses retomou essa expressão cultural e, em conjunto com a associação dos vaqueiros, realiza no primeiro domingo da Festa a Cavalgada de Sant’Ana. O evento, além de contar com a participação dos cavaleiros que residem nas zonas rurais, atrai também pessoas que residem em Caicó, cidades vizinhas e amantes das vaquejadas.
+
+FESTA DE SANT’ANA. Disponível em: http://portal.iphan.gov.br. Acesso em: 12 out. 2021 (adaptado).
+
+As mudanças culturais mencionadas no texto caracterizam-se pela presença de
+
+- A) elementos tradicionais e modernos em torno de uma crença religiosa.
+- B) argumentos teológicos e históricos em consequência de uma ordem papal.
+- C) fundamentos estéticos e etnográficos em função de uma cerimônia clerical.
+- D) práticas corporais e esportivas em decorrência de uma imposição eclesiástica.
+- E) discursos filosóficos e antropológicos em resultado de uma determinação paroquial.
+
+**Resposta:** A
+
+**Explicação:** A festa religiosa da padroeira, tradicional, desapareceu com a chegada do automóvel e foi retomada em 2002, agora com vaqueiros, moradores da cidade e fãs de vaquejada. Ela junta elementos tradicionais e modernos em torno da devoção a Sant'Ana.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 58
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 68
+O masseiro, a mulher, e quatro filhos, dormindo numa tapera de quatro paredes de caixão, coberta de zinco. A água do mangue, na maré cheia, ia dentro de casa. Os maruins de noite encalombavam o corpo dos meninos. O mangue tinha ocasião que fedia, e os urubus faziam ponto por ali atrás dos petiscos. Perto da rua lavavam couro de boi, pele de bode para o curtume de um espanhol. Morria peixe envenenado, e quando a maré secava, os urubus enchiam o papo, ciscavam a lama, passeando banzeiros pelas biqueiras dos mocambos no Recife.
+
+> RÊGO, J. L. O moleque Ricardo. Rio de Janeiro: J. Olympio, 1966 (adaptado).
+
+A aglomeração urbana representada no texto resulta em
+
+- A) conservação do meio rural.
+- B) crescimento da vegetação ciliar.
+- C) interferência do espaço geográfico.
+- D) equilíbrio do ambiente das cidades.
+- E) controle da proliferação dos animais.
+
+**Resposta:** C
+
+**Explicação:** O trecho descreve mocambos sobre o mangue do Recife, com casas improvisadas, maré entrando, urubus e peixes envenenados pelo curtume. A aglomeração urbana interfere no espaço geográfico, alterando e degradando o ambiente do mangue.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 68
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
+### 72
+TEXTO I
+
+Por hora, apenas os mais abastados poderão sonhar em viajar ao espaço, seja por um foguete ou por um avião híbrido, mas toda a população global poderá sentir os efeitos dessas viagens e avanços tecnológicos. Para uma aventura dessas, as empresas tiveram que criar novas tecnologias que podem, em algum momento, voltar para a sociedade. A câmera fotográfica, hoje comum no mundo, antes foi uma invenção para ser usada em telescópios, e o titânio, usado até na medicina, foi desenvolvido para a construção de foguetes.
+
+> ORLANDO, G. Corrida espacial dos bilionários pode trazer vantagens para todos. Disponível em: https://noticias.r7.com. Acesso em: 5 nov. 2021 (adaptado).
+
+TEXTO II
+
+![Figura](enem-2023-d1-q072-1.webp)
+
+> CAZO. Disponível em: www.humorpolitico.com.br. Acesso em: 5 nov. 2021.
+
+Os textos apresentam perspectivas da nova corrida espacial que revelam, respectivamente:
+
+- A) Dependência e progresso.
+- B) Expectativa e desconfiança.
+- C) Angústia e adaptação.
+- D) Pioneirismo e retrocesso.
+- E) Receio e civilidade.
+
+**Resposta:** B
+
+**Explicação:** O Texto I tem uma visão otimista: as viagens espaciais dos bilionários podem trazer tecnologias para todos. A charge compara os astronautas aos colonizadores que chegaram às Américas "em paz", e o indígena avisa o alienígena para não confiar. São expectativa e desconfiança, respectivamente.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 72
+
+**Assunto:** sociologia/temas-contemporaneos
+
+### 82
+Os vapores cruzavam os mares transportando pessoas, mercadorias e ideias, e ainda carregavam a mala postal, repleta de mensagens. Múltiplas histórias escritas atravessavam o oceano buscando por notícias de filhos e pais, irmãos, maridos e esposas, noivos e noivas. As missivas traziam boas e más novas, comunicavam alegremente nascimentos e casamentos, também doenças e mortes; enviavam declarações de amor e fidelidade, fotos de família; encaminhavam conselhos de velhos, pedidos de ajuda e de dinheiro; expediam cartas bancárias e de chamada. Essa literatura epistolar possibilitava a transmissão e reconstrução das tradições. Os deslocamentos tornaram-se um dos mais potentes produtores de escritura ao longo da história.
+
+> TRUZZI, O.; MATOS, I. Saudades: sensibilidades no epistolário de e/imigrantes portugueses (Portugal-Brasil 1890-1930). Rev. Bras. Hist., n. 70, jul.-dez. 2015.
+
+Conforme o texto, as correspondências trocadas entre imigrantes no Brasil com os seus países de procedência constituíam um dispositivo tecnológico que possibilitava o(a)
+
+- A) disputa ideológica entre a comunidade de estrangeiros e a de nativos.
+- B) circularidade cultural entre a sociedade de partida e a de acolhimento.
+- C) controle doutrinário das narrativas do cotidiano de origem e de destino.
+- D) fiscalização política dos fluxos de populações do Novo e do Velho Mundo.
+- E) monitoramento social dos grupos de trabalhadores da cidade e do campo.
+
+**Resposta:** B
+
+**Explicação:** As cartas levavam notícias, conselhos, fotos e tradições entre Portugal e Brasil, nos dois sentidos. Elas permitiam a troca de cultura entre a sociedade de onde os imigrantes partiam e a que os recebia: é a circularidade cultural.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 82
+
+**Assunto:** historia/brasil-republica
+
+### 87
+TEXTO I
+
+Oriunda da Romênia, Genny Gleizer aportou no Brasil em 1932. Assim como milhares de judeus do Leste Europeu, sua vinda para o Brasil ocorreu em um momento de ascensão do antissemitismo na Europa que tornava precárias suas vidas. O Brasil se colocava como uma possibilidade na busca por condições de sobrevivência e desenvolvimento.
+
+> ANTÃO, A. C. C. B. Gênero, imigração e política: o caso da judia comunista Genny Gleizer no Governo Vargas (1932-1935). Rio de Janeiro: Casa de Oswaldo Cruz, 2017 (adaptado).
+
+TEXTO II
+
+A presença judaica no Brasil foi criando aos poucos certas desconfianças que se refletiram em órgãos da imprensa e em círculos intelectuais e políticos. Em parte, essa imagem negativa adviria da onda nacionalista surgida no final dos anos 1910, que concebia imigrantes como concorrentes dos trabalhadores brasileiros, ou como seres improdutivos, exploradores da mão de obra e da riqueza autóctone. Além disso, as elites políticas da época acreditavam que os estrangeiros eram portadores das doutrinas anarquista e comunista, estranhas à “índole do povo brasileiro”. Esses “indesejáveis” seriam um mal externo que corromperia a nação.
+
+> MAIO, M. C.; CALAÇA, C. E. Um balanço da bibliografia sobre o antissemitismo no Brasil. In: GRINBERG, K. (Org.). Os judeus no Brasil. Rio de Janeiro: Civilização Brasileira, 2005 (adaptado).
+
+Conforme descrito nos textos, o tratamento dispensado aos grupos mencionados se fundamentava em
+
+- A) preceitos teológicos e religiosos.
+- B) aspectos socioeconômicos e ideológicos.
+- C) regulamentações territoriais e alfandegárias.
+- D) orientações constitucionais e estatutárias.
+- E) decretos legislativos e internacionais.
+
+**Resposta:** B
+
+**Explicação:** Os judeus eram vistos como concorrentes dos trabalhadores ou como exploradores (aspecto socioeconômico) e como portadores do anarquismo e do comunismo (aspecto ideológico). Foi nisso que se baseou a desconfiança contra eles.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 87
+
+**Assunto:** historia/brasil-republica
+
 ## Difícil
 
 ### 54
@@ -679,3 +991,32 @@ A descrição crítica do personagem de Machado de Assis assemelha-se às caract
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 90
 
 **Assunto:** filosofia/filosofia-antiga-e-medieval
+
+### 79
+TEXTO I
+
+Gerineldo dorme porque já está conformado com o seu mundo. Porque já sabe tudo o que lhe pode acontecer após haver submetido todos os objetos que o rodeiam a um minucioso inventário de possibilidades. Seu apartamento, mais que um apartamento, é uma teoria de sorte e de azar. Melhor que ninguém, Gerineldo conhece o coeficiente da dilatação de suas janelas e mantém marcado no termômetro, com uma linha vermelha, o ponto em que se quebrarão os vidros, despedaçados em estilhaços de morte. Sabe que os arquitetos e os engenheiros já previram tudo, menos o que nunca já aconteceu.
+
+> MÁRQUEZ, G. G. O pessimista. In: Textos do Caribe. Rio de Janeiro: Record, 1981.
+
+TEXTO II
+
+A situação é o sujeito inteiro (ele não é nada a não ser a sua situação) e é também a coisa inteira (nunca há mais nada senão as coisas). É o sujeito a elucidar as coisas pela sua própria superação, se assim quisermos; ou são as coisas a reenviar ao sujeito a imagem dele. É a total facticidade, a contingência absoluta do mundo, do meu nascimento, do meu lugar, do meu passado, dos meus redores — e é a minha liberdade sem limites que faz com que haja para mim uma facticidade.
+
+> SARTRE, J.-P. O ser e o nada: ensaio de ontologia fenomenológica. Petrópolis: Vozes, 1997 (adaptado).
+
+A postura determinista adotada pelo personagem Gerineldo contrasta com a ideia existencialista contida no pensamento filosófico de Sartre porque
+
+- A) evidencia a manifestação do inconsciente.
+- B) nega a possibilidade de transcendência.
+- C) contraria o conhecimento difuso.
+- D) sustenta a fugacidade da vida.
+- E) refuta a evolução biológica.
+
+**Resposta:** B
+
+**Explicação:** Gerineldo acha que tudo já está previsto e se conforma com o mundo. Para Sartre, a pessoa é livre e se define ao superar a sua situação (transcendência). A postura determinista do personagem nega essa possibilidade de superação.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 79
+
+**Assunto:** filosofia/filosofia-moderna-e-contemporanea

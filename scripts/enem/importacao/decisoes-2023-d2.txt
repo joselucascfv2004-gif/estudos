@@ -1,0 +1,102 @@
+## 09-enem-2023-matematica.md | 2023 | 2 | 2º dia, caderno amarelo | Matemática
+auto: sim
+mesclar: sim
+@138 m matematica/grandezas-medidas-escalas fig
+x: Na tela, a maior altitude do voo fica 1 quadradinho (1 cm) acima do eixo. Esse 1 cm representa 5 km = 500 000 cm. A escala é 1 : 500 000.
+@142 m matematica/geometria-plana fig
+x: As áreas dos círculos são proporcionais ao quadrado dos diâmetros. Se o triângulo fosse retângulo (α = 90°), a pizza do professor teria área igual à soma das outras. Para a área ser maior, o lado oposto a α precisa ser maior que no triângulo retângulo, o que acontece quando α é obtuso: 90° < α < 180°.
+@144 m matematica/progressoes fig
+x: As vendas de I crescem 10 por mês (80, 90, 100, ...) e as de II caem 20 por mês (190, 170, 150, ...). Julho: I = 110 e II = 130. Agosto: I = 120 e II = 110, quando I supera II pela primeira vez. A produção de II para no mês seguinte, setembro.
+@145 d matematica/estatistica fig
+x: Pelo gráfico: 10 motoristas com 1 viagem, 10 com 2, 55 com 3, 25 com 4, 50 com 6 e 10 com 7 (total 160). Moda = 3. A mediana é a média do 80º e do 81º valores; até 3 viagens há 75 motoristas, então os dois valem 4. A média é (10 + 20 + 165 + 100 + 300 + 70) ÷ 160 = 665 ÷ 160 ≈ 4,16. Logo, moda < mediana < média.
+@146 m matematica/geometria-espacial fig
+x: Das 6h às 15h (9 horas), o nível subiu de 0,5 m para 3,2 m, ou seja, 2,7 m, o que dá 0,3 m por hora. Com base de 3 m², entram 3 × 0,3 = 0,9 m³ por hora.
+@147 d matematica/geometria-plana fig
+e: Num certo momento de um jogo digital, a tela apresenta a imagem representada na figura. O ponto Q₁ representa a posição de um jogador que está com a bola, os pontos Q₂, Q₃, Q₄, Q₅ e Q₆ também indicam posições de jogadores da mesma equipe, e os pontos A e B indicam os dois pés da trave mais próxima deles. No momento da partida retratado, o jogador Q₁ tem a posse da bola, que será passada para um dos outros jogadores das posições Qₙ, n ∈ {2, 3, 4, 5, 6}, cujo ângulo AQₙB tenha a mesma medida do ângulo α = AQ₁B. || [fig2] || Qual é o jogador que receberá a bola?
+x: Ângulos inscritos que "enxergam" a mesma corda AB num mesmo arco de circunferência têm a mesma medida. O jogador que está na mesma circunferência que passa por A, B e Q₁, e do mesmo lado de AB, vê a trave sob o mesmo ângulo α. Na figura, esse jogador é o Q₃.
+@148 d matematica/numeros-e-operacoes fig
+x: Vértices em PA de razão 2 só podem ser 1, 3, 5 ou 2, 4, 6. Com 1, 3, 5 nos vértices, os lados ficam com 2, 4, 6. Cada vértice conta em dois lados, então a soma dos três lados é 2 × 9 + 12 = 30, e cada lado vale 10. Com 2, 4, 6, sobram 1, 3, 5: 2 × 12 + 9 = 33, e cada lado vale 11. As duas montagens funcionam.
+@152 m matematica/progressoes fig
+x: Os números são 1, 5, 12, 22, 35, 51: as diferenças são 4, 7, 10, 13, 16, crescendo de 3 em 3. As próximas diferenças são 19 e 22: 51 + 19 = 70 (sétimo) e 70 + 22 = 92 (oitavo). A fórmula n(3n − 1)/2 confirma: 8 · 23 / 2 = 92.
+@153 m matematica/trigonometria fig
+x: A cadeira faz um movimento circular uniforme, e a altura varia como um cosseno: começa no máximo, desce suavemente até o mínimo e volta, repetindo-se. O gráfico é uma curva suave (sem bicos), que começa no ponto mais alto.
+@154 m matematica/estatistica fig
+x: É preciso massa abaixo de 80 kg e altura acima de 1,65 m. No gráfico, só dois estudantes estão nessa região (com cerca de 65 kg e 1,68 m e 70 kg e 1,70 m). São 2 de 10, ou seja, 20%.
+@157 d matematica/probabilidade fig
+s: $, , & => $, %, &
+s: p₃as => p₃ as
+x: Há 10 + 26 + 26 + 6 = 68 caracteres. Tipo I: 68 · 67 · 66 · 65 ≈ 19,5 milhões de senhas. Tipo II: 52 · 51 · 50 · 10 · 6 = 7 956 000. Tipo III: 52 · 51 · 10 · 9 · 6 · 5 = 7 160 400. Quanto mais senhas possíveis, menor a chance de acertar: p₁ < p₂ < p₃, e o tipo I é o mais seguro.
+@159 m matematica/exponencial-e-logaritmo fig
+e: O esquema mostra como a intensidade luminosa decresce com o aumento da profundidade em um rio, sendo L₀ a intensidade na sua superfície. || [fig1] || Considere que a intensidade luminosa diminui, a cada metro acrescido na profundidade, segundo o mesmo padrão do esquema. A intensidade luminosa correspondente à profundidade de 6 m é igual a
+a: (1/9)·L₀ | (16/27)·L₀ | (32/243)·L₀ | (64/729)·L₀ | (128/2187)·L₀
+x: A cada metro, a intensidade é multiplicada por 2/3 (L₀, 2/3 L₀, 4/9 L₀, 8/27 L₀). A 6 m: (2/3)⁶ · L₀ = (64/729) · L₀.
+@160 m matematica/funcoes-afim-e-quadratica fig
+e: Analisando as vendas de uma empresa, o gerente concluiu que o montante diário arrecadado, em milhar de real, poderia ser calculado pela expressão V(x) = x²/4 − 10x + 105, em que os valores de x representam os dias do mês, variando de 1 a 30. || Um dos fatores para avaliar o desempenho mensal da empresa é verificar qual é o menor montante diário V₀ arrecadado ao longo do mês e classificar o desempenho conforme as categorias apresentadas a seguir, em que as quantidades estão expressas em milhar de real. || • Ótimo: V₀ ≥ 24 // • Bom: 20 ≤ V₀ < 24 // • Normal: 10 ≤ V₀ < 20 // • Ruim: 4 ≤ V₀ < 10 // • Péssimo: V₀ < 4 || No caso analisado, qual seria a classificação do desempenho da empresa?
+x: O mínimo da parábola está no vértice: x = −(−10) ÷ (2 · 1/4) = 20, que está entre 1 e 30. V(20) = 400/4 − 200 + 105 = 5. Como 4 ≤ 5 < 10, o desempenho é "Ruim".
+@162 m matematica/funcoes-afim-e-quadratica fig
+s:  Criptomoeda B (milhar de real) =>  No gráfico, o eixo vertical mostra o valor da criptomoeda B (milhar de real).
+x: A está mais valorizada quando a coordenada horizontal (A) é maior que a vertical (B). 9h (3; 0,5), 12h (5,5; 3), 13h (6; 1,5) e 14h (3,5; 2) atendem. Em 10h (2; 2) e 11h (4; 4) os valores são iguais, e em 15h, 16h e 17h B é maior. São 4 instantes.
+@164 d matematica/geometria-espacial fig
+e: Um artista plástico esculpe uma escultura a partir de um bloco de madeira de lei, em etapas. Inicialmente, esculpe um cone reto com 36 cm de altura e diâmetro da base medindo 18 cm. Em seguida, remove desse cone um cone menor, cujo diâmetro da base mede 6 cm, obtendo, assim, um tronco de cone, conforme ilustrado na figura. || [fig1] || Em seguida, perfura esse tronco de cone, removendo um cilindro reto, de diâmetro 6 cm, cujo eixo de simetria é o mesmo do cone original. Dessa forma, ao final, a escultura tem a forma de um tronco de cone com uma perfuração cilíndrica de base a base. || [fig2] || O tipo de madeira utilizada para produzir essa escultura tem massa igual a 0,6 g por centímetro cúbico de volume. Utilize 3 como aproximação para π. Qual é a massa, em grama, dessa escultura?
+x: Cone grande: (1/3) · 3 · 9² · 36 = 2 916 cm³. O cone pequeno tem raio 3 (um terço), então altura 12: (1/3) · 3 · 3² · 12 = 108 cm³. Tronco: 2 808 cm³. O cilindro tem raio 3 e a altura do tronco, 24 cm: 3 · 9 · 24 = 648 cm³. Sobram 2 160 cm³, e a massa é 2 160 × 0,6 = 1 296 g.
+@165 f matematica/estatistica fig
+x: Média ponderada: (75 × 2 000 + 25 × 7 000) ÷ 100 = (150 000 + 175 000) ÷ 100 = R$ 3 250,00.
+@167 f matematica/funcoes-afim-e-quadratica fig
+x: O volume acumulado nunca diminui. De 0 a 3 s cresce em linha reta (vazão constante), de 3 a 8 s fica parado (torneira fechada) e de 8 a 11 s volta a crescer com a mesma inclinação.
+@168 f matematica/numeros-e-operacoes fig
+x: No quadrinho, 1 = urapum, 2 = okosa, 3 = okosa urapum, 4 = okosa okosa, 6 = okosa okosa okosa. Conta-se de 2 em 2 (okosa) e acrescenta-se urapum quando sobra 1. Então 5 = okosa okosa urapum e 7 = okosa okosa okosa urapum.
+@169 f matematica/estatistica fig
+x: Médias de dois meses seguidos: out-nov 200, nov-dez 175, dez-jan 325, jan-fev 275, fev-mar 150 mm. A maior é dezembro-janeiro, então ele deve plantar no início de dezembro.
+@172 m matematica/funcoes-afim-e-quadratica fig
+x: Nos primeiros 10 minutos, a distância à base cresce de 0 a 3 km: o vigilante se afasta em linha reta. De 10 a 20 min, a distância fica em 3 km: ele anda num arco de circunferência com centro na base. De 20 a 30 min, volta em linha reta até a base. A trajetória tem a forma de um setor circular.
+@174 f matematica/geometria-plana fig
+x: O telhado é um triângulo equilátero com um vértice no centro da lua. A parte da lua escondida fica entre os dois lados do triângulo que saem do centro (ângulo de 60°) e o contorno da lua: é um setor circular.
+@175 f matematica/geometria-plana fig
+x: A piscina tem lado √400 = 20 m. Com a calçada de 5 m de cada lado, o quadrado total tem lado 30 m e área 900 m². A calçada ocupa 900 − 400 = 500 m².
+@176 f matematica/funcoes-afim-e-quadratica fig
+x: O sinal fica em zero de 10 a 12 min (2 min) e de 16 a 20 min (4 min). No total, o celular ficou 6 minutos sem sinal.
+@178 d matematica/geometria-espacial fig
+x: Pisos: 3 × (1,0 × 0,25) = 0,75 m². Espelhos: 3 × (1,0 × 0,20) = 0,60 m². Cada parede lateral é uma "escadinha" formada por retângulos de 0,25 de largura e alturas 0,60, 0,40 e 0,20: 0,15 + 0,10 + 0,05 = 0,30 m²; as duas dão 0,60 m². Total: 0,75 + 0,60 + 0,60 = 1,95 m².
+@179 f matematica/geometria-plana fig
+x: A estrela está na fileira E. Subindo mais quatro fileiras para o norte, a pessoa chega à fileira I. Olhando para a direita (leste), as poltronas depois da escada são a 4, a 5 e a 6; a terceira é a 6. A poltrona é a I6.
+## 10-enem-2023-ciencias-da-natureza.md | 2023 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
+auto: sim
+mesclar: sim
+@91 f fisica/ondulatoria-e-optica fig
+x: Quanto mais longo o barbante, mais energia da vibração se perde pelo caminho (atrito, vibração do próprio fio). O som chega mais fraco, ou seja, com menor amplitude. A frequência (altura) e a velocidade não mudam com o comprimento.
+@96 m quimica/quimica-organica fig
+x: A gasolina de alto desempenho deve ter hidrocarbonetos saturados, com 8 a 12 carbonos e cadeia ramificada. O 2,2,4-trimetilpentano (isoctano) tem 8 carbonos, é saturado e muito ramificado. O n-decano e o n-heptano não são ramificados, o composto IV tem dupla ligação e o V é um álcool.
+@98 m fisica/eletricidade fig
+x: Cada conjunto é uma lâmpada em paralelo com R. Quando L₂ queima, o seu conjunto fica só com R, que tem resistência maior que a do paralelo. A resistência total aumenta e a corrente total diminui. L₁ e L₃ recebem menos corrente e brilham menos.
+@102 m fisica/dinamica fig
+e: Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas M₁ e M₂, com velocidade constante. A fim de que o exercício seja realizado com a mesma força F, os usuários devem ser orientados a respeito da relação entre as cargas nos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças. || Em ambos os aparelhos, considere as cordas inextensíveis, as massas das polias e das cordas desprezíveis e que não há dissipação de energia. || Aparelho do tipo 1 || [fig2] || [fig1] || Para essa academia, qual deve ser a razão M₂/M₁ informada aos usuários?
+a: 1/4 | 1/2 | 1 | 2 | 4
+x: No tipo 1, só há polias fixas: F = M₁·g. No tipo 2, a polia móvel é sustentada por dois trechos de corda, e cada um faz força F: 2F = M₂·g. Com a mesma força F, M₂ = 2·M₁, e a razão M₂/M₁ é 2.
+@106 f fisica/cinematica fig
+x: No ponto mais alto, a esfera para por um instante (v = 0) antes de começar a descer. A aceleração continua sendo a da gravidade, diferente de zero e para baixo, durante todo o movimento.
+@109 f biologia/seres-vivos fig
+x: Musgos e samambaias dependem da água para que o gameta masculino nade até o feminino. Nas gimnospermas e angiospermas, o grão de pólen forma o tubo polínico, que leva o gameta masculino até o óvulo sem precisar de água.
+@111 m biologia/seres-vivos fig
+x: Ao tirar um anel completo da casca, retira-se o floema, que leva a seiva elaborada (açúcares feitos nas folhas) até as raízes. Sem esse alimento, as raízes morrem e depois a planta inteira. Se o anel não for completo, ainda sobra caminho para a seiva.
+@112 m quimica/quimica-ambiental fig
+x: O texto diz que os microrganismos não conseguem quebrar moléculas ramificadas. A cadeia carbônica do tensoativo da figura é muito ramificada; trocá-la por uma cadeia normal (sem ramificações) torna o detergente biodegradável.
+@114 m fisica/ondulatoria-e-optica fig
+e: O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações refletidas (ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido com a camada rochosa. A segunda vibração deve-se à reflexão do pulso na interface inferior. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso. || [fig1] || A velocidade do som na camada líquida, em metro por segundo, é
+x: A diferença entre os ecos, 1,1 − 0,5 = 0,6 s, é o tempo que o som leva para descer e subir dentro do líquido: 2 × 450 = 900 m. A velocidade no líquido é 900 ÷ 0,6 = 1 500 m/s.
+@116 m biologia/ecologia fig
+x: O Aldrin tem baixa polaridade, então se dissolve em gorduras, e não em água. Entre os fluidos, o leite é o que tem mais gordura, por isso nele a concentração do inseticida tende a ser maior.
+@118 f quimica/solucoes fig
+x: O refrigerante comum tem muito açúcar dissolvido. Com quase o mesmo volume, ele tem mais massa, portanto maior densidade que o diet. (Por isso, numa vasilha com água, a lata comum afunda e a diet bóia.)
+@119 m fisica/termologia fig
+x: Com volume e quantidade de gás constantes, a pressão é proporcional à temperatura absoluta: P/T é constante. No resfriamento, os pontos vão de (T₀, P₀) até (T, P) por uma reta que, prolongada, passa pela origem, com a pressão diminuindo junto com a temperatura.
+@129 d quimica/estequiometria fig
+s: g mol–1 => g/mol
+x: Cada frasco tem 5,25 g ÷ 525 g/mol = 0,01 mol de Hg₂(NO₃)₂, que reage com 0,02 mol de NaCl (0,02 × 58 = 1,16 g) e forma no máximo 0,01 × 472 = 4,72 g de Hg₂Cl₂. Até 1,16 g de NaCl, a massa de precipitado cresce em linha reta; depois disso fica constante em 4,72 g, porque o mercúrio acabou.
+@130 d fisica/dinamica fig
+x: O atrito máximo é 0,2 × 200 × 10 = 400 N. Na aceleração (3 m/s²), a caixa precisa de 200 × 3 = 600 N para frente; o atrito dá 400 N, e a corda da frente (2) completa com 200 N. Na frenagem (5 m/s²), precisa de 1 000 N para trás; o atrito dá 400 N, e a corda de trás (1) faz 600 N. A outra corda fica frouxa em cada caso.
+@131 f biologia/ecologia fig
+x: Metais tóxicos não são digeridos nem usados como energia pelos seres vivos. A planta os absorve e os acumula nos seus tecidos, retirando-os da água. Depois, as plantas podem ser retiradas e descartadas.
+@132 f biologia/ecologia fig
+x: Os decompositores transformam os detritos (restos orgânicos) em amônia: é a amonificação, a etapa 2 do esquema. Sem eles, essa etapa não aconteceria.
+@134 d quimica/quimica-organica fig
+x: O ibuprofeno tem um carbono quiral (ligado a quatro grupos diferentes: H, CH₃, COOH e o anel), por isso tem isomeria óptica. Entre os outros, só o butilbrometo de escopolamina tem carbono quiral, o carbono ligado a H, ao anel, ao CH₂OH e ao grupo éster.

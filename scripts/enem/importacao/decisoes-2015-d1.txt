@@ -1,5 +1,5 @@
 ## 43-enem-2015-ciencias-humanas.md | 2015 | 1 | 1º dia, caderno azul | Ciências Humanas
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2015 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2015 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2015, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Filosofia:** Trasímaco (justiça como convenção), Tomás de Aquino (monarquia e bem comum), Hobbes (guerra de todos contra todos), Paulo Freire (pensamento crítico) e Beauvoir.
 - **Sociologia:** Weber (desencantamento do mundo), Sérgio Buarque (personalismo), alteridade, princípio da precaução e movimentos sociais.
@@ -101,7 +101,7 @@ x: O texto critica uma sociedade em que "aparecer é mais do que ser": selfies, 
 x: Para Mannheim, a pessoa fala o idioma do seu grupo e pensa à maneira do seu grupo: as palavras e os significados disponíveis definem como ela enxerga o mundo. O conhecimento da realidade é condicionado pela sociedade.
 
 ## 42-enem-2015-ciencias-da-natureza.md | 2015 | 1 | 1º dia, caderno azul | Ciências da Natureza
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2015 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2015 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2015, Ciências da Natureza foi aplicada no 1º dia, junto com Ciências Humanas. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Química:** equilíbrio e pressão parcial, constantes de equilíbrio combinadas, estequiometria com pureza e rendimento, óxidos ácidos, pilhas (quem tem maior E° se reduz).
 - **Física:** energia cinética, mistura de águas (média ponderada), timbre, refração, fissão em cadeia e calor específico.

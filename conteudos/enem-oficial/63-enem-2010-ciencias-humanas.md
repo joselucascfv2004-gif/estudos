@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2010 — Ciências Humanas
 provas: ENEM
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2010 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2010 (1º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2010 — INEP
 ordem: original
 ---

@@ -1,6 +1,6 @@
 ## 04-enem-2025-linguagens.md | 2025 | 1 | 1º dia, caderno azul | Linguagens
 auto: sim
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2025 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2025 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. O texto que serve a várias questões aparece repetido em cada uma delas. As explicações foram escritas para este aplicativo.
 - **Crônica:** parte de fatos do dia a dia do autor e faz uma reflexão pessoal sobre eles.
 - **Norma-padrão:** é exigida por certos gêneros (leis, documentos oficiais), e não pelo assunto.
@@ -108,7 +108,7 @@ x: O desenho ilustra a palavra árabe "Gufra", e a frase escrita ao lado diz o q
 
 ## 03-enem-2025-ciencias-humanas.md | 2025 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2025 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2025 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Pinturas e imagens citadas nas questões foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
 - **Filosofia antiga:** Heráclito (os opostos e o devir), Platão (filósofos governam a cidade justa; crítica aos sofistas), Aristóteles (monarquia, aristocracia e democracia e seus desvios).
 - **Filosofia moderna e contemporânea:** Bentham (utilitarismo: punir para maximizar a felicidade), Foucault (disciplina espalhada pelas instituições), Marcuse (sociedade unidimensional), Bobbio (direitos humanos históricos).

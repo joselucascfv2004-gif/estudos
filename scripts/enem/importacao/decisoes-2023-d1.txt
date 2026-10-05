@@ -1,0 +1,64 @@
+## 12-enem-2023-linguagens.md | 2023 | 1 | 1º dia, caderno azul | Linguagens
+auto: sim
+mesclar: sim
+@16 f portugues/funcoes-generos-e-variacao fig
+x: O texto compara a Libras às línguas orais: assim como "mandioca" e "aipim", os sinais variam conforme a região, a idade, o gênero e a época. Ou seja, a Libras passa pelos mesmos fenômenos de variação de qualquer língua.
+@18 m literatura/pre-modernismo-ao-contemporaneo v fig
+e: TEXTO I || Alegria, alegria // O sol nas bancas de revista // Me enche de alegria e preguiça // Quem lê tanta notícia // Eu vou // Por entre fotos e nomes // Os olhos cheios de cores // O peito cheio de amores vãos // Eu vou // Por que não, por que não? || > VELOSO, C. Alegria, alegria. Rio de Janeiro: Polygram, 1990 (fragmento). || TEXTO II || Anjos tronchos // Uns anjos tronchos do Vale do Silício // Desses que vivem no escuro em plena luz // Disseram vai ser virtuoso no vício // Das telas dos azuis mais do que azuis // Agora a minha história é um denso algoritmo // Que vende venda a vendedores reais // Neurônios meus ganharam novo outro ritmo // E mais, e mais, e mais, e mais, e mais || > VELOSO, C. Meu coco. Rio de Janeiro: Sony, 2021 (fragmento). || Embora oriundas de momentos históricos diferentes, essas letras de canção têm em comum a
+x: Em "Alegria, alegria" (1967), o eu lírico caminha entre bancas de revista cheias de notícias, fotos e nomes. Em "Anjos tronchos" (2021), aparecem as telas, os algoritmos e o "mais, e mais, e mais". Nas duas letras há uma percepção do excesso de informações produzido pela tecnologia de cada época.
+@22 m literatura/pre-modernismo-ao-contemporaneo fig
+x: A cantiga foi ensinada pelos negros mais velhos aos mais novos e vem dos homens da África. Luandi não entende as palavras, mas a canta. É uma herança passada de boca em boca, que preserva a ancestralidade africana pela tradição oral.
+@23 m portugues/interpretacao-de-texto fig
+x: O Texto I mostra que um desenho "do futuro" repetia piadas machistas e papéis antigos para a mulher. O Texto II explica que masculino e feminino são "formações imaginárias" construídas pela sociedade. A representação de Jane Jetson reproduz essas construções imaginárias cristalizadas.
+@24 f portugues/interpretacao-de-texto fig
+x: O anúncio diz "Eu uso máscara, mas não me calo!" e termina com "Não se cale! Denuncie!", informando o Disque 180 durante o isolamento social. O objetivo é incentivar as mulheres a denunciar a violência nesse período.
+@29 d literatura/pre-modernismo-ao-contemporaneo fig
+x: O narrador fala com solenidade dos inconfidentes e dos "ratos dignos e solenes" de Ouro Preto, mas chega à imagem dos ratos entrando no crânio de Tiradentes. O efeito desconcertante vem do contraste entre o tom grandioso e a imagem repugnante.
+@30 m literatura/pre-modernismo-ao-contemporaneo fig
+x: A Companhia cria proibições absurdas, castigos rigorosos e cacos de vidro nos muros, e o pai sugere que quem desobedecer some ("nhoc"). Essa atmosfera remete à ditadura dos anos 1970, com o medo presente no dia a dia.
+@33 m artes/artes-e-educacao-fisica fig
+x: Os nazistas chamavam de "arte degenerada" a arte moderna (expressionista, como a de Segall) que fugia do ideal clássico que defendiam e que, para eles, não servia à sua ideologia. A obra foi perseguida porque sua estética era vista como inconveniente para o regime.
+@34 m artes/artes-e-educacao-fisica fig
+s:  TEXTO II =>  || TEXTO II
+x: O espetáculo Gira, do Grupo Corpo, usa movimentos inspirados nos cultos afro-brasileiros (o transe, as saias brancas), mas o texto avisa que não é uma imitação desses cultos. É uma recriação artística, de dança de palco, a partir de práticas religiosas populares.
+@35 f artes/artes-e-educacao-fisica fig
+x: O texto apresenta números de crescimento do público, da audiência e o reconhecimento do Comitê Olímpico Internacional. Tudo isso mostra um cenário favorável à expansão do esporte eletrônico.
+@36 m artes/artes-e-educacao-fisica fig
+x: O Marabaixo nasceu dos lamentos pelos escravizados mortos nos navios negreiros e depois virou um ciclo de danças, cantos e festas. Um episódio trágico ganhou novo sentido em práticas culturais e festivas.
+@40 m artes/artes-e-educacao-fisica fig
+x: Para competir entre as mulheres, a atleta trans precisa manter a testosterona abaixo de um limite fixado pelo COI. A inclusão depende de um padrão biológico, e é esse o limite apontado pelo texto.
+@44 f portugues/interpretacao-de-texto fig
+x: A campanha pergunta "Por que é tão importante amamentar?" e lista vantagens para o bebê: anticorpos, menor risco de asma e obesidade, exercício para a face, fala e respiração. O objetivo é divulgar os benefícios da amamentação.
+## 11-enem-2023-ciencias-humanas.md | 2023 | 1 | 1º dia, caderno azul | Ciências Humanas
+auto: sim
+mesclar: sim
+@46 m geografia/populacao-e-urbanizacao fig
+x: O bordado diz que "Sertão é a avó bordando caminhos com linhas coloridas". O espaço é definido pelas lembranças, pelos afetos e pelos caminhos da vida da avó, e não por limites ou pela economia. São vivências e itinerários socioafetivos.
+@48 m geografia/economia-agropecuaria-industria-energia fig
+x: O texto mostra o agronegócio tomando águas, sementes e terras, que viram propriedade privada, com veneno, superexploração e violência. Isso cerca os camponeses e tira deles as condições para continuar vivendo no lugar.
+@50 f historia/brasil-colonia fig
+x: A plataforma quer contar a história do negro além da escravidão, revendo a "perspectiva histórica imposta pelos colonizadores". Isso é uma crítica ao eurocentrismo, a visão que coloca a Europa como centro e medida da história.
+@53 f geografia/geografia-fisica fig
+x: O Himalaia é uma cordilheira jovem, formada pelo choque entre a placa Indiana e a placa Euroasiática. Esse choque ainda continua, por isso o Everest cresce alguns milímetros por ano.
+@56 m sociologia/temas-contemporaneos fig
+x: Diante do gênio da lâmpada, a personagem recusa superpoderes (força, visão de raio X, telepatia) e escolhe "poder político". A charge mostra o desejo de participar das decisões da sociedade.
+@57 m filosofia/filosofia-moderna-e-contemporanea fig
+x: Para Ricoeur, quem pede perdão não tem direito a ele e deve aceitar uma recusa. O perdão depende da decisão livre de quem foi ofendido: é uma relação entre pessoas mediada pela autonomia de cada uma.
+@58 m sociologia/temas-contemporaneos fig
+x: A festa religiosa da padroeira, tradicional, desapareceu com a chegada do automóvel e foi retomada em 2002, agora com vaqueiros, moradores da cidade e fãs de vaquejada. Ela junta elementos tradicionais e modernos em torno da devoção a Sant'Ana.
+@64 f geografia/biomas-e-questoes-ambientais fig
+x: Txai Suruí fala do aquecimento, de animais desaparecendo, rios morrendo e plantações que não florescem. São consequências da exploração predatória da natureza, um problema global.
+@67 f geografia/biomas-e-questoes-ambientais fig
+x: Na cabruca, o cacau é plantado à sombra da floresta nativa, que é mantida em pé. Isso conserva a biodiversidade enquanto se produz: é um uso sustentável dos recursos naturais.
+@68 m geografia/populacao-e-urbanizacao fig
+x: O trecho descreve mocambos sobre o mangue do Recife, com casas improvisadas, maré entrando, urubus e peixes envenenados pelo curtume. A aglomeração urbana interfere no espaço geográfico, alterando e degradando o ambiente do mangue.
+@72 m sociologia/temas-contemporaneos fig
+x: O Texto I tem uma visão otimista: as viagens espaciais dos bilionários podem trazer tecnologias para todos. A charge compara os astronautas aos colonizadores que chegaram às Américas "em paz", e o indígena avisa o alienígena para não confiar. São expectativa e desconfiança, respectivamente.
+@76 f geografia/populacao-e-urbanizacao fig
+x: A taxa de fecundidade caiu de 6,3 para 1,5 filho por mulher entre 1960 e 2020. Um dos fatores mais importantes foi a entrada das mulheres no mercado de trabalho (junto com a urbanização e os métodos contraceptivos).
+@79 d filosofia/filosofia-moderna-e-contemporanea fig
+x: Gerineldo acha que tudo já está previsto e se conforma com o mundo. Para Sartre, a pessoa é livre e se define ao superar a sua situação (transcendência). A postura determinista do personagem nega essa possibilidade de superação.
+@82 m historia/brasil-republica fig
+x: As cartas levavam notícias, conselhos, fotos e tradições entre Portugal e Brasil, nos dois sentidos. Elas permitiam a troca de cultura entre a sociedade de onde os imigrantes partiam e a que os recebia: é a circularidade cultural.
+@87 m historia/brasil-republica fig
+x: Os judeus eram vistos como concorrentes dos trabalhadores ou como exploradores (aspecto socioeconômico) e como portadores do anarquismo e do comunismo (aspecto ideológico). Foi nisso que se baseou a desconfiança contra eles.

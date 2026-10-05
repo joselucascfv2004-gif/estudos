@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2018 — Matemática
 provas: ENEM
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2018 (2º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2018 — INEP
 ordem: original
 ---

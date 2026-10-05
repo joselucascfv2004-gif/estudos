@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2011 — Linguagens
 provas: ENEM
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2011 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2011 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 fonte: ENEM 2011 — INEP
 ordem: original
 ---

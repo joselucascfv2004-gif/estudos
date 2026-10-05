@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2021 — Matemática
 provas: ENEM
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2021 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2021 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 fonte: ENEM 2021 — INEP
 ordem: original
 ---

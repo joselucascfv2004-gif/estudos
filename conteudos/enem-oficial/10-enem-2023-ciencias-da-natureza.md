@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2023 — Ciências da Natureza
 provas: ENEM
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2023 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2023 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 fonte: ENEM 2023 — INEP
 ordem: original
 ---
@@ -194,6 +194,126 @@ Nas viagens por grandes distâncias, tais músculos são fundamentais, pois favo
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 127
 
 **Assunto:** biologia/citologia
+
+### 91
+Na tirinha de Mauricio de Sousa, os personagens Cebolinha e Cascão fazem uma brincadeira utilizando duas latas e um barbante. Ao perceberem que o som pode ser transmitido através do barbante, resolvem alterar o comprimento do barbante para ficar cada vez mais extenso. As demais condições permaneceram inalteradas durante a brincadeira.
+
+![Figura](enem-2023-d2-q091-1.webp)
+
+> SOUSA, M. Disponível em: www.monica.com.br. Acesso em: 2 out. 2012 (adaptado).
+
+Na prática, à medida que se aumenta o comprimento do barbante, ocorre a redução de qual característica da onda sonora?
+
+- A) Altura.
+- B) Período.
+- C) Amplitude.
+- D) Velocidade.
+- E) Comprimento de onda.
+
+**Resposta:** C
+
+**Explicação:** Quanto mais longo o barbante, mais energia da vibração se perde pelo caminho (atrito, vibração do próprio fio). O som chega mais fraco, ou seja, com menor amplitude. A frequência (altura) e a velocidade não mudam com o comprimento.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 91
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 106
+Um professor lança uma esfera verticalmente para cima, a qual retorna, depois de alguns segundos, ao ponto de lançamento. Em seguida, lista em um quadro todas as possibilidades para as grandezas cinemáticas.
+
+![Figura](enem-2023-d2-q106-1.webp)
+
+Ele solicita aos alunos que analisem as grandezas cinemáticas no instante em que a esfera atinge a altura máxima, escolhendo uma combinação para os módulos e sentidos da velocidade e da aceleração. A escolha que corresponde à combinação correta é
+
+- A) v = 0 e a ≠ 0 para cima.
+- B) v ≠ 0 para cima e a = 0.
+- C) v = 0 e a ≠ 0 para baixo.
+- D) v ≠ 0 para cima e a ≠ 0 para cima.
+- E) v ≠ 0 para baixo e a ≠ 0 para baixo.
+
+**Resposta:** C
+
+**Explicação:** No ponto mais alto, a esfera para por um instante (v = 0) antes de começar a descer. A aceleração continua sendo a da gravidade, diferente de zero e para baixo, durante todo o movimento.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** fisica/cinematica
+
+### 109
+Durante a evolução das plantas, ocorreu uma transição do ambiente aquático para o ambiente terrestre graças ao surgimento de algumas estruturas que as tornaram independentes da água. Esse fato permitiu maior dispersão desse grupo de seres vivos, sendo possível observá-los em diferentes ambientes na atualidade. Qual estrutura possibilitou a independência da água para a fecundação dos seres vivos citados acima?
+
+- A) Fruto.
+- B) Esporo.
+- C) Semente.
+- D) Tubo polínico.
+- E) Vaso condutor.
+
+**Resposta:** D
+
+**Explicação:** Musgos e samambaias dependem da água para que o gameta masculino nade até o feminino. Nas gimnospermas e angiospermas, o grão de pólen forma o tubo polínico, que leva o gameta masculino até o óvulo sem precisar de água.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** biologia/seres-vivos
+
+### 118
+O consumo exagerado de refrigerantes é preocupante, pois contribui para o aumento de casos de obesidade e diabetes. Considere dois refrigerantes enlatados, um comum e um diet, e que ambos possuam a mesma quantidade de aditivos, exceto pela presença de açúcar. O refrigerante comum contém basicamente água carbonatada e grande quantidade de açúcar; já o refrigerante diet tem água carbonatada e adoçantes, cujas massas são muito pequenas.
+
+> CAVAGIS, A. D. M.; PEREIRA, E. A.; OLIVEIRA, L. C. Um método simples para avaliar o teor de sacarose e CO₂ em refrigerantes. Química Nova na Escola, n. 3, ago. 2014 (adaptado).
+
+Entre as duas versões apresentadas, o refrigerante comum possui
+
+- A) maior densidade.
+- B) menor viscosidade.
+- C) maior volume de gás dissolvido.
+- D) menor massa de solutos dissolvidos.
+- E) maior temperatura de congelamento.
+
+**Resposta:** A
+
+**Explicação:** O refrigerante comum tem muito açúcar dissolvido. Com quase o mesmo volume, ele tem mais massa, portanto maior densidade que o diet. (Por isso, numa vasilha com água, a lata comum afunda e a diet bóia.)
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 118
+
+**Assunto:** quimica/solucoes
+
+### 131
+A biorremediação designa tratamentos que usam organismos para reduzir a quantidade de substâncias tóxicas no ambiente ou degradá-las em substâncias não tóxicas ou de menor toxicidade. Uma planta aquática, o aguapé, tem sido utilizada para a biorremediação de ambientes contaminados por metais tóxicos. Sabe-se que esses poluentes serão captados para dentro do corpo do vegetal. Dentro do corpo do vegetal, esses contaminantes serão
+
+- A) digeridos por enzimas.
+- B) acumulados nos tecidos.
+- C) eliminados pelos estômatos.
+- D) metabolizados por glândulas.
+- E) utilizados como fonte energética.
+
+**Resposta:** B
+
+**Explicação:** Metais tóxicos não são digeridos nem usados como energia pelos seres vivos. A planta os absorve e os acumula nos seus tecidos, retirando-os da água. Depois, as plantas podem ser retiradas e descartadas.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 131
+
+**Assunto:** biologia/ecologia
+
+### 132
+O ciclo do nitrogênio é composto por várias etapas, conforme a figura, sendo cada uma desempenhada por um grupo específico de microrganismos.
+
+![Figura](enem-2023-d2-q132-1.webp)
+
+Se o grupo dos microrganismos decompositores fosse exterminado, qual etapa não ocorreria?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** B
+
+**Explicação:** Os decompositores transformam os detritos (restos orgânicos) em amônia: é a amonificação, a etapa 2 do esquema. Sem eles, essa etapa não aconteceria.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 132
+
+**Assunto:** biologia/ecologia
 
 ## Médio
 
@@ -470,6 +590,174 @@ Comparado ao caminhão, quantos minutos a menos o carro leva para percorrer toda
 
 **Assunto:** fisica/cinematica
 
+### 96
+A gasolina é uma mistura de hidrocarbonetos de cadeias saturadas contendo de 8 a 12 átomos de carbono. Além disso, a gasolina de alto desempenho deve conter elevados teores de hidrocarbonetos de cadeias ramificadas, de forma a resistir à compressão e entrar em ignição apenas quando a vela aciona uma centelha elétrica no motor. No quadro, estão apresentados compostos que podem ser utilizados como combustíveis.
+
+![Figura](enem-2023-d2-q096-1.webp)
+
+Entre esses compostos, aquele que conferirá maior desempenho como combustível é o
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** C
+
+**Explicação:** A gasolina de alto desempenho deve ter hidrocarbonetos saturados, com 8 a 12 carbonos e cadeia ramificada. O 2,2,4-trimetilpentano (isoctano) tem 8 carbonos, é saturado e muito ramificado. O n-decano e o n-heptano não são ramificados, o composto IV tem dupla ligação e o V é um álcool.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** quimica/quimica-organica
+
+### 98
+O circuito com três lâmpadas incandescentes idênticas, representado na figura, consiste em uma associação mista de resistores. Cada lâmpada (L₁, L₂ e L₃) é associada, em paralelo, a um resistor de resistência R, formando um conjunto. Esses conjuntos são associados em série, tendo todas as lâmpadas o mesmo brilho quando ligadas à fonte de energia. Após vários dias em uso, apenas a lâmpada L₂ queima, enquanto as demais permanecem acesas.
+
+![Figura](enem-2023-d2-q098-1.webp)
+
+Em relação à situação em que todas as lâmpadas funcionam, após a queima de L₂, os brilhos das lâmpadas serão
+
+- A) os mesmos.
+- B) mais intensos.
+- C) menos intensos.
+- D) menos intenso para L₁ e o mesmo para L₃.
+- E) mais intenso para L₁ e menos intenso para L₃.
+
+**Resposta:** C
+
+**Explicação:** Cada conjunto é uma lâmpada em paralelo com R. Quando L₂ queima, o seu conjunto fica só com R, que tem resistência maior que a do paralelo. A resistência total aumenta e a corrente total diminui. L₁ e L₃ recebem menos corrente e brilham menos.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 98
+
+**Assunto:** fisica/eletricidade
+
+### 102
+Uma academia decide trocar gradualmente seus aparelhos de musculação. Agora, os frequentadores que utilizam os aparelhos do tipo 1 podem também utilizar os aparelhos do tipo 2, representados na figura, para elevar cargas correspondentes às massas M₁ e M₂, com velocidade constante. A fim de que o exercício seja realizado com a mesma força F, os usuários devem ser orientados a respeito da relação entre as cargas nos dois tipos de aparelhos, já que as polias fixas apenas mudam a direção das forças, enquanto a polia móvel divide as forças.
+
+Em ambos os aparelhos, considere as cordas inextensíveis, as massas das polias e das cordas desprezíveis e que não há dissipação de energia.
+
+Aparelho do tipo 1
+
+![Figura](enem-2023-d2-q102-2.webp)
+
+![Figura](enem-2023-d2-q102-1.webp)
+
+Para essa academia, qual deve ser a razão M₂/M₁ informada aos usuários?
+
+- A) 1/4
+- B) 1/2
+- C) 1
+- D) 2
+- E) 4
+
+**Resposta:** D
+
+**Explicação:** No tipo 1, só há polias fixas: F = M₁·g. No tipo 2, a polia móvel é sustentada por dois trechos de corda, e cada um faz força F: 2F = M₂·g. Com a mesma força F, M₂ = 2·M₁, e a razão M₂/M₁ é 2.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 102
+
+**Assunto:** fisica/dinamica
+
+### 111
+Barbatimão é o nome popular de uma árvore cuja casca é utilizada para fins medicinais. Essa casca é constituída principalmente de dois tecidos vegetais: periderme e floema. A extração da casca tem levado à morte muitos indivíduos dessa espécie, quando o corte retira um anel completo ao longo da circunferência do tronco. Aqueles que têm parte da casca retirada sem completar essa circunferência podem sobreviver. A morte desses indivíduos, decorrente da retirada do anel completo da casca, é provocada pela interrupção da
+
+- A) fotossíntese.
+- B) transpiração.
+- C) troca de gases.
+- D) formação de brotos.
+- E) nutrição das raízes.
+
+**Resposta:** E
+
+**Explicação:** Ao tirar um anel completo da casca, retira-se o floema, que leva a seiva elaborada (açúcares feitos nas folhas) até as raízes. Sem esse alimento, as raízes morrem e depois a planta inteira. Se o anel não for completo, ainda sobra caminho para a seiva.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 111
+
+**Assunto:** biologia/seres-vivos
+
+### 112
+O descarte de detergentes comuns nos esgotos domésticos ocasiona a formação de uma camada de espuma que impede a entrada de oxigênio na água. Os microrganismos que vivem nessas águas não são capazes de quebrar moléculas ramificadas, ocorrendo assim um desequilíbrio ambiental nos rios. A fórmula a seguir representa a estrutura química de um tensoativo presente na composição de um detergente não biodegradável.
+
+![Figura](enem-2023-d2-q112-1.webp)
+
+Qual modificação química na estrutura desse tensoativo o tornaria um detergente biodegradável?
+
+- A) Retirar a parte polar da molécula.
+- B) Eliminar as insaturações do anel aromático.
+- C) Trocar o grupo aniônico por um grupo neutro.
+- D) Alterar o grupo aniônico por um grupo catiônico.
+- E) Modificar a cadeia carbônica para cadeia normal.
+
+**Resposta:** E
+
+**Explicação:** O texto diz que os microrganismos não conseguem quebrar moléculas ramificadas. A cadeia carbônica do tensoativo da figura é muito ramificada; trocá-la por uma cadeia normal (sem ramificações) torna o detergente biodegradável.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 112
+
+**Assunto:** quimica/quimica-ambiental
+
+### 114
+O petróleo é uma matéria-prima muito valiosa e métodos geofísicos são úteis na sua prospecção. É possível identificar a composição de materiais estratificados medindo-se a velocidade de propagação do som (onda mecânica) através deles. Considere que uma camada de 450 m de um líquido se encontra presa no subsolo entre duas camadas rochosas, conforme o esquema. Um pulso acústico (que gera uma vibração mecânica) é emitido a partir da superfície do solo, onde são posteriormente recebidas duas vibrações refletidas (ecos). A primeira corresponde à reflexão do pulso na interface superior do líquido com a camada rochosa. A segunda vibração deve-se à reflexão do pulso na interface inferior. O tempo entre a emissão do pulso e a chegada do primeiro eco é de 0,5 s. O segundo eco chega 1,1 s após a emissão do pulso.
+
+![Figura](enem-2023-d2-q114-1.webp)
+
+A velocidade do som na camada líquida, em metro por segundo, é
+
+- A) 270.
+- B) 540.
+- C) 818.
+- D) 1 500.
+- E) 1 800.
+
+**Resposta:** D
+
+**Explicação:** A diferença entre os ecos, 1,1 − 0,5 = 0,6 s, é o tempo que o som leva para descer e subir dentro do líquido: 2 × 450 = 900 m. A velocidade no líquido é 900 ÷ 0,6 = 1 500 m/s.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 114
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 116
+O Aldrin é um inseticida agrícola organoclorado sintético de baixa polaridade, cuja estrutura molecular simétrica, de fórmula C₁₂H₈Cl₆, está representada na figura. Introduzido na agricultura a partir da década de 1950, esse composto apresenta alta persistência no meio ambiente e acumulação nos organismos, sendo danoso para a saúde.
+
+![Figura](enem-2023-d2-q116-1.webp)
+
+> VIEGAS JÚNIOR, C. Terpenos com atividade inseticida: uma alternativa para o controle químico de insetos. Química Nova, v. 26, n. 3, 2003 (adaptado).
+
+Um pesquisador coletou fluidos biológicos de indivíduos de uma população contaminada por esse inseticida agrícola. Ele analisou amostras de saliva, sangue, lágrima, urina e leite quanto à presença dessa substância. Em qual dos fluidos o pesquisador provavelmente encontrou a maior concentração dessa substância?
+
+- A) Saliva, por consequência da atividade de enzimas.
+- B) Sangue, em função das hemácias e leucócitos.
+- C) Lágrima, em razão da concentração de sais.
+- D) Urina, pela presença de moléculas de ureia.
+- E) Leite, por causa do alto teor de gorduras.
+
+**Resposta:** E
+
+**Explicação:** O Aldrin tem baixa polaridade, então se dissolve em gorduras, e não em água. Entre os fluidos, o leite é o que tem mais gordura, por isso nele a concentração do inseticida tende a ser maior.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 116
+
+**Assunto:** biologia/ecologia
+
+### 119
+O manual de um automóvel alerta sobre os cuidados em relação à pressão do ar no interior dos pneus. Recomenda-se que a pressão seja verificada com os pneus frios (à temperatura ambiente). Um motorista, desatento a essa informação, realizou uma viagem longa sobre o asfalto quente e, em seguida, verificou que a pressão P₀ no interior dos pneus não era a recomendada pelo fabricante. Na ocasião, a temperatura dos pneus era T₀. Após um longo período em repouso, os pneus do carro atingiram a temperatura ambiente T. Durante o resfriamento, não há alteração no volume dos pneus e na quantidade de ar no seu interior. Considere o ar dos pneus um gás perfeito (também denominado gás ideal). Durante o processo de resfriamento, os valores de pressão em relação à temperatura (P × T) são representados pelo gráfico:
+
+- A) ![Alternativa A](enem-2023-d2-q119-1.webp)
+- B) ![Alternativa B](enem-2023-d2-q119-3.webp)
+- C) ![Alternativa C](enem-2023-d2-q119-5.webp)
+- D) ![Alternativa D](enem-2023-d2-q119-2.webp)
+- E) ![Alternativa E](enem-2023-d2-q119-4.webp)
+
+**Resposta:** E
+
+**Explicação:** Com volume e quantidade de gás constantes, a pressão é proporcional à temperatura absoluta: P/T é constante. No resfriamento, os pontos vão de (T₀, P₀) até (T, P) por uma reta que, prolongada, passa pela origem, com a pressão diminuindo junto com a temperatura.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 119
+
+**Assunto:** fisica/termologia
+
 ## Difícil
 
 ### 93
@@ -611,3 +899,74 @@ Esse bloqueio aumenta a concentração celular de
 **Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 122
 
 **Assunto:** biologia/citologia
+
+### 129
+Um assistente de laboratório precisou descartar sete frascos contendo solução de nitrato de mercúrio(I) que não foram utilizados em uma aula prática. Cada frasco continha 5,25 g de Hg₂(NO₃)₂ dissolvidos em água. Temendo a toxidez do mercúrio e sabendo que o Hg₂Cl₂ tem solubilidade muito baixa, o assistente optou por retirar o mercúrio da solução por precipitação com cloreto de sódio (NaCl), conforme a equação química:
+
+![Figura](enem-2023-d2-q129-1.webp)
+
+Na dúvida sobre a massa de NaCl a ser utilizada, o assistente aumentou gradativamente a quantidade adicionada em cada frasco, como apresentado no quadro.
+
+![Figura](enem-2023-d2-q129-2.webp)
+
+O produto obtido em cada experimento foi filtrado, secado e teve sua massa aferida. O assistente organizou os resultados na forma de um gráfico que correlaciona a massa de NaCl adicionada com a massa de Hg₂Cl₂ obtida em cada frasco. A massa molar do Hg₂(NO₃)₂ é 525 g/mol, a do NaCl é 58 g/mol e a do Hg₂Cl₂ é 472 g/mol. Qual foi o gráfico obtido pelo assistente de laboratório?
+
+- A) ![Alternativa A](enem-2023-d2-q129-3.webp)
+- B) ![Alternativa B](enem-2023-d2-q129-5.webp)
+- C) ![Alternativa C](enem-2023-d2-q129-7.webp)
+- D) ![Alternativa D](enem-2023-d2-q129-4.webp)
+- E) ![Alternativa E](enem-2023-d2-q129-6.webp)
+
+**Resposta:** B
+
+**Explicação:** Cada frasco tem 5,25 g ÷ 525 g/mol = 0,01 mol de Hg₂(NO₃)₂, que reage com 0,02 mol de NaCl (0,02 × 58 = 1,16 g) e forma no máximo 0,01 × 472 = 4,72 g de Hg₂Cl₂. Até 1,16 g de NaCl, a massa de precipitado cresce em linha reta; depois disso fica constante em 4,72 g, porque o mercúrio acabou.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 129
+
+**Assunto:** quimica/estequiometria
+
+### 130
+Uma equipe de segurança do transporte de uma empresa avalia o comportamento das tensões que aparecem em duas cordas, 1 e 2, usadas para prender uma carga de massa M = 200 kg na carroceria, conforme a ilustração. Quando o caminhão parte do repouso, sua aceleração é constante e igual a 3 m/s² e, quando ele é freado bruscamente, sua frenagem é constante e igual a 5 m/s². Em ambas as situações, a carga encontra-se na iminência de movimento, e o sentido do movimento do caminhão está indicado na figura. O coeficiente de atrito estático entre a caixa e o assoalho da carroceria é igual a 0,2. Considere a aceleração da gravidade igual a 10 m/s², as tensões iniciais nas cordas iguais a zero e as duas cordas ideais.
+
+![Figura](enem-2023-d2-q130-1.webp)
+
+Nas situações de aceleração e frenagem do caminhão, as tensões nas cordas 1 e 2, em newton, serão
+
+- A) aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 600 e T₂ = 0.
+- B) aceleração: T₁ = 0 e T₂ = 200; frenagem: T₁ = 1 400 e T₂ = 0.
+- C) aceleração: T₁ = 0 e T₂ = 600; frenagem: T₁ = 600 e T₂ = 0.
+- D) aceleração: T₁ = 560 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 960.
+- E) aceleração: T₁ = 640 e T₂ = 0; frenagem: T₁ = 0 e T₂ = 1 040.
+
+**Resposta:** A
+
+**Explicação:** O atrito máximo é 0,2 × 200 × 10 = 400 N. Na aceleração (3 m/s²), a caixa precisa de 200 × 3 = 600 N para frente; o atrito dá 400 N, e a corda da frente (2) completa com 200 N. Na frenagem (5 m/s²), precisa de 1 000 N para trás; o atrito dá 400 N, e a corda de trás (1) faz 600 N. A outra corda fica frouxa em cada caso.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 130
+
+**Assunto:** fisica/dinamica
+
+### 134
+Entre os medicamentos mais comuns consumidos para o alívio da dor está o ibuprofeno, um composto quiral com ação anti-inflamatória e efeito analgésico, que é comercializado como fármaco opticamente puro, ou seja, sem a mistura com outro isômero óptico. A fórmula estrutural plana do ibuprofeno é:
+
+![Figura](enem-2023-d2-q134-1.webp)
+
+Além do ibuprofeno, destacam-se também os princípios ativos a seguir, presentes em outros medicamentos para o alívio da dor:
+
+![Figura](enem-2023-d2-q134-2.webp)
+
+O princípio ativo que apresenta o mesmo tipo de isomeria espacial que o ibuprofeno é o(a)
+
+- A) fenacetina.
+- B) paracetamol.
+- C) dipirona sódica.
+- D) diclofenaco sódico.
+- E) butilbrometo de escopolamina.
+
+**Resposta:** E
+
+**Explicação:** O ibuprofeno tem um carbono quiral (ligado a quatro grupos diferentes: H, CH₃, COOH e o anel), por isso tem isomeria óptica. Entre os outros, só o butilbrometo de escopolamina tem carbono quiral, o carbono ligado a H, ao anel, ao CH₂OH e ao grupo éster.
+
+**Fonte:** ENEM 2023, 2º dia, caderno amarelo, questão 134
+
+**Assunto:** quimica/quimica-organica

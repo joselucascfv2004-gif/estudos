@@ -1,6 +1,6 @@
 ## 59-enem-2011-ciencias-humanas.md | 2011 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2011 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2011 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2011, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **História do Brasil:** voto censitário (1824), coronelismo e voto de cabresto, "café com leite" cheio de conflitos, Revolta da Vacina, Era Vargas, anos 1960 (UDN × CGT), caras-pintadas.
 - **História geral:** muralhas medievais e comércio, açúcar e Cruzadas, Renascimento (ciência e arte), café e islamismo, Haiti e Conjuração Baiana.
@@ -117,7 +117,7 @@ x: Na América do Sul, a malária aparece só em uma área restrita, a região a
 
 ## 58-enem-2011-ciencias-da-natureza.md | 2011 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2011 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2011 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2011 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, quadros e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Química:** calor de combustão por mol de CO₂, equilíbrio químico (H⁺ desmineraliza o dente), ligações de hidrogênio, estequiometria em solução, nitrogênio e contaminação da água.
 - **Física:** empuxo, potência e resistência (P = R · i²), queda livre (movimento acelerado), difração, 2ª lei da termodinâmica, indução eletromagnética.

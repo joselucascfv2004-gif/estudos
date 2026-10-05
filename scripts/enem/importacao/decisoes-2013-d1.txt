@@ -1,6 +1,6 @@
 ## 51-enem-2013-ciencias-humanas.md | 2013 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2013 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2013 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2013, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. Gráficos foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Filosofia:** Descartes (dúvida metódica), Maquiavel (homem guiado por interesses), Montesquieu (separação dos poderes), Bentham e Foucault (panóptico), Kant (revolução copernicana), Aristóteles (felicidade como finalidade).
 - **História do Brasil:** carta de Caminha e catequese, coroação do Rei do Congo, imigração no Império, abolição pela via legal (Nabuco), política dos governadores, carnaval e disputas sociais.
@@ -109,7 +109,7 @@ x: Depois da Revolução Industrial, a queima de carvão e petróleo passou a la
 
 ## 50-enem-2013-ciencias-da-natureza.md | 2013 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2013 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2013 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2013 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Fórmulas, expoentes e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Química:** constante de Avogadro, meia-vida, eletrólise, estequiometria com porcentagem, neutralização com carbonato de cálcio, equilíbrio ácido-base (pKa), interações íon-dipolo.
 - **Física:** prensa hidráulica, ondas (v = λ · f), resistência elétrica (P = U²/R), força magnética (F = B · i · L), atrito ao caminhar, mistura de água quente e fria.

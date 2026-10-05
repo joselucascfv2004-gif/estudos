@@ -1,6 +1,6 @@
 ## 08-enem-2024-linguagens.md | 2024 | 1 | 1º dia, caderno azul | Linguagens
 auto: sim
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2024 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2024 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2024 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Imagens citadas nas questões foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
 - **Variação linguística:** regional (amazonês, maranhês), ocupacional (termos de uma profissão) e de identidade (línguas de grupos, como a da Tabatinga).
 - **Funções da linguagem:** referencial é informar; poética é chamar a atenção para a própria linguagem.
@@ -99,7 +99,7 @@ x: A lata com papel fotográfico foi esquecida no telescópio e, sem que ningué
 
 ## 07-enem-2024-ciencias-humanas.md | 2024 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2024 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2024 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2024 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Filosofia:** Aristóteles (eudaimonia e virtude como prática), Kant (imperativo categórico), Russell (o peru indutivista), Quine e Carnap (linguagem e conhecimento), Deleuze (rizoma), Fricker (injustiça epistêmica).
 - **História:** Las Casas e os indígenas, Chiquinha Gonzaga e o abolicionismo, República e modernização, Mães da Praça de Maio.

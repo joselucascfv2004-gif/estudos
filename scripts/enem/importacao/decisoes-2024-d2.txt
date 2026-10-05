@@ -1,6 +1,6 @@
 ## 05-enem-2024-matematica.md | 2024 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2024 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2024 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2024 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, cartazes, esquemas e frações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Função afim:** custo total = custo fixo + custo por unidade × quantidade; ache o valor por unidade pela variação entre dois pontos.
 - **Divisão proporcional:** some as partes (horas trabalhadas, por exemplo) e descubra quanto vale cada parte.
@@ -121,7 +121,7 @@ x: Em t = 0, T = a + 80 = 100, então a = 20. Em t = 20, T = 40: 20 + 80b²⁰ =
 
 ## 06-enem-2024-ciencias-da-natureza.md | 2024 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 auto: sim
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2024 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2024 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2024 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Figuras e fotografias citadas nas questões foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
 - **Separação de misturas:** sólido insolúvel em líquido sai por filtração.
 - **Efeito Doppler:** fonte que se aproxima parece mais aguda (frequência maior).

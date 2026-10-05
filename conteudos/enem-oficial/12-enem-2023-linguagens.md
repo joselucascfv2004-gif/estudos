@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2023 — Linguagens
 provas: ENEM
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2023 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2023 (1º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2023 — INEP
 ordem: original
 ---
@@ -235,6 +235,94 @@ O objetivo desse texto é
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 45
 
 **Assunto:** portugues/funcoes-generos-e-variacao
+
+### 16
+Mandioca, macaxeira, aipim e castelinha são nomes diferentes da mesma planta. Semáforo, sinaleiro e farol também significam a mesma coisa. O que muda é só o hábito cultural de cada região. A mesma coisa acontece com a Língua Brasileira de Sinais (Libras). Embora ela seja a comunicação oficial da comunidade surda no Brasil, existem sinais que variam em relação à região, à idade e até ao gênero de quem se comunica. A cor verde, por exemplo, possui sinais diferentes no Rio de Janeiro, Paraná e São Paulo. São os regionalismos na língua de sinais.
+
+Essas variações são um dos temas da disciplina Linguística na língua de sinais, oferecida pela Universidade Estadual Paulista (Unesp) ao longo do segundo semestre. “Muitas pessoas pensam que a língua de sinais é universal, o que não é verdade”, explica a professora e chefe do Departamento de Linguística, Literatura e Letras Clássicas da Unesp. “Mesmo dentro de um mesmo país, ela sofre variação em relação à localização geográfica, à faixa etária e até ao gênero dos usuários”, completa a especialista.
+
+Os surdos podem criar sinais diferentes para identificar lugares, objetos e conceitos. Em São Paulo, o sinal de “cerveja” é feito com um giro do punho como uma meia-volta. Em Minas, a bebida é citada quando os dedos indicador e médio batem no lado do rosto. Também ocorrem mudanças históricas. Um sinal pode sofrer alterações decorrentes dos costumes da geração que o utiliza.
+
+> Disponível em: www.educacao.sp.gov.br. Acesso em: 1 nov. 2021 (adaptado).
+
+Nesse texto, a Língua Brasileira de Sinais (Libras)
+
+- A) passa por fenômenos de variação linguística como qualquer outra língua.
+- B) apresenta variações regionais, assumindo novo sentido para algumas palavras.
+- C) sofre mudança estrutural motivada pelo uso de sinais diferentes para algumas palavras.
+- D) diferencia-se em todo o Brasil, desenvolvendo cada região a sua própria língua de sinais.
+- E) é ininteligível para parte dos usuários em razão das mudanças de sinais motivadas geograficamente.
+
+**Resposta:** A
+
+**Explicação:** O texto compara a Libras às línguas orais: assim como "mandioca" e "aipim", os sinais variam conforme a região, a idade, o gênero e a época. Ou seja, a Libras passa pelos mesmos fenômenos de variação de qualquer língua.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 16
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 24
+![Figura](enem-2023-d1-q024-1.webp)
+
+> Disponível em: www.defensoriapublica.mt.gov.br. Acesso em: 29 out. 2021 (adaptado).
+
+Esse anúncio publicitário, veiculado durante o contexto da pandemia de covid-19, tem por finalidade
+
+- A) divulgar o canal telefônico de atendimento a casos de violência contra a mulher.
+- B) informar sobre a atuação de uma entidade defensora da mulher vítima de violência.
+- C) evidenciar o trabalho da Defensoria Pública em relação ao problema do abuso contra a mulher.
+- D) alertar a sociedade sobre o aumento da violência contra a mulher em decorrência do coronavírus.
+- E) incentivar o público feminino a denunciar crimes de violência contra a mulher durante o período de isolamento.
+
+**Resposta:** E
+
+**Explicação:** O anúncio diz "Eu uso máscara, mas não me calo!" e termina com "Não se cale! Denuncie!", informando o Disque 180 durante o isolamento social. O objetivo é incentivar as mulheres a denunciar a violência nesse período.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 24
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 35
+A indústria do esporte eletrônico é um mercado que está crescendo em um ritmo mais rápido do que a economia mundial. Sua popularidade cresceu muito e no Brasil não é diferente. De acordo com os dados de uma pesquisa, mais de 64% dos brasileiros que jogam videogame já ouviram falar de esporte eletrônico. No entanto, o que chama a atenção é o crescimento superior a 10% do público praticante comparado ao ano anterior, que subiu de 44,7% para 55,4%. Trata-se de um percentual expressivo, já que o Brasil está no top 3 dentre os países que têm maior número de espectadores de esporte eletrônico do mundo. Comparado ao ano anterior, em 2020, o Brasil teve um marco de crescimento de 20% na audiência. Mundo afora, a árdua dedicação de grandes gamers contribuiu para o reconhecimento do Comitê Olímpico Internacional, aliado a outras cinco federações esportivas e suas desenvolvedoras de jogos, que direcionaram um olhar mais atento ao assunto, permitindo dar o primeiro passo para concretizar, pela primeira vez na história dos jogos eletrônicos, um evento olímpico oficial.
+
+> Disponível em: https://chicoterra.com. Acesso em: 19 nov. 2021 (adaptado).
+
+O contexto em que o esporte eletrônico é apresentado no texto demonstra o(a)
+
+- A) condição favorável à expansão dessa modalidade.
+- B) promoção dessa prática por jogadores profissionais.
+- C) impulsionamento de um processo de marketing.
+- D) favorecimento de fabricantes dos jogos.
+- E) modificação da audiência televisiva.
+
+**Resposta:** A
+
+**Explicação:** O texto apresenta números de crescimento do público, da audiência e o reconhecimento do Comitê Olímpico Internacional. Tudo isso mostra um cenário favorável à expansão do esporte eletrônico.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 35
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 44
+![Figura](enem-2023-d1-q044-1.webp)
+
+> Disponível em: www.facebook.com/minsaude. Acesso em: 13 jun. 2018.
+
+Essa campanha publicitária do Ministério da Saúde visa
+
+- A) divulgar um conjunto de benefícios proporcionados pela amamentação.
+- B) apresentar tratamentos para infecções respiratórias em bebês.
+- C) defender o direito das mulheres de amamentar em público.
+- D) orientar sobre os exercícios para uma boa amamentação.
+- E) informar sobre o aumento de anticorpos nas mães.
+
+**Resposta:** A
+
+**Explicação:** A campanha pergunta "Por que é tão importante amamentar?" e lista vantagens para o bebê: anticorpos, menor risco de asma e obesidade, exercício para a face, fala e respiração. O objetivo é divulgar os benefícios da amamentação.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 44
+
+**Assunto:** portugues/interpretacao-de-texto
 
 ## Médio
 
@@ -477,6 +565,227 @@ O fator central que impacta a realização de práticas corporais/atividades fí
 
 **Assunto:** artes/artes-e-educacao-fisica
 
+### 18
+TEXTO I
+
+Alegria, alegria
+O sol nas bancas de revista
+Me enche de alegria e preguiça
+Quem lê tanta notícia
+Eu vou
+Por entre fotos e nomes
+Os olhos cheios de cores
+O peito cheio de amores vãos
+Eu vou
+Por que não, por que não?
+
+> VELOSO, C. Alegria, alegria. Rio de Janeiro: Polygram, 1990 (fragmento).
+
+TEXTO II
+
+Anjos tronchos
+Uns anjos tronchos do Vale do Silício
+Desses que vivem no escuro em plena luz
+Disseram vai ser virtuoso no vício
+Das telas dos azuis mais do que azuis
+Agora a minha história é um denso algoritmo
+Que vende venda a vendedores reais
+Neurônios meus ganharam novo outro ritmo
+E mais, e mais, e mais, e mais, e mais
+
+> VELOSO, C. Meu coco. Rio de Janeiro: Sony, 2021 (fragmento).
+
+Embora oriundas de momentos históricos diferentes, essas letras de canção têm em comum a
+
+- A) referência às cores como elemento de crítica a hábitos contemporâneos.
+- B) percepção da profusão de informações gerada pela tecnologia.
+- C) contraposição entre os vícios e as virtudes da vida moderna.
+- D) busca constante pela liberdade de expressão individual.
+- E) crítica à finalidade comercial das notícias.
+
+**Resposta:** B
+
+**Explicação:** Em "Alegria, alegria" (1967), o eu lírico caminha entre bancas de revista cheias de notícias, fotos e nomes. Em "Anjos tronchos" (2021), aparecem as telas, os algoritmos e o "mais, e mais, e mais". Nas duas letras há uma percepção do excesso de informações produzido pela tecnologia de cada época.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 18
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 22
+Alguém muito recentemente cortara o mato, que na época das chuvas crescia e rodeava a casa da mãe de Ponciá Vicêncio e de Luandi. Havia também vestígios de que a terra fora revolvida, como se ali fosse plantar uma pequena roça. Luandi sorriu. A mãe devia estar bastante forte, pois ainda labutava a terra. Cantou alto uma cantiga que aprendera com o pai, quando eles trabalhavam na terra dos brancos. Era uma canção que os negros mais velhos ensinavam aos mais novos. Eles diziam ser uma cantiga de voltar, que os homens, lá na África, entoavam sempre, quando estavam regressando da pesca, da caça ou de algum lugar. O pai de Luandi, no dia em que queria agradar à mulher, costumava entoar aquela cantiga ao se aproximar de casa. Luandi não entendia as palavras do canto; sabia, porém, que era uma língua que alguns negros falavam ainda, principalmente os velhos. Era uma cantiga alegre. Luandi, além de cantar, acompanhava o ritmo batendo com as palmas das mãos em um atabaque imaginário. Estava de regresso à terra. Voltava em casa. Chegava cantando, dançando a doce e vitoriosa cantiga de regressar.
+
+> EVARISTO, C. Ponciá Vicêncio. Rio de Janeiro: Pallas, 2018.
+
+A leitura do texto permite reconhecer a “cantiga de voltar” como patrimônio linguístico que
+
+- A) representa a memória de uma língua africana extinta.
+- B) exalta a rotina executada por jovens afrodescendentes.
+- C) preserva a ancestralidade africana por meio da tradição oral.
+- D) resgata a musicalidade africana por meio de palavras inteligíveis.
+- E) remonta à tristeza dos negros mais velhos com saudade da África.
+
+**Resposta:** C
+
+**Explicação:** A cantiga foi ensinada pelos negros mais velhos aos mais novos e vem dos homens da África. Luandi não entende as palavras, mas a canta. É uma herança passada de boca em boca, que preserva a ancestralidade africana pela tradição oral.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 22
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 23
+TEXTO I
+
+Zapeei os canais, como há dezenas de anos faço, e pá: parei num que exibia um episódio daquela velha família do futuro, Os Jetsons.
+
+Nesse episódio em particular, a Jane Jetson, esposa do George, tratava de dirigir aquele veículo voador deles. Meu queixo foi caindo à medida que as piadinhas machistas sobre mulheres dirigirem foram se acumulando. Impressionante! Que futuro careta aqueles roteiristas imaginavam! Seriam incapazes de projetar algo melhor, e não apenas em termos de tecnologias, robôs e carros voadores? Será que nossa máxima visão de futuro só atinge as coisas, e jamais as pessoas? Como a Jane, uma mulher de 33 anos no desenho, poderia ser o que foram as minhas bisavós?
+
+O futuro, naquele desenho, se esqueceu de ser melhor nas relações entre as pessoas. Aliás... tão parecido com a vida.
+
+Fiquei de cara, como dizemos aqui, ou como dizíamos na minha adolescência, pobre adolescência, aprendendo, sem querer e sem muita defesa, um futuro tão besta quanto o passado.
+
+> RIBEIRO, A. E. Disponível em: www.rascunho.com br. Acesso em: 21 out. 2021 (adaptado).
+
+TEXTO II
+
+Masculino e feminino são campos escorregadios que só se definem por oposição, sempre incompleta, um do outro. São formações imaginárias que buscam produzir uma diferença radical e complementar onde só existem, de fato, mínimas diferenças. O resto é questão de estilo. Até pelo menos a segunda metade do século 19, o divisor de águas era claro: os homens ocupavam o espaço público. As mulheres tratavam da vida privada. Privada de quê? De visibilidade, diria Hannah Arendt. De visibilidade pública. Do que as mulheres estiveram privadas até o século 20 foi de presença pública manifesta não em imagem, mas em palavra. A palavra feminina, reservada ao espaço doméstico, não produzia diferença na vida social.
+
+> KHEL, M. R. Disponível em: https://alias.estadao.com.br. Acesso em: 19 out. 2021 (adaptado).
+
+A representação da mulher apresentada no Texto I pode ser explicada pelo Texto II no que diz respeito à(às)
+
+- A) censura a formas de expressão femininas.
+- B) ausência da figura feminina na vida pública.
+- C) construções imaginárias cristalizadas na sociedade.
+- D) limitações inerentes às figuras femininas e masculinas.
+- E) dificuldade na atribuição de papéis masculinos e femininos.
+
+**Resposta:** C
+
+**Explicação:** O Texto I mostra que um desenho "do futuro" repetia piadas machistas e papéis antigos para a mulher. O Texto II explica que masculino e feminino são "formações imaginárias" construídas pela sociedade. A representação de Jane Jetson reproduz essas construções imaginárias cristalizadas.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 23
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 30
+Enquanto estivemos entretidos com os urubus outras coisas andaram acontecendo na cidade. A Companhia baixou novas proibições, umas inteiramente bobocas, só pelo prazer de proibir (ninguém podia cuspir pra cima, nem carregar água em jacá, nem tapar o sol com peneira, como se todo mundo estivesse abusando dessas esquisitices); mas outras bem irritantes, como a de pular muro pra cortar caminho, tática que quase todo mundo que não sofria de reumatismo vinha adotando ultimamente, principalmente os meninos. E não confiando na proibição só, nem na força dos castigos, que eram rigorosos, a Companhia ainda mandou fincar cacos de garrafa nos muros. Achei isso um exagero, e comentei o assunto com mamãe. Meu pai ouviu lá do quarto e veio explicar. Disse que em épocas normais bastava uma coisa ou outra; mas agora a Companhia não podia admitir nenhuma brecha em suas ordens; se alguém desobedecesse à proibição podia se cortar nos cacos; se alguém conseguisse pular um muro quebrando o corte de alguns cacos, ou jogando um couro por cima, era apanhado pela proibição, nhoc — e fez o gesto de quem torce o pescoço de um frango.
+
+> VEIGA, J. J. Sombras de reis barbudos. Rio de Janeiro: Civilização Brasileira, 1978.
+
+Sob a perspectiva do menino que narra, os fatos ficcionais oferecem um esboço do momento político vigente na década de 1970, aqui representado pelo
+
+- A) culto ao medo, infiltrado em situações do cotidiano.
+- B) sentimento de dúvida quanto à veracidade das informações.
+- C) ambiente de sonho, delineado por imagens perturbadoras.
+- D) incentivo ao desenvolvimento econômico com a iniciativa privada.
+- E) espaço urbano marcado por uma política de isolamento das crianças.
+
+**Resposta:** A
+
+**Explicação:** A Companhia cria proibições absurdas, castigos rigorosos e cacos de vidro nos muros, e o pai sugere que quem desobedecer some ("nhoc"). Essa atmosfera remete à ditadura dos anos 1970, com o medo presente no dia a dia.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 30
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 33
+TEXTO I
+
+![Figura](enem-2023-d1-q033-1.webp)
+
+> SEGALL, L. Eternos caminhantes. Óleo sobre tela, 138 x 184 cm. Museu Lasar Segall, IbramMinc, São Paulo, 1919.
+
+TEXTO II
+
+Em 1933, a obra Eternos caminhantes ingressou em uma das primeiras edições das exposições de Arte Degenerada, promovida por membros do partido nazista alemão. Nos anos seguintes, ela voltaria a ser exibida na mostra denominada Exposição da Vergonha, promovida por pequenos grupos abastados. Em 1937, essa obra foi confiscada pelo Ministério da Propaganda daquele país, na grande ação nacional-socialista contra a “Arte Degenerada”.
+
+> SCHWARTZ, J. Perseguição à Arte Moderna em tempos de guerra. São Paulo: Museu Lasar Segall, 2018 (adaptado).
+
+Quase cinquenta obras de Lasar Segall foram confiscadas pelo regime totalitário alemão na primeira metade do século XX, entre elas a obra Eternos caminhantes, considerada degenerada por
+
+- A) representar uma estética tida como inconveniente para o ideário político vigente.
+- B) manifestar um posicionamento político-cultural concebido por grupos de oposição.
+- C) expressar a cultura artística por meio da representação parcial do corpo humano.
+- D) apresentar uma composição que antecipa o imaginário artístico germânico.
+- E) estimular discussões sobre o papel da arte na construção coletiva de cultura.
+
+**Resposta:** A
+
+**Explicação:** Os nazistas chamavam de "arte degenerada" a arte moderna (expressionista, como a de Segall) que fugia do ideal clássico que defendiam e que, para eles, não servia à sua ideologia. A obra foi perseguida porque sua estética era vista como inconveniente para o regime.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 33
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 34
+TEXTO I
+
+Logo no início de Gira, um grupo de sete bailarinas ocupa o centro da cena. Mãos cruzadas sobre a lateral esquerda do quadril, olhos fechados, troncos que pendulam sobre si mesmos em vaguíssimas órbitas, tudo nelas sugere o transe. Está estabelecido o caráter volátil do que se passará no palco dali para frente. Mas engana-se quem pensa que vai assistir a uma representação mimética dos cultos afro-brasileiros.
+
+TEXTO II
+
+![Figura](enem-2023-d1-q034-1.webp)
+
+> Disponível em: www.grupocorpo.com.br. Acesso em: 2 jul. 2019.
+
+No diálogo que estabelece com religiões afro-brasileiras, sintetizado na descrição e na imagem do espetáculo, a dança exprime uma
+
+- A) crítica aos movimentos padronizados do balé clássico.
+- B) representação contemporânea de rituais ancestrais extintos.
+- C) reelaboração estética erudita de práticas religiosas populares.
+- D) releitura irônica da atmosfera mística presente no culto a entidades.
+- E) oposição entre o resgate de tradições e a efemeridade da vida humana.
+
+**Resposta:** C
+
+**Explicação:** O espetáculo Gira, do Grupo Corpo, usa movimentos inspirados nos cultos afro-brasileiros (o transe, as saias brancas), mas o texto avisa que não é uma imitação desses cultos. É uma recriação artística, de dança de palco, a partir de práticas religiosas populares.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 34
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 36
+O Marabaixo é uma expressão artístico-cultural formada nas tradições e na identificação cultural entre as comunidades negras do Amapá. O nome remonta às mortes de escravizados em navios negreiros que eram jogados na água. Em sua homenagem, hinos de lamento eram cantados mar abaixo, mar acima. Posteriormente, o Marabaixo se integrou à vivência das comunidades negras em um ciclo de danças, cantorias com tambores e festas religiosas, recebendo, em 2018, o título de Patrimônio Cultural do Brasil.
+
+> Disponível em: http://portal.iphan.gov.br. Acesso em: 15 nov. 2021 (adaptado).
+
+A manifestação do Marabaixo se constituiu em expressão de arte e cultura, exercendo função de
+
+- A) ressignificar episódios dramáticos em novas práticas culturais.
+- B) adaptar coreografias como imitação dos movimentos do mar.
+- C) lembrar dos mortos no passado escravista como forma de lamento.
+- D) perpetuar uma narrativa de apagamento dos fatos históricos traumáticos.
+- E) ritualizar a passagem de atos fúnebres nas produções coletivas com espírito festivo.
+
+**Resposta:** A
+
+**Explicação:** O Marabaixo nasceu dos lamentos pelos escravizados mortos nos navios negreiros e depois virou um ciclo de danças, cantos e festas. Um episódio trágico ganhou novo sentido em práticas culturais e festivas.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 36
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 40
+A neozelandesa Laurel Hubbard fez história nos Jogos Olímpicos. Apesar de ter ficado de fora da disputa por medalhas, a levantadora de peso deixou sua marca na edição de Tóquio por ser a primeira mulher abertamente transgênero a participar de uma competição olímpica. No início da carreira, na década de 1990, a neozelandesa participava de disputas na categoria masculina. Em 2001, aos 23 anos, ela se afastou da atividade. “A pressão de tentar me encaixar em um mundo que talvez não tenha sido feito para pessoas como eu se tornou um fardo muito grande para suportar.” Em 2012, Laurel começou sua transição de gênero por meio de terapias hormonais e, em 2013, declarou abertamente ser uma mulher trans. Para o Comitê Olímpico Internacional, a participação de mulheres trans nos Jogos é permitida caso o nível de testosterona, hormônio que aumenta a massa muscular, esteja abaixo de 10 nanomols por litro por pelo menos 12 meses.
+
+> Disponível em: https://revistagalileu.globo.com. Acesso em: 18 nov. 2021 (adaptado).
+
+No texto, os limites do potencial inclusivo do esporte são dados pela
+
+- A) dificuldade de conseguir bons resultados esportivos.
+- B) dependência de características biológicas padronizadas.
+- C) inexistência de uma categoria para pessoas transgênero.
+- D) necessidade de afastamento temporário das competições.
+- E) impossibilidade de uso controlado de substâncias exógenas.
+
+**Resposta:** B
+
+**Explicação:** Para competir entre as mulheres, a atleta trans precisa manter a testosterona abaixo de um limite fixado pelo COI. A inclusão depende de um padrão biológico, e é esse o limite apontado pelo texto.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 40
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Difícil
 
 ### 12
@@ -686,3 +995,24 @@ Esse é um trecho do discurso de Rui Barbosa na Academia Brasileira de Letras em
 **Fonte:** ENEM 2023, 1º dia, caderno azul, questão 43
 
 **Assunto:** portugues/semantica-e-figuras-de-linguagem
+
+### 29
+Era um gato preto, como convinha a um cultor das boas letras, que já lera Poe traduzido por Baudelaire. Preto e gordo. E lerdo. Tão gordo e lerdo que a certa altura observei que ia perdendo inteiramente as qualidades características da raça, que são em suma o ódio de morte aos ratos. Já nem os afugentava! Os ratos de Ouro Preto são também dignos e solenes — não ria — tradicionalistas... descendentes de outros ratos que naqueles mesmos casarões presenciaram acontecimentos importantes da nossa história... No sobrado do desembargador Tomás Antônio Gonzaga, imagine o senhor uma reunião dos sonhadores inconfidentes, com os antepassados daqueles ratos a passearem pelo sótão ou mesmo pelo assoalho por entre as pernas dos homens absortos na esperança da independência nacional! E depois, os ancestres daqueles roedores que eu via agora deslizar sutilmente no meu quarto podiam ter subido pelo poste da ignomínia colonial, onde estava exposta a cabeça do Tiradentes! E quando as órbitas se descarnaram ignominiosamente, podiam até ter penetrado no recesso daquele crânio onde verdadeiramente ardera a literatura, com a simplicidade do heroísmo, a febre nacionalista...
+
+> ALPHONSUS, J. Contos e novelas. Rio de Janeiro: Imago; Brasília: INL, 1976.
+
+Descrevendo seu gato, o narrador remete ao contexto e a protagonistas da Inconfidência para criar um efeito desconcertante centrado no
+
+- A) desenho imaginativo do casario colonial de Ouro Preto.
+- B) efeito de apagamento de limites entre ficção e realidade.
+- C) vínculo estabelecido entre animais urbanos e literatura.
+- D) questionamento sutil quanto à sanidade dos inconfidentes.
+- E) contraste entre austeridade pomposa e imagem repugnante.
+
+**Resposta:** E
+
+**Explicação:** O narrador fala com solenidade dos inconfidentes e dos "ratos dignos e solenes" de Ouro Preto, mas chega à imagem dos ratos entrando no crânio de Tiradentes. O efeito desconcertante vem do contraste entre o tom grandioso e a imagem repugnante.
+
+**Fonte:** ENEM 2023, 1º dia, caderno azul, questão 29
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo

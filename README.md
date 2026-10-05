@@ -6,8 +6,8 @@ Aplicativo de celular (Android/iOS, também roda no navegador) para estudar todo
 
 Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destrava níveis mais difíceis.
 
-- **6.648 questões** em **154 tópicos** de **20 disciplinas**
-- **2.735 questões oficiais do ENEM** (provas de 2009 a 2025 publicadas pelo INEP, inclusive as que têm gráficos, mapas, tabelas e charges, recortados da própria prova), com o gabarito
+- **6.840 questões** em **154 tópicos** de **20 disciplinas**
+- **2.927 questões oficiais do ENEM** (provas de 2009 a 2025 publicadas pelo INEP, inclusive as que têm gráficos, mapas, tabelas e charges, recortados da própria prova), com o gabarito
   oficial, classificadas por assunto: elas aparecem também dentro de cada tópico (por exemplo, "Funções")
 - As questões de cálculo não repetem enunciado: cada modelo gera uma questão diferente, e a explicação
   diz qual **ferramenta** da matemática resolve o problema e por quê

@@ -1,5 +1,5 @@
 ## 25-enem-2019-matematica.md | 2019 | 2 | 2º dia, caderno amarelo | Matemática
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2019 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2019 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2019 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Porcentagens sucessivas:** aumentos de 7,2% e depois 10% viram 1,072 × 1,10.
 - **Divisão proporcional:** "inversamente proporcional a 2, 3 e 5" significa dividir em partes proporcionais a 1/2, 1/3 e 1/5.
@@ -126,7 +126,7 @@ s: A função h t descreve => A função h(t) = 4 + 4 sen(βt/2 − π/2), defin
 x: h = 6 quando sen(βt/2 − π/2) = 1/2. Começando em −π/2, os ângulos que dão seno 1/2 são π/6, 5π/6 e 13π/6. A terceira vez exige βt/2 − π/2 = 13π/6, ou seja, βt = 16π/3. Com t < 4: β > 4π/3 = 4 (π = 3). O menor inteiro é 5.
 
 ## 26-enem-2019-ciencias-da-natureza.md | 2019 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2019 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2019 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2019 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Energia nas células:** a cadeia respiratória e a ATP sintetase produzem ATP; desacopladores fazem a energia virar calor.
 - **Física:** impulso (F·Δt = Δp), indução eletromagnética, calorimetria (Q = m·c·ΔT) e condução de calor (proporcional a k e à área).

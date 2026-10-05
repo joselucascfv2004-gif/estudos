@@ -1,6 +1,6 @@
 ## 61-enem-2010-matematica.md | 2010 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2010 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2010 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, gráficos simples, frações e expoentes foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Razão e escala:** coloque as duas medidas na mesma unidade antes de comparar (2,1 cm : 42 m = 1 : 2 000).
 - **Porcentagem:** "40% curados, e os outros divididos em dois grupos" — calcule cada parte sobre o total.
@@ -134,7 +134,7 @@ x: A produção cresceu todo ano: 90, 94, 99, 107 e 113 milhões. O biênio com 
 
 ## 64-enem-2010-linguagens.md | 2010 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2010 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2010 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Gêneros e funções:** horóscopo aconselha, notícia informa ação/finalidade/resultado, biografia narra de forma objetiva; função referencial = informação.
 - **Coesão:** "mas" pode opor ou acrescentar; "mesmo" indica concessão; neologismo = palavra nova ("corasamborim").

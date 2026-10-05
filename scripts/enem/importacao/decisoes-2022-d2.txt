@@ -1,5 +1,5 @@
 ## 13-enem-2022-matematica.md | 2022 | 2 | 2º dia, caderno amarelo | Matemática
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2022 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e gráficos com valores foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Média ponderada:** quando grupos têm tamanhos diferentes, multiplique cada valor pela quantidade do grupo antes de dividir pelo total.
 - **Porcentagem sobre porcentagem:** aumentos e descontos sucessivos se multiplicam (1,10 × 0,98), não se somam.
@@ -121,7 +121,7 @@ x: Na planta, a varanda em L tem 16 × 5 + 4 × (18,4 − 5) = 80 + 53,6 = 133,6
 x: Adulto: 18 000 no dia 10, 15 000 no dia 20, segue para 12 000 no dia 30. Infantil: 8 000, 7 000 e 6 000. Total: 26 000 + 22 000 + 18 000 = 66 000. Faltam 77 000 − 66 000 = 11 000.
 
 ## 14-enem-2022-ciencias-da-natureza.md | 2022 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2022 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2022 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto, e estruturas químicas desenhadas foram omitidas quando não são necessárias para a resposta. As explicações foram escritas para este aplicativo.
 - **Biologia aparece muito ligada à saúde:** imunidade (antígenos, vacinas), doenças transmitidas por vetores, metabolismo energético e biotecnologia.
 - **Física do cotidiano:** impulso e colisões, lançamentos, potência elétrica (P = U·i), associação de pilhas e calor (Q = m·c·ΔT).

@@ -1,5 +1,5 @@
 ## 21-enem-2020-matematica.md | 2020 | 2 | 2º dia, caderno amarelo | Matemática
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2020 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto e, quando uma figura só trazia medidas, elas foram escritas no enunciado. As explicações foram escritas para este aplicativo.
 - **Custo total = parte fixa + parte variável:** em compras com frete, some preço × quantidade com frete × distância antes de comparar.
 - **Tempo = distância ÷ velocidade:** compare tempos, e não velocidades, quando as distâncias são diferentes.
@@ -126,7 +126,7 @@ x: As 20 mangueiras somam 100 m, então cada uma tem 5 m: é a geratriz do cone.
 x: Ao meio-dia, a luz passa pelo vão inteiro (30 cm). Com o sol a 30° da vertical, a viga projeta uma sombra horizontal de h · tg 30°. Para passar metade da luz, essa sombra deve ser 15 cm: h = 15 ÷ tg 30° = 15√3 ≈ 26 cm.
 
 ## 22-enem-2020-ciencias-da-natureza.md | 2020 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2020 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2020 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2020 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e equações químicas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Física do dia a dia:** panela de pressão, fones com cancelamento de ruído (interferência), gaiola de Faraday (carro em tempestade), geradores (lei de Faraday) e geladeiras.
 - **Calor:** Q = m·c·ΔT e potência = energia ÷ tempo.

@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2011 — Ciências Humanas
 provas: ENEM
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2011 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2011 (1º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2011 — INEP
 ordem: original
 ---

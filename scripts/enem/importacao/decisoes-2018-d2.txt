@@ -1,5 +1,5 @@
 ## 29-enem-2018-matematica.md | 2018 | 2 | 2º dia, caderno azul | Matemática
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2018 (2º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (2º dia, caderno 7, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros, matrizes e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Média ponderada:** multiplique cada valor pelo seu peso (ou pela quantidade de vezes que aparece) e divida pelo total.
 - **Porcentagens sucessivas:** reduzir 25% e depois 20% é multiplicar por 0,75 e por 0,80, não tirar 45%.
@@ -136,7 +136,7 @@ a: 36√3 | 24√3 | 4√3 | 36 | 72
 x: A circunferência da base mede 2π × 6/π = 12 cm. A hélice dá 6 voltas, então a faixa tem 6 × 12 = 72 cm de comprimento. A diagonal forma 30° com essa base: altura = 72 × tg 30° = 72 × √3/3 = 24√3 cm.
 
 ## 30-enem-2018-ciencias-da-natureza.md | 2018 | 2 | 2º dia, caderno azul | Ciências da Natureza
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2018 (2º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2018 (2º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2018 (2º dia, caderno 7, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Hormônios da glicose:** a insulina guarda (glicose vira glicogênio); o glucagon libera (glicogênio vira glicose).
 - **Genética:** código genético = trincas de nucleotídeos (códons) que indicam aminoácidos; enxertia e reprodução assexuada mantêm o genótipo.

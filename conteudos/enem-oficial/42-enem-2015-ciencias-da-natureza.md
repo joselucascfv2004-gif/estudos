@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2015 — Ciências da Natureza
 provas: ENEM
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2015 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2015 (1º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2015 — INEP
 ordem: original
 ---

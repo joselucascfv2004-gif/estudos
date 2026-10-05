@@ -1,7 +1,7 @@
 ---
 titulo: ENEM 2019 — Linguagens
 provas: ENEM
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2019 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2019 (1º dia, caderno azul), com gabarito oficial e explicação.
 fonte: ENEM 2019 — INEP
 ordem: original
 ---

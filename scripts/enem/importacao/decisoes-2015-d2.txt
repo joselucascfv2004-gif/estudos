@@ -1,5 +1,5 @@
 ## 41-enem-2015-matematica.md | 2015 | 2 | 2º dia, caderno amarelo | Matemática
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2015 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2015 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e fórmulas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Função quadrática:** o máximo (ou mínimo) fica no vértice, em x = −b ÷ 2a.
 - **MDC:** para dividir em pedaços iguais sem sobra, o tamanho do pedaço precisa dividir todos os comprimentos.
@@ -121,7 +121,7 @@ x: A carta da mesa vale 6/8 = 0,75. Na mão, valem 0,75: a carta 75%, a carta 0,
 x: Nas classes A/B, a maior participação é pela internet (40%). Nas classes C/D, é pelos Correios (33%). A empresa deve usar a internet e os Correios.
 
 ## 44-enem-2015-linguagens.md | 2015 | 2 | 2º dia, caderno amarelo | Linguagens
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2015 (2º dia, caderno amarelo) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2015 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2015 (2º dia, caderno 5, amarelo), publicada pelo INEP. Em 2015, Linguagens foi aplicada no 2º dia, junto com Matemática. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Funções da linguagem:** conativa (fala com o leitor, dá ordens), referencial (informa), emotiva (mostra sentimentos).
 - **Variação linguística:** regras regionais (o "l" virando "r" em "sorto", "tarvez"), gírias e expressões populares, e preconceito que faz palavras sumirem.

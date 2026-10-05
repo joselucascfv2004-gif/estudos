@@ -1,5 +1,5 @@
 ## 39-enem-2016-ciencias-humanas.md | 2016 | 1 | 1º dia, caderno azul | Ciências Humanas
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2016 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2016 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2016 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2016, Ciências Humanas foi aplicada no 1º dia, junto com Ciências da Natureza. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Filosofia:** Heráclito × Parmênides (mudança × ser), ceticismo de Pirro, Descartes (autonomia do pensamento), Schopenhauer, Nietzsche (niilismo), Adorno e Horkheimer (indústria cultural), Hans Jonas (responsabilidade).
 - **História do Brasil:** nomes dados aos indígenas, Conjuração Baiana (1798), mulheres negras no comércio de rua, coronelismo, Justiça do Trabalho, Estado Novo e a Nova República.
@@ -101,7 +101,7 @@ x: A página mostra parisienses bebendo café, anunciado como "café do Brazil",
 x: A taxa de fecundidade caiu muito em todos os países do gráfico. Com menos nascimentos, a população envelhece e, com o tempo, há menos jovens entrando no mercado de trabalho: diminui a oferta de mão de obra.
 
 ## 38-enem-2016-ciencias-da-natureza.md | 2016 | 1 | 1º dia, caderno azul | Ciências da Natureza
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2016 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2016 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2016 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2016, Ciências da Natureza foi aplicada no 1º dia, junto com Ciências Humanas. Os números indicam a posição de cada questão na prova. Quadros e equações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Química:** lei de Hess, rendimento com reagente limitante, precipitação (BaSO₄), forças intermoleculares, bases neutralizam gases ácidos e pilhas em série.
 - **Física:** potência hidráulica (P = ρ·Q·g·h), calor (Q = m·c·ΔT), efeito Doppler, condutividade térmica e aquecimento por campo magnético alternado.

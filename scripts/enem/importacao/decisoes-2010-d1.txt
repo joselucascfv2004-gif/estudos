@@ -1,6 +1,6 @@
 ## 63-enem-2010-ciencias-humanas.md | 2010 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2010 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2010 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2010, Ciências Humanas ocupou as questões 1 a 45 do 1º dia, e Ciências da Natureza, as questões 46 a 90. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Geografia agrária e urbana:** modernização do campo e migração de trabalhadores, lixões e saúde pública, erosão e enchentes, minérios de Carajás, Belo Monte.
 - **História do Brasil:** tupi-guaranis, tropeiros, vinda da família real (1808), Período Regencial, Guerra do Paraguai, Acre, Contestado, Tiradentes como herói da República, Era Vargas, golpe de 1964.
@@ -127,7 +127,7 @@ x: Na democracia, o poder pertence ao povo. Uma "vacina contra o despotismo" ser
 
 ## 62-enem-2010-ciencias-da-natureza.md | 2010 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
-descricao: Questões oficiais de Biologia, Física e Química do ENEM 2010 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Biologia, Física e Química do ENEM 2010 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2010 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2010, Ciências da Natureza ocupou as questões 46 a 90 do 1º dia. Os números indicam a posição de cada questão na prova. Quadros e equações químicas foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Biologia:** vacina × soro × antibiótico, ciclos biogeoquímicos, eutrofização, Lamarck (uso e desuso), ritmo circadiano, mosquito transgênico, biomas brasileiros.
 - **Física:** reflexão na ionosfera, potência (P = U · i), ebulição e pressão, empuxo, blindagem eletrostática (gaiola de Faraday), calor × temperatura.

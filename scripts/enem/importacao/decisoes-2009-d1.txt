@@ -1,6 +1,6 @@
 ## 66-enem-2009-ciencias-da-natureza.md | 2009 | 1 | 1º dia, caderno azul | Ciências da Natureza
 auto: sim
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2009 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2009 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2009, Ciências da Natureza ocupou as questões 1 a 45 do 1º dia. Fórmulas, quadros e figuras simples foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Biologia:** genótipo × fenótipo, vacinas, DNA recombinante, ciclo do carbono, seleção natural, DNA mitocondrial, sensibilidade de testes, espécies pioneiras.
 - **Química:** sabões e pH, chuva ácida (ácidos fortes), eletrólise do cobre, calor por mol de CO₂, balanço de massa na destilação.
@@ -117,7 +117,7 @@ x: A molécula precisa ter ligações duplas alternadas (conjugadas) com o anel 
 
 ## 67-enem-2009-ciencias-humanas.md | 2009 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2009 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2009 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2009 (1º dia, caderno 1, azul), publicada pelo INEP. Em 2009, Ciências Humanas ocupou as questões 46 a 90 do 1º dia. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **História geral:** Egito, Versalhes, usos da Idade Média, século XX (nacionalismo, totalitarismo, Guerra Fria), 1968, Revolução Industrial.
 - **História do Brasil:** sepultamento na colônia, Inquisição, Independência e o medo do Haiti, voto feminino (1934), Estado Novo e propaganda, café e ferrovias.

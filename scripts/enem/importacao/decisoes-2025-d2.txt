@@ -1,6 +1,6 @@
 ## 01-enem-2025-matematica.md | 2025 | 2 | 2º dia, caderno amarelo | Matemática
 auto: sim
-descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2025 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais da prova de Matemática e suas Tecnologias do ENEM 2025 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros e frações foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Leia a pergunta duas vezes:** muitas questões pedem a diferença, o aumento ou o valor "a mais", e não o valor final.
 - **Porcentagem de mistura:** quando só uma substância sai, a quantidade da outra fica fixa; use-a para achar o novo total.
@@ -112,7 +112,7 @@ x: A área de um semicírculo é π·r²/2. Projeto 1: raios 6 m e 3 m, então 3
 
 ## 02-enem-2025-ciencias-da-natureza.md | 2025 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 auto: sim
-descricao: Questões oficiais de Física, Química e Biologia do ENEM 2025 (2º dia, caderno amarelo) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de Física, Química e Biologia do ENEM 2025 (2º dia, caderno amarelo), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2025 (2º dia, caderno 5, amarelo), publicada pelo INEP. Os números indicam a posição de cada questão na prova. Quadros foram escritos em forma de texto. As explicações foram escritas para este aplicativo.
 - **Calor:** a irradiação acontece até no vácuo; condução e convecção precisam de matéria.
 - **Ecologia:** espécies exóticas invasoras competem com as nativas e reduzem a biodiversidade; espécies endêmicas só existem em um lugar.

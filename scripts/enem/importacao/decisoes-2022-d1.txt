@@ -1,5 +1,5 @@
 ## 15-enem-2022-ciencias-humanas.md | 2022 | 1 | 1º dia, caderno azul | Ciências Humanas
-descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2022 (1º dia, caderno azul) que não dependem de figuras, com gabarito oficial e explicação.
+descricao: Questões oficiais de História, Geografia, Filosofia e Sociologia do ENEM 2022 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **O texto-base manda:** em Humanas, a alternativa certa costuma repetir, com outras palavras, a ideia central do texto.
 - **Filosofia:** pré-socráticos (arché), sofistas e a pólis, estoicismo (moderar as paixões), Arendt (o discurso torna o homem político), Foucault (sociedade disciplinar).
@@ -105,7 +105,7 @@ x: Merleau-Ponty fala em reaprender a ver o mundo pela pintura, e Deleuze diz qu
 x: A concentração de pessoas e atividades em poucas metrópoles foi alimentada pelo êxodo rural: a população do campo migrou em massa para as grandes cidades.
 
 ## 16-enem-2022-linguagens.md | 2022 | 1 | 1º dia, caderno azul | Linguagens
-descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2022 (1º dia, caderno azul) que não dependem de imagens, com gabarito oficial e explicação.
+descricao: Questões oficiais de Língua Portuguesa, Literatura, Artes e Educação Física do ENEM 2022 (1º dia, caderno azul), com gabarito oficial e explicação.
 intro: As questões abaixo são reproduzidas da prova oficial do ENEM 2022 (1º dia, caderno 1, azul), publicada pelo INEP. Os números indicam a posição de cada questão na prova. As explicações foram escritas para este aplicativo.
 - **Leitura em primeiro lugar:** identifique o gênero (notícia, crônica, poema, campanha), a finalidade e o público do texto.
 - **Funções da linguagem:** emotiva (sentimentos do "eu"), poética (trabalho com a forma), referencial (informar), conativa (convencer o leitor).

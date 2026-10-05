@@ -175,6 +175,35 @@ for (const a of arquivos) {
     fs.mkdirSync(ASSETS, { recursive: true });
     fs.copyFileSync(orig, ASSETS + nome);
   }
-  fs.writeFileSync(DEST + a.nome, texto);
+  // "mesclar: sim": acrescenta as questões ao arquivo que já existe (feito à mão), cada uma no fim
+  // da sua seção de dificuldade, e troca as que já tinham sido acrescentadas antes
+  if (a.cab.some((l) => /^mesclar:\s*sim/.test(l))) {
+    const blocos = {};
+    let sec = null;
+    let cur = null;
+    for (const l of texto.split('\n')) {
+      const m = l.match(/^## (Fácil|Médio|Difícil)$/);
+      if (m) { sec = m[1]; blocos[sec] = []; cur = null; continue; }
+      if (!sec) continue;
+      if (/^### \d+$/.test(l)) { cur = [l]; blocos[sec].push(cur); } else if (cur) cur.push(l);
+    }
+    const novos = new Set(a.qs.map((q) => `### ${q.num}`));
+    const saida = [];
+    let secAtual = null;
+    let pulando = false;
+    const fechaSec = () => {
+      if (!secAtual || !blocos[secAtual]) return;
+      while (saida.length && saida[saida.length - 1] === '') saida.pop();
+      for (const b of blocos[secAtual]) { saida.push(''); saida.push(...b); while (saida[saida.length - 1] === '') saida.pop(); }
+      saida.push('');
+    };
+    for (const l of fs.readFileSync(DEST + a.nome, 'utf8').split('\n')) {
+      if (/^## /.test(l)) { pulando = false; fechaSec(); secAtual = (l.match(/^## (Fácil|Médio|Difícil)$/) || [])[1] || null; saida.push(l); continue; }
+      if (/^### /.test(l)) pulando = novos.has(l.trim());
+      if (!pulando) saida.push(l);
+    }
+    fechaSec();
+    fs.writeFileSync(DEST + a.nome, saida.join('\n').replace(/\n{3,}/g, '\n\n').replace(/\n*$/, '\n'));
+  } else fs.writeFileSync(DEST + a.nome, texto);
   console.log(`${a.nome}: ${a.qs.length} questões${faltas.length ? ' — PROBLEMAS: ' + faltas.join(', ') : ''}`);
 }
