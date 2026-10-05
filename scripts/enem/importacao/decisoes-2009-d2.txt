@@ -90,6 +90,37 @@ s: Portaria n° 148 => > Portaria n° 148
 x: ICad é a média de TC e TA. Multiplicando por 2: 1,2 = NV/NF + NA/NV e, dobrando NF, 1,0 = NV/(2NF) + NA/NV. Subtraindo: 0,2 = NV/(2NF), ou NV/NF = 0,4. Então NA/NV = 1,2 − 0,4 = 0,8. Como NA + NV = 1,8 NV = 3 600, NV = 2 000 e NF = 2 000 ÷ 0,4 = 5 000.
 @177 d matematica/porcentagem
 x: Cheque especial: 12 × 150 = R$ 1 800, ou R$ 1 500 à vista. Cartão: 5 × 80 = R$ 400, ou R$ 300 à vista. Emprestar de José custa 25% a mais. Opções: renegociar = 2 250; emprestar para as duas = 1 800 × 1,25 = 2 250; pagar tudo em parcelas = 2 200; emprestar só para o cheque = 1 875 + 400 = 2 275; emprestar só para o cartão = 375 + 1 800 = 2 175. A menor é a última.
+@139 m matematica/razao-proporcao-regra-de-tres fig
+x: Com a frota do mesmo tamanho, o número de passageiros é proporcional ao índice do gráfico. Em abril de 2001 o índice era cerca de 400 (321,9 milhões de passageiros); em outubro de 2008, cerca de 441. Total: 321,9 × 441 ÷ 400 ≈ 355 milhões.
+@141 m matematica/geometria-plana fig
+e: O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular ABCD, em que AB = BC/2, Antônio demarcou uma área quadrada no vértice A, para a construção de sua residência, de acordo com o desenho, no qual AE = AB/5 é lado do quadrado. || [fig1] || Nesse caso, a área definida por Antônio atingiria exatamente o limite determinado pela condição se ele
+x: Com AB = a, BC = 2a e a área do terreno é 2a². Antônio pode ocupar até 6%: 0,12a². O quadrado tem lado a/5 e área a²/25 = 0,04a². Para chegar a 0,12a², a área do quadrado precisa ser triplicada.
+@142 f matematica/funcoes-afim-e-quadratica fig
+x: O gráfico é uma "escada": os casos de câncer aumentam quando o consumo passa de certos limites, mas não na mesma proporção dos cigarros. As grandezas estão relacionadas, mas não são proporcionais.
+@143 m matematica/porcentagem fig
+x: Em 05/09 a população economicamente ativa era 23 020 mil pessoas. Com aumento de 4%: 23 020 × 1,04 = 23 940,8 mil, ou seja, 23 940 800 pessoas.
+@144 m matematica/numeros-e-operacoes fig
+e: A música e a matemática se encontram na representação dos tempos das notas musicais, conforme a figura seguinte. || [fig1] || Um compasso é uma unidade musical composta por determinada quantidade de notas musicais em que a soma das durações coincide com a fração indicada como fórmula do compasso. Por exemplo, se a fórmula de compasso for 1/2, poderia ter um compasso ou com duas semínimas ou uma mínima ou quatro colcheias, sendo possível a combinação de diferentes figuras. || Um trecho musical de oito compassos, cuja fórmula é 3/4, poderia ser preenchido com
+a: 24 fusas. | 3 semínimas. | 8 semínimas. | 24 colcheias e 12 semínimas. | 16 semínimas e 8 semicolcheias.
+x: Oito compassos de 3/4 somam 8 × 3/4 = 6 (seis semibreves). Colcheia vale 1/8 e semínima 1/4: 24 × 1/8 + 12 × 1/4 = 3 + 3 = 6.
+@145 m matematica/geometria-plana fig
+e: As figuras a seguir exibem um trecho de um quebra-cabeças que está sendo montado. Observe que as peças são quadradas e há 8 peças no tabuleiro da figura A e 8 peças no tabuleiro da figura B. As peças são retiradas do tabuleiro da figura B e colocadas no tabuleiro da figura A na posição correta, isto é, de modo a completar os desenhos. || [fig1] || [fig2] || > Disponível em: http://pt.eternityii.com. Acesso em: 14 jul. 2009. || É possível preencher corretamente o espaço indicado pela seta no tabuleiro da figura A colocando a peça
+x: Para completar os desenhos em volta do espaço vazio, as cores das bordas da peça precisam combinar com as das peças vizinhas. A peça 2, girada 90° no sentido anti-horário, fica com cada triângulo encostado na cor certa.
+@149 m matematica/geometria-plana fig
+x: Nos anéis de Borromeo, cada par de anéis não se prende sozinho: um anel passa por cima de um e por baixo do outro, alternando. Assim, se qualquer um for retirado, os outros dois se soltam. O esboço com esse padrão de cruzamentos é o da última alternativa.
+@151 d matematica/geometria-espacial fig
+x: O plano paralelo à face α corta o poliedro II e o prisma IV (perpendiculares a I) em seções iguais à seção reta desses prismas: triângulos. Como as faces são paralelas entre si, os dois triângulos são congruentes e têm lados correspondentes paralelos.
+@155 f matematica/grandezas-medidas-escalas fig
+x: Na escala 1 : 150, 36 m = 3 600 cm viram 24 cm e 28,5 m = 2 850 cm viram 19 cm. Com 1 cm de margem de cada lado: 21 cm × 26 cm.
+@164 d matematica/geometria-plana fig
+e: Ao morrer, o pai de João, Pedro e José deixou como herança um terreno retangular de 3 km x 2 km que contém uma área de extração de ouro delimitada por um quarto de círculo de raio 1 km a partir do canto inferior esquerdo da propriedade. Dado o maior valor da área de extração de ouro, os irmãos acordaram em repartir a propriedade de modo que cada um ficasse com a terça parte da área de extração, conforme mostra a figura. || [fig1] || Em relação à partilha proposta, constata-se que a porcentagem da área do terreno que coube a João corresponde, aproximadamente, a (considere √3/3 = 0,58)
+x: Para cada irmão ficar com 1/3 do quarto de círculo, as divisas saem do canto a 30° e 60°. João fica com o triângulo junto ao lado esquerdo: a divisa a 60° chega ao topo (altura 2 km) a uma distância 2 × tg 30° = 2 × 0,58 = 1,16 km. Área: 2 × 1,16 ÷ 2 = 1,16 km², de um terreno de 6 km²: cerca de 19%.
+@165 d matematica/geometria-analitica fig
+x: A rota AI vai de Brasília para o norte (Belém). Girando 135° no sentido horário a partir do norte, AII segue para o sudeste e pousa em Belo Horizonte. AIII forma um ângulo reto, no sentido anti-horário, com a direção de AII: aponta para o nordeste e, saindo de Belo Horizonte, chega a Salvador.
+@169 m matematica/geometria-plana fig
+x: Antes: área do trapézio (30 + 20) ÷ 2 × 2,5 = 62,5 m², e v = 1 050 ÷ 62,5 = 16,8 m/s. Depois: (49 + 41) ÷ 2 × 2 = 90 m². Nova vazão: 90 × 16,8 = 1 512 m³/s.
+@174 d matematica/trigonometria fig
+x: P parte do ponto mais à esquerda da circunferência e anda um arco d, o que corresponde a um ângulo d/r. A distância horizontal de Q ao ponto inicial passa a ser r − r·cos(d/r) = r(1 − cos(d/r)).
 
 ## 68-enem-2009-linguagens.md | 2009 | 2 | 2º dia, caderno amarelo | Linguagens
 auto: sim
@@ -156,3 +187,16 @@ x: O texto compara o culto ao corpo a uma religião. Antes, a religião prometia
 s: Texto I Acompanhando => Texto I || Acompanhando
 s: Texto II Barbarismo => Texto II || Barbarismo
 x: João de Barros considera "bárbaro" o português falado pelos povos dominados, como se só a forma de Portugal fosse correta. Ele vê a língua como algo homogêneo e invariável, que não pertence aos outros povos.
+@91 m portugues/interpretacao-de-texto fig
+x: O teste avalia quanto a pessoa usa os sites de relacionamento e, nos resultados, sugere mudanças ("procure sair mais", "conheça pessoas"). Ele se dirige a quem reserva mais tempo aos sites do que ao convívio pessoal com os amigos.
+@93 m artes/artes-e-educacao-fisica fig
+s: || Rubem Valentim. Disponível => 
+s: trataramna => trataram-na
+a: [fig1] | [fig2] | [fig3] | [fig4] | [fig5]
+x: Rubem Valentim criou emblemas geométricos inspirados nos símbolos das religiões afro-brasileiras (como as ferramentas dos orixás). Sua obra representa a arte brasileira de origem negro-africana.
+@95 m artes/artes-e-educacao-fisica fig
+x: A figura 1 mostra um conjunto de choro, com violão, cavaquinho e flauta: o chorinho é um gênero característico da música brasileira.
+@109 m portugues/funcoes-generos-e-variacao fig
+x: No segundo quadrinho, a escolha do tempo verbal é a da fala espontânea do dia a dia, e não a da norma formal. Esse uso dá à conversa um caráter coloquial.
+@113 m literatura/quinhentismo-ao-simbolismo fig
+x: Caminha descreve os indígenas nus e "sem vergonha" disso, e Eckhout pinta o índio Tapuia nu, com armas. Os dois retratam o habitante das terras que sofreriam o processo colonizador, visto pelo olhar do europeu.

@@ -145,6 +145,48 @@ Qual dos argumentos a seguir justifica a conclusão do artesão?
 
 **Assunto:** matematica/geometria-espacial
 
+### 142
+A suspeita de que haveria uma relação causal entre tabagismo e câncer de pulmão foi levantada pela primeira vez a partir de observações clínicas. Para testar essa possível associação, foram conduzidos inúmeros estudos epidemiológicos. Dentre esses, houve o estudo do número de casos de câncer em relação ao número de cigarros consumidos por dia, cujos resultados são mostrados no gráfico a seguir.
+
+![Figura](enem-2009-d2-q142-1.webp)
+
+De acordo com as informações do gráfico,
+
+- A) o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas inversamente proporcionais.
+- B) o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas que não se relacionam.
+- C) o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas diretamente proporcionais.
+- D) uma pessoa não fumante certamente nunca será diagnosticada com câncer de pulmão.
+- E) o consumo diário de cigarros e o número de casos de câncer de pulmão são grandezas que estão relacionadas, mas sem proporcionalidade.
+
+**Resposta:** E
+
+**Explicação:** O gráfico é uma "escada": os casos de câncer aumentam quando o consumo passa de certos limites, mas não na mesma proporção dos cigarros. As grandezas estão relacionadas, mas não são proporcionais.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 142
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 155
+A figura a seguir mostra as medidas reais de uma aeronave que será fabricada para utilização por companhias de transporte aéreo. Um engenheiro precisa fazer o desenho desse avião em escala de 1:150.
+
+![Figura](enem-2009-d2-q155-1.webp)
+
+Para o engenheiro fazer esse desenho em uma folha de papel, deixando uma margem de 1 cm em relação às bordas da folha, quais as dimensões mínimas, em centímetros, que essa folha deverá ter?
+
+- A) 2,9 cm × 3,4 cm.
+- B) 3,9 cm × 4,4 cm.
+- C) 20 cm × 25 cm.
+- D) 21 cm × 26 cm.
+- E) 192 cm × 242 cm.
+
+**Resposta:** D
+
+**Explicação:** Na escala 1 : 150, 36 m = 3 600 cm viram 24 cm e 28,5 m = 2 850 cm viram 19 cm. Com 1 cm de margem de cada lado: 21 cm × 26 cm.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 155
+
+**Assunto:** matematica/grandezas-medidas-escalas
+
 ## Médio
 
 ### 137
@@ -477,6 +519,167 @@ Se um paciente considera aceitável um risco de até 35% de chances de que ocorr
 
 **Assunto:** matematica/probabilidade
 
+### 139
+Dados da Associação Nacional de Empresas de Transportes Urbanos (ANTU) mostram que o número de passageiros transportados mensalmente nas principais regiões metropolitanas do país vem caindo sistematicamente. Eram 476,7 milhões de passageiros em 1995, e esse número caiu para 321,9 milhões em abril de 2001. Nesse período, o tamanho da frota de veículos mudou pouco, tendo no final de 2008 praticamente o mesmo tamanho que tinha em 2001.
+
+O gráfico a seguir mostra um índice de produtividade utilizado pelas empresas do setor, que é a razão entre o total de passageiros transportados por dia e o tamanho da frota de veículos.
+
+![Figura](enem-2009-d2-q139-1.webp)
+
+> Disponível em: http://www.ntu.org.br. Acesso em 16 jul. 2009 (adaptado).
+
+Supondo que as frotas totais de veículos naquelas regiões metropolitanas em abril de 2001 e em outubro de 2008 eram do mesmo tamanho, os dados do gráfico permitem inferir que o total de passageiros transportados no mês de outubro de 2008 foi aproximadamente igual a
+
+- A) 355 milhões.
+- B) 400 milhões.
+- C) 426 milhões.
+- D) 441 milhões.
+- E) 477 milhões.
+
+**Resposta:** A
+
+**Explicação:** Com a frota do mesmo tamanho, o número de passageiros é proporcional ao índice do gráfico. Em abril de 2001 o índice era cerca de 400 (321,9 milhões de passageiros); em outubro de 2008, cerca de 441. Total: 321,9 × 441 ÷ 400 ≈ 355 milhões.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 141
+O governo cedeu terrenos para que famílias construíssem suas residências com a condição de que no mínimo 94% da área do terreno fosse mantida como área de preservação ambiental. Ao receber o terreno retangular ABCD, em que AB = BC/2, Antônio demarcou uma área quadrada no vértice A, para a construção de sua residência, de acordo com o desenho, no qual AE = AB/5 é lado do quadrado.
+
+![Figura](enem-2009-d2-q141-1.webp)
+
+Nesse caso, a área definida por Antônio atingiria exatamente o limite determinado pela condição se ele
+
+- A) duplicasse a medida do lado do quadrado.
+- B) triplicasse a medida do lado do quadrado.
+- C) triplicasse a área do quadrado.
+- D) ampliasse a medida do lado do quadrado em 4%.
+- E) ampliasse a área do quadrado em 4%.
+
+**Resposta:** C
+
+**Explicação:** Com AB = a, BC = 2a e a área do terreno é 2a². Antônio pode ocupar até 6%: 0,12a². O quadrado tem lado a/5 e área a²/25 = 0,04a². Para chegar a 0,12a², a área do quadrado precisa ser triplicada.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 141
+
+**Assunto:** matematica/geometria-plana
+
+### 143
+O gráfico a seguir mostra a evolução, de abril de 2008 a maio de 2009, da população economicamente ativa para seis Regiões Metropolitanas pesquisadas.
+
+![Figura](enem-2009-d2-q143-1.webp)
+
+> Disponível em: www.ibge.gov.br.
+
+Considerando que a taxa de crescimento da população economicamente ativa, entre 05/09 e 06/09, seja de 4%, então o número de pessoas economicamente ativas em 06/09 será igual a
+
+- A) 23.940.
+- B) 32.228.
+- C) 920.800.
+- D) 23.940.800.
+- E) 32.228.000.
+
+**Resposta:** D
+
+**Explicação:** Em 05/09 a população economicamente ativa era 23 020 mil pessoas. Com aumento de 4%: 23 020 × 1,04 = 23 940,8 mil, ou seja, 23 940 800 pessoas.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 143
+
+**Assunto:** matematica/porcentagem
+
+### 144
+A música e a matemática se encontram na representação dos tempos das notas musicais, conforme a figura seguinte.
+
+![Figura](enem-2009-d2-q144-1.webp)
+
+Um compasso é uma unidade musical composta por determinada quantidade de notas musicais em que a soma das durações coincide com a fração indicada como fórmula do compasso. Por exemplo, se a fórmula de compasso for 1/2, poderia ter um compasso ou com duas semínimas ou uma mínima ou quatro colcheias, sendo possível a combinação de diferentes figuras.
+
+Um trecho musical de oito compassos, cuja fórmula é 3/4, poderia ser preenchido com
+
+- A) 24 fusas.
+- B) 3 semínimas.
+- C) 8 semínimas.
+- D) 24 colcheias e 12 semínimas.
+- E) 16 semínimas e 8 semicolcheias.
+
+**Resposta:** D
+
+**Explicação:** Oito compassos de 3/4 somam 8 × 3/4 = 6 (seis semibreves). Colcheia vale 1/8 e semínima 1/4: 24 × 1/8 + 12 × 1/4 = 3 + 3 = 6.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 145
+As figuras a seguir exibem um trecho de um quebra-cabeças que está sendo montado. Observe que as peças são quadradas e há 8 peças no tabuleiro da figura A e 8 peças no tabuleiro da figura B. As peças são retiradas do tabuleiro da figura B e colocadas no tabuleiro da figura A na posição correta, isto é, de modo a completar os desenhos.
+
+![Figura](enem-2009-d2-q145-1.webp)
+
+![Figura](enem-2009-d2-q145-2.webp)
+
+> Disponível em: http://pt.eternityii.com. Acesso em: 14 jul. 2009.
+
+É possível preencher corretamente o espaço indicado pela seta no tabuleiro da figura A colocando a peça
+
+- A) 1 após girá-la 90° no sentido horário.
+- B) 1 após girá-la 180° no sentido anti-horário.
+- C) 2 após girá-la 90° no sentido anti-horário.
+- D) 2 após girá-la 180° no sentido horário.
+- E) 2 após girá-la 270° no sentido anti-horário.
+
+**Resposta:** C
+
+**Explicação:** Para completar os desenhos em volta do espaço vazio, as cores das bordas da peça precisam combinar com as das peças vizinhas. A peça 2, girada 90° no sentido anti-horário, fica com cada triângulo encostado na cor certa.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/geometria-plana
+
+### 149
+Em Florença, Itália, na Igreja de Santa Croce, é possível encontrar um portão em que aparecem os anéis de Borromeo. Alguns historiadores acreditavam que os círculos representavam as três artes: escultura, pintura e arquitetura, pois elas eram tão próximas quanto inseparáveis.
+
+![Figura](enem-2009-d2-q149-1.webp)
+
+Qual dos esboços a seguir melhor representa os anéis de Borromeo?
+
+- A) ![Alternativa A](enem-2009-d2-q149-2.webp)
+- B) ![Alternativa B](enem-2009-d2-q149-4.webp)
+- C) ![Alternativa C](enem-2009-d2-q149-6.webp)
+- D) ![Alternativa D](enem-2009-d2-q149-3.webp)
+- E) ![Alternativa E](enem-2009-d2-q149-5.webp)
+
+**Resposta:** E
+
+**Explicação:** Nos anéis de Borromeo, cada par de anéis não se prende sozinho: um anel passa por cima de um e por baixo do outro, alternando. Assim, se qualquer um for retirado, os outros dois se soltam. O esboço com esse padrão de cruzamentos é o da última alternativa.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/geometria-plana
+
+### 169
+A vazão do rio Tietê, em São Paulo, constitui preocupação constante nos períodos chuvosos. Em alguns trechos, são construídas canaletas para controlar o fluxo de água. Uma dessas canaletas, cujo corte vertical determina a forma de um trapézio isósceles, tem as medidas especificadas na figura I. Neste caso, a vazão da água é de 1.050 m³/s. O cálculo da vazão, Q em m³/s, envolve o produto da área A do setor transversal (por onde passa a água), em m², pela velocidade da água no local, v, em m/s, ou seja, Q = Av.
+
+Planeja-se uma reforma na canaleta, com as dimensões especificadas na figura II, para evitar a ocorrência de enchentes.
+
+![Figura](enem-2009-d2-q169-1.webp)
+
+> Disponível em: www2.uel.br. Na suposição de que a velocidade da água não se alterará, qual a vazão esperada para depois da reforma na canaleta?
+
+- A) 90 m³/s.
+- B) 750 m³/s.
+- C) 1.050 m³/s.
+- D) 1.512 m³/s.
+- E) 2.009 m³/s.
+
+**Resposta:** D
+
+**Explicação:** Antes: área do trapézio (30 + 20) ÷ 2 × 2,5 = 62,5 m², e v = 1 050 ÷ 62,5 = 16,8 m/s. Depois: (49 + 41) ÷ 2 × 2 = 90 m². Nova vazão: 90 × 16,8 = 1 512 m³/s.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 169
+
+**Assunto:** matematica/geometria-plana
+
 ## Difícil
 
 ### 147
@@ -629,3 +832,91 @@ A opção que dá a João o menor gasto seria
 **Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 177
 
 **Assunto:** matematica/porcentagem
+
+### 151
+Suponha que, na escultura do artista Emanoel Araújo, mostrada na figura a seguir, todos os prismas numerados em algarismos romanos são retos, com bases triangulares, e que as faces laterais do poliedro II são perpendiculares à sua própria face superior, que, por sua vez, é um triângulo congruente ao triângulo base dos prismas. Além disso, considere que os prismas I e III são perpendiculares ao prisma IV e ao poliedro II.
+
+![Figura](enem-2009-d2-q151-1.webp)
+
+> Disponível em: www.escritosriodearte.com.br. Acesso em: 28 jul. 2009.
+
+Imagine um plano paralelo à face α do prisma I, mas que passe pelo ponto P pertencente à aresta do poliedro II, indicado na figura. A interseção desse plano imaginário com a escultura contém
+
+- A) dois triângulos congruentes com lados correspondentes paralelos.
+- B) dois retângulos congruentes e com lados correspondentes paralelos.
+- C) dois trapézios congruentes com lados correspondentes perpendiculares.
+- D) dois paralelogramos congruentes com lados correspondentes paralelos.
+- E) dois quadriláteros congruentes com lados correspondentes perpendiculares.
+
+**Resposta:** A
+
+**Explicação:** O plano paralelo à face α corta o poliedro II e o prisma IV (perpendiculares a I) em seções iguais à seção reta desses prismas: triângulos. Como as faces são paralelas entre si, os dois triângulos são congruentes e têm lados correspondentes paralelos.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/geometria-espacial
+
+### 164
+Ao morrer, o pai de João, Pedro e José deixou como herança um terreno retangular de 3 km x 2 km que contém uma área de extração de ouro delimitada por um quarto de círculo de raio 1 km a partir do canto inferior esquerdo da propriedade. Dado o maior valor da área de extração de ouro, os irmãos acordaram em repartir a propriedade de modo que cada um ficasse com a terça parte da área de extração, conforme mostra a figura.
+
+![Figura](enem-2009-d2-q164-1.webp)
+
+Em relação à partilha proposta, constata-se que a porcentagem da área do terreno que coube a João corresponde, aproximadamente, a (considere √3/3 = 0,58)
+
+- A) 50%.
+- B) 43%.
+- C) 37%.
+- D) 33%.
+- E) 19%.
+
+**Resposta:** E
+
+**Explicação:** Para cada irmão ficar com 1/3 do quarto de círculo, as divisas saem do canto a 30° e 60°. João fica com o triângulo junto ao lado esquerdo: a divisa a 60° chega ao topo (altura 2 km) a uma distância 2 × tg 30° = 2 × 0,58 = 1,16 km. Área: 2 × 1,16 ÷ 2 = 1,16 km², de um terreno de 6 km²: cerca de 19%.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 164
+
+**Assunto:** matematica/geometria-plana
+
+### 165
+Rotas aéreas são como pontes que ligam cidades, estados ou países. O mapa a seguir mostra os estados brasileiros e a localização de algumas capitais identificadas pelos números. Considere que a direção seguida por um avião AI que partiu de Brasília – DF, sem escalas, para Belém, no Pará, seja um segmento de reta com extremidades em DF e em 4.
+
+![Figura](enem-2009-d2-q165-1.webp)
+
+> SIQUEIRA, S. Brasil Regiões. Disponível em: www.santiagosiqueira.pro.br. Acesso em: 28 jul. 2009 (adaptado).
+
+Suponha que um passageiro de nome Carlos pegou um avião AII, que seguiu a direção que forma um ângulo de 135o graus no sentido horário com a rota Brasília – Belém e pousou em alguma das capitais brasileiras. Ao desembarcar, Carlos fez uma conexão e embarcou em um avião AIII, que seguiu a direção que forma um ângulo reto, no sentido anti-horário, com a direção seguida pelo avião AII ao partir de Brasília-DF. Considerando que a direção seguida por um avião é sempre dada pela semirreta com origem na cidade de partida e que passa pela cidade destino do avião, pela descrição dada, o passageiro Carlos fez uma conexão em
+
+- A) Belo Horizonte, e em seguida embarcou para Curitiba.
+- B) Belo Horizonte, e em seguida embarcou para Salvador.
+- C) Boa Vista, e em seguida embarcou para Porto Velho.
+- D) Goiânia, e em seguida embarcou para o Rio de Janeiro.
+- E) Goiânia, e em seguida embarcou para Manaus.
+
+**Resposta:** B
+
+**Explicação:** A rota AI vai de Brasília para o norte (Belém). Girando 135° no sentido horário a partir do norte, AII segue para o sudeste e pousa em Belo Horizonte. AIII forma um ângulo reto, no sentido anti-horário, com a direção de AII: aponta para o nordeste e, saindo de Belo Horizonte, chega a Salvador.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 165
+
+**Assunto:** matematica/geometria-analitica
+
+### 174
+Considere um ponto P em uma circunferência de raio r no plano cartesiano. Seja Q a projeção ortogonal de P sobre o eixo x, como mostra a figura, e suponha que o ponto P percorra, no sentido anti-horário, uma distância d ≤ r sobre a circunferência.
+
+![Figura](enem-2009-d2-q174-1.webp)
+
+Então, o ponto Q percorrerá, no eixo x, uma distância dada por
+
+- A) ![Alternativa A](enem-2009-d2-q174-2.webp)
+- B) ![Alternativa B](enem-2009-d2-q174-4.webp)
+- C) ![Alternativa C](enem-2009-d2-q174-6.webp)
+- D) ![Alternativa D](enem-2009-d2-q174-3.webp)
+- E) ![Alternativa E](enem-2009-d2-q174-5.webp)
+
+**Resposta:** B
+
+**Explicação:** P parte do ponto mais à esquerda da circunferência e anda um arco d, o que corresponde a um ângulo d/r. A distância horizontal de Q ao ponto inicial passa a ser r − r·cos(d/r) = r(1 − cos(d/r)).
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 174
+
+**Assunto:** matematica/trigonometria

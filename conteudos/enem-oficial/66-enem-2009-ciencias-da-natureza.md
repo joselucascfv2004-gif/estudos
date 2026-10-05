@@ -521,6 +521,163 @@ Suponha que tenha sido construída uma fazenda de carcinicultura próximo a um m
 
 **Assunto:** biologia/ecologia
 
+### 2
+Analise a figura.
+
+![Figura](enem-2009-d1-q002-1.webp)
+
+> Disponível em: http//www.alcoologia.net. Acesso em: 15 jul. 2009 (adaptado).
+
+Supondo que seja necessário dar um título para essa figura, a alternativa que melhor traduziria o processo representado seria:
+
+- A) Concentração média de álcool no sangue ao longo do dia.
+- B) Variação da frequência da ingestão de álcool ao longo das horas.
+- C) Concentração mínima de álcool no sangue a partir de diferentes dosagens.
+- D) Estimativa de tempo necessário para metabolizar diferentes quantidades de álcool.
+- E) Representação gráfica da distribuição de frequência de álcool em determinada hora do dia.
+
+**Resposta:** D
+
+**Explicação:** Cada curva mostra a concentração de álcool no sangue depois de uma dose diferente: ela sobe, chega a um máximo e cai até zero em tempos diferentes. O gráfico estima quanto tempo o corpo leva para metabolizar diferentes quantidades de álcool.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 2
+
+**Assunto:** biologia/fisiologia-humana
+
+### 16
+A figura seguinte representa um modelo de transmissão da informação genética nos sistemas biológicos. No fim do processo, que inclui a replicação, a transcrição e a tradução, há três formas proteicas diferentes denominadas a, b e c.
+
+![Figura](enem-2009-d1-q016-1.webp)
+
+Depreende-se do modelo que
+
+- A) a única molécula que participa da produção de proteínas é o DNA.
+- B) o fluxo de informação genética, nos sistemas biológicos, é unidirecional.
+- C) as fontes de informação ativas durante o processo de transcrição são as proteínas.
+- D) é possível obter diferentes variantes proteicas a partir de um mesmo produto de transcrição.
+- E) a molécula de DNA possui forma circular e as demais moléculas possuem forma de fita simples linearizadas.
+
+**Resposta:** D
+
+**Explicação:** O esquema mostra um único RNA dando origem a três proteínas diferentes ("a", "b" e "c"). Isso acontece, por exemplo, pelo processamento alternativo do RNA: a partir do mesmo produto da transcrição, obtêm-se variantes de proteínas.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 16
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 19
+A instalação elétrica de uma casa envolve várias etapas, desde a alocação dos dispositivos, instrumentos e aparelhos elétricos, até a escolha dos materiais que a compõem, passando pelo dimensionamento da potência requerida, da fiação necessária, dos eletrodutos*, entre outras.
+
+Para cada aparelho elétrico existe um valor de potência associado. Valores típicos de potências para alguns aparelhos elétricos são apresentados no quadro seguinte:
+
+![Figura](enem-2009-d1-q019-1.webp)
+
+A escolha das lâmpadas é essencial para obtenção de uma boa iluminação. A potência da lâmpada deverá estar de acordo com o tamanho do cômodo a ser iluminado. O quadro a seguir mostra a relação entre as áreas dos cômodos (em m²) e as potências das lâmpadas (em W), e foi utilizado como referência para o primeiro pavimento de uma residência.
+
+![Figura](enem-2009-d1-q019-2.webp)
+
+Considerando a planta baixa fornecida, com todos os aparelhos em funcionamento, a potência total, em watts, será de
+
+- A) 4.070.
+- B) 4.270.
+- C) 4.320.
+- D) 4.390.
+- E) 4.470.
+
+**Resposta:** D
+
+**Explicação:** Aparelhos: geladeira 200 + chuveiro 3 000 + televisor 200 + som 120 + ferro 500 + rádio 50 = 4 070 W. Lâmpadas: cozinha 3 × 3 = 9 m² (100 W); banheiro 1,5 × 2,1 = 3,15 m² (60 W); corredor 1,5 × 0,9 = 1,35 m² (60 W); sala 2,8 × 3 = 8,4 m² (100 W): 320 W. Total: 4 390 W.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 19
+
+**Assunto:** fisica/eletricidade
+
+### 20
+O esquema mostra um diagrama de bloco de uma estação geradora de eletricidade abastecida por combustível fóssil.
+
+![Figura](enem-2009-d1-q020-1.webp)
+
+> HINRICHS, R. A.; KLEINBACH, M. Energia e meio ambiente. São Paulo: Pioneira Thomson Learning, 2003 (adaptado).
+
+Se fosse necessário melhorar o rendimento dessa usina, que forneceria eletricidade para abastecer uma cidade, qual das seguintes ações poderia resultar em alguma economia de energia, sem afetar a capacidade de geração da usina?
+
+- A) Reduzir a quantidade de combustível fornecido à usina para ser queimado.
+- B) Reduzir o volume de água do lago que circula no condensador de vapor.
+- C) Reduzir o tamanho da bomba usada para devolver a água líquida à caldeira.
+- D) Melhorar a capacidade dos dutos com vapor conduzirem calor para o ambiente.
+- E) Usar o calor liberado com os gases pela chaminé para mover um outro gerador.
+
+**Resposta:** E
+
+**Explicação:** Os gases quentes que saem pela chaminé levam embora energia que não foi aproveitada. Usar esse calor para mover outro gerador aumenta o rendimento da usina sem mudar a sua capacidade de geração.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 20
+
+**Assunto:** fisica/termologia
+
+### 21
+Os seres vivos apresentam diferentes ciclos de vida, caracterizados pelas fases nas quais gametas são produzidos e pelos processos reprodutivos que resultam na geração de novos indivíduos.
+
+Considerando-se um modelo simplificado padrão para geração de indivíduos viáveis, a alternativa que corresponde ao observado em seres humanos é:
+
+- A) ![Alternativa](enem-2009-d1-q021-1.webp)
+- B) ![Alternativa](enem-2009-d1-q021-2.webp)
+- C) ![Alternativa](enem-2009-d1-q021-3.webp)
+- D) ![Alternativa](enem-2009-d1-q021-4.webp)
+- E) ![Alternativa](enem-2009-d1-q021-5.webp)
+
+**Resposta:** C
+
+**Explicação:** Nos seres humanos, o organismo adulto é diploide (2n) e produz gametas haploides (n) por meiose. Na fecundação, dois gametas formam o zigoto diploide (2n), que cresce por mitose até virar adulto. O ciclo correto tem meiose do adulto para os gametas e mitose do zigoto para o adulto.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 21
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
+### 24
+Umidade relativa do ar é o termo usado para descrever a quantidade de vapor de água contido na atmosfera. Ela é definida pela razão entre o conteúdo real de umidade de uma parcela de ar e a quantidade de umidade que a mesma parcela de ar pode armazenar na mesma temperatura e pressão quando está saturada de vapor, isto é, com 100% de umidade relativa. O gráfico representa a relação entre a umidade relativa do ar e sua temperatura ao longo de um período de 24 horas em um determinado local.
+
+![Figura](enem-2009-d1-q024-1.webp)
+
+Considerando-se as informações do texto e do gráfico, conclui-se que
+
+- A) a insolação é um fator que provoca variação da umidade relativa do ar.
+- B) o ar vai adquirindo maior quantidade de vapor de água à medida que se aquece.
+- C) a presença de umidade relativa do ar é diretamente proporcional à temperatura do ar.
+- D) a umidade relativa do ar indica, em termos absolutos, a quantidade de vapor de água existente na atmosfera.
+- E) a variação da umidade do ar se verifica no verão, e não no inverno, quando as temperaturas permanecem baixas.
+
+**Resposta:** A
+
+**Explicação:** O gráfico mostra que, ao longo do dia, quando a temperatura sobe (por causa do Sol), a umidade relativa cai, e vice-versa. A insolação, ao aquecer o ar, provoca a variação da umidade relativa.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 24
+
+**Assunto:** geografia/geografia-fisica
+
+### 29
+Os núcleos dos átomos são constituídos de prótons e nêutrons, sendo ambos os principais responsáveis pela sua massa. Nota-se que, na maioria dos núcleos, essas partículas não estão presentes na mesma proporção. O gráfico mostra a quantidade de nêutrons (N) em função da quantidade de prótons (Z) para os núcleos estáveis conhecidos.
+
+![Figura](enem-2009-d1-q029-1.webp)
+
+> KAPLAN, I. Física Nuclear. Rio de Janeiro: Guanabara Dois, 1978 (adaptado).
+
+O antimônio é um elemento químico que possui 50 prótons e possui vários isótopos ― átomos que só se diferem pelo número de nêutrons. De acordo com o gráfico, os isótopos estáveis do antimônio possuem
+
+- A) entre 12 e 24 nêutrons a menos que o número de prótons.
+- B) exatamente o mesmo número de prótons e nêutrons.
+- C) entre 0 e 12 nêutrons a mais que o número de prótons.
+- D) entre 12 e 24 nêutrons a mais que o número de prótons.
+- E) entre 0 e 12 nêutrons a menos que o número de prótons.
+
+**Resposta:** D
+
+**Explicação:** Para Z = 50, a faixa de núcleos estáveis no gráfico vai de cerca de 62 a 74 nêutrons. Isso é entre 12 e 24 nêutrons a mais que o número de prótons.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 29
+
+**Assunto:** quimica/atomistica-e-tabela-periodica
+
 ## Difícil
 
 ### 9
@@ -747,3 +904,20 @@ O álcool hidratado utilizado como combustível veicular é obtido por meio da d
 **Fonte:** ENEM 2009, 1º dia, caderno azul, questão 44
 
 **Assunto:** quimica/solucoes
+
+### 36
+O uso de protetores solares em situações de grande exposição aos raios solares como, por exemplo, nas praias, é de grande importância para a saúde. As moléculas ativas de um protetor apresentam, usualmente, anéis aromáticos conjugados com grupos carbonila, pois esses sistemas são capazes de absorver a radiação ultravioleta mais nociva aos seres humanos. A conjugação é definida como a ocorrência de alternância entre ligações simples e duplas em uma molécula. Outra propriedade das moléculas em questão é apresentar, em uma de suas extremidades, uma parte apolar responsável por reduzir a solubilidade do composto em água, o que impede sua rápida remoção quando do contato com a água. funcionar como molécula ativa de protetores solares?
+
+- A) ![Alternativa A](enem-2009-d1-q036-1.webp)
+- B) ![Alternativa B](enem-2009-d1-q036-2.webp)
+- C) ![Alternativa C](enem-2009-d1-q036-3.webp)
+- D) ![Alternativa D](enem-2009-d1-q036-4.webp)
+- E) ![Alternativa E](enem-2009-d1-q036-5.webp)
+
+**Resposta:** E
+
+**Explicação:** A molécula precisa ter ligações duplas alternadas (conjugadas) com o anel aromático, para absorver ultravioleta, e uma longa cadeia apolar, para não ser removida pela água. A última estrutura tem o anel ligado a C=C e ao grupo éster, todos conjugados, e uma cadeia ramificada longa.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 36
+
+**Assunto:** quimica/quimica-organica

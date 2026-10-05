@@ -96,6 +96,24 @@ s: composto fórmula molecular massa molar (g/mol) || H Δ (kJ/mol) || metano CH
 x: Calor por mol de CO₂: metano (1 CO₂) 890 kJ; butano (4 CO₂) 2 878 ÷ 4 ≈ 720 kJ; octano (8 CO₂) 5 471 ÷ 8 ≈ 684 kJ. Em ordem crescente: gasolina (octano), GLP (butano) e gás natural (metano).
 @44 d quimica/solucoes
 x: A mistura tinha 20% de 800 kg = 160 kg de etanol. O álcool hidratado levou 96% de 100 kg = 96 kg. Sobraram 160 − 96 = 64 kg de etanol em 800 − 100 = 700 kg de resíduo: 64 ÷ 700 ≈ 9,1%.
+@2 m biologia/fisiologia-humana fig
+x: Cada curva mostra a concentração de álcool no sangue depois de uma dose diferente: ela sobe, chega a um máximo e cai até zero em tempos diferentes. O gráfico estima quanto tempo o corpo leva para metabolizar diferentes quantidades de álcool.
+@16 m biologia/genetica-e-biotecnologia fig
+x: O esquema mostra um único RNA dando origem a três proteínas diferentes ("a", "b" e "c"). Isso acontece, por exemplo, pelo processamento alternativo do RNA: a partir do mesmo produto da transcrição, obtêm-se variantes de proteínas.
+@19 m fisica/eletricidade fig
+x: Aparelhos: geladeira 200 + chuveiro 3 000 + televisor 200 + som 120 + ferro 500 + rádio 50 = 4 070 W. Lâmpadas: cozinha 3 × 3 = 9 m² (100 W); banheiro 1,5 × 2,1 = 3,15 m² (60 W); corredor 1,5 × 0,9 = 1,35 m² (60 W); sala 2,8 × 3 = 8,4 m² (100 W): 320 W. Total: 4 390 W.
+@20 m fisica/termologia fig
+x: Os gases quentes que saem pela chaminé levam embora energia que não foi aproveitada. Usar esse calor para mover outro gerador aumenta o rendimento da usina sem mudar a sua capacidade de geração.
+@21 m biologia/genetica-e-biotecnologia fig
+e: Os seres vivos apresentam diferentes ciclos de vida, caracterizados pelas fases nas quais gametas são produzidos e pelos processos reprodutivos que resultam na geração de novos indivíduos. || Considerando-se um modelo simplificado padrão para geração de indivíduos viáveis, a alternativa que corresponde ao observado em seres humanos é:
+a: [fig1] | [fig2] | [fig3] | [fig4] | [fig5]
+x: Nos seres humanos, o organismo adulto é diploide (2n) e produz gametas haploides (n) por meiose. Na fecundação, dois gametas formam o zigoto diploide (2n), que cresce por mitose até virar adulto. O ciclo correto tem meiose do adulto para os gametas e mitose do zigoto para o adulto.
+@24 m geografia/geografia-fisica fig
+x: O gráfico mostra que, ao longo do dia, quando a temperatura sobe (por causa do Sol), a umidade relativa cai, e vice-versa. A insolação, ao aquecer o ar, provoca a variação da umidade relativa.
+@29 m quimica/atomistica-e-tabela-periodica fig
+x: Para Z = 50, a faixa de núcleos estáveis no gráfico vai de cerca de 62 a 74 nêutrons. Isso é entre 12 e 24 nêutrons a mais que o número de prótons.
+@36 d quimica/quimica-organica fig
+x: A molécula precisa ter ligações duplas alternadas (conjugadas) com o anel aromático, para absorver ultravioleta, e uma longa cadeia apolar, para não ser removida pela água. A última estrutura tem o anel ligado a C=C e ao grupo éster, todos conjugados, e uma cadeia ramificada longa.
 
 ## 67-enem-2009-ciencias-humanas.md | 2009 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
@@ -187,3 +205,17 @@ x: O texto mostra que, apesar das diferenças, a formação dos Estados na Amér
 x: A primeira ideia diz que uma cidade, como Brasília, não poderia ser criada artificialmente, pois a vida social deve surgir de forma espontânea. A segunda lembra que toda a América foi criada pelos colonizadores, contrariando a primeira.
 @90 d geografia/biomas-e-questoes-ambientais
 x: O nível das águas do Pantanal depende dos rios que nascem no planalto. Controlar o desmatamento e a erosão nas cabeceiras protege essas nascentes e, com elas, a planície e sua biodiversidade.
+@73 m geografia/economia-agropecuaria-industria-energia fig
+x: O mapa mostra estados do Norte e do Centro-Oeste com PIB por habitante maior que o de antes, ligados à expansão da fronteira agrícola e mineral. O avanço da fronteira econômica levou novas atividades a essas regiões, nos setores primário, secundário e terciário.
+@77 m geografia/economia-agropecuaria-industria-energia fig
+e: A luta pela terra no Brasil é marcada por diversos aspectos que chamam a atenção. Entre os aspectos positivos, destaca-se a perseverança dos movimentos do campesinato e, entre os aspectos negativos, a violência que manchou de sangue essa história. Os movimentos pela reforma agrária articularam-se por todo o território nacional, principalmente entre 1985 e 1996, e conseguiram de maneira expressiva a inserção desse tema nas discussões pelo acesso à terra. O mapa seguinte apresenta a distribuição dos conflitos agrários em todas as regiões do Brasil nesse período, e o número de mortes ocorridas nessas lutas. || [fig1] || > OLIVEIRA, A. U. A longa marcha do campesinato brasileiro: movimentos sociais, conflitos e reforma agrária. Revista Estudos Avançados. Vol. 15 n. 43, São Paulo, set./dez. 2001. || Com base nas informações do mapa acerca dos conflitos pela posse de terra no Brasil, a região
+x: Os maiores círculos (mais mortes) se concentram no sul do Pará, perto do encontro com Tocantins e Maranhão: a região do Bico do Papagaio, área de muitos conflitos agrários.
+@78 m geografia/economia-agropecuaria-industria-energia fig
+x: No Brasil, os imóveis improdutivos ocupam 63,8% da área, e eles também são maioria no Norte, Nordeste, Sudeste e Centro-Oeste. Eles predominam no país e na maior parte das regiões.
+@86 f geografia/biomas-e-questoes-ambientais fig
+x: Uma charge mostra pinguins no Polo Sul sofrendo com o calor; a outra, queimadas nas florestas. Juntas, mostram que a destruição das florestas tropicais contribui para o aquecimento global, que afeta até regiões distantes, como os polos.
+@87 m geografia/geografia-fisica fig
+x: Em áreas do semiárido (como o vale do São Francisco), a irrigação moderna permitiu cultivar frutas para exportação, ligando essas regiões ao comércio internacional.
+@85 m geografia/geografia-fisica fig
+a: [fig11] | [fig12] | [fig13] | [fig14] | [fig15]
+x: A Arábia Saudita tem clima desértico, com pouquíssima chuva. Para produzir alimentos, usam-se pivôs centrais de irrigação por aspersão (os círculos verdes da foto), uma tecnologia que vence a restrição climática.

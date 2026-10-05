@@ -454,6 +454,119 @@ Sobre esse fenômeno do homem contemporâneo presente nas classes sociais brasil
 
 **Assunto:** artes/artes-e-educacao-fisica
 
+### 91
+Analise as seguintes avaliações de possíveis resultados de um teste na Internet.
+
+![Figura](enem-2009-d2-q091-1.webp)
+
+Depreende-se, a partir desse conjunto de informações, que o teste que deu origem a esses resultados, além de estabelecer um perfil para o usuário de sites de relacionamento, apresenta preocupação com hábitos e propõe mudanças de comportamento direcionadas
+
+- A) ao adolescente que acessa sites de entretenimento.
+- B) ao profissional interessado em aperfeiçoamento tecnológico.
+- C) à pessoa que usa os sites de relacionamento para complementar seu círculo de amizades.
+- D) ao usuário que reserva mais tempo aos sites de relacionamento do que ao convívio pessoal com os amigos.
+- E) ao leitor que se interessa em aprender sobre o funcionamento de diversos tipos de sites de relacionamento.
+
+**Resposta:** D
+
+**Explicação:** O teste avalia quanto a pessoa usa os sites de relacionamento e, nos resultados, sugere mudanças ("procure sair mais", "conheça pessoas"). Ele se dirige a quem reserva mais tempo aos sites do que ao convívio pessoal com os amigos.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 91
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 93
+Os melhores críticos da cultura brasileira trataram-na sempre no plural, isto é, enfatizando a coexistência no Brasil de diversas culturas. Arthur Ramos distingue as culturas não europeias (indígenas, negras) das europeias (portuguesa, italiana, alemã etc.), e Darcy Ribeiro fala de diversos Brasis: crioulo, caboclo, sertanejo, caipira e de Brasis sulinos, a cada um deles correspondendo uma cultura específica.
+
+> MORAIS, F. O Brasil na visão do artista: o país e sua cultura. São Paulo: Sudameris, 2003.
+
+Considerando a hipótese de Darcy Ribeiro de que há vários Brasis, a opção em que a obra mostrada representa a arte brasileira de origem negro-africana é:
+
+- A) ![Alternativa](enem-2009-d2-q093-1.webp)
+- B) ![Alternativa](enem-2009-d2-q093-2.webp)
+- C) ![Alternativa](enem-2009-d2-q093-3.webp)
+- D) ![Alternativa](enem-2009-d2-q093-4.webp)
+- E) ![Alternativa](enem-2009-d2-q093-5.webp)
+
+**Resposta:** A
+
+**Explicação:** Rubem Valentim criou emblemas geométricos inspirados nos símbolos das religiões afro-brasileiras (como as ferramentas dos orixás). Sua obra representa a arte brasileira de origem negro-africana.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 93
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 95
+A música pode ser definida como a combinação de sons ao longo do tempo. Cada produto final oriundo da infinidade de combinações possíveis será diferente, dependendo da escolha das notas, de suas durações, dos instrumentos utilizados, do estilo de música, da nacionalidade do compositor e do período em que as obras foram compostas.
+
+![Figura](enem-2009-d2-q095-1.webp)
+
+![Figura](enem-2009-d2-q095-2.webp)
+
+![Figura](enem-2009-d2-q095-3.webp)
+
+Das figuras que apresentam grupos musicais em ação, pode-se concluir que o(os) grupo(s) mostrado(s) na(s) figura(s)
+
+- A) 1 executa um gênero característico da música brasileira, conhecido como chorinho.
+- B) 2 executa um gênero característico da música clássica, cujo compositor mais conhecido é Tom Jobim.
+- C) 3 executa um gênero característico da música europeia, que tem como representantes Beethoven e Mozart.
+- D) 4 executa um tipo de música caracterizada pelos instrumentos acústicos, cuja intensidade e nível de ruído permanecem na faixa dos 30 aos 40 decibéis.
+- E) 1 a 4 apresentam um produto final bastante semelhante, uma vez que as possibilidades de combinações sonoras ao longo do tempo são limitadas.
+
+**Resposta:** A
+
+**Explicação:** A figura 1 mostra um conjunto de choro, com violão, cavaquinho e flauta: o chorinho é um gênero característico da música brasileira.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 95
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 109
+![Figura](enem-2009-d2-q109-1.webp)
+
+> BROWNE, C. Hagar, o horrível. Jornal O GLOBO, Segundo Caderno. 20 fev. 2009.
+
+A linguagem da tirinha revela
+
+- A) o uso de expressões linguísticas e vocabulário próprios de épocas antigas.
+- B) o uso de expressões linguísticas inseridas no registro mais formal da língua.
+- C) o caráter coloquial expresso pelo uso do tempo verbal no segundo quadrinho.
+- D) o uso de um vocabulário específico para situações comunicativas de emergência.
+- E) a intenção comunicativa dos personagens: a de estabelecer a hierarquia entre eles.
+
+**Resposta:** C
+
+**Explicação:** No segundo quadrinho, a escolha do tempo verbal é a da fala espontânea do dia a dia, e não a da norma formal. Esse uso dá à conversa um caráter coloquial.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 113
+![Figura](enem-2009-d2-q113-1.webp)
+
+> ECKHOUT, A. “Índio Tapuia” (1610-1666). Disponível em: http://www.diaadia.pr.gov.br. Acesso em: 9 jul. 2009.
+
+A feição deles é serem pardos, maneira d’avermelhados, de bons rostos e bons narizes, bem feitos. Andam nus, sem nenhuma cobertura, nem estimam nenhuma cousa cobrir, nem mostrar suas vergonhas. E estão acerca disso com tanta inocência como têm em mostrar o rosto.
+
+> CAMINHA, P. V. A carta. Disponível em: www.dominiopublico.gov.br. Acesso em: 12 ago. 2009.
+
+Ao se estabelecer uma relação entre a obra de Eckhout e o trecho do texto de Caminha, conclui-se que
+
+- A) ambos se identificam pelas características estéticas marcantes, como tristeza e melancolia, do movimento romântico das artes plásticas.
+- B) o artista, na pintura, foi fiel ao seu objeto, representando-o de maneira realista, ao passo que o texto é apenas fantasioso.
+- C) a pintura e o texto têm uma característica em comum, que é representar o habitante das terras que sofreriam processo colonizador.
+- D) o texto e a pintura são baseados no contraste entre a cultura europeia e a cultura indígena.
+- E) há forte direcionamento religioso no texto e na pintura, uma vez que o índio representado é objeto da catequização jesuítica.
+
+**Resposta:** C
+
+**Explicação:** Caminha descreve os indígenas nus e "sem vergonha" disso, e Eckhout pinta o índio Tapuia nu, com armas. Os dois retratam o habitante das terras que sofreriam o processo colonizador, visto pelo olhar do europeu.
+
+**Fonte:** ENEM 2009, 2º dia, caderno amarelo, questão 113
+
+**Assunto:** literatura/quinhentismo-ao-simbolismo
+
 ## Difícil
 
 ### 116

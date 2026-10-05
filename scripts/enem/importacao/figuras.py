@@ -29,7 +29,7 @@ SUB = str.maketrans('0123456789+-−=()', '₀₁₂₃₄₅₆₇₈₉₊₋�
 
 def eh_marcador(l):
     f = l['spans'][0][0]
-    return ('Bundesbahn' in f or 'Pi' in f and len(l['spans'][0][1].strip()) == 1) and l['spans'][0][1].strip() in 'ABCDE'
+    return ('Bundesbahn' in f or 'Circled' in f or 'Pi' in f and len(l['spans'][0][1].strip()) == 1) and l['spans'][0][1].strip()[:1] in list('ABCDE')
 
 
 def junta_spans(spans):
@@ -143,6 +143,14 @@ def coluna(pg, x0):
 # cabeçalhos em ordem de leitura
 cabs = []
 for pno, pg in enumerate(PAG):
+    # 2009: o número da questão vem num trecho separado, logo à direita de "Questão"
+    for l in pg['ls']:
+        if re.match(r'^\s*QUEST[ÃA]O\s*$', l['t'], re.I):
+            for o in pg['ls']:
+                if o is not l and re.match(r'^\s*\d{1,3}\s*$', o['t']) and 0 <= o['bb'][0] - l['bb'][2] < 15 and abs(o['bb'][1] - l['bb'][1]) < 4:
+                    l['t'] = l['t'].strip() + ' ' + o['t'].strip()
+                    l['bb'] = [l['bb'][0], l['bb'][1], o['bb'][2], max(l['bb'][3], o['bb'][3])]
+                    o['t'] = ''
     for l in pg['ls']:
         m = CAB.match(l['t'])
         if m and 'Bold' in l['font'] or (m and l['t'].upper().startswith('QUEST')):

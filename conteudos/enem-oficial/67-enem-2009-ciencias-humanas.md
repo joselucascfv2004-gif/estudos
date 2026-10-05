@@ -219,6 +219,31 @@ No presente, observa-se crescente atenção aos efeitos da atividade humana, em 
 
 **Assunto:** geografia/biomas-e-questoes-ambientais
 
+### 86
+![Figura](enem-2009-d1-q086-1.webp)
+
+> Disponível em: http://clickdigitalsj.com.br. Acesso em: 9 jul. 2009.
+
+![Figura](enem-2009-d1-q086-2.webp)
+
+> Disponível em: http://conexaoambiental.zip.net/images/ charge.jpg. Acesso em: 9 jul. 2009.
+
+Reunindo-se as informações contidas nas duas charges, infere-se que
+
+- A) os regimes climáticos da Terra são desprovidos de padrões que os caracterizem.
+- B) as intervenções humanas nas regiões polares são mais intensas que em outras partes do globo.
+- C) o processo de aquecimento global será detido com a eliminação das queimadas.
+- D) a destruição das florestas tropicais é uma das causas do aumento da temperatura em locais distantes como os polos.
+- E) os parâmetros climáticos modificados pelo homem afetam todo o planeta, mas os processos naturais têm alcance regional.
+
+**Resposta:** D
+
+**Explicação:** Uma charge mostra pinguins no Polo Sul sofrendo com o calor; a outra, queimadas nas florestas. Juntas, mostram que a destruição das florestas tropicais contribui para o aquecimento global, que afeta até regiões distantes, como os polos.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 86
+
+**Assunto:** geografia/biomas-e-questoes-ambientais
+
 ## Médio
 
 ### 46
@@ -717,6 +742,115 @@ As reservas venezuelanas figuram em ambas as classificações porque
 **Explicação:** A formação de chuvas depende da temperatura do ar, que influencia a evaporação e a condensação. As atividades humanas mudam a temperatura em escala local (ilhas de calor) e global (aquecimento), alterando o regime de chuvas.
 
 **Fonte:** ENEM 2009, 1º dia, caderno azul, questão 88
+
+**Assunto:** geografia/geografia-fisica
+
+### 73
+![Figura](enem-2009-d1-q073-1.webp)
+
+> CIATTONI, A. Géographie. L’espace mondial. Paris: Hatier, 2008 (adaptado).
+
+A partir do mapa apresentado, é possível inferir que nas últimas décadas do século XX, registraram-se processos que resultaram em transformações na distribuição das atividades econômicas e da população sobre o território brasileiro, com reflexos no PIB por habitante. Assim,
+
+- A) as desigualdades econômicas existentes entre regiões brasileiras desapareceram, tendo em vista a modernização tecnológica e o crescimento vivido pelo país.
+- B) os novos fluxos migratórios instaurados em direção ao Norte e ao Centro-Oeste do país prejudicaram o desenvolvimento socioeconômico dessas regiões, incapazes de atender ao crescimento da demanda por postos de trabalho.
+- C) o Sudeste brasileiro deixou de ser a região com o maior PIB industrial a partir do processo de desconcentração espacial do setor, em direção a outras regiões do país.
+- D) o avanço da fronteira econômica sobre os estados da região Norte e do Centro-Oeste resultou no desenvolvimento e na introdução de novas atividades econômicas, tanto nos setores primário e secundário, como no terciário.
+- E) o Nordeste tem vivido, ao contrário do restante do país, um período de retração econômica, como consequência da falta de investimentos no setor industrial com base na moderna tecnologia.
+
+**Resposta:** D
+
+**Explicação:** O mapa mostra estados do Norte e do Centro-Oeste com PIB por habitante maior que o de antes, ligados à expansão da fronteira agrícola e mineral. O avanço da fronteira econômica levou novas atividades a essas regiões, nos setores primário, secundário e terciário.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 73
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 77
+A luta pela terra no Brasil é marcada por diversos aspectos que chamam a atenção. Entre os aspectos positivos, destaca-se a perseverança dos movimentos do campesinato e, entre os aspectos negativos, a violência que manchou de sangue essa história. Os movimentos pela reforma agrária articularam-se por todo o território nacional, principalmente entre 1985 e 1996, e conseguiram de maneira expressiva a inserção desse tema nas discussões pelo acesso à terra. O mapa seguinte apresenta a distribuição dos conflitos agrários em todas as regiões do Brasil nesse período, e o número de mortes ocorridas nessas lutas.
+
+![Figura](enem-2009-d1-q077-1.webp)
+
+> OLIVEIRA, A. U. A longa marcha do campesinato brasileiro: movimentos sociais, conflitos e reforma agrária. Revista Estudos Avançados. Vol. 15 n. 43, São Paulo, set./dez. 2001.
+
+Com base nas informações do mapa acerca dos conflitos pela posse de terra no Brasil, a região
+
+- A) conhecida historicamente como das Missões Jesuíticas é a de maior violência.
+- B) do Bico do Papagaio apresenta os números mais expressivos.
+- C) conhecida como oeste baiano tem o maior número de mortes.
+- D) do norte do Mato Grosso, área de expansão da agricultura mecanizada, é a mais violenta do país.
+- E) da Zona da Mata mineira teve o maior registro de mortes.
+
+**Resposta:** B
+
+**Explicação:** Os maiores círculos (mais mortes) se concentram no sul do Pará, perto do encontro com Tocantins e Maranhão: a região do Bico do Papagaio, área de muitos conflitos agrários.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 77
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 78
+O gráfico mostra o percentual de áreas ocupadas, segundo o tipo de propriedade rural no Brasil, no ano de 2006.
+
+Área ocupada pelos imóveis rurais
+
+![Figura](enem-2009-d1-q078-1.webp)
+
+> Disponível em: http://www.sober.org.br. Acesso em: 6 ago. 2009.
+
+De acordo com o gráfico e com referência à distribuição das áreas rurais no Brasil, conclui-se que
+
+- A) imóveis improdutivos são predominantes em relação às demais formas de ocupação da terra no âmbito nacional e na maioria das regiões.
+- B) o índice de 63,8% de imóveis improdutivos demonstra que grande parte do solo brasileiro é de baixa fertilidade, impróprio para a atividade agrícola.
+- C) o percentual de imóveis improdutivos iguala-se ao de imóveis produtivos somados aos minifúndios, o que justifica a existência de conflitos por terra.
+- D) a região Norte apresenta o segundo menor percentual de imóveis produtivos, possivelmente em razão da presença de densa cobertura florestal, protegida por legislação ambiental.
+- E) a região Centro-Oeste apresenta o menor percentual de área ocupada por minifúndios, o que inviabiliza políticas de reforma agrária nesta região.
+
+**Resposta:** A
+
+**Explicação:** No Brasil, os imóveis improdutivos ocupam 63,8% da área, e eles também são maioria no Norte, Nordeste, Sudeste e Centro-Oeste. Eles predominam no país e na maior parte das regiões.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 78
+
+**Assunto:** geografia/economia-agropecuaria-industria-energia
+
+### 87
+Na figura, observa-se uma classificação de regiões da América do Sul segundo o grau de aridez verificado.
+
+![Figura](enem-2009-d1-q087-1.webp)
+
+> Disponível em: http:// www.mutirao.com.br. Acesso em: 5 ago. 2009.
+
+Em relação às regiões marcadas na figura, observa-se que
+
+- A) a existência de áreas superáridas, áridas e semiáridas é resultado do processo de desertificação, de intensidade variável, causado pela ação humana.
+- B) o emprego de modernas técnicas de irrigação possibilitou a expansão da agricultura em determinadas áreas do semiárido, integrando-as ao comércio internacional.
+- C) o semiárido, por apresentar déficit de precipitação, passou a ser habitado a partir da Idade Moderna, graças ao avanço científico e tecnológico.
+- D) as áreas com escassez hídrica na América do Sul se restringem às regiões tropicais, onde as médias de temperatura anual são mais altas, justificando a falta de desenvolvimento e os piores indicadores sociais.
+- E) o mesmo tipo de cobertura vegetal é encontrado nas áreas superáridas, áridas e semiáridas, mas essa cobertura, embora adaptada às condições climáticas, é desprovida de valor econômico.
+
+**Resposta:** B
+
+**Explicação:** Em áreas do semiárido (como o vale do São Francisco), a irrigação moderna permitiu cultivar frutas para exportação, ligando essas regiões ao comércio internacional.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 87
+
+**Assunto:** geografia/geografia-fisica
+
+### 85
+O clima é um dos elementos fundamentais não só na caracterização das paisagens naturais, mas também no histórico de ocupação do espaço geográfico. Tendo em vista determinada restrição climática, a figura que representa o uso de tecnologia voltada para a produção é:
+
+- A) ![Alternativa](enem-2009-d1-q085-11.webp)
+- B) ![Alternativa](enem-2009-d1-q085-12.webp)
+- C) ![Alternativa](enem-2009-d1-q085-13.webp)
+- D) ![Alternativa](enem-2009-d1-q085-14.webp)
+- E) ![Alternativa](enem-2009-d1-q085-15.webp)
+
+**Resposta:** D
+
+**Explicação:** A Arábia Saudita tem clima desértico, com pouquíssima chuva. Para produzir alimentos, usam-se pivôs centrais de irrigação por aspersão (os círculos verdes da foto), uma tecnologia que vence a restrição climática.
+
+**Fonte:** ENEM 2009, 1º dia, caderno azul, questão 85
 
 **Assunto:** geografia/geografia-fisica
 
