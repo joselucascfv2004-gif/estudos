@@ -107,7 +107,8 @@ export function limpar(t) {
 export function montar(rng, spec, totalAlternativas = 5) {
   const f = spec.f || ((v) => (typeof v === 'number' ? num(v) : String(v)));
   const correta = f(spec.r);
-  const vistos = new Set([correta]);
+  // compara já no formato final (limpar tira o "1" de "1x", troca "-" por "−"...)
+  const vistos = new Set([limpar(correta)]);
   const alternativas = [correta];
   const tentar = (v) => {
     if (alternativas.length >= totalAlternativas) return;
@@ -115,8 +116,8 @@ export function montar(rng, spec, totalAlternativas = 5) {
     // distrator negativo para grandeza positiva não engana ninguém
     if (typeof v === 'number' && typeof spec.r === 'number' && spec.r > 0 && v < 0) return;
     const s = f(v);
-    if (vistos.has(s)) return;
-    vistos.add(s);
+    if (vistos.has(limpar(s))) return;
+    vistos.add(limpar(s));
     alternativas.push(s);
   };
   for (const d of spec.d || []) tentar(d);
