@@ -89,6 +89,8 @@ for (const [topicoId, lista] of Object.entries(banco.questoes)) {
 }
 
 export const totalQuestoes = questaoPorId.size;
+/** Quantas questões têm figura (gráfico, mapa, charge...) no enunciado ou nas alternativas. */
+export const totalComFigura = [...questaoPorId.values()].filter(({ questao: q }) => [q.e, ...q.a].some((t) => t.includes('!['))).length;
 
 export function getDisciplina(id: string) {
   return disciplinas.find((d) => d.id === id);

@@ -10,6 +10,7 @@ import { useProgresso } from '../../estado/ProgressoContext';
 import { MAX_PROTETORES, PRECO_PROTETOR, PrefRevisao, comprarProtetor, nivelDoUsuario } from '../../estado/progresso';
 import { Barra, Botao, Cartao, Chip } from '../../ui/componentes';
 import { ComIcone, Icone } from '../../ui/Icone';
+import { CartaoAtualizacao } from '../../ui/Atualizacao';
 import { CartaoBackup } from '../../ui/Backup';
 import { EscolhaLingua, EscolhaPrazo, EscolhaProva } from '../../ui/Objetivo';
 import { criarEstilos, useCores } from '../../ui/tema';
@@ -356,6 +357,8 @@ export default function Perfil() {
         </Cartao>
 
         <CartaoBackup />
+
+        <CartaoAtualizacao />
 
         <Botao titulo="Apagar meu progresso" contorno cor={c.vermelho} onPress={() => setConfirmar(true)} />
         <View style={{ height: 30 }} />

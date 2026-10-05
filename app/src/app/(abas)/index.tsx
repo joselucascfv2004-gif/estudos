@@ -19,6 +19,7 @@ import {
   revisoesPendentes,
   xpHoje,
 } from '../../estado/progresso';
+import { AvisoAtualizacao } from '../../ui/Atualizacao';
 import { BarraStatus } from '../../ui/BarraStatus';
 import { Barra, Botao, Cartao } from '../../ui/componentes';
 import { ComIcone, Icone } from '../../ui/Icone';
@@ -65,6 +66,7 @@ export default function Inicio() {
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }} edges={['top']}>
       <BarraStatus />
       <ScrollView contentContainerStyle={s.conteudo}>
+        <AvisoAtualizacao />
         {aviso && (
           <Cartao estilo={[s.aviso, aviso.tipo === 'perdeu' && { backgroundColor: c.vermelhoClaro, borderColor: c.vermelho }]} onPress={limparAviso}>
             <ComIcone icone={aviso.tipo === 'protetor' ? 'shield-check-outline' : 'fire-off'} estiloTexto={s.avisoTexto}>
