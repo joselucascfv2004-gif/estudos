@@ -15,7 +15,7 @@ export type ProvaAlvo = {
   materias?: Materia[];
 };
 
-const MAT_BASICA = ['numeros-e-operacoes', 'porcentagem', 'razao-proporcao-regra-de-tres', 'equacoes-e-sistemas', 'grandezas-medidas-escalas'];
+const MAT_BASICA = ['numeros-e-operacoes', 'porcentagem', 'razao-proporcao-regra-de-tres', 'equacoes-e-sistemas', 'grandezas-medidas-escalas', 'fracoes-fatoracao-e-produtos-notaveis', 'potenciacao-e-radiciacao', 'divisibilidade-primos-mdc-e-mmc'];
 const MAT_BANCARIA = [...MAT_BASICA, 'funcoes-afim-e-quadratica', 'progressoes', 'estatistica', 'analise-combinatoria', 'probabilidade'];
 const HIST_BRASIL = ['brasil-colonia', 'brasil-imperio', 'brasil-republica', 'ditadura-e-redemocratizacao'];
 
@@ -48,7 +48,7 @@ export const PROVAS: ProvaAlvo[] = [
     materias: [
       { disciplina: 'portugues' },
       { disciplina: 'redacao' },
-      { disciplina: 'matematica', topicos: [...MAT_BANCARIA, 'exponencial-e-logaritmo', 'geometria-plana', 'geometria-espacial', 'trigonometria', 'matrizes-e-determinantes', 'geometria-analitica', 'numeros-complexos-e-polinomios'] },
+      { disciplina: 'matematica', topicos: [...MAT_BANCARIA, 'exponencial-e-logaritmo', 'geometria-plana', 'geometria-espacial', 'trigonometria', 'matrizes-e-determinantes', 'geometria-analitica', 'numeros-complexos-e-polinomios', 'modulo-e-funcao-modular', 'funcao-composta-e-inversa', 'binomio-de-newton', 'semelhanca-de-triangulos', 'circunferencia-e-circulo'] },
       { disciplina: 'historia', topicos: HIST_BRASIL },
       { disciplina: 'geografia' },
       { disciplina: 'ingles' },

@@ -27,6 +27,15 @@ Formato: `- disciplina/assunto: nota`
 - matematica/geometria-analitica: 2
 - matematica/matrizes-e-determinantes: 1
 - matematica/numeros-complexos-e-polinomios: 1
+- matematica/fracoes-fatoracao-e-produtos-notaveis: 4
+- matematica/potenciacao-e-radiciacao: 3
+- matematica/divisibilidade-primos-mdc-e-mmc: 3
+- matematica/semelhanca-de-triangulos: 3
+- matematica/circunferencia-e-circulo: 3
+- matematica/funcao-composta-e-inversa: 2
+- matematica/modulo-e-funcao-modular: 2
+- matematica/binomio-de-newton: 1
+- matematica/conicas: 1
 - matematica-financeira/juros-simples-e-compostos: 5
 - matematica-financeira/descontos-e-amortizacao: 3
 
