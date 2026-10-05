@@ -35,7 +35,7 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Plano de estudos | Informe a data e o nome da sua prova no Perfil. A tela inicial mostra a contagem regressiva e o plano do dia (revisões, ponto fraco e assuntos novos), calculado para passar por todos os assuntos antes da prova |
 | Simulado | Prova com cronômetro (3 min por questão), navegação entre as questões e gabarito só no final, com correção, acerto por disciplina e histórico. Também dá para fazer o caderno de uma prova oficial do ENEM, escolhendo o ano e a área |
 | Redação | Temas do ENEM de 2009 a 2025 (conferidos no INEP), pontos para pensar, cronômetro, contador de linhas e autoavaliação pelas cinco competências |
-| Resumos e aulas | Cada assunto tem um "resumo em 2 minutos". Alguns também têm uma aula completa, com explicação e exemplos resolvidos (arquivo `conteudos/<disciplina>/aulas/<arquivo do tópico>.md`). A tela inicial mostra a teoria dos assuntos do plano do dia, para estudar antes de praticar |
+| Resumos e aulas | Cada assunto tem um "resumo em 2 minutos". Todos os assuntos de Matemática e Física (e alguns de outras matérias) também têm uma aula completa, com explicação e exemplos resolvidos (arquivo `conteudos/<disciplina>/aulas/<arquivo do tópico>.md`). A tela inicial mostra a teoria dos assuntos do plano do dia, para estudar antes de praticar |
 | Questões salvas | ⭐ Salve questões e escreva anotações durante as lições; depois revise ou pratique só elas |
 | Progresso | Gráfico do acerto por semana, acerto por disciplina comparado com o mês anterior, XP da semana e 17 conquistas |
 | Modo escuro | Ativado no Perfil |
