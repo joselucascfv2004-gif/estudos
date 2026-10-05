@@ -43,6 +43,7 @@ PASTA_SAIDA = RAIZ / "saida" / "quiz"
 PASTA_FUNDOS = RAIZ / "saida" / "fundos" / "quiz_estudo"
 
 LARGURA, ALTURA, QUADROS = 1080, 1920, 30
+TAMANHO_CAPA = (1080, 1440)  # capa 3:4 em pé, como a grade do perfil do TikTok
 TAXA = voz.TAXA
 VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
 TEMPO_RESPOSTA = 5  # segundos para o público pensar
@@ -451,9 +452,9 @@ def titulo_com_marcador(texto: str, tamanho: int, destaque: str, cor_marca=AMARE
 
 
 def desenhar_capa(quiz: dict, total: int) -> Image.Image:
-    """Capa do vídeo (primeiro quadro e capa.png): cartão no visual da logo com selo amarelo,
-    título grande com marca-texto e as letras A a E embaixo, mostrando que é um quiz."""
-    tela = Image.new("RGBA", (LARGURA, ALTURA), (0, 0, 0, 0))
+    """Capa (capa.png, 3:4 em pé, como a grade do perfil do TikTok): cartão no visual da logo com
+    selo colorido, título grande com marca-texto e as letras A a E embaixo, mostrando que é um quiz."""
+    tela = Image.new("RGBA", TAMANHO_CAPA, (0, 0, 0, 0))
     cor = CORES_CAPA[quiz.get("capa_cor", "amarelo")]
     sombra_cor = tuple(int(c * 0.78) for c in cor)
     titulo_capa = quiz.get("capa_titulo", quiz["titulo_tela"])
@@ -468,14 +469,17 @@ def desenhar_capa(quiz: dict, total: int) -> Image.Image:
         (linha_texto(quiz.get("capa_sub", "Você tem 5 segundos para cada uma"), 34,
                      cor=CINZA_AZULADO), 0, False),
     ])
-    cy = Y_TOPO_MARCA + cartao["fundo"].height / 2
-    colar(tela, cartao["fundo"], LARGURA / 2, cy)
+    largura_capa, altura_capa = TAMANHO_CAPA
+    altura_grupo = cartao["fundo"].height + 60 + 124  # cartão + espaço + fileira de letras
+    topo = (altura_capa - altura_grupo) / 2
+    cy = topo + cartao["fundo"].height / 2
+    colar(tela, cartao["fundo"], largura_capa / 2, cy)
     for figura, dy, _, _ in cartao["itens"]:
-        colar(tela, figura, LARGURA / 2, cy + dy)
-    # Letras A a E, como alternativas, embaixo do cartão (longe da coluna de botões)
+        colar(tela, figura, largura_capa / 2, cy + dy)
+    # Letras A a E, como alternativas, embaixo do cartão
     d = ImageDraw.Draw(tela)
-    y = min(Y_LIMITE - 70, Y_TOPO_MARCA + cartao["fundo"].height + 110)
-    centro = (MX + LIMITE_X) / 2
+    y = topo + cartao["fundo"].height + 60 + 58
+    centro = largura_capa / 2
     for n, letra_alt in enumerate(LETRAS):
         x, r = centro + (n - 2) * 150, 58
         destaque = n == 2
@@ -591,7 +595,6 @@ async def fazer(arquivo: Path) -> None:
         # 2) Peças fixas (desenhadas uma vez só)
         pecas = {
             "barra_topo": barra_topo(),
-            "capa": desenhar_capa(quiz, total),
             "abertura": cartao_marca([
                 (logo(150), 0.15, False),
                 (linha_texto(quiz["titulo_tela"], 80, quiz.get("destaque", "")), 0.35, False),
@@ -612,8 +615,7 @@ async def fazer(arquivo: Path) -> None:
         }
 
         # 3) Vídeo: fundo de estudo desfocado + quadros animados + áudio
-        fundos = sorted(PASTA_FUNDOS.glob("*.mp4"))
-        fundo = fundos[sum(map(ord, arquivo.stem)) % len(fundos)]
+        fundo = fundo_do_quiz(arquivo)
         filtro = (f"[0:v]scale={LARGURA}:{ALTURA},gblur=sigma=28,eq=brightness=-0.12:saturation=0.7,"
                   f"drawbox=color=0x0C1638@0.55:t=fill,fps={QUADROS}[fundo];"
                   f"[fundo][1:v]overlay=format=auto,format=yuv420p[video]")
@@ -631,10 +633,7 @@ async def fazer(arquivo: Path) -> None:
         if ffmpeg.wait() != 0:
             raise RuntimeError("o ffmpeg falhou ao montar o vídeo")
     caber_no_limite(saida / "video.mp4")
-    fundo_capa = saida / "capa.png"
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1", "-i", str(fundo), "-frames:v", "1",
-                    "-vf", filtro.split("[fundo];")[0].replace("[0:v]", ""), str(fundo_capa)], check=True)
-    Image.alpha_composite(Image.open(fundo_capa).convert("RGBA"), pecas["capa"]).convert("RGB").save(fundo_capa)
+    salvar_capa_quiz(arquivo, quiz, total, saida / "capa.png")
 
     (saida / "postagem.txt").write_text(f"""Arquivo: video.mp4 ({int(duracao // 60)}min{int(duracao % 60):02d}s)
 
@@ -651,8 +650,32 @@ ANTES DE PUBLICAR:
     print(f"{arquivo.name}: vídeo pronto ({duracao:.0f} s)", flush=True)
 
 
+def fundo_do_quiz(arquivo: Path) -> Path:
+    fundos = sorted(PASTA_FUNDOS.glob("*.mp4"))
+    return fundos[sum(map(ord, arquivo.stem)) % len(fundos)]
+
+
+def salvar_capa_quiz(arquivo: Path, quiz: dict, total: int, destino: Path) -> None:
+    """Capa 3:4 sobre um quadro do mesmo fundo do vídeo, desfocado e escurecido."""
+    largura_capa, altura_capa = TAMANHO_CAPA
+    filtro = (f"scale={LARGURA}:{ALTURA},gblur=sigma=28,eq=brightness=-0.12:saturation=0.7,"
+              f"drawbox=color=0x0C1638@0.55:t=fill,crop={largura_capa}:{altura_capa}")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", "1", "-i", str(fundo_do_quiz(arquivo)),
+                    "-frames:v", "1", "-vf", filtro, str(destino)], check=True)
+    Image.alpha_composite(Image.open(destino).convert("RGBA"),
+                          desenhar_capa(quiz, total)).convert("RGB").save(destino)
+
+
 async def main() -> None:
-    arquivos = [Path(a).resolve() for a in sys.argv[1:]]
+    so_capas = "--capas" in sys.argv
+    arquivos = [Path(a).resolve() for a in sys.argv[1:] if a != "--capas"]
+    if so_capas:  # python3 quiz/fazer_quiz.py --capas quiz/quizzes/*.json  (refaz só as capas)
+        for arquivo in arquivos:
+            quiz = json.loads(arquivo.read_text(encoding="utf-8"))
+            (PASTA_SAIDA / arquivo.stem).mkdir(parents=True, exist_ok=True)
+            salvar_capa_quiz(arquivo, quiz, len(quiz["perguntas"]), PASTA_SAIDA / arquivo.stem / "capa.png")
+            print(f"{arquivo.name}: capa pronta")
+        return
     if not arquivos:
         arquivos = [a for a in sorted(PASTA_QUIZZES.glob("*.json"))
                     if not (PASTA_SAIDA / a.stem / "video.mp4").exists()]

@@ -17,8 +17,9 @@ pedir. As regras delas continuam abaixo para quando voltarem.
   contorno. A abertura e o final foram aprovados como estão.
 - Área segura do celular: conteúdo entre x=110 e x=970 e entre y≈290 e y≈1470; alternativas até
   x=860 (antes da coluna de botões). Celulares compridos cortam ~55 px de cada lado.
-- Capa: cartão com selo, título grande com marca-texto e letras A–E, salvo só como `capa.png`
-  (sobre o fundo desfocado). **Não coloque a capa dentro do vídeo**: o dono do canal adiciona a capa
+- Capa: **3:4 em pé (1080×1440)**, como a grade do perfil do TikTok. Cartão com selo, título grande
+  com marca-texto e letras A–E, salvo só como `capa.png` (sobre o fundo desfocado). Para refazer só
+  as capas: `python3 quiz/fazer_quiz.py --capas quiz/quizzes/*.json`. **Não coloque a capa dentro do vídeo**: o dono do canal adiciona a capa
   no TikTok. O vídeo começa direto na abertura animada.
 - Sempre entregue **vídeo + capa + postagem.txt**. Qualidade máxima (`fabrica/qualidade.py`), até
   30 MB para caber no envio pelo chat.
