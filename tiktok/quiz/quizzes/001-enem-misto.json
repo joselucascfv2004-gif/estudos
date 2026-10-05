@@ -18,7 +18,7 @@
         "Adenina"
       ],
       "certa": 2,
-      "explicacao": "O RNA troca a timina pela uracila.",
+      "explicacao": "O DNA usa adenina, timina, citosina e guanina. Já o RNA troca a timina pela uracila, que se liga à adenina.",
       "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 1"
     },
     {
@@ -32,7 +32,7 @@
         "República Populista"
       ],
       "certa": 1,
-      "explicacao": "A República da Espada foi de 1889 a 1894.",
+      "explicacao": "Deodoro e Floriano eram marechais do Exército e governaram de 1889 a 1894. Depois, o poder passou para os fazendeiros, na República das Oligarquias.",
       "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 1"
     },
     {
@@ -47,7 +47,7 @@
         "846 K"
       ],
       "certa": 3,
-      "explicacao": "É só somar 273. 150 mais 273 dá 423 kelvin.",
+      "explicacao": "Para passar de Celsius para Kelvin, é só somar 273. Então, 150 mais 273 dá 423 kelvin.",
       "fonte": "estudos/conteudos/fisica/05-termologia.md, Fácil 1"
     },
     {
@@ -61,7 +61,7 @@
         "Mata Atlântica"
       ],
       "certa": 4,
-      "explicacao": "A Mata Atlântica fica no litoral, onde a ocupação começou ainda na colonização.",
+      "explicacao": "Ela ocupa o litoral, onde a colonização e as grandes cidades começaram. Hoje resta só uma pequena parte da floresta original.",
       "fonte": "estudos/conteudos/geografia/03-biomas-e-questoes-ambientais.md, Fácil 1"
     },
     {
@@ -75,7 +75,7 @@
         "João Cândido"
       ],
       "certa": 0,
-      "explicacao": "Antônio Conselheiro liderava o arraial de Belo Monte, destruído pelo Exército.",
+      "explicacao": "Ele era um líder religioso que reuniu milhares de sertanejos pobres no arraial de Belo Monte. O Exército destruiu o arraial em 1897.",
       "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 4"
     }
   ],

@@ -50,6 +50,10 @@ LETRAS = "ABCDE"
 VERDE, VERDE_ESCURO = (88, 204, 2), (70, 160, 0)
 AZUL, AMARELO, VERMELHO = (28, 176, 246), (255, 200, 0), (255, 75, 75)
 BRANCO, TEXTO, AZUL_NOITE = (255, 255, 255), (30, 30, 30), (12, 22, 56)
+# Cores da logo (tiktok/marca/desenhar_logo.py)
+AZUL_LOGO, PAPEL_LOGO, GRADE_LOGO, LINHA_LOGO = (8, 112, 222), (230, 244, 253), (214, 235, 250), (142, 201, 240)
+CINZA_AZULADO = (70, 100, 140)
+LARGURA_CARTAO = 960
 
 # Área segura: os botões do TikTok ficam à direita (de y≈900 para baixo) e a legenda do post
 # ocupa a parte de baixo. As alternativas terminam em x=900 e y≈1400.
@@ -253,25 +257,15 @@ def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: 
     lt = t - cena.inicio  # tempo dentro da cena
 
     if cena.tipo in ("abertura", "encerramento"):
-        abertura = cena.tipo == "abertura"
-        colar(tela, pecas["logo_grande"], LARGURA / 2, 560, escala=pulo(lt / 0.45))
-        linhas = pecas["titulo"] if abertura else pecas["final"]
-        y = 820
-        k = 0
-        for linha in linhas:
-            for figura, dx in linha:
-                k += 1
-                progresso = (lt - 0.3 - k * 0.12) / 0.3
-                colar(tela, figura, LARGURA / 2 + dx, y, escala=pulo(progresso),
-                      opacidade=limitar(progresso * 3))
-            y += 135
-        if abertura:
-            colar(tela, pecas["subtitulo"], LARGURA / 2, y + 40, opacidade=suave((lt - 1.0) / 0.4))
-        else:
-            batida = 1 + 0.05 * math.sin(lt * 7)
-            colar(tela, pecas["baixe"], LARGURA / 2, y + 60,
-                  escala=pulo((lt - 0.9) / 0.4) * batida)
-            colar(tela, pecas["link"], LARGURA / 2, y + 190, opacidade=suave((lt - 1.3) / 0.4))
+        cartao = pecas["abertura" if cena.tipo == "abertura" else "encerramento"]
+        cy = 820
+        colar(tela, cartao["fundo"], LARGURA / 2, cy, escala=0.9 + 0.1 * pulo(lt / 0.4),
+              opacidade=limitar(lt / 0.2))
+        for figura, dy, atraso, pulsa in cartao["itens"]:
+            progresso = (lt - atraso) / 0.35
+            escala = (1 + 0.04 * math.sin(lt * 7)) if pulsa and progresso >= 1 else 1
+            colar(tela, figura, LARGURA / 2, cy + dy + 40 * (1 - suave(progresso)), escala=escala,
+                  opacidade=suave(progresso))
         return tela
 
     # Barra do topo (logo do app) e bolinhas de progresso
@@ -379,21 +373,86 @@ def misturar(base: array.array, som: array.array, inicio: float) -> None:
 
 # ---------- montagem ----------
 
-def linhas_de_palavras(texto: str, tamanho: int, cor_destaque: str = "") -> list:
-    """Quebra um título em linhas de figuras (uma por palavra) para animar palavra por palavra."""
+def linha_texto(texto: str, tamanho: int, destaque: str = "", cor=AZUL_NOITE) -> Image.Image:
+    """Texto limpo (sem contorno), quebrado em linhas e centralizado. A palavra de destaque sai no
+    azul da logo."""
     letra = fonte(tamanho)
-    resultado = []
-    for linha in quebrar(texto, letra, LARGURA - 2 * MX - 40):
-        figuras = [texto_figura(p, tamanho, AMARELO if p == cor_destaque else BRANCO, contorno=5)
-                   for p in linha.split()]
-        espaco = tamanho * 0.28
-        largura = sum(f.width for f in figuras) + espaco * (len(figuras) - 1)
-        x, itens = -largura / 2, []
-        for f in figuras:
-            itens.append((f, x + f.width / 2))
-            x += f.width + espaco
-        resultado.append(itens)
-    return resultado
+    linhas = quebrar(texto, letra, LARGURA_CARTAO - 140)
+    subida, descida = letra.getmetrics()
+    altura_linha = int((subida + descida) * 1.05)
+    img = Image.new("RGBA", (LARGURA_CARTAO - 100, altura_linha * len(linhas)), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    espaco = letra.getlength(" ")
+    for n, linha in enumerate(linhas):
+        palavras = linha.split()
+        x = (img.width - letra.getlength(linha)) / 2
+        for palavra in palavras:
+            d.text((x, n * altura_linha + subida), palavra, font=letra, anchor="ls",
+                   fill=AZUL_LOGO if destaque and palavra == destaque else cor)
+            x += letra.getlength(palavra) + espaco
+    return img
+
+
+def botao(texto: str) -> Image.Image:
+    """Botão no degradê azul da logo, com a "base" mais escura dos botões do app."""
+    letra = fonte(50)
+    largura, altura = int(letra.getlength(texto)) + 120, 112
+    img = Image.new("RGBA", (largura, altura + 10), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((0, 10, largura - 1, altura + 9), altura // 2, fill=(6, 84, 170))
+    degrade = Image.new("RGBA", (largura, altura))
+    dg = ImageDraw.Draw(degrade)
+    for y in range(altura):
+        k = y / altura
+        dg.line([(0, y), (largura, y)],
+                fill=tuple(int(a + (b - a) * k) for a, b in zip((40, 150, 245), AZUL_LOGO)))
+    mascara = Image.new("L", (largura, altura), 0)
+    ImageDraw.Draw(mascara).rounded_rectangle((0, 0, largura - 1, altura - 1), altura // 2, fill=255)
+    img.paste(degrade, (0, 0), mascara)
+    d.text((largura / 2, altura / 2), texto, font=letra, fill=BRANCO, anchor="mm")
+    return img
+
+
+def cartao_marca(itens: list) -> dict:
+    """Cartão no visual da logo: papel quadriculado azul-claro, círculos de construção, régua e
+    linhas tracejadas. Devolve o fundo do cartão e os itens (figura, posição, atraso, pulsa)."""
+    folga, espaco = 70, 34
+    altura = 2 * folga + 40 + sum(f.height for f, _, _ in itens) + espaco * (len(itens) - 1)
+    largura = LARGURA_CARTAO
+    t = Image.new("RGBA", (largura, altura), (0, 0, 0, 0))
+    mascara = Image.new("L", (largura, altura), 0)
+    ImageDraw.Draw(mascara).rounded_rectangle((0, 0, largura - 1, altura - 1), 48, fill=255)
+    papel = Image.new("RGBA", (largura, altura), PAPEL_LOGO + (255,))
+    d = ImageDraw.Draw(papel)
+    for x in range(0, largura, 48):
+        d.line([(x, 0), (x, altura)], fill=GRADE_LOGO, width=2)
+    for y in range(0, altura, 48):
+        d.line([(0, y), (largura, y)], fill=GRADE_LOGO, width=2)
+    cx, cy = largura / 2, altura / 2
+    for raio in (altura * 0.62, altura * 0.42):
+        d.ellipse((cx - raio, cy - raio, cx + raio, cy + raio), outline=LINHA_LOGO, width=3)
+    for (x1, y1, x2, y2) in ((0, 0, largura, altura), (largura, 0, 0, altura), (cx, 0, cx, altura)):
+        comprimento = math.hypot(x2 - x1, y2 - y1)
+        for k in range(0, int(comprimento), 34):
+            a, b = k / comprimento, min(1, (k + 20) / comprimento)
+            d.line([(x1 + (x2 - x1) * a, y1 + (y2 - y1) * a),
+                    (x1 + (x2 - x1) * b, y1 + (y2 - y1) * b)], fill=LINHA_LOGO, width=3)
+    # Régua no topo do cartão
+    for k in range(0, int((largura - 120) / 9.6)):
+        x = 60 + k * 9.6
+        h = 26 if k % 10 == 0 else (18 if k % 5 == 0 else 10)
+        d.line([(x, 0), (x, h)], fill=LINHA_LOGO, width=2)
+    t.paste(papel, (0, 0), mascara)
+    sombra = Image.new("RGBA", (largura, altura + 14), (0, 0, 0, 0))
+    ImageDraw.Draw(sombra).rounded_rectangle((0, 14, largura - 1, altura + 13), 48,
+                                             fill=(150, 190, 225, 255))
+    sombra.alpha_composite(t, (0, 0))
+
+    posicionados, y = [], folga + 20
+    for figura, atraso, pulsa in itens:
+        posicionados.append((figura, y + figura.height / 2 - (altura + 14) / 2, atraso, pulsa))
+        y += figura.height + espaco
+    return {"fundo": sombra, "itens": posicionados}
 
 
 async def fazer(arquivo: Path) -> None:
@@ -458,13 +517,19 @@ async def fazer(arquivo: Path) -> None:
 
         # 2) Peças fixas (desenhadas uma vez só)
         pecas = {
-            "logo_grande": logo(300),
             "barra_topo": barra_topo(),
-            "titulo": linhas_de_palavras(quiz["titulo_tela"], 96, quiz.get("destaque", "")),
-            "subtitulo": pilula(quiz["subtitulo_tela"], 40, (255, 255, 255, 230)),
-            "final": linhas_de_palavras("Quantas você acertou?", 96, "acertou?"),
-            "baixe": pilula("BAIXE O APP ESTUDOS", 52, VERDE, BRANCO, 50),
-            "link": pilula("+4.900 questões grátis  •  link no perfil", 38, (255, 255, 255, 230)),
+            "abertura": cartao_marca([
+                (logo(190), 0.15, False),
+                (linha_texto(quiz["titulo_tela"], 84, quiz.get("destaque", "")), 0.35, False),
+                (linha_texto(quiz["subtitulo_tela"], 40, cor=CINZA_AZULADO), 0.6, False),
+            ]),
+            "encerramento": cartao_marca([
+                (logo(170), 0.15, False),
+                (linha_texto("Quantas você acertou?", 76, "acertou?"), 0.35, False),
+                (botao("BAIXE O APP ESTUDOS"), 0.7, True),
+                (linha_texto("+4.900 questões grátis  •  link no perfil", 36, cor=CINZA_AZULADO),
+                 1.0, False),
+            ]),
             "numeros": {str(i): texto_figura(str(i), 64) for i in range(1, TEMPO_RESPOSTA + 1)},
             "confete": {p.numero: Confete((MX + LIMITE_X) / 2, p.y_alternativas[p.dados["certa"]],
                                           p.numero) for p in perguntas},
