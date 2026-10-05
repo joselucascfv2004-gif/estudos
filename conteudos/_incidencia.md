@@ -52,6 +52,7 @@ Formato: `- disciplina/assunto: nota`
 - fisica/quantidade-de-movimento-e-colisoes: 3
 - fisica/eletrostatica: 3
 - fisica/magnetismo-e-eletromagnetismo: 3
+- fisica/fisica-moderna: 2
 - quimica/quimica-organica: 5
 - quimica/quimica-ambiental: 5
 - quimica/ligacoes-e-funcoes-inorganicas: 4
