@@ -383,6 +383,27 @@ Ao abordar a relação dos memes com a educação, a reportagem sustenta uma cr�
 
 **Assunto:** portugues/interpretacao-de-texto
 
+### 33
+![Figura](enem-2024-d1-q033-1.webp)
+
+> Disponível em: https://defesacivil.rs.gov.br. Acesso em: 11 mar. 2024 (adaptado).
+
+Nesse cartaz, a expressão “Vou deixar que você se vá”, em conjunto com os elementos não verbais utilizados, tem a finalidade de
+
+- A) incentivar o descarte de itens defeituosos.
+- B) promover a reciclagem de produtos usados.
+- C) garantir a conservação de roupas de inverno.
+- D) relacionar o gesto de doação à ideia de desapego.
+- E) comparar a peça de roupa ao sentimento de despedida.
+
+**Resposta:** D
+
+**Explicação:** A frase "Vou deixar que você se vá", ao lado da imagem de alguém segurando um agasalho, brinca com a ideia de se desapegar da roupa e doá-la. O cartaz liga a doação ao desapego.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 33
+
+**Assunto:** portugues/interpretacao-de-texto
+
 ## Médio
 
 ### 8
@@ -820,6 +841,81 @@ Apesar de haver marcas formais de carta e receita, a característica que define 
 **Fonte:** ENEM 2024, 1º dia, caderno azul, questão 42
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 25
+![Figura](enem-2024-d1-q025-1.webp)
+
+> VISCONTI, E. Três meninas no jardim. Óleo sobre tela, 81 × 65 cm. Museu Nacional de Belas Artes, Rio de Janeiro, 1935.
+
+> Disponível em: www.eliseuvisconti.com.br. Acesso em: 18 set. 2012.
+
+Eliseu D’Angelo Visconti (1866-1944) desenvolveu diversas obras no Brasil, com grande influência das escolas europeias. Em sua pintura Três meninas no jardim, há
+
+- A) culto à fluidez e ao progresso, nos moldes do ideário futurista.
+- B) valorização de formas decompostas, a exemplo do estilo cubista.
+- C) efeitos fugazes de luz e movimento, que remetem à estética impressionista.
+- D) expressão do sonho e do inconsciente, que dialoga com a proposta surrealista.
+- E) tematização de elementos cotidianos, que resgata modelos de representação da arte realista.
+
+**Resposta:** C
+
+**Explicação:** A pintura mostra o jardim com pinceladas soltas, manchas de cor e muita luz entre as folhas, sem contornos precisos. Esses efeitos passageiros de luz e movimento são marcas do Impressionismo, que influenciou Visconti.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 25
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 36
+![Figura](enem-2024-d1-q036-1.webp)
+
+> WOLKOFF, J. These 5,000-Year-Old Sculptures Look Shockingly Similar to Modern Art. Disponível em: www.artsy.net. Acesso em: 19 jun. 2019.
+
+A leitura comparativa das duas esculturas, separadas por mais de 2 500 anos, indica a
+
+- A) valorização da arte antiga por artistas contemporâneos.
+- B) resistência da arte escultórica aos avanços tecnológicos.
+- C) simplificação da forma em razão do tipo de material utilizado.
+- D) persistência de padrões estéticos em diferentes épocas e culturas.
+- E) ausência de detalhes como traço distintivo da arte tradicional popular.
+
+**Resposta:** D
+
+**Explicação:** A escultura antiga e a de Modigliani têm rostos alongados, nariz reto e traços simplificados, apesar de separadas por milênios. A comparação mostra a persistência de padrões estéticos em épocas e culturas diferentes.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 36
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 43
+TEXTO I
+
+A fotografia de Regina Valkenborgh apresenta 2 953 arcos de luz cruzando o céu e registra o nascer e o pôr do sol ao longo de oito anos. Em 2012, essa estudante da Universidade de Hertfordshire colocou uma folha de papel fotográfico em uma lata com um pequeno orifício, criando assim uma câmera pinhole de baixa tecnologia. Porém, a lata foi esquecida em um telescópio no observatório da universidade. Esse projeto esquecido acabou revelando a foto do pôr do sol de maior exposição já tirada.
+
+> SANTOS, A. Disponível em: https://socientifica.com.br. Acesso em: 13 nov. 2021 (adaptado).
+
+TEXTO II
+
+Representação de 2 953 arcos de luz cruzando o céu, registrando o nascer e o pôr do sol ao longo de oito anos
+
+![Figura](enem-2024-d1-q043-1.webp)
+
+> VALKENBORGH, R. Fotografia. Reino Unido: Universidade Hertfordshire (2012-2020). Disponível em: www.thisiscolossal.com. Acesso em: 1 nov. 2022.
+
+O experimento realizado por Regina Valkenborgh resultou no entendimento de que a
+
+- A) técnica fotográfica alternativa limita o registro de imagens.
+- B) apreciação da natureza depende de registro fotográfico.
+- C) criatividade artística decorre do conhecimento científico.
+- D) câmera de criação caseira tem valor tecnológico.
+- E) produção artística pode ser resultado do acaso.
+
+**Resposta:** E
+
+**Explicação:** A lata com papel fotográfico foi esquecida no telescópio e, sem que ninguém planejasse, registrou oito anos de arcos do Sol. A imagem artística surgiu de um acaso.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 43
+
+**Assunto:** artes/artes-e-educacao-fisica
 
 ## Difícil
 

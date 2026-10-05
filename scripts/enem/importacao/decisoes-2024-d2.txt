@@ -74,6 +74,49 @@ x: As parcelas crescem sempre, então convém que as parcelas pagas pela imobili
 @147 d matematica/geometria-plana
 a: hexágono regular, pois a área do jardim, em metro quadrado, será k²√3/24. | hexágono regular, pois a área do jardim, em metro quadrado, será 3k²√3/2. | quadrado, pois a área do jardim, em metro quadrado, será k²/16. | triângulo equilátero, pois a área do jardim, em metro quadrado, será k²√3/36. | triângulo equilátero, pois a área do jardim, em metro quadrado, será k²√3/4.
 x: Com perímetro k: triângulo de lado k/3 tem área √3k²/36 ≈ 0,048k²; quadrado de lado k/4 tem k²/16 ≈ 0,063k²; hexágono de lado k/6 tem 6 × √3(k/6)²/4 = √3k²/24 ≈ 0,072k². O hexágono tem a maior área.
+@139 m matematica/analise-combinatoria fig
+x: A equipe tem 5 médicos com pelo menos 3 cardiologistas: 3 cardio e 2 neuro, ou 4 e 1, ou 5 e 0. Cada caso é C(7, k) × C(6, 5 − k), e os casos se somam: (7!/(3!4!) × 6!/(2!4!)) + (7!/(4!3!) × 6!/(1!5!)) + (7!/(5!2!) × 6!/(0!6!)).
+@144 m matematica/geometria-plana fig
+x: Na polia menor (r = 4), a correia cobre 150°: 150/360 × 2 × 3 × 4 = 10 cm. Na maior (R = 8), cobre 210°: 210/360 × 2 × 3 × 8 = 28 cm. Os trechos retos somam 15 + 15 = 30 cm. Total: 68 cm.
+@145 m matematica/geometria-plana fig
+x: O hospital fica à mesma distância dos três vértices de um triângulo equilátero de lado 10 km: é o centro da circunferência circunscrita, a uma distância 10/√3 ≈ 5,8 km. Está entre 5 e 6 km.
+@146 m matematica/trigonometria fig
+x: Para ser aprovado, o amortecedor deve oscilar com a mesma amplitude nos dois trechos (amplitudes constantes) e com amplitude menor no asfalto (primeiros 9 minutos) do que na estrada de chão (últimos 11 minutos). A primeira alternativa mostra isso.
+@148 m matematica/razao-proporcao-regra-de-tres fig
+e: Um aeroporto disponibiliza o serviço de transporte gratuito entre seus dois terminais utilizando os ônibus A e B, que partem simultaneamente, de hora em hora, de terminais diferentes. A distância entre os terminais é de 9 000 metros, e o percurso total dos ônibus, de um terminal ao outro, é monitorado por um sistema de cinco câmeras que cobrem diferentes partes do trecho, conforme o esquema. || [fig1] || O alcance de cada uma das cinco câmeras é: || • câmera I: 1/5 do percurso; // • câmera II: 3/10 do percurso; // • câmera III: 1/10 do percurso; // • câmera IV: 1/10 do percurso; // • câmera V: 3/10 do percurso. || Em determinado horário, o ônibus A parte do terminal 1 e realiza o percurso total com velocidade constante de 250 m/min; enquanto o ônibus B, que parte do terminal 2, realiza o percurso total com velocidade constante de 150 m/min. || Qual câmera registra o momento em que os ônibus A e B se encontram?
+x: Os ônibus se aproximam a 250 + 150 = 400 m/min e se encontram após 9 000 ÷ 400 = 22,5 min, com A a 250 × 22,5 = 5 625 m do terminal 1, ou 0,625 do percurso. As câmeras cobrem: I até 0,2; II até 0,5; III até 0,6; IV até 0,7. O encontro (0,625) é registrado pela câmera IV.
+@149 d matematica/probabilidade fig
+e: A criptografia refere-se à construção e análise de protocolos que impedem terceiros de lerem mensagens privadas. Júlio César, imperador romano, utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse em mãos inimigas, a informação não poderia ser compreendida. Nesse código, cada letra do alfabeto era substituída pela letra três posições à frente, ou seja, o “A” era substituído pelo “D”, o “B” pelo “E”, o “C” pelo “F”, e assim sucessivamente. || [fig21] || > Disponível em: www.codifica.ibict.br. Acesso em: 15 out. 2019. || Qualquer código que tenha um padrão de substituição de letras como o descrito é considerado uma Cifra de César ou um Código de César. Note que, para decifrar uma Cifra de César, basta descobrir por qual letra o “A” foi substituído, pois isso define todas as demais substituições a serem feitas. || Uma mensagem, em um alfabeto de 26 letras, foi codificada usando uma Cifra de César. Considere a probabilidade de se descobrir, aleatoriamente, o padrão utilizado nessa codificação, e que uma tentativa frustrada deverá ser eliminada nas tentativas seguintes. || A probabilidade de se descobrir o padrão dessa Cifra de César apenas na terceira tentativa é dada por
+x: Há 25 deslocamentos possíveis (o "A" pode virar qualquer uma das outras 25 letras). Errar na 1ª: 24/25; errar na 2ª, com 24 restantes: 23/24; acertar na 3ª, com 23 restantes: 1/23. Probabilidade: 24/25 × 23/24 × 1/23.
+@151 m matematica/geometria-espacial fig
+x: Embalagem 1: altura 20 e circunferência 10, raio 5/π, volume π(5/π)² × 20 = 500/π. Embalagem 2: altura 10 e circunferência 20, raio 10/π, volume π(10/π)² × 10 = 1 000/π. A maior é a 2: 1 000/π cm³.
+@152 m matematica/funcoes-afim-e-quadratica fig
+x: A reta de tendência passa por cerca de 4 milhões em 2014 e 6 milhões em 2020: sobe 2 milhões em 6 anos, 1/3 por ano. De 2020 a 2026 são mais 6 anos: 6 + 2 = 8 milhões.
+@153 d matematica/geometria-espacial fig
+x: A água cai no compartimento junto ao anteparo de altura H/2. Esse compartimento (1/3 da base) enche até H/2 em 2 h (1/6 do volume, com 12 h para o total). Depois a água transborda: os outros dois compartimentos enchem até H/2, levando mais 4 h, e a maior altura fica parada em H/2. Por fim, o tanque inteiro sobe de H/2 a H em 6 h, mais devagar. O gráfico: subida de 0 a 2 h, trecho horizontal de 2 a 6 h e subida mais lenta até 12 h.
+@155 m matematica/geometria-plana fig
+x: Área coberta = (α/360) × 3 × R². Tipo I: 50 m²; II: 121 m²; III: 48 m²; IV: 128 m²; V: 75 m². Precisa ser pelo menos 70 m² e o preço cresce com a área: o mais barato que atende é o tipo V.
+@161 m matematica/estatistica fig
+x: Administrativo (80): 20% até 25, 30% de 25 a 45 e 50% acima de 45 → 16, 24, 40. Logística (120): 25%, 40%, 35% → 30, 48, 42. Produção (200): 40%, 35%, 25% → 80, 70, 50. Faixa de 25 a 45: 142; até 25: 126; acima de 45: 132. A maior chance é da faixa de 25 a 45 anos, por ter mais funcionários.
+@162 m matematica/geometria-espacial fig
+x: Cada trecho reto da trajetória se projeta no chão como um segmento que liga as projeções dos seus pontos. B e C estão na mesma vertical, então se projetam no mesmo ponto. Ligando as projeções na ordem A, B = C, D, E e F, obtém-se o desenho da terceira alternativa.
+@165 m matematica/analise-combinatoria fig
+x: Os dois algarismos distintos saem de {1, 2, 5, 7, 0}: 5 × 4 = 20. As letras vêm das teclas 2 (ABC), 5 (JKL) e 7 (PQRS): 10 letras, três diferentes em ordem: 10 × 9 × 8 = 720. Total: 20 × 720 = 14 400.
+@168 d matematica/funcoes-afim-e-quadratica fig
+x: Quando I vai de 1 a 3, II vai de 1,5 a 3,5 (pelo primeiro gráfico). No segundo gráfico, III = 4 − II até II = 3 e depois sobe. Em II = 1,5, III = 2,5; em II = 3,5, III = 2. O maior valor de III nesse intervalo é 2,5.
+@169 m matematica/progressoes fig
+x: A cada etapa a quantidade dobra: 3, 6, 12, ... Na etapa n há 3 × 2ⁿ⁻¹ figuras. Na 20ª etapa: 3 × 2¹⁹.
+@171 f matematica/geometria-espacial fig
+x: Girando o trapézio retângulo em torno do lado PS (perpendicular às bases), as bases QP e RS viram círculos de raios diferentes e o lado QR vira uma superfície inclinada: um tronco de cone.
+@173 d matematica/numeros-e-operacoes fig
+x: As colunas ficam ao longo dos 3 m (300 cm), com vãos de no máximo 15 cm: n × diâmetro + (n + 1) × 15 ≥ 300. Loja I (d = 10): 12 colunas, R$ 720. II (d = 20): 9, R$ 630. III (d = 24): 8, R$ 600. IV (d = 30): 7, R$ 630. V (d = 40): 6, R$ 720. A mais barata é a loja III.
+@175 m matematica/estatistica fig
+x: Saldo = exportações − importações. Junho de 2009: cerca de 14,5 − 10 = +4,5. Janeiro de 2010: cerca de 11,3 − 11,6, quase zero ou negativo. Junho de 2010: 17,1 − 14,8 = +2,3. Do maior para o menor: S₁, S₃, S₂.
+@178 m matematica/numeros-e-operacoes fig
+x: Os valores são: 4^(1/2) = 2; 4 ½ = 4,5; 10/45 = 2/9; 18/4 = 4,5; 4,5; 4/5. As três quantidades iguais (4,5) estão nas posições II, IV e V.
+@179 d matematica/exponencial-e-logaritmo fig
+a: a = 20; b = log(0,5) | a = 100; b = 0,5 | a = 20; b = (0,5)^(1/10) | a = 20; b = (40)^(1/10)/80 | a = 20; b = 40
+x: Em t = 0, T = a + 80 = 100, então a = 20. Em t = 20, T = 40: 20 + 80b²⁰ = 40, b²⁰ = 1/4 = (0,5)², então b = (0,5)^(1/10).
 
 ## 06-enem-2024-ciencias-da-natureza.md | 2024 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 auto: sim
@@ -142,3 +185,46 @@ x: A glicose vira amido por ação de enzimas. A água fervente desnatura essas 
 x: As fibras brancas (rápidas) têm poucas mitocôndrias: produzem força rápida, mas cansam logo. Servem para esforços curtos e explosivos, como o salto em altura, e não para provas longas de resistência.
 @111 d quimica/estequiometria
 x: 10 mol de etanol = 460 g, que ocupam 460 ÷ 0,78 ≈ 590 mL = 0,59 L. Esse volume é substituído por 1 m³ = 1 000 L de biogás, com 70% de metano: 700 L. Em mol: 700 ÷ 22 ≈ 31,8 mol × 16 g ≈ 510 g de metano.
+@91 m biologia/citologia fig
+x: As células tratadas perderam as projeções (pseudópodes) e ficaram arredondadas: a forma e o movimento da ameba dependem do citoesqueleto, em especial dos microfilamentos de actina, que a citocalasina B desorganiza.
+@94 m quimica/fisico-quimica fig
+x: A desmineralização consome íons H⁺. Quanto mais ácido o creme (menor pH), maior a concentração de H⁺ e mais o equilíbrio se desloca para a desmineralização. O menor pH é o do creme IV (6,9).
+@96 f quimica/quimica-organica fig
+x: O composto 1 tem o grupo –COOH ligado ao anel, e o composto 2 tem –COOH na cadeia lateral. A função comum é o ácido carboxílico.
+@97 m biologia/seres-vivos fig
+x: No tubo 1, as bactérias ficam só na superfície, onde há oxigênio: aeróbias estritas. No tubo 2, só no fundo, longe do oxigênio: anaeróbias estritas. No tubo 3, espalhadas pelo tubo todo, com mais células em cima: anaeróbias facultativas.
+@100 d fisica/eletricidade fig
+x: Dentro de um condutor metálico em equilíbrio o campo elétrico é nulo, e as linhas de campo chegam perpendiculares à superfície do cilindro. Fora dele, as linhas vão de A para B; dentro do anel, não há linhas.
+@103 m fisica/termologia fig
+x: A energia térmica vira trabalho útil quando o gás, quente depois da combustão, se expande e empurra o pistão. Isso ocorre na expansão adiabática, de 3 para 4 (etapa IV).
+@104 d fisica/cinematica fig
+x: Nos lados de 800 m, o nadador inclina o corpo para anular a corrente: sobra √(50² − 30²) = 40 m/min, ou 20 min por lado (40 min). De 2 a 3, contra a corrente: 50 − 30 = 20 m/min, 400 ÷ 20 = 20 min. De 4 a 1, a favor: 80 m/min, 5 min. Total: 65 min.
+@106 m fisica/dinamica fig
+x: Ao tocar o chão, Calvin recebe duas forças do solo: a normal, para cima, e o atrito, contrário ao seu deslizamento. Somadas, elas dão uma força inclinada, para cima e para o lado oposto ao movimento, como na primeira alternativa.
+@107 m biologia/ecologia fig
+x: Para tirar o mercúrio do solo e impedir que ele entre na cadeia alimentar, as plantas acumulam o metal na parte aérea e depois a biomassa é colhida e retirada do local: é a fitoextração.
+@109 d fisica/eletricidade fig
+x: Cada LED precisa de 3,0 V e 1,0 mA. Com 4,5 V, sobram 1,5 V para um resistor: 1,5 V ÷ 1,5 kΩ = 1,0 mA. Então cada LED fica em série com seu próprio resistor, e os dois ramos em paralelo com a bateria, com os LEDs no sentido permitido da corrente.
+@110 d fisica/eletricidade fig
+x: L₁ precisa de 6 V e L₂ de 12 V, em série com a mesma corrente: I = 9/6 = 1,5 A (e 18/12 = 1,5 A). A bateria fornece 18 V ao fio de 48 cm; o ponto entre as lâmpadas precisa estar a 6 V de um lado e 12 V do outro, ou seja, a 1/3 do fio: 16 cm, o ponto B.
+@112 m quimica/quimica-organica fig
+x: Uma base de Brønsted-Lowry reage com o grupo que pode doar um próton (H⁺). Na nimesulida, o H ligado ao nitrogênio da sulfonamida é ácido, por causa dos grupos que puxam elétrons ao redor.
+@114 f fisica/estatica-e-hidrostatica fig
+x: A peça de chumbo deve ser fixada do lado oposto ao do centro de massa deslocado, para puxá-lo de volta ao centro geométrico. Pelo esquema, o ponto diametralmente oposto ao CM é o 3.
+@116 m biologia/evolucao fig
+x: Monotremados põem ovos com grande vitelo; marsupiais e placentários desenvolvem o embrião dentro do corpo e alimentam o filhote com leite. Ao longo da evolução, a vesícula vitelínica perdeu importância, associada ao desenvolvimento da lactação.
+@118 m fisica/ondulatoria-e-optica fig
+x: Os espelhos côncavos formam uma imagem real do objeto, que aparece "flutuando" na abertura. O objeto está no fundo (vértice de E₁) e a imagem surge no vértice de E₂: a distância vertical é 3,8 + 3,8 = 7,6 cm.
+@120 m quimica/fisico-quimica fig
+s: H₂O (I) => H₂O (l)
+x: Somando as semirreações com os elétrons igualados (a segunda multiplicada por 2): CH₃COO⁻ + 2 H₂O + 8 H⁺ + 2 O₂ → 2 CO₂ + 7 H⁺ + 4 H₂O. Simplificando: CH₃COO⁻ + H⁺ + 2 O₂ → 2 CO₂ + 2 H₂O.
+@122 m biologia/ecologia fig
+x: As nitrificantes oxidam a amônia a nitrito e nitrato: obtêm energia por uma reação redox. Os decompositores (etapa 5) também obtêm energia oxidando a matéria orgânica até CO₂, outra transformação redox de quem quebra moléculas para obter energia.
+@123 m quimica/quimica-ambiental fig
+x: Na razão 18 (excesso de ar), o gráfico mostra o CO praticamente zerado e o CO₂ ainda alto (cerca de 13%). Há baixa emissão de CO e alta de CO₂.
+@124 f fisica/ondulatoria-e-optica fig
+x: Com ruído de 45 dB, a fala precisa chegar com pelo menos 50 dB. Pelo gráfico, o nível da fala cai para 50 dB a cerca de 3 m do professor.
+@127 f biologia/saude-e-doencas fig
+x: Sem saneamento, a água fica contaminada e a biodiversidade aquática diminui, inclusive os predadores das larvas de mosquitos. Com menos predadores, os mosquitos que transmitem arboviroses aumentam.
+@135 m biologia/genetica-e-biotecnologia fig
+x: A mãe é portadora (XᴰXᵈ) e o pai é normal (XᴰY). As filhas recebem o X normal do pai: podem ser normais ou portadoras, nunca daltônicas. Os filhos recebem o Y do pai e um dos X da mãe: podem ser normais ou daltônicos. O heredograma com essas quatro possibilidades é o segundo.

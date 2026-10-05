@@ -87,6 +87,15 @@ x: O rapper diz que sua palavra "vale um tiro" e que tem "muita munição": a pr
 x: O autor conta, de forma pessoal, como conheceu Capitu e se indignou com Bentinho. No fim, explica a escolha do livro: dar voz a Capitu, que narra a história "além-túmulo".
 @30 d literatura/pre-modernismo-ao-contemporaneo
 x: Graciliano defende a arte que mostra a miséria e incomoda; Prata critica a arte que só confirma certezas e diz que a arte deve abalar o público. Os dois defendem uma arte que desestabiliza.
+@25 m artes/artes-e-educacao-fisica fig
+x: A pintura mostra o jardim com pinceladas soltas, manchas de cor e muita luz entre as folhas, sem contornos precisos. Esses efeitos passageiros de luz e movimento são marcas do Impressionismo, que influenciou Visconti.
+@33 f portugues/interpretacao-de-texto fig
+x: A frase "Vou deixar que você se vá", ao lado da imagem de alguém segurando um agasalho, brinca com a ideia de se desapegar da roupa e doá-la. O cartaz liga a doação ao desapego.
+@36 m artes/artes-e-educacao-fisica fig
+x: A escultura antiga e a de Modigliani têm rostos alongados, nariz reto e traços simplificados, apesar de separadas por milênios. A comparação mostra a persistência de padrões estéticos em épocas e culturas diferentes.
+@43 m artes/artes-e-educacao-fisica fig
+s: Reino Unido: => Reino Unido: Universidade Hertfordshire (2012-2020).
+x: A lata com papel fotográfico foi esquecida no telescópio e, sem que ninguém planejasse, registrou oito anos de arcos do Sol. A imagem artística surgiu de um acaso.
 
 ## 07-enem-2024-ciencias-humanas.md | 2024 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim
@@ -184,3 +193,9 @@ x: O regatão levava mercadorias de barco a comunidades isoladas e fazia comérc
 x: O capitalismo precisa da iniciativa e da inteligência dos trabalhadores, mas ao mesmo tempo tenta transformá-los em peças de máquina. Essa contradição está ligada à alienação produzida pela organização do trabalho.
 @62 d filosofia/filosofia-moderna-e-contemporanea
 x: Carnap defende que só enunciados com conteúdo factual têm sentido; Quine critica justamente essa divisão e o reducionismo à experiência. Eles divergem sobre o valor de conhecimento da linguagem.
+@53 m geografia/geografia-fisica fig
+x: Na inundação brusca, a água corre muito rápido e por pouco tempo; na gradual, devagar e por mais tempo. A velocidade da água depende principalmente da inclinação do terreno: em relevos íngremes (alta declividade), as enxurradas são violentas e rápidas.
+@77 m historia/brasil-republica fig
+x: As capas mostram mulher com frutas tropicais, vaqueiro a cavalo e figuras folclóricas, imagens "típicas" vendidas ao estrangeiro. O DIP divulgava estereótipos da cultura nacional para construir uma imagem do Brasil.
+@86 f geografia/populacao-e-urbanizacao fig
+x: Entre 2000 e 2020, surgiram em Dubai ilhas artificiais e grande expansão urbana sobre o litoral. As imagens mostram a artificialização do espaço geográfico pela ação humana.

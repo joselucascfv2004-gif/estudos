@@ -292,6 +292,35 @@ A diferença de tamanho, em valor absoluto, entre as medidas, em polegada, das t
 
 **Assunto:** matematica/numeros-e-operacoes
 
+### 171
+Para obter um sólido de revolução (rotação de 360° em torno de um eixo fixo), uma professora realizou as seguintes etapas:
+
+• recortou o trapézio retângulo PQRS de um material rígido;
+
+• afixou o lado PS do trapézio em uma vareta fixa retilínea (eixo de rotação);
+
+• girou o trapézio 360° em torno da vareta e obteve um sólido de revolução.
+
+Observe a figura que apresenta o trapézio afixado na vareta e o sentido de giro.
+
+![Figura](enem-2024-d2-q171-1.webp)
+
+O sólido obtido foi um(a)
+
+- A) cone.
+- B) cilindro.
+- C) pirâmide.
+- D) tronco de cone.
+- E) tronco de pirâmide.
+
+**Resposta:** D
+
+**Explicação:** Girando o trapézio retângulo em torno do lado PS (perpendicular às bases), as bases QP e RS viram círculos de raios diferentes e o lado QR vira uma superfície inclinada: um tronco de cone.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/geometria-espacial
+
 ## Médio
 
 ### 138
@@ -502,6 +531,338 @@ A medida da aresta da nova embalagem, em centímetro, deve ser
 
 **Assunto:** matematica/geometria-espacial
 
+### 139
+Um hospital tem 7 médicos cardiologistas e 6 médicos neurologistas em seu quadro de funcionários. Para executar determinada atividade, a direção desse hospital formará uma equipe com 5 médicos, sendo, pelo menos, 3 cardiologistas. A expressão numérica que representa o número máximo de maneiras distintas de formar essa equipe é
+
+- A) ![Alternativa A](enem-2024-d2-q139-1.webp)
+- B) ![Alternativa B](enem-2024-d2-q139-2.webp)
+- C) ![Alternativa C](enem-2024-d2-q139-3.webp)
+- D) ![Alternativa D](enem-2024-d2-q139-4.webp)
+- E) ![Alternativa E](enem-2024-d2-q139-5.webp)
+
+**Resposta:** E
+
+**Explicação:** A equipe tem 5 médicos com pelo menos 3 cardiologistas: 3 cardio e 2 neuro, ou 4 e 1, ou 5 e 0. Cada caso é C(7, k) × C(6, 5 − k), e os casos se somam: (7!/(3!4!) × 6!/(2!4!)) + (7!/(4!3!) × 6!/(1!5!)) + (7!/(5!2!) × 6!/(0!6!)).
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 139
+
+**Assunto:** matematica/analise-combinatoria
+
+### 144
+Um sistema de polias circulares e correias é um dos mecanismos responsáveis pela transmissão de movimento em máquinas rotativas. O manual de um motor traz uma figura representando um sistema composto por duas polias e uma correia de transmissão, tensionada e perfeitamente ajustada sobre as polias, de modo a não apresentar folgas nos contatos com as polias. Considere que as partes dessa correia que não ficam em contato com as polias são representadas por segmentos de reta tangentes às polias.
+
+![Figura](enem-2024-d2-q144-1.webp)
+
+Para substituição dessa correia, é necessária a especificação de seu comprimento.
+
+Considere 3 como valor aproximado para π. A medida do comprimento dessa correia, em centímetro, é
+
+- A) 54.
+- B) 60.
+- C) 66.
+- D) 68.
+- E) 72.
+
+**Resposta:** D
+
+**Explicação:** Na polia menor (r = 4), a correia cobre 150°: 150/360 × 2 × 3 × 4 = 10 cm. Na maior (R = 8), cobre 210°: 210/360 × 2 × 3 × 8 = 28 cm. Os trechos retos somam 15 + 15 = 30 cm. Total: 68 cm.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/geometria-plana
+
+### 145
+A prefeitura de uma cidade planeja construir três postos de saúde. Esses postos devem ser construídos em locais equidistantes entre si e de forma que as distâncias desses três postos ao hospital dessa cidade sejam iguais. Foram conseguidos três locais para a construção dos postos de saúde que apresentam as características desejadas, e que distam 10 km entre si, conforme o esquema, no qual o ponto H representa o local onde está construído o hospital; os pontos P₁, P₂ e P₃, os postos de saúde; e esses quatro pontos estão em um mesmo plano.
+
+![Figura](enem-2024-d2-q145-1.webp)
+
+A distância, em quilômetro, entre o hospital e cada um dos postos de saúde, é um valor entre
+
+- A) 2 e 3.
+- B) 4 e 5.
+- C) 5 e 6.
+- D) 7 e 8.
+- E) 8 e 9.
+
+**Resposta:** C
+
+**Explicação:** O hospital fica à mesma distância dos três vértices de um triângulo equilátero de lado 10 km: é o centro da circunferência circunscrita, a uma distância 10/√3 ≈ 5,8 km. Está entre 5 e 6 km.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/geometria-plana
+
+### 146
+Projetistas de uma fábrica de amortecedores realizaram uma série de experimentos que produziram oscilações semelhantes ao comportamento do gráfico de uma senoide, para qualquer tipo de estrada. Cada experimento teve duração de 20 minutos, sendo os 9 primeiros minutos em superfície que simula uma rodovia asfaltada, e os 11 minutos restantes em superfície que simula uma estrada de chão.
+
+Para os amortecedores serem aprovados no experimento, exige-se que as amplitudes das ondas oscilatórias, em cada tipo de superfície, sejam constantes e, ainda, que a amplitude da oscilação do amortecedor no asfalto seja menor do que sua amplitude da oscilação na estrada de chão. O tipo de gráfico que descreve o comportamento oscilatório de um amortecedor aprovado nesse experimento é
+
+- A) ![Alternativa A](enem-2024-d2-q146-1.webp)
+- B) ![Alternativa B](enem-2024-d2-q146-3.webp)
+- C) ![Alternativa C](enem-2024-d2-q146-5.webp)
+- D) ![Alternativa D](enem-2024-d2-q146-2.webp)
+- E) ![Alternativa E](enem-2024-d2-q146-4.webp)
+
+**Resposta:** A
+
+**Explicação:** Para ser aprovado, o amortecedor deve oscilar com a mesma amplitude nos dois trechos (amplitudes constantes) e com amplitude menor no asfalto (primeiros 9 minutos) do que na estrada de chão (últimos 11 minutos). A primeira alternativa mostra isso.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 146
+
+**Assunto:** matematica/trigonometria
+
+### 148
+Um aeroporto disponibiliza o serviço de transporte gratuito entre seus dois terminais utilizando os ônibus A e B, que partem simultaneamente, de hora em hora, de terminais diferentes. A distância entre os terminais é de 9 000 metros, e o percurso total dos ônibus, de um terminal ao outro, é monitorado por um sistema de cinco câmeras que cobrem diferentes partes do trecho, conforme o esquema.
+
+![Figura](enem-2024-d2-q148-1.webp)
+
+O alcance de cada uma das cinco câmeras é:
+
+• câmera I: 1/5 do percurso;
+• câmera II: 3/10 do percurso;
+• câmera III: 1/10 do percurso;
+• câmera IV: 1/10 do percurso;
+• câmera V: 3/10 do percurso.
+
+Em determinado horário, o ônibus A parte do terminal 1 e realiza o percurso total com velocidade constante de 250 m/min; enquanto o ônibus B, que parte do terminal 2, realiza o percurso total com velocidade constante de 150 m/min.
+
+Qual câmera registra o momento em que os ônibus A e B se encontram?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** D
+
+**Explicação:** Os ônibus se aproximam a 250 + 150 = 400 m/min e se encontram após 9 000 ÷ 400 = 22,5 min, com A a 250 × 22,5 = 5 625 m do terminal 1, ou 0,625 do percurso. As câmeras cobrem: I até 0,2; II até 0,5; III até 0,6; IV até 0,7. O encontro (0,625) é registrado pela câmera IV.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 148
+
+**Assunto:** matematica/razao-proporcao-regra-de-tres
+
+### 151
+Uma indústria faz uma parceria com uma distribuidora de sucos para lançar no mercado dois tipos de embalagens. Para a fabricação dessas embalagens, a indústria dispõe de folhas de alumínio retangulares, de dimensões 10 cm por 20 cm. Cada uma dessas folhas é utilizada para formar a superfície lateral da embalagem, em formato de cilindro circular reto, que posteriormente recebe fundo e tampa circulares. A figura ilustra, dependendo de qual das duas extensões será utilizada como altura, as duas opções para formar a possível embalagem.
+
+![Figura](enem-2024-d2-q151-1.webp)
+
+Dentre essas duas embalagens, a de maior capacidade apresentará volume, em centímetro cúbico, igual a
+
+- A) 4 000 π
+- B) 2 000 π
+- C) 4 000 π
+- D) 1000 π 500
+- E) π
+
+**Resposta:** D
+
+**Explicação:** Embalagem 1: altura 20 e circunferência 10, raio 5/π, volume π(5/π)² × 20 = 500/π. Embalagem 2: altura 10 e circunferência 20, raio 10/π, volume π(10/π)² × 10 = 1 000/π. A maior é a 2: 1 000/π cm³.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 151
+
+**Assunto:** matematica/geometria-espacial
+
+### 152
+As receitas anuais obtidas por uma indústria no período de 2014 a 2021, em milhão de reais, foram registradas, por pontos, em um gráfico. Nele, também está representada a reta que descreve a tendência de evolução das receitas. Essa reta pode ser utilizada para estimar as receitas dos anos seguintes.
+
+![Figura](enem-2024-d2-q152-1.webp)
+
+A estimativa da receita, em milhão de reais, dessa indústria, para o ano de 2026, obtida a partir dessa reta de tendência, é
+
+- A) 7.
+- B) 8.
+- C) 9.
+- D) 10.
+- E) 11.
+
+**Resposta:** B
+
+**Explicação:** A reta de tendência passa por cerca de 4 milhões em 2014 e 6 milhões em 2020: sobe 2 milhões em 6 anos, 1/3 por ano. De 2020 a 2026 são mais 6 anos: 6 + 2 = 8 milhões.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 152
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 155
+Um proprietário pretende instalar um sensor de presença para a proteção de seu imóvel. O sensor deverá detectar movimentos de objetos e pessoas numa determinada região plana. A figura ilustra a vista superior da área de cobertura (setor circular em azul) de um sensor colocado no ponto S. Essa área depende da medida do ângulo α, em grau, e do raio R, em metro.
+
+![Figura](enem-2024-d2-q155-1.webp)
+
+Ao aumentar o ângulo α ou o raio R aumenta-se a área de cobertura do sensor. Entretanto, quanto maior essa área, maior o preço do sensor.
+
+Para esse fim, há cinco tipos de sensores disponíveis no mercado, cada um com as seguintes características:
+
+• tipo I: α = 15° e R = 20 m;
+
+• tipo II: α = 30° e R = 22 m;
+
+• tipo III: α = 40° e R = 12 m;
+
+• tipo IV: α = 60° e R = 16 m;
+
+• tipo V: α = 90° e R = 10 m.
+
+Esse proprietário pretende adquirir um desses sensores que seja capaz de cobrir, no mínimo, uma área de medida 70 m², com o menor preço possível.
+
+Use 3 como valor aproximado para π. O proprietário do imóvel deverá adquirir o sensor do tipo
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** E
+
+**Explicação:** Área coberta = (α/360) × 3 × R². Tipo I: 50 m²; II: 121 m²; III: 48 m²; IV: 128 m²; V: 75 m². Precisa ser pelo menos 70 m² e o preço cresce com a área: o mais barato que atende é o tipo V.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 155
+
+**Assunto:** matematica/geometria-plana
+
+### 161
+Uma empresa tem 400 funcionários, distribuídos em três setores: administrativo, logística e produção. O gráfico apresenta a distribuição quantitativa desses funcionários, por setor e por faixa etária.
+
+![Figura](enem-2024-d2-q161-1.webp)
+
+Uma viagem de férias será sorteada entre esses funcionários, de forma que todos terão igual probabilidade de serem sorteados. A maior probabilidade é que o funcionário sorteado esteja na faixa etária
+
+- A) entre 25 e 45 anos, pois é a faixa etária com maior quantidade de funcionários.
+- B) entre 25 e 45 anos, pois é a única faixa etária cujas porcentagens são maiores do que as porcentagens mínimas de cada setor.
+- C) até 25 anos, pois é a única faixa etária cujos percentuais associados aos setores aumentam com o aumento da quantidade de funcionários por setor.
+- D) até 25 anos, pois é a faixa etária que apresenta maior quantidade de funcionários no setor de produção, que é o setor que emprega metade dos funcionários dessa empresa.
+- E) a partir de 45 anos, pois a soma das porcentagens associadas a essa faixa etária é 110%, que é maior do que as respectivas somas associadas às outras faixas etárias, que são 105% e 85%.
+
+**Resposta:** A
+
+**Explicação:** Administrativo (80): 20% até 25, 30% de 25 a 45 e 50% acima de 45 → 16, 24, 40. Logística (120): 25%, 40%, 35% → 30, 48, 42. Produção (200): 40%, 35%, 25% → 80, 70, 50. Faixa de 25 a 45: 142; até 25: 126; acima de 45: 132. A maior chance é da faixa de 25 a 45 anos, por ter mais funcionários.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 161
+
+**Assunto:** matematica/estatistica
+
+### 162
+Em um jogo virtual para celular, um personagem pode percorrer trajetórias retilíneas voando ou se deslocando ao longo de paredes. Considere que o personagem descreve a trajetória ABCDEF, em que os pontos A, D e E estão em um plano paralelo ao que contém os pontos B e C, sendo esses dois planos ortogonais ao plano da base que contém o ponto F, conforme a figura.
+
+![Figura](enem-2024-d2-q162-1.webp)
+
+A projeção ortogonal, sobre o plano da base, da trajetória ABCDEF descrita pelo personagem é
+
+- A) ![Alternativa A](enem-2024-d2-q162-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q162-5.webp)
+- C) ![Alternativa C](enem-2024-d2-q162-6.webp)
+- D) ![Alternativa D](enem-2024-d2-q162-3.webp)
+- E) ![Alternativa E](enem-2024-d2-q162-4.webp)
+
+**Resposta:** C
+
+**Explicação:** Cada trecho reto da trajetória se projeta no chão como um segmento que liga as projeções dos seus pontos. B e C estão na mesma vertical, então se projetam no mesmo ponto. Ligando as projeções na ordem A, B = C, D, E e F, obtém-se o desenho da terceira alternativa.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 162
+
+**Assunto:** matematica/geometria-espacial
+
+### 165
+Para abrir a porta de uma empresa, cada funcionário deve cadastrar uma senha utilizando um teclado alfanumérico como o representado na figura.
+
+![Figura](enem-2024-d2-q165-1.webp)
+
+Por exemplo: a tecla que contém o número 2 traz as letras correlacionadas A, B e C. Cada toque nessa tecla mostra, sequencialmente, os seguintes caracteres: 2, A, B e C. Para os próximos toques, essa sequência se repete. As demais teclas funcionam da mesma maneira.
+
+As senhas a serem cadastradas pelos funcionários devem conter 5 caracteres, sendo 2 algarismos distintos seguidos de 3 letras diferentes, nessa ordem. Um funcionário irá cadastrar a sua primeira senha, podendo escolher entre as teclas que apresentam os números 1, 2, 5, 7 e 0 e as respectivas letras correlacionadas, quando houver. O número de possibilidades diferentes que esse funcionário tem para cadastrar sua senha é
+
+- A) 11 520.
+- B) 14 400.
+- C) 18 000.
+- D) 312 000.
+- E) 390 000.
+
+**Resposta:** B
+
+**Explicação:** Os dois algarismos distintos saem de {1, 2, 5, 7, 0}: 5 × 4 = 20. As letras vêm das teclas 2 (ABC), 5 (JKL) e 7 (PQRS): 10 letras, três diferentes em ordem: 10 × 9 × 8 = 720. Total: 20 × 720 = 14 400.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 165
+
+**Assunto:** matematica/analise-combinatoria
+
+### 169
+Uma criança, utilizando um aplicativo, escreveu uma mensagem para enviar a um amigo. Essa mensagem foi escrita seguindo estas etapas:
+
+![Figura](enem-2024-d2-q169-1.webp)
+
+A criança seguiu copiando e colando, em cada etapa, o que tinha no visor na etapa imediatamente anterior, até concluir a 20ª etapa. Em seguida, enviou a mensagem. Qual foi o total de figuras contidas na mensagem enviada?
+
+- A) 3 × 219
+- B) 3 × 220
+- C) 3 × 221
+- D) 3 × 220 − 1
+- E) 3 × 220 − 3
+
+**Resposta:** A
+
+**Explicação:** A cada etapa a quantidade dobra: 3, 6, 12, ... Na etapa n há 3 × 2ⁿ⁻¹ figuras. Na 20ª etapa: 3 × 2¹⁹.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 169
+
+**Assunto:** matematica/progressoes
+
+### 175
+O gráfico apresenta o valor total de exportações e o valor total de importações, ao longo de um período, em bilhão de dólares. O saldo da balança comercial brasileira é dado pelo valor total de exportações menos o valor total de importações num mesmo período.
+
+Valor total de exportações e importações
+
+![Figura](enem-2024-d2-q175-1.webp)
+
+> Disponível em: http://blogs.estadao.com.br. Acesso em: 20 fev. 2013 (adaptado).
+
+Considere que os saldos da balança comercial brasileira, nos três meses destacados no gráfico, sejam representados por:
+
+• S₁: saldo em junho de 2009;
+
+• S₂: saldo em janeiro de 2010;
+
+• S₃: saldo em junho de 2010.
+
+A ordenação dos saldos S₁, S₂e S₃, do maior para o menor, é
+
+- A) S₁, S₃ e S₂.
+- B) S₂, S₁ e S₃.
+- C) S₂, S₃ e S₁.
+- D) S₃, S₁ e S₂.
+- E) S₃, S₂ e S₁.
+
+**Resposta:** A
+
+**Explicação:** Saldo = exportações − importações. Junho de 2009: cerca de 14,5 − 10 = +4,5. Janeiro de 2010: cerca de 11,3 − 11,6, quase zero ou negativo. Junho de 2010: 17,1 − 14,8 = +2,3. Do maior para o menor: S₁, S₃, S₂.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 175
+
+**Assunto:** matematica/estatistica
+
+### 178
+Uma professora de matemática utiliza em suas aulas uma “máquina caça-números” para verificar os conhecimentos de seus estudantes sobre representações de números racionais. Essa máquina tem um visor dividido em seis compartimentos e, na lateral, uma alavanca. Cada estudante puxa a alavanca e espera que os compartimentos parem de girar. A partir daí, precisa responder para a professora em quais posições se encontram os números que representam a mesma quantidade.
+
+Um estudante puxou a alavanca, aguardou que os compartimentos parassem de girar e observou os números apresentados no visor. A configuração da máquina naquele instante está apresentada na imagem.
+
+![Figura](enem-2024-d2-q178-1.webp)
+
+Esse estudante respondeu corretamente à pergunta da professora. As posições indicadas pelo estudante foram
+
+- A) I, II e IV.
+- B) II, IV e V.
+- C) II, III e V.
+- D) III, V e VI.
+- E) III, IV e VI.
+
+**Resposta:** B
+
+**Explicação:** Os valores são: 4^(1/2) = 2; 4 ½ = 4,5; 10/45 = 2/9; 18/4 = 4,5; 4,5; 4/5. As três quantidades iguais (4,5) estão nas posições II, IV e V.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 178
+
+**Assunto:** matematica/numeros-e-operacoes
+
 ## Difícil
 
 ### 143
@@ -541,3 +902,118 @@ O jardineiro escolherá a forma de
 **Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 147
 
 **Assunto:** matematica/geometria-plana
+
+### 149
+A criptografia refere-se à construção e análise de protocolos que impedem terceiros de lerem mensagens privadas. Júlio César, imperador romano, utilizava um código para proteger as mensagens enviadas a seus generais. Assim, se a mensagem caísse em mãos inimigas, a informação não poderia ser compreendida. Nesse código, cada letra do alfabeto era substituída pela letra três posições à frente, ou seja, o “A” era substituído pelo “D”, o “B” pelo “E”, o “C” pelo “F”, e assim sucessivamente.
+
+![Figura](enem-2024-d2-q149-21.webp)
+
+> Disponível em: www.codifica.ibict.br. Acesso em: 15 out. 2019.
+
+Qualquer código que tenha um padrão de substituição de letras como o descrito é considerado uma Cifra de César ou um Código de César. Note que, para decifrar uma Cifra de César, basta descobrir por qual letra o “A” foi substituído, pois isso define todas as demais substituições a serem feitas.
+
+Uma mensagem, em um alfabeto de 26 letras, foi codificada usando uma Cifra de César. Considere a probabilidade de se descobrir, aleatoriamente, o padrão utilizado nessa codificação, e que uma tentativa frustrada deverá ser eliminada nas tentativas seguintes.
+
+A probabilidade de se descobrir o padrão dessa Cifra de César apenas na terceira tentativa é dada por
+
+- A) ![Alternativa A](enem-2024-d2-q149-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q149-3.webp)
+- C) ![Alternativa C](enem-2024-d2-q149-4.webp)
+- D) ![Alternativa D](enem-2024-d2-q149-5.webp)
+- E) ![Alternativa E](enem-2024-d2-q149-6.webp)
+
+**Resposta:** E
+
+**Explicação:** Há 25 deslocamentos possíveis (o "A" pode virar qualquer uma das outras 25 letras). Errar na 1ª: 24/25; errar na 2ª, com 24 restantes: 23/24; acertar na 3ª, com 23 restantes: 1/23. Probabilidade: 24/25 × 23/24 × 1/23.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 149
+
+**Assunto:** matematica/probabilidade
+
+### 153
+Um tanque, em formato de paralelepípedo reto retângulo, tem em seu interior dois anteparos verticais, fixados na sua base e em duas paredes opostas, sendo perpendiculares a elas, conforme a figura.
+
+![Figura](enem-2024-d2-q153-1.webp)
+
+Esses anteparos, de espessuras desprezíveis, estão instalados de maneira a dividir a base do tanque em três retângulos congruentes, tendo suas alturas iguais à metade e a um quarto da altura do tanque. O tanque é abastecido por uma entrada situada no teto, através de um duto que despeja água a uma vazão constante, sendo necessárias 12 horas para finalizar o seu enchimento. O gráfico que descreve, em cada instante, a maior altura de coluna de água, dentre aquelas que vão sendo formadas ao longo do enchimento do tanque, é
+
+- A) ![Alternativa A](enem-2024-d2-q153-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q153-4.webp)
+- C) ![Alternativa C](enem-2024-d2-q153-6.webp)
+- D) ![Alternativa D](enem-2024-d2-q153-3.webp)
+- E) ![Alternativa E](enem-2024-d2-q153-5.webp)
+
+**Resposta:** B
+
+**Explicação:** A água cai no compartimento junto ao anteparo de altura H/2. Esse compartimento (1/3 da base) enche até H/2 em 2 h (1/6 do volume, com 12 h para o total). Depois a água transborda: os outros dois compartimentos enchem até H/2, levando mais 4 h, e a maior altura fica parada em H/2. Por fim, o tanque inteiro sobe de H/2 a H em 6 h, mais devagar. O gráfico: subida de 0 a 2 h, trecho horizontal de 2 a 6 h e subida mais lenta até 12 h.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 153
+
+**Assunto:** matematica/geometria-espacial
+
+### 168
+Três grandezas (I, II e III) se relacionam entre si. Os gráficos a seguir, formados por segmentos de reta, descrevem as relações de dependência existentes entre as grandezas I e II, e entre as grandezas II e III.
+
+![Figura](enem-2024-d2-q168-1.webp)
+
+O valor máximo assumido pela grandeza III, quando a grandeza I varia de 1 a 3, é
+
+- A) 1,0.
+- B) 2,5.
+- C) 3,0.
+- D) 3,5.
+- E) 4,0.
+
+**Resposta:** B
+
+**Explicação:** Quando I vai de 1 a 3, II vai de 1,5 a 3,5 (pelo primeiro gráfico). No segundo gráfico, III = 4 − II até II = 3 e depois sobe. Em II = 1,5, III = 2,5; em II = 3,5, III = 2. O maior valor de III nesse intervalo é 2,5.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 168
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 173
+Uma sala com piso no formato retangular, com lados de medidas 3 m e 6 m, será dividida em dois ambientes. Para isso, serão utilizadas colunas em formato cilíndrico, dispostas perpendicularmente ao piso e representadas na figura pelos círculos de cor azul. Os centros desses círculos estarão sobre uma reta paralela aos lados de menor medida do piso da sala. Os vãos entre duas colunas e entre uma coluna e a parede não poderão ser superiores a 15 cm.
+
+![Figura](enem-2024-d2-q173-1.webp)
+
+Para efetuar a compra dessas colunas, foram feitos orçamentos com base em dados fornecidos por cinco lojas.
+
+![Figura](enem-2024-d2-q173-2.webp)
+
+A compra será realizada na loja cujo orçamento resulte no menor valor total possível. A compra será realizada na loja
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** C
+
+**Explicação:** As colunas ficam ao longo dos 3 m (300 cm), com vãos de no máximo 15 cm: n × diâmetro + (n + 1) × 15 ≥ 300. Loja I (d = 10): 12 colunas, R$ 720. II (d = 20): 9, R$ 630. III (d = 24): 8, R$ 600. IV (d = 30): 7, R$ 630. V (d = 40): 6, R$ 720. A mais barata é a loja III.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 173
+
+**Assunto:** matematica/numeros-e-operacoes
+
+### 179
+Uma caneca com água fervendo é retirada de um forno de micro-ondas. A temperatura T, em grau Celsius, da caneca, em função do tempo t, em minuto, pode ser modelada pela função T(t) = a + 80 bt, representada no gráfico a seguir.
+
+![Figura](enem-2024-d2-q179-1.webp)
+
+Os valores das constantes a e b são
+
+- A) a = 20; b = log(0,5)
+- B) a = 100; b = 0,5
+- C) a = 20; b = (0,5)^(1/10)
+- D) a = 20; b = (40)^(1/10)/80
+- E) a = 20; b = 40
+
+**Resposta:** C
+
+**Explicação:** Em t = 0, T = a + 80 = 100, então a = 20. Em t = 20, T = 40: 20 + 80b²⁰ = 40, b²⁰ = 1/4 = (0,5)², então b = (0,5)^(1/10).
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 179
+
+**Assunto:** matematica/exponencial-e-logaritmo

@@ -286,6 +286,98 @@ O exoesqueleto dos crustáceos é formado por quitina e impregnações de sais c
 
 **Assunto:** biologia/seres-vivos
 
+### 96
+Os pesticidas naturais vêm sendo utilizados no controle de pragas e doenças agrícolas como substituintes de pesticidas sintéticos tradicionais, por serem menos nocivos ao ambiente, biodegradáveis e minimizarem custos e riscos relativos à lavoura. Por exemplo, os compostos 1 e 2 estão envolvidos nas respostas de defesa das plantas. Os grupos funcionais presentes nesses compostos são importantes para suas propriedades no controle de pragas.
+
+![Figura](enem-2024-d2-q096-1.webp)
+
+> PINTO-ZEVALLOS, D. M.; ZARBIN, P. H. G. A química na agricultura: perspectivas para o desenvolvimento de tecnologias sustentáveis. Química Nova, n. 10, 2013 (adaptado).
+
+Qual é a função orgânica correspondente ao grupo funcional comum presente nesses dois compostos?
+
+- A) Ácido carboxílico.
+- B) Cetona.
+- C) Alceno.
+- D) Álcool.
+- E) Fenol.
+
+**Resposta:** A
+
+**Explicação:** O composto 1 tem o grupo –COOH ligado ao anel, e o composto 2 tem –COOH na cadeia lateral. A função comum é o ácido carboxílico.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 96
+
+**Assunto:** quimica/quimica-organica
+
+### 114
+Nos automóveis, é importante garantir que o centro de massa (CM) de cada conjunto roda/pneu coincida com o seu centro geométrico. Esse processo é realizado em uma máquina de balanceamento, na qual o conjunto roda e pneu é colocado para girar a uma velocidade de valor constante. Com base nas oscilações medidas, a máquina indica a posição do centro de massa do conjunto, e pequenas peças de chumbo são fixadas em lugares específicos da roda até que as vibrações diminuam. Durante o treinamento de sua equipe, a fim de corrigir a posição do centro de massa indicada pela máquina, um mecânico apresenta o esquema a seguir, com cinco possíveis pontos da roda para posicionar uma peça de chumbo.
+
+![Figura](enem-2024-d2-q114-1.webp)
+
+Em qual ponto deve ser fixada a peça de chumbo para corrigir a posição do centro de massa desse conjunto roda/pneu?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** C
+
+**Explicação:** A peça de chumbo deve ser fixada do lado oposto ao do centro de massa deslocado, para puxá-lo de volta ao centro geométrico. Pelo esquema, o ponto diametralmente oposto ao CM é o 3.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 114
+
+**Assunto:** fisica/estatica-e-hidrostatica
+
+### 124
+A saúde do professor: acústica arquitetônica
+
+Dentre os parâmetros acústicos que afetam a inteligibilidade dos sons emitidos em ambientes fechados, destacam-se o ruído de fundo do ambiente e o decréscimo do nível sonoro com a distância da fonte emissora. Assim, sentar-se no fundo da sala de aula pode prejudicar a aprendizagem dos estudantes, por impedir que eles distingam, com precisão, os sons emitidos, diminuindo a inteligibilidade da fala de seus professores. Considere a situação exemplificada pelo infográfico: à distância de 1 metro, o nível sonoro da fala de um professor é de 60 dB e diminui com a distância. Considere, ainda, que o ruído de fundo nessa sala de aula pode chegar a 45 dB e que, para ser compreendida, o nível sonoro da fala do professor deve estar 5 dB acima desse ruído.
+
+![Figura](enem-2024-d2-q124-1.webp)
+
+> Disponível em: www.ufrrj.br. Acesso em: 2 dez. 2021 (adaptado).
+
+Para um valor máximo do ruído de fundo, a maior distância que um estudante pode estar do professor para que ainda consiga compreender sua fala é mais próxima de
+
+- A) 3,0 m.
+- B) 4,5 m.
+- C) 6,5 m.
+- D) 8,0 m.
+- E) 9,5 m.
+
+**Resposta:** A
+
+**Explicação:** Com ruído de 45 dB, a fala precisa chegar com pelo menos 50 dB. Pelo gráfico, o nível da fala cai para 50 dB a cerca de 3 m do professor.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 124
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 127
+As autoridades sanitárias brasileiras têm se preocupado muito nos últimos anos com o aumento da ocorrência de doenças transmitidas por mosquitos, principalmente arboviroses como chikungunya e zika, que se tornaram epidêmicas ou endêmicas em áreas urbanas. Parte de uma análise da relação entre a urbanização e a incidência dessas doenças está representada no fluxograma.
+
+![Figura](enem-2024-d2-q127-1.webp)
+
+> ALMEIDA, L. S.; COTA, A. L. S.; RODRIGUES, D. F. Saneamento, arboviroses e determinantes ambientais: impactos na saúde urbana. Ciência & Saúde Coletiva, v. 25, n. 10, 2020 (adaptado).
+
+Nesse contexto, como a urbanização está causando riscos à saúde humana?
+
+- A) Disseminando verminoses.
+- B) Causando a eutrofização de lagoas.
+- C) Aumentando a chance de contato com coliformes.
+- D) Diminuindo a população de predadores aquáticos.
+- E) Aproximando as pessoas das áreas de ocorrência de mosquitos.
+
+**Resposta:** D
+
+**Explicação:** Sem saneamento, a água fica contaminada e a biodiversidade aquática diminui, inclusive os predadores das larvas de mosquitos. Com menos predadores, os mosquitos que transmitem arboviroses aumentam.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 127
+
+**Assunto:** biologia/saude-e-doencas
+
 ## Médio
 
 ### 95
@@ -473,6 +565,319 @@ Um atleta que sonha em disputar os Jogos Olímpicos e tem uma maior proporção 
 
 **Assunto:** biologia/fisiologia-humana
 
+### 91
+O esquema representa um experimento feito com células do protozoário Amoeba proteus. Nele, um grupo de células foi tratado com a droga citocalasina B, enquanto outro grupo não foi tratado, servindo como controle. O formato e o movimento das células tratadas foram comprometidos.
+
+![Figura](enem-2024-d2-q091-1.webp)
+
+> SADAVA, D. et al. Vida: a ciência da biologia — volume I: célula e hereditariedade. Porto Alegre: Artmed, 2009 (adaptado).
+
+Qual componente celular foi afetado pela droga utilizada no experimento?
+
+- A) Vacúolos.
+- B) Mitocôndrias.
+- C) Microfilamentos.
+- D) Material genético.
+- E) Membrana plasmática.
+
+**Resposta:** C
+
+**Explicação:** As células tratadas perderam as projeções (pseudópodes) e ficaram arredondadas: a forma e o movimento da ameba dependem do citoesqueleto, em especial dos microfilamentos de actina, que a citocalasina B desorganiza.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 91
+
+**Assunto:** biologia/citologia
+
+### 94
+A hidroxiapatita, Ca₅(PO₄)₃OH, é um mineral constituinte do esmalte dos dentes. Entre as diversas reações que ocorrem no meio bucal, encontram-se em equilíbrio as reações de desmineralização e mineralização da hidroxiapatita em meio aquoso, ilustradas a seguir. A desmineralização está associada à fragilização do esmalte do dente e à formação de cáries.
+
+![Figura](enem-2024-d2-q094-1.webp)
+
+O uso de creme dental pode minimizar a perda da hidroxiapatita. O quadro apresenta o agente de polimento e o pH de alguns cremes dentais comerciais.
+
+![Figura](enem-2024-d2-q094-2.webp)
+
+> STORGATTO, G. A.; BRAIBANTE, M. E. F.; BRAIBANTE, H. T. S. A química na odontologia. Química Nova na Escola, v. 39, fev. 2017 (adaptado).
+
+Considerando o equilíbrio químico envolvido, qual creme dental promove a maior desmineralização do esmalte do dente?
+
+- A) I
+- B) II
+- C) III
+- D) IV
+- E) V
+
+**Resposta:** D
+
+**Explicação:** A desmineralização consome íons H⁺. Quanto mais ácido o creme (menor pH), maior a concentração de H⁺ e mais o equilíbrio se desloca para a desmineralização. O menor pH é o do creme IV (6,9).
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 94
+
+**Assunto:** quimica/fisico-quimica
+
+### 97
+Utilizando-se um mesmo meio nutritivo, três gêneros bacterianos diferentes foram submetidos ao cultivo em tubos de ensaio. Após certo período de crescimento da cultura bacteriana em condições físico-químicas ideais, observou-se que o padrão de distribuição das células (representadas por pontos na figura) ao longo dos tubos era diferente em cada um dos casos.
+
+![Figura](enem-2024-d2-q097-1.webp)
+
+Em relação ao metabolismo energético, os microrganismos presentes nos tubos 1, 2 e 3 são classificados, respectivamente, como
+
+- A) anaeróbio facultativo, anaeróbio estrito e aeróbio estrito.
+- B) anaeróbio facultativo, aeróbio estrito e anaeróbio estrito.
+- C) aeróbio estrito, anaeróbio estrito e anaeróbio facultativo.
+- D) anaeróbio estrito, aeróbio estrito e anaeróbio facultativo.
+- E) aeróbio estrito, anaeróbio facultativo e anaeróbio estrito.
+
+**Resposta:** C
+
+**Explicação:** No tubo 1, as bactérias ficam só na superfície, onde há oxigênio: aeróbias estritas. No tubo 2, só no fundo, longe do oxigênio: anaeróbias estritas. No tubo 3, espalhadas pelo tubo todo, com mais células em cima: anaeróbias facultativas.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 97
+
+**Assunto:** biologia/seres-vivos
+
+### 103
+O diagrama P-V a seguir representa o ciclo de Otto para um motor de combustão interna, como os motores a gasolina ou a etanol, utilizados nos automóveis.
+
+![Figura](enem-2024-d2-q103-1.webp)
+
+As etapas representadas no diagrama estão descritas no quadro.
+
+![Figura](enem-2024-d2-q103-2.webp)
+
+> Disponível em: www.mspc.eng.br. Acesso em: 24 fev. 2013 (adaptado).
+
+A transformação da energia térmica em energia útil ocorre na etapa
+
+- A) II.
+- B) III.
+- C) IV.
+- D) V.
+- E) VI.
+
+**Resposta:** C
+
+**Explicação:** A energia térmica vira trabalho útil quando o gás, quente depois da combustão, se expande e empurra o pistão. Isso ocorre na expansão adiabática, de 3 para 4 (etapa IV).
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 103
+
+**Assunto:** fisica/termologia
+
+### 106
+Na tirinha, Calvin se divertia em um balanço antes de soltar-se dele e cair ao chão. Em sua fala, ele demonstra ter imaginado que permaneceria em movimento circular. Porém, a força gravitacional, que permanece atuando no garoto, modifica a direção de sua velocidade, fazendo com que ele chegue ao chão da maneira ilustrada no último quadrinho.
+
+![Figura](enem-2024-d2-q106-1.webp)
+
+> WATTERSON, B. Disponível em: https://tiras-do-calvin.tumblr.com. Acesso em: 19 nov. 2021 (adaptado).
+
+Qual vetor representa a força resultante exercida pelo chão sobre Calvin no exato momento em que ele toca o chão?
+
+- A) ![Alternativa A](enem-2024-d2-q106-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q106-3.webp)
+- C) ![Alternativa C](enem-2024-d2-q106-4.webp)
+- D) ![Alternativa D](enem-2024-d2-q106-5.webp)
+- E) ![Alternativa E](enem-2024-d2-q106-6.webp)
+
+**Resposta:** A
+
+**Explicação:** Ao tocar o chão, Calvin recebe duas forças do solo: a normal, para cima, e o atrito, contrário ao seu deslizamento. Somadas, elas dão uma força inclinada, para cima e para o lado oposto ao movimento, como na primeira alternativa.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 106
+
+**Assunto:** fisica/dinamica
+
+### 107
+A fitorremediação é uma técnica que utiliza plantas para a remediação de ambientes contaminados. A descontaminação de solos pode ocorrer por descarte, absorção e metabolização, imobilização, extração ou volatilização do poluente, conforme representado na figura.
+
+![Figura](enem-2024-d2-q107-1.webp)
+
+> LUIZ, E. P. Avaliação dos métodos de fitorremediação [...] na remoção de chumbo, cobre e zinco. São Paulo: UFABC, 2016 (adaptado).
+
+O método que retira o mercúrio de uma área contaminada, impedindo sua entrada na cadeia alimentar, é a
+
+- A) fitoestabilização, ficando o mercúrio disponível sob a superfície das raízes das plantas.
+- B) fitovolatilização, permitindo a retirada do mercúrio por plantas e a sua transferência para uma forma volátil.
+- C) fitodegradação, com a degradação do mercúrio promovida por enzimas, contidas nas raízes, formando espécies menos tóxicas.
+- D) fitoestimulação, com a remoção do mercúrio pela ação de microrganismos presentes nas raízes que absorvem e imobilizam o metal.
+- E) fitoextração, em que as plantas que acumulam o mercúrio são cultivadas nesses locais, e a biomassa rica no metal é retirada após o crescimento.
+
+**Resposta:** E
+
+**Explicação:** Para tirar o mercúrio do solo e impedir que ele entre na cadeia alimentar, as plantas acumulam o metal na parte aérea e depois a biomassa é colhida e retirada do local: é a fitoextração.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 107
+
+**Assunto:** biologia/ecologia
+
+### 112
+A nimesulida é um fármaco pouco solúvel em água, utilizado como anti-inflamatório, analgésico e antitérmico. Essa substância pode ser convertida em uma espécie eletricamente carregada, de maior solubilidade em água, mediante o tratamento com uma base de Brönsted-Lowry, isto é, uma espécie química capaz de capturar um próton (H⁺). Na figura são apresentados os grupamentos presentes na estrutura química da nimesulida.
+
+![Figura](enem-2024-d2-q112-1.webp)
+
+> GONÇALVES, A. A. et al. Contextualizando reações ácido-base de acordo com a teoria protônica de Brönsted-Lowry usando comprimidos de propranolol e nimesulida. Química Nova, n. 3, 2013 (adaptado).
+
+Na estrutura desse fármaco, o grupamento capaz de reagir com a base de Brönsted-Lowry é o grupo
+
+- A) sulfonamida.
+- B) metila.
+- C) fenila.
+- D) nitro.
+- E) éter.
+
+**Resposta:** A
+
+**Explicação:** Uma base de Brønsted-Lowry reage com o grupo que pode doar um próton (H⁺). Na nimesulida, o H ligado ao nitrogênio da sulfonamida é ácido, por causa dos grupos que puxam elétrons ao redor.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 112
+
+**Assunto:** quimica/quimica-organica
+
+### 116
+Apesar de os animais representados no cladograma compartilharem um mesmo ancestral, eles se caracterizam por distintos padrões de reprodução ou de nutrição dos embriões e descendentes.
+
+![Figura](enem-2024-d2-q116-1.webp)
+
+> DIXSON, A. F. Mammalian Sexuality: The Act of Mating and the Evolution of Reproduction. Disponível em: www.cambridge.org. Acesso em: 2 jul. 2024 (adaptado).
+
+Ao longo do processo evolutivo, percebem-se, entre esses animais, perdas e ganhos nos padrões citados que envolvem o(a)
+
+- A) aumento no número de descendentes por ninhada.
+- B) mudança no tipo de fecundação de externa para interna.
+- C) redução da versatilidade de reprodução, que se torna unicamente sexuada.
+- D) desenvolvimento embrionário, que passa do meio aquático para o terrestre.
+- E) diminuição da vesícula vitelínica, associada ao desenvolvimento da lactação.
+
+**Resposta:** E
+
+**Explicação:** Monotremados põem ovos com grande vitelo; marsupiais e placentários desenvolvem o embrião dentro do corpo e alimentam o filhote com leite. Ao longo da evolução, a vesícula vitelínica perdeu importância, associada ao desenvolvimento da lactação.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 116
+
+**Assunto:** biologia/evolucao
+
+### 118
+Mirascópio 3D: produtor de ilusão instantânea
+
+O equipamento ilustrado na figura, de dimensões apresentadas no esquema, é composto por dois espelhos côncavos E₁ e E₂, apoiados um sobre o outro por suas bordas, de tal forma que o vértice de E₁ coincide com o foco de E₂ e vice-versa. Na abertura circular de E₂, é formada uma imagem tridimensional de um objeto posicionado sobre o vértice de E₁. Essa imagem é formada a partir dos raios procedentes do objeto, refletidos por E₂ e E₁, respectivamente, conforme o esquema. Os observadores julgam visualizar o objeto quando estão, de fato, visualizando sua imagem. O efeito só é possível porque as superfícies de ambos os espelhos são de extrema qualidade.
+
+![Figura](enem-2024-d2-q118-1.webp)
+
+> SALZMANN, W. Disponível em: https://wissenstexte.de. Acesso em: 27 jun. 2024 (adaptado).
+
+A natureza da imagem formada e a distância vertical entre cada ponto objeto e seu correspondente ponto imagem são
+
+- A) real e 5 cm.
+- B) real e 3,8 cm.
+- C) real e 7,6 cm.
+- D) virtual e 7,6 cm.
+- E) virtual e 3,8 cm.
+
+**Resposta:** C
+
+**Explicação:** Os espelhos côncavos formam uma imagem real do objeto, que aparece "flutuando" na abertura. O objeto está no fundo (vértice de E₁) e a imagem surge no vértice de E₂: a distância vertical é 3,8 + 3,8 = 7,6 cm.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 118
+
+**Assunto:** fisica/ondulatoria-e-optica
+
+### 120
+Células a combustível microbianas (CCM) são capazes de gerar eletricidade a partir de águas residuárias urbanas e agroindustriais. As CCM são compostas de duas câmaras. Numa delas, onde ocorre o tratamento da matéria orgânica, as bactérias eletrogênicas crescem formando um biofilme e se alimentam dos poluentes presentes no efluente. Ao se alimentarem, essas bactérias geram uma corrente elétrica que percorre o material sobre o qual elas formaram o biofilme. Um fio condutor externo possibilita a migração dessa corrente para uma segunda câmara, promovendo uma reação química. A figura esquematiza uma CCM e as reações envolvidas.
+
+![Figura](enem-2024-d2-q120-1.webp)
+
+CH₃COO⁻ (aq) + 2 H₂O (l) → 2 CO₂ (g) + 7 H⁺ (aq) + 8 e⁻
+
+4 H⁺ (aq) + O₂ (g) + 4 e⁻ → 2 H₂O (l)
+
+> QUINTO, A. C. Biobaterias geram eletricidade a partir de esgoto sanitário e efluentes agroindustriais. Disponível em: https://jornal.usp.br. Acesso em: 1 dez. 2021 (adaptado).
+
+Qual das equações representa a reação global que ocorre durante o funcionamento dessa CCM?
+
+- A) CH₃COO⁻ (aq) + O₂ (g) → 2 CO₂ (g) + 3 H⁺ (aq)
+- B) CO₂ (g) + O₂ (g) + H⁺ (aq) → H₂O (l) + CH₃COO⁻ (aq)
+- C) CH₃COO⁻ (aq) + H⁺ (aq) + 2 O₂ (g) → 2 CO₂ (g) + 2 H₂O (l)
+- D) CH₃COO⁻ (aq) + 6 H₂O (l) → 2 CO₂ (g) + 2 O₂ (g) + 15 H⁺ (aq)
+- E) 2 CO₂ (g) + 11 H⁺ (aq) + O₂ (g) → CH₃COO⁻ (aq) + 4 H₂O (l)
+
+**Resposta:** C
+
+**Explicação:** Somando as semirreações com os elétrons igualados (a segunda multiplicada por 2): CH₃COO⁻ + 2 H₂O + 8 H⁺ + 2 O₂ → 2 CO₂ + 7 H⁺ + 4 H₂O. Simplificando: CH₃COO⁻ + H⁺ + 2 O₂ → 2 CO₂ + 2 H₂O.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 120
+
+**Assunto:** quimica/fisico-quimica
+
+### 122
+Metabolismo de procariontes
+
+O esquema representa a ação de organismos no ciclo do nitrogênio e no ciclo do carbono. Os números correspondem a algumas etapas dos dois ciclos distintos.
+
+![Figura](enem-2024-d2-q122-1.webp)
+
+Em qual etapa numerada ocorre uma transformação redox como a que ocorre nos procariontes nitrificantes?
+
+- A) 1
+- B) 2
+- C) 3
+- D) 4
+- E) 5
+
+**Resposta:** E
+
+**Explicação:** As nitrificantes oxidam a amônia a nitrito e nitrato: obtêm energia por uma reação redox. Os decompositores (etapa 5) também obtêm energia oxidando a matéria orgânica até CO₂, outra transformação redox de quem quebra moléculas para obter energia.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 122
+
+**Assunto:** biologia/ecologia
+
+### 123
+Um dos agentes que mais contribui para a poluição do ar é o automóvel a combustão interna. Em áreas urbanas, isso é demonstrado dramaticamente pela fumaça fotoquímica, resultante da interação entre óxidos de nitrogênio, hidrocarbonetos e luz solar, para formar produtos de oxidação, que causam irritação aos olhos, ao aparelho respiratório e danos às plantas. As condições de operação de motores a combustão, como a razão da mistura ar/combustível no cilindro, influenciam na composição dos gases lançados pelo escapamento na atmosfera. O gráfico ilustra a variação nas composições dos principais gases, dióxido de carbono (CO₂), hidrocarbonetos (HC), monóxido de carbono (CO), monóxido de nitrogênio (NO) e oxigênio molecular (O₂), emitidos por um motor a gasolina, em diferentes razões ar/combustível, em massa.
+
+![Figura](enem-2024-d2-q123-1.webp)
+
+> RANGEL, M. C.; CARVALHO, M. F. A. Impacto dos catalisadores automotivos no controle da qualidade do ar. Química Nova, v. 26, 2003 (adaptado).
+
+Na condição de razão ar/combustível igual a 18, haverá uma emissão
+
+- A) baixa de O₂ e alta de NO.
+- B) baixa de NO e alta de HC.
+- C) baixa de CO e alta de CO₂.
+- D) baixa de HC e alta de CO.
+- E) baixa de CO₂ e alta de HC.
+
+**Resposta:** C
+
+**Explicação:** Na razão 18 (excesso de ar), o gráfico mostra o CO praticamente zerado e o CO₂ ainda alto (cerca de 13%). Há baixa emissão de CO e alta de CO₂.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 123
+
+**Assunto:** quimica/quimica-ambiental
+
+### 135
+Um dos exemplos mais conhecidos de herança recessiva ligada ao cromossomo X é o daltonismo. Como em qualquer distúrbio recessivo ligado ao cromossomo X, existem muito mais homens apresentando o fenótipo com esse tipo de daltonismo do que mulheres. Um casal formado por um homem não daltônico e por uma mulher gestante também não daltônica, mas portadora do gene recessivo para esse tipo de daltonismo, está esperando um bebê. Em uma das consultas de pré-natal, o casal recebeu um heredograma que contém todas as possibilidades de genótipo para esse bebê.
+
+Considere a legenda:
+
+![Figura](enem-2024-d2-q135-1.webp)
+
+> GRIFFITHS, A. et al. Introdução à genética. Rio de Janeiro: Guanabara Koogan, 2016 (adaptado).
+
+Qual heredograma foi recebido pelo casal?
+
+- A) ![Alternativa A](enem-2024-d2-q135-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q135-3.webp)
+- C) ![Alternativa C](enem-2024-d2-q135-4.webp)
+- D) ![Alternativa D](enem-2024-d2-q135-5.webp)
+- E) ![Alternativa E](enem-2024-d2-q135-6.webp)
+
+**Resposta:** B
+
+**Explicação:** A mãe é portadora (XᴰXᵈ) e o pai é normal (XᴰY). As filhas recebem o X normal do pai: podem ser normais ou portadoras, nunca daltônicas. Os filhos recebem o Y do pai e um dos X da mãe: podem ser normais ou daltônicos. O heredograma com essas quatro possibilidades é o segundo.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 135
+
+**Assunto:** biologia/genetica-e-biotecnologia
+
 ## Difícil
 
 ### 111
@@ -491,3 +896,93 @@ O biogás é uma alternativa energética muito importante, pois, além de reduzi
 **Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 111
 
 **Assunto:** quimica/estequiometria
+
+### 100
+Em um experimento de laboratório, duas barras metálicas, A e B, são carregadas com cargas opostas e imersas em óleo. Farelo de milho é jogado sobre o óleo e, após um certo tempo, o farelo assume o formato das linhas de campo elétrico entre as barras. A figura representa a vista superior desse experimento.
+
+![Figura](enem-2024-d2-q100-1.webp)
+
+> ALMEIDA, M. A. T. Introdução às ciências físicas 2 — volume 4:
+
+Ao repetir o experimento colocando um cilindro metálico oco entre as placas, o esquema que representa o formato das linhas de campo assumido pelo farelo é:
+
+- A) ![Alternativa A](enem-2024-d2-q100-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q100-5.webp)
+- C) ![Alternativa C](enem-2024-d2-q100-6.webp)
+- D) ![Alternativa D](enem-2024-d2-q100-3.webp)
+- E) ![Alternativa E](enem-2024-d2-q100-4.webp)
+
+**Resposta:** E
+
+**Explicação:** Dentro de um condutor metálico em equilíbrio o campo elétrico é nulo, e as linhas de campo chegam perpendiculares à superfície do cilindro. Fora dele, as linhas vão de A para B; dentro do anel, não há linhas.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 100
+
+**Assunto:** fisica/eletricidade
+
+### 104
+Para os circuitos de maratonas aquáticas realizadas em mares calmos e próximos à praia, é montado um sistema de boias que determinam o trajeto a ser seguido pelos nadadores. Uma das dificuldades desse tipo de circuito é compensar os efeitos da corrente marinha. O diagrama contém o circuito em que deve ser realizada uma volta no sentido anti-horário. As quatro boias estão numeradas de
+
+→, cujo 1 a 4. Existe uma corrente marinha de velocidade υc módulo é 30 metros por minuto, paralela à praia em toda a área do circuito. Nas arestas mais longas, o nadador
+
+→ dos precisará nadar na direção apontada pelos vetores υn pontos 1 até 2 e de 3 até 4. Considere que a velocidade do nadador é de 50 metros por minuto, em relação à água, durante todo o circuito.
+
+![Figura](enem-2024-d2-q104-1.webp)
+
+Nessa situação, em quantos minutos o nadador completará a prova?
+
+- A) 42
+- B) 65
+- C) 72
+- D) 105
+- E) 120
+
+**Resposta:** B
+
+**Explicação:** Nos lados de 800 m, o nadador inclina o corpo para anular a corrente: sobra √(50² − 30²) = 40 m/min, ou 20 min por lado (40 min). De 2 a 3, contra a corrente: 50 − 30 = 20 m/min, 400 ÷ 20 = 20 min. De 4 a 1, a favor: 80 m/min, 5 min. Total: 65 min.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 104
+
+**Assunto:** fisica/cinematica
+
+### 109
+O LED é um dispositivo eletrônico que conduz corrente elétrica em um único sentido, sendo caracterizado por uma tensão e uma corrente máxima de funcionamento, Imáx. Um LED acende apenas se a corrente que o percorre está no sentido permitido e se a diferença de potencial à qual está submetido é igual ou superior à sua tensão de funcionamento. A figura ilustra o símbolo do LED usado na representação de circuitos.
+
+![Figura](enem-2024-d2-q109-1.webp)
+
+Um estudante de física analisa as propriedades do LED em um circuito simples de corrente contínua. Ele dispõe dos seguintes materiais: uma bateria ideal de 4,5 V; dois LEDs de tensão 3,0 V e Imáx = 1,0 mA cada; e dois resistores de 1,5 kΩ cada. O circuito que o estudante pode montar, para que ambos os LEDs fiquem acesos e cada um seja percorrido por Imáx, é
+
+- A) ![Alternativa A](enem-2024-d2-q109-2.webp)
+- B) ![Alternativa B](enem-2024-d2-q109-3.webp)
+- C) ![Alternativa C](enem-2024-d2-q109-4.webp)
+- D) ![Alternativa D](enem-2024-d2-q109-5.webp)
+- E) ![Alternativa E](enem-2024-d2-q109-6.webp)
+
+**Resposta:** B
+
+**Explicação:** Cada LED precisa de 3,0 V e 1,0 mA. Com 4,5 V, sobram 1,5 V para um resistor: 1,5 V ÷ 1,5 kΩ = 1,0 mA. Então cada LED fica em série com seu próprio resistor, e os dois ramos em paralelo com a bateria, com os LEDs no sentido permitido da corrente.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 109
+
+**Assunto:** fisica/eletricidade
+
+### 110
+Uma caixa decorativa utiliza duas pequenas lâmpadas, L₁ (6 V – 9 W) e L₂ (12 V – 18 W), ligadas em série a uma bateria de tensão VQR. Um fio resistivo QR, de 48 centímetros, está ligado em paralelo à bateria. Cinco pontos, A, B, C, D e E, dividem o fio QR em seis segmentos de comprimentos iguais. O circuito também tem um amperímetro com dois terminais. Um dos terminais (P) está ligado ao fio entre as duas lâmpadas. O outro terminal (S) está livre e será ligado ao fio QR. Dependendo do ponto em que esse terminal livre for conectado, ocorrerá a mudança na tensão à qual as lâmpadas são submetidas. Os demais fios do circuito têm resistências elétricas desprezíveis. A figura ilustra esse circuito.
+
+![Figura](enem-2024-d2-q110-1.webp)
+
+Em qual desses pontos o amperímetro deve ser conectado para que as lâmpadas acendam exatamente segundo as especificações de tensão e potência elétricas fornecidas?
+
+- A) A
+- B) B
+- C) C
+- D) D
+- E) E
+
+**Resposta:** B
+
+**Explicação:** L₁ precisa de 6 V e L₂ de 12 V, em série com a mesma corrente: I = 9/6 = 1,5 A (e 18/12 = 1,5 A). A bateria fornece 18 V ao fio de 48 cm; o ponto entre as lâmpadas precisa estar a 6 V de um lado e 12 V do outro, ou seja, a 1/3 do fio: 16 cm, o ponto B.
+
+**Fonte:** ENEM 2024, 2º dia, caderno amarelo, questão 110
+
+**Assunto:** fisica/eletricidade

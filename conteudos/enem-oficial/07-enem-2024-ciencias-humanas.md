@@ -575,6 +575,35 @@ A composição e o funcionamento do organismo internacional apresentados revelam
 
 **Assunto:** geografia/geopolitica-e-globalizacao
 
+### 86
+TEXTO I
+
+![Figura](enem-2024-d1-q086-1.webp)
+
+> Disponível em: https://earth.google.com. Acesso em: 13 out. 2023.
+
+TEXTO II
+
+![Figura](enem-2024-d1-q086-2.webp)
+
+> Disponível em: https://earth.google.com. Acesso em: 13 out. 2023.
+
+A comparação entre as imagens de satélite indica a ocorrência de um processo de
+
+- A) conservação de lugares afetivos.
+- B) aumento de áreas desertificadas.
+- C) redefinição de fronteiras nacionais.
+- D) artificialização do espaço geográfico.
+- E) mudança da dinâmica macroclimática.
+
+**Resposta:** D
+
+**Explicação:** Entre 2000 e 2020, surgiram em Dubai ilhas artificiais e grande expansão urbana sobre o litoral. As imagens mostram a artificialização do espaço geográfico pela ação humana.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 86
+
+**Assunto:** geografia/populacao-e-urbanizacao
+
 ## Médio
 
 ### 46
@@ -937,6 +966,50 @@ O texto apresenta uma contradição interna do capitalismo caracterizada pela
 **Fonte:** ENEM 2024, 1º dia, caderno azul, questão 90
 
 **Assunto:** sociologia/sociologia-classica
+
+### 53
+Diferenças entre inundação gradual e brusca
+
+![Figura](enem-2024-d1-q053-1.webp)
+
+> TOMINAGA, L. K.; SANTORO, J.; AMARAL, R. Desastres naturais: conhecer para prevenir. São Paulo: Instituto Geológico, 2009 (adaptado).
+
+A desproporção de velocidade e tempo de duração nos tipos de inundação destacados é condicionada pela
+
+- A) variabilidade solar anual.
+- B) temperatura média mensal.
+- C) declividade do relevo local.
+- D) dinâmica tectônica regional.
+- E) gradação da turbidez fluvial.
+
+**Resposta:** C
+
+**Explicação:** Na inundação brusca, a água corre muito rápido e por pouco tempo; na gradual, devagar e por mais tempo. A velocidade da água depende principalmente da inclinação do terreno: em relevos íngremes (alta declividade), as enxurradas são violentas e rápidas.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 53
+
+**Assunto:** geografia/geografia-fisica
+
+### 77
+![Figura](enem-2024-d1-q077-1.webp)
+
+> VIEIRA, A. P. L. O Departamento de Imprensa e Propaganda e a política editorial do Estado Novo (1937-1945). Rio de Janeiro: Unirio, 2019.
+
+O que as capas da revista Travel in Brazil, publicadas entre 1941 e 1944 pelo Departamento de Imprensa e Propaganda (DIP), evidenciam?
+
+- A) Estereótipos da cultura nacional.
+- B) Exploração da população pobre.
+- C) Preconceitos de ordem racial.
+- D) Política de censura midiática.
+- E) Projeto de país industrial.
+
+**Resposta:** A
+
+**Explicação:** As capas mostram mulher com frutas tropicais, vaqueiro a cavalo e figuras folclóricas, imagens "típicas" vendidas ao estrangeiro. O DIP divulgava estereótipos da cultura nacional para construir uma imagem do Brasil.
+
+**Fonte:** ENEM 2024, 1º dia, caderno azul, questão 77
+
+**Assunto:** historia/brasil-republica
 
 ## Difícil
 
