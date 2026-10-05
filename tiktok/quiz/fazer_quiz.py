@@ -1,10 +1,14 @@
-"""Fábrica de vídeos de quiz ("Você passaria no ENEM?").
+"""Fábrica de vídeos de quiz ("Você passaria no ENEM?"), com animações e a marca do app Estudos.
 
-Cada arquivo em quiz/quizzes/*.json vira um vídeo vertical 1080x1920:
-1. abertura com a chamada narrada;
-2. para cada pergunta: a pergunta narrada com as 5 alternativas na tela, 5 segundos de contagem
-   regressiva com "tique" a cada segundo e a resposta revelada em verde com uma explicação curta;
-3. encerramento pedindo para comentar quantas a pessoa acertou.
+Cada arquivo em quiz/quizzes/*.json vira um vídeo vertical 1080x1920 que também divulga o app:
+1. abertura: a logo entra com um "pulo" e o título aparece palavra por palavra;
+2. para cada pergunta: o cartão e as alternativas entram deslizando, um relógio circular conta
+   5 segundos (o número pulsa, fica vermelho no fim e o cartão treme), a resposta certa salta em
+   verde com confete e a explicação é narrada;
+3. encerramento: "Quantas você acertou?" e o convite para baixar o app Estudos.
+
+A logo do app fica no topo o tempo todo. O fundo é um vídeo de estudo (estantes, livros)
+desfocado e escurecido, que roda por trás de tudo.
 
 As perguntas vêm do app Estudos (pasta estudos/conteudos), que tem gabarito e explicação conferidos.
 
@@ -17,39 +21,48 @@ import array
 import asyncio
 import json
 import math
+import random
 import subprocess
 import sys
 import tempfile
+from dataclasses import dataclass, field
 from pathlib import Path
 
 from PIL import Image, ImageDraw, ImageFont
 
 PASTA = Path(__file__).resolve().parent
-sys.path.insert(0, str(PASTA.parent / "fabrica"))
+RAIZ = PASTA.parent
+sys.path.insert(0, str(RAIZ / "fabrica"))
 import voz  # noqa: E402  (a mesma narração das histórias)
 
-FONTE = PASTA.parent / "fabrica" / "fontes" / "Poppins-ExtraBold.ttf"
+FONTE = RAIZ / "fabrica" / "fontes" / "Poppins-ExtraBold.ttf"
+LOGO = RAIZ / "marca" / "logo-estudos.png"
 PASTA_QUIZZES = PASTA / "quizzes"
-PASTA_SAIDA = PASTA.parent / "saida" / "quiz"
+PASTA_SAIDA = RAIZ / "saida" / "quiz"
+PASTA_FUNDOS = RAIZ / "saida" / "fundos" / "quiz_estudo"
 
 LARGURA, ALTURA, QUADROS = 1080, 1920, 30
 TAXA = voz.TAXA
-TEMPO_RESPOSTA = 5  # segundos de contagem regressiva
+VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
+TEMPO_RESPOSTA = 5  # segundos para o público pensar
 LETRAS = "ABCDE"
 
-AZUL_ESCURO, AZUL = (12, 22, 56), (30, 64, 160)
-AMARELO, VERDE, BRANCO, TEXTO = (255, 214, 10), (34, 197, 94), (255, 255, 255), (17, 17, 17)
+VERDE, VERDE_ESCURO = (88, 204, 2), (70, 160, 0)
+AZUL, AMARELO, VERMELHO = (28, 176, 246), (255, 200, 0), (255, 75, 75)
+BRANCO, TEXTO, AZUL_NOITE = (255, 255, 255), (30, 30, 30), (12, 22, 56)
 
 # Área segura: os botões do TikTok ficam à direita (de y≈900 para baixo) e a legenda do post
-# ocupa a parte de baixo da tela. Por isso as alternativas terminam em x=900 e y≈1420.
-MARGEM_X, LIMITE_ALTERNATIVAS = 60, 900
+# ocupa a parte de baixo. As alternativas terminam em x=900 e y≈1400.
+MX, LIMITE_X = 60, 900
 
+
+# ---------- utilidades de desenho ----------
 
 def fonte(tamanho: int) -> ImageFont.FreeTypeFont:
     return ImageFont.truetype(str(FONTE), tamanho)
 
 
-def quebrar(texto: str, letra: ImageFont.FreeTypeFont, largura: int) -> list[str]:
+def quebrar(texto: str, letra: ImageFont.FreeTypeFont, largura: float) -> list[str]:
     linhas, atual = [], ""
     for palavra in texto.split():
         tentativa = f"{atual} {palavra}".strip()
@@ -61,167 +74,320 @@ def quebrar(texto: str, letra: ImageFont.FreeTypeFont, largura: int) -> list[str
     return linhas + ([atual] if atual else [])
 
 
-def fundo() -> Image.Image:
-    imagem = Image.new("RGB", (LARGURA, ALTURA))
-    desenho = ImageDraw.Draw(imagem)
-    for y in range(ALTURA):
-        t = y / ALTURA
-        cor = tuple(int(a + (b - a) * t) for a, b in zip(AZUL_ESCURO, AZUL))
-        desenho.line([(0, y), (LARGURA, y)], fill=cor)
-    return imagem.convert("RGBA")
+def limitar(x: float) -> float:
+    return max(0.0, min(1.0, x))
 
 
-FUNDO = fundo()
+def suave(x: float) -> float:  # desacelera no fim
+    x = limitar(x)
+    return 1 - (1 - x) ** 3
 
 
-def tela_cartao(texto: str, subtitulo: str = "") -> Image.Image:
-    """Cartão branco grande no meio da tela (abertura e encerramento)."""
-    imagem = FUNDO.copy()
-    desenho = ImageDraw.Draw(imagem)
-    letra, pequena = fonte(80), fonte(44)
-    linhas = quebrar(texto, letra, 820)
-    sub = quebrar(subtitulo, pequena, 820) if subtitulo else []
-    altura = 120 + len(linhas) * 104 + (40 + len(sub) * 60 if sub else 0)
-    y0 = 760 - altura // 2
-    desenho.rounded_rectangle((MARGEM_X, y0, LARGURA - MARGEM_X, y0 + altura), 48, fill=BRANCO)
-    y = y0 + 60
-    for linha in linhas:
-        desenho.text(((LARGURA - letra.getlength(linha)) / 2, y), linha, font=letra, fill=TEXTO)
-        y += 104
-    y += 40
-    for linha in sub:
-        desenho.text(((LARGURA - pequena.getlength(linha)) / 2, y), linha, font=pequena,
-                     fill=(90, 90, 90))
-        y += 60
-    return imagem
+def pulo(x: float) -> float:  # passa um pouco do ponto e volta ("efeito mola")
+    x = limitar(x)
+    c = 1.9
+    return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2
 
 
-def tela_pergunta(p: dict, numero: int, total: int, estado: str, restante: float = 0) -> Image.Image:
-    """estado: 'pergunta', 'tempo' (com contagem) ou 'resposta' (certa em verde)."""
-    imagem = FUNDO.copy()
-    camada = Image.new("RGBA", imagem.size, (0, 0, 0, 0))
-    desenho = ImageDraw.Draw(camada)
+def colar(tela: Image.Image, figura: Image.Image, cx: float, cy: float, escala: float = 1,
+          opacidade: float = 1) -> None:
+    """Cola `figura` centralizada em (cx, cy), com escala e transparência, cortando o que sair da tela."""
+    if escala <= 0.01 or opacidade <= 0.01:
+        return
+    if abs(escala - 1) > 0.005:
+        figura = figura.resize((max(1, int(figura.width * escala)),
+                                max(1, int(figura.height * escala))), Image.BILINEAR)
+    if opacidade < 0.995:
+        figura = figura.copy()
+        figura.putalpha(figura.getchannel("A").point(lambda v: int(v * opacidade)))
+    x, y = int(cx - figura.width / 2), int(cy - figura.height / 2)
+    corte = (max(0, -x), max(0, -y), min(figura.width, LARGURA - x), min(figura.height, ALTURA - y))
+    if corte[0] >= corte[2] or corte[1] >= corte[3]:
+        return
+    tela.alpha_composite(figura.crop(corte), dest=(x + corte[0], y + corte[1]))
 
-    # Etiqueta "PERGUNTA 1/5 • BIOLOGIA"
-    etiqueta = f"PERGUNTA {numero}/{total}  •  {p['materia'].upper()}"
-    letra = fonte(38)
-    largura = letra.getlength(etiqueta) + 60
-    desenho.rounded_rectangle((MARGEM_X, 200, MARGEM_X + largura, 270), 35, fill=AMARELO)
-    desenho.text((MARGEM_X + 30, 212), etiqueta, font=letra, fill=TEXTO)
 
-    # Contagem regressiva: número no círculo e barra que diminui
-    if estado == "tempo":
-        cx, cy, r = LARGURA - MARGEM_X - 50, 235, 50
-        desenho.ellipse((cx - r, cy - r, cx + r, cy + r), fill=BRANCO)
-        numero_txt, letra_n = str(max(1, math.ceil(restante))), fonte(56)
-        desenho.text((cx - letra_n.getlength(numero_txt) / 2, cy - 40), numero_txt, font=letra_n,
-                     fill=TEXTO)
-        desenho.rounded_rectangle((MARGEM_X, 300, LARGURA - MARGEM_X, 316), 8,
-                                  fill=(255, 255, 255, 60))
-        fim = MARGEM_X + (LARGURA - 2 * MARGEM_X) * restante / TEMPO_RESPOSTA
-        if fim > MARGEM_X + 16:
-            desenho.rounded_rectangle((MARGEM_X, 300, fim, 316), 8, fill=AMARELO)
+def texto_figura(texto: str, tamanho: int, cor=BRANCO, contorno: int = 0) -> Image.Image:
+    # Altura fixa (pela fonte, não pela palavra) para todas as palavras ficarem na mesma linha
+    letra = fonte(tamanho)
+    subida, descida = letra.getmetrics()
+    folga = contorno + 4
+    img = Image.new("RGBA", (int(letra.getlength(texto)) + 2 * folga, subida + descida + 2 * folga),
+                    (0, 0, 0, 0))
+    ImageDraw.Draw(img).text((folga, folga + subida), texto, font=letra, fill=cor, anchor="ls",
+                             stroke_width=contorno, stroke_fill=(0, 0, 0))
+    return img
 
-    # Pergunta no cartão branco
+
+def pilula(texto: str, tamanho: int, fundo_cor, cor_texto=TEXTO, folga: int = 30) -> Image.Image:
+    letra = fonte(tamanho)
+    largura = int(letra.getlength(texto)) + 2 * folga
+    altura = int(tamanho * 1.7)
+    img = Image.new("RGBA", (largura, altura), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((0, 0, largura - 1, altura - 1), altura // 2, fill=fundo_cor)
+    d.text((largura / 2, altura / 2), texto, font=letra, fill=cor_texto, anchor="mm")
+    return img
+
+
+# ---------- peças do vídeo ----------
+
+def logo(tamanho: int) -> Image.Image:
+    return Image.open(LOGO).convert("RGBA").resize((tamanho, tamanho), Image.LANCZOS)
+
+
+def barra_topo() -> Image.Image:
+    """Logo pequena + nome do app, sempre no topo."""
+    marca = logo(92)
+    nome = texto_figura("App Estudos", 46)
+    img = Image.new("RGBA", (92 + 20 + nome.width, 92), (0, 0, 0, 0))
+    img.alpha_composite(marca, (0, 0))
+    img.alpha_composite(nome, (112, (92 - nome.height) // 2))
+    return img
+
+
+def cartao_pergunta(texto: str) -> Image.Image:
     letra = fonte(54)
-    linhas = quebrar(p.get("texto_tela", p["pergunta"]), letra, LARGURA - 2 * MARGEM_X - 100)
+    largura = LARGURA - 2 * MX
+    linhas = quebrar(texto, letra, largura - 100)
     altura = 90 + len(linhas) * 72
-    y0 = 350
-    desenho.rounded_rectangle((MARGEM_X, y0, LARGURA - MARGEM_X, y0 + altura), 40, fill=BRANCO)
+    img = Image.new("RGBA", (largura, altura + 12), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((0, 12, largura - 1, altura + 11), 40, fill=(200, 210, 230))  # "sombra"
+    d.rounded_rectangle((0, 0, largura - 1, altura - 1), 40, fill=BRANCO)
     for n, linha in enumerate(linhas):
-        desenho.text((MARGEM_X + 50, y0 + 45 + n * 72), linha, font=letra, fill=TEXTO)
+        d.text((50, 45 + n * 72), linha, font=letra, fill=TEXTO)
+    return img
 
-    # Alternativas
-    letra, letra_l = fonte(44), fonte(42)
-    y = y0 + altura + 40
-    espaco = (1420 - y - 4 * 18) / 5  # altura de cada caixa para caber até y≈1420
-    caixa_h = min(120, espaco)
-    for n, alternativa in enumerate(p["alternativas"]):
-        certa = n == p["certa"]
-        if estado == "resposta" and certa:
-            fundo_caixa, cor_texto, cor_letra = VERDE + (255,), BRANCO, VERDE
-        elif estado == "resposta":
-            fundo_caixa, cor_texto, cor_letra = (255, 255, 255, 18), (255, 255, 255, 110), AZUL
+
+def caixa_alternativa(letra_alt: str, texto: str, altura: int, estado: str) -> Image.Image:
+    """estado: 'normal', 'certa' ou 'apagada'."""
+    largura = LIMITE_X - MX
+    fundo_cor = {"normal": (255, 255, 255, 235), "certa": VERDE + (255,),
+                 "apagada": (255, 255, 255, 70)}[estado]
+    base_cor = {"normal": (180, 195, 220, 235), "certa": VERDE_ESCURO + (255,),
+                "apagada": (255, 255, 255, 30)}[estado]
+    cor_texto = {"normal": TEXTO, "certa": BRANCO, "apagada": (255, 255, 255, 170)}[estado]
+    img = Image.new("RGBA", (largura, altura + 8), (0, 0, 0, 0))
+    d = ImageDraw.Draw(img)
+    d.rounded_rectangle((0, 8, largura - 1, altura + 7), 30, fill=base_cor)
+    d.rounded_rectangle((0, 0, largura - 1, altura - 1), 30, fill=fundo_cor)
+    r = altura * 0.32
+    cx, cy = 30 + r, altura / 2
+    circulo = {"normal": AZUL, "certa": BRANCO, "apagada": (255, 255, 255, 90)}[estado]
+    d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=circulo)
+    d.text((cx, cy), letra_alt, font=fonte(40),
+           fill=VERDE if estado == "certa" else BRANCO, anchor="mm")
+    letra = fonte(44)
+    while letra.getlength(texto) > largura - cx - r - 110 and len(texto) > 3:
+        texto = texto[:-2] + "…"
+    d.text((cx + r + 25, cy), texto, font=letra, fill=cor_texto, anchor="lm")
+    if estado == "certa":
+        x1 = largura - 80
+        d.line([(x1, cy), (x1 + 18, cy + 18), (x1 + 50, cy - 20)], fill=BRANCO, width=11,
+               joint="curve")
+    return img
+
+
+@dataclass
+class Pergunta:
+    dados: dict
+    numero: int
+    cartao: Image.Image = None
+    caixas: dict = field(default_factory=dict)
+    etiqueta: Image.Image = None
+    y_alternativas: list = field(default_factory=list)
+
+    def preparar(self, total: int) -> None:
+        p = self.dados
+        self.cartao = cartao_pergunta(p.get("texto_tela", p["pergunta"]))
+        self.etiqueta = pilula(f"PERGUNTA {self.numero}/{total}  •  {p['materia'].upper()}", 36,
+                               AMARELO)
+        topo_cartao = 400
+        y = topo_cartao + self.cartao.height + 36
+        altura = int(min(112, (1400 - y - 4 * 18) / 5))
+        for n, texto in enumerate(p["alternativas"]):
+            for estado in ("normal", "certa", "apagada"):
+                self.caixas[(n, estado)] = caixa_alternativa(LETRAS[n], texto, altura, estado)
+            self.y_alternativas.append(y + altura / 2)
+            y += altura + 18
+
+
+# ---------- linha do tempo ----------
+
+@dataclass
+class Cena:
+    tipo: str  # abertura, pergunta, contagem, resposta, saida, encerramento
+    inicio: float
+    duracao: float
+    pergunta: Pergunta = None
+
+
+class Confete:
+    def __init__(self, cx: float, cy: float, semente: int):
+        sorteio = random.Random(semente)
+        cores = [AMARELO, VERDE, AZUL, VERMELHO, BRANCO, (206, 130, 255)]
+        self.pecas = [(cx, cy, sorteio.uniform(-900, 900), sorteio.uniform(-1500, -500),
+                       sorteio.choice(cores), sorteio.uniform(8, 16), sorteio.uniform(0, 6.28))
+                      for _ in range(70)]
+
+    def desenhar(self, d: ImageDraw.ImageDraw, t: float) -> None:
+        if not 0 <= t <= 1.6:
+            return
+        for x0, y0, vx, vy, cor, tam, giro in self.pecas:
+            x, y = x0 + vx * t, y0 + vy * t + 1800 * t * t
+            a = tam * (0.6 + 0.4 * math.sin(giro + t * 12))
+            d.rectangle((x - tam / 2, y - a / 2, x + tam / 2, y + a / 2), fill=cor)
+
+
+def desenhar_quadro(t: float, cenas: list[Cena], total: int, quiz: dict, pecas: dict) -> Image.Image:
+    tela = Image.new("RGBA", (LARGURA, ALTURA), (0, 0, 0, 0))
+    d = ImageDraw.Draw(tela)
+    cena = next((c for c in cenas if c.inicio <= t < c.inicio + c.duracao), cenas[-1])
+    lt = t - cena.inicio  # tempo dentro da cena
+
+    if cena.tipo in ("abertura", "encerramento"):
+        abertura = cena.tipo == "abertura"
+        colar(tela, pecas["logo_grande"], LARGURA / 2, 560, escala=pulo(lt / 0.45))
+        linhas = pecas["titulo"] if abertura else pecas["final"]
+        y = 820
+        k = 0
+        for linha in linhas:
+            for figura, dx in linha:
+                k += 1
+                progresso = (lt - 0.3 - k * 0.12) / 0.3
+                colar(tela, figura, LARGURA / 2 + dx, y, escala=pulo(progresso),
+                      opacidade=limitar(progresso * 3))
+            y += 135
+        if abertura:
+            colar(tela, pecas["subtitulo"], LARGURA / 2, y + 40, opacidade=suave((lt - 1.0) / 0.4))
         else:
-            fundo_caixa, cor_texto, cor_letra = (255, 255, 255, 40), BRANCO, AZUL
-        desenho.rounded_rectangle((MARGEM_X, y, LIMITE_ALTERNATIVAS, y + caixa_h), 28,
-                                  fill=fundo_caixa)
-        r = caixa_h * 0.32
-        cx, cy = MARGEM_X + 30 + r, y + caixa_h / 2
-        desenho.ellipse((cx - r, cy - r, cx + r, cy + r), fill=BRANCO)
-        desenho.text((cx - letra_l.getlength(LETRAS[n]) / 2, cy - 30), LETRAS[n], font=letra_l,
-                     fill=cor_letra)
-        texto = alternativa
-        while letra.getlength(texto) > LIMITE_ALTERNATIVAS - cx - r - 60 and len(texto) > 3:
-            texto = texto[:-2] + "…"
-        desenho.text((cx + r + 25, cy - 32), texto, font=letra, fill=cor_texto)
-        if estado == "resposta" and certa:  # sinal de "certo"
-            x1 = LIMITE_ALTERNATIVAS - 70
-            desenho.line([(x1, cy), (x1 + 16, cy + 16), (x1 + 44, cy - 18)], fill=BRANCO, width=10)
-        y += caixa_h + 18
+            batida = 1 + 0.05 * math.sin(lt * 7)
+            colar(tela, pecas["baixe"], LARGURA / 2, y + 60,
+                  escala=pulo((lt - 0.9) / 0.4) * batida)
+            colar(tela, pecas["link"], LARGURA / 2, y + 190, opacidade=suave((lt - 1.3) / 0.4))
+        return tela
 
-    return Image.alpha_composite(imagem, camada)
+    # Barra do topo (logo do app) e bolinhas de progresso
+    colar(tela, pecas["barra_topo"], MX + pecas["barra_topo"].width / 2, 200)
+    p = cena.pergunta
+    for i in range(total):
+        cx, cy, r = LARGURA - MX - 20 - (total - 1 - i) * 44, 200, 13
+        feita = i < p.numero - 1 or (i == p.numero - 1 and cena.tipo in ("resposta", "saida"))
+        if feita:
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=AMARELO)
+        elif i == p.numero - 1:
+            rr = r + 3 * math.sin(t * 8)
+            d.ellipse((cx - rr, cy - rr, cx + rr, cy + rr), outline=AMARELO, width=5)
+        else:
+            d.ellipse((cx - r, cy - r, cx + r, cy + r), outline=(255, 255, 255, 150), width=4)
+
+    # Movimento de entrada, tremida no fim da contagem e saída
+    deslocamento, opacidade, tremida = 0.0, 1.0, 0.0
+    if cena.tipo == "pergunta":
+        entrada = lt
+    else:
+        entrada = 10
+    if cena.tipo == "contagem" and lt > TEMPO_RESPOSTA - 1.2:
+        tremida = 9 * math.sin(lt * 70)
+    if cena.tipo == "saida":
+        deslocamento = -LARGURA * suave(lt / cena.duracao)
+        opacidade = 1 - suave(lt / cena.duracao)
+
+    colar(tela, p.etiqueta, MX + p.etiqueta.width / 2 - 300 * (1 - suave(entrada / 0.3)) + deslocamento,
+          315, opacidade=opacidade * limitar(entrada / 0.2))
+    escala_cartao = 0.85 + 0.15 * pulo((entrada - 0.05) / 0.4)
+    colar(tela, p.cartao, LARGURA / 2 + deslocamento + tremida, 400 + p.cartao.height / 2,
+          escala=escala_cartao, opacidade=opacidade * limitar((entrada - 0.05) / 0.15))
+
+    for n, cy in enumerate(p.y_alternativas):
+        chegada = suave((entrada - 0.3 - 0.08 * n) / 0.3)
+        cx = (MX + LIMITE_X) / 2 + (1 - chegada) * 700 + deslocamento
+        estado, escala = "normal", 1.0
+        if cena.tipo in ("resposta", "saida"):
+            if n == p.dados["certa"]:
+                estado = "certa"
+                if cena.tipo == "resposta":
+                    escala = 1 + 0.12 * math.sin(math.pi * limitar(lt / 0.35))
+            else:
+                estado = "apagada"
+                if cena.tipo == "resposta" and lt < 0.3:
+                    cx += 10 * math.sin(lt * 60)
+        colar(tela, p.caixas[(n, estado)], cx + (tremida if estado == "normal" else 0), cy,
+              escala=escala, opacidade=opacidade * limitar(chegada * 2))
+
+    if cena.tipo == "contagem":
+        restante = TEMPO_RESPOSTA - lt
+        cx, cy, r = LARGURA - MX - 62, 315, 62
+        cor = VERMELHO if restante <= 2 else AMARELO
+        d.ellipse((cx - r, cy - r, cx + r, cy + r), fill=(0, 0, 0, 140))
+        d.arc((cx - r, cy - r, cx + r, cy + r), -90, -90 + 360 * restante / TEMPO_RESPOSTA,
+              fill=cor, width=12)
+        numero = str(max(1, math.ceil(restante)))
+        batida = 1 + 0.45 * (1 - suave((lt % 1) / 0.35))
+        colar(tela, pecas["numeros"][numero], cx, cy, escala=batida)
+    if cena.tipo == "resposta":
+        pecas["confete"][p.numero].desenhar(d, lt)
+    return tela
 
 
-def tom(frequencia: float, duracao: float, volume: float = 0.3) -> array.array:
-    """Um bipe curto (tique do relógio e som da resposta)."""
+# ---------- som ----------
+
+def tom(frequencia: float, duracao: float, volume: float = 0.3, queda: float = 0) -> array.array:
     n = int(duracao * TAXA)
     return array.array("h", (
         int(32767 * volume * math.sin(2 * math.pi * frequencia * i / TAXA)
-            * min(1, i / 200, (n - i) / 600)) for i in range(n)))
+            * min(1, i / 150, (n - i) / 400) * (math.exp(-queda * i / TAXA) if queda else 1))
+        for i in range(n)))
 
 
-class Linha:
-    """Junta áudio e imagens na mesma linha do tempo."""
+def chiado(duracao: float = 0.35, volume: float = 0.18) -> array.array:
+    """"Whoosh" de transição: ruído que sobe e desce."""
+    sorteio = random.Random(1)
+    n = int(duracao * TAXA)
+    anterior, saida = 0.0, array.array("h")
+    for i in range(n):
+        anterior = 0.85 * anterior + 0.15 * sorteio.uniform(-1, 1)
+        envelope = math.sin(math.pi * i / n) ** 2
+        saida.append(int(32767 * volume * 3 * anterior * envelope))
+    return saida
 
-    def __init__(self, temp: Path):
-        self.temp = temp
-        self.audio = array.array("h")
-        self.cenas: list[tuple[Path, float]] = []
-        self.efeitos: list[tuple[float, array.array]] = []
-        self.contador = 0
 
-    @property
-    def agora(self) -> float:
-        return len(self.audio) / TAXA
+async def narrar(texto: str, nome_voz: str, temp: Path, n: int) -> array.array:
+    mp3 = temp / f"fala{n}.mp3"
+    await voz.narrar(texto, nome_voz, mp3)
+    cru = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(mp3), "-filter:a",
+                          f"atempo={VELOCIDADE_FALA}", "-f", "s16le", "-ac", "1", "-ar", str(TAXA),
+                          "-"], capture_output=True, check=True).stdout
+    return array.array("h", cru)
 
-    def imagem(self, figura: Image.Image) -> Path:
-        self.contador += 1
-        caminho = self.temp / f"q{self.contador:04d}.png"
-        figura.convert("RGB").save(caminho)
-        return caminho
 
-    async def falar(self, texto: str, nome_voz: str, figura: Image.Image, folga: float) -> None:
-        mp3 = self.temp / f"fala{self.contador}.mp3"
-        await voz.narrar(texto, nome_voz, mp3)
-        cru = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", str(mp3), "-f", "s16le",
-                              "-ac", "1", "-ar", str(TAXA), "-"], capture_output=True,
-                             check=True).stdout
-        inicio = self.agora
-        self.audio.frombytes(cru)
-        self.silencio(folga)
-        self.cenas.append((self.imagem(figura), self.agora - inicio))
+def misturar(base: array.array, som: array.array, inicio: float) -> None:
+    i0 = int(inicio * TAXA)
+    falta = i0 + len(som) - len(base)
+    if falta > 0:
+        base.extend([0] * falta)
+    for i, amostra in enumerate(som):
+        base[i0 + i] = max(-32768, min(32767, base[i0 + i] + amostra))
 
-    def silencio(self, segundos: float) -> None:
-        self.audio.extend([0] * int(segundos * TAXA))
 
-    def contagem(self, p: dict, numero: int, total: int) -> None:
-        passo = 0.1
-        for k in range(int(TEMPO_RESPOSTA / passo)):
-            restante = TEMPO_RESPOSTA - k * passo
-            if k % 10 == 0:
-                self.efeitos.append((self.agora + k * passo, tom(1200, 0.05)))
-            self.cenas.append((self.imagem(tela_pergunta(p, numero, total, "tempo", restante)), passo))
-        self.silencio(TEMPO_RESPOSTA)
+# ---------- montagem ----------
 
-    def misturar(self) -> array.array:
-        audio = array.array("h", self.audio)
-        for inicio, som in self.efeitos:
-            i0 = int(inicio * TAXA)
-            for i, amostra in enumerate(som):
-                if i0 + i < len(audio):
-                    audio[i0 + i] = max(-32768, min(32767, audio[i0 + i] + amostra))
-        return audio
+def linhas_de_palavras(texto: str, tamanho: int, cor_destaque: str = "") -> list:
+    """Quebra um título em linhas de figuras (uma por palavra) para animar palavra por palavra."""
+    letra = fonte(tamanho)
+    resultado = []
+    for linha in quebrar(texto, letra, LARGURA - 2 * MX - 40):
+        figuras = [texto_figura(p, tamanho, AMARELO if p == cor_destaque else BRANCO, contorno=5)
+                   for p in linha.split()]
+        espaco = tamanho * 0.28
+        largura = sum(f.width for f in figuras) + espaco * (len(figuras) - 1)
+        x, itens = -largura / 2, []
+        for f in figuras:
+            itens.append((f, x + f.width / 2))
+            x += f.width + espaco
+        resultado.append(itens)
+    return resultado
 
 
 async def fazer(arquivo: Path) -> None:
@@ -229,43 +395,100 @@ async def fazer(arquivo: Path) -> None:
     saida = PASTA_SAIDA / arquivo.stem
     saida.mkdir(parents=True, exist_ok=True)
     nome_voz, total = quiz["voz"], len(quiz["perguntas"])
-    with tempfile.TemporaryDirectory() as temporaria:
-        linha = Linha(Path(temporaria))
-        await linha.falar(quiz["chamada"], nome_voz,
-                          tela_cartao(quiz["titulo"], "Comenta quantas você acertou!"), 0.5)
-        for numero, p in enumerate(quiz["perguntas"], start=1):
-            await linha.falar(f"Pergunta {numero}. {p['pergunta']}", nome_voz,
-                              tela_pergunta(p, numero, total, "pergunta"), 0.2)
-            linha.contagem(p, numero, total)
-            certa = p["alternativas"][p["certa"]]
-            linha.efeitos.append((linha.agora, tom(880, 0.12, 0.25)))
-            linha.efeitos.append((linha.agora + 0.12, tom(1320, 0.2, 0.25)))
-            await linha.falar(f"Resposta: letra {LETRAS[p['certa']]}. {certa}. {p['explicacao']}",
-                              nome_voz, tela_pergunta(p, numero, total, "resposta"), 0.7)
-        await linha.falar(quiz["encerramento"], nome_voz,
-                          tela_cartao("Quantas você acertou?", "Comenta aí e segue para o próximo teste"),
-                          0.8)
+    perguntas = [Pergunta(p, n) for n, p in enumerate(quiz["perguntas"], start=1)]
+    for p in perguntas:
+        p.preparar(total)
 
+    with tempfile.TemporaryDirectory() as temporaria:
         temp = Path(temporaria)
-        (temp / "audio.raw").write_bytes(linha.misturar().tobytes())
-        lista = ["ffconcat version 1.0"]
-        for caminho, duracao in linha.cenas:
-            lista += [f"file '{caminho}'", f"duration {duracao:.3f}"]
-        lista.append(f"file '{linha.cenas[-1][0]}'")
-        (temp / "lista.txt").write_text("\n".join(lista) + "\n", encoding="utf-8")
-        subprocess.run(
-            ["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
-             "-i", str(temp / "lista.txt"), "-f", "s16le", "-ac", "1", "-ar", str(TAXA),
-             "-i", str(temp / "audio.raw"), "-vf", f"fps={QUADROS},format=yuv420p",
-             "-c:v", "libx264", "-preset", "medium", "-crf", "22", "-maxrate", "1100k",
-             "-bufsize", "2200k", "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
-             "-t", f"{linha.agora:.2f}", "-movflags", "+faststart", str(saida / "video.mp4")],
-            check=True)
-    duracao = linha.agora
+        # 1) Narração e linha do tempo
+        audio, cenas, efeitos = array.array("h"), [], []
+
+        def agora() -> float:
+            return len(audio) / TAXA
+
+        def silencio(segundos: float) -> None:
+            audio.extend([0] * int(segundos * TAXA))
+
+        fala = await narrar(quiz["chamada"], nome_voz, temp, 0)
+        efeitos.append((0.05, tom(660, 0.12, 0.2)))
+        audio.extend(fala)
+        silencio(0.4)
+        cenas.append(Cena("abertura", 0, agora()))
+        for p in perguntas:
+            d = p.dados
+            inicio = agora()
+            efeitos.append((inicio, chiado()))
+            silencio(0.25)
+            audio.extend(await narrar(f"Pergunta {p.numero}. {d['pergunta']}", nome_voz, temp, p.numero * 10))
+            silencio(0.15)
+            cenas.append(Cena("pergunta", inicio, agora() - inicio, p))
+            inicio = agora()
+            for s in range(TEMPO_RESPOSTA):
+                efeitos.append((inicio + s, tom(1400 if s >= TEMPO_RESPOSTA - 2 else 1100, 0.05, 0.3)))
+            silencio(TEMPO_RESPOSTA)
+            cenas.append(Cena("contagem", inicio, TEMPO_RESPOSTA, p))
+            inicio = agora()
+            efeitos.append((inicio, tom(880, 0.14, 0.25)))
+            efeitos.append((inicio + 0.12, tom(1320, 0.35, 0.25, queda=6)))
+            certa = d["alternativas"][d["certa"]]
+            silencio(0.2)
+            audio.extend(await narrar(f"Letra {LETRAS[d['certa']]}! {certa}. {d['explicacao']}",
+                                      nome_voz, temp, p.numero * 10 + 1))
+            silencio(0.3)
+            cenas.append(Cena("resposta", inicio, agora() - inicio, p))
+            inicio = agora()
+            silencio(0.3)
+            cenas.append(Cena("saida", inicio, 0.3, p))
+        inicio = agora()
+        efeitos.append((inicio, chiado()))
+        audio.extend(await narrar(quiz["encerramento"], nome_voz, temp, 999))
+        silencio(1.2)
+        cenas.append(Cena("encerramento", inicio, agora() - inicio))
+        for momento, som in efeitos:
+            misturar(audio, som, momento)
+        duracao = agora()
+        (temp / "audio.raw").write_bytes(audio.tobytes())
+
+        # 2) Peças fixas (desenhadas uma vez só)
+        pecas = {
+            "logo_grande": logo(300),
+            "barra_topo": barra_topo(),
+            "titulo": linhas_de_palavras(quiz["titulo_tela"], 96, quiz.get("destaque", "")),
+            "subtitulo": pilula(quiz["subtitulo_tela"], 40, (255, 255, 255, 230)),
+            "final": linhas_de_palavras("Quantas você acertou?", 96, "acertou?"),
+            "baixe": pilula("BAIXE O APP ESTUDOS", 52, VERDE, BRANCO, 50),
+            "link": pilula("+4.900 questões grátis  •  link no perfil", 38, (255, 255, 255, 230)),
+            "numeros": {str(i): texto_figura(str(i), 64) for i in range(1, TEMPO_RESPOSTA + 1)},
+            "confete": {p.numero: Confete((MX + LIMITE_X) / 2, p.y_alternativas[p.dados["certa"]],
+                                          p.numero) for p in perguntas},
+        }
+
+        # 3) Vídeo: fundo de estudo desfocado + quadros animados + áudio
+        fundos = sorted(PASTA_FUNDOS.glob("*.mp4"))
+        fundo = fundos[sum(map(ord, arquivo.stem)) % len(fundos)]
+        filtro = (f"[0:v]scale={LARGURA}:{ALTURA},gblur=sigma=28,eq=brightness=-0.12:saturation=0.7,"
+                  f"drawbox=color=0x0C1638@0.55:t=fill,fps={QUADROS}[fundo];"
+                  f"[fundo][1:v]overlay=format=auto,format=yuv420p[video]")
+        ffmpeg = subprocess.Popen(
+            ["ffmpeg", "-y", "-loglevel", "error", "-stream_loop", "-1", "-i", str(fundo),
+             "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{LARGURA}x{ALTURA}", "-r", str(QUADROS),
+             "-i", "-", "-f", "s16le", "-ac", "1", "-ar", str(TAXA), "-i", str(temp / "audio.raw"),
+             "-filter_complex", filtro, "-map", "[video]", "-map", "2:a",
+             "-c:v", "libx264", "-preset", "medium", "-crf", "23", "-maxrate", "2000k",
+             "-bufsize", "4000k", "-c:a", "aac", "-b:a", "128k", "-ar", "44100",
+             "-t", f"{duracao:.2f}", "-movflags", "+faststart", str(saida / "video.mp4")],
+            stdin=subprocess.PIPE)
+        for q in range(int(duracao * QUADROS) + 1):
+            ffmpeg.stdin.write(desenhar_quadro(q / QUADROS, cenas, total, quiz, pecas).tobytes())
+        ffmpeg.stdin.close()
+        if ffmpeg.wait() != 0:
+            raise RuntimeError("o ffmpeg falhou ao montar o vídeo")
+
     (saida / "postagem.txt").write_text(f"""Arquivo: video.mp4 ({int(duracao // 60)}min{int(duracao % 60):02d}s)
 
 Texto para colar no TikTok:
-{quiz['titulo']} 🧠 Comenta quantas você acertou! 👇
+{quiz['titulo']} 🧠 Comenta quantas você acertou! 👇 Treine com +4.900 questões no app Estudos.
 #enem #enem2026 #quiz #vestibular #estudos #perguntaserespostas
 
 ANTES DE PUBLICAR:

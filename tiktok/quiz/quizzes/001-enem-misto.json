@@ -1,5 +1,8 @@
 {
   "titulo": "Você passaria no ENEM? 5 perguntas",
+  "titulo_tela": "Você passaria no ENEM?",
+  "destaque": "ENEM?",
+  "subtitulo_tela": "5 perguntas  •  comenta quantas acertou",
   "chamada": "Você passaria no ENEM? Responda estas cinco perguntas e comenta quantas você acertou.",
   "voz": "thalita",
   "origem": "Perguntas do app Estudos (estudos/conteudos), escritas para o app no estilo do ENEM.",
@@ -7,7 +10,13 @@
     {
       "materia": "Biologia",
       "pergunta": "Qual base nitrogenada está presente no RNA, mas não no DNA?",
-      "alternativas": ["Timina", "Guanina", "Uracila", "Citosina", "Adenina"],
+      "alternativas": [
+        "Timina",
+        "Guanina",
+        "Uracila",
+        "Citosina",
+        "Adenina"
+      ],
       "certa": 2,
       "explicacao": "O RNA troca a timina pela uracila.",
       "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 1"
@@ -15,7 +24,13 @@
     {
       "materia": "História",
       "pergunta": "Os dois primeiros presidentes do Brasil, Deodoro e Floriano, eram militares. Como esse período ficou conhecido?",
-      "alternativas": ["Era Vargas", "República da Espada", "Estado Novo", "República das Oligarquias", "República Populista"],
+      "alternativas": [
+        "Era Vargas",
+        "República da Espada",
+        "Estado Novo",
+        "República das Oligarquias",
+        "República Populista"
+      ],
       "certa": 1,
       "explicacao": "A República da Espada foi de 1889 a 1894.",
       "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 1"
@@ -24,7 +39,13 @@
       "materia": "Física",
       "pergunta": "Quanto é 150 graus Celsius na escala Kelvin?",
       "texto_tela": "Quanto é 150 °C na escala Kelvin?",
-      "alternativas": ["123 K", "302 K", "387 K", "423 K", "846 K"],
+      "alternativas": [
+        "123 K",
+        "302 K",
+        "387 K",
+        "423 K",
+        "846 K"
+      ],
       "certa": 3,
       "explicacao": "É só somar 273. 150 mais 273 dá 423 kelvin.",
       "fonte": "estudos/conteudos/fisica/05-termologia.md, Fácil 1"
@@ -32,7 +53,13 @@
     {
       "materia": "Geografia",
       "pergunta": "Qual bioma brasileiro foi o mais desmatado, proporcionalmente?",
-      "alternativas": ["Amazônia", "Pampa", "Caatinga", "Pantanal", "Mata Atlântica"],
+      "alternativas": [
+        "Amazônia",
+        "Pampa",
+        "Caatinga",
+        "Pantanal",
+        "Mata Atlântica"
+      ],
       "certa": 4,
       "explicacao": "A Mata Atlântica fica no litoral, onde a ocupação começou ainda na colonização.",
       "fonte": "estudos/conteudos/geografia/03-biomas-e-questoes-ambientais.md, Fácil 1"
@@ -40,11 +67,17 @@
     {
       "materia": "História",
       "pergunta": "Quem liderou a Guerra de Canudos, no sertão da Bahia?",
-      "alternativas": ["Antônio Conselheiro", "Lampião", "Padre Cícero", "Getúlio Vargas", "João Cândido"],
+      "alternativas": [
+        "Antônio Conselheiro",
+        "Lampião",
+        "Padre Cícero",
+        "Getúlio Vargas",
+        "João Cândido"
+      ],
       "certa": 0,
       "explicacao": "Antônio Conselheiro liderava o arraial de Belo Monte, destruído pelo Exército.",
       "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 4"
     }
   ],
-  "encerramento": "Quantas você acertou? Comenta aí embaixo e segue o perfil para o próximo teste."
+  "encerramento": "Quantas você acertou? Comenta aí! E pra treinar com mais de quatro mil questões, baixa o app Estudos. O link tá no perfil."
 }
