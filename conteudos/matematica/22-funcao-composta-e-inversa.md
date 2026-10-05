@@ -422,7 +422,7 @@ Sendo f(x) = 2x + 1, qual é o valor de f⁻¹(f⁻¹(11))?
 <!-- modelo: m2 -->
 Qual é a inversa de f(x) = (x + 1)/(x − 4), para x ≠ 4?
 
-- A) f⁻¹(x) = (x + 4)/(x − 1)
+- A) f⁻¹(x) = (x + 4)/(x + 1)
 - B) f⁻¹(x) = (4x − 1)/(x + 1)
 - C) f⁻¹(x) = (x + 4)/(x − 1)
 - D) f⁻¹(x) = (x − 4)/(x + 1)

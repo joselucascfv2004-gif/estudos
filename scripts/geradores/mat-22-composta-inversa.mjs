@@ -215,7 +215,7 @@ const medio = [
     return {
       e: `Qual é a inversa de f(x) = (x + ${a})/(x − ${b}), para x ≠ ${b}?`,
       r: `f⁻¹(x) = (${b}x + ${a})/(x − 1)`,
-      d: [`f⁻¹(x) = (x − ${b})/(x + ${a})`, `f⁻¹(x) = (${a}x + ${b})/(x − 1)`, `f⁻¹(x) = (${b}x − ${a})/(x + 1)`, `f⁻¹(x) = (x + ${b})/(x − ${a})`],
+      d: [`f⁻¹(x) = (x − ${b})/(x + ${a})`, `f⁻¹(x) = (${a}x + ${b})/(x − 1)`, `f⁻¹(x) = (${b}x − ${a})/(x + 1)`, `f⁻¹(x) = (x + ${b})/(x + ${a})`],
       x: expl('trocar x e y e isolar', `x = (y + ${a})/(y − ${b}) ⇒ x(y − ${b}) = y + ${a} ⇒ xy − y = ${b}x + ${a}.`, `y(x − 1) = ${b}x + ${a} ⇒ y = (${b}x + ${a})/(x − 1).`),
     };
   },
