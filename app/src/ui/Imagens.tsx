@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { Image, Modal, Pressable, ScrollView, StyleProp, Text, TextStyle, View, useWindowDimensions } from 'react-native';
+import { ActivityIndicator, Image, Modal, Pressable, ScrollView, StyleProp, Text, TextStyle, View, useWindowDimensions } from 'react-native';
 
 import { IMAGENS } from '../data/imagens';
 import { Icone } from './Icone';
+import { useImagem } from './pacotes';
 import { criarEstilos, useCores } from './tema';
 
 /** Linha de imagem no texto da questão: ![descrição](arquivo.webp) */
@@ -24,8 +25,9 @@ export function Figura({ nome, descricao, maxAltura, ampliar = true }: { nome: s
   const c = useCores();
   const { width, height } = useWindowDimensions();
   const [aberta, setAberta] = useState(false);
+  const { uri, erro } = useImagem(nome);
   const info = IMAGENS[nome];
-  if (!info) return <Text style={s.falta}>[imagem indisponível]</Text>;
+  if (!info || erro) return <Text style={s.falta}>[imagem indisponível]</Text>;
   const proporcao = info.w / info.h;
   // figuras pequenas não são esticadas além do tamanho natural (em pontos, ~2 px por ponto)
   const largMax = Math.min(width - 40, info.w / 1.6);
@@ -33,16 +35,25 @@ export function Figura({ nome, descricao, maxAltura, ampliar = true }: { nome: s
   const larg = alt * proporcao;
   // ampliada: cabe na largura da tela deitada, com rolagem
   const largZoom = Math.max(width * 1.6, Math.min(info.w, width * 2.5));
+  // enquanto a imagem é lida do pacote, um espaço do mesmo tamanho evita que o texto pule
+  const figura = (w: number, h: number) =>
+    uri ? (
+      <Image source={{ uri }} style={{ width: w, height: h }} resizeMode="contain" />
+    ) : (
+      <View style={{ width: w, height: h, alignItems: 'center', justifyContent: 'center' }}>
+        <ActivityIndicator color={c.textoSuave} />
+      </View>
+    );
   if (!ampliar)
     return (
       <View accessibilityLabel={descricao || 'Figura'} style={[s.moldura, { alignSelf: 'flex-start' }]}>
-        <Image source={info.fonte} style={{ width: larg, height: alt }} resizeMode="contain" />
+        {figura(larg, alt)}
       </View>
     );
   return (
     <>
       <Pressable accessibilityRole="imagebutton" accessibilityLabel={`${descricao || 'Figura'}. Toque para ampliar`} onPress={() => setAberta(true)} style={s.moldura}>
-        <Image source={info.fonte} style={{ width: larg, height: alt }} resizeMode="contain" />
+        {figura(larg, alt)}
         <View style={s.lupa}>
           <Icone nome="magnify-plus-outline" tamanho={16} cor="#555" />
         </View>
@@ -51,7 +62,7 @@ export function Figura({ nome, descricao, maxAltura, ampliar = true }: { nome: s
         <View style={{ flex: 1, backgroundColor: '#FFFFFF' }}>
           <ScrollView horizontal contentContainerStyle={{ alignItems: 'center' }}>
             <ScrollView contentContainerStyle={{ minHeight: height, justifyContent: 'center', padding: 12 }}>
-              <Image source={info.fonte} style={{ width: largZoom, height: largZoom / proporcao }} resizeMode="contain" />
+              {figura(largZoom, largZoom / proporcao)}
             </ScrollView>
           </ScrollView>
           <Pressable accessibilityRole="button" accessibilityLabel="Fechar imagem" onPress={() => setAberta(false)} style={[s.fechar, { backgroundColor: c.azul }]}>

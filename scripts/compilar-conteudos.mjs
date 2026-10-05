@@ -14,6 +14,9 @@ const SAIDA_BANCO = path.join(RAIZ, 'app', 'src', 'data', 'banco.json');
 const SAIDA_INDICE = path.join(PASTA_CONTEUDOS, 'README.md');
 const PASTA_IMAGENS = path.join(RAIZ, 'app', 'assets', 'questoes');
 const SAIDA_IMAGENS = path.join(RAIZ, 'app', 'src', 'data', 'imagens.ts');
+// as imagens vão para o app juntas em pacotes (um por dia de prova), porque cada atualização
+// do EAS Update aceita no máximo 1 000 arquivos; ".db" é uma extensão que o Metro já trata como arquivo
+const PASTA_PACOTES = path.join(RAIZ, 'app', 'assets', 'pacotes');
 const IMAGEM = /!\[([^\]]*)\]\(([^)\s]+)\)/g;
 
 // largura e altura de um arquivo WebP (VP8, VP8L ou VP8X) ou PNG
@@ -283,11 +286,43 @@ function main() {
   fs.mkdirSync(path.dirname(SAIDA_BANCO), { recursive: true });
   fs.writeFileSync(SAIDA_BANCO, JSON.stringify({ versao: 1, disciplinas, questoes }));
   const nomes = [...imagens.keys()].sort();
+  // pacotes: as imagens de cada grupo (enem-2019-d2, ...) coladas uma depois da outra
+  const grupos = new Map();
+  for (const n of nomes) {
+    const g = (n.match(/^(.+?)-q\d{3}-/) || [, 'outras'])[1];
+    if (!grupos.has(g)) grupos.set(g, []);
+    grupos.get(g).push(n);
+  }
+  fs.mkdirSync(PASTA_PACOTES, { recursive: true });
+  const posicao = new Map();
+  const pacotes = [...grupos.keys()];
+  pacotes.forEach((g, p) => {
+    let ini = 0;
+    const partes = grupos.get(g).map((n) => {
+      const b = fs.readFileSync(path.join(PASTA_IMAGENS, n));
+      posicao.set(n, [p, ini, b.length]);
+      ini += b.length;
+      return b;
+    });
+    const arq = path.join(PASTA_PACOTES, `${g}.db`);
+    const novo = Buffer.concat(partes);
+    if (!fs.existsSync(arq) || !fs.readFileSync(arq).equals(novo)) fs.writeFileSync(arq, novo);
+  });
+  for (const f of fs.readdirSync(PASTA_PACOTES)) if (!grupos.has(f.replace(/\.db$/, ''))) fs.unlinkSync(path.join(PASTA_PACOTES, f));
   fs.writeFileSync(SAIDA_IMAGENS, [
     '// Gerado por scripts/compilar-conteudos.mjs — não edite à mão.',
-    '// Imagens das questões (figuras recortadas das provas oficiais), com largura e altura em pixels.',
-    'export const IMAGENS: Record<string, { fonte: number; w: number; h: number }> = {',
-    ...nomes.map((n) => `  '${n}': { fonte: require('../../assets/questoes/${n}'), w: ${imagens.get(n)[0]}, h: ${imagens.get(n)[1]} },`),
+    '// Imagens das questões (figuras recortadas das provas oficiais). Ficam dentro dos pacotes de',
+    '// app/assets/pacotes: p = pacote, ini e tam = posição e tamanho em bytes, w e h = largura e altura em pixels.',
+    'export const PACOTES: number[] = [',
+    ...pacotes.map((g) => `  require('../../assets/pacotes/${g}.db'),`),
+    '];',
+    '',
+    "export const IMAGENS: Record<string, { p: number; ini: number; tam: number; tipo: 'webp' | 'png'; w: number; h: number }> = {",
+    ...nomes.map((n) => {
+      const [p, ini, tam] = posicao.get(n);
+      const [w, h] = imagens.get(n);
+      return `  '${n}': { p: ${p}, ini: ${ini}, tam: ${tam}, tipo: '${n.endsWith('.png') ? 'png' : 'webp'}', w: ${w}, h: ${h} },`;
+    }),
     '};',
     '',
   ].join('\n'));

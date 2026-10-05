@@ -71,8 +71,10 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 - **Questões oficiais do ENEM:** a pasta `conteudos/enem-oficial/` traz questões das provas de 2009 a
   2025 publicadas pelo INEP, com o texto, a ordem das alternativas e o gabarito oficiais. Cada
   uma traz a fonte (dia, caderno e número da questão) e a linha `**Assunto:**`, que a coloca também
-  dentro do tópico certo do conteúdo. Foram incluídas só as questões que podem ser resolvidas sem
-  figuras, gráficos ou mapas (quadros com números foram escritos em texto). As explicações foram
+  dentro do tópico certo do conteúdo. Gráficos, mapas, charges e esquemas foram recortados da própria
+  prova (`scripts/enem/importacao/`). No app, as figuras ficam juntas em pacotes, um por dia de prova
+  (`app/assets/pacotes/*.db`, gerados pelo `npm run conteudo`), porque cada atualização automática
+  aceita no máximo 1 000 arquivos. As explicações foram
   escritas para o app. No PDF de 2021 a fonte vem com a tabela de letras incompleta; o texto foi
   recuperado corrigindo essa tabela (veja `scripts/enem/importacao/LEIA-ME.md`).
 
@@ -167,6 +169,8 @@ app/                       aplicativo Expo (React Native + expo-router)
   src/app/                 telas (abas, disciplina, lição, boas-vindas)
   src/estado/              progresso, XP, ofensiva, conquistas, lembretes
   src/data/banco.json      banco de questões compilado (não edite à mão)
+  assets/questoes/         figuras recortadas das provas (uma imagem por figura)
+  assets/pacotes/          as mesmas figuras juntas em pacotes, que vão para o app (gerados)
 ```
 
 ## Como adicionar ou editar questões
