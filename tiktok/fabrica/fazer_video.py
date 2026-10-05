@@ -78,7 +78,10 @@ class Roteiro:
 
 
 def primeira_frase(texto: str) -> str:
-    return re.match(r"\s*([^.!?…]+[.!?…]*)", texto).group(1).strip()
+    frase = re.match(r"\s*([^.!?…]+[.!?…]*[\"”]?)", texto).group(1).strip()
+    if frase.count('"') % 2:  # fala que não fechou as aspas na mesma frase
+        frase += '"'
+    return frase
 
 
 def ler_roteiro(arquivo: Path) -> Roteiro:

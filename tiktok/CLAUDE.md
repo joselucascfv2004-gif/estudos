@@ -5,9 +5,11 @@ Canal de TikTok com histórias curtas narradas por voz de IA, com legenda grande
 
 ## Regras do conteúdo
 
-- **Histórias originais.** Escreva histórias novas. Não copie posts do Reddit, de outros perfis ou de
-  livros. Pode usar ideias gerais ("traição no casamento", "vizinho estranho"), nunca o texto de outra
-  pessoa.
+- **Histórias originais no estilo Reddit.** O dono do canal quer o clima de relato do Reddit
+  ("eu errei?", conflito de família, dinheiro, sogro, casamento). Use só a **premissa comum** como
+  ponto de partida (ideias não têm dono) e escreva enredo, detalhes, personagens e texto próprios.
+  Nunca traduza nem adapte um post específico (mesmo trocando nomes e detalhes, continua sendo o texto
+  de outra pessoa e o TikTok pode marcar como "não original").
 - **Ficção declarada.** As histórias são narradas em primeira pessoa, mas são ficção. Não afirme que
   são fatos reais ("caso real", "aconteceu comigo de verdade"). Toda postagem deve ser marcada no
   TikTok como **conteúdo gerado por IA**.
@@ -37,6 +39,9 @@ Canal de TikTok com histórias curtas narradas por voz de IA, com legenda grande
 - **Nunca repita um fundo entre vídeos.** Cada vídeo de fundo é usado em um único vídeo; o registro
   fica em `fundos/usados.json` (vai para o GitHub). Quando acabarem os fundos inéditos, a fábrica para
   e avisa: procure e baixe mais.
+- **Compilações do YouTube não servem de fundo.** Canais que juntam vídeos satisfatórios de outras
+  pessoas (por exemplo "UNSORTED") não são donos das imagens e não podem liberar o uso. Além disso, o
+  YouTube bloqueia download na nuvem. Se o dono mandar um vídeo, confira de quem são as imagens antes.
 - **Fundos só de bancos gratuitos** que permitem uso comercial (Pexels, Pixabay) ou gravados pelo
   próprio dono do canal. **Não baixe vídeos do TikTok nem de outros criadores**, mesmo os marcados como
   "sem direitos autorais": isso viola os termos do TikTok, pode gerar denúncia de direitos autorais e
