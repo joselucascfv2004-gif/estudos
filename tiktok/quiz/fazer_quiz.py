@@ -133,7 +133,13 @@ def pilula(texto: str, tamanho: int, fundo_cor, cor_texto=TEXTO, folga: int = 30
 # ---------- peças do vídeo ----------
 
 def logo(tamanho: int) -> Image.Image:
-    return Image.open(LOGO).convert("RGBA").resize((tamanho, tamanho), Image.LANCZOS)
+    """Logo do app com os cantos arredondados de ícone de celular."""
+    img = Image.open(LOGO).convert("RGBA").resize((tamanho, tamanho), Image.LANCZOS)
+    cantos = Image.new("L", img.size, 0)
+    ImageDraw.Draw(cantos).rounded_rectangle((0, 0, tamanho - 1, tamanho - 1), int(tamanho * 0.22),
+                                             fill=255)
+    img.putalpha(cantos)
+    return img
 
 
 def barra_topo() -> Image.Image:
