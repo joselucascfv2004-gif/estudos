@@ -48,7 +48,13 @@ VELOCIDADE_FALA = 1.3  # narração acelerada (pedido do dono do canal)
 TEMPO_RESPOSTA = 5  # segundos para o público pensar
 TEMPO_CAPA = 0.5  # a capa fica meio segundo no começo (é o quadro que vira a miniatura)
 LETRAS = "ABCDE"
-HASHTAGS_QUIZ = "#enem #enem2026 #quiz #estudos #vestibular"
+HASHTAGS_QUIZ = "#enem #enem2026 #quiz #estudos #vestibular"  # padrão, se o quiz não tiver as suas
+# O app ainda não foi lançado: o final convida a seguir o perfil e diz que o app chega em breve.
+# Quando lançar, mude para True (o final volta a dizer "baixe o app" e "link no perfil").
+APP_LANCADO = False
+# Cores de destaque para variar as capas (campo "capa_cor" do quiz)
+CORES_CAPA = {"amarelo": (255, 200, 0), "laranja": (255, 150, 0), "verde": (88, 204, 2),
+              "roxo": (206, 130, 255), "vermelho": (255, 75, 75)}
 # Como a voz deve ler cada letra ("E" sozinho seria lido como a palavra "e", com som de "i")
 LETRAS_FALADAS = ["A", "B", "C", "D", "É"]
 
@@ -403,7 +409,7 @@ def linha_texto(texto: str, tamanho: int, destaque: str = "", cor=AZUL_NOITE) ->
         x = (img.width - letra.getlength(linha)) / 2
         for palavra in palavras:
             d.text((x, n * altura_linha + subida), palavra, font=letra, anchor="ls",
-                   fill=AZUL_LOGO if destaque and palavra == destaque else cor)
+                   fill=AZUL_LOGO if destaque and palavra in destaque.split() else cor)
             x += letra.getlength(palavra) + espaco
     return img
 
@@ -428,7 +434,7 @@ def botao(texto: str) -> Image.Image:
     return img
 
 
-def titulo_com_marcador(texto: str, tamanho: int, destaque: str) -> Image.Image:
+def titulo_com_marcador(texto: str, tamanho: int, destaque: str, cor_marca=AMARELO) -> Image.Image:
     """Título grande e limpo; a palavra de destaque fica no azul da logo, sobre uma faixa de
     marca-texto amarela."""
     letra = fonte(tamanho)
@@ -443,11 +449,11 @@ def titulo_com_marcador(texto: str, tamanho: int, destaque: str) -> Image.Image:
         base = n * altura_linha + subida
         for palavra in linha.split():
             largura = letra.getlength(palavra)
-            if palavra == destaque:
-                d.rounded_rectangle((x - 14, base - tamanho * 0.42, x + largura + 14, base + tamanho * 0.12),
-                                    14, fill=AMARELO)
+            if palavra in destaque.split():
+                d.rounded_rectangle((x - 8, base - tamanho * 0.42, x + largura + 8, base + tamanho * 0.12),
+                                    14, fill=cor_marca)
             d.text((x, base), palavra, font=letra, anchor="ls",
-                   fill=AZUL_LOGO if palavra == destaque else AZUL_NOITE)
+                   fill=AZUL_LOGO if palavra in destaque.split() else AZUL_NOITE)
             x += largura + espaco
     return img
 
@@ -456,11 +462,17 @@ def desenhar_capa(quiz: dict, total: int) -> Image.Image:
     """Capa do vídeo (primeiro quadro e capa.png): cartão no visual da logo com selo amarelo,
     título grande com marca-texto e as letras A a E embaixo, mostrando que é um quiz."""
     tela = Image.new("RGBA", (LARGURA, ALTURA), (0, 0, 0, 0))
+    cor = CORES_CAPA[quiz.get("capa_cor", "amarelo")]
+    sombra_cor = tuple(int(c * 0.78) for c in cor)
+    titulo_capa = quiz.get("capa_titulo", quiz["titulo_tela"])
+    # Título grande, mas diminui sozinho para caber em até 3 linhas
+    tamanho_titulo = next((t for t in (100, 92, 84, 76) if len(quebrar(titulo_capa, fonte(t),
+                                                                        LARGURA_CARTAO - 120)) <= 3), 70)
     cartao = cartao_marca([
         (logo(150), 0, False),
-        (pilula(quiz.get("capa_selo", f"TESTE RÁPIDO  •  {total} PERGUNTAS"), 36, AMARELO), 0, False),
-        (titulo_com_marcador(quiz.get("capa_titulo", quiz["titulo_tela"]), 100,
-                             quiz.get("capa_destaque", quiz.get("destaque", ""))), 0, False),
+        (pilula(quiz.get("capa_selo", f"TESTE RÁPIDO  •  {total} PERGUNTAS"), 36, cor), 0, False),
+        (titulo_com_marcador(titulo_capa, tamanho_titulo,
+                             quiz.get("capa_destaque", quiz.get("destaque", "")), cor), 0, False),
         (linha_texto(quiz.get("capa_sub", "Você tem 5 segundos para cada uma"), 34,
                      cor=CINZA_AZULADO), 0, False),
     ])
@@ -475,8 +487,8 @@ def desenhar_capa(quiz: dict, total: int) -> Image.Image:
     for n, letra_alt in enumerate(LETRAS):
         x, r = centro + (n - 2) * 150, 58
         destaque = n == 2
-        d.ellipse((x - r, y - r + 8, x + r, y + r + 8), fill=(6, 84, 170) if not destaque else (200, 150, 0))
-        d.ellipse((x - r, y - r, x + r, y + r), fill=BRANCO if not destaque else AMARELO)
+        d.ellipse((x - r, y - r + 8, x + r, y + r + 8), fill=(6, 84, 170) if not destaque else sombra_cor)
+        d.ellipse((x - r, y - r, x + r, y + r), fill=BRANCO if not destaque else cor)
         d.text((x, y), "?" if destaque else letra_alt, font=fonte(54), fill=AZUL_NOITE, anchor="mm")
     return tela
 
@@ -598,8 +610,10 @@ async def fazer(arquivo: Path) -> None:
             "encerramento": cartao_marca([
                 (logo(140), 0.15, False),
                 (linha_texto("Quantas você acertou?", 70, "acertou?"), 0.35, False),
-                (botao("BAIXE O APP ESTUDOS"), 0.7, True),
-                (linha_texto("+4.900 questões grátis  •  link no perfil", 32, cor=CINZA_AZULADO),
+                (botao("BAIXE O APP ESTUDOS" if APP_LANCADO else "SIGA PARA O PRÓXIMO TESTE"),
+                 0.7, True),
+                (linha_texto("+4.900 questões grátis  •  link no perfil" if APP_LANCADO
+                             else "App Estudos  •  chegando em breve", 32, cor=CINZA_AZULADO),
                  1.0, False),
             ]),
             "numeros": {str(i): texto_figura(str(i), 64) for i in range(1, TEMPO_RESPOSTA + 1)},
@@ -634,8 +648,8 @@ async def fazer(arquivo: Path) -> None:
 Capa: capa.png (é o primeiro quadro do vídeo; em "Editar capa", escolha o início do vídeo).
 
 Texto para colar no TikTok:
-{quiz['titulo']} 🧠 Comenta quantas você acertou! 👇 Treine com +4.900 questões no app Estudos.
-{HASHTAGS_QUIZ}
+{quiz.get('descricao', quiz['titulo'] + ' 🧠 Comenta quantas você acertou! 👇')} {'Treine com +4.900 questões no App Estudos (link no perfil).' if APP_LANCADO else 'App Estudos chegando em breve 📲'}
+{quiz.get('hashtags', HASHTAGS_QUIZ)}
 
 ANTES DE PUBLICAR:
 - Em "Mais opções", ligue "Conteúdo gerado por IA" (a narração é feita por voz de IA).

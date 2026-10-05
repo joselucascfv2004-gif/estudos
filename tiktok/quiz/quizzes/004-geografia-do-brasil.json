@@ -1,0 +1,89 @@
+{
+  "titulo": "Teste de Geografia do Brasil",
+  "titulo_tela": "Você sabe Geografia do Brasil?",
+  "destaque": "Geografia",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "GEOGRAFIA  •  5 PERGUNTAS",
+  "capa_cor": "verde",
+  "capa_titulo": "Você sabe Geografia do Brasil?",
+  "capa_destaque": "Geografia",
+  "capa_sub": "Rios, relevo e clima do Brasil",
+  "chamada": "Você sabe Geografia do Brasil? Responda estas cinco perguntas e comenta quantas você acertou.",
+  "voz": "antonio",
+  "descricao": "Teste de Geografia do Brasil 🌎 Comenta quantas você acertou! 👇",
+  "hashtags": "#geografia #enem #vestibular #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/geografia/02-geografia-fisica.md).",
+  "perguntas": [
+    {
+      "materia": "Geografia",
+      "pergunta": "Qual é o maior rio do Brasil em volume de água?",
+      "alternativas": [
+        "São Francisco",
+        "Paraná",
+        "Tietê",
+        "Amazonas",
+        "Paraíba do Sul"
+      ],
+      "certa": 3,
+      "explicacao": "O Amazonas é o maior rio do mundo em volume de água. Ele também está entre os mais longos do planeta.",
+      "fonte": "estudos/conteudos/geografia/02-geografia-fisica.md, Fácil 6"
+    },
+    {
+      "materia": "Geografia",
+      "pergunta": "Qual é o ponto mais alto do Brasil?",
+      "alternativas": [
+        "Pico da Bandeira",
+        "Pico da Neblina",
+        "Monte Roraima",
+        "Agulhas Negras",
+        "Pão de Açúcar"
+      ],
+      "certa": 1,
+      "explicacao": "O Pico da Neblina tem cerca de 2.995 metros. Ele fica no Amazonas, na fronteira com a Venezuela.",
+      "fonte": "estudos/conteudos/geografia/02-geografia-fisica.md, Fácil 9"
+    },
+    {
+      "materia": "Geografia",
+      "pergunta": "Onde fica o clima semiárido no Brasil?",
+      "alternativas": [
+        "Sertão nordestino",
+        "Região Sul",
+        "Amazônia",
+        "Pantanal",
+        "Litoral paulista"
+      ],
+      "certa": 0,
+      "explicacao": "O semiárido tem chuvas escassas e irregulares, calor forte e muita evaporação. Ele domina o Sertão do Nordeste.",
+      "fonte": "estudos/conteudos/geografia/02-geografia-fisica.md, Fácil 5"
+    },
+    {
+      "materia": "Geografia",
+      "pergunta": "Por que o Brasil quase não tem terremotos fortes?",
+      "alternativas": [
+        "Não tem rochas",
+        "Fica sobre o núcleo",
+        "Fica no Pacífico",
+        "Só tem planícies",
+        "Fica no meio da placa"
+      ],
+      "certa": 4,
+      "explicacao": "O Brasil fica no meio da placa Sul-Americana, longe das bordas. Os grandes terremotos acontecem nos limites das placas, como nos Andes.",
+      "fonte": "estudos/conteudos/geografia/02-geografia-fisica.md, Fácil 3"
+    },
+    {
+      "materia": "Geografia",
+      "pergunta": "Como se chama a chuva que se forma quando o ar úmido sobe uma serra?",
+      "alternativas": [
+        "Convectiva",
+        "Frontal",
+        "Orográfica",
+        "Ácida",
+        "De granizo"
+      ],
+      "certa": 2,
+      "explicacao": "O ar sobe a serra, esfria e o vapor vira chuva. Ela é comum na Serra do Mar.",
+      "fonte": "estudos/conteudos/geografia/02-geografia-fisica.md, Fácil 10"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E segue o perfil pra não perder o próximo teste. O app Estudos chega em breve."
+}

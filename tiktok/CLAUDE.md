@@ -21,7 +21,13 @@ pedir. As regras delas continuam abaixo para quando voltarem.
   primeiro meio segundo do vídeo (vira a miniatura) e sai também como `capa.png`.
 - Sempre entregue **vídeo + capa + postagem.txt**. Qualidade máxima (`fabrica/qualidade.py`), até
   30 MB para caber no envio pelo chat.
-- Hashtags (5): `#enem #enem2026 #quiz #estudos #vestibular`.
+- Cada quiz tem capa diferente: `capa_selo`, `capa_titulo`, `capa_destaque`, `capa_sub` e
+  `capa_cor` (amarelo, laranja, verde, roxo, vermelho). Varie a cor e o selo entre os vídeos.
+- Cada quiz traz a sua `descricao` e 5 `hashtags` do tema (padrão:
+  `#enem #enem2026 #quiz #estudos #vestibular`).
+- **O app ainda não foi lançado** (`APP_LANCADO = False`): o final diz "siga para o próximo teste" e
+  "App Estudos chegando em breve". Nunca diga "baixe" ou "link no perfil" antes do lançamento. A bio
+  do perfil está em `perfil.md`.
 
 ## Histórias (pausadas): regras do conteúdo
 

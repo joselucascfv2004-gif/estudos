@@ -1,0 +1,92 @@
+{
+  "titulo": "Você passaria no concurso do Banco do Brasil?",
+  "titulo_tela": "Você passaria no Banco do Brasil?",
+  "destaque": "Banco do Brasil?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "CONCURSO  •  5 PERGUNTAS",
+  "capa_cor": "amarelo",
+  "capa_titulo": "Você passaria no Banco do Brasil?",
+  "capa_destaque": "Banco do Brasil?",
+  "capa_sub": "Conhecimentos bancários e informática",
+  "chamada": "Você passaria no concurso do Banco do Brasil? Responda estas cinco perguntas e comenta quantas você acertou.",
+  "voz": "antonio",
+  "descricao": "Você passaria no concurso do Banco do Brasil? 🏦 Comenta quantas acertou! 👇",
+  "hashtags": "#concursopublico #bancodobrasil #concurso #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos), escritas para o app no estilo das bancas.",
+  "perguntas": [
+    {
+      "materia": "Conhecimentos bancários",
+      "pergunta": "Qual é a taxa básica de juros da economia brasileira?",
+      "alternativas": [
+        "IPCA",
+        "Selic",
+        "TR",
+        "CDI",
+        "TJLP"
+      ],
+      "certa": 1,
+      "explicacao": "A Selic é a referência para as outras taxas de juros do país. Quando ela sobe, o crédito fica mais caro.",
+      "fonte": "estudos/conteudos/conhecimentos-bancarios/01-sistema-financeiro-nacional.md, Fácil 4"
+    },
+    {
+      "materia": "Conhecimentos bancários",
+      "pergunta": "Quem define a meta da taxa Selic?",
+      "alternativas": [
+        "CMN",
+        "Ministério da Fazenda",
+        "Congresso Nacional",
+        "Copom",
+        "CVM"
+      ],
+      "certa": 3,
+      "explicacao": "O Copom é formado pelo presidente e pelos diretores do Banco Central. Ele se reúne oito vezes por ano para definir a meta da Selic.",
+      "fonte": "estudos/conteudos/conhecimentos-bancarios/01-sistema-financeiro-nacional.md, Fácil 5"
+    },
+    {
+      "materia": "Conhecimentos bancários",
+      "pergunta": "Qual é o órgão máximo do Sistema Financeiro Nacional?",
+      "alternativas": [
+        "CMN",
+        "Banco do Brasil",
+        "CVM",
+        "Caixa",
+        "BNDES"
+      ],
+      "certa": 0,
+      "resposta_falada": "Conselho Monetário Nacional",
+      "explicacao": "O Conselho Monetário Nacional define as regras do sistema financeiro. Ele não faz operações com o público nem fiscaliza os bancos diretamente.",
+      "fonte": "estudos/conteudos/conhecimentos-bancarios/01-sistema-financeiro-nacional.md, Fácil 1"
+    },
+    {
+      "materia": "Informática",
+      "pergunta": "Qual protocolo é usado para enviar e-mails?",
+      "alternativas": [
+        "DNS",
+        "POP3",
+        "IMAP",
+        "HTTP",
+        "SMTP"
+      ],
+      "certa": 4,
+      "resposta_falada": "S M T P",
+      "explicacao": "O SMTP envia as mensagens. Já o POP3 e o IMAP servem para receber e ler os e-mails.",
+      "fonte": "estudos/conteudos/informatica/03-internet-redes-e-seguranca.md, Fácil 3"
+    },
+    {
+      "materia": "Conhecimentos bancários",
+      "pergunta": "Até quanto o FGC garante por CPF em cada banco?",
+      "alternativas": [
+        "R$ 1 mil",
+        "R$ 50 mil",
+        "R$ 250 mil",
+        "R$ 1 milhão",
+        "Sem limite"
+      ],
+      "certa": 2,
+      "resposta_falada": "250 mil reais",
+      "explicacao": "O Fundo Garantidor de Créditos protege até 250 mil reais por pessoa em cada instituição. Existe ainda um teto de 1 milhão de reais a cada quatro anos.",
+      "fonte": "estudos/conteudos/conhecimentos-bancarios/01-sistema-financeiro-nacional.md, Fácil 9"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E segue o perfil pra não perder o próximo teste. O app Estudos chega em breve."
+}

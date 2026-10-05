@@ -1,0 +1,90 @@
+{
+  "titulo": "5 perguntas de História do Brasil",
+  "titulo_tela": "Você manja de História do Brasil?",
+  "destaque": "História",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "HISTÓRIA DO BRASIL  •  5 PERGUNTAS",
+  "capa_cor": "laranja",
+  "capa_titulo": "Você manja de História do Brasil?",
+  "capa_destaque": "História",
+  "capa_sub": "Da família real à Lei Áurea",
+  "chamada": "Você manja de História do Brasil? Responda estas cinco perguntas e comenta quantas você acertou.",
+  "voz": "antonio",
+  "descricao": "5 perguntas de História do Brasil 🇧🇷 Quantas você acerta? Comenta! 👇",
+  "hashtags": "#historia #historiadobrasil #enem #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/historia/06-brasil-imperio.md).",
+  "perguntas": [
+    {
+      "materia": "História",
+      "pergunta": "Em que ano o Brasil declarou a sua independência?",
+      "alternativas": [
+        "1808",
+        "1815",
+        "1822",
+        "1831",
+        "1889"
+      ],
+      "certa": 2,
+      "explicacao": "Dom Pedro proclamou a independência em 7 de setembro de 1822, às margens do Ipiranga, em São Paulo. Depois, foi aclamado imperador.",
+      "fonte": "estudos/conteudos/historia/06-brasil-imperio.md, Fácil 3"
+    },
+    {
+      "materia": "História",
+      "pergunta": "Quem foi o primeiro imperador do Brasil?",
+      "alternativas": [
+        "D. João VI",
+        "José Bonifácio",
+        "Marechal Deodoro",
+        "D. Pedro II",
+        "D. Pedro I"
+      ],
+      "certa": 4,
+      "resposta_falada": "Dom Pedro primeiro",
+      "explicacao": "Dom Pedro primeiro governou de 1822 a 1831. Ele abdicou do trono em favor do filho, Dom Pedro segundo.",
+      "fonte": "estudos/conteudos/historia/06-brasil-imperio.md, Fácil 4"
+    },
+    {
+      "materia": "História",
+      "pergunta": "Por que a família real portuguesa veio para o Brasil em 1808?",
+      "alternativas": [
+        "Invasão de Napoleão",
+        "Ouro em Minas",
+        "Independência",
+        "Revolta em Lisboa",
+        "Guerra do Paraguai"
+      ],
+      "certa": 0,
+      "explicacao": "Portugal não aderiu ao Bloqueio Continental e foi invadido pelas tropas de Napoleão. Com escolta inglesa, a Corte atravessou o Atlântico.",
+      "fonte": "estudos/conteudos/historia/06-brasil-imperio.md, Fácil 1"
+    },
+    {
+      "materia": "História",
+      "pergunta": "Quem assinou a Lei Áurea, que aboliu a escravidão em 1888?",
+      "alternativas": [
+        "D. Leopoldina",
+        "Princesa Isabel",
+        "Rainha Maria I",
+        "Teresa Cristina",
+        "Chiquinha Gonzaga"
+      ],
+      "certa": 1,
+      "explicacao": "A princesa Isabel assinou a lei em 13 de maio de 1888. A abolição foi fruto de uma longa luta de abolicionistas e dos próprios escravizados.",
+      "fonte": "estudos/conteudos/historia/06-brasil-imperio.md, Fácil 8"
+    },
+    {
+      "materia": "História",
+      "pergunta": "Qual era o principal produto de exportação no Segundo Reinado?",
+      "alternativas": [
+        "Açúcar",
+        "Ouro",
+        "Borracha",
+        "Café",
+        "Algodão"
+      ],
+      "certa": 3,
+      "explicacao": "O café se espalhou pelo Vale do Paraíba e depois pelo Oeste Paulista. Ele virou a base da economia do Império.",
+      "fonte": "estudos/conteudos/historia/06-brasil-imperio.md, Fácil 9"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E segue o perfil pra não perder o próximo teste. O app Estudos chega em breve."
+}
