@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**7290 questões** em **163 tópicos**.
+**7340 questões** em **164 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -39,7 +39,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Circunferência e círculo](matematica/25-circunferencia-e-circulo.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Cônicas: elipse, hipérbole e parábola](matematica/26-conicas.md) | Militares | 17 | 17 | 16 |
 
-## Física — 239 questões
+## Física — 289 questões
 
 *Ciências da Natureza*
 
@@ -52,6 +52,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Termologia](fisica/05-termologia.md) | ENEM, Militares | 11 | 11 | 11 |
 | [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 11 | 11 | 11 |
 | [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 11 | 12 | 11 |
+| [Gravitação universal](fisica/08-gravitacao.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## Química — 345 questões
 

@@ -48,6 +48,7 @@ Formato: `- disciplina/assunto: nota`
 - fisica/termologia: 4
 - fisica/ondulatoria-e-optica: 4
 - fisica/estatica-e-hidrostatica: 3
+- fisica/gravitacao: 2
 - quimica/quimica-organica: 5
 - quimica/quimica-ambiental: 5
 - quimica/ligacoes-e-funcoes-inorganicas: 4
