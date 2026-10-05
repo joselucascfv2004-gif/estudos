@@ -828,6 +828,115 @@ Do ponto de vista evolutivo, a capacidade apresentada se estabeleceu porque os p
 
 **Assunto:** biologia/evolucao
 
+### 94
+O Prêmio Nobel de Química de 2000 deveu-se à descoberta e ao desenvolvimento de polímeros condutores. Esses materiais têm ampla aplicação em novos dispositivos eletroluminescentes (LEDs), células fotovoltaicas etc. Uma propriedade-chave de um polímero condutor é a presença de ligações duplas conjugadas ao longo da cadeia principal do polímero.
+
+> ROCHA FILHO, R. C. Polímeros condutores: descoberta e aplicações. Química Nova na Escola, n. 12, 2000 (adaptado).
+
+Um exemplo desse polímero é representado pela estrutura
+
+- A) ![Alternativa A](enem-2021-d2-q094-1.webp)
+- B) ![Alternativa B](enem-2021-d2-q094-4.webp)
+- C) ![Alternativa C](enem-2021-d2-q094-5.webp)
+- D) ![Alternativa D](enem-2021-d2-q094-2.webp)
+- E) ![Alternativa E](enem-2021-d2-q094-3.webp)
+
+**Resposta:** D
+
+**Explicação:** Ligações duplas conjugadas se alternam com ligações simples ao longo da cadeia (=C–C=C–C=...). Isso acontece no poliacetileno, (–CH=CH–)n, em que cada unidade tem uma dupla ligada diretamente à dupla da unidade seguinte. Nas outras estruturas, há carbonos com só ligações simples (CH₂) separando as duplas, ou nenhuma dupla na cadeia principal.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 94
+
+**Assunto:** quimica/quimica-organica
+
+### 99
+O eletrocardiograma é um exame cardíaco que mede a intensidade dos sinais elétricos advindos do coração. A imagem apresenta o resultado típico obtido em um paciente saudável e a intensidade do sinal (VEC) em função do tempo.
+
+![Figura](enem-2021-d2-q099-1.webp)
+
+De acordo com o eletrocardiograma apresentado, qual foi o número de batimentos cardíacos por minuto desse paciente durante o exame?
+
+- A) 30
+- B) 60
+- C) 100
+- D) 120
+- E) 180
+
+**Resposta:** B
+
+**Explicação:** No gráfico, cada quadrado maior marcado corresponde a 0,2 s, e os picos se repetem a cada 5 desses quadrados, ou seja, a cada 1 s. Um batimento por segundo dá 60 batimentos por minuto.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 99
+
+**Assunto:** biologia/fisiologia-humana
+
+### 103
+A icterícia, popularmente conhecida por amarelão, é uma patologia frequente em recém-nascidos. Um bebê com icterícia não consegue metabolizar e excretar de forma eficiente a bilirrubina. Com isso, o acúmulo dessa substância deixa-o com a pele amarelada. A fototerapia é um tratamento da icterícia neonatal, que consiste na irradiação de luz no bebê. Na presença de luz, a bilirrubina é convertida no seu isômero lumirrubina que, por ser mais solúvel em água, é excretada pela bile ou pela urina. A imagem ilustra o que ocorre nesse tratamento.
+
+> MOREIRA, M. et al. O recém-nascido de alto risco: teoria e prática do cuidar [on-line]. Rio de Janeiro: Fiocruz, 2004 (adaptado).
+
+![Figura](enem-2021-d2-q103-1.webp)
+
+> WANG, J. et. al. Challenges of phototherapy for neonatal hyperbilirubinemia (Review). Experimental and Therapeutic Medicine, n. 21, 2021 (adaptado).
+
+Na fototerapia, a luz provoca a conversão da bilirrubina no seu isômero
+
+- A) ótico.
+- B) funcional.
+- C) de cadeia.
+- D) de posição.
+- E) geométrico.
+
+**Resposta:** C
+
+**Explicação:** Na figura, a bilirrubina e a lumirrubina têm os mesmos átomos e a mesma sequência de ligações; muda a posição dos grupos em torno de uma ligação dupla C=C. A luz faz a dupla girar, transformando a forma Z em E: isso é isomeria geométrica (cis-trans).
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 103
+
+**Assunto:** quimica/quimica-organica
+
+### 108
+As águas subterrâneas têm sido contaminadas pelo uso de pesticidas na agricultura. Entre as várias substâncias usualmente encontradas, algumas são apresentadas na figura. A distinção dessas substâncias pode ser feita por meio de uma análise química qualitativa, ou seja, determinando sua presença mediante a adição de um reagente específico. O hidróxido de sódio é capaz de identificar a presença de um desses pesticidas pela reação ácido-base de Brönsted-Lowry.
+
+![Figura](enem-2021-d2-q108-1.webp)
+
+O teste positivo será observado com o pesticida
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** C
+
+**Explicação:** O hidróxido de sódio é uma base e reage com substâncias que têm hidrogênio ácido. O pesticida III tem grupos OH ligados ao anel aromático (fenol), que são ácidos e liberam H⁺ para o OH⁻. Os outros não têm grupos ácidos desse tipo.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 108
+
+**Assunto:** quimica/quimica-organica
+
+### 127
+É possível ligar aparelhos elétricos de baixa corrente utilizando materiais comuns de laboratório no lugar das tradicionais pilhas. A ilustração apresenta uma montagem que faz funcionar um cronômetro digital.
+
+![Figura](enem-2021-d2-q127-1.webp)
+
+Utilizando a representação de projetos elétricos, o circuito equivalente a esse sistema é
+
+- A) ![Alternativa A](enem-2021-d2-q127-3.webp)
+- B) ![Alternativa B](enem-2021-d2-q127-4.webp)
+- C) ![Alternativa C](enem-2021-d2-q127-6.webp)
+- D) ![Alternativa D](enem-2021-d2-q127-2.webp)
+- E) ![Alternativa E](enem-2021-d2-q127-5.webp)
+
+**Resposta:** B
+
+**Explicação:** A montagem tem duas pilhas (cada par cobre/zinco) ligadas em série, uma em seguida da outra. O cronômetro (o aparelho que consome energia, representado por um resistor) e o voltímetro estão ligados em paralelo com esse conjunto. O circuito equivalente tem duas pilhas em série, com o resistor e o voltímetro em paralelo.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 127
+
+**Assunto:** fisica/eletricidade
+
 ## Difícil
 
 ### 92
@@ -902,3 +1011,74 @@ A ordem crescente da mais econômica para a menos econômica é
 **Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 126
 
 **Assunto:** fisica/termologia
+
+### 105
+Um garoto precisa montar um circuito que acenda três lâmpadas de cores diferentes, uma de cada vez. Ele dispõe das lâmpadas, de fios, uma bateria e dois interruptores, como ilustrado, junto com seu símbolo de três pontos. Quando esse interruptor fecha AB, abre BC e vice-versa.
+
+![Figura](enem-2021-d2-q105-1.webp)
+
+O garoto fez cinco circuitos elétricos usando os dois interruptores, mas apenas um satisfaz a sua necessidade. Esse circuito é representado por
+
+- A) ![Alternativa A](enem-2021-d2-q105-2.webp)
+- B) ![Alternativa B](enem-2021-d2-q105-3.webp)
+- C) ![Alternativa C](enem-2021-d2-q105-4.webp)
+- D) ![Alternativa D](enem-2021-d2-q105-5.webp)
+- E) ![Alternativa E](enem-2021-d2-q105-6.webp)
+
+**Resposta:** D
+
+**Explicação:** Com dois interruptores de três pontos, cada lâmpada só pode acender numa combinação diferente das posições. No circuito correto, o primeiro interruptor escolhe entre a lâmpada verde e o segundo interruptor, e este escolhe entre a vermelha e a azul. Assim, cada posição acende uma única lâmpada, e nenhuma combinação acende duas ao mesmo tempo nem deixa a bateria em curto.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 105
+
+**Assunto:** fisica/eletricidade
+
+### 121
+Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (B), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (g) que atua na região.
+
+![Figura](enem-2021-d2-q121-21.webp)
+
+Visto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em
+
+- A) ![Alternativa A](enem-2021-d2-q121-4.webp)
+- B) ![Alternativa B](enem-2021-d2-q121-5.webp)
+- C) ![Alternativa C](enem-2021-d2-q121-6.webp)
+- D) ![Alternativa D](enem-2021-d2-q121-7.webp)
+- E) ![Alternativa E](enem-2021-d2-q121-8.webp)
+
+**Resposta:** A
+
+**Explicação:** As esferas caem, então a velocidade aponta para dentro da página (sentido de g). Pela regra da mão direita, com a velocidade para dentro e B para a direita, a força numa carga positiva aponta para baixo na figura. Na carga negativa, a força tem sentido oposto, para cima. As forças são opostas, uma em cada esfera.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 121
+
+**Assunto:** fisica/eletricidade
+
+### 128
+A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang!
+
+![Figura](enem-2021-d2-q128-1.webp)
+
+No jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo (v₀) e para o ângulo de disparo (θ).
+
+Em determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, θ = 53°, passou tangenciando o ponto P.
+
+No jogo, g é igual a 10 m/s². Considere sen 53° = 0,8, cos 53° = 0,6 e desprezível a ação de forças dissipativas.
+
+> Disponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado).
+
+Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de v₀ que permitiria ao disparo efetuado pelo canhão B atingir o canhão A?
+
+- A) 30 m/s.
+- B) 35 m/s.
+- C) 40 m/s.
+- D) 45 m/s.
+- E) 50 m/s.
+
+**Resposta:** C
+
+**Explicação:** A bala sai de B e deve chegar a A, 120 m na horizontal e 35 m acima. Na trajetória do lançamento oblíquo: y = x·tg θ − g·x² / (2·v₀²·cos² θ). Com tg 53° = 0,8/0,6 = 4/3: 35 = 120 · 4/3 − 10 · 14 400 / (2 · v₀² · 0,36) = 160 − 200 000/v₀². Assim, v₀² = 200 000 ÷ 125 = 1 600 e v₀ = 40 m/s.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 128
+
+**Assunto:** fisica/cinematica

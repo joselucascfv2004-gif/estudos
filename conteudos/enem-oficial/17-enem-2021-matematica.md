@@ -221,6 +221,71 @@ Nessa situação, o preço a ser pago ao aplicativo para uma hospedagem de n di�
 
 **Assunto:** matematica/funcoes-afim-e-quadratica
 
+### 165
+A receita R de uma empresa ao final de um mês é o dinheiro captado com a venda de mercadorias ou com a prestação de serviços nesse mês, e a despesa D é todo o dinheiro utilizado para pagamento de salários, contas de água e luz, impostos, entre outros. O lucro mensal obtido ao final do mês é a diferença entre a receita e a despesa registradas no mês. O gráfico apresenta as receitas e despesas, em milhão de real, de uma empresa ao final dos cinco primeiros meses de um dado ano.
+
+![Figura](enem-2021-d2-q165-1.webp)
+
+A previsão para os próximos meses é que o lucro mensal não seja inferior ao maior lucro obtido até o mês de maio. Nessas condições, o lucro mensal para os próximos meses deve ser maior ou igual ao do mês de
+
+- A) janeiro.
+- B) fevereiro.
+- C) março.
+- D) abril.
+- E) maio.
+
+**Resposta:** B
+
+**Explicação:** Lucro = receita − despesa. Janeiro: 10 − 5 = 5. Fevereiro: 20 − 10 = 10. Março: 15 − 10 = 5. Abril: 20 − 15 = 5. Maio: 28 − 25 = 3. O maior lucro foi em fevereiro, e é ele que serve de referência.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 165
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 170
+O gráfico apresenta o nível de ocupação dos cinco reservatórios de água que abasteciam uma cidade em 2 de fevereiro de 2015.
+
+Nível dos reservatórios em 2 fev. 2015
+
+![Figura](enem-2021-d2-q170-1.webp)
+
+Nessa data, o reservatório com o maior volume de água era o
+
+- A) I.
+- B) II.
+- C) III.
+- D) IV.
+- E) V.
+
+**Resposta:** D
+
+**Explicação:** Volume = capacidade × ocupação. I: 105 × 20% = 21. II: 100 × 30% = 30. III: 20 × 50% = 10. IV: 80 × 40% = 32. V: 40 × 60% = 24 (bilhões de litros). O maior é o IV.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 170
+
+**Assunto:** matematica/porcentagem
+
+### 171
+Uma pessoa realizou uma pesquisa com alguns alunos de uma escola, coletando suas idades, e organizou esses dados no gráfico.
+
+![Figura](enem-2021-d2-q171-1.webp)
+
+Qual é a média das idades, em ano, desses alunos?
+
+- A) 9
+- B) 12
+- C) 18
+- D) 19
+- E) 27
+
+**Resposta:** D
+
+**Explicação:** Média ponderada: (9 · 6 + 18 · 12 + 27 · 9) ÷ (6 + 12 + 9) = (54 + 216 + 243) ÷ 27 = 513 ÷ 27 = 19 anos.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 171
+
+**Assunto:** matematica/estatistica
+
 ## Médio
 
 ### 137
@@ -695,6 +760,96 @@ Com base nos valores considerados pelo organizador da competição, a quantidade
 
 **Assunto:** matematica/probabilidade
 
+### 144
+Muitos brinquedos que frequentemente são encontrados em praças e parques públicos apresentam formatos de figuras geométricas bidimensionais e tridimensionais. Uma empresa foi contratada para desenvolver uma nova forma de brinquedo. A proposta apresentada pela empresa foi de uma estrutura formada apenas por hastes metálicas, conectadas umas às outras, como apresentado na figura. As hastes de mesma tonalidade e espessura são congruentes.
+
+![Figura](enem-2021-d2-q144-1.webp)
+
+Com base na proposta apresentada, quantas figuras geométricas planas de cada tipo são formadas pela união das hastes?
+
+- A) 12 trapézios isósceles e 12 quadrados.
+- B) 24 trapézios isósceles e 12 quadrados.
+- C) 12 paralelogramos e 12 quadrados.
+- D) 8 trapézios isósceles e 12 quadrados.
+- E) 12 trapézios escalenos e 12 retângulos.
+
+**Resposta:** A
+
+**Explicação:** A estrutura é um cubo grande com um cubo menor dentro, ligados pelos vértices. As faces dos dois cubos formam 6 + 6 = 12 quadrados. Entre cada aresta do cubo de fora e a aresta correspondente do cubo de dentro, as hastes de ligação (congruentes) formam um trapézio isósceles; como o cubo tem 12 arestas, são 12 trapézios isósceles.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 144
+
+**Assunto:** matematica/geometria-espacial
+
+### 145
+Num octaedro regular, duas faces são consideradas opostas quando não têm nem arestas, nem vértices em comum. Na figura, observa-se um octaedro regular e uma de suas planificações, na qual há uma face colorida na cor cinza escuro e outras quatro faces numeradas.
+
+![Figura](enem-2021-d2-q145-1.webp)
+
+![Figura](enem-2021-d2-q145-2.webp)
+
+Qual(is) face(s) ficará(ão) oposta(s) à face de cor cinza escuro, quando o octaedro for reconstruído a partir da planificação dada?
+
+- A) 1, 2, 3 e 4
+- B) 1 e 3
+- C) 1
+- D) 2
+- E) 4
+
+**Resposta:** E
+
+**Explicação:** Na planificação, a face oposta a uma face do octaedro é a que não tem vértice em comum com ela. Remontando o octaedro (4 faces em volta de cada vértice), a face cinza fica oposta à face 4; as faces 1, 2 e 3 tocam a cinza em pelo menos um vértice.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 145
+
+**Assunto:** matematica/geometria-espacial
+
+### 154
+O quadro representa a relação entre o preço de um produto (R) e seu respectivo imposto devido (I).
+
+![Figura](enem-2021-d2-q154-1.webp)
+
+O gráfico que melhor representa essa relação é
+
+- A) ![Alternativa](enem-2021-d2-q154-2.webp)
+- B) ![Alternativa](enem-2021-d2-q154-21.webp)
+- C) ![Alternativa](enem-2021-d2-q154-5.webp)
+- D) ![Alternativa](enem-2021-d2-q154-3.webp)
+- E) ![Alternativa](enem-2021-d2-q154-22.webp)
+
+**Resposta:** A
+
+**Explicação:** Até 5 000 o imposto é zero. De 5 000 a 10 000, cresce em linha reta de 0 até 10% de 5 000 = 500. De 10 000 a 15 000, parte de 500 e cresce mais rápido (30%), chegando a 500 + 0,3 · 5 000 = 2 000. O gráfico é contínuo, com três trechos de retas cada vez mais inclinadas.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 154
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 167
+Um casal está planejando comprar um apartamento de dois quartos num bairro de uma cidade e consultou a página de uma corretora de imóveis, encontrando 105 apartamentos de dois quartos à venda no bairro desejado. Eles usaram um aplicativo da corretora para gerar a distribuição dos preços do conjunto de imóveis selecionados.
+
+O gráfico ilustra a distribuição de frequências dos preços de venda dos apartamentos dessa lista (em mil reais), no qual as faixas de preço são dadas por ]300, 400], ]400, 500], ]500, 600], ]600, 700], ]700, 800], ]800, 900], ]900, 1 000], ]1 000, 1 100], ]1 100, 1 200] e ]1 200, 1 300].
+
+A mesma corretora anuncia que cerca de 50% dos apartamentos de dois quartos nesse bairro, publicados em sua página, têm preço de venda inferior a 550 mil reais. No entanto, o casal achou que essa última informação não era compatível com o gráfico obtido.
+
+![Figura](enem-2021-d2-q167-1.webp)
+
+Com base no gráfico obtido, o menor preço, p (em mil reais), para o qual pelo menos 50% dos apartamentos apresenta preço inferior a p é
+
+- A) 600.
+- B) 700.
+- C) 800.
+- D) 900.
+- E) 1 000.
+
+**Resposta:** C
+
+**Explicação:** Metade de 105 é 52,5. Somando as barras: até 400, 5; até 500, 15; até 600, 20; até 700, 35; até 800, 55. Só a partir de 800 mil reais pelo menos 50% dos apartamentos ficam abaixo de p.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 167
+
+**Assunto:** matematica/estatistica
+
 ## Difícil
 
 ### 149
@@ -820,3 +975,45 @@ A potência φ⁷, escrita na forma aφ + b (a e b são inteiros positivos), é
 **Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 179
 
 **Assunto:** matematica/progressoes
+
+### 155
+O administrador de um teatro percebeu que, com o ingresso do evento a R$ 20,00, um show conseguia atrair 200 pessoas e que, a cada R$ 1,00 de redução no preço do ingresso, o número de pessoas aumentava em 40. Ele sabe que os donos do teatro só admitem trabalhar com valores inteiros para os ingressos, pela dificuldade de disponibilizar troco, e pretende convencê-los a diminuir o preço do ingresso. Assim, apresentará um gráfico da arrecadação em função do valor do desconto no preço atual do ingresso. O gráfico que mais se assemelha ao que deve ser elaborado pelo administrador é
+
+- A) ![Alternativa A](enem-2021-d2-q155-2.webp)
+- B) ![Alternativa B](enem-2021-d2-q155-3.webp)
+- C) ![Alternativa C](enem-2021-d2-q155-5.webp)
+- D) ![Alternativa D](enem-2021-d2-q155-1.webp)
+- E) ![Alternativa E](enem-2021-d2-q155-4.webp)
+
+**Resposta:** E
+
+**Explicação:** Com desconto x, a arrecadação é (20 − x)(200 + 40x) = 4 000 + 600x − 40x², uma parábola voltada para baixo que começa em 4 000 e zera em x = 20. Como o preço só pode ter valores inteiros, o gráfico é formado por pontos isolados, e não por uma linha contínua.
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 155
+
+**Assunto:** matematica/funcoes-afim-e-quadratica
+
+### 161
+Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t) = ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se relaciona com o período T pela fórmula ω = 2π/T.
+
+Considere a ausência de quaisquer forças dissipativas.
+
+![Figura](enem-2021-d2-q161-2.webp)
+
+![Figura](enem-2021-d2-q161-3.webp)
+
+A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é
+
+- A) −3 cos (2t)
+- B) −3 sen (2t)
+- C) 3 cos (2t)
+- D) −6 cos (2t)
+- E) 6 sen (2t)
+
+**Resposta:** A
+
+**Explicação:** No gráfico, P vai de −3 a 3, então A = 3. Em t = 0, P = −3 (a mola começa distendida, no ponto mais baixo); isso é −3·cos, porque cos 0 = 1. Os mínimos ocorrem em 0, π, 2π..., então o período é T = π e ω = 2π/π = 2. P(t) = −3 cos (2t).
+
+**Fonte:** ENEM 2021, 2º dia, caderno amarelo, questão 161
+
+**Assunto:** matematica/trigonometria

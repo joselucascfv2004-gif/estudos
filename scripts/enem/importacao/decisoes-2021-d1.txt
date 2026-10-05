@@ -82,6 +82,20 @@ x: A sociedade ensina às mulheres como se mover, se vestir e se comportar para 
 x: O homem da matraca anunciava qualquer coisa que lhe pagassem, e o povo acreditava, mesmo quando era falso. O narrador ironiza a difusão de informações não confiáveis.
 @45 m portugues/interpretacao-de-texto
 x: O texto lembra o centenário de Abel Ferreira e chama o choro de "riquíssima manifestação da genuína alma brasileira". A autora quer destacar o valor histórico e estético do gênero.
+@12 f portugues/interpretacao-de-texto fig
+x: A imagem junta uma garrafa plástica, que se joga fora sem culpa ("ESSE PET É DESCARTÁVEL"), com um cachorro ("ESSE NÃO"). O jogo com a palavra "pet" compara o descarte de lixo ao abandono de animais e sensibiliza o público contra essa prática.
+@13 m portugues/interpretacao-de-texto fig
+x: A personagem (a Graúna, de Henfil) diz que, quando o bebê nascer, vai renunciar à vida folgada, à beleza, à vida social e aos projetos pessoais. O último quadrinho diz "Assim termina mais um capítulo na luta da mulher por sua emancipação...". A ironia mostra que a maternidade, do jeito que era imposta, acabava com a igualdade prometida às mulheres.
+@18 m artes/artes-e-educacao-fisica fig
+x: A pintura mostra Moema morta na praia, com o corpo da indígena em pose dramática e idealizado, belo e sensual, mesmo diante da tragédia. A idealização do indígena e o drama são marcas do Romantismo.
+@27 m artes/artes-e-educacao-fisica fig
+x: O texto fala em abandonar o "gosto rebuscado" do colonial e em criar móveis de "linhas retas e curvas suaves". As cadeiras da foto têm formas simples e limpas, sem enfeites: a estética brasiliense aparece na simplificação visual dos objetos.
+@33 f portugues/funcoes-generos-e-variacao fig
+x: Os quadrinhos contam como o livro foi feito e terminam dizendo que, depois de todo o trabalho, ele só precisa de uma coisa: ser lido. Apresentar a obra ao leitor e convidá-lo a ler é a função de um prefácio.
+@34 f portugues/interpretacao-de-texto fig
+x: O infográfico mostra os riscos do celular antes de dormir para as crianças e termina com "O que fazer?" e recomendações. O objetivo é convencer o leitor a mudar hábitos prejudiciais.
+@43 d literatura/pre-modernismo-ao-contemporaneo fig
+x: Os quadrinhos de Cumbe mostram pessoas escravizadas que guardam lembranças da terra natal ("o mar que não acaba", "beber a kalunga") em meio à violência. A memória e os laços com a origem africana expressam a resistência identitária desses povos.
 
 ## 19-enem-2021-ciencias-humanas.md | 2021 | 1 | 1º dia, caderno azul | Ciências Humanas
 auto: sim

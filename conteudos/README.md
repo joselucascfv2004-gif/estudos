@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**6746 questões** em **154 tópicos**.
+**6770 questões** em **154 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
 
@@ -225,7 +225,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Ética no serviço público e na administração](etica/01-etica-no-servico-publico.md) | Concursos | 17 | 17 | 16 |
 
-## ENEM — provas oficiais — 2833 questões
+## ENEM — provas oficiais — 2857 questões
 
 *Provas anteriores*
 
@@ -247,10 +247,10 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2022 — Ciências da Natureza](enem-oficial/14-enem-2022-ciencias-da-natureza.md) | ENEM | 10 | 27 | 8 |
 | [ENEM 2022 — Ciências Humanas](enem-oficial/15-enem-2022-ciencias-humanas.md) | ENEM | 11 | 31 | 3 |
 | [ENEM 2022 — Linguagens](enem-oficial/16-enem-2022-linguagens.md) | ENEM | 11 | 26 | 3 |
-| [ENEM 2021 — Matemática](enem-oficial/17-enem-2021-matematica.md) | ENEM | 9 | 20 | 5 |
-| [ENEM 2021 — Ciências da Natureza](enem-oficial/18-enem-2021-ciencias-da-natureza.md) | ENEM | 12 | 22 | 3 |
+| [ENEM 2021 — Matemática](enem-oficial/17-enem-2021-matematica.md) | ENEM | 12 | 24 | 7 |
+| [ENEM 2021 — Ciências da Natureza](enem-oficial/18-enem-2021-ciencias-da-natureza.md) | ENEM | 12 | 27 | 6 |
 | [ENEM 2021 — Ciências Humanas](enem-oficial/19-enem-2021-ciencias-humanas.md) | ENEM | 14 | 22 | 9 |
-| [ENEM 2021 — Linguagens](enem-oficial/20-enem-2021-linguagens.md) | ENEM | 8 | 22 | 3 |
+| [ENEM 2021 — Linguagens](enem-oficial/20-enem-2021-linguagens.md) | ENEM | 11 | 25 | 4 |
 | [ENEM 2020 — Matemática](enem-oficial/21-enem-2020-matematica.md) | ENEM | 10 | 28 | 6 |
 | [ENEM 2020 — Ciências da Natureza](enem-oficial/22-enem-2020-ciencias-da-natureza.md) | ENEM | 14 | 24 | 6 |
 | [ENEM 2020 — Ciências Humanas](enem-oficial/23-enem-2020-ciencias-humanas.md) | ENEM | 11 | 31 | 3 |

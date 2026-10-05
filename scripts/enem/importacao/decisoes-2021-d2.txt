@@ -107,6 +107,27 @@ x: A chance de errar todos os n dardos é (1/2)ⁿ, então a de pontuar é 1 −
 e: Um segmento de reta está dividido em duas partes na proporção áurea quando o todo está para uma das partes na mesma razão em que essa parte está para a outra. Essa constante de proporcionalidade é comumente representada pela letra grega φ, e seu valor é dado pela solução positiva da equação φ² = φ + 1. || Assim como a potência φ², as potências superiores de φ podem ser expressas da forma aφ + b, em que a e b são inteiros positivos, como apresentado no quadro. || Quadro: // φ² = φ + 1 // φ³ = 2φ + 1 // φ⁴ = 3φ + 2 // φ⁵ = 5φ + 3 // φ⁶ = 8φ + 5 // φ⁷ = … || A potência φ⁷, escrita na forma aφ + b (a e b são inteiros positivos), é
 a: 5φ + 3 | 7φ + 2 | 9φ + 6 | 11φ + 7 | 13φ + 8
 x: φ⁷ = φ · φ⁶ = φ(8φ + 5) = 8φ² + 5φ = 8(φ + 1) + 5φ = 13φ + 8. Os coeficientes seguem a sequência de Fibonacci (1, 2, 3, 5, 8, 13).
+@144 m matematica/geometria-espacial fig
+x: A estrutura é um cubo grande com um cubo menor dentro, ligados pelos vértices. As faces dos dois cubos formam 6 + 6 = 12 quadrados. Entre cada aresta do cubo de fora e a aresta correspondente do cubo de dentro, as hastes de ligação (congruentes) formam um trapézio isósceles; como o cubo tem 12 arestas, são 12 trapézios isósceles.
+@145 m matematica/geometria-espacial fig
+x: Na planificação, a face oposta a uma face do octaedro é a que não tem vértice em comum com ela. Remontando o octaedro (4 faces em volta de cada vértice), a face cinza fica oposta à face 4; as faces 1, 2 e 3 tocam a cinza em pelo menos um vértice.
+@154 m matematica/funcoes-afim-e-quadratica fig
+a: [fig2] | [fig21] | [fig5] | [fig3] | [fig22]
+x: Até 5 000 o imposto é zero. De 5 000 a 10 000, cresce em linha reta de 0 até 10% de 5 000 = 500. De 10 000 a 15 000, parte de 500 e cresce mais rápido (30%), chegando a 500 + 0,3 · 5 000 = 2 000. O gráfico é contínuo, com três trechos de retas cada vez mais inclinadas.
+@155 d matematica/funcoes-afim-e-quadratica fig
+x: Com desconto x, a arrecadação é (20 − x)(200 + 40x) = 4 000 + 600x − 40x², uma parábola voltada para baixo que começa em 4 000 e zera em x = 20. Como o preço só pode ter valores inteiros, o gráfico é formado por pontos isolados, e não por uma linha contínua.
+@161 d matematica/trigonometria fig
+e: Uma mola é solta da posição distendida conforme a figura. A figura à direita representa o gráfico da posição P (em cm) da massa m em função do tempo t (em segundo) em um sistema de coordenadas cartesianas. Esse movimento periódico é descrito por uma expressão do tipo P(t) = ± A cos (ωt) ou P(t) = ± A sen (ωt), em que A > 0 é a amplitude de deslocamento máximo e ω é a frequência, que se relaciona com o período T pela fórmula ω = 2π/T. || Considere a ausência de quaisquer forças dissipativas. || [fig2] || [fig3] || A expressão algébrica que representa as posições P(t) da massa m, ao longo do tempo, no gráfico, é
+a: −3 cos (2t) | −3 sen (2t) | 3 cos (2t) | −6 cos (2t) | 6 sen (2t)
+x: No gráfico, P vai de −3 a 3, então A = 3. Em t = 0, P = −3 (a mola começa distendida, no ponto mais baixo); isso é −3·cos, porque cos 0 = 1. Os mínimos ocorrem em 0, π, 2π..., então o período é T = π e ω = 2π/π = 2. P(t) = −3 cos (2t).
+@165 f matematica/funcoes-afim-e-quadratica fig
+x: Lucro = receita − despesa. Janeiro: 10 − 5 = 5. Fevereiro: 20 − 10 = 10. Março: 15 − 10 = 5. Abril: 20 − 15 = 5. Maio: 28 − 25 = 3. O maior lucro foi em fevereiro, e é ele que serve de referência.
+@167 m matematica/estatistica fig
+x: Metade de 105 é 52,5. Somando as barras: até 400, 5; até 500, 15; até 600, 20; até 700, 35; até 800, 55. Só a partir de 800 mil reais pelo menos 50% dos apartamentos ficam abaixo de p.
+@170 f matematica/porcentagem fig
+x: Volume = capacidade × ocupação. I: 105 × 20% = 21. II: 100 × 30% = 30. III: 20 × 50% = 10. IV: 80 × 40% = 32. V: 40 × 60% = 24 (bilhões de litros). O maior é o IV.
+@171 f matematica/estatistica fig
+x: Média ponderada: (9 · 6 + 18 · 12 + 27 · 9) ÷ (6 + 12 + 9) = (54 + 216 + 243) ÷ 27 = 513 ÷ 27 = 19 anos.
 
 ## 18-enem-2021-ciencias-da-natureza.md | 2021 | 2 | 2º dia, caderno amarelo | Ciências da Natureza
 auto: sim
@@ -214,3 +235,22 @@ x: As barras são do mesmo material, então o som se propaga nelas com a mesma v
 @135 m biologia/evolucao
 s: serpente-marinha (6). => serpente-marinha (6). (Imagens: polvos com o corpo e os tentáculos imitando esses animais.)
 x: Polvos que, por acaso, imitavam animais perigosos ou pouco atraentes eram menos atacados e deixavam mais descendentes. A seleção natural fixou esse comportamento.
+@94 m quimica/quimica-organica fig
+x: Ligações duplas conjugadas se alternam com ligações simples ao longo da cadeia (=C–C=C–C=...). Isso acontece no poliacetileno, (–CH=CH–)n, em que cada unidade tem uma dupla ligada diretamente à dupla da unidade seguinte. Nas outras estruturas, há carbonos com só ligações simples (CH₂) separando as duplas, ou nenhuma dupla na cadeia principal.
+@99 m biologia/fisiologia-humana fig
+s: (VEC⟨g2288⟩) => (VEC)
+x: No gráfico, cada quadrado maior marcado corresponde a 0,2 s, e os picos se repetem a cada 5 desses quadrados, ou seja, a cada 1 s. Um batimento por segundo dá 60 batimentos por minuto.
+@103 m quimica/quimica-organica fig
+x: Na figura, a bilirrubina e a lumirrubina têm os mesmos átomos e a mesma sequência de ligações; muda a posição dos grupos em torno de uma ligação dupla C=C. A luz faz a dupla girar, transformando a forma Z em E: isso é isomeria geométrica (cis-trans).
+@105 d fisica/eletricidade fig
+x: Com dois interruptores de três pontos, cada lâmpada só pode acender numa combinação diferente das posições. No circuito correto, o primeiro interruptor escolhe entre a lâmpada verde e o segundo interruptor, e este escolhe entre a vermelha e a azul. Assim, cada posição acende uma única lâmpada, e nenhuma combinação acende duas ao mesmo tempo nem deixa a bateria em curto.
+@108 m quimica/quimica-organica fig
+x: O hidróxido de sódio é uma base e reage com substâncias que têm hidrogênio ácido. O pesticida III tem grupos OH ligados ao anel aromático (fenol), que são ácidos e liberam H⁺ para o OH⁻. Os outros não têm grupos ácidos desse tipo.
+@121 d fisica/eletricidade fig
+e: Duas esferas carregadas com cargas iguais em módulo e sinais contrários estão ligadas por uma haste rígida isolante na forma de haltere. O sistema se movimenta sob ação da gravidade numa região que tem um campo magnético horizontal uniforme (B), da esquerda para a direita. A imagem apresenta o sistema visto de cima para baixo, no mesmo sentido da aceleração da gravidade (g) que atua na região. || [fig21] || Visto de cima, o diagrama esquemático das forças magnéticas que atuam no sistema, no momento inicial em que as cargas penetram na região de campo magnético, está representado em
+x: As esferas caem, então a velocidade aponta para dentro da página (sentido de g). Pela regra da mão direita, com a velocidade para dentro e B para a direita, a força numa carga positiva aponta para baixo na figura. Na carga negativa, a força tem sentido oposto, para cima. As forças são opostas, uma em cada esfera.
+@127 m fisica/eletricidade fig
+x: A montagem tem duas pilhas (cada par cobre/zinco) ligadas em série, uma em seguida da outra. O cronômetro (o aparelho que consome energia, representado por um resistor) e o voltímetro estão ligados em paralelo com esse conjunto. O circuito equivalente tem duas pilhas em série, com o resistor e o voltímetro em paralelo.
+@128 d fisica/cinematica fig
+e: A figura foi extraída de um antigo jogo para computadores, chamado Bang! Bang! || [fig1] || No jogo, dois competidores controlam os canhões A e B, disparando balas alternadamente com o objetivo de atingir o canhão do adversário; para isso, atribuem valores estimados para o módulo da velocidade inicial de disparo (v₀) e para o ângulo de disparo (θ). || Em determinado momento de uma partida, o competidor B deve disparar; ele sabe que a bala disparada anteriormente, θ = 53°, passou tangenciando o ponto P. || No jogo, g é igual a 10 m/s². Considere sen 53° = 0,8, cos 53° = 0,6 e desprezível a ação de forças dissipativas. || > Disponível em: http://mebdownloads.butzke.net.br. Acesso em: 18 abr. 2015 (adaptado). || Com base nas distâncias dadas e mantendo o último ângulo de disparo, qual deveria ser, aproximadamente, o menor valor de v₀ que permitiria ao disparo efetuado pelo canhão B atingir o canhão A?
+x: A bala sai de B e deve chegar a A, 120 m na horizontal e 35 m acima. Na trajetória do lançamento oblíquo: y = x·tg θ − g·x² / (2·v₀²·cos² θ). Com tg 53° = 0,8/0,6 = 4/3: 35 = 120 · 4/3 − 10 · 14 400 / (2 · v₀² · 0,36) = 160 − 200 000/v₀². Assim, v₀² = 200 000 ÷ 125 = 1 600 e v₀ = 40 m/s.

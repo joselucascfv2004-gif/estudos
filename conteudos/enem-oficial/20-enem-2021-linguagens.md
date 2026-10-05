@@ -219,6 +219,69 @@ As letras de samba normalmente se caracterizam por apresentarem marcas informais
 
 **Assunto:** portugues/funcoes-generos-e-variacao
 
+### 12
+![Figura](enem-2021-d1-q012-1.webp)
+
+> Disponível em: www.deskgram.org. Acesso em: 12 dez. 2018 (adaptado).
+
+A associação entre o texto verbal e as imagens da garrafa e do cão configura recurso expressivo que busca
+
+- A) estimular denúncias de maus-tratos contra animais.
+- B) desvincular o conceito de descarte da ideia de negligência.
+- C) incentivar campanhas de adoção de animais em situação de rua.
+- D) sensibilizar o público em relação ao abandono de animais domésticos.
+- E) alertar a população sobre as sanções legais acerca de uma prática criminosa.
+
+**Resposta:** D
+
+**Explicação:** A imagem junta uma garrafa plástica, que se joga fora sem culpa ("ESSE PET É DESCARTÁVEL"), com um cachorro ("ESSE NÃO"). O jogo com a palavra "pet" compara o descarte de lixo ao abandono de animais e sensibiliza o público contra essa prática.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 12
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 33
+![Figura](enem-2021-d1-q033-1.webp)
+
+> LEMOS, A. Artistas brasileiras. Belo Horizonte: Miguilim, 2018.
+
+O que assegura o reconhecimento desse texto em quadrinhos como prefácio é o(a)
+
+- A) função de apresentação do livro.
+- B) apelo emocional apoiado nas imagens.
+- C) descrição do processo criativo da autora.
+- D) referência à mescla dos trabalhos manual e digital.
+- E) uso de elementos gráficos voltados para o público-alvo.
+
+**Resposta:** A
+
+**Explicação:** Os quadrinhos contam como o livro foi feito e terminam dizendo que, depois de todo o trabalho, ele só precisa de uma coisa: ser lido. Apresentar a obra ao leitor e convidá-lo a ler é a função de um prefácio.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 33
+
+**Assunto:** portugues/funcoes-generos-e-variacao
+
+### 34
+![Figura](enem-2021-d1-q034-1.webp)
+
+> Disponível em: https://g1.globo.com. Acesso em: 18 jun. 2019 (adaptado).
+
+No texto, os recursos verbais e não verbais empregados têm por objetivo
+
+- A) divulgar informações científicas sobre o uso indiscriminado de aparelhos celulares.
+- B) influenciar o leitor a mudar atitudes e hábitos considerados prejudiciais às crianças.
+- C) relacionar o uso da tecnologia aos efeitos decorrentes da falta de exercícios físicos.
+- D) indicar medidas eficazes para desestimular a utilização de telefones pelo público infantil.
+- E) sugerir aos pais e responsáveis a substituição de dispositivos móveis por atividades lúdicas.
+
+**Resposta:** B
+
+**Explicação:** O infográfico mostra os riscos do celular antes de dormir para as crianças e termina com "O que fazer?" e recomendações. O objetivo é convencer o leitor a mudar hábitos prejudiciais.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 34
+
+**Assunto:** portugues/interpretacao-de-texto
+
 ## Médio
 
 ### 8
@@ -851,6 +914,75 @@ Considerando-se o contexto, o gênero e o público-alvo, os argumentos trazidos 
 
 **Assunto:** portugues/interpretacao-de-texto
 
+### 13
+![Figura](enem-2021-d1-q013-1.webp)
+
+> HENFIL. Disponível em: https://medium.com. Acesso em: 29 out. 2018 (adaptado).
+
+Nessa tirinha, produzida na década de 1970, os recursos verbais e não verbais sinalizam a finalidade de
+
+- A) reforçar a luta por direitos civis.
+- B) explicitar a autonomia feminina.
+- C) ironizar as condições de igualdade.
+- D) estimular a abdicação da vida social.
+- E) criticar as obrigações da maternidade.
+
+**Resposta:** C
+
+**Explicação:** A personagem (a Graúna, de Henfil) diz que, quando o bebê nascer, vai renunciar à vida folgada, à beleza, à vida social e aos projetos pessoais. O último quadrinho diz "Assim termina mais um capítulo na luta da mulher por sua emancipação...". A ironia mostra que a maternidade, do jeito que era imposta, acabava com a igualdade prometida às mulheres.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 13
+
+**Assunto:** portugues/interpretacao-de-texto
+
+### 18
+![Figura](enem-2021-d1-q018-1.webp)
+
+> MEIRELLES, V. Moema. Óleo sobre tela, 129 cm x 190 cm. Masp, São Paulo, 1866.
+
+> Disponível em: www.masp.art.br. Acesso em: 13 ago. 2012 (adaptado).
+
+Nessa obra, que retrata uma cena de Caramuru, célebre poema épico brasileiro, a filiação à estética romântica manifesta-se na
+
+- A) exaltação do retrato fiel da beleza feminina.
+- B) tematização da fragilidade humana diante da morte.
+- C) ressignificação de obras do cânone literário nacional.
+- D) representação dramática e idealizada do corpo da índia.
+- E) oposição entre a condição humana e a natureza primitiva.
+
+**Resposta:** D
+
+**Explicação:** A pintura mostra Moema morta na praia, com o corpo da indígena em pose dramática e idealizado, belo e sensual, mesmo diante da tragédia. A idealização do indígena e o drama são marcas do Romantismo.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 18
+
+**Assunto:** artes/artes-e-educacao-fisica
+
+### 27
+![Figura](enem-2021-d1-q027-1.webp)
+
+> RODRIGUES, S. Acervo pessoal.
+
+A revolução estética brasiliense empurrou os designers de móveis dos anos 1950 e início dos 1960 para o novo. Induzidos a abandonar o gosto rebuscado pelo colonial, a trocar Ouro Preto por Brasília, eles criaram um mobiliário contemporâneo que ainda hoje vemos nas lojas e nas salas de espera de consultórios e escritórios. Colada no uso de madeiras nobres, como o jacarandá e a peroba, e em materiais de revestimento como o couro e a palhinha, desenvolveu-se uma tendência feita de linhas retas e curvas suaves, nos moldes da capital no Cerrado.
+
+> CHAVES, D. Disponível em: www.veja.abril.com.br. Acesso em: 29 jul. 2010.
+
+Na reportagem sobre os 50 anos de Brasília, de Débora Chaves, com a reprodução fotográfica de cadeiras e poltronas de Sérgio Rodrigues, verifica-se que os elementos da estética brasiliense
+
+- A) aparecem definidos nas linhas retas dos objetos.
+- B) expressam o desenho rebuscado por meio das linhas.
+- C) mostram a expressão assimétrica das linhas curvas suaves.
+- D) apontam a unidade de matéria-prima utilizada em sua fabricação.
+- E) surgem na simplificação das informações visuais de cada composição.
+
+**Resposta:** E
+
+**Explicação:** O texto fala em abandonar o "gosto rebuscado" do colonial e em criar móveis de "linhas retas e curvas suaves". As cadeiras da foto têm formas simples e limpas, sem enfeites: a estética brasiliense aparece na simplificação visual dos objetos.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 27
+
+**Assunto:** artes/artes-e-educacao-fisica
+
 ## Difícil
 
 ### 38
@@ -944,5 +1076,26 @@ Na construção do soneto, as cores representam um recurso poético que configur
 **Explicação:** O pavão vermelho representa a alegria que chegou e ficou: depois dele, "os meus outros pavões foram-se embora". O eu lírico mostra ter alcançado a plena realização.
 
 **Fonte:** ENEM 2021, 1º dia, caderno azul, questão 41
+
+**Assunto:** literatura/pre-modernismo-ao-contemporaneo
+
+### 43
+![Figura](enem-2021-d1-q043-1.webp)
+
+> D’SALETE, M. Cumbe. São Paulo: Veneta, 2018, p. 10-11 (adaptado).
+
+A sequência dos quadrinhos conjuga lirismo e violência ao
+
+- A) sugerir a impossibilidade de manutenção dos afetos.
+- B) revelar os corpos marcados pela brutalidade colonial.
+- C) representar o abatimento diante da desumanidade vivida.
+- D) acentuar a resistência identitária dos povos escravizados.
+- E) expor os sujeitos alijados de sua ancestralidade pelo exílio.
+
+**Resposta:** D
+
+**Explicação:** Os quadrinhos de Cumbe mostram pessoas escravizadas que guardam lembranças da terra natal ("o mar que não acaba", "beber a kalunga") em meio à violência. A memória e os laços com a origem africana expressam a resistência identitária desses povos.
+
+**Fonte:** ENEM 2021, 1º dia, caderno azul, questão 43
 
 **Assunto:** literatura/pre-modernismo-ao-contemporaneo
