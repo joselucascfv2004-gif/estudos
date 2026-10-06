@@ -10,7 +10,9 @@ import subprocess
 import tempfile
 from pathlib import Path
 
-CODIFICACAO_MAXIMA = ["-c:v", "libx264", "-preset", "slow", "-crf", "16", "-profile:v", "high",
+# CRF 10 dá cerca do dobro de dados por segundo do CRF 16: o TikTok recomprime tudo, e quanto melhor
+# o original, menos ele perde. Se passar de 30 MB, caber_no_limite ajusta.
+CODIFICACAO_MAXIMA = ["-c:v", "libx264", "-preset", "slow", "-crf", "10", "-profile:v", "high",
                       "-pix_fmt", "yuv420p"]
 LIMITE_ENVIO = 29 * 1024 * 1024  # bytes; o chat recusa arquivos acima de 30 MB
 AUDIO_KBPS = 160

@@ -646,6 +646,7 @@ Texto para colar no TikTok:
 ANTES DE PUBLICAR:
 - Em "Mais opções", ligue "Conteúdo gerado por IA" (a narração é feita por voz de IA).
 - Ainda em "Mais opções", ligue "Enviar em alta qualidade" (ou "Upload HD"), se aparecer.
+- Poste usando Wi-Fi: com dados móveis o TikTok pode enviar o vídeo com qualidade menor.
 """, encoding="utf-8")
     print(f"{arquivo.name}: vídeo pronto ({duracao:.0f} s)", flush=True)
 
