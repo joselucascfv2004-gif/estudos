@@ -1,0 +1,98 @@
+{
+  "titulo": "Você sabe Português? 5 erros comuns",
+  "titulo_tela": "Você sabe Português?",
+  "destaque": "Português?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "PORTUGUÊS  •  5 PERGUNTAS",
+  "capa_cor": "vermelho",
+  "capa_titulo": "Você sabe Português?",
+  "capa_destaque": "Português?",
+  "capa_sub": "Erros que quase todo mundo comete",
+  "chamada": "Você sabe português? São cinco erros que quase todo mundo comete. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "descricao": "Você sabe Português? ✍️ 5 erros que quase todo mundo comete. Comenta quantas você acertou! 👇",
+  "hashtags": "#portugues #enem #concurso #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md).",
+  "perguntas": [
+    {
+      "materia": "Português",
+      "pergunta": "Qual palavra está escrita do jeito certo?",
+      "alternativas": [
+        "excessão",
+        "exeção",
+        "esseção",
+        "exceção",
+        "eceção"
+      ],
+      "certa": 3,
+      "resposta_falada": "exceção, com xis, cê e cedilha",
+      "explicacao": "Excessão, com dois esses, não existe. Esse erro aparece muito em redação e em prova de concurso.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 3"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "Qual palavra completa a frase da tela?",
+      "texto_tela": "Complete: Ele chegou cedo, ___ não entrou.",
+      "alternativas": [
+        "mais",
+        "mas",
+        "más",
+        "mau",
+        "mal"
+      ],
+      "certa": 1,
+      "resposta_falada": "mas, sem i",
+      "explicacao": "Ele indica oposição, igual a porém. E mais, com i, é o contrário de menos.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 9"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "Qual forma completa a pergunta da tela?",
+      "texto_tela": "Complete: ___ você chegou atrasado?",
+      "alternativas": [
+        "Porque",
+        "Por que",
+        "Porquê",
+        "Por quê",
+        "Pôr que"
+      ],
+      "certa": 1,
+      "resposta_falada": "por que, separado e sem acento",
+      "explicacao": "É assim nas perguntas. O porque junto aparece na resposta, quando explica o motivo.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 8"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "Qual opção completa a frase da tela?",
+      "texto_tela": "Complete: Ele mora ___ muito tempo aqui.",
+      "alternativas": [
+        "a",
+        "à",
+        "há",
+        "á",
+        "ah"
+      ],
+      "certa": 2,
+      "resposta_falada": "há, com agá",
+      "explicacao": "Esse há vem do verbo haver e indica tempo que já passou. A dica é trocar por faz: faz muito tempo.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 15"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "E a última: qual é a forma correta?",
+      "texto_tela": "Qual é a forma correta?",
+      "alternativas": [
+        "concerteza",
+        "comcerteza",
+        "cum certeza",
+        "com certeza",
+        "con certeza"
+      ],
+      "certa": 3,
+      "resposta_falada": "com certeza",
+      "explicacao": "Sempre com eme e separado. Concerteza, tudo junto, não existe.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 10"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E segue o perfil pra não perder o próximo teste. O app Estudos chega em breve."
+}
