@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**7940 questões** em **176 tópicos**.
+**8190 questões** em **181 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
@@ -314,7 +314,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2009 — Ciências Humanas](enem-oficial/67-enem-2009-ciencias-humanas.md) | ENEM | 11 | 29 | 4 |
 | [ENEM 2009 — Linguagens](enem-oficial/68-enem-2009-linguagens.md) | ENEM | 7 | 15 | 5 |
 
-## CPA (ANBIMA) — 400 questões
+## CPA (ANBIMA) — 650 questões
 
 *Certificações Financeiras*
 
@@ -328,3 +328,8 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Renda variável e COE](cpa/06-renda-variavel-e-coe.md) | Certificações | 17 | 17 | 16 |
 | [Fundos de investimento](cpa/07-fundos-de-investimento.md) | Certificações | 17 | 17 | 16 |
 | [Previdência complementar](cpa/08-previdencia-complementar.md) | Certificações | 17 | 17 | 16 |
+| [Crédito, serviços bancários e seguros](cpa/09-credito-servicos-bancarios-e-seguros.md) | Certificações | 17 | 17 | 16 |
+| [Finanças pessoais e planejamento](cpa/10-financas-pessoais-e-planejamento.md) | Certificações | 17 | 17 | 16 |
+| [Suitability, perfil do investidor e conduta ética](cpa/11-suitability-e-conduta-etica.md) | Certificações | 17 | 17 | 16 |
+| [Prevenção à lavagem de dinheiro, LGPD e crimes contra o mercado](cpa/12-pld-lgpd-e-crimes-de-mercado.md) | Certificações | 17 | 17 | 16 |
+| [Inovação: ESG, finanças digitais e open finance](cpa/13-inovacao-esg-e-tecnologia.md) | Certificações | 17 | 17 | 16 |
