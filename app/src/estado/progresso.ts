@@ -268,7 +268,8 @@ export function pesoPreferencia(p: Progresso, id: string): number {
 /**
  * Agenda a próxima revisão de uma questão depois de respondida. O dia varia um pouco (de 70% a 140%
  * do intervalo da caixa), para as revisões caírem em dias variados e misturarem assuntos de dias
- * diferentes. `peso` > 1 (preferências do aluno) encurta o intervalo.
+ * diferentes. `peso` > 1 (preferências do aluno) encurta o intervalo. Questões "teimosas" (erradas
+ * mais de uma vez) também voltam antes: quanto mais erros, mais curto o intervalo, até a metade.
  */
 export function agendar(
   anterior: EstatQuestao | undefined,
@@ -279,7 +280,9 @@ export function agendar(
 ): Pick<EstatQuestao, 'caixa' | 'proxima'> {
   // acertar de primeira, sem nunca ter errado, já pula uma caixa
   const caixa = acertou ? Math.min(MAX_CAIXA, (anterior?.caixa ?? 0) + (anterior ? 1 : 2)) : 0;
-  const dias = Math.max(1, Math.round((INTERVALOS[caixa] / peso) * (0.7 + sorteio() * 0.7)));
+  const erros = (anterior?.erros ?? 0) + (acertou ? 0 : 1);
+  const teimosia = erros >= 2 ? 1 + 0.25 * Math.min(erros - 1, 4) : 1;
+  const dias = Math.max(1, Math.round((INTERVALOS[caixa] / (peso * teimosia)) * (0.7 + sorteio() * 0.7)));
   return { caixa, proxima: somarDias(dia, dias) };
 }
 
@@ -569,7 +572,7 @@ export function evolucaoDisciplinas(p: Progresso, dia = hoje()): EvolucaoDiscipl
 
 // ---------- Montagem de lições ----------
 
-export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos' | 'salvas' | 'simulado';
+export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos' | 'teimosas' | 'salvas' | 'simulado';
 
 /**
  * Em que fila a questão entra numa lição: nunca vista, revisão vencida, já vista ou "esperando".
@@ -652,7 +655,7 @@ export function montarRevisao(p: Progresso, dia = hoje(), sorteio: () => number 
   const pendentes = revisoesPendentes(p, dia);
   const peso = (id: string) => pesoPreferencia(p, id) ** 2;
   const vencidas = sortearComPeso(
-    pendentes.map((id) => ({ item: id, peso: peso(id) * (p.questoes[id].caixa === 0 ? 2 : 1) })),
+    pendentes.map((id) => ({ item: id, peso: peso(id) * (p.questoes[id].caixa === 0 ? 2 : 1) * (ehTeimosa(p.questoes[id]) ? 2 : 1) })),
     TAMANHO_LICAO * 2,
     sorteio,
   );
@@ -672,6 +675,36 @@ export function montarRevisao(p: Progresso, dia = hoje(), sorteio: () => number 
 /** Quantas questões a próxima revisão teria (vencidas + surpresa), até o tamanho de uma lição. */
 export function tamanhoRevisao(p: Progresso, dia = hoje()): number {
   return Math.min(TAMANHO_LICAO, questoesJaVistas(p, dia));
+}
+
+/**
+ * Questão "teimosa": errada pelo menos duas vezes e ainda não fixada (não acertou várias vezes
+ * seguidas depois do último erro, ou seja, ainda está nas primeiras caixas da revisão).
+ */
+export const ehTeimosa = (e: EstatQuestao | undefined) => !!e && e.erros >= 2 && (e.caixa ?? 0) <= 2;
+
+/** Questões teimosas da prova do aluno, das que ele mais erra para as que menos erra. */
+export function questoesTeimosas(p: Progresso): string[] {
+  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
+  return Object.entries(p.questoes)
+    .filter(([id, e]) => ehTeimosa(e) && daProvaDoAluno(p, id, assuntos))
+    .sort(([, a], [, b]) => b.erros - b.acertos - (a.erros - a.acertos) || (a.caixa ?? 0) - (b.caixa ?? 0))
+    .map(([id]) => id);
+}
+
+/**
+ * Lição "Questões que mais erro": só as teimosas, sorteadas com mais chance para as mais erradas.
+ * Não respeita a data da revisão: serve para atacar de propósito o que não está fixando.
+ */
+export function montarTeimosas(p: Progresso, sorteio: () => number = Math.random): Questao[] {
+  const ids = questoesTeimosas(p);
+  const sorteadas = sortearComPeso(
+    ids.map((id) => ({ item: id, peso: 1 + Math.min(Math.max(p.questoes[id].erros - p.questoes[id].acertos, 0), 4) })),
+    TAMANHO_LICAO * 2,
+    sorteio,
+  );
+  const qs = sorteadas.map((id) => getQuestao(id)?.questao).filter((q): q is Questao => !!q);
+  return embaralhar(semModeloRepetido(qs, TAMANHO_LICAO));
 }
 
 /** Lição focada nos pontos fracos (ou em um tópico específico): primeiro os erros com revisão vencida. */
@@ -802,7 +835,7 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
     }
     if (r.nivel === 2) p.licoesDificeis++;
   }
-  if (r.modo === 'revisao') p.revisoesFeitas++;
+  if (r.modo === 'revisao' || r.modo === 'teimosas') p.revisoesFeitas++;
 
   // Bônus
   let bonusDesafio = 0;

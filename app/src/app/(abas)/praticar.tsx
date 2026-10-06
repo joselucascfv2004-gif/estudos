@@ -12,6 +12,7 @@ import {
   acertoDisciplina,
   pontosFracos,
   proximaRevisao,
+  questoesTeimosas,
   revisoesPendentes,
   tamanhoRevisao,
 } from '../../estado/progresso';
@@ -35,6 +36,7 @@ export default function Praticar() {
   // sem revisão vencida, dá para fazer uma revisão surpresa com questões de dias anteriores
   const surpresa = pendentes ? 0 : tamanhoRevisao(p);
   const fracos = pontosFracos(p).slice(0, 5);
+  const teimosas = questoesTeimosas(p).length;
   const plural = (n: number) => (n === 1 ? 'questão' : 'questões');
 
   return (
@@ -66,6 +68,21 @@ export default function Praticar() {
             desativado={!pendentes && !surpresa}
             onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
           />
+          {teimosas > 0 && (
+            <>
+              <Text style={[s.sub, { marginTop: 12 }]}>
+                {teimosas === 1 ? 'Uma questão você já errou' : `${teimosas} questões você já errou`} mais de uma vez. Elas voltam mais cedo na revisão,
+                mas você pode atacá-las agora.
+              </Text>
+              <Botao
+                testID="btn-teimosas"
+                titulo={`Questões que mais erro (${Math.min(teimosas, 10)})`}
+                contorno
+                cor={c.roxo}
+                onPress={() => router.push({ pathname: '/licao', params: { modo: 'teimosas' } })}
+              />
+            </>
+          )}
         </Cartao>
 
         <Cartao estilo={{ backgroundColor: c.vermelhoClaro, borderColor: c.vermelhoBorda }}>

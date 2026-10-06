@@ -16,6 +16,7 @@ import {
   montarLicaoTopico,
   montarPontosFracos,
   montarRevisao,
+  montarTeimosas,
   montarSalvas,
   montarTreino,
   nivelDoUsuario,
@@ -63,6 +64,7 @@ export default function Licao() {
     else if (modo === 'desafio') qs = montarDesafio(p);
     else if (modo === 'revisao') qs = montarRevisao(p);
     else if (modo === 'fracos') qs = montarPontosFracos(p, params.topico);
+    else if (modo === 'teimosas') qs = montarTeimosas(p);
     else if (modo === 'salvas') qs = montarSalvas(p);
     else qs = montarTreino(p, params.disciplina);
     return qs.map((q) => prepararItem(q));
@@ -92,9 +94,11 @@ export default function Licao() {
           ? 'Revisão'
           : modo === 'fracos'
             ? 'Pontos fracos'
-            : modo === 'salvas'
-              ? 'Questões salvas'
-              : 'Treino';
+            : modo === 'teimosas'
+              ? 'Questões que mais erro'
+              : modo === 'salvas'
+                ? 'Questões salvas'
+                : 'Treino';
 
   if (!inicial.length) {
     return (
@@ -106,7 +110,9 @@ export default function Licao() {
             ? 'As questões que você responde hoje voltam para revisão daqui a alguns dias. Volte amanhã!'
             : modo === 'fracos'
               ? 'Você ainda não tem pontos fracos. Continue estudando que o app vai acompanhando o seu desempenho.'
-              : 'Não encontramos questões para esta seleção.'}
+              : modo === 'teimosas'
+                ? 'Nenhuma questão errada mais de uma vez. Quando você errar a mesma questão de novo, ela aparece aqui até ser fixada.'
+                : 'Não encontramos questões para esta seleção.'}
         </Text>
         <Botao titulo="Voltar" onPress={() => router.back()} estilo={{ alignSelf: 'stretch', margin: 24 }} />
       </SafeAreaView>
