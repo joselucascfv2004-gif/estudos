@@ -191,6 +191,76 @@ Comparando um mapa na escala 1 : 1.000.000 com outro na escala 1 : 10.000 (de me
 
 **Explicação:** Ferramenta: comparar escalas. Escala é uma fração: 1/10.000 > 1/1.000.000. Quanto menor o denominador, maior a escala, menor a área representada e maior o nível de detalhe.
 
+### 13
+<!-- modelo: f13 -->
+A cidade X está a 20° de latitude norte e a cidade Y, no mesmo meridiano, a 33° de latitude sul. Qual é a diferença de latitude entre elas?
+
+- A) 26,5°
+- B) 63°
+- C) 53°
+- D) 13°
+- E) 143°
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: hemisférios diferentes: as latitudes se somam. Uma está acima e a outra abaixo do Equador (0°). 20° + 33° = 53°.
+
+### 14
+<!-- modelo: f12 -->
+Duas cidades estão a 100 km uma da outra. Num mapa de escala 1 : 100.000, qual será a distância entre elas?
+
+- A) 100 cm
+- B) 1 cm
+- C) 103 cm
+- D) 10 cm
+- E) 1.000 cm
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: distância no mapa = real ÷ denominador (na mesma unidade). 100 km = 10.000.000 cm. 10.000.000 ÷ 100.000 = 100 cm.
+
+### 15
+<!-- modelo: f14 -->
+Qual é o menor ângulo entre as direções norte e sudeste na rosa dos ventos?
+
+- A) 180°
+- B) 135°
+- C) 90°
+- D) 270°
+- E) 45°
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: rosa dos ventos como relógio: cada direção colateral fica a 45° das vizinhas. Entre dois pontos cardeais seguidos há 90°; os colaterais ficam no meio. De norte a sudeste: 135°.
+
+### 16
+<!-- modelo: f11 -->
+Quantos centímetros há em 25 km?
+
+- A) 2.500 cm
+- B) 25.000.000 cm
+- C) 25.000 cm
+- D) 2.500.000 cm
+- E) 250.000 cm
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: 1 km = 1 000 m = 100 000 cm. Essa conversão é a base de todos os cálculos de escala. 25 × 100 000 = 2.500.000 cm.
+
+### 17
+<!-- modelo: f10 -->
+Uma cidade fica na latitude 40° N. Em que zona térmica (climática) da Terra ela está?
+
+- A) zona temperada do norte
+- B) zona temperada do sul
+- C) zona polar ártica
+- D) zona intertropical (tropical)
+- E) zona polar antártica
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: zonas térmicas: limitadas pelos trópicos (≈ 23,5°) e círculos polares (≈ 66,5°). Entre os trópicos fica a zona intertropical; entre trópico e círculo polar, as temperadas; além dos círculos, as polares. 40° N → zona temperada do norte.
+
 ## Médio
 
 ### 1
@@ -361,6 +431,76 @@ Dois pontos estão sobre o mesmo meridiano, nas latitudes 1° S e 8° N. Conside
 
 **Explicação:** Ferramenta: distância pela latitude (1° ≈ 111 km). Estão em hemisférios diferentes: a diferença é 1° + 8° = 9°. 9 × 111 ≈ 999 km.
 
+### 13
+<!-- modelo: m14 -->
+Duas cidades têm diferença de longitude de 52,5°. Qual é a diferença entre as suas horas solares (locais)?
+
+- A) 3 h 15 min
+- B) 3 h
+- C) 4 h
+- D) 3 h 45 min
+- E) 3 h 30 min
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: 15° = 1 h, ou 1° = 4 min. 52,5 × 4 = 210 min. 210 min = 3 h 30 min.
+
+### 14
+<!-- modelo: m13 -->
+Nos equinócios, o Sol do meio-dia fica a pino no Equador. Qual é a altura do Sol (ângulo acima do horizonte) ao meio-dia, nesse dia, num lugar de latitude 52°?
+
+- A) 45°
+- B) 64°
+- C) 38°
+- D) 52°
+- E) 90°
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: equinócio: altura do Sol ao meio-dia = 90° − latitude. Quanto mais longe do Equador, mais inclinados chegam os raios solares. 90° − 52° = 38°.
+
+### 15
+<!-- modelo: m10 -->
+No Equador, 1° de longitude mede cerca de 111 km. Quanto mede 1° de longitude na latitude de 45°? (cos 45° ≈ 0,71)
+
+- A) 32,19 km
+- B) 157,62 km
+- C) 156,34 km
+- D) 111 km
+- E) 78,81 km
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: os paralelos encolhem em direção aos polos: 111 × cos(latitude). Os meridianos se aproximam até se encontrarem nos polos. 111 × 0,71 = 78,81 km.
+
+### 16
+<!-- modelo: m11 -->
+Num mapa de escala 1 : 250.000, quantos quilômetros reais correspondem a 1 cm do mapa?
+
+- A) 0,25 km
+- B) 2.500 km
+- C) 2,5 km
+- D) 25 km
+- E) 250 km
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: escala numérica → gráfica. 1 cm do mapa = 250.000 cm reais; divida por 100 000 para ter km. 250.000 ÷ 100 000 = 2,5 km.
+
+### 17
+<!-- modelo: m12 -->
+Em São Paulo, na altura do Trópico de Capricórnio, em junho, ao meio-dia solar, para que lado aponta a sombra de uma vara fincada no chão (fora do verão)?
+
+- A) não há sombra
+- B) para o leste
+- C) para o sul
+- D) para o oeste
+- E) para o norte
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: o Sol ao meio-dia fica do lado do Equador. Em lugares ao sul do Trópico de Capricórnio, o Sol do meio-dia fica ao norte; a sombra aponta para o lado oposto. A sombra aponta para o sul.
+
 ## Difícil
 
 ### 1
@@ -530,3 +670,59 @@ Um avião parte de Moscou às 21h (hora local) rumo a Lisboa. O voo dura 7 horas
 **Resposta:** C
 
 **Explicação:** Ferramenta: fuso + duração do voo. Chegada no horário de Moscou: 04h. Diferença de fuso: 45°/15 = 3 h a menos (oeste). Hora local: 01h do dia seguinte.
+
+### 13
+<!-- modelo: d10 -->
+Dois pontos estão no paralelo de 60° N, separados por 20° de longitude. Qual é a distância entre eles, medida ao longo do paralelo? (1° no Equador ≈ 111 km; cos 60° = 0,5)
+
+- A) 1.200 km
+- B) 555 km
+- C) 1.110 km
+- D) 2.220 km
+- E) 1.665 km
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: arco no paralelo: graus × 111 × cos(latitude). No paralelo de 60°, cada grau vale 111 × 0,5 = 55,5 km. 20 × 55,5 = 1.110 km.
+
+### 14
+<!-- modelo: d12 -->
+Qual é a altura do Sol ao meio-dia num lugar de latitude 10° S, no solstício de dezembro (Sol a pino em ≈ 23,5° S)?
+
+- A) 45°
+- B) 76,5°
+- C) 56,5°
+- D) 13,5°
+- E) 80°
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: altura do Sol ao meio-dia = 90° − (distância em graus até onde o Sol está a pino). A distância entre 10° S e 23,5° S é 13,5°. 90° − 13,5° = 76,5°.
+
+### 15
+<!-- modelo: d13 -->
+A cidade A está a 47° O de longitude e a cidade B, a 60° O. Quando é meio-dia solar em A, que horas solares são em B?
+
+- A) 10h16
+- B) 11h08
+- C) 11h00
+- D) 12h00
+- E) 12h52
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: hora solar: 1° de longitude = 4 minutos; a leste, mais tarde. A diferença é 13° = 52 min. B fica a oeste de A, então está atrasada. Em B: 11h08.
+
+### 16
+<!-- modelo: d11 -->
+Um carro, a 90 km/h constantes, leva 1,5 h para ir de uma cidade a outra. No mapa, essa distância mede 6 cm. Qual é a escala do mapa?
+
+- A) 1 : 22.500.000
+- B) 1 : 22.500
+- C) 1 : 2.250.000
+- D) 1 : 225.000
+- E) 1 : 4.500.000
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: escala = mapa ÷ real (mesma unidade). Distância real: 90 × 1,5 = 135 km = 13.500.000 cm. 13.500.000 ÷ 6 = 2.250.000 → 1 : 2.250.000.

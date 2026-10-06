@@ -163,6 +163,104 @@ Em um grupo de 50 pessoas, 29 gostam de cinema, 24 gostam de teatro e 6 gostam d
 
 **Explicação:** Ferramenta: união de dois conjuntos. n(A ∪ B) = 29 + 24 − 6 = 47. Não gostam de nenhum: 50 − 47 = 3.
 
+### 11
+<!-- modelo: f10 -->
+Sejam A = {1, 2, 3, 5, 8} e B = {6, 8, 9, 10}. Quantos elementos tem A − B?
+
+- A) 4
+- B) 5
+- C) 1
+- D) 8
+- E) 3
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: A − B: está em A e não está em B. Tire de A os elementos que também estão em B. A − B = {1, 2, 3, 5}: 4 elementos.
+
+### 12
+<!-- modelo: f8 -->
+Quantos subconjuntos tem o conjunto {a, b, c}?
+
+- A) 9
+- B) 3
+- C) 7
+- D) 6
+- E) 8
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: n elementos → 2ⁿ subconjuntos. Cada elemento entra ou não entra (2 opções), incluindo o vazio e o próprio conjunto. 2³ = 8.
+
+### 13
+<!-- modelo: f12 -->
+Quantos elementos tem o conjunto D dos divisores positivos de 24?
+
+- A) 8
+- B) 12
+- C) 9
+- D) 6
+- E) 7
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: listar os divisores em pares. Divisores: 1, 2, 3, 4, 6, 8, 12, 24. São 8.
+
+### 14
+<!-- modelo: f9 -->
+Dado A = {2, 3, 4}, qual das afirmações é verdadeira?
+
+- A) A ⊂ {2, 3}
+- B) 2 ⊂ A
+- C) 1 ∈ A
+- D) {2} ∈ A
+- E) {2} ⊂ A
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: ∈ relaciona elemento e conjunto; ⊂ relaciona dois conjuntos. 2 é elemento (∈); {2} é um conjunto contido em A (⊂); o vazio está contido em todo conjunto. Verdadeira: {2} ⊂ A.
+
+### 15
+<!-- modelo: f11 -->
+Numa pesquisa, 40 pessoas usam o aplicativo A, e 12 delas usam também o aplicativo B. Quantas usam SÓ o aplicativo A?
+
+- A) 28
+- B) 16
+- C) 52
+- D) 12
+- E) 40
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: "só A" = A menos a interseção. As que usam os dois estão contadas dentro das que usam A. 40 − 12 = 28.
+
+### 16
+<!-- modelo: f14 -->
+Quantos elementos tem o conjunto {x ∈ ℕ | 5 < x ≤ 10}?
+
+- A) 6
+- B) 7
+- C) 4
+- D) 10
+- E) 5
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: liste os naturais que satisfazem a condição. 5 não entra (é "<"); 10 entra. {6, 7, 8, 9, 10}: 5 elementos.
+
+### 17
+<!-- modelo: f13 -->
+Se A tem 3 elementos e B tem 4 elementos, quantos pares ordenados (x, y), com x ∈ A e y ∈ B, existem no produto cartesiano A × B?
+
+- A) 81
+- B) 24
+- C) 128
+- D) 7
+- E) 12
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: n(A × B) = n(A)·n(B). Para cada x de A há n(B) escolhas de y. 3 × 4 = 12.
+
 ## Médio
 
 ### 1
@@ -305,6 +403,104 @@ Em uma pesquisa com 120 clientes de um banco, 28 usam o aplicativo, 51 usam o in
 
 **Explicação:** Ferramenta: "apenas" no diagrama de Venn. Apenas o aplicativo = n(App) − n(ambos) = 28 − 16 = 12.
 
+### 11
+<!-- modelo: m9 -->
+Dos 120 funcionários de uma empresa, 50 têm carro, 40 têm moto e 15 têm os dois. Quantos não têm nem carro nem moto?
+
+- A) 75
+- B) 45
+- C) 30
+- D) 48
+- E) 15
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: "nenhum dos dois" = total − união. União = 50 + 40 − 15 = 75. 120 − 75 = 45.
+
+### 12
+<!-- modelo: m13 -->
+Quantos números de 1 a 60 são múltiplos de 3 ou de 5?
+
+- A) 14
+- B) 28
+- C) 27
+- D) 32
+- E) 4
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: inclusão-exclusão. Múltiplos de 3: 20; de 5: 12; dos dois (múltiplos de 15): 4. 20 + 12 − 4 = 28.
+
+### 13
+<!-- modelo: m10 -->
+Um conjunto tem 7 elementos. Quantos dos seus subconjuntos têm exatamente 3 elementos?
+
+- A) 35
+- B) 128
+- C) 70
+- D) 8
+- E) 21
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: subconjuntos de k elementos = C(n, k). Num subconjunto a ordem não importa. C(7, 3) = 35.
+
+### 14
+<!-- modelo: m11 -->
+Quantos números inteiros pertencem à interseção dos intervalos [−2, 3] e ]1, 9]?
+
+- A) 6
+- B) 8
+- C) 2
+- D) 1
+- E) 3
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: interseção de intervalos: a parte comum. A parte comum vai de 1 (aberto) até 3 (fechado). Inteiros: 2, 3 → 2.
+
+### 15
+<!-- modelo: m14 -->
+Num universo U com 30 elementos, n(A) = 8, n(B) = 10 e n(A ∩ B) = 4. Quantos elementos tem o complementar de A ∪ B?
+
+- A) 16
+- B) 22
+- C) 20
+- D) 12
+- E) 14
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: complementar = universo − conjunto. n(A ∪ B) = 8 + 10 − 4 = 14. 30 − 14 = 16.
+
+### 16
+<!-- modelo: m12 -->
+O conjunto das partes de A, P(A), tem 64 elementos. Quantos elementos tem A?
+
+- A) 8
+- B) 32
+- C) 5
+- D) 6
+- E) 7
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: n(P(A)) = 2ⁿ. 2ⁿ = 64. n = 6.
+
+### 17
+<!-- modelo: m8 -->
+Numa escola, 60 alunos fazem inglês, 30 fazem espanhol e 78 fazem pelo menos um dos dois cursos. Quantos fazem os dois?
+
+- A) 12
+- B) 90
+- C) 48
+- D) 168
+- E) 18
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: n(A ∩ B) = n(A) + n(B) − n(A ∪ B). A soma de A e B conta duas vezes quem faz os dois. 60 + 30 − 78 = 12.
+
 ## Difícil
 
 ### 1
@@ -446,3 +642,87 @@ Quantos números inteiros de 1 a 150 NÃO são divisíveis por 2, nem por 3, nem
 **Resposta:** A
 
 **Explicação:** Ferramenta: princípio da inclusão-exclusão (3 conjuntos). Conte os divisíveis por pelo menos um: some os simples, tire os pares (6, 10, 15) e devolva o triplo (30). Depois use o complementar. 75 + 50 + 30 − 25 − 15 − 10 + 5 = 110. Não divisíveis: 150 − 110 = 40.
+
+### 11
+<!-- modelo: d10 -->
+A diferença simétrica A Δ B reúne os elementos que estão em A ou em B, mas não nos dois. Para A = {1, 2, 4, 5, 6} e B = {4, 6, 8, 9}, quantos elementos tem A Δ B?
+
+- A) 9
+- B) 2
+- C) 7
+- D) 6
+- E) 5
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: A Δ B = (A ∪ B) − (A ∩ B). União: 7 elementos; interseção: 2. A Δ B = {1, 2, 5, 8, 9}: 5.
+
+### 12
+<!-- modelo: d11 -->
+Um conjunto tem 7 elementos, entre eles o elemento a. Quantos subconjuntos contêm o elemento a?
+
+- A) 63
+- B) 127
+- C) 128
+- D) 64
+- E) 7
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: fixe o elemento obrigatório. O a já está escolhido; os outros 6 elementos entram ou não. 2⁶ = 64.
+
+### 13
+<!-- modelo: d8 -->
+Numa pesquisa, 50 pessoas leem o jornal A, 40 o B e 30 o C; 15 leem A e B, 10 leem A e C, 10 leem B e C, e 5 leem os três. Quantas leem EXATAMENTE UM jornal?
+
+- A) 65
+- B) 20
+- C) 60
+- D) 120
+- E) 90
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: diagrama de Venn do centro para fora. Só A = 50 − 15 − 10 + 5 = 30; só B = 20; só C = 15. 30 + 20 + 15 = 65.
+
+### 14
+<!-- modelo: d12 -->
+O conjunto A tem 40 elementos e B tem 35. Qual é o MAIOR número possível de elementos em A ∩ B?
+
+- A) 40
+- B) 0
+- C) 75
+- D) 35
+- E) 5
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: a interseção cabe dentro do menor conjunto. No máximo, o menor conjunto está inteiro dentro do outro. Máximo: 35.
+
+### 15
+<!-- modelo: d9 -->
+Numa turma de 100 alunos, 60 gostam de matemática e 55 gostam de português. Qual é o número MÍNIMO de alunos que gostam das duas matérias?
+
+- A) 40
+- B) 55
+- C) 25
+- D) 115
+- E) 15
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: mínimo da interseção = n(A) + n(B) − total. Mesmo que ninguém fique de fora, 60 + 55 = 115 passa de 100: o excesso tem de ser contado duas vezes. 115 − 100 = 15.
+
+### 16
+<!-- modelo: d13 -->
+Em três clubes, 20 pessoas são sócias de A e B, 14 de A e C, 11 de B e C, e 6 são sócias dos três. Quantas pessoas são sócias de PELO MENOS DOIS clubes?
+
+- A) 45
+- B) 43
+- C) 27
+- D) 33
+- E) 39
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: cuidado: quem está nos três foi contado em cada interseção dupla. Exatamente dois: 27; nos três: 6. 27 + 6 = 33.

@@ -176,6 +176,90 @@ Qual é a negação da proposição "Todo professor corrige provas"?
 
 **Explicação:** Ferramenta: negação de "todo". A negação de "todo A é B" é "algum A não é B" (basta um contraexemplo). "Nenhum A é B" é uma afirmação mais forte, não a negação.
 
+### 12
+<!-- modelo: f10 -->
+Qual é a negação de "Ou o relatório é aprovado, ou Lucas joga futebol" (ou exclusivo)?
+
+- A) Se o relatório é aprovado, então Lucas joga futebol.
+- B) O relatório é aprovado e Lucas joga futebol.
+- C) Nem o relatório é aprovado, nem Lucas joga futebol.
+- D) Ou o relatório não é aprovado, ou Lucas não joga futebol.
+- E) O relatório é aprovado se e somente se Lucas joga futebol.
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: negação do ou exclusivo = bicondicional. O "ou… ou…" é verdadeiro quando as partes diferem; a negação é verdadeira quando elas são iguais. "O relatório é aprovado se e somente se Lucas joga futebol".
+
+### 13
+<!-- modelo: f14 -->
+Qual é a negação de "Ninguém faltou à reunião"?
+
+- A) Alguém não faltou à reunião.
+- B) Ninguém deixou de cumprir a regra.
+- C) Alguém faltou à reunião.
+- D) Todos faltaram à reunião.
+- E) Nem todos faltaram à reunião.
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: "ninguém" = "nenhuma pessoa"; a negação é "alguém". Basta uma pessoa ter feito para a frase original ser falsa. "Alguém faltou à reunião".
+
+### 14
+<!-- modelo: f11 -->
+Qual é a negação de "Algum funcionário não é pontual"?
+
+- A) Todo funcionário não é pontual.
+- B) Nenhum funcionário é pontual.
+- C) Pelo menos um funcionário é pontual.
+- D) Todo funcionário é pontual.
+- E) Algum funcionário é pontual.
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: negação de "algum… não…" = "todo…". Para negar que exista alguém sem a característica, afirme que todos a têm. "Todo funcionário é pontual".
+
+### 15
+<!-- modelo: f9 -->
+Qual frase é equivalente a "Não é verdade que Lucas não joga futebol"?
+
+- A) Lucas joga futebol.
+- B) Lucas não joga futebol.
+- C) Lucas joga futebol ou Lucas não joga futebol.
+- D) Lucas joga futebol e Lucas não joga futebol.
+- E) Não é verdade que Lucas joga futebol.
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: dupla negação: ~(~p) = p. Negar uma negação volta à afirmação original. "Lucas joga futebol".
+
+### 16
+<!-- modelo: f13 -->
+Qual é a negação de "No máximo 3 pessoas foram atendidas"?
+
+- A) Exatamente 3 pessoas foram atendidas.
+- B) Pelo menos 4 pessoas foram atendidas.
+- C) No mínimo 2 pessoas foram atendidas.
+- D) Pelo menos 3 pessoas foram atendidas.
+- E) Menos de 3 pessoas foram atendidas.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: "no máximo k" = "k ou menos"; a negação é "mais de k". Mais de 3 é o mesmo que pelo menos 4. "Pelo menos 4 pessoas foram atendidas".
+
+### 17
+<!-- modelo: f12 -->
+Qual é a negação de "Pelo menos 3 funcionários chegaram atrasados"?
+
+- A) Mais de 3 funcionários chegaram atrasados.
+- B) No máximo 2 funcionários chegaram atrasados.
+- C) No máximo 3 funcionários chegaram atrasados.
+- D) Exatamente 3 funcionários chegaram atrasados.
+- E) Pelo menos 2 funcionários chegaram atrasados.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: "pelo menos k" = "k ou mais"; a negação é "menos de k". Menos de 3 é o mesmo que no máximo 2. "No máximo 2 funcionários chegaram atrasados".
+
 ## Médio
 
 ### 1
@@ -332,6 +416,90 @@ Qual é a negação da proposição "Nenhum gerente é organizado"?
 
 **Explicação:** Ferramenta: negação de "nenhum". "Nenhum A é B" é falsa assim que existe pelo menos um A que é B. Logo, a negação é "algum A é B".
 
+### 12
+<!-- modelo: m14 -->
+A frase "O cliente paga em dia somente se o relatório é aprovado" é equivalente a:
+
+- A) O cliente paga em dia se e somente se o relatório é aprovado.
+- B) O cliente paga em dia ou o relatório é aprovado.
+- C) Se o cliente paga em dia, então o relatório é aprovado.
+- D) O cliente paga em dia e o relatório é aprovado.
+- E) Se o relatório é aprovado, então o cliente paga em dia.
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: "p somente se q" = p → q. "Somente se" indica a condição necessária, que fica depois do "então". "Se o cliente paga em dia, então o relatório é aprovado".
+
+### 13
+<!-- modelo: m10 -->
+Qual é a negação de "O sistema funciona se e somente se a meta é atingida"?
+
+- A) O sistema não funciona e a meta não é atingida.
+- B) Se o sistema funciona, então a meta não é atingida.
+- C) O sistema funciona e a meta é atingida.
+- D) O sistema não funciona se e somente se a meta não é atingida.
+- E) Ou o sistema funciona, ou a meta é atingida (mas não os dois).
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: negação da bicondicional = ou exclusivo. A bicondicional é falsa quando as partes têm valores diferentes, que é exatamente o "ou… ou…". "Ou o sistema funciona, ou a meta é atingida".
+
+### 14
+<!-- modelo: m9 -->
+Qual das frases abaixo NÃO é equivalente a "Se Pedro viaja, então Ana estuda"?
+
+- A) Não é verdade que Pedro viaja e Ana não estuda.
+- B) Pedro não viaja ou Ana estuda.
+- C) Pedro viaja somente se Ana estuda.
+- D) Se Ana não estuda, então Pedro não viaja.
+- E) Se Ana estuda, então Pedro viaja.
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: a recíproca (q → p) não é equivalente. São equivalentes à condicional: a contrapositiva (~q → ~p), "~p ou q", "não (p e ~q)" e "p somente se q". A recíproca "se Ana estuda, então Pedro viaja" é a única diferente.
+
+### 15
+<!-- modelo: m12 -->
+Qual é a negação de "Todo atleta treina todos os dias e algum funcionário é pontual"?
+
+- A) Nenhum atleta treina todos os dias e nenhum funcionário é pontual.
+- B) Nenhum atleta treina todos os dias ou algum funcionário é pontual.
+- C) Algum atleta não treina todos os dias ou nenhum funcionário é pontual.
+- D) Todo atleta não treina todos os dias ou todo funcionário é pontual.
+- E) Algum atleta não treina todos os dias e nenhum funcionário é pontual.
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: De Morgan + negação de quantificadores. Negue cada parte (todo → algum… não; algum → nenhum) e troque o "e" por "ou". "Algum atleta não treina todos os dias ou nenhum funcionário é pontual".
+
+### 16
+<!-- modelo: m11 -->
+Qual é a negação de "Sempre que Pedro viaja, Carla é contadora"?
+
+- A) Nunca Pedro viaja.
+- B) Pedro viaja ou Carla não é contadora.
+- C) Se Carla é contadora, então Pedro viaja.
+- D) Sempre que Pedro viaja, Carla não é contadora.
+- E) Pedro viaja e Carla não é contadora.
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: "sempre que p, q" é uma condicional; negação: p ∧ ~q. Para desmentir, basta um caso em que p acontece e q não. "Pedro viaja e Carla não é contadora".
+
+### 17
+<!-- modelo: m13 -->
+Qual frase é equivalente a "Não é verdade que Ana estuda ou o relatório é aprovado"?
+
+- A) Ana não estuda ou o relatório é aprovado.
+- B) Ana não estuda e o relatório não é aprovado.
+- C) Se Ana estuda, então o relatório não é aprovado.
+- D) Ana estuda e o relatório é aprovado.
+- E) Ana não estuda ou o relatório não é aprovado.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: De Morgan: ~(p ∨ q) = ~p ∧ ~q. Negue as duas partes e troque "ou" por "e". "Ana não estuda e o relatório não é aprovado".
+
 ## Difícil
 
 ### 1
@@ -487,3 +655,73 @@ Qual é a negação de "Todo recenseador usa colete e o cliente paga em dia"?
 **Resposta:** D
 
 **Explicação:** Ferramenta: negação de quantificador + conjunção. Negação da conjunção (De Morgan): nega-se cada parte e troca-se "e" por "ou". A negação de "todo A é B" é "algum A não é B".
+
+### 12
+<!-- modelo: d9 -->
+Qual é a negação de "Se chove e o sistema funciona, então Ana estuda"?
+
+- A) Se chove e o sistema funciona, então Ana não estuda.
+- B) Chove, o sistema funciona e Ana não estuda.
+- C) Se Ana estuda, então chove e o sistema funciona.
+- D) Chove e o sistema funciona, ou Ana não estuda.
+- E) Não é verdade que chove, ou não é verdade que o sistema funciona, ou Ana estuda.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: negação da condicional: mantém o antecedente E nega o consequente. O antecedente é "chove e o sistema funciona". "Chove, o sistema funciona e Ana não estuda".
+
+### 13
+<!-- modelo: d10 -->
+Qual frase é equivalente a "Se Ana estuda, então chove ou Carla é contadora"?
+
+- A) Ana estuda e não chove e Carla é contadora.
+- B) Se Ana estuda e chove, então Carla é contadora.
+- C) Se Ana estuda e não chove, então Carla é contadora.
+- D) Se Ana estuda, então chove e Carla é contadora.
+- E) Se chove ou Carla é contadora, então Ana estuda.
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: p → (q ∨ r) ⇔ (p ∧ ~q) → r. Se p acontece e q não, a única saída para a frase ser verdadeira é r. "Se Ana estuda e não chove, então Carla é contadora".
+
+### 14
+<!-- modelo: d13 -->
+Qual é a negação de "Se todo funcionário é pontual, então algum cliente tem cartão de crédito"?
+
+- A) Algum funcionário não é pontual e algum cliente tem cartão de crédito.
+- B) Todo funcionário é pontual e nenhum cliente tem cartão de crédito.
+- C) Todo funcionário é pontual e algum cliente tem cartão de crédito.
+- D) Nenhum funcionário é pontual ou algum cliente tem cartão de crédito.
+- E) Se nenhum funcionário é pontual, então nenhum cliente tem cartão de crédito.
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: negação da condicional + quantificador. Mantenha o antecedente ("todo…") e negue o consequente ("algum…" vira "nenhum…"). "Todo funcionário é pontual e nenhum cliente tem cartão de crédito".
+
+### 15
+<!-- modelo: d12 -->
+A frase "O relatório é aprovado ou o cliente paga em dia" é equivalente a:
+
+- A) Se o cliente paga em dia, então o relatório não é aprovado.
+- B) O relatório não é aprovado e o cliente paga em dia.
+- C) Se o relatório é aprovado, então o cliente paga em dia.
+- D) Se o relatório não é aprovado, então o cliente paga em dia.
+- E) Se o cliente paga em dia, então o relatório é aprovado.
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: p ∨ q ⇔ ~p → q. Se uma das duas precisa acontecer, quando a primeira falha, a segunda acontece. "Se o relatório não é aprovado, então o cliente paga em dia".
+
+### 16
+<!-- modelo: d11 -->
+Qual é a negação de "Se a meta não é atingida, então o relatório não é aprovado"?
+
+- A) Se a meta é atingida, então o relatório é aprovado.
+- B) Se a meta não é atingida, então o relatório é aprovado.
+- C) A meta não é atingida e o relatório é aprovado.
+- D) A meta é atingida e o relatório não é aprovado.
+- E) A meta não é atingida e o relatório não é aprovado.
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: negação da condicional: ~(A → B) = A ∧ ~B. Aqui A = "a meta não é atingida" e B = "o relatório não é aprovado"; negar B dá "o relatório é aprovado". "A meta não é atingida e o relatório é aprovado".

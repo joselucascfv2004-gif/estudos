@@ -168,6 +168,90 @@ Considere as proposições p: "chove" e q: "a taxa de juros sobe". Qual frase tr
 
 **Explicação:** Ferramenta: dicionário dos símbolos. ~ é "não", ∧ é "e", ∨ é "ou", → é "se..., então" e ↔ é "se, e somente se". Traduza símbolo por símbolo. p ∨ ~q: "Chove ou a taxa de juros não sobe."
 
+### 12
+<!-- modelo: f12 -->
+Qual é o valor lógico de "2 + 2 = 5 se e somente se Brasília é a capital do Brasil"?
+
+- A) Falsa
+- B) Verdadeira
+- C) Não é possível saber
+- D) Depende só da primeira parte
+- E) Não é uma proposição
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: bicondicional: verdadeira quando as partes têm o mesmo valor. "2 + 2 = 5" é F; "Brasília é a capital do Brasil" é V. Resultado: falsa.
+
+### 13
+<!-- modelo: f11 -->
+Qual é o valor lógico de "Ou um triângulo tem quatro lados, ou Brasília é a capital do Brasil" (ou exclusivo)?
+
+- A) Falsa
+- B) Verdadeira e falsa ao mesmo tempo
+- C) Não é possível saber
+- D) Não é uma proposição
+- E) Verdadeira
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: ou exclusivo: verdadeiro quando exatamente uma parte é verdadeira. "um triângulo tem quatro lados" é F; "Brasília é a capital do Brasil" é V. Só uma é verdadeira: verdadeira.
+
+### 14
+<!-- modelo: f13 -->
+Na tabela-verdade de p ↔ q (4 linhas), em quantas linhas a proposição é verdadeira?
+
+- A) 0
+- B) 4
+- C) 1
+- D) 3
+- E) 2
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: montar as 4 linhas (VV, VF, FV, FF). Aplique a regra do conectivo em cada linha e conte os V. p ↔ q é verdadeira em 2 linha(s).
+
+### 15
+<!-- modelo: f10 -->
+Qual é o valor lógico da proposição "Se 7 é um número par, então 2 + 2 = 5"?
+
+- A) Verdadeira, porque depende só da segunda parte
+- B) Falsa
+- C) Não é uma proposição
+- D) Não é possível saber
+- E) Verdadeira
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: condicional só é falsa em V → F. A primeira parte ("7 é um número par") é falsa; uma condicional com antecedente falso é sempre verdadeira. Valor: verdadeira.
+
+### 16
+<!-- modelo: f9 -->
+Qual das frases abaixo é uma proposição (pode ser julgada como verdadeira ou falsa)?
+
+- A) Feche a porta!
+- B) Que dia lindo!
+- C) x + 3 = 10.
+- D) Todo número par é divisível por 2.
+- E) Que horas são?
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: proposição = frase declarativa com valor lógico definido. Perguntas, ordens, exclamações e sentenças abertas (com variável ou sujeito indefinido, como "ele") não são proposições. A frase pode ser falsa e ainda assim ser proposição. "Todo número par é divisível por 2." é uma proposição.
+
+### 17
+<!-- modelo: f14 -->
+Qual das proposições abaixo é uma tautologia (verdadeira em todas as linhas da tabela)?
+
+- A) p → p
+- B) p ∧ q
+- C) p → q
+- D) p ∨ q
+- E) p ∧ ~p
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: tautologia: sempre verdadeira, qualquer que seja o valor das partes. Teste as linhas: p → p nunca dá F. p → p é tautologia; "p ∧ ~p" e "p ↔ ~p" são contradições, e as outras são contingências.
+
 ## Médio
 
 ### 1
@@ -317,6 +401,90 @@ Sendo p verdadeira, q verdadeira e r falsa, quantas das proposições a seguir s
 **Resposta:** E
 
 **Explicação:** Ferramenta: substituir e aplicar a regra de cada conectivo. Troque cada letra pelo seu valor (V ou F) e resolva uma proposição de cada vez. I: V; II: V; III: V; IV: F. Total: 3.
+
+### 12
+<!-- modelo: m12 -->
+Sabe-se que a proposição p ∧ q é VERDADEIRA. Qual é o valor lógico de p ↔ q?
+
+- A) Depende do valor de q
+- B) Depende do valor de p
+- C) Verdadeira
+- D) Não é possível saber
+- E) Falsa
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: conjunção verdadeira ⇒ as duas partes são verdadeiras. p = V e q = V. Substituindo, p ↔ q é verdadeira.
+
+### 13
+<!-- modelo: m14 -->
+Sendo p: "o relatório é aprovado" e q: "o sistema funciona", como se escreve em símbolos a frase "Nem o relatório é aprovado, nem o sistema funciona"?
+
+- A) ~p → q
+- B) ~p ∧ ~q
+- C) ~(p ∧ q)
+- D) p ∧ ~q
+- E) ~p ∨ ~q
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: "nem… nem…" = "não… e não…". As duas coisas são negadas ao mesmo tempo. ~p ∧ ~q (que equivale a ~(p ∨ q)).
+
+### 14
+<!-- modelo: m13 -->
+Sabe-se que a proposição p ∨ q é FALSA. Qual é o valor lógico de ~p → q?
+
+- A) Falsa
+- B) Depende do valor de p
+- C) Não é possível saber
+- D) Verdadeira
+- E) Depende do valor de q
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: disjunção falsa ⇒ as duas partes são falsas. p = F e q = F. Substituindo, ~p → q é falsa.
+
+### 15
+<!-- modelo: m10 -->
+Qual das proposições abaixo é uma contradição (falsa em todas as linhas da tabela)?
+
+- A) (p ∧ q) ∧ ~q
+- B) p ∨ ~p
+- C) p ∧ q
+- D) p → q
+- E) p ∨ q
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: contradição: sempre falsa. (p ∧ q) ∧ ~q afirma ao mesmo tempo algo e o seu contrário. (p ∧ q) ∧ ~q é contradição; "p ∨ ~p" e "(p ∧ q) → p" são tautologias.
+
+### 16
+<!-- modelo: m11 -->
+Sabe-se que a proposição p → q é FALSA. Qual é o valor lógico de q → p?
+
+- A) Não é possível saber
+- B) Verdadeira
+- C) Falsa
+- D) Depende do valor de q
+- E) Depende do valor de p
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: condicional falsa ⇒ p = V e q = F. É o único caso em que a condicional é falsa ("Vera Fischer"). Com p = V e q = F, q → p é verdadeira.
+
+### 17
+<!-- modelo: m9 -->
+Na tabela-verdade de (p → q) ∨ r (8 linhas), em quantas linhas a proposição é verdadeira?
+
+- A) 4
+- B) 7
+- C) 6
+- D) 1
+- E) 8
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: 3 proposições simples → 8 linhas. Monte as 8 combinações e avalie o conectivo principal por último. Ela é verdadeira em 7 das 8 linhas.
 
 ## Difícil
 
@@ -470,3 +638,73 @@ Sabendo que a proposição p → q é FALSA, qual é o valor lógico de (r ∨ ~
 **Resposta:** A
 
 **Explicação:** Ferramenta: valores a partir de uma condicional falsa. Se p → q é falsa, então p = V e q = F. Substituindo, a expressão resulta em V independentemente de r e s.
+
+### 12
+<!-- modelo: d11 -->
+Em quantas das 8 combinações de valores de p, q e r a proposição p → (q ∨ r) é FALSA?
+
+- A) 3
+- B) 7
+- C) 2
+- D) 1
+- E) 0
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: condicional falsa: antecedente V e consequente F. Conte as combinações que deixam o antecedente verdadeiro e o consequente falso. São 1 combinações.
+
+### 13
+<!-- modelo: d12 -->
+Qual frase é equivalente a "Se o banco abre e o relatório é aprovado, então o cliente paga em dia"?
+
+- A) Se o banco abre, então o cliente paga em dia; e se o relatório é aprovado, então o cliente paga em dia.
+- B) Se o cliente paga em dia, então o banco abre e o relatório é aprovado.
+- C) Se o cliente paga em dia, então o banco abre ou o relatório é aprovado.
+- D) O banco abre e o relatório é aprovado e o cliente paga em dia.
+- E) Se o banco abre, então, se o relatório é aprovado, o cliente paga em dia.
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: exportação: (p ∧ q) → r ⇔ p → (q → r). As duas só são falsas quando p e q são verdadeiras e r é falsa. Equivalente: "se o banco abre, então, se o relatório é aprovado, o cliente paga em dia".
+
+### 14
+<!-- modelo: d10 -->
+Em quantas das 8 linhas da tabela-verdade a proposição ~p ∧ (q → r) é verdadeira?
+
+- A) 0
+- B) 4
+- C) 3
+- D) 5
+- E) 2
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: tabela-verdade com 3 proposições. Avalie primeiro os parênteses e depois o conectivo principal, linha por linha. ~p ∧ (q → r) é verdadeira em 3 linhas.
+
+### 15
+<!-- modelo: d13 -->
+Qual é o valor lógico de "(Se a água ferve a 100 °C ao nível do mar, então um triângulo tem quatro lados) e (a água ferve a 100 °C ao nível do mar ou um triângulo tem quatro lados)"?
+
+- A) Falsa
+- B) Não é uma proposição
+- C) Verdadeira
+- D) Verdadeira só se as duas partes forem verdadeiras
+- E) Não é possível saber
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: avaliar cada parte e depois o "e". "a água ferve a 100 °C ao nível do mar" é V; "um triângulo tem quatro lados" é F. A condicional dá F e a disjunção dá V. Conjunção: falsa.
+
+### 16
+<!-- modelo: d9 -->
+Considere verdadeiras as três afirmações: "O sistema funciona ou Ana estuda"; "Se o sistema funciona, então Pedro viaja"; "Não é verdade que Pedro viaja". O que se pode concluir?
+
+- A) Não é verdade que Ana estuda.
+- B) O sistema funciona, mas não é verdade que Ana estuda.
+- C) Pedro viaja.
+- D) O sistema funciona e Ana estuda.
+- E) Ana estuda e não é verdade que o sistema funciona.
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: encadear: modus tollens + silogismo disjuntivo. Como "Pedro viaja" é falso e "se o sistema funciona, então Pedro viaja" é verdadeiro, "o sistema funciona" tem de ser falso (modus tollens). Então, na disjunção, "Ana estuda" é verdadeiro. Conclusão: Ana estuda, e não o sistema funciona.

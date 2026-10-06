@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**8954 questões** em **191 tópicos**.
+**9077 questões** em **191 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
@@ -102,13 +102,13 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Brasil República (1889–1964)](historia/07-brasil-republica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Ditadura militar e Nova República](historia/08-ditadura-e-redemocratizacao.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## Geografia — 286 questões
+## Geografia — 300 questões
 
 *Ciências Humanas*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Cartografia](geografia/01-cartografia.md) | ENEM, Militares, Concursos | 12 | 12 | 12 |
+| [Cartografia](geografia/01-cartografia.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Geografia física](geografia/02-geografia-fisica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Biomas e questões ambientais](geografia/03-biomas-e-questoes-ambientais.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [População e urbanização](geografia/04-populacao-e-urbanizacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
@@ -189,26 +189,26 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Competências do ENEM e estrutura do texto](redacao/01-competencias-e-estrutura.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Coesão, argumentação e repertório](redacao/02-coesao-argumentacao-e-repertorio.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 
-## Raciocínio Lógico — 176 questões
+## Raciocínio Lógico — 250 questões
 
 *Concursos Públicos*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Proposições, conectivos e tabela-verdade](raciocinio-logico/01-proposicoes-e-tabela-verdade.md) | Concursos, Militares | 11 | 11 | 11 |
-| [Equivalências lógicas e negações](raciocinio-logico/02-equivalencias-e-negacoes.md) | Concursos, Militares | 11 | 11 | 11 |
-| [Sequências e problemas de lógica](raciocinio-logico/03-sequencias-e-problemas-de-logica.md) | Concursos, Militares | 10 | 10 | 10 |
-| [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 10 | 10 | 10 |
+| [Proposições, conectivos e tabela-verdade](raciocinio-logico/01-proposicoes-e-tabela-verdade.md) | Concursos, Militares | 17 | 17 | 16 |
+| [Equivalências lógicas e negações](raciocinio-logico/02-equivalencias-e-negacoes.md) | Concursos, Militares | 17 | 17 | 16 |
+| [Sequências e problemas de lógica](raciocinio-logico/03-sequencias-e-problemas-de-logica.md) | Concursos, Militares | 17 | 17 | 16 |
+| [Conjuntos e diagramas de Venn](raciocinio-logico/04-conjuntos.md) | Concursos, Militares | 17 | 17 | 16 |
 | [Argumentação lógica e quantificadores](raciocinio-logico/05-argumentacao-e-quantificadores.md) | Concursos, Militares | 17 | 17 | 16 |
 
-## Matemática Financeira — 65 questões
+## Matemática Financeira — 100 questões
 
 *Concursos Públicos*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Juros simples e compostos](matematica-financeira/01-juros-simples-e-compostos.md) | Concursos, ENEM | 12 | 11 | 11 |
-| [Descontos e sistemas de amortização](matematica-financeira/02-descontos-e-amortizacao.md) | Concursos | 10 | 11 | 10 |
+| [Juros simples e compostos](matematica-financeira/01-juros-simples-e-compostos.md) | Concursos, ENEM | 17 | 17 | 16 |
+| [Descontos e sistemas de amortização](matematica-financeira/02-descontos-e-amortizacao.md) | Concursos | 17 | 17 | 16 |
 
 ## Conhecimentos Bancários — 200 questões
 

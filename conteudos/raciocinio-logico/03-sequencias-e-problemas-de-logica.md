@@ -162,6 +162,104 @@ Qual é o menor ângulo formado pelos ponteiros de um relógio às 8h?
 
 **Explicação:** Ferramenta: ângulo dos ponteiros. Ângulo = |30·h − 5,5·m| = |30·8 − 5,5·0| = 240°; o menor é 360° − 240° = 120°.
 
+### 11
+<!-- modelo: f9 -->
+Qual letra continua a sequência D, G, J, M, …? (alfabeto de 26 letras, com K, W e Y)
+
+- A) O
+- B) Q
+- C) N
+- D) S
+- E) P
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: posição no alfabeto. As letras avançam de 3 em 3 posições. Depois de M, vem P.
+
+### 12
+<!-- modelo: f12 -->
+A sequência 2, 5, 10, 13, 26, 29, … alterna duas operações. Qual é o próximo termo?
+
+- A) 32
+- B) 58
+- C) 116
+- D) 87
+- E) 61
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: separe as passagens ímpares e pares. Alterna "+ 3" e "× 2". A próxima passagem é "× 2": 29 × 2 = 58.
+
+### 13
+<!-- modelo: f13 -->
+Uma fila repete sempre a ordem ▲, ●, ■, ▲, ●, ■, … Qual elemento ocupa a 38ª posição?
+
+- A) o primeiro da fila
+- B) ▲
+- C) não é possível saber
+- D) ●
+- E) ■
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: ciclo: use o resto da divisão. O ciclo tem 3 elementos; 38 ÷ 3 deixa resto 2. Posição 38: ●.
+
+### 14
+<!-- modelo: f14 -->
+Sofia tem o dobro da idade do irmão. A soma das idades dos dois é 45 anos. Quantos anos tem o irmão?
+
+- A) 13
+- B) 45
+- C) 15
+- D) 30
+- E) 17
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: escolher bem a incógnita. Irmão = x; Sofia = 2x. Então x + 2x = 45. 3x = 45 → x = 15.
+
+### 15
+<!-- modelo: f8 -->
+Qual é o próximo termo da sequência 2, 6, 18, 54, 162, …?
+
+- A) 1.458
+- B) 648
+- C) 165
+- D) 270
+- E) 486
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: teste os quocientes. Cada termo é o anterior vezes 3. 162 × 3 = 486.
+
+### 16
+<!-- modelo: f10 -->
+Na sequência 3, 1, 4, 5, 9, 14, …, cada termo segue a mesma regra a partir do 3º. Qual é o próximo termo?
+
+- A) 46
+- B) 23
+- C) 19
+- D) 28
+- E) 24
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: cada termo = soma dos dois anteriores (tipo Fibonacci). 4 = 3 + 1, 5 = 1 + 4… 9 + 14 = 23.
+
+### 17
+<!-- modelo: f11 -->
+Qual é o próximo termo da sequência 16, 25, 36, 49, 64, …?
+
+- A) 128
+- B) 81
+- C) 82
+- D) 79
+- E) 74
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: quadrados perfeitos. São 4², 5², 6²… 9² = 81.
+
 ## Médio
 
 ### 1
@@ -304,6 +402,104 @@ Quantos números inteiros de 1 a 1000 possuem pelo menos um algarismo 7?
 
 **Explicação:** Ferramenta: contagem pelo complementar. Contando pelo complementar: números sem o algarismo 7 entre 1 e 1000 são 729; logo 1000 − 729 = 271 possuem algum 7.
 
+### 11
+<!-- modelo: m10 -->
+O dia 10 de março de um ano caiu num sábado. Até o próximo 10 de março passam 366 dias (há um 29 de fevereiro no caminho). Em que dia da semana cairá o próximo 10 de março?
+
+- A) terça-feira
+- B) quarta-feira
+- C) domingo
+- D) segunda-feira
+- E) quinta-feira
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: cada 7 dias o dia da semana se repete. São 366 dias = 52 semanas + 2 dias: o dia da semana avança 2. sábado → segunda-feira.
+
+### 12
+<!-- modelo: m9 -->
+Qual é o menor ângulo formado pelos ponteiros de um relógio às 7h30?
+
+- A) 210°
+- B) 30°
+- C) 60°
+- D) 315°
+- E) 45°
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: ponteiro das horas anda 0,5° por minuto. Horas: 30° × 7 + 0,5° × 30 = 225°; minutos: 6° × 30 = 180°. Diferença: 45°.
+
+### 13
+<!-- modelo: m8 -->
+Qual é o próximo termo da sequência 3, 5, 10, 18, 29, 43, …?
+
+- A) 86
+- B) 60
+- C) 57
+- D) 63
+- E) 59
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: diferenças das diferenças. As diferenças são 2, 5, 8, 11, 14: crescem de 3 em 3. Próxima diferença: 17; termo: 60.
+
+### 14
+<!-- modelo: m12 -->
+Marcos, Felipe e Gabriela usam camisas de cores diferentes: vermelho, azul e verde. Marcos não usa vermelho nem azul. Felipe não usa vermelho. Qual é a cor da camisa de Gabriela?
+
+- A) vermelho
+- B) não é possível saber
+- C) verde
+- D) azul
+- E) amarelo
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: tabela de associação. Marcos só pode usar verde. Sobram vermelho e azul; como Felipe não usa vermelho, usa azul. Gabriela usa vermelho.
+
+### 15
+<!-- modelo: m14 -->
+Num ano não bissexto, o dia 1º de fevereiro caiu numa sexta-feira. Em que dia da semana caiu 1º de março?
+
+- A) terça-feira
+- B) quarta-feira
+- C) domingo
+- D) sexta-feira
+- E) segunda-feira
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: conte os dias de fevereiro. Fevereiro tem 28 dias = exatamente 4 semanas. 1º de março: sexta-feira.
+
+### 16
+<!-- modelo: m13 -->
+Num campeonato com 20 times, cada time joga contra cada um dos outros duas vezes (turno e returno). Quantos jogos há no total?
+
+- A) 40
+- B) 400
+- C) 190
+- D) 570
+- E) 380
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: cada jogo é um par de times. Pares possíveis: C(20, 2) = 190, jogados duas vezes. Total: 380 jogos.
+
+### 17
+<!-- modelo: m11 -->
+Um vaso quebrou. Otávio: "Não fui eu." Lucas: "Foi Otávio." Júlia: "Não foi Lucas." Sabe-se que só UM deles diz a verdade. Quem quebrou o vaso?
+
+- A) Lucas
+- B) Otávio
+- C) não é possível saber
+- D) Júlia
+- E) ninguém
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: procure afirmações contraditórias. Otávio e Lucas se contradizem: exatamente um deles diz a verdade. Como só há uma verdade, Júlia mente, e então foi Lucas. Conferindo: Otávio diz a verdade; Lucas e Júlia mentem.
+
 ## Difícil
 
 ### 1
@@ -445,3 +641,87 @@ Eva, Davi e Caio trabalham em áreas diferentes: saúde, engenharia e educação
 **Resposta:** D
 
 **Explicação:** Ferramenta: tabela de associação. Pela 1ª pista, Eva trabalha com saúde. Sobram educação e engenharia; como Caio não trabalha com educação, Caio fica com engenharia e Davi com educação.
+
+### 11
+<!-- modelo: d11 -->
+Numa reunião, cada pessoa apertou a mão de cada uma das outras exatamente uma vez, num total de 45 apertos de mão. Quantas pessoas estavam na reunião?
+
+- A) 8
+- B) 11
+- C) 9
+- D) 10
+- E) 7
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: apertos = C(n, 2) = n(n − 1)/2. n(n − 1) = 90. 10 × 9 = 90 → n = 10.
+
+### 12
+<!-- modelo: d10 -->
+Hoje, a idade de um pai é 3 vezes a do filho, e a soma das duas é 32. Daqui a 5 anos, qual será a soma das idades?
+
+- A) 52
+- B) 42
+- C) 32
+- D) 58
+- E) 37
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: cada pessoa envelhece o mesmo tanto. Os dois ganham 5 anos cada: a soma aumenta 10. 32 + 10 = 42.
+
+### 13
+<!-- modelo: d9 -->
+Quantos quadrados de todos os tamanhos existem num tabuleiro quadriculado de 4 × 4?
+
+- A) 29
+- B) 17
+- C) 30
+- D) 16
+- E) 32
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: some os quadrados de cada tamanho. De lado 1 há 4², de lado 2 há 3², …, de lado 4 há 1. 16 + 9 + 4 + 1 = 30.
+
+### 14
+<!-- modelo: d13 -->
+Escrevendo todos os números de 1 a 100, quantas vezes o algarismo 1 aparece?
+
+- A) 20
+- B) 11
+- C) 10
+- D) 19
+- E) 21
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: conte por posição (unidades e dezenas). Nas unidades, o 1 aparece 10 vezes; nas dezenas, mais 10 (de 10 a 19), e ainda há o 1 do 100. Total: 21.
+
+### 15
+<!-- modelo: d8 -->
+Na sequência de termo geral aₙ = n² + 1 (2, 5, 10, 17, …), qual é a posição do termo 401?
+
+- A) 20
+- B) 21
+- C) 19
+- D) 18
+- E) 400
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: igualar ao termo geral e isolar n. n² + 1 = 401 → n² = 400. n = 20.
+
+### 16
+<!-- modelo: d12 -->
+Na Torre de Hanói, o número mínimo de movimentos para transferir n discos é 2ⁿ − 1. Quantos movimentos são necessários, no mínimo, para 3 discos?
+
+- A) 7
+- B) 8
+- C) 4
+- D) 9
+- E) 5
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: substituir na fórmula. 2³ − 1. 8 − 1 = 7.

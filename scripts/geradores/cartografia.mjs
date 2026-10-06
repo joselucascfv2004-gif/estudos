@@ -1,5 +1,6 @@
 // Geografia: cartografia (escalas, coordenadas, fusos, orientação, curvas de nível).
-import { num, prepararAntigos } from './util.mjs';
+import { comNovos, num, prepararAntigos } from './util.mjs';
+import NOVOS from './cartografia-novos-extras.mjs';
 import EXTRAS from './cartografia-extras.mjs';
 
 const em = (c) => (c.startsWith('Cidade') ? 'na ' : 'em ') + c;
@@ -214,4 +215,4 @@ const FERR = [
   ['antípoda', 'declividade (altura ÷ distância)', 'fuso + duração do voo', 'escala gráfica → numérica', 'latitude e insolação'],
 ];
 
-export default [prepararAntigos(carto, FERR, EXTRAS)];
+export default [comNovos(prepararAntigos(carto, FERR, EXTRAS), NOVOS.carto)];

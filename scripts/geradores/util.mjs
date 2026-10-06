@@ -184,6 +184,11 @@ export function gerarNivel(rng, modelos, quantidade) {
  * histórico de quem já estudou depende disso).
  */
 export const novos = (modelos) => modelos.map((m) => Object.assign(m, { novo: true }));
+/** Acrescenta modelos novos (um array por nível) a um tópico já preparado. */
+export const comNovos = (topico, porNivel) => {
+  topico.niveis = topico.niveis.map((nivel, n) => [...nivel, ...novos(porNivel[n] ?? [])]);
+  return topico;
+};
 
 /**
  * Modo sem repetição: cada modelo gera UMA questão (ou `modelo.vezes` questões, com valores

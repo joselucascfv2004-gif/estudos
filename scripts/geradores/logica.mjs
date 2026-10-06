@@ -1,5 +1,6 @@
 // Raciocínio lógico (concursos: Banco do Brasil, BNB, Caixa, IBGE...).
-import { fracao, nome, num, prepararAntigos } from './util.mjs';
+import { comNovos, fracao, nome, num, prepararAntigos } from './util.mjs';
+import NOVOS from './logica-novos-extras.mjs';
 import EXTRAS from './logica-extras.mjs';
 
 const PROVAS = ['Concursos', 'Militares'];
@@ -856,8 +857,8 @@ const FERR = {
 
 export { SIMPLES, QUANT, cap, dois, avaliar, texto, gerarExpr, varsDe };
 export default [
-  prepararAntigos(proposicoes, FERR.proposicoes, EXTRAS.proposicoes, [[0, 1, 3], [0, 1, 3], [0, 1, 4]]),
-  prepararAntigos(negacoes, FERR.negacoes, EXTRAS.negacoes),
-  prepararAntigos(sequencias, FERR.sequencias, EXTRAS.sequencias),
-  prepararAntigos(conjuntos, FERR.conjuntos, EXTRAS.conjuntos),
+  comNovos(prepararAntigos(proposicoes, FERR.proposicoes, EXTRAS.proposicoes, [[0, 1, 3], [0, 1, 3], [0, 1, 4]]), NOVOS.proposicoes),
+  comNovos(prepararAntigos(negacoes, FERR.negacoes, EXTRAS.negacoes), NOVOS.negacoes),
+  comNovos(prepararAntigos(sequencias, FERR.sequencias, EXTRAS.sequencias), NOVOS.sequencias),
+  comNovos(prepararAntigos(conjuntos, FERR.conjuntos, EXTRAS.conjuntos), NOVOS.conjuntos),
 ];
