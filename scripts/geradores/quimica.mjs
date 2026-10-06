@@ -1,6 +1,7 @@
 // Química: cálculos (estequiometria, soluções, físico-química quantitativa).
-import { arred, num, sup, expl } from './util.mjs';
+import { arred, num, sup, expl, novos } from './util.mjs';
 import EXTRAS from './quimica-extras.mjs';
+import NOVOS from './quimica-novos-extras.mjs';
 
 const PROVAS = ['ENEM', 'Militares'];
 const u = (un) => (v) => `${num(v)} ${un}`;
@@ -550,7 +551,7 @@ function preparar(topico, chave) {
       return w;
     });
     antigos.forEach((w, k) => (nivel[k] = w));
-    return [...antigos, ...EXTRAS[chave][n]];
+    return [...antigos, ...EXTRAS[chave][n], ...novos(NOVOS[chave][n])];
   });
   topico.unico = true;
   return topico;

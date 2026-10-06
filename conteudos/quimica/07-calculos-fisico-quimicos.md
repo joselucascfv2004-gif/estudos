@@ -163,6 +163,104 @@ Qual das ações abaixo AUMENTA a velocidade de uma reação química?
 
 **Explicação:** Ferramenta: teoria das colisões. Reações acontecem quando partículas colidem com energia suficiente. Mais temperatura, mais concentração, mais superfície de contato ou um catalisador aumentam as colisões eficazes.
 
+### 11
+<!-- modelo: f14 -->
+Depois de quantas meias-vidas a quantidade de um isótopo radioativo cai para 1/32 da inicial?
+
+- A) 16
+- B) 10
+- C) 6
+- D) 5
+- E) 32
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: a cada meia-vida, a quantidade cai pela metade. 1/32 = (1/2)⁵. 5 meias-vidas.
+
+### 12
+<!-- modelo: f10 -->
+Na reação N₂ + 3 H₂ → 2 NH₃, o H₂ é consumido a 1,2 mol/L·min. Com que velocidade se forma a amônia?
+
+- A) 1,8 mol/L·min
+- B) 0,8 mol/L·min
+- C) 3,6 mol/L·min
+- D) 1,2 mol/L·min
+- E) 0,4 mol/L·min
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: velocidades proporcionais aos coeficientes. Para cada 3 mol de H₂ consumidos formam-se 2 mol de NH₃. 1,2 × 2/3 = 0,8 mol/L·min.
+
+### 13
+<!-- modelo: f11 -->
+Pela regra de Van't Hoff, a velocidade de uma reação dobra a cada 10 °C de aumento. Se a temperatura subir 10 °C, a velocidade fica multiplicada por quanto?
+
+- A) 8 vezes
+- B) 4 vezes
+- C) 2 vezes
+- D) 3 vezes
+- E) 12 vezes
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: fatores sucessivos se multiplicam. São 1 aumentos de 10 °C, cada um dobrando a velocidade. 2¹ = 2.
+
+### 14
+<!-- modelo: f13 -->
+A lei de velocidade de uma reação é v = k·[A]². Se a concentração de A for multiplicada por 3, a velocidade fica multiplicada por quanto?
+
+- A) 27
+- B) 6
+- C) 1
+- D) 3
+- E) 9
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: ordem de reação = expoente da concentração. A velocidade varia com [A] elevado a 2. 3² = 9.
+
+### 15
+<!-- modelo: f12 -->
+Qual é o número de oxidação (Nox) do cromo em K₂Cr₂O₇?
+
+- A) +9
+- B) +7
+- C) +4
+- D) +8
+- E) +6
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: soma dos Nox = carga da espécie (zero numa molécula neutra). Use H = +1, O = −2 e metais alcalinos = +1, e ache o Nox que zera a soma. Nox do cromo = +6.
+
+### 16
+<!-- modelo: f8 -->
+Uma solução tem pH = 1, a 25 °C. Qual é a concentração de íons H⁺?
+
+- A) 10⁰ mol/L
+- B) 10⁻³ mol/L
+- C) 10⁻² mol/L
+- D) 10⁻¹ mol/L
+- E) 10⁻¹³ mol/L
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: [H⁺] = 10⁻ᵖᴴ. O pH é o expoente (com o sinal trocado) da concentração de H⁺. [H⁺] = 10⁻¹ mol/L.
+
+### 17
+<!-- modelo: f9 -->
+Uma amostra A tem pH 2 e uma amostra B tem pH 4. Quantas vezes a concentração de H⁺ em A é maior que em B?
+
+- A) 300 vezes
+- B) 20 vezes
+- C) 2 vezes
+- D) 4 vezes
+- E) 100 vezes
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: cada unidade de pH = fator 10. O pH é logarítmico: diferença de n unidades = 10ⁿ vezes. 4 − 2 = 2 → 10² = 100 vezes.
+
 ## Médio
 
 ### 1
@@ -319,6 +417,90 @@ Uma amostra de um material radioativo com meia-vida de 8 anos tem hoje 6,25% da 
 
 **Explicação:** Ferramenta: contar meias-vidas. Cada meia-vida divide a quantidade por 2: 100% → 50% → 25% → 12,5% → 6,25%... 6,25% = (1/2)^4: 4 meias-vidas × 8 = 32 anos.
 
+### 12
+<!-- modelo: m14 -->
+A combustão de 1 mol de etano libera 1560 kJ. Quanta energia é liberada na queima de 11,2 L desse gás, nas CNTP?
+
+- A) 34.944 kJ
+- B) 17.472 kJ
+- C) 2.340 kJ
+- D) 780 kJ
+- E) 390 kJ
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: volume → mols → energia. Nas CNTP, 11,2 L = 0,5 mol. 0,5 × 1560 = 780 kJ.
+
+### 13
+<!-- modelo: m11 -->
+Um ácido fraco HA tem Ka = 10⁻⁶. Qual é o pH de uma solução 0,01 mol/L desse ácido (ionização pequena)?
+
+- A) 4
+- B) 6
+- C) 5
+- D) 2
+- E) 8
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: ácido fraco: [H⁺] ≈ √(Ka·M). Como o ácido quase não se ioniza, [H⁺]² ≈ Ka·M. [H⁺] = √(10⁻⁶ × 0,01) = 10⁻⁴ → pH = 4.
+
+### 14
+<!-- modelo: m9 -->
+Calcule o ΔH da reação C₂H₆O + 3 O₂ → 2 CO₂ + 3 H₂O(l) a partir das entalpias de formação (kJ/mol): C₂H₆O = −278; CO₂ = −394; H₂O(l) = −286. (O₂ = 0)
+
+- A) −684 kJ
+- B) −1.654 kJ
+- C) 1.368 kJ
+- D) −1.368 kJ
+- E) −1.268 kJ
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: ΔH = Σ ΔHf(produtos) − Σ ΔHf(reagentes). Multiplique cada entalpia de formação pelo coeficiente; substâncias simples (como o O₂) valem zero. ΔH = −1.368 kJ.
+
+### 15
+<!-- modelo: m12 -->
+A solubilidade de um sal do tipo AB (AB ⇌ A⁺ + B⁻) em água é 3 × 10⁻⁵ mol/L. Qual é o seu produto de solubilidade (Kps)?
+
+- A) 36 × 10⁻¹⁰
+- B) 18 × 10⁻¹⁰
+- C) 6 × 10⁻¹⁰
+- D) 3 × 10⁻¹⁰
+- E) 9 × 10⁻¹⁰
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: Kps = [A⁺]·[B⁻] = s². Cada mol dissolvido libera 1 mol de cada íon. (3 × 10⁻⁵)² = 9 × 10⁻¹⁰.
+
+### 16
+<!-- modelo: m10 -->
+Uma reação tem energia de ativação de 100 kJ/mol e ΔH = 50 kJ/mol. Qual é a energia de ativação da reação inversa?
+
+- A) 200 kJ/mol
+- B) 150 kJ/mol
+- C) 100 kJ/mol
+- D) 51 kJ/mol
+- E) 50 kJ/mol
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: Ea(inversa) = Ea(direta) − ΔH. No diagrama de energia, a barreira da volta é medida a partir dos produtos. 100 − (50) = 50 kJ/mol.
+
+### 17
+<!-- modelo: m13 -->
+Na série radioativa natural, o urânio-238 (Z = 92) se transforma em chumbo-206 (Z = 82) por emissões alfa e beta. Quantas partículas beta são emitidas?
+
+- A) 10
+- B) 6
+- C) 12
+- D) 14
+- E) 8
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: conservação: α muda A em −4 e Z em −2; β muda Z em +1. A cai 32: são 8 partículas α (que tiram 16 de Z). Como Z só caiu 10, houve 6 emissões β. α = 8; β = 6.
+
 ## Difícil
 
 ### 1
@@ -474,3 +656,73 @@ A lei de velocidade de uma reação é v = k[A]. Se a concentração de A for mu
 **Resposta:** C
 
 **Explicação:** Ferramenta: lei de velocidade. v ∝ [A]^1: multiplicar [A] por 2 multiplica v por 2^1 = 2.
+
+### 12
+<!-- modelo: d13 -->
+Misturam-se 200 mL de HCl 1 mol/L com 200 mL de NaOH 1 mol/L num recipiente isolado. A neutralização libera 57 kJ por mol de água formada. Quanto a temperatura sobe? (solução: 1 g/mL; c = 4,2 J/g·°C)
+
+- A) 13,57 °C
+- B) 3,39 °C
+- C) 11,4 °C
+- D) 6,79 °C
+- E) 10,18 °C
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: calor da reação aquece a solução: Q = m·c·ΔT. Formam-se 0,200 mol de água → Q = 11.400 J, que aquecem 400 g de solução. ΔT = 11.400 ÷ (400 × 4,2) = 6,79 °C.
+
+### 13
+<!-- modelo: d10 -->
+Uma solução-tampão tem ácido fraco (pKa = 4,74) e o seu sal na proporção [sal]/[ácido] = 10. Qual é o pH? (equação de Henderson-Hasselbalch)
+
+- A) 9,26
+- B) 7
+- C) 3,74
+- D) 4,74
+- E) 5,74
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: Henderson-Hasselbalch: pH = pKa + log([sal]/[ácido]). log 10 = 1. pH = 4,74 + (1) = 5,74.
+
+### 14
+<!-- modelo: d9 -->
+Misturam-se 200 mL de HCl 0,1 mol/L com 200 mL de NaOH 0,09 mol/L. Qual é o pH da solução final?
+
+- A) 11,7
+- B) 7
+- C) 3,3
+- D) 2,3
+- E) 1
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: neutralização com excesso de ácido forte. Calcule o H⁺ que sobra e divida pelo volume total; depois, pH = −log[H⁺]. H⁺ que sobra = 2 mmol em 400 mL = 0,005 mol/L → pH = 2,3.
+
+### 15
+<!-- modelo: d12 -->
+O Kps de um sal do tipo AB (AB ⇌ A⁺ + B⁻) vale 16 × 10⁻¹⁰. Qual é a solubilidade desse sal em água, em mol/L?
+
+- A) 16 × 10⁻⁵ mol/L
+- B) 8 × 10⁻⁵ mol/L
+- C) 6 × 10⁻⁵ mol/L
+- D) 2 × 10⁻⁵ mol/L
+- E) 4 × 10⁻⁵ mol/L
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: s = √Kps (sal 1 : 1). Kps = s², então a solubilidade é a raiz do Kps. √(16 × 10⁻¹⁰) = 4 × 10⁻⁵ mol/L.
+
+### 16
+<!-- modelo: d11 -->
+Uma reação endotérmica tem ΔH = +120 kJ/mol e ΔS = +0,3 kJ/mol·K. Acima de que temperatura ela passa a ser espontânea? (ΔG = ΔH − T·ΔS)
+
+- A) 36 K
+- B) 200 K
+- C) 0 K
+- D) 127 K
+- E) 400 K
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: espontânea quando ΔG < 0. O limite é ΔG = 0, ou seja, T = ΔH/ΔS (unidades iguais: kJ). T = 120 ÷ 0,3 = 400 K.

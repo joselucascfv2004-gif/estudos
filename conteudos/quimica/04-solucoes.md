@@ -163,6 +163,104 @@ Dissolvem-se 50 g de sal em água até completar 200 mL de solução. Qual é a 
 
 **Explicação:** Ferramenta: concentração comum (C = m/V). C = m/V = 50 g/0,2 L = 250 g/L.
 
+### 11
+<!-- modelo: f8 -->
+Quantos mililitros de uma solução de 20 g/L contêm 2 g de soluto?
+
+- A) 10.000 mL
+- B) 100 mL
+- C) 0,1 mL
+- D) 40 mL
+- E) 50 mL
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: V = m ÷ C. Divida a massa pela concentração para obter o volume em litros e converta para mL. 2 ÷ 20 = 0,100 L = 100 mL.
+
+### 12
+<!-- modelo: f12 -->
+Quantos mols de soluto há em 250 mL de uma solução 0,5 mol/L?
+
+- A) 0,13 mol
+- B) 1,25 mol
+- C) 2 mol
+- D) 125 mol
+- E) 0,5 mol
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: n = M × V (em litros). A concentração em mol/L diz quantos mols há em cada litro. 0,5 × 0,25 = 0,125 mol.
+
+### 13
+<!-- modelo: f9 -->
+Uma bebida tem teor alcoólico de 5% em volume. Quantos mililitros de álcool há numa garrafa de 500 mL?
+
+- A) 25 mL
+- B) 2,5 mL
+- C) 475 mL
+- D) 2.500 mL
+- E) 5 mL
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: porcentagem em volume. 5% v/v significa 5 mL de álcool em cada 100 mL de bebida. 5% de 500 = 25 mL.
+
+### 14
+<!-- modelo: f14 -->
+Qual é a concentração total de íons (partículas dissolvidas) numa solução 0,5 mol/L de NaCl, supondo dissociação completa?
+
+- A) 1 mol/L
+- B) 1,5 mol/L
+- C) 3 mol/L
+- D) 0,25 mol/L
+- E) 0,5 mol/L
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: dissociação: cada fórmula libera vários íons. Cada NaCl libera 2 íons ao se dissociar. 0,5 × 2 = 1 mol/L de partículas.
+
+### 15
+<!-- modelo: f11 -->
+Um xarope tem 0,5 mg de medicamento por mililitro. Qual é essa concentração em gramas por litro?
+
+- A) 50 g/L
+- B) 0,5 g/L
+- C) 0,05 g/L
+- D) 5 g/L
+- E) 500 g/L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: mg/mL = g/L. Multiplicar em cima e embaixo por 1 000: 1 mg/mL = 1 000 mg/1 000 mL = 1 g/L. 0,5 mg/mL = 0,5 g/L.
+
+### 16
+<!-- modelo: f10 -->
+O soro fisiológico tem 0,9% de NaCl (0,9 g em cada 100 mL). Quantos gramas de sal há numa bolsa de 500 mL?
+
+- A) 450 g
+- B) 555,56 g
+- C) 0,45 g
+- D) 4,5 g
+- E) 9 g
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: porcentagem massa/volume. 0,9 g a cada 100 mL: faça a proporção. 500 ÷ 100 × 0,9 = 4,5 g.
+
+### 17
+<!-- modelo: f13 -->
+Uma solução tem densidade 1,05 g/mL. Qual é a massa de 500 mL dessa solução?
+
+- A) 525.000 g
+- B) 501,05 g
+- C) 525 g
+- D) 500 g
+- E) 476,19 g
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: massa = densidade × volume. A densidade da solução (não confundir com concentração) diz a massa de cada mL. 1,05 × 500 = 525 g.
+
 ## Médio
 
 ### 1
@@ -319,6 +417,90 @@ Uma solução de NaCl tem concentração de 29,25 g/L. Qual é a sua concentraç
 
 **Explicação:** Ferramenta: g/L → mol/L. Divida pela massa molar: cada mol "pesa" M gramas. 29,25 ÷ 58,5 = 0,5 mol/L.
 
+### 12
+<!-- modelo: m11 -->
+Uma solução concentrada de H₂SO₄ tem 98% em massa e densidade 1,84 g/mL. Qual é a sua concentração em mol/L? (H₂SO₄ = 98 g/mol)
+
+- A) 1.803,2 mol/L
+- B) 0,02 mol/L
+- C) 23 mol/L
+- D) 10 mol/L
+- E) 18,4 mol/L
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: M = 1 000·d·τ ÷ massa molar. 1 L de solução tem 1 000·d gramas; a fração τ é soluto; divida pela massa molar. 1 000 × 1,84 × 0,980 ÷ 98 = 18,4 mol/L.
+
+### 13
+<!-- modelo: m12 -->
+O limite de chumbo na água potável é 0,01 mg/L. Uma amostra de 10 L contém 0,05 mg de chumbo. Quantas vezes a concentração está acima do limite?
+
+- A) 0,01 vezes
+- B) 0,05 vezes
+- C) 0,5 vezes
+- D) 5 vezes
+- E) 2 vezes
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: concentração em mg/L comparada com o limite. Calcule a concentração e divida pelo limite. 0,05 ÷ 10 = 0,005 mg/L; 0,005 ÷ 0,01 = 0,5 vezes.
+
+### 14
+<!-- modelo: m9 -->
+Uma solução de 5 mol/L é diluída 10 vezes e, em seguida, a nova solução é diluída mais 10 vezes. Qual é a concentração final?
+
+- A) 0,5 mol/L
+- B) 500 mol/L
+- C) 0,25 mol/L
+- D) 0,05 mol/L
+- E) 0,063 mol/L
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: diluições sucessivas: os fatores se multiplicam. Cada diluição divide a concentração pelo seu fator. 5 ÷ 10 ÷ 10 = 0,050 mol/L.
+
+### 15
+<!-- modelo: m14 -->
+Misturam-se 100 mL de NaCl 0,1 mol/L com 100 mL de CaCl₂ 0,1 mol/L. Qual é a concentração de íons Cl⁻ na mistura?
+
+- A) 0,2 mol/L
+- B) 0,3 mol/L
+- C) 0,15 mol/L
+- D) 1,15 mol/L
+- E) 0,1 mol/L
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: íon comum: some os mols de Cl⁻ e divida pelo volume total. O CaCl₂ libera 2 Cl⁻ por fórmula. Cl⁻ = 100 × 0,1 + 100 × 0,1 × 2 = 30 mmol em 200 mL → 0,150 mol/L.
+
+### 16
+<!-- modelo: m10 -->
+Misturam-se 300 mL de solução 0,6 mol/L de glicose com 100 mL de solução de sacarose (sem reação). Qual é a concentração de glicose na mistura?
+
+- A) 0,15 mol/L
+- B) 0,3 mol/L
+- C) 0,6 mol/L
+- D) 0,8 mol/L
+- E) 0,45 mol/L
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: mistura sem reação: cada soluto se dilui no volume total. A quantidade de glicose é a mesma; o volume passou a ser a soma. 0,6 × 300 ÷ 400 = 0,450 mol/L.
+
+### 17
+<!-- modelo: m13 -->
+A solubilidade de um sal é 140 g/100 g de água a 60 °C e 45 g/100 g a 20 °C. Uma solução saturada com 200 g de água a 60 °C é resfriada a 20 °C. Quantos gramas de sal cristalizam?
+
+- A) 90 g
+- B) 380 g
+- C) 280 g
+- D) 95 g
+- E) 190 g
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: cristalização = o que deixa de caber. Com 200 g de água, cabiam 280 g a 60 °C e cabem 90 g a 20 °C. 280 − 90 = 190 g.
+
 ## Difícil
 
 ### 1
@@ -460,3 +642,87 @@ Na titulação de 25 mL de uma solução de NaOH, foram gastos 20 mL de HCl 0,2 
 **Resposta:** E
 
 **Explicação:** Ferramenta: titulação (n ácido = n base). Proporção 1:1 ⇒ n(HCl) = n(NaOH): 0,2 × 20 = C × 25 ⇒ C = 0,160 mol/L.
+
+### 11
+<!-- modelo: d13 -->
+Quer-se preparar 300 mL de solução 0,2 mol/L misturando uma solução 0,1 mol/L com outra 0,4 mol/L do mesmo soluto. Que volume da solução mais diluída deve ser usado?
+
+- A) 180 mL
+- B) 250 mL
+- C) 100 mL
+- D) 150 mL
+- E) 200 mL
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: mistura do mesmo soluto: C₁V₁ + C₂V₂ = C·(V₁ + V₂). Chame de V₁ o volume da mais diluída; o resto vem da outra. 0,1·V₁ + 0,4·(300 − V₁) = 0,2 × 300 → V₁ = 200 mL.
+
+### 12
+<!-- modelo: d11 -->
+Quantos gramas de sulfato de cobre penta-hidratado (CuSO₄·5H₂O, 250 g/mol) são necessários para preparar 1000 mL de solução 0,05 mol/L de CuSO₄?
+
+- A) 12,5 g
+- B) 25 g
+- C) 8 g
+- D) 6,25 g
+- E) 12.500 g
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: sal hidratado: use a massa molar com a água. Cada mol do cristal fornece 1 mol de CuSO₄, mas pesa 250 g (a água de cristalização vem junto). n = 0,05 × 1 = 0,050 mol; × 250 = 12,5 g.
+
+### 13
+<!-- modelo: d12 -->
+A solubilidade de um sal é 25 g por 100 g de água. Quanto sal há em 125 g de uma solução saturada dele?
+
+- A) 50 g
+- B) 100 g
+- C) 31,25 g
+- D) 25 g
+- E) 23 g
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: solução saturada: proporção sal : solução. Cada 125 g de solução saturada têm 25 g de sal. 125 × 25 ÷ 125 = 25 g.
+
+### 14
+<!-- modelo: d9 -->
+Misturam-se 100 mL de HCl 0,3 mol/L com 100 mL de NaOH 0,1 mol/L. Qual é a concentração de H⁺ em excesso na solução final?
+
+- A) 0,2 mol/L
+- B) 0,1 mol/L
+- C) 1,1 mol/L
+- D) 0,05 mol/L
+- E) 0,075 mol/L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: neutralização com excesso. H⁺ e OH⁻ reagem 1 : 1; o que sobra fica dissolvido no volume total. H⁺ = 30 mmol; OH⁻ = 10 mmol; sobram 20 mmol em 200 mL → 0,100 mol/L.
+
+### 15
+<!-- modelo: d8 -->
+Na titulação de 10 mL de vinagre, gastaram-se 25 mL de NaOH 0,1 mol/L (reação 1 : 1 com o ácido acético, 60 g/mol). Qual é a concentração de ácido acético no vinagre, em g/L?
+
+- A) 30 g/L
+- B) 15 g/L
+- C) 1,5 g/L
+- D) 0,25 g/L
+- E) 6 g/L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: titulação: n(ácido) = n(base). Os mols de NaOH gastos são os mols de ácido na amostra; converta para gramas e divida pelo volume. n = 0,1 × 0,025 = 0,0025 mol; × 60 = 0,150 g em 10 mL → 15 g/L.
+
+### 16
+<!-- modelo: d10 -->
+Qual é a pressão osmótica, a 310 K, de uma solução 0,2 mol/L de glicose? (R = 0,082 atm·L/mol·K)
+
+- A) 10,17 atm
+- B) 0,51 atm
+- C) 0,61 atm
+- D) 5,08 atm
+- E) 62 atm
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: pressão osmótica: π = M·R·T·i. i é o número de partículas por fórmula (glicose não se dissocia: i = 1). π = 0,2 × 0,082 × 310 × 1 = 5,08 atm.

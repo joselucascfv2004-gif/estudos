@@ -177,6 +177,90 @@ Qual é o volume ocupado por 10 mol de um gás ideal nas CNTP? (volume molar = 2
 
 **Explicação:** Ferramenta: volume molar (CNTP). V = n × 22,4 = 10 × 22,4 = 224 L.
 
+### 12
+<!-- modelo: f9 -->
+Nas CNTP, um balão contém 67,2 L de gás oxigênio. Quantos mols de O₂ há nele? (volume molar nas CNTP = 22,4 L/mol)
+
+- A) 1.505,28 mol
+- B) 1,5 mol
+- C) 3 mol
+- D) 2,1 mol
+- E) 6 mol
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: n = V ÷ volume molar. Nas CNTP, 1 mol de qualquer gás ocupa 22,4 L. 67,2 ÷ 22,4 = 3 mol.
+
+### 13
+<!-- modelo: f14 -->
+A 25 °C e 1 atm, o volume molar dos gases é cerca de 24,5 L/mol. Que volume ocupam 2 mol de gás carbônico nessas condições?
+
+- A) 44,8 L
+- B) 49 L
+- C) 12,25 L
+- D) 88 L
+- E) 0,08 L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: V = n × volume molar (nas condições dadas). Use o volume molar da temperatura informada, e não o das CNTP. 2 × 24,5 = 49 L.
+
+### 14
+<!-- modelo: f12 -->
+Qual é a densidade do gás N₂ nas CNTP? (massa molar 28 g/mol; volume molar 22,4 L/mol)
+
+- A) 1,14 g/L
+- B) 627,2 g/L
+- C) 12,5 g/L
+- D) 0,8 g/L
+- E) 1,25 g/L
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: densidade de gás: d = M ÷ volume molar. 1 mol tem a massa molar e ocupa 22,4 L nas CNTP. 28 ÷ 22,4 = 1,25 g/L.
+
+### 15
+<!-- modelo: f11 -->
+Pela reação 2 H₂(g) + O₂(g) → 2 H₂O(g), medida na mesma temperatura e pressão, que volume de O₂ é necessário para reagir com 10 L de H₂?
+
+- A) 10 L
+- B) 5 L
+- C) 20 L
+- D) 12 L
+- E) 3,33 L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: lei de Gay-Lussac: volumes na proporção dos coeficientes. Nas mesmas condições, a proporção entre volumes de gases é a mesma dos coeficientes (2 : 1). 10 ÷ 2 = 5 L de O₂.
+
+### 16
+<!-- modelo: f10 -->
+Quantos gramas de carbono há em 132 g de CO₂?
+
+- A) 66 g
+- B) 96 g
+- C) 36 g
+- D) 12 g
+- E) 15,84 g
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: proporção em massa dentro da fórmula. Em 44 g de CO₂ (1 mol), há 12 g de carbono. 132 g = 3 mol → 3 × 12 = 36 g.
+
+### 17
+<!-- modelo: f13 -->
+Aquecendo 10 g de carbonato de cálcio puro, ocorre CaCO₃ → CaO + CO₂, e o gás sai do recipiente. Qual é a massa do sólido que sobra? (CaCO₃ = 100 g/mol; CO₂ = 44 g/mol)
+
+- A) 14,4 g
+- B) 10 g
+- C) 5 g
+- D) 5,6 g
+- E) 4,4 g
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: lei de Lavoisier: massa que sobra = inicial − gás que saiu. Cada 100 g de CaCO₃ liberam 44 g de CO₂ e deixam 56 g de CaO. CO₂ = 4,4 g; sobram 10 − 4,4 = 5,6 g de CaO.
+
 ## Médio
 
 ### 1
@@ -333,6 +417,90 @@ Na formação da água, 4 g de hidrogênio reagem exatamente com 32 g de oxigên
 
 **Explicação:** Ferramenta: lei de Proust (proporções constantes). A proporção em massa entre os reagentes é sempre a mesma: 32/4 = 8 g de O₂ para cada 1 g de H₂. 20 × 8 = 160 g.
 
+### 12
+<!-- modelo: m13 -->
+No alto-forno, Fe₂O₃ + 3 CO → 2 Fe + 3 CO₂. Quantas toneladas de ferro se obtêm a partir de 16 t de Fe₂O₃ puro? (Fe₂O₃ = 160 g/mol; Fe = 56 g/mol)
+
+- A) 8 t
+- B) 16 t
+- C) 22,86 t
+- D) 11,2 t
+- E) 5,6 t
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: proporção em massa (vale para qualquer unidade). 160 g de Fe₂O₃ dão 2 × 56 = 112 g de Fe; a mesma proporção vale para toneladas. 16 × 112 ÷ 160 = 11,2 t.
+
+### 13
+<!-- modelo: m14 -->
+O airbag infla pela reação 2 NaN₃ → 2 Na + 3 N₂. Que volume de N₂, nas CNTP, é produzido por 520 g de NaN₃? (NaN₃ = 65 g/mol; 22,4 L/mol)
+
+- A) 294 L
+- B) 179,2 L
+- C) 268,8 L
+- D) 336 L
+- E) 358,4 L
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: massa → mol → volume. 520 g de NaN₃ = 8 mol, que formam 12 mol de N₂ (proporção 2 : 3). 12 × 22,4 = 268,8 L.
+
+### 14
+<!-- modelo: m11 -->
+Misturam-se 28 g de N₂ com 10 g de H₂ para a reação N₂ + 3 H₂ → 2 NH₃, que ocorre até o fim. Quantos gramas do reagente em excesso sobram? (N₂ = 28 g/mol; H₂ = 2 g/mol)
+
+- A) 4 g
+- B) 6 g
+- C) 2 g
+- D) 24 g
+- E) 10 g
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: reagente em excesso: o que não reage. 1 mol de N₂ consomem 3 mol de H₂; havia 5 mol de H₂. Sobram 2 mol de H₂ = 4 g.
+
+### 15
+<!-- modelo: m10 -->
+Na neutralização NaOH + HCl → NaCl + H₂O, qual massa de sal se forma a partir de 20 g de NaOH, com HCl suficiente? (NaOH = 40 g/mol; NaCl = 58,5 g/mol)
+
+- A) 20 g
+- B) 9 g
+- C) 29,25 g
+- D) 18,25 g
+- E) 58,5 g
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: proporção 1 : 1 em mols. Cada mol de NaOH forma 1 mol de NaCl. 20 ÷ 40 = 0,5 mol → 0,5 × 58,5 = 29,25 g.
+
+### 16
+<!-- modelo: m9 -->
+Na combustão completa do etanol, C₂H₆O + 3 O₂ → 2 CO₂ + 3 H₂O, qual massa de CO₂ se forma a partir de 23 g de etanol? (C₂H₆O = 46 g/mol; CO₂ = 44 g/mol)
+
+- A) 22 g
+- B) 45 g
+- C) 66 g
+- D) 23 g
+- E) 44 g
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: estequiometria: massa → mol → mol → massa. 1 mol de etanol (46 g) forma 2 mol de CO₂ (88 g). 23 g = 0,5 mol de etanol → 1 mol de CO₂ = 44 g.
+
+### 17
+<!-- modelo: m12 -->
+Na fotossíntese, 6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂. Que massa de glicose uma planta pode produzir a partir de 132 g de CO₂? (CO₂ = 44 g/mol; glicose = 180 g/mol)
+
+- A) 15 g
+- B) 132 g
+- C) 90 g
+- D) 540 g
+- E) 270 g
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: proporção 6 : 1 em mols. São necessários 6 mol de CO₂ (264 g) para cada mol de glicose (180 g). 132 g = 3 mol de CO₂ → 0,5 mol de glicose = 90 g.
+
 ## Difícil
 
 ### 1
@@ -474,3 +642,87 @@ Uma substância orgânica tem 40% de carbono, 6,7% de hidrogênio e 53,3% de oxi
 **Resposta:** C
 
 **Explicação:** Ferramenta: porcentagem → mols → menor proporção. Suponha 100 g: as porcentagens viram gramas. Divida cada uma pela massa molar e depois pelo menor resultado. C: 40/12; H: 6,7/1; O: 53,3/16 → proporção da fórmula CH₂O.
+
+### 11
+<!-- modelo: d10 -->
+Misturam-se 28 g de N₂ com 10 g de H₂ (N₂ + 3 H₂ → 2 NH₃) e obtêm-se 30,6 g de amônia. Qual foi o rendimento? (N₂ = 28; H₂ = 2; NH₃ = 17 g/mol)
+
+- A) 180%
+- B) 10%
+- C) 36%
+- D) 80,53%
+- E) 90%
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: limitante + rendimento. 1 mol de N₂ precisa de 3 mol de H₂ (6 g); há 5 mol de H₂, então o N₂ é o limitante e forma no máximo 2 mol (34 g) de NH₃. 30,6 ÷ 34 = 90%.
+
+### 12
+<!-- modelo: d8 -->
+O ácido sulfúrico é produzido por etapas: S + O₂ → SO₂; 2 SO₂ + O₂ → 2 SO₃; SO₃ + H₂O → H₂SO₄. Que massa de H₂SO₄ se obtém a partir de 16 g de enxofre, com rendimento total? (S = 32; H₂SO₄ = 98 g/mol)
+
+- A) 49 g
+- B) 24,5 g
+- C) 98 g
+- D) 16 g
+- E) 32 g
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: reações sucessivas: siga o átomo de enxofre. Cada átomo de S termina num H₂SO₄: a proporção global é 1 mol de S para 1 mol de H₂SO₄. 16 g = 0,5 mol de S → 0,5 mol de H₂SO₄ = 49 g.
+
+### 13
+<!-- modelo: d12 -->
+Aquecendo 245 g de clorato de potássio, ocorre 2 KClO₃ → 2 KCl + 3 O₂. Que volume de O₂ se obtém a 27 °C e 1 atm? (KClO₃ = 122,5 g/mol; R = 0,082 atm·L/mol·K)
+
+- A) 67,2 L
+- B) 36,9 L
+- C) 6,64 L
+- D) 73,8 L
+- E) 49,2 L
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: estequiometria + Clapeyron (fora das CNTP). 245 g = 2 mol de KClO₃ → 3 mol de O₂; V = n·R·T/p, com T = 300 K. V = 3 × 0,082 × 300 ÷ 1 = 73,8 L.
+
+### 14
+<!-- modelo: d13 -->
+A fórmula mínima de um alceno é CH₂ e a sua massa molar é 56 g/mol. Quantos átomos de carbono há em cada molécula? (C = 12; H = 1; O = 16)
+
+- A) 8
+- B) 5
+- C) 3
+- D) 4
+- E) 4,67
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: fórmula molecular = (fórmula mínima) × n. n = massa molar ÷ massa da fórmula mínima = 56 ÷ 14 = 4. Multiplicando CH₂ por 4, há 4 átomos de carbono.
+
+### 15
+<!-- modelo: d9 -->
+Uma amostra de 100 g de calcário, ao reagir completamente, liberou 13,44 L de CO₂ nas CNTP (CaCO₃ → CaO + CO₂). Qual é a porcentagem de CaCO₃ na amostra? (CaCO₃ = 100 g/mol)
+
+- A) 100%
+- B) 13,44%
+- C) 60%
+- D) 26,4%
+- E) 40%
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: pureza a partir do produto. O volume de gás diz quantos mols de CaCO₃ reagiram; compare com a massa da amostra. 13,44 ÷ 22,4 = 0,6 mol = 60 g de CaCO₃; 60 ÷ 100 = 60%.
+
+### 16
+<!-- modelo: d11 -->
+Um antiácido contém 11,6 g de hidróxido de magnésio. Quantos gramas de HCl do estômago ele neutraliza? Mg(OH)₂ + 2 HCl → MgCl₂ + 2 H₂O (Mg(OH)₂ = 58 g/mol; HCl = 36,5 g/mol)
+
+- A) 7,3 g
+- B) 14,6 g
+- C) 29,2 g
+- D) 11,6 g
+- E) 23,2 g
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: proporção 1 : 2 em mols. Cada mol de Mg(OH)₂ neutraliza 2 mol de HCl. 11,6 ÷ 58 = 0,2 mol → 0,4 mol de HCl = 14,6 g.

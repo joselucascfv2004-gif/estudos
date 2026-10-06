@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**8690 questões** em **191 tópicos**.
+**8856 questões** em **191 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
@@ -39,26 +39,26 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Circunferência e círculo](matematica/25-circunferencia-e-circulo.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Cônicas: elipse, hipérbole e parábola](matematica/26-conicas.md) | Militares | 17 | 17 | 16 |
 
-## Física — 489 questões
+## Física — 600 questões
 
 *Ciências da Natureza*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
-| [Cinemática](fisica/01-cinematica.md) | ENEM, Militares | 12 | 12 | 12 |
-| [Dinâmica e leis de Newton](fisica/02-dinamica.md) | ENEM, Militares | 12 | 12 | 12 |
-| [Trabalho, energia, potência e impulso](fisica/03-trabalho-energia-e-potencia.md) | ENEM, Militares | 12 | 12 | 12 |
-| [Estática e hidrostática](fisica/04-estatica-e-hidrostatica.md) | ENEM, Militares | 10 | 11 | 10 |
-| [Termologia](fisica/05-termologia.md) | ENEM, Militares | 11 | 11 | 11 |
-| [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 11 | 11 | 11 |
-| [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 11 | 12 | 11 |
+| [Cinemática](fisica/01-cinematica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Dinâmica e leis de Newton](fisica/02-dinamica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Trabalho, energia, potência e impulso](fisica/03-trabalho-energia-e-potencia.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Estática e hidrostática](fisica/04-estatica-e-hidrostatica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Termologia](fisica/05-termologia.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Eletricidade e magnetismo](fisica/06-eletricidade.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Ondulatória e óptica](fisica/07-ondulatoria-e-optica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Gravitação universal](fisica/08-gravitacao.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Quantidade de movimento, impulso e colisões](fisica/09-quantidade-de-movimento-e-colisoes.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Eletrostática: carga, campo, potencial e capacitores](fisica/10-eletrostatica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Magnetismo e eletromagnetismo](fisica/11-magnetismo-e-eletromagnetismo.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Física moderna: quântica, relatividade e física nuclear](fisica/12-fisica-moderna.md) | ENEM, Militares | 17 | 17 | 16 |
 
-## Química — 345 questões
+## Química — 400 questões
 
 *Ciências da Natureza*
 
@@ -66,11 +66,11 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 |---|---|---:|---:|---:|
 | [Atomística e tabela periódica](quimica/01-atomistica-e-tabela-periodica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Ligações químicas, funções inorgânicas e reações](quimica/02-ligacoes-e-funcoes-inorganicas.md) | ENEM, Militares | 17 | 17 | 16 |
-| [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 11 | 11 | 10 |
-| [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 10 | 11 | 10 |
+| [Mol e estequiometria](quimica/03-estequiometria.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Soluções e concentrações](quimica/04-solucoes.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Química orgânica](quimica/05-quimica-organica.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Físico-química (conceitos)](quimica/06-fisico-quimica.md) | ENEM, Militares | 17 | 17 | 16 |
-| [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 10 | 11 | 11 |
+| [Cálculos físico-químicos](quimica/07-calculos-fisico-quimicos.md) | ENEM, Militares | 17 | 17 | 16 |
 | [Química ambiental, separação de misturas e materiais](quimica/08-quimica-ambiental.md) | ENEM, Militares | 17 | 17 | 16 |
 
 ## Biologia — 350 questões
