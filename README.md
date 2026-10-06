@@ -145,6 +145,12 @@ npm run atualizar-app
 Só é preciso gerar e instalar um APK novo quando houver mudança nativa (pacotes nativos ou
 configurações do `app.json`).
 
+### Logo e ícones
+
+Os ícones do app (Android, iPhone, web e tela de abertura) são desenhados a partir da logo do
+Estudos, a letra **E** no estilo desenho técnico, pelo script `scripts/marca/desenhar_icones.py`
+(`python3 scripts/marca/desenhar_icones.py`). Trocar o ícone é mudança nativa: exige APK novo.
+
 ### Outros comandos (dentro de `app/`)
 
 ```bash
