@@ -914,19 +914,19 @@ function sortearQuestoes(p: Progresso, lista: Topico[], quantidade: number, usad
 }
 
 /**
- * Simulado no formato do exame oficial: o número de questões de cada parte do programa segue o
- * peso dessa parte na prova (por exemplo, 40% de produtos na CPA). As partes ficam em sequência,
- * como no caderno de prova.
+ * Simulado no formato do exame oficial: cada parte da prova tem o mesmo número de questões do
+ * exame de verdade (por exemplo, 14 de Matemática na ESA). As partes ficam em sequência, como no
+ * caderno de prova. Uma parte pode citar tópicos ("cpa/renda-fixa") ou uma disciplina inteira
+ * ("fisica"); nesse caso entram só os tópicos daquela disciplina que caem na prova do aluno.
  */
 export function montarSimuladoFormato(p: Progresso, formato: FormatoProva): { nome: string; questoes: Questao[] }[] {
-  const cotas = formato.blocos.map((b) => Math.floor(formato.questoes * b.proporcao));
-  // distribui as questões que sobraram do arredondamento entre as partes de maior peso
-  const ordem = formato.blocos.map((b, i) => i).sort((a, b) => formato.blocos[b].proporcao - formato.blocos[a].proporcao);
-  for (let k = 0; cotas.reduce((s, x) => s + x, 0) < formato.questoes; k++) cotas[ordem[k % ordem.length]]++;
+  const doAluno = topicosDoAluno(p);
   const usadas = new Set<string>();
-  return formato.blocos.map((b, i) => {
-    const topicos = b.topicos.map((id) => getTopico(id)?.topico).filter((t): t is Topico => !!t);
-    return { nome: b.nome, questoes: sortearQuestoes(p, topicos, cotas[i], usadas) };
+  return formato.blocos.map((b) => {
+    const topicos = b.topicos.flatMap((id) =>
+      id.includes('/') ? [getTopico(id)?.topico].filter((t): t is Topico => !!t) : doAluno.filter((t) => t.id.startsWith(id + '/')),
+    );
+    return { nome: b.nome, questoes: sortearQuestoes(p, topicos, b.questoes, usadas) };
   });
 }
 

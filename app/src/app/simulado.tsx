@@ -10,7 +10,7 @@ import { MINUTOS_POR_QUESTAO, concluirLicao, montarProvaOficial, montarSimulado,
 import { Botao, Cabecalho, Cartao, Chip } from '../ui/componentes';
 import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
-import { getProva } from '../data/provas';
+import { getProva, questoesDoFormato } from '../data/provas';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 import { TextoAlternativa, TextoQuestao, temImagem } from '../ui/Imagens';
 
@@ -18,8 +18,9 @@ const LETRAS = 'ABCDE';
 const TAMANHOS = [10, 20, 30, 45];
 
 type Item = { q: Questao; ordem: number[]; bloco?: string };
-/** `minimo`: acertos para passar, nos simulados no formato do exame oficial */
-type Prova = { itens: Item[]; titulo: string; segundosTotais: number; minimo?: number };
+/** Critério de aprovação, nos simulados no formato do exame oficial. */
+type Regra = { acertosMinimos?: number; minimoPorParte?: number; texto: string };
+type Prova = { itens: Item[]; titulo: string; segundosTotais: number; regra?: Regra };
 type Resultado = { prova: Prova; respostas: (number | null)[]; segundos: number; xp: number };
 
 const formatarTempo = (seg: number) => {
@@ -61,7 +62,7 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
   const provaAlvo = getProva(p.prova);
   // "CPA (antiga CPA-10)" vira "CPA" nos botões
   const nomeProva = provaAlvo.nome.replace(/\s*\(.*\)$/, '');
-  const formato = provaAlvo.formato;
+  const formatos = provaAlvo.formatos ?? [];
   const minutos = tamanho * MINUTOS_POR_QUESTAO;
   const ultimos = [...p.simulados].reverse().slice(0, 5);
 
@@ -112,43 +113,50 @@ function TelaConfig({ comecar }: { comecar: (p: Prova) => void }) {
           }}
         />
 
-        {formato && (
-          <>
-            <Text style={s.secao}>Ou faça a prova no formato oficial</Text>
-            <Cartao estilo={{ backgroundColor: c.azulClaro, borderColor: c.azul }}>
-              <ComIcone icone="clipboard-check-outline" cor={c.azulEscuro} estiloTexto={s.cartaoTitulo}>
-                {formato.questoes} questões · {formatarMinutos(formato.minutos)} · aprovação com {formato.acertosMinimos} acertos
-              </ComIcone>
-              <Text style={s.texto}>
-                Mesmo número de questões, tempo e nota mínima do exame de verdade, com cada parte do programa no peso que ela tem na prova:
-              </Text>
-              {formato.blocos.map((b) => (
-                <Text key={b.nome} style={s.texto}>
-                  • {b.nome}: {Math.round(b.proporcao * 100)}%
-                </Text>
-              ))}
-            </Cartao>
-            <Botao
-              testID="btn-simulado-formato"
-              titulo={`Fazer o simulado ${nomeProva}`}
-              cor={c.azul}
-              onPress={() => {
-                const blocos = montarSimuladoFormato(p, formato);
-                const itens = blocos.flatMap((b) =>
-                  b.questoes.map((q) => ({ q, bloco: b.nome, ordem: podeEmbaralhar(q) ? embaralhar(q.a.map((_, i) => i)) : q.a.map((_, i) => i) })),
-                );
-                if (!itens.length) return;
-                comecar({
-                  itens,
-                  titulo: `Simulado oficial ${nomeProva}`,
-                  segundosTotais: formato.minutos * 60,
-                  // se o banco não tiver questões suficientes, a nota mínima fica proporcional
-                  minimo: Math.ceil((formato.acertosMinimos / formato.questoes) * itens.length),
-                });
-              }}
-            />
-          </>
-        )}
+        {formatos.length > 0 && <Text style={s.secao}>Ou faça a prova no formato oficial</Text>}
+        {formatos.map((formato, k) => {
+          const total = questoesDoFormato(formato);
+          const titulo = formato.nome ? `${nomeProva} — ${formato.nome}` : nomeProva;
+          return (
+            <View key={k} style={{ gap: 10 }}>
+              <Cartao estilo={{ backgroundColor: c.azulClaro, borderColor: c.azul }}>
+                <ComIcone icone="clipboard-check-outline" cor={c.azulEscuro} estiloTexto={s.cartaoTitulo}>
+                  {formato.nome ? `${formato.nome}: ` : ''}
+                  {total} questões · {formatarMinutos(formato.minutos)}
+                </ComIcone>
+                {formato.blocos.map((b) => (
+                  <Text key={b.nome} style={s.texto}>
+                    • {b.nome}: {b.questoes} {b.questoes === 1 ? 'questão' : 'questões'}
+                  </Text>
+                ))}
+                <Text style={[s.texto, { marginTop: 6 }]}>{formato.regra}</Text>
+              </Cartao>
+              <Botao
+                testID={`btn-simulado-formato-${k}`}
+                titulo={`Fazer o simulado ${titulo}`}
+                cor={c.azul}
+                onPress={() => {
+                  const blocos = montarSimuladoFormato(p, formato);
+                  const itens = blocos.flatMap((b) =>
+                    b.questoes.map((q) => ({ q, bloco: b.nome, ordem: podeEmbaralhar(q) ? embaralhar(q.a.map((_, i) => i)) : q.a.map((_, i) => i) })),
+                  );
+                  if (!itens.length) return;
+                  comecar({
+                    itens,
+                    titulo: `Simulado oficial ${titulo}`,
+                    segundosTotais: formato.minutos * 60,
+                    regra: {
+                      // se o banco não tiver questões suficientes, a nota mínima fica proporcional
+                      acertosMinimos: formato.acertosMinimos != null ? Math.ceil((formato.acertosMinimos / total) * itens.length) : undefined,
+                      minimoPorParte: formato.minimoPorParte,
+                      texto: formato.regra,
+                    },
+                  });
+                }}
+              />
+            </View>
+          );
+        })}
 
         {provasOficiais.length > 0 && (
           <>
@@ -369,6 +377,7 @@ function TelaResultado({ r }: { r: Resultado }) {
   const total = r.prova.itens.length;
   const acertos = r.prova.itens.filter((it, i) => r.respostas[i] === it.q.c).length;
   const pct = Math.round((acertos / total) * 100);
+  const regra = r.prova.regra;
 
   const porDisciplina = new Map<string, [number, number]>();
   const porBloco = new Map<string, [number, number]>();
@@ -381,6 +390,9 @@ function TelaResultado({ r }: { r: Resultado }) {
     const [a, t] = porDisciplina.get(disc) ?? [0, 0];
     porDisciplina.set(disc, [a + (r.respostas[i] === it.q.c ? 1 : 0), t + 1]);
   });
+  const minimoParte = regra?.minimoPorParte;
+  const partesAbaixo = minimoParte != null ? [...porBloco.entries()].filter(([, [a, t]]) => a < Math.ceil(t * minimoParte)).map(([nome]) => nome) : [];
+  const aprovado = regra ? (regra.acertosMinimos == null || acertos >= regra.acertosMinimos) && partesAbaixo.length === 0 : null;
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
@@ -400,23 +412,23 @@ function TelaResultado({ r }: { r: Resultado }) {
           </Text>
         </View>
 
-        {r.prova.minimo != null && (
+        {aprovado != null && (
           <Cartao
             testID="resultado-aprovacao"
-            estilo={{ backgroundColor: acertos >= r.prova.minimo ? c.verdeClaro : c.vermelhoClaro, borderColor: acertos >= r.prova.minimo ? c.verde : c.vermelho }}
+            estilo={{ backgroundColor: aprovado ? c.verdeClaro : c.vermelhoClaro, borderColor: aprovado ? c.verde : c.vermelho }}
           >
-            <ComIcone
-              icone={acertos >= r.prova.minimo ? 'check-decagram' : 'alert-circle-outline'}
-              cor={acertos >= r.prova.minimo ? c.verdeEscuro : c.vermelhoEscuro}
-              estiloTexto={s.cartaoTitulo}
-            >
-              {acertos >= r.prova.minimo ? 'Aprovado!' : 'Ainda não foi desta vez'}
+            <ComIcone icone={aprovado ? 'check-decagram' : 'alert-circle-outline'} cor={aprovado ? c.verdeEscuro : c.vermelhoEscuro} estiloTexto={s.cartaoTitulo}>
+              {aprovado ? 'Aprovado!' : 'Ainda não foi desta vez'}
             </ComIcone>
-            <Text style={s.texto}>
-              {acertos >= r.prova.minimo
-                ? `Você fez ${acertos} acertos, e o mínimo para passar é ${r.prova.minimo}. Continue treinando para manter a margem.`
-                : `O mínimo para passar é ${r.prova.minimo} acertos. Faltaram ${r.prova.minimo - acertos}. Veja abaixo as partes em que você mais errou.`}
-            </Text>
+            {regra?.acertosMinimos != null && (
+              <Text style={s.texto}>
+                {acertos >= regra.acertosMinimos
+                  ? `Você fez ${acertos} acertos, e o mínimo para passar é ${regra.acertosMinimos}.`
+                  : `O mínimo para passar é ${regra.acertosMinimos} acertos. Faltaram ${regra.acertosMinimos - acertos}.`}
+              </Text>
+            )}
+            {partesAbaixo.length > 0 && <Text style={s.texto}>Abaixo do mínimo em: {partesAbaixo.join(', ')}.</Text>}
+            <Text style={[s.texto, { marginTop: 4 }]}>{regra?.texto}</Text>
           </Cartao>
         )}
 
@@ -426,8 +438,8 @@ function TelaResultado({ r }: { r: Resultado }) {
             {[...porBloco.entries()].map(([nome, [a, t]]) => (
               <View key={nome} style={s.linhaDisc}>
                 <Text style={[s.textoForte, { flex: 1 }]}>{nome}</Text>
-                <Text style={[s.textoForte, { color: a / t >= 0.7 ? c.verdeEscuro : c.vermelhoEscuro }]}>
-                  {a}/{t}
+                <Text style={[s.textoForte, { color: a >= Math.ceil(t * (minimoParte ?? 0.7)) ? c.verdeEscuro : c.vermelhoEscuro }]}>
+                  {a}/{t} · nota {((a / t) * 10).toFixed(1).replace('.', ',')}
                 </Text>
               </View>
             ))}

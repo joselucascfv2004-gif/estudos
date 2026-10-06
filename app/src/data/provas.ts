@@ -13,18 +13,26 @@ export type ProvaAlvo = {
   descricao: string;
   /** matérias cobradas; sem esta lista, entram os tópicos marcados com o grupo (ou todos, em "Todas") */
   materias?: Materia[];
-  /** formato do exame oficial, para o simulado "como na prova" */
-  formato?: FormatoProva;
+  /** formato do exame oficial, para o simulado "como na prova" (um por dia de prova, se houver mais de um) */
+  formatos?: FormatoProva[];
 };
 
-/** Exame oficial: número de questões, tempo, nota mínima e peso de cada parte do programa. */
+/** Exame oficial: tempo, critério de aprovação e número de questões de cada parte da prova. */
 export type FormatoProva = {
-  questoes: number;
+  /** nome do caderno quando a prova tem mais de um dia ("1º dia") */
+  nome?: string;
   minutos: number;
-  acertosMinimos: number;
-  /** partes do programa: ids de tópicos ("cpa/renda-fixa") e a fração da prova de cada parte */
-  blocos: { nome: string; topicos: string[]; proporcao: number }[];
+  /** acertos mínimos na prova toda */
+  acertosMinimos?: number;
+  /** fração mínima de acertos em cada parte (0,5 = metade) */
+  minimoPorParte?: number;
+  /** como o exame oficial aprova, em linguagem simples */
+  regra: string;
+  /** partes da prova: ids de tópicos ("cpa/renda-fixa") ou de disciplinas inteiras ("fisica") */
+  blocos: { nome: string; questoes: number; topicos: string[] }[];
 };
+
+export const questoesDoFormato = (f: FormatoProva) => f.blocos.reduce((s, b) => s + b.questoes, 0);
 
 const MAT_BASICA = ['numeros-e-operacoes', 'porcentagem', 'razao-proporcao-regra-de-tres', 'equacoes-e-sistemas', 'grandezas-medidas-escalas', 'fracoes-fatoracao-e-produtos-notaveis', 'potenciacao-e-radiciacao', 'divisibilidade-primos-mdc-e-mmc'];
 const MAT_BANCARIA = [...MAT_BASICA, 'funcoes-afim-e-quadratica', 'progressoes', 'estatistica', 'analise-combinatoria', 'probabilidade'];
@@ -49,6 +57,32 @@ export const PROVAS: ProvaAlvo[] = [
       { disciplina: 'geografia' },
       { disciplina: 'ingles' },
     ],
+    // Edital nº 2 S CONC ADMS, de 22/04/2026 (EsPCEx 2026/2027), art. 32
+    formatos: [
+      {
+        nome: '1º dia',
+        minutos: 270,
+        minimoPorParte: 0.5,
+        regra: 'A nota de corte oficial é a mediana dos candidatos em cada parte, que muda a cada ano. Como referência, o app pede metade de acertos em cada parte. A redação não entra no simulado.',
+        blocos: [
+          { nome: 'Português', questoes: 20, topicos: ['portugues', 'literatura'] },
+          { nome: 'Física', questoes: 12, topicos: ['fisica'] },
+          { nome: 'Química', questoes: 12, topicos: ['quimica'] },
+        ],
+      },
+      {
+        nome: '2º dia',
+        minutos: 270,
+        minimoPorParte: 0.5,
+        regra: 'A nota de corte oficial é a mediana dos candidatos em cada parte, que muda a cada ano. Como referência, o app pede metade de acertos em cada parte. A redação não entra no simulado.',
+        blocos: [
+          { nome: 'Matemática', questoes: 20, topicos: ['matematica'] },
+          { nome: 'Geografia', questoes: 12, topicos: ['geografia'] },
+          { nome: 'História', questoes: 12, topicos: ['historia'] },
+          { nome: 'Inglês', questoes: 12, topicos: ['ingles'] },
+        ],
+      },
+    ],
   },
   {
     id: 'esa',
@@ -64,6 +98,21 @@ export const PROVAS: ProvaAlvo[] = [
       { disciplina: 'geografia' },
       { disciplina: 'ingles' },
     ],
+    // Edital do CA à ESA 2026/2027 (área geral), art. 40; prova das 13h às 17h
+    formatos: [
+      {
+        minutos: 240,
+        minimoPorParte: 0.5,
+        regra: 'A nota de corte oficial é a mediana dos candidatos em cada parte, que muda a cada ano. Como referência, o app pede metade de acertos em cada parte. A redação não entra no simulado.',
+        blocos: [
+          { nome: 'Matemática', questoes: 14, topicos: ['matematica'] },
+          { nome: 'Português', questoes: 14, topicos: ['portugues'] },
+          { nome: 'História do Brasil', questoes: 6, topicos: ['historia'] },
+          { nome: 'Geografia do Brasil', questoes: 6, topicos: ['geografia'] },
+          { nome: 'Inglês', questoes: 10, topicos: ['ingles'] },
+        ],
+      },
+    ],
   },
   {
     id: 'eear',
@@ -72,6 +121,20 @@ export const PROVAS: ProvaAlvo[] = [
     icone: 'airplane',
     descricao: 'Sargentos da Aeronáutica: Português, Inglês, Matemática e Física',
     materias: [{ disciplina: 'portugues' }, { disciplina: 'ingles' }, { disciplina: 'matematica' }, { disciplina: 'fisica' }],
+    // Instruções do exame de admissão ao CFS 2/2027: 4h20 de prova e grau mínimo 5 em cada disciplina
+    formatos: [
+      {
+        minutos: 260,
+        minimoPorParte: 0.5,
+        regra: 'Aprovação com nota mínima 5 (metade dos acertos) em cada matéria, como no edital.',
+        blocos: [
+          { nome: 'Língua Portuguesa', questoes: 24, topicos: ['portugues'] },
+          { nome: 'Língua Inglesa', questoes: 24, topicos: ['ingles'] },
+          { nome: 'Matemática', questoes: 24, topicos: ['matematica'] },
+          { nome: 'Física', questoes: 24, topicos: ['fisica'] },
+        ],
+      },
+    ],
   },
   {
     id: 'afa',
@@ -153,25 +216,27 @@ export const PROVAS: ProvaAlvo[] = [
     icone: 'certificate-outline',
     descricao: 'Certificado Profissional ANBIMA, porta de entrada do mercado financeiro (substituiu a CPA-10 em 2026). Prova: 50 questões em 2h30, aprovação com 35 acertos (70%).',
     materias: [{ disciplina: 'cpa' }, { disciplina: 'matematica-financeira' }],
-    formato: {
-      questoes: 50,
-      minutos: 150,
-      acertosMinimos: 35,
-      blocos: [
-        {
-          nome: 'Sistema financeiro e economia',
-          proporcao: 0.2,
-          topicos: ['cpa/sistema-financeiro-nacional', 'cpa/politica-economica-e-indicadores', 'cpa/calculos-financeiros-e-tributacao', 'cpa/infraestrutura-regulacao-e-autorregulacao', 'matematica-financeira/juros-simples-e-compostos', 'matematica-financeira/descontos-e-amortizacao'],
-        },
-        {
-          nome: 'Produtos do mercado financeiro',
-          proporcao: 0.4,
-          topicos: ['cpa/renda-fixa', 'cpa/renda-variavel-e-coe', 'cpa/fundos-de-investimento', 'cpa/previdencia-complementar', 'cpa/credito-servicos-bancarios-e-seguros'],
-        },
-        { nome: 'Relacionamento com o cliente', proporcao: 0.3, topicos: ['cpa/financas-pessoais-e-planejamento', 'cpa/suitability-e-conduta-etica', 'cpa/pld-lgpd-e-crimes-de-mercado'] },
-        { nome: 'Inovação e desenvolvimento de mercado', proporcao: 0.1, topicos: ['cpa/inovacao-esg-e-tecnologia'] },
-      ],
-    },
+    formatos: [
+      {
+        minutos: 150,
+        acertosMinimos: 35,
+        regra: 'Aprovação com 35 acertos (70%) na prova toda.',
+        blocos: [
+          {
+            nome: 'Sistema financeiro e economia',
+            questoes: 10,
+            topicos: ['cpa/sistema-financeiro-nacional', 'cpa/politica-economica-e-indicadores', 'cpa/calculos-financeiros-e-tributacao', 'cpa/infraestrutura-regulacao-e-autorregulacao', 'matematica-financeira/juros-simples-e-compostos', 'matematica-financeira/descontos-e-amortizacao'],
+          },
+          {
+            nome: 'Produtos do mercado financeiro',
+            questoes: 20,
+            topicos: ['cpa/renda-fixa', 'cpa/renda-variavel-e-coe', 'cpa/fundos-de-investimento', 'cpa/previdencia-complementar', 'cpa/credito-servicos-bancarios-e-seguros'],
+          },
+          { nome: 'Relacionamento com o cliente', questoes: 15, topicos: ['cpa/financas-pessoais-e-planejamento', 'cpa/suitability-e-conduta-etica', 'cpa/pld-lgpd-e-crimes-de-mercado'] },
+          { nome: 'Inovação e desenvolvimento de mercado', questoes: 5, topicos: ['cpa/inovacao-esg-e-tecnologia'] },
+        ],
+      },
+    ],
   },
   {
     id: 'c-pro-r',
@@ -180,21 +245,23 @@ export const PROVAS: ProvaAlvo[] = [
     icone: 'account-tie-outline',
     descricao: 'Certificado Profissional ANBIMA de Relacionamento, para quem recomenda investimentos (substituiu a CPA-20 em 2026; exige a CPA ativa). Prova: 45 questões em 2h30, aprovação com 32 acertos.',
     materias: [{ disciplina: 'c-pro-r' }],
-    formato: {
-      questoes: 45,
-      minutos: 150,
-      acertosMinimos: 32,
-      blocos: [
-        { nome: 'Prospecção e relacionamento', proporcao: 0.2, topicos: ['c-pro-r/financas-comportamentais', 'c-pro-r/prospeccao-e-regras-de-relacionamento'] },
-        { nome: 'Análise de informações do cliente', proporcao: 0.2, topicos: ['c-pro-r/analise-do-cliente-e-perfil'] },
-        {
-          nome: 'Indicação de investimentos',
-          proporcao: 0.4,
-          topicos: ['c-pro-r/asset-allocation-e-renda-fixa', 'c-pro-r/renda-variavel-derivativos-e-coe', 'c-pro-r/fundos-etf-e-fii', 'c-pro-r/investimentos-no-exterior', 'c-pro-r/previdencia-avancada', 'c-pro-r/criptoativos'],
-        },
-        { nome: 'Análise de portfólio e monitoramento', proporcao: 0.2, topicos: ['c-pro-r/risco-retorno-e-performance'] },
-      ],
-    },
+    formatos: [
+      {
+        minutos: 150,
+        acertosMinimos: 32,
+        regra: 'Aprovação com 32 acertos (cerca de 70%) na prova toda.',
+        blocos: [
+          { nome: 'Prospecção e relacionamento', questoes: 9, topicos: ['c-pro-r/financas-comportamentais', 'c-pro-r/prospeccao-e-regras-de-relacionamento'] },
+          { nome: 'Análise de informações do cliente', questoes: 9, topicos: ['c-pro-r/analise-do-cliente-e-perfil'] },
+          {
+            nome: 'Indicação de investimentos',
+            questoes: 18,
+            topicos: ['c-pro-r/asset-allocation-e-renda-fixa', 'c-pro-r/renda-variavel-derivativos-e-coe', 'c-pro-r/fundos-etf-e-fii', 'c-pro-r/investimentos-no-exterior', 'c-pro-r/previdencia-avancada', 'c-pro-r/criptoativos'],
+          },
+          { nome: 'Análise de portfólio e monitoramento', questoes: 9, topicos: ['c-pro-r/risco-retorno-e-performance'] },
+        ],
+      },
+    ],
   },
   { id: 'concursos', nome: 'Concursos (geral)', grupo: 'Concursos', icone: 'briefcase-outline', descricao: 'Todas as matérias de concursos do app' },
   { id: 'todas', nome: 'Tudo', grupo: 'Todas', icone: 'view-grid-outline', descricao: 'Todos os conteúdos do app' },
