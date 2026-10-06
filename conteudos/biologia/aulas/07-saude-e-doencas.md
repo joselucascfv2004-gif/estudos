@@ -5,7 +5,7 @@ Na prova, quase sempre a pergunta é: **qual o agente**, **como se transmite** e
 ### Viroses (causadas por vírus)
 
 - **Gripe e covid-19:** gotículas e aerossóis. Prevenção: **vacina**, máscara, ventilação.
-- **Dengue, zika, chikungunya e febre amarela urbana:** transmitidas pelo mosquito ***Aedes aegypti***. Prevenção: eliminar **água parada** (criadouros), vacina (febre amarela; há vacina contra a dengue).
+- **Dengue, zika, chikungunya e febre amarela urbana:** transmitidas pelo mosquito *Aedes aegypti*. Prevenção: eliminar **água parada** (criadouros), vacina (febre amarela; há vacina contra a dengue).
 - **Sarampo:** muito contagioso; prevenção com vacina (tríplice viral).
 - **HIV/aids:** sangue, relações sexuais sem preservativo, da mãe para o filho. Prevenção: **preservativo**, não compartilhar seringas, PrEP.
 - **Hepatites:** a A pela água e alimentos contaminados; a B e a C pelo sangue e relações sexuais. Há vacina contra A e B.
@@ -25,7 +25,7 @@ Tratamento: **antibióticos**, usados pelo tempo indicado.
 
 ### Protozooses (causadas por protozoários)
 
-- **Malária:** mosquito ***Anopheles*** (prego); comum na Amazônia.
+- **Malária:** mosquito *Anopheles* (prego); comum na Amazônia.
 - **Doença de Chagas:** o **barbeiro** defeca enquanto pica, e o protozoário entra pela ferida; também por alimentos contaminados (caldo de cana, açaí). Afeta o coração.
 - **Leishmaniose:** **mosquito-palha**.
 - **Amebíase e giardíase:** **água e alimentos contaminados**.

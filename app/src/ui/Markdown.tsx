@@ -2,7 +2,7 @@ import { Text, View } from 'react-native';
 
 import { criarEstilos, useCores } from './tema';
 
-/** Texto com trechos em **negrito**. */
+/** Texto com trechos em **negrito** e *itálico* (títulos de obras, nomes científicos). */
 export function TextoRico({ texto, estilo, forte }: { texto: string; estilo: object; forte: object }) {
   const partes = texto.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
   return (
@@ -13,7 +13,19 @@ export function TextoRico({ texto, estilo, forte }: { texto: string; estilo: obj
             {parte.slice(2, -2)}
           </Text>
         ) : (
+          // itálico só fora do negrito; um * solto (como em fórmulas: =A1*B1) continua como está
           parte
+            .split(/(\*[^\s*](?:[^*]*[^\s*])?\*)/g)
+            .filter(Boolean)
+            .map((trecho, j) =>
+              trecho.length > 2 && trecho.startsWith('*') && trecho.endsWith('*') ? (
+                <Text key={`${i}-${j}`} style={{ fontStyle: 'italic' }}>
+                  {trecho.slice(1, -1)}
+                </Text>
+              ) : (
+                trecho
+              ),
+            )
         ),
       )}
     </Text>
@@ -22,7 +34,7 @@ export function TextoRico({ texto, estilo, forte }: { texto: string; estilo: obj
 
 /**
  * Markdown simples dos resumos e aulas: títulos (### e ####), listas (- e 1.), destaques (> texto,
- * usados para exemplos resolvidos) e **negrito**.
+ * usados para exemplos resolvidos), **negrito** e *itálico*.
  */
 export function Markdown({ texto, cor }: { texto: string; cor?: string }) {
   const c = useCores();
