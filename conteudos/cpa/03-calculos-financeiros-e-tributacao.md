@@ -11,6 +11,17 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Juros, taxas equivalentes e reais (Fisher), valor presente, VPL e TIR, SAC e Price, desconto bancário, IR e IOF de investimentos, come-cotas, previdência, FGC e comparação de rentabilidade líquida.
 
+## Resumo
+
+- **Juros:** simples, M = C·(1 + i·n); compostos, M = C·(1 + i)ⁿ. Taxas equivalentes (compostos): (1 + i_anual) = (1 + i_mensal)¹².
+- **Taxa real (Fisher):** (1 + nominal) = (1 + real)·(1 + inflação). Subtrair é só uma aproximação.
+- **VP = VF/(1 + i)ⁿ. VPL** = valor presente das entradas − investimento; **TIR** = taxa que zera o VPL; **payback** = tempo para recuperar o investido.
+- **SAC:** amortização constante, parcelas decrescentes. **Price:** parcelas iguais. **Desconto comercial:** D = N·d·n.
+- **IR da renda fixa:** 22,5% (até 180 dias), 20% (até 360), 17,5% (até 720), 15% (acima). **IOF** regressivo até o 29º dia (96% do rendimento no 1º dia, zero a partir do 30º). **Taxa isenta equivalente** = taxa bruta·(1 − alíquota).
+- **Ações:** 15% (comum) e 20% (day trade). Isenção para vendas de até R$ 20 mil/mês (só operações comuns no à vista). Prejuízos compensam lucros da mesma modalidade.
+- **Fundos:** come-cotas em maio e novembro (15% longo prazo, 20% curto prazo). **Previdência regressiva:** 35% a 10% (acima de 10 anos). VGBL: IR só no ganho; PGBL: no total.
+- **Poupança:** 0,5% a.m. + TR (Selic > 8,5%) ou 70% da Selic + TR. **FGC:** R$ 250 mil por CPF por instituição.
+
 ## Fácil
 
 ### 1

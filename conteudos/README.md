@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**8190 questões** em **181 tópicos**.
+**8540 questões** em **188 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
@@ -333,3 +333,17 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Suitability, perfil do investidor e conduta ética](cpa/11-suitability-e-conduta-etica.md) | Certificações | 17 | 17 | 16 |
 | [Prevenção à lavagem de dinheiro, LGPD e crimes contra o mercado](cpa/12-pld-lgpd-e-crimes-de-mercado.md) | Certificações | 17 | 17 | 16 |
 | [Inovação: ESG, finanças digitais e open finance](cpa/13-inovacao-esg-e-tecnologia.md) | Certificações | 17 | 17 | 16 |
+
+## C-Pro R (ANBIMA) — 350 questões
+
+*Certificações Financeiras*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Finanças comportamentais](c-pro-r/01-financas-comportamentais.md) | Certificações | 17 | 17 | 16 |
+| [Prospecção e regras do relacionamento com o investidor](c-pro-r/02-prospeccao-e-regras-de-relacionamento.md) | Certificações | 17 | 17 | 16 |
+| [Análise do cliente e perfil do investidor](c-pro-r/03-analise-do-cliente-e-perfil.md) | Certificações | 17 | 17 | 16 |
+| [Alocação de ativos e renda fixa](c-pro-r/04-asset-allocation-e-renda-fixa.md) | Certificações | 17 | 17 | 16 |
+| [Renda variável, derivativos e COE](c-pro-r/05-renda-variavel-derivativos-e-coe.md) | Certificações | 17 | 17 | 16 |
+| [Fundos, ETFs, FIIs e outros veículos coletivos](c-pro-r/06-fundos-etf-e-fii.md) | Certificações | 17 | 17 | 16 |
+| [Risco, retorno e performance de carteiras](c-pro-r/10-risco-retorno-e-performance.md) | Certificações | 17 | 17 | 16 |
