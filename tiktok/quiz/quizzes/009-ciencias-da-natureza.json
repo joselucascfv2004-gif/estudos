@@ -1,0 +1,93 @@
+{
+  "titulo": "Você sabe Ciências da Natureza?",
+  "titulo_tela": "Você sabe Ciências da Natureza?",
+  "destaque": "Natureza?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "NATUREZA  •  5 PERGUNTAS",
+  "capa_cor": "laranja",
+  "capa_titulo": "Você sabe Ciências da Natureza?",
+  "capa_destaque": "Natureza?",
+  "capa_sub": "Biologia, Química e Física",
+  "chamada": "Você sabe Ciências da Natureza? Biologia, Química e Física, do jeito que cai no ENEM. Comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe Ciências da Natureza? 🧪 Biologia, Química e Física do ENEM. Comenta quantas você acertou! 👇",
+  "hashtags": "#biologia #quimica #enem #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/biologia, quimica e fisica).",
+  "perguntas": [
+    {
+      "materia": "Biologia",
+      "pergunta": "Na relação entre abelhas e flores, as duas espécies saem ganhando. Que relação é essa?",
+      "alternativas": [
+        "parasitismo",
+        "predatismo",
+        "mutualismo",
+        "competição",
+        "amensalismo"
+      ],
+      "certa": 2,
+      "explicacao": "A abelha leva o néctar e a planta é polinizada. Quando as duas espécies ganham, é mutualismo.",
+      "fonte": "estudos/conteudos/biologia/03-ecologia.md, Fácil 4"
+    },
+    {
+      "materia": "Química",
+      "pergunta": "Qual é o jeito mais simples de separar a areia da água?",
+      "alternativas": [
+        "filtração",
+        "destilação",
+        "evaporação",
+        "cromatografia",
+        "liquefação"
+      ],
+      "certa": 0,
+      "explicacao": "A filtração separa o sólido que não se dissolveu do líquido. O coador de café é um exemplo do dia a dia.",
+      "fonte": "estudos/conteudos/quimica/08-quimica-ambiental.md, Fácil 2"
+    },
+    {
+      "materia": "Biologia",
+      "pergunta": "Qual organela faz a respiração celular e produz a maior parte da energia da célula?",
+      "alternativas": [
+        "cloroplasto",
+        "lisossomo",
+        "centríolo",
+        "vacúolo",
+        "mitocôndria"
+      ],
+      "certa": 4,
+      "explicacao": "É na mitocôndria que acontece a respiração celular. Ela produz a maior parte do ATP, a energia da célula.",
+      "fonte": "estudos/conteudos/biologia/01-citologia.md, Fácil 2"
+    },
+    {
+      "materia": "Física",
+      "pergunta": "Um aparelho ligado em 110 volts recebe uma corrente de 5 ampères. Qual é a potência dele?",
+      "texto_tela": "Um aparelho em 110 V recebe 5 A de corrente. Qual é a potência dele?",
+      "alternativas": [
+        "275 W",
+        "22 W",
+        "115 W",
+        "550 W",
+        "2.750 W"
+      ],
+      "certa": 3,
+      "resposta_falada": "550 watts",
+      "explicacao": "Potência é a tensão vezes a corrente. 110 vezes 5 dá 550 watts.",
+      "fonte": "estudos/conteudos/fisica/06-eletricidade.md, Fácil 1"
+    },
+    {
+      "materia": "Biologia",
+      "pergunta": "E a última: qual gás é o principal responsável pelo aumento do efeito estufa causado pelo ser humano?",
+      "texto_tela": "Qual gás é o principal responsável pelo aumento do efeito estufa causado pelo ser humano?",
+      "alternativas": [
+        "oxigênio",
+        "gás carbônico",
+        "nitrogênio",
+        "hélio",
+        "argônio"
+      ],
+      "certa": 1,
+      "explicacao": "A queima de combustíveis e o desmatamento jogam gás carbônico no ar. O metano também contribui.",
+      "fonte": "estudos/conteudos/biologia/03-ecologia.md, Fácil 6"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

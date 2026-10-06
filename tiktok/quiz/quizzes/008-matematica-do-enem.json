@@ -1,0 +1,97 @@
+{
+  "titulo": "Você passaria na Matemática do ENEM?",
+  "titulo_tela": "Você passaria em Matemática?",
+  "destaque": "Matemática?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "MATEMÁTICA  •  5 PERGUNTAS",
+  "capa_cor": "verde",
+  "capa_titulo": "Você passaria na Matemática do ENEM?",
+  "capa_destaque": "Matemática",
+  "capa_sub": "Porcentagem e regra de três",
+  "chamada": "Você passaria na Matemática do ENEM? São cinco contas rápidas, de assuntos que mais caem na prova. Comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você passaria na Matemática do ENEM? 🧮 5 contas rápidas, 5 segundos cada. Comenta quantas você acertou! 👇",
+  "hashtags": "#matematica #enem #enem2026 #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/matematica/02-porcentagem.md e 03-razao-proporcao-regra-de-tres.md).",
+  "perguntas": [
+    {
+      "materia": "Matemática",
+      "pergunta": "Um fone de 120 reais está com 25% de desconto. Quanto você paga?",
+      "texto_tela": "Um fone de R$ 120 está com 25% de desconto. Quanto você paga?",
+      "alternativas": [
+        "R$ 150",
+        "R$ 95",
+        "R$ 117",
+        "R$ 30",
+        "R$ 90"
+      ],
+      "certa": 4,
+      "resposta_falada": "90 reais",
+      "explicacao": "Tirar 25% é ficar com 75% do preço. E 75% de 120 reais dá 90 reais.",
+      "fonte": "estudos/conteudos/matematica/02-porcentagem.md, Fácil 8"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "Com 5 ovos, uma confeiteira faz 2 bolos. Quantos ovos ela precisa para fazer 12 bolos?",
+      "alternativas": [
+        "60",
+        "32",
+        "30",
+        "15",
+        "4,8"
+      ],
+      "certa": 2,
+      "resposta_falada": "30 ovos",
+      "explicacao": "Cada bolo leva dois ovos e meio. Então, 12 bolos levam 30 ovos.",
+      "fonte": "estudos/conteudos/matematica/03-razao-proporcao-regra-de-tres.md, Fácil 8"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "10 pedreiros constroem um muro em 12 dias. Em quantos dias 3 pedreiros constroem o mesmo muro?",
+      "alternativas": [
+        "40 dias",
+        "43 dias",
+        "24 dias",
+        "19 dias",
+        "3,6 dias"
+      ],
+      "certa": 0,
+      "explicacao": "Menos pedreiros levam mais tempo. A obra dá 10 vezes 12, que são 120 dias de trabalho, e 120 dividido por 3 dá 40.",
+      "fonte": "estudos/conteudos/matematica/03-razao-proporcao-regra-de-tres.md, Fácil 7"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "Um produto de 200 reais subiu 20% e, depois, teve 20% de desconto. Qual é o preço final?",
+      "texto_tela": "Um produto de R$ 200 subiu 20% e, depois, teve 20% de desconto. Qual é o preço final?",
+      "alternativas": [
+        "R$ 240",
+        "R$ 200",
+        "R$ 160",
+        "R$ 192",
+        "R$ 220"
+      ],
+      "certa": 3,
+      "resposta_falada": "192 reais",
+      "explicacao": "O desconto é calculado sobre o preço já aumentado, de 240 reais. E 20% de 240 é 48, então sobram 192 reais.",
+      "fonte": "estudos/conteudos/matematica/02-porcentagem.md, Médio 4"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "E a última: um concurso teve 600 inscritos para 20 vagas. Quantos candidatos por vaga?",
+      "texto_tela": "Um concurso teve 600 inscritos para 20 vagas. Quantos candidatos por vaga?",
+      "alternativas": [
+        "35 por vaga",
+        "30 por vaga",
+        "300 por vaga",
+        "6 por vaga",
+        "0,03 por vaga"
+      ],
+      "certa": 1,
+      "resposta_falada": "30 candidatos por vaga",
+      "explicacao": "É só dividir os candidatos pelas vagas. 600 dividido por 20 dá 30.",
+      "fonte": "estudos/conteudos/matematica/03-razao-proporcao-regra-de-tres.md, Fácil 2"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

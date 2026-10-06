@@ -29,6 +29,13 @@ pedir. As regras delas continuam abaixo para quando voltarem.
   `capa_cor` (amarelo, laranja, verde, roxo, vermelho). Varie a cor e o selo entre os vídeos.
 - Cada quiz traz a sua `descricao` e 5 `hashtags` do tema (padrão:
   `#enem #enem2026 #quiz #estudos #vestibular`).
+- **Chamada para o e-book.** Quizzes de ENEM levam `"chamada_final": "ebook"`: o final mostra
+  "REVISÃO FINAL ENEM 2026" e "Link no comentário fixado", e o `postagem.txt` traz o comentário para
+  fixar (textos em `EBOOK`, no `fazer_quiz.py`). O e-book é um projeto à parte, do repositório
+  `vendasteste` (`revisao-enem/`), com página em revisao-final-enem-2026.netlify.app. Nunca
+  coloque o link do checkout, prometa nota ou aprovação, nem diga que o material é oficial do
+  INEP. A narração do `encerramento` cita o e-book e o comentário fixado. O ENEM 2026 é em 8 e 15 de
+  novembro: depois disso, volte ao final normal. Quizzes de concurso não levam essa chamada.
 - **O app ainda não foi lançado** (`APP_LANCADO = False`): o final diz "siga para o próximo teste" e
   "App Estudos chegando em breve". Nunca diga "baixe" ou "link no perfil" antes do lançamento. A bio
   do perfil está em `perfil.md`.

@@ -52,6 +52,16 @@ HASHTAGS_QUIZ = "#enem #enem2026 #quiz #estudos #vestibular"  # padrão, se o qu
 # O app ainda não foi lançado: o final convida a seguir o perfil e diz que o app chega em breve.
 # Quando lançar, mude para True (o final volta a dizer "baixe o app" e "link no perfil").
 APP_LANCADO = False
+# Quiz com "chamada_final": "ebook" divulga a Revisão Final ENEM 2026 (e-book do repositório
+# vendasteste). O link fica no comentário fixado: conta com menos de 1.000 seguidores não tem link
+# clicável na bio. Use só em quizzes de ENEM.
+EBOOK = {
+    "botao": "REVISÃO FINAL ENEM 2026",
+    "linha": "Link no comentário fixado",
+    "descricao": "📚 Revisão Final ENEM 2026: link no comentário fixado 📌",
+    "comentario": "📚 Revisão Final ENEM 2026: os assuntos que mais caem + plano de estudos de 4 semanas"
+                  " 👉 revisao-final-enem-2026.netlify.app",
+}
 # Cores de destaque para variar as capas (campo "capa_cor" do quiz)
 CORES_CAPA = {"amarelo": (255, 200, 0), "laranja": (255, 150, 0), "verde": (88, 204, 2),
               "roxo": (206, 130, 255), "vermelho": (255, 75, 75)}
@@ -593,6 +603,7 @@ async def fazer(arquivo: Path) -> None:
         (temp / "audio.raw").write_bytes(audio.tobytes())
 
         # 2) Peças fixas (desenhadas uma vez só)
+        ebook = quiz.get("chamada_final") == "ebook"
         pecas = {
             "barra_topo": barra_topo(),
             "abertura": cartao_marca([
@@ -603,9 +614,11 @@ async def fazer(arquivo: Path) -> None:
             "encerramento": cartao_marca([
                 (logo(140), 0.15, False),
                 (linha_texto("Quantas você acertou?", 70, "acertou?"), 0.35, False),
-                (botao("BAIXE O APP ESTUDOS" if APP_LANCADO else "SIGA PARA O PRÓXIMO TESTE"),
+                (botao(EBOOK["botao"] if ebook else
+                       "BAIXE O APP ESTUDOS" if APP_LANCADO else "SIGA PARA O PRÓXIMO TESTE"),
                  0.7, True),
-                (linha_texto("+4.900 questões grátis  •  link no perfil" if APP_LANCADO
+                (linha_texto(EBOOK["linha"] if ebook else
+                             "+4.900 questões grátis  •  link no perfil" if APP_LANCADO
                              else "App Estudos  •  chegando em breve", 32, cor=CINZA_AZULADO),
                  1.0, False),
             ]),
@@ -635,14 +648,24 @@ async def fazer(arquivo: Path) -> None:
     caber_no_limite(saida / "video.mp4")
     salvar_capa_quiz(arquivo, quiz, total, saida / "capa.png")
 
+    ebook = quiz.get("chamada_final") == "ebook"
+    fim_descricao = (EBOOK["descricao"] if ebook else
+                     "Treine com +4.900 questões no App Estudos (link no perfil)." if APP_LANCADO
+                     else "App Estudos chegando em breve 📲")
+    extra_ebook = f"""
+COMENTÁRIO PARA FIXAR (comente no seu vídeo, segure o dedo nele e toque em "Fixar"):
+{EBOOK["comentario"]}
+
+Em "Mais opções", ligue também "Conteúdo comercial" → "Sua marca" (o vídeo divulga o e-book).
+""" if ebook else ""
     (saida / "postagem.txt").write_text(f"""Arquivo: video.mp4 ({int(duracao // 60)}min{int(duracao % 60):02d}s)
 
 Capa: capa.png (adicione como capa no TikTok, em "Editar capa").
 
 Texto para colar no TikTok:
-{quiz.get('descricao', quiz['titulo'] + ' 🧠 Comenta quantas você acertou! 👇')} {'Treine com +4.900 questões no App Estudos (link no perfil).' if APP_LANCADO else 'App Estudos chegando em breve 📲'}
+{quiz.get('descricao', quiz['titulo'] + ' 🧠 Comenta quantas você acertou! 👇')} {fim_descricao}
 {quiz.get('hashtags', HASHTAGS_QUIZ)}
-
+{extra_ebook}
 ANTES DE PUBLICAR:
 - Em "Mais opções", ligue "Conteúdo gerado por IA" (a narração é feita por voz de IA).
 - Ainda em "Mais opções", ligue "Enviar em alta qualidade" (ou "Upload HD"), se aparecer.

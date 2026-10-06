@@ -1,0 +1,93 @@
+{
+  "titulo": "O que mais cai no ENEM?",
+  "titulo_tela": "O que mais cai no ENEM?",
+  "destaque": "ENEM?",
+  "subtitulo_tela": "Provas de 2009 a 2025  •  5 segundos cada",
+  "capa_selo": "RANKING  •  2009 A 2025",
+  "capa_cor": "amarelo",
+  "capa_titulo": "O que mais cai no ENEM?",
+  "capa_destaque": "ENEM?",
+  "capa_sub": "Contamos as provas oficiais",
+  "chamada": "O que mais cai no ENEM? Nós contamos as questões das provas oficiais de 2009 a 2025. Tenta adivinhar e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "O que mais cai no ENEM? 📊 Contamos as questões das provas de 2009 a 2025. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #enem2026 #vestibular #quiz #estudos",
+  "origem": "Contagem das questões oficiais do ENEM de 2009 a 2025 (vendasteste/revisao-enem/dados/selecao.json, campo oficiais).",
+  "perguntas": [
+    {
+      "materia": "Matemática",
+      "pergunta": "Qual destes assuntos de Matemática mais caiu no ENEM?",
+      "alternativas": [
+        "Trigonometria",
+        "Logaritmo",
+        "Regra de três",
+        "Matrizes",
+        "Progressões"
+      ],
+      "certa": 2,
+      "explicacao": "Razão, proporção e regra de três somaram 87 questões. Trigonometria teve só 19.",
+      "fonte": "Contagem das questões oficiais do ENEM de 2009 a 2025 (vendasteste/revisao-enem/dados/selecao.json, campo oficiais)."
+    },
+    {
+      "materia": "Natureza",
+      "pergunta": "E em Ciências da Natureza, qual destes mais caiu?",
+      "alternativas": [
+        "Citologia",
+        "Evolução",
+        "Tabela periódica",
+        "Cinemática",
+        "Ecologia"
+      ],
+      "certa": 4,
+      "explicacao": "Ecologia lidera Ciências da Natureza, com 75 questões. Tabela periódica teve só 13.",
+      "fonte": "Contagem das questões oficiais do ENEM de 2009 a 2025 (vendasteste/revisao-enem/dados/selecao.json, campo oficiais)."
+    },
+    {
+      "materia": "Humanas",
+      "pergunta": "Em Ciências Humanas, qual destes mais caiu?",
+      "alternativas": [
+        "Sociologia",
+        "Brasil Império",
+        "Idade Moderna",
+        "Ditadura militar",
+        "Cartografia"
+      ],
+      "certa": 0,
+      "resposta_falada": "Sociologia, com os temas atuais",
+      "explicacao": "Os temas atuais da Sociologia somaram 94 questões. É o assunto que mais cai em Humanas, à frente de qualquer assunto de História.",
+      "fonte": "Contagem das questões oficiais do ENEM de 2009 a 2025 (vendasteste/revisao-enem/dados/selecao.json, campo oficiais)."
+    },
+    {
+      "materia": "Linguagens",
+      "pergunta": "Em Linguagens, qual destes mais caiu?",
+      "alternativas": [
+        "Figuras de linguagem",
+        "Morfologia e sintaxe",
+        "Romantismo",
+        "Gêneros textuais",
+        "Crase e concordância"
+      ],
+      "certa": 3,
+      "explicacao": "Funções da linguagem, gêneros textuais e variação linguística somaram 182 questões. É o assunto campeão de todo o ENEM.",
+      "fonte": "Contagem das questões oficiais do ENEM de 2009 a 2025 (vendasteste/revisao-enem/dados/selecao.json, campo oficiais)."
+    },
+    {
+      "materia": "Linguagens",
+      "pergunta": "E a última: quantas questões de ortografia e acentuação caíram no ENEM de 2009 a 2025?",
+      "texto_tela": "Quantas questões de ortografia e acentuação caíram de 2009 a 2025?",
+      "alternativas": [
+        "Mais de 200",
+        "Só 4",
+        "Cerca de 90",
+        "Cerca de 40",
+        "Cerca de 150"
+      ],
+      "certa": 1,
+      "resposta_falada": "só 4",
+      "explicacao": "O ENEM quase não cobra regra de gramática solta. Ele cobra leitura: interpretação de texto teve 142 questões.",
+      "fonte": "Contagem das questões oficiais do ENEM de 2009 a 2025 (vendasteste/revisao-enem/dados/selecao.json, campo oficiais)."
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! O ranking completo, com todos os assuntos, está na Revisão Final ENEM 2026. O link está no comentário fixado."
+}
