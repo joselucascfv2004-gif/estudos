@@ -87,8 +87,12 @@ pedir. As regras delas continuam abaixo para quando voltarem.
 
 - Não use robôs que fazem login ou clicam no app do TikTok no lugar da pessoa: isso viola os termos
   do TikTok e pode banir a conta.
-- A postagem é feita pelo dono do canal (app ou TikTok Studio, com agendamento) ou, no futuro, pela
-  API oficial do TikTok.
+- A postagem é feita pelo dono do canal ou, no futuro, pela API oficial do TikTok.
+- **Poste pelo celular, no Wi-Fi.** Os 4 primeiros quizzes, postados pelo computador numa conta nova
+  e sem uso, ficaram com 0 a 1 visualização. O quiz 005, postado pelo celular (com música em alta
+  bem baixinha), teve 38 visualizações e 1 comentário logo de início. O dono salva o vídeo e a capa
+  abrindo o chat no app do Claude no celular. Recomende usar o TikTok normalmente todos os dias
+  (assistir e comentar vídeos de estudo) e postar 1 vídeo por dia, entre 18h e 22h.
 
 ## Como gerar os vídeos
 
