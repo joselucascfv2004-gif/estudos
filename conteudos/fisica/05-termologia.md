@@ -177,6 +177,90 @@ Quantas calorias são necessárias para aquecer 200 g de água em 50 °C? (calor
 
 **Explicação:** Ferramenta: calor sensível (Q = m·c·ΔT). Q = m·c·ΔT = 200 × 1 × 50 = 10.000 cal.
 
+### 12
+<!-- modelo: f10 -->
+Para aquecer 500 g de ferro em 10 °C, foram necessárias 550 cal. Qual é o calor específico do ferro?
+
+- A) 0,11 cal/g·°C
+- B) 9,09 cal/g·°C
+- C) 1,1 cal/g·°C
+- D) 55 cal/g·°C
+- E) 1,11 cal/g·°C
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: Q = m·c·ΔT, isolando c. Divida o calor pela massa e pela variação de temperatura. c = 550 ÷ (500 × 10) = 0,11 cal/g·°C.
+
+### 13
+<!-- modelo: f13 -->
+Um gás ocupa 6 L a 27 °C. Aquecido a pressão constante até 127 °C, que volume passa a ocupar?
+
+- A) 4,5 L
+- B) 28,22 L
+- C) 12 L
+- D) 7 L
+- E) 8 L
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: transformação isobárica: V/T constante (T em kelvin). Converta para kelvin antes de fazer a proporção; em °C a conta dá errado. 27 °C = 300 K; 127 °C = 400 K; V₂ = 6 × 400 ÷ 300 = 8 L.
+
+### 14
+<!-- modelo: f11 -->
+Um bloco metálico de 2000 cm³ tem coeficiente de dilatação linear 1,0 × 10⁻⁵ °C⁻¹. Quanto o seu volume aumenta ao ser aquecido em 200 °C?
+
+- A) 120 cm³
+- B) 4 cm³
+- C) 0,06 cm³
+- D) 12 cm³
+- E) 8 cm³
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: dilatação volumétrica: ΔV = V₀·γ·ΔT, com γ = 3α. O volume dilata nas três dimensões, por isso o coeficiente é o triplo do linear. ΔV = 2000 × 3 × 1 × 10⁻⁵ × 200 = 12 cm³.
+
+### 15
+<!-- modelo: f12 -->
+A naftalina diminui de tamanho no armário, sem virar líquido. Qual mudança de estado físico acontece?
+
+- A) fusão
+- B) sublimação
+- C) condensação
+- D) solidificação
+- E) vaporização
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: mudanças de estado. Fusão: sólido → líquido; solidificação: líquido → sólido; vaporização: líquido → gás; condensação: gás → líquido; sublimação: sólido → gás. Aqui é sublimação.
+
+### 16
+<!-- modelo: f9 -->
+Um termômetro marca 122 °F. Qual é essa temperatura em graus Celsius?
+
+- A) 251,6 °C
+- B) 85,56 °C
+- C) 50 °C
+- D) 60 °C
+- E) 90 °C
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: °F → °C: C = (F − 32) × 5/9. Tire o deslocamento de 32 e corrija o tamanho do grau (cada °C vale 1,8 °F). (122 − 32) × 5/9 = 50 °C.
+
+### 17
+<!-- modelo: f14 -->
+Uma quantidade de calor de 100 cal equivale a quantos joules? (1 cal = 4,2 J)
+
+- A) 420 J
+- B) 104,2 J
+- C) 4.200 J
+- D) 42 J
+- E) 23,81 J
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: conversão: 1 cal = 4,2 J. Multiplique as calorias por 4,2. 100 × 4,2 = 420 J.
+
 ## Médio
 
 ### 1
@@ -333,6 +417,90 @@ Uma chapa metálica de 1 m² é aquecida em 100 °C. O coeficiente de dilataçã
 
 **Explicação:** Ferramenta: dilatação superficial (β = 2α). Área dilata nas duas direções: o coeficiente superficial é o dobro do linear. ΔA = 1 × 48 × 10⁻⁶ × 100 = 0,0048 m² = 48 cm².
 
+### 12
+<!-- modelo: m9 -->
+Uma placa de madeira (condutividade 0,15 W/m·°C) tem 2 m² de área e 10 mm de espessura. A diferença de temperatura entre as faces é 20 °C. Qual é o fluxo de calor através dela?
+
+- A) 300 W
+- B) 1.200 W
+- C) 600 W
+- D) 0,6 W
+- E) 60 W
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: lei de Fourier: Φ = k·A·ΔT/L. O fluxo cresce com a área e a diferença de temperatura e cai com a espessura (em metros). 0,15 × 2 × 20 ÷ 0,010 = 600 W.
+
+### 13
+<!-- modelo: m10 -->
+Trilhos de 25 m (α = 2,5 × 10⁻⁵ °C⁻¹) são instalados com uma folga entre eles. Qual deve ser a folga mínima, em milímetros, para um aumento de temperatura de 25 °C?
+
+- A) 15,63 mm
+- B) 0,63 mm
+- C) 156,25 mm
+- D) 31,25 mm
+- E) 1,56 mm
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: dilatação linear: ΔL = L₀·α·ΔT. A folga precisa caber a dilatação do trilho. 25 × 2,5 × 10⁻⁵ × 25 = 0,0156 m = 15,63 mm.
+
+### 14
+<!-- modelo: m13 -->
+Uma geladeira com eficiência (coeficiente de desempenho) igual a 3 recebe 200 J de trabalho do motor. Quanto calor ela retira do interior?
+
+- A) 600 J
+- B) 66,67 J
+- C) 800 J
+- D) 203 J
+- E) 200 J
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: refrigerador: eficiência = Q retirado ÷ trabalho. Ao contrário do motor, a geladeira usa trabalho para tirar calor do lado frio; a eficiência pode ser maior que 1. Q = 3 × 200 = 600 J.
+
+### 15
+<!-- modelo: m12 -->
+A pressão de um pneu é 2,5 atm a 7 °C. Depois de rodar, a temperatura do ar dentro dele chega a 77 °C. Supondo o volume constante, qual é a nova pressão?
+
+- A) 2,5 atm
+- B) 9,5 atm
+- C) 27,5 atm
+- D) 2 atm
+- E) 3,13 atm
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: transformação isovolumétrica: p/T constante (T em kelvin). Converta para kelvin e faça a proporção. p₂ = 2,5 × 350 ÷ 280 = 3,13 atm.
+
+### 16
+<!-- modelo: m14 -->
+Um chuveiro de 4200 W aquece água que passa a 4 L por minuto. Quanto a temperatura da água sobe? (c = 4 200 J/kg·°C; 1 L de água = 1 kg)
+
+- A) 7,5 °C
+- B) 60 °C
+- C) 15 °C
+- D) 0,25 °C
+- E) 30 °C
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: potência = calor por segundo: P = (m/t)·c·ΔT. Converta a vazão para kg por segundo. Em 1 minuto, o chuveiro fornece 4200 × 60 J a 4 kg de água: ΔT = 4200 × 60 ÷ (4 × 4 200) = 15 °C.
+
+### 17
+<!-- modelo: m11 -->
+Qual é o volume ocupado por 3 mol de um gás ideal a 1 atm e 27 °C? (R = 0,082 atm·L/mol·K)
+
+- A) 8,2 L
+- B) 147,6 L
+- C) 73,8 L
+- D) 6,64 L
+- E) 92,25 L
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: equação de Clapeyron: p·V = n·R·T. Use a temperatura em kelvin (27 °C = 300 K). V = 3 × 0,082 × 300 ÷ 1 = 73,8 L.
+
 ## Difícil
 
 ### 1
@@ -488,3 +656,73 @@ Em uma escala termométrica X, o ponto de fusão do gelo corresponde a 10 °X e 
 **Resposta:** A
 
 **Explicação:** Ferramenta: escalas termométricas. Proporção entre escalas: (X − 10)/(60 − 10) = (C − 0)/(100 − 0) ⇒ X = 10 + 50 × 40/100 = 30 °X.
+
+### 12
+<!-- modelo: d12 -->
+Uma chaleira elétrica de 1500 W leva 5 min para aquecer 1 L de água em 50 °C. Qual é o seu rendimento, em porcentagem? (c = 4 200 J/kg·°C)
+
+- A) 53,33%
+- B) 56%
+- C) 23,33%
+- D) 2.800%
+- E) 46,67%
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: rendimento = energia útil ÷ energia gasta. A útil aquece a água (m·c·ΔT); a gasta é P·t, com t em segundos. útil = 1 × 4 200 × 50 = 210.000 J; gasta = 1500 × 300 = 450.000 J; η = 46,67%.
+
+### 13
+<!-- modelo: d9 -->
+Um gás percorre um ciclo retangular no diagrama p × V, com pressões de 2 × 10⁵ Pa e 5 × 10⁵ Pa e volumes de 1 L e 4 L. Qual é o trabalho realizado num ciclo?
+
+- A) 1.500 J
+- B) 1.800 J
+- C) 900 J
+- D) 9 J
+- E) 600 J
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: trabalho no ciclo = área dentro da curva. No diagrama p × V, a área do retângulo é Δp × ΔV (com V em m³). (5 − 2) × 10⁵ × (4 − 1) × 10⁻³ = 900 J.
+
+### 14
+<!-- modelo: d13 -->
+Qual é a energia interna de 1 mol de um gás ideal monoatômico a 400 K? (R = 8,3 J/mol·K)
+
+- A) 3.320 J
+- B) 1.660 J
+- C) 8.300 J
+- D) 4.980 J
+- E) 9.960 J
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: gás monoatômico: U = (3/2)·n·R·T. A energia interna do gás ideal depende só da temperatura. U = 1,5 × 1 × 8,3 × 400 = 4.980 J.
+
+### 15
+<!-- modelo: d11 -->
+Coloca-se uma grande quantidade de gelo a 0 °C em 200 g de água a 40 °C. Quando a água chega a 0 °C, ainda sobra gelo. Quanto gelo derreteu? (c da água = 1 cal/g·°C; L de fusão = 80 cal/g)
+
+- A) 200 g
+- B) 14,81 g
+- C) 110 g
+- D) 100 g
+- E) 400 g
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: calor cedido pela água = calor latente do gelo derretido. A água esfria até 0 °C e esse calor derrete parte do gelo: m·c·ΔT = m_gelo·L. 200 × 1 × 40 = 8000 cal; 8000 ÷ 80 = 100 g.
+
+### 16
+<!-- modelo: d10 -->
+200 g de água a 60 °C são colocados num calorímetro de capacidade térmica 100 cal/°C, que estava a 25 °C. Qual é a temperatura de equilíbrio? (c da água = 1 cal/g·°C; sem perdas)
+
+- A) 59,83 °C
+- B) 35 °C
+- C) 48,33 °C
+- D) 72,5 °C
+- E) 42,5 °C
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: calor cedido = calor recebido (o calorímetro também absorve). m·c·(T₁ − T) = C·(T − T₂). T = (200 × 60 + 100 × 25) ÷ (200 + 100) = 48,33 °C.

@@ -177,6 +177,90 @@ Um resistor de 22 Ω é percorrido por uma corrente de 5 A. Qual é a tensão (d
 
 **Explicação:** Ferramenta: associação em série. Em série, as resistências se somam. 6 × 30 = 180 Ω.
 
+### 12
+<!-- modelo: f12 -->
+Duas esferas metálicas idênticas, com cargas de −4 μC e 0 μC, são encostadas e depois separadas. Com que carga fica cada uma?
+
+- A) −1 μC
+- B) −6 μC
+- C) −2 μC
+- D) −4 μC
+- E) −3 μC
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: contato entre esferas iguais: a carga total se divide igualmente. A carga total se conserva e, como as esferas são iguais, cada uma fica com metade. (−4 + 0) ÷ 2 = −2 μC.
+
+### 13
+<!-- modelo: f14 -->
+Por quantas horas uma lâmpada de 20 W precisa ficar acesa para consumir 1 kWh?
+
+- A) 20 h
+- B) 5 h
+- C) 20.000 h
+- D) 50 h
+- E) 0,02 h
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: E = P·Δt, isolando o tempo. 1 kWh = 1 000 Wh; divida pela potência. 1 000 ÷ 20 = 50 h.
+
+### 14
+<!-- modelo: f9 -->
+Um aparelho de 4000 W fica ligado 5 h por dia durante 30 dias. Com o kWh a R$ 1,00, quanto custa esse uso?
+
+- A) R$ 1.200,00
+- B) R$ 20,00
+- C) R$ 300,00
+- D) R$ 600,00
+- E) R$ 600.000,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: energia em kWh × tarifa. Converta a potência para kW, multiplique pelas horas e depois pelo preço. 4 kW × 5 h × 30 = 600 kWh; × R$ 1,00 = R$ 600,00.
+
+### 15
+<!-- modelo: f13 -->
+Uma corrente de 2 A percorre um resistor de 50 Ω. Qual é a potência dissipada?
+
+- A) 50 W
+- B) 100 W
+- C) 25 W
+- D) 400 W
+- E) 200 W
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: efeito Joule: P = R·i². Também dá para fazer U = R·i e depois P = U·i. P = 50 × 2² = 200 W.
+
+### 16
+<!-- modelo: f10 -->
+Numa casa de 127 V, ligam-se ao mesmo tempo um ar-condicionado (1320 W) e um micro-ondas (1100 W). Qual é a corrente total no circuito?
+
+- A) 19,06 A
+- B) 24,2 A
+- C) 10,39 A
+- D) 9,53 A
+- E) 11 A
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: aparelhos em paralelo: some as potências; i = P/U. A corrente total é a soma das correntes, ou a potência total dividida pela tensão. 2420 ÷ 127 = 19,06 A.
+
+### 17
+<!-- modelo: f11 -->
+5 resistores iguais, de 100 Ω cada, são ligados em paralelo. Qual é a resistência equivalente?
+
+- A) 500 Ω
+- B) 100 Ω
+- C) 20 Ω
+- D) 10 Ω
+- E) 105 Ω
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: n resistores iguais em paralelo: R/n. Em paralelo, a corrente ganha mais caminhos, e a resistência total cai. 100 ÷ 5 = 20 Ω.
+
 ## Médio
 
 ### 1
@@ -333,6 +417,90 @@ Qual é a resistência equivalente de dois resistores de 12 Ω e 4 Ω associados
 
 **Explicação:** Ferramenta: resistores em paralelo. Em paralelo: Req = R₁·R₂/(R₁ + R₂) = 48/16 = 3 Ω (sempre menor que o menor resistor).
 
+### 12
+<!-- modelo: m9 -->
+A bateria de um celular tem 5000 mAh e 3,7 V. Quanta energia ela armazena, em watt-hora?
+
+- A) 1.351,35 Wh
+- B) 1,35 Wh
+- C) 18,5 Wh
+- D) 66.600 Wh
+- E) 18.500 Wh
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: energia = tensão × carga (em Ah). mAh é carga; multiplicando pela tensão, obtém-se energia em Wh. 5 Ah × 3,7 V = 18,5 Wh.
+
+### 13
+<!-- modelo: m10 -->
+Um capacitor de 2 μF é ligado a uma bateria de 50 V. Que carga ele armazena?
+
+- A) 25 μC
+- B) 52 μC
+- C) 100 μC
+- D) 2.500 μC
+- E) 0,04 μC
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: capacitor: Q = C·U. A carga é proporcional à tensão; a constante é a capacitância. Q = 2 μF × 50 V = 100 μC.
+
+### 14
+<!-- modelo: m14 -->
+Num nó de um circuito chegam 12 A. Saem dele três fios: um com 5 A, outro com 6 A. Qual é a corrente no terceiro fio?
+
+- A) 7 A
+- B) 23 A
+- C) 1 A
+- D) 12 A
+- E) 11 A
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: lei dos nós (1ª lei de Kirchhoff). A carga não se acumula no nó: o que entra é igual ao que sai. 12 − 5 − 6 = 1 A.
+
+### 15
+<!-- modelo: m11 -->
+Uma carga de 2 μC é colocada num ponto onde o campo elétrico vale 5.000 N/C. Qual é a força elétrica sobre ela?
+
+- A) 0,005 N
+- B) 0,001 N
+- C) 0,100 N
+- D) 0,010 N
+- E) 1,000 N
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: campo elétrico: F = q·E. O campo é força por unidade de carga; converta μC para C. F = 2 × 10⁻⁶ × 5.000 = 0,010 N.
+
+### 16
+<!-- modelo: m13 -->
+Um motor elétrico tem força contraeletromotriz de 6 V e resistência interna de 3 Ω. Ligado, é percorrido por 2 A. Qual é a tensão nos seus terminais?
+
+- A) 0 V
+- B) 22 V
+- C) 36 V
+- D) 12 V
+- E) 6 V
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: receptor: U = E' + r'·i. No motor (receptor), a tensão aplicada vence a força contraeletromotriz e a queda na resistência interna. U = 6 + 3 × 2 = 12 V.
+
+### 17
+<!-- modelo: m12 -->
+Qual é o potencial elétrico a 0,1 m de uma carga puntiforme de 3 μC, no vácuo? (k = 9 × 10⁹ N·m²/C²)
+
+- A) 2.700.000 V
+- B) 270.000 V
+- C) 270.000.000.000 V
+- D) 540.000 V
+- E) 27.000 V
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: potencial de carga puntiforme: V = k·Q/d. Diferente do campo, o potencial cai com d (não com d²). V = 9 × 10⁹ × 3 × 10⁻⁶ ÷ 0,1 = 270.000 V.
+
 ## Difícil
 
 ### 1
@@ -488,3 +656,73 @@ Um transformador ideal reduz a tensão de 220 V para 6 V. Se o primário tem 1.1
 **Resposta:** C
 
 **Explicação:** Ferramenta: relação de espiras. A tensão é proporcional ao número de espiras: Uₚ/Uₛ = Nₚ/Nₛ. Nₛ = 1.100 × 6 ÷ 220 = 30.
+
+### 12
+<!-- modelo: d9 -->
+Um gerador tem força eletromotriz de 24 V e resistência interna de 1 Ω. Qual é a potência máxima que ele pode entregar a um circuito externo?
+
+- A) 24 W
+- B) 1.152 W
+- C) 288 W
+- D) 144 W
+- E) 576 W
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: máxima transferência: R externa = r. A potência útil é máxima quando a resistência externa iguala a interna; então i = E/2r e P = E²/4r. P = 24² ÷ (4 × 1) = 144 W.
+
+### 13
+<!-- modelo: d11 -->
+Uma partícula com carga de 2 μC entra, a 2 × 10⁵ m/s, perpendicularmente a um campo magnético de 0,1 T. Qual é a força magnética sobre ela?
+
+- A) 0,4 N
+- B) 0,02 N
+- C) 0,05 N
+- D) 40.000 N
+- E) 0,04 N
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: força magnética: F = q·v·B·sen θ. Perpendicular, sen 90° = 1; converta μC para C. F = 2 × 10⁻⁶ × 200.000 × 0,1 = 0,040 N.
+
+### 14
+<!-- modelo: d12 -->
+Um gerador de força eletromotriz 12 V e resistência interna 1 Ω fornece 2 A a um circuito. Qual é o seu rendimento, em porcentagem?
+
+- A) 83,33%
+- B) 100%
+- C) 16,67%
+- D) 120%
+- E) 75%
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: rendimento do gerador: η = U/E. Parte da energia se perde dentro do próprio gerador; a tensão útil é U = E − r·i. U = 12 − 1 × 2 = 10 V; η = 10 ÷ 12 = 83,33%.
+
+### 15
+<!-- modelo: d10 -->
+Um fio longo e retilíneo é percorrido por 20 A. Qual é a intensidade do campo magnético a 10 cm dele? (μ₀ = 4π × 10⁻⁷ T·m/A)
+
+- A) 4 × 10⁻⁶ T
+- B) 80 × 10⁻⁶ T
+- C) 120 × 10⁻⁶ T
+- D) 40 × 10⁻⁶ T
+- E) 0,4 × 10⁻⁶ T
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: campo de fio retilíneo: B = μ₀·i/(2π·d). Com μ₀ = 4π × 10⁻⁷, a fórmula vira B = 2 × 10⁻⁷ · i/d (d em metros). B = 2 × 10⁻⁷ × 20 ÷ 0,1 = 40 × 10⁻⁶ T.
+
+### 16
+<!-- modelo: d13 -->
+Que energia fica armazenada num capacitor de 50 μF carregado com 100 V?
+
+- A) 0,250 J
+- B) 0,025 J
+- C) 2,500 J
+- D) 0,125 J
+- E) 0,500 J
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: energia no capacitor: E = C·U²/2. Converta μF para F. E = 50 × 10⁻⁶ × 100² ÷ 2 = 0,250 J.

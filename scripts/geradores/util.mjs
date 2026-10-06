@@ -179,11 +179,18 @@ export function gerarNivel(rng, modelos, quantidade) {
 }
 
 /**
+ * Marca modelos acrescentados depois que o tópico já estava publicado. As questões deles entram no
+ * fim do nível, sem mudar as antigas (o app identifica cada questão pela posição no arquivo, e o
+ * histórico de quem já estudou depende disso).
+ */
+export const novos = (modelos) => modelos.map((m) => Object.assign(m, { novo: true }));
+
+/**
  * Modo sem repetição: cada modelo gera UMA questão (ou `modelo.vezes` questões, com valores
  * diferentes). Assim, um nível com 15 modelos tem 15 enunciados diferentes.
  * Cada questão guarda o número do modelo (q.m) para a lição não juntar duas do mesmo modelo.
  */
-export function gerarNivelUnico(rng, modelos, prefixo) {
+export function gerarNivelUnico(rng, modelos, prefixo, inicio = 0) {
   const saida = [];
   const vistos = new Set();
   modelos.forEach((modelo, k) => {
@@ -199,7 +206,7 @@ export function gerarNivelUnico(rng, modelos, prefixo) {
       }
       if (vistos.has(q.e)) continue;
       vistos.add(q.e);
-      saida.push({ ...q, m: `${prefixo}${k + 1}` });
+      saida.push({ ...q, m: `${prefixo}${inicio + k + 1}` });
       feitas++;
     }
     if (feitas < vezes) throw new Error(`modelo ${k + 1} gerou só ${feitas}/${vezes} questões diferentes`);

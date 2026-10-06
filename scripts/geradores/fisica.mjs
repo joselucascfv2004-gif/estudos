@@ -1,5 +1,5 @@
 // Física: questões com cálculo (g = 10 m/s²).
-import { arred, expl, nome, num } from './util.mjs';
+import { arred, expl, nome, novos, num } from './util.mjs';
 
 const PROVAS = ['ENEM', 'Militares'];
 const u = (un) => (v) => `${num(v)} ${un}`;
@@ -1256,6 +1256,7 @@ const ondas = {
 // ======================================================= Modelos novos e rótulos
 // Cada modelo antigo ganha o rótulo da "ferramenta" usada; os novos já vêm com a explicação completa.
 import EXTRAS from './fisica-extras.mjs';
+import NOVOS from './fisica-novos-extras.mjs';
 
 const FERR = {
   cinematica: [
@@ -1308,7 +1309,7 @@ function preparar(topico, chave) {
     });
     // as chamadas recursivas internas (nivel[k](r)) passam a usar a versão com rótulo
     antigos.forEach((w, k) => (nivel[k] = w));
-    return [...antigos, ...EXTRAS[chave][n]];
+    return [...antigos, ...EXTRAS[chave][n], ...novos(NOVOS[chave][n])];
   });
   topico.unico = true;
   return topico;

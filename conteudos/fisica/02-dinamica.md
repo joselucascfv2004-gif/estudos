@@ -192,6 +192,76 @@ Duas forças de 36 N e 30 N atuam sobre um corpo na mesma direção e em sentido
 
 **Explicação:** Ferramenta: soma de forças na mesma direção. Sentidos opostos: subtraem-se: |36 − 30| = 6 N.
 
+### 13
+<!-- modelo: f11 -->
+Um astronauta tem massa de 90 kg. Qual é o seu peso na Lua, onde g = 1,6 m/s²?
+
+- A) 144 N
+- B) 900 N
+- C) 56,25 N
+- D) 562,5 N
+- E) 90 N
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: P = m·g (com o g do lugar). A massa não muda de um astro para outro; o peso depende da gravidade local. P = 90 × 1,6 = 144 N.
+
+### 14
+<!-- modelo: f13 -->
+Um carro de 1.000 kg, a 30 m/s, freia até parar em 10 s. Qual é o módulo da força média de frenagem?
+
+- A) 1.500 N
+- B) 3.000 N
+- C) 1.000 N
+- D) 30.000 N
+- E) 300.000 N
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: 2ª lei com a = Δv/Δt. Primeiro a desaceleração média, depois F = m·a. a = 30 ÷ 10 = 3 m/s²; F = 1.000 × 3 = 3.000 N.
+
+### 15
+<!-- modelo: f14 -->
+Para começar a mover uma caixa de 5 kg num piso horizontal, é preciso uma força horizontal de pelo menos 30 N. Qual é o coeficiente de atrito estático? (g = 10 m/s²)
+
+- A) 1,67
+- B) 0,3
+- C) 0,66
+- D) 6
+- E) 0,6
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: atrito estático máximo: F = μₑ·N. No limite de começar a escorregar, a força aplicada iguala o atrito máximo, e N = m·g. μₑ = 30 ÷ (5 × 10) = 0,6.
+
+### 16
+<!-- modelo: f12 -->
+Uma caixa de 10 kg está apoiada no chão. Uma pessoa a puxa para cima com 30 N, sem conseguir levantá-la. Qual é a força normal do chão sobre a caixa? (g = 10 m/s²)
+
+- A) 70 N
+- B) 100 N
+- C) 30 N
+- D) 130 N
+- E) 40 N
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: equilíbrio na vertical: N + F = P. A caixa continua parada, então as forças para cima equilibram o peso. N = 100 − 30 = 70 N.
+
+### 17
+<!-- modelo: f10 -->
+Numa colisão, um caminhão de 12.000 kg exerce sobre um carro de 1.000 kg uma força de 4.000 N. Qual é a força que o carro exerce sobre o caminhão?
+
+- A) 2.000 N
+- B) 333,33 N
+- C) 4.000 N
+- D) 8.000 N
+- E) 48.000 N
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: 3ª lei de Newton (ação e reação). As forças de ação e reação têm sempre o mesmo módulo, mesmo com massas muito diferentes; o que muda é o efeito (a aceleração) em cada corpo. A força no caminhão também vale 4.000 N.
+
 ## Médio
 
 ### 1
@@ -362,6 +432,76 @@ Um carro de 1.000 kg, a 20 m/s, freia e para em 40 m. Qual é a intensidade méd
 
 **Explicação:** Ferramenta: Torricelli + 2ª lei. Ache a desaceleração com v² = v₀² − 2a·d e depois F = m·a. a = 20² ÷ (2 × 40) = 5 m/s²; F = 1.000 × 5 = 5.000 N.
 
+### 13
+<!-- modelo: m11 -->
+Duas molas, de constantes 300 N/m e 500 N/m, são presas lado a lado (em paralelo) e sustentam juntas um corpo de 3 kg. Qual é a deformação delas, em centímetros? (g = 10 m/s²)
+
+- A) 3,75 cm
+- B) 1,88 cm
+- C) 6 cm
+- D) 16 cm
+- E) 10 cm
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: molas em paralelo: k_eq = k₁ + k₂. Em paralelo, as duas esticam o mesmo tanto e dividem o peso; as constantes se somam. k = 800 N/m; x = 30 ÷ 800 = 0,0375 m = 3,75 cm.
+
+### 14
+<!-- modelo: m12 -->
+Um bloco de 3 kg está sobre uma mesa horizontal sem atrito, preso por um fio (que passa por uma polia na borda) a um bloco de 1 kg pendurado. Qual é a aceleração do sistema? (g = 10 m/s²)
+
+- A) 5 m/s²
+- B) 10 m/s²
+- C) 3,33 m/s²
+- D) 7,5 m/s²
+- E) 2,5 m/s²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: 2ª lei no sistema todo. Só o peso do bloco pendurado acelera o conjunto, mas ele precisa mover as duas massas. a = 1 × 10 ÷ (3 + 1) = 2,5 m/s².
+
+### 15
+<!-- modelo: m10 -->
+Um paraquedista de 80 kg (com o equipamento) cai sujeito a uma força de resistência do ar F = 0,32·v² (SI). Qual é a sua velocidade terminal? (g = 10 m/s²)
+
+- A) 100 m/s
+- B) 15,81 m/s
+- C) 2.500 m/s
+- D) 50 m/s
+- E) 25 m/s
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: velocidade terminal: resistência = peso. Quando a resistência do ar iguala o peso, a força resultante zera e a velocidade para de aumentar. 0,32·v² = 800 → v² = 2.500 → v = 50 m/s.
+
+### 16
+<!-- modelo: m13 -->
+Um bloco desliza num piso horizontal a 10 m/s e para só por causa do atrito, com coeficiente cinético 0,2. Quanto tempo leva para parar? (g = 10 m/s²)
+
+- A) 1 s
+- B) 20 s
+- C) 25 s
+- D) 5 s
+- E) 50 s
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: desaceleração pelo atrito: a = μ·g. Na horizontal, a única força é o atrito μ·m·g; dividindo pela massa, a = μ·g. a = 0,2 × 10 = 2 m/s²; t = 10 ÷ 2 = 5 s.
+
+### 17
+<!-- modelo: m14 -->
+Duas pessoas puxam as pontas de um dinamômetro em sentidos opostos, cada uma com 80 N. O dinamômetro fica parado. Quanto ele marca?
+
+- A) 40 N
+- B) 160 N
+- C) 80 N
+- D) 240 N
+- E) 0 N
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: dinamômetro mede a tração no fio. Uma ponta precisa estar presa (ou sendo puxada) para o aparelho medir; a outra força é só a reação que o mantém parado. Ele marca 80 N, e não 160 N.
+
 ## Difícil
 
 ### 1
@@ -531,3 +671,59 @@ Um objeto de 2 kg é pendurado em uma mola vertical de constante elástica 50 N/
 **Resposta:** D
 
 **Explicação:** Ferramenta: equilíbrio: força elástica = peso. k·x = m·g ⇒ x = m·g/k (em metros; depois converta para cm). x = 20 ÷ 50 = 0,4 m = 40 cm.
+
+### 13
+<!-- modelo: d12 -->
+Um bloco está na iminência de escorregar num plano inclinado de 53° (tg 53° ≈ 1,33). Qual é o coeficiente de atrito estático entre o bloco e o plano?
+
+- A) 1,33
+- B) 0,75
+- C) 0,99
+- D) 0,67
+- E) 0,53
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: iminência de escorregar: μₑ = tg θ. Igualando P·sen θ ao atrito máximo μ·P·cos θ, a massa some: μ = sen θ/cos θ. μₑ = tg 53° = 1,33.
+
+### 14
+<!-- modelo: d13 -->
+Um bloco de 2 kg sobre uma mesa horizontal (atrito cinético 0,5) está ligado por um fio, que passa por uma polia, a um bloco de 2 kg pendurado. Qual é a aceleração do conjunto? (g = 10 m/s²)
+
+- A) 5 m/s²
+- B) 7,5 m/s²
+- C) 1,5 m/s²
+- D) 2,25 m/s²
+- E) 2,5 m/s²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: 2ª lei no sistema: (peso pendurado − atrito) ÷ massa total. O peso do bloco pendurado puxa; o atrito no bloco da mesa (μ·m·g) segura. a = (20 − 10) ÷ 4 = 2,5 m/s².
+
+### 15
+<!-- modelo: d11 -->
+Um carro de 600 kg passa pelo alto de uma lombada circular de raio 40 m a 10 m/s. Qual é a força normal da pista sobre o carro nesse ponto? (g = 10 m/s²)
+
+- A) 7.500 N
+- B) 6.000 N
+- C) 4.500 N
+- D) 5.900 N
+- E) 1.500 N
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: no topo, P − N = m·v²/R. O carro faz curva para baixo: a resultante (peso menos normal) é a força centrípeta. Por isso ele fica "mais leve". N = 600 × (10 − 10²/40) = 600 × 7,5 = 4.500 N.
+
+### 16
+<!-- modelo: d10 -->
+Um bloco de 20 kg sobe um plano inclinado de 37° com velocidade constante, puxado por uma força paralela ao plano. O coeficiente de atrito cinético é 0,25. Qual é essa força? (g = 10 m/s², sen 37° = 0,6, cos 37° = 0,8)
+
+- A) 170 N
+- B) 190 N
+- C) 160 N
+- D) 120 N
+- E) 80 N
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: equilíbrio no plano: F = P·sen θ + μ·P·cos θ. Velocidade constante significa resultante nula; subindo, o atrito aponta para baixo, junto com a componente do peso. 200 × 0,6 + 0,25 × 200 × 0,8 = 120 + 40 = 160 N.

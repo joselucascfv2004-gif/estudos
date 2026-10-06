@@ -191,6 +191,76 @@ A conta de luz mede energia em kWh. Quantos joules correspondem a 1 kWh? (1 kWh 
 
 **Explicação:** Ferramenta: kWh é energia. Potência (W) × tempo (s) = energia (J). 1 × 1.000 × 3.600 = 3.600.000 J.
 
+### 13
+<!-- modelo: f11 -->
+Um objeto de 10 kg tem energia potencial gravitacional de 1.200 J em relação ao chão. A que altura ele está? (g = 10 m/s²)
+
+- A) 12 m
+- B) 12.000 m
+- C) 120 m
+- D) 24 m
+- E) 36 m
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: Ep = m·g·h, isolando h. Divida a energia pelo peso (m·g). h = 1.200 ÷ (10 × 10) = 12 m.
+
+### 14
+<!-- modelo: f12 -->
+Uma caixa de 20 kg é arrastada 2 m num piso horizontal, com coeficiente de atrito cinético 0,2. Qual é o trabalho realizado pela força de atrito? (g = 10 m/s²)
+
+- A) −400 J
+- B) −40 J
+- C) 80 J
+- D) −80 J
+- E) −8 J
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: trabalho do atrito é negativo. O atrito aponta contra o movimento (θ = 180°), então o trabalho é −Fat·d, com Fat = μ·m·g. Fat = 0,2 × 200 = 40 N; τ = −40 × 2 = −80 J.
+
+### 15
+<!-- modelo: f10 -->
+Um corpo de 50 kg tem energia cinética de 100 J. Qual é a sua velocidade?
+
+- A) 1 m/s
+- B) 1,41 m/s
+- C) 4 m/s
+- D) 2 m/s
+- E) 0 m/s
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: Ec = m·v²/2, isolando v. Multiplique a energia por 2, divida pela massa e tire a raiz. v = √(2 × 100 ÷ 50) = √4 = 2 m/s.
+
+### 16
+<!-- modelo: f13 -->
+Um carrinho tem energia cinética de 200 J. Se a sua velocidade dobrar, qual será a nova energia cinética?
+
+- A) 600 J
+- B) 100 J
+- C) 400 J
+- D) 800 J
+- E) 1.600 J
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: Ec é proporcional a v². Multiplicar a velocidade por 2 multiplica a energia por 2² = 4. 200 × 4 = 800 J.
+
+### 17
+<!-- modelo: f14 -->
+O rótulo de um lanche informa 200 kcal. Quanto é essa energia em quilojoules? (1 cal = 4,2 J)
+
+- A) 840 kJ
+- B) 204,2 kJ
+- C) 47,62 kJ
+- D) 840.000 kJ
+- E) 8.400 kJ
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: conversão: 1 kcal = 4,2 kJ. Se 1 cal vale 4,2 J, então 1 000 cal valem 4 200 J. 200 × 4,2 = 840 kJ.
+
 ## Médio
 
 ### 1
@@ -361,6 +431,76 @@ Um objeto é solto de uma altura de 1,8 m. Desprezando a resistência do ar (g =
 
 **Explicação:** Ferramenta: conservação da energia mecânica. Conservação de energia: m·g·h = m·v²/2 ⇒ v = √(2gh) = √(36) = 6 m/s.
 
+### 13
+<!-- modelo: m14 -->
+Uma bola de bilhar de 0,2 kg, a 3 m/s, bate de frente numa bola idêntica parada. A colisão é perfeitamente elástica. Com que velocidade sai a bola que estava parada?
+
+- A) 0,75 m/s
+- B) 6 m/s
+- C) 0 m/s
+- D) 1,5 m/s
+- E) 3 m/s
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: colisão elástica frontal com massas iguais. Conservando a quantidade de movimento e a energia cinética, as bolas trocam de velocidade: a que vinha para, e a outra sai com a velocidade dela. A bola parada sai a 3 m/s.
+
+### 14
+<!-- modelo: m12 -->
+Uma bola cai de 100 cm de altura e, depois de bater no chão, sobe até 64 cm. Qual é o coeficiente de restituição da colisão?
+
+- A) 0,8
+- B) 0,64
+- C) 1,28
+- D) 0,36
+- E) 1,56
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: restituição: e = v(depois)/v(antes) = √(h₂/h₁). A velocidade de queda vem de √(2gh); a razão entre as velocidades é a raiz da razão entre as alturas. e = √(64/100) = √0,64 = 0,8.
+
+### 15
+<!-- modelo: m13 -->
+Um corpo de 10 kg passa por um ponto a 1 m do chão com velocidade de 2 m/s. Qual é a sua energia mecânica nesse ponto, tomando o chão como referência? (g = 10 m/s²)
+
+- A) 30 J
+- B) 120 J
+- C) 140 J
+- D) 100 J
+- E) 20 J
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: energia mecânica = cinética + potencial. Some as duas parcelas no mesmo ponto. 10 × 2² ÷ 2 + 10 × 10 × 1 = 20 + 100 = 120 J.
+
+### 16
+<!-- modelo: m11 -->
+A força sobre um corpo cresce de 0 a 40 N, de forma linear, enquanto ele se desloca 0,4 m (o gráfico F × d é um triângulo). Qual é o trabalho realizado?
+
+- A) 40,4 J
+- B) 100 J
+- C) 16 J
+- D) 8 J
+- E) 4 J
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: trabalho = área do gráfico F × d. Com força variável, o trabalho é a área sob a curva; aqui, um triângulo. τ = 40 × 0,4 ÷ 2 = 8 J.
+
+### 17
+<!-- modelo: m10 -->
+Beatriz, com 50 kg, sobe uma escada até uma altura de 3 m em 10 s. Qual é a potência média que desenvolve contra a gravidade? (g = 10 m/s²)
+
+- A) 1.666,67 W
+- B) 15 W
+- C) 150 W
+- D) 300 W
+- E) 1.500 W
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: potência = trabalho do peso ÷ tempo. O trabalho para subir é m·g·h, não importa o formato da escada. 50 × 10 × 3 ÷ 10 = 150 W.
+
 ## Difícil
 
 ### 1
@@ -530,3 +670,59 @@ Um carro de 1.500 kg a 15 m/s colide com outro, de 1.000 kg, parado. Após a col
 **Resposta:** E
 
 **Explicação:** Ferramenta: conservação da quantidade de movimento. Conservação da quantidade de movimento: 1.500 × 15 = (1.500 + 1.000)·v ⇒ v = 9 m/s.
+
+### 13
+<!-- modelo: d11 -->
+Uma bala de 0,02 kg, a 200 m/s, se aloja num bloco de madeira de 0,98 kg pendurado em fios (pêndulo balístico). A que altura o conjunto sobe? (g = 10 m/s²)
+
+- A) 1,6 m
+- B) 2.000 m
+- C) 1,8 m
+- D) 0,8 m
+- E) 0,4 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: quantidade de movimento na colisão + energia na subida. Na colisão (inelástica) conserva-se a quantidade de movimento; depois, a energia cinética vira potencial. v = 0,02 × 200 ÷ 1 = 4 m/s; h = 4² ÷ 20 = 0,8 m.
+
+### 14
+<!-- modelo: d13 -->
+Um bloco desce, a partir do repouso, uma rampa sem atrito de 3 m de altura e, no fim, entra num piso horizontal com atrito (coeficiente 0,5). Que distância percorre no piso até parar?
+
+- A) 6 m
+- B) 12 m
+- C) 1,5 m
+- D) 3 m
+- E) 7 m
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: energia potencial dissipada pelo atrito. Toda a energia m·g·h vira calor no piso: m·g·h = μ·m·g·d, e a massa e o g se cancelam. d = h ÷ μ = 3 ÷ 0,5 = 6 m.
+
+### 15
+<!-- modelo: d10 -->
+Um carrinho de montanha-russa parte do repouso e precisa completar um looping de raio 2 m sem perder contato com o trilho (sem atrito). Qual é a altura mínima de partida, medida a partir da base do looping?
+
+- A) 3 m
+- B) 2 m
+- C) 5 m
+- D) 6 m
+- E) 4 m
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: looping: v² mínimo no topo = g·R + conservação da energia. No topo, o peso sozinho faz a curva (v² = gR). Pela energia, m·g·h = m·g·2R + m·v²/2. h = 2R + R/2 = 2,5 × 2 = 5 m.
+
+### 16
+<!-- modelo: d12 -->
+Um carrinho de 4 kg, a 5 m/s, colide com outro de 1 kg parado, e os dois seguem grudados. Quanta energia cinética é perdida na colisão?
+
+- A) 40 J
+- B) 10 J
+- C) 0 J
+- D) 12,5 J
+- E) 50 J
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: colisão inelástica: conserva Q, perde energia. Ache a velocidade final pela quantidade de movimento e compare as energias cinéticas antes e depois. v = 20 ÷ 5 = 4 m/s; antes 50 J, depois 40 J; perda = 10 J.

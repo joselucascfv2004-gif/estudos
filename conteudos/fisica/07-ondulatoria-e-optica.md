@@ -178,6 +178,90 @@ Uma pessoa grita em frente a um paredão e ouve o eco 0,5 s depois. Sendo a velo
 
 **Explicação:** Ferramenta: eco (som vai e volta). O som vai e volta: 2d = v·t ⇒ d = 340 × 0,5/2 = 85 m.
 
+### 12
+<!-- modelo: f12 -->
+O nível sonoro de uma música passa de 60 dB para 80 dB. Quantas vezes a intensidade sonora aumentou?
+
+- A) 20 vezes
+- B) 1.000 vezes
+- C) 2 vezes
+- D) 4 vezes
+- E) 100 vezes
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: decibel: escala logarítmica. Cada +10 dB multiplica a intensidade por 10. +20 dB → 10² = 100 vezes.
+
+### 13
+<!-- modelo: f13 -->
+A distância da Lua à Terra é de cerca de 3,84 × 10⁸ m. Quanto tempo a luz leva para percorrê-la? (c = 3 × 10⁸ m/s)
+
+- A) 0,02 s
+- B) 1,28 s
+- C) 0,64 s
+- D) 2,56 s
+- E) 76,8 s
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: t = d/c. A luz anda 300 mil km por segundo. t = 3,84 × 10⁸ ÷ (3 × 10⁸) = 1,28 s.
+
+### 14
+<!-- modelo: f9 -->
+Thiago caminha a 1,5 m/s em direção a um espelho plano parado. Com que velocidade a sua imagem se aproxima dele (de quem caminha)?
+
+- A) 4,5 m/s
+- B) 3 m/s
+- C) 0 m/s
+- D) 0,75 m/s
+- E) 1,5 m/s
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: espelho plano: imagem simétrica. A imagem se aproxima do espelho com a mesma velocidade da pessoa, do outro lado; em relação à pessoa, as velocidades se somam. 1,5 + 1,5 = 3 m/s.
+
+### 15
+<!-- modelo: f10 -->
+Uma pessoa de 1,6 m de altura quer se ver de corpo inteiro num espelho plano vertical. Qual é a altura mínima do espelho?
+
+- A) 1,5 m
+- B) 1,6 m
+- C) 0,8 m
+- D) 3,2 m
+- E) 0,4 m
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: espelho plano: metade da altura. Pela semelhança de triângulos (olho, imagem e espelho), basta um espelho com metade da altura, bem posicionado, não importa a distância. 1,6 ÷ 2 = 0,8 m.
+
+### 16
+<!-- modelo: f14 -->
+Numa câmara escura de orifício, a imagem de uma árvore de 12 m, que está a 10 m do orifício, se forma a 30 cm dele. Qual é a altura da imagem, em centímetros?
+
+- A) 18 cm
+- B) 36 cm
+- C) 12 cm
+- D) 360 cm
+- E) 4 cm
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: câmara escura: semelhança de triângulos. A luz anda em linha reta: imagem/objeto = distância da imagem/distância do objeto. h = 12 × 0,3 ÷ 10 = 0,360 m = 36 cm.
+
+### 17
+<!-- modelo: f11 -->
+Um pêndulo completa 20 oscilações em 10 s. Qual é a sua frequência?
+
+- A) 1 Hz
+- B) 200 Hz
+- C) 0,5 Hz
+- D) 20 Hz
+- E) 2 Hz
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: frequência = número de oscilações ÷ tempo. Hertz é oscilações por segundo. 20 ÷ 10 = 2 Hz.
+
 ## Médio
 
 ### 1
@@ -348,6 +432,76 @@ Uma lente convergente forma, a 30 cm dela, a imagem real de um objeto colocado a
 
 **Explicação:** Ferramenta: aumento linear. A = −p'/p = −30/15 = −2. O sinal negativo indica imagem invertida; |A| > 1: maior que o objeto.
 
+### 13
+<!-- modelo: m13 -->
+Numa corda vibrando em onda estacionária, o comprimento de onda é 0,8 m. Qual é a distância entre dois nós consecutivos?
+
+- A) 0,6 m
+- B) 0,2 m
+- C) 1,6 m
+- D) 0,4 m
+- E) 0,8 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: onda estacionária: nós a cada λ/2. Entre dois nós seguidos há meio comprimento de onda (um "ventre"). 0,8 ÷ 2 = 0,4 m.
+
+### 14
+<!-- modelo: m12 -->
+Qual é o período de um pêndulo simples de 1,6 m de comprimento, em pequenas oscilações? (g = 10 m/s²; π = 3,14)
+
+- A) 5,02 s
+- B) 2,51 s
+- C) 15,7 s
+- D) 1 s
+- E) 1,26 s
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: pêndulo simples: T = 2π·√(L/g). O período não depende da massa nem (para ângulos pequenos) da amplitude. T = 2 × 3,14 × √(1,6/10) = 6,28 × 0,4 = 2,51 s.
+
+### 15
+<!-- modelo: m11 -->
+Uma moeda está no fundo de uma piscina de 1,2 m de profundidade. Para quem olha de cima, quase na vertical, a que profundidade ela parece estar? (n da água = 4/3; n do ar = 1)
+
+- A) 0,6 m
+- B) 0,7 m
+- C) 0,9 m
+- D) 1,2 m
+- E) 1,6 m
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: profundidade aparente: h' = h·n(observador)/n(objeto). A refração faz o fundo parecer mais raso. h' = 1,2 × 1 ÷ (4/3) = 0,9 m.
+
+### 16
+<!-- modelo: m14 -->
+Uma corda com densidade linear de 0,01 kg/m é tracionada com 400 N. Qual é a velocidade das ondas nela?
+
+- A) 0,01 m/s
+- B) 100 m/s
+- C) 4 m/s
+- D) 200 m/s
+- E) 40.000 m/s
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: velocidade na corda: v = √(T/μ). Corda mais tensa e mais leve conduz ondas mais rápidas. v = √(400 ÷ 0,01) = √40.000 = 200 m/s.
+
+### 17
+<!-- modelo: m10 -->
+A luz passa do ar (n = 1) para o diamante (n = 2,4). Qual é a razão entre a velocidade da luz no ar e no diamante?
+
+- A) 1,2
+- B) 1,4
+- C) 2,4
+- D) 1
+- E) 0,42
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: índice de refração e velocidade: v₁/v₂ = n₂/n₁. Quanto maior o índice, mais lenta a luz. v₁/v₂ = 2,4 ÷ 1 = 2,4.
+
 ## Difícil
 
 ### 1
@@ -503,3 +657,73 @@ Uma corda de violão de 0,6 m, presa nas duas extremidades, tem ondas que se pro
 **Resposta:** D
 
 **Explicação:** Ferramenta: cordas vibrantes. Corda fixa: fₙ = n·v/(2L) = 1 × 400/(2 × 0,6) = 333,33 Hz.
+
+### 12
+<!-- modelo: d9 -->
+Uma pessoa míope não enxerga com nitidez objetos além de 100 cm. Qual é a vergência da lente que corrige a sua visão para longe?
+
+- A) 2 di
+- B) 0,5 di
+- C) −2 di
+- D) −1 di
+- E) 1 di
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: miopia: lente divergente com foco no ponto remoto. A lente deve formar, de objetos muito distantes, uma imagem no ponto remoto: f = −(ponto remoto). f = −1 m; V = 1/f = −1 di.
+
+### 13
+<!-- modelo: d12 -->
+Uma luneta astronômica tem objetiva de distância focal 90 cm e ocular de 3 cm. Qual é o seu aumento angular?
+
+- A) 93 vezes
+- B) 87 vezes
+- C) 0,03 vezes
+- D) 30 vezes
+- E) 270 vezes
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: luneta: aumento = f(objetiva)/f(ocular). A objetiva longa forma a imagem e a ocular curta a amplia. 90 ÷ 3 = 30 vezes.
+
+### 14
+<!-- modelo: d13 -->
+Uma luz de 450 nm no ar (n = 1) entra num vidro de índice 1,2. Qual é o comprimento de onda dentro do vidro?
+
+- A) 450 nm
+- B) 187,5 nm
+- C) 330 nm
+- D) 540 nm
+- E) 375 nm
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: refração: a frequência não muda, o comprimento de onda sim. v = λ·f e a velocidade cai pelo fator n; então λ também cai pelo fator n. λ = 450 ÷ 1,2 = 375 nm.
+
+### 15
+<!-- modelo: d10 -->
+Uma pessoa hipermetrope tem ponto próximo a 40 cm. Qual é a vergência da lente que lhe permite ler a 25 cm?
+
+- A) 6,5 di
+- B) 1,5 di
+- C) 4 di
+- D) 3 di
+- E) 2,5 di
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: hipermetropia: lente convergente (equação de Gauss). O livro a 25 cm deve ter imagem virtual no ponto próximo: 1/f = 1/0,25 − 1/PP. V = 4 − 1/0,4 = 1,5 di.
+
+### 16
+<!-- modelo: d11 -->
+Uma onda sonora tem intensidade de 10⁻⁵ W/m². Qual é o seu nível sonoro? (I₀ = 10⁻¹² W/m²)
+
+- A) 7 dB
+- B) 170 dB
+- C) 50 dB
+- D) 35 dB
+- E) 70 dB
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: nível sonoro: β = 10·log(I/I₀). I/I₀ = 10⁷, cujo logaritmo é 7. β = 10 × 7 = 70 dB.

@@ -191,6 +191,76 @@ Um móvel em movimento uniforme obedece à função horária s = 25 + 15t (SI). 
 
 **Explicação:** Ferramenta: função horária do MU (s = s₀ + vt). s = 25 + 15 × 2 = 55 m.
 
+### 13
+<!-- modelo: f11 -->
+Um trem de 250 m de comprimento, a 25 m/s constantes, atravessa uma ponte de 400 m. Quanto tempo leva desde que a frente entra na ponte até a traseira sair dela?
+
+- A) 6 s
+- B) 26 s
+- C) 10 s
+- D) 16 s
+- E) 13 s
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: corpo extenso: some os comprimentos. Para a traseira sair, a frente precisa andar a ponte inteira mais o próprio comprimento do trem. (250 + 400) ÷ 25 = 26 s.
+
+### 14
+<!-- modelo: f14 -->
+Um carro aumenta a velocidade de 4 m/s para 10 m/s em 2 s, com aceleração constante. Que distância percorre nesse intervalo?
+
+- A) 28 m
+- B) 6 m
+- C) 14 m
+- D) 12 m
+- E) 20 m
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: no MUV, d = velocidade média × tempo. Com aceleração constante, a velocidade média é a média entre a inicial e a final. (4 + 10) ÷ 2 × 2 = 14 m.
+
+### 15
+<!-- modelo: f13 -->
+Carla pedala com velocidade constante de 5 m/s durante 5 minutos. Que distância percorre, em metros?
+
+- A) 90 m
+- B) 25 m
+- C) 1,5 m
+- D) 1.500 m
+- E) 300 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: d = v·t (com o tempo em segundos). A velocidade está em m/s, então o tempo precisa estar em segundos. 5 min = 300 s; 5 × 300 = 1500 m.
+
+### 16
+<!-- modelo: f12 -->
+Numa viagem, um ônibus percorre 90 km em 2 h e depois faz mais 180 km em 3 h. Qual foi a velocidade média na viagem toda?
+
+- A) 270 km/h
+- B) 90 km/h
+- C) 105 km/h
+- D) 52,5 km/h
+- E) 54 km/h
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: velocidade média = distância total ÷ tempo total. Não se faz a média das velocidades dos trechos. (90 + 180) ÷ (2 + 3) = 54 km/h.
+
+### 17
+<!-- modelo: f10 -->
+O velocímetro de um carro marca 90 km/h. Qual é essa velocidade em metros por segundo?
+
+- A) 25 m/s
+- B) 2,5 m/s
+- C) 86,4 m/s
+- D) 50 m/s
+- E) 324 m/s
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: km/h → m/s (÷ 3,6). 1 km/h = 1 000 m em 3 600 s; por isso se divide por 3,6. 90 ÷ 3,6 = 25 m/s.
+
 ## Médio
 
 ### 1
@@ -361,6 +431,76 @@ Uma pedra é solta do alto de um penhasco e chega ao solo após 3 s. Qual é a a
 
 **Explicação:** Ferramenta: queda livre (h = gt²/2). h = g·t²/2 = 10 × 9/2 = 45 m.
 
+### 13
+<!-- modelo: m14 -->
+Caio vai de uma cidade a outra a 120 km/h e volta pelo mesmo caminho a 80 km/h. Qual foi a velocidade média na ida e volta?
+
+- A) 48 km/h
+- B) 40 km/h
+- C) 200 km/h
+- D) 100 km/h
+- E) 96 km/h
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: distâncias iguais: vm = 2·v₁·v₂/(v₁ + v₂). Os trechos têm a mesma distância, mas tempos diferentes: a média aritmética das velocidades está errada. 2 × 120 × 80 ÷ (120 + 80) = 96 km/h.
+
+### 14
+<!-- modelo: m10 -->
+Um carro a 90 km/h freia com desaceleração constante de 6 m/s² até parar. Quanto tempo dura a frenagem?
+
+- A) 4,17 s
+- B) 15 s
+- C) 52,08 s
+- D) 2,08 s
+- E) 150 s
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: v = v₀ − a·t, com v = 0. Converta a velocidade para m/s e divida pela desaceleração. 90 km/h = 25 m/s; t = 25 ÷ 6 = 4,17 s.
+
+### 15
+<!-- modelo: m13 -->
+Um móvel em MUV parte da posição 4 m com velocidade de 4 m/s e aceleração de 4 m/s². Em que posição estará no instante t = 5 s?
+
+- A) 74 m
+- B) 24 m
+- C) 70 m
+- D) 124 m
+- E) 37 m
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: s = s₀ + v₀·t + a·t²/2. Some a posição inicial, o que a velocidade inicial anda e o efeito da aceleração. 4 + 4 × 5 + 4 × 5² ÷ 2 = 74 m.
+
+### 16
+<!-- modelo: m11 -->
+Duas polias estão ligadas por uma correia que não desliza. A menor, de raio 20 cm, gira a 900 rpm. Com que frequência gira a maior, de raio 60 cm?
+
+- A) 150 rpm
+- B) 840 rpm
+- C) 900 rpm
+- D) 2.700 rpm
+- E) 300 rpm
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: transmissão por correia: f₁·R₁ = f₂·R₂. Os pontos da correia têm a mesma velocidade linear nas duas polias; a maior gira mais devagar. f₂ = 900 × 20 ÷ 60 = 300 rpm.
+
+### 17
+<!-- modelo: m12 -->
+Um carro faz uma curva circular de raio 400 m a 40 m/s constantes. Qual é a sua aceleração centrípeta?
+
+- A) 4 m/s²
+- B) 0,1 m/s²
+- C) 160 m/s²
+- D) 8 m/s²
+- E) 2 m/s²
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: aceleração centrípeta a = v²/R. Mesmo com velocidade constante em módulo, a direção muda, e isso exige aceleração para o centro. a = 40² ÷ 400 = 4 m/s².
+
 ## Difícil
 
 ### 1
@@ -530,3 +670,59 @@ Um projétil é lançado do solo com velocidade de 10 m/s, formando 45° com a h
 **Resposta:** D
 
 **Explicação:** Ferramenta: lançamento oblíquo. A = v₀²·sen(2θ)/g = 100 × sen 90°/10 = 10 m (45° dá o alcance máximo).
+
+### 13
+<!-- modelo: d10 -->
+Uma bola é lançada horizontalmente, a 40 m/s, do alto de um prédio de 45 m. Desprezando o ar (g = 10 m/s²), com que velocidade ela chega ao solo?
+
+- A) 40,37 m/s
+- B) 50 m/s
+- C) 30 m/s
+- D) 70 m/s
+- E) 40 m/s
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: lançamento horizontal: componentes + Pitágoras. A horizontal não muda; a vertical cresce como na queda livre. Some as duas como vetores. t = √(2 × 45 ÷ 10) = 3 s; vy = 30 m/s; v = √(40² + 30²) = 50 m/s.
+
+### 14
+<!-- modelo: d11 -->
+Um barco atravessa um rio de 60 m de largura apontando sempre perpendicularmente às margens, com velocidade de 3 m/s em relação à água. A correnteza tem 2 m/s. Quantos metros rio abaixo ele chega à outra margem?
+
+- A) 90 m
+- B) 40 m
+- C) 120 m
+- D) 60 m
+- E) 20 m
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: movimentos independentes. O tempo de travessia depende só da velocidade perpendicular; nesse tempo, a correnteza arrasta o barco. t = 60 ÷ 3 = 20 s; arrasto = 2 × 20 = 40 m.
+
+### 15
+<!-- modelo: d12 -->
+Um projétil é lançado do solo a 30 m/s, formando 30° com a horizontal (sen 30° = 0,5). Desprezando o ar (g = 10 m/s²), qual é a altura máxima?
+
+- A) 45 m
+- B) 11,25 m
+- C) 1,5 m
+- D) 8,44 m
+- E) 22,5 m
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: altura máxima: só a componente vertical importa. Na altura máxima, a velocidade vertical zera. Use Torricelli com v_y = v₀·sen θ. vy = 30 × 0,5 = 15 m/s; H = 15² ÷ 20 = 11,25 m.
+
+### 16
+<!-- modelo: d13 -->
+Um trem de 150 m, a 30 m/s, ultrapassa outro de 80 m que segue no mesmo sentido a 20 m/s, em trilhos paralelos. Quanto tempo dura a ultrapassagem?
+
+- A) 4,6 s
+- B) 15 s
+- C) 7,67 s
+- D) 8 s
+- E) 23 s
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: velocidade relativa no mesmo sentido. Do ponto de vista do trem lento, o rápido avança a v₁ − v₂ e precisa "andar" os dois comprimentos. (150 + 80) ÷ (30 − 20) = 23 s.

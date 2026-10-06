@@ -163,6 +163,104 @@ Um objeto maciço tem massa de 540 g e volume de 50 cm³. Qual é a sua densidad
 
 **Explicação:** Ferramenta: densidade (d = m/V). d = m/V = 540/50 = 10,8 g/cm³.
 
+### 11
+<!-- modelo: f10 -->
+Um mergulhador desce 10 m abaixo da superfície do mar. Em quantas atmosferas, aproximadamente, a pressão sobre ele aumentou? (cada 10 m de água ≈ 1 atm)
+
+- A) 2 atm
+- B) 0,1 atm
+- C) 10 atm
+- D) 0 atm
+- E) 1 atm
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: pressão hidrostática: ≈ 1 atm a cada 10 m de água. A pergunta é o aumento; a pressão total seria esse valor mais 1 atm da atmosfera. 10 ÷ 10 = 1 atm a mais.
+
+### 12
+<!-- modelo: f13 -->
+Num local, a pressão atmosférica equivale a uma coluna de 152 cmHg. Quanto é isso em atmosferas? (1 atm = 76 cmHg)
+
+- A) 11.552 atm
+- B) 2 atm
+- C) 1,52 atm
+- D) 0,5 atm
+- E) 15,2 atm
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: conversão: 1 atm = 76 cmHg. Divida pelo valor de 1 atm em centímetros de mercúrio. 152 ÷ 76 = 2 atm.
+
+### 13
+<!-- modelo: f8 -->
+A densidade de um material é 13,6 g/cm³. Quanto vale em kg/m³?
+
+- A) 13.600 kg/m³
+- B) 13.600.000 kg/m³
+- C) 1.360 kg/m³
+- D) 136 kg/m³
+- E) 0,01 kg/m³
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: g/cm³ → kg/m³ (× 1 000). 1 g/cm³ = 0,001 kg ÷ 0,000001 m³ = 1 000 kg/m³. 13,6 × 1 000 = 13.600 kg/m³.
+
+### 14
+<!-- modelo: f11 -->
+Misturam-se 100 mL de água (1 g/cm³) com 100 mL de álcool (0,8 g/cm³). Supondo que os volumes se somem, qual é a densidade da mistura?
+
+- A) 0,2 g/cm³
+- B) 0,9 g/cm³
+- C) 1,13 g/cm³
+- D) 0,68 g/cm³
+- E) 1,8 g/cm³
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: densidade da mistura = massa total ÷ volume total. Calcule a massa de cada líquido (m = d·V) e divida pelo volume total. (100 + 80) ÷ 200 = 0,900 g/cm³.
+
+### 15
+<!-- modelo: f14 -->
+Um tijolo maciço de 4 kg tem dimensões 10 cm × 20 cm × 40 cm. Qual é a maior pressão que ele pode exercer sobre uma mesa, apoiado numa de suas faces? (g = 10 m/s²)
+
+- A) 500 Pa
+- B) 1.000 Pa
+- C) 200 Pa
+- D) 2.000 Pa
+- E) 0,2 Pa
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: p = F/A: menor área, maior pressão. O peso é o mesmo em qualquer face; a pressão é maior na face de menor área (a × b). A = 10 × 20 cm² = 0,0200 m²; p = 40 ÷ 0,0200 = 2.000 Pa.
+
+### 16
+<!-- modelo: f12 -->
+Para afrouxar um parafuso, aplica-se uma força de 40 N, perpendicular à chave, a 50 cm do eixo. Qual é o momento (torque) aplicado?
+
+- A) 2.000 N·m
+- B) 20 N·m
+- C) 90 N·m
+- D) 80 N·m
+- E) 2 N·m
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: momento: M = F·d. O braço precisa estar em metros. 50 cm = 0,5 m; M = 40 × 0,5 = 20 N·m.
+
+### 17
+<!-- modelo: f9 -->
+Uma peça maciça de alumínio (densidade 2,7 g/cm³) tem massa de 54 g. Qual é o seu volume?
+
+- A) 40 cm³
+- B) 20 cm³
+- C) 145,8 cm³
+- D) 0,05 cm³
+- E) 5,4 cm³
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: V = m/d. Densidade é massa por volume; para achar o volume, divida a massa pela densidade. V = 54 ÷ 2,7 = 20 cm³.
+
 ## Médio
 
 ### 1
@@ -319,6 +417,90 @@ Um cubo de aresta 30 cm está totalmente mergulhado em água (densidade 1.000 kg
 
 **Explicação:** Ferramenta: E = d·V·g. O volume submerso é o volume do cubo (em m³). V = (0,3 m)³ = 0,027 m³; E = 1.000 × 0,027 × 10 = 270 N.
 
+### 12
+<!-- modelo: m11 -->
+Numa prensa hidráulica, o êmbolo menor tem 5 cm de diâmetro e o maior, 50 cm. Aplicando 200 N no menor, que força se obtém no maior?
+
+- A) 1.000 N
+- B) 20.000 N
+- C) 2.000 N
+- D) 250 N
+- E) 40.000 N
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: Pascal: F₂/F₁ = A₂/A₁ = (D₂/D₁)². A área cresce com o quadrado do diâmetro. D₂/D₁ = 10; F₂ = 200 × 10² = 20.000 N.
+
+### 13
+<!-- modelo: m12 -->
+Um bloco de densidade 0,6 g/cm³ flutua num líquido com 75% do seu volume submerso. Qual é a densidade do líquido?
+
+- A) 0,6 g/cm³
+- B) 1,25 g/cm³
+- C) 0,45 g/cm³
+- D) 0,8 g/cm³
+- E) 1 g/cm³
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: flutuação: fração submersa = d(objeto)/d(líquido). Na flutuação, peso = empuxo; isolando a densidade do líquido: d_líq = d_obj ÷ fração. 0,6 ÷ 0,750 = 0,8 g/cm³.
+
+### 14
+<!-- modelo: m9 -->
+Um sensor mede que a pressão no fundo de um tanque de água (densidade 1000 kg/m³) é 150.000 Pa maior que na superfície. Qual é a profundidade do tanque? (g = 10 m/s²)
+
+- A) 15 m
+- B) 23 m
+- C) 7,5 m
+- D) 150 m
+- E) 15.000 m
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: Δp = d·g·h, isolando h. Divida a diferença de pressão por d·g. h = 150.000 ÷ (1000 × 10) = 15 m.
+
+### 15
+<!-- modelo: m14 -->
+A janela de um submarino tem 0,2 m² e está a 20 m de profundidade no mar (considere densidade 1 000 kg/m³). Qual é a força exercida pela água sobre ela, considerando só a pressão hidrostática? (g = 10 m/s²)
+
+- A) 4.000 N
+- B) 400.000 N
+- C) 40.000 N
+- D) 200.000 N
+- E) 80.000 N
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: F = p·A, com p = d·g·h. Primeiro a pressão na profundidade, depois multiplique pela área. p = 1 000 × 10 × 20 = 200.000 Pa; F = 200.000 × 0,2 = 40.000 N.
+
+### 16
+<!-- modelo: m10 -->
+Uma boia de 1 kg e 2 L de volume é mantida no fundo de uma piscina e depois solta. Qual é a sua aceleração inicial para cima? (água: 1 kg/L; g = 10 m/s²; despreze a resistência da água)
+
+- A) 20 m/s²
+- B) 15 m/s²
+- C) 9 m/s²
+- D) 5 m/s²
+- E) 10 m/s²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: 2ª lei com empuxo: a = (E − P)/m. O empuxo (peso da água deslocada) é maior que o peso; a diferença acelera a boia. E = 2 × 10 = 20 N; P = 10 N; a = 10 ÷ 1 = 10 m/s².
+
+### 17
+<!-- modelo: m13 -->
+Se o barômetro de Torricelli fosse feito com óleo de densidade 800 kg/m³ em vez de mercúrio, que altura de coluna equilibraria a pressão atmosférica de 1,0 × 10⁵ Pa? (g = 10 m/s²)
+
+- A) 125 m
+- B) 0,76 m
+- C) 25 m
+- D) 12,5 m
+- E) 1,25 m
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: coluna de líquido: p = d·g·h. A coluna sobe até seu peso por área igualar a pressão do ar. h = 10⁵ ÷ (800 × 10) = 12,5 m.
+
 ## Difícil
 
 ### 1
@@ -460,3 +642,87 @@ Um objeto flutua em água (densidade 1 g/cm³) com 20% do seu volume submerso. Q
 **Resposta:** C
 
 **Explicação:** Ferramenta: flutuação (densidade). ρ_obj = ρ_água × fração submersa = 1 × 0,2 = 0,2 g/cm³.
+
+### 11
+<!-- modelo: d10 -->
+Uma coroa pesa 8 N no ar e 6 N quando totalmente mergulhada em água (1 g/cm³). Qual é a densidade do material da coroa?
+
+- A) 1,33 g/cm³
+- B) 2 g/cm³
+- C) 0,75 g/cm³
+- D) 0,25 g/cm³
+- E) 4 g/cm³
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: Arquimedes: d = P ÷ (P − P_aparente) × d_água. A perda de peso é o empuxo, que vale o peso de um volume de água igual ao da coroa. E = 8 − 6 = 2 N; d = 8 ÷ 2 × 1 = 4 g/cm³.
+
+### 12
+<!-- modelo: d12 -->
+Um tanque tem 1 m de óleo (800 kg/m³) flutuando sobre 5 m de água (1 000 kg/m³). Qual é a pressão hidrostática no fundo? (g = 10 m/s²)
+
+- A) 48.000 Pa
+- B) 58.000 Pa
+- C) 60.000 Pa
+- D) 54.000 Pa
+- E) 50.000 Pa
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: líquidos em camadas: some as pressões. Cada camada contribui com d·g·h. 800 × 10 × 1 + 1 000 × 10 × 5 = 58.000 Pa.
+
+### 13
+<!-- modelo: d11 -->
+Um quadro de 100 N está pendurado por dois fios iguais, cada um formando 53° com a vertical (cos 53° = 0,6). Qual é a tração em cada fio?
+
+- A) 60 N
+- B) 100 N
+- C) 30 N
+- D) 50 N
+- E) 83,33 N
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: equilíbrio vertical: 2·T·cos θ = P. Só as componentes verticais das trações sustentam o peso; quanto mais abertos os fios, maior a tração. T = 100 ÷ (2 × 0,6) = 83,33 N.
+
+### 14
+<!-- modelo: d8 -->
+Uma tábua homogênea de 8 m e peso 100 N está apoiada nas duas pontas. Um objeto de 400 N é colocado a 3 m da ponta esquerda. Qual é a força no apoio da direita?
+
+- A) 200 N
+- B) 150 N
+- C) 450 N
+- D) 250 N
+- E) 300 N
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: equilíbrio de momentos em relação ao apoio esquerdo. Os momentos dos pesos (tábua no meio e objeto) são equilibrados pelo momento da reação da direita. R × 8 = 100 × 4 + 400 × 3 → R = 200 N.
+
+### 15
+<!-- modelo: d9 -->
+Uma bola de 2 kg e 4 L de volume é mantida totalmente submersa na água, presa ao fundo por um fio. Qual é a tração no fio? (água: 1 kg/L; g = 10 m/s²)
+
+- A) 20 N
+- B) 30 N
+- C) 23 N
+- D) 40 N
+- E) 60 N
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: equilíbrio: E = P + T. O empuxo para cima equilibra o peso e a tração do fio, ambos para baixo. E = 4 × 10 = 40 N; T = 40 − 20 = 20 N.
+
+### 16
+<!-- modelo: d13 -->
+Água escoa num cano de 6 cm de diâmetro a 1,5 m/s e passa para um trecho de 2 cm de diâmetro. Qual é a velocidade nesse trecho mais fino?
+
+- A) 4,5 m/s
+- B) 0,17 m/s
+- C) 12,15 m/s
+- D) 0,5 m/s
+- E) 13,5 m/s
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: continuidade: A₁·v₁ = A₂·v₂. A vazão é a mesma; a área depende do quadrado do diâmetro. diâmetro 3 vezes menor → área 9 vezes menor → v = 1,5 × 9 = 13,5 m/s.

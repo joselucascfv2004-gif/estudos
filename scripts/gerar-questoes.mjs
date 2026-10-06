@@ -24,7 +24,14 @@ for (const m of modulos) {
     const rng = criarRng(hashTexto(t.disciplina + '/' + t.arquivo));
     const niveis = t.niveis.map((modelos, n) => {
       try {
-        return t.unico ? gerarNivelUnico(rng, modelos, 'fmd'[n]) : gerarNivel(rng, modelos, t.quantidade ?? POR_NIVEL);
+        if (!t.unico) return gerarNivel(rng, modelos, t.quantidade ?? POR_NIVEL);
+        // modelos novos usam outra semente e vão para o fim: as questões antigas não mudam
+        const antigos = modelos.filter((m) => !m.novo);
+        const novos = modelos.filter((m) => m.novo);
+        const base = gerarNivelUnico(rng, antigos, 'fmd'[n]);
+        if (!novos.length) return base;
+        const rngNovos = criarRng(hashTexto(`${t.disciplina}/${t.arquivo}/novos/${n}`));
+        return [...base, ...gerarNivelUnico(rngNovos, novos, 'fmd'[n], antigos.length)];
       } catch (e) {
         throw new Error(`${t.disciplina}/${t.arquivo} nível ${n}: ${e.message}`);
       }
