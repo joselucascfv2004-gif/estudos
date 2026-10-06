@@ -1,0 +1,98 @@
+{
+  "titulo": "Você sabe Português? Parte 2",
+  "titulo_tela": "Você sabe Português?",
+  "destaque": "Português?",
+  "subtitulo_tela": "Parte 2  •  5 segundos cada",
+  "capa_selo": "PARTE 2  •  5 PERGUNTAS",
+  "capa_cor": "roxo",
+  "capa_titulo": "Você sabe Português?",
+  "capa_destaque": "Português?",
+  "capa_sub": "Crase, mal ou mau e mais 3 erros",
+  "chamada": "Você sabe português? Parte dois. Mais cinco erros que quase todo mundo comete. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "descricao": "Você sabe Português? Parte 2 ✍️ Mais 5 erros que quase todo mundo comete. Comenta quantas você acertou! 👇",
+  "hashtags": "#portugues #enem #concurso #quiz #estudos",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/portugues/03-concordancia-regencia-crase.md e 04-pontuacao-ortografia-acentuacao.md).",
+  "perguntas": [
+    {
+      "materia": "Português",
+      "pergunta": "Qual opção completa a frase da tela?",
+      "texto_tela": "Complete: Vou ___ escola amanhã.",
+      "alternativas": [
+        "a",
+        "á",
+        "há",
+        "à",
+        "ah"
+      ],
+      "certa": 3,
+      "resposta_falada": "a com crase",
+      "explicacao": "Quem vai, vai a algum lugar, e escola pede o artigo a. As duas letras se juntam e viram crase.",
+      "fonte": "estudos/conteudos/portugues/03-concordancia-regencia-crase.md, Fácil 3"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "Qual palavra completa essa frase?",
+      "texto_tela": "Complete: Ela estava ___-humorada.",
+      "alternativas": [
+        "mal",
+        "mau",
+        "mão",
+        "maus",
+        "mais"
+      ],
+      "certa": 0,
+      "resposta_falada": "mal, com ele",
+      "explicacao": "Mal, com ele, é o contrário de bem. Mau, com a letra u, é o contrário de bom.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 17"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "Qual é o certo nessa frase?",
+      "texto_tela": "Complete: ___ muitas pessoas na festa.",
+      "alternativas": [
+        "Haviam",
+        "Houveram",
+        "Havia",
+        "Haverão",
+        "Hão"
+      ],
+      "certa": 2,
+      "resposta_falada": "havia, no singular",
+      "explicacao": "Quando haver significa existir, ele fica sempre no singular. Haviam muitas pessoas é um erro clássico de redação.",
+      "fonte": "estudos/conteudos/portugues/03-concordancia-regencia-crase.md, Fácil 5"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "Qual palavra está escrita do jeito certo?",
+      "alternativas": [
+        "previlégio",
+        "privilejio",
+        "previlejio",
+        "privilégeo",
+        "privilégio"
+      ],
+      "certa": 4,
+      "resposta_falada": "privilégio, com i",
+      "explicacao": "Previlégio, com e no começo, não existe. Esse é um dos erros mais comuns em prova.",
+      "fonte": "estudos/conteudos/portugues/04-pontuacao-ortografia-acentuacao.md, Fácil 4"
+    },
+    {
+      "materia": "Português",
+      "pergunta": "E a última: o que completa a frase da tela?",
+      "texto_tela": "Complete: Eu assisti ___ filme ontem.",
+      "alternativas": [
+        "o",
+        "ao",
+        "no",
+        "com o",
+        "pro"
+      ],
+      "certa": 1,
+      "resposta_falada": "ao",
+      "explicacao": "No sentido de ver, assistir pede a preposição a. Na conversa todo mundo fala assisti o filme, mas na prova vale assisti ao filme.",
+      "fonte": "estudos/conteudos/portugues/03-concordancia-regencia-crase.md, Fácil 6"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E segue o perfil pra não perder o próximo teste. O app Estudos chega em breve."
+}

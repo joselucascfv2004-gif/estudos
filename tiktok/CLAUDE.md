@@ -9,6 +9,8 @@ pedir. As regras delas continuam abaixo para quando voltarem.
 - Fábrica: `quiz/fazer_quiz.py`. Cada quiz é um JSON em `quiz/quizzes/` com 5 perguntas tiradas do
   app (pasta `estudos/conteudos`), com gabarito e explicação conferidos. Use perguntas curtas, sem
   figura. Explicações com duas frases curtas.
+- **Espalhe as respostas certas entre as letras** (por exemplo D, A, C, E, B). Nunca deixe todas
+  na mesma letra: quem assiste percebe o padrão.
 - Voz: **Antonio** (só fala português). A Thalita lê termos técnicos com sotaque inglês.
 - Letras faladas: "Letra É" para a E. Use `resposta_falada` quando a alternativa tiver unidade ou
   símbolo (por exemplo "423 kelvin").
