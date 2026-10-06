@@ -11,6 +11,7 @@ const GRUPOS: { grupo: GrupoProva; titulo: string }[] = [
   { grupo: 'ENEM', titulo: 'ENEM e vestibulares' },
   { grupo: 'Militares', titulo: 'Provas militares' },
   { grupo: 'Concursos', titulo: 'Concursos' },
+  { grupo: 'Certificações', titulo: 'Certificações financeiras (ANBIMA)' },
   { grupo: 'Todas', titulo: 'Sem prova definida' },
 ];
 

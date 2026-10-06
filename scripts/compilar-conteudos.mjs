@@ -35,7 +35,7 @@ function tamanhoImagem(arq) {
 
 const NIVEIS = { 'fácil': 0, 'facil': 0, 'médio': 1, 'medio': 1, 'difícil': 2, 'dificil': 2 };
 const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'];
-const PROVAS_VALIDAS = ['ENEM', 'Militares', 'Concursos'];
+const PROVAS_VALIDAS = ['ENEM', 'Militares', 'Concursos', 'Certificações'];
 
 const ARQ_INCIDENCIA = path.join(PASTA_CONTEUDOS, '_incidencia.md');
 
@@ -337,7 +337,7 @@ function main() {
     '',
     `**${total} questões** em **${disciplinas.reduce((s, d) => s + d.topicos.length, 0)} tópicos**.`,
     '',
-    'Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).',
+    'Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).',
     '',
   ];
   for (const d of disciplinas) {

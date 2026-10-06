@@ -2,9 +2,9 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**7540 questões** em **168 tópicos**.
+**7940 questões** em **176 tópicos**.
 
-Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros).
+Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
 ## Matemática — 1202 questões
 
@@ -313,3 +313,18 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [ENEM 2009 — Ciências da Natureza](enem-oficial/66-enem-2009-ciencias-da-natureza.md) | ENEM | 8 | 24 | 12 |
 | [ENEM 2009 — Ciências Humanas](enem-oficial/67-enem-2009-ciencias-humanas.md) | ENEM | 11 | 29 | 4 |
 | [ENEM 2009 — Linguagens](enem-oficial/68-enem-2009-linguagens.md) | ENEM | 7 | 15 | 5 |
+
+## CPA (ANBIMA) — 400 questões
+
+*Certificações Financeiras*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Sistema financeiro nacional](cpa/01-sistema-financeiro-nacional.md) | Certificações | 17 | 17 | 16 |
+| [Política econômica e indicadores](cpa/02-politica-economica-e-indicadores.md) | Certificações | 17 | 17 | 16 |
+| [Cálculos financeiros e tributação de investimentos](cpa/03-calculos-financeiros-e-tributacao.md) | Certificações | 17 | 17 | 16 |
+| [Infraestrutura, regulação e autorregulação](cpa/04-infraestrutura-regulacao-e-autorregulacao.md) | Certificações | 17 | 17 | 16 |
+| [Renda fixa](cpa/05-renda-fixa.md) | Certificações | 17 | 17 | 16 |
+| [Renda variável e COE](cpa/06-renda-variavel-e-coe.md) | Certificações | 17 | 17 | 16 |
+| [Fundos de investimento](cpa/07-fundos-de-investimento.md) | Certificações | 17 | 17 | 16 |
+| [Previdência complementar](cpa/08-previdencia-complementar.md) | Certificações | 17 | 17 | 16 |

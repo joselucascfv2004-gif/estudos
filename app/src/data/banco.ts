@@ -3,7 +3,7 @@
 
 import { getProva } from './provas';
 
-export type Prova = 'ENEM' | 'Militares' | 'Concursos';
+export type Prova = 'ENEM' | 'Militares' | 'Concursos' | 'Certificações';
 export type Nivel = 0 | 1 | 2;
 /** Língua estrangeira escolhida pelo aluno (o ENEM pede uma das duas). */
 export type Lingua = 'ingles' | 'espanhol';
