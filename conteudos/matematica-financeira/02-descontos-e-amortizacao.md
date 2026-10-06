@@ -163,6 +163,104 @@ Uma duplicata de R$ 13.000,00 foi descontada em um banco 2 meses antes do vencim
 
 **Explicação:** Ferramenta: valor atual = nominal − desconto. A = N(1 − d·t). 13.000 × 0,92 = R$ 11.960,00.
 
+### 11
+<!-- modelo: f7 -->
+Um título de R$ 4.000,00 foi descontado 4 meses antes do vencimento, com desconto comercial simples de R$ 80,00. Qual foi a taxa mensal de desconto?
+
+- A) 0,5%
+- B) 0,51%
+- C) 2%
+- D) 0,25%
+- E) 20%
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: desconto comercial: D = N·i·t, isolando i. A taxa incide sobre o valor nominal. i = 80 ÷ (4.000 × 4) = 0,5% ao mês.
+
+### 12
+<!-- modelo: f11 -->
+Qual é o valor atual de um título de R$ 2.200,00, descontado 1 mês antes do vencimento, com desconto racional (por dentro) a 10% ao mês?
+
+- A) R$ 2.178,22
+- B) R$ 2.100,00
+- C) R$ 2.420,00
+- D) R$ 2.000,00
+- E) R$ 1.980,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: desconto racional: A = N ÷ (1 + i). O desconto por dentro é calculado sobre o valor atual, como juros "de trás para a frente". 2.200 ÷ 1,1 = R$ 2.000,00.
+
+### 13
+<!-- modelo: f10 -->
+Um título de R$ 3.000,00 sofreu desconto comercial simples de R$ 180,00 à taxa de 2% ao mês. Quantos meses antes do vencimento foi descontado?
+
+- A) 0,06 meses
+- B) 6 meses
+- C) 90 meses
+- D) 33,33 meses
+- E) 3 meses
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: desconto comercial: t = D ÷ (N·i). Cada mês de antecipação tira N·i do valor. R$ 3.000,00 × 2% = R$ 60,00 por mês; 180 ÷ 60 = 3.
+
+### 14
+<!-- modelo: f13 -->
+Numa dívida de R$ 60.000,00 paga pelo SAC, cada parcela amortiza R$ 5.000,00. Em quantas parcelas a dívida é quitada?
+
+- A) 50 parcelas
+- B) 11 parcelas
+- C) 13 parcelas
+- D) 24 parcelas
+- E) 12 parcelas
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: SAC: amortização constante = dívida ÷ número de parcelas. Isole o número de parcelas. 60.000 ÷ 5.000 = 12.
+
+### 15
+<!-- modelo: f8 -->
+Ao descontar uma duplicata 2 meses antes do vencimento, a 4% ao mês (desconto comercial simples), uma empresa recebeu R$ 4.600,00. Qual era o valor nominal?
+
+- A) R$ 4.784,00
+- B) R$ 4.968,00
+- C) R$ 5.000,00
+- D) R$ 4.259,26
+- E) R$ 5.400,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: valor atual comercial: A = N·(1 − i·t), isolando N. O desconto foi calculado sobre o nominal, então divida pelo fator (1 − i·t). N = 4.600,00 ÷ 0,92 = R$ 5.000,00.
+
+### 16
+<!-- modelo: f9 -->
+Um financiamento pela tabela Price tem 12 prestações iguais de R$ 812,50. Quanto o cliente paga no total?
+
+- A) R$ 9.750,00
+- B) R$ 10.725,00
+- C) R$ 8.937,50
+- D) R$ 4.875,00
+- E) R$ 812,50
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: Price: parcelas iguais. O total é o número de prestações vezes o valor de cada uma. 12 × R$ 812,50 = R$ 9.750,00.
+
+### 17
+<!-- modelo: f12 -->
+Uma duplicata de R$ 8.000,00 é descontada num banco 3 meses antes do vencimento: desconto comercial de 2% ao mês e tarifa fixa de R$ 10,00. Quanto a empresa recebe?
+
+- A) R$ 7.500,00
+- B) R$ 7.990,00
+- C) R$ 7.510,00
+- D) R$ 7.520,00
+- E) R$ 7.830,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: valor líquido = nominal − desconto − tarifas. Desconto: 8.000 × 2% × 3 = R$ 480,00. 8.000 − 480 − 10 = R$ 7.510,00.
+
 ## Médio
 
 ### 1
@@ -319,6 +417,90 @@ Um financiamento de R$ 126.000,00 pelo SAC tem 36 parcelas. Qual é o saldo deve
 
 **Explicação:** Ferramenta: saldo cai linearmente. Cada parcela do SAC amortiza a mesma quantia. 126.000 − 24 × 3.500 = R$ 42.000,00.
 
+### 12
+<!-- modelo: m8 -->
+Qual é o valor atual de um título de R$ 1.210,00, descontado 2 meses antes do vencimento, com desconto racional composto de 10% ao mês?
+
+- A) R$ 1.008,33
+- B) R$ 968,00
+- C) R$ 1.000,00
+- D) R$ 980,10
+- E) R$ 1.010,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: desconto racional composto: A = N ÷ (1 + i)ⁿ. É o valor presente em juros compostos. 1.210 ÷ 1,1² = 1.210 ÷ 1,21 = R$ 1.000,00.
+
+### 13
+<!-- modelo: m12 -->
+Um título de R$ 1.100,00 vence em 1 mês. O credor aceita trocá-lo por outro que vence em 3 meses, equivalente pelo desconto racional simples a 10% ao mês (data focal hoje). Qual o valor do novo título?
+
+- A) R$ 1.331,00
+- B) R$ 1.320,00
+- C) R$ 1.000,00
+- D) R$ 1.300,00
+- E) R$ 1.430,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: equivalência de capitais: compare os valores atuais. Valor atual do 1º: 1.100 ÷ 1,1 = R$ 1.000,00. O novo título precisa ter o mesmo valor atual. N₂ = 1.000,00 × (1 + 0,1 × 3) = R$ 1.300,00.
+
+### 14
+<!-- modelo: m10 -->
+Uma dívida de R$ 36.000,00 é paga pelo SAC em 6 parcelas mensais, com juros de 1% ao mês. Qual é o valor da 3ª parcela?
+
+- A) R$ 6.180,00
+- B) R$ 6.240,00
+- C) R$ 6.360,00
+- D) R$ 6.000,00
+- E) R$ 240,00
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: SAC: parcela = amortização + juros do saldo anterior. Amortização = 36.000 ÷ 6 = R$ 6.000,00. Antes da 3ª parcela, o saldo é 36.000 − 2 × 6.000 = R$ 24.000,00. Parcela = 6.000 + 1% de 24.000 = R$ 6.240,00.
+
+### 15
+<!-- modelo: m11 -->
+Um financiamento de R$ 2.100,00 pela tabela Price, em 2 parcelas a 10% ao mês, tem prestação de R$ 1.210,00. Qual é o saldo devedor logo após o pagamento da 1ª prestação?
+
+- A) R$ 100,00
+- B) R$ 1.310,00
+- C) R$ 890,00
+- D) R$ 1.100,00
+- E) R$ 2.310,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: saldo anterior + juros − prestação. Juros do mês: 10% de 2.100 = R$ 210,00. 2.100 + 210,00 − 1.210,00 = R$ 1.100,00.
+
+### 16
+<!-- modelo: m13 -->
+Pelo sistema americano, um empréstimo de R$ 50.000,00 a 2% ao mês é pago com juros mensais e o principal todo na última parcela, em 24 meses. Quanto de juros se paga no total?
+
+- A) R$ 12.000,00
+- B) R$ 1.000,00
+- C) R$ 74.000,00
+- D) R$ 30.421,86
+- E) R$ 24.000,00
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: sistema americano: o saldo não cai até o fim. Os juros de cada mês incidem sempre sobre os R$ 50.000,00. 24 × 2% de 50.000 = R$ 24.000,00.
+
+### 17
+<!-- modelo: m9 -->
+Qual é o valor atual de um título de R$ 10.000,00, descontado 2 meses antes do vencimento, com desconto comercial (por fora) composto de 10% ao mês?
+
+- A) R$ 7.900,00
+- B) R$ 8.100,00
+- C) R$ 8.000,00
+- D) R$ 8.264,46
+- E) R$ 9.000,00
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: desconto comercial composto: A = N·(1 − i)ⁿ. A cada mês, tira-se 10% do valor do mês seguinte. 10.000 × 0,9² = 10.000 × 0,81 = R$ 8.100,00.
+
 ## Difícil
 
 ### 1
@@ -460,3 +642,87 @@ Uma loja oferece um produto em 10 prestações mensais de R$ 2.000,00, sem entra
 **Resposta:** A
 
 **Explicação:** Ferramenta: valor presente de uma série. Cada prestação futura vale menos hoje; o fator já soma todas trazidas para a data zero. 2.000 × 8,983 = R$ 17.966,00 (menor que a soma nominal R$ 20.000,00).
+
+### 11
+<!-- modelo: d10 -->
+Num financiamento pela tabela Price a 10% ao mês, faltam 2 prestações de R$ 2.420,00. Quanto o cliente precisa pagar hoje para quitar a dívida (logo após pagar a última vencida)?
+
+- A) R$ 4.620,00
+- B) R$ 4.400,00
+- C) R$ 4.840,00
+- D) R$ 4.356,00
+- E) R$ 4.200,00
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: saldo devedor = valor presente das prestações que faltam. Traga cada prestação para hoje. 2.420 ÷ 1,1 + 2.420 ÷ 1,21 = R$ 2.200,00 + R$ 2.000,00 = R$ 4.200,00.
+
+### 12
+<!-- modelo: d12 -->
+Um banco desconta títulos a 5% ao mês (desconto comercial). Para um título descontado 1 mês antes do vencimento, qual é a taxa efetiva de juros que a empresa paga sobre o dinheiro que recebe?
+
+- A) 2,5%
+- B) 5,26%
+- C) 10,53%
+- D) 5%
+- E) 10%
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: taxa efetiva = desconto ÷ valor recebido. Para cada R$ 100 de nominal, a empresa recebe R$ 95 e "devolve" R$ 100. 5 ÷ 95 = 5,26% ao mês (mais que os 5% anunciados).
+
+### 13
+<!-- modelo: d8 -->
+Para um título de R$ 1.200,00 descontado 4 meses antes, a 5% ao mês (simples), qual é a diferença entre o desconto comercial e o racional?
+
+- A) R$ 40,00
+- B) R$ 440,00
+- C) R$ 240,00
+- D) R$ 200,00
+- E) R$ 80,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: o comercial é sempre maior (incide sobre o nominal). Comercial: R$ 240,00. Racional: 1.200 − 1.200 ÷ 1,20 = R$ 200,00. Diferença: R$ 40,00 (que é o desconto racional × i·t).
+
+### 14
+<!-- modelo: d9 -->
+Qual é a prestação de um financiamento de R$ 21.000,00 em 2 parcelas mensais iguais (tabela Price), a 10% ao mês?
+
+- A) R$ 12.100,00
+- B) R$ 12.600,00
+- C) R$ 12.705,00
+- D) R$ 10.500,00
+- E) R$ 11.550,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: Price: o valor presente das parcelas é a dívida. P/1,1 + P/1,21 = D → P = D × 0,1 × 1,21 ÷ 0,21. 21.000 × 0,121 ÷ 0,21 = R$ 12.100,00.
+
+### 15
+<!-- modelo: d11 -->
+Uma dívida de R$ 12.000,00 é paga pelo SAC em 4 parcelas, a 2% ao mês. Quanto se paga de juros no total?
+
+- A) R$ 240,00
+- B) R$ 1.200,00
+- C) R$ 960,00
+- D) R$ 1.800,00
+- E) R$ 600,00
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: no SAC os juros formam uma PA decrescente. Juros da 1ª: R$ 240,00; da última: R$ 60,00. Soma da PA = (primeiro + último) × n ÷ 2. (240 + 60) × 4 ÷ 2 = R$ 600,00.
+
+### 16
+<!-- modelo: d7 -->
+Uma dívida de R$ 6.000,00, a 10% ao mês, será paga em 2 parcelas mensais. Quanto de juros se paga a MAIS pela tabela Price do que pelo SAC?
+
+- A) R$ 900,00
+- B) R$ 914,29
+- C) R$ 28,57
+- D) R$ 14,29
+- E) R$ 600,00
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: Price amortiza mais devagar, então paga mais juros. SAC: juros R$ 600,00 + R$ 300,00 = R$ 900,00. Price: parcela R$ 3.457,14, total R$ 6.914,29, juros R$ 914,29. Diferença: R$ 14,29.

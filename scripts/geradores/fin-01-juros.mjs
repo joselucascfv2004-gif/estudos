@@ -1,5 +1,7 @@
 // Matemática financeira — Juros simples e compostos.
 import { arred, expl, nome, num, reais } from './util.mjs';
+import NOVOS from './fin-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const pc = (v) => `${num(v)}%`;
 
@@ -308,6 +310,6 @@ export default [
     provas: ['Concursos', 'ENEM'],
     descricao: 'Capital, taxa, tempo, montante; taxas proporcionais, equivalentes, nominais, efetivas e reais.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.juros[0])], [...medio, ...novos(NOVOS.juros[1])], [...dificil, ...novos(NOVOS.juros[2])]],
   },
 ];

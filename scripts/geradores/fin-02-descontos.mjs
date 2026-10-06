@@ -1,5 +1,7 @@
 // Matemática financeira — Descontos e sistemas de amortização.
 import { arred, expl, num, reais } from './util.mjs';
+import NOVOS from './fin-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const pc = (v) => `${num(v)}%`;
 
@@ -269,6 +271,6 @@ export default [
     provas: ['Concursos'],
     descricao: 'Desconto comercial e racional, SAC, Tabela Price e séries de pagamentos.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.descontos[0])], [...medio, ...novos(NOVOS.descontos[1])], [...dificil, ...novos(NOVOS.descontos[2])]],
   },
 ];

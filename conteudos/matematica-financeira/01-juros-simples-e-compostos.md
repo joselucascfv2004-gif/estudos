@@ -191,6 +191,76 @@ Um capital de R$ 7.000,00 foi aplicado a juros simples de 2% ao mês durante 2 m
 
 **Explicação:** Ferramenta: juros simples J = C·i·t. Em juros simples, os juros de cada mês são sempre calculados sobre o capital inicial. 7.000 × 0,02 × 2 = R$ 280,00.
 
+### 13
+<!-- modelo: f13 -->
+Um capital de R$ 2.000,00 fica aplicado por 2 meses a 5% ao mês. Quanto a mais ele rende a juros compostos do que a juros simples?
+
+- A) R$ 100,00
+- B) R$ 200,00
+- C) R$ 5,00
+- D) R$ 10,00
+- E) R$ 0,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: juros sobre juros. No 2º mês, os compostos também rendem sobre os juros do 1º mês: a diferença é C·i². R$ 2.000,00 × (0,05)² = R$ 5,00.
+
+### 14
+<!-- modelo: f12 -->
+A juros simples de 2% ao mês, quanto por cento o capital terá rendido, no total, em 18 meses?
+
+- A) 42,82%
+- B) 2%
+- C) 36%
+- D) 72%
+- E) 20%
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: juros simples: taxa total = i·t. Nos juros simples, as taxas de cada mês apenas se somam. 2% × 18 = 36%.
+
+### 15
+<!-- modelo: f11 -->
+A juros simples de 5% ao mês, em quantos meses um capital dobra de valor?
+
+- A) 14,21 meses
+- B) 20 meses
+- C) 60 meses
+- D) 40 meses
+- E) 10 meses
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: dobrar = juros iguais ao capital. Os juros precisam somar 100% do capital: i·t = 100%. 5% × t = 100% → t = 20 meses.
+
+### 16
+<!-- modelo: f9 -->
+Um capital de R$ 4.000,00, a juros simples de 5% ao mês, rendeu R$ 600,00 de juros. Por quantos meses ficou aplicado?
+
+- A) 0,15 meses
+- B) 33,33 meses
+- C) 6 meses
+- D) 3 meses
+- E) 120 meses
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: juros simples: t = J ÷ (C·i). Cada mês rende C·i; divida o total de juros pelo rendimento mensal. R$ 4.000,00 × 5% = R$ 200,00 por mês; R$ 600,00 ÷ R$ 200,00 = 3 meses.
+
+### 17
+<!-- modelo: f10 -->
+Uma aplicação a juros simples de 2% ao mês rendeu R$ 120,00 em 4 meses. Qual foi o capital aplicado?
+
+- A) R$ 1.500,00
+- B) R$ 6.000,00
+- C) R$ 1.620,00
+- D) R$ 960,00
+- E) R$ 240,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: juros simples: C = J ÷ (i·t). Isole o capital na fórmula J = C·i·t (taxa em decimal). C = 120 ÷ (0,02 × 4) = R$ 1.500,00.
+
 ## Médio
 
 ### 1
@@ -347,6 +417,90 @@ Um capital de R$ 19.000,00 é aplicado a juros compostos de 5% ao mês por 10 me
 
 **Explicação:** Ferramenta: usar o fator da tabela. Provas de concurso costumam dar o valor de (1 + i)ⁿ. Basta multiplicar. 19.000 × 1,63 = R$ 30.970,00.
 
+### 12
+<!-- modelo: m13 -->
+Uma pessoa deposita R$ 5.000,00 no fim de cada mês, durante 6 meses, numa aplicação de 2% ao mês (juros compostos). Usando o fator de acumulação 6,3081, quanto terá logo após o último depósito?
+
+- A) R$ 31.540,50
+- B) R$ 5.630,81
+- C) R$ 30.000,00
+- D) R$ 32.171,31
+- E) R$ 30.600,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: valor futuro de uma série de depósitos = parcela × fator de acumulação. Cada depósito rende por um tempo diferente; o fator já soma tudo. R$ 5.000,00 × 6,3081 = R$ 31.540,50.
+
+### 13
+<!-- modelo: m11 -->
+Um investimento de R$ 1.000,00 rendeu 10% no período. O imposto de renda de 22,5% incide só sobre o rendimento. Qual foi a rentabilidade líquida?
+
+- A) 2,25%
+- B) 8,75%
+- C) 6,98%
+- D) 7,75%
+- E) 10%
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: IR sobre o ganho: líquida = bruta × (1 − alíquota). O imposto tira uma fração do rendimento, não da taxa "em pontos". 10% × (1 − 0,225) = 7,75%.
+
+### 14
+<!-- modelo: m9 -->
+A inflação foi de 10% em um mês e de 10% no mês seguinte. Qual foi a inflação acumulada nos dois meses?
+
+- A) 21%
+- B) 100%
+- C) 20%
+- D) 22%
+- E) 10%
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: taxas acumuladas se multiplicam. Multiplique os fatores (1 + taxa) e tire 1. 1,100 × 1,100 = 1,2100 → 21%.
+
+### 15
+<!-- modelo: m12 -->
+Uma conta de R$ 200,00 foi paga com 15 dias de atraso. Há multa de 2% e juros de mora de 1% ao mês, proporcionais aos dias (mês de 30 dias). Quanto foi pago?
+
+- A) R$ 6,00
+- B) R$ 204,00
+- C) R$ 201,00
+- D) R$ 206,00
+- E) R$ 205,00
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: multa (fixa) + juros proporcionais ao tempo. Multa: 2% de 200 = R$ 4,00. Juros: 1% × 15/30 de 200 = R$ 1,00. Total: R$ 205,00.
+
+### 16
+<!-- modelo: m8 -->
+Uma loja vende um produto por R$ 1.000,00 para pagamento em 30 dias ou por R$ 900,00 à vista. Qual é a taxa de juros mensal embutida no preço a prazo?
+
+- A) 10%
+- B) 5,56%
+- C) 100%
+- D) 11,11%
+- E) 22,22%
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: taxa = juros ÷ valor financiado. Quem compra a prazo "pega emprestado" o valor à vista (R$ 900,00) e paga R$ 1.000,00. 100 ÷ 900 = 11,11% ao mês.
+
+### 17
+<!-- modelo: m10 -->
+Um capital de R$ 5.000,00 é aplicado por meio mês (meio período) a 4% ao mês. Qual modalidade dá o maior montante, e quanto ele vale?
+
+- A) juros compostos: R$ 5.100,00
+- B) juros simples: R$ 5.100,00
+- C) juros compostos: R$ 5.099,02
+- D) juros simples: R$ 5.200,00
+- E) os dois dão R$ 5.100,00
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: para t < 1, juros simples rendem mais. Com menos de um período, (1 + i)^t fica abaixo de 1 + i·t. Simples: R$ 5.000,00 × (1 + 0,020) = R$ 5.100,00; compostos: R$ 5.000,00 × √1,04 ≈ R$ 5.099,02.
+
 ## Difícil
 
 ### 1
@@ -502,3 +656,73 @@ Um investidor dividiu R$ 10.000,00 em duas aplicações a juros simples: uma a 1
 **Resposta:** E
 
 **Explicação:** Ferramenta: sistema com juros simples. Chame de x o valor a 1,5%; o resto (10.000 − x) vai a 2,5%. 0,02·5·x + 0,03·5·(10.000 − x) = 950 ⇒ x = R$ 6.000,00.
+
+### 12
+<!-- modelo: d11 -->
+Um CDB paga 120% do CDI e terá IR de 22,5% sobre o rendimento. Qual percentual do CDI uma LCI (isenta de IR) precisa pagar para render o mesmo, líquido?
+
+- A) 88% do CDI
+- B) 93% do CDI
+- C) 154,84% do CDI
+- D) 97,5% do CDI
+- E) 120% do CDI
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: taxa equivalente líquida = taxa bruta × (1 − alíquota). Compare líquido com líquido. 120% × (1 − 0,225) = 93% do CDI.
+
+### 13
+<!-- modelo: d8 -->
+Um produto custa R$ 1.000,00 à vista ou duas parcelas de R$ 520,00 (uma no ato e outra em 30 dias). Qual é a taxa de juros mensal desse parcelamento?
+
+- A) 8%
+- B) 4,17%
+- C) 4%
+- D) 8,33%
+- E) 3,85%
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: desconte a entrada: o financiado é o que falta pagar hoje. Pagando R$ 520,00 na hora, sobram R$ 480,00 de dívida, quitados com R$ 520,00 um mês depois. 520 ÷ 480 − 1 = 8,33% ao mês.
+
+### 14
+<!-- modelo: d9 -->
+Uma aplicação rendeu 5% num ano em que a inflação foi de 8%. Qual foi a taxa real de juros?
+
+- A) −2,78%
+- B) 2,78%
+- C) −3%
+- D) −5,56%
+- E) 3%
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: fórmula de Fisher: (1 + real) = (1 + nominal)/(1 + inflação). Se a inflação supera o rendimento, a taxa real é negativa: o poder de compra caiu. 1,05 ÷ 1,08 = 0,9722 → −2,78%.
+
+### 15
+<!-- modelo: d10 -->
+A inflação foi de 0,5% ao mês durante 12 meses seguidos. Qual foi a inflação acumulada no ano? (use 1,005¹² ≈ 1,0617)
+
+- A) 6,17%
+- B) 0,62%
+- C) 6%
+- D) 0,5%
+- E) 6,6%
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: taxas mensais se acumulam de forma composta. Doze meses seguidos multiplicam o fator mensal doze vezes. 1,0617 − 1 = 6,17% (mais que 6%).
+
+### 16
+<!-- modelo: d12 -->
+Um capital de R$ 36.000,00 fica aplicado 30 dias a juros simples de 18% ao ano. Qual é a diferença entre os juros comerciais (ano de 360 dias) e os exatos (ano de 365 dias)?
+
+- A) R$ 14,79
+- B) R$ 88,77
+- C) R$ 532,60
+- D) R$ 540,00
+- E) R$ 7,40
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: juros comerciais × exatos. A única diferença é o número de dias do ano: 360 (comercial) ou 365 (exato). R$ 540,00 − R$ 532,60 = R$ 7,40.
