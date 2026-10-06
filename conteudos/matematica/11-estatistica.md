@@ -205,6 +205,62 @@ Os salários mensais dos 7 funcionários de uma pequena empresa são (em reais):
 
 **Explicação:** Ferramenta: média x mediana. Um valor muito discrepante "puxa" a média, mas quase não mexe na mediana. Média ≈ R$ 5.771,43, bem acima de quase todos; mediana = R$ 2.800,00.
 
+### 14
+<!-- modelo: f10 -->
+Qual é a média geométrica dos números 2 e 8?
+
+- A) 4
+- B) 5
+- C) 3,2
+- D) 16
+- E) 3,16
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: média geométrica = √(a·b). Usada para taxas de crescimento: multiplica e tira a raiz. √(2 × 8) = √16 = 4.
+
+### 15
+<!-- modelo: f12 -->
+As notas de Vitória foram 9, 5, 6, 5, 9. Quanto a maior nota está acima da média?
+
+- A) 6,8
+- B) 1,8
+- C) 4
+- D) 2,2
+- E) 9
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: desvio = valor − média. Primeiro a média, depois a diferença. média = 6,8; 9 − 6,8 = 2,2.
+
+### 16
+<!-- modelo: f11 -->
+Numa pesquisa sobre o número de livros lidos no ano, as respostas foram: 2 livros (3 pessoas), 3 livros (2 pessoas), 4 livros (5 pessoas), 5 livros (1 pessoa). Qual é a mediana?
+
+- A) 5,5
+- B) 5
+- C) 3,36
+- D) 3,5
+- E) 4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: mediana numa tabela de frequências. São 11 respostas; a mediana é a de posição 6 na lista ordenada. Vá somando as frequências. A 6ª resposta é 4.
+
+### 17
+<!-- modelo: f13 -->
+Uma turma de 20 alunos teve média 8 e outra, de 10 alunos, média 5. Qual é a média geral dos 30 alunos?
+
+- A) 6
+- B) 7
+- C) 13
+- D) 8
+- E) 6,5
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: média de grupos de tamanhos diferentes = média ponderada. Some os totais de pontos e divida pelo total de alunos. (20 × 8 + 10 × 5) ÷ 30 = 7.
+
 ## Médio
 
 ### 1
@@ -403,6 +459,48 @@ Para ser aprovado, um aluno precisa de média 6 em 5 provas de mesmo peso. Nas 4
 
 **Explicação:** Ferramenta: média ao contrário. Média × quantidade = soma necessária. Desconte o que já foi feito. 6 × 5 = 30; já tem 21; falta 9.
 
+### 15
+<!-- modelo: m13 -->
+Os gastos diários de uma loja (em centenas de reais) foram 16, 14, 25, 30, 20, 15. Em quantos dias o gasto ficou acima da média?
+
+- A) 3
+- B) 4
+- C) 6
+- D) 2
+- E) 1
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: primeiro a média, depois compare. A média não divide os dados ao meio (isso é a mediana). média = 20; acima dela: 25, 30.
+
+### 16
+<!-- modelo: m12 -->
+A média de 4 números é 8. Acrescentando o número 2, qual é a nova média?
+
+- A) 6,8
+- B) 8
+- C) 7,8
+- D) 5
+- E) 8,5
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: trabalhar com a soma. A média vezes a quantidade dá a soma; some o novo número e divida pela nova quantidade. (4 × 8 + 2) ÷ 5 = 6,8.
+
+### 17
+<!-- modelo: m11 -->
+Os dados ordenados 2, 6, 7, 9, 12, 15, 18 têm mediana 9. Tomando o 1º quartil como a mediana da metade de baixo (2, 6, 7) e o 3º como a da metade de cima (12, 15, 18), qual é a amplitude interquartil (Q3 − Q1)?
+
+- A) 9
+- B) 3
+- C) 16
+- D) 15
+- E) 6
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: amplitude interquartil = Q3 − Q1. Mede a dispersão dos 50% centrais, sem ser afetada pelos extremos. Q1 = 6; Q3 = 15; Q3 − Q1 = 9.
+
 ## Difícil
 
 ### 1
@@ -600,3 +698,31 @@ Um time de 9 jogadores tem altura média de 158 cm. Com a chegada de um novo jog
 **Resposta:** D
 
 **Explicação:** Ferramenta: soma antes e depois. Altura do novo = soma nova − soma antiga. 10 × 162,2 − 9 × 158 = 1.622 − 1422 = 200 cm.
+
+### 15
+<!-- modelo: d12 -->
+Qual é o desvio padrão (populacional) do conjunto {2, 12}?
+
+- A) 5
+- B) 3,16
+- C) 10
+- D) 7
+- E) 25
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: desvio padrão = raiz da média dos quadrados dos desvios. A média é 7; os dois valores ficam a 5 dela. variância = 25; desvio padrão = 5.
+
+### 16
+<!-- modelo: d11 -->
+Um conjunto de dados tem variância 9. Se todos os valores forem multiplicados por 2, qual será a nova variância?
+
+- A) 11
+- B) 18
+- C) 9
+- D) 6
+- E) 36
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: variância e escala: multiplicar os dados por k multiplica a variância por k². Os desvios ficam k vezes maiores, e a variância usa os desvios ao quadrado. 9 × 2² = 36.

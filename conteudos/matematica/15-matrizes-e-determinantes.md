@@ -191,6 +191,76 @@ Sendo A = [−3 5; 2 5] e B = [1 9; −3 1], qual é o elemento da linha 2 e col
 
 **Explicação:** Ferramenta: operações elemento a elemento. Multiplicar por número e subtrair matrizes se faz posição por posição. 3·2 − (−3) = 9.
 
+### 13
+<!-- modelo: f12 -->
+A matriz [4 (x − 3); 3 5] é simétrica (igual à sua transposta). Qual é o valor de x? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 3
+- B) 6
+- C) 7
+- D) 0
+- E) 8
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: matriz simétrica: aᵢⱼ = aⱼᵢ. O elemento da linha 1, coluna 2 deve ser igual ao da linha 2, coluna 1. x − 3 = 3 → x = 6.
+
+### 14
+<!-- modelo: f11 -->
+A é uma matriz 5×2 e B é 2×5. Qual é a ordem da matriz produto A·B?
+
+- A) 2×2
+- B) 5×5
+- C) 10×2
+- D) 5×2
+- E) 2×5
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: produto A(m×n)·B(n×p) = m×p. As dimensões "internas" (colunas de A e linhas de B) precisam ser iguais e "somem". 5×2 · 2×5 → 5×5.
+
+### 15
+<!-- modelo: f9 -->
+Dada A = [0 1; −1 −3], qual é o elemento da linha 1, coluna 1, da matriz −2A? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) −2
+- B) 3
+- C) 0
+- D) −1
+- E) 2
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: produto por escalar: multiplica cada elemento. O elemento a11 = 0 vira −2 × 0. = 0.
+
+### 16
+<!-- modelo: f13 -->
+Qual é o determinante da matriz diagonal [5 0 0; 0 −3 0; 0 0 1]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 0
+- B) −15
+- C) 3
+- D) 15
+- E) −30
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: matriz diagonal (ou triangular): det = produto da diagonal. Todos os outros termos da regra de Sarrus têm um zero. 5 × (−3) × 1 = −15.
+
+### 17
+<!-- modelo: f10 -->
+O traço de uma matriz quadrada é a soma dos elementos da diagonal principal. Qual é o traço de [9 3 −1; −3 −4 0; −3 −2 6]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 12
+- B) 13
+- C) 6
+- D) 33
+- E) 11
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: diagonal principal: elementos aᵢᵢ. São os elementos com linha igual à coluna. 9 + (−4) + 6 = 11.
+
 ## Médio
 
 ### 1
@@ -361,6 +431,76 @@ Qual é o determinante da matriz [1 −7 4; 0 4 5; 0 0 −2]? (Notação: [a b; 
 
 **Explicação:** Ferramenta: matriz triangular. Abaixo da diagonal só há zeros: o determinante é o produto da diagonal principal. 1 × 4 × (−2) = −8.
 
+### 13
+<!-- modelo: m10 -->
+Se det A = 5, quanto vale det(A⁻¹)?
+
+- A) −1/5
+- B) 1/5
+- C) 5
+- D) −5
+- E) 1
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: teorema de Binet: det(A)·det(A⁻¹) = det(I) = 1. O determinante da inversa é o inverso do determinante. det(A⁻¹) = 1/5.
+
+### 14
+<!-- modelo: m11 -->
+Resolva o sistema { x + 2y = 15; 3x + y = 15 }. Qual é o valor de x?
+
+- A) 3
+- B) 5
+- C) 9
+- D) 6
+- E) 4
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: substituição ou escalonamento. Elimine uma das incógnitas combinando as equações. x = 3 e y = 6 (confira nas duas equações).
+
+### 15
+<!-- modelo: m9 -->
+Uma matriz quadrada A de ordem 2 tem det A = 5. Quanto vale det(2A)?
+
+- A) 40
+- B) 5
+- C) 10
+- D) 21
+- E) 20
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: det(k·A) = kⁿ·det A. Multiplicar a matriz por 2 multiplica cada uma das 2 linhas por 2. 2² × 5 = 20.
+
+### 16
+<!-- modelo: m13 -->
+Como se classifica o sistema { 2x − y = 4; 3x − y = 5 }?
+
+- A) possível e indeterminado (infinitas soluções)
+- B) impossível, porque o determinante é diferente de zero
+- C) possível e determinado (uma única solução)
+- D) impossível (nenhuma solução)
+- E) possível com exatamente duas soluções
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: comparar as equações (ou o determinante). Os coeficientes não são proporcionais: det ≠ 0, solução única. Sistema possível e determinado (uma única solução).
+
+### 17
+<!-- modelo: m12 -->
+Dada A = [3 2; −2 1], qual é o elemento da linha 1, coluna 2, de A²? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 6
+- B) 7
+- C) 9
+- D) 4
+- E) 8
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: A² = A·A (linha × coluna), não é elevar cada elemento. Linha 1 de A vezes coluna 2 de A. 3 × 2 + 2 × 1 = 8.
+
 ## Difícil
 
 ### 1
@@ -516,3 +656,73 @@ A e B são matrizes quadradas de ordem 3 com det A = 2 e det B = 3. Qual é o va
 **Resposta:** C
 
 **Explicação:** Ferramenta: teorema de Binet. det(A·B) = det A · det B; det(Aᵗ) = det A; det(A⁻¹) = 1/det A. 2 × 3 = 6.
+
+### 12
+<!-- modelo: d12 -->
+A matriz Q = [5 1; 5 4] dá as quantidades vendidas (linhas: lojas 1 e 2; colunas: produtos A e B). Os preços são R$ 3 (A) e R$ 4 (B). Usando o produto de matrizes, qual é o faturamento da loja 2? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) R$ 63
+- B) R$ 19
+- C) R$ 50
+- D) R$ 31
+- E) R$ 32
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: produto linha × coluna em contexto. Faturamento = Σ quantidade × preço, que é a linha da loja vezes a coluna de preços. 5 × 3 + 4 × 4 = R$ 31.
+
+### 13
+<!-- modelo: d11 -->
+Resolva o sistema escalonado { x + y + z = 7; y + 2z = 6; 3z = 3 }. Qual é o valor de x?
+
+- A) 2
+- B) 1
+- C) 7
+- D) 4
+- E) 3
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: sistema escalonado: resolva de baixo para cima. z = 1; y = 6 − 2·1 = 4. x = 7 − 4 − 1 = 2.
+
+### 14
+<!-- modelo: d10 -->
+Qual é o elemento da linha 1, coluna 1, da inversa de A = [1 5; 1 4]? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) −4
+- B) 1
+- C) −1
+- D) −3
+- E) −2
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: inversa 2×2: troca a diagonal, troca o sinal da outra e divide pelo det. det A = −1; A⁻¹ = (1/(−1))·[4 −5; −1 1]. Elemento: −4.
+
+### 15
+<!-- modelo: d9 -->
+Para que valor de x o determinante da matriz [x 1 0; 4 3 1; 3 0 1] é igual a zero? (Notação: [a b; c d] é a matriz cujas linhas são separadas por ";".)
+
+- A) 2/3
+- B) 3
+- C) 4/3
+- D) 7/3
+- E) 1/3
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: equação com determinante (Laplace na 1ª linha). det = x·(3·1 − 1·0) − 1·(4·1 − 1·3) + 0 = 3x − 1. 3x = 1 → x = 1/3.
+
+### 16
+<!-- modelo: d8 -->
+Para que valor de k o sistema { 3x + 6y = 5; 2x + ky = 7 } NÃO tem solução única?
+
+- A) 5
+- B) 4
+- C) 3
+- D) 1
+- E) 6
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: solução única ⇔ det ≠ 0. O sistema deixa de ter solução única quando o determinante dos coeficientes zera. det = 3k − 6 × 2 = 0 → k = 4.

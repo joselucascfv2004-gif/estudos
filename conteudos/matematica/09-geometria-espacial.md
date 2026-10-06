@@ -234,6 +234,34 @@ Um reservatório cilíndrico tem raio da base de 10 cm e altura de 100 cm. Qual 
 
 **Explicação:** Ferramenta: volume do cilindro. Área da base (círculo, πr²) vezes a altura. 3 × 10² × 100 = 30.000 cm³ = 30 L.
 
+### 16
+<!-- modelo: f12 -->
+Qual é a área lateral de um cilindro de raio 3 m e altura 12 m? (use π = 3)
+
+- A) 432 m²
+- B) 108 m²
+- C) 216 m²
+- D) 324 m²
+- E) 270 m²
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: área lateral do cilindro = 2πr·h. Planificada, a lateral é um retângulo: comprimento da circunferência × altura. 2 × 3 × 3 × 12 = 216 m².
+
+### 17
+<!-- modelo: f13 -->
+Quanto papel é preciso para forrar (sem sobras) uma caixa fechada de 4 cm × 8 cm × 10 cm?
+
+- A) 304 cm²
+- B) 88 cm²
+- C) 320 cm²
+- D) 152 cm²
+- E) 192 cm²
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: área total do paralelepípedo = 2(ab + ac + bc). São 6 faces, iguais duas a duas. 2 × (32 + 40 + 80) = 304 cm².
+
 ## Médio
 
 ### 1
@@ -446,6 +474,34 @@ Uma caixa de papelão fechada tem dimensões 14 cm × 9 cm × 5 cm. Quantos cm²
 
 **Explicação:** Ferramenta: área total (planificação). A caixa tem 3 pares de faces retangulares iguais. 2 × (126 + 70 + 45) = 482 cm².
 
+### 16
+<!-- modelo: m13 -->
+Uma esfera está inscrita num cubo de aresta 6 cm (tocando todas as faces). Qual é o volume da esfera? (π = 3)
+
+- A) 864 cm³
+- B) 54 cm³
+- C) 108 cm³
+- D) 216 cm³
+- E) 324 cm³
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: esfera inscrita no cubo: diâmetro = aresta. O raio é 6/2 = 3 cm; V = 4πr³/3. 4 × 3 × 3³ ÷ 3 = 108 cm³.
+
+### 17
+<!-- modelo: m12 -->
+Um cilindro equilátero (altura igual ao diâmetro da base) tem raio 2 cm. Qual é o seu volume? (π = 3)
+
+- A) 48 cm³
+- B) 144 cm³
+- C) 51 cm³
+- D) 24 cm³
+- E) 96 cm³
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: cilindro equilátero: h = 2r. V = πr² · h, com h = 2r. 3 × 2² × 4 = 48 cm³.
+
 ## Difícil
 
 ### 1
@@ -657,3 +713,17 @@ Um chapéu de festa tem forma de cone (sem a base), com raio 8 cm e altura 15 cm
 **Resposta:** B
 
 **Explicação:** Ferramenta: área lateral do cone. Área lateral = π · r · g, em que g (geratriz) é a "costura" do cone. Ache g por Pitágoras. g = √(8² + 15²) = 17; 3 × 8 × 17 = 408 cm².
+
+### 16
+<!-- modelo: d12 -->
+Um cone de volume 800 cm³ é cortado por um plano paralelo à base, a 1/3 da altura medida a partir do vértice. Qual é o volume do tronco (a parte de baixo)?
+
+- A) 29,63 cm³
+- B) 266,67 cm³
+- C) 711,11 cm³
+- D) 533,33 cm³
+- E) 770,37 cm³
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: semelhança no espaço: volumes na razão k³. O cone pequeno é semelhante, com altura 1/3: volume (1/3)³ = 1/27 do total. 800 − 800/27 = 770,37 cm³.

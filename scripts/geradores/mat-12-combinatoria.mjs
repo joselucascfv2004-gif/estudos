@@ -1,5 +1,7 @@
 // Matemática — Análise combinatória.
 import { arranjo, comb, expl, fatorial, nome, num, sup } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const PALAVRAS_DISTINTAS = ['AMOR', 'GATO', 'LIVRO', 'CAMPO', 'PEDRA', 'MUNDO', 'PRATO', 'BRASIL', 'FILHO', 'NOITE', 'CHUVA', 'ESCOLA'];
 const PALAVRAS_REP = [
@@ -355,6 +357,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Princípio fundamental da contagem, permutações, arranjos e combinações.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.combin[0])], [...medio, ...novos(NOVOS.combin[1])], [...dificil, ...novos(NOVOS.combin[2])]],
   },
 ];

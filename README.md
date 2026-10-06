@@ -7,7 +7,7 @@ financeiras da ANBIMA** (CPA, antiga CPA-10, e C-Pro R, antiga CPA-20).
 
 Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destrava níveis mais difíceis.
 
-- **8.856 questões** em **191 tópicos** de **22 disciplinas**
+- **8.954 questões** em **191 tópicos** de **22 disciplinas**
 - **2.927 questões oficiais do ENEM** (provas de 2009 a 2025 publicadas pelo INEP, inclusive as que têm gráficos, mapas, tabelas e charges, recortados da própria prova), com o gabarito
   oficial, classificadas por assunto: elas aparecem também dentro de cada tópico (por exemplo, "Funções")
 - As questões de cálculo não repetem enunciado: cada modelo gera uma questão diferente, e a explicação

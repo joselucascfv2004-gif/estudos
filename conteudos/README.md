@@ -2,11 +2,11 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**8856 questões** em **191 tópicos**.
+**8954 questões** em **191 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
-## Matemática — 1202 questões
+## Matemática — 1300 questões
 
 *Matemática e suas Tecnologias*
 
@@ -17,18 +17,18 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Razão, proporção e regra de três](matematica/03-razao-proporcao-regra-de-tres.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Equações, inequações e sistemas](matematica/04-equacoes-e-sistemas.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Funções afim e quadrática](matematica/05-funcoes-afim-e-quadratica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
-| [Função exponencial e logaritmo](matematica/06-exponencial-e-logaritmo.md) | ENEM, Militares, Concursos | 15 | 15 | 15 |
-| [Progressões aritméticas e geométricas](matematica/07-progressoes.md) | ENEM, Militares, Concursos | 16 | 16 | 16 |
-| [Geometria plana](matematica/08-geometria-plana.md) | ENEM, Militares, Concursos | 17 | 16 | 15 |
-| [Geometria espacial](matematica/09-geometria-espacial.md) | ENEM, Militares, Concursos | 15 | 15 | 15 |
-| [Trigonometria](matematica/10-trigonometria.md) | ENEM, Militares, Concursos | 16 | 15 | 15 |
-| [Estatística](matematica/11-estatistica.md) | ENEM, Militares, Concursos | 13 | 14 | 14 |
-| [Análise combinatória](matematica/12-analise-combinatoria.md) | ENEM, Militares, Concursos | 15 | 15 | 14 |
-| [Probabilidade](matematica/13-probabilidade.md) | ENEM, Militares, Concursos | 13 | 14 | 14 |
-| [Grandezas, medidas e escalas](matematica/14-grandezas-medidas-escalas.md) | ENEM, Militares, Concursos | 14 | 14 | 12 |
-| [Matrizes, determinantes e sistemas](matematica/15-matrizes-e-determinantes.md) | Militares, ENEM | 12 | 12 | 11 |
-| [Geometria analítica](matematica/16-geometria-analitica.md) | ENEM, Militares | 12 | 12 | 11 |
-| [Números complexos e polinômios](matematica/17-numeros-complexos-e-polinomios.md) | Militares | 12 | 11 | 11 |
+| [Função exponencial e logaritmo](matematica/06-exponencial-e-logaritmo.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Progressões aritméticas e geométricas](matematica/07-progressoes.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Geometria plana](matematica/08-geometria-plana.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Geometria espacial](matematica/09-geometria-espacial.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Trigonometria](matematica/10-trigonometria.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Estatística](matematica/11-estatistica.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Análise combinatória](matematica/12-analise-combinatoria.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Probabilidade](matematica/13-probabilidade.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Grandezas, medidas e escalas](matematica/14-grandezas-medidas-escalas.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
+| [Matrizes, determinantes e sistemas](matematica/15-matrizes-e-determinantes.md) | Militares, ENEM | 17 | 17 | 16 |
+| [Geometria analítica](matematica/16-geometria-analitica.md) | ENEM, Militares | 17 | 17 | 16 |
+| [Números complexos e polinômios](matematica/17-numeros-complexos-e-polinomios.md) | Militares | 17 | 17 | 16 |
 | [Frações, fatoração e produtos notáveis](matematica/18-fracoes-fatoracao-e-produtos-notaveis.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Potenciação, radiciação e conversão de unidades](matematica/19-potenciacao-e-radiciacao.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |
 | [Divisibilidade, números primos, MDC e MMC](matematica/20-divisibilidade-primos-mdc-e-mmc.md) | ENEM, Militares, Concursos | 17 | 17 | 16 |

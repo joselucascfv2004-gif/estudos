@@ -1,5 +1,7 @@
 // Matemática — Grandezas, medidas e escalas.
 import { arred, expl, num, reais } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const hm = (v) => (v >= 60 ? `${Math.floor(v / 60)} h${v % 60 ? ` ${Math.round(v % 60)} min` : ''}` : `${Math.round(v)} min`);
 
@@ -349,6 +351,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Conversão de unidades, escalas de mapas e plantas, velocidade, vazão, consumo e fusos horários.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.grand[0])], [...medio, ...novos(NOVOS.grand[1])], [...dificil, ...novos(NOVOS.grand[2])]],
   },
 ];

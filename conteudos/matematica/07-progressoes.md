@@ -246,6 +246,20 @@ Quantos termos tem a progressão aritmética (1, 4, 7, ..., 67)?
 
 **Explicação:** Ferramenta: termo geral ao contrário. Descubra quantos "pulos" separam o primeiro do último e some 1 (o próprio primeiro termo). (67 − 1) ÷ 3 = 22 pulos ⇒ 23 termos.
 
+### 17
+<!-- modelo: f13 -->
+Quanto vale a soma dos 25 primeiros números ímpares positivos (1 + 3 + 5 + …)?
+
+- A) 650
+- B) 625
+- C) 50
+- D) 325
+- E) 1.250
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: soma dos n primeiros ímpares = n². É uma PA de razão 2: o último termo é 49 e a soma é (1 + 49) × 25 ÷ 2. 25² = 625.
+
 ## Médio
 
 ### 1
@@ -471,6 +485,20 @@ Os números x, 8 e 16, nessa ordem, formam uma PG. Qual é o valor de x?
 **Resposta:** A
 
 **Explicação:** Ferramenta: termo do meio na PG. Em uma PG de três termos, o do meio ao quadrado é igual ao produto dos outros dois. (8)² = x · 16 ⇒ x = 64/16 = 4.
+
+### 17
+<!-- modelo: m13 -->
+Numa PG, o 1º termo é 1 e o 4º termo é −8. Qual é a razão?
+
+- A) −3
+- B) −2
+- C) −4
+- D) −8
+- E) 2
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: termo geral da PG: a₄ = a₁·q³. q³ = −8 ÷ 1 = −8. q = ∛(−8) = −2.
 
 ## Difícil
 

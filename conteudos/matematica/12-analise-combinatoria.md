@@ -232,6 +232,34 @@ Quantas senhas de 4 dígitos (de 0 a 9) podem ser formadas, se for permitido rep
 
 **Explicação:** Ferramenta: princípio multiplicativo. Cada posição tem 10 opções, independentemente das outras. 10⁴ = 10.000.
 
+### 16
+<!-- modelo: f12 -->
+Lançam-se 4 moedas e um dado comum. Quantos resultados diferentes são possíveis (considerando as moedas distintas)?
+
+- A) 1.296
+- B) 14
+- C) 96
+- D) 22
+- E) 48
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: princípio multiplicativo. Cada moeda tem 2 resultados e o dado, 6. 2⁴ × 6 = 96.
+
+### 17
+<!-- modelo: f11 -->
+Quantos números de três algarismos existem com os três algarismos diferentes?
+
+- A) 504
+- B) 900
+- C) 1.000
+- D) 720
+- E) 648
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: princípio multiplicativo, começando pela casa com restrição. O primeiro algarismo não pode ser zero. 9 × 9 × 8 = 648.
+
 ## Médio
 
 ### 1
@@ -444,6 +472,34 @@ Uma pizzaria oferece 12 sabores. Quantas pizzas diferentes de 2 sabores (meio a 
 
 **Explicação:** Ferramenta: combinação. "Calabresa com queijo" é a mesma pizza que "queijo com calabresa". C(12, 2) = 12 × 11 ÷ 2 = 66.
 
+### 16
+<!-- modelo: m12 -->
+Quantas diagonais tem um polígono convexo de 6 lados?
+
+- A) 12
+- B) 18
+- C) 15
+- D) 9
+- E) 30
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: diagonais = pares de vértices − lados. Cada par de vértices forma um lado ou uma diagonal. C(6, 2) − 6 = 15 − 6 = 9.
+
+### 17
+<!-- modelo: m11 -->
+Numa grade de ruas, Thiago precisa andar 4 quarteirões para a direita e 4 para cima, sempre se aproximando do destino. Quantos caminhos diferentes existem?
+
+- A) 16
+- B) 8
+- C) 40.320
+- D) 70
+- E) 256
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: caminhos na grade = combinação (escolher quando ir para a direita). São 8 passos; basta escolher quais 4 serão para a direita. C(8, 4) = 70.
+
 ## Difícil
 
 ### 1
@@ -641,3 +697,31 @@ Uma comissão de 4 pessoas será formada a partir de 7 homens e 5 mulheres. Quan
 **Resposta:** D
 
 **Explicação:** Ferramenta: combinação em grupos. Escolha as mulheres E os homens separadamente e multiplique. C(5, 2) × C(7, 2) = 10 × 21 = 210.
+
+### 15
+<!-- modelo: d12 -->
+De um grupo de 9 pessoas será formada uma comissão de 4. Duas delas, Ana e Bruno, não aceitam participar juntas. Quantas comissões são possíveis?
+
+- A) 126
+- B) 105
+- C) 35
+- D) 21
+- E) 91
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: complementar: total − comissões com os dois. Com Ana e Bruno juntos, faltam escolher 2 entre 7: C(7, 2). C(9, 4) − C(7, 2) = 126 − 21 = 105.
+
+### 16
+<!-- modelo: d11 -->
+De quantas maneiras 6 pessoas podem se sentar em fila se duas delas (que brigaram) não podem ficar lado a lado?
+
+- A) 480
+- B) 24
+- C) 240
+- D) 600
+- E) 720
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: complementar + técnica do bloco. Total: 6! = 720. Juntas: trate as duas como um bloco (5! arrumações × 2 ordens) = 240. 720 − 240 = 480.

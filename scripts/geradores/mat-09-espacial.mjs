@@ -1,5 +1,7 @@
 // Matemática — Geometria espacial.
 import { expl, num } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const L = (v) => `${num(v)} litros`;
 const cm = (v) => `${num(v)} cm`;
@@ -427,6 +429,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Volumes e áreas de prismas, cilindros, cones, pirâmides e esferas; relação de Euler e planificações.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.espacial[0])], [...medio, ...novos(NOVOS.espacial[1])], [...dificil, ...novos(NOVOS.espacial[2])]],
   },
 ];

@@ -1,5 +1,7 @@
 // Matemática — Números complexos e polinômios.
 import { expl, fracao, num } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const cx = (a, b) => {
   if (b === 0) return num(a);
@@ -305,6 +307,6 @@ export default [
     provas: ['Militares'],
     descricao: 'Operações com complexos, módulo, potências de i, forma trigonométrica, teorema do resto e relações de Girard.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.complexos[0])], [...medio, ...novos(NOVOS.complexos[1])], [...dificil, ...novos(NOVOS.complexos[2])]],
   },
 ];

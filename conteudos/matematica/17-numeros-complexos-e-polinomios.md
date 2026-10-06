@@ -191,6 +191,76 @@ Qual é o conjugado do número complexo z = −1 + 3i?
 
 **Explicação:** Ferramenta: conjugado. O conjugado mantém a parte real e troca o sinal da parte imaginária (espelho no eixo real). z̄ = −1 − 3i.
 
+### 13
+<!-- modelo: f9 -->
+Em que quadrante do plano complexo (plano de Argand-Gauss) fica o afixo de z = −2 − 3i?
+
+- A) 2º quadrante
+- B) sobre o eixo imaginário
+- C) 4º quadrante
+- D) 1º quadrante
+- E) 3º quadrante
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: afixo = ponto (a, b). A parte real é a abscissa e a imaginária, a ordenada. (−2, −3) → 3º quadrante.
+
+### 14
+<!-- modelo: f10 -->
+Se z = −4 − i, quanto vale z + z̄ (z mais o seu conjugado)?
+
+- A) −5
+- B) 0
+- C) −4
+- D) −2
+- E) −8
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: conjugado troca o sinal da parte imaginária. Somando, as partes imaginárias se cancelam: z + z̄ = 2a. 2 × (−4) = −8.
+
+### 15
+<!-- modelo: f11 -->
+Qual é a soma dos coeficientes do polinômio P(x) = 3x³ − 2x² + 3x + 6?
+
+- A) 10
+- B) 6
+- C) 4
+- D) 11
+- E) 9
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: soma dos coeficientes = P(1). Com x = 1, todas as potências viram 1. P(1) = 3 − 2 + 3 + 6 = 10.
+
+### 16
+<!-- modelo: f13 -->
+Quais são as raízes da equação x² + 36 = 0, no conjunto dos complexos?
+
+- A) ±6
+- B) 6i (apenas)
+- C) não tem raízes
+- D) ±6i
+- E) ±36i
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: raiz de número negativo: √(−k) = √k·i. x² = −36 → x = ±√(−36). x = ±6i.
+
+### 17
+<!-- modelo: f12 -->
+Quanto vale P(0) para P(x) = 2x³ − 2x² + x − 1?
+
+- A) 0
+- B) −1
+- C) 1
+- D) −2
+- E) 2
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: termo independente = P(0). Com x = 0, todos os termos com x somem. P(0) = −1.
+
 ## Médio
 
 ### 1
@@ -347,6 +417,90 @@ Qual é o resto da divisão de P(x) = 2x³ + x² − 5x + 6 por (x + 2)?
 
 **Explicação:** Ferramenta: teorema do resto. O resto da divisão por (x − a) é P(a): não precisa fazer a divisão. P(−2) = 4.
 
+### 12
+<!-- modelo: m9 -->
+Qual é o módulo de z = 5 + 12i dividido pelo seu conjugado (|z/z̄|)?
+
+- A) 2
+- B) 0
+- C) 169
+- D) 13
+- E) 1
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: |z/w| = |z|/|w| e |z̄| = |z|. O conjugado tem o mesmo módulo. |z|/|z̄| = 1.
+
+### 13
+<!-- modelo: m10 -->
+Qual é a distância, no plano complexo, entre os afixos de z₁ = 3 − 2i e z₂ = 6 + 2i?
+
+- A) 7
+- B) 25
+- C) 5
+- D) 1
+- E) 6,32
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: distância = |z₂ − z₁| (Pitágoras). z₂ − z₁ = 3 + 4i. √(3² + 4²) = 5.
+
+### 14
+<!-- modelo: m12 -->
+Sabendo que (1 + i)² = 2i, quanto vale (1 + i)⁴?
+
+- A) −8i
+- B) 32i
+- C) 16
+- D) 2i
+- E) −4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: quebrar a potência em quadrados. (1 + i)⁴ = [(1 + i)²]² = (2i)². = −4.
+
+### 15
+<!-- modelo: m11 -->
+Qual é a multiplicidade da raiz 2 no polinômio P(x) = (x − 2)·(x − 5)?
+
+- A) 0
+- B) 2
+- C) 1
+- D) 4
+- E) 3
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: multiplicidade = expoente do fator. O fator (x − 2) aparece 1 vez(es). Multiplicidade 1.
+
+### 16
+<!-- modelo: m13 -->
+Quanto vale 1/i²?
+
+- A) 1
+- B) −1
+- C) i
+- D) 0
+- E) −i
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: multiplique em cima e embaixo para tirar o i do denominador. i² = −1. Resultado: −1.
+
+### 17
+<!-- modelo: m8 -->
+z₁ tem módulo 4 e argumento 45°; z₂ tem módulo 1 e argumento 90°. Qual é o módulo de z₁·z₂?
+
+- A) 135
+- B) 4
+- C) 5
+- D) 6
+- E) 2
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: forma trigonométrica: no produto, módulos multiplicam e argumentos somam. O argumento seria 135°. |z₁·z₂| = 4 × 1 = 4.
+
 ## Difícil
 
 ### 1
@@ -502,3 +656,73 @@ Um polinômio de grau 3 com coeficientes reais tem raízes 2 + 3i e 1. Qual é o
 **Resposta:** A
 
 **Explicação:** Ferramenta: raízes complexas vêm aos pares. Com coeficientes reais, o conjugado 2 − 3i também é raiz. (2 + 3i)(2 − 3i) = 13; × 1 = 13.
+
+### 12
+<!-- modelo: d10 -->
+Quantas raízes reais tem a equação x⁴ − 625 = 0?
+
+- A) 0
+- B) 3
+- C) 4
+- D) 1
+- E) 2
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: fatorar: x⁴ − k = (x² − √k)(x² + √k). x² = 25 dá x = ±5 (reais); x² = −25 dá raízes imaginárias. São 2 raízes reais (e 2 imaginárias).
+
+### 13
+<!-- modelo: d11 -->
+Um polinômio P(x) dá resto −3 na divisão por (x + 2) e resto 0 na divisão por (x + 1). Qual é o resto da divisão de P(x) por (x + 2)(x + 1)?
+
+- A) −3x
+- B) 3x − 3
+- C) −3x + 3
+- D) 0
+- E) 3x + 3
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: resto de grau menor que 2: R(x) = mx + n. Pelo teorema do resto, R(−2) = −3 e R(−1) = 0: resolva o sistema. m = (−3 − 0) ÷ (−2 − (−1)) = 3; n = 3.
+
+### 14
+<!-- modelo: d12 -->
+Um polinômio de coeficientes reais tem 1 − i como raiz. Qual destes números também é, obrigatoriamente, raiz dele?
+
+- A) 1 + i
+- B) −1 − i
+- C) −1 + i
+- D) −i
+- E) 1
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: raízes complexas não reais vêm aos pares (conjugadas). Com coeficientes reais, se a + bi é raiz, a − bi também é. A outra raiz é 1 + i.
+
+### 15
+<!-- modelo: d8 -->
+Quantas raízes complexas (contando as reais) tem a equação z⁵ = 1?
+
+- A) 5
+- B) 1
+- C) 10
+- D) 4
+- E) 2
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: raízes n-ésimas da unidade. Toda equação polinomial de grau n tem n raízes complexas. 5 raízes.
+
+### 16
+<!-- modelo: d9 -->
+Qual é o módulo de (6 + 8i)³?
+
+- A) 30
+- B) 728
+- C) 2.744
+- D) 1.000
+- E) 2.000
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: |zⁿ| = |z|ⁿ. |z| = √(6² + 8²) = 10. |z|³ = 1.000.

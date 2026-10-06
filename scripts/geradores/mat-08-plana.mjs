@@ -1,5 +1,7 @@
 // Matemática — Geometria plana.
 import { arred, expl, nome, num, reais } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const TRIPLAS = [[3, 4, 5], [6, 8, 10], [5, 12, 13], [8, 15, 17], [9, 12, 15], [7, 24, 25], [12, 16, 20], [20, 21, 29]];
 const m = (v) => `${num(v)} m`;
@@ -469,6 +471,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Áreas e perímetros, ângulos, teorema de Pitágoras, semelhança, polígonos e círculo.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.plana[0])], [...medio, ...novos(NOVOS.plana[1])], [...dificil, ...novos(NOVOS.plana[2])]],
   },
 ];

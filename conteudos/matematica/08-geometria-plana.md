@@ -487,6 +487,20 @@ Um terreno em forma de "L" foi obtido retirando-se, de um canto de um retângulo
 
 **Explicação:** Ferramenta: área por subtração. Calcule a figura "completa" e retire o pedaço que falta. 16 × 18 − 5 × 11 = 288 − 55 = 233 m².
 
+### 17
+<!-- modelo: m14 -->
+Qual é a área de um hexágono regular de lado 4 cm? (use √3 ≈ 1,7)
+
+- A) 20,4 cm²
+- B) 24 cm²
+- C) 96 cm²
+- D) 6,8 cm²
+- E) 40,8 cm²
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: hexágono regular = 6 triângulos equiláteros. Cada triângulo tem área l²√3/4. 6 × 4² × 1,7 ÷ 4 = 40,8 cm².
+
 ## Difícil
 
 ### 1
@@ -698,3 +712,17 @@ Uma pizzaria vende pizza de 30 cm de diâmetro por R$ 36,00 e de 40 cm por R$ 60
 **Resposta:** D
 
 **Explicação:** Ferramenta: preço por unidade de área. Compare o preço de cada cm²: preço ÷ área. A área cresce com o quadrado do raio. 30 cm: área 675 cm² → 5,333 centavos/cm². 40 cm: área 1200 cm² → 5,000 centavos/cm².
+
+### 16
+<!-- modelo: d13 -->
+Um triângulo retângulo tem catetos 3 e 4 e hipotenusa 5. Qual é o raio da circunferência inscrita nele?
+
+- A) 6
+- B) 2,4
+- C) 2,5
+- D) 2
+- E) 1
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: raio inscrito no triângulo retângulo: r = (a + b − c)/2. As tangentes de um mesmo ponto à circunferência têm comprimentos iguais (ou use área = r × semiperímetro). r = (3 + 4 − 5) ÷ 2 = 1.

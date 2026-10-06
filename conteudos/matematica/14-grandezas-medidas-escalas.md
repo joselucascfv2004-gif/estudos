@@ -219,6 +219,48 @@ Um carro trafega a 18 km/h. Qual é essa velocidade em metros por segundo?
 
 **Explicação:** Ferramenta: fator 3,6. 1 km/h = 1.000 m em 3.600 s = 1/3,6 m/s. De km/h para m/s, divida por 3,6. 18 ÷ 3,6 = 5 m/s.
 
+### 15
+<!-- modelo: f12 -->
+Choveram 5 mm numa região. Quantos litros de água caíram sobre um telhado de 10 m²? (1 mm de chuva = 1 litro por m²)
+
+- A) 2 L
+- B) 50 L
+- C) 500 L
+- D) 0,05 L
+- E) 5 L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: 1 mm de chuva = 1 L/m². Uma lâmina de 1 mm sobre 1 m² tem 0,001 m³ = 1 L. 5 × 10 = 50 L.
+
+### 16
+<!-- modelo: f11 -->
+Um carro faz 12 km por litro. Quantos litros gasta numa viagem de 120 km?
+
+- A) 22 L
+- B) 0,1 L
+- C) 10 L
+- D) 1.440 L
+- E) 5 L
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: consumo = distância ÷ rendimento. Cada litro leva 12 km. 120 ÷ 12 = 10 L.
+
+### 17
+<!-- modelo: f13 -->
+Uma internet de 10 Mbps (megabits por segundo) baixa um arquivo de 1000 MB (megabytes). Quanto tempo leva, no mínimo? (1 byte = 8 bits)
+
+- A) 400 s
+- B) 6.400 s
+- C) 1.250 s
+- D) 800 s
+- E) 100 s
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: mesma unidade antes de dividir. Converta megabytes para megabits (× 8). 1000 MB = 8000 Mb; 8000 ÷ 10 = 800 s.
+
 ## Médio
 
 ### 1
@@ -417,6 +459,48 @@ Um motorista roda 30 km por dia, durante 22 dias no mês, com um carro que faz 8
 
 **Explicação:** Ferramenta: encadear razões. Distância do mês → litros (÷ km/L) → reais (× preço). 660 km ÷ 8 = 82,5 L; × R$ 6,50 = R$ 536,25.
 
+### 15
+<!-- modelo: m11 -->
+Um café é vendido em pacote de 250 g por R$ 5,00 ou de 750 g por R$ 16,50. Qual é o menor preço por quilo entre as duas opções?
+
+- A) R$ 21,50
+- B) R$ 22,00
+- C) R$ 20,00
+- D) R$ 16,50
+- E) R$ 2,00
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: taxa unitária: preço por kg. Divida cada preço pela massa em kg e compare. 5,00 ÷ 0,25 = R$ 20,00/kg; 16,50 ÷ 0,75 = R$ 22,00/kg.
+
+### 16
+<!-- modelo: m10 -->
+Um terreno retangular mede 1000 m por 250 m. Qual é a sua área em hectares? (1 ha = 10 000 m²)
+
+- A) 2.500 ha
+- B) 250 ha
+- C) 250.000 ha
+- D) 25 ha
+- E) 0,25 ha
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: área em m², depois ÷ 10 000. 1 hectare é um quadrado de 100 m × 100 m. 1000 × 250 = 250.000 m² = 25 ha.
+
+### 17
+<!-- modelo: m12 -->
+A dose de um remédio é 20 mg por kg de peso. Uma criança tem 20 kg e o xarope tem 100 mg em cada mL. Quantos mL ela deve tomar?
+
+- A) 8 mL
+- B) 4 mL
+- C) 1 mL
+- D) 400 mL
+- E) 100 mL
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: encadear razões: mg/kg → mg → mL. Calcule a dose total e depois o volume que contém essa dose. 20 × 20 = 400 mg; 400 ÷ 100 = 4 mL.
+
 ## Difícil
 
 ### 1
@@ -586,3 +670,59 @@ Um avião sai de Brasília às 12h (horário de Brasília) com destino a Tóquio
 **Resposta:** C
 
 **Explicação:** Ferramenta: duas etapas. Some a duração do voo no horário de saída e, depois, converta para o fuso do destino. 12h + 3 h = 15h em Brasília → 03h em Tóquio (do dia seguinte).
+
+### 13
+<!-- modelo: d10 -->
+Num mapa de escala 1 : 20.000, uma região ocupa 5 cm². Qual é a sua área real, em km²?
+
+- A) 20 km²
+- B) 2 km²
+- C) 0,2 km²
+- D) 0,02 km²
+- E) 1 km²
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: áreas na razão do quadrado da escala. Cada 1 cm do mapa vale 0,2 km; 1 cm² vale (0,2)² km². 5 × 0,0400 = 0,2 km².
+
+### 14
+<!-- modelo: d11 -->
+Uma torneira pinga 20 gotas por minuto, e 20 gotas formam 1 mL. Quantos litros ela desperdiça em 30 dias?
+
+- A) 32,4 L
+- B) 43,2 L
+- C) 1,44 L
+- D) 864 L
+- E) 43.200 L
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: encadear conversões. gotas/min → gotas/mês → mL → L. 20 × 60 × 24 × 30 = 864.000 gotas = 43.200 mL = 43,2 L.
+
+### 15
+<!-- modelo: d9 -->
+Qual é a massa, em toneladas, de 5 m³ de madeira, cuja densidade é 0,6 g/cm³?
+
+- A) 3.000 t
+- B) 8,33 t
+- C) 0,3 t
+- D) 30 t
+- E) 3 t
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: 1 g/cm³ = 1 t/m³. 1 m³ = 1 000 000 cm³ e 1 t = 1 000 000 g: as duas unidades "andam juntas". 5 × 0,6 = 3 t.
+
+### 16
+<!-- modelo: d8 -->
+Uma placa nos EUA limita a velocidade a 50 milhas por hora. Quanto é isso em km/h? (1 milha ≈ 1,6 km)
+
+- A) 80 km/h
+- B) 51,6 km/h
+- C) 800 km/h
+- D) 22,22 km/h
+- E) 31,25 km/h
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: fator de conversão. Cada milha vale 1,6 km. 50 × 1,6 = 80 km/h.

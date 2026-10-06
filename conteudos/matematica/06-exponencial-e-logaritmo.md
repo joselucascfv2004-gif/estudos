@@ -233,6 +233,34 @@ Resolva a equação 8ˣ = 16.
 
 **Explicação:** Ferramenta: base comum. Quando as bases são potências do mesmo número, reescreva tudo nessa base menor. 2³ˣ = 2⁴ ⇒ 3x = 4 ⇒ x = 4/3.
 
+### 16
+<!-- modelo: f12 -->
+Quanto vale log de 8 na base 1/2?
+
+- A) 3
+- B) −3
+- C) −0,33
+- D) 4
+- E) −4
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: logaritmo é um expoente. Pergunte: (1/2) elevado a quanto dá 8? Como 1/2 = 2⁻¹, o expoente fica negativo. (1/2)⁻³ = 2³ = 8; log = −3.
+
+### 17
+<!-- modelo: f13 -->
+Calcule o produto log₃4 · log₄9.
+
+- A) 1
+- B) 2
+- C) 4
+- D) 3
+- E) 36
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: mudança de base: logₐb · log_b c = logₐc. O b "cancela" como numa cadeia de frações. log₃4 · log₄9 = log₃9 = 2.
+
 ## Médio
 
 ### 1
@@ -445,6 +473,34 @@ Qual é a solução da equação 2^(x + 2) = 16?
 
 **Explicação:** Ferramenta: igualar expoentes. Com as bases iguais, os expoentes também são iguais. 16 = 2⁴ ⇒ x + 2 = 4 ⇒ x = 2.
 
+### 16
+<!-- modelo: m14 -->
+Quanto vale log de √125 na base 5?
+
+- A) 1
+- B) 3
+- C) 1,73
+- D) 1,5
+- E) 6
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: raiz é expoente ½; log de potência. √125 = 125^(1/2) = 5^(3/2). log = 3/2 = 1,5.
+
+### 17
+<!-- modelo: m13 -->
+Dada f(x) = log₃(x − 3) + 2, quanto vale f(84)?
+
+- A) 29
+- B) 4
+- C) 8
+- D) 9
+- E) 6
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: substituir e usar a definição de log. Faça primeiro a conta de dentro do log; depois some o deslocamento. log₃(81) = 4; f(84) = 4 + 2 = 6.
+
 ## Difícil
 
 ### 1
@@ -656,3 +712,17 @@ Considerando log 2 = 0,30 e log 3 = 0,48, a solução da equação 3ˣ = 2 é, a
 **Resposta:** D
 
 **Explicação:** Ferramenta: aplicar log dos dois lados. Quando não dá para igualar as bases, tire o log: o expoente "desce" multiplicando. x = log 2 / log 3 = 0,30/0,48 ≈ 0,63.
+
+### 16
+<!-- modelo: d13 -->
+Quantos algarismos tem o número 2²⁰⁰? (use log 2 ≈ 0,301)
+
+- A) 61
+- B) 120
+- C) 62
+- D) 60
+- E) 200
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: número de algarismos = parte inteira do log + 1. log 2²⁰⁰ = 200 × 0,301 = 60,2: o número fica entre 10⁶⁰ e 10⁶¹. Tem 61 algarismos.

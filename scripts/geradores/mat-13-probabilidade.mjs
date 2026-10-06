@@ -1,5 +1,7 @@
 // Matemática — Probabilidade.
 import { comb, expl, fracao, nomes, num, sup } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const pctT = (v) => `${num(v)}%`;
 
@@ -335,6 +337,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Probabilidade clássica, eventos complementares, independentes, condicionais, probabilidade geométrica e binomial.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.prob[0])], [...medio, ...novos(NOVOS.prob[1])], [...dificil, ...novos(NOVOS.prob[2])]],
   },
 ];

@@ -1,5 +1,7 @@
 // Matemática — Estatística.
 import { arred, expl, nome, num, pct, reais } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const lista = (v) => v.join(', ');
 const soma = (v) => v.reduce((a, b) => a + b, 0);
@@ -402,6 +404,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Média, mediana, moda, média ponderada, leitura de tabelas e gráficos, variância e desvio padrão.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.estat[0])], [...medio, ...novos(NOVOS.estat[1])], [...dificil, ...novos(NOVOS.estat[2])]],
   },
 ];

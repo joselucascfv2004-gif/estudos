@@ -1,5 +1,7 @@
 // Matemática — Geometria analítica.
 import { expl, fracao, num } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const pt = (x, y) => `(${num(x)}, ${num(y)})`;
 const reta = (a, b) => {
@@ -318,6 +320,6 @@ export default [
     provas: ['ENEM', 'Militares'],
     descricao: 'Distância entre pontos, ponto médio, retas, circunferências e áreas no plano cartesiano.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.analitica[0])], [...medio, ...novos(NOVOS.analitica[1])], [...dificil, ...novos(NOVOS.analitica[2])]],
   },
 ];

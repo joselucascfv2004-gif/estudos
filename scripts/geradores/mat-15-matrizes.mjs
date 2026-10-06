@@ -1,5 +1,7 @@
 // Matemática — Matrizes, determinantes e sistemas.
 import { expl, fracao, num } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const mat2 = (m) => `[${m[0][0]} ${m[0][1]}; ${m[1][0]} ${m[1][1]}]`;
 const det2 = (m) => m[0][0] * m[1][1] - m[0][1] * m[1][0];
@@ -294,6 +296,6 @@ export default [
     provas: ['Militares', 'ENEM'],
     descricao: 'Operações com matrizes, determinantes (Sarrus e propriedades), matriz inversa e regra de Cramer.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.matrizes[0])], [...medio, ...novos(NOVOS.matrizes[1])], [...dificil, ...novos(NOVOS.matrizes[2])]],
   },
 ];

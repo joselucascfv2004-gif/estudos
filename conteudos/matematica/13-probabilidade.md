@@ -205,6 +205,62 @@ Ao lançar um dado comum (faces de 1 a 6), qual é a probabilidade de sair o nú
 
 **Explicação:** Ferramenta: casos favoráveis ÷ casos possíveis. Liste o que serve e divida pelo total de resultados igualmente prováveis. 1 de 6: 1/6.
 
+### 14
+<!-- modelo: f10 -->
+Um número de 1 a 10 é sorteado ao acaso. Qual é a probabilidade de ser primo?
+
+- A) 3/5
+- B) 1/5
+- C) 3/10
+- D) 1/2
+- E) 2/5
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: casos favoráveis ÷ casos possíveis. Os primos até 10 são 4 (lembre: 1 não é primo; 2 é). 4/10 = 2/5.
+
+### 15
+<!-- modelo: f13 -->
+Uma urna tem 5 bolas vermelhas e algumas azuis. Para que a probabilidade de tirar uma vermelha seja 1/4, quantas bolas azuis deve haver?
+
+- A) 15
+- B) 3
+- C) 20
+- D) 17
+- E) 16
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: probabilidade = favoráveis ÷ total; isolar o total. 5/total = 1/4 → total = 20. Azuis = 20 − 5 = 15.
+
+### 16
+<!-- modelo: f12 -->
+Uma tachinha foi lançada 50 vezes e caiu com a ponta para cima 40 vezes. Qual é a estimativa da probabilidade de cair com a ponta para cima?
+
+- A) 400%
+- B) 50%
+- C) 20%
+- D) 40%
+- E) 80%
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: probabilidade experimental = frequência relativa. Sem um modelo teórico, estima-se pela proporção observada em muitas repetições. 40 ÷ 50 = 80%.
+
+### 17
+<!-- modelo: f11 -->
+Uma carta é tirada ao acaso de um baralho comum de 52 cartas. Qual é a probabilidade de ser de copas?
+
+- A) 1/4
+- B) 7/26
+- C) 3/4
+- D) 1/2
+- E) 3/13
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: casos favoráveis ÷ 52. O baralho tem 4 naipes de 13 cartas. 13/52 = 1/4.
+
 ## Médio
 
 ### 1
@@ -403,6 +459,48 @@ Uma caixa tem 6 bombons de chocolate branco e 7 de chocolate preto. Retirando do
 
 **Explicação:** Ferramenta: sem reposição, o total diminui. Depois de tirar um branco, sobra um branco a menos e um bombom a menos no total. 6/13 × 5/12 = 5/26.
 
+### 15
+<!-- modelo: m12 -->
+Um ponto é escolhido ao acaso num segmento de 12 cm. Qual é a probabilidade de ele ficar a menos de 5 cm de uma das pontas (qualquer uma)?
+
+- A) 1/6
+- B) 5
+- C) 5/6
+- D) 5/12
+- E) 5/24
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: probabilidade geométrica = comprimento favorável ÷ total. Há 5 cm favoráveis perto de cada ponta. 10/12 = 5/6.
+
+### 16
+<!-- modelo: m11 -->
+Num dado viciado, a probabilidade de cada face é proporcional ao seu número (a face 6 é seis vezes mais provável que a face 1). Qual é a probabilidade de sair a face 6?
+
+- A) 1/3
+- B) 3/7
+- C) 2/7
+- D) 6/7
+- E) 1/21
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: pesos proporcionais: divida pela soma dos pesos. Os pesos 1 + 2 + … + 6 somam 21. P(6) = 6/21 = 2/7.
+
+### 17
+<!-- modelo: m13 -->
+Num jogo, paga-se R$ 10 para jogar e ganha-se R$ 100 com probabilidade 1/10. Qual é o ganho esperado (valor esperado) por jogada?
+
+- A) R$ 0,00
+- B) R$ 5,00
+- C) −R$ 10,00
+- D) R$ 10,00
+- E) R$ 90,00
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: valor esperado = Σ valor × probabilidade. Em média, o prêmio rende prêmio × probabilidade; desconte o custo, que se paga sempre. 100 × 1/10 − 10 = 0,00 reais por jogada.
+
 ## Difícil
 
 ### 1
@@ -600,3 +698,31 @@ Uma doença atinge 20% de uma população. Um teste dá positivo em 80% dos doen
 **Resposta:** A
 
 **Explicação:** Ferramenta: teorema de Bayes (pense em 10.000 pessoas). Entre todos os que dão positivo, quantos são realmente doentes? Positivos doentes: 1600; positivos sadios: 800. P = 1600/2400 = 2/3.
+
+### 15
+<!-- modelo: d11 -->
+Três dados comuns são lançados. Qual é a probabilidade de a soma dar 3?
+
+- A) 0
+- B) 1/36
+- C) 1/216
+- D) 1/12
+- E) 1/108
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: casos favoráveis ÷ 6³. Soma 3 só com todos os dados iguais a 1. 1/216.
+
+### 16
+<!-- modelo: d10 -->
+Qual é a probabilidade de 3 pessoas, escolhidas ao acaso, terem nascido em meses todos diferentes? (considere os 12 meses igualmente prováveis)
+
+- A) 91,67%
+- B) 75%
+- C) 76,39%
+- D) 8,33%
+- E) 23,61%
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: regra do "e" sem repetição. A 1ª pode nascer em qualquer mês; a 2ª em 11 dos 12; … 12/12 × 11/12 × 10/12 ≈ 76,39%.

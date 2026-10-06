@@ -247,6 +247,20 @@ Qual é o valor de sen 90° + cos 180°?
 
 **Explicação:** Ferramenta: pontos do ciclo nos eixos. Em 0°, 90°, 180° e 270° o ponto do ciclo está sobre os eixos: (1, 0), (0, 1), (−1, 0) e (0, −1). O cosseno é o x e o seno é o y. 1 + (−1) = 0.
 
+### 17
+<!-- modelo: f13 -->
+Quanto vale 45° em radianos?
+
+- A) 7π/6
+- B) 5π/6
+- C) 3π/2
+- D) π/3
+- E) π/4
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: regra de três com 180° = π. 45° = 45/180 de π. 45/180 = 1/4 → π/4.
+
 ## Médio
 
 ### 1
@@ -459,6 +473,34 @@ Uma pessoa está a 62 m da base de um prédio e vê o topo sob um ângulo de 60�
 
 **Explicação:** Ferramenta: tangente. Conhecemos o cateto adjacente (distância) e queremos o oposto (altura): tg. h = 62 × tg 60° = 62 × 1,73 = 107,26 m.
 
+### 16
+<!-- modelo: m13 -->
+Quantas soluções a equação sen x = 1/2 tem no intervalo [0, 2π]?
+
+- A) 4
+- B) 2
+- C) 3
+- D) 1
+- E) 12
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: contar por volta no ciclo. Em cada volta, sen x = 1/2 acontece em 2 ângulos (simétricos em relação ao eixo vertical). Total: 2.
+
+### 17
+<!-- modelo: m12 -->
+Qual é a área de um setor circular de 60° num círculo de raio 6 cm? (π = 3)
+
+- A) 18 cm²
+- B) 108 cm²
+- C) 36 cm²
+- D) 9 cm²
+- E) 6 cm²
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: setor = fração do círculo. 60° é 1/6 da volta. 3 × 6² × 1/6 = 18 cm².
+
 ## Difícil
 
 ### 1
@@ -670,3 +712,17 @@ A altura da maré em um porto, em metros, é modelada por h(t) = 5 + 1,5·cos(π
 **Resposta:** E
 
 **Explicação:** Ferramenta: função cosseno. O cosseno vale 1 quando o argumento é 0 e −1 quando o argumento é π. πt/6 = 0 ⇒ t = 0; h = 5 + 1,5 = 6,5 m.
+
+### 16
+<!-- modelo: d12 -->
+Se tg a = 1/2 e tg b = 1/3, quanto vale tg(a + b)?
+
+- A) 5/3
+- B) 5/6
+- C) 5/12
+- D) 1
+- E) 1/6
+
+**Resposta:** D
+
+**Explicação:** Ferramenta: tg(a + b) = (tg a + tg b)/(1 − tg a·tg b). Não basta somar as tangentes. (1/2 + 1/3) ÷ (1 − 1/6) = 1.

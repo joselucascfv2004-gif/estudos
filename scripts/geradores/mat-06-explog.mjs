@@ -1,5 +1,7 @@
 // Matemática — Função exponencial e logaritmo.
 import { arred, expl, fracao, num, reais, sup } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const semPonto = (v) => num(v).replace(/\./g, '');
 const sub = (n) => String(n).split('').map((c) => '₀₁₂₃₄₅₆₇₈₉'[+c] ?? c).join('');
@@ -435,6 +437,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Potências, equações exponenciais, propriedades dos logaritmos, crescimento, decaimento e escalas logarítmicas.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.explog[0])], [...medio, ...novos(NOVOS.explog[1])], [...dificil, ...novos(NOVOS.explog[2])]],
   },
 ];

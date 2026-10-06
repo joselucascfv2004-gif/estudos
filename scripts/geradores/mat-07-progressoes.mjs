@@ -1,5 +1,7 @@
 // Matemática — Progressões aritméticas e geométricas.
 import { expl, fracao, nome, num, reais, sup } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const facil = [
   // 1. n-ésimo termo da PA
@@ -430,6 +432,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Padrões em sequências, termo geral e soma de PA e PG, PG infinita e problemas do dia a dia.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.progressoes[0])], [...medio, ...novos(NOVOS.progressoes[1])], [...dificil, ...novos(NOVOS.progressoes[2])]],
   },
 ];

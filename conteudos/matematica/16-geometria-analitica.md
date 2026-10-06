@@ -191,6 +191,76 @@ Qual é o ponto médio do segmento de extremos A(7, 4) e B(2, 1)?
 
 **Explicação:** Ferramenta: média das coordenadas. O ponto médio fica "no meio" em x e "no meio" em y. ((7 + 2)/2, (4 + 1)/2) = (4,5, 2,5).
 
+### 13
+<!-- modelo: f13 -->
+Qual é a equação da reta horizontal que passa pelo ponto (4, 1)?
+
+- A) y = 1
+- B) x = 1
+- C) y = 4
+- D) y = x
+- E) y = x + 1
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: retas paralelas aos eixos. Reta horizontal: todos os pontos têm o mesmo y. Vertical: o mesmo x. y = 1.
+
+### 14
+<!-- modelo: f9 -->
+Em que ponto a reta x + 3y = 3 corta o eixo y? Dê o valor de y.
+
+- A) 2
+- B) 11
+- C) 1
+- D) 3
+- E) 4
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: eixo y ⇒ x = 0. Substitua x = 0 e isole y. 3y = 3 → y = 1.
+
+### 15
+<!-- modelo: f11 -->
+A circunferência de equação (x + 3)² + (y + 2)² = 4 tem que raio?
+
+- A) 1
+- B) 2
+- C) 5
+- D) 4
+- E) 6
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: equação reduzida: (x − a)² + (y − b)² = r². O número do lado direito é o raio ao quadrado. r = √4 = 2.
+
+### 16
+<!-- modelo: f12 -->
+Qual é o simétrico do ponto (−1, 6) em relação ao eixo y?
+
+- A) (1, −6)
+- B) (−6, 1)
+- C) (−1, −6)
+- D) (6, −1)
+- E) (1, 6)
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: simetria: troca o sinal da coordenada "perpendicular". Em relação ao eixo x, muda o y; ao eixo y, muda o x; à origem, mudam os dois. Simétrico: (1, 6).
+
+### 17
+<!-- modelo: f10 -->
+Em que valor de x a reta y = 3x + 1 corta o eixo x?
+
+- A) 1/3
+- B) 3
+- C) −3
+- D) 1
+- E) −1/3
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: eixo x ⇒ y = 0. Iguale y a zero e isole x. 0 = 3x + 1 → x = −1/3.
+
 ## Médio
 
 ### 1
@@ -361,6 +431,76 @@ Qual é o raio da circunferência de equação x² + y² + 12x − 6y − 19 = 0
 
 **Explicação:** Ferramenta: completar quadrados. Agrupe x com x e y com y e transforme em quadrados perfeitos. (x + 6)² + (y − 3)² = 64 ⇒ raio 8.
 
+### 13
+<!-- modelo: m10 -->
+Qual é a área do círculo limitado pela circunferência x² + y² − 2x − 2y − 23 = 0? (π = 3)
+
+- A) 69
+- B) 30
+- C) 78
+- D) 113
+- E) 75
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: completar quadrados para achar o raio. Centro (1, 1); r² = 1² + 1² − (−23) = 25. Área = 3 × 25 = 75.
+
+### 14
+<!-- modelo: m12 -->
+Uma circunferência tem centro em (3, 4) e passa pela origem. Qual é o seu raio?
+
+- A) 5
+- B) 7
+- C) 4
+- D) 25
+- E) 12
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: raio = distância do centro a um ponto da circunferência. Use Pitágoras entre o centro e a origem. √(3² + 4²) = 5.
+
+### 15
+<!-- modelo: m11 -->
+O ponto médio do segmento AB é M(−4, 1), e A = (−1, 4). Quais são as coordenadas de B?
+
+- A) (−7, −2)
+- B) (−9, 6)
+- C) (2, 7)
+- D) (−5, 5)
+- E) (−3, −3)
+
+**Resposta:** A
+
+**Explicação:** Ferramenta: ponto médio ao contrário: B = 2M − A. M é a média: M = (A + B)/2. B = (2·−4 − (−1), 2·1 − 4) = (−7, −2).
+
+### 16
+<!-- modelo: m13 -->
+Uma reta passa pelo ponto (0, −3) e forma 45° com o eixo x (medido no sentido anti-horário). Qual é a sua equação?
+
+- A) y = 2x − 3
+- B) y = −3
+- C) x = −3
+- D) y = −x − 3
+- E) y = x − 3
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: m = tg θ. tg 45° = 1; a reta corta o eixo y em −3. y = 1·x − 3.
+
+### 17
+<!-- modelo: m9 -->
+Qual é a distância entre as retas paralelas x + y = 0 e x + y + 4 = 0?
+
+- A) 5,66
+- B) 1,41
+- C) 2,83
+- D) 2
+- E) 4
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: distância entre paralelas: |c₂ − c₁|/√(a² + b²). É a distância de qualquer ponto de uma até a outra. |4 − 0| ÷ √(1² + 1²) = 4 ÷ 1,41 = 2,83.
+
 ## Difícil
 
 ### 1
@@ -516,3 +656,73 @@ Qual é a distância do ponto P(−3, −2) à reta 5x + 12y − 13 = 0?
 **Resposta:** A
 
 **Explicação:** Ferramenta: fórmula da distância ponto-reta. d = |a·x₀ + b·y₀ + c| / √(a² + b²). |−52| / 13 = 4.
+
+### 12
+<!-- modelo: d11 -->
+Qual é o coeficiente angular da mediatriz do segmento de extremos A(−1, −3) e B(1, 1)?
+
+- A) −2
+- B) 0
+- C) 2
+- D) 1/2
+- E) −1/2
+
+**Resposta:** E
+
+**Explicação:** Ferramenta: mediatriz é perpendicular ao segmento. m(AB) = 2; a mediatriz tem m = −1/m(AB). m = −1/2.
+
+### 13
+<!-- modelo: d12 -->
+Qual é a tangente do ângulo agudo entre as retas de coeficientes angulares 1 e 0?
+
+- A) 3
+- B) 11
+- C) 1
+- D) 2
+- E) 1/2
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: tg θ = |(m₁ − m₂)/(1 + m₁·m₂)|. O módulo garante o ângulo agudo. |(1 − 0) ÷ (1 + 0)| = 1.
+
+### 14
+<!-- modelo: d10 -->
+Duas circunferências têm raios 2 e 2, e a distância entre os centros é 1. Qual é a posição relativa entre elas?
+
+- A) tangentes externas
+- B) secantes
+- C) concêntricas
+- D) externas (sem ponto comum)
+- E) tangentes internas
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: compare a distância dos centros com r₁ + r₂ e |r₁ − r₂|. r₁ + r₂ = 4 e |r₁ − r₂| = 0. d = 1: secantes.
+
+### 15
+<!-- modelo: d8 -->
+O ponto (4, 1) pertence à circunferência de centro (3, −1). Qual é o coeficiente angular da reta tangente à circunferência nesse ponto?
+
+- A) 2
+- B) −2
+- C) −1/2
+- D) 1/2
+- E) 0
+
+**Resposta:** C
+
+**Explicação:** Ferramenta: tangente ⊥ raio: m_t = −1/m_raio. O raio tem inclinação 2. m = −1 ÷ (2) = −1/2.
+
+### 16
+<!-- modelo: d9 -->
+Qual é a área do triângulo formado pela reta 3x + 4y = 24 com os eixos coordenados?
+
+- A) 48
+- B) 24
+- C) 34
+- D) 12
+- E) 14
+
+**Resposta:** B
+
+**Explicação:** Ferramenta: interceptos: triângulo retângulo com catetos nos eixos. Corta o eixo x em 8 e o eixo y em 6. Área = 8 × 6 ÷ 2 = 24.

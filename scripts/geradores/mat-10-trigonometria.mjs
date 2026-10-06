@@ -1,5 +1,7 @@
 // Matemática — Trigonometria.
 import { arred, expl, fracao, num } from './util.mjs';
+import NOVOS from './mat-novos-extras.mjs';
+import { novos } from './util.mjs';
 
 const TRIG = {
   sen: { 30: '1/2', 45: '√2/2', 60: '√3/2' },
@@ -464,6 +466,6 @@ export default [
     provas: ['ENEM', 'Militares', 'Concursos'],
     descricao: 'Razões trigonométricas, ângulos notáveis, leis dos senos e cossenos, ciclo trigonométrico e funções periódicas.',
     unico: true,
-    niveis: [facil, medio, dificil],
+    niveis: [[...facil, ...novos(NOVOS.trig[0])], [...medio, ...novos(NOVOS.trig[1])], [...dificil, ...novos(NOVOS.trig[2])]],
   },
 ];
