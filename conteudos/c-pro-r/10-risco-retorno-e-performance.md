@@ -11,6 +11,19 @@ fonte: Questão inédita gerada por computador (gabarito calculado)
 
 Retorno esperado, desvio padrão, correlação e diversificação, beta e CAPM, índices de Sharpe e Treynor, dominância, alavancagem e estratégias de rebalanceamento (buy and hold, constant mix, CPPI).
 
+## Resumo
+
+- **Retorno da carteira:** média ponderada dos retornos dos ativos pelos pesos de cada um.
+- **Risco (volatilidade):** desvio padrão dos retornos. Anualizar: vol anual = vol mensal · √12 (ou vol diária · √252).
+- **Correlação:** vai de −1 a +1. Quanto menor a correlação entre os ativos, maior o ganho da diversificação (o risco da carteira cai abaixo da média dos riscos).
+- **Beta:** sensibilidade do ativo ao mercado. Beta 1,2 → se o mercado sobe 10%, o ativo tende a subir 12%. Beta = covariância(ativo, mercado) ÷ variância do mercado.
+- **CAPM:** retorno exigido = taxa livre de risco + beta · (retorno do mercado − taxa livre de risco).
+- **Índice de Sharpe:** (retorno − taxa livre de risco) ÷ volatilidade. Mede retorno em excesso por unidade de risco total; quanto maior, melhor.
+- **Índice de Treynor:** (retorno − taxa livre de risco) ÷ beta. Usa só o risco de mercado (sistemático).
+- **Alavancagem:** amplia ganhos e perdas na mesma proporção sobre o capital próprio, e os juros da dívida pesam no resultado.
+- **Estratégias de rebalanceamento:** **buy and hold** (compra e mantém, pesos variam), **constant mix** (volta sempre aos pesos-alvo: vende o que subiu, compra o que caiu) e **CPPI** (exposição ao risco = multiplicador · (carteira − piso), protege um valor mínimo).
+- **Cenários:** retorno esperado = soma de (probabilidade · retorno) em cada cenário.
+
 ## Fácil
 
 ### 1

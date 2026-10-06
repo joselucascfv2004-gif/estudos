@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**8540 questões** em **188 tópicos**.
+**8690 questões** em **191 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
 
@@ -334,7 +334,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Prevenção à lavagem de dinheiro, LGPD e crimes contra o mercado](cpa/12-pld-lgpd-e-crimes-de-mercado.md) | Certificações | 17 | 17 | 16 |
 | [Inovação: ESG, finanças digitais e open finance](cpa/13-inovacao-esg-e-tecnologia.md) | Certificações | 17 | 17 | 16 |
 
-## C-Pro R (ANBIMA) — 350 questões
+## C-Pro R (ANBIMA) — 500 questões
 
 *Certificações Financeiras*
 
@@ -346,4 +346,7 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Alocação de ativos e renda fixa](c-pro-r/04-asset-allocation-e-renda-fixa.md) | Certificações | 17 | 17 | 16 |
 | [Renda variável, derivativos e COE](c-pro-r/05-renda-variavel-derivativos-e-coe.md) | Certificações | 17 | 17 | 16 |
 | [Fundos, ETFs, FIIs e outros veículos coletivos](c-pro-r/06-fundos-etf-e-fii.md) | Certificações | 17 | 17 | 16 |
+| [Investimentos no exterior](c-pro-r/07-investimentos-no-exterior.md) | Certificações | 17 | 17 | 16 |
+| [Previdência no planejamento do cliente](c-pro-r/08-previdencia-avancada.md) | Certificações | 17 | 17 | 16 |
+| [Criptoativos na carteira do investidor](c-pro-r/09-criptoativos.md) | Certificações | 17 | 17 | 16 |
 | [Risco, retorno e performance de carteiras](c-pro-r/10-risco-retorno-e-performance.md) | Certificações | 17 | 17 | 16 |

@@ -14,7 +14,7 @@ import {
   topicosDaProva,
   topicosDaQuestao,
 } from '../data/banco';
-import { provaDaTrilhaAntiga } from '../data/provas';
+import { FormatoProva, provaDaTrilhaAntiga } from '../data/provas';
 import { diferencaDias, embaralhar, hoje, somarDias } from './datas';
 
 export const TAMANHO_LICAO = 10;
@@ -881,8 +881,17 @@ export const MINUTOS_POR_QUESTAO = 3;
  * 30% fáceis, 40% médias e 30% difíceis, espalhadas entre os tópicos.
  */
 export function montarSimulado(p: Progresso, quantidade: number, disciplinaId?: string): Questao[] {
-  const topicos = embaralhar(topicosDoAluno(p).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/')));
-  if (!topicos.length) return [];
+  const topicos = topicosDoAluno(p).filter((t) => !disciplinaId || t.id.startsWith(disciplinaId + '/'));
+  return sortearQuestoes(p, topicos, quantidade, new Set());
+}
+
+/**
+ * Sorteia `quantidade` questões espalhadas entre os tópicos, com cerca de 30% fáceis, 40% médias e
+ * 30% difíceis, sem repetir questões já usadas.
+ */
+function sortearQuestoes(p: Progresso, lista: Topico[], quantidade: number, usadas: Set<string>): Questao[] {
+  const topicos = embaralhar(lista);
+  if (!topicos.length || quantidade <= 0) return [];
   const faceis = Math.round(quantidade * 0.3);
   const dificeis = Math.round(quantidade * 0.3);
   const niveis: Nivel[] = embaralhar([
@@ -890,7 +899,6 @@ export function montarSimulado(p: Progresso, quantidade: number, disciplinaId?: 
     ...Array<Nivel>(quantidade - faceis - dificeis).fill(1),
     ...Array<Nivel>(dificeis).fill(2),
   ]);
-  const usadas = new Set<string>();
   const escolhidas: Questao[] = [];
   for (let i = 0; i < niveis.length * 4 && escolhidas.length < quantidade; i++) {
     const t = topicos[i % topicos.length];
@@ -903,6 +911,23 @@ export function montarSimulado(p: Progresso, quantidade: number, disciplinaId?: 
     }
   }
   return escolhidas;
+}
+
+/**
+ * Simulado no formato do exame oficial: o número de questões de cada parte do programa segue o
+ * peso dessa parte na prova (por exemplo, 40% de produtos na CPA). As partes ficam em sequência,
+ * como no caderno de prova.
+ */
+export function montarSimuladoFormato(p: Progresso, formato: FormatoProva): { nome: string; questoes: Questao[] }[] {
+  const cotas = formato.blocos.map((b) => Math.floor(formato.questoes * b.proporcao));
+  // distribui as questões que sobraram do arredondamento entre as partes de maior peso
+  const ordem = formato.blocos.map((b, i) => i).sort((a, b) => formato.blocos[b].proporcao - formato.blocos[a].proporcao);
+  for (let k = 0; cotas.reduce((s, x) => s + x, 0) < formato.questoes; k++) cotas[ordem[k % ordem.length]]++;
+  const usadas = new Set<string>();
+  return formato.blocos.map((b, i) => {
+    const topicos = b.topicos.map((id) => getTopico(id)?.topico).filter((t): t is Topico => !!t);
+    return { nome: b.nome, questoes: sortearQuestoes(p, topicos, cotas[i], usadas) };
+  });
 }
 
 /** Número da questão na prova oficial ("... questão 140" na fonte). */

@@ -2,11 +2,12 @@
 
 Aplicativo de celular (Android/iOS, também roda no navegador) para estudar todos os dias para
 **ENEM**, **vestibulares militares** (ESA, EsPCEx, EEAR, AFA, Escola Naval, Colégio Naval) e
-**concursos** (Banco do Brasil, Banco do Nordeste, Caixa, IBGE e outros).
+**concursos** (Banco do Brasil, Banco do Nordeste, Caixa, IBGE e outros) e as **certificações
+financeiras da ANBIMA** (CPA, antiga CPA-10, e C-Pro R, antiga CPA-20).
 
 Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destrava níveis mais difíceis.
 
-- **7.540 questões** em **168 tópicos** de **20 disciplinas**
+- **8.690 questões** em **191 tópicos** de **22 disciplinas**
 - **2.927 questões oficiais do ENEM** (provas de 2009 a 2025 publicadas pelo INEP, inclusive as que têm gráficos, mapas, tabelas e charges, recortados da própria prova), com o gabarito
   oficial, classificadas por assunto: elas aparecem também dentro de cada tópico (por exemplo, "Funções")
 - As questões de cálculo não repetem enunciado: cada modelo gera uma questão diferente, e a explicação
@@ -33,7 +34,7 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial, volta mais nas revisões e ganha um treino focado nos seus erros |
 | Minhas dificuldades | Relatório (aba Progresso ou Treinar) com os assuntos que o aluno mais erra, o acerto por matéria, se está melhorando ou piorando e atalhos para rever a teoria e treinar |
 | Plano de estudos | Informe a data e o nome da sua prova no Perfil. A tela inicial mostra a contagem regressiva e o plano do dia (revisões, ponto fraco e assuntos novos), calculado para passar por todos os assuntos antes da prova |
-| Simulado | Prova com cronômetro (3 min por questão), navegação entre as questões e gabarito só no final, com correção, acerto por disciplina e histórico. Também dá para fazer o caderno de uma prova oficial do ENEM, escolhendo o ano e a área |
+| Simulado | Prova com cronômetro (3 min por questão), navegação entre as questões e gabarito só no final, com correção, acerto por disciplina e histórico. Também dá para fazer o caderno de uma prova oficial do ENEM, escolhendo o ano e a área. Na CPA e no C-Pro R há o simulado no formato do exame (50 ou 45 questões, 2h30, cada parte do programa no seu peso) que diz se você seria aprovado (70% de acertos) |
 | Redação | Temas do ENEM de 2009 a 2025 (conferidos no INEP), pontos para pensar, cronômetro, contador de linhas e autoavaliação pelas cinco competências |
 | Resumos e aulas | Cada assunto tem um "resumo em 2 minutos". Todos os assuntos de Matemática e Física (e alguns de outras matérias) também têm uma aula completa, com explicação e exemplos resolvidos (arquivo `conteudos/<disciplina>/aulas/<arquivo do tópico>.md`). A tela inicial mostra a teoria dos assuntos do plano do dia, para estudar antes de praticar |
 | Questões salvas | ⭐ Salve questões e escreva anotações durante as lições; depois revise ou pratique só elas |
@@ -50,12 +51,13 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 | Área | Disciplinas |
 |---|---|
 | Provas anteriores | ENEM — provas oficiais (2014 a 2023, exceto 2021: Matemática, Natureza, Humanas e Linguagens) |
-| Matemática | Matemática (17 tópicos), Matemática Financeira |
+| Matemática | Matemática (26 tópicos), Matemática Financeira |
 | Ciências da Natureza | Física, Química, Biologia |
 | Ciências Humanas | História, Geografia, Filosofia, Sociologia |
 | Linguagens | Língua Portuguesa, Literatura, Inglês, Espanhol, Artes e Educação Física |
 | Redação | Competências do ENEM, estrutura, coesão, argumentação e repertório |
 | Concursos | Raciocínio Lógico, Conhecimentos Bancários, Informática, Ética e Administração Pública |
+| Certificações (ANBIMA) | CPA (13 tópicos, programa vigente desde 2026) e C-Pro R (10 tópicos). As questões são inéditas, com 5 alternativas (a prova real tem 4) |
 
 ## Sobre as questões
 
@@ -213,7 +215,7 @@ app/                       aplicativo Expo (React Native + expo-router)
    Antes de `## Fácil`, coloque uma seção `## Resumo` com a teoria do tópico (listas com `- ` e
    negrito com `**...**`). Ela aparece no app no botão "Ler o resumo".
 
-   O campo `provas` aceita qualquer combinação de `ENEM`, `Militares` e `Concursos`. Uma questão pode
+   O campo `provas` aceita qualquer combinação de `ENEM`, `Militares`, `Concursos` e `Certificações`. Uma questão pode
    ter sua própria fonte com a linha `**Fonte:** ENEM 2019, questão 140`, colocada depois da explicação.
    Questões oficiais podem ter também `**Assunto:** matematica/funcoes-afim-e-quadratica` (uma ou mais
    separadas por vírgula): a questão passa a aparecer também nesse tópico.

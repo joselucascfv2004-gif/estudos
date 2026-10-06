@@ -122,3 +122,38 @@ Formato: `- disciplina/assunto: nota`
 - informatica/editores-e-planilhas: 4
 - informatica/hardware-e-sistemas-operacionais: 3
 - etica/etica-no-servico-publico: 5
+
+## CPA (ANBIMA)
+
+Notas pelo peso de cada módulo no programa oficial da CPA (vigente desde 01/01/2026): produtos 40%,
+relacionamento com o cliente 30%, sistema financeiro 20% e inovação 10%.
+
+- cpa/sistema-financeiro-nacional: 3
+- cpa/politica-economica-e-indicadores: 3
+- cpa/calculos-financeiros-e-tributacao: 4
+- cpa/infraestrutura-regulacao-e-autorregulacao: 3
+- cpa/renda-fixa: 5
+- cpa/renda-variavel-e-coe: 4
+- cpa/fundos-de-investimento: 5
+- cpa/previdencia-complementar: 4
+- cpa/credito-servicos-bancarios-e-seguros: 3
+- cpa/financas-pessoais-e-planejamento: 5
+- cpa/suitability-e-conduta-etica: 5
+- cpa/pld-lgpd-e-crimes-de-mercado: 5
+- cpa/inovacao-esg-e-tecnologia: 4
+
+## C-Pro R (ANBIMA)
+
+Notas pelo peso de cada módulo no programa oficial do C-Pro R: indicação de investimentos 40%,
+análise do cliente 20%, prospecção 20% e análise de portfólio 20%.
+
+- c-pro-r/financas-comportamentais: 4
+- c-pro-r/prospeccao-e-regras-de-relacionamento: 4
+- c-pro-r/analise-do-cliente-e-perfil: 5
+- c-pro-r/asset-allocation-e-renda-fixa: 5
+- c-pro-r/renda-variavel-derivativos-e-coe: 4
+- c-pro-r/fundos-etf-e-fii: 4
+- c-pro-r/investimentos-no-exterior: 3
+- c-pro-r/previdencia-avancada: 3
+- c-pro-r/criptoativos: 3
+- c-pro-r/risco-retorno-e-performance: 5
