@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Montar uma carteira não é escolher "o melhor investimento", e sim **dividir** o dinheiro entre classes de ativos de acordo com o perfil, os objetivos e o momento do cliente. Esta aula explica o asset allocation (estratégico e tático), a diversificação e aprofunda a renda fixa: riscos, marcação a mercado, **duration**, títulos bancários menos comuns (LF, DPGE, CDCA), debêntures e a comparação entre aplicações isentas e tributadas. São temas centrais do C-Pro R.
+
 ### Asset allocation: a decisão que mais pesa
 
 **Asset allocation** é dividir a carteira entre **classes de ativos**: renda fixa pós-fixada, prefixada e atrelada à inflação, multimercados, ações, exterior, imobiliário e alternativos.
@@ -56,3 +60,46 @@ Para comparar um título isento com um tributado:
 
 > **Exemplo resolvido.** Uma LCA de 2 anos paga 90% do CDI. Quanto um CDB de mesmo prazo (IR de 15%) precisa pagar para empatar?
 > 90% ÷ 0,85 ≈ **105,9% do CDI**. Abaixo disso, a LCA ganha.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um cliente conservador quer uma aplicação com FGC e não precisa do dinheiro por 3 anos. Um gerente oferece uma Letra Financeira por pagar mais. O que o cliente precisa saber?
+> A LF **não tem FGC**, tem prazo mínimo de **2 anos** e **não permite resgate antecipado**. Paga mais justamente por esses riscos; deve-se avaliar se é adequada ao perfil.
+
+> **Exemplo resolvido.** Um título prefixado sem cupom vence em 5 anos. Qual a sua duration? E de um título de 5 anos com cupons semestrais?
+> Sem cupom: **5 anos** (igual ao prazo). Com cupons: **menor que 5 anos**, porque parte do dinheiro volta antes.
+
+> **Exemplo resolvido.** A política de alocação de um cliente prevê 30% em ações. Depois de uma alta forte, as ações chegaram a 40% da carteira. O que fazer?
+> **Rebalancear**: vender parte das ações e comprar as outras classes até voltar aos 30%, mantendo o risco planejado.
+
+### Erros mais comuns
+
+- Achar que a escolha dos ativos individuais pesa mais que o asset allocation (é o contrário, no longo prazo).
+- Confundir alocação estratégica (longo prazo) com tática (ajustes de curto prazo).
+- Achar que a LF tem FGC.
+- Esquecer que títulos com cupom têm duration menor que o prazo.
+- Comparar taxa bruta de produto tributado com taxa de produto isento.
+
+### Como cai na prova
+
+Conceitos de asset allocation e diversificação; riscos da renda fixa; marcação a mercado e duration; características de LF, DPGE, CDCA, CCI, debêntures, garantias e covenants; cálculo de taxas equivalentes entre aplicações tributadas e isentas.
+
+### Teste-se
+
+1. Qual a diferença entre alocação estratégica e tática?
+2. Se os juros caem, o que acontece com o preço de um prefixado já emitido?
+3. Qual o prazo mínimo de uma Letra Financeira?
+4. O que são covenants?
+5. Um CDB paga 110% do CDI com IR de 20%. Qual a taxa líquida?
+
+> **Respostas.** 1) A **estratégica** é a divisão de longo prazo ligada ao perfil; a **tática** são ajustes temporários conforme o cenário. 2) O preço **sobe**. 3) **2 anos**. 4) **Cláusulas** que impõem obrigações à emissora; se descumpridas, podem antecipar o vencimento. 5) 110% × 0,80 = **88% do CDI**.
+
+### Para lembrar
+
+- Asset allocation estratégico (perfil, longo prazo) e tático (cenário); explica a maior parte do retorno.
+- Diversificar com ativos que não andam juntos.
+- Riscos: crédito, liquidez, mercado. Juros sobem → preço cai.
+- Duration = prazo médio ponderado; maior duration = mais oscilação; sem cupom = prazo.
+- Com FGC: CDB, RDB, LCI, LCA, LC, LH (DPGE: garantia especial). Sem FGC: LF (2 anos, sem resgate), CDCA, debêntures.
+- Debêntures: garantias (real, flutuante, quirografária, subordinada, fidejussória) e covenants.
+- Líquido = bruto × (1 − alíquota); isento ÷ (1 − alíquota) = equivalente tributado.

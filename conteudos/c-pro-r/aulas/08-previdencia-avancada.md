@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Para clientes de alta renda, a previdência complementar vai além de "poupar para a aposentadoria": é uma ferramenta de **planejamento tributário** e **sucessório**. O C-Pro R cobra a diferença entre o INSS e a previdência privada, o diferimento fiscal do PGBL, a retroalimentação, as vantagens da previdência (sem come-cotas, troca de fundos sem IR), o cálculo da renda vitalícia, a diferença entre plano e fundo e a previdência corporativa (averbado, instituído, vesting).
+
 ### Dois sistemas diferentes
 
 - **Previdência social (INSS):** funciona por **repartição simples**: quem trabalha hoje paga os benefícios de quem está aposentado hoje. Depois da Reforma de 2019, o cálculo considera a média de **todos** os salários de contribuição e há idade mínima. O benefício tem **teto**; quem ganha acima dele precisa complementar.
@@ -48,3 +52,45 @@ Se a tábua prevê **vida mais longa** ou se o **juro é menor**, o dinheiro pre
 
 > **Exemplo resolvido.** Um funcionário sai da empresa depois de 3 anos. O plano tem vesting de 20% ao ano sobre as contribuições da empresa. Quanto ele leva?
 > Tudo o que **ele** contribuiu (com rendimentos) e **60%** do que a empresa contribuiu.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Uma seguradora atualiza a tábua biométrica, prevendo que as pessoas vão viver mais. O que acontece com a renda vitalícia calculada para um mesmo valor acumulado?
+> Fica **menor**: o dinheiro precisa durar mais anos.
+
+> **Exemplo resolvido.** Um cliente quer trocar o fundo do seu VGBL de renda fixa para um multimercado da mesma seguradora. Paga IR?
+> **Não**: a transferência entre fundos dentro do plano não gera IR.
+
+> **Exemplo resolvido.** Um cliente com renda alta já aplica 12% da renda bruta no PGBL e quer investir mais em previdência. O que recomendar?
+> O excedente vai para um **VGBL**: no PGBL não haveria mais dedução, e ele pagaria IR sobre o total no resgate.
+
+### Erros mais comuns
+
+- Achar que o INSS funciona por capitalização (funciona por **repartição**).
+- Achar que o diferimento do PGBL é isenção (o IR é **adiado**, não perdoado).
+- Confundir plano (contrato, SUSEP) com fundo (onde a reserva é aplicada).
+- Achar que juro atuarial maior reduz a renda (juro maior **aumenta** a renda).
+- Confundir plano averbado (empresa) com instituído (associação ou entidade de classe).
+
+### Como cai na prova
+
+Repartição × capitalização; usos da previdência; cálculo do benefício fiscal do PGBL; diferimento e retroalimentação; vantagens fiscais na acumulação; tábua biométrica e juro atuarial; plano × FIE; planos corporativos e vesting.
+
+### Teste-se
+
+1. Como funciona o regime de repartição simples?
+2. Um cliente na alíquota de 27,5% aplica R$ 20 mil no PGBL e deduz. Quanto deixa de pagar de IR?
+3. O que é retroalimentação?
+4. Se o juro atuarial for menor, a renda vitalícia sobe ou desce?
+5. O que é vesting?
+
+> **Respostas.** 1) Quem **trabalha hoje** paga os benefícios de quem está **aposentado hoje**. 2) 27,5% de 20 mil = **R$ 5 500**. 3) **Reaplicar** no PGBL a restituição de IR gerada pela dedução. 4) **Desce**. 5) As regras que definem **quando** o participante passa a ter direito às contribuições feitas pela **empresa**.
+
+### Para lembrar
+
+- INSS: repartição, teto. Complementar: capitalização.
+- Usos: acumulação, sucessão, reserva para menores, planejamento tributário.
+- PGBL: dedução até 12%, diferimento fiscal, retroalimentação. VGBL: IR só no ganho.
+- Sem come-cotas; troca de fundos sem IR; sucessão facilitada.
+- Renda vitalícia: tábua (vida mais longa = renda menor) e juro atuarial (juro menor = renda menor).
+- Plano (SUSEP) × FIE. Corporativa: averbado (empresa), instituído (associação), vesting.

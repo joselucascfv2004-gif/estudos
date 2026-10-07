@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Criptoativos entraram no conteúdo do C-Pro R porque muitos clientes já investem ou perguntam sobre eles. O profissional precisa entender o básico da tecnologia (blockchain, mineração, proof-of-stake), os principais ativos (bitcoin e ether), os tipos de token, as formas de acesso reguladas e, sobretudo, os **riscos**: volatilidade extrema, custódia, fraudes e regulação. A recomendação deve ser **pequena, compatível com o perfil** e com rebalanceamento.
+
 ### Bitcoin: dinheiro sem banco central
 
 O **Bitcoin** surgiu em **2009** como uma moeda digital mantida por uma **rede descentralizada**: não há banco central nem empresa no comando. As regras estão no software que todos os participantes rodam.
@@ -53,3 +57,46 @@ Uma carteira tradicional com 60% em ações e 40% em renda fixa pode receber uma
 > O bitcoin passa de 3% para cerca de **8,5%** da carteira (9 ÷ 106). O risco da carteira subiu sem que ninguém decidisse isso. O **rebalanceamento** traz a fatia de volta aos 3%.
 
 A alocação deve ser **pequena, compatível com o perfil** do cliente e **rebalanceada** periodicamente.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um cliente guardou seus bitcoins numa carteira própria e perdeu a frase de recuperação. É possível pedir ao "banco do bitcoin" para recuperar?
+> **Não**: não há intermediário central. Quem perde as **chaves** perde o acesso às moedas.
+
+> **Exemplo resolvido.** Um token promete aos compradores participação nos lucros de um projeto administrado por uma equipe. Que tipo de token pode ser, e quem pode regulá-lo?
+> Pode ser um **security token** (valor mobiliário), sujeito à regulação da **CVM**.
+
+> **Exemplo resolvido.** Um cliente conservador quer colocar 30% do patrimônio em criptomoedas. O que fazer?
+> Explicar a **volatilidade** e os riscos, mostrar que a alocação é **inadequada ao perfil** e, se ele insistir, seguir as regras de suitability (alerta e declaração de ciência).
+
+### Erros mais comuns
+
+- Achar que a blockchain torna o investimento seguro (o histórico é difícil de alterar, mas o **preço** oscila muito e há golpes).
+- Confundir proof-of-work (mineração, energia) com proof-of-stake (validadores com moedas em garantia).
+- Achar que toda stablecoin é segura (depende das reservas; as algorítmicas já quebraram).
+- Achar que exchanges não têm regulação no Brasil (os prestadores de serviços de ativos virtuais são regulados pelo BC).
+- Deixar a fatia de cripto crescer sem rebalancear.
+
+### Como cai na prova
+
+Características do bitcoin (oferta máxima, halving, descentralização), blockchain e hash, proof-of-work e proof-of-stake, Ethereum, smart contracts e oráculos, tipos de token, formas de acesso e regulação, riscos e efeito de uma pequena alocação numa carteira tradicional.
+
+### Teste-se
+
+1. Qual a oferta máxima de bitcoins?
+2. O que é o halving?
+3. Qual a principal diferença entre proof-of-work e proof-of-stake?
+4. Qual a função de um oráculo num smart contract?
+5. Quem regula os prestadores de serviços de ativos virtuais no Brasil?
+
+> **Respostas.** 1) **21 milhões**. 2) A **redução pela metade** da emissão de novas moedas, periodicamente. 3) No **proof-of-work**, mineradores gastam poder computacional; no **proof-of-stake**, validadores **travam moedas** como garantia. 4) Trazer **dados do mundo real** para o contrato. 5) O **Banco Central** (Lei 14.478/2022).
+
+### Para lembrar
+
+- Bitcoin (2009): descentralizado, 21 milhões, halving, reserva de valor, muito volátil.
+- Blockchain: livro-razão distribuído, blocos ligados por hash.
+- Proof-of-work (mineração) × proof-of-stake (validadores com garantia).
+- Ethereum: smart contracts, dApps, gas, oráculos.
+- Tokens: utility, security (CVM), stablecoin, NFT.
+- Acesso: P2P, exchanges (BC), fundos e ETFs na B3, derivativos.
+- Na carteira: fatia pequena, adequada ao perfil, com rebalanceamento.

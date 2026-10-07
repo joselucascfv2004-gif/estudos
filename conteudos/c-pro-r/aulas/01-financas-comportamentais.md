@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O C-Pro R (antiga CPA-20) é a certificação da ANBIMA para quem atende clientes de alta renda e faz recomendações mais sofisticadas. Ela começa pelas **finanças comportamentais**, porque o maior inimigo do investidor costuma ser ele mesmo: vender no pânico, comprar na euforia, segurar o prejuízo esperando "voltar ao preço". Entender os vieses ajuda o profissional a orientar melhor e a não cair nas mesmas armadilhas. A prova cobra os conceitos (teoria do prospecto, heurísticas, vieses, nudge) e situações em que é preciso identificar o comportamento do cliente.
+
 ### Duas formas de enxergar o investidor
 
 - **Finanças tradicionais:** o investidor é **racional**, tem todas as informações, é **avesso ao risco** e olha a carteira como um todo.
@@ -55,3 +59,46 @@ As **bets** têm **valor esperado negativo** (a casa sempre ganha no longo prazo
 ### O investidor brasileiro
 
 Muita gente ainda não investe ou deixa tudo na poupança. Bancos digitais e influenciadores ampliaram o acesso, mas também espalham promessas fáceis. A **educação financeira** faz parte do papel do profissional certificado.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Depois de duas semanas de notícias sobre a quebra de um banco no exterior, um cliente quer tirar todo o dinheiro do banco, mesmo estando dentro do limite do FGC. Que heurística está agindo?
+> A **disponibilidade**: a notícia recente e marcante ganhou peso exagerado na avaliação do risco.
+
+> **Exemplo resolvido.** Um cliente ganhou dinheiro com três operações seguidas e passou a operar todos os dias, convencido de que "entende o mercado". Quais vieses?
+> **Excesso de confiança** e **autoatribuição** (atribui os ganhos à própria habilidade).
+
+> **Exemplo resolvido.** Uma empresa passa a inscrever automaticamente os funcionários no plano de previdência, com a opção de sair. A adesão aumenta muito. Que conceito explica isso?
+> Um **nudge**, que aproveita o viés do **status quo** a favor de uma boa decisão.
+
+### Erros mais comuns
+
+- Confundir aversão ao risco (finanças tradicionais) com aversão à perda (teoria do prospecto).
+- Confundir ancoragem (preso a um número) com disponibilidade (peso ao que vem fácil à memória).
+- Achar que os vieses só afetam investidores inexperientes (afetam profissionais também).
+- Confundir nudge (ajuda a boa decisão) com sludge (atrapalha).
+- Tratar apostas como forma de investimento.
+
+### Como cai na prova
+
+Situações de clientes para identificar o viés ou a heurística; conceitos de teoria do prospecto, efeito disposição, contabilidade mental, framing, efeito manada; efeitos no mercado (bolhas); nudge e sludge; estratégias para reduzir erros.
+
+### Teste-se
+
+1. Segundo a teoria do prospecto, o que pesa mais: a dor da perda ou o prazer do ganho de mesmo valor?
+2. O que é o efeito disposição?
+3. Um cliente separa o dinheiro "da herança" e trata-o de forma diferente do salário. Que conceito é esse?
+4. "Este fundo teve 95% de meses positivos" × "este fundo teve 5% de meses negativos". Que viés explica reações diferentes?
+5. O que é um sludge?
+
+> **Respostas.** 1) A **dor da perda**. 2) Vender rápido o que subiu e segurar o que caiu. 3) **Contabilidade mental**. 4) **Framing (enquadramento)**. 5) Um **atrito** que dificulta a boa decisão.
+
+### Para lembrar
+
+- Tradicionais (racional, avesso ao risco) × comportamentais (atalhos, emoções, avesso à perda).
+- Teoria do prospecto; efeito disposição; contabilidade mental.
+- Heurísticas: representatividade, disponibilidade, ancoragem, excesso de confiança.
+- Vieses: framing, confirmação, autoatribuição, status quo, efeito manada.
+- Comportamento coletivo: volatilidade, bolhas, crises.
+- Nudge (empurrãozinho) × sludge (atrito). Plano escrito, diversificação, rebalanceamento, aportes automáticos.
+- Apostas: valor esperado negativo; não são investimento.

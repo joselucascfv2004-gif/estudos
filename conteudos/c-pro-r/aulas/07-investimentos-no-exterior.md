@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Investir no exterior deixou de ser coisa de milionário: hoje é possível comprar BDRs, ETFs internacionais ou abrir conta em dólar com pouco dinheiro. Para clientes de alta renda, a **diversificação internacional** é parte importante da carteira. O C-Pro R cobra por que investir lá fora, o risco cambial, a paridade de juros, as formas de acesso, os títulos americanos e internacionais, os recibos de ações (ADR, BDR) e a nova tributação da Lei 14.754/2023.
+
 ### Por que investir lá fora
 
 - **Diversificação:** acesso a empresas e setores que não existem no Brasil.
@@ -59,3 +63,45 @@ Desde 2024, para pessoa física:
 
 > **Exemplo resolvido.** No ano, um investidor teve ganho de US$ 5 mil numa aplicação lá fora e perda de US$ 2 mil em outra. Sobre quanto incide o IR?
 > Sobre o **resultado líquido** de US$ 3 mil (convertido em reais pelas regras da lei), a 15%.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um investidor aplicou US$ 10 mil quando o dólar valia R$ 5,00. Um ano depois, o investimento vale US$ 10 500 e o dólar está a R$ 4,50. Ele ganhou ou perdeu em reais?
+> No início: R$ 50 000. No fim: 10 500 × 4,50 = **R$ 47 250**. Apesar do ganho de 5% em dólar, **perdeu** em reais por causa do **risco cambial**.
+
+> **Exemplo resolvido.** Um cliente quer exposição às 500 maiores empresas americanas sem enviar dinheiro ao exterior. Que opção existe?
+> Um **ETF** listado na B3 que replica o **S&P 500**, ou **BDRs** de ETFs americanos, comprados em reais.
+
+> **Exemplo resolvido.** Qual título do Tesouro americano protege contra a inflação dos EUA?
+> As **TIPS**.
+
+### Erros mais comuns
+
+- Achar que a valorização do ativo lá fora garante ganho em reais (o câmbio pode anular o ganho).
+- Achar que dá para ganhar o juro brasileiro "sem risco" convertendo a moeda (a paridade de juros elimina essa vantagem).
+- Confundir ADR (nos EUA) com BDR (no Brasil).
+- Achar que o ADR nível 1 ou 2 capta recursos (só o nível 3 e o 144-A envolvem oferta).
+- Achar que ainda vale a isenção mensal para aplicações no exterior (acabou com a Lei 14.754/2023).
+
+### Como cai na prova
+
+Vantagens e riscos da diversificação internacional; paridade de juros; formas de acesso; T-Bills, T-Notes, T-Bonds e TIPS; Global Bonds e Eurobonds; níveis de ADR, GDR e BDR; índices internacionais; tributação de aplicações no exterior e de offshores.
+
+### Teste-se
+
+1. Qual o principal risco adicional de investir no exterior?
+2. Qual título do Tesouro americano tem prazo de até 1 ano e não paga cupom?
+3. Qual nível de ADR permite captar recursos com oferta pública em bolsa?
+4. Qual a alíquota de IR sobre rendimentos de aplicações financeiras no exterior desde 2024?
+5. O que é um Eurobond?
+
+> **Respostas.** 1) O **risco cambial**. 2) A **T-Bill**. 3) O **nível 3**. 4) **15%**, apurado anualmente. 5) Um título emitido **fora do país da moeda** em que é denominado (ex.: em dólar, emitido na Europa).
+
+### Para lembrar
+
+- Exterior: diversificação e proteção contra a desvalorização do real; risco cambial.
+- Paridade de juros: diferencial de juros se reflete no câmbio futuro.
+- Acesso: remessa, conta em dólar, BDRs, ETFs e fundos locais.
+- EUA: T-Bills (até 1 ano), T-Notes (2 a 10), T-Bonds (20 e 30), TIPS (inflação). Global Bonds, Eurobonds.
+- ADR (níveis 1, 2, 3 e 144-A), GDR, BDR. S&P 500, Dow Jones, Nasdaq, MSCI.
+- Lei 14.754/2023: 15% ao ano sobre rendimentos no exterior, compensação de perdas, offshores tributadas.

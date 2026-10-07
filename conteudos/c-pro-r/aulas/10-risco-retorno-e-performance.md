@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Avaliar uma carteira não é só olhar quanto ela rendeu: é preciso perguntar **quanto risco** foi corrido para isso. O C-Pro R cobra os cálculos de retorno esperado, volatilidade, correlação, beta e CAPM, os índices de Sharpe e Treynor, os efeitos da alavancagem e as estratégias de rebalanceamento (buy and hold, constant mix, CPPI). As contas são simples, mas é preciso entender o que cada medida significa para explicar ao cliente.
+
 ### Retorno da carteira
 
 O retorno esperado de uma carteira é a **média ponderada** dos retornos dos ativos pelos seus pesos.
@@ -54,3 +58,46 @@ Investir com dinheiro emprestado **amplia ganhos e perdas** sobre o capital pró
 
 > **Exemplo resolvido.** Carteira de R$ 1 milhão, piso de R$ 900 mil e multiplicador 3. Quanto vai para ações?
 > 3 · (1 000 000 − 900 000) = **R$ 300 mil** em ações; o resto, R$ 700 mil, em renda fixa.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** A volatilidade diária de uma ação é de 2%. Qual a volatilidade anual aproximada? (√252 ≈ 15,9)
+> 2% × 15,9 ≈ **31,8% ao ano**.
+
+> **Exemplo resolvido.** Dois ativos têm a mesma volatilidade. Em que caso a carteira com 50% em cada terá o menor risco: correlação +1, 0 ou −1?
+> Com correlação **−1**: os movimentos se compensam e o risco pode chegar perto de zero. Com +1, não há benefício de diversificação.
+
+> **Exemplo resolvido.** Uma ação tem beta 0,8. Se o mercado cair 10%, o que se espera dela?
+> Queda de cerca de **8%**: ela é **menos sensível** que o mercado (ativo defensivo).
+
+### Erros mais comuns
+
+- Comparar fundos só pela rentabilidade, sem considerar o risco.
+- Multiplicar a volatilidade mensal por 12 (o correto é por **√12**).
+- Usar Treynor para carteiras pouco diversificadas (nesse caso, o Sharpe é mais adequado).
+- Achar que a alavancagem só amplia os ganhos (amplia as perdas também, e há o custo dos juros).
+- Confundir constant mix (volta aos pesos-alvo) com buy and hold (deixa os pesos variarem).
+
+### Como cai na prova
+
+Cálculos de retorno esperado (por pesos e por cenários), anualização da volatilidade, interpretação da correlação e do beta, CAPM, Sharpe e Treynor, efeito da alavancagem e exposição pelo CPPI, e a escolha da estratégia de rebalanceamento conforme o cenário.
+
+### Teste-se
+
+1. Carteira com 70% num ativo de retorno 8% e 30% em outro de 18%. Qual o retorno esperado?
+2. Livre de risco 10%, mercado 14%, beta 1,5. Qual o retorno exigido pelo CAPM?
+3. Um fundo rendeu 15%, com volatilidade de 10%, e o livre de risco é 10%. Qual o Sharpe?
+4. O que significa beta 1?
+5. No CPPI, com carteira de R$ 500 mil, piso de R$ 450 mil e multiplicador 4, quanto vai para o ativo de risco?
+
+> **Respostas.** 1) 0,7 · 8 + 0,3 · 18 = 5,6 + 5,4 = **11%**. 2) 10% + 1,5 · 4% = **16%**. 3) (15 − 10) ÷ 10 = **0,5**. 4) O ativo tende a se mover **igual ao mercado**. 5) 4 · (500 − 450) = **R$ 200 mil**.
+
+### Para lembrar
+
+- Retorno da carteira = média ponderada; com cenários, soma de probabilidade × retorno.
+- Volatilidade = desvio padrão; anual = mensal·√12 = diária·√252.
+- Correlação de −1 a +1; menor correlação, maior benefício da diversificação.
+- Beta = sensibilidade ao mercado; CAPM: rf + β·(rm − rf).
+- Sharpe = excesso ÷ volatilidade (risco total); Treynor = excesso ÷ beta (risco sistemático).
+- Alavancagem amplia ganhos e perdas; juros pesam.
+- Buy and hold (tendência), constant mix (oscilação, vende o que subiu), CPPI (multiplicador × colchão).

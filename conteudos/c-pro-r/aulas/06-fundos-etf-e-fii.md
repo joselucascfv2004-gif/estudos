@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Fundos, ETFs e fundos imobiliários estão presentes em quase toda carteira de alta renda. O C-Pro R aprofunda o que a CPA começou: documentos, gestão ativa e passiva, taxa de performance e linha d'água, ETFs e sua tributação, FII, FI-Infra, Fiagro, FIDC, fundos exclusivos e as consequências de um patrimônio líquido negativo. Saber explicar essas diferenças é essencial para recomendar o veículo certo a cada objetivo.
+
 ### Os documentos do fundo
 
 - **Regulamento:** as regras completas (política de investimento, taxas, prazos).
@@ -61,3 +65,46 @@ O ETF (fundo de índice) replica um índice e tem cotas negociadas na B3, como a
 
 > **Exemplo resolvido.** Num FIDC, os recebíveis tiveram calote de 8% e a cota subordinada representa 20% do fundo. O cotista sênior perde?
 > Em princípio, **não**: a subordinada absorve as perdas primeiro. Só se o calote passasse da proteção (20%) o sênior seria atingido.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** A cota de um fundo multimercado subiu de R$ 1,00 para R$ 1,20 (cobrou performance), caiu para R$ 1,10 e depois subiu para R$ 1,15. Cobra performance agora?
+> **Não**: pela **linha d'água**, só volta a cobrar depois que a cota superar **R$ 1,20**, o valor da última cobrança.
+
+> **Exemplo resolvido.** Um cliente quer exposição ao Ibovespa com custo baixo e liquidez diária na bolsa. Que produto combina?
+> Um **ETF** que replica o Ibovespa (gestão **passiva**, taxa baixa, negociado na B3).
+
+> **Exemplo resolvido.** Um FII de tijolo tem 30% de vacância. O que isso significa para o cotista?
+> Que 30% da área está **sem inquilino**, gerando menos aluguel e, portanto, **menos rendimento** distribuído.
+
+### Erros mais comuns
+
+- Achar que ETFs de ações têm a isenção de R$ 20 mil das ações (não têm).
+- Esquecer a linha d'água ao calcular a performance.
+- Achar que o cotista sênior de um FIDC absorve as primeiras perdas (quem absorve é a subordinada).
+- Achar que FII pode ser resgatado no próprio fundo (é fechado; vende-se na bolsa).
+- Achar que fundos exclusivos escapam do come-cotas (desde a Lei 14.754/2023, não escapam).
+
+### Como cai na prova
+
+Documentos do fundo; gestão ativa × passiva; taxas e linha d'água; ETFs e tributação; FII (tipos, riscos, IR, IFIX); FI-Infra e Fiagro; come-cotas e fundos exclusivos; PL negativo e responsabilidade; FIDC (sênior, mezanino, subordinada), FoF, FIP e clubes.
+
+### Teste-se
+
+1. Qual o objetivo de um fundo de gestão passiva?
+2. Qual a alíquota de IR sobre o ganho em ETF de ações (operações comuns)?
+3. O que é a linha d'água?
+4. Num FIDC, qual cota recebe por último?
+5. Qual o índice de referência dos fundos imobiliários?
+
+> **Respostas.** 1) **Replicar** um índice. 2) **15%**, sem isenção mensal. 3) A regra que impede cobrar performance enquanto a cota não **superar o valor da última cobrança**. 4) A **subordinada**. 5) O **IFIX**.
+
+### Para lembrar
+
+- Documentos: regulamento, termo de adesão e ciência de risco, lâmina.
+- Ativa (bater o benchmark) × passiva (replicar; ETFs).
+- Performance sobre o que supera o benchmark, respeitando a linha d'água.
+- ETF de ações: 15% (20% day trade), sem isenção de R$ 20 mil. ETF de renda fixa: IR na fonte pelo prazo médio.
+- FII: fechado, tijolo/papel/híbrido; vacância; rendimentos isentos (com condições); 20% no ganho; IFIX.
+- FI-Infra (isento), Fiagro. Come-cotas também nos exclusivos (Lei 14.754/2023).
+- FIDC: sênior, mezanino, subordinada. FoF, FIP, clube de investimento.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O profissional certificado pelo C-Pro R precisa **conquistar e manter** clientes, e fazer isso dentro das regras. Esta aula trata do processo de prospecção (o funil, os indicadores de esforço), das competências do profissional e das normas que regem o relacionamento com o cliente: o Código ANBIMA de Distribuição, a Resolução CVM 30 (suitability) e a Resolução CMN 4.949/2021. A prova cobra tanto a parte comercial quanto a regulatória.
+
 ### O funil de prospecção
 
 Conquistar clientes é um processo em etapas, e cada uma "afunila" a anterior:
@@ -63,3 +67,41 @@ O Banco Central tem regras equivalentes para as demais instituições que ele au
 
 > **Exemplo resolvido.** Um gerente diz ao cliente: "Libero o seu financiamento se você fizer um título de capitalização". Isso é permitido?
 > Não. É **venda casada**, proibida pela Resolução CMN 4.949/2021 e pelo Código de Defesa do Consumidor.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um assessor compra uma lista de contatos de um site desconhecido e começa a ligar para todos oferecendo investimentos. Qual o problema?
+> O uso de dados pessoais precisa de **base legal** e finalidade pela **LGPD**; uma lista obtida sem esse cuidado expõe o profissional e a instituição a sanções.
+
+> **Exemplo resolvido.** Um influenciador contratado por uma instituição posta que determinado fundo "rende mais que tudo". Quais regras se aplicam?
+> As regras de **divulgação** do Código ANBIMA valem também para **canais digitais**: nada de promessa, informação clara e completa, e aviso de que rentabilidade passada não garante a futura.
+
+### Erros mais comuns
+
+- Focar só no volume de reuniões e ignorar a taxa de conversão.
+- Achar que as regras de publicidade não valem para as redes sociais.
+- Recomendar antes de conhecer objetivos, liquidez e origem dos recursos do cliente.
+- Esconder a remuneração do distribuidor quando o cliente pergunta (há regras de transparência).
+- Achar que oferecer um produto adicional é sempre venda casada (só é se for **condição** para outro).
+
+### Como cai na prova
+
+Etapas do funil e indicadores; competências; informações a levantar com o cliente; pontos do Código ANBIMA de Distribuição; regras da Resolução CVM 30 e da Resolução CMN 4.949/2021; situações de venda casada e de divulgação inadequada.
+
+### Teste-se
+
+1. Quais são as etapas do funil de prospecção?
+2. O que mede a taxa de conversão?
+3. Quais os três critérios do suitability pela Resolução CVM 30?
+4. O que a Resolução CMN 4.949/2021 proíbe expressamente?
+5. As regras de divulgação da ANBIMA valem para postagens em redes sociais?
+
+> **Respostas.** 1) **Contatos**, **prospects qualificados**, **reuniões**, **apresentação da estratégia** e **ativação**. 2) A proporção de contatos ou reuniões que viram **clientes** (ou a próxima etapa). 3) **Objetivos**, **situação financeira** e **conhecimento**. 4) A **venda casada**. 5) **Sim**.
+
+### Para lembrar
+
+- Funil: contatos → prospects → reuniões → estratégia → ativação. Canais online, presenciais e parcerias.
+- Indicadores: volume e conversão em cada etapa; indicações. Base de contatos conforme a LGPD.
+- Perguntar: objetivos, liquidez, conhecimento, origem dos recursos, comprometimento da renda.
+- Código ANBIMA de Distribuição: conduta, divulgação (inclusive digital), remuneração transparente, KYC, suitability, risco dos produtos.
+- CVM 30: suitability. CMN 4.949/2021: ética, adequação, transparência; venda casada proibida; ouvidoria.
