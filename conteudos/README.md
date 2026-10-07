@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**10177 questões** em **213 tópicos**.
+**10427 questões** em **218 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -400,3 +400,15 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Teoria da Contabilidade](ufcg-contabeis-p4/03-teoria-da-contabilidade.md) | Faculdade | 17 | 17 | 16 |
 | [Direito do Trabalho e Previdenciário](ufcg-contabeis-p4/04-direito-do-trabalho-e-previdenciario.md) | Faculdade | 17 | 17 | 16 |
 | [Análise Econômica II](ufcg-contabeis-p4/05-analise-economica-ii.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 5º período — 250 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Contabilidade de Custos](ufcg-contabeis-p5/01-contabilidade-de-custos.md) | Faculdade | 17 | 17 | 16 |
+| [Metodologias e Técnicas de Pesquisa Científica](ufcg-contabeis-p5/02-metodologias-e-tecnicas-de-pesquisa-cientifica.md) | Faculdade | 17 | 17 | 16 |
+| [Orçamento Governamental](ufcg-contabeis-p5/03-orcamento-governamental.md) | Faculdade | 17 | 17 | 16 |
+| [Planejamento e Contabilidade Tributária](ufcg-contabeis-p5/04-planejamento-e-contabilidade-tributaria.md) | Faculdade | 17 | 17 | 16 |
+| [Laboratório de Prática I – Fiscal](ufcg-contabeis-p5/05-laboratorio-de-pratica-i-fiscal.md) | Faculdade | 17 | 17 | 16 |

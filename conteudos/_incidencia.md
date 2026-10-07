@@ -184,3 +184,8 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p4/direito-do-trabalho-e-previdenciario: 5
 - ufcg-contabeis-p4/metodos-quantitativos: 5
 - ufcg-contabeis-p4/teoria-da-contabilidade: 5
+- ufcg-contabeis-p5/contabilidade-de-custos: 5
+- ufcg-contabeis-p5/laboratorio-de-pratica-i-fiscal: 5
+- ufcg-contabeis-p5/metodologias-e-tecnicas-de-pesquisa-cientifica: 5
+- ufcg-contabeis-p5/orcamento-governamental: 5
+- ufcg-contabeis-p5/planejamento-e-contabilidade-tributaria: 5

@@ -314,6 +314,7 @@ ementa: Tópicos de contabilidade social. Modelos simplificados de determinaçã
 
 ### 3103004 · Contabilidade de Custos · 60h · Obrigatória
 pre: Contabilidade Intermediária I
+app: ufcg-contabeis-p5/contabilidade-de-custos
 ementa: O custo nas empresas. Terminologia de custos. Princípios contábeis aplicados a custos. Custos diretos, indiretos, fixos e variáveis. Etapas da implantação de sistemas de custos. Esquema básico da contabilidade de custos: custo do produto em elaboração, custo do produto acabado e custo do produto vendido. Critérios de rateio dos custos indiretos. Departamentalização. Sistemas de acumulação de custos: produção por ordem, produção contínua e produção conjunta. Métodos de custeio: custeio por absorção, custeio variável e ABC. Principais métodos e formação do preço de venda.
 - Terminologia: gasto, investimento, custo, despesa, perda e desperdício
 - Princípios contábeis aplicados a custos
@@ -327,6 +328,7 @@ ementa: O custo nas empresas. Terminologia de custos. Princípios contábeis apl
 
 ### 3103149 · Metodologias e Técnicas de Pesquisa Científica · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p5/metodologias-e-tecnicas-de-pesquisa-cientifica
 ementa: Metodologia científica. Conhecimento e saber: o conhecimento científico e outros tipos de conhecimento. Principais abordagens metodológicas. Contextualização da ciência contemporânea. Documentação científica. Tipos de trabalho acadêmico científico. Pesquisa. Tipos de pesquisa. Projeto de pesquisa.
 - Conhecimento científico × senso comum, filosófico e religioso
 - Método científico e abordagens metodológicas (dedutivo, indutivo, hipotético-dedutivo)
@@ -338,6 +340,7 @@ ementa: Metodologia científica. Conhecimento e saber: o conhecimento científic
 
 ### 3103130 · Orçamento Governamental · 60h · Obrigatória
 pre: Gestão de Finanças Públicas
+app: ufcg-contabeis-p5/orcamento-governamental
 ementa: Lei 4.320/64 e suas alterações; Lei de Responsabilidade Fiscal; Orçamento público e suas Leis; créditos suplementares adicionais; patrimônio público; Organização, planejamento e ação estatal brasileira. O processo orçamentário no Brasil: dimensões históricas e quadros de referência estruturais da tributação, da organização do orçamento e das práticas decisórias no contexto das relações com o poder legislativo. Orçamento Participativo.
 - Lei 4.320/64: princípios orçamentários, receita e despesa, estágios
 - Lei de Responsabilidade Fiscal (LC 101/2000): limites, metas, RGF e RREO
@@ -350,6 +353,7 @@ ementa: Lei 4.320/64 e suas alterações; Lei de Responsabilidade Fiscal; Orçam
 
 ### 3103131 · Planejamento e Contabilidade Tributária · 60h · Obrigatória
 pre: Contabilidade Básica; Direito Financeiro e Tributário
+app: ufcg-contabeis-p5/planejamento-e-contabilidade-tributaria
 ementa: Sistema tributário nacional: conceitos básicos. Principais funções da contabilidade tributária. Tributos indiretos, provisão para créditos de liquidação duvidosa. Imposto de renda e contribuição social. PIS e Cofins não cumulativos. Aspectos fiscais de avaliação de ativo. Juros sobre capital próprio e tributação internacional, Regime Tributário Transitório – RTT. SIMPLES Nacional.
 - Sistema tributário nacional e funções da contabilidade tributária
 - Tributos indiretos: ICMS, IPI e ISS (cálculo, crédito e débito)
@@ -364,6 +368,7 @@ ementa: Sistema tributário nacional: conceitos básicos. Principais funções d
 
 ### 3103132 · Laboratório de Prática I – Fiscal · 60h · Obrigatória
 pre: Contabilidade Intermediária I
+app: ufcg-contabeis-p5/laboratorio-de-pratica-i-fiscal
 ementa: Emissão de notas fiscais de vendas, faturas e duplicatas. Escrituração dos livros: registro de entradas de mercadorias, registro de saídas de mercadorias, registro de apuração do ICMS e registro de apuração do IPI. Elaboração de documentos de arrecadação. E-NF, Redarf, Pesquisas Fiscais da Receita Federal, Dacon - Demonstrativo de Apuração de Contribuições Sociais; DBF - Declaração de Benefícios Fiscais; DCide - Declaração Cide - Combustíveis; DCP - Demonstrativo do Crédito Presumido; DCTF - Declaração de Débitos e Créditos Tributários Federais; Decred - Declaração de Operações com Cartões de Crédito; DIF - Bebidas; DIF - Cigarros – Declaração Especial de Informações Fiscais Relativas à Tributação de Cigarros; DIF - Papel Imune; DIMOB - Declaração de Informações sobre Atividades Imobiliárias; Dimof - Declaração de Informações sobre Movimentação Financeira; DIPI - Declaração do Imposto sobre Produtos Industrializados - Bebidas; DIPJ – Declaração de Informações Econômico-fiscais da Pessoa Jurídica (inclusive Imunes e Isentas); DIRF - Declaração do Imposto de Renda Retido na Fonte; DITR - Declaração do Imposto sobre a Propriedade Territorial Rural; DNF - Demonstrativo de Notas Fiscais; DOI - Declaração de Operações Imobiliárias; DSPJ - Declaração Simplificada da Pessoa Jurídica (Simples e Empresas Inativas); GFIP/SEFIP - Guia de Recolhimento do FGTS e Informações à Previdência Social; Paes - Declaração Paes - Parcelamento Especial; PER/DCOMP – Pedido Eletrônico de Restituição ou Ressarcimento e da Declaração de Compensação.
 - Nota fiscal eletrônica (NF-e), faturas e duplicatas
 - Livros fiscais: registro de entradas, saídas e apuração de ICMS e IPI
