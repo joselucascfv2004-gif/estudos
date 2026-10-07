@@ -8,6 +8,7 @@ import { useProgresso } from '../estado/ProgressoContext';
 import { nivelSugerido } from '../estado/progresso';
 import { Botao, Cabecalho, Chip } from './componentes';
 import { ComIcone } from './Icone';
+import { ListaVideos } from './ListaVideos';
 import { Markdown } from './Markdown';
 import { criarEstilos, useCores } from './tema';
 
@@ -36,6 +37,14 @@ export default function TelaResumo() {
           <View style={s.abas}>
             <Chip testID="aba-aula" texto="Aula completa" icone="school-outline" ativo={verAula} cor={info.disciplina.cor} onPress={() => setVerAula(true)} />
             <Chip testID="aba-resumo" texto="Resumo" icone="text-short" ativo={!verAula} cor={info.disciplina.cor} onPress={() => setVerAula(false)} />
+          </View>
+        )}
+        {(verAula || !temAula) && !!info.topico.videos?.length && (
+          <View style={s.videos}>
+            <ComIcone icone="play-box-outline" cor={info.disciplina.cor} tamanho={18} estiloTexto={s.videosTitulo}>
+              Prefere assistir? Vídeo-aulas gratuitas
+            </ComIcone>
+            <ListaVideos topico={info.topico.id} videos={info.topico.videos} cor={info.disciplina.cor} />
           </View>
         )}
         <Markdown texto={texto} cor={info.disciplina.cor} />
@@ -68,4 +77,6 @@ export default function TelaResumo() {
 const useEstilos = criarEstilos((c) => ({
   disciplina: { fontSize: 13, fontWeight: '800', color: c.textoSuave, marginBottom: 10 },
   abas: { flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginBottom: 8 },
+  videos: { gap: 10, marginTop: 4, marginBottom: 18 },
+  videosTitulo: { fontSize: 15, fontWeight: '800', color: c.texto },
 }));

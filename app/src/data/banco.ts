@@ -33,6 +33,18 @@ export type Questao = {
   m?: string;
 };
 
+/** Vídeo-aula do YouTube indicada para o assunto (o app toca pelo player oficial do YouTube). */
+export type Video = {
+  /** id do vídeo no YouTube */
+  id: string;
+  /** duração, como "8:47" */
+  d: string;
+  /** canal (autor) */
+  c: string;
+  /** título */
+  t: string;
+};
+
 export type Topico = {
   id: string;
   titulo: string;
@@ -50,6 +62,8 @@ export type Topico = {
   incidencia?: number;
   /** ids de questões oficiais (ENEM) de outros arquivos classificadas neste assunto */
   oficiais?: string[];
+  /** vídeo-aulas gratuitas do YouTube indicadas para o assunto */
+  videos?: Video[];
 };
 
 /** As alternativas desta questão podem ser embaralhadas? (não em provas oficiais nem em certo/errado) */

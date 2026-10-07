@@ -18,6 +18,7 @@ function Navegacao() {
         <Stack.Screen name="simulado" options={{ gestureEnabled: false, animation: 'slide_from_bottom' }} />
         <Stack.Screen name="salvas" />
         <Stack.Screen name="resumo" />
+        <Stack.Screen name="video" />
         <Stack.Screen name="dificuldades" />
         <Stack.Screen name="redacao/index" />
         <Stack.Screen name="redacao/[id]" />

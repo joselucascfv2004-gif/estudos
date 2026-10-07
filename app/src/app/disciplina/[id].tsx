@@ -139,6 +139,21 @@ export default function TelaDisciplina() {
                 }}
               />
             )}
+            {!!aberto.videos?.length && (
+              <Botao
+                testID="btn-video"
+                icone="play-box-outline"
+                titulo={aberto.videos.length > 1 ? `Assistir vídeo-aulas (${aberto.videos.length})` : 'Assistir vídeo-aula'}
+                contorno
+                cor={d.cor}
+                pequeno
+                estilo={{ marginTop: 8 }}
+                onPress={() => {
+                  setAberto(null);
+                  router.push({ pathname: '/video', params: { topico: aberto.id } });
+                }}
+              />
+            )}
             {(() => {
               const des = desempenhoTopico(p, aberto.id);
               if (des.respostas < MIN_RESPOSTAS_AVALIAR) return null;

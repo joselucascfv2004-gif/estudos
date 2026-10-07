@@ -38,6 +38,8 @@ const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'];
 const PROVAS_VALIDAS = ['ENEM', 'Militares', 'Concursos', 'Certificações'];
 
 const ARQ_INCIDENCIA = path.join(PASTA_CONTEUDOS, '_incidencia.md');
+const ARQ_VIDEOS = path.join(PASTA_CONTEUDOS, '_videos.md');
+const MAX_VIDEOS = 4;
 
 const erros = [];
 const erro = (arquivo, linha, msg) => erros.push(`${path.relative(RAIZ, arquivo)}:${linha}: ${msg}`);
@@ -191,8 +193,28 @@ function lerIncidencia() {
   return mapa;
 }
 
+/** Lê conteudos/_videos.md: linhas "- disciplina/assunto: ID | duração | canal | título" (vídeos do YouTube). */
+function lerVideos() {
+  const mapa = new Map();
+  if (!fs.existsSync(ARQ_VIDEOS)) return mapa;
+  fs.readFileSync(ARQ_VIDEOS, 'utf8')
+    .split(/\r?\n/)
+    .forEach((linha, i) => {
+      if (!linha.startsWith('- ')) return;
+      const m = linha.match(/^-\s+([\w-]+\/[\w-]+):\s*([\w-]{11})\s*\|\s*(\d{1,2}(?::\d{2}){1,2})\s*\|\s*([^|]+?)\s*\|\s*(.+?)\s*$/);
+      if (!m) return erro(ARQ_VIDEOS, i + 1, 'linha fora do formato "- disciplina/assunto: ID | duração | canal | título"');
+      const lista = mapa.get(m[1]) ?? [];
+      if (lista.some((v) => v.id === m[2])) erro(ARQ_VIDEOS, i + 1, `vídeo ${m[2]} repetido no mesmo assunto`);
+      lista.push({ id: m[2], d: m[3], c: m[4], t: m[5], linha: i + 1 });
+      mapa.set(m[1], lista);
+    });
+  for (const [id, lista] of mapa) if (lista.length > MAX_VIDEOS) erro(ARQ_VIDEOS, lista[MAX_VIDEOS].linha, `"${id}" tem mais de ${MAX_VIDEOS} vídeos`);
+  return mapa;
+}
+
 function main() {
   const incidencia = lerIncidencia();
+  const videos = lerVideos();
   const disciplinas = [];
   const questoes = {};
   const vinculos = [];
@@ -234,6 +256,7 @@ function main() {
         ...lerAula(dir, f),
         ...(meta.ordem === 'original' ? { ordemOriginal: true } : {}),
         ...(incidencia.has(id) ? { incidencia: incidencia.get(id) } : {}),
+        ...(videos.has(id) ? { videos: videos.get(id).map(({ linha, ...v }) => v) } : {}),
       });
       const contador = [0, 0, 0];
       questoes[id] = qs.map((q) => {
@@ -251,6 +274,7 @@ function main() {
   disciplinas.sort((a, b) => a.ordem - b.ordem || a.nome.localeCompare(b.nome));
   const ids = new Set(disciplinas.flatMap((d) => d.topicos.map((t) => t.id)));
   for (const id of incidencia.keys()) if (!ids.has(id)) erro(ARQ_INCIDENCIA, 0, `assunto "${id}" não existe`);
+  for (const [id, lista] of videos) if (!ids.has(id)) erro(ARQ_VIDEOS, lista[0].linha, `assunto "${id}" não existe`);
 
   // questões oficiais classificadas por assunto: o tópico guarda só os ids (sem duplicar o texto)
   const topicoPorId = new Map(disciplinas.flatMap((d) => d.topicos.map((t) => [t.id, t])));
