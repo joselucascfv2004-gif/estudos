@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O módulo mede **distância** e **erro**: quanto uma temperatura variou, quanto uma peça pode fugir da medida certa, quão longe um valor está de outro. Ele aparece em tolerâncias de fabricação, em variações de temperatura e de preço e em gráficos em forma de "V". É mais cobrado nas provas militares e de vestibulares, mas a ideia de "distância na reta" também ajuda no ENEM.
+
 ### Módulo é distância
 
 O módulo de um número, |x|, é a **distância** entre esse número e o zero na reta. Como distância nunca é negativa:
@@ -61,3 +65,33 @@ A imagem de |x| + b é [b, +∞), porque o menor valor de |x| é zero.
 f(x) = |x − a| + |x − b| é a soma das distâncias de x até a e até b. Para qualquer x entre a e b, essa soma é exatamente |a − b|, e esse é o menor valor possível.
 
 Com três pontos, como |x − 1| + |x − 6| + |x − 13|, o mínimo acontece no ponto do meio (x = 6): 5 + 0 + 7 = **12**. Esse é o raciocínio de "onde construir um posto para atender três casas numa estrada".
+
+### Erros mais comuns
+
+- Achar que |−x| é sempre negativo: o módulo nunca é negativo.
+- Resolver |A| = k considerando só o caso A = k e esquecendo A = −k.
+- Aceitar solução de |A| = k quando k é negativo (não há solução).
+- Inverter os casos das inequações: |A| < k é "dentro" (um intervalo só); |A| > k é "fora" (duas partes).
+- Escrever √(x²) = x: o certo é |x|.
+
+### Como cai na prova
+
+Provas militares cobram equações e inequações modulares (às vezes com x dos dois lados), gráficos de funções modulares deslocadas e áreas entre gráficos. Problemas de tolerância (|x − valor ideal| ≤ erro) aparecem em contextos de fabricação e controle de qualidade.
+
+### Teste-se
+
+1. Quanto vale |−7| + |3|?
+2. Resolva |x + 1| = 5.
+3. Resolva |x − 2| < 3.
+4. Resolva |2x| ≥ 6.
+5. Onde fica o "bico" do gráfico de f(x) = |x + 3| − 2?
+
+> **Respostas.** 1) **10**. 2) x + 1 = 5 ou x + 1 = −5 → **x = 4 ou x = −6**. 3) −3 < x − 2 < 3 → **−1 < x < 5**. 4) 2x ≥ 6 ou 2x ≤ −6 → **x ≥ 3 ou x ≤ −3**. 5) Em **(−3, −2)**.
+
+### Para lembrar
+
+- |x| é a distância de x até o zero; |a − b| é a distância entre a e b.
+- |A| = k (k > 0): A = k ou A = −k. |A| = negativo: sem solução.
+- |A| < k: −k < A < k. |A| > k: A < −k ou A > k.
+- √(x²) = |x|.
+- f(x) = |x − a| + b: "V" com bico em (a, b).

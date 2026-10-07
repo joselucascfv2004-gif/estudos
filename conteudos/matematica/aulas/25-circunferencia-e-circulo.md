@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Rodas, relógios, pizzas, pistas de atletismo, canteiros e engrenagens: o círculo está em todo lugar. Este assunto ensina a calcular comprimentos (quanto uma roda anda em uma volta), áreas (quanto de grama num canteiro redondo), pedaços de círculo (fatias e arcos) e as propriedades dos ângulos e das retas ligados à circunferência. No ENEM, os cálculos de comprimento e área são os mais cobrados; nas provas militares, entram também ângulos inscritos, potência de ponto e polígonos inscritos.
+
 ### Circunferência e círculo
 
 A **circunferência** é a linha: todos os pontos a uma mesma distância r (o raio) de um centro. O **círculo** é a região dentro dela. O diâmetro mede 2r.
@@ -65,3 +69,33 @@ O raio da circunferência **inscrita** num triângulo sai de Área = r · p (p �
 O mostrador tem 360° divididos em 12 horas: **30° por hora**. O ponteiro dos minutos anda 6° por minuto, e o das horas, 0,5° por minuto.
 
 > **Exemplo resolvido.** Às 6h30, o ponteiro das horas está em 6 · 30 + 30 · 0,5 = 195° e o dos minutos em 180°. O ângulo entre eles é **15°**.
+
+### Erros mais comuns
+
+- Usar o diâmetro no lugar do raio nas fórmulas (C = 2πr e A = πr²).
+- Confundir circunferência (a linha, mede-se o comprimento) com círculo (a região, mede-se a área).
+- Achar que o ângulo inscrito mede o arco inteiro: ele mede a **metade**.
+- Esquecer que a tangente é perpendicular ao raio (é isso que forma o triângulo retângulo).
+- No relógio, esquecer que o ponteiro das horas também anda enquanto os minutos passam.
+
+### Como cai na prova
+
+O ENEM pede quanto uma roda percorre, quantas voltas dá, área de canteiros, pistas e coroas circulares, fatias de pizza e gráficos de setores. As provas militares cobram ângulos na circunferência, cordas, tangentes, potência de ponto, polígonos inscritos e circunscritos e ângulos dos ponteiros do relógio.
+
+### Teste-se
+
+1. Qual o comprimento de uma circunferência de raio 10 cm? (Use π = 3,14.)
+2. Qual a área de um setor de 90° num círculo de raio 4? (Use π = 3.)
+3. Um ângulo inscrito enxerga um arco de 100°. Quanto mede o ângulo?
+4. Um ponto está a 10 cm do centro de uma circunferência de raio 6 cm. Quanto mede o segmento tangente traçado dele?
+5. Um hexágono regular está inscrito num círculo de raio 5 cm. Qual o perímetro do hexágono?
+
+> **Respostas.** 1) 2 · 3,14 · 10 = **62,8 cm**. 2) (1/4) · 3 · 16 = **12**. 3) **50°**. 4) √(100 − 36) = **8 cm**. 5) Lado = raio = 5; perímetro **30 cm**.
+
+### Para lembrar
+
+- C = 2πr; A = πr². Arco e setor: a fração α/360 da volta.
+- Ângulo central = arco; ângulo inscrito = metade do arco; inscrito num diâmetro = 90°.
+- Tangente ⊥ raio; de um ponto externo, as duas tangentes são iguais.
+- Potência de ponto: PA · PB = PC · PD; PT² = PA · PB.
+- Relógio: 30° por hora; ponteiro dos minutos 6°/min, das horas 0,5°/min.

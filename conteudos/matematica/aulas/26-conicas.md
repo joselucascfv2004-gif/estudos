@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Cortando um cone com um plano, aparecem quatro curvas: a circunferência, a **elipse**, a **parábola** e a **hipérbole**. Elas estão na natureza e na tecnologia: os planetas giram em elipses ao redor do Sol; antenas parabólicas e faróis de carro usam a parábola para concentrar ou espalhar sinais e luz; sistemas de localização usam hipérboles. É um assunto cobrado principalmente nas provas militares (EsPCEx, AFA, Escola Naval) e em vestibulares.
+
 ### Três curvas, um mesmo jogo
 
 Elipse, hipérbole e parábola se chamam **cônicas** porque aparecem quando um plano corta um cone. Cada uma tem uma regra com distâncias até pontos especiais, os **focos**. Saber a regra resolve metade das questões; a outra metade é ler a equação.
@@ -70,3 +74,32 @@ Se a equação vier "aberta", **complete quadrados**.
 - Coeficientes **diferentes**, mesmo sinal: elipse.
 - **Sinais opostos**: hipérbole.
 - **Só um** dos dois ao quadrado: parábola.
+
+### Erros mais comuns
+
+- Trocar as relações: na elipse, a² = b² + c²; na hipérbole, c² = a² + b².
+- Achar que o "a" da elipse é sempre o número sob o x²: a é o **maior** semieixo (o maior denominador).
+- Esquecer de completar quadrados quando o centro não está na origem.
+- Na parábola, confundir p (distância do vértice ao foco) com 4p.
+- Confundir os sinais: soma de quadrados positivos com coeficientes diferentes é elipse; diferença é hipérbole.
+
+### Como cai na prova
+
+Provas militares pedem elementos das cônicas (centro, focos, vértices, eixos, excentricidade, diretriz), a identificação da curva pela equação, o completamento de quadrados e, às vezes, interseções com retas. Aplicações como antenas parabólicas e órbitas aparecem em textos de contexto.
+
+### Teste-se
+
+1. Na elipse x²/16 + y²/9 = 1, quanto mede o eixo maior? E o c?
+2. Qual o foco da parábola y² = 8x?
+3. Na hipérbole x²/16 − y²/9 = 1, quanto vale c?
+4. Identifique: x² + y² = 9; 4x² + 9y² = 36; x² − y² = 1; y = x².
+5. Qual a excentricidade de uma elipse com a = 5 e c = 3?
+
+> **Respostas.** 1) a = 4, eixo maior **8**; c² = 16 − 9 = 7, **c = √7**. 2) 4p = 8 → p = 2 → foco **(2, 0)**. 3) c² = 16 + 9 = 25 → **c = 5**. 4) **Circunferência, elipse, hipérbole e parábola**. 5) e = c/a = **0,6**.
+
+### Para lembrar
+
+- Elipse: soma das distâncias aos focos é constante (2a); a² = b² + c²; 0 < e < 1.
+- Hipérbole: diferença das distâncias é constante (2a); c² = a² + b²; e > 1.
+- Parábola: distância ao foco = distância à diretriz; y² = 4px tem foco (p, 0).
+- Centro fora da origem: complete quadrados.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Muitas situações reais são "uma coisa depois da outra": um preço com desconto e depois com imposto, uma temperatura convertida duas vezes, uma área que depende de um lado que depende do perímetro. Isso é **composição** de funções. Outras vezes queremos o caminho de volta: sei quanto paguei, quero saber quanto andei de táxi. Isso é a **função inversa**. O assunto aparece no ENEM em contexto e nas provas militares de forma mais algébrica.
+
 ### Função como "máquina"
 
 Pense numa função como uma máquina: entra um número x, sai f(x). Com essa imagem, composição e inversa ficam fáceis:
@@ -61,3 +65,35 @@ O gráfico de f⁻¹ é o "espelho" do gráfico de f em relação à reta **y = 
 - Não se divide por zero: em f(x) = 5/(x − 6), o domínio é ℝ − {6}.
 - Raiz quadrada exige radicando ≥ 0: f(x) = √(x − 1) só existe para x ≥ 1.
 - Na composta f(g(x)), olhe o que **entra** em f: se f(x) = √x e g(x) = x − 4, precisa valer x − 4 ≥ 0.
+
+### Erros mais comuns
+
+- Inverter a ordem da composta: em f(g(x)), quem age **primeiro** é g.
+- Achar que f⁻¹(x) é 1/f(x). A inversa desfaz a função; não é o inverso do número.
+- Esquecer de trocar x por y antes de isolar, na hora de achar a lei da inversa.
+- Procurar inversa de uma função que não é bijetora (como x² em todos os reais).
+- Ignorar o domínio da composta: o que entra em f precisa estar no domínio de f.
+
+### Como cai na prova
+
+O ENEM usa composições em descontos e acréscimos sucessivos, conversões de unidades e escalas, e inversas para "descobrir a entrada a partir da saída" (quantos km, quantos produtos, que temperatura). Provas militares pedem leis de compostas e inversas, domínio e gráficos simétricos em relação a y = x.
+
+### Teste-se
+
+Use f(x) = x + 2 e g(x) = 3x.
+
+1. Quanto vale f(g(2))?
+2. Quanto vale g(f(2))?
+3. Qual a lei da inversa de h(x) = 2x − 5?
+4. Se k(x) = 4x + 1, quanto vale k⁻¹(13)?
+5. Qual o domínio de m(x) = √(x − 5)?
+
+> **Respostas.** 1) g(2) = 6; f(6) = **8**. 2) f(2) = 4; g(4) = **12**. 3) x = 2y − 5 → **h⁻¹(x) = (x + 5)/2**. 4) 4x + 1 = 13 → **3**. 5) **x ≥ 5**.
+
+### Para lembrar
+
+- f(g(x)): aplique g primeiro, depois f. A ordem importa.
+- Lei da composta: troque o x de f pela lei de g.
+- Inversa: troque x e y e isole y. f(a) = b ⇔ f⁻¹(b) = a.
+- Só tem inversa a função bijetora (teste da reta horizontal).
+- Gráfico da inversa: espelho em relação à reta y = x.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Saber se um número divide outro, decompor números em primos e calcular MDC e MMC resolve problemas muito práticos: dividir coisas em grupos iguais sem sobra, descobrir quando eventos voltam a coincidir, achar o dia da semana de uma data distante, simplificar frações. É um dos assuntos favoritos das provas militares e de concursos, e aparece no ENEM em problemas de organização (kits, pacotes, escalas de trabalho, calendários).
+
 ### Dividir, quociente e resto
 
 Toda divisão de números inteiros pode ser escrita assim:
@@ -73,3 +77,33 @@ No nosso sistema (base 10), cada posição vale uma potência de 10. Em outra ba
 
 > **Exemplo resolvido.** 1011 na base 2 = 1·8 + 0·4 + 1·2 + 1·1 = **11**.
 > Para ir de decimal a binário, divida por 2 várias vezes e leia os restos de baixo para cima: 25 → **11001**.
+
+### Erros mais comuns
+
+- Dizer que 1 é primo (não é: tem um divisor só).
+- Testar primalidade dividindo por todos os números até n: basta ir até √n.
+- Trocar MDC por MMC: "maior pedaço igual sem sobra" é MDC; "quando coincidem de novo" é MMC.
+- No calendário, contar o próprio dia de hoje ou esquecer que o resto 0 cai no mesmo dia da semana.
+- No número de divisores, esquecer de somar 1 a cada expoente antes de multiplicar.
+
+### Como cai na prova
+
+O ENEM traz problemas de organização: montar kits iguais com o maior número de itens, escalas de plantão que coincidem, ônibus e semáforos, peças de tamanhos diferentes cortadas em partes iguais. Provas militares e de concursos cobram critérios de divisibilidade, número de divisores, restos de potências, calendário e zeros finais de fatorial.
+
+### Teste-se
+
+1. O número 7 452 é divisível por 9?
+2. Fatore 180 em primos e diga quantos divisores ele tem.
+3. Uma escola tem 84 meninos e 60 meninas e quer formar grupos iguais, só de meninos ou só de meninas, com o maior número possível de alunos. Quantos alunos por grupo?
+4. Dois faróis piscam a cada 12 e 18 segundos. Piscaram juntos agora. Daqui a quanto tempo piscam juntos de novo?
+5. Hoje é domingo. Que dia da semana será daqui a 45 dias?
+
+> **Respostas.** 1) 7 + 4 + 5 + 2 = 18, múltiplo de 9: **sim**. 2) 180 = 2² · 3² · 5 → (2 + 1)(2 + 1)(1 + 1) = **18 divisores**. 3) MDC(84, 60) = **12 alunos**. 4) MMC(12, 18) = **36 segundos**. 5) 45 = 7 · 6 + 3: **quarta-feira**.
+
+### Para lembrar
+
+- Critérios: 2 (par), 3 e 9 (soma dos algarismos), 5 (0 ou 5), 4 (dois últimos algarismos).
+- Primo: só 1 e ele mesmo; teste até √n.
+- Número de divisores: (expoentes + 1) multiplicados.
+- MDC: primos comuns, menor expoente. MMC: todos os primos, maior expoente. MDC · MMC = a · b.
+- Ciclos (calendário, potências): use o resto da divisão.
