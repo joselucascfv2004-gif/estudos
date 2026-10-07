@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**9927 questões** em **208 tópicos**.
+**10177 questões** em **213 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -388,3 +388,15 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Direito Financeiro e Tributário](ufcg-contabeis-p3/04-direito-financeiro-e-tributario.md) | Faculdade | 17 | 17 | 16 |
 | [Análise Econômica I](ufcg-contabeis-p3/05-analise-economica-i.md) | Faculdade | 17 | 17 | 16 |
 | [Gestão de Finanças Públicas](ufcg-contabeis-p3/06-gestao-de-financas-publicas.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 4º período — 250 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Contabilidade Societária](ufcg-contabeis-p4/01-contabilidade-societaria.md) | Faculdade | 17 | 17 | 16 |
+| [Métodos Quantitativos](ufcg-contabeis-p4/02-metodos-quantitativos.md) | Faculdade | 17 | 17 | 16 |
+| [Teoria da Contabilidade](ufcg-contabeis-p4/03-teoria-da-contabilidade.md) | Faculdade | 17 | 17 | 16 |
+| [Direito do Trabalho e Previdenciário](ufcg-contabeis-p4/04-direito-do-trabalho-e-previdenciario.md) | Faculdade | 17 | 17 | 16 |
+| [Análise Econômica II](ufcg-contabeis-p4/05-analise-economica-ii.md) | Faculdade | 17 | 17 | 16 |

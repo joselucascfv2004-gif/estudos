@@ -179,3 +179,8 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p3/estatistica: 5
 - ufcg-contabeis-p3/gestao-de-financas-publicas: 5
 - ufcg-contabeis-p3/historia-do-pensamento-contabil: 5
+- ufcg-contabeis-p4/analise-economica-ii: 5
+- ufcg-contabeis-p4/contabilidade-societaria: 5
+- ufcg-contabeis-p4/direito-do-trabalho-e-previdenciario: 5
+- ufcg-contabeis-p4/metodos-quantitativos: 5
+- ufcg-contabeis-p4/teoria-da-contabilidade: 5

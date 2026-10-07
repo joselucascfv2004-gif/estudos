@@ -244,6 +244,7 @@ ementa: No SIGAA, a ementa cadastrada para esta disciplina é a mesma de Sistema
 
 ### 3103128 · Contabilidade Societária · 60h · Obrigatória
 pre: Contabilidade Intermediária II
+app: ufcg-contabeis-p4/contabilidade-societaria
 ementa: Combinação de negócios, fusão, incorporação e cisão. Investimentos em coligadas, controladas e Joint Ventures. Transações entre partes relacionadas e resultados não realizados. Mais-valia, Goodwill ou deságio e amortização. Consolidação das demonstrações contábeis e Demonstrações em separado.
 - Investimentos em coligadas, controladas e joint ventures (CPC 18): método da equivalência patrimonial
 - Mais-valia, goodwill e ganho por compra vantajosa; amortização e impairment
@@ -255,6 +256,7 @@ ementa: Combinação de negócios, fusão, incorporação e cisão. Investimento
 
 ### 3103117 · Métodos Quantitativos · 60h · Obrigatória
 pre: Estatística
+app: ufcg-contabeis-p4/metodos-quantitativos
 relacionados: raciocinio-logico/proposicoes-e-tabela-verdade, raciocinio-logico/equivalencias-e-negacoes
 ementa: Testes de hipóteses. Número Índice. Lógica Simbólica. Regressão Linear Simples e Múltipla. Series Temporais. Aplicações com Softwares.
 - Testes de hipóteses: hipóteses nula e alternativa, nível de significância, valor-p
@@ -267,6 +269,7 @@ ementa: Testes de hipóteses. Número Índice. Lógica Simbólica. Regressão Li
 
 ### 3103038 · Teoria da Contabilidade · 60h · Obrigatória
 pre: História do Pensamento Contábil
+app: ufcg-contabeis-p4/teoria-da-contabilidade
 ementa: Objetivo e Usuários da Contabilidade; Postulados, Princípios e Convenções de Contabilidade; Arcabouço Teórico no Brasil. Evidenciação Contábil; Ativo e sua Mensuração; Passivo e sua Mensuração; Teorias e Mensuração do Patrimônio Líquido; Relação entre Caixa, Capital e Lucro; e Receitas, Ganho, Custos, Despesas e Perdas; Contabilidade e as Flutuações de Preços.
 - Objetivo da contabilidade e usuários da informação
 - Estrutura conceitual (CPC 00): características qualitativas fundamentais e de melhoria
@@ -282,6 +285,7 @@ ementa: Objetivo e Usuários da Contabilidade; Postulados, Princípios e Conven�
 
 ### 3103129 · Direito do Trabalho e Previdenciário · 60h · Obrigatória
 pre: Instituições do Direito Público e Privado
+app: ufcg-contabeis-p4/direito-do-trabalho-e-previdenciario
 ementa: Conceitos fundamentais do Direito. Constituição Federal: dos direitos sociais. Seguridade Social. Direitos dos trabalhadores. Empregador e empregado.Contrato individual de trabalho. Justiça do trabalho.. Assistência judiciária. Organização sindical. Fundamentos da Previdência Social. Modelos de Previdência Social. Princípios do Direito Previdenciário. Reforma Previdenciária.
 - Direitos sociais na Constituição (art. 6º e 7º)
 - Empregado e empregador: requisitos da relação de emprego
@@ -295,6 +299,7 @@ ementa: Conceitos fundamentais do Direito. Constituição Federal: dos direitos 
 
 ### 3103084 · Análise Econômica II · 60h · Obrigatória
 pre: Análise Econômica I
+app: ufcg-contabeis-p4/analise-economica-ii
 relacionados: cpa/politica-economica-e-indicadores
 ementa: Tópicos de contabilidade social. Modelos simplificados de determinação da renda. Modelo IS/LM para uma economia fechada e aberta. Demanda Agregada. Oferta agregada. Consumo e investimento. Oferta e demanda de moeda.
 - Contabilidade social: PIB, PNB, renda nacional e identidades macroeconômicas
