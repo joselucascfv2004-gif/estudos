@@ -45,7 +45,7 @@ function textoDoDia(p: Progresso, dia: string, revisoes: number, indice: number)
   const falta = p.dataProva ? diferencaDias(dia, p.dataProva) : null;
   const prova = p.nomeProva.trim() || getProva(p.prova).nome;
   if (revisoes > 0) {
-    const r = `${revisoes} ${revisoes === 1 ? 'questão espera' : 'questões esperam'} sua revisão hoje.`;
+    const r = `${revisoes} ${revisoes === 1 ? 'assunto espera' : 'assuntos esperam'} sua revisão hoje.`;
     return falta != null && falta > 0 ? `${r} Faltam ${falta} dias para ${prova}.` : `${r} Leva poucos minutos!`;
   }
   if (falta != null && falta > 0) return `Faltam ${falta} dia${falta === 1 ? '' : 's'} para ${prova}. Seu plano de hoje está pronto.`;

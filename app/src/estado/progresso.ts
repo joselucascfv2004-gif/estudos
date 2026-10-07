@@ -29,7 +29,15 @@ export const BONUS_PERFEITA = 20;
  * cada acerto passa a questão para a próxima caixa (revisão mais espaçada) e cada erro
  * a devolve para a caixa 0 (volta numa revisão daqui a alguns dias, nunca no mesmo dia).
  */
+/** Estatística de uma questão. `caixa` e `proxima` são da revisão antiga, por questão (até a versão 2). */
 export type EstatQuestao = { acertos: number; erros: number; ultima: string; caixa?: number; proxima?: string };
+
+/**
+ * Revisão espaçada de um assunto. Quando o aluno erra, quem volta é o assunto, com questões que ele
+ * ainda não viu (ou não vê há mais de um mês), no nível em que errou. `modelos` guarda os tipos de
+ * questão gerada que ele errou, para a revisão trazer a mesma conta com outros números.
+ */
+export type RevisaoAssunto = { caixa: number; proxima: string; nivel: Nivel; modelos?: string[] };
 export type EstatTopico = { licoes: [number, number, number]; melhor: [number, number, number] };
 
 export type Salva = { nota: string; dia: string };
@@ -80,6 +88,8 @@ export type Progresso = {
   tema: 'claro' | 'escuro';
   /** Questões marcadas com estrela, com a anotação do aluno. */
   salvas: Record<string, Salva>;
+  /** Revisão espaçada por assunto (id do tópico). */
+  assuntos: Record<string, RevisaoAssunto>;
   /** Acertos por dia e disciplina: dia -> disciplina -> [acertos, respondidas]. */
   acertosDia: Record<string, Record<string, [number, number]>>;
   /** Tópicos estudados em cada dia (para o plano de estudos). */
@@ -102,7 +112,7 @@ export type RecordeJogo = { recorde: number; partidas: number };
 
 export function estadoInicial(): Progresso {
   return {
-    versao: 2,
+    versao: 3,
     onboarding: false,
     nome: '',
     prova: 'enem',
@@ -127,6 +137,7 @@ export function estadoInicial(): Progresso {
     ultimoTopico: null,
     tema: 'claro',
     salvas: {},
+    assuntos: {},
     acertosDia: {},
     topicosDia: {},
     dataProva: null,
@@ -154,7 +165,8 @@ export function normalizar(salvo: Partial<Progresso> | null): Progresso {
   if (!salvo.prova) p.prova = provaDaTrilhaAntiga(salvo.trilha ?? 'ENEM');
   delete p.trilha;
   if (!salvo.lingua) p.lingua = linguaJaEstudada(p.questoes);
-  return (salvo.versao ?? 1) < 2 ? migrarParaV2(p) : p;
+  const v2 = (salvo.versao ?? 1) < 2 ? migrarParaV2(p) : p;
+  return v2.versao < 3 ? migrarParaV3(v2) : v2;
 }
 
 /** Para quem já usava o app antes da escolha da língua: fica a que tiver mais respostas. */
@@ -184,6 +196,32 @@ function migrarParaV2(p: Progresso, dia = hoje()): Progresso {
   }
   const { revisao: _antiga, ...resto } = p;
   return { ...resto, versao: 2, questoes };
+}
+
+/**
+ * Versão 3: a revisão passa a ser por assunto. Cada assunto herda a revisão mais próxima das suas
+ * questões (e a caixa mais baixa); as datas por questão deixam de existir.
+ */
+function migrarParaV3(p: Progresso): Progresso {
+  const assuntos: Record<string, RevisaoAssunto> = { ...p.assuntos };
+  const questoes: Record<string, EstatQuestao> = {};
+  for (const [id, e] of Object.entries(p.questoes)) {
+    const { caixa, proxima, ...resto } = e;
+    questoes[id] = resto;
+    const t = assuntoDaQuestao(id);
+    if (!t || !proxima) continue;
+    const n = getQuestao(id)?.questao.n ?? 0;
+    const atual = assuntos[t];
+    const errada = (caixa ?? 0) === 0;
+    if (!atual) assuntos[t] = { caixa: Math.min(caixa ?? 0, MAX_CAIXA), proxima, nivel: n };
+    else
+      assuntos[t] = {
+        caixa: Math.min(atual.caixa, caixa ?? 0),
+        proxima: proxima < atual.proxima ? proxima : atual.proxima,
+        nivel: errada ? Math.min(atual.nivel, n) as Nivel : atual.nivel,
+      };
+  }
+  return { ...p, versao: 3, questoes, assuntos };
 }
 
 // ---------- Níveis do usuário ----------
@@ -249,45 +287,55 @@ export function nivelDesbloqueado(p: Progresso, topicoId: string, nivel: Nivel) 
 // ---------- Revisão espaçada ----------
 
 /**
- * Intervalo base (em dias) de cada caixa. A caixa 0 é a das questões erradas: elas voltam em
- * 1 a 3 dias, nunca no mesmo dia. Cada acerto passa a questão para a caixa seguinte.
+ * Intervalo base (em dias) de cada caixa da revisão de um assunto. A caixa 0 é a de quem errou: o
+ * assunto volta já no dia seguinte. Cada revisão bem-feita passa o assunto para a caixa seguinte,
+ * e o intervalo cresce (1, 3, 7, 14, 30 e 60 dias), como pede a prática espaçada.
  */
-export const INTERVALOS = [2, 2, 4, 7, 15, 30, 60];
+export const INTERVALOS = [1, 3, 7, 14, 30, 60];
 const MAX_CAIXA = INTERVALOS.length - 1;
 
+/** Uma questão respondida só volta depois deste prazo (a não ser que o assunto não tenha outra). */
+export const QUARENTENA_DIAS = 30;
+
+/** Acerto mínimo numa lição para o assunto subir de caixa mesmo com algum erro. */
+const ACERTO_PARA_AVANCAR = 0.8;
+
 /**
- * Quanto o aluno quer rever esta questão: 1 é o normal; matérias, assuntos e nível escolhidos
- * nas preferências de revisão valem mais (voltam antes e aparecem mais nas revisões).
+ * Quanto o aluno quer rever este assunto: 1 é o normal; matérias, assuntos e nível escolhidos nas
+ * preferências de revisão valem mais (voltam antes e aparecem mais nas revisões), e os pontos
+ * fracos também.
  */
-export function pesoPreferencia(p: Progresso, id: string): number {
+export function pesoAssunto(p: Progresso, topicoId: string): number {
   const pref = p.prefRevisao;
-  const topicos = topicosDaQuestao(id);
   let peso = 1;
-  if (topicos.some((t) => pref.topicos.includes(t) || pref.disciplinas.includes(t.split('/')[0]))) peso *= 2;
-  if (pref.nivel != null && getQuestao(id)?.questao.n === pref.nivel) peso *= 1.5;
-  // assuntos em que o aluno anda errando muito também voltam antes
-  if (topicos.some((t) => ehPontoFraco(desempenhoTopico(p, t)))) peso *= 1.5;
+  if (pref.topicos.includes(topicoId) || pref.disciplinas.includes(topicoId.split('/')[0])) peso *= 2;
+  if (pref.nivel != null && p.assuntos[topicoId]?.nivel === pref.nivel) peso *= 1.5;
+  if (ehPontoFraco(desempenhoTopico(p, topicoId))) peso *= 1.5;
   return peso;
 }
 
 /**
- * Agenda a próxima revisão de uma questão depois de respondida. O dia varia um pouco (de 70% a 140%
- * do intervalo da caixa), para as revisões caírem em dias variados e misturarem assuntos de dias
- * diferentes. `peso` > 1 (preferências do aluno) encurta o intervalo. Questões "teimosas" (erradas
- * mais de uma vez) também voltam antes: quanto mais erros, mais curto o intervalo, até a metade.
+ * Próxima revisão de um assunto depois de uma lição em que ele apareceu. Errou pouco (até 20%)? O
+ * assunto desce uma caixa. Errou mais? Volta para a caixa 0 (amanhã). Acertou tudo? Sobe uma caixa.
+ * O dia varia um pouco (80% a 130% do intervalo), para as revisões misturarem assuntos de dias
+ * diferentes; `peso` > 1 (preferências, ponto fraco) encurta o intervalo.
  */
-export function agendar(
-  anterior: EstatQuestao | undefined,
-  acertou: boolean,
+export function agendarAssunto(
+  anterior: RevisaoAssunto | undefined,
+  acertos: number,
+  total: number,
   dia: string,
   peso = 1,
   sorteio: () => number = Math.random,
-): Pick<EstatQuestao, 'caixa' | 'proxima'> {
-  // acertar de primeira, sem nunca ter errado, já pula uma caixa
-  const caixa = acertou ? Math.min(MAX_CAIXA, (anterior?.caixa ?? 0) + (anterior ? 1 : 2)) : 0;
-  const erros = (anterior?.erros ?? 0) + (acertou ? 0 : 1);
-  const teimosia = erros >= 2 ? 1 + 0.25 * Math.min(erros - 1, 4) : 1;
-  const dias = Math.max(1, Math.round((INTERVALOS[caixa] / (peso * teimosia)) * (0.7 + sorteio() * 0.7)));
+): Pick<RevisaoAssunto, 'caixa' | 'proxima'> {
+  const atual = anterior?.caixa ?? 0;
+  const caixa =
+    acertos === total
+      ? Math.min(MAX_CAIXA, anterior ? atual + 1 : 1)
+      : acertos / total >= ACERTO_PARA_AVANCAR && anterior
+        ? Math.max(0, atual - 1)
+        : 0;
+  const dias = Math.max(1, Math.round((INTERVALOS[caixa] / peso) * (0.8 + sorteio() * 0.5)));
   return { caixa, proxima: somarDias(dia, dias) };
 }
 
@@ -300,39 +348,32 @@ export function assuntoDaQuestao(id: string): string | undefined {
   return topicos.find((t) => !t.startsWith('enem-oficial/')) ?? topicos[0] ?? getQuestao(id)?.topicoId;
 }
 
-/** A questão é de algum assunto que o aluno estuda (prova-alvo e língua escolhida)? */
-function daProvaDoAluno(p: Progresso, id: string, assuntos: Set<string>): boolean {
-  return topicosDaQuestao(id).some((t) => assuntos.has(t));
+/** Assuntos com revisão agendada que são da prova do aluno (prova-alvo e língua escolhida). */
+function assuntosAgendados(p: Progresso): [string, RevisaoAssunto][] {
+  const doAluno = new Set(topicosDoAluno(p).map((t) => t.id));
+  return Object.entries(p.assuntos).filter(([t]) => doAluno.has(t));
 }
 
-/** Questões cuja revisão venceu, das mais atrasadas (e menos dominadas) para as mais recentes. */
+/** Assuntos cuja revisão venceu, dos mais atrasados (e menos firmes) para os mais recentes. */
 export function revisoesPendentes(p: Progresso, dia = hoje()): string[] {
-  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
-  return Object.entries(p.questoes)
-    .filter(([id, e]) => e.proxima != null && e.proxima <= dia && e.ultima < dia && daProvaDoAluno(p, id, assuntos))
-    .sort(([, a], [, b]) => (a.proxima! < b.proxima! ? -1 : a.proxima! > b.proxima! ? 1 : (a.caixa ?? 0) - (b.caixa ?? 0)))
-    .map(([id]) => id);
+  return assuntosAgendados(p)
+    .filter(([t, r]) => r.proxima <= dia && !estudouTopicoHoje(p, t, dia))
+    .sort(([, a], [, b]) => (a.proxima < b.proxima ? -1 : a.proxima > b.proxima ? 1 : a.caixa - b.caixa))
+    .map(([t]) => t);
 }
 
-/** Próximo dia com revisões agendadas (depois de hoje) e quantas questões vencem nele. */
+/** Próximo dia com revisões agendadas (depois de hoje) e quantos assuntos vencem nele. */
 export function proximaRevisao(p: Progresso, dia = hoje()): { dia: string; quantidade: number } | null {
-  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
   let menor: string | null = null;
   let quantidade = 0;
-  for (const [id, e] of Object.entries(p.questoes)) {
-    if (!e.proxima || e.proxima <= dia || !daProvaDoAluno(p, id, assuntos)) continue;
-    if (menor == null || e.proxima < menor) {
-      menor = e.proxima;
+  for (const [, r] of assuntosAgendados(p)) {
+    if (r.proxima <= dia) continue;
+    if (menor == null || r.proxima < menor) {
+      menor = r.proxima;
       quantidade = 1;
-    } else if (e.proxima === menor) quantidade++;
+    } else if (r.proxima === menor) quantidade++;
   }
   return menor ? { dia: menor, quantidade } : null;
-}
-
-/** Quantas questões, estudadas em dias anteriores, podem entrar numa revisão surpresa. */
-export function questoesJaVistas(p: Progresso, dia = hoje()): number {
-  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
-  return Object.entries(p.questoes).filter(([id, e]) => e.ultima < dia && daProvaDoAluno(p, id, assuntos)).length;
 }
 
 /** Sorteia `quantidade` itens sem repetir, com chance proporcional ao peso de cada um. */
@@ -419,16 +460,14 @@ export function dificuldades(p: Progresso): Dificuldade[] {
   return lista.sort((a, b) => nota(a) - nota(b) || b.erros - a.erros);
 }
 
-/** Quantas revisões vencem em cada um dos próximos `dias` dias (o de hoje inclui as atrasadas). */
+/** Quantos assuntos têm revisão em cada um dos próximos `dias` dias (o de hoje inclui os atrasados). */
 export function calendarioRevisoes(p: Progresso, dias = 14, dia = hoje()): { dia: string; quantidade: number }[] {
-  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
   const fim = somarDias(dia, dias - 1);
   const contagem = new Map<string, number>();
-  for (const [id, e] of Object.entries(p.questoes)) {
-    if (!e.proxima || e.proxima > fim || !daProvaDoAluno(p, id, assuntos)) continue;
-    // o que venceu antes de hoje (ou foi respondido hoje) cai no primeiro dia possível
-    let quando = e.proxima < dia ? dia : e.proxima;
-    if (e.ultima >= quando) quando = somarDias(e.ultima, 1);
+  for (const [t, r] of assuntosAgendados(p)) {
+    // o que venceu antes de hoje cai hoje; o que já foi estudado hoje, amanhã
+    let quando = r.proxima < dia ? dia : r.proxima;
+    if (quando === dia && estudouTopicoHoje(p, t, dia)) quando = somarDias(dia, 1);
     if (quando > fim) continue;
     contagem.set(quando, (contagem.get(quando) ?? 0) + 1);
   }
@@ -579,30 +618,37 @@ export function evolucaoDisciplinas(p: Progresso, dia = hoje()): EvolucaoDiscipl
 
 // ---------- Montagem de lições ----------
 
-export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos' | 'teimosas' | 'salvas' | 'simulado';
+export type Modo = 'topico' | 'desafio' | 'revisao' | 'treino' | 'fracos' | 'salvas' | 'simulado';
 
-/**
- * Em que fila a questão entra numa lição: nunca vista, revisão vencida, já vista ou "esperando".
- * Esperando são as que o aluno errou e ainda não chegou o dia de rever, e as respondidas hoje:
- * elas ficam guardadas para a revisão de daqui a alguns dias e só aparecem se não houver outra.
- */
-function filaDaQuestao(p: Progresso, id: string, dia: string): 'nunca' | 'vencida' | 'vista' | 'esperando' {
+/** A questão foi respondida há menos de um mês (ou hoje)? */
+export function vistaRecente(p: Progresso, id: string, dia = hoje()): boolean {
   const e = p.questoes[id];
-  if (!e) return 'nunca';
-  if (e.ultima >= dia) return 'esperando';
-  if (e.proxima != null && e.proxima <= dia) return 'vencida';
-  if (e.caixa === 0) return 'esperando';
-  return 'vista';
+  return !!e && diferencaDias(e.ultima, dia) < QUARENTENA_DIAS;
 }
 
-/** Prioriza questões nunca vistas, depois revisões vencidas, depois as demais; as que esperam revisão vão por último. */
-function priorizar(p: Progresso, qs: Questao[], quantidade: number, dia = hoje()): Questao[] {
-  const filas = { nunca: [] as Questao[], vencida: [] as Questao[], vista: [] as Questao[], esperando: [] as Questao[] };
-  for (const q of qs) filas[filaDaQuestao(p, q.id, dia)].push(q);
-  const antigas = (a: Questao, b: Questao) => (p.questoes[a.id].ultima < p.questoes[b.id].ultima ? -1 : 1);
-  filas.vista.sort(antigas);
-  filas.esperando.sort(antigas);
-  return semModeloRepetido([...embaralhar(filas.nunca), ...embaralhar(filas.vencida), ...filas.vista, ...filas.esperando], quantidade);
+/**
+ * Ordem de prioridade das questões de uma lição: primeiro as nunca vistas (sorteadas), depois as
+ * vistas há mais de um mês (das mais antigas para as mais novas). As vistas no último mês só entram
+ * se não houver outra — ou seja, quando o aluno já fez todas as questões daquele assunto e nível.
+ * Assim ele treina o assunto, e não a memória da alternativa certa.
+ */
+function ordenarPorNovidade(p: Progresso, qs: Questao[], dia = hoje()): { novas: Questao[]; recentes: Questao[] } {
+  const nunca: Questao[] = [];
+  const antigas: Questao[] = [];
+  const recentes: Questao[] = [];
+  for (const q of qs) {
+    if (!p.questoes[q.id]) nunca.push(q);
+    else if (vistaRecente(p, q.id, dia)) recentes.push(q);
+    else antigas.push(q);
+  }
+  const maisAntigas = (a: Questao, b: Questao) => (p.questoes[a.id].ultima < p.questoes[b.id].ultima ? -1 : 1);
+  return { novas: [...embaralhar(nunca), ...antigas.sort(maisAntigas)], recentes: recentes.sort(maisAntigas) };
+}
+
+/** Prioriza questões novas para o aluno; as vistas no último mês ficam por último (só se faltar). */
+function priorizar(p: Progresso, qs: Questao[], quantidade: number, dia = hoje(), aceitarRecentes = true): Questao[] {
+  const { novas, recentes } = ordenarPorNovidade(p, qs, dia);
+  return semModeloRepetido(aceitarRecentes ? [...novas, ...recentes] : novas, quantidade);
 }
 
 /**
@@ -641,98 +687,119 @@ export function montarLicaoTopico(p: Progresso, topicoId: string, nivel: Nivel):
 export function montarDesafio(p: Progresso): Questao[] {
   const topicos = embaralhar(topicosDoAluno(p));
   const escolhidas: Questao[] = [];
+  const usadas = new Set<string>();
   // nível proporcional ao avanço do aluno: mais difícil conforme ganha XP
   const { nivel } = nivelDoUsuario(p.xpTotal);
-  for (const t of topicos) {
-    if (escolhidas.length >= TAMANHO_LICAO) break;
-    const r = Math.random() * 10;
-    const n: Nivel = r < Math.max(2, 6 - nivel / 2) ? 0 : r < 8 ? 1 : 2;
-    const [q] = priorizar(p, questoesDoTopico(t.id, n), 1);
-    if (q) escolhidas.push(q);
+  // primeiro só questões novas para o aluno; se faltar, aceita as vistas no último mês
+  for (const aceitarRecentes of [false, true]) {
+    for (const t of topicos) {
+      if (escolhidas.length >= TAMANHO_LICAO) break;
+      const r = Math.random() * 10;
+      const n: Nivel = r < Math.max(2, 6 - nivel / 2) ? 0 : r < 8 ? 1 : 2;
+      const [q] = priorizar(p, questoesDoTopico(t.id, n).filter((x) => !usadas.has(x.id)), 1, hoje(), aceitarRecentes);
+      if (q) {
+        usadas.add(q.id);
+        escolhidas.push(q);
+      }
+    }
   }
   return escolhidas;
 }
 
+/** Níveis do assunto que o aluno já pode fazer, começando pelo `nivel` pedido e indo para os vizinhos. */
+function niveisPerto(p: Progresso, topicoId: string, nivel: Nivel): Nivel[] {
+  const ordem: Nivel[] = nivel === 0 ? [0, 1, 2] : nivel === 1 ? [1, 0, 2] : [2, 1, 0];
+  const liberados = ordem.filter((n) => nivelDesbloqueado(p, topicoId, n));
+  return liberados.length ? liberados : [0];
+}
+
 /**
- * Revisão: sorteia entre as questões cuja revisão venceu, misturando assuntos e dias diferentes.
- * Se forem poucas, completa com questões já vistas em dias anteriores (revisão surpresa). As
- * matérias, assuntos e nível escolhidos nas preferências têm mais chance de aparecer.
+ * Questões para rever um assunto, da melhor para a pior escolha: o mesmo tipo de conta que o aluno
+ * errou (questões geradas, com outros números), depois questões novas do nível em que ele errou,
+ * depois as dos níveis vizinhos. As vistas no último mês ficam no fim (só se o assunto acabar).
+ */
+function questoesParaRever(p: Progresso, topicoId: string, dia = hoje()): Questao[] {
+  const r = p.assuntos[topicoId];
+  const niveis = niveisPerto(p, topicoId, r?.nivel ?? nivelSugerido(p, topicoId));
+  const modelos = new Set(r?.modelos ?? []);
+  const doModelo: Questao[] = [];
+  const novas: Questao[] = [];
+  const recentes: Questao[] = [];
+  for (const n of niveis) {
+    const ordem = ordenarPorNovidade(p, questoesDoTopico(topicoId, n), dia);
+    for (const q of ordem.novas) (q.m && modelos.has(chaveModelo(q)) ? doModelo : novas).push(q);
+    recentes.push(...ordem.recentes);
+  }
+  return [...doModelo, ...novas, ...recentes];
+}
+
+const chaveModelo = (q: Questao) => `${q.id.split('#')[0]}~${q.m}`;
+
+/**
+ * Junta questões de vários assuntos, uma de cada por vez (prática intercalada), sem repetir questão
+ * nem modelo de enunciado, até `quantidade`. Cada assunto entra com no máximo `porAssunto`.
+ */
+function intercalar(listas: Questao[][], quantidade: number, porAssunto = quantidade): Questao[] {
+  const escolhidas: Questao[] = [];
+  const ids = new Set<string>();
+  const modelos = new Set<string>();
+  const posicao = listas.map(() => 0);
+  const usadas = listas.map(() => 0);
+  let mexeu = true;
+  while (escolhidas.length < quantidade && mexeu) {
+    mexeu = false;
+    for (let i = 0; i < listas.length && escolhidas.length < quantidade; i++) {
+      if (usadas[i] >= porAssunto) continue;
+      while (posicao[i] < listas[i].length) {
+        const q = listas[i][posicao[i]++];
+        if (ids.has(q.id) || (q.m && modelos.has(chaveModelo(q)))) continue;
+        ids.add(q.id);
+        if (q.m) modelos.add(chaveModelo(q));
+        escolhidas.push(q);
+        usadas[i]++;
+        mexeu = true;
+        break;
+      }
+    }
+  }
+  return escolhidas;
+}
+
+/** Assuntos já estudados (com revisão agendada) que ainda não venceram: servem para a revisão surpresa. */
+function assuntosParaAdiantar(p: Progresso, dia: string, excluir: Set<string>): { item: string; peso: number }[] {
+  return assuntosAgendados(p)
+    .filter(([t, r]) => !excluir.has(t) && r.proxima > dia && !estudouTopicoHoje(p, t, dia))
+    .map(([t, r]) => ({ item: t, peso: pesoAssunto(p, t) * (MAX_CAIXA + 1 - r.caixa) }));
+}
+
+/**
+ * Revisão: o que volta são os ASSUNTOS em que o aluno errou, com questões que ele ainda não viu
+ * (prática de recuperação com itens novos), e não a mesma questão, cuja resposta ele já leu. Os
+ * assuntos vêm misturados (prática intercalada), de 2 a 4 questões cada. Se houver menos de três
+ * assuntos vencidos, completa com assuntos já estudados (revisão surpresa, adiantada).
  */
 export function montarRevisao(p: Progresso, dia = hoje(), sorteio: () => number = Math.random): Questao[] {
   const pendentes = revisoesPendentes(p, dia);
-  const peso = (id: string) => pesoPreferencia(p, id) ** 2;
-  const vencidas = sortearComPeso(
-    pendentes.map((id) => ({ item: id, peso: peso(id) * (p.questoes[id].caixa === 0 ? 2 : 1) * (ehTeimosa(p.questoes[id]) ? 2 : 1) })),
-    TAMANHO_LICAO * 2,
-    sorteio,
-  );
-  let ids = vencidas;
-  if (vencidas.length < TAMANHO_LICAO) {
-    const ja = new Set(pendentes);
-    const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
-    const vistas = Object.entries(p.questoes)
-      .filter(([id, e]) => !ja.has(id) && e.ultima < dia && daProvaDoAluno(p, id, assuntos))
-      .map(([id, e]) => ({ item: id, peso: peso(id) * (1 + Math.min(e.erros, 3)) }));
-    ids = [...vencidas, ...sortearComPeso(vistas, TAMANHO_LICAO * 2, sorteio)];
-  }
-  const qs = ids.map((id) => getQuestao(id)?.questao).filter((q): q is Questao => !!q);
-  return embaralhar(semModeloRepetido(qs, TAMANHO_LICAO));
+  const peso = (t: string) => pesoAssunto(p, t) ** 2 * ((p.assuntos[t]?.caixa ?? 0) === 0 ? 2 : 1);
+  let assuntos = sortearComPeso(pendentes.map((t) => ({ item: t, peso: peso(t) })), 5, sorteio);
+  if (assuntos.length < 3) assuntos = [...assuntos, ...sortearComPeso(assuntosParaAdiantar(p, dia, new Set(assuntos)), 3 - assuntos.length, sorteio)];
+  if (!assuntos.length) return [];
+  const porAssunto = Math.max(2, Math.ceil(TAMANHO_LICAO / assuntos.length));
+  return embaralhar(intercalar(assuntos.map((t) => questoesParaRever(p, t, dia)), TAMANHO_LICAO, porAssunto));
 }
 
-/** Quantas questões a próxima revisão teria (vencidas + surpresa), até o tamanho de uma lição. */
+/** Quantos assuntos a revisão surpresa pode adiantar (se não houver revisão vencida). */
 export function tamanhoRevisao(p: Progresso, dia = hoje()): number {
-  return Math.min(TAMANHO_LICAO, questoesJaVistas(p, dia));
+  return assuntosParaAdiantar(p, dia, new Set()).length;
 }
 
 /**
- * Questão "teimosa": errada pelo menos duas vezes e ainda não fixada (não acertou várias vezes
- * seguidas depois do último erro, ou seja, ainda está nas primeiras caixas da revisão).
+ * Lição focada nos pontos fracos (ou em um assunto específico): questões NOVAS desses assuntos,
+ * começando pelo tipo de questão que o aluno errou, misturando até três assuntos.
  */
-export const ehTeimosa = (e: EstatQuestao | undefined) => !!e && e.erros >= 2 && (e.caixa ?? 0) <= 2;
-
-/** Questões teimosas da prova do aluno, das que ele mais erra para as que menos erra. */
-export function questoesTeimosas(p: Progresso): string[] {
-  const assuntos = new Set(topicosDoAluno(p).map((t) => t.id));
-  return Object.entries(p.questoes)
-    .filter(([id, e]) => ehTeimosa(e) && daProvaDoAluno(p, id, assuntos))
-    .sort(([, a], [, b]) => b.erros - b.acertos - (a.erros - a.acertos) || (a.caixa ?? 0) - (b.caixa ?? 0))
-    .map(([id]) => id);
-}
-
-/**
- * Lição "Questões que mais erro": só as teimosas, sorteadas com mais chance para as mais erradas.
- * Não respeita a data da revisão: serve para atacar de propósito o que não está fixando.
- */
-export function montarTeimosas(p: Progresso, sorteio: () => number = Math.random): Questao[] {
-  const ids = questoesTeimosas(p);
-  const sorteadas = sortearComPeso(
-    ids.map((id) => ({ item: id, peso: 1 + Math.min(Math.max(p.questoes[id].erros - p.questoes[id].acertos, 0), 4) })),
-    TAMANHO_LICAO * 2,
-    sorteio,
-  );
-  const qs = sorteadas.map((id) => getQuestao(id)?.questao).filter((q): q is Questao => !!q);
-  return embaralhar(semModeloRepetido(qs, TAMANHO_LICAO));
-}
-
-/** Lição focada nos pontos fracos (ou em um tópico específico): primeiro os erros com revisão vencida. */
 export function montarPontosFracos(p: Progresso, topicoId?: string, dia = hoje()): Questao[] {
   const ids = topicoId ? [topicoId] : pontosFracos(p).slice(0, 3).map((d) => d.topicoId);
-  const candidatas = ids.flatMap((id) =>
-    ([0, 1, 2] as Nivel[]).filter((n) => nivelDesbloqueado(p, id, n)).flatMap((n) => questoesDoTopico(id, n)),
-  );
-  const erradas: Questao[] = [];
-  const nunca: Questao[] = [];
-  const resto: Questao[] = [];
-  const esperando: Questao[] = [];
-  for (const q of embaralhar(candidatas)) {
-    const e = p.questoes[q.id];
-    const fila = filaDaQuestao(p, q.id, dia);
-    if (fila === 'nunca') nunca.push(q);
-    else if (fila === 'esperando') esperando.push(q);
-    else if (e.caixa === 0 || e.erros > e.acertos) erradas.push(q);
-    else resto.push(q);
-  }
-  return embaralhar(semModeloRepetido([...erradas, ...nunca, ...resto, ...esperando], TAMANHO_LICAO));
+  return embaralhar(intercalar(ids.map((t) => questoesParaRever(p, t, dia)), TAMANHO_LICAO));
 }
 
 export function montarTreino(p: Progresso, disciplinaId?: string): Questao[] {
@@ -791,6 +858,8 @@ export type EventosLicao = {
   acertos: number;
   total: number;
   desbloqueouNivel: Nivel | null;
+  /** assuntos em que o aluno errou alguma questão nesta lição (voltam na revisão) */
+  assuntosErrados: string[];
 };
 
 export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje()): { p: Progresso; ev: EventosLicao } {
@@ -800,18 +869,23 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
   const perfeita = total > 0 && acertos === total;
   const percentual = total ? Math.round((acertos / total) * 100) : 0;
 
-  // Estatísticas das questões, revisão espaçada e desempenho recente por tópico
+  // Estatísticas das questões e desempenho recente por assunto
+  const porAssunto = new Map<string, { acertos: number; total: number; niveis: Nivel[]; errados: Nivel[]; modelos: string[] }>();
   for (const { id, acertou } of r.respostas) {
-    const anterior = p.questoes[id];
-    const e = anterior ?? { acertos: 0, erros: 0, ultima: dia };
-    p.questoes[id] = {
-      acertos: e.acertos + (acertou ? 1 : 0),
-      erros: e.erros + (acertou ? 0 : 1),
-      ultima: dia,
-      ...agendar(anterior, acertou, dia, pesoPreferencia(p, id)),
-    };
+    const e = p.questoes[id] ?? { acertos: 0, erros: 0, ultima: dia };
+    p.questoes[id] = { acertos: e.acertos + (acertou ? 1 : 0), erros: e.erros + (acertou ? 0 : 1), ultima: dia };
     const topicoId = assuntoDaQuestao(id);
     if (topicoId) {
+      const q = getQuestao(id)?.questao;
+      const ag = porAssunto.get(topicoId) ?? { acertos: 0, total: 0, niveis: [], errados: [], modelos: [] };
+      ag.total++;
+      if (acertou) ag.acertos++;
+      if (q) {
+        ag.niveis.push(q.n);
+        if (!acertou) ag.errados.push(q.n);
+        if (!acertou && q.m) ag.modelos.push(chaveModelo(q));
+      }
+      porAssunto.set(topicoId, ag);
       p.recentes[topicoId] = ((p.recentes[topicoId] ?? '') + (acertou ? '1' : '0')).slice(-JANELA_RECENTE);
       const disc = topicoId.split('/')[0];
       const doDia = (p.acertosDia[dia] = { ...(p.acertosDia[dia] ?? {}) });
@@ -823,6 +897,20 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
     }
   }
   if (r.topicoId) p.topicosDia[dia] = [...new Set([...(p.topicosDia[dia] ?? []), r.topicoId])];
+
+  // Revisão espaçada por assunto: errou, o assunto volta logo (com questões novas, no nível do erro)
+  p.assuntos = { ...p.assuntos };
+  for (const [t, a] of porAssunto) {
+    const anterior = p.assuntos[t];
+    const nivel = (a.errados.length ? Math.min(...a.errados) : Math.max(...(a.niveis.length ? a.niveis : [0]))) as Nivel;
+    p.assuntos[t] = {
+      ...agendarAssunto(anterior, a.acertos, a.total, dia, pesoAssunto(p, t)),
+      nivel,
+      modelos: a.modelos.length ? [...new Set(a.modelos)].slice(0, 5) : undefined,
+    };
+    if (!p.assuntos[t].modelos) delete p.assuntos[t].modelos;
+  }
+  const errados = [...porAssunto].filter(([, a]) => a.acertos < a.total).map(([t]) => t);
   p.acertosDia = manterUltimosDias(p.acertosDia, dia);
   p.topicosDia = manterUltimosDias(p.topicosDia, dia);
 
@@ -842,7 +930,7 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
     }
     if (r.nivel === 2) p.licoesDificeis++;
   }
-  if (r.modo === 'revisao' || r.modo === 'teimosas') p.revisoesFeitas++;
+  if (r.modo === 'revisao') p.revisoesFeitas++;
 
   // Bônus
   let bonusDesafio = 0;
@@ -888,6 +976,7 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
       acertos,
       total,
       desbloqueouNivel,
+      assuntosErrados: errados,
     },
   };
 }
@@ -940,14 +1029,17 @@ function sortearQuestoes(p: Progresso, lista: Topico[], quantidade: number, usad
     ...Array<Nivel>(dificeis).fill(2),
   ]);
   const escolhidas: Questao[] = [];
-  for (let i = 0; i < niveis.length * 4 && escolhidas.length < quantidade; i++) {
-    const t = topicos[i % topicos.length];
-    const nivel = niveis[escolhidas.length];
-    const livres = questoesDoTopico(t.id, nivel).filter((q) => !usadas.has(q.id));
-    const [q] = priorizar(p, livres, 1);
-    if (q) {
-      usadas.add(q.id);
-      escolhidas.push(q);
+  // primeira passada só com questões novas para o aluno; a segunda aceita as vistas no último mês
+  for (const aceitarRecentes of [false, true]) {
+    for (let i = 0; i < niveis.length * 4 && escolhidas.length < quantidade; i++) {
+      const t = topicos[i % topicos.length];
+      const nivel = niveis[escolhidas.length];
+      const livres = questoesDoTopico(t.id, nivel).filter((q) => !usadas.has(q.id));
+      const [q] = priorizar(p, livres, 1, hoje(), aceitarRecentes);
+      if (q) {
+        usadas.add(q.id);
+        escolhidas.push(q);
+      }
     }
   }
   return escolhidas;

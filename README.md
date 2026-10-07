@@ -24,15 +24,15 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Prova-alvo | ENEM, ESA, EsPCEx, EEAR, AFA, Escola Naval, Colégio Naval, Banco do Brasil, Caixa, BNB, IBGE ou Todas: o app mostra só as matérias que caem na sua prova |
 | Prazo | Escolha em quanto tempo quer estar pronto (1, 2, 3 ou 6 meses, ou a data da prova) e toque em **Salvar período** no Perfil para confirmar. O plano prioriza os assuntos que mais caem |
 | Caminho por disciplina | Cada tópico tem 3 níveis. O Médio libera com 70% de acerto no Fácil, e o Difícil com 70% no Médio |
-| Lição | 10 questões, sem repetir questão. As erradas não voltam na mesma lição: ficam guardadas para a revisão de daqui a alguns dias. Há combo de acertos, vibração e explicação após cada resposta |
+| Lição | 10 questões, sem repetir questão. Primeiro entram as que o aluno nunca viu; uma questão respondida só volta depois de **30 dias**, a não ser que aquele assunto e nível não tenham outra. Há combo de acertos, vibração e explicação após cada resposta. Quando o aluno erra, aparece o atalho **Ler a teoria** do assunto |
 | XP e níveis | Fácil vale 10 XP, Médio 15 e Difícil 20, com bônus de combo e de lição perfeita |
 | Meta diária | 100, 200, 400 ou 600 XP por dia |
 | Ofensiva 🔥 | Dias seguidos batendo a meta. Protetores de ofensiva podem ser comprados com 💎 |
 | Desafio do dia | 10 questões misturadas da sua prova-alvo, com bônus de +50 XP |
-| Revisão espaçada | Toda questão respondida volta para revisão em outro dia. Quem erra não repete na hora: a questão fica guardada e volta em 1 a 3 dias. Quem acerta volta cada vez mais tarde (cerca de 4, 7, 15, 30 e 60 dias), sempre com alguns dias de variação, para as revisões misturarem assuntos de dias diferentes. Sem revisão vencida, dá para fazer uma revisão surpresa com questões já vistas. Questões "teimosas" (erradas duas vezes ou mais e ainda não fixadas) voltam mais cedo, aparecem mais nas revisões e têm a lição "Questões que mais erro" |
-| Minhas revisões | No Perfil, o aluno escolhe o nível, as matérias e os assuntos que quer revisar mais (os assuntos também podem ser marcados na tela da matéria). Essas questões voltam antes e aparecem mais nas revisões |
+| Revisão espaçada por assunto | O que volta para revisão é o **assunto**, e não a questão (que o aluno poderia acertar só por lembrar a alternativa). Errou? O assunto volta no dia seguinte, com questões que ele ainda não viu, no nível em que errou e, nas questões geradas, com o mesmo tipo de conta e outros números. Acertou tudo? O assunto volta cada vez mais tarde (1, 3, 7, 14, 30 e 60 dias, com variação). Cada revisão mistura de 2 a 5 assuntos (prática intercalada). Sem revisão vencida, dá para adiantar uma revisão |
+| Minhas revisões | No Perfil, o aluno escolhe o nível, as matérias e os assuntos que quer revisar mais (os assuntos também podem ser marcados na tela da matéria). Esses assuntos voltam antes e aparecem mais nas revisões |
 | Língua estrangeira | No ENEM, o aluno escolhe Inglês ou Espanhol (na abertura do app ou no Perfil) e só vê as questões da língua escolhida |
-| Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial, volta mais nas revisões e ganha um treino focado nos seus erros |
+| Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial, volta mais cedo nas revisões e ganha um treino focado com questões novas desse assunto |
 | Minhas dificuldades | Relatório (página Progresso ou aba Treinar) com os assuntos que o aluno mais erra, o acerto por matéria, se está melhorando ou piorando e atalhos para rever a teoria e treinar |
 | Plano de estudos | Informe a data e o nome da sua prova no Perfil. A tela inicial mostra os dias que faltam e o plano do dia (revisões, ponto fraco e assuntos novos), calculado para passar por todos os assuntos antes da prova |
 | Simulado | Prova com cronômetro (3 min por questão), navegação entre as questões e gabarito só no final, com correção, acerto por disciplina e histórico. Também dá para fazer o caderno de uma prova oficial do ENEM, escolhendo o ano e a área. Na ESA, EsPCEx (1º e 2º dia), EEAR, CPA e C-Pro R há o simulado no formato oficial: mesmo número de questões por matéria e mesmo tempo do edital, com nota de 0 a 10 em cada parte e o resultado de aprovação |
@@ -49,6 +49,18 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Achei um erro | Botão em cada questão para avisar sobre gabarito errado, explicação confusa ou erro de digitação (o e-mail de destino fica em `app/src/data/contato.ts`) |
 
 O progresso fica salvo no próprio celular (sem login e sem servidor).
+
+## Técnicas de estudo usadas no app
+
+O app segue as técnicas com mais evidência na pesquisa sobre aprendizagem:
+
+- **Prática de recuperação (testar-se):** responder questões fixa mais do que reler. É uma das duas técnicas de "alta utilidade" na revisão de Dunlosky e colegas (2013).
+- **Prática espaçada:** o assunto volta em intervalos que crescem (1, 3, 7, 14, 30 e 60 dias). Rever cedo demais rende menos do que rever um pouco tarde (Cepeda e colegas, 2008).
+- **Treinar o assunto, não a questão:** a revisão traz questões **novas** do assunto errado, e nenhuma questão volta antes de 30 dias. Assim o aluno não acerta só porque lembra a alternativa.
+- **Prática intercalada:** a revisão mistura assuntos. Em matemática, misturar tipos de problema ajudou os alunos a escolher o método certo e melhorou muito as notas em testes posteriores (Rohrer e Taylor, 2007).
+- **Feedback com explicação, teoria e autoexplicação:** depois de um erro, o app mostra a explicação, convida o aluno a explicar para si mesmo por que errou e oferece o atalho para a teoria do assunto. O erro corrigido precisa voltar espaçado para não ser esquecido (pesquisas sobre o "efeito de hipercorreção").
+
+Fontes: [Dunlosky e colegas, 2013](https://doi.org/10.1177/1529100612453266); [Cepeda e colegas, 2008](https://pubmed.ncbi.nlm.nih.gov/19076480/); [Rohrer e Taylor, 2007](https://digitalcommons.usf.edu/psy_facpub/1767/).
 
 ## Disciplinas
 

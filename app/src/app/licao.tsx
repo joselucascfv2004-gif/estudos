@@ -11,12 +11,12 @@ import {
   EventosLicao,
   Modo,
   Resposta,
+  assuntoDaQuestao,
   concluirLicao,
   montarDesafio,
   montarLicaoTopico,
   montarPontosFracos,
   montarRevisao,
-  montarTeimosas,
   montarSalvas,
   montarTreino,
   nivelDoUsuario,
@@ -65,7 +65,6 @@ export default function Licao() {
     else if (modo === 'desafio') qs = montarDesafio(p);
     else if (modo === 'revisao') qs = montarRevisao(p);
     else if (modo === 'fracos') qs = montarPontosFracos(p, params.topico);
-    else if (modo === 'teimosas') qs = montarTeimosas(p);
     else if (modo === 'salvas') qs = montarSalvas(p);
     else qs = montarTreino(p, params.disciplina);
     return qs.map((q) => prepararItem(q));
@@ -95,11 +94,9 @@ export default function Licao() {
           ? 'Revisão'
           : modo === 'fracos'
             ? 'Pontos fracos'
-            : modo === 'teimosas'
-              ? 'Questões que mais erro'
-              : modo === 'salvas'
-                ? 'Questões salvas'
-                : 'Treino';
+            : modo === 'salvas'
+              ? 'Questões salvas'
+              : 'Treino';
 
   if (!inicial.length) {
     return (
@@ -108,12 +105,10 @@ export default function Licao() {
         <Text style={s.fimTitulo}>{modo === 'revisao' ? 'Nada para revisar hoje!' : 'Sem questões aqui'}</Text>
         <Text style={s.fimSub}>
           {modo === 'revisao'
-            ? 'As questões que você responde hoje voltam para revisão daqui a alguns dias. Volte amanhã!'
+            ? 'Quando você erra uma questão, o assunto dela volta aqui no dia seguinte, com questões diferentes. Volte amanhã!'
             : modo === 'fracos'
               ? 'Você ainda não tem pontos fracos. Continue estudando que o app vai acompanhando o seu desempenho.'
-              : modo === 'teimosas'
-                ? 'Nenhuma questão errada mais de uma vez. Quando você errar a mesma questão de novo, ela aparece aqui até ser fixada.'
-                : 'Não encontramos questões para esta seleção.'}
+              : 'Não encontramos questões para esta seleção.'}
         </Text>
         <Botao titulo="Voltar" onPress={() => router.back()} estilo={{ alignSelf: 'stretch', margin: 24 }} />
       </SafeAreaView>
@@ -130,6 +125,9 @@ export default function Licao() {
   const progresso = (respondidasUnicas + (verificado && !respostas.current.has(q.id) ? 1 : 0)) / inicial.length;
   const info = getQuestao(q.id);
   const topico = info ? getTopico(info.topicoId)?.topico : undefined;
+  // assunto da questão (nas oficiais do ENEM, o assunto em que foi classificada) e se ele tem teoria
+  const assunto = getTopico(assuntoDaQuestao(q.id) ?? '');
+  const temTeoria = !!assunto && !!(assunto.topico.resumo || assunto.topico.aula);
 
   function verificar() {
     if (escolha == null) return;
@@ -145,7 +143,7 @@ export default function Licao() {
       setXp((v) => v + xpDaResposta(q, novoCombo, modo));
       setElogio(ELOGIOS[Math.floor(Math.random() * ELOGIOS.length)]);
     } else {
-      // a questão errada não volta agora: fica guardada para a revisão de daqui a alguns dias
+      // a questão errada não volta: o assunto dela volta na revisão, com outras questões
       setCombo(0);
     }
   }
@@ -237,7 +235,20 @@ export default function Licao() {
           <ScrollView style={{ maxHeight: 170 }}>
             <TextoRico texto={q.x} estilo={[s.explicacao, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]} />
             {q.f ? <Text style={s.fonte}>Fonte: {q.f}</Text> : null}
+            {!acertou && <Text style={s.dicaErro}>Antes de continuar, tente explicar para você mesmo por que a sua alternativa está errada.</Text>}
           </ScrollView>
+          {!acertou && temTeoria && (
+            <Pressable
+              testID="btn-teoria"
+              onPress={() => router.push({ pathname: '/resumo', params: { topico: assunto!.topico.id } })}
+              style={({ pressed }) => [s.teoria, pressed && { opacity: 0.6 }]}
+            >
+              <Icone nome="book-open-page-variant-outline" tamanho={20} cor={c.roxo} />
+              <Text style={s.teoriaTexto} numberOfLines={1}>
+                Ler a teoria: {assunto!.topico.titulo}
+              </Text>
+            </Pressable>
+          )}
           <AcoesQuestao id={q.id} />
           <Botao
             testID="btn-continuar"
@@ -280,7 +291,6 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
   const { ev } = fim;
   const pct = ev.total ? Math.round((ev.acertos / ev.total) * 100) : 0;
   const perfeita = ev.total > 0 && ev.acertos === ev.total;
-  const erros = ev.total - ev.acertos;
   const destaques: { icone: string; texto: string }[] = [];
   if (ev.ofensivaAumentou) destaques.push({ icone: 'fire', texto: `Ofensiva de ${p.ofensiva.atual} dia${p.ofensiva.atual > 1 ? 's' : ''}!` });
   if (ev.metaBatidaAgora) destaques.push({ icone: 'target', texto: 'Meta diária batida! +10 moedas' });
@@ -301,15 +311,39 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
         <Text style={s.fimTitulo}>{perfeita ? 'Perfeito!' : pct >= 70 ? 'Lição concluída!' : 'Continue praticando!'}</Text>
         <Text style={s.fimSub}>
           {pct >= 70 ? 'Você está mandando muito bem. ' : 'Errar faz parte. '}
-          {erros
-            ? `${erros === 1 ? 'A questão que você errou ficou guardada' : `As ${erros} questões que você errou ficaram guardadas`} e volta${erros === 1 ? '' : 'm'} na sua revisão daqui a alguns dias.`
-            : 'O app vai trazer estas questões de volta nos próximos dias para fixar o conteúdo.'}
+          {ev.assuntosErrados.length
+            ? `${ev.assuntosErrados.length === 1 ? 'O assunto que você errou volta' : `Os ${ev.assuntosErrados.length} assuntos que você errou voltam`} na revisão de amanhã, com questões diferentes, para você treinar o conteúdo e não decorar a resposta.`
+            : 'Os assuntos desta lição voltam para revisão daqui a alguns dias, cada vez mais espaçados.'}
         </Text>
         <View style={s.caixas}>
           <Caixa titulo="XP" valor={`+${fim.xp}`} cor={c.amarelo} />
           <Caixa titulo="Acertos" valor={`${pct}%`} cor={c.verde} />
           <Caixa titulo="Moedas" valor={`+${ev.moedasGanhas}`} cor={c.azul} />
         </View>
+        {ev.assuntosErrados.length > 0 && (
+          <View style={s.revisar}>
+            <Text style={s.revisarTitulo}>Para revisar</Text>
+            {ev.assuntosErrados.map((id) => {
+              const t = getTopico(id);
+              if (!t) return null;
+              const teoria = !!(t.topico.resumo || t.topico.aula);
+              return (
+                <Pressable
+                  key={id}
+                  disabled={!teoria}
+                  onPress={() => router.push({ pathname: '/resumo', params: { topico: id } })}
+                  style={({ pressed }) => [s.revisarItem, pressed && { opacity: 0.6 }]}
+                >
+                  <Icone nome={t.disciplina.icone} tamanho={20} cor={t.disciplina.cor} />
+                  <Text style={s.revisarNome} numberOfLines={2}>
+                    {t.topico.titulo}
+                  </Text>
+                  {teoria && <Text style={s.revisarLink}>Ler a teoria</Text>}
+                </Pressable>
+              );
+            })}
+          </View>
+        )}
         {destaques.map((d) => (
           <ComIcone key={d.texto} icone={d.icone} cor={c.laranja} estiloTexto={s.destaque} estilo={{ alignSelf: 'center' }}>
             {d.texto}
@@ -335,6 +369,14 @@ function Caixa({ titulo, valor, cor }: { titulo: string; valor: string; cor: str
 }
 
 const useEstilos = criarEstilos((c) => ({
+  dicaErro: { fontSize: 13, fontWeight: '700', color: c.textoSuave, marginTop: 8, fontStyle: 'italic' },
+  teoria: { flexDirection: 'row', alignItems: 'center', gap: 8, marginTop: 10, padding: 10, borderRadius: 12, backgroundColor: c.fundo },
+  teoriaTexto: { flex: 1, fontSize: 14, fontWeight: '800', color: c.roxo },
+  revisar: { alignSelf: 'stretch', marginTop: 16, padding: 14, borderRadius: 16, borderWidth: 2, borderColor: c.borda, gap: 4 },
+  revisarTitulo: { fontSize: 13, fontWeight: '800', color: c.textoSuave, textTransform: 'uppercase', letterSpacing: 1, marginBottom: 4 },
+  revisarItem: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 6 },
+  revisarNome: { flex: 1, fontSize: 15, fontWeight: '700', color: c.texto },
+  revisarLink: { fontSize: 13, fontWeight: '800', color: c.roxo },
   tela: { flex: 1, backgroundColor: c.fundo },
   centro: { alignItems: 'center', justifyContent: 'center' },
   topo: { flexDirection: 'row', alignItems: 'center', gap: 14, paddingHorizontal: 16, paddingVertical: 12 },

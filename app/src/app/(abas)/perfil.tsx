@@ -199,8 +199,8 @@ export default function Perfil() {
 
         <Dobravel testID="sec-revisoes" icone="brain" cor={c.roxo} titulo="Minhas revisões" resumo={resumoRevisao}>
           <Text style={s.texto}>
-            As revisões caem em dias variados e misturam assuntos que você já estudou. Escolha o que você quer revisar com mais frequência até a sua prova:
-            essas questões voltam antes e aparecem mais.
+            Na revisão voltam os assuntos (sempre com questões novas), misturados e em dias variados. Escolha o que você quer revisar com mais
+            frequência até a sua prova: esses assuntos voltam antes e aparecem mais.
           </Text>
           <Text style={s.rotulo}>Nível que quero revisar mais</Text>
           <View style={s.chips}>

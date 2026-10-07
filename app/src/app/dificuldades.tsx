@@ -59,7 +59,7 @@ export default function TelaDificuldades() {
                     <Barra valor={nota / 100} cor={c.vermelho} altura={8} />
                     <Text style={s.mini}>
                       {d.erros} erro{d.erros === 1 ? '' : 's'} em {d.respostas} resposta{d.respostas === 1 ? '' : 's'}
-                      {d.teimosas ? ` · ${d.teimosas} ${d.teimosas === 1 ? 'questão difícil de fixar' : 'questões difíceis de fixar'}` : ''}
+                      {d.teimosas ? ` · ${d.teimosas} ${d.teimosas === 1 ? 'questão errada mais de uma vez' : 'questões erradas mais de uma vez'}` : ''}
                       {d.tendencia === 1 ? ' · melhorando' : d.tendencia === -1 ? ' · piorando' : ''}
                     </Text>
                     <View style={s.botoes}>

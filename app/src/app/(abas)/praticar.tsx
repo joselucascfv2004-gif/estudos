@@ -11,7 +11,6 @@ import {
   acertoDisciplina,
   pontosFracos,
   proximaRevisao,
-  questoesTeimosas,
   revisoesPendentes,
   tamanhoRevisao,
 } from '../../estado/progresso';
@@ -35,8 +34,7 @@ export default function Praticar() {
   // sem revisão vencida, dá para fazer uma revisão surpresa com questões de dias anteriores
   const surpresa = pendentes ? 0 : tamanhoRevisao(p);
   const fracos = pontosFracos(p).slice(0, 3);
-  const teimosas = questoesTeimosas(p).length;
-  const plural = (n: number) => (n === 1 ? 'questão' : 'questões');
+  const plural = (n: number) => (n === 1 ? 'assunto' : 'assuntos');
 
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }} edges={['top']}>
@@ -50,10 +48,10 @@ export default function Praticar() {
           </ComIcone>
           <Text style={s.sub}>
             {pendentes
-              ? `${pendentes} ${plural(pendentes)} esperando revisão. As que você erra voltam logo; as que acerta, cada vez mais tarde.`
+              ? `${pendentes} ${plural(pendentes)} para revisar hoje, com questões que você ainda não viu. O assunto que você erra volta no dia seguinte; o que você acerta volta cada vez mais tarde.`
               : proxima
                 ? `Nada para hoje. Próxima revisão ${quandoFalta(proxima.dia)}: ${proxima.quantidade} ${plural(proxima.quantidade)}.`
-                : 'As questões que você responde voltam aqui em outros dias, para fixar na memória.'}
+                : 'Os assuntos que você estuda voltam aqui em outros dias, com questões novas, para fixar o conteúdo.'}
           </Text>
           <CalendarioRevisoes />
           <Text style={[s.dica, { marginTop: 10 }]} onPress={() => router.push('/perfil')}>
@@ -61,23 +59,11 @@ export default function Praticar() {
           </Text>
           <Botao
             testID="btn-revisao"
-            titulo={pendentes ? `Revisar ${Math.min(pendentes, 10)} agora` : surpresa ? `Revisão surpresa (${surpresa})` : 'Nada para revisar ainda'}
+            titulo={pendentes ? 'Revisar agora' : surpresa ? 'Adiantar uma revisão' : 'Nada para revisar ainda'}
             cor={c.roxo}
             desativado={!pendentes && !surpresa}
             onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
           />
-          {teimosas > 0 && (
-            <>
-              <Botao
-                estilo={{ marginTop: 10 }}
-                testID="btn-teimosas"
-                titulo={`Questões que mais erro (${Math.min(teimosas, 10)})`}
-                contorno
-                cor={c.roxo}
-                onPress={() => router.push({ pathname: '/licao', params: { modo: 'teimosas' } })}
-              />
-            </>
-          )}
         </Cartao>
 
         <Cartao estilo={{ backgroundColor: c.vermelhoClaro, borderColor: c.vermelhoBorda }}>

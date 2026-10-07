@@ -5,7 +5,7 @@ import { useProgresso } from '../estado/ProgressoContext';
 import { calendarioRevisoes } from '../estado/progresso';
 import { criarEstilos, useCores } from './tema';
 
-/** Barrinhas com quantas revisões vencem em cada um dos próximos 14 dias. */
+/** Barrinhas com quantos assuntos voltam para revisão em cada um dos próximos 14 dias. */
 export function CalendarioRevisoes() {
   const c = useCores();
   const s = useEstilos();
@@ -15,7 +15,7 @@ export function CalendarioRevisoes() {
   if (!dias.some((d) => d.quantidade)) return null;
   return (
     <View testID="calendario-revisoes">
-      <Text style={s.titulo}>Próximas revisões</Text>
+      <Text style={s.titulo}>Assuntos para revisar nos próximos dias</Text>
       <ScrollView horizontal showsHorizontalScrollIndicator={false} contentContainerStyle={{ gap: 6 }}>
         {dias.map(({ dia, quantidade }) => {
           const ehHoje = dia === hoje();

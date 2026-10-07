@@ -164,7 +164,7 @@ export default function Inicio() {
             <ItemPlano
               feito={false}
               icone="brain"
-              texto={`Revisar ${pendentes} ${pendentes === 1 ? 'questão' : 'questões'}`}
+              texto={`Revisar ${pendentes} ${pendentes === 1 ? 'assunto' : 'assuntos'}`}
               onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
             />
           )}
