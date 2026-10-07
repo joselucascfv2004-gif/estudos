@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
+import { ReactNode, useEffect, useState } from 'react';
 import { Modal, Pressable, ScrollView, Switch, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { LINGUAS, NOMES_NIVEL, Nivel, disciplinasDaProva, getTopico, totalQuestoes } from '../../data/banco';
+import { LINGUAS, NOMES_NIVEL, Nivel, disciplinasDaProva, getTopico } from '../../data/banco';
 import { METAS, getProva } from '../../data/provas';
 import { configurarLembrete, lembretesDisponiveis } from '../../estado/lembretes';
 import { diferencaDias, hoje } from '../../estado/datas';
@@ -82,11 +82,9 @@ export default function Perfil() {
   const alternar = (lista: string[], item: string) => (lista.includes(item) ? lista.filter((x) => x !== item) : [...lista, item]);
   const materiasDaProva = disciplinasDaProva(p.prova, p.lingua);
   const pref = p.prefRevisao;
+  const escolhasRevisao = (pref.nivel != null ? 1 : 0) + pref.disciplinas.length + pref.topicos.length;
+  const resumoRevisao = escolhasRevisao ? `${escolhasRevisao} preferência${escolhasRevisao > 1 ? 's' : ''} escolhida${escolhasRevisao > 1 ? 's' : ''}` : 'Tudo com o mesmo peso';
   const n = nivelDoUsuario(p.xpTotal);
-  const est = Object.values(p.questoes);
-  const acertos = est.reduce((s, q) => s + q.acertos, 0);
-  const respostas = acertos + est.reduce((s, q) => s + q.erros, 0);
-  const dominadas = est.filter((q) => q.acertos > 0).length;
 
   async function mudarLembrete(ativo: boolean, hora = p.lembrete.hora, minuto = p.lembrete.minuto) {
     atualizar((x) => ({ ...x, lembrete: { ativo, hora, minuto } }));
@@ -122,49 +120,8 @@ export default function Perfil() {
           </View>
         </View>
 
-        <View style={s.grade}>
-          <Info icone="fire" cor={c.laranja} valor={p.ofensiva.atual} rotulo="Ofensiva atual" />
-          <Info icone="trophy-outline" cor={c.amarelo} valor={p.ofensiva.recorde} rotulo="Recorde de ofensiva" />
-          <Info icone="lightning-bolt" cor={c.amarelo} valor={p.xpTotal} rotulo="XP total" />
-          <Info icone="book-check-outline" cor={c.azul} valor={p.totalLicoes} rotulo="Lições concluídas" />
-          <Info icone="pencil-outline" cor={c.roxo} valor={respostas} rotulo="Respostas" />
-          <Info icone="target" cor={c.verde} valor={respostas ? `${Math.round((acertos / respostas) * 100)}%` : '—'} rotulo="Taxa de acerto" />
-        </View>
-        <Text style={s.mini}>
-          Você já dominou {dominadas} de {totalQuestoes} questões do app.
-        </Text>
-
-        <Cartao>
-          <ComIcone icone="shield-outline" cor={c.azul} estiloTexto={s.secao}>
-            Loja
-          </ComIcone>
-          <Text style={s.texto}>
-            O protetor de ofensiva salva sua ofensiva se você ficar um dia sem estudar. Você tem {p.protetores}/{MAX_PROTETORES} protetores e {p.moedas} moedas.
-          </Text>
-          <Botao
-            icone="diamond-stone"
-            titulo={`Comprar protetor · ${PRECO_PROTETOR} moedas`}
-            cor={c.azul}
-            desativado={p.moedas < PRECO_PROTETOR || p.protetores >= MAX_PROTETORES}
-            onPress={() => atualizar((x) => comprarProtetor(x) ?? x)}
-          />
-        </Cartao>
-
-        <Cartao>
-          <ComIcone icone="target" cor={c.verde} estiloTexto={s.secao}>
-            Meta diária
-          </ComIcone>
-          <View style={s.chips}>
-            {METAS.map((m) => (
-              <Chip key={m.xp} texto={`${m.nome} · ${m.xp} XP`} ativo={p.metaDiaria === m.xp} cor={c.verde} onPress={() => atualizar((x) => ({ ...x, metaDiaria: m.xp }))} />
-            ))}
-          </View>
-        </Cartao>
-
-        <Cartao>
-          <ComIcone icone="flag-checkered" cor={c.azul} estiloTexto={s.secao}>
-            Meu objetivo
-          </ComIcone>
+        <Text style={s.grupo}>Seus estudos</Text>
+        <Dobravel testID="sec-objetivo" icone="flag-checkered" cor={c.azul} titulo="Meu objetivo" resumo={getProva(p.prova).nome}>
           <Text style={s.texto}>Escolha a sua prova. O app mostra só as matérias que caem nela.</Text>
           <EscolhaProva valor={p.prova} lingua={p.lingua} onEscolher={(id) => atualizar((x) => ({ ...x, prova: id, planoDia: null }))} />
           <EscolhaLingua
@@ -176,12 +133,9 @@ export default function Perfil() {
             }}
           />
           {!!linguaMsg && <Text style={s.mini}>{linguaMsg}</Text>}
-        </Cartao>
+        </Dobravel>
 
-        <Cartao>
-          <ComIcone icone="calendar-clock" cor={c.laranja} estiloTexto={s.secao}>
-            Prazo
-          </ComIcone>
+        <Dobravel testID="sec-prazo" icone="calendar-clock" cor={c.laranja} titulo="Prazo" resumo={p.dataProva ? `Até ${paraBr(p.dataProva)} · faltam ${diferencaDias(hoje(), p.dataProva)} dias` : 'Sem prazo definido'}>
           <Text style={s.texto}>
             Em quanto tempo você quer estudar para {getProva(p.prova).nome}? O app conta os dias e monta um plano diário que passa pelos assuntos que
             mais caem primeiro. Escolha um prazo ou digite a data da prova.
@@ -241,12 +195,9 @@ export default function Perfil() {
               <Text style={s.confirmacaoTexto}>{salvo}</Text>
             </View>
           )}
-        </Cartao>
+        </Dobravel>
 
-        <Cartao>
-          <ComIcone icone="brain" cor={c.roxo} estiloTexto={s.secao}>
-            Minhas revisões
-          </ComIcone>
+        <Dobravel testID="sec-revisoes" icone="brain" cor={c.roxo} titulo="Minhas revisões" resumo={resumoRevisao}>
           <Text style={s.texto}>
             As revisões caem em dias variados e misturam assuntos que você já estudou. Escolha o que você quer revisar com mais frequência até a sua prova:
             essas questões voltam antes e aparecem mais.
@@ -293,11 +244,49 @@ export default function Perfil() {
               ))}
             </View>
           ) : (
-            <Text style={s.mini}>Nenhum ainda. Para marcar, abra uma matéria na tela inicial, toque no assunto e escolha "Revisar mais este assunto".</Text>
+            <Text style={s.mini}>Nenhum ainda. Para marcar, abra uma matéria na aba Estudar, toque no assunto e escolha "Revisar mais este assunto".</Text>
           )}
           {!!revisaoMsg && <Text style={[s.mini, { color: c.verdeEscuro }]}>{revisaoMsg}</Text>}
+        </Dobravel>
+
+        <Dobravel testID="sec-meta" icone="target" cor={c.verde} titulo="Meta diária" resumo={`${METAS.find((m) => m.xp === p.metaDiaria)?.nome ?? 'Meta'} · ${p.metaDiaria} XP por dia`}>
+          <View style={s.chips}>
+            {METAS.map((m) => (
+              <Chip key={m.xp} texto={`${m.nome} · ${m.xp} XP`} ativo={p.metaDiaria === m.xp} cor={c.verde} onPress={() => atualizar((x) => ({ ...x, metaDiaria: m.xp }))} />
+            ))}
+          </View>
+        </Dobravel>
+
+        <Cartao>
+          <View style={s.linha}>
+            <View style={{ flex: 1 }}>
+              <ComIcone icone="lock-open-variant-outline" cor={c.verde} estiloTexto={s.secao}>
+                Liberar todos os níveis
+              </ComIcone>
+              <Text style={s.mini}>Para quem já domina o básico e quer ir direto ao difícil.</Text>
+            </View>
+            <Switch value={p.desbloquearTudo} onValueChange={(v) => atualizar((x) => ({ ...x, desbloquearTudo: v }))} trackColor={{ true: c.verde }} />
+          </View>
         </Cartao>
 
+        <Text style={s.grupo}>Ofensiva</Text>
+        <Cartao>
+          <ComIcone icone="shield-outline" cor={c.azul} estiloTexto={s.secao}>
+            Loja
+          </ComIcone>
+          <Text style={s.texto}>
+            O protetor de ofensiva salva sua ofensiva se você ficar um dia sem estudar. Você tem {p.protetores}/{MAX_PROTETORES} protetores e {p.moedas} moedas.
+          </Text>
+          <Botao
+            icone="diamond-stone"
+            titulo={`Comprar protetor · ${PRECO_PROTETOR} moedas`}
+            cor={c.azul}
+            desativado={p.moedas < PRECO_PROTETOR || p.protetores >= MAX_PROTETORES}
+            onPress={() => atualizar((x) => comprarProtetor(x) ?? x)}
+          />
+        </Cartao>
+
+        <Text style={s.grupo}>Aplicativo</Text>
         <Cartao>
           <View style={s.linha}>
             <View style={{ flex: 1 }}>
@@ -344,18 +333,6 @@ export default function Perfil() {
           {!!msg && <Text style={s.mini}>{msg}</Text>}
         </Cartao>
 
-        <Cartao>
-          <View style={s.linha}>
-            <View style={{ flex: 1 }}>
-              <ComIcone icone="lock-open-variant-outline" cor={c.verde} estiloTexto={s.secao}>
-                Liberar todos os níveis
-              </ComIcone>
-              <Text style={s.mini}>Para quem já domina o básico e quer ir direto ao difícil.</Text>
-            </View>
-            <Switch value={p.desbloquearTudo} onValueChange={(v) => atualizar((x) => ({ ...x, desbloquearTudo: v }))} trackColor={{ true: c.verde }} />
-          </View>
-        </Cartao>
-
         <CartaoBackup />
 
         <CartaoAtualizacao />
@@ -388,6 +365,27 @@ export default function Perfil() {
   );
 }
 
+/** Cartão que mostra só o título e a escolha atual; abre com um toque para mudar. */
+function Dobravel({ icone, cor, titulo, resumo, children, testID }: { icone: string; cor: string; titulo: string; resumo: string; children: ReactNode; testID?: string }) {
+  const c = useCores();
+  const s = useEstilos();
+  const [aberto, setAberto] = useState(false);
+  return (
+    <Cartao>
+      <Pressable testID={testID} onPress={() => setAberto((a) => !a)} style={s.linha} hitSlop={6}>
+        <View style={{ flex: 1 }}>
+          <ComIcone icone={icone} cor={cor} estiloTexto={s.secao}>
+            {titulo}
+          </ComIcone>
+          {!aberto && <Text style={[s.mini, { marginLeft: 30 }]}>{resumo}</Text>}
+        </View>
+        <Icone nome={aberto ? 'chevron-up' : 'chevron-down'} tamanho={26} cor={c.textoSuave} />
+      </Pressable>
+      {aberto && children}
+    </Cartao>
+  );
+}
+
 /** Lê uma data DD/MM/AAAA digitada; devolve a data no formato do app ou o motivo do erro. */
 function lerData(texto: string): string | { erro: string } {
   const m = texto.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
@@ -403,19 +401,6 @@ function lerData(texto: string): string | { erro: string } {
 function paraBr(iso: string) {
   const [a, m, d] = iso.split('-');
   return `${d}/${m}/${a}`;
-}
-
-function Info({ icone, cor, valor, rotulo }: { icone: string; cor: string; valor: string | number; rotulo: string }) {
-  const s = useEstilos();
-  return (
-    <Cartao estilo={s.info}>
-      <Icone nome={icone} tamanho={24} cor={cor} />
-      <View style={{ flex: 1 }}>
-        <Text style={s.infoValor}>{valor}</Text>
-        <Text style={s.infoRotulo}>{rotulo}</Text>
-      </View>
-    </Cartao>
-  );
 }
 
 const useEstilos = criarEstilos((c) => ({
@@ -436,10 +421,7 @@ const useEstilos = criarEstilos((c) => ({
   nome: { fontSize: 22, fontWeight: '800', color: c.texto, paddingVertical: 2 },
   nivel: { fontSize: 15, fontWeight: '800', color: c.amarelo },
   mini: { fontSize: 12, color: c.textoSuave, fontWeight: '600', marginTop: 4 },
-  grade: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 10 },
-  info: { width: '48.5%', flexDirection: 'row', alignItems: 'center', gap: 10, padding: 12 },
-  infoValor: { fontSize: 18, fontWeight: '800', color: c.texto },
-  infoRotulo: { fontSize: 11, color: c.textoSuave, fontWeight: '700' },
+  grupo: { fontSize: 13, fontWeight: '800', color: c.textoSuave, textTransform: 'uppercase', letterSpacing: 1, marginTop: 8, marginBottom: -4 },
   secao: { fontSize: 17, fontWeight: '800', color: c.texto },
   texto: { fontSize: 14, color: c.textoSuave, fontWeight: '600', lineHeight: 20, marginVertical: 8, flexShrink: 1 },
   chips: { flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginTop: 10 },

@@ -3,7 +3,6 @@ import { ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { disciplinasDaProva, getTopico } from '../../data/banco';
-import { getProva } from '../../data/provas';
 import { diferencaDias, hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
@@ -35,7 +34,7 @@ export default function Praticar() {
   const proxima = proximaRevisao(p);
   // sem revisão vencida, dá para fazer uma revisão surpresa com questões de dias anteriores
   const surpresa = pendentes ? 0 : tamanhoRevisao(p);
-  const fracos = pontosFracos(p).slice(0, 5);
+  const fracos = pontosFracos(p).slice(0, 3);
   const teimosas = questoesTeimosas(p).length;
   const plural = (n: number) => (n === 1 ? 'questão' : 'questões');
 
@@ -43,7 +42,7 @@ export default function Praticar() {
     <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }} edges={['top']}>
       <BarraStatus />
       <ScrollView contentContainerStyle={{ padding: 16, gap: 14 }}>
-        <Text style={s.titulo}>Praticar</Text>
+        <Text style={s.titulo}>Treinar</Text>
 
         <Cartao estilo={{ backgroundColor: c.roxoClaro, borderColor: c.roxoBorda }}>
           <ComIcone icone="brain" cor={c.roxo} tamanho={22} estiloTexto={s.cartaoTitulo}>
@@ -51,15 +50,14 @@ export default function Praticar() {
           </ComIcone>
           <Text style={s.sub}>
             {pendentes
-              ? `${pendentes} ${plural(pendentes)} de dias anteriores esperando revisão. As questões erradas voltam em poucos dias; as que você acerta voltam cada vez mais tarde, em dias variados.`
+              ? `${pendentes} ${plural(pendentes)} esperando revisão. As que você erra voltam logo; as que acerta, cada vez mais tarde.`
               : proxima
-                ? `Nenhuma revisão marcada para hoje. Próxima ${quandoFalta(proxima.dia)}: ${proxima.quantidade} ${plural(proxima.quantidade)}.`
-                : 'As questões que você responder voltam aqui em outros dias, misturando assuntos, para fixar o conteúdo na memória.'}
-            {surpresa ? ' Quer adiantar? Faça uma revisão surpresa com questões que você já viu.' : ''}
+                ? `Nada para hoje. Próxima revisão ${quandoFalta(proxima.dia)}: ${proxima.quantidade} ${plural(proxima.quantidade)}.`
+                : 'As questões que você responde voltam aqui em outros dias, para fixar na memória.'}
           </Text>
           <CalendarioRevisoes />
           <Text style={[s.dica, { marginTop: 10 }]} onPress={() => router.push('/perfil')}>
-            Escolha no Perfil as matérias, assuntos e o nível que você quer revisar mais.
+            Escolher o que revisar mais (no Perfil)
           </Text>
           <Botao
             testID="btn-revisao"
@@ -70,11 +68,8 @@ export default function Praticar() {
           />
           {teimosas > 0 && (
             <>
-              <Text style={[s.sub, { marginTop: 12 }]}>
-                {teimosas === 1 ? 'Uma questão você já errou' : `${teimosas} questões você já errou`} mais de uma vez. Elas voltam mais cedo na revisão,
-                mas você pode atacá-las agora.
-              </Text>
               <Botao
+                estilo={{ marginTop: 10 }}
                 testID="btn-teimosas"
                 titulo={`Questões que mais erro (${Math.min(teimosas, 10)})`}
                 contorno
@@ -91,7 +86,7 @@ export default function Praticar() {
           </ComIcone>
           {fracos.length ? (
             <>
-              <Text style={s.sub}>Assuntos em que você acertou menos de {LIMITE_PONTO_FRACO}% nas últimas questões. Toque em um para treinar só ele.</Text>
+              <Text style={s.sub}>Assuntos com menos de {LIMITE_PONTO_FRACO}% de acerto. Toque em um para treinar só ele.</Text>
               <View style={{ gap: 8, marginBottom: 12 }}>
                 {fracos.map((f) => {
                   const info = getTopico(f.topicoId);
@@ -120,66 +115,36 @@ export default function Praticar() {
                 cor={c.vermelho}
                 onPress={() => router.push({ pathname: '/licao', params: { modo: 'fracos' } })}
               />
-              <Botao
-                testID="btn-dificuldades"
-                titulo="Ver relatório completo"
-                contorno
-                cor={c.vermelho}
-                onPress={() => router.push('/dificuldades')}
-                estilo={{ marginTop: 10 }}
-              />
+              <Text testID="btn-dificuldades" style={[s.dica, { color: c.vermelho, marginTop: 12, marginBottom: 0, textAlign: 'center' }]} onPress={() => router.push('/dificuldades')}>
+                Ver relatório completo
+              </Text>
             </>
           ) : (
             <Text style={s.sub}>
-              Nenhum ponto fraco por enquanto. O app acompanha as suas respostas: quando você acertar menos de {LIMITE_PONTO_FRACO}% das últimas
-              questões de um assunto (com pelo menos {MIN_RESPOSTAS_AVALIAR} respondidas), ele aparece aqui.
+              Nenhum por enquanto. Um assunto aparece aqui quando você acerta menos de {LIMITE_PONTO_FRACO}% das últimas questões dele (com pelo
+              menos {MIN_RESPOSTAS_AVALIAR} respondidas).
             </Text>
           )}
           {!fracos.length && Object.keys(p.questoes).length > 0 && (
-            <Botao titulo="Ver meu relatório de acertos" contorno cor={c.vermelho} onPress={() => router.push('/dificuldades')} />
+            <Text style={[s.dica, { color: c.vermelho, marginBottom: 0, textAlign: 'center' }]} onPress={() => router.push('/dificuldades')}>
+              Ver meu relatório de acertos
+            </Text>
           )}
         </Cartao>
 
-        <Cartao estilo={{ backgroundColor: c.amareloClaro, borderColor: c.amarelo }}>
-          <ComIcone icone="timer-outline" cor={c.laranja} tamanho={22} estiloTexto={s.cartaoTitulo}>
-            Simulado
-          </ComIcone>
-          <Text style={s.sub}>
-            Prova com tempo marcando e gabarito só no final, como no dia da prova. Também dá para fazer as provas oficiais do ENEM por ano e área.
-            {p.simulados.length ? ` Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total} acertos.` : ''}
-          </Text>
-          <Botao testID="btn-simulado" titulo="Fazer simulado" cor={c.laranja} onPress={() => router.push('/simulado')} />
-        </Cartao>
-
-        <Cartao testID="cartao-redacao" estilo={s.linha} onPress={() => router.push('/redacao')}>
-          <Icone nome="draw-pen" tamanho={26} cor={c.azul} />
-          <View style={{ flex: 1 }}>
-            <Text style={s.nome}>Redação do ENEM</Text>
-            <Text style={s.acerto}>Temas das provas de 2009 a 2025, cronômetro e autoavaliação pelas 5 competências</Text>
-          </View>
-          <Icone nome="chevron-right" tamanho={24} cor={c.azul} />
-        </Cartao>
-
-        <Cartao testID="cartao-salvas" estilo={s.linha} onPress={() => router.push('/salvas')}>
-          <Icone nome="star" tamanho={26} cor={c.amarelo} />
-          <View style={{ flex: 1 }}>
-            <Text style={s.nome}>Questões salvas</Text>
-            <Text style={s.acerto}>
-              {Object.keys(p.salvas).length
-                ? `${Object.keys(p.salvas).length} salvas, com as suas anotações`
-                : 'Salve questões durante as lições para rever depois'}
-            </Text>
-          </View>
-          <Icone nome="chevron-right" tamanho={24} cor={c.amarelo} />
-        </Cartao>
-
-        <Cartao estilo={{ backgroundColor: c.azulClaro, borderColor: c.azulBorda }}>
-          <ComIcone icone="shuffle-variant" cor={c.azul} tamanho={22} estiloTexto={s.cartaoTitulo}>
-            Treino misto
-          </ComIcone>
-          <Text style={s.sub}>10 questões sorteadas de tudo o que você já liberou nas matérias de {getProva(p.prova).nome}.</Text>
-          <Botao titulo="Treinar" cor={c.azul} onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino' } })} />
-        </Cartao>
+        <View style={s.blocos}>
+          <Bloco testID="btn-simulado" icone="timer-outline" cor={c.laranja} titulo="Simulado" sub={p.simulados.length ? `Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total}` : 'Com tempo de prova'} onPress={() => router.push('/simulado')} />
+          <Bloco icone="shuffle-variant" cor={c.azul} titulo="Treino misto" sub="10 questões de tudo" onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino' } })} />
+          <Bloco testID="cartao-redacao" icone="draw-pen" cor={c.roxo} titulo="Redação" sub="Temas do ENEM" onPress={() => router.push('/redacao')} />
+          <Bloco
+            testID="cartao-salvas"
+            icone="star"
+            cor={c.amarelo}
+            titulo="Salvas"
+            sub={Object.keys(p.salvas).length ? `${Object.keys(p.salvas).length} questões` : 'Nenhuma ainda'}
+            onPress={() => router.push('/salvas')}
+          />
+        </View>
 
         <Text style={s.secao}>Treinar por disciplina</Text>
         <View style={{ gap: 10 }}>
@@ -207,7 +172,22 @@ export default function Praticar() {
   );
 }
 
+function Bloco({ icone, cor, titulo, sub, onPress, testID }: { icone: string; cor: string; titulo: string; sub: string; onPress: () => void; testID?: string }) {
+  const s = useEstilos();
+  return (
+    <Cartao testID={testID} estilo={s.bloco} onPress={onPress}>
+      <Icone nome={icone} tamanho={28} cor={cor} />
+      <Text style={s.nome}>{titulo}</Text>
+      <Text style={s.acerto} numberOfLines={1}>
+        {sub}
+      </Text>
+    </Cartao>
+  );
+}
+
 const useEstilos = criarEstilos((c) => ({
+  blocos: { flexDirection: 'row', flexWrap: 'wrap', justifyContent: 'space-between', rowGap: 12 },
+  bloco: { width: '48.5%', padding: 14, gap: 4 },
   titulo: { fontSize: 26, fontWeight: '800', color: c.texto },
   cartaoTitulo: { fontSize: 19, fontWeight: '800', color: c.texto },
   sub: { fontSize: 14, color: c.textoSuave, fontWeight: '600', marginVertical: 10, lineHeight: 20 },

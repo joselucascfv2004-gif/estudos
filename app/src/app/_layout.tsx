@@ -24,6 +24,7 @@ function Navegacao() {
         <Stack.Screen name="jogos/comparar" options={{ gestureEnabled: false }} />
         <Stack.Screen name="jogos/duelo" options={{ gestureEnabled: false }} />
         <Stack.Screen name="jogos/memoria" options={{ gestureEnabled: false }} />
+        <Stack.Screen name="progresso" />
         <Stack.Screen name="dificuldades" />
         <Stack.Screen name="redacao/index" />
         <Stack.Screen name="redacao/[id]" />

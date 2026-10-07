@@ -43,9 +43,9 @@ export default function AbasLayout() {
       }}
     >
       <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: icone('home-outline', 'home') }} />
+      <Tabs.Screen name="estudar" options={{ title: 'Estudar', tabBarIcon: icone('book-open-page-variant-outline', 'book-open-page-variant') }} />
       <Tabs.Screen name="praticar" options={{ title: 'Treinar', tabBarIcon: icone('target', 'target') }} />
       <Tabs.Screen name="jogos" options={{ title: 'Jogos', tabBarIcon: icone('gamepad-variant-outline', 'gamepad-variant') }} />
-      <Tabs.Screen name="conquistas" options={{ title: 'Progresso', tabBarIcon: icone('chart-line', 'chart-line') }} />
       <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icone('account-outline', 'account') }} />
     </Tabs>
   );

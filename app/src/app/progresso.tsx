@@ -2,16 +2,17 @@ import { router } from 'expo-router';
 import { ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { diaDaSemana, hoje, somarDias } from '../../estado/datas';
-import { useProgresso } from '../../estado/ProgressoContext';
-import { CONQUISTAS, evolucaoDisciplinas, evolucaoSemanal } from '../../estado/progresso';
-import { getDisciplina } from '../../data/banco';
-import { BarraStatus } from '../../ui/BarraStatus';
-import { Cartao } from '../../ui/componentes';
-import { Icone } from '../../ui/Icone';
-import { criarEstilos, useCores } from '../../ui/tema';
+import { getDisciplina, totalQuestoes } from '../data/banco';
+import { getProva } from '../data/provas';
+import { diaDaSemana, diferencaDias, hoje, somarDias } from '../estado/datas';
+import { useProgresso } from '../estado/ProgressoContext';
+import { CONQUISTAS, coberturaPrazo, evolucaoDisciplinas, evolucaoSemanal } from '../estado/progresso';
+import { Cabecalho, Cartao } from '../ui/componentes';
+import { Icone } from '../ui/Icone';
+import { criarEstilos, useCores } from '../ui/tema';
 
-export default function Conquistas() {
+/** Detalhes do progresso: números, prazo da prova, gráficos, dificuldades e conquistas. */
+export default function Progresso() {
   const c = useCores();
   const s = useEstilos();
   const { p } = useProgresso();
@@ -21,11 +22,47 @@ export default function Conquistas() {
   const semanas = evolucaoSemanal(p);
   const temSemanas = semanas.some((w) => w.total > 0);
   const disciplinas = evolucaoDisciplinas(p);
+  const est = Object.values(p.questoes);
+  const acertos = est.reduce((soma, q) => soma + q.acertos, 0);
+  const respostas = acertos + est.reduce((soma, q) => soma + q.erros, 0);
+  const dominadas = est.filter((q) => q.acertos > 0).length;
+  const diasProva = p.dataProva ? diferencaDias(hoje(), p.dataProva) : null;
+  const cobertura = coberturaPrazo(p, hoje());
+  const prova = getProva(p.prova);
 
   return (
-    <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }} edges={['top']}>
-      <BarraStatus />
+    <SafeAreaView style={{ flex: 1, backgroundColor: c.fundo }}>
+      <Cabecalho titulo="Seu progresso" icone="chart-line" />
       <ScrollView contentContainerStyle={{ padding: 16, gap: 14 }}>
+        <Text style={s.titulo}>Seus números</Text>
+        <View style={s.grade}>
+          <Info icone="fire" cor={c.laranja} valor={p.ofensiva.atual} rotulo="Ofensiva atual" />
+          <Info icone="trophy-outline" cor={c.amarelo} valor={p.ofensiva.recorde} rotulo="Recorde de ofensiva" />
+          <Info icone="lightning-bolt" cor={c.amarelo} valor={p.xpTotal} rotulo="XP total" />
+          <Info icone="book-check-outline" cor={c.azul} valor={p.totalLicoes} rotulo="Lições concluídas" />
+          <Info icone="pencil-outline" cor={c.roxo} valor={respostas} rotulo="Respostas" />
+          <Info icone="target" cor={c.verde} valor={respostas ? `${Math.round((acertos / respostas) * 100)}%` : '—'} rotulo="Taxa de acerto" />
+        </View>
+        <Text style={[s.legenda, { marginTop: -4 }]}>
+          Você já acertou {dominadas} das {totalQuestoes} questões do app.
+        </Text>
+
+        {diasProva != null && diasProva >= 0 && (
+          <Cartao>
+            <View style={s.contagem}>
+              <Text style={s.contagemNumero}>{diasProva}</Text>
+              <Text style={s.contagemTexto}>{diasProva === 0 ? 'É hoje! Boa prova!' : `dia${diasProva === 1 ? '' : 's'} para ${p.nomeProva.trim() || prova.nome}`}</Text>
+            </View>
+            {cobertura && cobertura.diasDeEstudo > 0 && cobertura.vistos < cobertura.total && (
+              <Text style={[s.legenda, { marginTop: 6 }]}>
+                {cobertura.cabem >= cobertura.total - cobertura.vistos
+                  ? `No ritmo de ${cobertura.porDia} assunto${cobertura.porDia > 1 ? 's' : ''} novo${cobertura.porDia > 1 ? 's' : ''} por dia, você passa pelos ${cobertura.total - cobertura.vistos} assuntos que faltam e ainda sobra a última semana para revisar.`
+                  : `No prazo, dá para ver ${cobertura.cabem} dos ${cobertura.total - cobertura.vistos} assuntos que faltam (${cobertura.porDia} por dia). O plano começa pelos que mais caem na prova.`}
+              </Text>
+            )}
+          </Cartao>
+        )}
+
         <Text style={s.titulo}>Sua semana</Text>
         <Cartao>
           <View style={s.grafico}>
@@ -142,6 +179,19 @@ export default function Conquistas() {
   );
 }
 
+function Info({ icone, cor, valor, rotulo }: { icone: string; cor: string; valor: string | number; rotulo: string }) {
+  const s = useEstilos();
+  return (
+    <Cartao estilo={s.info}>
+      <Icone nome={icone} tamanho={24} cor={cor} />
+      <View style={{ flex: 1 }}>
+        <Text style={s.infoValor}>{valor}</Text>
+        <Text style={s.infoRotulo}>{rotulo}</Text>
+      </View>
+    </Cartao>
+  );
+}
+
 function Legenda({ cor, texto }: { cor: string; texto: string }) {
   const s = useEstilos();
   return (
@@ -153,7 +203,13 @@ function Legenda({ cor, texto }: { cor: string; texto: string }) {
 }
 
 const useEstilos = criarEstilos((c) => ({
-  titulo: { fontSize: 24, fontWeight: '800', color: c.texto },
+  titulo: { fontSize: 22, fontWeight: '800', color: c.texto },
+  info: { width: '48.5%', flexDirection: 'row', alignItems: 'center', gap: 10, padding: 12, marginBottom: 10 },
+  infoValor: { fontSize: 18, fontWeight: '800', color: c.texto },
+  infoRotulo: { fontSize: 11, color: c.textoSuave, fontWeight: '700' },
+  contagem: { flexDirection: 'row', alignItems: 'baseline', gap: 8 },
+  contagemNumero: { fontSize: 36, fontWeight: '800', color: c.laranja },
+  contagemTexto: { flex: 1, fontSize: 16, fontWeight: '800', color: c.texto },
   subtitulo: { fontSize: 15, fontWeight: '800', color: c.texto, marginBottom: 10 },
   linhaDisc: { flexDirection: 'row', alignItems: 'center', gap: 10, paddingVertical: 8 },
   discNome: { fontSize: 14, fontWeight: '800', color: c.texto, marginBottom: 4 },
