@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**10677 questões** em **223 tópicos**.
+**10977 questões** em **229 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -424,3 +424,16 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Análise das Demonstrações Contábeis](ufcg-contabeis-p6/03-analise-das-demonstracoes-contabeis.md) | Faculdade | 17 | 17 | 16 |
 | [Contabilidade Governamental](ufcg-contabeis-p6/04-contabilidade-governamental.md) | Faculdade | 17 | 17 | 16 |
 | [Laboratório de Prática II – Pessoal](ufcg-contabeis-p6/05-laboratorio-de-pratica-ii-pessoal.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 7º período — 300 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Contabilidade Gerencial](ufcg-contabeis-p7/01-contabilidade-gerencial.md) | Faculdade | 17 | 17 | 16 |
+| [Auditoria Operacional e de Gestão](ufcg-contabeis-p7/02-auditoria-operacional-e-de-gestao.md) | Faculdade | 17 | 17 | 16 |
+| [Finanças Corporativas I](ufcg-contabeis-p7/03-financas-corporativas-i.md) | Faculdade | 17 | 17 | 16 |
+| [Sistemas de Informações Gerenciais](ufcg-contabeis-p7/04-sistemas-de-informacoes-gerenciais.md) | Faculdade | 17 | 17 | 16 |
+| [Laboratório de Prática III – Contabilidade Financeira](ufcg-contabeis-p7/05-laboratorio-de-pratica-iii-contabilidade-financeira.md) | Faculdade | 17 | 17 | 16 |
+| [Pesquisa Aplicada](ufcg-contabeis-p7/06-pesquisa-aplicada.md) | Faculdade | 17 | 17 | 16 |

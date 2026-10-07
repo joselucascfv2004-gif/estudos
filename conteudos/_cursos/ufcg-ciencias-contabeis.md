@@ -451,6 +451,7 @@ ementa: Noções Gerais: contratos de trabalho, espécies de contratos, caracter
 
 ### 3103006 · Contabilidade Gerencial · 60h · Obrigatória
 pre: Análise de Custos
+app: ufcg-contabeis-p7/contabilidade-gerencial
 ementa: Contabilidade para planejamento, controle e tomada de decisão: orçamento mestre, orçamentos flexíveis e análise de variações. Introdução a controladoria; conceito, funções, instrumentos. O papel do controller, visão sistêmica da empresa. Ambiente, empresa, gestão e eficácia. Logística. Processo de gestão: Planejamento estratégico, tático e operacional. Planejamento de resultados.
 - Contabilidade gerencial × financeira
 - Orçamento-mestre: vendas, produção, despesas e caixa
@@ -462,6 +463,7 @@ ementa: Contabilidade para planejamento, controle e tomada de decisão: orçamen
 
 ### 3103137 · Auditoria Operacional e de Gestão · 30h · Obrigatória
 pre: —
+app: ufcg-contabeis-p7/auditoria-operacional-e-de-gestao
 ementa: Técnica e procedimento de auditoria operacional e de gestão. Qualidade no trabalho de auditoria, controle interno e controle externo.
 - Auditoria operacional (de desempenho): economicidade, eficiência, eficácia e efetividade
 - Técnicas e procedimentos de auditoria operacional e de gestão
@@ -470,6 +472,7 @@ ementa: Técnica e procedimento de auditoria operacional e de gestão. Qualidade
 
 ### 3103138 · Finanças Corporativas I · 60h · Obrigatória
 pre: Matemática Financeira; Contabilidade Intermediária II
+app: ufcg-contabeis-p7/financas-corporativas-i
 relacionados: cpa/calculos-financeiros-e-tributacao
 ementa: Fundamentos de Finanças Corporativas. Decisões de Investimento: fluxos de caixa para orçamento de capital e técnicas de orçamento de capital. Decisões de Financiamento: custo de capital, estrutura de capital e fontes de financiamento. Decisões de Capital de Giro: caixa, valores a receber e estoques. Noções de Planejamento Financeiro.
 - Objetivo da empresa: maximizar valor; papel do gestor financeiro
@@ -483,6 +486,7 @@ ementa: Fundamentos de Finanças Corporativas. Decisões de Investimento: fluxos
 
 ### 3103139 · Sistemas de Informações Gerenciais · 30h · Obrigatória
 pre: Fundamentos de Administração
+app: ufcg-contabeis-p7/sistemas-de-informacoes-gerenciais
 ementa: O papel da informação, as fontes de informação na empresa: fontes mercadológicas, financeiras, tecnológicas, científicas, jurídicas, econômicas e sociais. Os sistemas de informação: conceitos e tipologias. O papel da tecnologia e uso estratégico da tecnologia da informação. Aplicações de sistemas de informação na empresas. Alinhamento estratégico de TI e obtenção de vantagens competitivas. Introdução aos Sistemas de Informações Gerenciais – SIG. Sistemas de automação, sistemas de informação, sistemas de apoio à decisão, sistemas especialistas. Os sistemas de informação e o processo decisório. Sistemas de informações gerenciais e contábeis. Relatórios contábeis gerenciais. Práticas gerenciais e operacionais.
 - Dado, informação e conhecimento; fontes de informação na empresa
 - Sistemas de informação: conceitos e tipos (transacionais, gerenciais, de apoio à decisão, especialistas)
@@ -492,6 +496,7 @@ ementa: O papel da informação, as fontes de informação na empresa: fontes me
 
 ### 3103140 · Laboratório de Prática III – Contabilidade Financeira · 60h · Obrigatória
 pre: Contabilidade Societária
+app: ufcg-contabeis-p7/laboratorio-de-pratica-iii-contabilidade-financeira
 ementa: Constituição de empresa. Prática de: escrituração contábil, pessoal e fiscal. Balancete de verificação. Provisão, depreciação, amortização e exaustão. Movimentação bancária. Operações com duplicatas. Apuração do resultado do exercício. Escrituração Contábil. Registros no Livro de Apuração do Lucro Real - LALUR. Elaboração das demonstrações contábeis: balanço patrimonial, demonstração do resultado do exercício, demonstração do fluxo de caixa e demonstração das mutações do patrimônio líquido.
 - Constituição de empresa e abertura da escrituração
 - Escrituração contábil, fiscal e de pessoal integradas
@@ -503,6 +508,7 @@ ementa: Constituição de empresa. Prática de: escrituração contábil, pessoa
 
 ### 3103034 · Pesquisa Aplicada · 30h · Obrigatória
 pre: Metodologias e Técnicas de Pesquisa Científica
+app: ufcg-contabeis-p7/pesquisa-aplicada
 ementa: Novas doutrinas contábeis e temas atuais que sejam de relevância para o desenvolvimento da Ciência Contábil. Instrumentos de investigação. História e reflexões sobre a ciência contábil. A contabilidade frente aos novos desafios.
 - Novas doutrinas e temas atuais da ciência contábil
 - Instrumentos de investigação: questionário, entrevista, análise documental

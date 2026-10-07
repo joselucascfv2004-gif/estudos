@@ -194,3 +194,9 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p6/auditoria-contabil: 5
 - ufcg-contabeis-p6/contabilidade-governamental: 5
 - ufcg-contabeis-p6/laboratorio-de-pratica-ii-pessoal: 5
+- ufcg-contabeis-p7/auditoria-operacional-e-de-gestao: 5
+- ufcg-contabeis-p7/contabilidade-gerencial: 5
+- ufcg-contabeis-p7/financas-corporativas-i: 5
+- ufcg-contabeis-p7/laboratorio-de-pratica-iii-contabilidade-financeira: 5
+- ufcg-contabeis-p7/pesquisa-aplicada: 5
+- ufcg-contabeis-p7/sistemas-de-informacoes-gerenciais: 5
