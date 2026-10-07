@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
-import { disciplinasDaProva, getTopico } from '../../data/banco';
+import { cursoDaProva, disciplinasDaProva, getTopico } from '../../data/banco';
 import { getProva } from '../../data/provas';
 import { diferencaDias, hoje } from '../../estado/datas';
 import { useProgresso } from '../../estado/ProgressoContext';
@@ -86,6 +86,21 @@ export default function Inicio() {
           </View>
           <Text style={s.trocar}>TROCAR</Text>
         </Cartao>
+
+        {(() => {
+          const curso = cursoDaProva(prova.id);
+          if (!curso) return null;
+          return (
+            <Cartao testID="cartao-curso" estilo={[s.linhaProva, { marginBottom: 14 }]} onPress={() => router.push({ pathname: '/curso/[id]', params: { id: curso.id } })}>
+              <Icone nome="school-outline" tamanho={26} cor="#2E7D5B" />
+              <View style={{ flex: 1 }}>
+                <Text style={s.cartaoSub0}>Grade do curso</Text>
+                <Text style={s.cartaoTitulo}>Períodos, ementas e assuntos</Text>
+              </View>
+              <Icone nome="chevron-right" tamanho={24} cor={c.textoSuave} />
+            </Cartao>
+          );
+        })()}
 
         <Cartao estilo={{ marginBottom: 14 }}>
           <View style={s.linha}>

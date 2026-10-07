@@ -19,6 +19,7 @@ function Navegacao() {
         <Stack.Screen name="salvas" />
         <Stack.Screen name="resumo" />
         <Stack.Screen name="video" />
+        <Stack.Screen name="curso/[id]" />
         <Stack.Screen name="jogos/calculo" options={{ gestureEnabled: false }} />
         <Stack.Screen name="jogos/comparar" options={{ gestureEnabled: false }} />
         <Stack.Screen name="jogos/duelo" options={{ gestureEnabled: false }} />

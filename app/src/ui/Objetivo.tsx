@@ -12,6 +12,7 @@ const GRUPOS: { grupo: GrupoProva; titulo: string }[] = [
   { grupo: 'Militares', titulo: 'Provas militares' },
   { grupo: 'Concursos', titulo: 'Concursos' },
   { grupo: 'Certificações', titulo: 'Certificações financeiras (ANBIMA)' },
+  { grupo: 'Faculdade', titulo: 'Faculdade (revisão do curso)' },
   { grupo: 'Todas', titulo: 'Sem prova definida' },
 ];
 
@@ -33,7 +34,7 @@ export function EscolhaProva({ valor, onEscolher, lingua }: { valor: string; onE
         </View>
       ))}
       <MateriasDaProva prova={escolhida} lingua={lingua} />
-      {escolhida.grupo !== 'ENEM' && escolhida.grupo !== 'Todas' && (
+      {escolhida.grupo !== 'ENEM' && escolhida.grupo !== 'Todas' && escolhida.grupo !== 'Faculdade' && (
         <Text style={[s.aviso, { color: c.textoSuave }]}>
           As matérias seguem os editais mais recentes. Os editais mudam de um ano para outro: confira sempre o do seu concurso.
         </Text>

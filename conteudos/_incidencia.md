@@ -157,3 +157,9 @@ análise do cliente 20%, prospecção 20% e análise de portfólio 20%.
 - c-pro-r/previdencia-avancada: 3
 - c-pro-r/criptoativos: 3
 - c-pro-r/risco-retorno-e-performance: 5
+
+## Ciências Contábeis (UFCG)
+
+Na revisão do curso, as disciplinas de contabilidade vêm antes das de apoio.
+
+- ufcg-contabeis-p1/contabilidade-basica: 5

@@ -26,6 +26,9 @@ App estilo Duolingo para estudar para ENEM, vestibulares militares e concursos
 - Questões de cálculo são geradas em `scripts/geradores/`. Edite o gerador, nunca o `.md` gerado.
 - Todo tópico tem uma seção `## Resumo` (antes de `## Fácil`) com a teoria em tópicos curtos. Nos
   tópicos gerados, o resumo fica em `scripts/geradores/resumos.mjs`.
+- Cursos de faculdade: a grade (períodos, ementas oficiais e assuntos) fica em `conteudos/_cursos/<curso>.md`; o
+  conteúdo de cada período fica em `conteudos/<curso>-pN/` (um tópico por disciplina, com `provas: Faculdade`). Ao criar
+  o tópico de uma disciplina, ponha a linha `app: <disciplina>/<tópico>` no bloco dela na grade.
 - Questões oficiais ficam em `conteudos/enem-oficial/`, com `ordem: original` no cabeçalho (o
   balanceador não altera a ordem das alternativas) e `**Fonte:**` em cada questão. Confira o gabarito
   com o arquivo oficial do INEP. Inclua só questões que não dependem de imagem.

@@ -2,9 +2,9 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**9077 questões** em **191 tópicos**.
+**9127 questões** em **192 tópicos**.
 
-Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).
+Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
 ## Matemática — 1300 questões
 
@@ -350,3 +350,11 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Previdência no planejamento do cliente](c-pro-r/08-previdencia-avancada.md) | Certificações | 17 | 17 | 16 |
 | [Criptoativos na carteira do investidor](c-pro-r/09-criptoativos.md) | Certificações | 17 | 17 | 16 |
 | [Risco, retorno e performance de carteiras](c-pro-r/10-risco-retorno-e-performance.md) | Certificações | 17 | 17 | 16 |
+
+## Contábeis UFCG · 1º período — 50 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Contabilidade Básica](ufcg-contabeis-p1/01-contabilidade-basica.md) | Faculdade | 17 | 17 | 16 |

@@ -1,7 +1,7 @@
 // Provas-alvo: cada uma define quais disciplinas (e tópicos) entram no estudo do aluno.
 // Baseado nos editais mais recentes de cada prova. Os editais mudam: confira sempre o do seu concurso.
 
-export type GrupoProva = 'ENEM' | 'Militares' | 'Concursos' | 'Certificações' | 'Todas';
+export type GrupoProva = 'ENEM' | 'Militares' | 'Concursos' | 'Certificações' | 'Faculdade' | 'Todas';
 
 type Materia = { disciplina: string; topicos?: string[] };
 
@@ -261,6 +261,24 @@ export const PROVAS: ProvaAlvo[] = [
           { nome: 'Análise de portfólio e monitoramento', questoes: 9, topicos: ['c-pro-r/risco-retorno-e-performance'] },
         ],
       },
+    ],
+  },
+  {
+    id: 'ufcg-contabeis',
+    nome: 'Ciências Contábeis (UFCG)',
+    grupo: 'Faculdade',
+    icone: 'school-outline',
+    descricao:
+      'Revisão do bacharelado em Ciências Contábeis da UFCG (Campus de Sousa), estrutura curricular 2016: 9 períodos, com a ementa de cada disciplina na grade do curso. As disciplinas ganham conteúdo aos poucos; as de matemática, estatística, informática e português já usam os assuntos do app.',
+    materias: [
+      ...[1, 2, 3, 4, 5, 6, 7, 8, 9].map((n) => ({ disciplina: `ufcg-contabeis-p${n}` })),
+      { disciplina: 'ufcg-contabeis-optativas' },
+      { disciplina: 'matematica', topicos: ['equacoes-e-sistemas', 'funcoes-afim-e-quadratica', 'exponencial-e-logaritmo', 'fracoes-fatoracao-e-produtos-notaveis', 'estatistica', 'probabilidade', 'analise-combinatoria'] },
+      { disciplina: 'matematica-financeira' },
+      { disciplina: 'informatica', topicos: ['hardware-e-sistemas-operacionais', 'internet-redes-e-seguranca', 'editores-e-planilhas'] },
+      { disciplina: 'portugues', topicos: ['interpretacao-de-texto', 'pontuacao-ortografia-acentuacao', 'concordancia-regencia-crase'] },
+      { disciplina: 'sociologia' },
+      { disciplina: 'raciocinio-logico', topicos: ['proposicoes-e-tabela-verdade', 'equivalencias-e-negacoes'] },
     ],
   },
   { id: 'concursos', nome: 'Concursos (geral)', grupo: 'Concursos', icone: 'briefcase-outline', descricao: 'Todas as matérias de concursos do app' },

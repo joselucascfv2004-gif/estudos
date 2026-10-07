@@ -35,10 +35,11 @@ function tamanhoImagem(arq) {
 
 const NIVEIS = { 'fácil': 0, 'facil': 0, 'médio': 1, 'medio': 1, 'difícil': 2, 'dificil': 2 };
 const NOMES_NIVEL = ['Fácil', 'Médio', 'Difícil'];
-const PROVAS_VALIDAS = ['ENEM', 'Militares', 'Concursos', 'Certificações'];
+const PROVAS_VALIDAS = ['ENEM', 'Militares', 'Concursos', 'Certificações', 'Faculdade'];
 
 const ARQ_INCIDENCIA = path.join(PASTA_CONTEUDOS, '_incidencia.md');
 const ARQ_VIDEOS = path.join(PASTA_CONTEUDOS, '_videos.md');
+const PASTA_CURSOS = path.join(PASTA_CONTEUDOS, '_cursos');
 const MAX_VIDEOS = 4;
 
 const erros = [];
@@ -212,6 +213,56 @@ function lerVideos() {
   return mapa;
 }
 
+/**
+ * Lê conteudos/_cursos/*.md: grade de cursos de faculdade. "## período", "### código · nome · carga · tipo",
+ * linhas "pre:", "app:", "relacionados:", "ementa:" e a lista de assuntos ("- ...").
+ */
+function lerCursos() {
+  if (!fs.existsSync(PASTA_CURSOS)) return [];
+  return fs
+    .readdirSync(PASTA_CURSOS)
+    .filter((f) => f.endsWith('.md'))
+    .sort()
+    .map((f) => {
+      const arquivo = path.join(PASTA_CURSOS, f);
+      const { meta, corpo, inicio } = lerFrontmatter(fs.readFileSync(arquivo, 'utf8'), arquivo);
+      for (const k of ['id', 'nome', 'instituicao', 'prova', 'fonte']) if (!meta[k]) erro(arquivo, 1, `falta "${k}"`);
+      const curso = { id: meta.id, nome: meta.nome, instituicao: meta.instituicao, prova: meta.prova, fonte: meta.fonte, periodos: [] };
+      let periodo = null;
+      let comp = null;
+      corpo.forEach((linha, i) => {
+        const n = inicio + i + 1;
+        let m;
+        if ((m = linha.match(/^## (.+)$/))) {
+          periodo = { nome: m[1].trim(), nota: '', componentes: [] };
+          curso.periodos.push(periodo);
+          comp = null;
+        } else if ((m = linha.match(/^### (\d{7}) · (.+?) · (\d+)h · (Obrigatória|Optativa|Atividade)\s*$/))) {
+          if (!periodo) return erro(arquivo, n, 'disciplina antes do primeiro período');
+          comp = { codigo: m[1], nome: m[2], ch: Number(m[3]), tipo: m[4], pre: [], ementa: '', assuntos: [], linha: n };
+          periodo.componentes.push(comp);
+        } else if (linha.startsWith('### ')) {
+          erro(arquivo, n, 'use "### código · nome · 60h · Obrigatória|Optativa|Atividade"');
+        } else if (comp && (m = linha.match(/^(pre|app|relacionados|ementa):\s*(.*)$/))) {
+          const v = m[2].trim();
+          if (m[1] === 'pre') comp.pre = v === '—' ? [] : v.split(';').map((x) => x.trim());
+          else if (m[1] === 'app') comp.app = v;
+          else if (m[1] === 'relacionados') comp.relacionados = v.split(',').map((x) => x.trim()).filter(Boolean);
+          else comp.ementa = v;
+        } else if (comp && (m = linha.match(/^- (.+)$/))) {
+          comp.assuntos.push(m[1].trim());
+        } else if (periodo && !comp && linha.trim() && !linha.startsWith('#')) {
+          periodo.nota = (periodo.nota + ' ' + linha.trim()).trim();
+        }
+      });
+      for (const c of curso.periodos.flatMap((p) => p.componentes)) {
+        if (!c.ementa) erro(arquivo, c.linha, `${c.nome}: falta a ementa`);
+        if (!c.assuntos.length) erro(arquivo, c.linha, `${c.nome}: falta a lista de assuntos`);
+      }
+      return curso;
+    });
+}
+
 function main() {
   const incidencia = lerIncidencia();
   const videos = lerVideos();
@@ -220,7 +271,7 @@ function main() {
   const vinculos = [];
   let total = 0;
 
-  const pastas = fs.readdirSync(PASTA_CONTEUDOS, { withFileTypes: true }).filter((d) => d.isDirectory());
+  const pastas = fs.readdirSync(PASTA_CONTEUDOS, { withFileTypes: true }).filter((d) => d.isDirectory() && !d.name.startsWith('_'));
   for (const pasta of pastas) {
     const dir = path.join(PASTA_CONTEUDOS, pasta.name);
     const arqInfo = path.join(dir, '_disciplina.md');
@@ -275,6 +326,13 @@ function main() {
   const ids = new Set(disciplinas.flatMap((d) => d.topicos.map((t) => t.id)));
   for (const id of incidencia.keys()) if (!ids.has(id)) erro(ARQ_INCIDENCIA, 0, `assunto "${id}" não existe`);
   for (const [id, lista] of videos) if (!ids.has(id)) erro(ARQ_VIDEOS, lista[0].linha, `assunto "${id}" não existe`);
+  const cursos = lerCursos();
+  for (const curso of cursos) {
+    for (const c of curso.periodos.flatMap((p) => p.componentes)) {
+      for (const t of [c.app, ...(c.relacionados ?? [])].filter(Boolean)) if (!ids.has(t)) erro(path.join(PASTA_CURSOS, curso.id + '.md'), c.linha, `assunto "${t}" não existe`);
+      delete c.linha;
+    }
+  }
 
   // questões oficiais classificadas por assunto: o tópico guarda só os ids (sem duplicar o texto)
   const topicoPorId = new Map(disciplinas.flatMap((d) => d.topicos.map((t) => [t.id, t])));
@@ -308,7 +366,7 @@ function main() {
   }
 
   fs.mkdirSync(path.dirname(SAIDA_BANCO), { recursive: true });
-  fs.writeFileSync(SAIDA_BANCO, JSON.stringify({ versao: 1, disciplinas, questoes }));
+  fs.writeFileSync(SAIDA_BANCO, JSON.stringify({ versao: 1, disciplinas, questoes, cursos }));
   const nomes = [...imagens.keys()].sort();
   // pacotes: as imagens de cada grupo (enem-2019-d2, ...) coladas uma depois da outra
   const grupos = new Map();
@@ -361,7 +419,7 @@ function main() {
     '',
     `**${total} questões** em **${disciplinas.reduce((s, d) => s + d.topicos.length, 0)} tópicos**.`,
     '',
-    'Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA).',
+    'Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).',
     '',
   ];
   for (const d of disciplinas) {

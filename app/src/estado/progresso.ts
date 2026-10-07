@@ -14,7 +14,7 @@ import {
   topicosDaProva,
   topicosDaQuestao,
 } from '../data/banco';
-import { FormatoProva, provaDaTrilhaAntiga } from '../data/provas';
+import { FormatoProva, getProva, provaDaTrilhaAntiga } from '../data/provas';
 import { diferencaDias, embaralhar, hoje, somarDias } from './datas';
 
 export const TAMANHO_LICAO = 10;
@@ -494,7 +494,9 @@ export function gerarPlano(p: Progresso, dia = hoje()): string[] {
   const quantidade = Math.max(1, assuntosPorDia(p, dia));
   const fraco = pontosFracos(p)[0]?.topicoId;
   const topicos = topicosDoAluno(p);
-  const peso = new Map(topicos.map((t) => [t.id, incidencia(t)]));
+  // na revisão de um curso de faculdade, as disciplinas do próprio curso vêm antes das de apoio (português, matemática...)
+  const faculdade = getProva(p.prova).grupo === 'Faculdade';
+  const peso = new Map(topicos.map((t) => [t.id, incidencia(t) + (faculdade && t.provas.includes('Faculdade') ? 1 : 0)]));
   const porDisciplina = new Map<string, string[]>();
   for (const t of topicos) {
     const disc = t.id.split('/')[0];

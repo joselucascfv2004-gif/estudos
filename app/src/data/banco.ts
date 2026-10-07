@@ -3,7 +3,7 @@
 
 import { getProva } from './provas';
 
-export type Prova = 'ENEM' | 'Militares' | 'Concursos' | 'Certificações';
+export type Prova = 'ENEM' | 'Militares' | 'Concursos' | 'Certificações' | 'Faculdade';
 export type Nivel = 0 | 1 | 2;
 /** Língua estrangeira escolhida pelo aluno (o ENEM pede uma das duas). */
 export type Lingua = 'ingles' | 'espanhol';
@@ -82,10 +82,39 @@ export type Disciplina = {
   topicos: Topico[];
 };
 
+/** Disciplina (componente curricular) de um curso de faculdade, com a ementa oficial. */
+export type ComponenteCurso = {
+  codigo: string;
+  nome: string;
+  /** carga horária em horas */
+  ch: number;
+  tipo: 'Obrigatória' | 'Optativa' | 'Atividade';
+  pre: string[];
+  ementa: string;
+  /** a ementa destrinchada em assuntos */
+  assuntos: string[];
+  /** assunto do app com o conteúdo desta disciplina */
+  app?: string;
+  /** assuntos do app que ajudam a revisar esta disciplina */
+  relacionados?: string[];
+};
+
+/** Grade de um curso de graduação (para revisar o que se estudou na faculdade). */
+export type Curso = {
+  id: string;
+  nome: string;
+  instituicao: string;
+  /** prova-alvo (data/provas.ts) que reúne as disciplinas do curso */
+  prova: string;
+  fonte: string;
+  periodos: { nome: string; nota: string; componentes: ComponenteCurso[] }[];
+};
+
 type Banco = {
   versao: number;
   disciplinas: Disciplina[];
   questoes: Record<string, Questao[]>;
+  cursos?: Curso[];
 };
 
 // require evita que o TypeScript tente inferir o tipo de um JSON enorme.
@@ -93,6 +122,9 @@ type Banco = {
 const banco = require('./banco.json') as Banco;
 
 export const disciplinas = banco.disciplinas;
+export const cursos: Curso[] = banco.cursos ?? [];
+export const getCurso = (id: string) => cursos.find((c) => c.id === id);
+export const cursoDaProva = (provaId: string) => cursos.find((c) => c.prova === provaId);
 
 const topicoPorId = new Map<string, { topico: Topico; disciplina: Disciplina }>();
 for (const d of disciplinas) for (const t of d.topicos) topicoPorId.set(t.id, { topico: t, disciplina: d });
