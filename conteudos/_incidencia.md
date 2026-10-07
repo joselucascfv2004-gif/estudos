@@ -167,3 +167,9 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p1/instituicoes-do-direito-publico-e-privado: 5
 - ufcg-contabeis-p1/introducao-a-informatica: 5
 - ufcg-contabeis-p1/matematica-basica: 5
+- ufcg-contabeis-p2/contabilidade-e-gestao-ambiental: 5
+- ufcg-contabeis-p2/contabilidade-intermediaria-i: 5
+- ufcg-contabeis-p2/direito-empresarial: 5
+- ufcg-contabeis-p2/matematica-financeira: 5
+- ufcg-contabeis-p2/redacao-empresarial: 5
+- ufcg-contabeis-p2/sociologia-e-antropologia: 5

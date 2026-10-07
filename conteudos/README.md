@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**9327 questões** em **196 tópicos**.
+**9627 questões** em **202 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -362,3 +362,16 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Fundamentos de Administração](ufcg-contabeis-p1/03-fundamentos-de-administracao.md) | Faculdade | 17 | 17 | 16 |
 | [Instituições do Direito Público e Privado](ufcg-contabeis-p1/04-instituicoes-do-direito-publico-e-privado.md) | Faculdade | 17 | 17 | 16 |
 | [Introdução à Informática](ufcg-contabeis-p1/05-introducao-a-informatica.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 2º período — 300 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Contabilidade Intermediária I](ufcg-contabeis-p2/01-contabilidade-intermediaria-i.md) | Faculdade | 17 | 17 | 16 |
+| [Matemática Financeira](ufcg-contabeis-p2/02-matematica-financeira.md) | Faculdade | 17 | 17 | 16 |
+| [Contabilidade e Gestão Ambiental](ufcg-contabeis-p2/03-contabilidade-e-gestao-ambiental.md) | Faculdade | 17 | 17 | 16 |
+| [Direito Empresarial](ufcg-contabeis-p2/04-direito-empresarial.md) | Faculdade | 17 | 17 | 16 |
+| [Sociologia e Antropologia](ufcg-contabeis-p2/05-sociologia-e-antropologia.md) | Faculdade | 17 | 17 | 16 |
+| [Redação Empresarial](ufcg-contabeis-p2/06-redacao-empresarial.md) | Faculdade | 17 | 17 | 16 |

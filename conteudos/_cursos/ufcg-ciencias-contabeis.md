@@ -89,6 +89,7 @@ ementa: Introdução à arquitetura de um computador hardware; Software básico 
 
 ### 3103122 · Contabilidade Intermediária I · 60h · Obrigatória
 pre: Contabilidade Básica
+app: ufcg-contabeis-p2/contabilidade-intermediaria-i
 ementa: Reconhecimento, mensuração e operações de: Contas a receber; Estoques; Ativo Imobilizado; Propriedades para Investimento; Arrendamento Mercantil; Ativo Intangível; Redução ao valor recuperável dos ativos; Realizável a Longo Prazo; Patrimônio Líquido. Demonstração das Mutações do Patrimônio Líquido (DMPL).
 - Contas a receber e perdas estimadas em créditos de liquidação duvidosa (PECLD)
 - Estoques (CPC 16): custo de aquisição, PEPS e custo médio, valor realizável líquido
@@ -103,6 +104,7 @@ ementa: Reconhecimento, mensuração e operações de: Contas a receber; Estoque
 
 ### 3103029 · Matemática Financeira · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p2/matematica-financeira
 relacionados: matematica-financeira/juros-simples-e-compostos, matematica-financeira/descontos-e-amortizacao, cpa/calculos-financeiros-e-tributacao
 ementa: Regime de Capitalização Simples e Composto. Equivalência de Capitais Simples e Compostos. Financiamentos e Empréstimos. Operação com Taxa de Juros. Noções de Análises de Investimento. Aplicações com Softwares.
 - Juros simples: capital, taxa, prazo, montante; taxas proporcionais
@@ -117,6 +119,7 @@ ementa: Regime de Capitalização Simples e Composto. Equivalência de Capitais 
 
 ### 3103123 · Contabilidade e Gestão Ambiental · 30h · Obrigatória
 pre: Contabilidade Básica
+app: ufcg-contabeis-p2/contabilidade-e-gestao-ambiental
 relacionados: cpa/inovacao-esg-e-tecnologia, geografia/biomas-e-questoes-ambientais
 ementa: Contabilidade ambiental: noções básicas. A contabilidade e o meio ambiente. Gestão empresarial e desenvolvimento sustentável. Contabilização de eventos ambientais (ativo, passivo, receita, custo e despesa ambiental). Formas de evidenciação da informação contábil: aspectos legais e limitações. Auditoria ambiental. Relatórios sócio-ambientais.
 - Contabilidade ambiental: conceitos básicos e objetivos
@@ -129,6 +132,7 @@ ementa: Contabilidade ambiental: noções básicas. A contabilidade e o meio amb
 
 ### 3103088 · Direito Empresarial · 60h · Obrigatória
 pre: Instituições do Direito Público e Privado
+app: ufcg-contabeis-p2/direito-empresarial
 ementa: Aspectos Introdutórios; Empresa, Empresário e Estabelecimento. Propriedade industrial. Registros empresariais. Concorrência. Direito Societário Geral. Direito Societário Especial: Sociedades do Código Civil. Contratos e obrigações mercantis: mandato, comissão, compra e mercantil. Alienação Fiduciária. Locação Imobiliária Urbana Não-Residencial. Títulos de Crédito.
 - Empresa, empresário e estabelecimento; teoria da empresa no Código Civil
 - Registro empresarial (Junta Comercial) e escrituração obrigatória
@@ -142,6 +146,7 @@ ementa: Aspectos Introdutórios; Empresa, Empresário e Estabelecimento. Proprie
 
 ### 3103069 · Sociologia e Antropologia · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p2/sociologia-e-antropologia
 relacionados: sociologia/sociologia-classica, sociologia/temas-contemporaneos
 ementa: Relação entre cultura e sociedade; Conceitos de cultura; principais abordagens teóricas da Antropologia contemporânea no estudo dos processos sócio-culturais. Formação da sociedade capitalista e surgimento da Sociologia; Sociologia Clássica; Debate contemporâneo da sociedade.
 - Cultura e sociedade: conceitos de cultura
@@ -152,6 +157,7 @@ ementa: Relação entre cultura e sociedade; Conceitos de cultura; principais ab
 
 ### 3103071 · Redação Empresarial · 30h · Obrigatória
 pre: —
+app: ufcg-contabeis-p2/redacao-empresarial
 relacionados: portugues/interpretacao-de-texto, portugues/pontuacao-ortografia-acentuacao, portugues/concordancia-regencia-crase
 ementa: Interpretação e Compreensão de textos. Ortografia. Regras Gramaticais. Redação técnica (ofício, memorando, relatório, entre outros). Apresentação Oral.
 - Interpretação e compreensão de textos
