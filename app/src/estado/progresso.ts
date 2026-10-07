@@ -94,7 +94,11 @@ export type Progresso = {
   prefRevisao: PrefRevisao;
   /** Redações por tema (id do tema). */
   redacoes: Record<string, Redacao>;
+  /** Recordes dos jogos, por jogo e modo (ex.: "calculo:relogio:misto:1"). */
+  jogos: Record<string, RecordeJogo>;
 };
+
+export type RecordeJogo = { recorde: number; partidas: number };
 
 export function estadoInicial(): Progresso {
   return {
@@ -132,6 +136,7 @@ export function estadoInicial(): Progresso {
     lingua: 'ingles',
     prefRevisao: { nivel: null, disciplinas: [], topicos: [] },
     redacoes: {},
+    jogos: {},
   };
 }
 
@@ -981,4 +986,38 @@ export function montarSalvas(p: Progresso): Questao[] {
 
 function structuredCloneSeguro<T>(v: T): T {
   return JSON.parse(JSON.stringify(v));
+}
+
+/** XP máximo por partida de jogo (para os jogos não valerem mais que as lições). */
+export const XP_MAX_JOGO = 30;
+
+/**
+ * Registra uma partida: atualiza o recorde do jogo/modo e soma o XP (conta para a meta do dia).
+ * Devolve o estado novo e se a pontuação bateu o recorde.
+ */
+export function registrarJogo(anterior: Progresso, chave: string, pontos: number, xp: number, dia = hoje()): { p: Progresso; novoRecorde: boolean } {
+  const atual = anterior.jogos[chave] ?? { recorde: 0, partidas: 0 };
+  const novoRecorde = pontos > atual.recorde;
+  const ganho = Math.max(0, Math.min(XP_MAX_JOGO, Math.round(xp)));
+  return {
+    novoRecorde,
+    p: {
+      ...anterior,
+      jogos: { ...anterior.jogos, [chave]: { recorde: Math.max(atual.recorde, pontos), partidas: atual.partidas + 1 } },
+      xpTotal: anterior.xpTotal + ganho,
+      xpPorDia: { ...anterior.xpPorDia, [dia]: (anterior.xpPorDia[dia] ?? 0) + ganho },
+    },
+  };
+}
+
+/** Maior recorde entre os modos de um jogo (chaves que começam com "jogo:"). */
+export function recordeDoJogo(p: Progresso, jogo: string): RecordeJogo {
+  let recorde = 0;
+  let partidas = 0;
+  for (const [k, v] of Object.entries(p.jogos)) {
+    if (k !== jogo && !k.startsWith(jogo + ':')) continue;
+    recorde = Math.max(recorde, v.recorde);
+    partidas += v.partidas;
+  }
+  return { recorde, partidas };
 }
