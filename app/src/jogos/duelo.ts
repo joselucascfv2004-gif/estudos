@@ -1,15 +1,11 @@
 // Duelo: uma questão curta do banco com só duas alternativas (a certa e uma errada).
 import { Disciplina, Questao, questoesDoTopico } from '../data/banco';
+import { semMarcas } from '../ui/textoRico';
 import { Rng, embaralhar } from './aleatorio';
 
 export type Rodada = { questao: Questao; enunciado: string; opcoes: [string, string]; certa: 0 | 1 };
 
-const limpar = (t: string) =>
-  t
-    .replace(/\*\*([^*]+)\*\*/g, '$1')
-    .replace(/\*([^*\s][^*]*)\*/g, '$1')
-    .replace(/\s+/g, ' ')
-    .trim();
+const limpar = (t: string) => semMarcas(t).replace(/\s+/g, ' ').trim();
 
 /** alternativas que só fazem sentido com a lista do enunciado ("I e II", "apenas III"...) */
 const DEPENDE_DA_LISTA = /^(I{1,3}|IV|V)\b|\bapenas\b|\bsomente\b|todas as|nenhuma das/i;

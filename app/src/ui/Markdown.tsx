@@ -1,36 +1,35 @@
-import { Text, View } from 'react-native';
+import { StyleProp, Text, TextStyle, View } from 'react-native';
 
 import { criarEstilos, useCores } from './tema';
+import { trechos } from './textoRico';
 
-/** Texto com trechos em **negrito** e *itálico* (títulos de obras, nomes científicos). */
-export function TextoRico({ texto, estilo, forte }: { texto: string; estilo: object; forte: object }) {
-  const partes = texto.split(/(\*\*[^*]+\*\*)/g).filter(Boolean);
+/** Trechos em **negrito** e *itálico* para pôr dentro de um <Text> que já existe. */
+export function Trechos({ texto, forte }: { texto: string; forte?: StyleProp<TextStyle> }) {
   return (
-    <Text style={estilo}>
-      {partes.map((parte, i) =>
-        parte.startsWith('**') && parte.endsWith('**') ? (
-          <Text key={i} style={forte}>
-            {parte.slice(2, -2)}
+    <>
+      {trechos(texto).map((p, i) =>
+        p.negrito || p.italico ? (
+          <Text key={i} style={p.negrito ? (forte ?? NEGRITO) : { fontStyle: 'italic' }}>
+            {p.t}
           </Text>
         ) : (
-          // itálico só fora do negrito; um * solto (como em fórmulas: =A1*B1) continua como está
-          parte
-            .split(/(\*[^\s*](?:[^*]*[^\s*])?\*)/g)
-            .filter(Boolean)
-            .map((trecho, j) =>
-              trecho.length > 2 && trecho.startsWith('*') && trecho.endsWith('*') ? (
-                <Text key={`${i}-${j}`} style={{ fontStyle: 'italic' }}>
-                  {trecho.slice(1, -1)}
-                </Text>
-              ) : (
-                trecho
-              ),
-            )
+          p.t
         ),
       )}
+    </>
+  );
+}
+
+/** Texto com trechos em **negrito** e *itálico* (títulos de obras, nomes científicos). */
+export function TextoRico({ texto, estilo, forte, linhas }: { texto: string; estilo: StyleProp<TextStyle>; forte?: StyleProp<TextStyle>; linhas?: number }) {
+  return (
+    <Text style={estilo} numberOfLines={linhas}>
+      <Trechos texto={texto} forte={forte} />
     </Text>
   );
 }
+
+const NEGRITO = { fontWeight: '800' } as const;
 
 /**
  * Markdown simples dos resumos e aulas: títulos (### e ####), listas (- e 1.), destaques (> texto,

@@ -27,6 +27,7 @@ import { ComIcone, Icone } from '../ui/Icone';
 import { AcoesQuestao } from '../ui/salvar';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 import { TextoAlternativa, TextoQuestao } from '../ui/Imagens';
+import { TextoRico } from '../ui/Markdown';
 
 const ELOGIOS = ['Muito bem!', 'Excelente!', 'Mandou bem!', 'Isso aí!', 'Perfeito!', 'Arrasou!'];
 const LETRAS = 'ABCDE';
@@ -234,7 +235,7 @@ export default function Licao() {
             {acertou ? `  +${xpDaResposta(q, combo, modo)} XP` : ''}
           </ComIcone>
           <ScrollView style={{ maxHeight: 170 }}>
-            <Text style={[s.explicacao, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]}>{q.x}</Text>
+            <TextoRico texto={q.x} estilo={[s.explicacao, { color: acertou ? c.verdeEscuro : c.vermelhoEscuro }]} />
             {q.f ? <Text style={s.fonte}>Fonte: {q.f}</Text> : null}
           </ScrollView>
           <AcoesQuestao id={q.id} />

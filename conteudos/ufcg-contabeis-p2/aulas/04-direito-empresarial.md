@@ -69,7 +69,7 @@ O **estabelecimento** é o conjunto de bens (materiais e imateriais) organizado 
 
 - **Compra e venda:** um transfere a coisa e o outro paga o preço.
 - **Mandato:** o mandatário age **em nome** do mandante. A procuração é o instrumento.
-- **Comissão:** o comissário age **em nome próprio**, por conta do comitente. Ele não responde pela insolvência do terceiro, salvo culpa ou cláusula ***del credere***, que o torna solidário.
+- **Comissão:** o comissário age **em nome próprio**, por conta do comitente. Ele não responde pela insolvência do terceiro, salvo culpa ou cláusula *del credere*, que o torna solidário.
 - **Alienação fiduciária:** o devedor transfere ao credor a propriedade resolúvel, como garantia, e continua usando o bem. Se não pagar: busca e apreensão (móveis, DL 911/1969) ou consolidação da propriedade e leilão (imóveis, Lei 9.514/1997).
 - **Locação não residencial (Lei 8.245/1991):**
   - **Ação renovatória:** exige contrato escrito, por prazo determinado, com 5 anos ou mais (somando contratos sem interrupção) e 3 anos no mesmo ramo. Deve ser proposta entre 1 ano e 6 meses antes do fim do contrato.

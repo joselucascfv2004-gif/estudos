@@ -10,6 +10,7 @@ import { AcoesQuestao } from '../ui/salvar';
 import { ComIcone, Icone } from '../ui/Icone';
 import { criarEstilos, useCores } from '../ui/tema';
 import { TextoAlternativa, TextoQuestao, temImagem } from '../ui/Imagens';
+import { TextoRico, Trechos } from '../ui/Markdown';
 
 const LETRAS = 'ABCDE';
 
@@ -61,13 +62,13 @@ export default function Salvas() {
                         {q.a.map((alt, i) => (
                           <View key={i} style={{ gap: 4 }}>
                             <Text style={[s.alt, i === q.c && s.altCerta]}>
-                              {LETRAS[i]}) {temImagem(alt) ? '' : alt}
+                              {LETRAS[i]}) {temImagem(alt) ? '' : <Trechos texto={alt} />}
                               {i === q.c ? '  (correta)' : ''}
                             </Text>
                             {temImagem(alt) && <TextoAlternativa texto={alt} estilo={s.alt} />}
                           </View>
                         ))}
-                        <Text style={s.explicacao}>{q.x}</Text>
+                        <TextoRico texto={q.x} estilo={s.explicacao} />
                       </View>
                     ) : (
                       <Text style={s.verMais}>Toque para ver as alternativas e a explicação</Text>

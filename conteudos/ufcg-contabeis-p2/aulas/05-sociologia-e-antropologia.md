@@ -26,7 +26,7 @@ A **Revolução Industrial** (fábricas, êxodo rural, operariado, miséria urba
 - **Solidariedade mecânica:** coesão pela **semelhança**, típica de sociedades simples, com direito **repressivo**.
 - **Solidariedade orgânica:** coesão pela **divisão do trabalho** e pela interdependência, típica de sociedades modernas, com direito **restitutivo**.
 - **Anomia:** fraqueza ou ausência de normas, comum em crises.
-- ***O Suicídio* (1897):** até um ato individual tem taxas explicadas por causas sociais (integração e regulação).
+- **O Suicídio (1897):** até um ato individual tem taxas explicadas por causas sociais (integração e regulação).
 
 ### Max Weber
 
@@ -42,7 +42,7 @@ A **Revolução Industrial** (fábricas, êxodo rural, operariado, miséria urba
   - **tradicional**, baseada no costume;
   - **carismática**, baseada nas qualidades extraordinárias do líder.
 - **Burocracia:** hierarquia, regras escritas, impessoalidade, competência técnica e carreira. É eficiente, mas pode virar uma "jaula de ferro".
-- ***A ética protestante e o espírito do capitalismo*:** a disciplina e o trabalho metódico de certos grupos protestantes favoreceram o capitalismo moderno.
+- **A ética protestante e o espírito do capitalismo:** a disciplina e o trabalho metódico de certos grupos protestantes favoreceram o capitalismo moderno.
 - **Desencantamento do mundo:** a magia e a religião perdem espaço para a razão e o cálculo.
 
 ### Karl Marx

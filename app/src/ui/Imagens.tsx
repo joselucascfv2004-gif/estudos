@@ -3,6 +3,7 @@ import { ActivityIndicator, Image, Modal, Pressable, ScrollView, StyleProp, Text
 
 import { IMAGENS } from '../data/imagens';
 import { Icone } from './Icone';
+import { TextoRico } from './Markdown';
 import { useImagem } from './pacotes';
 import { criarEstilos, useCores } from './tema';
 
@@ -77,13 +78,13 @@ export function Figura({ nome, descricao, maxAltura, ampliar = true }: { nome: s
 
 /** Enunciado de questão: texto com figuras no meio. Com `linhas`, mostra só o começo do texto (prévia). */
 export function TextoQuestao({ texto, estilo, linhas }: { texto: string; estilo: StyleProp<TextStyle>; linhas?: number }) {
-  if (linhas) return <Text style={estilo} numberOfLines={linhas}>{semImagens(texto)}</Text>;
-  if (!temImagem(texto)) return <Text style={estilo}>{texto}</Text>;
+  if (linhas) return <TextoRico texto={semImagens(texto)} estilo={estilo} linhas={linhas} />;
+  if (!temImagem(texto)) return <TextoRico texto={texto} estilo={estilo} />;
   const partes: React.ReactNode[] = [];
   let buffer: string[] = [];
   const solta = (k: number) => {
     const t = buffer.join('\n').trim();
-    if (t) partes.push(<Text key={`t${k}`} style={estilo}>{t}</Text>);
+    if (t) partes.push(<TextoRico key={`t${k}`} texto={t} estilo={estilo} />);
     buffer = [];
   };
   texto.split('\n').forEach((l, i) => {
@@ -100,7 +101,7 @@ export function TextoQuestao({ texto, estilo, linhas }: { texto: string; estilo:
 /** Texto de uma alternativa: pode ser uma figura (gráficos, mapas, esquemas). */
 export function TextoAlternativa({ texto, estilo }: { texto: string; estilo: StyleProp<TextStyle> }) {
   const m = texto.trim().match(LINHA_IMAGEM);
-  if (!m) return <Text style={estilo}>{texto}</Text>;
+  if (!m) return <TextoRico texto={texto} estilo={estilo} />;
   return (
     <View style={{ flex: 1 }}>
       <Figura nome={m[2]} descricao={m[1]} maxAltura={220} ampliar={false} />

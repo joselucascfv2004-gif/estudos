@@ -314,10 +314,6 @@ A rampa de um hospital tem na sua parte mais elevada uma altura de 2,2 metros. U
 
 A distância em metros que o paciente ainda deve caminhar para atingir o ponto mais alto da rampa é
 
-B 3,0 metros. E 7,04 metros.
-
-C 5,4 metros.
-
 - A) 1,16 metros.
 - B) 3,0 metros.
 - C) 5,4 metros.
@@ -355,12 +351,6 @@ Considerando x o valor, em centavos, do desconto dado no preço de cada litro, e
 Uma empresa que fabrica esferas de aço, de 6 cm de raio, utiliza caixas de madeira, na forma de um cubo, para transportá-las.
 
 Sabendo que a capacidade da caixa é de 13.824 cm³, então o número máximo de esferas que podem ser transportadas em uma caixa é igual a
-
-B 8. E 32.
-
-C 16.
-
-MT – 2º dia CADERNO 5 – AMARELO – PÁGINA 25 ENEM 2009
 
 - A) 4.
 - B) 8.
@@ -710,10 +700,6 @@ Para cada indivíduo, a sua inscrição no Cadastro de Pessoas Físicas (CPF) é
 
 Suponha que João tenha perdido seus documentos, inclusive o cartão de CPF e, ao dar queixa da perda na delegacia, não conseguisse lembrar quais eram os dígitos verificadores, recordando-se apenas que os nove primeiros algarismos eram 123.456.789. Neste caso, os dígitos verificadores d1 e d2 esquecidos são, respectivamente,
 
-B 1 e 4. E 0 e 1.
-
-C 1 e 7.
-
 - A) 0 e 9.
 - B) 1 e 4.
 - C) 1 e 7.
@@ -751,12 +737,6 @@ Para atender às exigências do fazendeiro e supondo que o ritmo dos trabalhador
 Uma fábrica produz velas de parafina em forma de pirâmide quadrangular regular com 19 cm de altura e 6 cm de aresta da base. Essas velas são formadas por 4 blocos de mesma altura — 3 troncos de pirâmide de bases paralelas e 1 pirâmide na parte superior —, espaçados de 1 cm entre eles, sendo que a base superior de cada bloco é igual à base inferior do bloco sobreposto, com uma haste de ferro passando pelo centro de cada bloco, unindo-os, conforme a figura.
 
 Se o dono da fábrica resolver diversificar o modelo, retirando a pirâmide da parte superior, que tem 1,5 cm de aresta na base, mas mantendo o mesmo molde, quanto ele passará a gastar com parafina para fabricar uma vela?
-
-B 189 cm³. E 540 cm³.
-
-C 192 cm³.
-
-MT – 2º dia CADERNO 5 – AMARELO – PÁGINA 28 ENEM 2009
 
 - A) 156 cm³.
 - B) 189 cm³.

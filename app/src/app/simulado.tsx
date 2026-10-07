@@ -13,6 +13,7 @@ import { AcoesQuestao } from '../ui/salvar';
 import { getProva, questoesDoFormato } from '../data/provas';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 import { TextoAlternativa, TextoQuestao, temImagem } from '../ui/Imagens';
+import { TextoRico, Trechos } from '../ui/Markdown';
 
 const LETRAS = 'ABCDE';
 const TAMANHOS = [10, 20, 30, 45];
@@ -484,13 +485,13 @@ function TelaResultado({ r }: { r: Resultado }) {
                     {it.q.a.map((alt, j) => (
                       <View key={j} style={{ gap: 4 }}>
                         <Text style={[s.altCorrecao, j === it.q.c && { color: c.verdeEscuro, fontWeight: '800' }, j === marcada && j !== it.q.c && { color: c.vermelhoEscuro }]}>
-                          {LETRAS[j]}) {temImagem(alt) ? '' : alt}
+                          {LETRAS[j]}) {temImagem(alt) ? '' : <Trechos texto={alt} />}
                           {j === it.q.c ? '  (correta)' : j === marcada ? '  (sua resposta)' : ''}
                         </Text>
                         {temImagem(alt) && <TextoAlternativa texto={alt} estilo={s.altCorrecao} />}
                       </View>
                     ))}
-                    <Text style={s.explicacao}>{it.q.x}</Text>
+                    <TextoRico texto={it.q.x} estilo={s.explicacao} />
                   </View>
                 )}
               </Pressable>

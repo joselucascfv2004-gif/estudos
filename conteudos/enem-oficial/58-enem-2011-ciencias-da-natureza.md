@@ -523,14 +523,6 @@ O Estado de São Paulo. Disponível em: http://www.estadao.com.br. Acesso em: 27
 
 No problema apresentado para gerar imagens através de camadas de sedimentos depositados no navio, o sonar é mais adequado, pois a
 
-B absorção da luz ao longo de uma camada de água é facilitada enquanto a absorção do som não.
-
-C refração da luz a uma grande profundidade acontece com uma intensidade menor que a do som.
-
-D atenuação da luz nos materiais analisados é distinta da atenuação de som nestes mesmos materiais.
-
-E reflexão da luz nas camadas de sedimentos é menos intensa do que a reflexão do som neste material. *AZUL75sab25* Nesse texto, a ideia do senso comum é confrontada com os conhecimentos científicos, ao se entender que as larvas das borboletas Ithomiinae encontradas atualmente na Mata Atlântica e na Floresta Amazônica, apresentam
-
 - A) propagação da luz na água ocorre a uma velocidade maior que a do som neste meio.
 - B) absorção da luz ao longo de uma camada de água é facilitada enquanto a absorção do som não.
 - C) refração da luz a uma grande profundidade acontece com uma intensidade menor que a do som.
@@ -664,16 +656,6 @@ O etanol é considerado um biocombustível promissor, pois, sob o ponto de vista
 Revista Química Nova na Escola. no 28, 2008.
 
 O nitrogênio incorporado ao solo, como consequência da atividade descrita anteriormente, é transformado em nitrogênio ativo e afetará o meio ambiente, causando
-
-B a eliminação de microrganismos existentes no solo responsáveis pelo processo de desnitrificação.
-
-C a contaminação de rios e lagos devido à alta solubilidade de íons como NO₃ - e NH₄ + em água.
-
-D a diminuição do pH do solo pela presença de NH₃, que reage com a água, formando o NH₄ OH (aq).
-
-E a diminuição da oxigenação do solo, uma vez que o nitrogênio ativo forma espécies químicas do tipo NO₂, NO₃ - , N₂ O.
-
-*AZUL75sab28* Desprezando-se as forças dissipativas (resistência do ar e atrito), para que o salto atinja a maior altura possível, ou seja, o máximo de energia seja conservada, é necessário que
 
 - A) o acúmulo de sais insolúveis, desencadeando um processo de salinificação do solo.
 - B) a eliminação de microrganismos existentes no solo responsáveis pelo processo de desnitrificação.
