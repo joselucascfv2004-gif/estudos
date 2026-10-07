@@ -580,6 +580,7 @@ ementa: Definição do plano de trabalho: justificativa, objetivos e metodologia
 
 ### 3103147 · Perícia e Arbitragem · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p9/pericia-e-arbitragem
 ementa: Fundamentos: origem, evolução, conceitos, objetivos e finalidades. Fundamentos éticos.O perfil profissional do perito. Normas e planejamento da perícia, procedimentos e técnicas periciais. Classificação da perícia: judicial, extrajudicial e arbitral. Base processual. Papel de trabalho pericial. Perito-Contador e Perito-Assistente. Honorários periciais. Principais aplicações da perícia contábil. Laudo pericial. Mediação e arbitragem.
 - Perícia contábil: origem, conceito, objetivos e finalidades
 - Ética e perfil do perito (NBC PP 01 e NBC TP 01)
@@ -592,6 +593,7 @@ ementa: Fundamentos: origem, evolução, conceitos, objetivos e finalidades. Fun
 
 ### 3103054 · Empreendedorismo · 60h · Obrigatória
 pre: Fundamentos de Administração
+app: ufcg-contabeis-p9/empreendedorismo
 ementa: Globalização e competitividade. O fenômeno do empreendedorismo: conceito, origens e evolução. O mito do empreendedor e os benefícios proporcionados à sociedade. Habilidades, atitudes e características dos empreendedores - fatores psicológicos e sociológicos. Fatores limitantes e condicionantes à ação empreendedora. A inovação e o empreendedorismo. Oportunidades de negócios; identificação, seleção e definição do negócio. O processo empreendedor. Plano de negócio: informações ambientais, estratégias de marketing, plano gerencial e operacional; plano financeiro.
 - Globalização, competitividade e empreendedorismo
 - Conceito, origem e evolução do empreendedorismo; perfil do empreendedor
@@ -603,6 +605,7 @@ ementa: Globalização e competitividade. O fenômeno do empreendedorismo: conce
 
 ### 3103148 · Ética e Legislação Profissional · 30h · Obrigatória
 pre: Teoria da Contabilidade; Auditoria Contábil
+app: ufcg-contabeis-p9/etica-e-legislacao-profissional
 ementa: Objeto e Objetivo da Ética. Conceito de Ética. O Campo da Ética. Fontes das Regras Éticas. Comportamento Ético. O Código de Ética Profissional. Ética e Qualidade. A Ética e a Lei. Sistema Contábil: Regras x Princípios. Essência Sobre a forma.
 - Ética: objeto, conceito e campo
 - Fontes das regras éticas e comportamento ético

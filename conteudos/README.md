@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**11177 questões** em **233 tópicos**.
+**11327 questões** em **236 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -448,3 +448,13 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Tópicos Contemporâneos](ufcg-contabeis-p8/02-topicos-contemporaneos.md) | Faculdade | 17 | 17 | 16 |
 | [Noções sobre Gestão Atuarial](ufcg-contabeis-p8/03-nocoes-sobre-gestao-atuarial.md) | Faculdade | 17 | 17 | 16 |
 | [Laboratório de Prática IV – Auditoria Contábil](ufcg-contabeis-p8/04-laboratorio-de-pratica-iv-auditoria-contabil.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 9º período — 150 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Perícia e Arbitragem](ufcg-contabeis-p9/01-pericia-e-arbitragem.md) | Faculdade | 17 | 17 | 16 |
+| [Empreendedorismo](ufcg-contabeis-p9/02-empreendedorismo.md) | Faculdade | 17 | 17 | 16 |
+| [Ética e Legislação Profissional](ufcg-contabeis-p9/03-etica-e-legislacao-profissional.md) | Faculdade | 17 | 17 | 16 |
