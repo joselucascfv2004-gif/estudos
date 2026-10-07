@@ -1,74 +1,103 @@
+### Para que serve este assunto
+
+Por que o air bag e o capacete salvam vidas? Por que uma arma "dá um coice" ao disparar? Como um foguete se move no espaço vazio? O que acontece com dois carros que batem e ficam presos? Esses fenômenos são explicados pela **quantidade de movimento** (ou momento linear) e pelo **impulso**. É um assunto muito ligado à segurança no trânsito e aos esportes, e aparece no ENEM e nas provas militares.
+
 ### Quantidade de movimento
 
-A **quantidade de movimento** (ou momento linear) mede "quanto movimento" um corpo carrega:
+A quantidade de movimento (Q) combina massa e velocidade:
 
 **Q = m · v**
 
-- É um **vetor**: tem o sentido da velocidade. Dois carros iguais, na mesma velocidade e em sentidos opostos, somam Q = 0.
-- Unidade: kg·m/s.
-- Não confunda com a energia cinética (m·v²/2): Q cresce com v; a energia cresce com v².
+É uma grandeza vetorial (tem direção e sentido, os mesmos da velocidade) e se mede em kg · m/s. Um caminhão lento e uma bala rápida podem ter quantidades de movimento parecidas.
 
-> **Exemplo resolvido.** Um caminhão de 12 000 kg a 5 m/s tem Q = 60 000 kg·m/s. Um carro de 1 000 kg a 30 m/s tem Q = 30 000 kg·m/s. O caminhão, mesmo lento, carrega o dobro.
+> **Exemplo resolvido.** Qual a quantidade de movimento de um carro de 1 000 kg a 20 m/s?
+> Q = 1 000 · 20 = **20 000 kg · m/s**.
 
-### Impulso: força ao longo do tempo
+### Impulso e o teorema do impulso
 
-Uma força F agindo durante um tempo Δt dá um **impulso**:
+O **impulso** de uma força é o produto da força pelo tempo em que ela age:
 
-**I = F · Δt** (unidade N·s, que é o mesmo que kg·m/s)
+**I = F · Δt**
 
-Se a força varia, o impulso é a **área** do gráfico de força por tempo.
+O impulso da força resultante é igual à **variação da quantidade de movimento**:
 
-O **teorema do impulso** diz que o impulso é a variação da quantidade de movimento:
+**F · Δt = ΔQ = m · v_final − m · v_inicial**
 
-**F · Δt = ΔQ**
+Essa é a chave para entender a segurança: para uma mesma variação de Q (parar um carro, por exemplo), **quanto maior o tempo da colisão, menor a força**.
 
-Essa é a regra do jogo de toda segurança no trânsito: a pessoa vai parar de qualquer jeito (ΔQ fixo). Se o airbag faz a parada durar 10 vezes mais, a força fica 10 vezes menor.
+> **Exemplo resolvido.** Uma bola de 0,5 kg chega a 20 m/s e é parada em 0,1 s. Qual a força média? E se fosse parada em 0,01 s?
+> ΔQ = 0,5 · 20 = 10 kg · m/s. Em 0,1 s: F = 10 ÷ 0,1 = **100 N**. Em 0,01 s: **1 000 N**.
+> Por isso o goleiro "acompanha" a bola com as mãos e o jogador flexiona as pernas ao cair de um salto.
 
-> **Exemplo resolvido.** Uma bola de 0,4 kg chega a uma parede a 15 m/s e volta a 10 m/s. O contato dura 0,05 s.
-> Com sinais: ΔQ = 0,4 · (10 − (−15)) = 10 kg·m/s. F = 10 ÷ 0,05 = **200 N**.
-> Cuidado: quando a bola volta, as velocidades se **somam** na variação.
+> **Exemplo resolvido (air bag).** Num acidente a 20 m/s (72 km/h), uma pessoa de 70 kg para em 0,01 s ao bater no painel, ou em 0,2 s com o air bag e o cinto. Compare as forças.
+> ΔQ = 70 · 20 = 1 400 kg · m/s. Sem proteção: 1 400 ÷ 0,01 = **140 000 N**. Com proteção: 1 400 ÷ 0,2 = **7 000 N**, vinte vezes menos.
+
+A mesma ideia explica capacetes (espuma que se deforma), para-choques e zonas de deformação dos carros, colchões de salto em altura e redes de segurança.
+
+**Num gráfico força × tempo, o impulso é a área** sob a curva.
 
 ### Conservação da quantidade de movimento
 
-Se não há força **externa** resultante sobre um sistema, a quantidade de movimento total não muda. As forças de um choque ou de uma explosão são **internas**: aparecem aos pares (ação e reação) e se cancelam.
+Num **sistema isolado** (sem forças externas, ou com forças externas desprezíveis durante o evento), a quantidade de movimento total **se conserva**:
 
 **Q total antes = Q total depois**
 
-- **Explosão ou disparo, partindo do repouso:** os pedaços saem com quantidades iguais e opostas. A arma recua devagar porque tem muito mais massa que o projétil.
-- **Corpos que grudam:** m₁·v₁ + m₂·v₂ = (m₁ + m₂)·v.
+As forças internas (as que as partes do sistema fazem umas nas outras) são pares de ação e reação e se cancelam no total.
 
-> **Exemplo resolvido.** Um vagão de 2 t a 9 m/s engata em outro de 1 t parado.
-> 2 · 9 = 3 · v ⇒ v = **6 m/s**.
+> **Exemplo resolvido (recuo de arma).** Uma arma de 4 kg dispara uma bala de 20 g a 400 m/s. Com que velocidade a arma recua?
+> Antes, tudo parado: Q = 0. Depois: 0,02 · 400 + 4 · v = 0 → v = −8 ÷ 4 = **−2 m/s** (2 m/s para trás).
 
-### Colisões e coeficiente de restituição
+> **Exemplo resolvido (patinadores).** Dois patinadores parados, de 60 kg e 40 kg, se empurram. O de 40 kg sai a 3 m/s. E o outro?
+> 0 = 40 · 3 − 60 · v → v = **2 m/s**, em sentido oposto. O mais leve sai mais rápido.
 
-Em **toda** colisão a quantidade de movimento se conserva. A energia cinética, nem sempre: parte pode virar calor, som e deformação. O **coeficiente de restituição** mede isso:
+O **foguete** funciona assim: os gases são expelidos para trás com grande quantidade de movimento, e o foguete ganha a mesma quantidade para a frente. Não precisa de ar para "se apoiar", por isso funciona no espaço.
 
-**e = (velocidade de afastamento) / (velocidade de aproximação)**
+### Colisões
 
-- **e = 1:** colisão elástica, a energia cinética se conserva. Com massas iguais e uma delas parada, as velocidades se **trocam** (como na sinuca).
-- **0 < e < 1:** parcialmente elástica.
-- **e = 0:** perfeitamente inelástica, os corpos saem grudados e a perda de energia é a maior possível.
+Em toda colisão (num sistema isolado), a **quantidade de movimento se conserva**. A **energia cinética**, nem sempre: parte pode virar calor, som e deformação.
 
-Uma bola que quica volta com e vezes a velocidade de chegada, e sobe até **e² vezes** a altura anterior.
+- **Perfeitamente elástica:** a energia cinética também se conserva; os corpos se separam sem deformação permanente. (Boa aproximação: bolas de bilhar.)
+- **Parcialmente elástica (inelástica):** os corpos se separam, mas parte da energia cinética se perde.
+- **Perfeitamente inelástica:** os corpos ficam **juntos** depois do choque; é a que perde mais energia.
 
-> **Exemplo resolvido.** Uma bola cai de 5 m e sobe até 1,8 m.
-> e = √(1,8/5) = √0,36 = **0,6**.
+> **Exemplo resolvido (inelástica).** Um carro de 1 000 kg a 20 m/s bate na traseira de outro carro de 1 000 kg parado, e os dois seguem presos. Qual a velocidade depois? Quanta energia se perdeu?
+> Q antes: 1 000 · 20 = 20 000. Depois: 2 000 · v = 20 000 → v = **10 m/s**.
+> Energia cinética antes: 1 000 · 400 ÷ 2 = 200 000 J. Depois: 2 000 · 100 ÷ 2 = 100 000 J. **Metade** da energia virou deformação, calor e som.
 
-### Pêndulo balístico
+> **Exemplo resolvido (elástica, massas iguais).** Uma bola de bilhar a 2 m/s bate de frente em outra igual, parada, num choque elástico. O que acontece?
+> As bolas **trocam de velocidade**: a primeira para e a segunda sai a 2 m/s. É o que se vê no "pêndulo de Newton".
 
-Uma bala se crava num bloco pendurado, e o conjunto sobe uma altura h. A solução tem duas etapas:
+**Coeficiente de restituição (e):** compara a velocidade de afastamento com a de aproximação: e = v_afastamento ÷ v_aproximação. Vale 1 na colisão elástica e 0 na perfeitamente inelástica.
 
-1. **Subida (energia):** o conjunto sai do choque com v = √(2gh).
-2. **Choque (quantidade de movimento):** m · v_bala = (m + M) · v.
+> **Exemplo resolvido.** Uma bola cai de 1,25 m, quica e sobe 0,8 m. Qual o coeficiente de restituição?
+> Velocidade ao chegar: √(2 · 10 · 1,25) = 5 m/s. Ao sair: √(2 · 10 · 0,8) = 4 m/s. e = 4 ÷ 5 = **0,8**.
 
-Não dá para usar conservação de energia no choque: quase toda a energia da bala vira calor e deformação.
+### Erros mais comuns
 
-### Duas dimensões e centro de massa
+- Esquecer que Q é vetorial: velocidades em sentidos opostos têm sinais opostos.
+- Achar que a energia cinética sempre se conserva nas colisões (só nas elásticas).
+- Achar que o air bag diminui a variação da quantidade de movimento: ele aumenta o **tempo**, diminuindo a **força**.
+- Aplicar conservação quando há forças externas importantes agindo durante muito tempo.
+- Esquecer de converter gramas em quilogramas.
 
-Como Q é vetor, em choques com direções diferentes some as quantidades como vetores. Se forem perpendiculares, use Pitágoras.
+### Como cai na prova
 
-> **Exemplo resolvido.** Carro de 1 500 kg a 8 m/s para leste e carro de 1 000 kg a 16 m/s para norte se engatam.
-> Leste: 12 000; norte: 16 000. Total: √(12 000² + 16 000²) = 20 000 kg·m/s. v = 20 000 ÷ 2 500 = **8 m/s**.
+O ENEM cobra segurança veicular (cinto, air bag, zonas de deformação, capacetes), esportes (chutes, saltos, pegadas), recuo de armas e funcionamento de foguetes. Provas militares pedem cálculos de colisões em uma e duas dimensões, coeficiente de restituição e energia perdida.
 
-O **centro de massa** de um sistema anda com velocidade v_cm = Q total / massa total. Sem força externa, ele mantém o seu movimento. Se uma pessoa caminha sobre um barco parado, o barco recua de modo que o centro de massa do conjunto fique no mesmo lugar.
+### Teste-se
+
+1. Qual a quantidade de movimento de um corpo de 2 kg a 5 m/s?
+2. Uma força de 50 N age por 0,2 s. Qual o impulso?
+3. Uma arma de 2,5 kg dispara uma bala de 10 g a 500 m/s. Qual a velocidade de recuo?
+4. Um caminhão de 3 000 kg a 10 m/s bate num carro de 1 000 kg parado, e os dois ficam presos. Qual a velocidade do conjunto?
+5. Numa colisão elástica frontal entre duas bolas iguais, com uma parada, o que acontece?
+
+> **Respostas.** 1) **10 kg · m/s**. 2) **10 N · s**. 3) 0,01 · 500 = 5 → 5 ÷ 2,5 = **2 m/s**. 4) 30 000 ÷ 4 000 = **7,5 m/s**. 5) **Trocam de velocidade**: a que vinha para e a parada sai.
+
+### Para lembrar
+
+- Q = m · v (vetor). Impulso I = F · Δt = ΔQ.
+- Mais tempo de colisão → menos força (air bag, capacete, flexionar as pernas).
+- Sistema isolado: Q total se conserva (recuo, explosões, foguetes).
+- Toda colisão conserva Q; só a elástica conserva a energia cinética.
+- Perfeitamente inelástica: os corpos ficam juntos e se perde mais energia.
