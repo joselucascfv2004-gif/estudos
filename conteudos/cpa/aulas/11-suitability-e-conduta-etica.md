@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O suitability (análise de perfil) e a conduta ética são o "coração" da certificação: a ANBIMA quer garantir que o profissional coloque o **interesse do cliente** em primeiro lugar. Na prática, isso significa conhecer o cliente antes de recomendar, não empurrar produtos inadequados, ser transparente sobre riscos e custos e administrar conflitos de interesses. A prova traz muitas situações de atendimento em que é preciso escolher a atitude correta.
+
 ### Suitability: o produto certo para o cliente certo
 
 Pela **Resolução CVM 30**, antes de recomendar um investimento a instituição precisa verificar se ele é **adequado** ao cliente. São três perguntas:
@@ -59,3 +63,55 @@ O caminho é **identificar, informar e administrar** o conflito: políticas clar
 - **Gerenciar expectativas:** não prometer o que não pode cumprir.
 
 Os riscos da atividade incluem os **operacionais** (erros de processo), **regulatórios** (descumprir regras), **legais** (processos) e **de imagem** (reputação).
+
+### O processo de suitability na prática
+
+1. O cliente responde a um **questionário** (objetivos, horizonte, renda, patrimônio, experiência, tolerância a perdas).
+2. A instituição define o **perfil** e o comunica ao cliente.
+3. Os **produtos** também são classificados por risco, complexidade, liquidez e custos.
+4. A recomendação só é feita se o produto for **compatível** com o perfil.
+5. O perfil é **atualizado** periodicamente (em até 24 meses) ou quando a situação do cliente muda (aposentadoria, herança, perda de emprego).
+
+**Quem está dispensado do suitability:** investidores **profissionais** (com algumas exceções), quem já é cliente com carteira administrada por gestor autorizado, e algumas pessoas jurídicas de direito público.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** O perfil de um cliente foi feito há 3 anos. Ele pede uma recomendação. O que fazer?
+> O perfil está **desatualizado** (mais de 24 meses): é preciso **atualizá-lo** antes de recomendar.
+
+> **Exemplo resolvido.** A instituição paga um bônus maior pela venda de um fundo da casa. O gerente passa a recomendar só esse fundo, mesmo quando outro seria melhor. O que está errado?
+> Há **conflito de interesses** não administrado: o gerente põe o próprio ganho acima do interesse do cliente, ferindo os princípios de **independência**, **boa-fé** e **transparência**.
+
+> **Exemplo resolvido.** Um profissional diz ao cliente: "Pode aplicar tranquilo, este fundo multimercado não tem risco nenhum". Qual o problema?
+> É **proibido** afirmar que um produto não tem risco ou garantir resultados.
+
+### Erros mais comuns
+
+- Executar a ordem de um produto inadequado sem alertar o cliente nem colher a declaração de ciência.
+- Achar que o perfil vale para sempre (deve ser atualizado em até 24 meses).
+- Achar que o suitability serve para proteger a instituição apenas (o objetivo é proteger o **cliente**).
+- Esconder conflitos de interesses em vez de identificá-los, informá-los e administrá-los.
+- Prometer rentabilidade.
+
+### Como cai na prova
+
+Situações de clientes sem perfil, com perfil vencido ou querendo produtos inadequados; os três critérios do suitability; os nove princípios do Código de Conduta Ética; deveres e proibições do certificado; conflito de interesses; qualidade no atendimento e riscos da atividade.
+
+### Teste-se
+
+1. Quais são os três critérios analisados no suitability?
+2. Em que prazo o perfil deve ser atualizado?
+3. O que fazer se o cliente insiste num produto inadequado ao seu perfil?
+4. Cite três princípios do Código de Conduta Ética da ANBIMA.
+5. Como se deve tratar um conflito de interesses?
+
+> **Respostas.** 1) **Objetivos**, **situação financeira** e **conhecimento** (experiência). 2) Em até **24 meses**. 3) **Alertá-lo** sobre a inadequação e obter uma **declaração de ciência** antes de executar. 4) Por exemplo: **comportamento ético**, **boa-fé e transparência**, **sigilo de informações**, **independência e imparcialidade**. 5) **Identificar, informar e administrar** (políticas, segregação de funções, monitoramento).
+
+### Para lembrar
+
+- Suitability (CVM 30): objetivos, situação financeira, conhecimento → perfil; atualizar em até 24 meses.
+- Não recomendar sem perfil, com perfil desatualizado ou produto inadequado; se o cliente insistir, alerta e declaração de ciência.
+- Nove princípios da ANBIMA: ética, responsabilidade, boa-fé, conformidade, cumprimento, atualização, independência, honestidade, sigilo.
+- Proibido prometer rentabilidade ou dizer que um produto não tem risco.
+- Conflito de interesses: identificar, informar, administrar.
+- Atendimento: escuta ativa, personalização, proatividade, gestão de expectativas.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A CPA (antiga CPA-10) é a certificação da ANBIMA exigida de quem vende produtos de investimento nas agências bancárias. O Sistema Financeiro Nacional abre a prova e costuma render várias questões fáceis para quem organizou bem a "árvore" do sistema: quem faz as regras, quem fiscaliza, quem opera e quem protege o investidor. Este tema também é a base para entender todo o resto (por que a CVM cuida dos fundos, por que o FGC não cobre ações, quem fiscaliza a previdência).
+
 ### Para que serve o sistema financeiro
 
 O sistema financeiro liga quem tem dinheiro sobrando (os **poupadores**) a quem precisa de dinheiro (os **tomadores**). O banco capta o depósito de um cliente e empresta para outro; a corretora leva o investidor até a bolsa, onde as empresas vendem ações. Sem esse "encanamento", cada pessoa teria que achar sozinha alguém para emprestar ou pedir emprestado.
@@ -51,3 +55,44 @@ O **Fundo Garantidor de Créditos** é uma entidade **privada**, mantida pelas p
 
 > **Exemplo resolvido.** Ana tem R$ 300 mil em CDB no Banco X e R$ 100 mil em LCA no Banco Y (de outro conglomerado). Os dois bancos quebram. Quanto o FGC devolve?
 > No Banco X, o limite é R$ 250 mil (ela perde a garantia sobre R$ 50 mil). No Banco Y, os R$ 100 mil inteiros. Total: **R$ 350 mil**, abaixo do teto de R$ 1 milhão.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Uma cliente pergunta quem fiscaliza o fundo de ações que ela comprou pelo banco e quem fiscaliza o próprio banco.
+> O **fundo** é um produto de valores mobiliários: fiscalizado pela **CVM**. O **banco** como instituição é fiscalizado pelo **Banco Central**.
+
+> **Exemplo resolvido.** Um cliente tem R$ 200 mil numa cooperativa de crédito que quebrou. Ele está protegido?
+> Sim, pelo **FGCoop**, o fundo garantidor das cooperativas, com regras semelhantes às do FGC (limite de R$ 250 mil por CPF).
+
+> **Exemplo resolvido.** Por que o Tesouro Direto não tem garantia do FGC?
+> Porque o emissor é o **governo federal** (Tesouro Nacional), não um banco. O risco é o do próprio governo, considerado o mais baixo do país.
+
+### Erros mais comuns
+
+- Achar que o CMN fiscaliza instituições (ele só faz as regras gerais).
+- Trocar CVM e SUSEP: fundos de investimento são CVM; PGBL e VGBL são SUSEP (mesmo que o dinheiro fique aplicado em fundos).
+- Achar que o FGC é do governo (é uma entidade **privada**, mantida pelas instituições).
+- Somar o limite do FGC por produto: o limite é **por CPF, por instituição ou conglomerado**, somando todos os produtos cobertos.
+- Achar que a ANBIMA é órgão público (é uma entidade de **autorregulação**, privada).
+
+### Como cai na prova
+
+A prova da CPA traz perguntas diretas ("qual órgão fiscaliza...?", "qual a composição do CMN?") e situações de clientes com dinheiro em vários bancos para calcular quanto o FGC devolve. Também pergunta o papel da autorregulação e da ANBIMA.
+
+### Teste-se
+
+1. Quais são os três membros do CMN?
+2. Quem fiscaliza as seguradoras e os planos de previdência aberta?
+3. O FGC cobre debêntures?
+4. Um cliente tem R$ 180 mil em poupança e R$ 120 mil em CDB no mesmo banco, que quebrou. Quanto recebe do FGC?
+5. Qual entidade cria os códigos de autorregulação e as certificações CPA e C-Pro R?
+
+> **Respostas.** 1) **Ministro da Fazenda** (presidente), **ministro do Planejamento e Orçamento** e **presidente do Banco Central**. 2) A **SUSEP**. 3) **Não**. 4) O total é R$ 300 mil, mas o limite por instituição é **R$ 250 mil**. 5) A **ANBIMA**.
+
+### Para lembrar
+
+- Normativos: CMN (moeda, crédito, meta de inflação), CNSP (seguros e previdência aberta), CNPC (fundos de pensão).
+- Supervisores: BC (bancos), CVM (valores mobiliários e fundos), SUSEP (seguros, PGBL, VGBL), PREVIC (fundos de pensão).
+- Operadores: bancos, cooperativas, corretoras, distribuidoras, instituições de pagamento, B3, seguradoras.
+- Autorregulação: ANBIMA, Apimec, Planejar, Ancord.
+- FGC: privado; R$ 250 mil por CPF por instituição; R$ 1 milhão a cada 4 anos; cobre depósitos, poupança, CDB, LCI, LCA; não cobre ações, fundos, debêntures, CRI, CRA, previdência, títulos públicos.

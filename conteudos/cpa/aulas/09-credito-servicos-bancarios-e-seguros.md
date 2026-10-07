@@ -1,3 +1,11 @@
+### Para que serve este assunto
+
+A CPA não cobra só investimentos: o profissional de agência também oferece crédito, conta corrente, Pix, câmbio e seguros, e precisa orientar o cliente a usar o crédito com responsabilidade. Esta aula mostra como o banco avalia o risco de crédito, os tipos de empréstimo (e quais são os mais caros), o consórcio, as regras de tarifas, o Pix, o câmbio e os principais seguros.
+
+### O custo do crédito: o CET
+
+Para comparar empréstimos, não basta olhar a taxa de juros: o **Custo Efetivo Total (CET)** inclui juros, tarifas, impostos (IOF) e seguros. O banco é obrigado a informar o CET **antes** da contratação. Duas ofertas com a mesma taxa podem ter CETs bem diferentes.
+
 ### Como o banco decide emprestar
 
 Antes de liberar crédito, a instituição avalia o risco de não receber:
@@ -52,3 +60,45 @@ Só instituições autorizadas pelo BC podem comprar e vender moeda estrangeira.
 
 > **Exemplo resolvido.** Um pai de dois filhos pequenos, sem patrimônio, quer garantir que a família não fique desamparada se ele morrer nos próximos 20 anos. Qual seguro combina?
 > Um **seguro de vida temporário** de 20 anos: é mais barato que o vitalício e cobre exatamente o período de maior necessidade.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um aposentado do INSS precisa de R$ 3 mil e está usando o cheque especial. Que alternativa costuma ser mais barata?
+> O **crédito consignado**, com juros bem menores porque a parcela é descontada do benefício, respeitando a margem consignável.
+
+> **Exemplo resolvido.** Um cliente quer comprar um carro daqui a 2 anos, sem pagar juros, e não tem pressa. Que produto pode fazer sentido?
+> O **consórcio** (sem juros, com taxa de administração), sabendo que a contemplação pode vir por sorteio ou lance. Outra opção é **poupar** numa aplicação e comprar à vista.
+
+> **Exemplo resolvido.** Ao contratar um financiamento, o gerente diz que o seguro prestamista é obrigatório e precisa ser daquela seguradora do banco. Está correto?
+> **Não**: condicionar o crédito à contratação de um seguro específico é **venda casada**, proibida pelo Código de Defesa do Consumidor. O cliente pode escolher.
+
+### Erros mais comuns
+
+- Comparar empréstimos só pela taxa de juros, e não pelo CET.
+- Achar que o consórcio tem juros (tem taxa de administração).
+- Achar que o rotativo do cartão pode ser usado indefinidamente (só até a próxima fatura; depois vira parcelamento, com encargos limitados a 100% da dívida original).
+- Achar que o Pix é fiscalizado pela CVM (é do Banco Central).
+- Confundir prêmio (o que o segurado paga) com indenização (o que recebe).
+
+### Como cai na prova
+
+Situações de clientes endividados para recomendar a melhor saída, características de cada linha de crédito, regras do cheque especial e do rotativo, SCR e Cadastro Positivo, consórcio, pacote de serviços essenciais, Pix e MED, e conceitos de seguros (prêmio, sinistro, franquia, tipos de seguro de vida, prestamista).
+
+### Teste-se
+
+1. Qual o limite de juros do cheque especial?
+2. Por que o consignado tem juros menores?
+3. Quem fiscaliza as administradoras de consórcio?
+4. O que é o MED do Pix?
+5. Qual seguro quita a dívida se o devedor morrer?
+
+> **Respostas.** 1) **8% ao mês**. 2) Porque a parcela é **descontada direto do salário ou benefício**, reduzindo o risco de calote. 3) O **Banco Central**. 4) O **Mecanismo Especial de Devolução**, que permite pedir a devolução do valor em caso de golpe ou fraude. 5) O **seguro prestamista**.
+
+### Para lembrar
+
+- Análise de crédito: renda, score, Cadastro Positivo, SCR, garantias. Compare pelo CET.
+- Empréstimo pessoal, financiamento, CDC (alienação fiduciária), consignado (juros baixos), leasing, imobiliário (FGTS no SFH).
+- Mais caros: rotativo (limite de 100% da dívida) e cheque especial (até 8% a.m.).
+- Consórcio: sem juros, com taxa de administração; BC fiscaliza.
+- Serviços essenciais gratuitos; Pix (BC, gratuito para PF, MED); câmbio só com autorizadas.
+- Seguros: prêmio, sinistro, indenização, franquia; vida inteira × temporário; prestamista.

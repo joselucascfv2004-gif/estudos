@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Na agência, o cliente sempre pergunta "quanto vou ganhar?" e "quanto vou pagar de imposto?". A CPA cobra exatamente isso: juros compostos, taxas equivalentes, ganho real acima da inflação e, principalmente, a **tributação** de cada investimento. Saber comparar um CDB tributado com uma LCI isenta, ou explicar o come-cotas, é o que diferencia um bom profissional. As contas da prova são simples (geralmente uma multiplicação ou divisão), mas exigem atenção às regras.
+
 ### Juros simples e compostos
 
 - **Simples:** os juros incidem sempre sobre o capital inicial. M = C · (1 + i · n).
@@ -61,3 +65,49 @@ O **IOF** só existe em resgates nos primeiros **29 dias**, e cai dia a dia (96%
 - **Fundos:** **come-cotas** em maio e novembro (15% nos de longo prazo, 20% nos de curto prazo); no resgate cobra-se a diferença até a alíquota da tabela.
 - **Previdência no regime regressivo:** de **35%** (até 2 anos) até **10%** (mais de 10 anos). No **VGBL**, o IR incide só sobre o rendimento; no **PGBL**, sobre o valor total.
 - **Poupança:** isenta. Rende **0,5% ao mês + TR** quando a Selic está acima de 8,5% ao ano; caso contrário, **70% da Selic + TR**.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um cliente resgata um CDB após 10 dias. Que impostos podem incidir?
+> **IOF** (porque o resgate é antes de 30 dias, sobre parte do rendimento) e depois **IR de 22,5%** sobre o rendimento que sobrar.
+
+> **Exemplo resolvido.** Um investidor vendeu R$ 15 mil em ações num mês, com lucro de R$ 3 mil. Paga IR?
+> **Não**: as vendas no mês (operações comuns) ficaram abaixo de **R$ 20 mil**, e o lucro é isento.
+
+> **Exemplo resolvido.** Qual a taxa líquida de um CDB de 110% do CDI resgatado em 200 dias?
+> 200 dias: alíquota de **20%**. 110% · (1 − 0,20) = **88% do CDI** líquido.
+
+> **Exemplo resolvido.** Uma LCA paga 90% do CDI. A partir de que percentual do CDI um CDB de 3 anos (IR de 15%) seria melhor?
+> É preciso x · 0,85 > 90%, ou seja, x > 90 ÷ 0,85 ≈ **105,9% do CDI**.
+
+### Erros mais comuns
+
+- Calcular a taxa real subtraindo a inflação em vez de dividir.
+- Aplicar o IR sobre o valor total aplicado (na renda fixa, ele incide só sobre o **rendimento**).
+- Esquecer que o IOF só existe nos primeiros 29 dias.
+- Achar que a isenção de R$ 20 mil vale para day trade ou para fundos (vale só para vendas de ações à vista em operações comuns).
+- Confundir as tabelas: renda fixa (22,5% a 15%) e previdência regressiva (35% a 10%).
+
+### Como cai na prova
+
+Cálculos de montante, taxa equivalente e taxa real; alíquota de IR conforme o prazo; comparação entre aplicação tributada e isenta; regras de IOF, come-cotas, IR de ações e de previdência; noções de VPL, TIR e sistemas de amortização.
+
+### Teste-se
+
+1. Qual a alíquota de IR de um CDB resgatado com 750 dias?
+2. Um investimento rendeu 8% num ano com inflação de 8%. Qual o ganho real?
+3. Em que meses ocorre o come-cotas?
+4. No VGBL, o IR incide sobre o quê?
+5. Um projeto tem TIR de 12% ao ano e o custo do dinheiro é de 10% ao ano. Vale a pena?
+
+> **Respostas.** 1) **15%** (mais de 720 dias). 2) **Zero**: 1,08 ÷ 1,08 = 1. 3) **Maio e novembro**. 4) Somente sobre o **rendimento**. 5) **Sim**: a TIR é maior que o custo do capital.
+
+### Para lembrar
+
+- Compostos: M = C·(1 + i)ⁿ. Equivalentes: (1 + anual) = (1 + mensal)¹². Real: (1 + nominal) = (1 + real)·(1 + inflação).
+- VP = VF ÷ (1 + i)ⁿ; VPL > 0 cria valor; TIR > custo do dinheiro.
+- IR renda fixa: 22,5% / 20% / 17,5% / 15%. IOF só até 29 dias.
+- Líquido = bruto × (1 − alíquota).
+- Ações: 15% (comum) e 20% (day trade); isenção até R$ 20 mil de vendas no mês.
+- Fundos: come-cotas em maio e novembro. Previdência regressiva: 35% a 10%.
+- Poupança: isenta; 0,5% a.m. + TR ou 70% da Selic + TR.

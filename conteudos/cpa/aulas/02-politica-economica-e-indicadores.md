@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Os investimentos rendem mais ou menos conforme a economia: quando o Copom sobe a Selic, a renda fixa pós-fixada passa a pagar mais e a bolsa costuma sofrer; quando a inflação dispara, quem tem prefixado perde poder de compra. A CPA cobra esses mecanismos para que o profissional saiba explicar ao cliente **por que** o investimento dele se comportou de certo jeito. Esta aula mostra os mercados financeiros, as políticas fiscal e monetária, os indicadores (Selic, CDI, IPCA, IGP-M, PIB, câmbio) e os riscos básicos.
+
 ### Os quatro mercados financeiros
 
 - **Monetário:** operações de curtíssimo prazo, principalmente entre bancos, para ajustar o caixa do dia. É onde nascem a **Selic** e o **CDI**.
@@ -58,3 +62,46 @@ Outros índices aparecem na prova:
 
 > **Exemplo resolvido.** A inflação está acima do teto da meta. O que o Copom tende a fazer e o que acontece com um título prefixado que você já tem?
 > O Copom tende a **subir a Selic**. Com juros maiores no mercado, o preço do título prefixado antigo **cai** (ele paga uma taxa que agora parece baixa). Se você vender antes do vencimento, pode ter perda; se levar até o fim, recebe a taxa combinada.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** O governo aumenta muito os gastos sem aumentar a arrecadação. Que efeitos isso pode ter sobre juros e inflação?
+> A **dívida pública** cresce; para financiá-la, o governo paga juros maiores; a demanda maior pressiona os preços, e o BC pode precisar **subir a Selic** para segurar a inflação.
+
+> **Exemplo resolvido.** O dólar sobe muito em relação ao real. Quem ganha e quem perde?
+> Ganham os **exportadores** (recebem em dólar). Perdem os **importadores** e quem viaja ao exterior. Produtos importados e insumos ficam mais caros, o que pode **aumentar a inflação**.
+
+> **Exemplo resolvido.** Um contrato de aluguel é reajustado pelo IGP-M. Por que ele pode subir mais que o IPCA em alguns anos?
+> Porque o IGP-M tem grande peso dos **preços no atacado** (IPA), que reagem muito ao **dólar** e às commodities.
+
+### Erros mais comuns
+
+- Inverter o efeito dos juros: Selic **alta** é política **contracionista** (segura a inflação).
+- Confundir política fiscal (governo: gastos e impostos) com monetária (Banco Central: juros e moeda).
+- Confundir a Selic meta (definida pelo Copom) com a Selic efetiva (média das operações).
+- Achar que o CDI é definido pelo Copom (ele é formado no mercado entre bancos, colado na Selic).
+- Trocar os índices: IPCA (oficial, meta), IGP-M (aluguéis), INPC (salários).
+
+### Como cai na prova
+
+Questões de causa e efeito: "se o BC aumentar o compulsório...", "se a Selic subir, o que acontece com os prefixados?", "qual índice mede a inflação oficial?", "quem define a meta de inflação?", além da composição do PIB e do funcionamento do câmbio.
+
+### Teste-se
+
+1. Quantas vezes por ano o Copom se reúne?
+2. Reduzir o depósito compulsório é uma medida expansionista ou contracionista?
+3. Qual o índice oficial de inflação e quem o calcula?
+4. Qual o intervalo da meta de inflação desde 2025?
+5. O que é risco de liquidez?
+
+> **Respostas.** 1) **8 vezes**. 2) **Expansionista** (os bancos ficam com mais dinheiro para emprestar). 3) O **IPCA**, calculado pelo **IBGE**. 4) Centro de **3%**, de **1,5% a 4,5%**. 5) O risco de **não conseguir vender** o investimento rapidamente sem perder valor.
+
+### Para lembrar
+
+- Mercados: monetário (curtíssimo prazo, Selic e CDI), crédito, capitais (ações, debêntures), câmbio.
+- Fiscal = governo (gastos e impostos); monetária = BC (juros e moeda).
+- Instrumentos do BC: open market, compulsório, redesconto. Juros altos = contracionista.
+- Copom: 8 reuniões; meta da Selic. CDI acompanha a Selic.
+- Meta de inflação (CMN, IPCA): contínua, 3% ± 1,5 ponto.
+- IGP-M (FGV, aluguéis), INPC (salários), IPC-Fipe (São Paulo). PIB = C + I + G + X − M. Câmbio flutuante; PTAX.
+- Riscos: crédito, liquidez, mercado.

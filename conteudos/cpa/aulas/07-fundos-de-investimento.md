@@ -1,3 +1,12 @@
+### Para que serve este assunto
+
+Fundos de investimento são um dos produtos mais vendidos nos bancos e um dos temas mais cobrados na CPA. O cliente compra cotas e deixa a decisão de onde aplicar para um gestor profissional. O profissional certificado precisa explicar como a cota funciona, quem são os prestadores de serviço, quais taxas o cliente paga, como os fundos são classificados e tributados (o famoso come-cotas) e o que muda com a Resolução CVM 175.
+
+### Vantagens e desvantagens dos fundos
+
+- **Vantagens:** gestão profissional, diversificação com pouco dinheiro, acesso a ativos e estratégias difíceis para o pequeno investidor, praticidade (o IR é retido pelo administrador).
+- **Desvantagens:** taxas que reduzem o retorno, come-cotas, prazos de resgate (cotização e liquidação) e o fato de o cliente não escolher cada ativo.
+
 ### Um condomínio de investidores
 
 Um fundo junta o dinheiro de muitas pessoas e um profissional decide onde aplicar. Cada investidor tem **cotas**, e o patrimônio do fundo é **separado** do patrimônio de quem o administra: se a gestora quebrar, o dinheiro dos cotistas não entra na conta.
@@ -50,3 +59,52 @@ A classe pode ter **responsabilidade limitada**: o cotista não perde mais do qu
 ### Fundos imobiliários (FII)
 
 São fundos **fechados**, com cotas negociadas na bolsa. Investem em imóveis ("tijolo"), em CRI ("papel") ou nos dois (híbridos). Os rendimentos mensais são **isentos para pessoa física** quando o fundo e o cotista cumprem as condições da lei; o **ganho na venda** das cotas paga **20%**. Riscos: imóveis vagos (vacância), inquilinos que não pagam e pouca liquidez.
+
+### Os documentos que o investidor deve consultar
+
+- **Regulamento:** as regras do fundo (política de investimento, taxas, prazos, responsabilidades).
+- **Lâmina** (para fundos voltados ao público em geral): um resumo padronizado com objetivo, riscos, rentabilidade passada e custos.
+- **Termo de adesão e ciência de risco:** o investidor declara que conhece os riscos.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um fundo de renda fixa de longo prazo rendeu R$ 1 000 entre novembro e maio. O que acontece em maio?
+> O **come-cotas** recolhe **15%** de R$ 1 000 = R$ 150, reduzindo o número de cotas do investidor. Se ele resgatar com menos de 720 dias, pagará a diferença até a alíquota da tabela.
+
+> **Exemplo resolvido.** O índice de referência de um fundo é o CDI. O fundo rendeu 14% e o CDI, 12%. A taxa de performance é de 20% sobre o que excede o CDI. Quanto é cobrado (de forma simplificada)?
+> O excesso é de 2 pontos; 20% de 2 pontos = **0,4 ponto percentual** do patrimônio.
+
+> **Exemplo resolvido.** Um cliente quer sair de um FII. Como faz?
+> O FII é **fechado**: não há resgate. Ele **vende as cotas na bolsa** a outro investidor, pelo preço de mercado.
+
+### Erros mais comuns
+
+- Achar que o gestor é quem guarda os ativos (quem guarda é o custodiante).
+- Achar que fundo de ações tem come-cotas (não tem: IR de 15% só no resgate).
+- Confundir classe aberta (resgate a pedido) com fechada (venda das cotas a terceiros).
+- Achar que fundos têm FGC (não têm).
+- Esquecer que a taxa de administração é cobrada diariamente, já descontada da cota.
+
+### Como cai na prova
+
+Funções do administrador, gestor e custodiante; cálculo da cota; cotização e liquidação; taxas (administração, performance); classificação da CVM pelos percentuais mínimos; crédito privado; come-cotas e alíquotas; fundos fechados, FII e FI-Infra; segregação patrimonial e responsabilidade limitada.
+
+### Teste-se
+
+1. Quem decide os ativos que o fundo compra?
+2. Qual o percentual mínimo em ações de um fundo de ações?
+3. Qual a alíquota do come-cotas nos fundos de longo prazo?
+4. Um fundo tem patrimônio de R$ 20 milhões e 4 milhões de cotas. Quanto vale a cota?
+5. Como é tributado o ganho na venda de cotas de FII?
+
+> **Respostas.** 1) O **gestor**. 2) **67%**. 3) **15%**. 4) 20 ÷ 4 = **R$ 5**. 5) **20%** sobre o ganho.
+
+### Para lembrar
+
+- Fundo = condomínio; cotas; patrimônio separado (Resolução CVM 175, classes e subclasses).
+- Administrador (cota, documentos) e gestor (decisões) são essenciais; custodiante, distribuidor, auditor.
+- Cota = PL ÷ número de cotas. Aberto (resgate) × fechado (venda na bolsa). Cotização × liquidação.
+- Taxas: administração (sobre o PL), performance (sobre o que supera o índice), ingresso e saída.
+- Renda fixa ≥ 80%; ações ≥ 67%; cambial ≥ 80%; multimercado; crédito privado > 50%.
+- Come-cotas maio/novembro: 15% (longo) e 20% (curto); ações sem come-cotas (15% no resgate).
+- FII: fechado, rendimentos isentos (com condições), 20% sobre o ganho na venda.
