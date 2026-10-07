@@ -6,9 +6,12 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { getTopico } from '../../data/banco';
 import { getProva } from '../../data/provas';
 import { diaDaSemana, diferencaDias, hoje, somarDias } from '../../estado/datas';
+import { cartoesDoTopico } from '../../estado/cartoes';
+import { NOMES_FASE, formatarTempo, usePomodoro } from '../../estado/PomodoroContext';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
   BONUS_DESAFIO,
+  cartoesVencidos,
   estudouHoje,
   estudouTopicoHoje,
   gerarPlano,
@@ -67,6 +70,19 @@ export default function Inicio() {
     return !!info && !!(info.topico.resumo || info.topico.aula);
   };
   const estudar = (id: string) => router.push({ pathname: '/resumo', params: { topico: id } });
+  // praticar do jeito que o aluno escolheu (questões ou flashcards)
+  const praticar = (id: string) =>
+    p.metodo === 'flashcards' && cartoesDoTopico(id).length
+      ? router.push({ pathname: '/flashcards', params: { modo: 'topico', topico: id } })
+      : router.push({ pathname: '/licao', params: { modo: 'topico', topico: id, nivel: String(nivelSugerido(p, id)) } });
+  // assunto novo: primeiro a aula (aprender), que termina com o botão de praticar (aplicar)
+  const abrirAssunto = (id: string) => (!p.topicos[id] && !p.recentes[id] && temTeoria(id) ? estudar(id) : praticar(id));
+  const revisar = () =>
+    p.metodo === 'flashcards'
+      ? router.push({ pathname: '/flashcards', params: { modo: 'revisao' } })
+      : router.push({ pathname: '/licao', params: { modo: 'revisao' } });
+  const cartoesHoje = cartoesVencidos(p, dia).length;
+  const pomodoro = usePomodoro();
   const nome = p.nome.trim().split(/\s+/)[0];
 
   return (
@@ -165,7 +181,7 @@ export default function Inicio() {
               feito={false}
               icone="brain"
               texto={`Revisar ${pendentes} ${pendentes === 1 ? 'assunto' : 'assuntos'}`}
-              onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
+              onPress={revisar}
             />
           )}
           {fraco && infoFraco && (
@@ -173,7 +189,11 @@ export default function Inicio() {
               feito={estudouTopicoHoje(p, fraco.topicoId)}
               icone="target"
               texto={`Ponto fraco: ${infoFraco.topico.titulo}`}
-              onPress={() => router.push({ pathname: '/licao', params: { modo: 'fracos', topico: fraco.topicoId } })}
+              onPress={() =>
+                p.metodo === 'flashcards'
+                  ? praticar(fraco.topicoId)
+                  : router.push({ pathname: '/licao', params: { modo: 'fracos', topico: fraco.topicoId } })
+              }
               onEstudar={temTeoria(fraco.topicoId) ? () => estudar(fraco.topicoId) : undefined}
             />
           )}
@@ -186,7 +206,7 @@ export default function Inicio() {
                 feito={estudouTopicoHoje(p, id)}
                 icone={info.disciplina.icone}
                 texto={info.topico.titulo}
-                onPress={() => router.push({ pathname: '/licao', params: { modo: 'topico', topico: id, nivel: String(nivelSugerido(p, id)) } })}
+                onPress={() => abrirAssunto(id)}
                 onEstudar={temTeoria(id) ? () => estudar(id) : undefined}
               />
             );
@@ -195,7 +215,7 @@ export default function Inicio() {
             <Text style={s.dica}>Plano do dia concluído! Amanhã tem mais.</Text>
           ) : plano.some(temTeoria) ? (
             <ComIcone icone="book-open-page-variant-outline" cor={c.roxo} tamanho={16} estilo={{ gap: 6, marginTop: 8 }} estiloTexto={s.dica}>
-              Toque no livro para ler a teoria antes das questões.
+              Assunto novo abre primeiro a aula; o livro abre a teoria a qualquer hora.
             </ComIcone>
           ) : null}
           {!p.dataProva && (
@@ -215,6 +235,30 @@ export default function Inicio() {
           </View>
           <Icone nome="chevron-right" tamanho={24} cor={desafioFeito ? c.textoSuave : '#FFF'} />
         </Cartao>
+
+        <Cartao testID="atalho-pomodoro" estilo={s.atalho} onPress={() => router.push('/pomodoro')}>
+          <Icone nome="timer-sand" tamanho={26} cor={pomodoro.fase === 'foco' ? c.vermelho : pomodoro.fase ? c.verde : c.vermelho} />
+          <View style={{ flex: 1 }}>
+            <Text style={s.atalhoTitulo}>Pomodoro</Text>
+            <Text style={s.atalhoSub}>
+              {pomodoro.fase ? `${NOMES_FASE[pomodoro.fase]} · ${formatarTempo(pomodoro.restante)}` : `Estude em blocos de ${pomodoro.config.foco} min de foco com pausas`}
+            </Text>
+          </View>
+          <Icone nome="chevron-right" tamanho={24} cor={c.textoSuave} />
+        </Cartao>
+
+        {cartoesHoje > 0 && (
+          <Cartao testID="atalho-flashcards" estilo={s.atalho} onPress={() => router.push({ pathname: '/flashcards', params: { modo: 'dia' } })}>
+            <Icone nome="cards-outline" tamanho={26} cor={c.roxo} />
+            <View style={{ flex: 1 }}>
+              <Text style={s.atalhoTitulo}>Flashcards</Text>
+              <Text style={s.atalhoSub}>
+                {cartoesHoje} {cartoesHoje === 1 ? 'cartão para revisar' : 'cartões para revisar'} hoje
+              </Text>
+            </View>
+            <Icone nome="chevron-right" tamanho={24} cor={c.textoSuave} />
+          </Cartao>
+        )}
 
         {ultimo && (
           <Cartao estilo={s.atalho} onPress={() => router.push({ pathname: '/disciplina/[id]', params: { id: ultimo.disciplina.id } })}>

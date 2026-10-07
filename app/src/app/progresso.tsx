@@ -42,6 +42,8 @@ export default function Progresso() {
           <Info icone="book-check-outline" cor={c.azul} valor={p.totalLicoes} rotulo="Lições concluídas" />
           <Info icone="pencil-outline" cor={c.roxo} valor={respostas} rotulo="Respostas" />
           <Info icone="target" cor={c.verde} valor={respostas ? `${Math.round((acertos / respostas) * 100)}%` : '—'} rotulo="Taxa de acerto" />
+          <Info icone="timer-sand" cor={c.vermelho} valor={Object.values(p.pomodoros).reduce((x, n) => x + n, 0)} rotulo="Pomodoros de foco" />
+          <Info icone="cards-outline" cor={c.roxo} valor={Object.keys(p.cartoes).length} rotulo="Flashcards estudados" />
         </View>
         <Text style={[s.legenda, { marginTop: -4 }]}>
           Você já acertou {dominadas} das {totalQuestoes} questões do app.

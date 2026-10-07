@@ -4,6 +4,7 @@ import { BackHandler, Pressable, ScrollView, StyleSheet, Text, View } from 'reac
 import { SafeAreaView, useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { NOMES_NIVEL, Nivel, Topico, disciplinasDaProva, getDisciplina, incidencia, questoesDoTopico, totalOficiais } from '../../data/banco';
+import { cartoesDoTopico } from '../../estado/cartoes';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
   ACERTO_PARA_DESBLOQUEAR,
@@ -138,6 +139,36 @@ export default function TelaDisciplina() {
                   router.push({ pathname: '/resumo', params: { topico: aberto.id } });
                 }}
               />
+            )}
+            {cartoesDoTopico(aberto.id).length > 0 && (
+              <View style={{ flexDirection: 'row', gap: 8 }}>
+                <Botao
+                  testID="btn-flashcards-topico"
+                  icone="cards-outline"
+                  titulo="Flashcards"
+                  contorno
+                  cor={d.cor}
+                  pequeno
+                  estilo={{ flex: 1 }}
+                  onPress={() => {
+                    setAberto(null);
+                    router.push({ pathname: '/flashcards', params: { modo: 'topico', topico: aberto.id } });
+                  }}
+                />
+                <Botao
+                  testID="btn-feynman-topico"
+                  icone="account-voice"
+                  titulo="Explicar"
+                  contorno
+                  cor={d.cor}
+                  pequeno
+                  estilo={{ flex: 1 }}
+                  onPress={() => {
+                    setAberto(null);
+                    router.push({ pathname: '/feynman', params: { topico: aberto.id } });
+                  }}
+                />
+              </View>
             )}
             {!!aberto.videos?.length && (
               <Botao

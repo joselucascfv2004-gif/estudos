@@ -4,11 +4,13 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { disciplinasDaProva, getTopico } from '../../data/banco';
 import { diferencaDias, hoje } from '../../estado/datas';
+import { usePomodoro } from '../../estado/PomodoroContext';
 import { useProgresso } from '../../estado/ProgressoContext';
 import {
   LIMITE_PONTO_FRACO,
   MIN_RESPOSTAS_AVALIAR,
   acertoDisciplina,
+  cartoesVencidos,
   pontosFracos,
   proximaRevisao,
   revisoesPendentes,
@@ -34,6 +36,8 @@ export default function Praticar() {
   // sem revisão vencida, dá para fazer uma revisão surpresa com questões de dias anteriores
   const surpresa = pendentes ? 0 : tamanhoRevisao(p);
   const fracos = pontosFracos(p).slice(0, 3);
+  const vencidos = cartoesVencidos(p).length;
+  const pomodoroAtivo = !!usePomodoro().fase;
   const plural = (n: number) => (n === 1 ? 'assunto' : 'assuntos');
 
   return (
@@ -48,7 +52,7 @@ export default function Praticar() {
           </ComIcone>
           <Text style={s.sub}>
             {pendentes
-              ? `${pendentes} ${plural(pendentes)} para revisar hoje, com questões que você ainda não viu. O assunto que você erra volta no dia seguinte; o que você acerta volta cada vez mais tarde.`
+              ? `${pendentes} ${plural(pendentes)} para revisar hoje: poucas questões novas de cada um, só para relembrar. O que você erra volta em 2 ou 3 dias; o que acerta, cada vez mais tarde.`
               : proxima
                 ? `Nada para hoje. Próxima revisão ${quandoFalta(proxima.dia)}: ${proxima.quantidade} ${plural(proxima.quantidade)}.`
                 : 'Os assuntos que você estuda voltam aqui em outros dias, com questões novas, para fixar o conteúdo.'}
@@ -62,8 +66,15 @@ export default function Praticar() {
             titulo={pendentes ? 'Revisar agora' : surpresa ? 'Adiantar uma revisão' : 'Nada para revisar ainda'}
             cor={c.roxo}
             desativado={!pendentes && !surpresa}
-            onPress={() => router.push({ pathname: '/licao', params: { modo: 'revisao' } })}
+            onPress={() =>
+              p.metodo === 'flashcards'
+                ? router.push({ pathname: '/flashcards', params: { modo: 'revisao' } })
+                : router.push({ pathname: '/licao', params: { modo: 'revisao' } })
+            }
           />
+          <Text style={[s.dica, { marginTop: 10, marginBottom: 0, textAlign: 'center' }]} onPress={() => router.push('/tecnicas')}>
+            {p.metodo === 'flashcards' ? 'Revisando com flashcards · trocar' : 'Revisando com questões · trocar'}
+          </Text>
         </Cartao>
 
         <Cartao estilo={{ backgroundColor: c.vermelhoClaro, borderColor: c.vermelhoBorda }}>
@@ -118,9 +129,34 @@ export default function Praticar() {
           )}
         </Cartao>
 
+        <Cartao testID="cartao-tecnicas" estilo={s.linha} onPress={() => router.push('/tecnicas')}>
+          <Icone nome="head-lightbulb-outline" tamanho={26} cor={c.laranja} />
+          <View style={{ flex: 1 }}>
+            <Text style={s.nome}>Técnicas de estudo</Text>
+            <Text style={s.acerto}>Questões, flashcards, Pomodoro, Feynman e mais: por que funcionam e como usar</Text>
+          </View>
+          <Icone nome="chevron-right" tamanho={24} cor={c.laranja} />
+        </Cartao>
+
         <View style={s.blocos}>
-          <Bloco testID="btn-simulado" icone="timer-outline" cor={c.laranja} titulo="Simulado" sub={p.simulados.length ? `Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total}` : 'Com tempo de prova'} onPress={() => router.push('/simulado')} />
+          <Bloco testID="btn-simulado" icone="clipboard-text-clock-outline" cor={c.laranja} titulo="Simulado" sub={p.simulados.length ? `Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total}` : 'Com tempo de prova'} onPress={() => router.push('/simulado')} />
           <Bloco icone="shuffle-variant" cor={c.azul} titulo="Treino misto" sub="10 questões de tudo" onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino' } })} />
+          <Bloco
+            testID="btn-flashcards"
+            icone="cards-outline"
+            cor={c.roxo}
+            titulo="Flashcards"
+            sub={vencidos ? `${vencidos} para revisar` : 'Cartões dos assuntos'}
+            onPress={() => router.push({ pathname: '/flashcards', params: { modo: 'dia' } })}
+          />
+          <Bloco
+            testID="btn-pomodoro"
+            icone="timer-sand"
+            cor={c.vermelho}
+            titulo="Pomodoro"
+            sub={pomodoroAtivo ? 'Em andamento' : '25 min de foco'}
+            onPress={() => router.push('/pomodoro')}
+          />
           <Bloco testID="cartao-redacao" icone="draw-pen" cor={c.roxo} titulo="Redação" sub="Temas do ENEM" onPress={() => router.push('/redacao')} />
           <Bloco
             testID="cartao-salvas"

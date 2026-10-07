@@ -2,6 +2,7 @@ import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 
+import { PomodoroProvider } from '../estado/PomodoroContext';
 import { ProgressoProvider } from '../estado/ProgressoContext';
 import { useCores } from '../ui/tema';
 
@@ -25,6 +26,10 @@ function Navegacao() {
         <Stack.Screen name="jogos/duelo" options={{ gestureEnabled: false }} />
         <Stack.Screen name="jogos/memoria" options={{ gestureEnabled: false }} />
         <Stack.Screen name="progresso" />
+        <Stack.Screen name="pomodoro" />
+        <Stack.Screen name="flashcards" options={{ gestureEnabled: false, animation: 'slide_from_bottom' }} />
+        <Stack.Screen name="tecnicas" />
+        <Stack.Screen name="feynman" />
         <Stack.Screen name="dificuldades" />
         <Stack.Screen name="redacao/index" />
         <Stack.Screen name="redacao/[id]" />
@@ -37,7 +42,9 @@ export default function RootLayout() {
   return (
     <SafeAreaProvider>
       <ProgressoProvider>
-        <Navegacao />
+        <PomodoroProvider>
+          <Navegacao />
+        </PomodoroProvider>
       </ProgressoProvider>
     </SafeAreaProvider>
   );

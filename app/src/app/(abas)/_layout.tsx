@@ -4,6 +4,7 @@ import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 import { useProgresso } from '../../estado/ProgressoContext';
 import { Icone } from '../../ui/Icone';
+import { PilulaPomodoro } from '../../ui/PilulaPomodoro';
 import { cores, useCores } from '../../ui/tema';
 
 const icone = (nome: string, nomeAtivo: string) =>
@@ -26,27 +27,30 @@ export default function AbasLayout() {
   if (!p.onboarding) return <Redirect href="/boas-vindas" />;
 
   return (
-    <Tabs
-      screenOptions={{
-        headerShown: false,
-        tabBarActiveTintColor: c.azul,
-        tabBarInactiveTintColor: c.textoSuave,
-        tabBarLabelStyle: { fontWeight: '800', fontSize: 12 },
-        tabBarStyle: {
-          backgroundColor: c.fundo,
-          borderTopWidth: 2,
-          borderTopColor: c.borda,
-          height: 64 + insets.bottom,
-          paddingTop: 6,
-          paddingBottom: insets.bottom + 6,
-        },
-      }}
-    >
-      <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: icone('home-outline', 'home') }} />
-      <Tabs.Screen name="estudar" options={{ title: 'Estudar', tabBarIcon: icone('book-open-page-variant-outline', 'book-open-page-variant') }} />
-      <Tabs.Screen name="praticar" options={{ title: 'Treinar', tabBarIcon: icone('target', 'target') }} />
-      <Tabs.Screen name="jogos" options={{ title: 'Jogos', tabBarIcon: icone('gamepad-variant-outline', 'gamepad-variant') }} />
-      <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icone('account-outline', 'account') }} />
-    </Tabs>
+    <View style={{ flex: 1 }}>
+      <Tabs
+        screenOptions={{
+          headerShown: false,
+          tabBarActiveTintColor: c.azul,
+          tabBarInactiveTintColor: c.textoSuave,
+          tabBarLabelStyle: { fontWeight: '800', fontSize: 12 },
+          tabBarStyle: {
+            backgroundColor: c.fundo,
+            borderTopWidth: 2,
+            borderTopColor: c.borda,
+            height: 64 + insets.bottom,
+            paddingTop: 6,
+            paddingBottom: insets.bottom + 6,
+          },
+        }}
+      >
+        <Tabs.Screen name="index" options={{ title: 'Início', tabBarIcon: icone('home-outline', 'home') }} />
+        <Tabs.Screen name="estudar" options={{ title: 'Estudar', tabBarIcon: icone('book-open-page-variant-outline', 'book-open-page-variant') }} />
+        <Tabs.Screen name="praticar" options={{ title: 'Treinar', tabBarIcon: icone('target', 'target') }} />
+        <Tabs.Screen name="jogos" options={{ title: 'Jogos', tabBarIcon: icone('gamepad-variant-outline', 'gamepad-variant') }} />
+        <Tabs.Screen name="perfil" options={{ title: 'Perfil', tabBarIcon: icone('account-outline', 'account') }} />
+      </Tabs>
+      <PilulaPomodoro base={64 + insets.bottom} />
+    </View>
   );
 }

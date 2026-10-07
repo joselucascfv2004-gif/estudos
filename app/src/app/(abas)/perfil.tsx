@@ -1,3 +1,4 @@
+import { router } from 'expo-router';
 import { ReactNode, useEffect, useState } from 'react';
 import { Modal, Pressable, ScrollView, Switch, Text, TextInput, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -121,6 +122,15 @@ export default function Perfil() {
         </View>
 
         <Text style={s.grupo}>Seus estudos</Text>
+        <Cartao testID="perfil-tecnicas" estilo={s.linha} onPress={() => router.push('/tecnicas')}>
+          <View style={{ flex: 1 }}>
+            <ComIcone icone="head-lightbulb-outline" cor={c.laranja} estiloTexto={s.secao}>
+              Técnicas de estudo
+            </ComIcone>
+            <Text style={[s.mini, { marginLeft: 30 }]}>Praticando com {p.metodo === 'flashcards' ? 'flashcards' : 'questões'} · Pomodoro, Feynman e mais</Text>
+          </View>
+          <Icone nome="chevron-right" tamanho={26} cor={c.textoSuave} />
+        </Cartao>
         <Dobravel testID="sec-objetivo" icone="flag-checkered" cor={c.azul} titulo="Meu objetivo" resumo={getProva(p.prova).nome}>
           <Text style={s.texto}>Escolha a sua prova. O app mostra só as matérias que caem nela.</Text>
           <EscolhaProva valor={p.prova} lingua={p.lingua} onEscolher={(id) => atualizar((x) => ({ ...x, prova: id, planoDia: null }))} />

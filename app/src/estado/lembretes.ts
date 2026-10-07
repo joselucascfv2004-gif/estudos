@@ -63,8 +63,14 @@ async function permissao(N: ModNotif, pedir: boolean): Promise<boolean> {
  * Agenda os lembretes dos próximos dias, cada um com o seu texto (quantas revisões vencem, quantos
  * dias faltam para a prova). Se o aluno já estudou hoje, o lembrete de hoje não toca.
  */
+/** Cancela os lembretes diários, sem mexer no aviso do Pomodoro. */
+async function cancelarLembretes(N: ModNotif) {
+  const agendadas = await N.getAllScheduledNotificationsAsync();
+  for (const n of agendadas) if (n.content.data?.tipo !== 'pomodoro') await N.cancelScheduledNotificationAsync(n.identifier);
+}
+
 async function agendar(N: ModNotif, p: Progresso, hora: number, minuto: number) {
-  await N.cancelAllScheduledNotificationsAsync();
+  await cancelarLembretes(N);
   if (Platform.OS === 'android') {
     await N.setNotificationChannelAsync('lembretes', { name: 'Lembretes de estudo', importance: N.AndroidImportance.DEFAULT });
   }
@@ -90,7 +96,7 @@ export async function configurarLembrete(ativo: boolean, hora: number, minuto: n
   if (!N) return false;
   try {
     if (!ativo) {
-      await N.cancelAllScheduledNotificationsAsync();
+      await cancelarLembretes(N);
       return true;
     }
     if (!(await permissao(N, true))) return false;
@@ -114,3 +120,31 @@ export async function atualizarLembretes(p: Progresso): Promise<void> {
 }
 
 export const lembretesDisponiveis = () => Platform.OS !== 'web';
+
+/** Avisa no celular quando a fase do Pomodoro termina (mesmo com o app fechado). Devolve o id do aviso. */
+export async function avisarFimPomodoro(quando: Date, titulo: string, texto: string): Promise<string | null> {
+  const N = notificacoes();
+  if (!N) return null;
+  try {
+    if (!(await permissao(N, true))) return null;
+    if (Platform.OS === 'android') {
+      await N.setNotificationChannelAsync('pomodoro', { name: 'Pomodoro', importance: N.AndroidImportance.HIGH });
+    }
+    return await N.scheduleNotificationAsync({
+      content: { title: titulo, body: texto, data: { tipo: 'pomodoro' } },
+      trigger: { type: N.SchedulableTriggerInputTypes.DATE, date: quando, channelId: 'pomodoro' },
+    });
+  } catch {
+    return null;
+  }
+}
+
+export async function cancelarAvisoPomodoro(id: string | null): Promise<void> {
+  const N = notificacoes();
+  if (!N || !id) return;
+  try {
+    await N.cancelScheduledNotificationAsync(id);
+  } catch {
+    // já disparou ou não existe mais
+  }
+}

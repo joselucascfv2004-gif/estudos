@@ -29,7 +29,13 @@ Cada dia você faz lições curtas, ganha XP, mantém a ofensiva (🔥) e destra
 | Meta diária | 100, 200, 400 ou 600 XP por dia |
 | Ofensiva 🔥 | Dias seguidos batendo a meta. Protetores de ofensiva podem ser comprados com 💎 |
 | Desafio do dia | 10 questões misturadas da sua prova-alvo, com bônus de +50 XP |
-| Revisão espaçada por assunto | O que volta para revisão é o **assunto**, e não a questão (que o aluno poderia acertar só por lembrar a alternativa). Errou? O assunto volta no dia seguinte, com questões que ele ainda não viu, no nível em que errou e, nas questões geradas, com o mesmo tipo de conta e outros números. Acertou tudo? O assunto volta cada vez mais tarde (1, 3, 7, 14, 30 e 60 dias, com variação). Cada revisão mistura de 2 a 5 assuntos (prática intercalada). Sem revisão vencida, dá para adiantar uma revisão |
+| Revisão espaçada por assunto | O que volta para revisão é o **assunto**, e não a questão (que o aluno poderia acertar só por lembrar a alternativa). Errou? O assunto volta em 2 ou 3 dias (nunca no dia seguinte), com questões que ele ainda não viu, no nível em que errou e, nas questões geradas, com o mesmo tipo de conta e outros números. Acertou tudo? O assunto volta cada vez mais tarde (2, 4, 7, 15, 30 e 60 dias, com variação). Revisar é relembrar: só 2 questões por assunto (3 se errou na última vez), misturando até 5 assuntos (prática intercalada). Sem revisão vencida, dá para adiantar uma revisão |
+| Flashcards | Cada item em negrito do resumo de um assunto vira um cartão (frente: o termo; verso: a explicação), 1.655 cartões ao todo. O aluno tenta lembrar, vira e se avalia (não lembrei, com esforço, lembrei fácil); cada cartão tem a sua revisão espaçada (1, 3, 7, 15, 30, 60 e 120 dias). Há flashcards do dia, de um assunto e da revisão |
+| Jeito de praticar | Em **Técnicas de estudo** (aba Treinar ou Perfil), o aluno escolhe praticar com **questões** ou com **flashcards**: o plano do dia e as revisões passam a abrir o formato escolhido |
+| Pomodoro | Blocos de foco (25, 15 ou 50 min) com pausas curtas e, a cada 4 focos, uma pausa longa. O relógio continua contando enquanto o aluno usa o app (aparece flutuando sobre as abas) e um aviso toca no celular no fim de cada fase |
+| Técnica Feynman | O aluno explica um assunto com as próprias palavras e depois marca, ponto a ponto do resumo, o que explicou. O que faltou vira a lista do que reforçar, com atalho para a aula e os flashcards |
+| Técnicas de estudo | Tela que explica por que cada técnica funciona e como usar: questões, flashcards, revisão espaçada, Pomodoro, Feynman, prática intercalada, leitura ativa e simulado |
+| Plano do dia variado | Os assuntos novos de cada dia vêm de grandes áreas diferentes (matemática, natureza, humanas, linguagens). Assunto novo abre primeiro a aula completa e, no fim dela, os botões para praticar |
 | Minhas revisões | No Perfil, o aluno escolhe o nível, as matérias e os assuntos que quer revisar mais (os assuntos também podem ser marcados na tela da matéria). Esses assuntos voltam antes e aparecem mais nas revisões |
 | Língua estrangeira | No ENEM, o aluno escolhe Inglês ou Espanhol (na abertura do app ou no Perfil) e só vê as questões da língua escolhida |
 | Pontos fracos | O app calcula o seu acerto nas últimas 20 questões de cada assunto. Abaixo de 70% (com pelo menos 6 respondidas), o assunto vira ponto fraco, aparece na tela inicial, volta mais cedo nas revisões e ganha um treino focado com questões novas desse assunto |
@@ -55,9 +61,11 @@ O progresso fica salvo no próprio celular (sem login e sem servidor).
 O app segue as técnicas com mais evidência na pesquisa sobre aprendizagem:
 
 - **Prática de recuperação (testar-se):** responder questões fixa mais do que reler. É uma das duas técnicas de "alta utilidade" na revisão de Dunlosky e colegas (2013).
-- **Prática espaçada:** o assunto volta em intervalos que crescem (1, 3, 7, 14, 30 e 60 dias). Rever cedo demais rende menos do que rever um pouco tarde (Cepeda e colegas, 2008).
+- **Prática espaçada:** o assunto volta em intervalos que crescem (2, 4, 7, 15, 30 e 60 dias). Rever cedo demais rende menos do que rever um pouco tarde (Cepeda e colegas, 2008).
 - **Treinar o assunto, não a questão:** a revisão traz questões **novas** do assunto errado, e nenhuma questão volta antes de 30 dias. Assim o aluno não acerta só porque lembra a alternativa.
 - **Prática intercalada:** a revisão mistura assuntos. Em matemática, misturar tipos de problema ajudou os alunos a escolher o método certo e melhorou muito as notas em testes posteriores (Rohrer e Taylor, 2007).
+- **Pomodoro e técnica Feynman:** blocos de foco com pausas ajudam a começar e a manter a atenção; explicar com as próprias palavras revela o que ainda não foi entendido.
+- **Flashcards com revisão espaçada:** para definições, fórmulas e datas, o cartão volta no momento em que está para ser esquecido.
 - **Feedback com explicação, teoria e autoexplicação:** depois de um erro, o app mostra a explicação, convida o aluno a explicar para si mesmo por que errou e oferece o atalho para a teoria do assunto. O erro corrigido precisa voltar espaçado para não ser esquecido (pesquisas sobre o "efeito de hipercorreção").
 
 Fontes: [Dunlosky e colegas, 2013](https://doi.org/10.1177/1529100612453266); [Cepeda e colegas, 2008](https://pubmed.ncbi.nlm.nih.gov/19076480/); [Rohrer e Taylor, 2007](https://digitalcommons.usf.edu/psy_facpub/1767/).

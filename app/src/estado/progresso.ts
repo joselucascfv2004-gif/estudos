@@ -15,6 +15,7 @@ import {
   topicosDaQuestao,
 } from '../data/banco';
 import { FormatoProva, getProva, provaDaTrilhaAntiga } from '../data/provas';
+import { Cartao, EstatCartao, NotaCartao, agendarCartao, cartoesDoTopico } from './cartoes';
 import { diferencaDias, embaralhar, hoje, somarDias } from './datas';
 
 export const TAMANHO_LICAO = 10;
@@ -90,6 +91,14 @@ export type Progresso = {
   salvas: Record<string, Salva>;
   /** Revisão espaçada por assunto (id do tópico). */
   assuntos: Record<string, RevisaoAssunto>;
+  /** Revisão espaçada de cada flashcard (id do cartão). */
+  cartoes: Record<string, EstatCartao>;
+  /** Como o aluno prefere praticar: respondendo questões ou com flashcards. */
+  metodo: Metodo;
+  /** Pomodoros de foco concluídos por dia. */
+  pomodoros: Record<string, number>;
+  /** Explicações escritas pelo aluno na técnica Feynman, por assunto. */
+  feynman: Record<string, Feynman>;
   /** Acertos por dia e disciplina: dia -> disciplina -> [acertos, respondidas]. */
   acertosDia: Record<string, Record<string, [number, number]>>;
   /** Tópicos estudados em cada dia (para o plano de estudos). */
@@ -109,6 +118,9 @@ export type Progresso = {
 };
 
 export type RecordeJogo = { recorde: number; partidas: number };
+export type Metodo = 'questoes' | 'flashcards';
+/** Explicação do aluno com as próprias palavras e os pontos do resumo que ele não citou. */
+export type Feynman = { texto: string; dia: string; faltaram: string[] };
 
 export function estadoInicial(): Progresso {
   return {
@@ -138,6 +150,10 @@ export function estadoInicial(): Progresso {
     tema: 'claro',
     salvas: {},
     assuntos: {},
+    cartoes: {},
+    metodo: 'questoes',
+    pomodoros: {},
+    feynman: {},
     acertosDia: {},
     topicosDia: {},
     dataProva: null,
@@ -288,10 +304,13 @@ export function nivelDesbloqueado(p: Progresso, topicoId: string, nivel: Nivel) 
 
 /**
  * Intervalo base (em dias) de cada caixa da revisão de um assunto. A caixa 0 é a de quem errou: o
- * assunto volta já no dia seguinte. Cada revisão bem-feita passa o assunto para a caixa seguinte,
- * e o intervalo cresce (1, 3, 7, 14, 30 e 60 dias), como pede a prática espaçada.
+ * assunto volta em 2 ou 3 dias (nunca no dia seguinte: revisar cedo demais rende menos). Cada
+ * revisão bem-feita passa o assunto para a caixa seguinte, e o intervalo cresce (2, 4, 7, 15, 30 e
+ * 60 dias), como pede a prática espaçada.
  */
-export const INTERVALOS = [1, 3, 7, 14, 30, 60];
+export const INTERVALOS = [2, 4, 7, 15, 30, 60];
+/** Nenhuma revisão de assunto cai antes deste número de dias. */
+const MIN_DIAS_REVISAO = 2;
 const MAX_CAIXA = INTERVALOS.length - 1;
 
 /** Uma questão respondida só volta depois deste prazo (a não ser que o assunto não tenha outra). */
@@ -316,7 +335,7 @@ export function pesoAssunto(p: Progresso, topicoId: string): number {
 
 /**
  * Próxima revisão de um assunto depois de uma lição em que ele apareceu. Errou pouco (até 20%)? O
- * assunto desce uma caixa. Errou mais? Volta para a caixa 0 (amanhã). Acertou tudo? Sobe uma caixa.
+ * assunto desce uma caixa. Errou mais? Volta para a caixa 0 (2 ou 3 dias). Acertou tudo? Sobe uma caixa.
  * O dia varia um pouco (80% a 130% do intervalo), para as revisões misturarem assuntos de dias
  * diferentes; `peso` > 1 (preferências, ponto fraco) encurta o intervalo.
  */
@@ -335,7 +354,7 @@ export function agendarAssunto(
       : acertos / total >= ACERTO_PARA_AVANCAR && anterior
         ? Math.max(0, atual - 1)
         : 0;
-  const dias = Math.max(1, Math.round((INTERVALOS[caixa] / peso) * (0.8 + sorteio() * 0.5)));
+  const dias = Math.max(MIN_DIAS_REVISAO, Math.round((INTERVALOS[caixa] / peso) * (0.8 + sorteio() * 0.5)));
   return { caixa, proxima: somarDias(dia, dias) };
 }
 
@@ -550,12 +569,44 @@ export function gerarPlano(p: Progresso, dia = hoje()): string[] {
   // os assuntos que mais caem vêm primeiro (a ordenação é estável e mantém a alternância)
   intercalados.sort((a, b) => (peso.get(b) ?? 3) - (peso.get(a) ?? 3));
   const novos = intercalados.filter((id) => !iniciado(p, id) && id !== fraco);
-  const escolhidos = novos.slice(0, quantidade);
+  const escolhidos = variados(novos, quantidade);
   if (escolhidos.length < quantidade) {
     const revisar = intercalados
-      .filter((id) => iniciado(p, id) && id !== fraco)
+      .filter((id) => iniciado(p, id) && id !== fraco && !escolhidos.includes(id))
       .sort((a, b) => dominioTopico(p, a) - dominioTopico(p, b) || (peso.get(b) ?? 3) - (peso.get(a) ?? 3));
-    escolhidos.push(...revisar.slice(0, quantidade - escolhidos.length));
+    escolhidos.push(...variados(revisar, quantidade - escolhidos.length, escolhidos));
+  }
+  return escolhidos;
+}
+
+/** Grande área do assunto, para variar o dia: redação conta como linguagens; matemática financeira e raciocínio lógico, como matemática. */
+function grandeArea(id: string): string {
+  const disc = id.split('/')[0];
+  if (disc === 'redacao') return 'Linguagens e Códigos';
+  if (disc === 'matematica-financeira' || disc === 'raciocinio-logico') return 'Matemática e suas Tecnologias';
+  return getTopico(id)?.disciplina.area ?? disc;
+}
+
+/**
+ * Escolhe `quantidade` assuntos da lista (já em ordem de prioridade) variando ao máximo: primeiro um
+ * de cada área (exatas, natureza, humanas, linguagens...), depois um de cada disciplina, e só então
+ * repete. Assim o dia mistura, por exemplo, matemática com biologia e história.
+ */
+function variados(lista: string[], quantidade: number, jaEscolhidos: string[] = []): string[] {
+  const escolhidos: string[] = [];
+  const area = (id: string) => grandeArea(id);
+  const disc = (id: string) => id.split('/')[0];
+  const todos = () => [...jaEscolhidos, ...escolhidos];
+  const regras = [
+    (id: string) => !todos().some((x) => area(x) === area(id)),
+    (id: string) => !todos().some((x) => disc(x) === disc(id)),
+    () => true,
+  ];
+  for (const ok of regras) {
+    for (const id of lista) {
+      if (escolhidos.length >= quantidade) return escolhidos;
+      if (!escolhidos.includes(id) && ok(id)) escolhidos.push(id);
+    }
   }
   return escolhidos;
 }
@@ -739,7 +790,8 @@ const chaveModelo = (q: Questao) => `${q.id.split('#')[0]}~${q.m}`;
  * Junta questões de vários assuntos, uma de cada por vez (prática intercalada), sem repetir questão
  * nem modelo de enunciado, até `quantidade`. Cada assunto entra com no máximo `porAssunto`.
  */
-function intercalar(listas: Questao[][], quantidade: number, porAssunto = quantidade): Questao[] {
+function intercalar(listas: Questao[][], quantidade: number, porAssunto: number | number[] = quantidade): Questao[] {
+  const limite = (i: number) => (Array.isArray(porAssunto) ? porAssunto[i] : porAssunto);
   const escolhidas: Questao[] = [];
   const ids = new Set<string>();
   const modelos = new Set<string>();
@@ -749,7 +801,7 @@ function intercalar(listas: Questao[][], quantidade: number, porAssunto = quanti
   while (escolhidas.length < quantidade && mexeu) {
     mexeu = false;
     for (let i = 0; i < listas.length && escolhidas.length < quantidade; i++) {
-      if (usadas[i] >= porAssunto) continue;
+      if (usadas[i] >= limite(i)) continue;
       while (posicao[i] < listas[i].length) {
         const q = listas[i][posicao[i]++];
         if (ids.has(q.id) || (q.m && modelos.has(chaveModelo(q)))) continue;
@@ -772,20 +824,35 @@ function assuntosParaAdiantar(p: Progresso, dia: string, excluir: Set<string>): 
     .map(([t, r]) => ({ item: t, peso: pesoAssunto(p, t) * (MAX_CAIXA + 1 - r.caixa) }));
 }
 
+/** Questões por assunto numa revisão: revisar é relembrar, não refazer a lição inteira. */
+export const QUESTOES_POR_REVISAO = 2;
+/** Assuntos em que o aluno errou na última vez ganham uma questão a mais. */
+const QUESTOES_POR_REVISAO_ERRO = 3;
+/** Máximo de assuntos numa revisão (os demais ficam para a próxima). */
+export const MAX_ASSUNTOS_REVISAO = 5;
+
+/** Quais assuntos entram na próxima revisão: os vencidos (ou, se não houver, alguns para adiantar). */
+export function assuntosDaRevisao(p: Progresso, dia = hoje(), sorteio: () => number = Math.random): string[] {
+  const pendentes = revisoesPendentes(p, dia);
+  if (pendentes.length) {
+    const peso = (t: string) => pesoAssunto(p, t) ** 2 * ((p.assuntos[t]?.caixa ?? 0) === 0 ? 2 : 1);
+    // os mais atrasados primeiro; entre eles, sorteio com peso das preferências
+    return sortearComPeso(pendentes.map((t) => ({ item: t, peso: peso(t) })), MAX_ASSUNTOS_REVISAO, sorteio);
+  }
+  return sortearComPeso(assuntosParaAdiantar(p, dia, new Set()), 3, sorteio);
+}
+
 /**
- * Revisão: o que volta são os ASSUNTOS em que o aluno errou, com questões que ele ainda não viu
- * (prática de recuperação com itens novos), e não a mesma questão, cuja resposta ele já leu. Os
- * assuntos vêm misturados (prática intercalada), de 2 a 4 questões cada. Se houver menos de três
- * assuntos vencidos, completa com assuntos já estudados (revisão surpresa, adiantada).
+ * Revisão: o que volta são os ASSUNTOS, com questões que o aluno ainda não viu (prática de
+ * recuperação com itens novos), e não a mesma questão, cuja resposta ele já leu. Revisar é relembrar:
+ * são só 2 questões por assunto (3 se ele errou na última vez), com os assuntos misturados
+ * (prática intercalada). Sem revisão vencida, adianta alguns assuntos já estudados.
  */
 export function montarRevisao(p: Progresso, dia = hoje(), sorteio: () => number = Math.random): Questao[] {
-  const pendentes = revisoesPendentes(p, dia);
-  const peso = (t: string) => pesoAssunto(p, t) ** 2 * ((p.assuntos[t]?.caixa ?? 0) === 0 ? 2 : 1);
-  let assuntos = sortearComPeso(pendentes.map((t) => ({ item: t, peso: peso(t) })), 5, sorteio);
-  if (assuntos.length < 3) assuntos = [...assuntos, ...sortearComPeso(assuntosParaAdiantar(p, dia, new Set(assuntos)), 3 - assuntos.length, sorteio)];
+  const assuntos = assuntosDaRevisao(p, dia, sorteio);
   if (!assuntos.length) return [];
-  const porAssunto = Math.max(2, Math.ceil(TAMANHO_LICAO / assuntos.length));
-  return embaralhar(intercalar(assuntos.map((t) => questoesParaRever(p, t, dia)), TAMANHO_LICAO, porAssunto));
+  const limites = assuntos.map((t) => ((p.assuntos[t]?.caixa ?? 0) === 0 ? QUESTOES_POR_REVISAO_ERRO : QUESTOES_POR_REVISAO));
+  return embaralhar(intercalar(assuntos.map((t) => questoesParaRever(p, t, dia)), TAMANHO_LICAO * 2, limites));
 }
 
 /** Quantos assuntos a revisão surpresa pode adiantar (se não houver revisão vencida). */
@@ -979,6 +1046,108 @@ export function concluirLicao(anterior: Progresso, r: ResumoLicao, dia = hoje())
       assuntosErrados: errados,
     },
   };
+}
+
+// ---------- Flashcards ----------
+
+/** XP por cartão revisado (lembrar vale um pouco mais). */
+const XP_CARTAO = [1, 2, 3];
+/** Máximo de cartões numa sessão. */
+export const TAMANHO_SESSAO_CARTOES = 20;
+
+/** Cartões dos assuntos da prova do aluno cuja revisão venceu. */
+export function cartoesVencidos(p: Progresso, dia = hoje()): Cartao[] {
+  const doAluno = topicosDoAluno(p);
+  return doAluno.flatMap((t) => cartoesDoTopico(t.id).filter((c) => p.cartoes[c.id] && p.cartoes[c.id].proxima <= dia && p.cartoes[c.id].ultima < dia));
+}
+
+/** Ordena cartões de um assunto: vencidos, nunca vistos e, por fim, os vistos há mais tempo. */
+function ordemDosCartoes(p: Progresso, lista: Cartao[], dia: string): Cartao[] {
+  const vencidos = lista.filter((c) => p.cartoes[c.id] && p.cartoes[c.id].proxima <= dia);
+  const novos = lista.filter((c) => !p.cartoes[c.id]);
+  const outros = lista
+    .filter((c) => p.cartoes[c.id] && p.cartoes[c.id].proxima > dia)
+    .sort((a, b) => (p.cartoes[a.id].ultima < p.cartoes[b.id].ultima ? -1 : 1));
+  return [...vencidos, ...novos, ...outros];
+}
+
+/** Mistura cartões de vários assuntos, um de cada por vez, até `quantidade` (no máximo `porAssunto` de cada). */
+function misturarCartoes(listas: Cartao[][], quantidade: number, porAssunto = quantidade): Cartao[] {
+  const saida: Cartao[] = [];
+  for (let i = 0; i < porAssunto && saida.length < quantidade; i++) {
+    for (const l of listas) if (l[i] && saida.length < quantidade) saida.push(l[i]);
+  }
+  return saida;
+}
+
+/**
+ * Sessão de flashcards. De um assunto: todos os cartões dele (vencidos e novos primeiro). Da revisão:
+ * 3 cartões de cada assunto com revisão vencida. Do dia: os cartões vencidos de todos os assuntos,
+ * completados com cartões novos dos assuntos que o aluno já estudou.
+ */
+export function montarCartoes(p: Progresso, modo: 'topico' | 'revisao' | 'dia', topicoId?: string, dia = hoje()): Cartao[] {
+  if (modo === 'topico' && topicoId) return ordemDosCartoes(p, cartoesDoTopico(topicoId), dia).slice(0, TAMANHO_SESSAO_CARTOES);
+  if (modo === 'revisao') {
+    const assuntos = assuntosDaRevisao(p, dia);
+    return misturarCartoes(assuntos.map((t) => ordemDosCartoes(p, cartoesDoTopico(t), dia)), TAMANHO_SESSAO_CARTOES, 3);
+  }
+  const vencidos = embaralhar(cartoesVencidos(p, dia));
+  if (vencidos.length >= TAMANHO_SESSAO_CARTOES) return vencidos.slice(0, TAMANHO_SESSAO_CARTOES);
+  const estudados = topicosDoAluno(p).filter((t) => iniciado(p, t.id));
+  const novos = misturarCartoes(
+    embaralhar(estudados).map((t) => cartoesDoTopico(t.id).filter((c) => !p.cartoes[c.id])),
+    TAMANHO_SESSAO_CARTOES - vencidos.length,
+    3,
+  );
+  return [...vencidos, ...novos];
+}
+
+export type RespostaCartao = { cartao: Cartao; nota: NotaCartao };
+export type EventosCartoes = { xp: number; moedas: number; lembrados: number; total: number; ofensivaAumentou: boolean; metaBatidaAgora: boolean };
+
+/**
+ * Registra uma sessão de flashcards: agenda cada cartão, conta como estudo do dia (XP, ofensiva) e
+ * como revisão dos assuntos (lembrar os cartões de um assunto é relembrar o assunto).
+ */
+export function concluirCartoes(anterior: Progresso, respostas: RespostaCartao[], dia = hoje()): { p: Progresso; ev: EventosCartoes } {
+  const p: Progresso = structuredCloneSeguro(anterior);
+  const porAssunto = new Map<string, { lembrados: number; total: number }>();
+  let xp = 0;
+  for (const { cartao, nota } of respostas) {
+    p.cartoes[cartao.id] = agendarCartao(p.cartoes[cartao.id], nota, dia);
+    xp += XP_CARTAO[nota];
+    const a = porAssunto.get(cartao.topicoId) ?? { lembrados: 0, total: 0 };
+    a.total++;
+    if (nota > 0) a.lembrados++;
+    porAssunto.set(cartao.topicoId, a);
+  }
+  for (const [t, a] of porAssunto) {
+    const r = p.assuntos[t];
+    p.assuntos[t] = { ...agendarAssunto(r, a.lembrados, a.total, dia, pesoAssunto(p, t)), nivel: r?.nivel ?? 0, ...(r?.modelos ? { modelos: r.modelos } : {}) };
+  }
+  p.topicosDia[dia] = [...new Set([...(p.topicosDia[dia] ?? []), ...porAssunto.keys()])];
+  const metaAntes = (p.xpPorDia[dia] ?? 0) >= p.metaDiaria;
+  p.xpTotal += xp;
+  p.xpPorDia = { ...p.xpPorDia, [dia]: (p.xpPorDia[dia] ?? 0) + xp };
+  const metaBatidaAgora = !metaAntes && p.xpPorDia[dia] >= p.metaDiaria;
+  const moedas = respostas.length ? 3 + (metaBatidaAgora ? 10 : 0) : 0;
+  p.moedas += moedas;
+  let ofensivaAumentou = false;
+  if (respostas.length && p.ofensiva.ultimoDia !== dia) {
+    const continua = p.ofensiva.ultimoDia === somarDias(dia, -1);
+    const atual = continua ? p.ofensiva.atual + 1 : 1;
+    p.ofensiva = { atual, recorde: Math.max(p.ofensiva.recorde, atual), ultimoDia: dia };
+    ofensivaAumentou = true;
+  }
+  const lembrados = respostas.filter((r) => r.nota > 0).length;
+  return { p, ev: { xp, moedas, lembrados, total: respostas.length, ofensivaAumentou, metaBatidaAgora } };
+}
+
+// ---------- Pomodoro ----------
+
+/** Registra um ciclo de foco concluído (conta como estudo para a estatística, sem XP). */
+export function registrarPomodoro(anterior: Progresso, dia = hoje()): Progresso {
+  return { ...anterior, pomodoros: manterUltimosDias({ ...anterior.pomodoros, [dia]: (anterior.pomodoros[dia] ?? 0) + 1 }, dia) };
 }
 
 export function xpDaResposta(q: Questao, combo: number, _modo?: Modo) {

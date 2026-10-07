@@ -105,7 +105,7 @@ export default function Licao() {
         <Text style={s.fimTitulo}>{modo === 'revisao' ? 'Nada para revisar hoje!' : 'Sem questões aqui'}</Text>
         <Text style={s.fimSub}>
           {modo === 'revisao'
-            ? 'Quando você erra uma questão, o assunto dela volta aqui no dia seguinte, com questões diferentes. Volte amanhã!'
+            ? 'Os assuntos que você estuda voltam aqui depois de alguns dias, com poucas questões novas, só para relembrar. Nada venceu hoje.'
             : modo === 'fracos'
               ? 'Você ainda não tem pontos fracos. Continue estudando que o app vai acompanhando o seu desempenho.'
               : 'Não encontramos questões para esta seleção.'}
@@ -312,7 +312,7 @@ function Resultado({ fim }: { fim: { ev: EventosLicao; xp: number } }) {
         <Text style={s.fimSub}>
           {pct >= 70 ? 'Você está mandando muito bem. ' : 'Errar faz parte. '}
           {ev.assuntosErrados.length
-            ? `${ev.assuntosErrados.length === 1 ? 'O assunto que você errou volta' : `Os ${ev.assuntosErrados.length} assuntos que você errou voltam`} na revisão de amanhã, com questões diferentes, para você treinar o conteúdo e não decorar a resposta.`
+            ? `${ev.assuntosErrados.length === 1 ? 'O assunto que você errou volta' : `Os ${ev.assuntosErrados.length} assuntos que você errou voltam`} na revisão daqui a 2 ou 3 dias, com questões diferentes, para você treinar o conteúdo e não decorar a resposta.`
             : 'Os assuntos desta lição voltam para revisão daqui a alguns dias, cada vez mais espaçados.'}
         </Text>
         <View style={s.caixas}>

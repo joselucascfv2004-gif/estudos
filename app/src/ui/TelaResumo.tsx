@@ -1,9 +1,10 @@
 import { router, useLocalSearchParams } from 'expo-router';
 import { useRef, useState } from 'react';
-import { ScrollView, View } from 'react-native';
+import { ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { getTopico } from '../data/banco';
+import { cartoesDoTopico } from '../estado/cartoes';
 import { useProgresso } from '../estado/ProgressoContext';
 import { nivelSugerido } from '../estado/progresso';
 import { Botao, Cabecalho, Chip } from './componentes';
@@ -23,6 +24,7 @@ export default function TelaResumo() {
   const [verAula, setVerAula] = useState(temAula && aba !== 'resumo');
   const rolagem = useRef<ScrollView>(null);
   if (!info) return null;
+  const cartoes = cartoesDoTopico(info.topico.id).length;
   const texto = verAula ? info.topico.aula! : info.topico.resumo ?? '';
 
   return (
@@ -31,7 +33,7 @@ export default function TelaResumo() {
       <ScrollView ref={rolagem} contentContainerStyle={{ padding: 18, paddingBottom: 30 }}>
         <ComIcone icone={info.disciplina.icone} cor={info.disciplina.cor} tamanho={18} estiloTexto={s.disciplina}>
           {info.disciplina.nome}
-          {verAula ? ' · aula completa' : ' · resumo em 2 minutos'}
+          {verAula ? ' · aula completa' : ' · resumo para revisar'}
         </ComIcone>
         {temAula && !!info.topico.resumo && (
           <View style={s.abas}>
@@ -52,6 +54,7 @@ export default function TelaResumo() {
           <Botao
             titulo="Ver o resumo para revisar"
             contorno
+            pequeno
             cor={info.disciplina.cor}
             estilo={{ marginTop: 20 }}
             onPress={() => {
@@ -60,15 +63,38 @@ export default function TelaResumo() {
             }}
           />
         )}
+        <Text style={s.agora}>Agora aplique o que aprendeu:</Text>
         <Botao
           testID="btn-resumo-praticar"
-          titulo="Praticar este assunto"
+          icone="format-list-checks"
+          titulo="Praticar com questões"
           cor={info.disciplina.cor}
-          estilo={{ marginTop: 12 }}
           onPress={() =>
             router.replace({ pathname: '/licao', params: { modo: 'topico', topico: info.topico.id, nivel: String(nivelSugerido(p, info.topico.id)) } })
           }
         />
+        {cartoes > 0 && (
+          <Botao
+            testID="btn-resumo-flashcards"
+            icone="cards-outline"
+            titulo={`Flashcards (${cartoes})`}
+            contorno
+            cor={info.disciplina.cor}
+            estilo={{ marginTop: 10 }}
+            onPress={() => router.replace({ pathname: '/flashcards', params: { modo: 'topico', topico: info.topico.id } })}
+          />
+        )}
+        {cartoes > 0 && (
+          <Botao
+            testID="btn-resumo-feynman"
+            icone="account-voice"
+            titulo="Explicar com minhas palavras"
+            contorno
+            cor={info.disciplina.cor}
+            estilo={{ marginTop: 10 }}
+            onPress={() => router.replace({ pathname: '/feynman', params: { topico: info.topico.id } })}
+          />
+        )}
       </ScrollView>
     </SafeAreaView>
   );
@@ -78,5 +104,6 @@ const useEstilos = criarEstilos((c) => ({
   disciplina: { fontSize: 13, fontWeight: '800', color: c.textoSuave, marginBottom: 10 },
   abas: { flexDirection: 'row', flexWrap: 'wrap', rowGap: 8, marginBottom: 8 },
   videos: { gap: 10, marginTop: 4, marginBottom: 18 },
+  agora: { fontSize: 15, fontWeight: '800', color: c.texto, marginTop: 24, marginBottom: 10 },
   videosTitulo: { fontSize: 15, fontWeight: '800', color: c.texto },
 }));
