@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O laboratório de prática fiscal coloca a teoria tributária na rotina real de um escritório: conferir notas fiscais eletrônicas, escriturar os livros fiscais, apurar o ICMS e o IPI, calcular a substituição tributária e o DIFAL, emitir guias de recolhimento, entregar as obrigações acessórias (EFD, DCTFWeb, EFD-Reinf) e fazer compensações. É a disciplina que mais se aproxima do primeiro emprego de muitos estudantes.
+
 ### A rotina fiscal de um escritório
 
 O setor fiscal tem uma rotina mensal:
@@ -90,3 +94,31 @@ Tudo isso é cruzado pelo fisco por meio do **SPED**. Erro em uma ponta aparece 
 - Receitas da ECD diferentes das da EFD-Contribuições e da ECF.
 - Créditos de ICMS sobre notas canceladas ou com alíquota errada.
 - Retenções informadas pelo tomador e não declaradas pelo prestador, e o contrário.
+
+### Erros mais comuns
+
+- Tomar crédito de ICMS de nota cancelada, não autorizada ou com destaque maior que o devido.
+- Esquecer de estornar o crédito de mercadorias perdidas, furtadas ou deterioradas.
+- Apropriar todo o crédito de ICMS do imobilizado de uma vez (é em **1/48 por mês**, no CIAP).
+- Achar que pagar o tributo dispensa a entrega da obrigação acessória (a multa por atraso é autônoma).
+- Recolher o ISS sempre no município do tomador (em regra, é no local do **prestador**, com exceções na lei).
+
+### Teste-se
+
+1. Qual a diferença entre o XML da NF-e e o DANFE?
+2. Débitos de ICMS de R$ 25.000, créditos de R$ 18.000 e saldo credor anterior de R$ 2.000. Quanto se recolhe?
+3. Em quantos meses se apropria o crédito de ICMS de uma máquina do ativo imobilizado?
+4. Que guia se usa para recolher o ICMS devido a outro estado, como a ST e o DIFAL?
+5. Qual obrigação acessória substituiu a DIPJ?
+
+> **Respostas.** 1) O **XML** assinado e autorizado **é** o documento fiscal; o **DANFE** é só a representação impressa. 2) 25.000 − 18.000 − 2.000 = **R$ 5.000**. 3) Em **48 meses** (1/48 por mês). 4) A **GNRE**. 5) A **ECF**.
+
+### Para lembrar
+
+- Documentos: NF-e (55), NFC-e (65), NFS-e, CT-e; XML é o documento, DANFE é a representação; guarde os XML.
+- Fatura e duplicata (escritural, Lei 13.775/2018).
+- Livros e EFD ICMS/IPI; CIAP (1/48).
+- ICMS: débitos − créditos − saldo credor; alíquotas interestaduais; DIFAL; ST com MVA; estornos.
+- Guias: DARF, DAS, GNRE, DAE, ISS municipal.
+- Acessórias: ECF, EFD-Contribuições, ECD, eSocial, EFD-Reinf, DCTFWeb; retenções (CSRF, INSS, IR, ISS).
+- PER/DCOMP: restituição e compensação, créditos atualizados pela Selic, homologação em 5 anos.

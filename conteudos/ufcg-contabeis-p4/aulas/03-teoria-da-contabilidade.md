@@ -91,3 +91,31 @@ A **Resolução CFC 750/1993** trazia os princípios da entidade, continuidade, 
 - **Normativa:** diz como a contabilidade deveria ser.
 - **Positiva** (Watts e Zimmerman): explica e prevê as escolhas contábeis, com base em contratos, dívidas e custos políticos.
 - **Ball e Brown (1968):** mostraram que os preços das ações reagem ao lucro, o que comprova a utilidade da contabilidade.
+
+### Erros mais comuns
+
+- Achar que prudência significa subavaliar ativos de propósito (a neutralidade exige representação fidedigna; a prudência é só cautela diante de incertezas).
+- Reconhecer como ativo uma marca gerada internamente.
+- Confundir receita (atividade principal) com ganho (evento periférico), ou despesa com perda.
+- Aplicar uma mudança de **estimativa** de forma retrospectiva (ela é **prospectiva**; a mudança de **política** é que é retrospectiva).
+- Confundir a teoria do proprietário (A − P = PL) com a da entidade (A = P + PL).
+
+### Teste-se
+
+1. Quais são as características qualitativas fundamentais da informação contábil?
+2. Um contrato de 4 anos foi recebido antecipadamente por R$ 400.000. Quanto é receita após o primeiro ano?
+3. Pela teoria da entidade, os juros e os dividendos são tratados como?
+4. Uma mudança na vida útil estimada de máquinas afeta os exercícios anteriores?
+5. O que mostrou a pesquisa de Ball e Brown (1968)?
+
+> **Respostas.** 1) **Relevância** e **representação fidedigna**. 2) **R$ 100.000** (o restante é passivo de contrato). 3) Ambos como **distribuições** da riqueza a quem financia a entidade (credores e acionistas). 4) **Não**: mudança de estimativa é **prospectiva**. 5) Que os **preços das ações reagem ao lucro** divulgado, comprovando a utilidade da informação contábil.
+
+### Para lembrar
+
+- Objetivo: informação útil a investidores e credores.
+- Qualitativas fundamentais: relevância (preditiva, confirmatória, materialidade) e representação fidedigna (completa, neutra, sem erro); de melhoria: comparabilidade, verificabilidade, tempestividade, compreensibilidade.
+- Elementos: ativo, passivo, PL, receitas, despesas; receita × ganho; despesa × perda; CPC 47 (cinco passos).
+- Mensuração: custo histórico e valor atual (valor justo, valor em uso, custo corrente).
+- Teorias do PL: proprietário, entidade, fundos.
+- Manutenção do capital financeiro × físico; CPC 23 (política retrospectiva, estimativa prospectiva); CPC 42 (hiperinflação).
+- Pesquisa normativa × positiva (Watts e Zimmerman).

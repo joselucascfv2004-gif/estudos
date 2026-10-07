@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Nenhum gasto público pode ser feito sem estar previsto no orçamento. O contador que trabalha no setor público (prefeituras, câmaras, autarquias, tribunais de contas) precisa dominar o ciclo orçamentário, os princípios, a classificação das receitas e despesas, os estágios da execução, os restos a pagar, os créditos adicionais e as exigências da Lei de Responsabilidade Fiscal. É também um dos temas mais cobrados em concursos da área pública.
+
 ### O orçamento na Constituição e nas leis
 
 - **Leis orçamentárias (CF, art. 165):** PPA, LDO e LOA, todas de iniciativa do Executivo.
@@ -113,3 +117,31 @@
 - **Orçamento-programa:** liga gastos a objetivos e metas.
 - **Base zero:** toda despesa é justificada do zero.
 - **Participativo:** a população prioriza investimentos (Porto Alegre, 1989), sem substituir o Legislativo.
+
+### Erros mais comuns
+
+- Fazer despesa sem prévio **empenho** ou pagar antes da **liquidação**.
+- Confundir restos a pagar processados (já liquidados) com não processados.
+- Confundir créditos suplementares (reforçam dotação existente), especiais (criam dotação nova) e extraordinários (urgência imprevisível).
+- Achar que créditos extraordinários precisam indicar fonte de recursos (não precisam).
+- Achar que a LOA pode tratar de qualquer assunto (pelo princípio da **exclusividade**, só de receitas e despesas, com as exceções da Constituição).
+
+### Teste-se
+
+1. Quais são as três leis orçamentárias e quem tem a iniciativa delas?
+2. Quais os três estágios da despesa?
+3. O que é superávit financeiro, como fonte de créditos adicionais?
+4. Que crédito adicional se abre para uma calamidade pública?
+5. Quando o ente deve fazer limitação de empenho?
+
+> **Respostas.** 1) **PPA, LDO e LOA**, de iniciativa do **Poder Executivo**. 2) **Empenho**, **liquidação** e **pagamento**. 3) A diferença positiva entre o **ativo financeiro** e o **passivo financeiro** do balanço patrimonial do exercício anterior (descontados os créditos reabertos e as operações de crédito vinculadas). 4) O **extraordinário**. 5) Quando, ao fim de um bimestre, a receita indicar que as **metas fiscais** podem não ser cumpridas.
+
+### Para lembrar
+
+- CF (art. 165): PPA, LDO, LOA; Lei 4.320/1964; LRF; participação popular.
+- Princípios: unidade, universalidade, anualidade, exclusividade, orçamento bruto, não vinculação, equilíbrio.
+- Receita: correntes e de capital; previsão, lançamento, arrecadação, recolhimento.
+- Despesa: empenho (ordinário, estimativo, global), liquidação, pagamento; restos a pagar processados e não processados.
+- Classificações: institucional, funcional, programática, natureza.
+- Créditos adicionais: suplementares e especiais (lei + decreto + recursos), extraordinários (urgência).
+- LRF: anexos de metas e riscos, reserva de contingência, limitação de empenho, RREO, RGF, fim de mandato.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A microeconomia estuda como consumidores e empresas tomam decisões e como os mercados formam os preços. Para o contador, ela explica a formação de preços, os custos de produção, as economias de escala, o lucro econômico (que considera o custo de oportunidade), o efeito dos impostos sobre os preços e as falhas de mercado que justificam a regulação. Esta aula cobre oferta e demanda, teoria do consumidor, elasticidades, produção, custos, estruturas de mercado e falhas de mercado.
+
 ### Oferta, demanda e equilíbrio
 
 - **Demanda:** relação inversa entre preço e quantidade (lei da demanda).
@@ -103,3 +107,30 @@
 - **Seleção adversa:** acontece antes do contrato (o "mercado de limões" de Akerlof).
 - **Risco moral:** acontece depois do contrato.
 - **Soluções:** sinalização (diplomas, garantias), triagem (exames, questionários), franquias, cosseguro e contratos de incentivo (relação principal-agente).
+
+### Erros mais comuns
+
+- Confundir movimento **ao longo** da curva de demanda (mudança no preço do próprio bem) com **deslocamento** da curva (mudança de renda, gostos, preço de outros bens).
+- Achar que aumentar o preço sempre aumenta a receita (só quando a demanda é **inelástica**).
+- Confundir lucro contábil com lucro econômico (este desconta o custo de oportunidade).
+- Achar que a empresa fecha sempre que tem prejuízo (no curto prazo, só fecha se o preço não cobrir o **custo variável médio**).
+- Confundir seleção adversa (antes do contrato) com risco moral (depois do contrato).
+
+### Teste-se
+
+1. Com Qd = 120 − 3P e Qs = 20 + 2P, qual o equilíbrio?
+2. O preço sobe 5% e a quantidade demandada cai 2%. A demanda é elástica ou inelástica?
+3. Um bem tem elasticidade-renda de −0,5. Que tipo de bem é?
+4. O que acontece com a produção numa externalidade negativa sem correção?
+5. Qual a condição de maximização do lucro de qualquer empresa?
+
+> **Respostas.** 1) 120 − 3P = 20 + 2P → **P = 20**, **Q = 60**. 2) |E| = 0,4: **inelástica**. 3) **Inferior**. 4) A produção fica **acima** do nível socialmente ótimo. 5) **Receita marginal = custo marginal**.
+
+### Para lembrar
+
+- Demanda (inversa ao preço), oferta (direta), equilíbrio; preço máximo → escassez; mínimo → excedente.
+- Consumidor: utilidade marginal decrescente; ótimo quando TMS = Px/Py; efeitos substituição e renda; bem de Giffen.
+- Elasticidades: preço, renda (normal, luxo, inferior), cruzada (substitutos, complementares); imposto recai sobre o lado menos elástico.
+- Produção: rendimentos marginais decrescentes. Custos: CT = CF + CV; CMg corta o CMe no mínimo; economias de escala; lucro econômico.
+- Mercados: concorrência perfeita (P = CMg), monopólio (RMg = CMg), monopólio natural regulado.
+- Falhas: externalidades, bens públicos (carona), comuns (tragédia), informação assimétrica (seleção adversa, risco moral).

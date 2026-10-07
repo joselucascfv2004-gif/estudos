@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Empresas compram participações em outras, formam grupos, fazem fusões e incorporações. A contabilidade societária ensina a registrar esses investimentos (equivalência patrimonial, mais-valia e goodwill), a eliminar lucros entre empresas do grupo, a contabilizar combinações de negócios e a elaborar demonstrações consolidadas. São temas de grande peso no Exame de Suficiência e na prática de grupos econômicos.
+
 ### Tipos de investimento societário
 
 - **Coligada:** há **influência significativa**, presumida com 20% ou mais do capital votante, sem controle. É avaliada pela **equivalência patrimonial** (CPC 18).
@@ -87,3 +91,31 @@ Lucro em vendas dentro do grupo que ainda está no estoque (ou no imobilizado) d
 
 - **CPC 05:** divulgar as relações com controladoras, controladas, coligadas e pessoal-chave (com familiares), as transações, os saldos, as garantias e a **remuneração do pessoal-chave**, por categoria.
 - **Demonstrações individuais × separadas:** no Brasil, as individuais da controladora usam a equivalência. As **separadas** (CPC 35) são adicionais e permitem custo, valor justo ou equivalência.
+
+### Erros mais comuns
+
+- Reconhecer os dividendos de uma coligada como receita (pela equivalência, eles **reduzem o investimento**).
+- Amortizar o goodwill (ele não é amortizado; passa por teste de impairment anual, sem reversão).
+- Esquecer de eliminar os lucros não realizados em vendas entre investidora e investida.
+- Lançar os custos de uma aquisição no valor do investimento (em combinações de negócios, vão para **despesa**).
+- Confundir incorporação (uma absorve a outra) com fusão (as duas se extinguem e nasce uma nova).
+
+### Teste-se
+
+1. A partir de que percentual do capital votante se presume influência significativa?
+2. Uma investidora tem 25% de uma coligada que lucrou R$ 400.000 e declarou R$ 100.000 de dividendos. Quanto o investimento aumenta no ano?
+3. Pagou R$ 300.000 por 30% de uma empresa com PL contábil de R$ 800.000 e ativos líquidos a valor justo de R$ 900.000. Quais a mais-valia e o goodwill?
+4. Na consolidação, que percentual dos lucros não realizados entre empresas do grupo se elimina?
+5. O que é o direito de recesso?
+
+> **Respostas.** 1) **20%**. 2) Equivalência de 100.000, menos dividendos de 25.000: aumento líquido de **R$ 75.000**. 3) Valor patrimonial 240.000; mais-valia 30% × 100.000 = **30.000**; goodwill 300.000 − 270.000 = **R$ 30.000**. 4) **100%**. 5) O direito do acionista **dissidente** de **se retirar** da companhia, recebendo o valor das suas ações, em certas reorganizações.
+
+### Para lembrar
+
+- Coligada (influência significativa, ≥ 20%), controlada (controle), negócio em conjunto (CPC 19), demais a valor justo.
+- MEP: lucro aumenta o investimento; dividendos o reduzem; ORA reflexo.
+- Preço pago = valor patrimonial + mais-valia + goodwill (sem amortização, impairment anual).
+- Lucros não realizados: coligada (parte da investidora), consolidação (100%).
+- CPC 15: método de aquisição; custos para despesa; participação de não controladores.
+- Incorporação, fusão, cisão; protocolo, laudos, assembleia, recesso.
+- CPC 36 (consolidação), CPC 05 (partes relacionadas); demonstrações individuais × separadas.

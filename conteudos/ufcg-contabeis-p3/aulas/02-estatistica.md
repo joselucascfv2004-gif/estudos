@@ -92,3 +92,33 @@ O coeficiente r vai de −1 a +1. Valores próximos de ±1 indicam forte relaç�
 - **Dispersão:** =DESVPAD.A (amostra), =DESVPAD.P (população), =VAR.A, =VAR.P.
 - **Distribuições:** =DISTR.BINOM(k; n; p; FALSO), =DIST.NORM.N(x; média; dp; VERDADEIRO), =INV.NORM.N(prob; média; dp).
 - **Correlação:** =CORREL(A1:A20; B1:B20).
+
+### Erros mais comuns
+
+- Usar a média quando há valores extremos (a mediana é mais representativa).
+- Dividir por n na variância **amostral** (o correto é n − 1).
+- Somar probabilidades de eventos que podem ocorrer juntos sem subtrair a interseção.
+- Confundir P(A | B) com P(B | A).
+- Interpretar o intervalo de 95% como "95% de chance de o parâmetro estar neste intervalo específico".
+- Confundir correlação com causalidade.
+
+### Teste-se
+
+1. Calcule a média, a mediana e a moda de 3, 5, 5, 7, 10.
+2. Duas carteiras têm desvios padrão de 10 e 20 e médias de 50 e 200. Qual é relativamente mais dispersa?
+3. Num lote, P(defeito) = 0,05. Qual a probabilidade de 2 peças independentes serem perfeitas?
+4. Qual a margem de erro de 95% para uma média com σ = 20 e n = 100?
+5. Quantas observações são necessárias para estimar uma média com erro de 2, σ = 10 e 95% de confiança?
+
+> **Respostas.** 1) Média **6**, mediana **5**, moda **5**. 2) CV da primeira = 10/50 = 0,20; da segunda = 20/200 = 0,10: a **primeira** é relativamente mais dispersa. 3) 0,95 × 0,95 = **0,9025** (90,25%). 4) 1,96 × 20/√100 = **3,92**. 5) n = (1,96 × 10 / 2)² = 96,04 → **97**.
+
+### Para lembrar
+
+- População × amostra; parâmetro × estatística; variáveis qualitativas e quantitativas.
+- Posição: média (sensível a extremos), mediana (robusta), moda, quartis.
+- Dispersão: amplitude, variância (÷ N ou ÷ n − 1), desvio padrão, coeficiente de variação.
+- Probabilidade: adição, condicional, independência, Bayes.
+- Distribuições: binomial, Poisson, normal (z = (x − μ)/σ).
+- Amostragem: aleatória simples, sistemática, estratificada, conglomerados.
+- IC: x̄ ± z·σ/√n (1,96 para 95%); t de Student com σ desconhecido; n = (z·σ/E)².
+- Correlação não é causalidade.

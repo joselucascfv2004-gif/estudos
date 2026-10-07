@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Conhecer a história da contabilidade ajuda a entender por que ela é como é hoje: por que usamos partidas dobradas, de onde vêm as diferentes visões sobre o objeto da contabilidade (as contas, o controle, o patrimônio, a informação para decisão), como a escola norte-americana influenciou o ensino no Brasil e como chegamos às IFRS e ao contador consultivo do futuro. É um tema cobrado em Teoria da Contabilidade e no Exame de Suficiência.
+
 ### Das fichas de barro aos livros de contas
 
 A contabilidade nasceu da necessidade de **controlar o patrimônio**. Há milhares de anos, na Mesopotâmia, fichas de barro representavam cabeças de gado e medidas de grãos. Egípcios, gregos e romanos faziam inventários e registravam entradas e saídas (em Roma, por exemplo, no *codex accepti et expensi*). Ainda não havia partidas dobradas, mas já existia o controle sistemático.
@@ -53,3 +57,28 @@ A contabilidade nasceu da necessidade de **controlar o patrimônio**. Há milhar
 - **Sustentabilidade:** ISSB (2021), IFRS S1 e S2 (2023) e, no Brasil, CVM e CBPS.
 - **Regulação profissional:** NBC do CFC, educação continuada (NBC PG 12) e ética.
 - **Competências valorizadas:** interpretar, comunicar, avaliar riscos, ter ceticismo profissional e aprender sempre.
+
+### Erros mais comuns
+
+- Dizer que Luca Pacioli "inventou" as partidas dobradas (ele as **sistematizou e divulgou** na *Summa*, de 1494; o método já era usado pelos comerciantes italianos).
+- Confundir as escolas: a **patrimonialista** tem o patrimônio como objeto; a **controlista**, o controle; a **personalista**, as contas como pessoas.
+- Achar que a escola norte-americana priorizava a teoria abstrata (seu foco era a **informação útil aos usuários**, sobretudo investidores).
+- Trocar as datas: CFC (1946), Lei das S/A (1976), CPC (2005), Lei 11.638 (2007).
+
+### Teste-se
+
+1. Quem publicou a *Summa de Arithmetica* e em que ano?
+2. Qual o objeto da contabilidade para a escola patrimonialista?
+3. Qual decreto-lei criou o CFC e os CRCs?
+4. Em que ano foi criado o CPC?
+5. Qual lei instituiu o Exame de Suficiência?
+
+> **Respostas.** 1) **Luca Pacioli**, em **1494**. 2) O **patrimônio**. 3) O **Decreto-Lei 9.295/1946**. 4) Em **2005**. 5) A **Lei 12.249/2010**.
+
+### Para lembrar
+
+- Registros antigos (fichas de barro) → comércio italiano → Pacioli (1494) e as partidas dobradas.
+- Escolas italianas: contista, personalista, controlista, aziendalista, patrimonialista (Masi; no Brasil, Antônio Lopes de Sá).
+- Escola norte-americana: informação útil para o usuário, pesquisa empírica, normas (FASB).
+- Brasil: Aula de Comércio (1809), Código Comercial (1850), curso superior (1945), CFC (1946), Lei 6.404 (1976), CPC (2005), Leis 11.638 e 11.941, IFRS (2010), Exame de Suficiência (2010), SPED.
+- Futuro: automação, IA, dados, sustentabilidade (IFRS S1 e S2), papel consultivo.

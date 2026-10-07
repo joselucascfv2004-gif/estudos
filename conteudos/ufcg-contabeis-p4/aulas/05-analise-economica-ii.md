@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A macroeconomia estuda a economia como um todo: produção (PIB), renda, consumo, investimento, moeda, juros, inflação, câmbio e desemprego. O contador precisa entender esses conceitos para interpretar o cenário em que as empresas operam, fazer projeções e orçamentos e avaliar os efeitos das políticas fiscal e monetária sobre custos, vendas e financiamentos. Esta aula cobre contabilidade social, o modelo keynesiano, moeda, IS-LM, economia aberta, oferta e demanda agregadas e a política econômica na prática.
+
 ### Contabilidade social
 
 - **PIB** = valor dos bens e serviços **finais** produzidos no país no período. Bens intermediários não entram (evita dupla contagem), nem bens usados ou transferências.
@@ -79,3 +83,31 @@ Com perfeita mobilidade de capitais:
 - **Juros altos** encarecem o crédito, reduzem a demanda, valorizam a moeda e ancoram as expectativas.
 - **Inflação de demanda** se combate com juros. A **inflação de custos** exige cuidado, porque juros altos podem aprofundar a recessão.
 - Na recessão com juros perto de zero, a política fiscal ganha importância.
+
+### Erros mais comuns
+
+- Somar bens intermediários no PIB (contam só os bens **finais**).
+- Confundir PIB nominal (preços correntes) com real (preços constantes).
+- Achar que política fiscal expansionista não afeta os juros (no IS-LM, ela os eleva: **crowding out**).
+- Achar que, com câmbio flutuante e mobilidade de capital, a política fiscal é eficaz (no Mundell-Fleming, é a **monetária** que é eficaz).
+- Achar que a curva de Phillips vale no longo prazo (no longo prazo, ela é vertical).
+
+### Teste-se
+
+1. Com C = 200 + 0,75Y, I = 300 e G = 200, qual a renda de equilíbrio?
+2. Qual o multiplicador dos gastos com propensão marginal a consumir de 0,9?
+3. Pela teoria quantitativa da moeda, o que acontece com os preços se a moeda dobrar e V e Y ficarem constantes?
+4. Qual o efeito de uma política monetária expansionista no IS-LM?
+5. O que é estagflação?
+
+> **Respostas.** 1) Y = (200 + 300 + 200) ÷ (1 − 0,75) = 700 ÷ 0,25 = **2.800**. 2) 1 ÷ (1 − 0,9) = **10**. 3) Os preços **dobram**. 4) A LM se desloca para a direita: a **renda sobe** e os **juros caem**. 5) **Inflação com recessão** (produto caindo e preços subindo), típica de choques de oferta negativos.
+
+### Para lembrar
+
+- PIB: bens finais; C + I + G + (X − M); nominal × real; deflator.
+- Keynes: C = a + c(Y − T); multiplicador = 1 ÷ (1 − c); paradoxo da poupança.
+- Investimento: eficiência marginal do capital, expectativas, acelerador.
+- Moeda: funções; demanda (transação, precaução, especulação); MV = PY.
+- IS-LM: fiscal → IS à direita (Y e i sobem); monetária → LM à direita (Y sobe, i cai).
+- Mundell-Fleming: flutuante (monetária eficaz), fixo (fiscal eficaz); curva J.
+- DA-OA: longo prazo vertical; choque de oferta → estagflação; Phillips de curto prazo.

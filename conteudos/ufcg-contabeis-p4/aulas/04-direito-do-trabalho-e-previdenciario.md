@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O departamento pessoal é uma das áreas mais importantes de um escritório de contabilidade: admissões, folha de pagamento, férias, 13º, rescisões, FGTS, INSS, eSocial. Para fazer tudo isso corretamente, o contador precisa conhecer o Direito do Trabalho (CLT e Constituição) e o Direito Previdenciário (seguridade, segurados, contribuições e benefícios, com as regras da Reforma de 2019). Erros aqui geram passivos trabalhistas e multas.
+
 ### Direitos sociais na Constituição
 
 O **art. 6º** lista os direitos sociais: educação, saúde, alimentação, trabalho, moradia, transporte, lazer, segurança, previdência, proteção à maternidade e à infância e assistência aos desamparados.
@@ -122,3 +126,32 @@ O empregador assume os riscos do negócio (**alteridade**). Vale a **primazia da
 - **Servidores:** previdência complementar obrigatória nos entes com RPPS.
 
 > **Exemplo resolvido.** Homem com 25 anos de contribuição: 60% + 5 × 2% = **70%** da média.
+
+### Erros mais comuns
+
+- Achar que todo prestador de serviço é empregado (é preciso pessoalidade, não eventualidade, onerosidade e **subordinação**).
+- Confundir interrupção (recebe e conta tempo) com suspensão (não recebe nem conta tempo).
+- Dar seguro-desemprego ou saque do FGTS a quem pediu demissão.
+- Calcular o aviso prévio sempre como 30 dias (são **30 + 3 por ano**, até 90).
+- Achar que a contribuição sindical ainda é obrigatória (é facultativa desde 2017).
+- Achar que ainda existe aposentadoria só por tempo de contribuição no RGPS (a reforma de 2019 exigiu idade mínima).
+
+### Teste-se
+
+1. Quais os requisitos da relação de emprego?
+2. Qual o percentual do FGTS depositado mensalmente para um empregado comum?
+3. Quantos dias de aviso prévio tem um empregado com 10 anos de casa?
+4. No acordo do art. 484-A, quanto da multa do FGTS é paga e quanto do saldo pode ser sacado?
+5. Pela EC 103/2019, qual o benefício de uma mulher com 20 anos de contribuição?
+
+> **Respostas.** 1) **Pessoa física**, **pessoalidade**, **não eventualidade**, **onerosidade** e **subordinação**. 2) **8%**. 3) 30 + 30 = **60 dias**. 4) Multa de **20%** e saque de **80%** do FGTS. 5) **70%** da média: para a mulher, os 2% por ano contam acima de **15 anos** de contribuição (60% + 5 × 2%).
+
+### Para lembrar
+
+- Direitos sociais (art. 7º): adicional noturno, férias + 1/3, aviso proporcional, prescrição de 5 anos (até 2 após o fim).
+- Relação de emprego: PF, pessoalidade, não eventualidade, onerosidade, subordinação.
+- Contratos: prazo indeterminado, experiência (até 90 dias), intermitente, teletrabalho. Interrupção × suspensão. FGTS 8%.
+- Rescisões: sem justa causa, pedido de demissão, justa causa (art. 482), rescisão indireta (art. 483), acordo (art. 484-A).
+- Justiça do Trabalho; unicidade sindical; contribuição facultativa; convenções e acordos coletivos.
+- Seguridade: saúde, previdência (contributiva), assistência (BPC). RGPS, RPPS, complementar.
+- EC 103/2019: idade mínima 65/62; 60% + 2% por ano; alíquotas progressivas.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador apura e paga tributos, cumpre obrigações acessórias, acompanha prazos de decadência e prescrição, emite certidões e orienta clientes diante do fisco. O Direito Tributário dá a base: o que é tributo, as espécies, quem pode cobrar cada um, os limites ao poder de tributar (legalidade, anterioridade, imunidades), a obrigação e o crédito tributário. O Direito Financeiro trata das receitas e despesas públicas e do orçamento. Ambos são muito cobrados no Exame de Suficiência e em concursos fiscais.
+
 ### O que é tributo
 
 Pelo **art. 3º do CTN** (Lei 5.172/1966), tributo é prestação **pecuniária** e **compulsória**, que **não é sanção de ato ilícito**, instituída **em lei** e cobrada por atividade administrativa **plenamente vinculada**. A multa não é tributo, porque é sanção. A tarifa de ônibus ou de energia também não, porque é preço público.
@@ -120,3 +124,32 @@ A administração tributária cuida de:
 
 - **Regra de ouro:** as operações de crédito não podem superar as despesas de capital.
 - **LRF:** a despesa com pessoal tem limite de 50% da RCL na União e 60% nos Estados e Municípios.
+
+### Erros mais comuns
+
+- Achar que taxa e imposto são a mesma coisa (a taxa é **vinculada** a uma atuação estatal específica).
+- Esquecer as exceções à anterioridade (II, IE, IPI, IOF e outras) e à noventena (IR, IOF, II, IE e outras).
+- Confundir imunidade (Constituição) com isenção (lei, exclusão do crédito).
+- Achar que o simples inadimplemento faz o sócio-gerente responder pessoalmente (só em excesso de poderes ou infração de lei, contrato ou estatuto).
+- Trocar decadência (prazo para **lançar**) com prescrição (prazo para **cobrar**).
+- Achar que a denúncia espontânea vale depois de iniciada a fiscalização.
+
+### Teste-se
+
+1. Quais impostos são de competência dos municípios?
+2. Um aumento de ICMS publicado em 10 de novembro pode ser cobrado a partir de quando?
+3. A imunidade dos templos alcança taxas?
+4. Quais são os estágios da despesa pública?
+5. Qual o limite de despesa com pessoal dos municípios pela LRF?
+
+> **Respostas.** 1) **IPTU, ITBI e ISS**. 2) Só depois de **90 dias** da publicação, ou seja, no **início de fevereiro** do ano seguinte: é preciso respeitar a anterioridade anual **e** a noventena, e vale o prazo que terminar por último. 3) **Não**: as imunidades são só de **impostos**. 4) **Empenho**, **liquidação** e **pagamento**. 5) **60% da RCL** (somando Executivo e Legislativo).
+
+### Para lembrar
+
+- Tributo: prestação pecuniária compulsória, instituída por lei, que não é sanção por ato ilícito.
+- Espécies: impostos, taxas, contribuição de melhoria, empréstimos compulsórios, contribuições especiais.
+- Competência: União (II, IE, IR, IPI, IOF, ITR, IGF), estados (ICMS, IPVA, ITCMD), municípios (IPTU, ITBI, ISS); reforma (IBS, CBS, IS).
+- Limitações: legalidade, isonomia, irretroatividade, anterioridade, noventena, não confisco, imunidades.
+- Obrigação principal × acessória; fato gerador; contribuinte × responsável; denúncia espontânea.
+- Lançamento de ofício, por declaração e por homologação; decadência e prescrição de 5 anos.
+- Direito financeiro: receitas, despesas (empenho, liquidação, pagamento), princípios orçamentários, regra de ouro, LRF.

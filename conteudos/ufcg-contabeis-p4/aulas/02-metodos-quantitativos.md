@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Métodos quantitativos dão ao contador ferramentas para testar hipóteses, medir a inflação e corrigir valores, raciocinar logicamente, prever vendas e custos por regressão e analisar séries temporais. São usados em auditoria (amostragem e testes), em orçamentos e previsões, em análise de custos e em pesquisa contábil. Esta aula traz testes de hipóteses, números-índices, lógica, regressão simples e múltipla, séries temporais e as funções de planilha correspondentes.
+
 ### Testes de hipóteses
 
 Um teste de hipóteses decide, com base numa amostra, se há evidência suficiente contra uma afirmação sobre a população.
@@ -84,3 +88,30 @@ Um teste de hipóteses decide, com base numa amostra, se há evidência suficien
 - **Regressão múltipla:** =PROJ.LIN(y; x1:xk; VERDADEIRO; VERDADEIRO).
 - **Teste t:** =TESTE.T(intervalo1; intervalo2; caudas; tipo), em que o tipo 1 é para amostras pareadas.
 - **Normal:** =DIST.NORMP.N(z; VERDADEIRO) dá a área acumulada da normal padrão.
+
+### Erros mais comuns
+
+- Confundir erro tipo I (rejeitar H₀ verdadeira) com tipo II (não rejeitar H₀ falsa).
+- Somar variações percentuais em vez de multiplicar os fatores ao acumular índices.
+- Achar que um R² alto prova causalidade.
+- Extrapolar a reta de regressão muito além dos dados observados.
+- Negar a condicional "se p, então q" como "se p, então não q" (a negação é "p e não q").
+
+### Teste-se
+
+1. Num teste com nível de significância de 5%, o que significa rejeitar H₀?
+2. Inflação de 4% num ano e 6% no seguinte. Qual a inflação acumulada?
+3. Um salário passou de R$ 2.000 para R$ 2.300 num período com inflação de 10%. Qual o ganho real?
+4. Na reta ŷ = 50 + 3x, o que significa o 3?
+5. Qual a negação de "se o caixa fecha, então o relatório é enviado"?
+
+> **Respostas.** 1) Que há evidência para considerar H₀ falsa, aceitando **5% de risco** de errar (erro tipo I). 2) 1,04 × 1,06 = 1,1024 → **10,24%**. 3) 2.300 ÷ 1,10 ≈ 2.090,91; ganho real ≈ **4,5%**. 4) Que y aumenta, em média, **3 unidades** a cada unidade a mais de x. 5) "**O caixa fecha e o relatório não é enviado**."
+
+### Para lembrar
+
+- Testes: H₀ × H₁; erro tipo I (α) e tipo II (β); poder = 1 − β; estatística z ou t.
+- Índices: simples, Laspeyres (cesta da base), Paasche (cesta atual), Fisher; acumular multiplicando; deflacionar dividindo.
+- Lógica: conectivos, tabela-verdade (2ⁿ), De Morgan, condicional e contrapositiva.
+- Regressão: b = Σ(x − x̄)(y − ȳ)/Σ(x − x̄)²; a = ȳ − b·x̄; R² = r²; correlação não é causalidade.
+- Múltipla: efeitos mantidas as demais constantes; multicolinearidade.
+- Séries: tendência, sazonalidade, ciclo, irregular; média móvel; suavização exponencial.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Os tributos estão entre os maiores custos das empresas brasileiras, e o sistema é complexo. A contabilidade tributária apura corretamente os tributos (ICMS, IPI, ISS, PIS, Cofins, IRPJ, CSLL), concilia o lucro contábil com o fiscal e orienta a escolha do regime (Simples Nacional, lucro presumido ou lucro real). O planejamento tributário busca pagar menos de forma **lícita** (elisão), sem cair na evasão. Com a reforma tributária do consumo (IBS, CBS e Imposto Seletivo), o contador terá um papel ainda mais importante nos próximos anos.
+
 ### O papel da contabilidade tributária
 
 - Apurar corretamente os tributos (IRPJ, CSLL, PIS, Cofins, ICMS, IPI, ISS).
@@ -96,3 +100,32 @@
   - **2027:** CBS plena e fim do PIS/Cofins; IS começa; IPI zerado (exceto ZFM).
   - **2029–2032:** redução gradual de ICMS e ISS.
   - **2033:** extinção de ICMS e ISS.
+
+### Erros mais comuns
+
+- Incluir no custo das mercadorias o ICMS recuperável, ou excluir o IPI no comércio (que não o recupera).
+- Incluir o ICMS na base do PIS e da Cofins (o STF excluiu, no Tema 69).
+- Deduzir provisões (como a PECLD) no lucro real (são **adicionadas**; dedutíveis só as perdas efetivas pelos critérios da lei).
+- Confundir elisão (lícita, antes do fato gerador) com evasão (ilícita).
+- Esquecer o fator R ao enquadrar serviços no Simples Nacional.
+
+### Teste-se
+
+1. Uma empresa comercial compra mercadorias por R$ 20.000 com ICMS destacado de R$ 3.600. Qual o custo da mercadoria?
+2. Qual a alíquota somada de PIS e Cofins no regime cumulativo? E no não cumulativo?
+3. O lucro antes do IR é de R$ 300.000, há multa indedutível de R$ 20.000 e receita de equivalência de R$ 50.000. Qual o lucro real (sem outros ajustes)?
+4. Qual o limite de receita bruta anual de uma EPP no Simples Nacional?
+5. O que é o fator R?
+
+> **Respostas.** 1) 20.000 − 3.600 = **R$ 16.400**. 2) **3,65%** (cumulativo) e **9,25%** (não cumulativo). 3) 300.000 + 20.000 − 50.000 = **R$ 270.000**. 4) **R$ 4,8 milhões**. 5) A relação **folha de salários ÷ receita bruta** (12 meses); se for **28% ou mais**, certas atividades do Anexo V passam a ser tributadas pelo **Anexo III**, mais barato.
+
+### Para lembrar
+
+- Contabilidade tributária: apurar, recolher, conciliar (LALUR/LACS no e-Lalur da ECF).
+- Consumo hoje: ICMS (estadual), IPI (federal), ISS (municipal, 2% a 5%); tributos recuperáveis fora do custo.
+- PIS/Cofins: cumulativo 3,65% (presumido) × não cumulativo 9,25% (real, com créditos); ICMS fora da base.
+- IRPJ (15% + 10%) e CSLL (9%); lucro real (adições e exclusões) × presumido (percentuais sobre a receita).
+- JCP: TJLP × PL, com limites; dedutível para a empresa.
+- Simples: ME até R$ 360 mil, EPP até R$ 4,8 milhões; DAS; alíquota efetiva; fator R.
+- Elisão (lícita) × evasão (ilícita); propósito negocial.
+- Reforma: CBS e IBS (IVA dual, não cumulativo, cobrança no destino), Imposto Seletivo, transição até 2033.

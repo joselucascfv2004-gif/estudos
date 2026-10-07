@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Todo estudante de Contábeis precisa produzir trabalhos acadêmicos, e no fim do curso, o TCC. Esta disciplina ensina o que é ciência, os métodos de pesquisa, como classificar uma pesquisa, como garantir sua qualidade e ética, como fazer citações e referências pelas normas da ABNT e como montar um projeto de pesquisa. Esses conhecimentos também ajudam a ler criticamente estudos, relatórios e notícias.
+
 ### Tipos de conhecimento
 
 Lakatos e Marconi distinguem quatro tipos de conhecimento:
@@ -104,3 +108,31 @@ Lakatos e Marconi distinguem quatro tipos de conhecimento:
 8. **Cronograma, orçamento e referências.**
 
 > **Exemplo resolvido.** Problema vago: "A contabilidade é importante?". Problema bom: "Qual a relação entre o uso de informações de custos e a sobrevivência de micro e pequenas indústrias de Sousa (PB) entre 2020 e 2024?".
+
+### Erros mais comuns
+
+- Confundir o método indutivo (do particular ao geral) com o dedutivo (do geral ao particular).
+- Achar que pesquisa qualitativa não tem rigor (ela tem procedimentos próprios, como a análise de conteúdo).
+- Copiar trechos sem aspas e sem fonte (plágio), ou reaproveitar trabalhos próprios sem indicar (autoplágio).
+- Colocar nas referências a obra citada por "apud" que você não leu (só entra a obra consultada).
+- Formular problemas de pesquisa vagos, que não podem ser respondidos com dados.
+
+### Teste-se
+
+1. Quais as características do conhecimento científico?
+2. Para Popper, o que separa ciência de não ciência?
+3. Uma pesquisa analisa as notas explicativas de 50 empresas para descrever como divulgam provisões. Como classificá-la?
+4. Como se faz uma citação direta longa pela ABNT?
+5. Qual a diferença entre apêndice e anexo?
+
+> **Respostas.** 1) **Factual, sistemático, verificável e falível**. 2) A **falseabilidade**. 3) **Descritiva**, **documental** e, conforme a análise, **qualitativa** ou **quantitativa**. 4) Com **recuo de 4 cm**, letra menor e **sem aspas**. 5) O **apêndice** é feito pelo **próprio autor**; o **anexo**, por **outra pessoa**.
+
+### Para lembrar
+
+- Conhecimento popular, científico, filosófico, religioso.
+- Métodos: indutivo, dedutivo, hipotético-dedutivo (Popper), dialético, fenomenológico.
+- Kuhn (paradigmas e revoluções), Lakatos, Feyerabend, Morin.
+- Classificação: natureza (básica, aplicada), objetivos (exploratória, descritiva, explicativa), abordagem (quali, quanti, mista), procedimentos.
+- Qualidade: variáveis, validade, confiabilidade, triangulação; ética (CNS 466/2012 e 510/2016); plágio.
+- ABNT: citações (curta, longa, indireta, apud), referências, estrutura pré-textual, textual e pós-textual.
+- Trabalhos: artigo, TCC, dissertação, tese. Projeto (NBR 15287): problema, objetivos, justificativa, método, cronograma.

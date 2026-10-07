@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Contabilidade Intermediária II completa o estudo das demonstrações contábeis com temas mais técnicos: instrumentos financeiros (CPC 48), empréstimos e debêntures (CPC 08), imposto de renda e contribuição social correntes e diferidos (CPC 32), provisões (CPC 25), a Demonstração dos Fluxos de Caixa (CPC 03) e a Demonstração do Valor Adicionado (CPC 09). São assuntos centrais no Exame de Suficiência e na prática de qualquer empresa de médio e grande porte.
+
 ### Instrumentos financeiros (CPC 48)
 
 Instrumento financeiro é um contrato que gera um ativo financeiro para uma parte e um passivo financeiro (ou instrumento patrimonial) para a outra.
@@ -92,3 +96,32 @@ Surgem porque a contabilidade e o fisco reconhecem algumas receitas e despesas e
 - **Capitais próprios:** juros sobre capital próprio, dividendos, lucros retidos.
 
 > **Exemplo resolvido.** Receitas de 1.000.000, insumos de 400.000, depreciação de 50.000 e equivalência de 30.000. Valor a distribuir: **R$ 580.000**.
+
+### Erros mais comuns
+
+- Classificar um título que a empresa mantém para receber juros e principal como valor justo por meio do resultado (é **custo amortizado**).
+- Lançar os custos de captação de um empréstimo direto como despesa (eles reduzem o passivo e são apropriados pela taxa efetiva).
+- Calcular o adicional de IRPJ sobre todo o lucro (é só sobre o que passa de **R$ 240 mil por ano**).
+- Gerar tributo diferido sobre diferenças **permanentes** (como multas indedutíveis).
+- Somar a depreciação como se fosse entrada de caixa (no método indireto, ela é somada porque **não saiu caixa**, não porque entrou).
+- Colocar dividendos pagos no fluxo de investimento (em regra, vão para financiamento ou operacional, com consistência).
+
+### Teste-se
+
+1. Uma empresa compra ações para negociar no curto prazo. Como as mensura?
+2. Qual o IRPJ de uma empresa com lucro real anual de R$ 500.000?
+3. Uma provisão para garantias indedutível hoje e dedutível no futuro gera ativo ou passivo fiscal diferido?
+4. Em que grupo da DFC entra a compra de uma máquina à vista?
+5. Na DVA, o INSS patronal é distribuído a que grupo?
+
+> **Respostas.** 1) A **valor justo por meio do resultado**. 2) 15% de 500.000 = 75.000 + 10% de (500.000 − 240.000) = 26.000; total **R$ 101.000**. 3) **Ativo** fiscal diferido (diferença temporária dedutível). 4) **Atividades de investimento**. 5) **Impostos, taxas e contribuições**.
+
+### Para lembrar
+
+- CPC 48: custo amortizado, VJORA, VJR; perda esperada em 3 estágios.
+- CPC 08: custos de captação reduzem o passivo; juros pela taxa efetiva; variação cambial no resultado.
+- IRPJ 15% + 10% sobre o excedente de R$ 240 mil/ano; CSLL 9%.
+- CPC 32: diferença temporária dedutível → ativo diferido; tributável → passivo diferido; permanente → nada.
+- CPC 25: provável → provisão; possível → nota; remota → nada.
+- DFC: operacional, investimento, financiamento; métodos direto e indireto; dispensa para fechada com PL < R$ 2 milhões.
+- DVA: riqueza gerada e distribuída a pessoal, governo, terceiros e sócios.

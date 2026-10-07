@@ -84,3 +84,31 @@ A contabilidade de custos nasceu para **avaliar estoques** nas indústrias (cont
 3. Criar as rotinas de coleta (apontamentos, requisições).
 4. Treinar as pessoas.
 5. Implantar de forma gradual e revisar sempre.
+
+### Erros mais comuns
+
+- Incluir no custo os tributos recuperáveis (ICMS, IPI e PIS/Cofins não cumulativos).
+- Tratar despesas de vendas ou administrativas como custo de produção.
+- Confundir perda normal (entra no custo) com perda anormal (vai direto ao resultado).
+- Formar o preço somando os percentuais ao custo (os tributos, comissões e lucro incidem sobre o **preço**; use o mark-up divisor).
+- Esquecer que, no custeio por absorção, parte dos custos fixos fica no estoque quando a produção supera as vendas.
+
+### Teste-se
+
+1. Estoque inicial de MP 5.000, compras 40.000, estoque final 8.000, MOD 20.000 e CIF 15.000. Qual o custo de produção do período?
+2. Qual a diferença entre custeio por absorção e variável?
+3. A taxa predeterminada é de R$ 15 por hora-máquina; foram usadas 4.000 horas e o CIF real foi de R$ 63.000. Houve sub ou superaplicação?
+4. Custo de R$ 72; tributos de 20%, comissão de 5% e lucro de 15%. Qual o preço de venda?
+5. Por que o custeio variável é útil para decisões gerenciais?
+
+> **Respostas.** 1) MP consumida = 37.000; CPP = 37.000 + 20.000 + 15.000 = **R$ 72.000**. 2) Na **absorção**, todos os custos de produção (fixos e variáveis) vão para o produto; no **variável**, só os variáveis, e os fixos vão direto ao resultado. 3) Aplicado 60.000 < real 63.000: **subaplicação** de R$ 3.000. 4) Divisor = 1 − 0,40 = 0,60; preço = 72 ÷ 0,60 = **R$ 120**. 5) Porque mostra a **margem de contribuição** de cada produto, sem a distorção dos rateios de custos fixos.
+
+### Para lembrar
+
+- Gasto, investimento, custo (produção), despesa (receita), perda, desembolso.
+- Diretos × indiretos; fixos × variáveis × semivariáveis; tributos recuperáveis fora do custo.
+- Esquema: MP consumida + MOD + CIF = CPP; CPA; CPV.
+- Rateio, departamentalização, taxa predeterminada (sub/superaplicação).
+- Por ordem × contínua (equivalente de produção); produção conjunta.
+- Absorção (fiscal, fixos no produto), variável (gerencial, margem de contribuição), ABC (atividades e direcionadores).
+- Mark-up divisor = 1 − (% tributos + % comissão + % lucro). Custo-padrão: variações de quantidade e preço.
