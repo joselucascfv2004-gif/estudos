@@ -160,6 +160,10 @@ análise do cliente 20%, prospecção 20% e análise de portfólio 20%.
 
 ## Ciências Contábeis (UFCG)
 
-Na revisão do curso, as disciplinas de contabilidade vêm antes das de apoio.
+Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 
 - ufcg-contabeis-p1/contabilidade-basica: 5
+- ufcg-contabeis-p1/fundamentos-de-administracao: 5
+- ufcg-contabeis-p1/instituicoes-do-direito-publico-e-privado: 5
+- ufcg-contabeis-p1/introducao-a-informatica: 5
+- ufcg-contabeis-p1/matematica-basica: 5

@@ -34,6 +34,7 @@ ementa: Contabilidade: objeto, conceitos, usuários e campo de atuação. Estát
 
 ### 3103028 · Matemática Básica · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p1/matematica-basica
 relacionados: matematica/equacoes-e-sistemas, matematica/funcoes-afim-e-quadratica, matematica/exponencial-e-logaritmo, matematica/fracoes-fatoracao-e-produtos-notaveis
 ementa: Conjuntos Numéricos. Expressões Algébricas. Equações do 1º e 2º grau. Inequações do 1º e 2º grau. Sistemas de equações do 1º grau. Teoria dos Conjuntos. Funções. Limites. Derivadas. Aplicações de derivadas. Integrais. Noções de Modelos Matemáticos.
 - Conjuntos numéricos e operações; expressões algébricas e produtos notáveis
@@ -49,6 +50,7 @@ ementa: Conjuntos Numéricos. Expressões Algébricas. Equações do 1º e 2º g
 
 ### 3103021 · Fundamentos de Administração · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p1/fundamentos-de-administracao
 ementa: Introdução a teoria da administração. Escolas da Administração. Processo administrativo: planejar, organizar, liderar e controlar. As grandes áreas da empresa: produção, finanças, recursos humanos e marketing. Perspectivas futuras da gestão empresarial.
 - Teoria geral da administração: conceito e papel do administrador
 - Escolas: clássica (Taylor, Fayol), relações humanas, burocrática (Weber), sistêmica e contingencial
@@ -59,6 +61,7 @@ ementa: Introdução a teoria da administração. Escolas da Administração. Pr
 
 ### 3103074 · Instituições do Direito Público e Privado · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p1/instituicoes-do-direito-publico-e-privado
 ementa: Estudo da introdução ao direito. Teorias do direito. Direito objetivo e subjetivo. Direito natural e positivo. Fontes do direito. Direito e Estado. Direito Constitucional. Espécies de Constituições. Princípios e garantias constitucionais. Direito Civil: as pessoas, os bens, os atos e fatos jurídicos. As obrigações e as suas modalidades. Os contratos. Direito Administrativo.
 - Introdução ao direito: direito objetivo e subjetivo, natural e positivo
 - Fontes do direito: lei, costume, jurisprudência, doutrina e princípios gerais
@@ -72,6 +75,7 @@ ementa: Estudo da introdução ao direito. Teorias do direito. Direito objetivo 
 
 ### 3103068 · Introdução à Informática · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p1/introducao-a-informatica
 relacionados: informatica/hardware-e-sistemas-operacionais, informatica/internet-redes-e-seguranca, informatica/editores-e-planilhas
 ementa: Introdução à arquitetura de um computador hardware; Software básico e aplicativo; Noções de segurança; Conhecimentos gerais de tecnologia da informação e comunicação; Noções de redes de computadores; A Internet e seus serviços; Fundamentos de educação a distância.
 - Arquitetura do computador: processador, memórias, armazenamento e periféricos

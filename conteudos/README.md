@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**9127 questões** em **192 tópicos**.
+**9327 questões** em **196 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -351,10 +351,14 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Criptoativos na carteira do investidor](c-pro-r/09-criptoativos.md) | Certificações | 17 | 17 | 16 |
 | [Risco, retorno e performance de carteiras](c-pro-r/10-risco-retorno-e-performance.md) | Certificações | 17 | 17 | 16 |
 
-## Contábeis UFCG · 1º período — 50 questões
+## Contábeis UFCG · 1º período — 250 questões
 
 *Ciências Contábeis (UFCG)*
 
 | Tópico | Provas | Fácil | Médio | Difícil |
 |---|---|---:|---:|---:|
 | [Contabilidade Básica](ufcg-contabeis-p1/01-contabilidade-basica.md) | Faculdade | 17 | 17 | 16 |
+| [Matemática Básica](ufcg-contabeis-p1/02-matematica-basica.md) | Faculdade | 17 | 17 | 16 |
+| [Fundamentos de Administração](ufcg-contabeis-p1/03-fundamentos-de-administracao.md) | Faculdade | 17 | 17 | 16 |
+| [Instituições do Direito Público e Privado](ufcg-contabeis-p1/04-instituicoes-do-direito-publico-e-privado.md) | Faculdade | 17 | 17 | 16 |
+| [Introdução à Informática](ufcg-contabeis-p1/05-introducao-a-informatica.md) | Faculdade | 17 | 17 | 16 |
