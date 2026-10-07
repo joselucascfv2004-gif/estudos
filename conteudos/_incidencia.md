@@ -189,3 +189,8 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p5/metodologias-e-tecnicas-de-pesquisa-cientifica: 5
 - ufcg-contabeis-p5/orcamento-governamental: 5
 - ufcg-contabeis-p5/planejamento-e-contabilidade-tributaria: 5
+- ufcg-contabeis-p6/analise-das-demonstracoes-contabeis: 5
+- ufcg-contabeis-p6/analise-de-custos: 5
+- ufcg-contabeis-p6/auditoria-contabil: 5
+- ufcg-contabeis-p6/contabilidade-governamental: 5
+- ufcg-contabeis-p6/laboratorio-de-pratica-ii-pessoal: 5

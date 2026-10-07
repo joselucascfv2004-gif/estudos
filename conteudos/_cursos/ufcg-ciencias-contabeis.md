@@ -382,6 +382,7 @@ ementa: Emissão de notas fiscais de vendas, faturas e duplicatas. Escrituraçã
 
 ### 3103133 · Análise de Custos · 60h · Obrigatória
 pre: Contabilidade de Custos
+app: ufcg-contabeis-p6/analise-de-custos
 ementa: Terminologias aplicadas na análise de custos, análise de custos diretos, análise dos custos indiretos. Relação custo/volume/lucro. Ponto de equilíbrio. Custo padrão e Custo Real. Custos para tomada de decisões e custos para controle. Aplicação prática da implantação de um sistema de custos com a sua correspondente apuração. Análise dos relatórios de custos.
 - Análise de custos diretos e indiretos
 - Margem de contribuição
@@ -394,6 +395,7 @@ ementa: Terminologias aplicadas na análise de custos, análise de custos direto
 
 ### 3103134 · Auditoria Contábil · 60h · Obrigatória
 pre: Contabilidade Societária
+app: ufcg-contabeis-p6/auditoria-contabil
 ementa: Fundamentos: Origem, Evolução, Conceitos, Objetivos e Campo de Atuação; A auditoria na área empresarial e na área pública: diferenças básicas; Normas de Auditoria; Auditoria Externa e Auditoria Interna; O perfil profissional do auditor; Planejamento de Auditoria; Controle Interno; Procedimentos de Auditoria; Testes de observância e os substantivos; Papéis de Trabalho; Processo de Formação de Opinião; Programas de Auditoria; Relatórios do Auditor.
 - Auditoria: origem, evolução, conceitos e objetivos
 - Auditoria externa (independente) × interna; área empresarial × pública
@@ -406,6 +408,7 @@ ementa: Fundamentos: Origem, Evolução, Conceitos, Objetivos e Campo de Atuaç�
 
 ### 3103001 · Análise das Demonstrações Contábeis · 60h · Obrigatória
 pre: Contabilidade Societária
+app: ufcg-contabeis-p6/analise-das-demonstracoes-contabeis
 ementa: Conceito, Objetivos, Relevância e Usuários da Informação na Análise de Balanços, Decisões Financeiras, Função da análise, Estrutura das Demonstrações Contábeis. Ajustes das Demonstrações Contábeis para Fins de Análise; Análise Vertical e Horizontal; Análise Econômico-Financeira. Análise de Liquidez e do Endividamento. Análise da Rentabilidade e da Rotatividade. Alavancagem Operacional e Financeira. Avaliação do Desempenho: integrado de todos os índices, análise e interpretação dos resultados, elaboração de relatórios contábeis.
 - Objetivos e usuários da análise de balanços
 - Estrutura e ajustes das demonstrações para análise
@@ -420,6 +423,7 @@ ementa: Conceito, Objetivos, Relevância e Usuários da Informação na Análise
 
 ### 3103135 · Contabilidade Governamental · 60h · Obrigatória
 pre: Orçamento Governamental
+app: ufcg-contabeis-p6/contabilidade-governamental
 ementa: Estrutura conceitual da Contabilidade Aplicada ao Setor Público, incluindo: Princípios Contábeis; campo de aplicação; objetivo; objetivos; função social; patrimônio público; plano de contas; lançamentos típicos; elaboração e análise das demonstrações contábeis; custos e controle interno sob a ótica contábil.
 - Contabilidade aplicada ao setor público (NBC TSP): estrutura conceitual e campo de aplicação
 - Regimes: orçamentário × patrimonial (competência)
@@ -432,6 +436,7 @@ ementa: Estrutura conceitual da Contabilidade Aplicada ao Setor Público, inclui
 
 ### 3103136 · Laboratório de Prática II – Pessoal · 60h · Obrigatória
 pre: Direito do Trabalho e Previdenciário
+app: ufcg-contabeis-p6/laboratorio-de-pratica-ii-pessoal
 ementa: Noções Gerais: contratos de trabalho, espécies de contratos, características e prazos. Admissão de Pessoal. Legislação Previdenciária. Folha de Pagamento: proventos e descontos.Vale-transporte. Férias. Gratificação Natalina – 13º salário. Rescisão.
 - Contrato de trabalho: espécies, características e prazos
 - Admissão: documentos, registro e eSocial

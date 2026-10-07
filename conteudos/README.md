@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**10427 questões** em **218 tópicos**.
+**10677 questões** em **223 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -412,3 +412,15 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Orçamento Governamental](ufcg-contabeis-p5/03-orcamento-governamental.md) | Faculdade | 17 | 17 | 16 |
 | [Planejamento e Contabilidade Tributária](ufcg-contabeis-p5/04-planejamento-e-contabilidade-tributaria.md) | Faculdade | 17 | 17 | 16 |
 | [Laboratório de Prática I – Fiscal](ufcg-contabeis-p5/05-laboratorio-de-pratica-i-fiscal.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 6º período — 250 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Análise de Custos](ufcg-contabeis-p6/01-analise-de-custos.md) | Faculdade | 17 | 17 | 16 |
+| [Auditoria Contábil](ufcg-contabeis-p6/02-auditoria-contabil.md) | Faculdade | 17 | 17 | 16 |
+| [Análise das Demonstrações Contábeis](ufcg-contabeis-p6/03-analise-das-demonstracoes-contabeis.md) | Faculdade | 17 | 17 | 16 |
+| [Contabilidade Governamental](ufcg-contabeis-p6/04-contabilidade-governamental.md) | Faculdade | 17 | 17 | 16 |
+| [Laboratório de Prática II – Pessoal](ufcg-contabeis-p6/05-laboratorio-de-pratica-ii-pessoal.md) | Faculdade | 17 | 17 | 16 |
