@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Investidores, bancos, governos e consumidores querem saber como as empresas lidam com o meio ambiente. A contabilidade ambiental identifica, mensura e divulga os efeitos ambientais no patrimônio: ativos, passivos, custos, despesas, perdas e receitas ambientais, provisões para recuperar áreas degradadas e relatórios de sustentabilidade. Com as normas IFRS S1 e S2, a divulgação de informações climáticas está se tornando obrigatória para companhias abertas no Brasil.
+
 ### Por que a contabilidade olha para o meio ambiente
 
 As empresas usam recursos naturais, geram resíduos e podem causar danos. Esses fatos têm **efeito no patrimônio**: obrigam a gastar com prevenção, geram multas e indenizações, criam passivos de recuperação e até receitas (venda de resíduos, créditos de carbono). A contabilidade ambiental identifica, mensura e evidencia esses efeitos. Ela não é uma contabilidade separada, e sim um "recorte" da contabilidade financeira e gerencial.
@@ -72,3 +76,30 @@ Tipos de auditoria ambiental:
 - **Asseguração de relatórios de sustentabilidade:** confere se esses relatórios são confiáveis.
 
 A auditoria ambiental **não substitui** a auditoria das demonstrações financeiras. Mas o auditor contábil precisa considerar os riscos ambientais, porque eles podem gerar provisões e perdas por impairment.
+
+### Erros mais comuns
+
+- Classificar uma multa ambiental como custo (é **perda**, pois não gera benefício).
+- Tratar a economia de custos com reciclagem como receita.
+- Provisionar uma saída de recursos apenas **possível** (vai para nota explicativa) ou uma intenção futura sem obrigação presente.
+- Esquecer de incluir a obrigação de desmontagem no custo do imobilizado.
+- Achar que a auditoria ambiental substitui a auditoria das demonstrações financeiras.
+
+### Teste-se
+
+1. O que diz o conceito de desenvolvimento sustentável do Relatório Brundtland?
+2. Qual a diferença entre custo e despesa ambiental?
+3. Um processo ambiental tem perda **possível** de R$ 80.000. Como contabilizar?
+4. Quais as emissões de escopo 2 no GHG Protocol?
+5. O que é greenwashing?
+
+> **Respostas.** 1) Atender às necessidades do presente **sem comprometer** as das gerações futuras. 2) O **custo** está ligado à **produção**; a **despesa**, à **administração**. 3) **Não se reconhece** provisão; divulga-se em **nota explicativa** como passivo contingente. 4) As emissões indiretas da **energia comprada**. 5) Passar uma imagem ambiental **melhor que a real**.
+
+### Para lembrar
+
+- Triple bottom line (pessoas, planeta, lucro); ESG; ISO 14001 (PDCA).
+- Responsabilidade ambiental objetiva (Lei 6.938/1981); crimes ambientais também de PJ (Lei 9.605/1998); poluidor-pagador.
+- Ativo, passivo, custo (produção), despesa (administração), perda (sem benefício), receita ambiental.
+- CPC 25: provável → provisão; possível → nota; remota → nada. Ativo contingente só quando praticamente certo.
+- Desmontagem no custo do imobilizado; provisão cresce com despesa financeira.
+- Evidenciação: notas, balanço social, DVA, GRI, relato integrado, IFRS S1/S2 (CVM 193/2023). GHG: escopos 1, 2, 3.

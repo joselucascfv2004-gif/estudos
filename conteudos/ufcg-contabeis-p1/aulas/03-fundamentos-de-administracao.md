@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador trabalha dentro de organizações e muitas vezes ajuda a dirigi-las: participa do planejamento, do controle, das decisões. Os fundamentos de administração explicam como as empresas se organizam e como evoluíram as ideias sobre gestão (de Taylor à teoria contingencial), as funções do administrador (PODC), os níveis de planejamento, as formas de departamentalização e os estilos de liderança. São conteúdos cobrados em provas da disciplina e em concursos.
+
 ### O que é administrar
 
 Administrar é conduzir uma organização para seus objetivos usando recursos (pessoas, dinheiro, materiais, informação). Dois conceitos caem sempre:
@@ -63,3 +67,41 @@ Estilos clássicos: **autocrático** (líder decide), **democrático** (decide c
 ### Tendências
 
 Estruturas enxutas, equipes multifuncionais, gestão por indicadores (Balanced Scorecard, com as perspectivas financeira, clientes, processos internos e aprendizado e crescimento), transformação digital, sustentabilidade (ESG) e inovação.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Uma fábrica cronometra cada tarefa dos operários e paga bônus por peça produzida. Que escola está aplicando?
+> A **Administração Científica** de Taylor (foco na tarefa, tempos e movimentos, incentivo salarial).
+
+> **Exemplo resolvido.** Um funcionário recebe ordens de dois chefes ao mesmo tempo (o gerente de projeto e o gerente da área). Que estrutura é essa e que princípio de Fayol ela contraria?
+> A estrutura **matricial**, que contraria a **unidade de comando**.
+
+> **Exemplo resolvido.** Uma empresa percebe que um concorrente novo entrou no mercado (fator externo) e que sua equipe é muito qualificada (fator interno). Como isso entra na SWOT?
+> O concorrente é uma **ameaça** (externa); a equipe qualificada é uma **força** (interna).
+
+### Erros mais comuns
+
+- Confundir eficiência (meios, recursos) com eficácia (fins, objetivos).
+- Achar que salário alto motiva por si só (para Herzberg, é fator **higiênico**: evita insatisfação).
+- Confundir planejamento estratégico (longo prazo, toda a empresa) com tático (departamentos).
+- Colocar fatores externos como forças ou fraquezas na SWOT (forças e fraquezas são internas).
+- Achar que a teoria contingencial defende uma única melhor forma de administrar (é o contrário).
+
+### Teste-se
+
+1. Quais são as funções do processo administrativo (PODC)?
+2. Qual teoria descobriu, na experiência de Hawthorne, a importância dos fatores sociais?
+3. O que diz a Teoria Y de McGregor?
+4. Qual a diferença entre estrutura mecanística e orgânica?
+5. Quais as quatro perspectivas do Balanced Scorecard?
+
+> **Respostas.** 1) **Planejar, organizar, dirigir e controlar**. 2) A **Escola das Relações Humanas** (Elton Mayo). 3) As pessoas veem o trabalho como **natural** e **buscam responsabilidade**. 4) A **mecanística** é rígida, hierárquica, para ambientes estáveis; a **orgânica** é flexível, para ambientes instáveis. 5) **Financeira, clientes, processos internos e aprendizado e crescimento**.
+
+### Para lembrar
+
+- Eficiência (meios), eficácia (fins), efetividade (impacto).
+- Taylor (tarefa), Fayol (estrutura, 14 princípios), Weber (burocracia), Mayo (relações humanas).
+- Motivação: Maslow (pirâmide), Herzberg (higiênicos × motivacionais), McGregor (X × Y).
+- Sistemas (aberto, sinergia, entropia), contingencial (depende do ambiente), neoclássica (APO).
+- PODC; planejamento estratégico, tático e operacional; SWOT.
+- Departamentalização (funcional, produto, matricial...), amplitude de controle, liderança situacional, BSC.

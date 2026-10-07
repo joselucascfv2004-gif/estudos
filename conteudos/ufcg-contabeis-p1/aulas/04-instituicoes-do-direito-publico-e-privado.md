@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador lida o tempo todo com o direito: contratos, sociedades, obrigações, tributos, relações com o poder público. Esta disciplina dá a base: o que é o direito, suas fontes, a Constituição, as pessoas (físicas e jurídicas), os bens, os negócios jurídicos, as obrigações e os contratos, além de noções de direito administrativo. Esses conceitos reaparecem em Direito Empresarial, Tributário e do Trabalho nos próximos períodos.
+
 ### O que é o direito
 
 O direito é o conjunto de normas que organiza a vida em sociedade, com sanção aplicada pelo Estado. Pares de conceitos que sempre caem:
@@ -61,3 +65,42 @@ A Constituição é a lei maior. A de 1988 é **promulgada**, **escrita**, **rí
 - Administração **direta** (órgãos dos entes) e **indireta** (autarquias, fundações públicas, empresas públicas, sociedades de economia mista).
 - Atos **vinculados** e **discricionários**.
 - **Responsabilidade objetiva** do Estado (art. 37, §6º), com ação de regresso contra o agente culpado.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Um jovem de 15 anos assina sozinho um contrato de compra de um celular a prazo. O contrato é válido?
+> **Não** é válido como está: menores de 16 anos são **absolutamente incapazes** e precisam ser **representados** pelos pais. O negócio feito sem representação é **nulo**.
+
+> **Exemplo resolvido.** Um sócio usa a empresa para esconder bens pessoais e lesar credores (confusão patrimonial). O que o credor pode pedir?
+> A **desconsideração da personalidade jurídica** (art. 50 do Código Civil), para atingir os bens do sócio.
+
+> **Exemplo resolvido.** Uma pessoa vende um carro, mas foi enganada por informações falsas do comprador sobre o pagamento. Que defeito do negócio jurídico existe e qual o efeito?
+> **Dolo**, que torna o negócio **anulável** (prazo de 4 anos).
+
+### Erros mais comuns
+
+- Confundir direito objetivo (a norma) com subjetivo (a faculdade de agir).
+- Confundir representação (absolutamente incapazes) com assistência (relativamente incapazes).
+- Confundir nulidade (vício grave, como simulação) com anulabilidade (erro, dolo, coação).
+- Confundir prescrição (perde a pretensão) com decadência (perde o próprio direito).
+- Achar que imóveis se transferem pela entrega (tradição); a propriedade de imóveis se transfere pelo **registro**.
+
+### Teste-se
+
+1. Em quanto tempo a lei entra em vigor quando não há prazo expresso?
+2. Cite duas cláusulas pétreas da Constituição.
+3. Quais os requisitos de validade do negócio jurídico?
+4. Que remédio constitucional protege a liberdade de locomoção?
+5. Qual o tipo de responsabilidade do Estado pelos danos causados por seus agentes?
+
+> **Respostas.** 1) **45 dias** após a publicação. 2) **Forma federativa**, **voto direto, secreto, universal e periódico**, **separação dos Poderes**, **direitos e garantias individuais**. 3) **Agente capaz**, **objeto lícito, possível e determinado ou determinável** e **forma prescrita ou não proibida**. 4) O **habeas corpus**. 5) **Objetiva**, com ação de regresso contra o agente culpado.
+
+### Para lembrar
+
+- Direito objetivo × subjetivo; natural × positivo; público × privado.
+- Fontes: lei, costume, jurisprudência, doutrina; LINDB (45 dias, analogia, costumes, princípios).
+- CF/1988: promulgada, rígida, analítica; fundamentos; cláusulas pétreas; remédios constitucionais.
+- Incapacidade absoluta (< 16, representação) e relativa (16–18 e outros, assistência); emancipação; PJ e desconsideração.
+- Negócio jurídico: requisitos; anulável (4 anos) × nulo; prescrição × decadência.
+- Contratos: autonomia, pacta sunt servanda, boa-fé objetiva, função social; tradição (móveis) × registro (imóveis).
+- Administração direta e indireta; LIMPE; responsabilidade objetiva.

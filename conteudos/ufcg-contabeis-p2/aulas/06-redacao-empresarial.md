@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador escreve o tempo todo: e-mails a clientes, relatórios, pareceres, notas explicativas, ofícios a órgãos públicos, comunicados internos. Um texto mal escrito gera dúvidas, retrabalho e até prejuízos. A redação empresarial ensina a escrever com clareza, objetividade e correção, seguindo a norma-padrão e os padrões da comunicação oficial (Manual de Redação da Presidência da República), além de técnicas de apresentação oral.
+
 ### O que é um bom texto profissional
 
 O Manual de Redação da Presidência da República (3ª edição, 2018) é a principal referência para comunicações oficiais, e suas regras servem muito bem às empresas. Qualidades:
@@ -97,3 +101,39 @@ O Manual de Redação da Presidência da República (3ª edição, 2018) é a pr
 - **Com pouco tempo e público decisor:** comece pela conclusão.
 - **Slides:** pouco texto, números grandes e gráficos simples. São apoio, não roteiro de leitura.
 - **Postura:** contato visual, voz clara, ritmo controlado, respeito ao tempo e espaço para perguntas.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Reescreva de forma objetiva: "Venho por meio desta solicitar a Vossa Senhoria que, se possível, nos envie os documentos que faltam."
+> "**Solicito** o envio dos documentos pendentes." (direto, sem fórmulas desnecessárias).
+
+> **Exemplo resolvido.** Corrija: "Segue anexo as notas fiscais e o relatório que o cliente assistiu a apresentação."
+> "Seguem **anexas** as notas fiscais", e "o relatório **a cuja** apresentação o cliente assistiu" (ou, mais simples: "o relatório apresentado ao cliente").
+
+### Erros mais comuns
+
+- Separar sujeito e verbo com vírgula.
+- Usar "haviam" com o sentido de existir, ou pluralizar o "se" de indeterminação.
+- Usar a 2ª pessoa com pronomes de tratamento ("Vossa Senhoria conhece **vossos** prazos" → "**seus** prazos").
+- Usar "Excelentíssimo" para qualquer autoridade (é só para chefes de Poder) ou "Ilustríssimo" (abolido).
+- Abrir textos oficiais com "Venho por meio desta".
+
+### Teste-se
+
+1. Que fecho se usa num ofício para uma autoridade de hierarquia superior?
+2. Corrija: "Faziam três meses que o cliente não enviava os documentos."
+3. Há crase em "Encaminhei o relatório a diretoria"?
+4. Qual a diferença de sentido entre "Os funcionários que fizeram o curso receberam bônus" e "Os funcionários, que fizeram o curso, receberam bônus"?
+5. Com pouco tempo e diante de um público que vai decidir, por onde começar uma apresentação?
+
+> **Respostas.** 1) "**Respeitosamente**". 2) "**Fazia** três meses..." (fazer indicando tempo é impessoal). 3) **Sim**: "à diretoria". 4) Na primeira, **só alguns** fizeram o curso e receberam bônus; na segunda, **todos** fizeram o curso e receberam. 5) Pela **conclusão** (a mensagem principal).
+
+### Para lembrar
+
+- Clareza, concisão, coesão, impessoalidade, formalidade e norma-padrão.
+- Ortografia do Acordo; porquês; parônimos.
+- Vírgula: nunca entre sujeito e verbo; restritiva × explicativa.
+- Concordância: impessoais no singular; passiva sintética concorda; anexo concorda.
+- Regência (assistir a, preferir a, implicar sem "em") e crase. Colocação: atrativas, mesóclise no futuro.
+- Padrão ofício; vocativo "Senhor + cargo"; fechos Respeitosamente/Atenciosamente; relatório; e-mail.
+- Apresentação: objetivo, roteiro, slides limpos, postura.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador abre empresas, altera contratos sociais, escritura livros, orienta sobre o tipo societário mais adequado e lida com títulos de crédito e contratos. O Direito Empresarial dá a base jurídica para tudo isso: quem é empresário, o registro e a escrituração, o estabelecimento, a propriedade industrial, os tipos de sociedade (com destaque para a limitada e a S/A), os contratos mercantis e os títulos de crédito.
+
 ### Teoria da empresa
 
 O Código Civil de 2002 trocou a antiga "teoria dos atos de comércio" pela **teoria da empresa**. Empresa é a **atividade**; empresário é quem a exerce.
@@ -99,3 +103,31 @@ Título de crédito é o documento necessário para exercer o direito **literal*
 - **Protesto:** prova a falta de pagamento ou de aceite.
 
 > **Exemplo resolvido.** Um título vai do credor original para A e depois para B. O devedor diz que o negócio original foi desfeito. Contra B, portador de boa-fé, essa defesa **não vale**, porque é exceção pessoal e a autonomia protege a circulação do título.
+
+### Erros mais comuns
+
+- Achar que todo profissional liberal é empresário (só quando a profissão é **elemento de empresa**).
+- Confundir sociedade simples (registro civil de PJ) com empresária (Junta Comercial).
+- Achar que na limitada o sócio nunca responde além das suas quotas (todos respondem solidariamente pelo capital **não integralizado**).
+- Confundir mandato (age em nome do mandante) com comissão (age em nome próprio).
+- Achar que o devedor pode opor ao terceiro de boa-fé as defesas que tinha contra o credor original (a **autonomia** impede).
+
+### Teste-se
+
+1. Segundo o art. 966 do Código Civil, quem é empresário?
+2. Por quanto tempo o vendedor do estabelecimento fica proibido de fazer concorrência ao comprador, sem autorização?
+3. Qual o prazo de proteção de uma patente de invenção?
+4. Quais órgãos a S/A aberta deve ter obrigatoriamente?
+5. Qual a diferença entre a nota promissória e a letra de câmbio?
+
+> **Respostas.** 1) Quem exerce **profissionalmente atividade econômica organizada** para a produção ou circulação de bens ou serviços. 2) **5 anos**. 3) **20 anos** do depósito. 4) **Assembleia geral**, **conselho de administração**, **diretoria** e **conselho fiscal** (este de funcionamento permanente ou a pedido). 5) A **promissória** é uma **promessa** de pagamento; a **letra de câmbio** é uma **ordem** de pagamento dada ao sacado.
+
+### Para lembrar
+
+- Teoria da empresa: empresário (art. 966); profissões intelectuais só quando elemento de empresa; rural com registro facultativo.
+- Registro na Junta (DREI); escrituração obrigatória, Diário indispensável.
+- Trespasse: comprador responde pelas dívidas contabilizadas; vendedor solidário por 1 ano; não concorrência por 5 anos.
+- Propriedade industrial: invenção 20 anos, modelo de utilidade 15, desenho até 25, marca 10 renováveis.
+- Sociedades: em comum, conta de participação, simples, limitada (até unipessoal), S/A (aberta ou fechada).
+- Contratos: compra e venda, mandato, comissão (del credere), alienação fiduciária, locação (renovatória).
+- Títulos: cartularidade, literalidade, autonomia; letra de câmbio, promissória, cheque, duplicata; endosso, aval, protesto.

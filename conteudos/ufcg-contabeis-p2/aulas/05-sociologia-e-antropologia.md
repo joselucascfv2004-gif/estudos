@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador trabalha com pessoas e organizações inseridas numa sociedade com cultura, desigualdades, relações de trabalho e poder. A sociologia e a antropologia ajudam a entender a cultura organizacional, as mudanças no mundo do trabalho, a formação da sociedade brasileira e as relações entre empresa e sociedade. Esta aula apresenta os conceitos de cultura, as escolas antropológicas, os clássicos da sociologia (Durkheim, Weber e Marx), o trabalho, os debates contemporâneos e os intérpretes do Brasil.
+
 ### Cultura e sociedade
 
 - **Cultura** (Edward Tylor, 1871) é o todo complexo de conhecimentos, crenças, arte, moral, leis e costumes **adquiridos** pelo ser humano como membro da sociedade. Não está nos genes: é aprendida.
@@ -76,3 +80,38 @@ A **Revolução Industrial** (fábricas, êxodo rural, operariado, miséria urba
 - **Gilberto Freyre**, *Casa-Grande & Senzala* (1933): família patriarcal e mistura de povos na formação brasileira.
 - **Sérgio Buarque de Holanda**, *Raízes do Brasil* (1936): o "**homem cordial**", que age pelo afeto e mistura o público com o privado.
 - **Roberto DaMatta:** "**Você sabe com quem está falando?**" mostra a tensão entre a lei igual para todos e a hierarquia das relações pessoais.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Numa empresa, os funcionários seguem um código de vestimenta que ninguém escreveu, mas quem o descumpre é olhado com reprovação. Que conceito de Durkheim isso ilustra?
+> O **fato social**: exterior ao indivíduo, **coercitivo** (a reprovação é a sanção) e **geral**.
+
+> **Exemplo resolvido.** Um gestor diz: "Os costumes da nossa filial no exterior são atrasados". Que postura é essa e qual seria a alternativa?
+> **Etnocentrismo**. A alternativa é o **relativismo cultural**: compreender os costumes no seu próprio contexto.
+
+### Erros mais comuns
+
+- Confundir fato social (Durkheim) com ação social (Weber).
+- Inverter solidariedade mecânica (semelhança) e orgânica (divisão do trabalho).
+- Achar que o relativismo cultural significa aceitar qualquer prática (é uma postura de pesquisa e compreensão).
+- Confundir fordismo (produção em massa) com toyotismo (produção enxuta, just in time).
+- Entender o "homem cordial" como "homem gentil".
+
+### Teste-se
+
+1. Quais as três características do fato social?
+2. Quais os tipos de dominação legítima para Weber?
+3. O que é mais-valia?
+4. O que Bourdieu chama de capital cultural?
+5. O que significa a pergunta "Você sabe com quem está falando?", estudada por DaMatta?
+
+> **Respostas.** 1) **Exterioridade**, **coercitividade** e **generalidade**. 2) **Tradicional**, **carismática** e **racional-legal**. 3) O valor que o trabalhador produz **além do salário**, base do lucro. 4) Os conhecimentos, gostos e títulos valorizados socialmente, que dão vantagens (sobretudo na escola) a quem os herda da família. 5) A tensão entre a **lei igual para todos** e as **relações pessoais e hierárquicas** no Brasil.
+
+### Para lembrar
+
+- Cultura (Tylor), endoculturação, aculturação, etnocentrismo × relativismo, cultura organizacional.
+- Antropologia: evolucionismo, culturalismo (Boas), funcionalismo, estruturalismo (Lévi-Strauss), interpretativa (Geertz).
+- Durkheim: fato social, solidariedade, anomia. Weber: ação social, tipo ideal, dominação, burocracia. Marx: luta de classes, mais-valia, alienação, ideologia.
+- Trabalho: taylorismo, fordismo, toyotismo, uberização.
+- Contemporâneos: Bauman, Bourdieu, Giddens, Beck, Castells, Foucault.
+- Brasil: Freyre, Sérgio Buarque (homem cordial), DaMatta.

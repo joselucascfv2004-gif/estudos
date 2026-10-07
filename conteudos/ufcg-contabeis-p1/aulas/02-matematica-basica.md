@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A matemática básica do curso de Contábeis é a ferramenta para estudar custos, preços, lucros e finanças. Funções descrevem custo, receita e lucro; derivadas mostram o custo e a receita **marginais** (o efeito de produzir uma unidade a mais) e ajudam a achar o lucro máximo; integrais recuperam o total a partir do marginal. Esta aula revisa conjuntos, equações, funções, limites, derivadas e integrais sempre com aplicações à gestão.
+
 ### Conjuntos e números
 
 - **Naturais (ℕ):** 0, 1, 2, 3...
@@ -68,3 +72,40 @@ A integral é a operação inversa da derivada.
 - **Linear:** variação constante por período (y = a + bx).
 - **Exponencial:** multiplica por um fator a cada período (M = C·(1 + i)ᵗ), como juros compostos e crescimento populacional.
 - **Quadrático:** aparece em receita com demanda decrescente e em lucro com custos crescentes.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Resolva x² − 5x + 6 = 0.
+> Δ = 25 − 24 = 1. x = (5 ± 1)/2: **x = 3 ou x = 2**. Confira: soma 5 (= −b/a) e produto 6 (= c/a).
+
+> **Exemplo resolvido.** A receita é R(p) = p(100 − 2p). Qual preço maximiza a receita?
+> R(p) = 100p − 2p². Vértice: p = −100/(2·(−2)) = **R$ 25**. Receita máxima: 25 · 50 = R$ 1.250.
+
+> **Exemplo resolvido.** Derive f(x) = 4x³ − 2x² + 7x − 9.
+> f'(x) = **12x² − 4x + 7**.
+
+### Erros mais comuns
+
+- Esquecer de inverter o sinal da inequação ao multiplicar ou dividir por negativo.
+- Confundir custo médio (C/q) com custo marginal (C').
+- Esquecer a constante C na integral indefinida (em gestão, ela é o custo fixo).
+- Achar que todo ponto onde f' = 0 é máximo (é preciso olhar a segunda derivada).
+- Substituir direto num limite que dá 0/0 sem simplificar antes.
+
+### Teste-se
+
+1. Resolva 2x − 8 > 4.
+2. Com C(q) = 1.000 + 15q e R(q) = 40q, qual o ponto de equilíbrio?
+3. Calcule o limite de (x² − 9)/(x − 3) quando x tende a 3.
+4. Se C(q) = q² + 20q + 300, qual o custo marginal para q = 10?
+5. Calcule ∫ de 0 a 2 de 3x² dx.
+
+> **Respostas.** 1) 2x > 12 → **x > 6**. 2) 40q = 1.000 + 15q → **q = 40**. 3) (x − 3)(x + 3)/(x − 3) = x + 3 → **6**. 4) C'(q) = 2q + 20 → **40**. 5) [x³] de 0 a 2 = **8**.
+
+### Para lembrar
+
+- ℕ ⊂ ℤ ⊂ ℚ ⊂ ℝ; união, interseção, diferença.
+- 2º grau: Δ = b² − 4ac; soma −b/a, produto c/a; vértice em −b/2a.
+- Custo = fixo + variável·q; lucro = receita − custo; equilíbrio: R = C.
+- Derivada = taxa de variação; marginal; lucro máximo: R' = C' e L'' < 0.
+- Integral = inversa da derivada; definida = F(b) − F(a) = área.

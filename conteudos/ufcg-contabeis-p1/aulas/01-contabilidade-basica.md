@@ -144,3 +144,35 @@ O **ICMS na compra para revenda** é recuperável: não entra no custo. Ele vira
 3. Permutativo não muda o PL; modificativo muda; misto faz os dois.
 4. Competência: reconhece quando acontece, não quando paga ou recebe.
 5. CMV = EI + compras líquidas − EF, e o ICMS recuperável fica fora do custo.
+
+### Mais exemplos resolvidos
+
+> **Exemplo resolvido.** Uma empresa compra uma máquina de R$ 20.000 a prazo. Qual o lançamento e que tipo de fato é?
+> **D – Máquinas (Ativo) R$ 20.000; C – Fornecedores (Passivo) R$ 20.000.** É um fato **permutativo**: aumenta o ativo e o passivo no mesmo valor, sem alterar o PL.
+
+> **Exemplo resolvido.** A empresa paga R$ 3.000 de aluguel do mês com dinheiro do caixa. Lançamento e efeito no PL?
+> **D – Despesa de aluguel R$ 3.000; C – Caixa R$ 3.000.** Fato **modificativo diminutivo**: reduz o ativo e o PL.
+
+> **Exemplo resolvido.** Estoque inicial R$ 10.000, compras de R$ 40.000, estoque final R$ 15.000. Qual o CMV?
+> CMV = 10.000 + 40.000 − 15.000 = **R$ 35.000**.
+
+> **Exemplo resolvido.** Em dezembro, a empresa presta um serviço de R$ 5.000 que só receberá em janeiro. Em que mês reconhece a receita?
+> Em **dezembro**, pelo **regime de competência** (lança D – Clientes; C – Receita de serviços).
+
+### Erros mais comuns
+
+- Inverter a natureza das contas: ativo e despesa aumentam a **débito**; passivo, PL e receita aumentam a **crédito**.
+- Achar que "débito" significa algo ruim e "crédito" algo bom (são só lados do lançamento).
+- Reconhecer receitas e despesas pelo caixa (pagamento ou recebimento) em vez da competência.
+- Esquecer de tirar o ICMS recuperável do custo das mercadorias.
+- Classificar como modificativo um fato que só troca elementos do ativo (compra à vista de mercadorias é permutativo).
+
+### Teste-se
+
+1. Uma empresa tem ativo de R$ 80.000 e passivo de R$ 30.000. Qual o PL?
+2. Qual a natureza da conta Fornecedores?
+3. O recebimento de um cliente que já devia à empresa altera o PL?
+4. Estoque inicial R$ 5.000, compras R$ 25.000, estoque final R$ 8.000: qual o CMV?
+5. O que é um ato administrativo, e ele é contabilizado?
+
+> **Respostas.** 1) 80.000 − 30.000 = **R$ 50.000**. 2) **Credora** (é passivo). 3) **Não**: é permutativo (sai de Clientes e entra em Caixa). 4) 5.000 + 25.000 − 8.000 = **R$ 22.000**. 5) É um acontecimento que **não altera o patrimônio** (assinar um contrato, admitir um empregado) e, em regra, **não é contabilizado** (pode ser controlado em contas de compensação).

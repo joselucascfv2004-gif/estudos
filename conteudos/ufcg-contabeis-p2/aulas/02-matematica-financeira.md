@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A matemática financeira é a ferramenta do contador para avaliar empréstimos, investimentos, descontos de títulos, financiamentos e projetos. Ela também aparece dentro da própria contabilidade (ajuste a valor presente, arrendamentos, provisões de longo prazo) e em finanças corporativas. Esta aula cobre juros simples e compostos, taxas, descontos, equivalência de capitais, séries de pagamentos, sistemas de amortização e análise de investimentos (VPL, TIR, payback).
+
 ### Juros simples
 
 Os juros incidem sempre sobre o **capital inicial**. Crescem em linha reta.
@@ -75,3 +79,31 @@ Cada parcela = **juros** (sobre o saldo devedor) + **amortização** (o que redu
 - Em projetos excludentes, se VPL e TIR discordarem, prefira o **VPL**.
 
 > **Exemplo resolvido.** Investe R$ 10.000 e recebe R$ 6.000 em cada um dos próximos 2 anos, TMA de 10%: VPL = −10.000 + 5.454,55 + 4.958,68 ≈ **R$ 413,22** → viável. A TIR fica perto de 13%, acima da TMA.
+
+### Erros mais comuns
+
+- Usar taxa e prazo em unidades diferentes.
+- Converter taxas de juros compostos de forma proporcional (1,5% a.m. não é 18% a.a.).
+- Subtrair a inflação em vez de usar a fórmula de Fisher.
+- Confundir desconto comercial (sobre o nominal, maior) com racional (sobre o atual).
+- Calcular os juros da parcela sobre a dívida inicial em vez do saldo devedor.
+- Escolher pela TIR quando ela discorda do VPL em projetos excludentes (prefira o VPL).
+
+### Teste-se
+
+1. R$ 5.000 a 2% a.m., juros compostos, por 3 meses: qual o montante?
+2. Qual a taxa anual efetiva de 3% ao mês?
+3. Um título de R$ 8.000 é descontado 2 meses antes, a 2,5% a.m., desconto comercial simples. Qual o valor recebido?
+4. Qual o valor presente de uma perpetuidade de R$ 1.000 por mês a 1% a.m.?
+5. Pelo SAC, R$ 24.000 em 24 meses a 1% a.m.: qual a 1ª parcela?
+
+> **Respostas.** 1) 5.000 · 1,02³ = 5.000 · 1,061208 ≈ **R$ 5.306,04**. 2) 1,03¹² − 1 ≈ **42,58% ao ano**. 3) D = 8.000 · 0,025 · 2 = 400; A = **R$ 7.600**. 4) 1.000 ÷ 0,01 = **R$ 100.000**. 5) Amortização 1.000 + juros 240 = **R$ 1.240**.
+
+### Para lembrar
+
+- Simples: J = C·i·n; taxas proporcionais. Compostos: M = C·(1 + i)ⁿ; taxas equivalentes.
+- Nominal → efetiva (divida pelas capitalizações). Real: (1 + aparente) = (1 + real)·(1 + inflação).
+- Descontos: comercial (D = N·d·n) > racional simples (A = N ÷ (1 + i·n)); racional composto = valor presente.
+- Séries: VP = PMT·[1 − (1 + i)⁻ⁿ] ÷ i; VF = PMT·[(1 + i)ⁿ − 1] ÷ i; perpetuidade = PMT ÷ i.
+- Price (parcelas iguais), SAC (amortização constante, parcelas decrescentes), SAM (média).
+- VPL > 0 e TIR > TMA → aceitar; payback simples × descontado.
