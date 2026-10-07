@@ -170,6 +170,7 @@ ementa: Interpretação e Compreensão de textos. Ortografia. Regras Gramaticais
 
 ### 3103124 · Contabilidade Intermediária II · 60h · Obrigatória
 pre: Contabilidade Intermediária I
+app: ufcg-contabeis-p3/contabilidade-intermediaria-ii
 ementa: Reconhecimento, mensuração e operações de: Instrumentos Financeiros; Empréstimos e financiamentos, debêntures e outros títulos de dívida; Imposto sobre a renda e contribuição Social a Pagar; Provisões, Passivos contingentes e ativos contingentes. Demonstração dos Fluxos de Caixa (DFC). Demonstração do Valor Adicionado (DVA).
 - Instrumentos financeiros (CPC 48): classificação e mensuração
 - Empréstimos e financiamentos; custos de transação; encargos financeiros
@@ -181,6 +182,7 @@ ementa: Reconhecimento, mensuração e operações de: Instrumentos Financeiros;
 
 ### 3103079 · Estatística · 60h · Obrigatória
 pre: Matemática Básica
+app: ufcg-contabeis-p3/estatistica
 relacionados: matematica/estatistica, matematica/probabilidade, matematica/analise-combinatoria
 ementa: Estatística descritiva e sua utilidade no estudo de administração. Probabilidade. Variável Aleatória. Distribuições Discretas e Continuas. Técnicas de Amostragem. Intervalo de Confiança. Aplicações com Softwares.
 - Estatística descritiva: tabelas, gráficos, média, mediana, moda
@@ -194,6 +196,7 @@ ementa: Estatística descritiva e sua utilidade no estudo de administração. Pr
 
 ### 3103125 · História do Pensamento Contábil · 30h · Obrigatória
 pre: Contabilidade Básica
+app: ufcg-contabeis-p3/historia-do-pensamento-contabil
 ementa: Origem e evolução da Contabilidade e as influências das escolas do pensamento contábil. Desenvolvimento da Contabilidade no Brasil. Perspectivas e Tendências da Profissão Contábil.
 - Origem da contabilidade: inventários e registros antigos
 - Luca Pacioli e o método das partidas dobradas (1494)
@@ -204,6 +207,7 @@ ementa: Origem e evolução da Contabilidade e as influências das escolas do pe
 
 ### 3103126 · Direito Financeiro e Tributário · 60h · Obrigatória
 pre: Instituições do Direito Público e Privado
+app: ufcg-contabeis-p3/direito-financeiro-e-tributario
 ementa: Sistema Tributário Nacional, Princípios Constitucionais Tributários, Princípios Gerais do Direito Tributário, Administração Tributária. Estado e Direitos Humanos, Crise e Reconstrução.Teoria Jurídica do Direito Financeiro, Teoria Jurídica dos Ingressos Públicos, Teoria Jurídica das Receitas Financeiras Compulsórias, Teoria Jurídica de Orçamento Público, Despesa Pública, Receita Pública, Orçamento e Crédito Público.
 - Sistema Tributário Nacional na Constituição
 - Princípios constitucionais tributários: legalidade, anterioridade, irretroatividade, isonomia, capacidade contributiva, vedação ao confisco
@@ -216,6 +220,7 @@ ementa: Sistema Tributário Nacional, Princípios Constitucionais Tributários, 
 
 ### 3103078 · Análise Econômica I · 60h · Obrigatória
 pre: —
+app: ufcg-contabeis-p3/analise-economica-i
 ementa: Teoria do consumidor. Teoria da produção. Teoria dos custos. Estruturas de mercado. Externalidades. Bens públicos. Informação assimétrica.
 - Teoria do consumidor: utilidade, restrição orçamentária e demanda
 - Elasticidades
@@ -226,6 +231,7 @@ ementa: Teoria do consumidor. Teoria da produção. Teoria dos custos. Estrutura
 
 ### 3103127 · Gestão de Finanças Públicas · 30h · Obrigatória
 pre: —
+app: ufcg-contabeis-p3/gestao-de-financas-publicas
 ementa: No SIGAA, a ementa cadastrada para esta disciplina é a mesma de Sistemas de Informações Gerenciais (provável erro de cadastro). Os assuntos abaixo seguem o nome da disciplina e o que ela prepara para Orçamento Governamental.
 - Funções do governo: alocativa, distributiva e estabilizadora
 - Receitas públicas: tributárias e não tributárias; carga tributária

@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**9627 questões** em **202 tópicos**.
+**9927 questões** em **208 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -375,3 +375,16 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Direito Empresarial](ufcg-contabeis-p2/04-direito-empresarial.md) | Faculdade | 17 | 17 | 16 |
 | [Sociologia e Antropologia](ufcg-contabeis-p2/05-sociologia-e-antropologia.md) | Faculdade | 17 | 17 | 16 |
 | [Redação Empresarial](ufcg-contabeis-p2/06-redacao-empresarial.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 3º período — 300 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Contabilidade Intermediária II](ufcg-contabeis-p3/01-contabilidade-intermediaria-ii.md) | Faculdade | 17 | 17 | 16 |
+| [Estatística](ufcg-contabeis-p3/02-estatistica.md) | Faculdade | 17 | 17 | 16 |
+| [História do Pensamento Contábil](ufcg-contabeis-p3/03-historia-do-pensamento-contabil.md) | Faculdade | 17 | 17 | 16 |
+| [Direito Financeiro e Tributário](ufcg-contabeis-p3/04-direito-financeiro-e-tributario.md) | Faculdade | 17 | 17 | 16 |
+| [Análise Econômica I](ufcg-contabeis-p3/05-analise-economica-i.md) | Faculdade | 17 | 17 | 16 |
+| [Gestão de Finanças Públicas](ufcg-contabeis-p3/06-gestao-de-financas-publicas.md) | Faculdade | 17 | 17 | 16 |

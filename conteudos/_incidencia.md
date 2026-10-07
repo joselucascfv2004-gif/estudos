@@ -173,3 +173,9 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p2/matematica-financeira: 5
 - ufcg-contabeis-p2/redacao-empresarial: 5
 - ufcg-contabeis-p2/sociologia-e-antropologia: 5
+- ufcg-contabeis-p3/analise-economica-i: 5
+- ufcg-contabeis-p3/contabilidade-intermediaria-ii: 5
+- ufcg-contabeis-p3/direito-financeiro-e-tributario: 5
+- ufcg-contabeis-p3/estatistica: 5
+- ufcg-contabeis-p3/gestao-de-financas-publicas: 5
+- ufcg-contabeis-p3/historia-do-pensamento-contabil: 5
