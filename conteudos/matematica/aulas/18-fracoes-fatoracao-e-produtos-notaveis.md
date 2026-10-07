@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Frações aparecem em receitas, divisões de heranças, contas de "quanto sobrou" e em praticamente toda questão que envolve partes de um todo. Produtos notáveis e fatoração são as ferramentas que deixam as expressões algébricas mais simples: transformam contas enormes em contas pequenas e permitem simplificar frações com letras. No ENEM, as frações aparecem em contexto; nas provas militares e de concursos, a fatoração e a simplificação de expressões são cobradas diretamente e com frequência.
+
 ### A ideia central: frações são pedaços
 
 Uma fração a/b diz "dividi o inteiro em b partes iguais e peguei a delas". Quase todas as regras de frações saem dessa ideia. Por exemplo, só dá para somar pedaços do mesmo tamanho, por isso as frações precisam ter o mesmo denominador antes da soma.
@@ -51,6 +55,24 @@ Esses produtos também servem para fazer contas de cabeça:
 > **Exemplo resolvido.** 51 × 49 = (50 + 1)(50 − 1) = 50² − 1² = 2 500 − 1 = **2 499**.
 > 103² = (100 + 3)² = 10 000 + 600 + 9 = **10 609**.
 
+### Mais produtos notáveis (para provas militares)
+
+- **Cubo da soma:** (a + b)³ = a³ + 3a²b + 3ab² + b³.
+- **Cubo da diferença:** (a − b)³ = a³ − 3a²b + 3ab² − b³.
+- **Soma de cubos:** a³ + b³ = (a + b)(a² − ab + b²).
+- **Diferença de cubos:** a³ − b³ = (a − b)(a² + ab + b²).
+
+> **Exemplo resolvido.** Fatore x³ − 8.
+> 8 = 2³, então é uma diferença de cubos: **(x − 2)(x² + 2x + 4)**.
+
+### Completar quadrado
+
+Às vezes uma expressão "quase" é um quadrado perfeito. Completar quadrado é somar e subtrair o que falta. É a técnica por trás da fórmula de Bhaskara e da equação da circunferência.
+
+> **Exemplo resolvido.** Escreva x² + 6x + 5 como um quadrado mais (ou menos) um número.
+> O quadrado que começa com x² + 6x é (x + 3)² = x² + 6x + 9. Como temos 5 e não 9:
+> x² + 6x + 5 = (x + 3)² − 4. Daí sai, por exemplo, que o menor valor da expressão é **−4** (quando x = −3).
+
 ### Fatorar: o caminho de volta
 
 Fatorar é transformar uma soma num produto. Os quatro casos que mais aparecem:
@@ -79,3 +101,34 @@ a² + b² = (a + b)² − 2ab.
 > **Exemplo resolvido.** a + b = 7 e ab = 10. Então a² + b² = 49 − 20 = **29**.
 
 O mesmo vale para x + 1/x = k: elevando ao quadrado, x² + 1/x² = k² − 2.
+
+### Erros mais comuns
+
+- Somar numeradores e denominadores (3/8 + 5/12 não é 8/20).
+- Esquecer o termo do meio: (x + 5)² não é x² + 25.
+- Cortar parcelas em vez de fatores: em (x + 3)/3, não se "corta" o 3.
+- Aplicar a segunda fração sobre o total quando o texto diz "do que sobrou".
+- Esquecer de conferir se o que sobrou da fatoração ainda pode ser fatorado.
+
+### Como cai na prova
+
+No ENEM, as frações aparecem em situações concretas: receitas, divisão de bens, frações de um percurso, partes de uma população. Nas provas militares e de concursos, caem muito a simplificação de expressões algébricas, os produtos notáveis (inclusive os cubos), a fatoração e a transformação de dízimas em fração.
+
+### Teste-se
+
+1. Quanto é 2/3 + 1/6?
+2. Desenvolva (x − 4)².
+3. Fatore 9x² − 25.
+4. Qual a fração geratriz de 0,2727...?
+5. Se a + b = 5 e ab = 6, quanto vale a² + b²?
+
+> **Respostas.** 1) 4/6 + 1/6 = **5/6**. 2) **x² − 8x + 16**. 3) **(3x − 5)(3x + 5)**. 4) 27/99 = **3/11**. 5) 25 − 12 = **13**.
+
+### Para lembrar
+
+- Somar frações: denominadores iguais (MMC). Dividir: multiplicar pelo inverso.
+- "Do que sobrou": a segunda fração vale sobre a sobra.
+- (a ± b)² = a² ± 2ab + b²; (a + b)(a − b) = a² − b².
+- Fatorar: evidência, diferença de quadrados, trinômio quadrado perfeito, agrupamento.
+- Só se cortam fatores, nunca parcelas.
+- a² + b² = (a + b)² − 2ab.
