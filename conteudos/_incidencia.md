@@ -200,3 +200,7 @@ Na revisão do curso, as disciplinas do próprio curso vêm antes das de apoio.
 - ufcg-contabeis-p7/laboratorio-de-pratica-iii-contabilidade-financeira: 5
 - ufcg-contabeis-p7/pesquisa-aplicada: 5
 - ufcg-contabeis-p7/sistemas-de-informacoes-gerenciais: 5
+- ufcg-contabeis-p8/elaboracao-de-projeto-de-pesquisa: 5
+- ufcg-contabeis-p8/laboratorio-de-pratica-iv-auditoria-contabil: 5
+- ufcg-contabeis-p8/nocoes-sobre-gestao-atuarial: 5
+- ufcg-contabeis-p8/topicos-contemporaneos: 5

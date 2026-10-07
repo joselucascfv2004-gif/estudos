@@ -2,7 +2,7 @@
 
 Índice gerado automaticamente por `scripts/compilar-conteudos.mjs` — não edite à mão.
 
-**10977 questões** em **229 tópicos**.
+**11177 questões** em **233 tópicos**.
 
 Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colégio Naval) · **Concursos** (Banco do Brasil, BNB, Caixa, IBGE e outros) · **Certificações** (CPA e C-Pro R, da ANBIMA) · **Faculdade** (revisão de cursos de graduação, como Ciências Contábeis da UFCG).
 
@@ -437,3 +437,14 @@ Legenda das provas: **ENEM** · **Militares** (ESA, EsPCEx, EEAR, AFA, EN, Colé
 | [Sistemas de Informações Gerenciais](ufcg-contabeis-p7/04-sistemas-de-informacoes-gerenciais.md) | Faculdade | 17 | 17 | 16 |
 | [Laboratório de Prática III – Contabilidade Financeira](ufcg-contabeis-p7/05-laboratorio-de-pratica-iii-contabilidade-financeira.md) | Faculdade | 17 | 17 | 16 |
 | [Pesquisa Aplicada](ufcg-contabeis-p7/06-pesquisa-aplicada.md) | Faculdade | 17 | 17 | 16 |
+
+## Contábeis UFCG · 8º período — 200 questões
+
+*Ciências Contábeis (UFCG)*
+
+| Tópico | Provas | Fácil | Médio | Difícil |
+|---|---|---:|---:|---:|
+| [Elaboração de Projeto de Pesquisa](ufcg-contabeis-p8/01-elaboracao-de-projeto-de-pesquisa.md) | Faculdade | 17 | 17 | 16 |
+| [Tópicos Contemporâneos](ufcg-contabeis-p8/02-topicos-contemporaneos.md) | Faculdade | 17 | 17 | 16 |
+| [Noções sobre Gestão Atuarial](ufcg-contabeis-p8/03-nocoes-sobre-gestao-atuarial.md) | Faculdade | 17 | 17 | 16 |
+| [Laboratório de Prática IV – Auditoria Contábil](ufcg-contabeis-p8/04-laboratorio-de-pratica-iv-auditoria-contabil.md) | Faculdade | 17 | 17 | 16 |

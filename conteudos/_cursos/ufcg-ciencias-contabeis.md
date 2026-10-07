@@ -524,6 +524,7 @@ ementa: Aplicação e desenvolvimento dos conhecimentos teóricos adquiridos dur
 
 ### 3103100 · Elaboração de Projeto de Pesquisa · 60h · Obrigatória
 pre: Pesquisa Aplicada
+app: ufcg-contabeis-p8/elaboracao-de-projeto-de-pesquisa
 ementa: A ciência e seus princípios fundamentais. Conceito de pesquisa. Como encaminhar uma pesquisa. Tipologia de trabalhos científicos: projeto, monografia, dissertação, tese e relatórios. Estrutura e normalização de trabalhos acadêmicos conforme as normas da ABNT. Elaboração da primeira fase do Trabalho de Curso, sob orientação docente.
 - Ciência e pesquisa: conceitos
 - Como encaminhar uma pesquisa: tema, problema, objetivos, hipóteses
@@ -533,6 +534,7 @@ ementa: A ciência e seus princípios fundamentais. Conceito de pesquisa. Como e
 
 ### 3103142 · Tópicos Contemporâneos · 60h · Obrigatória
 pre: Teoria da Contabilidade
+app: ufcg-contabeis-p8/topicos-contemporaneos
 ementa: Estudo e decisão de assuntos relevantes e emergentes em ciências contábeis, visando a atualização, reciclagem e inter-relação de tópicos fundamentais da área.
 - Atualização das normas: CPC/IFRS recentes (receita – CPC 47, arrendamentos – CPC 06, instrumentos financeiros – CPC 48)
 - Normas de sustentabilidade: IFRS S1 e S2 e CBPS
@@ -542,6 +544,7 @@ ementa: Estudo e decisão de assuntos relevantes e emergentes em ciências cont�
 
 ### 3103143 · Noções sobre Gestão Atuarial · 60h · Obrigatória
 pre: Contabilidade Básica; Matemática Financeira
+app: ufcg-contabeis-p8/nocoes-sobre-gestao-atuarial
 relacionados: cpa/previdencia-complementar, c-pro-r/previdencia-avancada
 ementa: Gestão Previdenciária, Gestão de Seguros, Riscos de Mercado. Riscos de Crédito. Riscos Operacionais. Riscos de Ativos e Passivos.
 - Noções de atuária: tábuas de mortalidade, probabilidade de sobrevivência e valor atual
@@ -554,6 +557,7 @@ ementa: Gestão Previdenciária, Gestão de Seguros, Riscos de Mercado. Riscos d
 
 ### 3103144 · Laboratório de Prática IV – Auditoria Contábil · 60h · Obrigatória
 pre: Auditoria Contábil
+app: ufcg-contabeis-p8/laboratorio-de-pratica-iv-auditoria-contabil
 ementa: Verificação dos controles existentes. Conferência do balancete, balanço e livros fiscais de entradas e saídas de mercadorias ou produtos. Conferência da folha de pagamento, conciliação bancária, apuração de custos e de lançamentos no geral. Roteiro de fiscalização Fases metodológicas para o planejamento, processo amostral. Auditoria das demonstrações contábeis e relatório de auditoria. Efeitos da auditoria nas organizações.
 - Verificação dos controles internos
 - Conferência do balancete, balanço e livros fiscais
