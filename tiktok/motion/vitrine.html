@@ -1,0 +1,605 @@
+<!doctype html>
+<!-- Vitrine de motion design do App Estudos. Cada quadro é desenhado por render(t), com t em
+     segundos; o render.mjs chama render(t) quadro a quadro e grava o vídeo. -->
+<html><head><meta charset="utf-8">
+<style>
+@font-face { font-family: Pop; src: url(../fabrica/fontes/Poppins-ExtraBold.ttf); }
+@font-face { font-family: Mont; src: url(../fabrica/fontes/Montserrat-Black.ttf); }
+html, body { margin: 0; background: #000; }
+canvas { display: block; }
+</style></head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<img id="logo" src="../marca/logo-estudos.png" style="display:none">
+<script>
+const W = 1080, H = 1920, DURACAO = 25;
+const g = document.getElementById('c').getContext('2d');
+const LOGO = document.getElementById('logo');
+
+const AZUL = '#0870DE', AZUL_CLARO = '#1CB0F6', AMARELO = '#FFC800', VERDE = '#58CC02',
+      NAVY = '#0C1638', PAPEL = '#E6F4FD', LINHA = '#8CC4F5', CINZA = '#5A6E92',
+      LARANJA = '#FF9600', VERMELHO = '#FF4B4B';
+
+// ---------- utilidades ----------
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const lerp = (a, b, k) => a + (b - a) * k;
+const outCubic = k => 1 - Math.pow(1 - k, 3);
+const inOutCubic = k => k < .5 ? 4 * k * k * k : 1 - Math.pow(-2 * k + 2, 3) / 2;
+const outExpo = k => k >= 1 ? 1 : 1 - Math.pow(2, -10 * k);
+const inExpo = k => k <= 0 ? 0 : Math.pow(2, 10 * k - 10);
+const outBack = (k, s = 1.9) => 1 + (s + 1) * Math.pow(k - 1, 3) + s * Math.pow(k - 1, 2);
+const outElastic = k => k <= 0 ? 0 : k >= 1 ? 1 :
+  Math.pow(2, -10 * k) * Math.sin((k * 10 - .75) * (2 * Math.PI) / 3) + 1;
+const outBounce = k => {
+  const n = 7.5625, d = 2.75;
+  if (k < 1 / d) return n * k * k;
+  if (k < 2 / d) return n * (k -= 1.5 / d) * k + .75;
+  if (k < 2.5 / d) return n * (k -= 2.25 / d) * k + .9375;
+  return n * (k -= 2.625 / d) * k + .984375;
+};
+function aleatorio(semente) {
+  return () => { semente = (semente * 16807) % 2147483647; return (semente - 1) / 2147483646; };
+}
+const fonte = (px, f = 'Pop') => `${px}px ${f}`;
+function misturaCor(a, b, k) {
+  const pa = [1, 3, 5].map(i => parseInt(a.slice(i, i + 2), 16));
+  const pb = [1, 3, 5].map(i => parseInt(b.slice(i, i + 2), 16));
+  return `rgb(${pa.map((v, i) => Math.round(lerp(v, pb[i], k))).join(',')})`;
+}
+function retRedondo(x, y, w, h, r) {
+  r = Math.min(r, w / 2, h / 2);
+  g.beginPath();
+  g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r);
+  g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.closePath();
+}
+
+// ---------- fundos ----------
+const R = aleatorio(7);
+const POEIRA = Array.from({ length: 80 }, () => ({ x: R() * W, y: R() * H, z: .3 + R() * .7,
+  v: 10 + R() * 30, f: R() * 6.28 }));
+
+function fundoNoite(t) {
+  const gr = g.createLinearGradient(0, 0, 0, H);
+  gr.addColorStop(0, '#0A1430'); gr.addColorStop(1, '#122556');
+  g.fillStyle = gr; g.fillRect(0, 0, W, H);
+  // manchas de luz que se movem devagar (profundidade)
+  [[AZUL, .30, 0], [AZUL_CLARO, .16, 2], ['#3A2C9E', .22, 4]].forEach(([cor, a, fase], i) => {
+    const x = W / 2 + Math.sin(t * .35 + fase) * 380, y = H * (.25 + .3 * i) + Math.cos(t * .27 + fase) * 220;
+    const rg = g.createRadialGradient(x, y, 0, x, y, 640);
+    rg.addColorStop(0, cor); rg.addColorStop(1, 'rgba(0,0,0,0)');
+    g.globalAlpha = a; g.fillStyle = rg; g.fillRect(0, 0, W, H);
+  });
+  g.globalAlpha = 1;
+  // grade de planta técnica, deslizando
+  g.strokeStyle = 'rgba(140,196,245,0.07)'; g.lineWidth = 2;
+  const desl = (t * 12) % 72;
+  for (let x = -72 + desl; x < W + 72; x += 72) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, H); g.stroke(); }
+  for (let y = -72 + desl; y < H + 72; y += 72) { g.beginPath(); g.moveTo(0, y); g.lineTo(W, y); g.stroke(); }
+  poeira(t, 'rgba(180,220,255,');
+}
+
+function fundoPapel(t) {
+  g.fillStyle = PAPEL; g.fillRect(0, 0, W, H);
+  [[AZUL_CLARO, .10, 1], [AMARELO, .08, 3]].forEach(([cor, a, fase]) => {
+    const x = W / 2 + Math.sin(t * .4 + fase) * 420, y = H / 2 + Math.cos(t * .3 + fase) * 600;
+    const rg = g.createRadialGradient(x, y, 0, x, y, 700);
+    rg.addColorStop(0, cor); rg.addColorStop(1, 'rgba(255,255,255,0)');
+    g.globalAlpha = a; g.fillStyle = rg; g.fillRect(0, 0, W, H);
+  });
+  g.globalAlpha = 1;
+  g.strokeStyle = 'rgba(140,196,245,0.35)'; g.lineWidth = 2;
+  for (let x = 12; x < W; x += 48) { g.beginPath(); g.moveTo(x, 0); g.lineTo(x, H); g.stroke(); }
+  for (let y = 0; y < H; y += 48) { g.beginPath(); g.moveTo(0, y); g.lineTo(W, y); g.stroke(); }
+  poeira(t, 'rgba(8,112,222,');
+}
+
+function poeira(t, cor) {
+  POEIRA.forEach(p => {
+    const y = ((p.y - t * p.v * p.z) % H + H) % H, x = p.x + Math.sin(t * .8 + p.f) * 20 * p.z;
+    g.fillStyle = cor + (0.15 + 0.35 * p.z) + ')';
+    g.beginPath(); g.arc(x, y, 1.5 + 3 * p.z, 0, 6.283); g.fill();
+  });
+}
+
+// ---------- cena 1: a logo se desenhando como planta técnica (0 a 4,5 s) ----------
+const E_PONTOS = [[300, 215, 52], [760, 215, 52], [760, 365, 52], [450, 365, 10], [450, 435, 10],
+  [690, 435, 64], [690, 585, 64], [450, 585, 10], [450, 655, 10], [760, 655, 52], [760, 805, 52], [300, 805, 52]];
+function caminhoE() {
+  const p = E_PONTOS, n = p.length;
+  g.beginPath();
+  g.moveTo((p[n - 1][0] + p[0][0]) / 2, (p[n - 1][1] + p[0][1]) / 2);
+  for (let i = 0; i < n; i++) { const a = p[i], b = p[(i + 1) % n]; g.arcTo(a[0], a[1], b[0], b[1], a[2]); }
+  g.closePath();
+}
+const E_PERIMETRO = 3700;
+
+function linhaQueCresce(x1, y1, x2, y2, k, tracejado) {
+  if (k <= 0) return;
+  g.setLineDash(tracejado ? [26, 18] : []);
+  g.beginPath(); g.moveTo(x1, y1); g.lineTo(lerp(x1, x2, k), lerp(y1, y2, k)); g.stroke();
+  g.setLineDash([]);
+}
+
+function cenaLogo(t) {
+  fundoNoite(t);
+  // câmera: empurra devagar e, no fim, mergulha no ponto verde
+  const mergulho = inExpo(prog(t, 3.75, 4.5));
+  const escala = lerp(.80, .86, outCubic(prog(t, 0, 3.7))) * (1 + mergulho * 22);
+  const cx = 540, cy = 860;
+  g.save();
+  g.translate(cx, cy); g.scale(escala, escala); g.rotate(lerp(-0.035, 0, outCubic(prog(t, 0, 3))));
+  g.translate(-512, -512);
+  if (mergulho > 0) g.filter = `blur(${mergulho * 14}px)`;
+
+  const cor = 'rgba(140,196,245,';
+  g.lineCap = 'round';
+  // grade crescendo a partir do centro
+  const kg = outCubic(prog(t, 0, 1.1));
+  g.strokeStyle = cor + '0.18)'; g.lineWidth = 2;
+  for (let x = 0; x <= 1024; x += 64) { linhaQueCresce(x, 512, x, 512 - 600 * kg, 1); linhaQueCresce(x, 512, x, 512 + 600 * kg, 1); }
+  for (let y = 0; y <= 1024; y += 64) { linhaQueCresce(512, y, 512 - 600 * kg, y, 1); linhaQueCresce(512, y, 512 + 600 * kg, y, 1); }
+  // círculos de construção
+  g.strokeStyle = cor + '0.9)'; g.lineWidth = 4;
+  [[468, .25], [304, .45]].forEach(([r, a]) => {
+    const k = inOutCubic(prog(t, a, a + 1.1));
+    if (k > 0) { g.beginPath(); g.arc(512, 512, r, -Math.PI / 2, -Math.PI / 2 + 6.283 * k); g.stroke(); }
+  });
+  // diagonais e eixos tracejados
+  g.lineWidth = 4;
+  const kd = outCubic(prog(t, .55, 1.5));
+  [[0, 0], [1024, 0], [0, 1024], [1024, 1024]].forEach(([x, y]) => linhaQueCresce(512, 512, x, y, kd, true));
+  linhaQueCresce(512, 512, 512, 0, kd, true); linhaQueCresce(512, 512, 512, 1024, kd, true);
+  linhaQueCresce(0, 803, 1024, 803, outCubic(prog(t, .9, 1.6)), false);
+  // régua: contorno e marcas aparecendo uma a uma
+  const kr = outCubic(prog(t, .8, 1.3));
+  if (kr > 0) {
+    g.globalAlpha = kr; retRedondo(72, 42 - (1 - kr) * 40, 880, 65, 12); g.stroke();
+    for (let i = 0; i <= 80; i++) {
+      const ki = outBack(prog(t, 1.0 + i * .008, 1.15 + i * .008));
+      const h = (i % 10 === 0 ? 30 : i % 5 === 0 ? 20 : 12) * ki;
+      g.beginPath(); g.moveTo(90 + i * 10.8, 42); g.lineTo(90 + i * 10.8, 42 + h); g.stroke();
+    }
+    g.globalAlpha = 1;
+  }
+  // transferidor
+  const kp = inOutCubic(prog(t, 1.1, 1.8));
+  if (kp > 0) {
+    g.beginPath(); g.arc(120, 900, 230, -Math.PI / 2, -Math.PI / 2 + Math.PI / 2 * kp); g.stroke();
+    for (let i = 1; i < 6; i++) {
+      const a = -Math.PI / 2 + Math.PI / 2 * i / 6;
+      if (i / 6 > kp) break;
+      g.beginPath(); g.moveTo(120 + Math.cos(a) * 230, 900 + Math.sin(a) * 230);
+      g.lineTo(120 + Math.cos(a) * 205, 900 + Math.sin(a) * 205); g.stroke();
+    }
+  }
+  // contorno do E sendo traçado
+  const ke = inOutCubic(prog(t, 1.2, 2.1));
+  if (ke > 0) {
+    g.save(); caminhoE();
+    g.setLineDash([E_PERIMETRO, E_PERIMETRO]); g.lineDashOffset = E_PERIMETRO * (1 - ke);
+    g.strokeStyle = '#FFFFFF'; g.lineWidth = 6; g.shadowColor = AZUL_CLARO; g.shadowBlur = 25;
+    g.stroke(); g.restore();
+  }
+  // preenchimento subindo, com a "linha de luz" na borda
+  const kf = inOutCubic(prog(t, 1.95, 2.7));
+  if (kf > 0) {
+    const topo = lerp(830, 190, kf);
+    g.save(); caminhoE(); g.clip();
+    const gr = g.createLinearGradient(0, 215, 0, 805);
+    gr.addColorStop(0, AZUL); gr.addColorStop(1, '#8CC4F5');
+    g.fillStyle = gr; g.fillRect(250, topo, 560, 900);
+    if (kf < 1) { g.fillStyle = 'rgba(255,255,255,0.9)'; g.shadowColor = '#FFFFFF'; g.shadowBlur = 30;
+      g.fillRect(250, topo - 4, 560, 8); }
+    // brilho que atravessa o E depois de cheio
+    const kb = prog(t, 2.8, 3.5);
+    if (kb > 0 && kb < 1) {
+      const x = lerp(150, 950, kb);
+      const lg = g.createLinearGradient(x - 120, 0, x + 120, 0);
+      lg.addColorStop(0, 'rgba(255,255,255,0)'); lg.addColorStop(.5, 'rgba(255,255,255,.55)');
+      lg.addColorStop(1, 'rgba(255,255,255,0)');
+      g.fillStyle = lg; g.fillRect(x - 120, 0, 240, 1024);
+    }
+    g.restore();
+  }
+  // ponto verde (o compasso) com onda de choque
+  const kv = outBack(prog(t, 2.65, 3.0), 3);
+  if (kv > 0) {
+    const kw = outCubic(prog(t, 2.65, 3.4));
+    g.strokeStyle = `rgba(88,204,2,${1 - kw})`; g.lineWidth = 10 * (1 - kw) + 1;
+    g.beginPath(); g.arc(512, 512, 22 + kw * 260, 0, 6.283); g.stroke();
+    g.fillStyle = VERDE; g.beginPath(); g.arc(512, 512, 22 * kv, 0, 6.283); g.fill();
+    g.fillStyle = '#fff'; g.beginPath(); g.arc(512, 512, 14 * kv, 0, 6.283); g.fill();
+    g.fillStyle = VERDE; g.fillRect(512 - 9 * kv, 512 - 3 * kv, 18 * kv, 6 * kv); g.fillRect(512 - 3 * kv, 512 - 9 * kv, 6 * kv, 18 * kv);
+  }
+  g.restore();
+  g.filter = 'none';
+  // nome entrando letra por letra
+  const nome = 'APP ESTUDOS';
+  g.font = fonte(76); g.textBaseline = 'alphabetic';
+  let x = 540 - g.measureText(nome).width / 2 - 20;
+  const sumir = 1 - prog(t, 3.75, 4.0);
+  for (let i = 0; i < nome.length; i++) {
+    const k = outBack(prog(t, 3.0 + i * .045, 3.35 + i * .045));
+    const w = g.measureText(nome[i]).width + 4;
+    g.globalAlpha = clamp(k) * sumir; g.fillStyle = i < 3 ? '#FFFFFF' : AMARELO;
+    g.fillText(nome[i], x, 1400 + (1 - k) * 80);
+    x += w;
+  }
+  g.globalAlpha = 1;
+  // clarão branco no fim do mergulho
+  const flash = prog(t, 4.25, 4.5);
+  if (flash > 0) { g.fillStyle = `rgba(255,255,255,${flash})`; g.fillRect(0, 0, W, H); }
+}
+
+// ---------- cena 2: tipografia cinética (4,5 a 8,6 s) ----------
+function palavra(texto, x, y, px, cor) {
+  g.font = fonte(px); g.fillStyle = cor; g.textAlign = 'center'; g.textBaseline = 'alphabetic';
+  g.fillText(texto, x, y); g.textAlign = 'left';
+}
+function tremor(t, inicio, forca) {
+  const k = prog(t, inicio, inicio + .35);
+  if (k <= 0 || k >= 1) return [0, 0];
+  const a = forca * (1 - k);
+  return [Math.sin(t * 90) * a, Math.cos(t * 77) * a];
+}
+function cenaTexto(t) {
+  fundoPapel(t);
+  const [sx, sy] = tremor(t, 5.3, 22);
+  g.save(); g.translate(sx, sy);
+  const bob = k => Math.sin(t * 2.2 + k) * 6;
+  // "O QUE" cai de cima, com rastro
+  const k1 = prog(t, 4.6, 5.0);
+  if (k1 > 0) {
+    for (let r = 3; r >= 0; r--) {
+      const kk = outBack(clamp(k1 - r * .05));
+      g.globalAlpha = r ? .12 : 1;
+      palavra('O QUE', 540, lerp(-200, 640, kk) + bob(0), 150, NAVY);
+    }
+    g.globalAlpha = 1;
+  }
+  // "MAIS" bate na tela vindo de perto
+  const k2 = prog(t, 4.95, 5.3);
+  if (k2 > 0) {
+    const s = lerp(3.4, 1, outCubic(k2));
+    g.save(); g.translate(540, 830 + bob(1)); g.scale(s, s); g.globalAlpha = clamp(k2 * 2);
+    g.shadowColor = 'rgba(8,112,222,.35)'; g.shadowBlur = 30; g.shadowOffsetY = 12;
+    palavra('MAIS', 0, 0, 240, AZUL); g.restore();
+    // anel de impacto
+    const ki = prog(t, 5.3, 5.8);
+    if (ki > 0 && ki < 1) {
+      g.strokeStyle = `rgba(8,112,222,${.5 * (1 - ki)})`; g.lineWidth = 14 * (1 - ki);
+      g.beginPath(); g.ellipse(540, 760, 260 + 300 * outCubic(ki), 120 + 160 * outCubic(ki), 0, 0, 6.283); g.stroke();
+    }
+  }
+  // "CAI NO" desliza da esquerda inclinado
+  const k3 = outExpo(prog(t, 5.4, 5.9));
+  if (k3 > 0) {
+    g.save(); g.translate(lerp(-700, 540, k3), 1010 + bob(2)); g.transform(1, 0, -.35 * (1 - k3), 1, 0, 0);
+    palavra('CAI NO', 0, 0, 150, NAVY); g.restore();
+  }
+  // marca-texto amarelo atrás de "ENEM?"
+  const km = inOutCubic(prog(t, 6.3, 6.65));
+  g.font = fonte(250);
+  const largura = g.measureText('ENEM?').width;
+  if (km > 0) {
+    g.fillStyle = AMARELO; retRedondo(540 - largura / 2 - 24, 1150 + bob(3), (largura + 48) * km, 110, 22); g.fill();
+  }
+  // "ENEM?" letra por letra, girando
+  let x = 540 - largura / 2;
+  'ENEM?'.split('').forEach((l, i) => {
+    const w = g.measureText(l).width, k = prog(t, 5.85 + i * .08, 6.25 + i * .08);
+    if (k > 0) {
+      const s = outBack(k, 2.6);
+      g.save(); g.translate(x + w / 2, 1230 + bob(3) - 90); g.rotate((1 - outCubic(k)) * -0.8); g.scale(s, s);
+      g.globalAlpha = clamp(k * 3); g.font = fonte(250); g.fillStyle = i === 4 ? AZUL : NAVY;
+      g.textAlign = 'center'; g.fillText(l, 0, 90); g.textAlign = 'left'; g.restore();
+    }
+    x += w;
+  });
+  g.globalAlpha = 1;
+  // subtítulo datilografado
+  const sub = 'Contamos as provas de 2009 a 2025';
+  const n = Math.floor(sub.length * prog(t, 6.8, 7.5));
+  if (n > 0) {
+    g.font = fonte(48); g.fillStyle = CINZA;
+    const txt = sub.slice(0, n), w = g.measureText(sub).width;
+    g.fillText(txt, 540 - w / 2, 1420);
+    if (Math.floor(t * 4) % 2 === 0 || n < sub.length)
+      g.fillRect(540 - w / 2 + g.measureText(txt).width + 6, 1380, 6, 50);
+  }
+  g.restore();
+}
+
+// ---------- cena 3: gráfico do ranking (8,6 a 15 s) ----------
+const RANKING = [['Gêneros textuais', 182], ['Interpretação de texto', 142], ['Arte e cultura', 141],
+  ['Literatura moderna', 120], ['Sociologia', 94]];
+function coroa(x, y, s) {
+  g.save(); g.translate(x, y); g.scale(s, s);
+  g.fillStyle = AMARELO; g.shadowColor = 'rgba(255,200,0,.8)'; g.shadowBlur = 20;
+  g.beginPath(); g.moveTo(-48, 30); g.lineTo(-56, -26); g.lineTo(-22, 2); g.lineTo(0, -40);
+  g.lineTo(22, 2); g.lineTo(56, -26); g.lineTo(48, 30); g.closePath(); g.fill();
+  g.shadowBlur = 0; g.fillStyle = '#fff';
+  [[-56, -26], [0, -40], [56, -26]].forEach(([a, b]) => { g.beginPath(); g.arc(a, b, 8, 0, 6.283); g.fill(); });
+  g.restore();
+}
+function cenaGrafico(t) {
+  fundoNoite(t);
+  const saida = k => inExpo(prog(t, 14.2 + k * .06, 14.75 + k * .06));
+  // título
+  const kt = outCubic(prog(t, 8.7, 9.2));
+  g.globalAlpha = kt * (1 - saida(0));
+  g.font = fonte(76); g.fillStyle = '#fff'; g.fillText('O que mais caiu', 110, 360 - (1 - kt) * 60 - saida(0) * 200);
+  g.font = fonte(40); g.fillStyle = LINHA; g.fillText('Questões do ENEM, de 2009 a 2025', 110, 425 - (1 - kt) * 60 - saida(0) * 200);
+  g.globalAlpha = 1;
+  const maximo = 860;
+  RANKING.forEach(([nome, valor], i) => {
+    const ini = 9.25 + i * .22, k = outExpo(prog(t, ini, ini + 1.2));
+    if (k <= 0) return;
+    const ks = saida(i + 1), dx = ks * 1200;
+    const y = 560 + i * 225;
+    g.globalAlpha = clamp(k * 2) * (1 - ks);
+    // posição e nome
+    g.font = fonte(46); g.fillStyle = i === 0 ? AMARELO : '#fff';
+    g.fillText(`${i + 1}º  ${nome}`, 110 + (1 - k) * -120 + dx, y);
+    // barra
+    const largura = Math.max(60, maximo * valor / 182 * k), destaque = i === 0;
+    g.save();
+    if (destaque) { g.shadowColor = 'rgba(255,200,0,' + (.35 + .3 * Math.sin(t * 6) * prog(t, 11.8, 12.2)) + ')'; g.shadowBlur = 40; }
+    const gr = g.createLinearGradient(110, 0, 110 + largura, 0);
+    gr.addColorStop(0, destaque ? LARANJA : AZUL); gr.addColorStop(1, destaque ? AMARELO : AZUL_CLARO);
+    g.fillStyle = gr; retRedondo(110 + dx, y + 28, largura, 92, 46); g.fill();
+    g.restore();
+    // brilho que passa na barra
+    const kb = prog(t, 10.8 + i * .12, 11.5 + i * .12);
+    if (kb > 0 && kb < 1) {
+      g.save(); retRedondo(110 + dx, y + 28, largura, 92, 46); g.clip();
+      const bx = 110 + lerp(-150, largura + 150, kb);
+      const lg = g.createLinearGradient(bx - 90, 0, bx + 90, 0);
+      lg.addColorStop(0, 'rgba(255,255,255,0)'); lg.addColorStop(.5, 'rgba(255,255,255,.6)'); lg.addColorStop(1, 'rgba(255,255,255,0)');
+      g.fillStyle = lg; g.fillRect(bx - 90 + dx, y + 28, 180, 92); g.restore();
+    }
+    // número contando
+    g.font = fonte(54); g.fillStyle = destaque ? NAVY : '#fff';
+    const num = String(Math.round(valor * k)), wn = g.measureText(num).width;
+    g.fillText(num, 110 + largura - wn - 34 + dx, y + 94);
+    g.globalAlpha = 1;
+  });
+  // coroa cai na barra campeã e soltam faíscas
+  const kc = prog(t, 11.75, 12.35);
+  if (kc > 0) {
+    const ks = saida(1);
+    const cx = 110 + maximo - 70 + ks * 1200, cy = lerp(200, 520, outBounce(kc));
+    g.globalAlpha = 1 - ks; coroa(cx, cy, 1.1); g.globalAlpha = 1;
+    const kf = prog(t, 12.1, 12.9);
+    if (kf > 0 && kf < 1) {
+      for (let i = 0; i < 12; i++) {
+        const a = i / 12 * 6.283, d = 40 + 160 * outCubic(kf);
+        g.fillStyle = `rgba(255,220,80,${1 - kf})`;
+        g.save(); g.translate(cx + Math.cos(a) * d, cy + Math.sin(a) * d); g.rotate(a + kf * 3);
+        g.fillRect(-4, -14, 8, 28); g.fillRect(-14, -4, 28, 8); g.restore();
+      }
+    }
+  }
+}
+
+// ---------- cena 4: card de quiz com cronômetro e confete (15 a 21,4 s) ----------
+const ALTERNATIVAS = ['Interpretação de texto', 'Literatura', 'Gramática', 'Gêneros textuais', 'Arte e cultura'];
+const CERTA = 3, T_RESPOSTA = 19.8;
+const RC = aleatorio(42);
+const CONFETE = Array.from({ length: 170 }, () => {
+  const a = -Math.PI / 2 + (RC() - .5) * 2.6, v = 900 + RC() * 1300;
+  return { vx: Math.cos(a) * v, vy: Math.sin(a) * v, r: RC() * 6.28, vr: (RC() - .5) * 18,
+    cor: [AMARELO, VERDE, AZUL_CLARO, '#FFFFFF', LARANJA, VERMELHO][Math.floor(RC() * 6)],
+    w: 12 + RC() * 14, h: 8 + RC() * 10, forma: RC() < .3 };
+});
+function cenaQuiz(t) {
+  fundoNoite(t);
+  const implode = inExpo(prog(t, 20.9, 21.45));
+  g.save();
+  g.translate(540, 900); g.rotate(implode * .5); g.scale(1 - implode, 1 - implode); g.translate(-540, -900);
+  // selo
+  const kp = outBack(prog(t, 15.25, 15.6), 2.5);
+  if (kp > 0) {
+    g.save(); g.translate(250, 345); g.scale(kp, kp);
+    g.fillStyle = AMARELO; retRedondo(-140, -32, 280, 64, 32); g.fill();
+    g.font = fonte(30); g.fillStyle = NAVY; g.textAlign = 'center'; g.fillText('PERGUNTA 1/5', 0, 11);
+    g.textAlign = 'left'; g.restore();
+  }
+  // card virando
+  const kc = prog(t, 15.0, 15.65);
+  if (kc > 0) {
+    const sx = outBack(kc, 1.4);
+    g.save(); g.translate(540, 560); g.scale(Math.max(.001, sx), 1);
+    g.fillStyle = 'rgba(0,0,0,.25)'; retRedondo(-430, -130, 860, 290, 40); g.fill();
+    g.fillStyle = '#fff'; retRedondo(-430, -150, 860, 290, 40); g.fill();
+    if (sx < .95) { g.fillStyle = `rgba(12,22,56,${(1 - sx) * .6})`; retRedondo(-430, -150, 860, 290, 40); g.fill(); }
+    g.restore();
+    // pergunta palavra por palavra
+    const linhas = [['Qual', 'assunto', 'mais'], ['caiu', 'no', 'ENEM?']];
+    g.font = fonte(64); let n = 0;
+    linhas.forEach((ps, li) => {
+      let x = 160;
+      ps.forEach(p => {
+        const k = outCubic(prog(t, 15.5 + n * .07, 15.85 + n * .07));
+        g.globalAlpha = k; g.fillStyle = p === 'ENEM?' ? AZUL : NAVY;
+        g.fillText(p, x, 530 + li * 86 + (1 - k) * 30); x += g.measureText(p + ' ').width; n++;
+      });
+    });
+    g.globalAlpha = 1;
+  }
+  // cronômetro em anel
+  const kt = prog(t, 16.6, 16.9);
+  if (kt > 0) {
+    const restante = clamp((T_RESPOSTA - t) / 3);
+    const urgente = t > T_RESPOSTA - 1 && t < T_RESPOSTA;
+    const tx = 880 + (urgente ? Math.sin(t * 70) * 6 : 0), ty = 410;
+    g.save(); g.translate(tx, ty); g.scale(outBack(kt, 2.5), outBack(kt, 2.5));
+    g.fillStyle = NAVY; g.beginPath(); g.arc(0, 0, 70, 0, 6.283); g.fill();
+    g.strokeStyle = 'rgba(255,255,255,.15)'; g.lineWidth = 12; g.beginPath(); g.arc(0, 0, 56, 0, 6.283); g.stroke();
+    g.strokeStyle = urgente ? VERMELHO : AMARELO; g.lineCap = 'round';
+    g.beginPath(); g.arc(0, 0, 56, -Math.PI / 2, -Math.PI / 2 + 6.283 * restante); g.stroke();
+    if (t < T_RESPOSTA) {
+      const num = Math.ceil(T_RESPOSTA - t), fr = (T_RESPOSTA - t) % 1;
+      const pulso = 1 + .25 * Math.pow(fr, 6);
+      g.scale(pulso, pulso); g.font = fonte(62); g.fillStyle = urgente ? VERMELHO : '#fff';
+      g.textAlign = 'center'; g.fillText(String(Math.min(3, num)), 0, 22); g.textAlign = 'left';
+    } else {
+      g.fillStyle = VERDE; g.beginPath(); g.arc(0, 0, 56, 0, 6.283); g.fill();
+      g.strokeStyle = '#fff'; g.lineWidth = 12; g.beginPath(); g.moveTo(-24, 2); g.lineTo(-6, 20); g.lineTo(26, -18); g.stroke();
+    }
+    g.restore();
+  }
+  // alternativas em cascata
+  const revelado = prog(t, T_RESPOSTA, T_RESPOSTA + .25);
+  ALTERNATIVAS.forEach((alt, i) => {
+    const k = outExpo(prog(t, 15.95 + i * .09, 16.55 + i * .09));
+    if (k <= 0) return;
+    const y = 790 + i * 136, certa = i === CERTA;
+    const pulo = certa ? 1 + .07 * Math.sin(Math.PI * prog(t, T_RESPOSTA, T_RESPOSTA + .4)) : 1;
+    g.save(); g.translate(110 + (1 - k) * 800 + 375, y + 56); g.scale(pulo, pulo); g.translate(-375, -56);
+    g.globalAlpha = certa ? 1 : 1 - .62 * revelado;
+    g.fillStyle = certa && revelado ? misturaCor('#B4C3DC', '#3E9A00', revelado) : 'rgba(180,195,220,1)';
+    retRedondo(0, 8, 750, 112, 30); g.fill();
+    g.fillStyle = certa && revelado ? misturaCor('#FFFFFF', '#58CC02', revelado) : '#FFFFFF';
+    retRedondo(0, 0, 750, 112, 30); g.fill();
+    g.fillStyle = certa && revelado ? '#fff' : AZUL; g.beginPath(); g.arc(66, 56, 34, 0, 6.283); g.fill();
+    g.font = fonte(38); g.textAlign = 'center'; g.fillStyle = certa && revelado ? VERDE : '#fff';
+    g.fillText('ABCDE'[i], 66, 70); g.textAlign = 'left';
+    g.font = fonte(44); g.fillStyle = certa && revelado ? '#fff' : NAVY; g.fillText(alt, 124, 72);
+    if (certa) {
+      const kv = prog(t, T_RESPOSTA + .1, T_RESPOSTA + .45);
+      if (kv > 0) {
+        g.strokeStyle = '#fff'; g.lineWidth = 11; g.lineCap = 'round';
+        g.setLineDash([120, 120]); g.lineDashOffset = 120 * (1 - kv);
+        g.beginPath(); g.moveTo(668, 58); g.lineTo(688, 78); g.lineTo(720, 38); g.stroke(); g.setLineDash([]);
+      }
+    }
+    g.restore();
+  });
+  g.globalAlpha = 1;
+  g.restore();
+  // confete com física (gravidade, giro e resistência do ar)
+  const tc = t - T_RESPOSTA;
+  if (tc > 0 && tc < 2.2) {
+    const ox = 485, oy = 790 + CERTA * 136 + 56;
+    CONFETE.forEach(p => {
+      const amort = (1 - Math.exp(-2.2 * tc)) / 2.2;
+      const x = ox + p.vx * amort, y = oy + p.vy * amort + 900 * tc * tc;
+      g.save(); g.translate(x, y); g.rotate(p.r + p.vr * tc); g.scale(1, Math.cos(tc * 8 + p.r));
+      g.globalAlpha = clamp(2.2 - tc); g.fillStyle = p.cor;
+      if (p.forma) { g.beginPath(); g.arc(0, 0, p.h * .6, 0, 6.283); g.fill(); }
+      else g.fillRect(-p.w / 2, -p.h / 2, p.w, p.h);
+      g.restore();
+    });
+    g.globalAlpha = 1;
+  }
+  // "+1 acerto" subindo
+  const ka = prog(t, T_RESPOSTA + .2, T_RESPOSTA + 1.1);
+  if (ka > 0 && ka < 1) {
+    g.globalAlpha = Math.sin(Math.PI * ka); g.font = fonte(56); g.fillStyle = VERDE;
+    g.textAlign = 'center'; g.fillText('+1 ACERTO', 540, 1560 - 120 * outCubic(ka)); g.textAlign = 'left';
+    g.globalAlpha = 1;
+  }
+}
+
+// ---------- cena 5: final com a marca (21,2 a 25 s) ----------
+function cenaFinal(t) {
+  fundoPapel(t);
+  const cx = 540, cy = 800;
+  // ondas saindo da logo
+  for (let i = 0; i < 3; i++) {
+    const k = prog(t, 21.6 + i * .25, 23.0 + i * .25);
+    if (k > 0 && k < 1) {
+      g.strokeStyle = `rgba(8,112,222,${.4 * (1 - k)})`; g.lineWidth = 6;
+      g.beginPath(); g.arc(cx, cy, 230 + 380 * outCubic(k), 0, 6.283); g.stroke();
+    }
+  }
+  // partículas orbitando
+  const ko = prog(t, 22.0, 22.6);
+  if (ko > 0) {
+    [AMARELO, VERDE, AZUL_CLARO, LARANJA, AZUL, VERMELHO].forEach((cor, i) => {
+      const a = t * 1.3 + i * 6.283 / 6, r = 330 * outCubic(ko);
+      const x = cx + Math.cos(a) * r, y = cy + Math.sin(a) * r * .42, z = (Math.sin(a) + 1) / 2;
+      g.globalAlpha = ko; g.fillStyle = cor;
+      g.beginPath(); g.arc(x, y, 10 + 10 * z, 0, 6.283); g.fill();
+    });
+    g.globalAlpha = 1;
+  }
+  // logo com mola
+  const kl = outElastic(prog(t, 21.35, 22.5));
+  if (kl > 0) {
+    const s = 440 * kl;
+    g.save(); g.translate(cx, cy + Math.sin(t * 2) * 8); g.rotate((1 - clamp(kl)) * .6);
+    g.shadowColor = 'rgba(8,60,140,.35)'; g.shadowBlur = 50; g.shadowOffsetY = 24;
+    retRedondo(-s / 2, -s / 2, s, s, s * .22); g.fillStyle = '#fff'; g.fill();
+    g.shadowColor = 'transparent'; g.clip(); g.drawImage(LOGO, -s / 2, -s / 2, s, s); g.restore();
+  }
+  // nome
+  const partes = [['App ', NAVY], ['Estudos', AZUL]];
+  g.font = fonte(104);
+  const total = g.measureText('App Estudos').width;
+  let x = cx - total / 2, n = 0;
+  partes.forEach(([txt, cor]) => txt.split('').forEach(l => {
+    const k = outBack(prog(t, 21.9 + n * .04, 22.3 + n * .04));
+    g.globalAlpha = clamp(k); g.fillStyle = cor; g.fillText(l, x, 1210 + (1 - clamp(k)) * 60);
+    x += g.measureText(l).width; n++;
+  }));
+  g.globalAlpha = 1;
+  const ks = outCubic(prog(t, 22.5, 22.9));
+  g.globalAlpha = ks; g.font = fonte(44); g.fillStyle = CINZA; g.textAlign = 'center';
+  g.fillText('5 perguntas  •  5 segundos', cx, 1290 + (1 - ks) * 30); g.textAlign = 'left'; g.globalAlpha = 1;
+  // botão crescendo, pulsando e com brilho passando
+  const kb = outBack(prog(t, 22.8, 23.2), 2);
+  if (kb > 0) {
+    const pulso = 1 + .035 * Math.sin(Math.max(0, t - 23.2) * 6);
+    const bw = 820, bh = 124;
+    g.save(); g.translate(cx, 1440); g.scale(kb * pulso, pulso);
+    g.fillStyle = '#0654AA'; retRedondo(-bw / 2, -bh / 2 + 10, bw, bh, bh / 2); g.fill();
+    const gr = g.createLinearGradient(0, -bh / 2, 0, bh / 2);
+    gr.addColorStop(0, '#2896F5'); gr.addColorStop(1, AZUL);
+    g.fillStyle = gr; retRedondo(-bw / 2, -bh / 2, bw, bh, bh / 2); g.fill();
+    const kg = prog(t, 23.5, 24.1);
+    if (kg > 0 && kg < 1) {
+      g.save(); retRedondo(-bw / 2, -bh / 2, bw, bh, bh / 2); g.clip();
+      const gx = lerp(-bw / 2 - 100, bw / 2 + 100, kg);
+      g.fillStyle = 'rgba(255,255,255,.35)'; g.beginPath();
+      g.moveTo(gx - 40, -bh / 2); g.lineTo(gx + 30, -bh / 2); g.lineTo(gx - 10, bh / 2); g.lineTo(gx - 80, bh / 2); g.fill();
+      g.restore();
+    }
+    g.font = fonte(46); g.fillStyle = '#fff'; g.textAlign = 'center';
+    g.fillText('SIGA PARA O PRÓXIMO TESTE', 0, 16); g.textAlign = 'left';
+    g.restore();
+  }
+}
+
+// ---------- montagem das cenas e transições ----------
+function circuloRecortado(x, y, r, desenhar) {
+  g.save(); g.beginPath(); g.arc(x, y, Math.max(0, r), 0, 6.283); g.clip(); desenhar(); g.restore();
+}
+window.render = function (t) {
+  g.setTransform(1, 0, 0, 1, 0, 0); g.globalAlpha = 1; g.filter = 'none';
+  g.clearRect(0, 0, W, H);
+  if (t < 4.5) cenaLogo(t);
+  else if (t < 8.0) {
+    cenaTexto(t);
+    const kb = 1 - prog(t, 4.5, 4.8);  // o clarão branco se desfaz
+    if (kb > 0) { g.fillStyle = `rgba(255,255,255,${kb})`; g.fillRect(0, 0, W, H); }
+  } else if (t < 8.75) {
+    // transição: círculo azul-noite crescendo a partir do "ENEM?"
+    cenaTexto(t);
+    const r = inOutCubic(prog(t, 8.0, 8.75)) * 2300;
+    circuloRecortado(540, 1180, r, () => cenaGrafico(t));
+    g.strokeStyle = AMARELO; g.lineWidth = 18; g.beginPath(); g.arc(540, 1180, r, 0, 6.283); g.stroke();
+  } else if (t < 14.95) cenaGrafico(t);
+  else if (t < 21.2) cenaQuiz(t);
+  else {
+    cenaQuiz(t);
+    const r = outCubic(prog(t, 21.2, 21.75)) * 2300;
+    circuloRecortado(540, 900, r, () => cenaFinal(t));
+  }
+};
+window.pronto = Promise.all([document.fonts.load(fonte(40)), document.fonts.load(fonte(40, 'Mont')),
+  LOGO.decode()]).then(() => document.fonts.ready);
+</script>
+</body></html>
