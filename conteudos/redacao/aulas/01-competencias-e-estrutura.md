@@ -29,7 +29,7 @@ Repare: os temas tratam de **grupos vulneráveis**, **direitos**, **cidadania** 
 
 ### As cinco competências
 
-**Competência 1: domínio da norma-padrão.** Avalia ortografia, acentuação, concordância, regência, crase, pontuação, colocação pronominal, a construção correta das frases (sem frases truncadas ou mal estruturadas) e a escolha de **registro formal** (sem gírias e marcas de oralidade). Para 200 pontos, admitem-se no máximo uma falha de estrutura sintática e duas desvios gramaticais.
+**Competência 1: domínio da norma-padrão.** Avalia ortografia, acentuação, concordância, regência, crase, pontuação, colocação pronominal, a construção correta das frases (sem frases truncadas ou mal estruturadas) e a escolha de **registro formal** (sem gírias e marcas de oralidade). Para 200 pontos, admitem-se no máximo uma falha de estrutura sintática e dois desvios gramaticais.
 
 **Competência 2: compreender a proposta, usar repertório e o tipo dissertativo-argumentativo.** Avalia três coisas:
 
