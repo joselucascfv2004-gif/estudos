@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A pesquisa aplicada prepara o estudante para o TCC e para entender os estudos que orientam a profissão. Esta aula apresenta as grandes linhas de pesquisa em contabilidade (normativa, positiva, mercado de capitais, comportamental, qualitativa), as teorias mais usadas (agência, institucional, legitimidade, sinalização, contingência), os temas atuais, os instrumentos de investigação e os cuidados de rigor e ética.
+
 ### A contabilidade como ciência
 
 A contabilidade é uma **ciência social aplicada**. Seu objeto é o **patrimônio** das entidades e suas variações. Ela envolve **julgamento** (estimativas, valor justo, provisões) e influencia o comportamento: o que se mede e se recompensa tende a ser priorizado. Por isso a pesquisa contábil usa métodos da economia, da estatística, da psicologia e da sociologia.
@@ -65,3 +69,30 @@ A contabilidade é uma **ciência social aplicada**. Seu objeto é o **patrimôn
 ### Desafios da contabilidade
 
 A automação reduz as tarefas repetitivas e aumenta a demanda por **análise, julgamento, ética, comunicação e conhecimento do negócio**. A pesquisa aplicada ajuda a profissão a se adaptar, avaliando os efeitos das normas, das tecnologias e das mudanças tributárias.
+
+### Erros mais comuns
+
+- Confundir pesquisa normativa (como deveria ser) com positiva (explica e prevê o que acontece).
+- Confundir gerenciamento de resultados (escolhas dentro das normas) com fraude contábil.
+- Tirar conclusões causais de simples correlações.
+- Elaborar questionários com perguntas que induzem a resposta.
+- Generalizar resultados de amostras não probabilísticas sem apontar as limitações.
+
+### Teste-se
+
+1. Quem são os autores associados à teoria positiva da contabilidade?
+2. Que teoria explica a adoção de práticas para ganhar legitimidade perante a sociedade?
+3. O que é value relevance?
+4. Por que "Você não acha que o sistema foi um sucesso?" é uma pergunta inadequada?
+5. Que cuidados éticos se exigem numa pesquisa com pessoas?
+
+> **Respostas.** 1) **Watts e Zimmerman**. 2) A **teoria institucional** (e a da legitimidade). 3) A associação entre os **números contábeis** e os **preços** ou retornos das ações. 4) Porque é **indutiva**: sugere a resposta. 5) **Consentimento informado**, **anonimato**, **sigilo** e o **direito de desistir** (Resolução CNS 510/2016).
+
+### Para lembrar
+
+- Linhas: normativa, positiva, mercado de capitais, comportamental, qualitativa e crítica.
+- Teorias: agência, institucional, legitimidade, stakeholders, sinalização, contingência.
+- Temas: IFRS e qualidade da informação, gerenciamento de resultados, sustentabilidade (IFRS S1 e S2), reforma tributária, tecnologia, governança.
+- Instrumentos: questionários, entrevistas, análise documental, bases de dados.
+- Rigor: validade, confiabilidade, triangulação; correlação não é causalidade; limitações da amostra.
+- Ética: consentimento, anonimato, sigilo, desistência.

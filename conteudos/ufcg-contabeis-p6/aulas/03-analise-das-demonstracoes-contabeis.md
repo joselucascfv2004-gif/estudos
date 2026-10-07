@@ -114,3 +114,31 @@ A análise transforma as demonstrações em respostas para decisões. Cada usuá
   - explicar as causas das variações;
   - comparar com o setor;
   - apontar riscos e recomendações.
+
+### Erros mais comuns
+
+- Concluir sobre a saúde da empresa com um único índice ou um único ano.
+- Esquecer de reclassificar as duplicatas descontadas para o passivo.
+- Achar que liquidez corrente acima de 1 garante que a empresa paga em dia (os índices são estáticos e não mostram os prazos).
+- Confundir ROA (sobre o ativo) com ROE (sobre o patrimônio líquido).
+- Ignorar que lucro não é caixa: uma empresa lucrativa pode quebrar por falta de capital de giro.
+
+### Teste-se
+
+1. AC de R$ 300.000, estoques de R$ 120.000 e PC de R$ 200.000. Calcule as liquidezes corrente e seca.
+2. Margem líquida de 5% e giro do ativo de 3. Qual o ROA?
+3. PMRE de 40 dias, PMRV de 50 dias e PMPC de 30 dias. Quais os ciclos operacional e financeiro?
+4. NCG de R$ 150.000 e CDG de R$ 100.000. Qual o saldo de tesouraria e o que ele indica?
+5. ROA de 12% e ativo total igual a 2 vezes o PL. Qual o ROE (pela fórmula Du Pont)?
+
+> **Respostas.** 1) Corrente = **1,5**; seca = 180.000 ÷ 200.000 = **0,9**. 2) 5% × 3 = **15%**. 3) Operacional = 40 + 50 = **90 dias**; financeiro = 90 − 30 = **60 dias**. 4) T = 100.000 − 150.000 = **−R$ 50.000**: a empresa financia parte da sua necessidade de giro com **empréstimos de curto prazo**. 5) 12% × 2 = **24%**.
+
+### Para lembrar
+
+- Ajustes: duplicatas descontadas no passivo; operacional × financeiro; saldos médios; notas explicativas.
+- Análise horizontal (tempo) e vertical (estrutura).
+- Liquidez: corrente, seca, imediata, geral.
+- Estrutura: participação de terceiros, endividamento, composição, imobilização do PL, cobertura de juros.
+- Rentabilidade: margens, giro, ROA = margem × giro, ROE = ROA × alavancagem (Du Pont).
+- Prazos: PMRE, PMRV, PMPC; ciclo operacional e financeiro.
+- Fleuriet: CCL, NCG, CDG, T; efeito tesoura. Alavancagem operacional e financeira. Lucro × caixa; EBITDA.

@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O laboratório de auditoria leva a teoria para o trabalho de campo: avaliar controles internos, montar o programa de auditoria, conferir balancetes, livros fiscais, folha, bancos, estoques, imobilizado, fornecedores e receitas, aplicar amostragem e emitir o relatório e a carta de recomendações. É uma prática muito próxima do dia a dia de quem trabalha em firmas de auditoria ou em auditoria interna.
+
 ### Da teoria ao campo
 
 Na Auditoria Contábil você aprendeu as normas. Aqui o foco é **executar**:
@@ -81,3 +85,29 @@ A **receita** recebe atenção especial, porque há risco presumido de fraude no
   - efeito preventivo contra fraudes;
   - melhoria contínua dos processos.
 - **Responsabilidade:** as demonstrações continuam sendo responsabilidade da **administração**.
+
+### Erros mais comuns
+
+- Confiar nos controles sem testá-los quando a taxa de desvio supera o tolerável.
+- Testar só os itens pequenos e deixar de fora os itens-chave (valores altos e de alto risco).
+- Não fazer a **busca de passivos não registrados** depois da data do balanço.
+- Reconhecer a receita pela emissão da nota, e não pela transferência do controle (problemas de **corte**).
+- Esquecer de projetar para a população a distorção encontrada na amostra.
+
+### Teste-se
+
+1. O que é um walkthrough?
+2. Em 50 autorizações testadas, 4 estavam sem aprovação, e o desvio tolerável é de 5%. O auditor pode confiar no controle?
+3. Que procedimento busca passivos que a empresa não registrou?
+4. Numa amostra de R$ 200.000, foram achados R$ 3.000 de distorção. Qual a distorção projetada para uma população de R$ 2.000.000?
+5. O que é a carta de representação?
+
+> **Respostas.** 1) **Seguir uma transação** do início ao fim (do pedido ao registro e ao pagamento) para entender o processo e os controles. 2) **Não**: a taxa de desvio é de **8%**, acima dos 5% toleráveis; é preciso ampliar os testes substantivos. 3) A **busca de passivos não registrados**: examinar pagamentos e notas posteriores ao balanço. 4) 3.000 ÷ 200.000 = 1,5%; projeção = **R$ 30.000**. 5) Uma **declaração escrita** da administração confirmando informações e responsabilidades relativas às demonstrações.
+
+### Para lembrar
+
+- Controles: questionários, fluxogramas, walkthrough, testes de controle, taxa de desvio; deficiências comunicadas por escrito.
+- Programa de auditoria por área.
+- Conferências: balancete, fiscal, folha, bancos, estoques (custo × VRL), imobilizado, fornecedores (passivos não registrados), receitas (corte), lançamentos manuais.
+- Amostragem: sistemática, por unidade monetária, itens-chave, projeção, análise de 100% dos dados.
+- Fechamento: carta de representação, avaliação das distorções, relatório e carta de recomendações.

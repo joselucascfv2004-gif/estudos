@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O projeto de pesquisa é o primeiro passo do TCC: ele define o tema, o problema, os objetivos, a justificativa, o método e o cronograma. Um projeto bem feito economiza meses de trabalho e evita pesquisas sem foco. Esta aula revisa o que é pesquisa científica, como encaminhar um estudo, os tipos de trabalho acadêmico e, principalmente, as normas da ABNT para estrutura, formatação, citações e referências, além das regras de integridade acadêmica (incluindo o uso de inteligência artificial).
+
 ### Ciência e pesquisa
 
 A ciência produz conhecimento **objetivo, sistemático, verificável e comunicável**. A pesquisa é o caminho organizado para responder a um problema. No curso, ela se concretiza no **Trabalho de Curso (TC)**, que começa com o **projeto**.
@@ -71,3 +75,31 @@ A ciência produz conhecimento **objetivo, sistemático, verificável e comunic�
 - **Plágio:** inclui parafrasear sem citar.
 - **Inteligência artificial:** siga as regras da instituição e declare o uso. A responsabilidade pelo texto é do autor.
 - **Resultados contrários:** relate com honestidade. Manipular dados é fraude.
+
+### Erros mais comuns
+
+- Escrever o projeto no passado (o projeto planeja; usa o **futuro**).
+- Esquecer a página nas citações diretas.
+- Listar nas referências obras não citadas no texto, ou citar obras que não aparecem nas referências.
+- Usar margens e espaçamentos errados (3 cm à esquerda e em cima, 2 cm à direita e embaixo; espaço 1,5).
+- Usar textos gerados por IA sem declarar e sem conferir as fontes (a responsabilidade é do autor).
+
+### Teste-se
+
+1. Quais as margens de um trabalho acadêmico pela NBR 14724?
+2. Como se faz uma citação direta curta no sistema autor-data?
+3. A partir de onde aparecem os números das páginas?
+4. Quantas palavras deve ter o resumo de um TCC?
+5. Parafrasear um autor sem citá-lo é plágio?
+
+> **Respostas.** 1) **3 cm** à esquerda e em cima; **2 cm** à direita e embaixo. 2) **Entre aspas**, no texto, com autor, ano e **página**: (Silva, 2020, p. 15). 3) A partir da **introdução** (a contagem começa na folha de rosto). 4) De **150 a 500 palavras**. 5) **Sim**.
+
+### Para lembrar
+
+- Pesquisa: tema → problema → objetivos → justificativa → referencial → método → cronograma.
+- Trabalhos: projeto, TCC, dissertação, tese, relatório, artigo.
+- Estrutura: pré-textuais, textuais, pós-textuais (referências, apêndices do autor, anexos de terceiros).
+- Formatação: A4, margens 3/2 cm, fonte 12, espaço 1,5, seções numeradas, tabelas com fonte.
+- Citações (NBR 10520): autor-data; direta curta com aspas; longa com recuo de 4 cm; indireta; apud.
+- Referências (NBR 6023): ordem alfabética, modelos de livro, artigo e lei.
+- Integridade: plágio, uso declarado de IA, honestidade nos resultados.

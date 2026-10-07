@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O laboratório de contabilidade financeira percorre, na prática, todo o ciclo contábil de uma empresa: da constituição e integralização do capital, passando pela escrituração integrada das operações fiscais, de pessoal e bancárias, pelos ajustes de fim de período, até o balancete, a apuração e destinação do resultado, o LALUR e a elaboração das demonstrações. É a disciplina que junta tudo o que foi aprendido nos períodos anteriores.
+
 ### Do contrato social ao balanço
 
 Este laboratório simula a vida contábil de uma empresa, da abertura às demonstrações:
@@ -80,3 +84,31 @@ Este laboratório simula a vida contábil de uma empresa, da abertura às demons
 - **Notas explicativas:** políticas contábeis, contingências, garantias e eventos subsequentes (CPC 26).
 
 > **Exemplo resolvido.** Lucro de 80.000 + depreciação de 14.000 − ganho de 6.000 − aumento de clientes de 20.000 + aumento de fornecedores de 8.000 + redução de estoques de 5.000 = FCO de **81.000**.
+
+### Erros mais comuns
+
+- Registrar o capital não integralizado como se tivesse entrado no caixa (ele fica em **capital a integralizar**, redutora do PL).
+- Ativar gastos pré-operacionais (hoje são despesa).
+- Lançar a despesa de salários de novo no pagamento (a despesa já foi reconhecida na folha).
+- Achar que o balancete fechado garante que não há erros (ele não detecta conta errada, omissão ou lançamento duplicado nos dois lados).
+- Compensar prejuízos fiscais acima de **30%** do lucro real ajustado.
+
+### Teste-se
+
+1. Uma empresa é constituída com capital de R$ 200.000, dos quais R$ 150.000 entram em dinheiro. Qual o lançamento?
+2. Extrato bancário de R$ 30.000; cheques emitidos não compensados de R$ 5.000; depósito em trânsito de R$ 2.000. Qual o saldo ajustado?
+3. Lucro de R$ 300.000, reserva legal de 5% e dividendo mínimo de 25% (estatuto). Qual o dividendo?
+4. Lucro contábil de R$ 200.000, adições de R$ 40.000, exclusões de R$ 20.000 e prejuízo fiscal a compensar de R$ 100.000. Quanto se pode compensar?
+5. No método indireto da DFC, o aumento de clientes soma ou subtrai do lucro?
+
+> **Respostas.** 1) **D – Caixa 150.000; D – Capital a integralizar 50.000; C – Capital social 200.000**. 2) 30.000 − 5.000 + 2.000 = **R$ 27.000**. 3) Reserva legal 15.000; base 285.000; 25% = **R$ 71.250**. 4) Lucro ajustado = 220.000; limite de 30% = **R$ 66.000**. 5) **Subtrai** (a venda foi reconhecida, mas o dinheiro ainda não entrou).
+
+### Para lembrar
+
+- Ciclo: constituição → lançamentos → ajustes → balancete → apuração → LALUR → demonstrações.
+- Capital subscrito × integralizado; gastos pré-operacionais como despesa.
+- Integração fiscal, pessoal e bancos; conciliação; desconto de duplicatas com regresso.
+- Ajustes: PECLD, depreciação, amortização, exaustão, competência.
+- ARE e destinação (reserva legal, contingências, dividendos).
+- LALUR: Parte A (adições, exclusões, compensação até 30%) e Parte B.
+- BP, DRE, DFC (indireta), DMPL, notas explicativas.

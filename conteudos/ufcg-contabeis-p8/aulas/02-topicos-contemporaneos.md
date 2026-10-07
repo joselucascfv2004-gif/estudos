@@ -84,3 +84,31 @@ As cinco etapas:
   - **NBC TG 1000** para PMEs;
   - **ITG 1000** para micro e pequenas empresas;
   - normas completas para companhias abertas e sociedades de grande porte.
+
+### Erros mais comuns
+
+- Reconhecer toda a receita de um pacote (produto + serviço) na entrega do produto (cada obrigação de desempenho tem sua receita).
+- Tratar a garantia legal como obrigação de desempenho (ela é **provisão**; só a garantia estendida vendida à parte é obrigação de desempenho).
+- Deixar os arrendamentos fora do balanço do arrendatário (exceto as isenções de curto prazo e baixo valor).
+- Achar que a IFRS 18 muda o lucro (ela muda a **apresentação** da DRE).
+- Achar que o IBS e a CBS são cumulativos ou cobrados na origem (são **não cumulativos** e cobrados no **destino**).
+
+### Teste-se
+
+1. Quais são os cinco passos do CPC 47?
+2. Equipamento e manutenção vendidos juntos por R$ 90.000; preços individuais de R$ 80.000 e R$ 20.000. Quanto vai para o equipamento?
+3. O que o arrendatário reconhece no início de um arrendamento de 3 anos?
+4. Quais são os quatro pilares de divulgação das IFRS S1 e S2?
+5. O que é split payment na reforma tributária?
+
+> **Respostas.** 1) Identificar o **contrato**; identificar as **obrigações de desempenho**; determinar o **preço**; **alocar** o preço; reconhecer a receita quando (ou à medida que) cada obrigação for **satisfeita**. 2) 90.000 × 80/100 = **R$ 72.000**. 3) Um **ativo de direito de uso** e um **passivo de arrendamento**, pelo valor presente dos pagamentos. 4) **Governança, estratégia, gestão de riscos, métricas e metas**. 5) A **separação automática** do tributo no momento do pagamento, que vai direto ao fisco.
+
+### Para lembrar
+
+- CPC 47: cinco passos; garantia legal (provisão) × estendida (obrigação de desempenho); receita ao longo do tempo pela medida de progresso.
+- CPC 06: direito de uso + passivo; isenções; variáveis ao resultado.
+- CPC 48: classificação e perda esperada em três estágios.
+- IFRS 18 (2027): categorias na DRE e medidas definidas pela administração.
+- IFRS S1 e S2: quatro pilares, materialidade financeira; no Brasil, CBPS e CVM 193/2023.
+- Reforma: CBS + IBS, Imposto Seletivo, split payment, transição até 2033; Pilar Dois (mínimo global de 15%).
+- Tecnologia: SPED, XBRL, RPA, IA. Internacional: IASB × FASB; CPC 02; normas por porte.

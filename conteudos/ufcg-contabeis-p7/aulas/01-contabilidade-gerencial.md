@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A contabilidade gerencial produz informação para **quem decide dentro da empresa**: orçamentos, análise de variações, indicadores de desempenho, preços de transferência e gestão de estoques. É aqui que o contador atua como controller, ajudando a planejar, acompanhar e corrigir o rumo do negócio. Esta aula trata das diferenças em relação à contabilidade financeira, do orçamento-mestre, da análise de variações, da controladoria, dos centros de responsabilidade e indicadores (ROI, lucro residual, EVA, BSC) e da gestão de estoques.
+
 ### Contabilidade para quem decide
 
 - **Usuário:** a contabilidade financeira atende usuários externos; a **gerencial**, a administração.
@@ -81,3 +85,30 @@ O orçamento-mestre é montado em sequência:
 - **Just in time:** estoques mínimos, fornecedores confiáveis e qualidade.
 
 > **Exemplo resolvido.** D = 10.000, pedido = 50 e manutenção = 4. LEC = **500** unidades.
+
+### Erros mais comuns
+
+- Avaliar um gestor por custos ou receitas que ele não controla.
+- Comparar o realizado com o orçamento estático quando o volume mudou (use o **flexível**).
+- Achar que um ROI alto sempre indica boa gestão (o ROI pode levar o gestor a rejeitar projetos que superam o custo de capital, mas reduzem seu ROI médio).
+- Confundir o controller (assessoria, staff) com um gestor de linha que manda nas áreas.
+- Usar o lote econômico sem considerar a falta de estoque e a qualidade dos fornecedores.
+
+### Teste-se
+
+1. Vendas previstas de 2.000 unidades, estoque inicial de 300 e final desejado de 250. Quanto produzir?
+2. Lucro de R$ 240.000, investimento de R$ 2.000.000 e taxa mínima de 10%. Calcule o ROI e o lucro residual.
+3. NOPAT de R$ 500.000, capital de R$ 3.000.000 e WACC de 14%. Qual o EVA?
+4. Qual o preço de transferência mínimo quando a divisão vendedora tem capacidade ociosa?
+5. Quais as perspectivas do Balanced Scorecard?
+
+> **Respostas.** 1) 2.000 + 250 − 300 = **1.950 unidades**. 2) ROI = **12%**; lucro residual = 240.000 − 200.000 = **R$ 40.000**. 3) 500.000 − 420.000 = **R$ 80.000**. 4) O **custo variável**. 5) **Financeira, clientes, processos internos e aprendizado e crescimento**.
+
+### Para lembrar
+
+- Gerencial: usuário interno, livre de normas, foco no futuro e em segmentos, dados não monetários.
+- Orçamento-mestre: vendas → produção → materiais → MOD → CIF → despesas → caixa → demonstrações projetadas; tipos de orçamento.
+- Variações: volume (flexível − estático) e gasto/eficiência (real − flexível); gestão por exceção.
+- Controladoria: eficácia pela informação; controller como staff; GECON.
+- Centros de custo, receita, lucro e investimento; ROI, lucro residual, EVA; preço de transferência; BSC.
+- Estoques: custos de pedir e manter; LEC = √(2DS/H); just in time.

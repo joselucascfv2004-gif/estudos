@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O contador lida com informações sigilosas, dinheiro e tributos de terceiros, e sua assinatura dá credibilidade às demonstrações. Por isso, a profissão tem regras éticas rigorosas, fiscalizadas pelo CFC e pelos CRCs. Esta aula trata de ética, moral e deontologia, da relação entre ética e lei, da legislação profissional (Decreto-Lei 9.295/1946), das penalidades, do Código de Ética (NBC PG 01), dos princípios fundamentais e ameaças (NBC PG 100), das responsabilidades civil e de PLD e da educação continuada.
+
 ### Ética, moral e deontologia
 
 - **Moral:** é o conjunto de normas e costumes de um grupo. Vem do latim *mores*, costumes.
@@ -124,3 +128,31 @@ O método é **identificar** a ameaça, **avaliar** se ela está em nível aceit
 - **Essência sobre a forma:** registrar a realidade econômica.
 
 > **Exemplo resolvido.** Vender um imóvel por R$ 1 milhão com recompra obrigatória por R$ 1,2 milhão é, na essência, um **empréstimo**. O imóvel continua no ativo, a empresa registra um passivo, e os R$ 200 mil são custo financeiro.
+
+### Erros mais comuns
+
+- Confundir moral (normas de um grupo) com ética (reflexão sobre elas) e com deontologia (deveres de uma profissão).
+- Achar que tudo o que é legal é ético.
+- Reter documentos do cliente para forçar o pagamento de honorários (é vedado).
+- Confundir as ameaças: **autorrevisão** (rever o próprio trabalho) × **familiaridade** (relação longa e próxima).
+- Achar que o contador nunca responde por atos do escritório (responde civilmente por atos culposos e solidariamente por dolosos, pelo art. 1.177 do Código Civil).
+
+### Teste-se
+
+1. Qual decreto-lei regula a profissão contábil e criou o CFC?
+2. Quais os princípios fundamentais da NBC PG 100?
+3. Um contador que tem ações da empresa que audita enfrenta que tipo de ameaça?
+4. Quantos pontos de educação profissional continuada são exigidos por ano?
+5. O que significa "essência sobre a forma"?
+
+> **Respostas.** 1) O **Decreto-Lei 9.295/1946**. 2) **Integridade, objetividade, competência e zelo profissional, confidencialidade e comportamento profissional**. 3) Ameaça de **interesse próprio**. 4) No mínimo **40 pontos**. 5) **Registrar a realidade econômica** de uma operação, mesmo que a forma jurídica diga outra coisa.
+
+### Para lembrar
+
+- Moral, ética, deontologia; Kant (dever), utilitarismo (maior bem), Aristóteles (virtudes).
+- Ética × lei: nem tudo que é legal é ético.
+- Decreto-Lei 9.295/1946; CFC e CRCs; registro e exame de suficiência.
+- Penalidades: multas (em anuidades), suspensão, cassação; ético-disciplinares (advertência, censura reservada e pública).
+- Código de Ética (NBC PG 01): deveres, vedações (reter documentos, concorrência desleal...).
+- NBC PG 100: princípios e ameaças (interesse próprio, autorrevisão, defesa de interesse, familiaridade, intimidação).
+- Responsabilidade civil (art. 1.177 do CC), PLD (comunicar ao COAF), educação continuada (40 pontos), essência sobre a forma.

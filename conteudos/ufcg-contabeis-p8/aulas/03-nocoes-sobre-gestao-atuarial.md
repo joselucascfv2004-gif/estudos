@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A atuária mede riscos que dependem de probabilidade e de tempo: quanto tempo as pessoas vão viver, com que frequência acontecem sinistros, quanto um fundo de pensão precisa ter hoje para pagar benefícios no futuro. O contador lida com esses números nas provisões de seguradoras e fundos de pensão, nos benefícios a empregados e na gestão de riscos. Esta aula apresenta as tábuas de mortalidade, o valor atual atuarial, a gestão previdenciária e de seguros, os riscos financeiros e a gestão de ativos e passivos.
+
 ### O que faz a atuária
 
 A atuária mede riscos para que seguradoras, fundos de pensão e regimes de previdência cobrem o preço certo e guardem reservas suficientes. As bases são o **mutualismo** (muitos pagam pelas perdas de poucos) e a **lei dos grandes números** (com muitos riscos parecidos, o resultado fica previsível).
@@ -74,3 +78,30 @@ A atuária mede riscos para que seguradoras, fundos de pensão e regimes de prev
 ### Gestão de ativos e passivos (ALM)
 
 O ALM casa prazos, indexadores e liquidez dos investimentos com os compromissos. A **duration** mede a sensibilidade aos juros. Se as obrigações têm duration maior que os ativos, uma queda dos juros aumenta mais o passivo do que o ativo e piora a solvência.
+
+### Erros mais comuns
+
+- Confundir pₓ (probabilidade de sobreviver) com qₓ (de morrer); lembre que pₓ + qₓ = 1.
+- Esquecer de descontar pelos juros ao calcular o valor atual atuarial.
+- Confundir plano BD (risco do patrocinador) com CD (risco do participante).
+- Confundir resseguro (seguradora transfere risco a outra) com cosseguro (seguradoras dividem o risco diretamente).
+- Achar que o VaR mostra a perda máxima possível (ele mostra a perda que não deve ser superada com certa confiança).
+
+### Teste-se
+
+1. Com l₇₀ = 80.000 e l₇₁ = 77.600, quanto valem p₇₀ e q₇₀?
+2. Quanto vale hoje um pagamento de R$ 10.000 daqui a 1 ano para quem tem 95% de chance de estar vivo, a juros de 5%?
+3. Frequência de sinistros de 3% e sinistro médio de R$ 10.000. Qual o prêmio puro por apólice?
+4. Em que tipo de plano o benefício é definido e o risco do déficit fica com o patrocinador?
+5. EAD de R$ 500.000, PD de 4% e LGD de 50%. Qual a perda esperada?
+
+> **Respostas.** 1) p₇₀ = 77.600 ÷ 80.000 = **0,97**; q₇₀ = **0,03**. 2) 10.000 × 0,95 ÷ 1,05 ≈ **R$ 9.047,62**. 3) 0,03 × 10.000 = **R$ 300**. 4) No **BD** (benefício definido). 5) 500.000 × 0,04 × 0,5 = **R$ 10.000**.
+
+### Para lembrar
+
+- Tábuas: lₓ, pₓ = lₓ₊₁ ÷ lₓ, qₓ = 1 − pₓ; risco de longevidade.
+- Valor atual atuarial = valor × probabilidade × vⁿ.
+- Regimes: repartição × capitalização; planos BD, CD, CV; entidades fechadas (Previc) e abertas (Susep); PGBL e VGBL.
+- Seguros: prêmio puro = frequência × severidade; comercial com carregamento; sinistralidade; provisões técnicas (PPNG...); cosseguro, resseguro; seleção adversa e risco moral; CPC 50.
+- Riscos: mercado (VaR), crédito (PD × LGD × EAD), operacional, liquidez.
+- ALM: casar prazos e indexadores dos ativos com os dos passivos.

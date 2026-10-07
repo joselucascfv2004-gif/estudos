@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Depois de apurar os custos (Contabilidade de Custos), o contador precisa **usá-los para decidir**: quanto vender para não ter prejuízo, que produto priorizar, se vale aceitar um pedido com desconto, se é melhor fabricar ou comprar, como controlar a produção com o custo-padrão. A análise de custos é a base da contabilidade gerencial e dá ao contador um papel de consultor, não só de registrador.
+
 ### Da apuração à decisão
 
 A Contabilidade de Custos apura quanto custa cada produto. A **Análise de Custos** usa esses dados para **decidir** (preço, mix, comprar ou fabricar) e para **controlar** (custo-padrão, orçamento). A ferramenta central é a separação entre custos **fixos** e **variáveis**.
@@ -69,3 +73,30 @@ A Contabilidade de Custos apura quanto custa cada produto. A **Análise de Custo
 - **Por segmento:** receita − variáveis = **MC**; − fixos próprios = **margem do segmento**; − fixos comuns = lucro.
 - **Para cada nível gerencial:** a operação recebe detalhe e frequência alta; a diretoria recebe síntese e tendências.
 - **Implantação na prática:** mapear processos, definir centros de custo e direcionadores, criar rotinas de apontamento e revisar os padrões periodicamente.
+
+### Erros mais comuns
+
+- Usar custos fixos rateados para decidir sobre um pedido especial ou sobre eliminar um produto (o que importa são os custos **relevantes** e evitáveis).
+- Considerar custos afundados (já incorridos) na decisão.
+- Priorizar o produto de maior margem por unidade quando há um recurso limitado (o certo é a maior margem **por unidade do recurso escasso**).
+- Esquecer de converter a meta de lucro líquido em lucro antes dos tributos no ponto de equilíbrio.
+- Comparar o real com o orçamento estático em vez do orçamento **flexível**.
+
+### Teste-se
+
+1. Preço de R$ 80, custo variável de R$ 50 e custos fixos de R$ 60.000. Qual o ponto de equilíbrio contábil?
+2. No mesmo caso, com R$ 12.000 de depreciação nos fixos, qual o equilíbrio financeiro?
+3. Vendas de 3.000 unidades no caso anterior (contábil). Qual a margem de segurança?
+4. Uma empresa tem capacidade ociosa e recebe um pedido especial a R$ 55 por unidade (custo variável de R$ 50). Deve aceitar, se não afetar os clientes atuais?
+5. Material padrão de 3 kg a R$ 10; real de 3.200 kg a R$ 9,50 para 1.000 unidades. Qual a variação de quantidade?
+
+> **Respostas.** 1) MCu = 30; PE = 60.000 ÷ 30 = **2.000 unidades**. 2) (60.000 − 12.000) ÷ 30 = **1.600 unidades**. 3) (3.000 − 2.000) ÷ 3.000 = **33,3%**. 4) **Sim**: a margem de contribuição é positiva (R$ 5 por unidade) e há capacidade ociosa. 5) (3.200 − 3.000) × 10 = **R$ 2.000 desfavorável**.
+
+### Para lembrar
+
+- Semivariáveis: separe fixo e variável (pontos alto e baixo).
+- MC = preço − variáveis; lucro = MCu × q − fixos.
+- PE contábil = fixos ÷ MCu; econômico (+ lucro desejado); financeiro (− itens sem desembolso).
+- Margem de segurança; GAO = MC ÷ lucro.
+- Decisões: custos relevantes; pedido especial; comprar × fabricar; eliminar produto (margem do segmento); fator limitante.
+- Custo-padrão: variações de quantidade (eficiência) e preço (taxa); orçamento flexível.

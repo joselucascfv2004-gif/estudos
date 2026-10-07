@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+O laboratório de departamento pessoal treina a rotina trabalhista de um escritório: admissão e eSocial, folha de pagamento (horas extras, DSR, adicionais, INSS, IRRF, vale-transporte), encargos da empresa, férias, 13º salário, rescisões e afastamentos. Um erro na folha afeta diretamente o bolso do trabalhador e pode gerar processos e multas, por isso a precisão é essencial.
+
 ### A rotina do departamento pessoal
 
 O DP cuida de todo o caminho do empregado na empresa:
@@ -94,3 +98,32 @@ Tudo é informado no **eSocial**. As contribuições previdenciárias são confe
 - **Doença:** a empresa paga os primeiros 15 dias; depois, o INSS.
 - **Salário-maternidade (120 dias):** a empresa adianta e compensa nas contribuições; o FGTS continua.
 - **Comunicação:** todos os afastamentos são informados no eSocial.
+
+### Erros mais comuns
+
+- Calcular a hora normal dividindo o salário por 30 dias em vez da jornada mensal (220 h para 44 h semanais).
+- Esquecer o DSR sobre horas extras e outras variáveis.
+- Descontar do empregado mais de 6% do salário-base de vale-transporte.
+- Descontar INSS e IRRF na 1ª parcela do 13º.
+- Pagar as férias depois de iniciado o descanso (o prazo é até **2 dias antes**).
+- Pagar a rescisão depois de 10 dias do término do contrato.
+
+### Teste-se
+
+1. Salário de R$ 2.640 e jornada de 220 h. Quanto vale cada hora extra a 50%?
+2. Qual o valor das férias de 30 dias de quem ganha R$ 2.400?
+3. Até quando deve ser paga a 1ª parcela do 13º salário?
+4. Qual o percentual de FGTS sobre a remuneração do empregado, e quem paga?
+5. Quem paga os primeiros 15 dias de afastamento por doença?
+
+> **Respostas.** 1) Hora normal = 2.640 ÷ 220 = 12; hora extra = **R$ 18**. 2) 2.400 + 1/3 (800) = **R$ 3.200**. 3) Até **30 de novembro**. 4) **8%**, pago pelo **empregador** (não é descontado do empregado). 5) A **empresa**; a partir do 16º dia, o INSS.
+
+### Para lembrar
+
+- Admissão: contrato, documentos, ASO, eSocial até o dia anterior ao início.
+- Folha: HE (mínimo 50%, hora = salário ÷ 220), DSR, noturno (20%, hora de 52min30s), insalubridade, periculosidade (30%), INSS progressivo, IRRF, VT (até 6%), faltas.
+- Encargos: INSS patronal, RAT × FAP, terceiros, FGTS 8%; provisões de 13º e férias.
+- Férias: aquisitivo e concessivo; até 3 períodos; pagar 2 dias antes com 1/3; em dobro fora do prazo; abono.
+- 13º: 1/12 por mês; 1ª parcela até 30/11 (sem descontos), 2ª até 20/12.
+- Rescisão: 10 dias; verbas por tipo; aviso indenizado ou trabalhado; acordo do art. 484-A.
+- Afastamentos: 15 dias pela empresa; salário-maternidade de 120 dias; eSocial.

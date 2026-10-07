@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Enquanto a auditoria contábil verifica se as demonstrações estão corretas, a auditoria operacional pergunta se a organização (ou o programa público) está **usando bem os recursos e alcançando resultados**. Ela é muito usada pelos tribunais de contas, pela CGU e pelas auditorias internas das empresas. Esta aula apresenta as dimensões do desempenho (economicidade, eficiência, eficácia, efetividade), o ciclo e as técnicas da auditoria operacional, a estrutura do achado de auditoria, a qualidade do trabalho e o modelo das três linhas.
+
 ### O que é auditoria operacional
 
 A auditoria financeira pergunta: "as demonstrações estão corretas?". A **auditoria operacional** (ou de desempenho) pergunta: "o dinheiro está sendo bem usado e gerando resultados?". Ela examina programas, órgãos, processos e atividades, públicos ou privados, para encontrar oportunidades de melhoria.
@@ -69,3 +73,31 @@ Os elementos da **matriz de achados**:
   - 1ª linha: a gestão;
   - 2ª linha: riscos e conformidade;
   - 3ª linha: **auditoria interna**, independente, que se reporta à governança.
+
+### Erros mais comuns
+
+- Confundir eficácia (atingir metas) com efetividade (gerar impacto real na sociedade).
+- Confundir economicidade (custo dos insumos) com eficiência (relação entre produtos e insumos).
+- Fazer recomendações que atacam o **efeito** e não a **causa** do problema.
+- Achar que a auditoria operacional verifica só a legalidade (ela avalia o desempenho).
+- Confundir controle interno (dentro de cada Poder) com controle externo (Legislativo e Tribunal de Contas).
+
+### Teste-se
+
+1. Uma prefeitura comprou merenda pelo menor preço de mercado, mantendo a qualidade. Que dimensão do desempenho foi atendida?
+2. Um programa construiu todas as escolas previstas, mas a evasão escolar não mudou. Que dimensões foram e não foram atendidas?
+3. Quais os elementos de um achado de auditoria?
+4. Qual órgão exerce o controle interno no Executivo federal?
+5. O que é benchmarking?
+
+> **Respostas.** 1) **Economicidade**. 2) Foi **eficaz** (cumpriu a meta), mas não foi **efetivo** (não gerou o impacto esperado). 3) **Critério, condição, causa e efeito**, sustentados por **evidências**, com **recomendação**. 4) A **CGU**. 5) A **comparação** com organizações ou unidades de melhor desempenho, para identificar boas práticas.
+
+### Para lembrar
+
+- Auditoria operacional: avalia desempenho, não só conformidade.
+- Dimensões: economicidade, eficiência, eficácia, efetividade, equidade, sustentabilidade.
+- Ciclo: seleção, planejamento, execução, relatório, comentários do gestor, monitoramento.
+- Técnicas: SWOT, matriz de risco, entrevistas, grupos focais, observação, benchmarking, indicadores.
+- Achado: critério, condição, causa, efeito, evidências, recomendação (ataca a causa).
+- Qualidade: independência, competência, supervisão, documentação, contraditório; NBASP e ISSAI.
+- Controle externo (Legislativo + TC) e interno (CGU); três linhas.

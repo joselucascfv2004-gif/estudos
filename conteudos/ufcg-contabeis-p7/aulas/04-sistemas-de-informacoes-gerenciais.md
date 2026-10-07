@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+As empresas tomam decisões com base em informações geradas por sistemas: ERPs, sistemas de apoio à decisão, painéis de indicadores, ferramentas de BI. O contador é usuário e, muitas vezes, responsável por esses sistemas, por isso precisa entender como funcionam, que tipos existem, como a TI pode gerar vantagem competitiva e como proteger os dados. Esta aula trata de dado, informação e conhecimento, dos componentes e tipos de sistemas, do ERP e da contabilidade integrada, do uso estratégico da TI, da segurança da informação e da LGPD.
+
 ### Dado, informação e conhecimento
 
 - **Dado:** registro bruto ("R$ 1.500").
@@ -83,3 +87,31 @@
 - **Para cada nível, o seu formato:** detalhe para a operação; síntese e tendência para a direção.
 - **Formatos:** periódicos, **por exceção**, sob demanda e **painéis** com poucos indicadores, metas e alertas.
 - **Regra de ouro:** um relatório de 300 páginas que ninguém lê não informa. Resuma, compare com a meta e destaque o que exige ação.
+
+### Erros mais comuns
+
+- Confundir dado (registro bruto) com informação (dado organizado e com significado).
+- Achar que um ERP resolve sozinho os problemas da empresa (exige processos bem desenhados, dados corretos e treinamento).
+- Confundir SIG (relatórios para o nível tático) com SIE (painéis para o estratégico) ou SPT (transações do operacional).
+- Achar que terceirizar para a nuvem transfere toda a responsabilidade pelos dados (a empresa continua responsável).
+- Produzir relatórios longos que ninguém lê, sem foco nas exceções e nos indicadores-chave.
+
+### Teste-se
+
+1. Qual a diferença entre conhecimento tácito e explícito?
+2. Que tipo de sistema registra as vendas e os pagamentos do dia a dia?
+3. Qual a principal característica de um ERP?
+4. Quais são os pilares da segurança da informação?
+5. O que significa "garbage in, garbage out"?
+
+> **Respostas.** 1) O **tácito** está na experiência das pessoas e é difícil de registrar; o **explícito** está documentado. 2) O **sistema de processamento de transações (SPT)**. 3) Uma **base de dados única**, integrando as áreas da empresa. 4) **Confidencialidade, integridade e disponibilidade**. 5) Que **dados ruins na entrada** geram **informação ruim na saída**.
+
+### Para lembrar
+
+- Dado → informação → conhecimento (tácito e explícito); qualidades da informação.
+- Sistema: hardware, software, dados, redes, pessoas, procedimentos; entrada, processamento, saída, retroalimentação.
+- Tipos: SPT (operacional), SIG (tático, por exceção), SAD ("e se?"), SIE (estratégico), especialistas, CRM, SCM.
+- ERP: base única, contabilidade integrada; riscos de implantação; contador como analista.
+- TI estratégica: Porter (custo, diferenciação, foco), BI, data warehouse, big data, nuvem.
+- Segurança (CID), controles, LGPD; revisão humana da IA.
+- Relatórios: formato por nível, por exceção, painéis.

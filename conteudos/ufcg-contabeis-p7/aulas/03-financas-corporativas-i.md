@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Finanças corporativas tratam das grandes decisões financeiras da empresa: em que projetos investir, como financiá-los (dívida ou capital próprio) e como administrar o capital de giro. O objetivo é maximizar o valor da empresa. O contador participa dessas decisões fornecendo números confiáveis e analisando fluxos de caixa, custo de capital e viabilidade de projetos. Esta aula cobre os fluxos relevantes, as técnicas de orçamento de capital, o custo de capital (CAPM e WACC), a estrutura de capital, as fontes de financiamento, o capital de giro e o planejamento financeiro.
+
 ### O papel das finanças na empresa
 
 - **Objetivo:** **maximizar o valor** da empresa, ou seja, a riqueza dos acionistas. Isso considera o tempo e o risco dos fluxos de caixa, e não só o lucro do trimestre.
@@ -79,3 +83,31 @@
 - **Porcentagem de vendas:** necessidade de financiamento externo = aumento dos ativos − aumento dos passivos espontâneos − lucro retido.
 
 > **Exemplo resolvido.** Crescimento de 200.000 nas vendas: ativos +100.000, passivos espontâneos +20.000, lucro retido de 24.000. Necessidade externa = **56.000**.
+
+### Erros mais comuns
+
+- Incluir custos afundados ou despesas financeiras nos fluxos de caixa do projeto.
+- Esquecer o benefício fiscal da depreciação (ela não sai do caixa, mas reduz o imposto).
+- Usar o custo da dívida sem descontar o imposto: o correto é Kd × (1 − T).
+- Usar o WACC da empresa para projetos de risco muito diferente.
+- Preferir a TIR ao VPL em projetos mutuamente excludentes com escalas diferentes.
+
+### Teste-se
+
+1. Receita de 500, custos de 300, depreciação de 50 e IR de 34%. Qual o fluxo de caixa operacional?
+2. Investimento de R$ 50.000 com entradas de R$ 20.000 por ano. Qual o payback simples?
+3. 50% de capital próprio a 16% e 50% de dívida a 12%, com T = 34%. Qual o WACC?
+4. Rf = 8%, Rm = 14% e β = 1,5. Qual o custo do capital próprio pelo CAPM?
+5. Qual o custo anual aproximado de não aproveitar o desconto "2/10, líquido 30"?
+
+> **Respostas.** 1) (500 − 300 − 50) × 0,66 + 50 = 99 + 50 = **149**. 2) 50.000 ÷ 20.000 = **2,5 anos**. 3) 0,5 × 16% + 0,5 × 12% × 0,66 = 8% + 3,96% = **11,96%**. 4) 8% + 1,5 × 6% = **17%**. 5) Cerca de **2,04% em 20 dias**, o que dá algo em torno de **44% ao ano**.
+
+### Para lembrar
+
+- Objetivo: maximizar o valor; decisões de investimento, financiamento e dividendos; problema de agência.
+- Fluxos relevantes: incrementais, depois dos impostos, sem custos afundados; FCO = (R − C − D)(1 − T) + D.
+- Payback, VPL (melhor critério), TIR, índice de lucratividade.
+- Custo de capital: Kd(1 − T); Ke pelo CAPM ou Gordon; WACC com pesos de mercado.
+- Estrutura: MM sem e com impostos, trade-off, pecking order, Hamada.
+- Fontes de curto e longo prazo; casamento de prazos.
+- Capital de giro: ciclo de caixa, política de crédito, descontos de fornecedores, Baumol; planejamento por porcentagem de vendas.

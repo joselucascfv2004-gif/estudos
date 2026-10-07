@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A perícia contábil é uma área de atuação importante e bem remunerada: o contador é chamado para esclarecer, com conhecimento técnico, questões financeiras e contábeis em processos judiciais, arbitragens e disputas entre sócios. A arbitragem, a mediação e a conciliação são formas de resolver conflitos fora do Judiciário, em que o contador pode atuar como árbitro ou perito. Esta aula apresenta as normas, os tipos de perícia, os papéis do perito e do assistente técnico, prazos e honorários, as aplicações mais comuns e as regras da arbitragem.
+
 ### O que é perícia contábil
 
 A perícia contábil é o conjunto de procedimentos técnicos que levam ao juiz, ao árbitro ou a outra instância **provas técnicas** para resolver um conflito. Ela termina em um **laudo** (do perito) ou em um **parecer** (do assistente técnico). É prerrogativa do **contador** registrado no CRC.
@@ -81,3 +85,31 @@ Um terceiro imparcial, **sem poder de decidir**, ajuda as partes a chegar a um a
 - **Mediador:** atua quando há vínculo anterior entre as partes e facilita o diálogo.
 - **Conciliador:** pode sugerir soluções.
 - **Confidencialidade:** é a regra.
+
+### Erros mais comuns
+
+- Confundir perito do juízo (nomeado pelo juiz, imparcial, sujeito a impedimento e suspeição) com assistente técnico (contratado pela parte, de confiança dela).
+- Confundir laudo (do perito) com parecer (do assistente técnico).
+- Calcular lucros cessantes sobre a receita perdida (o correto é o **lucro** que se deixou de ganhar).
+- Achar que a arbitragem serve para qualquer conflito (só para **direitos patrimoniais disponíveis**).
+- Achar que a sentença arbitral precisa ser homologada pelo Judiciário (ela produz os mesmos efeitos da sentença judicial).
+
+### Teste-se
+
+1. Quais são os tipos de perícia quanto ao ambiente em que ocorre?
+2. Qual o documento produzido pelo perito do juízo? E pelo assistente técnico?
+3. O que se apura numa "apuração de haveres"?
+4. Qual lei regula a arbitragem?
+5. Qual a diferença entre mediador e conciliador?
+
+> **Respostas.** 1) **Judicial**, **extrajudicial**, **arbitral** (e, para parte da doutrina, semijudicial). 2) O perito faz o **laudo**; o assistente técnico, o **parecer**. 3) O valor a que o **sócio que sai** da sociedade tem direito. 4) A **Lei 9.307/1996**. 5) O **mediador** atua quando há vínculo anterior entre as partes e facilita o diálogo; o **conciliador** pode **sugerir soluções**.
+
+### Para lembrar
+
+- Normas: NBC TP 01 (perícia), NBC PP 01 (perito), CPC/2015.
+- Tipos: judicial, extrajudicial, arbitral, semijudicial.
+- Perito do juízo (imparcial, laudo) × assistente técnico (da parte, parecer).
+- Prazos e honorários: proposta, depósito, possível redução pelo juiz.
+- Aplicações: apuração de haveres, contratos bancários, cálculos trabalhistas, lucros cessantes, falências, fraudes.
+- Arbitragem (Lei 9.307/1996): direitos patrimoniais disponíveis; cláusula e compromisso; árbitros em número ímpar; sentença com força de título.
+- Mediação e conciliação: confidencialidade.

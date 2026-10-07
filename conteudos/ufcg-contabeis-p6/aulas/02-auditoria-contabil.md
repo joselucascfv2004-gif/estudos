@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+A auditoria dá credibilidade às demonstrações contábeis: um profissional independente examina as contas e emite uma opinião sobre se elas representam adequadamente a situação da empresa. Investidores, bancos e o governo confiam nessa opinião. Esta aula apresenta a finalidade da auditoria, os tipos, a ética e a independência do auditor, o planejamento, a materialidade e o risco, o controle interno, os procedimentos, a evidência e os tipos de relatório, conforme as normas NBC TA (alinhadas às normas internacionais).
+
 ### Origem e finalidade
 
 A auditoria cresceu com as grandes empresas e a **separação entre donos e gestores**: quem investe precisa de alguém independente que confira as informações dos administradores. Os grandes marcos foram a Revolução Industrial (Inglaterra), a crise de 1929 (EUA) e, no Brasil, a Lei 6.404/1976 e a CVM.
@@ -77,3 +81,31 @@ A auditoria cresceu com as grandes empresas e a **separação entre donos e gest
 - **Principais assuntos de auditoria (NBC TA 701):** obrigatórios para as entidades listadas.
 
 > **Exemplo resolvido.** Materialidade global de 100.000. Distorções de 30.000 + 25.000 + 50.000 = 105.000, não corrigidas e não generalizadas. Resultado: opinião **com ressalva**.
+
+### Erros mais comuns
+
+- Achar que o auditor é responsável pelas demonstrações (a responsabilidade é da **administração**).
+- Achar que a auditoria garante ausência total de erros ou fraudes (ela dá **segurança razoável**).
+- Confundir parágrafo de ênfase (não muda a opinião) com ressalva.
+- Confundir opinião adversa (distorções relevantes e generalizadas) com abstenção (falta de evidência generalizada).
+- Achar que o auditor interno é independente da mesma forma que o externo.
+
+### Teste-se
+
+1. Qual o objetivo da auditoria das demonstrações segundo a NBC TA 200?
+2. Quais os três lados do triângulo da fraude?
+3. Que componentes formam o risco de distorção relevante?
+4. Quais são os tipos de opinião modificada?
+5. A quem pertencem os papéis de trabalho?
+
+> **Respostas.** 1) Obter **segurança razoável** de que as demonstrações, como um todo, estão livres de **distorção relevante**, causada por fraude ou erro, e emitir uma opinião. 2) **Pressão, oportunidade e racionalização**. 3) O **risco inerente** e o **risco de controle**. 4) **Com ressalva**, **adversa** e **abstenção de opinião**. 5) Ao **auditor**; são confidenciais.
+
+### Para lembrar
+
+- Auditoria obrigatória para S/A abertas e sociedades de grande porte (Lei 11.638/2007); segurança razoável; responsabilidade da administração.
+- Externa × interna × setor público.
+- Independência, rodízio (CVM), ceticismo e julgamento profissional.
+- Planejamento, materialidade (NBC TA 320), risco de auditoria = RDR (inerente × controle) × risco de detecção; fraude (NBC TA 240).
+- Controle interno (COSO); deficiências significativas comunicadas.
+- Testes de controle e substantivos; evidência suficiente e apropriada; amostragem; documentação.
+- Opiniões: sem ressalva, com ressalva, adversa, abstenção; ênfase; continuidade; PAA (NBC TA 701).

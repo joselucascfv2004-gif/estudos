@@ -1,3 +1,7 @@
+### Para que serve este assunto
+
+Muitos contadores abrem o próprio escritório, e todos atendem empreendedores: ajudam a formalizar o negócio, escolher o regime tributário, montar o plano financeiro e acompanhar os resultados. Esta aula apresenta o que é empreender, os tipos de empreendedorismo, o perfil empreendedor, a inovação, o processo empreendedor, o plano de negócios com seus indicadores, ferramentas como o Business Model Canvas e a startup enxuta, e a formalização (MEI, ME, EPP, Simples, Marco Legal das Startups).
+
 ### O que é empreender
 
 Empreender é identificar uma **oportunidade** e reunir recursos para transformá-la em um negócio, assumindo **riscos calculados**. Pode acontecer em uma empresa nova, dentro de uma organização ou em projetos sociais.
@@ -124,3 +128,31 @@ Os indicadores financeiros mais cobrados são:
   - políticas públicas;
   - ambiente de inovação.
 - **Globalização:** aumenta a concorrência e também abre mercados. Por isso, **competitividade** e inovação passam a ser questão de sobrevivência.
+
+### Erros mais comuns
+
+- Achar que empreender é só abrir empresa (o intraempreendedorismo inova dentro de organizações).
+- Escrever o sumário executivo primeiro (ele é escrito **por último**).
+- Confundir lucratividade (lucro ÷ receita) com rentabilidade (lucro ÷ investimento).
+- Esquecer o capital de giro no investimento inicial.
+- Achar que inovação é só tecnologia (também há inovação de processo, de marketing e organizacional).
+
+### Teste-se
+
+1. Para Schumpeter, qual o papel do empreendedor?
+2. Uma loja tem custos fixos de R$ 12.000 e margem de contribuição de 30%. Qual o ponto de equilíbrio em receita?
+3. Lucro mensal de R$ 5.000 sobre investimento de R$ 100.000. Quais a rentabilidade mensal e o payback?
+4. Quantos blocos tem o Business Model Canvas?
+5. Qual o limite de receita bruta anual de uma microempresa?
+
+> **Respostas.** 1) **Inovar**, promovendo a "destruição criadora" (novos produtos, métodos, mercados). 2) 12.000 ÷ 0,30 = **R$ 40.000** por mês. 3) Rentabilidade de **5% ao mês**; payback de **20 meses**. 4) **9 blocos**. 5) **R$ 360 mil**.
+
+### Para lembrar
+
+- Visões: Cantillon (risco), Say, Schumpeter (inovação), McClelland (realização), Drucker.
+- Tipos: oportunidade × necessidade, intraempreendedorismo, social, startup.
+- Inovação: produto, processo, marketing, organizacional; incremental × radical.
+- Plano de negócios: sumário executivo (por último), mercado, marketing (4 Ps), operacional, financeiro, cenários.
+- Indicadores: PE = fixos ÷ MC%, lucratividade, rentabilidade, payback, margem de segurança.
+- Canvas (9 blocos), startup enxuta (construir, medir, aprender; MVP).
+- Formalização: MEI, ME (até R$ 360 mil), EPP (até R$ 4,8 milhões), Simples Nacional, LC 182/2021.
