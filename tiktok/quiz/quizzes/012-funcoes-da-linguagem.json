@@ -1,0 +1,95 @@
+{
+  "titulo": "Você sabe as funções da linguagem?",
+  "titulo_tela": "Você sabe as funções da linguagem?",
+  "destaque": "funções",
+  "subtitulo_tela": "O assunto que mais cai no ENEM",
+  "capa_selo": "LINGUAGENS  •  5 PERGUNTAS",
+  "capa_cor": "amarelo",
+  "capa_titulo": "Você sabe as funções da linguagem?",
+  "capa_destaque": "funções",
+  "capa_sub": "O assunto que mais cai no ENEM",
+  "chamada": "Você sabe as funções da linguagem? Funções da linguagem e gêneros textuais são o assunto que mais caiu no ENEM, com 182 questões de 2009 a 2025. Comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe as funções da linguagem? 🗣️ O assunto que mais cai no ENEM. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #portugues #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/portugues/06-funcoes-generos-e-variacao.md). Contagem de 182 questões: vendasteste/revisao-enem/dados/selecao.json.",
+  "perguntas": [
+    {
+      "materia": "Linguagens",
+      "pergunta": "Num anúncio está escrito: compre já, não perca esta oferta! Qual é a função da linguagem?",
+      "texto_tela": "Anúncio: \"Compre já! Não perca esta oferta!\" Qual é a função da linguagem?",
+      "alternativas": [
+        "Referencial",
+        "Fática",
+        "Poética",
+        "Apelativa",
+        "Emotiva"
+      ],
+      "certa": 3,
+      "explicacao": "Ela tenta convencer quem lê. O verbo no imperativo, como compre, é a marca dessa função, também chamada de conativa.",
+      "fonte": "estudos/conteudos/portugues/06-funcoes-generos-e-variacao.md, Fácil 1"
+    },
+    {
+      "materia": "Linguagens",
+      "pergunta": "Numa ligação: alô? Está me ouvindo? Alô? Qual é a função da linguagem?",
+      "texto_tela": "Na ligação: \"Alô? Está me ouvindo? Alô?\" Qual é a função?",
+      "alternativas": [
+        "Fática",
+        "Emotiva",
+        "Referencial",
+        "Metalinguística",
+        "Poética"
+      ],
+      "certa": 0,
+      "explicacao": "A função fática serve para testar ou manter o contato. Ela está centrada no canal da comunicação.",
+      "fonte": "estudos/conteudos/portugues/06-funcoes-generos-e-variacao.md, Fácil 3"
+    },
+    {
+      "materia": "Linguagens",
+      "pergunta": "Um dicionário explicando o que significa a palavra palavra usa qual função?",
+      "texto_tela": "Um dicionário explicando o que significa \"palavra\" usa qual função?",
+      "alternativas": [
+        "Poética",
+        "Apelativa",
+        "Fática",
+        "Emotiva",
+        "Metalinguística"
+      ],
+      "certa": 4,
+      "explicacao": "É a língua falando da própria língua. Dicionários e gramáticas são os exemplos clássicos.",
+      "fonte": "estudos/conteudos/portugues/06-funcoes-generos-e-variacao.md, Fácil 4"
+    },
+    {
+      "materia": "Linguagens",
+      "pergunta": "Ah, como eu sinto saudade daqueles dias! Qual é a função dessa frase?",
+      "texto_tela": "\"Ah, como eu sinto saudade daqueles dias!\" Qual é a função?",
+      "alternativas": [
+        "Apelativa",
+        "Emotiva",
+        "Referencial",
+        "Fática",
+        "Metalinguística"
+      ],
+      "certa": 1,
+      "explicacao": "A função emotiva mostra os sentimentos de quem fala. Primeira pessoa e exclamações são as pistas.",
+      "fonte": "estudos/conteudos/portugues/06-funcoes-generos-e-variacao.md, Fácil 5"
+    },
+    {
+      "materia": "Linguagens",
+      "pergunta": "E a última: uma notícia que informa, de forma objetiva, o número de vacinados usa qual função?",
+      "texto_tela": "Uma notícia que informa, de forma objetiva, o número de vacinados usa qual função?",
+      "alternativas": [
+        "Emotiva",
+        "Fática",
+        "Referencial",
+        "Poética",
+        "Apelativa"
+      ],
+      "certa": 2,
+      "explicacao": "A função referencial passa informação de forma objetiva, sem opinião. É a função das notícias.",
+      "fonte": "estudos/conteudos/portugues/06-funcoes-generos-e-variacao.md, Fácil 2"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

@@ -1,0 +1,94 @@
+{
+  "titulo": "Você sabe as regras da Redação do ENEM?",
+  "titulo_tela": "Você sabe a Redação do ENEM?",
+  "destaque": "Redação",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "REDAÇÃO  •  5 PERGUNTAS",
+  "capa_cor": "vermelho",
+  "capa_titulo": "Você sabe as regras da Redação do ENEM?",
+  "capa_destaque": "Redação",
+  "capa_sub": "O que zera e o que vale nota",
+  "chamada": "Você sabe as regras da redação do ENEM? Uma delas pode zerar a sua nota. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe as regras da Redação do ENEM? ✍️ Uma delas zera a nota. Comenta quantas você acertou! 👇",
+  "hashtags": "#redacao #enem #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/redacao).",
+  "perguntas": [
+    {
+      "materia": "Redação",
+      "pergunta": "Qual é a nota máxima da redação do ENEM?",
+      "alternativas": [
+        "500",
+        "1000",
+        "100",
+        "10",
+        "200"
+      ],
+      "certa": 1,
+      "resposta_falada": "mil pontos",
+      "explicacao": "São cinco competências, e cada uma vale até 200 pontos. Somadas, chegam a mil.",
+      "fonte": "estudos/conteudos/redacao/01-competencias-e-estrutura.md, Fácil 3"
+    },
+    {
+      "materia": "Redação",
+      "pergunta": "Qual é o mínimo de linhas para a redação não ser zerada?",
+      "alternativas": [
+        "20 linhas",
+        "30 linhas",
+        "15 linhas",
+        "3 linhas",
+        "8 linhas"
+      ],
+      "certa": 4,
+      "resposta_falada": "8 linhas",
+      "explicacao": "Com 7 linhas ou menos, o texto é considerado insuficiente e leva zero. O máximo são 30 linhas.",
+      "fonte": "estudos/conteudos/redacao/01-competencias-e-estrutura.md, Fácil 7"
+    },
+    {
+      "materia": "Redação",
+      "pergunta": "O que acontece com a redação que foge totalmente do tema?",
+      "alternativas": [
+        "leva nota zero",
+        "perde metade da nota",
+        "leva nota 600",
+        "perde só na gramática",
+        "nada acontece"
+      ],
+      "certa": 0,
+      "explicacao": "Fuga total ao tema zera a redação. Copiar os textos motivadores e deixar a folha em branco também zeram.",
+      "fonte": "estudos/conteudos/redacao/01-competencias-e-estrutura.md, Fácil 6"
+    },
+    {
+      "materia": "Redação",
+      "pergunta": "O que a competência 5 da redação avalia?",
+      "texto_tela": "O que a Competência 5 da redação avalia?",
+      "alternativas": [
+        "o título",
+        "a ortografia",
+        "os conectivos",
+        "a proposta de intervenção",
+        "a caligrafia"
+      ],
+      "certa": 3,
+      "explicacao": "Você precisa propor uma solução detalhada para o problema. E ela tem que respeitar os direitos humanos.",
+      "fonte": "estudos/conteudos/redacao/01-competencias-e-estrutura.md, Fácil 5"
+    },
+    {
+      "materia": "Redação",
+      "pergunta": "E a última: que ideia o conectivo entretanto expressa?",
+      "texto_tela": "Que ideia o conectivo \"entretanto\" expressa?",
+      "alternativas": [
+        "conclusão",
+        "causa",
+        "oposição",
+        "condição",
+        "finalidade"
+      ],
+      "certa": 2,
+      "explicacao": "Entretanto, contudo, todavia e porém trazem uma ideia contrária. É um dos conectivos mais usados na redação.",
+      "fonte": "estudos/conteudos/redacao/02-coesao-argumentacao-e-repertorio.md, Fácil 2"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! A Revisão Final ENEM 2026 traz um plano de estudos pronto, e dá pra levar junto o Kit Redação, com os temas de 2009 a 2025 e uma redação-modelo comentada. O link está no comentário fixado."
+}

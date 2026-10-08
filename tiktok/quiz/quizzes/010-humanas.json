@@ -1,0 +1,95 @@
+{
+  "titulo": "Você sabe Filosofia e Sociologia?",
+  "titulo_tela": "Você sabe Filosofia e Sociologia?",
+  "destaque": "Filosofia Sociologia?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "HUMANAS  •  5 PERGUNTAS",
+  "capa_cor": "roxo",
+  "capa_titulo": "Você sabe Filosofia e Sociologia?",
+  "capa_destaque": "Filosofia",
+  "capa_sub": "Descartes, Heráclito e mais",
+  "chamada": "Você sabe Filosofia e Sociologia? Elas caem muito em Ciências Humanas no ENEM. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe Filosofia e Sociologia? 🤔 Caem muito em Humanas no ENEM. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #filosofia #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/filosofia e sociologia).",
+  "perguntas": [
+    {
+      "materia": "Filosofia",
+      "pergunta": "Quem disse a frase: penso, logo existo?",
+      "texto_tela": "Quem disse a frase \"Penso, logo existo\"?",
+      "alternativas": [
+        "John Locke",
+        "David Hume",
+        "René Descartes",
+        "Immanuel Kant",
+        "Nietzsche"
+      ],
+      "certa": 2,
+      "resposta_falada": "René Descartes",
+      "explicacao": "Ele duvidou de tudo até achar uma certeza: se ele está pensando, ele existe. Por isso é chamado de pai do racionalismo.",
+      "fonte": "estudos/conteudos/filosofia/02-filosofia-moderna-e-contemporanea.md, Fácil 1"
+    },
+    {
+      "materia": "Filosofia",
+      "pergunta": "De quem é a frase: ninguém se banha duas vezes no mesmo rio?",
+      "texto_tela": "De quem é a frase \"Ninguém se banha duas vezes no mesmo rio\"?",
+      "alternativas": [
+        "Parmênides",
+        "Tales",
+        "Platão",
+        "Sócrates",
+        "Heráclito"
+      ],
+      "certa": 4,
+      "explicacao": "Para Heráclito, tudo está sempre mudando. O rio muda, e a pessoa também.",
+      "fonte": "estudos/conteudos/filosofia/01-filosofia-antiga-e-medieval.md, Fácil 4"
+    },
+    {
+      "materia": "Filosofia",
+      "pergunta": "Para Tales de Mileto, o primeiro filósofo, qual era a origem de todas as coisas?",
+      "alternativas": [
+        "a água",
+        "o fogo",
+        "o ar",
+        "os números",
+        "os átomos"
+      ],
+      "certa": 0,
+      "explicacao": "Tales buscou uma explicação racional para a natureza, sem recorrer aos deuses. Para ele, tudo vinha da água.",
+      "fonte": "estudos/conteudos/filosofia/01-filosofia-antiga-e-medieval.md, Fácil 3"
+    },
+    {
+      "materia": "Sociologia",
+      "pergunta": "Para o sociólogo Marshall, a cidadania reúne quais três tipos de direitos?",
+      "texto_tela": "Para T. H. Marshall, a cidadania reúne quais direitos?",
+      "alternativas": [
+        "econômicos e religiosos",
+        "urbanos e rurais",
+        "nacionais e estaduais",
+        "civis, políticos e sociais",
+        "individuais e familiares"
+      ],
+      "certa": 3,
+      "explicacao": "Direitos civis são as liberdades, os políticos são votar e ser votado, e os sociais são educação, saúde e previdência.",
+      "fonte": "estudos/conteudos/sociologia/02-temas-contemporaneos.md, Fácil 1"
+    },
+    {
+      "materia": "Filosofia",
+      "pergunta": "E a última: para o empirismo, de onde vem o conhecimento?",
+      "texto_tela": "Para o empirismo, de onde vem o conhecimento?",
+      "alternativas": [
+        "de ideias inatas",
+        "da experiência",
+        "da revelação divina",
+        "da intuição",
+        "só da matemática"
+      ],
+      "certa": 1,
+      "explicacao": "Para os empiristas, como Locke, a mente nasce como uma folha em branco. Tudo o que sabemos vem do que vivemos e sentimos.",
+      "fonte": "estudos/conteudos/filosofia/02-filosofia-moderna-e-contemporanea.md, Fácil 2"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}
