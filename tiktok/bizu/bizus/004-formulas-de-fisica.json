@@ -1,0 +1,106 @@
+{
+  "titulo": "Bizu: decore as fórmulas de Física com frases",
+  "selo": "BIZU DE FÍSICA",
+  "titulo_tela": "Decore as fórmulas de Física",
+  "destaque": "fórmulas",
+  "subtitulo_tela": "Sorvete, sorvetão e vovô ateu",
+  "capa_selo": "BIZU DE FÍSICA",
+  "capa_cor": "vermelho",
+  "capa_titulo": "Decore as fórmulas de Física",
+  "capa_destaque": "fórmulas",
+  "capa_sub": "Sorvete, sorvetão e vovô ateu",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Decore as fórmulas de Física com frases 💡 Sorvete, sorvetão e vovô ateu. Salva pra revisar! 📌",
+  "hashtags": "#enem #fisica #dicasenem #studytok #fyp",
+  "origem": "Fórmulas de cinemática do app Estudos (estudos/conteudos/fisica/01-cinematica.md).",
+  "abertura": "Três frases pra você nunca mais esquecer as fórmulas de movimento da Física. A última é a mais engraçada.",
+  "blocos": [
+    {
+      "etiqueta": "SEM ACELERAÇÃO",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Velocidade *constante*: é o movimento uniforme.",
+          "fala": "Quando a velocidade é constante, sem aceleração, é o movimento uniforme."
+        },
+        {
+          "tipo": "formula",
+          "tela": "S = So + v·t",
+          "fala": "A fórmula é ésse igual a ésse zero mais vê vezes tê."
+        },
+        {
+          "tipo": "dica",
+          "tela": "Leia em voz alta: *So + vt* = SORVETE",
+          "fala": "Agora lê em voz alta: ésse zero, vê, tê. Sorvete!"
+        }
+      ]
+    },
+    {
+      "etiqueta": "COM ACELERAÇÃO",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Aceleração *constante*: a posição é",
+          "fala": "Quando a aceleração é constante, é o movimento uniformemente variado. A posição é:"
+        },
+        {
+          "tipo": "formula",
+          "tela": "S = So + Vo·t + a·t²/2",
+          "fala": "ésse igual a ésse zero, mais vê zero tê, mais a tê ao quadrado sobre dois."
+        },
+        {
+          "tipo": "dica",
+          "tela": "É o *SORVETÃO*!",
+          "fala": "É o sorvetão: ésse zero, vê zero tê, a tê ao quadrado sobre dois."
+        }
+      ]
+    },
+    {
+      "etiqueta": "A VELOCIDADE",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "E a velocidade com aceleração:",
+          "fala": "E pra achar a velocidade quando tem aceleração:"
+        },
+        {
+          "tipo": "formula",
+          "tela": "V = Vo + a·t",
+          "fala": "vê igual a vê zero mais a vezes tê."
+        },
+        {
+          "tipo": "dica",
+          "tela": "V, Vo, a, t: *VOVÔ ATEU*",
+          "fala": "Lê rápido: vê, vê zero, a, tê. Vovô ateu!"
+        }
+      ]
+    },
+    {
+      "etiqueta": "RESUMO",
+      "itens": [
+        {
+          "tipo": "certo",
+          "tela": "Sem aceleração: *SORVETE*",
+          "fala": "Resumindo: sem aceleração, sorvete."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Posição com aceleração: *SORVETÃO*",
+          "fala": "Posição com aceleração, sorvetão."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Velocidade com aceleração: *VOVÔ ATEU*",
+          "fala": "E velocidade com aceleração, vovô ateu."
+        },
+        {
+          "tipo": "nota",
+          "tela": "Comenta qual dessas você já conhecia!",
+          "fala": "Comenta aí qual dessas você já conhecia."
+        }
+      ]
+    }
+  ],
+  "encerramento": "Salva esse vídeo pra revisar antes da prova e segue o perfil pra mais bizus. E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

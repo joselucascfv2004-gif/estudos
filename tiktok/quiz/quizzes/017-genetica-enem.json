@@ -1,0 +1,94 @@
+{
+  "titulo": "Você sabe Genética do ENEM?",
+  "titulo_tela": "Você sabe Genética?",
+  "destaque": "Genética?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "BIOLOGIA  •  5 PERGUNTAS",
+  "capa_cor": "verde",
+  "capa_titulo": "Você sabe Genética?",
+  "capa_destaque": "Genética?",
+  "capa_sub": "DNA, Mendel e tipo sanguíneo",
+  "chamada": "Você sabe Genética? DNA, Mendel e tipo sanguíneo, do jeito que cai no ENEM. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe Genética? 🧬 DNA, Mendel e tipo sanguíneo. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #biologia #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/biologia/02-genetica-e-biotecnologia.md).",
+  "perguntas": [
+    {
+      "materia": "Biologia",
+      "pergunta": "No DNA, a adenina sempre se liga com qual base?",
+      "alternativas": [
+        "citosina",
+        "timina",
+        "guanina",
+        "uracila",
+        "outra adenina"
+      ],
+      "certa": 1,
+      "explicacao": "No DNA, adenina se liga com timina, e citosina com guanina. Um bizu: A com T, C com G.",
+      "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 2"
+    },
+    {
+      "materia": "Biologia",
+      "pergunta": "Cruzando Aa com Aa, qual é a chance de nascer um filho com a característica recessiva?",
+      "texto_tela": "Aa × Aa: qual a chance de um filho com fenótipo recessivo?",
+      "alternativas": [
+        "0%",
+        "50%",
+        "75%",
+        "100%",
+        "25%"
+      ],
+      "certa": 4,
+      "resposta_falada": "25%",
+      "explicacao": "O cruzamento dá AA, Aa, Aa e aa. Só o aa mostra a característica recessiva: um em quatro, ou 25%.",
+      "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 5"
+    },
+    {
+      "materia": "Biologia",
+      "pergunta": "Qual tipo sanguíneo é o doador universal no sistema ABO?",
+      "alternativas": [
+        "A",
+        "O",
+        "AB",
+        "B",
+        "Rh positivo"
+      ],
+      "certa": 1,
+      "resposta_falada": "tipo O",
+      "explicacao": "As hemácias do tipo O não têm os antígenos A nem B. Por isso podem ser doadas para todos os tipos do sistema ABO.",
+      "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 8"
+    },
+    {
+      "materia": "Biologia",
+      "pergunta": "Como se chama a produção de RNA a partir do DNA?",
+      "alternativas": [
+        "replicação",
+        "tradução",
+        "transcrição",
+        "mutação",
+        "transdução"
+      ],
+      "certa": 2,
+      "explicacao": "Transcrição faz o RNA a partir do DNA. Tradução faz a proteína a partir do RNA. Não confunda as duas.",
+      "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 7"
+    },
+    {
+      "materia": "Biologia",
+      "pergunta": "E a última: como se chamam as características que dá para ver num indivíduo, como a cor dos olhos?",
+      "texto_tela": "As características observáveis de um indivíduo são o:",
+      "alternativas": [
+        "cariótipo",
+        "genoma",
+        "alelo",
+        "fenótipo",
+        "locus"
+      ],
+      "certa": 3,
+      "explicacao": "Fenótipo é o que aparece: o resultado dos genes junto com o ambiente. Já o genótipo são os genes em si.",
+      "fonte": "estudos/conteudos/biologia/02-genetica-e-biotecnologia.md, Fácil 3"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

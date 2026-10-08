@@ -1,0 +1,96 @@
+{
+  "titulo": "Você sabe Química do ENEM?",
+  "titulo_tela": "Você sabe Química?",
+  "destaque": "Química?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "QUÍMICA  •  5 PERGUNTAS",
+  "capa_cor": "roxo",
+  "capa_titulo": "Você passaria em Química?",
+  "capa_destaque": "Química?",
+  "capa_sub": "Átomo, tabela e soluções",
+  "chamada": "Você passaria em Química? Átomo, tabela periódica e soluções, do jeito que cai no ENEM. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você passaria em Química? ⚗️ Átomo, tabela e soluções. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #quimica #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/quimica).",
+  "perguntas": [
+    {
+      "materia": "Química",
+      "pergunta": "O número atômico de um elemento é o número de quê?",
+      "alternativas": [
+        "nêutrons",
+        "elétrons e nêutrons",
+        "camadas",
+        "prótons e nêutrons",
+        "prótons"
+      ],
+      "certa": 4,
+      "explicacao": "O número atômico, o Z, é a quantidade de prótons. É ele que identifica cada elemento químico.",
+      "fonte": "estudos/conteudos/quimica/01-atomistica-e-tabela-periodica.md, Fácil 1"
+    },
+    {
+      "materia": "Química",
+      "pergunta": "O sódio tem número atômico 11 e número de massa 23. Quantos nêutrons ele tem?",
+      "texto_tela": "Sódio: Z = 11 e A = 23. Quantos nêutrons ele tem?",
+      "alternativas": [
+        "11",
+        "12",
+        "23",
+        "34",
+        "10"
+      ],
+      "certa": 1,
+      "resposta_falada": "12 nêutrons",
+      "explicacao": "Nêutrons é a massa menos o número atômico. 23 menos 11 dá 12.",
+      "fonte": "estudos/conteudos/quimica/01-atomistica-e-tabela-periodica.md, Fácil 2"
+    },
+    {
+      "materia": "Química",
+      "pergunta": "Hélio, neônio e argônio, da coluna 18 da tabela, são chamados de quê?",
+      "texto_tela": "He, Ne e Ar, da coluna 18 da tabela, são chamados de:",
+      "alternativas": [
+        "metais alcalinos",
+        "halogênios",
+        "calcogênios",
+        "gases nobres",
+        "metais de transição"
+      ],
+      "certa": 3,
+      "explicacao": "Eles já têm a última camada completa. Por isso quase não reagem com outros elementos.",
+      "fonte": "estudos/conteudos/quimica/01-atomistica-e-tabela-periodica.md, Fácil 6"
+    },
+    {
+      "materia": "Química",
+      "pergunta": "Quem propôs o modelo atômico do pudim de passas?",
+      "texto_tela": "Quem propôs o modelo atômico do \"pudim de passas\"?",
+      "alternativas": [
+        "Thomson",
+        "Dalton",
+        "Rutherford",
+        "Bohr",
+        "Schrödinger"
+      ],
+      "certa": 0,
+      "explicacao": "Thomson descobriu o elétron e imaginou o átomo como uma massa positiva com elétrons espalhados, como passas num pudim.",
+      "fonte": "estudos/conteudos/quimica/01-atomistica-e-tabela-periodica.md, Fácil 3"
+    },
+    {
+      "materia": "Química",
+      "pergunta": "E a última: 20 gramas de sal em 100 mililitros de solução. Qual é a concentração?",
+      "texto_tela": "20 g de sal em 100 mL de solução. Qual é a concentração?",
+      "alternativas": [
+        "2.000 g/L",
+        "2 g/L",
+        "200 g/L",
+        "20 g/L",
+        "100 g/L"
+      ],
+      "certa": 2,
+      "resposta_falada": "200 gramas por litro",
+      "explicacao": "Concentração é massa dividida pelo volume em litros. 100 mililitros são 0 vírgula 1 litro, e 20 dividido por 0 vírgula 1 dá 200.",
+      "fonte": "estudos/conteudos/quimica/04-solucoes.md, Fácil 2"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

@@ -40,6 +40,21 @@ pedir. As regras delas continuam abaixo para quando voltarem.
   "App Estudos chegando em breve". Nunca diga "baixe" ou "link no perfil" antes do lançamento. A bio
   do perfil está em `perfil.md`.
 
+## Bizu (vídeo educativo)
+
+- O dono do canal posta **3 vídeos por dia: 2 quizzes e 1 bizu**. O bizu ensina uma técnica, um
+  macete, um jeito de decorar ou de resolver mais rápido um assunto do ENEM.
+- Fábrica: `bizu/fazer_bizu.py`, com o mesmo visual, voz e fundo dos quizzes. Cada bizu é um JSON em
+  `bizu/bizus/` com `abertura` (o gancho), `blocos` (etiqueta + itens) e `encerramento`. Tipos de
+  item: `texto`, `dica`, `formula`, `certo`, `errado` e `nota`. Use `*palavra*` para o marca-texto.
+  Cada item tem `tela` e `fala`, e aparece quando a voz fala dele.
+- Confira contas, regras e fórmulas no conteúdo do app (`estudos/conteudos`). O vídeo precisa passar
+  de 1 minuto (a fábrica avisa). A fonte não tem símbolos como Δ, →, ✓ e ₂: escreva "So", "Vo" e
+  "CO2", e use os itens `certo` e `errado` no lugar de ✓ e ✗.
+- Na `fala`, escreva as letras de fórmulas como são lidas ("ésse igual a ésse zero mais vê vezes tê").
+- O encerramento pede para salvar o vídeo e seguir o perfil, e traz a chamada do e-book.
+- A capa tem o selo "BIZU DE ...", a lâmpada e "SALVA PRA REVISAR". Saída em `saida/bizu/<nome>/`.
+
 ## Histórias (pausadas): regras do conteúdo
 
 - **Histórias originais no estilo Reddit.** O dono do canal quer o clima de relato do Reddit

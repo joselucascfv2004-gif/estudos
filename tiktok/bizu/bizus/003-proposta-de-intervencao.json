@@ -1,0 +1,111 @@
+{
+  "titulo": "Bizu: a fórmula da proposta de intervenção",
+  "selo": "BIZU DE REDAÇÃO",
+  "titulo_tela": "A fórmula da proposta de intervenção",
+  "destaque": "fórmula",
+  "subtitulo_tela": "Os 5 elementos da Competência 5",
+  "capa_selo": "BIZU DE REDAÇÃO",
+  "capa_cor": "roxo",
+  "capa_titulo": "A fórmula da proposta de intervenção",
+  "capa_destaque": "fórmula",
+  "capa_sub": "Os 5 elementos da Competência 5",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "A fórmula da proposta de intervenção ✍️ Os 5 elementos da Competência 5 da redação. Salva pra usar na prova! 📌",
+  "hashtags": "#redacao #enem #dicasenem #studytok #fyp",
+  "origem": "Competência 5 do app Estudos (estudos/conteudos/redacao/01-competencias-e-estrutura.md).",
+  "abertura": "A competência 5 da redação vale 200 pontos, e tem uma fórmula pra montar a proposta de intervenção. São cinco perguntas que ela precisa responder.",
+  "blocos": [
+    {
+      "etiqueta": "OS 5 ELEMENTOS",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "1. *Quem* vai fazer? (agente)",
+          "fala": "Um: quem vai fazer? É o agente, como um ministério ou a escola."
+        },
+        {
+          "tipo": "texto",
+          "tela": "2. *O quê* vai fazer? (ação)",
+          "fala": "Dois: o que vai fazer? É a ação."
+        },
+        {
+          "tipo": "texto",
+          "tela": "3. *Como* vai fazer? (meio ou modo)",
+          "fala": "Três: como vai fazer? É o meio ou modo."
+        },
+        {
+          "tipo": "texto",
+          "tela": "4. *Para quê*? (finalidade)",
+          "fala": "Quatro: para quê? É a finalidade."
+        },
+        {
+          "tipo": "texto",
+          "tela": "5. *Um detalhe* a mais em qualquer um deles",
+          "fala": "E cinco: um detalhamento, ou seja, mais uma informação sobre qualquer um desses elementos."
+        }
+      ]
+    },
+    {
+      "etiqueta": "EXEMPLO COMPLETO",
+      "itens": [
+        {
+          "tipo": "dica",
+          "tela": "O Ministério da Saúde deve criar campanhas nas escolas, por meio de palestras com psicólogos, a fim de reduzir a ansiedade entre adolescentes.",
+          "fala": "Olha um exemplo completo: o Ministério da Saúde deve criar campanhas nas escolas, por meio de palestras com psicólogos, a fim de reduzir a ansiedade entre adolescentes."
+        }
+      ]
+    },
+    {
+      "etiqueta": "QUEM É QUEM",
+      "itens": [
+        {
+          "tipo": "certo",
+          "tela": "*Agente:* Ministério da Saúde",
+          "fala": "O agente é o Ministério da Saúde."
+        },
+        {
+          "tipo": "certo",
+          "tela": "*Ação:* criar campanhas",
+          "fala": "A ação é criar campanhas."
+        },
+        {
+          "tipo": "certo",
+          "tela": "*Meio:* palestras com psicólogos",
+          "fala": "O meio são as palestras com psicólogos."
+        },
+        {
+          "tipo": "certo",
+          "tela": "*Finalidade:* reduzir a ansiedade",
+          "fala": "A finalidade é reduzir a ansiedade."
+        },
+        {
+          "tipo": "certo",
+          "tela": "*Detalhe:* nas escolas, entre adolescentes",
+          "fala": "E o detalhe: nas escolas, entre adolescentes."
+        }
+      ]
+    },
+    {
+      "etiqueta": "ERRO COMUM",
+      "itens": [
+        {
+          "tipo": "errado",
+          "tela": "O governo deve agir.",
+          "fala": "Agora, um erro muito comum: o governo deve agir."
+        },
+        {
+          "tipo": "texto",
+          "tela": "Agente vago e faltam a ação concreta, o *como* e o *para quê*.",
+          "fala": "Essa proposta é genérica: o agente é vago, e faltam a ação concreta, o meio e a finalidade."
+        },
+        {
+          "tipo": "dica",
+          "tela": "Responda as 5 perguntas e respeite os *direitos humanos*.",
+          "fala": "Então, responda as cinco perguntas, e lembre: a proposta tem que respeitar os direitos humanos."
+        }
+      ]
+    }
+  ],
+  "encerramento": "Salva esse vídeo pra usar na sua redação e segue o perfil pra mais bizus. A Revisão Final ENEM 2026 traz um plano de estudos pronto, e dá pra levar junto o Kit Redação, com os temas de 2009 a 2025 e uma redação-modelo comentada. O link está no comentário fixado."
+}

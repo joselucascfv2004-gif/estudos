@@ -1,0 +1,99 @@
+{
+  "titulo": "Você sabe Estatística do ENEM?",
+  "titulo_tela": "Você sabe Estatística?",
+  "destaque": "Estatística?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "ESTATÍSTICA  •  5 PERGUNTAS",
+  "capa_cor": "verde",
+  "capa_titulo": "Média, moda ou mediana?",
+  "capa_destaque": "mediana?",
+  "capa_sub": "Caiu 85 vezes no ENEM",
+  "chamada": "Média, moda ou mediana? Estatística caiu 85 vezes no ENEM de 2009 a 2025. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Média, moda ou mediana? 📊 Estatística caiu 85 vezes no ENEM. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #matematica #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/matematica/11-estatistica.md). Contagem de 85 questões: vendasteste/revisao-enem/dados/selecao.json.",
+  "perguntas": [
+    {
+      "materia": "Matemática",
+      "pergunta": "As notas de um aluno foram 10, 3, 6 e 5. Qual é a média?",
+      "texto_tela": "Notas: 10, 3, 6 e 5. Qual é a média?",
+      "alternativas": [
+        "8",
+        "5,5",
+        "4",
+        "6",
+        "7"
+      ],
+      "certa": 3,
+      "resposta_falada": "média 6",
+      "explicacao": "Some tudo e divida pela quantidade. 10 mais 3 mais 6 mais 5 dá 24, e 24 dividido por 4 dá 6.",
+      "fonte": "estudos/conteudos/matematica/11-estatistica.md, Fácil 6"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "Os números de calçado vendidos foram estes da tela. Qual é a moda?",
+      "texto_tela": "Calçados: 31, 28, 35, 34, 41, 34, 34, 38. Qual é a moda?",
+      "alternativas": [
+        "34",
+        "35",
+        "34,4",
+        "41",
+        "28"
+      ],
+      "certa": 0,
+      "resposta_falada": "34",
+      "explicacao": "Moda é o valor que mais aparece, o que está na moda. O 34 aparece três vezes.",
+      "fonte": "estudos/conteudos/matematica/11-estatistica.md, Fácil 2"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "Tempos de 5 alunos: 52, 46, 28, 28 e 15 minutos. Qual é a mediana?",
+      "texto_tela": "Tempos: 52, 46, 28, 28 e 15 minutos. Qual é a mediana?",
+      "alternativas": [
+        "52",
+        "15",
+        "34,8",
+        "33,8",
+        "28"
+      ],
+      "certa": 4,
+      "resposta_falada": "28",
+      "explicacao": "Antes de tudo, coloque em ordem: 15, 28, 28, 46, 52. A mediana é o valor do meio: 28.",
+      "fonte": "estudos/conteudos/matematica/11-estatistica.md, Fácil 4"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "Num gráfico de pizza, 15% dos alunos escolheram vôlei. Qual é o ângulo desse pedaço?",
+      "alternativas": [
+        "27°",
+        "15°",
+        "54°",
+        "306°",
+        "540°"
+      ],
+      "certa": 2,
+      "resposta_falada": "54 graus",
+      "explicacao": "O círculo inteiro tem 360 graus, que são 100%. E 15% de 360 dá 54 graus.",
+      "fonte": "estudos/conteudos/matematica/11-estatistica.md, Fácil 8"
+    },
+    {
+      "materia": "Matemática",
+      "pergunta": "E a última: provas com pesos 3, 3 e 4. As notas foram 6, 5 e 10. Qual é a média ponderada?",
+      "texto_tela": "Pesos 3, 3 e 4. Notas 6, 5 e 10. Qual é a média ponderada?",
+      "alternativas": [
+        "6,3",
+        "7,3",
+        "24,3",
+        "7,8",
+        "7"
+      ],
+      "certa": 1,
+      "resposta_falada": "7 vírgula 3",
+      "explicacao": "Multiplique cada nota pelo peso: 18 mais 15 mais 40 dá 73. Divida pela soma dos pesos, 10: dá 7 vírgula 3.",
+      "fonte": "estudos/conteudos/matematica/11-estatistica.md, Fácil 3"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

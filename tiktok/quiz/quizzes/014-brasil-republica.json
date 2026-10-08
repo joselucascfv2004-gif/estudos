@@ -1,0 +1,95 @@
+{
+  "titulo": "Você sabe História do Brasil República?",
+  "titulo_tela": "Você sabe Brasil República?",
+  "destaque": "República?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "HISTÓRIA  •  5 PERGUNTAS",
+  "capa_cor": "laranja",
+  "capa_titulo": "Você sabe História do Brasil?",
+  "capa_destaque": "Brasil?",
+  "capa_sub": "De Vargas à Constituição de 88",
+  "chamada": "Você sabe História do Brasil República? De Vargas até a Constituição de 1988. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe História do Brasil? 🇧🇷 De Vargas à Constituição de 88. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #historia #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/historia).",
+  "perguntas": [
+    {
+      "materia": "História",
+      "pergunta": "Quem chegou ao poder com a Revolução de 1930?",
+      "alternativas": [
+        "Júlio Prestes",
+        "Washington Luís",
+        "Getúlio Vargas",
+        "Juscelino Kubitschek",
+        "Eurico Dutra"
+      ],
+      "certa": 2,
+      "explicacao": "A Revolução de 1930 encerrou a Primeira República. Vargas governou de 1930 a 1945 e voltou eleito em 1951.",
+      "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 8"
+    },
+    {
+      "materia": "História",
+      "pergunta": "Em que ano as mulheres conquistaram o direito de votar no Brasil?",
+      "alternativas": [
+        "1889",
+        "1964",
+        "1988",
+        "1824",
+        "1932"
+      ],
+      "certa": 4,
+      "resposta_falada": "1932",
+      "explicacao": "Foi com o Código Eleitoral de 1932, que também criou o voto secreto e a Justiça Eleitoral.",
+      "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 11"
+    },
+    {
+      "materia": "História",
+      "pergunta": "O plano de metas com o lema cinquenta anos em cinco foi de qual presidente?",
+      "texto_tela": "O lema \"50 anos em 5\" foi de qual presidente?",
+      "alternativas": [
+        "Juscelino Kubitschek",
+        "Getúlio Vargas",
+        "Jânio Quadros",
+        "João Goulart",
+        "Café Filho"
+      ],
+      "certa": 0,
+      "explicacao": "JK queria desenvolver o país em ritmo acelerado. Foi no governo dele que Brasília foi construída.",
+      "fonte": "estudos/conteudos/historia/07-brasil-republica.md, Fácil 13"
+    },
+    {
+      "materia": "História",
+      "pergunta": "O que o movimento Diretas Já pedia?",
+      "texto_tela": "O que o movimento \"Diretas Já\" pedia?",
+      "alternativas": [
+        "a volta da monarquia",
+        "mais regime militar",
+        "fechar o Congresso",
+        "eleição direta para presidente",
+        "fim do voto feminino"
+      ],
+      "certa": 3,
+      "explicacao": "Em 1983 e 1984, milhões foram às ruas pedindo para votar para presidente. A emenda foi rejeitada, e a eleição direta só voltou em 1989.",
+      "fonte": "estudos/conteudos/historia/08-ditadura-e-redemocratizacao.md, Fácil 6"
+    },
+    {
+      "materia": "História",
+      "pergunta": "E a última: em que ano foi promulgada a atual Constituição, a Constituição Cidadã?",
+      "texto_tela": "Em que ano foi promulgada a \"Constituição Cidadã\"?",
+      "alternativas": [
+        "1946",
+        "1985",
+        "1988",
+        "1967",
+        "1992"
+      ],
+      "certa": 2,
+      "resposta_falada": "1988",
+      "explicacao": "Ela ampliou os direitos sociais e criou o SUS. Também garantiu o voto facultativo para jovens de 16 e 17 anos.",
+      "fonte": "estudos/conteudos/historia/08-ditadura-e-redemocratizacao.md, Fácil 7"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

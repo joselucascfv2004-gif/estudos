@@ -1,0 +1,111 @@
+{
+  "titulo": "Bizu: nunca mais erre a crase",
+  "selo": "BIZU DE PORTUGUÊS",
+  "titulo_tela": "Nunca mais erre a crase",
+  "destaque": "crase",
+  "subtitulo_tela": "2 truques que funcionam na prova",
+  "capa_selo": "BIZU DE PORTUGUÊS",
+  "capa_cor": "laranja",
+  "capa_titulo": "Nunca mais erre a crase",
+  "capa_destaque": "crase",
+  "capa_sub": "2 truques que funcionam na prova",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Nunca mais erre a crase 💡 2 truques que funcionam na prova. Salva pra revisar! 📌",
+  "hashtags": "#enem #portugues #dicasenem #studytok #fyp",
+  "origem": "Regras de crase do app Estudos (estudos/conteudos/portugues/03-concordancia-regencia-crase.md).",
+  "abertura": "Dois truques pra você nunca mais errar a crase. Salva esse vídeo pra revisar antes da prova.",
+  "blocos": [
+    {
+      "etiqueta": "TRUQUE 1",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Troque a palavra feminina por uma *masculina*.",
+          "fala": "Primeiro truque: troque a palavra feminina por uma masculina parecida."
+        },
+        {
+          "tipo": "dica",
+          "tela": "Apareceu *AO*? Então tem crase.",
+          "fala": "Se aparecer ao, é porque tem crase. Se aparecer só o, não tem."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Vou *à* escola.",
+          "fala": "Veja: vou à escola."
+        },
+        {
+          "tipo": "texto",
+          "tela": "Teste: vou *ao* colégio. Apareceu AO: tem crase!",
+          "fala": "Troque escola por colégio: vou ao colégio. Apareceu ao, então tem crase."
+        }
+      ]
+    },
+    {
+      "etiqueta": "EXEMPLO 2",
+      "itens": [
+        {
+          "tipo": "errado",
+          "tela": "Conheci *à* nova professora.",
+          "fala": "Agora esta: conheci à nova professora. Tem crase?"
+        },
+        {
+          "tipo": "texto",
+          "tela": "Teste: conheci *o* novo professor. Só O: sem crase.",
+          "fala": "Troque: conheci o novo professor. Apareceu só o, então não tem crase."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Conheci a nova professora.",
+          "fala": "O certo é: conheci a nova professora, sem crase."
+        }
+      ]
+    },
+    {
+      "etiqueta": "ATENÇÃO",
+      "itens": [
+        {
+          "tipo": "dica",
+          "tela": "Antes de *verbo*, nunca tem crase.",
+          "fala": "E atenção: antes de verbo, nunca tem crase."
+        },
+        {
+          "tipo": "errado",
+          "tela": "Comecei à estudar.",
+          "fala": "Comecei à estudar está errado."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Comecei a estudar.",
+          "fala": "O certo é: comecei a estudar, sem crase."
+        }
+      ]
+    },
+    {
+      "etiqueta": "TRUQUE 2: LUGARES",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Com nome de lugar, decore a frase:",
+          "fala": "Segundo truque, pra nome de lugar. Decora essa frase:"
+        },
+        {
+          "tipo": "dica",
+          "tela": "Vou a, volto *da*: crase há! Vou a, volto *de*: crase pra quê?",
+          "fala": "Vou a, volto da, crase há. Vou a, volto de, crase pra quê?"
+        },
+        {
+          "tipo": "certo",
+          "tela": "Vou *à* Bahia (volto *da* Bahia).",
+          "fala": "Vou à Bahia, com crase, porque eu volto da Bahia."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Vou *a* Roma (volto *de* Roma).",
+          "fala": "E vou a Roma, sem crase, porque eu volto de Roma."
+        }
+      ]
+    }
+  ],
+  "encerramento": "Salva esse vídeo pra revisar antes da prova e segue o perfil pra mais bizus. E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

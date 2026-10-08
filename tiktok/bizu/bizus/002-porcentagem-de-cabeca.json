@@ -1,0 +1,106 @@
+{
+  "titulo": "Bizu: porcentagem de cabeça",
+  "selo": "BIZU DE MATEMÁTICA",
+  "titulo_tela": "Porcentagem de cabeça",
+  "destaque": "cabeça",
+  "subtitulo_tela": "3 truques sem calculadora",
+  "capa_selo": "BIZU DE MATEMÁTICA",
+  "capa_cor": "amarelo",
+  "capa_titulo": "Porcentagem de cabeça",
+  "capa_destaque": "cabeça",
+  "capa_sub": "O 3º truque parece mágica",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Porcentagem de cabeça 💡 3 truques sem calculadora. O último parece mágica! Salva pra revisar 📌",
+  "hashtags": "#enem #matematica #dicasenem #studytok #fyp",
+  "origem": "Regras de porcentagem do app Estudos (estudos/conteudos/matematica/02-porcentagem.md). Contas conferidas.",
+  "abertura": "Três truques pra fazer porcentagem de cabeça, sem calculadora. O terceiro parece mágica.",
+  "blocos": [
+    {
+      "etiqueta": "TRUQUE 1: 10%",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Para achar *10%*, ande a vírgula uma casa para a esquerda.",
+          "fala": "Primeiro truque: pra achar 10 por cento, é só andar a vírgula uma casa para a esquerda."
+        },
+        {
+          "tipo": "formula",
+          "tela": "10% de 350 = *35*",
+          "fala": "10 por cento de 350 é 35."
+        },
+        {
+          "tipo": "formula",
+          "tela": "10% de 47 = *4,7*",
+          "fala": "E 10 por cento de 47 é 4 vírgula 7."
+        }
+      ]
+    },
+    {
+      "etiqueta": "TRUQUE 2: MONTE",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Monte qualquer porcentagem com *pedaços*.",
+          "fala": "Segundo truque: monte qualquer porcentagem juntando pedaços."
+        },
+        {
+          "tipo": "dica",
+          "tela": "5% é a *metade* de 10%.",
+          "fala": "5 por cento é a metade de 10 por cento."
+        },
+        {
+          "tipo": "formula",
+          "tela": "15% = 10% + 5%",
+          "fala": "Então, 15 por cento é 10 mais 5."
+        },
+        {
+          "tipo": "formula",
+          "tela": "15% de 80 = 8 + 4 = *12*",
+          "fala": "15 por cento de 80: 10 por cento dá 8, 5 por cento dá 4. Junta tudo: 12."
+        }
+      ]
+    },
+    {
+      "etiqueta": "TRUQUE 3: INVERTA",
+      "itens": [
+        {
+          "tipo": "dica",
+          "tela": "x% de y = *y% de x*",
+          "fala": "Agora o truque que parece mágica: x por cento de y é igual a y por cento de x."
+        },
+        {
+          "tipo": "formula",
+          "tela": "8% de 25 = 25% de 8",
+          "fala": "8 por cento de 25 parece difícil. Mas é a mesma coisa que 25 por cento de 8."
+        },
+        {
+          "tipo": "formula",
+          "tela": "25% de 8 = *2*",
+          "fala": "E 25 por cento é um quarto. Um quarto de 8 é 2. Pronto, sem conta nenhuma."
+        }
+      ]
+    },
+    {
+      "etiqueta": "TREINE",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Quanto é *4% de 50*?",
+          "fala": "Agora você: quanto é 4 por cento de 50? Inverte."
+        },
+        {
+          "tipo": "formula",
+          "tela": "4% de 50 = 50% de 4 = *2*",
+          "fala": "4 por cento de 50 é igual a 50 por cento de 4, que é a metade de 4: 2."
+        },
+        {
+          "tipo": "nota",
+          "tela": "Vale para qualquer número. Comenta se você já conhecia!",
+          "fala": "Comenta aí se você já conhecia esse truque."
+        }
+      ]
+    }
+  ],
+  "encerramento": "Salva esse vídeo pra revisar antes da prova e segue o perfil pra mais bizus. E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}

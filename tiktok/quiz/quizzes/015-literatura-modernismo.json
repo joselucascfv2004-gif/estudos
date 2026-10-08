@@ -1,0 +1,95 @@
+{
+  "titulo": "Você sabe Literatura do ENEM?",
+  "titulo_tela": "Você sabe Literatura?",
+  "destaque": "Literatura?",
+  "subtitulo_tela": "5 perguntas  •  5 segundos cada",
+  "capa_selo": "LITERATURA  •  5 PERGUNTAS",
+  "capa_cor": "vermelho",
+  "capa_titulo": "Você sabe Literatura do ENEM?",
+  "capa_destaque": "Literatura",
+  "capa_sub": "Modernismo: caiu 120 vezes",
+  "chamada": "Você sabe Literatura? O Modernismo e a literatura que veio depois caíram 120 vezes no ENEM de 2009 a 2025. Responda e comenta quantas você acertou.",
+  "voz": "antonio",
+  "chamada_final": "ebook",
+  "descricao": "Você sabe Literatura? 📚 O Modernismo caiu 120 vezes no ENEM. Comenta quantas você acertou! 👇",
+  "hashtags": "#enem #literatura #enem2026 #studytok #fyp",
+  "origem": "Perguntas do app Estudos (estudos/conteudos/literatura/02-pre-modernismo-ao-contemporaneo.md). Contagem de 120 questões: vendasteste/revisao-enem/dados/selecao.json.",
+  "perguntas": [
+    {
+      "materia": "Literatura",
+      "pergunta": "Em que cidade aconteceu a Semana de Arte Moderna de 1922?",
+      "alternativas": [
+        "Salvador",
+        "Rio de Janeiro",
+        "Recife",
+        "São Paulo",
+        "Belo Horizonte"
+      ],
+      "certa": 3,
+      "explicacao": "Foi no Theatro Municipal de São Paulo, em fevereiro de 1922. Ela marca o começo do Modernismo no Brasil.",
+      "fonte": "estudos/conteudos/literatura/02-pre-modernismo-ao-contemporaneo.md, Fácil 1"
+    },
+    {
+      "materia": "Literatura",
+      "pergunta": "Quem escreveu Macunaíma, o herói sem nenhum caráter?",
+      "texto_tela": "Quem escreveu \"Macunaíma\"?",
+      "alternativas": [
+        "Mário de Andrade",
+        "Oswald de Andrade",
+        "Manuel Bandeira",
+        "Drummond",
+        "Guimarães Rosa"
+      ],
+      "certa": 0,
+      "explicacao": "Mário de Andrade juntou lendas e jeitos de falar de todo o Brasil. Cuidado para não confundir com Oswald de Andrade.",
+      "fonte": "estudos/conteudos/literatura/02-pre-modernismo-ao-contemporaneo.md, Fácil 4"
+    },
+    {
+      "materia": "Literatura",
+      "pergunta": "Quem escreveu Vidas Secas, sobre a família de Fabiano fugindo da seca?",
+      "texto_tela": "Quem escreveu \"Vidas Secas\"?",
+      "alternativas": [
+        "Rachel de Queiroz",
+        "Jorge Amado",
+        "José Lins do Rego",
+        "Érico Veríssimo",
+        "Graciliano Ramos"
+      ],
+      "certa": 4,
+      "explicacao": "Graciliano Ramos tem uma linguagem seca e direta, igual à vida no sertão. É o grande romance regionalista de 1930.",
+      "fonte": "estudos/conteudos/literatura/02-pre-modernismo-ao-contemporaneo.md, Fácil 7"
+    },
+    {
+      "materia": "Literatura",
+      "pergunta": "De quem são os versos: no meio do caminho tinha uma pedra?",
+      "texto_tela": "De quem são os versos \"No meio do caminho tinha uma pedra\"?",
+      "alternativas": [
+        "Manuel Bandeira",
+        "Drummond",
+        "Vinicius de Moraes",
+        "Ferreira Gullar",
+        "João Cabral"
+      ],
+      "certa": 1,
+      "resposta_falada": "Carlos Drummond de Andrade",
+      "explicacao": "O poema de Carlos Drummond de Andrade causou escândalo pela repetição. Ele é o maior poeta da segunda fase modernista.",
+      "fonte": "estudos/conteudos/literatura/02-pre-modernismo-ao-contemporaneo.md, Fácil 9"
+    },
+    {
+      "materia": "Literatura",
+      "pergunta": "E a última: quem escreveu O Quinze, sobre a grande seca de 1915 no Ceará?",
+      "texto_tela": "Quem escreveu \"O Quinze\"?",
+      "alternativas": [
+        "Clarice Lispector",
+        "Cecília Meireles",
+        "Rachel de Queiroz",
+        "Cora Coralina",
+        "Lygia Fagundes Telles"
+      ],
+      "certa": 2,
+      "explicacao": "Rachel de Queiroz publicou O Quinze com só 20 anos. Depois, foi a primeira mulher eleita para a Academia Brasileira de Letras.",
+      "fonte": "estudos/conteudos/literatura/02-pre-modernismo-ao-contemporaneo.md, Fácil 8"
+    }
+  ],
+  "encerramento": "Quantas você acertou? Comenta aí! E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
+}
