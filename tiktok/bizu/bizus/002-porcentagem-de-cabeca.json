@@ -95,6 +95,11 @@
           "fala": "4 por cento de 50 é igual a 50 por cento de 4, que é a metade de 4: 2."
         },
         {
+          "tipo": "formula",
+          "tela": "16% de 25 = 25% de 16 = *4*",
+          "fala": "Mais um: 16 por cento de 25 é igual a 25 por cento de 16. Um quarto de 16: 4."
+        },
+        {
           "tipo": "nota",
           "tela": "Vale para qualquer número. Comenta se você já conhecia!",
           "fala": "Comenta aí se você já conhecia esse truque."

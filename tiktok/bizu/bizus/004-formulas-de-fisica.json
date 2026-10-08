@@ -77,6 +77,26 @@
       ]
     },
     {
+      "etiqueta": "TESTE RÁPIDO",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Um carro parte do repouso com aceleração de 2 m/s². Qual a velocidade após 5 s?",
+          "fala": "Teste rápido: um carro parte do repouso com aceleração de 2 metros por segundo ao quadrado. Qual é a velocidade depois de 5 segundos?"
+        },
+        {
+          "tipo": "dica",
+          "tela": "Velocidade com aceleração: *VOVÔ ATEU*",
+          "fala": "Velocidade com aceleração é o vovô ateu."
+        },
+        {
+          "tipo": "formula",
+          "tela": "V = 0 + 2·5 = *10 m/s*",
+          "fala": "Vê igual a zero, porque partiu do repouso, mais 2 vezes 5. Dá 10 metros por segundo."
+        }
+      ]
+    },
+    {
       "etiqueta": "RESUMO",
       "itens": [
         {

@@ -105,6 +105,26 @@
           "fala": "E vou a Roma, sem crase, porque eu volto de Roma."
         }
       ]
+    },
+    {
+      "etiqueta": "TESTE RÁPIDO",
+      "itens": [
+        {
+          "tipo": "texto",
+          "tela": "Tem crase? Fui ___ farmácia.",
+          "fala": "Teste rápido: fui a farmácia. Tem crase? Pensa aí."
+        },
+        {
+          "tipo": "texto",
+          "tela": "Troque: fui *ao* mercado. Apareceu AO!",
+          "fala": "Troque farmácia por mercado: fui ao mercado. Apareceu ao."
+        },
+        {
+          "tipo": "certo",
+          "tela": "Fui *à* farmácia.",
+          "fala": "Então tem crase: fui à farmácia. Acertou? Comenta aí."
+        }
+      ]
     }
   ],
   "encerramento": "Salva esse vídeo pra revisar antes da prova e segue o perfil pra mais bizus. E se você vai fazer o ENEM, a Revisão Final ENEM 2026 traz os assuntos que mais caem e um plano de estudos pronto. O link está no comentário fixado."
