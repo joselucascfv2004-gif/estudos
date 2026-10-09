@@ -4,6 +4,19 @@
 As **histórias narradas estão pausadas** por decisão do dono do canal: não produza histórias até ele
 pedir. As regras delas continuam abaixo para quando voltarem.
 
+## Mudanças de 09/10/2026 (métricas da primeira semana)
+
+Os vídeos ganharam mais visualizações, mas poucas curtidas e pouca retenção. O dono do canal
+acredita que as pessoas pulam o vídeo no começo. A partir de agora:
+
+- **Gancho no primeiro segundo.** Nada de cartão de abertura com logo e título. O vídeo já começa
+  com a primeira pergunta (ou, no bizu, com o erro ou a afirmação que provoca) na tela e na voz,
+  desde o quadro 1. A frase de impacto aparece junto, em cima da pergunta (por exemplo "Você
+  erraria essa?"). Nunca invente estatística ("90% erram").
+- **Sem e-book** (veja a regra "E-book pausado", mais abaixo). O final pede para comentar e seguir o perfil.
+- **2 vídeos por dia: 1 quiz e 1 bizu.**
+- Ideias de novos formatos estão em `ideias.md`.
+
 ## Quiz (formato atual)
 
 - **Antes de criar vídeos, leia `postados.md`**: lista tudo o que o dono do canal já postou. Nunca
@@ -32,20 +45,17 @@ pedir. As regras delas continuam abaixo para quando voltarem.
   `capa_cor` (amarelo, laranja, verde, roxo, vermelho). Varie a cor e o selo entre os vídeos.
 - Cada quiz traz a sua `descricao` e 5 `hashtags` do tema (padrão:
   `#enem #enem2026 #quiz #estudos #vestibular`).
-- **Chamada para o e-book.** Quizzes de ENEM levam `"chamada_final": "ebook"`: o final mostra
-  "REVISÃO FINAL ENEM 2026" e "Link no comentário fixado", e o `postagem.txt` traz o comentário para
-  fixar (textos em `EBOOK`, no `fazer_quiz.py`). O e-book é um projeto à parte, do repositório
-  `vendasteste` (`revisao-enem/`), com página em revisao-final-enem-2026.netlify.app. Nunca
-  coloque o link do checkout, prometa nota ou aprovação, nem diga que o material é oficial do
-  INEP. A narração do `encerramento` cita o e-book e o comentário fixado. O ENEM 2026 é em 8 e 15 de
-  novembro: depois disso, volte ao final normal. Quizzes de concurso não levam essa chamada.
+- **E-book pausado (desde 09/10/2026).** Não use mais `"chamada_final": "ebook"`, nem comentário
+  fixado com link, nem "Conteúdo comercial": o TikTok estava escondendo os comentários com o link, e
+  isso pode ter prejudicado os vídeos. O código continua lá (`EBOOK` no `fazer_quiz.py`) só para o
+  caso de o dono do canal pedir de volta.
 - **O app ainda não foi lançado** (`APP_LANCADO = False`): o final diz "siga para o próximo teste" e
   "App Estudos chegando em breve". Nunca diga "baixe" ou "link no perfil" antes do lançamento. A bio
   do perfil está em `perfil.md`.
 
 ## Bizu (vídeo educativo)
 
-- O dono do canal posta **3 vídeos por dia: 2 quizzes e 1 bizu**. O bizu ensina uma técnica, um
+- O dono do canal posta **2 vídeos por dia: 1 quiz e 1 bizu**. O bizu ensina uma técnica, um
   macete, um jeito de decorar ou de resolver mais rápido um assunto do ENEM.
 - Fábrica: `bizu/fazer_bizu.py`, com o mesmo visual, voz e fundo dos quizzes. Cada bizu é um JSON em
   `bizu/bizus/` com `abertura` (o gancho), `blocos` (etiqueta + itens) e `encerramento`. Tipos de
@@ -55,7 +65,7 @@ pedir. As regras delas continuam abaixo para quando voltarem.
   de 1 minuto (a fábrica avisa). A fonte não tem símbolos como Δ, →, ✓ e ₂: escreva "So", "Vo" e
   "CO2", e use os itens `certo` e `errado` no lugar de ✓ e ✗.
 - Na `fala`, escreva as letras de fórmulas como são lidas ("ésse igual a ésse zero mais vê vezes tê").
-- O encerramento pede para salvar o vídeo e seguir o perfil, e traz a chamada do e-book.
+- O encerramento pede para salvar o vídeo, comentar e seguir o perfil (sem e-book).
 - A capa tem o selo "BIZU DE ...", a lâmpada e "SALVA PRA REVISAR". Saída em `saida/bizu/<nome>/`.
 
 ## Histórias (pausadas): regras do conteúdo
