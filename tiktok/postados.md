@@ -1,0 +1,116 @@
+# Vídeos já entregues e postados
+
+O dono do canal já postou (ou agendou) todos os vídeos abaixo. **Não repita** estes vídeos nem as
+mesmas perguntas e bizus. Antes de criar vídeos novos, confira esta lista e acrescente os novos.
+
+## Quizzes (`quiz/quizzes/`)
+
+- `001-enem-misto`: Você passaria no ENEM? 5 perguntas
+  - Qual base nitrogenada está presente no RNA, mas não no DNA?
+  - Os dois primeiros presidentes do Brasil, Deodoro e Floriano, eram militares. Como esse período ficou conhecido?
+  - Quanto é 150 °C na escala Kelvin?
+  - Qual bioma brasileiro foi o mais desmatado, proporcionalmente?
+  - Quem liderou a Guerra de Canudos, no sertão da Bahia?
+- `002-banco-do-brasil`: Você passaria no concurso do Banco do Brasil?
+  - Qual é a taxa básica de juros da economia brasileira?
+  - Quem define a meta da taxa Selic?
+  - Qual é o órgão máximo do Sistema Financeiro Nacional?
+  - Qual protocolo é usado para enviar e-mails?
+  - Até quanto o FGC garante por CPF em cada banco?
+- `003-historia-do-brasil-imperio`: 5 perguntas de História do Brasil
+  - Em que ano o Brasil declarou a sua independência?
+  - Quem foi o primeiro imperador do Brasil?
+  - Por que a família real portuguesa veio para o Brasil em 1808?
+  - Quem assinou a Lei Áurea, que aboliu a escravidão em 1888?
+  - Qual era o principal produto de exportação no Segundo Reinado?
+- `004-geografia-do-brasil`: Teste de Geografia do Brasil
+  - Qual é o maior rio do Brasil em volume de água?
+  - Qual é o ponto mais alto do Brasil?
+  - Onde fica o clima semiárido no Brasil?
+  - Por que o Brasil quase não tem terremotos fortes?
+  - Como se chama a chuva que se forma quando o ar úmido sobe uma serra?
+- `005-portugues-erros-comuns`: Você sabe Português? 5 erros comuns
+  - Qual palavra está escrita do jeito certo?
+  - Complete: Ele chegou cedo, ___ não entrou.
+  - Complete: ___ você chegou atrasado?
+  - Complete: Ele mora ___ muito tempo aqui.
+  - Qual é a forma correta?
+- `006-portugues-parte-2`: Você sabe Português? Parte 2
+  - Complete: Vou ___ escola amanhã.
+  - Complete: Ela estava ___-humorada.
+  - Complete: ___ muitas pessoas na festa.
+  - Qual palavra está escrita do jeito certo?
+  - Complete: Eu assisti ___ filme ontem.
+- `007-ranking-enem`: O que mais cai no ENEM?
+  - Qual destes assuntos de Matemática mais caiu no ENEM?
+  - E em Ciências da Natureza, qual destes mais caiu?
+  - Em Ciências Humanas, qual destes mais caiu?
+  - Em Linguagens, qual destes mais caiu?
+  - Quantas questões de ortografia e acentuação caíram de 2009 a 2025?
+- `008-matematica-do-enem`: Você passaria na Matemática do ENEM?
+  - Um fone de R$ 120 está com 25% de desconto. Quanto você paga?
+  - Com 5 ovos, uma confeiteira faz 2 bolos. Quantos ovos ela precisa para fazer 12 bolos?
+  - 10 pedreiros constroem um muro em 12 dias. Em quantos dias 3 pedreiros constroem o mesmo muro?
+  - Um produto de R$ 200 subiu 20% e, depois, teve 20% de desconto. Qual é o preço final?
+  - Um concurso teve 600 inscritos para 20 vagas. Quantos candidatos por vaga?
+- `009-ciencias-da-natureza`: Você sabe Ciências da Natureza?
+  - Na relação entre abelhas e flores, as duas espécies saem ganhando. Que relação é essa?
+  - Qual é o jeito mais simples de separar a areia da água?
+  - Qual organela faz a respiração celular e produz a maior parte da energia da célula?
+  - Um aparelho em 110 V recebe 5 A de corrente. Qual é a potência dele?
+  - Qual gás é o principal responsável pelo aumento do efeito estufa causado pelo ser humano?
+- `010-humanas`: Você sabe Filosofia e Sociologia?
+  - Quem disse a frase "Penso, logo existo"?
+  - De quem é a frase "Ninguém se banha duas vezes no mesmo rio"?
+  - Para Tales de Mileto, o primeiro filósofo, qual era a origem de todas as coisas?
+  - Para T. H. Marshall, a cidadania reúne quais direitos?
+  - Para o empirismo, de onde vem o conhecimento?
+- `011-redacao-enem-2026`: Você sabe as regras da Redação do ENEM?
+  - Qual é a nota máxima da redação do ENEM?
+  - Qual é o mínimo de linhas para a redação não ser zerada?
+  - O que acontece com a redação que foge totalmente do tema?
+  - O que a Competência 5 da redação avalia?
+  - Que ideia o conectivo "entretanto" expressa?
+- `012-funcoes-da-linguagem`: Você sabe as funções da linguagem?
+  - Anúncio: "Compre já! Não perca esta oferta!" Qual é a função da linguagem?
+  - Na ligação: "Alô? Está me ouvindo? Alô?" Qual é a função?
+  - Um dicionário explicando o que significa "palavra" usa qual função?
+  - "Ah, como eu sinto saudade daqueles dias!" Qual é a função?
+  - Uma notícia que informa, de forma objetiva, o número de vacinados usa qual função?
+- `013-estatistica-enem`: Você sabe Estatística do ENEM?
+  - Notas: 10, 3, 6 e 5. Qual é a média?
+  - Calçados: 31, 28, 35, 34, 41, 34, 34, 38. Qual é a moda?
+  - Tempos: 52, 46, 28, 28 e 15 minutos. Qual é a mediana?
+  - Num gráfico de pizza, 15% dos alunos escolheram vôlei. Qual é o ângulo desse pedaço?
+  - Pesos 3, 3 e 4. Notas 6, 5 e 10. Qual é a média ponderada?
+- `014-brasil-republica`: Você sabe História do Brasil República?
+  - Quem chegou ao poder com a Revolução de 1930?
+  - Em que ano as mulheres conquistaram o direito de votar no Brasil?
+  - O lema "50 anos em 5" foi de qual presidente?
+  - O que o movimento "Diretas Já" pedia?
+  - Em que ano foi promulgada a "Constituição Cidadã"?
+- `015-literatura-modernismo`: Você sabe Literatura do ENEM?
+  - Em que cidade aconteceu a Semana de Arte Moderna de 1922?
+  - Quem escreveu "Macunaíma"?
+  - Quem escreveu "Vidas Secas"?
+  - De quem são os versos "No meio do caminho tinha uma pedra"?
+  - Quem escreveu "O Quinze"?
+- `016-quimica-enem`: Você sabe Química do ENEM?
+  - O número atômico de um elemento é o número de quê?
+  - Sódio: Z = 11 e A = 23. Quantos nêutrons ele tem?
+  - He, Ne e Ar, da coluna 18 da tabela, são chamados de:
+  - Quem propôs o modelo atômico do "pudim de passas"?
+  - 20 g de sal em 100 mL de solução. Qual é a concentração?
+- `017-genetica-enem`: Você sabe Genética do ENEM?
+  - No DNA, a adenina sempre se liga com qual base?
+  - Aa × Aa: qual a chance de um filho com fenótipo recessivo?
+  - Qual tipo sanguíneo é o doador universal no sistema ABO?
+  - Como se chama a produção de RNA a partir do DNA?
+  - As características observáveis de um indivíduo são o:
+
+## Bizus (`bizu/bizus/`)
+
+- `001-crase`: Bizu: nunca mais erre a crase
+- `002-porcentagem-de-cabeca`: Bizu: porcentagem de cabeça
+- `003-proposta-de-intervencao`: Bizu: a fórmula da proposta de intervenção
+- `004-formulas-de-fisica`: Bizu: decore as fórmulas de Física com frases

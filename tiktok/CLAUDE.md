@@ -6,6 +6,9 @@ pedir. As regras delas continuam abaixo para quando voltarem.
 
 ## Quiz (formato atual)
 
+- **Antes de criar vídeos, leia `postados.md`**: lista tudo o que o dono do canal já postou. Nunca
+  repita um vídeo, uma pergunta ou um bizu dessa lista, e acrescente nela cada vídeo novo entregue.
+
 - Fábrica: `quiz/fazer_quiz.py`. Cada quiz é um JSON em `quiz/quizzes/` com 5 perguntas tiradas do
   app (pasta `estudos/conteudos`), com gabarito e explicação conferidos. Use perguntas curtas, sem
   figura. Explicações com duas frases curtas.
