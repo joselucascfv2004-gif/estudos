@@ -138,6 +138,15 @@ export default function Praticar() {
           <Icone nome="chevron-right" tamanho={24} cor={c.laranja} />
         </Cartao>
 
+        <Cartao testID="cartao-gerador" estilo={s.linha} onPress={() => router.push('/gerador')}>
+          <Icone nome="printer-outline" tamanho={26} cor={c.azul} />
+          <View style={{ flex: 1 }}>
+            <Text style={s.nome}>Gerador de exercícios</Text>
+            <Text style={s.acerto}>Folhas de matemática para imprimir, com gabarito (estilo Kumon)</Text>
+          </View>
+          <Icone nome="chevron-right" tamanho={24} cor={c.azul} />
+        </Cartao>
+
         <View style={s.blocos}>
           <Bloco testID="btn-simulado" icone="clipboard-text-clock-outline" cor={c.laranja} titulo="Simulado" sub={p.simulados.length ? `Último: ${p.simulados[p.simulados.length - 1].acertos}/${p.simulados[p.simulados.length - 1].total}` : 'Com tempo de prova'} onPress={() => router.push('/simulado')} />
           <Bloco icone="shuffle-variant" cor={c.azul} titulo="Treino misto" sub="10 questões de tudo" onPress={() => router.push({ pathname: '/licao', params: { modo: 'treino' } })} />

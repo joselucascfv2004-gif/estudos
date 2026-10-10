@@ -13,6 +13,7 @@ import { AcoesQuestao } from '../ui/salvar';
 import { getProva, questoesDoFormato } from '../data/provas';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 import { TextoAlternativa, TextoQuestao, temImagem } from '../ui/Imagens';
+import { Rascunho, limparRascunhos } from '../ui/Rascunho';
 import { TextoRico, Trechos } from '../ui/Markdown';
 
 const LETRAS = 'ABCDE';
@@ -240,6 +241,7 @@ function TelaProva({ prova, terminar }: { prova: Prova; terminar: (r: Resultado)
     terminar({ prova, respostas: resp, segundos, xp: novo.xpTotal - p.xpTotal });
   }
 
+  useEffect(() => limparRascunhos, []);
   useEffect(() => {
     const t = setInterval(() => setRestante((r) => Math.max(0, r - 1)), 1000);
     return () => clearInterval(t);
@@ -289,6 +291,14 @@ function TelaProva({ prova, terminar }: { prova: Prova; terminar: (r: Resultado)
           </Text>
         </View>
         <TextoQuestao texto={item.q.e} estilo={s.enunciado} />
+        <Rascunho
+          key={item.q.id}
+          id={item.q.id}
+          enunciado={item.q.e}
+          alternativas={item.ordem.map((o) => item.q.a[o])}
+          escolha={respostas[pos] == null ? null : item.ordem.indexOf(respostas[pos]!)}
+          aoEscolher={(i) => setRespostas((r) => r.map((x, j) => (j === pos ? item.ordem[i] : x)))}
+        />
         <View style={{ gap: 10, marginTop: 8 }}>
           {item.ordem.map((orig, i) => {
             const marcada = respostas[pos] === orig;

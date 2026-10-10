@@ -1,5 +1,5 @@
 import { router, useLocalSearchParams } from 'expo-router';
-import { useMemo, useRef, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Modal, Platform, Pressable, ScrollView, Text, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 
@@ -28,6 +28,7 @@ import { AcoesQuestao } from '../ui/salvar';
 import { coresNivel, criarEstilos, useCores } from '../ui/tema';
 import { TextoAlternativa, TextoQuestao } from '../ui/Imagens';
 import { TextoRico } from '../ui/Markdown';
+import { Rascunho, limparRascunhos } from '../ui/Rascunho';
 
 const ELOGIOS = ['Muito bem!', 'Excelente!', 'Mandou bem!', 'Isso aí!', 'Perfeito!', 'Arrasou!'];
 const LETRAS = 'ABCDE';
@@ -82,6 +83,7 @@ export default function Licao() {
   const [elogio, setElogio] = useState(ELOGIOS[0]);
   const [sair, setSair] = useState(false);
   const [fim, setFim] = useState<{ ev: EventosLicao; xp: number } | null>(null);
+  useEffect(() => limparRascunhos, []);
   const respostas = useRef(new Map<string, boolean>());
   const rolagem = useRef<ScrollView>(null);
 
@@ -189,6 +191,15 @@ export default function Licao() {
           </Text>
         </View>
         <TextoQuestao texto={q.e} estilo={s.enunciado} />
+        <Rascunho
+          key={`${pos}-${q.id}`}
+          id={q.id}
+          enunciado={q.e}
+          alternativas={item.ordem.map((o) => q.a[o])}
+          escolha={escolha}
+          aoEscolher={setEscolha}
+          bloqueado={verificado}
+        />
         <View style={{ gap: 10, marginTop: 8 }}>
           {item.ordem.map((orig, i) => {
             const marcada = escolha === i;

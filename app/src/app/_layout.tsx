@@ -31,6 +31,7 @@ function Navegacao() {
         <Stack.Screen name="tecnicas" />
         <Stack.Screen name="feynman" />
         <Stack.Screen name="dificuldades" />
+        <Stack.Screen name="gerador" />
         <Stack.Screen name="redacao/index" />
         <Stack.Screen name="redacao/[id]" />
       </Stack>
